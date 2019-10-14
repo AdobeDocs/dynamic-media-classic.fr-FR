@@ -3,14 +3,14 @@ title: Affichage, ajout et exportation de métadonnées
 seo-title: Affichage, ajout et exportation de métadonnées
 description: 'null'
 seo-description: Découvrez comment afficher, ajouter et exporter des métadonnées.
-uuid: a 5254 c 51-9 e 04-45 ae -8236-3 eab 2925 e 5 fc
+uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: admin
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 5414 b 4 f 5-6 e 05-468 c -8725-385423596342
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -19,21 +19,21 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 Vous pouvez stocker des informations spécifiques aux fichiers que vous utilisez dans Scene7 Publishing System ; ces informations s’appellent des *métadonnées*. Vous pouvez utiliser des métadonnées dans Dynamic Media Classic pour organiser, rechercher, filtrer et trier vos fichiers.
 
-Les métadonnées s'affichent en mode Affichage des détails avec les informations générées par Media Classic Classic, telles que la date de création du fichier, la date de publication et les mots-clés. Pour afficher les métadonnées, ouvrez le fichier en mode Affichage des détails et sélectionnez le panneau Métadonnées. Ensuite, saisissez ou modifier les métadonnées.
+Les métadonnées s’affichent en mode Affichage des détails avec les informations générées par Dynamic Media Classic, telles que la date de création du fichier, la date de publication et les mots-clés. Pour afficher les métadonnées, ouvrez le fichier en mode Affichage des détails et sélectionnez le panneau Métadonnées. Ensuite, saisissez ou modifier les métadonnées.
 
-Certaines métadonnées sont intégrées directement dans un fichier. Si un fichier contient ces métadonnées, Dynamic Media Classic le télécharge automatiquement avec le fichier. Vous pouvez incorporer des métadonnées dans des fichiers source dans Adobe Photoshop, indesign, Illustrator et d'autres applications ; Dynamic Media Classic reconnaît ces métadonnées. Vous pouvez aussi ajouter des métadonnées à des fichiers individuels dans le panneau Métadonnées en mode Affichage des détails. Pour assurer la cohérence entre fichiers, les administrateurs créent des modèles de métadonnées qui fournissent les champs de métadonnées à remplir.
+Certaines métadonnées sont intégrées directement dans un fichier. Si un fichier contient ces métadonnées, Dynamic Media Classic les télécharge automatiquement avec le fichier. Vous pouvez incorporer des métadonnées dans des fichiers source dans Adobe Photoshop, InDesign, Illustrator et d’autres applications ; Dynamic Media Classic reconnaît ces métadonnées. Vous pouvez aussi ajouter des métadonnées à des fichiers individuels dans le panneau Métadonnées en mode Affichage des détails. Pour assurer la cohérence entre fichiers, les administrateurs créent des modèles de métadonnées qui fournissent les champs de métadonnées à remplir.
 
 For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
 ## Affichage des métadonnées {#view-metadata}
 
-Pour afficher les métadonnées d’un fichier, ouvrez le fichier en question en mode Affichage des détails, puis cliquez dans le panneau Métadonnées. Choisissez alors une option dans le menu Vues des métadonnées pour sélectionner un jeu de champs de métadonnées. Dynamic Media Classic propose les vues des métadonnées :
+Pour afficher les métadonnées d’un fichier, ouvrez le fichier en question en mode Affichage des détails, puis cliquez dans le panneau Métadonnées. Choisissez alors une option dans le menu Vues des métadonnées pour sélectionner un jeu de champs de métadonnées. Dynamic Media Classic propose les vues de métadonnées suivantes :
 
-**Affichage réduit** Une liste de valeurs de base.
+* **Affichage réduit** Liste de valeurs de base.
 
-**Valeurs IPTC** définies par l'International Press Telecommunications Council.
+* **IPTC** Valeurs définies par le Conseil international des télécommunications de la presse.
 
-**Valeurs XMP** définies par la plate-forme de métadonnées extensible.
+* **Valeurs XMP** définies par la plate-forme de métadonnées extensible.
 
 Les administrateurs peuvent créer des vues de métadonnées qui apparaissent également dans le menu Vues des métadonnées. Pour plus d’informations sur la création de vues de métadonnées, voir [Vues des métadonnées](application-setup.md#metadata_views).
 
@@ -67,7 +67,7 @@ Si vous avez ajouté des mots-clés à d’autres fichiers au cours de la sessio
 1. Pour supprimer un mot-clé, sélectionnez-le et cliquez sur Supprimer. Le mot-clé est placé dans le tableau Suggestions de mots-clés.
 
 >[!NOTE]
-Vous pouvez ajouter des mots-clés aux fichiers lorsque vous les téléchargez vers Dynamic Media Classic. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez l’option Métadonnées supplémentaires, puis saisissez les mots-clés. Voir [Options de téléchargement](uploading-files.md#upload_options).
+Vous pouvez ajouter des mots-clés aux fichiers au fur et à mesure que vous les téléchargez vers Dynamic Media Classic. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez l’option Métadonnées supplémentaires, puis saisissez les mots-clés. Voir [Options de téléchargement](uploading-files.md#upload_options).
 
 ## Importation de métadonnées {#import-metadata}
 
@@ -76,7 +76,7 @@ Au lieu de saisir manuellement les métadonnées fichier par fichier, vous pouve
 >[!NOTE]
 vous pouvez créer un modèle de saisie des métadonnées afin d’importer les informations correctes dans Scene7 Publishing System. Une fois le modèle défini, vous pouvez y entrer les métadonnées (voir [Création d’un modèle de saisie des métadonnées à télécharger](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)).
 
-Vous trouverez plus d'informations sur les propriétés normalisées à l'adresse : https://www.adobe.com/devnet/xmp.html
+Pour plus d’informations sur les propriétés normalisées, voir : https://www.adobe.com/devnet/xmp.html
 
 1. Dans le panneau de navigation, sélectionnez les images auxquelles vous souhaitez ajouter des métadonnées à partir du fichier délimité par des tabulations ou du fichier XML.
 1. Cliquez sur **Fichier** &gt; **Importer les métadonnées**.
@@ -143,7 +143,7 @@ Le rapport de la tâche concernant les métadonnées indique les ID qui ont ét
 
 ## Création d’un modèle de saisie des métadonnées à télécharger {#create-a-template-for-entering-metadata-to-upload}
 
-Dynamic Media Classic propose une commande permettant de créer un modèle pour l'enregistrement des métadonnées. L’utilisation d’un modèle permet de s’assurer que les métadonnées sont enregistrées au bon format et qu’elles peuvent être téléchargées sans problème sur Scene7 Publishing System. Pour créer un modèle destiné à l’enregistrement et à l’importation de métadonnées vers Scene7 Publishing System, procédez comme suit :
+Dynamic Media Classic propose une commande permettant de créer un modèle d’enregistrement des métadonnées. L’utilisation d’un modèle permet de s’assurer que les métadonnées sont enregistrées au bon format et qu’elles peuvent être téléchargées sans problème sur Scene7 Publishing System. Pour créer un modèle destiné à l’enregistrement et à l’importation de métadonnées vers Scene7 Publishing System, procédez comme suit :
 
 1. Sélectionnez les fichiers d’image comportant les champs de métadonnées à insérer dans le modèle.
 1. Choisissez Fichier &gt; Importer les métadonnées.
@@ -187,7 +187,7 @@ L’Editeur de schéma de métadonnées offre une interface graphique pour ajout
 
 * Espace de noms
 
-   Identificateur unique technique pour le schéma, généralement une URL dans le formulaire `https://your.company.com/name/version/`. Consultez la liste des schémas standard pour obtenir des exemples. L’espace de noms n’est pas visible dans l’interface utilisateur de SPS, mais est utilisé pour stocker les métadonnées dans le bloc XMP.
+   Identifiant unique technique du schéma, généralement une URL dans le formulaire `https://your.company.com/name/version/`. Consultez la liste des schémas standard pour obtenir des exemples. L’espace de noms n’est pas visible dans l’interface utilisateur de SPS, mais est utilisé pour stocker les métadonnées dans le bloc XMP.
 
 * Description
 
