@@ -3,14 +3,14 @@ title: Configuration d’un paramètre prédéfini de visionneuse de supports va
 seo-title: Configuration d’un paramètre prédéfini de visionneuse de supports variés
 description: 'null'
 seo-description: Découvrez comment configurer un paramètre prédéfini de visionneuse de supports variés.
-uuid: d 5 bf 1840-e 453-445 d-bebc -84889 b 29 f 3 c 8
+uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: admin
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/mixed_ media_ sets
-discoiquuid: 8029 aad 8-d 696-4 d 7 c -99 e 2-3 b 08 edb 68181
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mix_media_sets
+discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
-source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -22,7 +22,7 @@ Les paramètres prédéfinis de visionneuse de supports variés définissent le 
 Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la communauté dans la visionneuse de supports variés. La fonctionnalité Incorporation ajoute un lien vers la visionneuse qui permet aux utilisateurs de copier le code requis pour afficher la visionneuse sur une page externe (par exemple, un blog, un site Web ou un site de réseau social). La fonctionnalité Lien fournit l’URL vers la visionneuse permettant aux utilisateurs de revenir à la visionneuse. La fonctionnalité Visite fournit un lien vers le site Web de votre choix.
 
 1. Cliquez sur **Configuration** &gt; **Paramètres prédéfinis de la visionneuse**.
-1. Sur la page Paramètres prédéfinis de la visionneuse, effectuez l'une des opérations suivantes :
+1. Sur la page Paramètres prédéfinis de la visionneuse, effectuez l’une des opérations suivantes :
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Mixed Media Set Viewer, then click **Add**.
    * To edit a Mixed Media Set Viewer preset, select it, then click **Edit**.
@@ -51,13 +51,13 @@ Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la commun
 
 1. Pour ajouter des fonctionnalités de la communauté (Incorporation, Lien et Visite) à la visionneuse, spécifiez les options pour chacun des éléments suivants :
 
-   **Cliquez sur Courriel** pour activer un bouton E-mail dans la visionneuse. Lorsque les utilisateurs cliquent sur le bouton E-mail pendant qu’ils consultent la visionneuse, un e-mail contenant le lien vers la visionneuse s’affiche.
+   * **E-mail** Cliquez sur Activé pour activer un bouton E-mail dans la visionneuse. Lorsque les utilisateurs cliquent sur le bouton E-mail pendant qu’ils consultent la visionneuse, un e-mail contenant le lien vers la visionneuse s’affiche.
 
-   **Incorporer** un clic sur Live. Dans la boîte Etiquette de bouton d’intégration, tapez le nom de bouton d’intégration que vous souhaitez afficher dans la visionneuse. If desired, click **Browse** to locate and select a custom skin for the button.
+   * **Incorporer** Cliquez sur En direct. Dans la boîte Etiquette de bouton d’intégration, tapez le nom de bouton d’intégration que vous souhaitez afficher dans la visionneuse. If desired, click **Browse** to locate and select a custom skin for the button.
 
-   **Lien** Clic direct. Dans la boîte Etiquette de bouton de lien, tapez le nom de bouton de lien que vous souhaitez afficher dans la visionneuse. If desired, click **Browse** to locate and select a custom skin for the button.
+   * **Lien** Cliquez sur En direct. Dans la boîte Etiquette de bouton de lien, tapez le nom de bouton de lien que vous souhaitez afficher dans la visionneuse. If desired, click **Browse** to locate and select a custom skin for the button.
 
-   **Visite** Cliquez **sur Actif.** Dans la boîte Etiquette de bouton de visite, tapez le nom de bouton de visite que vous souhaitez afficher dans la visionneuse. Dans la boîte de dialogue URL de visite, tapez l’URL du site Web auquel vous souhaitez accéder d’un clic par le biais du lien.
+   * **Visite** Cliquez sur **Live**. Dans la boîte Etiquette de bouton de visite, tapez le nom de bouton de visite que vous souhaitez afficher dans la visionneuse. Dans la boîte de dialogue URL de visite, tapez l’URL du site Web auquel vous souhaitez accéder d’un clic par le biais du lien.
 
 1. Spécifiez les autres options voulues. Pour obtenir la description d’une option, cliquez sur l’icône d’information  adjacente.
 
