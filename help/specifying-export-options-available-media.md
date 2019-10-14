@@ -1,15 +1,15 @@
 ---
-title: Spécification des options d'exportation disponibles pour les utilisateurs du portail multimédia
-seo-title: Spécification des options d'exportation disponibles pour les utilisateurs du portail multimédia
+title: Définition des options d’exportation disponibles pour les utilisateurs du portail multimédia
+seo-title: Définition des options d’exportation disponibles pour les utilisateurs du portail multimédia
 description: 'null'
-seo-description: Découvrez comment spécifier les options d'exportation disponibles pour les utilisateurs du portail multimédia.
-uuid: 5258 b 8 a 4-0704-43 cd -97 d 1-c 9 af 2 e 4 e 298 b
+seo-description: Découvrez comment spécifier les options d’exportation disponibles pour les utilisateurs du portail multimédia.
+uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-discoiquuid: 9 bfd 95 da -3714-4 e 38-98 af -331 a 04 c 685 f 5
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 translation-type: tm+mt
-source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -30,13 +30,13 @@ Voir aussi [Exportation de fichiers à partir de Scene7 Publishing System](expor
 1. Cliquez sur **Configuration** &gt; **Paramètres d’image prédéfinis**.
 1. Dans la fenêtre Paramètres d’image prédéfinis, sélectionnez l’une des options suivantes :
 
-   **Activer l'utilisateur - Conversion définie** Lorsqu'il est sélectionné, cette option permet aux utilisateurs de choisir autre dans la liste déroulante Taille de la fenêtre Exporter les fichiers sélectionnés. Les utilisateurs peuvent ensuite choisir une unité de mesure, pixels ou centimètres, puis spécifier la largeur et la hauteur souhaitée. Lors de l’exportation ou du téléchargement de ces fichiers, les fichiers image sont reformatés.
+   * **Activer la conversion** définie par l’utilisateur Lorsque cette option est sélectionnée, les utilisateurs peuvent choisir d’autres options dans la liste déroulante Taille de la fenêtre Exporter les fichiers sélectionnés. Les utilisateurs peuvent ensuite choisir une unité de mesure, pixels ou centimètres, puis spécifier la largeur et la hauteur souhaitée. Lors de l’exportation ou du téléchargement de ces fichiers, les fichiers image sont reformatés.
 
-   Lorsque vous choisissez **pixels** dans la liste déroulante **Taille**, la largeur x hauteur de l’image obtenue ne doit pas dépasser 100 millions de pixels. Cette taille équivaut à 10 000 x 10 000 pixels pour une image carrée ou à environ 8 000 x 12 000 pixels pour une image 2x3. Cette limitation de taille ne s’applique pas si vous exportez des images originales.
+      Lorsque vous choisissez **pixels** dans la liste déroulante **Taille**, la largeur x hauteur de l’image obtenue ne doit pas dépasser 100 millions de pixels. Cette taille équivaut à 10 000 x 10 000 pixels pour une image carrée ou à environ 8 000 x 12 000 pixels pour une image 2x3. Cette limitation de taille ne s’applique pas si vous exportez des images originales.
 
-   Désélectionnez cette option si vous souhaitez que les utilisateurs téléchargent les fichiers sans les reformater pendant le téléchargement.
+      Désélectionnez cette option si vous souhaitez que les utilisateurs téléchargent les fichiers sans les reformater pendant le téléchargement.
 
-   **Activer l'exportation d'origine** Vous permet d'exporter des images originales. Dans le panneau Exporter les fichiers sélectionnés, les utilisateurs peuvent ouvrir le menu déroulant Conversion et choisir l’option Exporter l’original afin d’exporter les fichiers d’origine. Désélectionnez cette option si vous souhaitez obliger les utilisateurs à appliquer un paramètre d’image prédéfini ou des options de conversion spécifiques lorsqu’ils exportent des images.
+   * **Activer l’option Exporter l’original** Vous permet d’exporter les images originales. Dans le panneau Exporter les fichiers sélectionnés, les utilisateurs peuvent ouvrir le menu déroulant Conversion et choisir l’option Exporter l’original afin d’exporter les fichiers d’origine. Désélectionnez cette option si vous souhaitez obliger les utilisateurs à appliquer un paramètre d’image prédéfini ou des options de conversion spécifiques lorsqu’ils exportent des images.
 
 >[!MORELIKETHIS]
 >
