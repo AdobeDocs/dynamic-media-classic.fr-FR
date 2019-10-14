@@ -2,15 +2,15 @@
 title: Configuration - Notions élémentaires
 seo-title: Configuration - Notions élémentaires
 description: 'null'
-seo-description: Découvrez comment utiliser l'écran Configuration pour saisir vos paramètres personnels. Si vous êtes administrateur, vous pouvez configurer les paramètres de votre entreprise.
-uuid: 38 f 487 d 7-33 f 2-4 a 9 e-a 32 e-bb 08 f 3 dd 3284
+seo-description: Découvrez comment utiliser l'écran Configuration pour entrer vos paramètres personnels. Si vous êtes administrateur, vous pouvez configurer les paramètres de votre entreprise.
+uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/getting_ started
-discoiquuid: 753677 ad -9957-43 d 9-97 ad-bd 73 a 5 da 5 ccb
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
+discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -26,13 +26,13 @@ Dans cet écran, la disponibilité des paramètres dépend de votre statut (util
 
 Parmi les privilèges des administrateurs, citons également la configuration des paramètres d’image prédéfinis et des paramètres prédéfinis de la visionneuse dans l’écran de configuration :
 
-**Les paramètres** d'image prédéfinis Paramètres d'image prédéfinis sont des formats enregistrés permettant d'afficher des images originales selon différentes tailles et différents formats.
+* **Les paramètres d’image prédéfinis** sont des formats enregistrés permettant d’afficher des images originales dans différents formats et tailles.
 
-**Les paramètres prédéfinis** de visionneuse de paramètres prédéfinis de visionneuse déterminent la manière dont vous visualisez vos médias enrichis lorsque vous le visualisez dans une visionneuse.
+* **Les paramètres prédéfinis** de la visionneuse déterminent la manière dont vous visualisez votre média enrichi dans une visionneuse.
 
 >[!MORELIKETHIS]
 >
->* [Rôles utilisateur Classic Media Classic et privilèges](administration-setup.md#user_administration)
+>* [Rôles utilisateur et privilèges de Dynamic Media Classic](administration-setup.md#user_administration)
 >* [Paramètres d’image prédéfinis](application-setup.md#image_presets)
 >* [Paramètres prédéfinis de la visionneuse](application-setup.md#viewer_presets)
 
