@@ -3,14 +3,14 @@ title: Téléchargement des images de zoom
 seo-title: Téléchargement des images de zoom
 description: 'null'
 seo-description: Découvrez comment télécharger des images de zoom.
-uuid: 5814 ec 28-3 a 06-4 b 92-b 70 e -0 aa 5 b 83 e 7 b 0 e
+uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
 contentOwner: admin
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/zoom
-discoiquuid: e 84 b 7 b 0 e -527 a -4 c 64-bc 2 a-e 5 e 64 d 47 b 2 d 6
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
+discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -25,13 +25,13 @@ Pour des instructions détaillées sur le téléchargement des images, voir [Té
 
 **Préparation des images de zoom**
 
-Pour tirer le meilleur parti des fonctions de zoom Dynamic Media Classic, préparez vos fichiers d'images de zoom avant de les télécharger :
+Pour tirer le meilleur parti des fonctionnalités de zoom de Dynamic Media Classic, préparez vos fichiers d’image de zoom avant de les télécharger :
 
-**La taille** d'image de Dynamic Media Classic recommande d'utiliser des fichiers d'images dont la dimension la plus longue correspond au minimum à 2 000 pixels. ce afin d’obtenir des images clairement visibles lors de l’exécution d’un zoom.
+* **Taille d’image** Dynamic Media Classic recommande d’utiliser des fichiers d’images d’au moins 2 000 pixels dans la dimension la plus longue. ce afin d’obtenir des images clairement visibles lors de l’exécution d’un zoom.
 
-**Les formats** de fichier Dynamic Media Classic prennent en charge tous les formats de fichier image standard, notamment les formats TIFF, BMP, JPEG, PSD, GIF et EPS. Il est recommandé de privilégier les formats d’image sans perte, à savoir TIFF et PNG. Si vous utilisez une image JPEG, choisissez les paramètres de qualité les plus élevés.
+* **Les formats** de fichier Dynamic Media Classic prennent en charge tous les formats de fichier image standard, notamment TIFF, BMP, JPEG, PSD, GIF et EPS. Il est recommandé de privilégier les formats d’image sans perte, à savoir TIFF et PNG. Si vous utilisez une image JPEG, choisissez les paramètres de qualité les plus élevés.
 
-**L'espace** colorimétrique RVB est l'espace colorimétrique des présentations d'images Web ; Les images CMJN sont automatiquement converties en RVB lorsque vous les téléchargez. Il est recommandé de télécharger des images CMJN dotées d’un profil de couleurs ICC incorporé pour la conversion en mode RVB (voir aussi Profils ICC).
+* **Espace** colorimétrique RVB est l’espace colorimétrique des présentations d’images Web ; Les images CMJN sont automatiquement converties en RVB lorsque vous les téléchargez. Il est recommandé de télécharger des images CMJN dotées d’un profil de couleurs ICC incorporé pour la conversion en mode RVB (voir aussi Profils ICC).
 
 >[!MORELIKETHIS]
 >
