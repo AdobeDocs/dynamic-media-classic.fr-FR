@@ -2,46 +2,46 @@
 title: '"Démarrage rapide : Vidéo"'
 seo-title: '"Démarrage rapide : Vidéo"'
 description: 'null'
-seo-description: Présentation et démarrage rapide de la vidéo pour vous aider à maîtriser rapidement les opérations.
-uuid: bf 0 ecf 87-a 1 f 2-4 e 83-8041-df 5192 dd 26 a 1
+seo-description: Une introduction et un démarrage rapide vers la vidéo pour vous aider à vous familiariser rapidement avec la vidéo.
+uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
 contentOwner: admin
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/video
-discoiquuid: 6 cef 541 b-e 9 df -48 eb -9 a 16-ca 3 e 1 f 07238 e
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: de7d2608f94935f238a11d8310b97dddc5476f57
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # Démarrage rapide : Vidéo{#quick-start-video}
 
-Adobe Dynamic Media Classic Video est une solution de bout en bout qui facilite la publication de vidéos adaptatives haute qualité pour la diffusion en continu sur plusieurs écrans, notamment les périphériques mobiles, ios, Android, Blackberry et Windows. Une visionneuse de vidéos adaptative regroupe les versions d’une même vidéo codées dans des débits et des formats différents, par exemple 400 kbit/s, 800 kbit/s et 1 000 kbit/s. L’ordinateur de bureau ou le périphérique mobile détecte la bande passante disponible.
+Adobe Dynamic Media Classic Video est une solution de bout en bout qui facilite la publication de vidéos adaptatives de haute qualité pour la diffusion en flux continu sur plusieurs écrans, notamment les périphériques mobiles de bureau, iOS, Android, Blackberry et Windows. Une visionneuse de vidéos adaptative regroupe les versions d’une même vidéo codées dans des débits et des formats différents, par exemple 400 kbit/s, 800 kbit/s et 1 000 kbit/s. L’ordinateur de bureau ou le périphérique mobile détecte la bande passante disponible.
 
 Par exemple, sur un périphérique mobile iOS, il détecte une bande passante telle que 3G, 4G ou une connexion Wi-Fi, puis sélectionne automatiquement la vidéo codée selon le débit correspondant parmi ceux disponibles dans la visionneuse de vidéos adaptative. La vidéo est diffusée en continu sur les ordinateurs, les appareils mobiles ou les tablettes.
 
-En outre, la qualité de la vidéo est automatiquement adaptée en temps réel selon les conditions réseau sur le bureau ou l’appareil mobile. De même, si un client passe en mode plein écran sur un bureau, la visionneuse de vidéos adaptative réagit en utilisant une meilleure résolution, améliorant ainsi l’expérience de visionnage du client. L'utilisation de visionneuses de vidéos adaptatives offre une lecture optimale aux utilisateurs lisant la vidéo Dynamic Media Classic sur plusieurs écrans et périphériques.
+En outre, la qualité de la vidéo est automatiquement adaptée en temps réel selon les conditions réseau sur le bureau ou l’appareil mobile. De même, si un client passe en mode plein écran sur un bureau, la visionneuse de vidéos adaptative réagit en utilisant une meilleure résolution, améliorant ainsi l’expérience de visionnage du client. L’utilisation de visionneuses de vidéos adaptatives offre une lecture optimale aux clients lisant des vidéos Dynamic Media Classic sur plusieurs écrans et périphériques.
 
 La logique appliquée par un lecteur vidéo pour déterminer quelles sont les vidéos codées à lire ou à sélectionner en cours de lecture repose sur l’algorithme suivant :
 
-1. Le lecteur vidéo charge le fragment vidéo initial en fonction du débit binaire le plus proche de la valeur définie pour le débit initial dans le lecteur lui-même.
-1. Le lecteur vidéo bascule en fonction des modifications apportées à la vitesse de bande passante en utilisant les critères suivants :
+1. Le lecteur vidéo charge le fragment vidéo initial en fonction du débit le plus proche de la valeur définie pour le "débit initial" dans le lecteur lui-même.
+1. Le lecteur vidéo bascule en fonction des modifications apportées à la vitesse de la bande passante à l’aide des critères suivants :
 
-   1. Le lecteur sélectionne le flux de bande passante le plus élevé au-dessous ou égal à la bande passante estimée.
-   1. Player considère seulement 80 % de la bande passante disponible. Toutefois, s'il change de compte, il est plus conversatif à 70 % pour éviter la surestimation et avoir à revenir immédiatement.
+   1. Le lecteur sélectionne le flux de bande passante le plus élevé en dessous ou égal à la bande passante estimée.
+   1. Le lecteur ne considère que 80 % de la bande passante disponible. Cependant, si elle est en marche, elle est plus discutable à seulement 70 % pour éviter de surestimer et d'avoir à immédiatement revenir en arrière.
 
-Pour obtenir des informations techniques sur celle-ci, reportez-vous à la logique de l'algorithme [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) .
+Pour obtenir des informations techniques à ce sujet, consultez la logique de l’algorithme à l’adresse [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) .
 
-Pour la gestion des visionneuses de vidéos adaptatives et vidéo unique, Dynamic Media Classic prend en charge les éléments suivants :
+Pour la gestion de vidéos uniques et de visionneuses de vidéos adaptatives, Dynamic Media Classic prend en charge les éléments suivants :
 
-* Téléchargement de vidéos en différents formats vidéo et audio pris en charge et codage vidéo au format MP4 H.264 pour la lecture sur plusieurs écrans. Vous pouvez utiliser des paramètres prédéfinis de vidéo adaptative Classic Media Classic, des paramètres prédéfinis de codage vidéo uniques ou personnaliser votre propre codage pour contrôler la qualité et la taille de la vidéo.
+* Téléchargement de vidéos en différents formats vidéo et audio pris en charge et codage vidéo au format MP4 H.264 pour la lecture sur plusieurs écrans. Vous pouvez utiliser des paramètres prédéfinis de vidéo adaptative, des paramètres prédéfinis de codage de vidéo unique ou personnaliser votre propre codage pour contrôler la qualité et la taille de la vidéo.
 
-   Lorsqu'une visionneuse de vidéos adaptative est générée, elle inclut les vidéos MP 4.
+   Lorsqu’une visionneuse de vidéos adaptative est générée, elle comprend des vidéos MP4.
 
-   `**Note:**` Les vidéos originales/sources et les vidéos de format source ne sont *pas ajoutées* à une visionneuse de vidéos adaptative.
+   `**Note:**` Les vidéos originales/sources et les vidéos d’un autre format source *ne sont pas* ajoutées à une visionneuse de vidéos adaptative.
 
-* Sous-titrage vidéo dans les visionneuses Univeral_ HTML 5_ Video, Universal_ HTML 5_ mixedmedia_ dark et Universal_ HTML 5_ mixedmedia_ light et la navigation des chapitres vidéo dans les visionneuses Univeral_ HTML 5_ Video, Universal_ HTML 5_ mixedmedia_ dark et Universal_ HTML 5_ mixedmedia_ light.
+* Le sous-titrage des vidéos dans les visionneuses Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark et Universal_HTML5_MixedMedia_light et le chapitre vidéo dans les visionneuses Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark et Universal_HTML5_MixedMedia_light.
 
    Reportez-vous à [Ajout de sous-titres aux vidéos](adding-captions-video.md).
 
@@ -52,17 +52,17 @@ Pour la gestion des visionneuses de vidéos adaptatives et vidéo unique, Dynami
 
    La diffusion de vidéo adaptative en flux continu est prise en charge sur diverses plateformes iOS.
 
-   Consultez la dernière prise en charge du guide de référence des visionneuses [Adobe](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
+   Reportez-vous à la dernière prise en charge du guide [de référence des visionneuses](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)Adobe.
 
-   Dynamic Media Classic prend en charge la lecture vidéo mobile pour la vidéo MP 4 H .264. Le document suivant recense les périphériques BlackBerry prenant en charge ce format vidéo sur le site Web suivant :
+   Dynamic Media Classic prend en charge la lecture vidéo mobile pour la vidéo MP4 H.264. Le document suivant recense les périphériques BlackBerry prenant en charge ce format vidéo sur le site Web suivant :
 
-   Voir [Formats vidéo pris en charge sur Blackberry](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
+   Voir Formats vidéo [pris en charge sur Blackberry](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
    La liste des périphériques Windows compatibles avec ce format vidéo figure dans le document suivant :
 
-   Voir [Formats vidéo pris en charge sous Windows Phone](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx).
+   Voir Formats vidéo [pris en charge sur Windows Phone](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx).
 
-* Lisez la vidéo à l'aide des paramètres prédéfinis de visionneuse multimédia Classic, notamment :
+* Lisez la vidéo à l’aide des paramètres prédéfinis de la visionneuse Dynamic Media Classic, notamment :
 
    * des visionneuses de vidéos uniques,
    * des visionneuses de supports mixtes combinant du contenu vidéo et des images.
@@ -78,8 +78,8 @@ La description de flux de travaux détaillée suivante est conçue pour vous aid
 
 Téléchargez et générez des visionneuses de vidéos adaptatives en suivant l’un des deux scénarios ci-après :
 
-* **Télécharger des vidéos précodées** : si vos vidéos étaient déjà codées en dehors de Dynamic Media Classic, cliquez **sur Télécharger** sur la barre de navigation globale pour rechercher et télécharger des fichiers vidéo MP 4 directement dans Scene 7 Publishing System. Cliquez ensuite sur **Créer** &gt; **Visionneuses de vidéos adaptatives**. Accédez aux fichiers vidéo requis. Faites-les glisser et déposez-les dans le tableau Visionneuse de vidéos adaptative, puis enregistrez la visionneuse.
-* **Télécharger des vidéos sources originales** : si vos vidéos ne sont pas codées, cliquez **sur Télécharger** sur la barre de navigation globale pour télécharger des fichiers source vidéo originaux (non-MP 4) et codez Scene 7 Publishing System en tant que fichiers MP 4 pour vous. Dans la boîte de dialogue Télécharger les options de la tâche, sous Options eVideo, sélectionnez **Vidéo adaptative**.
+* **Télécharger des vidéos** précodées Si vos vidéos étaient déjà codées en dehors de Dynamic Media Classic, cliquez sur **Télécharger** dans la barre de navigation globale pour parcourir et télécharger directement des fichiers vidéo MP4 vers Scene7 Publishing System. Cliquez ensuite sur **Créer &gt; Visionneuses de vidéos adaptatives**. Accédez aux fichiers vidéo requis. Faites-les glisser et déposez-les dans le tableau Visionneuse de vidéos adaptative, puis enregistrez la visionneuse.
+* **Télécharger des vidéos** source originales Si vos vidéos ne sont pas codées, cliquez sur **Télécharger** dans la barre de navigation globale pour télécharger les fichiers source de la vidéo originale (non-MP4) et pour que Scene7 Publishing System les code au format MP4. Dans la boîte de dialogue Télécharger les options de la tâche, sous Options eVideo, sélectionnez **Vidéo adaptative**.
 
    Cette option conseillée permet de créer une visionneuse de vidéos adaptative qui applique automatiquement à la vidéo les paramètres de codage prédéfinis corrects, qu’il s’agisse d’un format 16:9 ou 4:3, en fonction des dimensions de la vidéo téléchargée. Lorsque vous procédez au transfert, une visionneuse de vidéos adaptative est automatiquement créée, avec trois codages vidéo aux proportions appropriées.
 
@@ -107,7 +107,7 @@ Vous pouvez visionner la vidéo sur l’écran de prévisualisation. Vous pouvez
 
 **Facultatif**
 
-Personnalisation des paramètres prédéfinis de visionneuse - Dynamic Media Classic propose des paramètres prédéfinis de visionneuse pour la diffusion vidéo. Ces paramètres déterminent l’aspect de la visionneuse et le mode de fonctionnement des commandes de lecture. Pour personnaliser la visionneuse de vidéos, les administrateurs peuvent ajouter et gérer des paramètres prédéfinis de visionneuse à partir de la page Paramètres prédéfinis de la visionneuse. Pour ouvrir cette page, dans le coin supérieur droit de Scene7 Publishing System, cliquez sur Configuration &gt; Paramètres prédéfinis de la visionneuse. La page Paramètres prédéfinis de la visionneuse propose des commandes permettant d’ajouter, de modifier, de supprimer et d’activer des paramètres prédéfinis de la visionneuse.
+Personnalisation des paramètres prédéfinis de la visionneuse - Dynamic Media Classic propose des paramètres prédéfinis de la visionneuse pour la diffusion vidéo. Ces paramètres déterminent l’aspect de la visionneuse et le mode de fonctionnement des commandes de lecture. Pour personnaliser la visionneuse de vidéos, les administrateurs peuvent ajouter et gérer des paramètres prédéfinis de visionneuse à partir de la page Paramètres prédéfinis de la visionneuse. Pour ouvrir cette page, dans le coin supérieur droit de Scene7 Publishing System, cliquez sur Configuration &gt; Paramètres prédéfinis de la visionneuse. La page Paramètres prédéfinis de la visionneuse propose des commandes permettant d’ajouter, de modifier, de supprimer et d’activer des paramètres prédéfinis de la visionneuse.
 
 Voir [Utilisation des paramètres prédéfinis de visionneuse de vidéos](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
@@ -121,7 +121,9 @@ Pour intégrer la vidéo sur votre site Web, procédez de l’une des manières 
 
    Lorsque vous cliquez sur Copier l’URL, l’URL est copiée dans le Presse-papiers. Placez ce code dans le code HTML de votre site Web, site mobile ou application.
 
-   ***remarque**: Les URL sont activées uniquement après la publication de la vidéo ou de la visionneuse de vidéos adaptative.*
+   >[!NOTE]
+   >
+   >les URL sont activées uniquement après que vous ayez publié la vidéo ou la visionneuse de vidéos adaptative.
 
 * Affichez la vidéo incorporée dans la page Web, auquel cas vous devez utiliser la fonction Intégrer le code.
 
@@ -129,7 +131,9 @@ Pour intégrer la vidéo sur votre site Web, procédez de l’une des manières 
 
    Cliquez sur Fermer et collez le code intégré dans vos pages Web.
 
-   ***remarque**: Le code incorporé n'est activé que lorsque vous publiez la vidéo ou la visionneuse de vidéos adaptative.*
+   >[!NOTE]
+   >
+   >le code intégré est activé uniquement après que vous ayez publié la vidéo ou la visionneuse de vidéos adaptative.
 
 Voir [Déploiement de vidéos sur vos sites Web et sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
