@@ -2,15 +2,15 @@
 title: Création d’un document PDF
 seo-title: Création d’un document PDF
 description: 'null'
-seo-description: Découvrez comment créer un document PDF à l'aide du processus d'impression en ligne dans Dynamic Media Classic.
-uuid: 274 fb 06 b -320 b -40 fa -8 b 61-c 224 d 8 aceaa 1
+seo-description: Découvrez comment créer un document PDF à l’aide du processus d’impression en ligne dans Dynamic Media Classic.
+uuid: 274fb06b-320b-40fa-8b61-c224d8aceaa1
 contentOwner: admin
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/template-publishing
-discoiquuid: 87 e 91 e 8 e -10 a 2-4 fba -87 c 7-aad 2 bd 798146
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
+discoiquuid: 87e91e8e-10a2-4fba-87c7-aad2bd798146
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -21,7 +21,7 @@ La dernière étape du processus d’impression en ligne consiste à créer un d
 
 ## Configuration des paramètres prédéfinis d’un document PDF {#setting-up-pdf-presets}
 
-Spécifiez le niveau de compatibilité PDF et les paramètres d'imprimante en créant et en chargeant un fichier PDF joboptions sur le serveur Dynamic Media Classic. Vous pouvez par exemple sélectionner l’option de compatibilité PDF/X-4 pour votre sortie PDF (recommandée pour les flux de travail de publication d’impression PDF). Le fichier joboptions peut être créé dans un logiciel de création (comme Adobe Illustrator) ou dans Acrobat. Vérifiez toujours avec votre imprimeur ; il sera en mesure de vous conseiller sur les paramètres appropriés à votre tâche d’impression.
+Spécifiez le niveau de compatibilité PDF et les paramètres d’imprimante en créant et en téléchargeant un fichier PDF joboptions sur le serveur Dynamic Media Classic. Vous pouvez par exemple sélectionner l’option de compatibilité PDF/X-4 pour votre sortie PDF (recommandée pour les flux de travail de publication d’impression PDF). Le fichier joboptions peut être créé dans un logiciel de création (comme Adobe Illustrator) ou dans Acrobat. Vérifiez toujours avec votre imprimeur ; il sera en mesure de vous conseiller sur les paramètres appropriés à votre tâche d’impression.
 
 Pour plus d’informations sur la création de fichiers joboptions et sur la création d’un fichier joboptions dans Acrobat, voir l’Aide d’Adobe Acrobat.
 
@@ -30,7 +30,7 @@ Pour créer un fichier joboptions dans Illustrator :
 1. Choisissez Edition &gt; Paramètres prédéfinis Adobe PDF.
 1. Dans la boîte de dialogue qui apparaît, sélectionnez le paramètre prédéfini à utiliser.
 
-   Les paramètres d'option de tâche suivants sont pris en charge par Dynamic Media Classic :
+   Les paramètres d’option de tâche suivants sont pris en charge par Dynamic Media Classic :
 
    | Option de tâche | Description |
    |--- |--- |
@@ -46,7 +46,7 @@ Pour créer un fichier joboptions dans Illustrator :
 
    >[!NOTE]
    >
-   >Dynamic Media Classic ignore les paramètres des repères d'impression dans le fichier joboptions. Les repères d'impression sont configurés par le biais de commandes URL dynamiques de Media Classic.
+   >Dynamic Media Classic ignore les paramètres de repères d’impression dans le fichier joboptions. Les repères d’impression sont plutôt configurés à l’aide des commandes URL de Dynamic Media Classic.
 
 1. Cliquez sur Exporter, spécifiez ensuite un nom et un emplacement, puis cliquez sur Enregistrer.
 1. Téléchargez le fichier d’options de tâche en tant que fichier vers Scene7 Publishing System.
@@ -61,7 +61,7 @@ Avant de finaliser le fichier PDF pour l’impression, assurez-vous d’avoir r
 
 **Images**
 
-Assurez-vous que toutes les images de votre tâche de publication ont été téléchargées sur votre serveur multimédia Classic et publiées.
+Assurez-vous que toutes les images de votre tâche de publication ont été téléchargées sur votre serveur Dynamic Media Classic et publiées.
 
 **Polices**
 
@@ -69,15 +69,15 @@ Assurez-vous que toutes les polices de votre tâche de publication ont été té
 
 **Résolution d’image (pixels par pouce)**
 
-La résolution des images bitmap est conservée par le serveur Dynamic Media Classic dans les fichiers PDF prêts pour l'impression. Si nécessaire, Dynamic Media Classic augmente la résolution de l'image. Pour optimiser les résultats, laissez la résolution par défaut (en général 72 ppp) lorsque vous prévisualisez un fichier en ligne. La résolution par défaut appliquée à toutes les images de votre société est définie dans la fenêtre Paramètres de publication/Image Server, à la section Résolution d’impression par défaut. Des résolutions plus élevées (comme 300 ppp) peuvent allonger le traitement et doivent être appliquées uniquement à un fichier PDF prêt pour l’impression. Insérez la commande imageRes= dans l’URL pour remplacer manuellement la résolution par défaut pour les tâches PDF.
+La résolution des images bitmap est conservée par le serveur Dynamic Media Classic dans les fichiers PDF générés prêts pour l’impression. Dynamic Media Classic met à niveau la résolution des images si nécessaire. Pour optimiser les résultats, laissez la résolution par défaut (en général 72 ppp) lorsque vous prévisualisez un fichier en ligne. La résolution par défaut appliquée à toutes les images de votre société est définie dans la fenêtre Paramètres de publication/Image Server, à la section Résolution d’impression par défaut. Des résolutions plus élevées (comme 300 ppp) peuvent allonger le traitement et doivent être appliquées uniquement à un fichier PDF prêt pour l’impression. Insérez la commande imageRes= dans l’URL pour remplacer manuellement la résolution par défaut pour les tâches PDF.
 
 **Gestion des couleurs**
 
-Vous pouvez appliquer à votre document et à vos images les modèles de couleurs Gris, CMJN, Ton direct, RVB ou Lab. Il est possible d’étalonner ou non chacun de ces modèles de couleurs au moyen d’un profil de couleur ICC. Pour de meilleurs résultats, incorporez le profil dans le fichier PDF prêt pour l’impression. Le serveur Dynamic Media Classic effectue cette opération par défaut. Assurez-vous que tous les profils colorimétriques requis ont été transférés vers la plate-forme Dynamic Media Classic. Assurez-vous de préférence que les options de gestion des couleurs définies dans votre application de conception correspondent à celles définies dans votre serveur Dynamic Media Classic :
+Vous pouvez appliquer à votre document et à vos images les modèles de couleurs Gris, CMJN, Ton direct, RVB ou Lab. Il est possible d’étalonner ou non chacun de ces modèles de couleurs au moyen d’un profil de couleur ICC. Pour de meilleurs résultats, incorporez le profil dans le fichier PDF prêt pour l’impression. Le serveur Dynamic Media Classic le fait par défaut. Assurez-vous que tous les profils colorimétriques requis ont été téléchargés sur la plateforme Dynamic Media Classic. Assurez-vous, de préférence, que les options de gestion des couleurs définies dans votre application de conception correspondent à celles définies dans votre serveur Dynamic Media Classic :
 
-**Paramètres de gestion des couleurs de l’application de création :** dans les paramètres de couleurs de votre application de création (par exemple, Adobe Illustrator), spécifiez les profils de couleurs RVB et CMJN dans la section des espaces de travail.
+* **Paramètres de gestion des couleurs de l’application de création :** dans les paramètres de couleurs de votre application de création (par exemple, Adobe Illustrator), spécifiez les profils de couleurs RVB et CMJN dans la section des espaces de travail.
 
-**Paramètres de gestion des couleurs dynamiques de Media Classic :** En règle générale, les paramètres de gestion des couleurs de l'application de création doivent correspondre aux profils colorimétriques par défaut de votre serveur Dynamic Media Classic. Ces paramètres sont disponibles dans la fenêtre Configuration de la publication d’Image Server.
+* **** Paramètres de gestion des couleurs de Dynamic Media Classic : En règle générale, les paramètres de gestion des couleurs de l’application de conception doivent correspondre aux profils de couleurs par défaut de votre serveur Dynamic Media Classic. Ces paramètres sont disponibles dans la fenêtre Configuration de la publication d’Image Server.
 
 ## Affichage des repères d’impression {#displaying-printer-marks}
 
@@ -101,22 +101,22 @@ Tous les repères disponibles dans l’écran « Ajouter des repères d’impre
 
 Lors de la préparation d’un document à imprimer, les repères d’impression peuvent être nécessaires pour aider le service d’impression à aligner les films de séparation pour produire des épreuves, mesurer le film pour l’étalonnage et la densité d’encre corrects, ajuster le film à la taille, etc. Les repères d’impression indiquent les limites des zones du document telles que les zones de rognage et les zones de fond perdu. Le contenu lié à la production peut inclure :
 
-**Zone** de support Limites du support physique sur lequel la page sera imprimée. Le contenu hors de la zone de support peut être supprimé sans affecter la signification du fichier.
+* **Zone** multimédia Limites du support physique sur lequel la page sera imprimée. Le contenu hors de la zone de support peut être supprimé sans affecter la signification du fichier.
 
-**Zone** de fond perdu Dans laquelle le contenu de la page est tronqué lors de la sortie dans un environnement de production. La zone de fond perdu peut inclure les zones nécessaires pour prendre en compte les limites physiques du matériel de découpe, pliage et rognage. La valeur par défaut est la zone de recadrage de la page.
+* **Zone** de fond perdu Zone dans laquelle le contenu de la page est coupé lors de la sortie dans un environnement de production. La zone de fond perdu peut inclure les zones nécessaires pour prendre en compte les limites physiques du matériel de découpe, pliage et rognage. La valeur par défaut est la zone de recadrage de la page.
 
-**Zone** de rognage Dimensions souhaitées de la page finale après rognage. La zone de rognage peut être plus petite que la zone de support, pour pouvoir ajouter le contenu lié à la production (instructions d’impression, traits de coupe et gammes de couleurs). La valeur par défaut est la zone de recadrage de la page.
+* **Zone** de rognage Dimensions souhaitées de la page terminée après rognage. La zone de rognage peut être plus petite que la zone de support, pour pouvoir ajouter le contenu lié à la production (instructions d’impression, traits de coupe et gammes de couleurs). La valeur par défaut est la zone de recadrage de la page.
 
-**Zone** graphique L'étendue du contenu significatif de la page (y compris l'espace potentiel) comme prévu par le créateur de la page. La valeur par défaut est la zone de recadrage de la page.
+* **Zone** graphique L’étendue du contenu significatif de la page (y compris l’espace blanc potentiel) tel que prévu par le créateur de la page. La valeur par défaut est la zone de recadrage de la page.
 
 Vous pouvez utiliser les modificateurs illustrés dans ce tableau pour reproduire les repères d’impression disponibles dans Adobe Illustrator, InDesign et Acrobat :
 
 | Modificateur/valeurs | Description |
 |--- |--- |
-| bleedMargin=haut, gauche, bas, droite | Spécifié dans Acrobat au moyen de l’option Définir des zones de page. Sélectionnez Zone de fond perdu, puis définissez les marges au moyen de l’option Commandes de marge.<br><br>Ces valeurs représentent la distance des bords supérieur, gauche, inférieur et droit par rapport aux bords originaux de l’illustration (zone de support), allant vers l’intérieur. Les valeurs (0-1000) sont exprimées en points.<br><br>Nouvelle hauteur = hauteur d'origine - (haut + bas)<br><br>Nouvelle largeur = largeur d'origine - (gauche + droite) |
-| mediaMargin=haut, gauche, bas, droite | Spécifié dans Acrobat au moyen de l’option Définir des zones de page. Modifiez la taille de la page personnalisée au moyen de l’option Modification du format de page.<br><br>Ces valeurs représentent la distance des bords supérieur, gauche, inférieur et droit par rapport aux bords originaux de l’illustration (zone de support), allant vers l’extérieur. Les valeurs (0-1000) sont exprimées en points.<br><br>Nouvelle hauteur = haut + bas + largeur d'origine<br><br>Largeur = haut + bas + largeur d'origine La<br><br>nouvelle hauteur et les nouvelles valeurs de largeur déterminent la nouvelle taille de page du PDF généré.<br><br>Lorsqu’une nouvelle zone de support est définie, tous les calculs de marge de rognage et de marge de fond perdu doivent tenir compte de la nouvelle zone de support comme limites de l’illustration. |
-| trimMargin=haut, gauche, bas, droite | Spécifié dans Acrobat au moyen de l’option Définir des zones de page. Sélectionnez Zone de rognage, puis définissez les marges au moyen de l’option Commandes de marge.<br><br>Ces valeurs représentent la distance des bords supérieur, gauche, inférieur et droit par rapport aux bords originaux de l’illustration (zone de support), allant vers l’intérieur. Les valeurs (0-1000) sont exprimées en points.<br><br>Nouvelle hauteur = hauteur d'origine - (haut + bas)<br><br>Nouvelle largeur = largeur d'origine - (gauche + droite) |
-| printerMark= repères de rognage, repères de fond perdu, repères de montage, gammes de couleurs, informations sur la page, style, épaisseur du trait, calque incorporé | Les valeurs sont les suivantes :<br><br>repères de rognage = 0,1 (par défaut : 0)<br><br>repères de fond perdu = 0,1 (par défaut, 0)<br><br>repères de montage = 0,1 (0) les gammes<br><br>de couleurs = 0,1 (0)<br><br>les gammes de couleurs = 0,1 (la valeur par défaut est 0)<br><br>; la valeur par défaut indesignj 1, indesignj 1, indesignj 2, Illustrator, illustratorj, quarkxpress (<br><br>par défaut) ligne poids = 0.125-0.2, les deux valeurs inclusives (par défaut, 0,25)<br><br>calque incorporé = 0, 1, avec 1 créant un nouveau calque contenant tous les repères d'impression (la valeur par défaut est 1)<br><br>selon le style utilisé, les repères et les gammes de couleurs apparaissent différemment et correspondent aux styles correspondants utilisés par Acrobat. |
+| bleedMargin=haut, gauche, bas, droite | Spécifié dans Acrobat au moyen de l’option Définir des zones de page. Sélectionnez Zone de fond perdu, puis définissez les marges au moyen de l’option Commandes de marge.<br><br>Ces valeurs représentent la distance des bords supérieur, gauche, inférieur et droit par rapport aux bords originaux de l’illustration (zone de support), allant vers l’intérieur. Les valeurs (0 à 1 000) sont exprimées en points.<br><br>Nouvelle hauteur=hauteur d’origine - (haut+bas)<br><br>Nouvelle largeur= largeur d’origine - (gauche+droite) |
+| mediaMargin=haut, gauche, bas, droite | Spécifié dans Acrobat au moyen de l’option Définir des zones de page. Modifiez la taille de la page personnalisée au moyen de l’option Modification du format de page.<br><br>Ces valeurs représentent la distance des bords supérieur, gauche, inférieur et droit par rapport aux bords originaux de l’illustration (zone de support), allant vers l’extérieur. Les valeurs (0 à 1 000) sont exprimées en points.<br><br>Nouvelle hauteur=haut+bas+<br><br>hauteur d’origineNouvelle largeur=haut+bas+<br><br>largeur d’origineLes nouvelles valeurs de hauteur et de largeur déterminent le nouveau format de page du PDF généré.<br><br>Lorsqu’une nouvelle zone de support est définie, tous les calculs de marge de rognage et de marge de fond perdu doivent tenir compte de la nouvelle zone de support comme limites de l’illustration. |
+| trimMargin=haut, gauche, bas, droite | Spécifié dans Acrobat au moyen de l’option Définir des zones de page. Sélectionnez Zone de rognage, puis définissez les marges au moyen de l’option Commandes de marge.<br><br>Ces valeurs représentent la distance des bords supérieur, gauche, inférieur et droit par rapport aux bords originaux de l’illustration (zone de support), allant vers l’intérieur. Les valeurs (0 à 1 000) sont exprimées en points.<br><br>Nouvelle hauteur=hauteur d’origine - (haut+bas)<br><br>Nouvelle largeur=largeur d’origine - (gauche+droite) |
+| printerMark= repères de rognage, repères de fond perdu, repères de montage, gammes de couleurs, informations sur la page, style, épaisseur du trait, calque incorporé | Les valeurs sont les suivantes :<br><br>repères de rognage = 0,1 (la valeur par défaut est 0)<br><br>repères de fond perdu = 0,1 (la valeur par défaut est 0)<br><br>repères de montage = 0,1 (la valeur par défaut est 0)Barres de<br><br>couleurs = 0,1 (la valeur par défaut est 0)Informations de<br><br>page = 0,1 (la valeur par défaut est 0)<br><br>style = Par défaut, Instyle = Par défaut, InDesignJ1, InDesignJ1, InJJ2, InDesignDesignJJ2, InJJ2, Illustrator, Illustrator, Illustrator, Illustrator QuarkXPress (valeur par défaut : Default)<br><br>line weight= 0.125-0.2, les deux valeurs inclusives (valeur par défaut : 0.25)layer embed = 0, 1, avec 1 créant un nouveau calque contenant tous les repères d’impression (valeur par défaut : 1)Selon le style utilisé, les repères et les gammes de couleurs apparaissent différents et correspondent aux styles correspondants utilisés par Acrobat.<br><br><br><br> |
 
 Notez les éléments suivants au sujet des repères d’impression :
 
