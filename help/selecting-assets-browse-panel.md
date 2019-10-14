@@ -3,14 +3,14 @@ title: Sélection de fichiers dans le panneau de navigation
 seo-title: Sélection de fichiers dans le panneau de navigation
 description: 'null'
 seo-description: Découvrez comment sélectionner des fichiers dans le panneau de navigation.
-uuid: 0790 e 6 d 0-b 898-42 b 1-977 f -8316 e 6 b 19573
+uuid: 0790e6d0-b898-42b1-977f-8316e6b19573
 contentOwner: admin
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 8 e 6 ce 2 bf-c 99 b -4106-942 a -1716 f 152 c 7 b 2
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 8e6ce2bf-c99b-4106-942a-1716f152c7b2
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -19,10 +19,10 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 Sélectionnez un fichier dans le panneau de navigation pour l’utiliser. Utilisez les techniques suivantes pour sélectionner des fichiers :
 
-**Un seul fichier** cliquez sur le fichier (double-cliquez sur le fichier en mode Affichage des détails).
+* **Fichier** unique Cliquez sur le fichier (un double-clic ouvre le fichier en mode Affichage des détails).
 
-**Plusieurs fichiers** Ctrl + clic (Windows) ou Commande + clic (Macintosh) permettent de sélectionner des fichiers à différents endroits dans le panneau de navigation. Tout en maintenant la touche Maj enfoncée, cliquez (cliquez sur un fichier, puis cliquez sur un autre fichier avec la touche Maj enfoncée) sur des fichiers adjacents pour les sélectionner.
+* **Plusieurs ressources** Ctrl+clic (Windows) ou Commande+clic (Macintosh) pour sélectionner des ressources à différents emplacements du panneau de navigation. Tout en maintenant la touche Maj enfoncée, cliquez (cliquez sur un fichier, puis cliquez sur un autre fichier avec la touche Maj enfoncée) sur des fichiers adjacents pour les sélectionner.
 
-**Tous les fichiers du panneau de navigation** choisissez Sélectionner &gt; Tout.
+* **Tous les fichiers du panneau** de navigation, cliquez sur Sélectionner &gt; Tout.
 
-**Aucun fichier** n'est sélectionné Sélectionner &gt; Aucun.
+* **Aucun fichier** Cliquez sur Sélectionner &gt; Aucun.
