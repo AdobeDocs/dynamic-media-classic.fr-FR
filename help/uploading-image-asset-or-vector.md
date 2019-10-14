@@ -2,14 +2,14 @@
 title: Transfert d’un fichier d’image ou d’un fichier vectoriel
 seo-title: Transfert d’un fichier d’image ou d’un fichier vectoriel
 description: 'null'
-seo-description: Découvrez comment télécharger un fichier d'image ou un fichier vectoriel.
-uuid: d 0 e 4 a 754-8 a 49-4 b 0 f-b 202-e 9003 bdb 8 f 20
+seo-description: Découvrez comment télécharger un fichier d’image ou un fichier vectoriel.
+uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-discoiquuid: de 21 dca 9-99 fe -4183-b 647-debfe 112 fda 4
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -122,8 +122,8 @@ Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier
 * Jeton de téléchargement.
 * Taille limite de fichier.
 * Liste des extensions de nom de fichier.
-* Indique s'il faut conserver ou non le profil et le fichier de couleurs - nom associé au fichier.
-* Indique s'il faut utiliser ou non Masquer l'arrière-plan. Si vous activez l'option Masquer l'arrière-plan, définissez l'angle, la tolérance et la méthode de remplissage. Voir Masquage de l'arrière-plan dans [les options d'édition d'images au téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
+* Préservation ou non du profil de couleur et du nom de fichier associés à la ressource.
+* Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les options Coin, Tolérance et Méthode de remplissage. Voir Masquage de l’arrière-plan dans les options [d’édition d’images au téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nom du fichier à télécharger
 
 <!-- 
@@ -142,9 +142,9 @@ Vous pouvez afficher le code source HTML associé au formulaire ci-dessus en cli
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Dans Firefox, cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis cliquez **sur Afficher la source de la page**. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **Envoyer**.
+Dans Firefox, cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis cliquez sur **Afficher la source** de la page. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **Envoyer**.
 
-Pour afficher la réponse XML dans Internet Explorer, cliquez sur **Affichage** &gt; **Source**. To view XML response in Firefox, click **Tools** &gt; **Web Developer** &gt; **Page Source**. Firefox est recommandé pour afficher les réponses XML.
+Pour afficher la réponse XML dans Internet Explorer, cliquez sur **Affichage &gt; Source**. To view XML response in Firefox, click **Tools &gt; Web Developer &gt; Page Source**. Firefox est recommandé pour afficher les réponses XML.
 
 Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi :
 
@@ -285,8 +285,8 @@ Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier
 * Jeton de téléchargement.
 * Taille limite de fichier.
 * Liste des extensions de nom de fichier.
-* Indique s'il faut conserver ou non le profil et le fichier de couleurs - nom associé au fichier.
-* Indique s'il faut utiliser ou non Masquer l'arrière-plan. Si vous activez l'option Masquer l'arrière-plan, définissez l'angle, la tolérance et la méthode de remplissage. Voir Masquage de l'arrière-plan dans [les options d'édition d'images au téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
+* Préservation ou non du profil de couleur et du nom de fichier associés à la ressource.
+* Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les options Coin, Tolérance et Méthode de remplissage. Voir Masquage de l’arrière-plan dans les options [d’édition d’images au téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nom du fichier à télécharger
 
 <!-- 
