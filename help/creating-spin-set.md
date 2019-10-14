@@ -2,32 +2,32 @@
 title: Création d’une visionneuse à 360°
 seo-title: Création d’une visionneuse à 360°
 description: 'null'
-seo-description: Découvrez comment créer une visionneuse à 360 °.
-uuid: 697 bd 78 f -5 e 39-46 bf-aa 6 d-ad 8 ab 99 fe 40 e
+seo-description: Découvrez comment créer une visionneuse à 360°.
+uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/spin_ sets
-discoiquuid: 735 b 5867-e 249-4627-a 5 a 5-25 c 19 c 2255 bf
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
+discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # Création d’une visionneuse à 360°{#creating-a-spin-set}
 
-Pour créer une visionneuse panoramique efficace, assurez-vous que les clichés soient pris correctement. Vous pouvez créer une visionneuse à 360 ° dans Dynamic Media Classic en sélectionnant le bouton Créer et en choisissant Visionneuses à 360 °. Modifiez les visionneuses à 360° dans l’écran correspondant.
+Pour créer une visionneuse panoramique efficace, assurez-vous que les clichés soient pris correctement. Vous pouvez créer une visionneuse à 360° dans Dynamic Media Classic en sélectionnant le bouton Créer, puis en choisissant Visionneuses à 360°. Modifiez les visionneuses à 360° dans l’écran correspondant.
 
 >[!NOTE]
 >
->Les versions précédentes de Dynamic Media Classic n'offraient pas de visionneuses à 360 ° bidimensionnelles. Si vous avez créé une visionneuse à 360 ° dans une version précédente de Dynamic Media Classic, vous ne pouvez pas enregistrer votre visionneuse à 360 ° unidimensionnelle sans l'enregistrer d'abord sous un autre nom. Cliquez sur Enregistrer sous dans l'écran Visionneuse à 360 ° et saisissez un nouveau nom afin de pouvoir le modifier dans Dynamic Media Classic.
+>Les versions précédentes de Dynamic Media Classic n’offraient pas de visionneuses à 360° bidimensionnelles. Si vous avez créé une visionneuse à 360° dans une version précédente de Dynamic Media Classic, vous ne pouvez pas enregistrer votre visionneuse à 360° unidimensionnelle sans l’enregistrer d’abord sous un autre nom. Cliquez sur Enregistrer sous dans l’écran Visionneuse à 360° et saisissez un nouveau nom afin de pouvoir le modifier dans Dynamic Media Classic.
 
 ## Instructions pour prendre des clichés d’images de la visionneuse à 360°{#guidelines-for-shooting-spin-set-images}
 
-En règle générale, plus le nombre d’images de la visionneuse est élevé, meilleure est la qualité de l’effet de rotation de l’objet. Cependant, un nombre élevé d’images dans la visionneuse augmente la durée de chargement des images. Dynamic Media Classic recommande de consigner les images à utiliser dans les visionneuses à 360 ° :
+En règle générale, plus le nombre d’images de la visionneuse est élevé, meilleure est la qualité de l’effet de rotation de l’objet. Cependant, un nombre élevé d’images dans la visionneuse augmente la durée de chargement des images. Dynamic Media Classic recommande les recommandations suivantes pour la prise de vue d’images à utiliser dans les visionneuses à 360° :
 
-* Utilisez au minimum 8-12 images dans une visionneuse à 360 ° unidimensionnelle et 16-24 images dans une visionneuse à 360 ° bidimensionnelle.
+* Utilisez au minimum 8 à 12 images dans une visionneuse à 360° unidimensionnelle et 16 à 24 images dans une visionneuse à 360° bidimensionnelle.
 * Utilisez un format d’image sans perte (formats TIFF et PNG recommandés). 
 * Masquez toutes les images pour faire apparaître l’objet sur un fond blanc ou fortement contrasté. Ajoutez éventuellement des ombres.
 * Assurez-vous que les détails du produit sont bien éclairés et que leur mise au point est nette.
@@ -71,7 +71,7 @@ Selon que vous modifiez une visionneuse publiée ou non publiée, l’option **P
 | Visionneuse déjà publiée ? | L’option « Publish after save » (« Publier après l’enregistrement ») est-elle sélectionnée avant l’enregistrement de votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 |--- |--- |--- |--- |
 | Oui | Oui | Publié | Publié |
-| Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tous les nouveaux membres de la visionneuse ajoutés lors de la modification conservent leur état publié ou non publié. |
+| Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Les nouveaux membres de visionneuse que vous avez ajoutés pendant votre modification conservent leur état publié ou non publié. |
 | Non | Oui | Publié | Publié |
 | Non | Non | Non publié | Les membres de la visionneuse existants, ainsi que tout nouveau membre de la visionneuse que vous ajoutez lors de votre modification conservent leur état publié ou non publié. |
 
@@ -82,21 +82,13 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually-publishing-
 1. Cliquez sur le bouton de survol **Modifier** de la visionneuse à 360°.
 1. Utilisez l’une des méthodes suivantes :
 
-   **Suppression d’images**
+   * **Suppression d’images** Sélectionnez l’image, puis cliquez sur **Supprimer**.
 
-   Sélectionnez l’image, puis cliquez sur **Supprimer**.
+   * **Ajout d’images** Faites glisser l’image dans une cellule.
 
-   **Ajout d’images**
+   * **Réorganisation des lignes (visionneuses à 360° bidimensionnelles)** Cliquez sur une zone de sélection de ligne (à gauche de la ligne), puis sur **Déplacer la rangée vers le bas** ou **Déplacer la rangée vers le haut**.
 
-   Faites glisser l’image dans une cellule.
-
-   **Réorganisation des lignes (visionneuses à 360° bidimensionnelles)**
-
-   Cliquez sur une zone de sélection de ligne (à gauche de la ligne), puis sur **Déplacer la ligne vers le bas** ou **Déplacer la ligne vers le haut**.
-
-   **Ajout de lignes et de cellules**
-
-   Entrez un nombre dans la zone Lignes et un nombre dans la zone Cellules pour déterminer le nombre de lignes et le nombre de cellules sur chaque ligne.
+   * **Ajout de rangées et de cellules** Entrez un nombre dans les zones Lignes et Cellules pour déterminer le nombre de rangées et le nombre de cellules dans chaque rangée.
 
 1. Une fois les modifications terminées, près de l’angle inférieur droit de la page, vérifiez que l’option **Publish after save** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
 1. Cliquez sur **Enregistrer**, sélectionnez un dossier de stockage, attribuez un nom à la visionneuse, puis cliquez sur **Enregistrer**.
