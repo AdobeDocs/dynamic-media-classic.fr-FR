@@ -1,40 +1,40 @@
 ---
-title: Paramétrage d'un modèle dans Dynamic Media Classic
-seo-title: Paramétrage d'un modèle dans Dynamic Media Classic
+title: Paramétrage d’un modèle dans Dynamic Media Classic
+seo-title: Paramétrage d’un modèle dans Dynamic Media Classic
 description: 'null'
 seo-description: Découvrez comment paramétrer un modèle dans Dynamic Media Classic
-uuid: 27 c 8 c 8 b 4-47 f 3-4270-a 6 db-d 304648 ba 357
+uuid: 27c8c8b4-47f3-4270-a6db-d304648ba357
 contentOwner: admin
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/template-publishing
-discoiquuid: df 1 a 9 ff 5-a 5 ba -4480-ba 0 d-a 19 bc 665 f 907
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
+discoiquuid: df1a9ff5-a5ba-4480-ba0d-a19bc665f907
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
-# Paramétrage d'un modèle dans Dynamic Media Classic{#parameterizing-a-template-in-scene}
+# Paramétrage d’un modèle dans Dynamic Media Classic{#parameterizing-a-template-in-scene}
 
-Après avoir téléchargé un modèle Illustrator que vous avez enregistré comme FXG Dynamic Media Classic vers Scene 7 Publishing System, vous pouvez définir ses éléments variables. Pour ce faire, paramétrez les éléments variables dans les écrans de création et de prévisualisation du module de publication à l’aide de modèles prédéfinis. Dynamic Media Classic propose des outils permettant de définir des paramètres de texte et d'objet sur les calques et leurs propriétés respectives. Vous pouvez également créer différentes versions d’un même modèle.
+Après avoir téléchargé un modèle Illustrator que vous avez enregistré au format FXG Dynamic Media Classic vers Scene7 Publishing System, vous pouvez définir ses éléments variables. Pour ce faire, paramétrez les éléments variables dans les écrans de création et de prévisualisation du module de publication à l’aide de modèles prédéfinis. Dynamic Media Classic propose des outils permettant de définir des paramètres de texte et d’objet sur les calques et leurs propriétés respectives. Vous pouvez également créer différentes versions d’un même modèle.
 
-Le paramétrage d’un modèle FXG vous permet de personnaliser la variabilité du texte, des images et des graphiques dans le modèle. Par exemple, vous pouvez paramétrer une ligne de texte pour que les utilisateurs finals puissent modifier le texte via une interface Web. Vous pouvez définir des zones de texte vides en tant que variables pour que les utilisateurs finals puissent les remplir avec du texte personnalisé. Vous pouvez également paramétrer les attributs et propriétés des éléments de conception dans l'écran de création de modèles de publication dynamique de Media Classic.
+Le paramétrage d’un modèle FXG vous permet de personnaliser la variabilité du texte, des images et des graphiques dans le modèle. Par exemple, vous pouvez paramétrer une ligne de texte pour que les utilisateurs finals puissent modifier le texte via une interface Web. Vous pouvez définir des zones de texte vides en tant que variables pour que les utilisateurs finals puissent les remplir avec du texte personnalisé. Vous pouvez également paramétrer les attributs et les propriétés des éléments de conception dans l’écran Dynamic Media Classic Template Publishing Build.
 
 >[!NOTE]
 >
->Le paramétrage du modèle dans Dynamic Media Classic n'est pas nécessaire si vous envisagez d'utiliser la manipulation DOM.
+>Le paramétrage du modèle dans Dynamic Media Classic n’est pas obligatoire si vous prévoyez d’utiliser la manipulation DOM.
 
 ## Définition des paramètres d’un modèle FXG {#defining-parameters-in-fxg-templates}
 
-Pour définir les paramètres d'un modèle FXG, procédez comme suit dans Dynamic Media Classic :
+Pour définir les paramètres d’un modèle FXG, procédez comme suit dans Dynamic Media Classic :
 
 1. Sélectionnez le fichier FXG dans la fenêtre de navigation.
 1. Click **Build** and choose **Template Publishing**, or click the file’s **Edit** button.
 
    L’écran Module de publication à l’aide de modèles prédéfinis s’ouvre. 
 
-1. Sélectionnez lrco\ FXG\ Welcome_ Summit_ 10 (fichier FXG) et cliquez **sur Créer** &gt; **Publication de modèles**.</p>
+1. Sélectionnez LRCo\FXG\Welcome_Summit_10 (fichier FXG) et cliquez sur **Créer** &gt; Publication de **modèles**.</p>
 
    ![](assets/wp_fxg_edit.png)
 
@@ -46,10 +46,9 @@ Pour définir les paramètres d'un modèle FXG, procédez comme suit dans Dynami
 
 1. Dans le panneau Propriétés, cliquez sur un paramètre dans la colonne Nom (pour paramétrer du texte) ou Paramètre (pour paramétrer des objets).
 
-   **Cliquez sur le** bouton Texte dans le champ de texte (faites défiler la liste Propriétés jusqu'au bas de la liste Propriétés). La boîte de dialogue Paramètres s’affiche. Select the text that you want to parameterize and click **Add**. Pour créer plusieurs paramètres pour une même propriété de texte, sélectionnez diverses parties du texte et ajoutez des paramètres pour chacune d’elles. To change the name of the parameter, click it, enter a new name, and click **Close**.
+   * **Texte** Cliquez dans le champ de texte (faites défiler la liste Propriétés pour le trouver). La boîte de dialogue Paramètres s’affiche. Select the text that you want to parameterize and click **Add**. Pour créer plusieurs paramètres pour une même propriété de texte, sélectionnez diverses parties du texte et ajoutez des paramètres pour chacune d’elles. To change the name of the parameter, click it, enter a new name, and click **Close**.
 
-   **Objets** Cliquez sur une zone de la colonne Paramètre. La boîte de dialogue Modifier le paramètre s’affiche. Enter a name and click **OK**.
-
+   * **Objets** Cliquez sur une zone dans la colonne Paramètre. La boîte de dialogue Modifier le paramètre s’affiche. Enter a name and click **OK**.
    Pour personnaliser simultanément plusieurs attributs avec la même valeur, utilisez le même nom de paramètre pour chacun d’eux. A titre d’exemple, si votre modèle comporte un rectangle et une étoile, vous pouvez entrer `newcolor` comme nom de paramètre pour chaque attribut Couleur unie. Toute modification de la valeur `newcolor` est alors répercutée sur le rectangle et l’étoile.
 
 1. Dans le champ Valeur ou Données, spécifiez une valeur par défaut pour l’attribut. Définissez toutes les propriétés de l’objet sélectionné pour définir précisément l’apparence souhaitée.
@@ -72,7 +71,7 @@ Dans l’écran Module de publication à l’aide de modèles prédéfinis, cliq
 
 ## Utilisation du texte avec contour {#using-stroked-text}
 
-Le texte avec contour est un exemple de paramétrage des attributs. Dynamic Media Classic prend en charge les fonctions de texte avec contour :
+Le texte avec contour est un exemple de paramétrage des attributs. Dynamic Media Classic prend en charge les fonctions de texte avec contour suivantes :
 
 * Epaisseur du contour
 * Motif de contour en pointillé
@@ -117,11 +116,11 @@ Chaque attribut contient un ensemble de valeurs.
 
 | Attribut | Valeurs | Par défaut |
 |--- |--- |--- |
-| Styles 7 : Warpstyle | nonearcarcLowerarcUpperarchbulgeshellLowershellUpperflagwavefishrisefishEyeinflatesqueezetwist | aucun |
-| Instructions 7 : Warpdirection | horizontalvertical | horizontal |
-| Courbes 7 : Warpbend | -1 à 1 | 0,5 |
-| Distorsions horizontales 7 : Warphorizontaldistortion | -1 à 1 | 01 |
-| Déformation verticale 7 : Warpverticaldistortion | -1 à 1 | 01 |
+| Styles7:warpStyle | nonearcarcLowerarcUpperarchbulgeshellLowershellUpperflagwavefishrisefishEyeinflatesqueezetwist | aucun |
+| Direction7:warpDirection | horizontalvertical | horizontal |
+| Courbure7:warpBend | -1 à 1 | 0,5 |
+| Déformation horizontale7:warpHorizontalDistortion | -1 à 1 | 01 |
+| Déformation verticale7:warpVerticalDistortion | -1 à 1 | 01 |
 
 >[!NOTE]
 >
