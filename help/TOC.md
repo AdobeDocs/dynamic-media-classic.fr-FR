@@ -1,26 +1,27 @@
 ---
 cloud: experience-cloud
-product: 'dynamic media classic '
+product: 'média dynamique classique '
 audience: utilisateur final
 user-guide-title: Aide de Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
 
 ---
 
 
 # Aide de Dynamic Media Classic {#using}
 
-+ [Accueil de la documentation de Media Classic Classic](home.md)
-+ Présentation d'Adobe Dynamic Media Classic {#intro}
-   + [À propos de Dynamic Media Classic](introduction.md)
++ [Page d’accueil de la documentation de Dynamic Media Classic](home.md)
++ [Bulletin d'information sur les médias dynamiques par Experience League](dynamic-media-newsletter.md)
++ Présentation d’Adobe Dynamic Media Classic {#intro}
+   + [A propos de Contenu multimédia dynamique classique](introduction.md)
    + [Ressources du développeur](developer-resources.md)
    + [Nouveautés](whats-new.md)
    + [Configuration système requise](system-requirements.md)
    + [Applications de bureau Adobe Scene7 Publishing System](scene7-publishing-system-desktop-applications.md)
    + [Assistance](support.md)
-   + [Aide de Media Portal Classic Media Classic](help-scene7-media-portal.md)
+   + [Aide de Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
    + [Services de formation Adobe](training-services.md)
    + [Ressources populaires](popular-resources.md)
 + Démarrage rapide {#getting-started}
@@ -30,7 +31,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Connexion et déconnexion](signing-out.md)
    + [Navigation - Notions élémentaires](navigation-basics.md)
    + [Configuration - Notions élémentaires](setup-basics.md)
-   + [Média enrichi](rich-media.md)
+   + [Multimédia enrichi](rich-media.md)
 + Configuration {#setup}
    + [Configuration personnelle](personal-setup.md)
    + [Configuration de l’application](application-setup.md)
@@ -51,18 +52,18 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 + Téléchargement et publication de fichiers {#upload-publish}
    + [A propos du téléchargement et de la publication de fichiers](about-asset-upload-publish.md)
    + [Téléchargement de fichiers](uploading-files.md)
-   + [Publication de fichiers](publishing-files.md)
+   + [Publication de fichiers ](publishing-files.md)
    + [Test des fichiers avant de les rendre publics](testing-assets-making-them-public.md)
    + [Vérification de fichiers de tâche](checking-job-files.md)
 + Gestion des fichiers {#managing-assets}
-   + [A propos de la gestion des fichiers](about-managing-assets.md)
+   + [A propos de la gestion des ressources](about-managing-assets.md)
    + [Utilisation de dossiers de fichiers](asset-folders.md)
    + [Affichage des fichiers dans le panneau de navigation](viewing-assets-browse-panel.md)
    + [Sélection de fichiers dans le panneau de navigation](selecting-assets-browse-panel.md)
    + [Recherche de fichiers](searching-assets.md)
    + [Prévisualisation d’un fichier](previewing-asset.md)
    + [Déplacement, suppression et changement de nom de fichier](moving-renaming-deleting-assets.md)
-   + [Utilisation du mode Affichage des détails](detail-view.md)
+   + [Utilisation de la vue Détails ](detail-view.md)
    + [Affichage, ajout et exportation de métadonnées](viewing-adding-exporting-metadata.md)
    + [Exportation de fichiers à partir de Scene7 Publishing System](exporting-assets-scene7-publishing-system.md)
    + [Partage de modifications de fichier en temps réel avec des pairs](sharing-asset-changes-peers-real.md)
@@ -80,7 +81,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Téléchargement des images de zoom](uploading-zoom-images.md)
    + [Création de cibles de zoom pour un zoom guidé](creating-zoom-targets-guided-zoom.md)
    + [Configuration des paramètres prédéfinis de la visionneuse de zoom](setting-zoom-viewer-presets.md)
-   + [Prévisualisation de fichiers d'image avec différentes visionneuses de zoom](previewing-image-assets-different-zoom.md)
+   + [Prévisualisation de fichiers d’image avec différentes visionneuses de zoom](previewing-image-assets-different-zoom.md)
    + [Publication des images de zoom](publishing-zoom-images.md)
    + [Liaison des visionneuses de zoom à vos pages Web](linking-zoom-viewers-web-pages.md)
 + Catalogues électroniques {#ecatalogs}
@@ -88,7 +89,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Téléchargement des fichiers PDF](uploading-pdf-files.md)
    + [Création d’un catalogue électronique](creating-ecatalog.md)
    + [Création de zones cliquables dans un catalogue électronique](creating-ecatalog-image-maps.md)
-   + [Gestion du contenu du panneau d'informations dans les catalogues électroniques](info-panel-content.md)
+   + [Gestion du contenu du panneau d’informations dans les catalogues électroniques](info-panel-content.md)
    + [Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique](setting-ecatalog-viewer-presets.md)
    + [Prévisualisation des catalogues électroniques dans la visionneuse de catalogue électronique](previewing-ecatalogs-ecatalog-viewer.md)
    + [Publication de catalogues électroniques et de fichiers PDF associés](publishing-ecatalogs-associated-pdfs.md)
@@ -98,7 +99,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Préparation du téléchargement de fichiers de visionneuse d’images](preparing-image-set-assets-upload.md)
    + [Création d’une visionneuse d’images](creating-image-set.md)
    + [Inclusion de cibles de zoom et de zones cliquables dans les visionneuses d’images](including-zoom-targets-image-maps.md)
-   + [Gestion du contenu du panneau d'informations dans les visionneuses d'images](info-panel-content-1.md)
+   + [Gestion du contenu du panneau d’informations dans les visionneuses d’images](info-panel-content-1.md)
    + [Visualisation des visionneuses d’images](viewing-image-sets.md)
    + [Génération automatique d’une visionneuse d’images](automated-image-set-generation.md)
    + [Liaison d’une visionneuse d’images à une page Web](linking-image-set-web-page.md)
@@ -129,7 +130,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Création du modèle initial dans Adobe Illustrator](create-initial-template-illustrator.md)
    + [Téléchargement de fichiers pour le module de publication à l’aide de modèles prédéfinis](upload-files-template-publishing.md)
    + [Définition de la variabilité : paramétrage et manipulation DOM](defining-variability-parameterization-versus-dom.md)
-   + [Paramétrage d'un modèle dans Dynamic Media Classic](parameterizing-template-scene7.md)
+   + [Paramétrage d’un modèle dans Dynamic Media Classic](parameterizing-template-scene7.md)
    + [Prévisualisation et mise à jour des attributs de modèle](preview-update-template-attributes.md)
    + [Manipulation DOM](dom-manipulation.md)
    + [Liaison d’un modèle FXG à une page Web](linking-fxg-template-web-page.md)
@@ -150,7 +151,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Publication d’une visionneuse de supports variés](publishing-mixed-media-set.md)
    + [Liaison d’une visionneuse de supports variés à une page Web](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [Démarrage rapide : Intégration de Dynamic Media Classic avec Adobe Analytics ](quick-start-integrating-scene7-analytics.md)
+   + [Démarrage rapide : Intégration de Dynamic Media Classic à Adobe Analytics ](quick-start-integrating-scene7-analytics.md)
    + [Connexion à Adobe Analytics](log-analytics.md)
    + [Configuration des rapports Adobe Analytics](configuring-analytics-reports.md)
    + [Instrumentation d’une visionneuse avec le kit d’instrumentation Adobe Analytics](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -158,13 +159,13 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Test de l’intégration en affichant un rapport Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Activation des rapports vidéo d’Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publication des informations de configuration d’Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Intégration Target Classic {#target-classic}
-   + [Démarrage rapide : Intégration Target Classic](quick-start-target-classic-integration.md)
-   + [Intégration d'Adobe Dynamic Media Classic avec Adobe Target Classic](integrating-scene7-target-classic.md)
++ Intégration de Target Classic {#target-classic}
+   + [Démarrage rapide : Intégration de Target Classic](quick-start-target-classic-integration.md)
+   + [Intégration d’Adobe Dynamic Media Classic à Adobe Target Classic](integrating-scene7-target-classic.md)
    + [Création d’une visionneuse d’offres](creating-offer-set.md)
-   + [Promotion de visionneuses d'offres sur Adobe Target Classic](pushing-offer-sets-target-classic.md)
+   + [Pousser les visionneuses d’offres vers Adobe Target Classic](pushing-offer-sets-target-classic.md)
 + Contenu généré par l’utilisateur {#user-generated-content}
-   + [A propos du contenu généré par l'utilisateur](about-ugc.md)
+   + [A propos du contenu généré par l’utilisateur](about-ugc.md)
    + [Suppression d’un fichier téléchargé](deleting-uploaded-asset.md)
    + [Obtention d’informations sur l’utilisation du disque](getting-disk-usage-information.md)
    + [Transfert d’un fichier d’image ou d’un fichier vectoriel](uploading-image-asset-or-vector.md)
@@ -177,7 +178,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Modification d’une image](adjusting-image.md)
    + [Options d’édition d’images au téléchargement](image-editing-options-upload.md)
    + [Utilisation de documents PDF](pdfs.md)
-   + [Utilisation de fichiers PSD](psd-files.md)
+   + [Utilisation de fichiers PSD ](psd-files.md)
    + [Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md)
    + [Utilisation de fichiers de vignettes, de garnitures de fenêtre et de meubles](vignette-window-covering-cabinet-files.md)
 + Fichiers de support {#support-files}
