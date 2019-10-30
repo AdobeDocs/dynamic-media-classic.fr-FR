@@ -6,17 +6,16 @@ seo-title: 'Adobe Dynamic Media Newsletter '
 solution: Média dynamique
 title: Bulletin multimédia dynamique
 translation-type: tm+mt
-source-git-commit: fe982958e9954adb814fdd7cc94225a9dbe7c6b0
+source-git-commit: 656a9ab1b4fd0c99b612dc0e42d03b56ff213191
 
 ---
 
 
 # ![Logo du bulletin d’informations sur les médias dynamiques](/help/assets/dynamic-media-newsletter-logo.png)
 
-Le bulletin d’information sur les médias dynamiques de la Ligue d’expérience est un bulletin d’information mensuel conçu pour vous aider à maîtriser les nouvelles technologies des médias dynamiques et des médias dynamiques classiques, afin que vous puissiez commencer à en tirer profit immédiatement.
+Le bulletin mensuel Contenu multimédia dynamique de la Ligue d’expérience est conçu pour vous aider à vous familiariser rapidement avec Contenu multimédia dynamique et Contenu multimédia dynamique afin que vous puissiez commencer à en tirer profit immédiatement.
 
-**Qu'est-ce qui est inclus dans les bulletins d'information ?**
-Des ressources précieuses d'acquisition de connaissances sont disponibles dans ce bulletin d'information à guichet unique, y compris des vidéos pratiques, des aperçus de solutions et des présentations de certaines fonctionnalités clés, telles que les paramètres d'image prédéfinis, les paramètres prédéfinis de la visionneuse, les profils vidéo, etc.
+Dans ce bulletin d'information à guichet unique, découvrez des ressources précieuses de création de connaissances, telles que des vidéos pratiques, un aperçu de la solution et des présentations de certaines des principales fonctionnalités et fonctionnalités de la solution, telles que les paramètres d'image prédéfinis, les paramètres prédéfinis de la visionneuse, les profils vidéo, etc.
 
 ## Inspirez-vous ! Restez informés !
 
