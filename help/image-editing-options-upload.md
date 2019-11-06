@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -81,7 +81,7 @@ Sous le masquage flou, définissez les options de votre choix. Les options défi
 
 Voir aussi [Accentuation d’une image](sharpening-image.md#sharpening_an_image).
 
-See also [Sharpening images in Scene7 Publishing System and on Image Server](https://marketing.adobe.com/resources/help/en_US/s7/sharpening/s7_sharpening_images.pdf).
+See also [Sharpening images in Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
 **Masquer l’arrière-plan**
 
