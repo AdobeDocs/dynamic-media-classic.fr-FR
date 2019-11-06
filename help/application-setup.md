@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ---
 
@@ -457,7 +457,7 @@ Reportez-vous à la section [Meilleure pratique : Utilisation de la visionneuse
 
 Selon la visionneuse, vous pouvez ajouter des fonctions communautaires. Ces fonctions comprennent des boutons d’incorporation, d’e-mail, de lien et de visite de site. Ces boutons permettent aux utilisateurs de partager la visionneuse avec d’autres personnes ou d’ouvrir le site Web Dynamic Media Classic.
 
-Voir aussi les exemples de bibliothèques de référence des visionneuses Adobe [ici](/help/assets/vlist/vlist.html) et [ici](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Voir aussi [Adobe Viewers Reference Library Examples](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 ### Prise en charge des visionneuses pour les pages Web adaptées {#viewer-support-for-responsive-designed-web-pages}
 
@@ -497,7 +497,7 @@ Pour plus d'informations sur ce changement important, consultez le site de FAQ s
 
 Le tableau suivant identifie les paramètres prédéfinis de la visionneuse de médias classiques dynamiques actuellement disponibles. Ce tableau indique également la compatibilité de la visionneuse avec les périphériques mobiles et fixes, et la technologie utilisée pour chacune des visionneuses données.
 
-Voir aussi les exemples de bibliothèques de référence des visionneuses Adobe [ici](/help/assets/vlist/vlist.html) et [ici](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Voir aussi [Adobe Viewers Reference Library Examples](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 Pour en savoir plus sur les versions de navigateur Web et de système d’exploitation prises en charge pour les visionneuses, consultez les notes de mise à jour des visionneuses.
 
