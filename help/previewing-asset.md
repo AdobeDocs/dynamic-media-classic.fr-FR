@@ -3,14 +3,14 @@ title: Prévisualisation d’un fichier
 seo-title: Prévisualisation d’un fichier
 description: 'null'
 seo-description: Découvrez comment prévisualiser un fichier.
-uuid: 4 a 01 be 21-e 37 f -4 d 79-9220-f 4 e 177 e 9179 a
+uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: admin
 content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 17 d 0 bfd 6-fc 62-4 ed 6-8 a 51-7 ac 1 a 6 bb 96 cc
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -23,7 +23,7 @@ Voir [Configuration des visionneuses par défaut](application-setup.md#configuri
 
 Si vous prévisualisez un modèle de fichier avec des calques de paramètres, vous pouvez apporter des modifications aux paramètres ou modifier le paramètre d’image prédéfini. Etant donné que les modifications apportées sont effectuées en ligne, vous pouvez afficher les résultats immédiatement dans la même fenêtre de prévisualisation.
 
-Voir aussi [Exemples de bibliothèque de visionneuses dynamiques de Media Classic](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html).
+Voir aussi les exemples de bibliothèques de référence des visionneuses Adobe [ici](/help/assets/vlist/vlist.html) et [ici](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **Pour prévisualiser un fichier**
 
