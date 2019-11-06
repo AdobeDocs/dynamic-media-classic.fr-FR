@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -25,7 +25,7 @@ Scene7 Publishing System prend désormais en charge la diffusion de toutes les i
 
 Fichiers dans un état publié ou non publié. Par défaut, les fichiers que vous téléchargez dans Dynamic Media Classic sont automatiquement marqués pour publication.
 
-Pour plus d’informations, voir le PDF [de l’avis de publication](https://marketing.adobe.com/resources/help/en_US/s7/rendering-instant-publish-notification.pdf)instantanée.
+Pour plus d’informations, voir le PDF [de l’avis de publication](/help/assets/rendering-instant-publish-notification.pdf)instantanée.
 
 Pour marquer des fichiers pour publication, utilisez les techniques suivantes :
 
