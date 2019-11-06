@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ---
 
@@ -23,7 +23,7 @@ Voir [Configuration des visionneuses par défaut](application-setup.md#configuri
 
 Si vous prévisualisez un modèle de fichier avec des calques de paramètres, vous pouvez apporter des modifications aux paramètres ou modifier le paramètre d’image prédéfini. Etant donné que les modifications apportées sont effectuées en ligne, vous pouvez afficher les résultats immédiatement dans la même fenêtre de prévisualisation.
 
-Voir aussi les exemples de bibliothèques de référence des visionneuses Adobe [ici](/help/assets/vlist/vlist.html) et [ici](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Voir aussi [Adobe Viewers Reference Library Examples](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **Pour prévisualiser un fichier**
 
