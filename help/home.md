@@ -5,7 +5,7 @@ description: Documentation technique de Dynamic Media Classic
 seo-description: 'Documentation technique, notes de mise à jour et documents d’aide autonome pour Adobe Dynamic Media Classic, anciennement Scene7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
 
 ---
 
@@ -14,19 +14,20 @@ source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 Bienvenue dans l’aide de Dynamic Media Classic. Vous pouvez y accéder à toutes les ressources disponibles pour en savoir plus sur l’utilisation de Dynamic Media Classic (anciennement Scene7).
 
-## Documentation technique de Dynamic Media Classic
+## Nouvelle interface utilisateur de Dynamic Media Classic à partir du premier semestre 2020
 
-* [Notes de mise à jour](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
-* [Guide de l’utilisateur](introduction.md)
+Les utilisateurs de Dynamic Media Classic peuvent s’attendre à une actualisation de leur interface utilisateur au cours du premier semestre 2020. L’expérience fournira une connexion mise à jour avec des liens vers des ressources précieuses. De plus, cette mise à jour ne dépend plus de la technologie Adobe Flash dans le navigateur.
 
-## Ressources du développeur Dynamic Media Classic
+Voir Questions [fréquentes](new-ui-2020.md).
 
-* [Guide de référence des visionneuses Adobe](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/index.html)
-* [Exemples de bibliothèque de visionneuse](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [API Image Serving et Image Rendering](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/index.html)
+## Ressources du développeur de médias dynamiques
 
-## Webinaires et didacticiels de Dynamic Media Classic
+* [Page](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html) d'entrée Ressources du développeur de médias dynamiques — Inclut le guide de référence des visionneuses, l’API de diffusion d’images/rendu d’images, l’API Image Production System et les notes de mise à jour de Dynamic Media Classic.
+* [Exemples](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) de bibliothèque de visionneuses — Inclut des exemples de visionneuse de vidéos, de supports pouvant être achetés, de supports mixtes, de visionneuses à 360°, de zooms intégrés, d’images et d’échantillons, ainsi que de vidéos volantes.
 
+## Bulletins, séminaires Web et didacticiels de Dynamic Media Classic
+
+* [Archivage du bulletin d’information sur les médias dynamiques](dynamic-media-newsletter.md)
 * [Bonnes pratiques pour l’accentuation des images](/help/assets/s7_sharpening_images.pdf)
 * [Optimisez votre Retour sur investissement](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true) des ressources - Découvrez les meilleures pratiques du secteur pour diffuser du contenu multimédia enrichi sur vos sites et applications mobiles. Dans ce webinaire, nous donnons des exemples et des démonstrations qui vous montrent comment diffuser efficacement de la vidéo sur différents périphériques, diffuser de la création dynamique dans vos campagnes marketing et augmenter les conversions en rendant les images, les guides de style ou les livres de recherche accessibles.
 * [Accélérer le cycle de vie](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/) de la diffusion du contenu - Ce webinaire vous présente et présente à la demande les ressources d’Adobe Experience Manager, la plateforme de nouvelle génération pour la gestion et la diffusion des contenus multimédias enrichis. Découvrez comment collaborer et partager des ressources entre les équipes de création et de marketing pour rationaliser les processus de révision des ressources ; les meilleures pratiques de gestion efficace des métadonnées des fichiers pour faciliter la recherche, l’utilisation, la réutilisation et le partage des fichiers, ainsi que la diffusion d’expériences multimédias enrichies intercanaux.
