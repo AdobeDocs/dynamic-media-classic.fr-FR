@@ -1,12 +1,12 @@
 ---
 description: 'Le bulletin d’information sur les médias dynamiques de la Ligue de l’expérience est un bulletin d’information mensuel. Il est conçu pour vous aider à vous familiariser avec les médias dynamiques et les médias dynamiques classiques afin que vous puissiez commencer à en tirer parti immédiatement. Des ressources précieuses d''acquisition de connaissances sont disponibles dans ce bulletin d''information à guichet unique, notamment sur la façon de réaliser des vidéos, des aperçus de solutions et des présentations de certaines fonctionnalités clés telles que les paramètres d''image prédéfinis, les paramètres prédéfinis de la visionneuse, les profils vidéo, etc. '
-keywords: média dynamique;newsletter;mises à jour de produit;conseils et astuces;événements;succès client;blog;blogs;images;vidéos;fonctionnalités;fonctionnalités
+keywords: dynamic media;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;images;videos;features;capabilities
 seo-description: Ce bulletin d’information à guichet unique contient des ressources pour le développement des connaissances, notamment des vidéos, des aperçus de solutions et des présentations de certaines fonctionnalités clés, telles que les paramètres d’image prédéfinis, les paramètres prédéfinis de la visionneuse, les profils vidéo, etc.
 seo-title: 'Adobe Dynamic Media Newsletter '
-solution: Média dynamique
+solution: Dynamic Media
 title: Bulletin multimédia dynamique
 translation-type: tm+mt
-source-git-commit: 656a9ab1b4fd0c99b612dc0e42d03b56ff213191
+source-git-commit: 83cc98c151a040031312fea7b560be9792a941ab
 
 ---
 
@@ -22,6 +22,14 @@ Dans ce bulletin d'information à guichet unique, découvrez des ressources pré
 [Inscrivez-vous](https://www.adobe.com/subscription/dynamic-media-newsletter.html) pour recevoir le bulletin d'information sur les médias dynamiques tous les mois dans votre boîte de réception.
 
 ## Un numéro de la Newsletter Contenu multimédia dynamique est-il manquant ?
+
+* **[Novembre 2019, Numéro 11](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_11_2019_Nov.html)** Dans ce numéro :
+
+   * Actualisation de l’interface utilisateur de Dynamic Media Classic.
+   * Nouvelles fonctionnalités de sécurité puissantes.
+   * Comment nous nous préparons pour que vous ayez une saison de vacances réussie.
+   * Partagez la newsletter avec vos collègues pour développer l'expertise de votre équipe.
+   * Rencontrez Aporva Gupta, Responsable produit principal, Contenu multimédia dynamique.
 
 * **[Octobre 2019, Numéro 10](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_10_2019_Oct.html)** Dans ce numéro :
 
@@ -81,4 +89,4 @@ Dans ce bulletin d'information à guichet unique, découvrez des ressources pré
    * Inscrivez-vous au webinaire des fonctionnalités cachées de Dynamic Media Classic.
    * Découvrez notre série de webinaires à la demande pour vous aider à développer votre stratégie de média enrichi.
    * Découvrez les principaux cas d'utilisation des médias enrichis et nos solutions pour eux.
-   *  ... et bien plus encore !
+   * ... et bien plus encore !
