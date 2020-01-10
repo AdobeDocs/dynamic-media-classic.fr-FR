@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Dynamic Media Classic Help
 index: y
 translation-type: tm+mt
-source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
+source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
 
 + [Page d’accueil de la documentation de Dynamic Media Classic](home.md)
 + [Nouvelle interface utilisateur de Dynamic Media Classic à partir du premier semestre 2020](new-ui-2020.md)
-+ [Bulletin d'information sur les médias dynamiques par Experience League](dynamic-media-newsletter.md)
++ [Bulletin d&#39;information sur les médias dynamiques par Experience League](dynamic-media-newsletter.md)
 + Présentation d’Adobe Dynamic Media Classic {#intro}
    + [A propos de Contenu multimédia dynamique classique](introduction.md)
    + [Ressources du développeur](developer-resources.md)
@@ -25,6 +25,7 @@ source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
    + [Aide de Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
    + [Services de formation Adobe](training-services.md)
    + [Ressources populaires](popular-resources.md)
+   + [Vidéos de formation](training-videos.md)
 + Démarrage rapide {#getting-started}
    + [Présentation de la plate-forme Adobe Dynamic Media Classic](scene7-platform-overview.md)
    + [Utilisation de la version de bureau de Scene7 Publishing System](using-scene7-publishing-system-desktop.md)
@@ -152,7 +153,7 @@ source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
    + [Publication d’une visionneuse de supports variés](publishing-mixed-media-set.md)
    + [Liaison d’une visionneuse de supports variés à une page Web](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [Démarrage rapide : Intégration de Dynamic Media Classic à Adobe Analytics ](quick-start-integrating-scene7-analytics.md)
+   + [Démarrage rapide : Intégration de Dynamic Media Classic à Adobe Analytics](quick-start-integrating-scene7-analytics.md)
    + [Connexion à Adobe Analytics](log-analytics.md)
    + [Configuration des rapports Adobe Analytics](configuring-analytics-reports.md)
    + [Instrumentation d’une visionneuse avec le kit d’instrumentation Adobe Analytics](instrumenting-viewer-using-analytics-instrumentation.md)
