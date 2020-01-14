@@ -1,8 +1,8 @@
 ---
 title: Vidéos de formation à Dynamic Media Classic
-description: 'null'
+description: Vidéos de formation à Dynamic Media Classic sur la prise en main, l’imagerie dynamique, la vidéo, le portail multimédia, les modèles et la création et le rendu d’images.
 translation-type: tm+mt
-source-git-commit: 19126573aa4fa4d313e30273f0b1af03082565c8
+source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 ---
 
