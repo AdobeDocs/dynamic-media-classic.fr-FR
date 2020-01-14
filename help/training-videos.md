@@ -7,17 +7,11 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 ---
 
 
-# Vidéos de formation Adobe Dynamic Media Classic (#training-videos)
+# Vidéos de formation Adobe Dynamic Media Classic {#training-videos}
 
-* [Démarrage](#get-started-training)
-* [Traitement dynamique de l&#39;image](#dynamic-imaging-training)
-* [Vidéo](#video-training)
-* [Media Portal](#media-portal-training)
-* [Modèles](#templates-training)
-* [Points saillants de la version](#release-highlights)
-* [Création et rendu d’images](#image-authoring-rendering-training)
+Vidéos de formation à Dynamic Media Classic sur la prise en main, l’imagerie dynamique, la vidéo, le portail multimédia, les modèles et la création et le rendu d’images.
 
-## Prise en main (#get-started-training)
+## Démarrage {#get-started-training}
 
 * [Introduction](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/570_Introduction_converted%20renamed_Getting%20Started-AVS)
 
@@ -31,10 +25,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [Configuration des bases](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
 
-[Haut](#training-videos)
-
-
-## Imagerie dynamique (#dynamic-imaging-training)
+## Traitement dynamique de l&#39;image {#dynamic-imaging-training}
 
 * [Visionneuses à 360° 2D](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS)
 
@@ -66,9 +57,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [Démarrage rapide 2 : Catalogues électroniques](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
 
-[Haut](#training-videos)
-
-## Vidéo (#video-training)
+## Vidéo {#video-training}
 
 * [Présentation vidéo de MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
 
@@ -78,9 +67,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [Présentation de la diffusion en continu](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
-[Haut](#training-videos)
-
-## Media Portal (#media-portal-training)
+## Media Portal {#media-portal-training}
 
 * [Présentation du portail multimédia](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
 
@@ -88,15 +75,11 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [Visite du portail multimédia 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
-[Haut](#training-videos)
-
-## Modèles (#templates-training)
+## Modèles {#templates-training}
 
 * [Présentation du modèle](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)
 
-[Haut](#training-videos)
-
-## Points saillants des versions (#release-highlight)
+## Points saillants de la version {#release-highlights}
 
 * [SPS 6.0, présentation de la mise à jour](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/524_6.0%20Release%20Highlights_converted%20renamed_6.0%20Release%20Highlights-AVS)
 
@@ -110,22 +93,21 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [SPS 6.5, présentation de la mise à jour](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/529_6.5%20highlights_2012.11.06%20-%20Scene7%20-%206.5%20Release%20Highlights_Scratch-AVS)
 
-[Haut](#training-videos)
+## Création et rendu d’images {#image-authoring-rendering-training}
 
-## Création et rendu d’images (#image-authoring-render-training)
+Vidéos de formation sur divers aspects des sujets suivants :
 
-* [Colorisation](#colorizing)
-* [Mappage de modèles](#pattern-mapping)
-* [Carte d&#39;éclairage](#illumination-map)
-* [Outil Répétition de matériau](#material-repeat-tool)
-* [Objets de chevauchement](#overlap-objects)
-* [Scènes d’une salle 3D](#3d-room-scenes)
-* [Création d&#39;apparences](#apparel-authoring)
-* [Masquage](#masking)
-* [Rendu](#rendering)
+* Colorisation
+* Mappage de modèles
+* Carte d&#39;éclairage
+* Outil Répétition de matériau
+* Objets de chevauchement
+* Scènes d’une salle 3D
+* Création d&#39;apparences
+* Masquage
+* Rendu
 
-
-### Coloration (#colorizing)
+### Colorisation {#colorizing}
 
 * [Présentation de la coloration](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/500_01_overview1_ia_01colorizing-AVS)
 
@@ -167,11 +149,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [Erreurs de carte d&#39;éclairage](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/999_21_common_mistakes_bad_illumination_maps_ia_01colorizing-AVS)
 
-[Création et rendu d’images](#image-authoring-rendering-training)
-
-[Haut](#training-videos)
-
-### Mappage de modèles (#pattern-mapping)
+### Mappage de modèles {#pattern-mapping}
 
 * [Présentation du mappage des modèles](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/578_01_pattern_mapping_ov_ia_02pattern-AVS)
 
@@ -213,11 +191,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [Introduction aux modèles](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/597_IA002-Intro-Patterns_ia_02pattern-AVS)
 
-[Création et rendu d’images](#image-authoring-rendering-training)
-
-[Haut](#training-videos)
-
-### Carte de l&#39;éclairage (#illumination-map)
+### Carte d&#39;éclairage {#illumination-map}
 
 * [Exportation vers Adobe Photoshop](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/598_01_export_to_photoshop_ia_03illum-AVS)
 
@@ -229,11 +203,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [Introduction à l&#39;éclairage](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/602_IA003-Intro-Illumination_ia_03illum-AVS)
 
-[Création et rendu d’images](#image-authoring-rendering-training)
-
-[Haut](#training-videos)
-
-### Outil de répétition de matériau (#Material-repeat-tool)
+### Outil Répétition de matériau {#material-repeat-tool}
 
 * [Outil de répétition de matériau](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/603_01_MRT_ia_04mrt-AVS)
 
@@ -241,11 +211,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [Correction des valeurs PPI](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/605_03_correct%20PPI%20value_ia_04mrt-AVS)
 
-[Création et rendu d’images](#image-authoring-rendering-training)
-
-[Haut](#training-videos)
-
-### Objets de chevauchement (#overlaps-object)
+### Objets de chevauchement {#overlap-objects}
 
 * [Principes de base du chevauchement](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/607_01_overlap_basics_ia_05overlap-AVS)
 
@@ -255,11 +221,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [Présentation des objets de chevauchement](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/610_IA005-Intro-Overlap_ia_05overlap-AVS)
 
-[Création et rendu d’images](#image-authoring-rendering-training)
-
-[Haut](#training-videos)
-
-### Scènes d&#39;une salle 3D (#3d-room-scenes)
+### Scènes d’une salle 3D {#three-dimensional-room-scenes}
 
 * [Présentation du projet 3D](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/611_01_3D_project_ov_ia_06room3d-AVS)
 
@@ -277,11 +239,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [Avions à angle](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/618_08_angled_planes_ia_06room3d-AVS)
 
-[Création et rendu d’images](#image-authoring-rendering-training)
-
-[Haut](#training-videos)
-
-### Création de vêtements (#apparel-authoring)
+### Création d&#39;apparences {#apparel-authoring}
 
 * [Examen de la coloration des vêtements](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/620_700_apparel_colorization_review_ia_07apparel-AVS)
 
@@ -295,11 +253,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [Introduction aux vêtements](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/625_IA007-Intro-Apparel_ia_07apparel-AVS)
 
-[Création et rendu d’images](#image-authoring-rendering-training)
-
-[Haut](#training-videos)
-
-### Masquage (#masking)
+### Masquage {#masking}
 
 * [Présentation du masquage Adobe Photoshop](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/626_800_overview_of_photoshop_masking_ia_08masking-AVS)
 
@@ -311,11 +265,7 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [Présentation du masquage](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/630_IA008-Intro-Masking_ia_08masking-AVS)
 
-[Création et rendu d’images](#image-authoring-rendering-training)
-
-[Haut](#training-videos)
-
-### Rendu (#render)
+### Rendering {#rendering}
 
 * [Render math](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/632_900_render_math_ia_09rendering-AVS)
 
@@ -327,8 +277,8 @@ source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 * [Rendu des modificateurs d’URL](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/640_904_rendering_url_modifiers_ia_09rendering-AVS)
 
-* [Présentation du rendu](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/642_IA009-Intro-Rendering_ia_09rendering-AVS)
+* [Présentation du rendu](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/642_IA009-Intro-Rendering_ia_09rendering-AVS)\
 
-[Création et rendu d’images](#image-authoring-rendering-training)
 
-[Haut](#training-videos)
+
+
