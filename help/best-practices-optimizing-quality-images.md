@@ -5,12 +5,12 @@ description: 'null'
 seo-description: Découvrez les meilleures pratiques pour optimiser la qualité de vos images.
 uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
-content-type: référence
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 6b0833287291f6475ab15106e8f33ed0dda0b2d4
 
 ---
 
@@ -49,7 +49,7 @@ L’accentuation des images est l’aspect le plus complexe de contrôle des ima
 
 Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
-On Adobe TV, watch [Sharpening an image with unsharp mask](https://tv.adobe.com/watch/visual-design-cs6/sharpening-an-image-with-unsharp-mask/).
+Voir aussi [Accentuation d’une image avec un masque](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)flou.
 
 Avec Dynamic Media Classic, vous pouvez accentuer les images lors de l’assimilation, de la diffusion ou des deux. Dans la plupart des cas, cependant, il est préférable d’accentuer les images en utilisant uniquement l’une des deux méthodes, mais pas les deux. L’accentuation des images à la distribution, dans une URL, produit généralement de meilleurs résultats.
 
@@ -61,11 +61,11 @@ Il existe deux méthodes d’accentuation des images que vous pouvez utiliser :
    * `&op_sharpen=amount,radius,threshold`
 
       * `amount` (0-5, force de l’effet.)
-      * `radius` (0-250, largeur des "lignes d’accentuation" tracées autour de l’objet accentué, mesurée en pixels.)
+      * `radius` (0-250, largeur des &quot;lignes d’accentuation&quot; tracées autour de l’objet accentué, mesurée en pixels.)
 
          Keep in mind that the parameters `radius` and `amount` work against each other. La réduction `radius` peut être compensée par une augmentation `amount`. `Radius` permet un contrôle plus précis car une valeur plus faible n’accentue que les pixels de contour, tandis qu’une valeur plus élevée accentue une bande de pixels plus large.
 
-      * `threshold` (0-255, sensibilité de l'effet.)
+      * `threshold` (0-255, sensibilité de l&#39;effet.)
 
          Ce paramètre définit l’écart recherché entre les pixels accentués et la zone environnante avant qu’ils ne soient considérés comme des pixels de contour et ne soient accentués par le filtre. Le seuil permet d’éviter de trop accentuer les zones avec des couleurs similaires, comme des tons chair. Par exemple, une valeur de seuil de 12 ignore les légères variations de luminosité de la peau, afin de ne pas ajouter de bruit, tout en ajoutant un contraste sur les bords dans les zones contrastées, comme la zone où les cils rencontrent la peau.
       Pour plus d’informations sur la façon de définir ces trois paramètres, y compris les pratiques recommandées à appliquer avec le filtre, reportez-vous aux ressources suivantes :
