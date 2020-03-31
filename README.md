@@ -1,58 +1,14 @@
 ---
-source-git-commit: f5c296566dba4ea1a01ce74a537b7a94c92eef15
+source-git-commit: 72af899fe787f16d79d878c59e5e193b457cefad
 translation-type: tm+mt
 
 ---
-# Article Contribute
+# Documentation de Dynamic Media Classic
 
-Nous somme ouverts aux contributions de notre communauté ainsi que des employés d'Adobe en dehors des équipes de documentation.
+Il s’agit du référentiel de la documentation d’Adobe Dynamic Media Classic.
 
-## Code de conduite Adobe Open Source
+Vos contributions à la documentation sont les bienvenues. Consultez les ressources suivantes :
 
-Ce projet a adopté le code de conduite [Adobe Open Source](code-of-conduct.md) ou [le code de conduite. NET Foundation](https://dotnetfoundation.org/code-of-conduct). Pour plus d'informations, reportez-vous à l'article [Contribution](contributing.md) .
-
-## A propos de vos contributions au contenu Adobe
-
-Consultez le Guide du contributeur [Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
-
-La contribution de Contribute dépend du type et du type de modifications que vous souhaitez effectuer :
-
-### Modifications mineures
-
-Si vous rencontrez des mises à jour mineures en dehors de votre cœur, consultez l'article et cliquez sur le **lien Modifier** dans l'article qui renvoie à la source github pour l'article. Utilisez ensuite l'interface utilisateur github pour effectuer vos mises à jour. Pour plus d'informations, consultez le guide du contributeur général [d'Adobe](help/introduction.md) Docs.
-
-Les corrections mineures ou les clarifications que vous envoyez pour la documentation et les exemples de code dans ce renvoi sont couvertes par les conditions d'utilisation d'Adobe.
-
-### Modifications majeures ou nouveaux articles des membres de la communauté
-
-Si vous faites partie de la communauté Adobe et que vous souhaitez créer un nouvel article ou envoyer des modifications majeures, utilisez l'onglet Problèmes du référentiel Git pour envoyer un problème afin de démarrer une discussion avec l'équipe de documentation. Une fois que vous avez accepté un plan, vous devez travailler avec un employé pour vous aider à placer ce nouveau contenu dans une combinaison de référentiels publics et privés.
-
-<!--
-If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
--->
-
-### Changements majeurs par rapport aux employés d'Adobe
-
-Si vous êtes rédacteur technique, chef de programme ou développeur de l'équipe produit d'une solution [!UICONTROL Adobe Experience Cloud] et que vous avez la possibilité de contribuer aux articles techniques ou de les créer, utilisez le référentiel privé à `https://git.corp.adobe.com/AdobeDocs`l'adresse.
-
-<!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
-
-## Outils et configuration
-
-Les contributeurs de communauté peuvent utiliser l'interface utilisateur github pour modifier de base ou dupliquer le référentiel pour apporter des contributions importantes.
-
-Pour plus [d'informations, consultez le Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) du contributeur Adobe Docs.
-
-## Utilisation des marqueurs pour formater votre rubrique
-
-Tous les articles de ce référentiel utilisent le marquage stylé github. Si vous n'êtes pas familiarisé avec les balises, voir :
-
-* [Concepts de base des balises](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Signet d'applet imprimable](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-
-## Étiquettes
-
-Dans le référentiel public, des étiquettes automatisées sont assignées à des demandes d'extraction afin de nous aider à gérer le processus de demande d'extraction et à vous aider à savoir ce qui se passe avec votre demande d'extraction :
-
-* **Modification envoyée à l'auteur**: L'auteur a été informé de la demande d'extraction en attente.
-* **prêt à fusionner**: Prêt à être revue par notre équipe de révision de demande de service financier.
+* [contribution.md](contributing.md) Pour un aperçu de la manière de contribuer à la documentation.
+* [guidelines.md](guidelines.md) Pour obtenir un aperçu de ce qui est attendu dans les contributions et comment composer vos contributions documentaires.
+* [code-of-conduite.md](code-of-conduct.md) Pour un aperçu des normes de comportement auxquelles nous nous attendons en contribuant à ce projet de documentation.
