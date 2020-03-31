@@ -1,48 +1,59 @@
 ---
-source-git-commit: 31d89e17826bac5c7afa9faf0bc1d26f129da1e8
+source-git-commit: e38c05edf1fe238d6a36b878df9369eadd31d792
 translation-type: tm+mt
 
 ---
-# Contribution
+# Contribution à la documentation d’Adobe Dynamic Media Classic
 
-Merci d'avoir choisi de contribuer !
+Merci d’avoir choisi de contribuer à la documentation d’Adobe Dynamic Media Classic ! Nous somme ouverts aux contributions de contenu de toute notre communauté de lecteurs ainsi que de nos collègues employés d’Adobe.
 
-Vous trouverez ci-dessous un ensemble de directives à suivre lors de la contribution à ce projet.
+Ce fichier décrit comment vous pouvez contribuer et indique les directives à suivre lors de vos contributions.
 
-## Code de conduite
+## Code de conduite Adobe Open Source
 
-This project adheres to the Adobe [code of conduct](code-of-conduct.md). En participant, vous convenez de respecter ce code. Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Ce projet a adopté le code de conduite [Open Source d&#39;](code-of-conduct.md)Adobe. En contribuant à la documentation, vous acceptez de respecter ce code de conduite. Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Vous avez une question ?
+## Directives pour les contributions
 
-Commencez par poser un problème. Les détenteurs existants de ce projet peuvent atteindre
-un consensus autour de la direction du projet et des solutions de problèmes dans les threads
-de publication (le cas échéant).
+Bien que nous nous réjouissions de toute contribution à l&#39;amélioration de la documentation, nous demandons que les contributions respectent dans la mesure du possible certaines lignes directrices et normes. Pour plus d’informations, consultez les [Instructions relatives à la contribution à la documentation](guidelines.md) d’Adobe Dynamic Media Classic.
 
-## Contrat de licence du contributeur
+## Comment contribuer
 
-Toutes les contributions tierces à ce projet doivent être accompagnées d'un contrat de licence de contributeur
-signé. Cela donne à Adobe l’autorisation de redistribuer vos contributions dans le cadre du projet. [Signez notre CLA](https://opensource.adobe.com/cla.html). Vous n'avez besoin d'envoyer un CLA Adobe qu'une seule fois. Par conséquent, si vous l'avez déjà soumis,
-vous pouvez aller !
+Nous souhaitons faciliter au maximum la soumission de vos contributions. Vous pouvez contribuer de deux manières :
 
-## Révision du code
+* [Création d’un problème](#create-an-issue)
+* [Création d’une demande d’extraction](#create-a-pull-request)
 
-Tous les envois doivent prendre la forme de demandes d’extraction et doivent être examinés par les responsables du projet. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
-for more information on sending pull requests.
+La méthode que vous choisissez dépend du confort avec lequel vous modifiez vous-même la documentation dans GitHub.
 
-<!--
-Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
-submitting a pull request!
--->
+>[!NOTE]
+>
+>Les contributions que vous soumettez sont couvertes par les conditions d’utilisation d’ [Adobe.](https://www.adobe.com/legal/terms.html)
 
-## De Contributeur à Committer
+### Création d’une publication {#create-an-issue}
 
-Nous apprécions les contributions de notre communauté ! Si vous souhaitez aller plus loin que le contributeur
-et devenir un observateur avec un accès en écriture complet et un mot dans le projet, vous devez
-être invité au projet. Les délinquants existants utilisent un processus de nomination
-interne qui doit atteindre un consensus différé (le silence est approbation) avant l'envoi des invitations. Si vous pensez être qualifié et souhaitez être plus impliqué,
-n'hésitez pas à contacter les collaborateurs existants pour discuter de ce sujet.
+Avez-vous une suggestion, une observation sur les documents actuels, ou questionnez-vous la façon dont quelque chose est décrit ? Créez ensuite un problème. Les questions sont également excellentes si vous avez quelque chose à contribuer, mais ne vous sentez pas à l&#39;aise de modifier les documents ou de faire vous-même une demande d&#39;extraction.
 
-## Problèmes de sécurité
+Les problèmes vous permettent de décrire facilement votre idée d’amélioration aux documents et un membre de l’équipe de documentation peut la consulter. Il suffit de cliquer sur le lien **Journal d’une publication** en haut du panneau de navigation de droite sur une page pour créer une publication.
 
-Les problèmes de sécurité ne doivent pas être signalés dans ce suivi de problèmes. Envoyez plutôt [un problème à nos experts en sécurité.](https://helpx.adobe.com/security/alertus.html)
+### Création d’une requête d’extraction {#create-a-pull-request}
+
+Si vous rencontrez un problème et savez exactement comment le résoudre, envisagez de créer une requête d’extraction. Les requêtes Pull vous permettent d’apporter vos propres modifications à la documentation, qui sont ensuite examinées pour inclusion par un membre de l’équipe de documentation. Il vous suffit de cliquer sur le lien **Modifier cette page** en haut du panneau de navigation de droite sur n’importe quelle page pour apporter les modifications suggérées et créer la demande d’extraction.
+
+Toutes les demandes d&#39;extraction doivent être accompagnées d&#39;un accord de licence signé avec un [contributeur ou d&#39;un CLA.](https://opensource.adobe.com/cla.html)  Cela donne à Adobe l’autorisation de redistribuer vos contributions dans le cadre du projet. Vous n’avez besoin d’envoyer un CLA Adobe qu’une seule fois. Par conséquent, si vous en avez déjà soumis un, vous êtes ravis d’y aller !
+
+### Présentation rapide des vidéos
+
+Regardez la vidéo suivante pour un aperçu rapide de la création de problèmes et de l’extraction de requêtes.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27069)
+
+### Contributions des employés Adobe
+
+Si vous êtes un employé d’Adobe et souhaitez effectuer une demande d’extraction, utilisez le référentiel privé à l’adresse `https://git.corp.adobe.com/AdobeDocs`.
+
+Pour tout problème, n&#39;hésitez pas à utiliser les référentiels publics.
+
+## Informations complémentaires
+
+Pour plus d’informations sur l’utilisation de la plateforme de création GitHub, consultez le Guide [des contributeurs d’](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) Adobe Docs.
