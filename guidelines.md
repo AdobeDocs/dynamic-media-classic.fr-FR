@@ -1,5 +1,5 @@
 ---
-source-git-commit: 72af899fe787f16d79d878c59e5e193b457cefad
+source-git-commit: 648e8068125cca090a5f31a44c3795755a2b996f
 translation-type: tm+mt
 
 ---
@@ -35,9 +35,9 @@ Les exceptions à cette règle s’appliquent aux notes de mise à jour où les 
 
 Toutes les idées que vous pourriez avoir à améliorer la documentation sont les bienvenues à titre de contribution. Toutefois, les commentaires, les problèmes et les demandes d’extraction ne sont destinés qu’aux *contributions* . Elles ne sont pas destinées à répondre à vos questions sur l’utilisation de Dynamic Media Classic, la mise en oeuvre de votre projet ou la résolution de problèmes techniques.
 
-Toute question concernant l’utilisation de Dynamic Media Classic ou les erreurs techniques que vous pourriez rencontrer doit être signalée via le processus de prise en charge normal.
+Toute question concernant l’utilisation de Dynamic Media Classic ou les erreurs techniques que vous pourriez rencontrer doit être signalée via le portail [d’assistance aux entreprises](https://helpx.adobe.com/contact/enterprise-support.ec.html) Experience Cloud ou traitée dans la communauté [](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)Experience Cloud.
 
-***Les contributions à la documentation ne remplacent pas l’assistance*** Adobe et toute contribution de ce type demandant des réponses à des questions d’assistance sera rejetée.
+***Les contributions à la documentation ne remplacent pas celles du service d’assistance*** clientèle d’Adobe et toute contribution de ce type demandant des réponses à des questions d’assistance sera rejetée.
 
 ### Les contributions doivent clairement faire référence aux pages de documentation affectées.
 
