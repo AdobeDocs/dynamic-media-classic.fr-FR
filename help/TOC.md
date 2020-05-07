@@ -2,10 +2,13 @@
 cloud: experience-cloud
 product: dynamic media classic
 audience: end-user
-user-guide-title: Dynamic Media Classic Help
+user-guide-title: Aide de Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
+source-git-commit: 7739d61eac6ca4d278e88d570e9890a67669bcb8
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 78%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
 
 + [Page d’accueil de la documentation de Dynamic Media Classic](home.md)
 + [Nouvelle interface utilisateur de Dynamic Media Classic à partir du premier semestre 2020](new-ui-2020.md)
-+ [Bulletin d&#39;information sur les médias dynamiques par Experience League](dynamic-media-newsletter.md)
++ [Newsletter de médias dynamiques par Experience League](dynamic-media-newsletter.md)
 + Présentation d’Adobe Dynamic Media Classic {#intro}
    + [A propos de Contenu multimédia dynamique classique](introduction.md)
    + [Ressources du développeur](developer-resources.md)
@@ -42,7 +45,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Configuration de l’administration](administration-setup.md)
 + Media Portal {#media-portal}
    + [Configuration système requise](system-requirements-1.md)
-   + [Démarrage rapide : Media Portal](quick-start-media-portal-administration.md)
+   + [Début rapide : Portail multimédia](quick-start-media-portal-administration.md)
    + [Rôles utilisateur du portail multimédia](media-portal-user-roles.md)
    + [Création et gestion des groupes du portail multimédia](creating-media-portal-groups.md)
    + [Ajout et gestion des utilisateurs du portail multimédia](adding-media-portal-users.md)
@@ -87,7 +90,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Publication des images de zoom](publishing-zoom-images.md)
    + [Liaison des visionneuses de zoom à vos pages Web](linking-zoom-viewers-web-pages.md)
 + Catalogues électroniques {#ecatalogs}
-   + [Démarrage rapide : Catalogues électroniques](quick-start-ecatalog.md)
+   + [Début rapide : Catalogues électroniques](quick-start-ecatalog.md)
    + [Téléchargement des fichiers PDF](uploading-pdf-files.md)
    + [Création d’un catalogue électronique](creating-ecatalog.md)
    + [Création de zones cliquables dans un catalogue électronique](creating-ecatalog-image-maps.md)
@@ -127,16 +130,6 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Publication de modèles](publishing-templates.md)
    + [Liaison d’un modèle à une page Web](linking-template-web-page.md)
    + [Gestion des variations de contenu](content-variations.md)
-+ Template publishing {#template-publishing}
-   + [Démarrage rapide : Publication de modèles](quick-start-template-publishing.md)
-   + [Création du modèle initial dans Adobe Illustrator](create-initial-template-illustrator.md)
-   + [Téléchargement de fichiers pour le module de publication à l’aide de modèles prédéfinis](upload-files-template-publishing.md)
-   + [Définition de la variabilité : paramétrage et manipulation DOM](defining-variability-parameterization-versus-dom.md)
-   + [Paramétrage d’un modèle dans Dynamic Media Classic](parameterizing-template-scene7.md)
-   + [Prévisualisation et mise à jour des attributs de modèle](preview-update-template-attributes.md)
-   + [Manipulation DOM](dom-manipulation.md)
-   + [Liaison d’un modèle FXG à une page Web](linking-fxg-template-web-page.md)
-   + [Création d’un document PDF](creating-pdf-document.md)
 + Vidéo {#video}
    + [Démarrage rapide : Vidéo](quick-start-video.md)
    + [Meilleure pratique : Utilisation de la visionneuse de vidéos HTML5](best-practice-using-html5-video.md)
@@ -153,7 +146,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Publication d’une visionneuse de supports variés](publishing-mixed-media-set.md)
    + [Liaison d’une visionneuse de supports variés à une page Web](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [Démarrage rapide : Intégration de Dynamic Media Classic à Adobe Analytics](quick-start-integrating-scene7-analytics.md)
+   + [Début rapide : Intégration de Dynamic Media Classic à Adobe Analytics](quick-start-integrating-scene7-analytics.md)
    + [Connexion à Adobe Analytics](log-analytics.md)
    + [Configuration des rapports Adobe Analytics](configuring-analytics-reports.md)
    + [Instrumentation d’une visionneuse avec le kit d’instrumentation Adobe Analytics](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -161,11 +154,11 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Test de l’intégration en affichant un rapport Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Activation des rapports vidéo d’Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publication des informations de configuration d’Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Intégration de Target Classic {#target-classic}
-   + [Démarrage rapide : Intégration de Target Classic](quick-start-target-classic-integration.md)
-   + [Intégration d’Adobe Dynamic Media Classic à Adobe Target Classic](integrating-scene7-target-classic.md)
++ Intégration de Cible Classic {#target-classic}
+   + [Début rapide : Intégration de Cible Classic](quick-start-target-classic-integration.md)
+   + [Intégration d’Adobe Dynamic Media Classic à Adobe Cible Classic](integrating-scene7-target-classic.md)
    + [Création d’une visionneuse d’offres](creating-offer-set.md)
-   + [Pousser les visionneuses d’offres vers Adobe Target Classic](pushing-offer-sets-target-classic.md)
+   + [Pousser les visionneuses d’offres vers Adobe Cible Classic](pushing-offer-sets-target-classic.md)
 + Contenu généré par l’utilisateur {#user-generated-content}
    + [A propos du contenu généré par l’utilisateur](about-ugc.md)
    + [Suppression d’un fichier téléchargé](deleting-uploaded-asset.md)
