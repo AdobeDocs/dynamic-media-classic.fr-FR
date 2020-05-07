@@ -2,22 +2,25 @@
 title: Configuration personnelle
 seo-title: Configuration personnelle
 description: 'null'
-seo-description: Tous les utilisateurs peuvent modifier les paramètres de l'écran Configuration personnelle de Dynamic Media Classic.
-uuid: 29 cb 825 a-f 158-4 a 1 e -9 d 5 f -7636 ee 411 b 6 e
+seo-description: Tous les utilisateurs peuvent modifier les paramètres de l’écran Configuration personnelle de Dynamic Media Classic.
+uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/setup
-discoiquuid: 6314 e 7 b 7-5 bde -4 fe 2-8674-e 4 fc 525 d 4 d 1 c
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
+discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+workflow-type: tm+mt
+source-wordcount: '1209'
+ht-degree: 83%
 
 ---
 
 
 # Configuration personnelle {#personal-setup}
 
-Tous les utilisateurs peuvent modifier les paramètres de l’écran Configuration personnelle. Pour ouvrir l’écran Configuration personnelle, cliquez sur Configuration &gt; Configuration personnelle.
+Tous les utilisateurs peuvent modifier les paramètres de l’écran Configuration personnelle. Pour ouvrir l’écran Configuration personnelle, cliquez sur Configuration > Configuration personnelle.
 
 >[!NOTE]
 >
@@ -33,25 +36,6 @@ Identifie le nom de compte, le nom, le nom d’utilisateur (adresse électroniqu
 
 Cliquez sur Installer maintenant pour installer la version de bureau de Scene7 Publishing System sur le disque dur local. Sinon, cliquez sur Réinstaller maintenant pour réinstaller la version de bureau.
 
-### Module externe d’Illustator pour l’impression en ligne
-
-Sous Windows 7 ou 8, vous devez disposer de droits d’administrateur et être connecté en tant qu’administrateur sous Windows pour installer le module externe d’Adobe Illustrator pour l’impression en ligne. Une fois le module externe installé, il est disponible dans Adobe Illustrator.
-
-Le module externe est pris en charge pour les versions suivantes d’Adobe Illustrator :
-
-* Adobe Illustrator 18 dans Adobe Creative Cloud 2014.
-* Adobe Illustrator 17 dans Adobe Creative Cloud.
-* Adobe Illustrator 16 dans Adobe Creative Suite 6.
-
-Les plates-formes prises en charge d’Adobe Illustrator sont les suivantes :
-
-* Appel Mac OS X 10.7 ou version ultérieure.
-* Windows 8, 32 et 64 bits.
-* Windows 7, 32 et 64 bits.
-* Windows XP, 32 et 64 bits (pour Adobe Illustrator 16 dans Adobe Creative Suite 6 uniquement).
-
-Voir aussi [Module de publication à l’aide de modèles prédéfinis](quick-start-template-publishing.md).
-
 ## Pour installer le module externe sur votre disque dur local
 
 1. Sur la page Configuration personnelle dans Scene7 Publishing System, sous le module externe d’Illustrator pour l’impression en ligne, cliquez sur **Télécharger maintenant** pour télécharger le fichier **Module externe d’Illustrator pour Web-to-Print.zip**.
@@ -65,17 +49,17 @@ Voir aussi [Module de publication à l’aide de modèles prédéfinis](quick-st
 
 | Si vous exécutez | Instructions : |
 |--- |--- |
-| Adobe Illustrator 18 dans Adobe Creative Cloud 2014 | <ul><li>A partir de la racine du dossier décompressé, cliquez sur CC-2014.</li><li>Selon la version de bits d’Adobe Illustrator utilisée, cliquez sur win32 ou sur win64.</li><li>Cliquez sur Bibliothèques &gt; flamme, puis copiez `aflame.dll` dans le dossier exécutable d’Adobe Illustrator. Par exemple, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Remarque**: Cet exemple de chemin concerne l'emplacement 64 bits ; l'emplacement 32 bits peut se trouver sous Program Files (x 86). <br/><ul><li>Revenez au même dossier Bibliothèques, cliquez sur flamingo, puis copiez `aflamingo.dll` dans le même dossier exécutable d’Adobe Illustrator utilisé à l’étape précédente. </li><li>Revenez au dossier win32 ou win64 sélectionné à l’étape 2, puis copiez `AdobeS7FXGFileFormat.aip` dans le dossier Modules externes d’Adobe Illustrator. Par exemple, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Remarque**: Cet exemple de chemin concerne l'emplacement 64 bits ; l'emplacement 32 bits peut se trouver sous Program Files (x 86). |
-| Adobe Illustrator 17 dans Adobe Creative Cloud | <ul><li>A partir de la racine du dossier décompressé, cliquez sur CC. </li><li>Selon la version de bits d’Adobe Illustrator utilisée, cliquez sur win32 ou sur win64.</li><li> Copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator's plug-ins folder. Par exemple, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Remarque**: Cet exemple de chemin concerne l'emplacement 64 bits ; l'emplacement 32 bits peut se trouver sous Program Files (x 86). |
-| Adobe Illustrator 16 dans Adobe Creative Suite 6 | <ul><li>A partir de la racine du dossier décompressé, cliquez sur 6.0. </li><li>Selon la version de bits d’Adobe Illustrator utilisée, cliquez sur win32 ou sur win64. </li><li>Copiez AdobeS7FXGFileFormat.aip dans le dossier des modules externes d’Adobe Illustrator. Par exemple, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Remarque**: Cet exemple de chemin concerne l'emplacement 64 bits ; l'emplacement 32 bits peut se trouver sous Program Files (x 86). |
+| Adobe Illustrator 18 dans Adobe Creative Cloud 2014 | <ul><li>A partir de la racine du dossier décompressé, cliquez sur CC-2014.</li><li>Selon la version de bits d’Adobe Illustrator utilisée, cliquez sur win32 ou sur win64.</li><li>Cliquez sur Bibliothèques > flamme, puis copiez `aflame.dll` dans le dossier exécutable d’Adobe Illustrator. Par exemple, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Remarque **: Cet exemple de chemin d’accès correspond à l’emplacement 64 bits ; l’emplacement 32 bits peut être placé sous Fichiers Programme (x86).<br/><ul><li>Revenez au même dossier Bibliothèques, cliquez sur flamingo, puis copiez `aflamingo.dll` dans le même dossier exécutable d’Adobe Illustrator utilisé à l’étape précédente. </li><li>Revenez au dossier win32 ou win64 sélectionné à l’étape 2, puis copiez `AdobeS7FXGFileFormat.aip` dans le dossier Modules externes d’Adobe Illustrator. Par exemple, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Remarque **: Cet exemple de chemin d’accès correspond à l’emplacement 64 bits ; l’emplacement 32 bits peut être placé sous Fichiers Programme (x86). |
+| Adobe Illustrator 17 dans Adobe Creative Cloud | <ul><li>A partir de la racine du dossier décompressé, cliquez sur CC. </li><li>Selon la version de bits d’Adobe Illustrator utilisée, cliquez sur win32 ou sur win64.</li><li> Copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator&#39;s plug-ins folder. Par exemple, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Remarque **: Cet exemple de chemin d’accès correspond à l’emplacement 64 bits ; l’emplacement 32 bits peut être placé sous Fichiers Programme (x86). |
+| Adobe Illustrator 16 dans Adobe Creative Suite 6 | <ul><li>A partir de la racine du dossier décompressé, cliquez sur 6.0. </li><li>Selon la version de bits d’Adobe Illustrator utilisée, cliquez sur win32 ou sur win64. </li><li>Copiez AdobeS7FXGFileFormat.aip dans le dossier des modules externes d’Adobe Illustrator. Par exemple, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Remarque **: Cet exemple de chemin d’accès correspond à l’emplacement 64 bits ; l’emplacement 32 bits peut être placé sous Fichiers Programme (x86). |
 
 ### Mac
 
 | Si vous exécutez | Instructions : |
 |--- |--- |
-| Adobe Illustrator 18 dans Adobe Creative Cloud 2014 | <ul><li>A partir de la racine du dossier décompressé, cliquez sur  CC-2014 &gt; mac64.</li><li>Cliquez sur Bibliothèques &gt; flame, puis copiez le dossier `aflame.framework` dans le dossier de contenu de package d’Adobe Illustrator. Par exemple, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (Pour ouvrir le dossier du contenu du pack d'Adobe Illustrator, cliquez avec le bouton droit de la souris sur l'icône Adobe illustrator CC 2014 et cliquez sur Afficher le contenu du progiciel dans le menu contextuel).</li><li>Revenez au même dossier bibliothèques, cliquez sur `flamingo`, puis copiez le dossier `aflamingo.framework` dans le même dossier de contenu du package d’Adobe Illustrator utilisé à l’étape précédente.</li><li>Revenez au dossier mac64 sélectionné à l’étape 1, puis copiez le dossier `AdobeS7FXGFileFormat.aip` dans le dossier du module externe d’Adobe Illustrator. Par exemple, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Illustrator 17 dans Adobe Creative Cloud | <ul><li>A partir de la racine du dossier décompressé, cliquez sur CC &gt; mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. Par exemple, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Illustrator 16 dans Adobe Creative Suite 6 | <ul><li>A partir de la racine du dossier décompressé, cliquez sur 6.0 &gt; mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. Par exemple, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul> |
+| Adobe Illustrator 18 dans Adobe Creative Cloud 2014 | <ul><li>A partir de la racine du dossier décompressé, cliquez sur  CC-2014 > mac64.</li><li>Cliquez sur Bibliothèques > flame, puis copiez le dossier `aflame.framework` dans le dossier de contenu de package d’Adobe Illustrator. Par exemple, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (Pour ouvrir le dossier de contenu du package d’Adobe Illustrator, cliquez avec le bouton droit de la souris sur l’icône Adobe illustrator CC 2014, puis cliquez sur Afficher le contenu du package dans le menu contextuel).</li><li>Revenez au même dossier bibliothèques, cliquez sur `flamingo`, puis copiez le dossier `aflamingo.framework` dans le même dossier de contenu du package d’Adobe Illustrator utilisé à l’étape précédente.</li><li>Revenez au dossier mac64 sélectionné à l’étape 1, puis copiez le dossier `AdobeS7FXGFileFormat.aip` dans le dossier du module externe d’Adobe Illustrator. Par exemple, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
+| Adobe Illustrator 17 dans Adobe Creative Cloud | <ul><li>A partir de la racine du dossier décompressé, cliquez sur CC > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. Par exemple, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
+| Adobe Illustrator 16 dans Adobe Creative Suite 6 | <ul><li>A partir de la racine du dossier décompressé, cliquez sur 6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. Par exemple, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul> |
 
 Le module externe est désormais disponible pour être utilisé dans Adobe Illustrator.
 
@@ -122,7 +106,7 @@ Voir aussi [Champs définis par l’utilisateur](application-setup.md#user_defin
 ## E-mail
 
 * **Options de messagerie**
-   * Choisissez comment vous souhaitez que Dynamic Media Classic vous informe par e-mail lorsque des tâches de téléchargement et de publication sont terminées. Vous pouvez recevoir des avis de fin de travaux uniquement si des avertissements ou des erreurs se sont produits.
+   * Choisissez comment vous souhaitez que Dynamic Media Classic vous informe par e-mail lorsque les tâches de téléchargement et de publication sont terminées. Vous pouvez recevoir des avis de fin de travaux uniquement si des avertissements ou des erreurs se sont produits.
 * **Destinataires des e-mails**
    * Indique si vous recevez tous les e-mails des tâches de votre société ou uniquement les e-mails sur les tâches de téléchargement et de publication que vous avez lancées.
 * **Types d’e-mails**
@@ -132,13 +116,12 @@ Voir aussi [Champs définis par l’utilisateur](application-setup.md#user_defin
    * Détermine la langue de l’interface.
 * **Mot de passe**
 * **Nouveau mot de passe**
-   * Saisissez un nouveau mot de passe valide. Votre mot de passe doit respecter les exigences suivantes :
+   * Entrez un nouveau mot de passe valide. Votre mot de passe doit répondre aux exigences suivantes :
       * Comporter entre 8 et 25 caractères
       * Contenir au moins une lettre minuscule
       * Contenir au moins une lettre majuscule
       * Contenir au moins un nombre
-      * Contient au moins l'un des caractères spéciaux suivants : # $ &amp;-_ : {}
-
+      * Contenir au moins l’un des caractères spéciaux suivants : #$&amp;-_:{}
 * **Confirmer le mot de passe**
    * Entrez une seconde fois le nouveau mot de passe pour vous assurer de le saisir correctement.
 * **Expiration du mot de passe**
