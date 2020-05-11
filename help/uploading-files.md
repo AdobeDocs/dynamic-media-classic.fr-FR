@@ -9,7 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: e37612b066909fdba486bd72ee4ae3712294f50a
+source-git-commit: d5dcc67200b636cafcf1c87b2ecdfb2271b7b9a2
+workflow-type: tm+mt
+source-wordcount: '3867'
+ht-degree: 51%
 
 ---
 
@@ -52,6 +55,8 @@ La fonction de transfert au format TAR et ZIP offre une case à cocher permettan
 ### Formats d’image non pris en charge dans Contenu multimédia dynamique {#unsupported-image-formats-dynamic-media}
 
 La liste suivante décrit les sous-types de formats de fichier image pixellisée qui *ne sont pas* pris en charge dans Contenu multimédia dynamique.
+
+Voir aussi [Détection de formats de fichier non pris en charge pour le contenu multimédia](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html)dynamique.
 
 * Fichiers PNG dont la taille de bloc IDAT est supérieure à 100 Mo.
 * Fichiers PSB.
