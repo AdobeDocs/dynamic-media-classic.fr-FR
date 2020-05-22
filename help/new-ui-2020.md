@@ -1,15 +1,15 @@
 ---
-title: Nouvelle interface utilisateur de Dynamic Media Classic à partir du premier semestre 2020
-seo-title: Nouvelle interface utilisateur de Dynamic Media Classic à partir du premier semestre 2020
-description: Les utilisateurs de Dynamic Media Classic peuvent s’attendre à une actualisation de leur interface utilisateur au cours du premier semestre 2020. L’expérience fournit une connexion mise à jour avec des liens vers des ressources précieuses, en plus de cette mise à jour ne dépend plus de la technologie Adobe Flash dans le navigateur.
-seo-description: Les utilisateurs de Dynamic Media Classic peuvent s’attendre à une actualisation de leur interface utilisateur au cours du premier semestre 2020. L’expérience fournit une connexion mise à jour avec des liens vers des ressources précieuses, en plus de cette mise à jour ne dépend plus de la technologie Adobe Flash dans le navigateur.
+title: Nouvelle expérience de connexion à Dynamic Media Classic disponible le 30 juin 2020
+seo-title: Nouveau Dynamic Media Classic le 30 juin 2020
+description: Les utilisateurs de Dynamic Media Classic peuvent s’attendre à une actualisation de leur interface utilisateur le 30 juin 2020. L’expérience fournit une connexion mise à jour avec des liens vers des ressources précieuses, en plus de cette mise à jour ne dépend plus de la technologie Adobe Flash dans le navigateur.
+seo-description: Les utilisateurs de Dynamic Media Classic peuvent s’attendre à une actualisation de leur interface utilisateur le 30 juin 2020. L’expérience fournit une connexion mise à jour avec des liens vers des ressources précieuses, en plus de cette mise à jour ne dépend plus de la technologie Adobe Flash dans le navigateur.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 718067c87239044a827c66f72f7a2d0a476a23f6
+source-git-commit: 3fa61a14b21b7cdc6c71d43d5ad9fd84c1ee89b4
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
