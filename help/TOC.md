@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Aide de Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 3fa61a14b21b7cdc6c71d43d5ad9fd84c1ee89b4
+source-git-commit: 46285648da0e4c53c9ce08fc088705853e6a3a46
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 78%
+source-wordcount: '719'
+ht-degree: 77%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 78%
 + [Page d’accueil de la documentation de Dynamic Media Classic](home.md)
 + [NOUVEAUTÉ Connexion à Dynamic Media Classic disponible le 30 juin 2020](new-ui-2020.md)
 + [Newsletter de médias dynamiques par Experience League](dynamic-media-newsletter.md)
-+ Présentation d’Adobe Dynamic Media Classic {#intro}
++ Présentation de Adobe Dynamic Media Classic {#intro}
    + [A propos de Contenu multimédia dynamique classique](introduction.md)
    + [Ressources du développeur](developer-resources.md)
    + [Nouveautés](whats-new.md)
    + [Configuration système requise](system-requirements.md)
-   + [Application de bureau Adobe Dynamic Media Classic bientôt disponible !](dynamic-media-classic-desktop-app.md)
+   + [L’application de bureau Adobe Dynamic Media Classic sera bientôt disponible !](dynamic-media-classic-desktop-app.md)
    + [Assistance](support.md)
    + [Aide de Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
    + [Services de formation Adobe](training-services.md)
@@ -31,7 +31,6 @@ ht-degree: 78%
    + [Vidéos de formation](training-videos.md)
 + Démarrage rapide {#getting-started}
    + [Présentation de la plate-forme Adobe Dynamic Media Classic](scene7-platform-overview.md)
-   + [Utilisation de la version de bureau de Scene7 Publishing System](using-scene7-publishing-system-desktop.md)
    + [Media Portal](media-portal.md)
    + [Connexion et déconnexion](signing-out.md)
    + [Navigation - Notions élémentaires](navigation-basics.md)
@@ -156,9 +155,9 @@ ht-degree: 78%
    + [Publication des informations de configuration d’Adobe Analytics](publishing-analytics-configuration-information.md)
 + Intégration de Cible Classic {#target-classic}
    + [Début rapide : Intégration de Cible Classic](quick-start-target-classic-integration.md)
-   + [Intégration d’Adobe Dynamic Media Classic à Adobe Cible Classic](integrating-scene7-target-classic.md)
+   + [Intégration de Adobe Dynamic Media Classic à Adobe Cible Classic](integrating-scene7-target-classic.md)
    + [Création d’une visionneuse d’offres](creating-offer-set.md)
-   + [Pousser les visionneuses d’offres vers Adobe Cible Classic](pushing-offer-sets-target-classic.md)
+   + [Pousser les jeux d’offres vers Adobe Cible Classic](pushing-offer-sets-target-classic.md)
 + Contenu généré par l’utilisateur {#user-generated-content}
    + [A propos du contenu généré par l’utilisateur](about-ugc.md)
    + [Suppression d’un fichier téléchargé](deleting-uploaded-asset.md)
