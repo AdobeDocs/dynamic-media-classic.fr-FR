@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 6b0833287291f6475ab15106e8f33ed0dda0b2d4
+source-git-commit: 707afa544ffcea8885631c9fca8b432bc7af6860
+workflow-type: tm+mt
+source-wordcount: '1527'
+ht-degree: 60%
 
 ---
 
@@ -21,13 +24,13 @@ L’optimisation de la qualité des images peut prendre un certain temps, car de
 
 Dynamic Media Classic comprend plus de 100 commandes de traitement d’images pour le réglage et l’optimisation des images et des résultats de rendu. Les conseils suivants vous aideront à simplifier le processus et à obtenir rapidement de bons résultats en utilisant quelques commandes essentielles et en appliquant les pratiques recommandées.
 
-Voir aussi [Imagerie](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)dynamique.
+Voir aussi Images [](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)intelligentes.
 
 ## Recommandations relatives au format d’image (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * Les formats JPG et PNG sont les mieux adaptés pour obtenir des images de bonne qualité, d’une taille et d’un volume gérables.
-* Si aucune commande de format n’est fournie dans l’URL, la diffusion au format JPG par défaut est effectuée.
-* Le format JPG compresse les images à un taux de 10:1 et produit généralement des images plus petites. Le format PNG compresse les images à un taux d’environ 2:1, sauf dans certains cas, notamment quand les images comportent un arrière-plan blanc. En général, toutefois, les fichiers PNG sont plus gros que les fichiers JPG.
+* Si aucune commande de format n’est fournie dans l’URL, la fonction de traitement d’image Contenu multimédia dynamique utilise par défaut le format JPG pour la diffusion.
+* Le format JPG compresse les images à un taux de 10:1 et produit généralement des images plus petites. Le format PNG compresse les images à un rapport d’environ 2:1, sauf dans certains cas, par exemple lorsque les images contiennent un arrière-plan vide. En général, toutefois, les fichiers PNG sont plus gros que les fichiers JPG.
 * JPG utilise une compression avec perte, ce qui signifie que des éléments d’image (pixels) sont perdus lors de la compression. Le format PNG, en revanche, utilise une compression sans perte.
 * Généralement, le format JPG compresse les images photographiques avec une plus grande fidélité que les images de synthèse avec des bords nets et un fort contraste.
 * Si vos images contiennent de la transparence, utilisez le format PNG car JPG ne prend pas en charge la transparence.
@@ -36,16 +39,16 @@ Pour le format des images, il est recommandé de commencer par le paramètre le 
 
 ## Recommandations relatives à la taille des images {#best-practices-for-image-size}
 
-La réduction dynamique de la taille de l’image est l’une des tâches les plus courantes exécutées par le service d’image Contenu multimédia dynamique. Cela implique de définir la taille et, éventuellement, le mode de sous-échantillonnage à utiliser.
+La réduction dynamique de la taille de l’image est l’une des tâches les plus courantes exécutées par la diffusion d’images de Contenu multimédia dynamique. Cela implique de définir la taille et, éventuellement, le mode de sous-échantillonnage à utiliser.
 
-* Pour le dimensionnement des images, la meilleure approche et la plus simple consiste à utiliser `&wid=<value>` et `&hei=<value>` ou simplement `&hei=<value>`. Ces paramètres définissent automatiquement la largeur de l’image par rapport à ses proportions.
-* `&resMode=<value>` contrôle l’algorithme utilisé pour le sous-échantillonnage. Commencez par `&resMode=sharp2`. Cette valeur fournit la meilleure qualité d’image. While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
+* Pour le dimensionnement d’image, la meilleure et la plus simple approche consiste à utiliser `&wid=<value>` et `&hei=<value>` ou simplement `&hei=<value>`. Ces paramètres définissent automatiquement la largeur de l’image par rapport à ses proportions.
+* `&resMode=<value>` contrôle l’algorithme utilisé pour le sous-échantillonnage. Début avec `&resMode=sharp2`. Cette valeur fournit la meilleure qualité d’image. While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
 
 Il est recommandé d’utiliser `&wid=<value>&hei=<value>&resMode=sharp2` ou `&hei=<value>&resMode=sharp2`
 
 ## Recommandations relatives à l’accentuation des images {#best-practices-for-image-sharpening}
 
-L’accentuation des images est l’aspect le plus complexe de contrôle des images sur votre site Web, et aussi source de nombreuses erreurs. Prenez le temps d’en savoir plus sur le fonctionnement de l’accentuation et du masquage flou dans Dynamic Media Classic en vous reportant aux ressources utiles suivantes :
+L’accentuation des images est l’aspect le plus complexe de contrôle des images sur votre site Web, et aussi source de nombreuses erreurs. Prenez le temps d’en savoir plus sur le fonctionnement de l’accentuation et du masquage flou dans Dynamic Media Classic en consultant les ressources utiles suivantes :
 
 Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
@@ -60,14 +63,14 @@ Il existe deux méthodes d’accentuation des images que vous pouvez utiliser :
 
    * `&op_sharpen=amount,radius,threshold`
 
-      * `amount` (0-5, force de l’effet.)
+      * `amount` (0-5, résistance de l&#39;effet.)
       * `radius` (0-250, largeur des &quot;lignes d’accentuation&quot; tracées autour de l’objet accentué, mesurée en pixels.)
 
          Keep in mind that the parameters `radius` and `amount` work against each other. La réduction `radius` peut être compensée par une augmentation `amount`. `Radius` permet un contrôle plus précis car une valeur plus faible n’accentue que les pixels de contour, tandis qu’une valeur plus élevée accentue une bande de pixels plus large.
 
       * `threshold` (0-255, sensibilité de l&#39;effet.)
 
-         Ce paramètre définit l’écart recherché entre les pixels accentués et la zone environnante avant qu’ils ne soient considérés comme des pixels de contour et ne soient accentués par le filtre. Le seuil permet d’éviter de trop accentuer les zones avec des couleurs similaires, comme des tons chair. Par exemple, une valeur de seuil de 12 ignore les légères variations de luminosité de la peau, afin de ne pas ajouter de bruit, tout en ajoutant un contraste sur les bords dans les zones contrastées, comme la zone où les cils rencontrent la peau.
+         Ce paramètre détermine la différence entre les pixels accentués et la zone environnante avant qu’ils ne soient considérés comme des pixels de contour et que le filtre ne les renforce. Le seuil permet d’éviter de trop accentuer les zones avec des couleurs similaires, comme des tons chair. Par exemple, une valeur de seuil de 12 permet d’ignorer les légères variations de la luminosité de la peau pour éviter d’ajouter du « bruit », tout en ajoutant un contraste sur les bords dans les zones à fort contraste, comme l’endroit où les cils rencontrent la peau.
       Pour plus d’informations sur la façon de définir ces trois paramètres, y compris les pratiques recommandées à appliquer avec le filtre, reportez-vous aux ressources suivantes :
 
       Rubrique d’aide de Dynamic Media Classic sur l’ [accentuation d’une image](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
@@ -124,7 +127,7 @@ Si les résultats de l’accentuation ne sont toujours pas satisfaisants, augmen
 
 Tandis que vous testez différentes valeurs, vous trouverez peut-être également les suggestions générales suivantes utiles pour optimiser votre processus :
 
-* Testez différents paramètres en temps réel, soit directement sur une URL de type Contenu multimédia dynamique, soit à l’aide de la fonctionnalité de réglage d’image de Scene7 Publishing System, qui fournit des aperçus en temps réel pour les opérations de réglage.
-* En règle générale, n’oubliez pas que vous pouvez regrouper les commandes de diffusion d’images de médias dynamiques dans un paramètre d’image prédéfini. An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. Le nom du paramètre prédéfini personnalisé dans un chemin d’URL invoque ces paramètres prédéfinis. Cette fonctionnalité permet de gérer les commandes et les paramètres de qualité de différents gabarits d’utilisation des images sur votre site Web et réduit en outre la longueur totale des URL.
-* Dynamic Media Classic propose également des méthodes plus avancées d’optimisation de la qualité d’image, comme l’application d’images d’accentuation lors de l’assimilation. Pour les cas d’utilisation plus complexes où il peut s’avérer nécessaire d’affiner et d’optimiser les résultats de rendu, n’hésitez pas à faire appel à Adobe Professional Services.
+* Testez différents paramètres en temps réel, directement sur une URL Dynamic Media Classic ou en utilisant la fonctionnalité de réglage d’image de Scene7 Publishing System qui fournit des prévisualisations en temps réel pour les opérations de réglage.
+* En règle générale, n’oubliez pas que vous pouvez regrouper les commandes de diffusion d’images dans un paramètre d’image prédéfini. An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. Le nom du paramètre prédéfini personnalisé dans un chemin d’URL invoque ces paramètres prédéfinis. Cette fonctionnalité permet de gérer les commandes et les paramètres de qualité de différents gabarits d’utilisation des images sur votre site Web et réduit en outre la longueur totale des URL.
+* Dynamic Media Classic propose également des méthodes plus avancées d’optimisation de la qualité d’image, telles que l’application d’une accentuation des images à l’assimilation. Pour les cas d’utilisation plus complexes où il peut s’avérer nécessaire d’affiner et d’optimiser les résultats de rendu, n’hésitez pas à faire appel à Adobe Professional Services.
 
