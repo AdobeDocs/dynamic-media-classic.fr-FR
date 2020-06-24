@@ -2,24 +2,27 @@
 title: Configuration système requise
 seo-title: Configuration système requise
 description: 'null'
-seo-description: 'Découvrez la configuration requise pour optimiser l''expérience à l''aide de Media Portal. '
-uuid: e 870 b 198-19 ae -4647-8833-2764358 de 53 d
+seo-description: 'Découvrez la configuration système requise pour optimiser l’utilisation de Media Portal. '
+uuid: e870b198-19ae-4647-8833-2764358de53d
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/media_ portal
-discoiquuid: 43 df 059 d -7 c 4 d -481 a -978 a-ca 4 c 74 e 604 b 4
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 43df059d-7c4d-481a-978a-ca4c74e604b4
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1c4fdd6493d36be91ed015f019f5d4205d5cae41
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 44%
 
 ---
 
 
 # Configuration requise pour Media Portal {#system-requirements}
 
-Pour optimiser l'expérience de Media Portal Classic Media Classic, assurez-vous que votre système respecte la configuration requise suivante :
+Pour profiter au mieux de Dynamic Media Classic Media Portal, assurez-vous que votre système est conforme à la configuration requise et aux recommandations suivantes :
 
-* Microsoft® Windows® 7 ou ultérieur ou Mac OS X 10.6 ou ultérieur ; processeur Macintosh® Intel requis.
+* Microsoft® Windows® 7 ou version ultérieure ou macOS X 10.6 ou version ultérieure Processeur Macintosh® Intel requis.
 * 3 Go de RAM (4 Go ou plus recommandé).
 * Moniteur couleur.
 * Carte vidéo prenant en charge les couleurs vraies à une résolution de 1280 x 1024 pixels ou plus.
