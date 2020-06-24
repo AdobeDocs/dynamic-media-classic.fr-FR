@@ -2,48 +2,51 @@
 title: '"Meilleure pratique : Utilisation de la visionneuse de vidéos HTML5"'
 seo-title: '"Meilleure pratique : Utilisation de la visionneuse de vidéos HTML5"'
 description: 'null'
-seo-description: Découvrez les meilleures pratiques relatives à l'utilisation de la visionneuse de vidéos HTML 5.
-uuid: 3 c 8924 dc -7 bea -4 c 25-b 77 b -005 f 57 b 71 b 64
+seo-description: Découvrez les meilleures pratiques d’utilisation de la visionneuse de vidéos HTML5.
+uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/video
-discoiquuid: 4 b 11 cab 7-88 cf -42 dd -8554-2 eea 530753 bb
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 30%
 
 ---
 
 
 # Meilleure pratique : Utilisation de la visionneuse de vidéos HTML5{#best-practice-using-the-html-video-viewer}
 
-Les paramètres prédéfinis de visionneuse vidéo HTML 5 Dynamic Media Classic sont des lecteurs vidéo fiables. En ce qui concerne la conception du lecteur, vous pouvez créer toutes les fonctionnalités du lecteur vidéo à l'aide d'outils de développement Web standard. Vous pouvez, par exemple, concevoir les boutons, les commandes et les affiches personnalisées en arrière-plan au moyen du code HTML5 et CSS afin de mieux cibler les utilisateurs avec un aspect personnalisé.
+Les paramètres prédéfinis de la visionneuse de vidéos HTML5 Dynamic Media Classic sont des lecteurs vidéo fiables. Du côté de la conception du lecteur, vous pouvez créer toutes les fonctionnalités du lecteur vidéo à l’aide d’outils de développement Web standard. Vous pouvez, par exemple, concevoir les boutons, les commandes et les affiches personnalisées en arrière-plan au moyen du code HTML5 et CSS afin de mieux cibler les utilisateurs avec un aspect personnalisé.
 
-En ce qui concerne la lecture, la visionneuse, détecte automatiquement les fonctionnalités vidéo du navigateur. Il diffuse ensuite la vidéo à l'aide de HLS (diffusion de vidéo adaptative). Ou, si cette méthode de livraison n'est pas présente, le progressif HTML 5 est utilisé à la place.
+En ce qui concerne la lecture, la visionneuse, détecte automatiquement les fonctionnalités vidéo du navigateur. Il diffuse ensuite la vidéo à l’aide de HLS (diffusion en flux continu de vidéo adaptative). Ou, si cette méthode de diffusion n’est pas présente, le format HTML5 progressif est utilisé à la place.
 
 En combinant dans un lecteur unique la capacité de concevoir les composants de lecture à l’aide de code HTML5 et CSS, d’avoir accès à la lecture incorporée et d’utiliser les flux continus adaptatifs et progressifs selon la capacité du navigateur, vous pouvez étendre la portée de votre contenu multimédia aux utilisateurs d’appareils mobiles et d’ordinateurs de bureau et garantir ainsi une expérience vidéo rationalisée.
 
-Voir aussi [A propos des visionneuses HTML 5](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_viewers_about.html) dans le guide de référence des visionneuses Adobe.
+Voir aussi [A propos des visionneuses](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) HTML5 dans le Guide de référence des visionneuses Adobe.
 
-## Lecture de vidéos sur les ordinateurs de bureau et les périphériques mobiles à l'aide de la visionneuse vidéo Classic Media Classic {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
+## Lecture de la vidéo sur les ordinateurs de bureau et les périphériques mobiles à l’aide de la visionneuse de vidéos Dynamic Media Classic {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
-Pour la diffusion en flux continu de vidéo adaptative pour ordinateur de bureau et mobile, les vidéos utilisées pour le changement de débit sont basées sur toutes les vidéos MP 4 dans la visionneuse de vidéos adaptative.
+Pour la diffusion en flux continu de vidéo adaptative sur ordinateur et sur mobile, les vidéos utilisées pour le changement de débit reposent sur toutes les vidéos MP4 de la visionneuse de vidéos adaptative.
 
-La lecture vidéo se produit à l'aide de HLS ou vidéo progressive. HLS (HTTP Live Streaming) est une norme Apple de diffusion en flux continu de vidéo adaptative qui ajuste automatiquement la lecture en fonction de la capacité de la bande passante du réseau. Il permet également au client de rechercher un point dans la vidéo sans avoir à attendre le téléchargement du reste de la vidéo (voir également Diffusion [en flux](#UnresolvedLink-https://developer.apple.com/streaming/)continu HTTP). La vidéo progressive est diffusée en téléchargeant et en stockant la vidéo localement sur l'écran de bureau ou le périphérique mobile d'un utilisateur.
+La lecture vidéo s’effectue à l’aide de HLS ou d’une vidéo progressive. HLS (HTTP Live Streaming) est une norme Apple pour la diffusion de vidéo adaptative en flux continu qui ajuste automatiquement la lecture en fonction de la capacité de la bande passante du réseau. Il permet également au client de &quot;rechercher&quot; à n’importe quel point de la vidéo sans avoir à attendre le téléchargement du reste de la vidéo. Voir aussi Diffusion en flux continu [](https://developer.apple.com/streaming/)HTTP en direct. La vidéo progressive est diffusée en téléchargeant et en stockant la vidéo localement sur l’écran de bureau ou le périphérique mobile d’un utilisateur.
 
-Le tableau suivant décrit l'appareil, le navigateur et la méthode de lecture des vidéos sur les ordinateurs de bureau et les périphériques mobiles à l'aide de la visionneuse de vidéos Classic Media Classic.
+Le tableau suivant décrit la méthode de lecture, de navigateur et de périphérique mobile des vidéos sur les ordinateurs de bureau et les périphériques mobiles à l’aide de la visionneuse de vidéos Dynamic Media Classic.
 
-| Dispositif | Navigateur | Mode lecture vidéo |
+| Dispositif | Navigateur | Mode de lecture vidéo |
 |--- |--- |--- |
-| Deskop | Internet Explorer 9 et 10 | Téléchargement progressif. |
-| Bureau | Internet Explorer 11 + | Diffusion vidéo HLS. |
+| Bureau | Internet Explorer 9 et 10 | Téléchargement progressif. |
+| Bureau | Internet Explorer 11+ | Diffusion vidéo en flux continu HLS. |
 | Bureau | Firefox 23-44 | Téléchargement progressif. |
-| Bureau | Firefox 45 ou une version ultérieure | Diffusion vidéo HLS. |
-| Bureau | Chrome | Diffusion vidéo HLS. |
-| Bureau | Safari (Mac) | Diffusion vidéo HLS. |
+| Bureau | Firefox 45 ou une version ultérieure | Diffusion vidéo en flux continu HLS. |
+| Bureau | Chrome | Diffusion vidéo en flux continu HLS. |
+| Bureau | Safari (Mac) | Diffusion vidéo en flux continu HLS. |
 | Dispositif portable | Chrome (Android 6 ou version antérieure) | Téléchargement progressif. |
-| Dispositif portable | Chrome (Android 7 ou version ultérieure) | Diffusion vidéo HLS. |
+| Dispositif portable | Chrome (Android 7 ou version ultérieure) | Diffusion vidéo en flux continu HLS. |
 | Dispositif portable | Android (navigateur par défaut) | Téléchargement progressif. |
-| Dispositif portable | Safari (ios) | Diffusion vidéo HLS. |
-| Dispositif portable | Chrome (ios) | Diffusion vidéo HLS. |
-| Dispositif portable | Blackberry | Diffusion vidéo HLS. |
+| Dispositif portable | Safari (iOS) | Diffusion vidéo en flux continu HLS. |
+| Dispositif portable | Chrome (iOS) | Diffusion vidéo en flux continu HLS. |
+| Dispositif portable | Blackberry | Diffusion vidéo en flux continu HLS. |
