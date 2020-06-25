@@ -5,32 +5,33 @@ audience: end-user
 user-guide-title: Aide de Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 46285648da0e4c53c9ce08fc088705853e6a3a46
+source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 77%
+source-wordcount: '730'
+ht-degree: 76%
 
 ---
 
 
 # Aide de Dynamic Media Classic {#using}
 
-+ [Page d’accueil de la documentation de Dynamic Media Classic](home.md)
-+ [NOUVEAUTÉ Connexion à Dynamic Media Classic disponible le 30 juin 2020](new-ui-2020.md)
-+ [Newsletter de médias dynamiques par Experience League](dynamic-media-newsletter.md)
-+ Présentation de Adobe Dynamic Media Classic {#intro}
-   + [A propos de Contenu multimédia dynamique classique](introduction.md)
++ [Page d’accueil de la documentation Dynamic Media Classic](home.md)
++ [Didacticiel sur les meilleures pratiques](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [NOUVELLE expérience de connexion Dynamic Media Classic disponible le 30 juin 2020](new-ui-2020.md)
++ [Bulletin Dynamic Media par Experience League](dynamic-media-newsletter.md)
++ Introduction à Adobe Classic {#intro}
+   + [A propos de Dynamic Media Classic](introduction.md)
    + [Ressources du développeur](developer-resources.md)
    + [Nouveautés](whats-new.md)
    + [Configuration système requise](system-requirements.md)
-   + [L’application de bureau Adobe Dynamic Media Classic sera bientôt disponible !](dynamic-media-classic-desktop-app.md)
+   + [L&#39;application de bureau Adobe Classic sera bientôt disponible !](dynamic-media-classic-desktop-app.md)
    + [Assistance](support.md)
    + [Aide de Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
    + [Services de formation Adobe](training-services.md)
    + [Ressources populaires](popular-resources.md)
    + [Vidéos de formation](training-videos.md)
 + Démarrage rapide {#getting-started}
-   + [Présentation de la plate-forme Adobe Dynamic Media Classic](scene7-platform-overview.md)
+   + [Présentation de la plateforme Adobe Classic](scene7-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Connexion et déconnexion](signing-out.md)
    + [Navigation - Notions élémentaires](navigation-basics.md)
@@ -145,7 +146,7 @@ ht-degree: 77%
    + [Publication d’une visionneuse de supports variés](publishing-mixed-media-set.md)
    + [Liaison d’une visionneuse de supports variés à une page Web](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [Début rapide : Intégration de Dynamic Media Classic à Adobe Analytics](quick-start-integrating-scene7-analytics.md)
+   + [Début rapide : Intégration de Dynamic Media Classic avec Adobe Analytics](quick-start-integrating-scene7-analytics.md)
    + [Connexion à Adobe Analytics](log-analytics.md)
    + [Configuration des rapports Adobe Analytics](configuring-analytics-reports.md)
    + [Instrumentation d’une visionneuse avec le kit d’instrumentation Adobe Analytics](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -155,9 +156,9 @@ ht-degree: 77%
    + [Publication des informations de configuration d’Adobe Analytics](publishing-analytics-configuration-information.md)
 + Intégration de Cible Classic {#target-classic}
    + [Début rapide : Intégration de Cible Classic](quick-start-target-classic-integration.md)
-   + [Intégration de Adobe Dynamic Media Classic à Adobe Cible Classic](integrating-scene7-target-classic.md)
+   + [Intégration d’Adobe Classic à Adobe Target Classic](integrating-scene7-target-classic.md)
    + [Création d’une visionneuse d’offres](creating-offer-set.md)
-   + [Pousser les jeux d’offres vers Adobe Cible Classic](pushing-offer-sets-target-classic.md)
+   + [Pousser les jeux d’offres vers Adobe Target Classic](pushing-offer-sets-target-classic.md)
 + Contenu généré par l’utilisateur {#user-generated-content}
    + [A propos du contenu généré par l’utilisateur](about-ugc.md)
    + [Suppression d’un fichier téléchargé](deleting-uploaded-asset.md)
