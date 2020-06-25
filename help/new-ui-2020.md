@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 1c4fdd6493d36be91ed015f019f5d4205d5cae41
+source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1139'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Nouvelle expérience de connexion Dynamic Media Classic désormais disponible {#new-ui-2020}
 
-Voir Application [de bureau](/help/dynamic-media-classic-desktop-app.md) Adobe Classic pour examiner la configuration requise, télécharger et installer l’application, puis vous connecter.
+Voir Application [de bureau](/help/dynamic-media-classic-desktop-app.md) Adobe Classic pour examiner la configuration requise, télécharger et installer la nouvelle application, puis vous connecter.
 
 ## _Dernière mise à jour le 30 juin 2020_
 
@@ -24,41 +24,35 @@ Les utilisateurs de Dynamic Media Classic ont désormais accès à une nouvelle 
 
 ### **_Lorsque les navigateurs cesseront de prendre en charge Adobe Flash le 31 décembre 2020, Dynamic Media Classic (anciennement Scene7) en sera-t-il affecté ?_**
 
-Adobe Flash Player est un module externe de navigateur Web qui permet aux navigateurs Web d’utiliser le contenu développé sur Adobe Flash Platform. L’interface utilisateur Web de Dynamic Media Classic, actuellement étiquetée [!DNL Scene7 Publishing System] ou [!DNL SPS] dans le produit, nécessite actuellement Adobe Flash Player. Adobe a fourni aux clients une application de bureau qui remplace désormais l’application de navigateur.
+Adobe Flash Player était un module externe de navigateur Web qui permettait aux navigateurs Web d’utiliser le contenu développé sur la plate-forme Adobe Flash. L&#39;interface utilisateur Web de Dynamic Media Classic (actuellement étiquetée [!DNL Scene7 Publishing System] ou [!DNL SPS] dans le produit) requiert Adobe Flash Player. Lorsque Adobe Flash sera abandonné le 31 décembre 2020, les clients Dynamic Media Classic ne pourront plus se connecter à l’interface utilisateur Web. C’est pourquoi Adobe a fourni aux clients une application de bureau qui remplace l’expérience du navigateur.
 
-### **_Quand la nouvelle application de bureau sera-t-elle disponible pour les clients Dynamic Media Classic ?_**
-
-La nouvelle application de bureau Dynamic Media Classic est désormais disponible au téléchargement et à l’installation. Nous vous recommandons d’installer l’application d’ici le 1er octobre 2020 afin de garantir une transition fluide avant que Adobe Flash Player ne soit abandonné le 31 décembre 2020.  A cette date, il ne sera plus possible de se connecter à la version navigateur de Dynamic Media Classic (étiquetée [!DNL Scene7 Publishing System] dans le produit).
-
-Voir Application [de bureau](/help/dynamic-media-classic-desktop-app.md) Adobe Classic pour examiner la configuration requise, télécharger et installer l’application, puis vous connecter.
+Voir Application [de bureau](/help/dynamic-media-classic-desktop-app.md) Adobe Classic pour examiner la configuration requise, télécharger et installer la nouvelle application, puis vous connecter.
 
 ### **_Comment puis-je accéder à la nouvelle application de bureau ?_**
 
-La nouvelle application de bureau est un programme d’ `.dmg` installation pour macOS et `.exe` un programme d’installation pour Windows.
+La nouvelle application de bureau est disponible en tant que programme d’ `.dmg` installation pour macOS ou en tant que `.exe` programme d’installation pour Windows.
 
-Voir Application [de bureau](/help/dynamic-media-classic-desktop-app.md) Adobe Classic pour examiner la configuration requise, télécharger et installer l’application, puis vous connecter.
+Voir Application [de bureau](/help/dynamic-media-classic-desktop-app.md) Adobe Classic pour examiner la configuration requise, télécharger et installer la nouvelle application, puis vous connecter.
 
-Les liens de téléchargement seront également partagés par le biais de la newsletter Dynamic Media Classic.
+Les liens de téléchargement seront également partagés sur la page d&#39;abonnement du bulletin d&#39;information [Dynamic Media Classic.](https://www.adobe.com/subscription/dynamic-media-newsletter.html)
 
-### **_Comment fonctionnera la nouvelle application de bureau ?_**
+### **_Comment fonctionne la nouvelle application de bureau ?_**
 
-Une fois que vous avez téléchargé, installé et lancé l’application de bureau, une connexion actualisée s’affiche. En entrant votre nom d’utilisateur et votre mot de passe existants et en sélectionnant le serveur approprié en fonction de votre région, vous serez connecté dans Dynamic Media Classic. Vous remarquerez que l’expérience globale est la même que la version de navigateur que vous connaissez. Depuis l’application de bureau, vous pouvez accéder aux environnements de production et d’évaluation Dynamic Media Classic. Vous pouvez également accéder à Media Portal si vous disposez d’informations d’identification pour cette fonctionnalité.
+Une fois que vous avez téléchargé, installé et lancé l’application de bureau, une connexion actualisée s’affiche. En entrant votre nom d’utilisateur et votre mot de passe existants et en sélectionnant le serveur approprié en fonction de votre région, vous serez connecté dans Dynamic Media Classic. Vous remarquerez que l’expérience globale est la même que la version du navigateur Web que vous connaissez. Depuis l’application de bureau, vous pouvez accéder aux environnements de production et d’évaluation Dynamic Media Classic. Vous pouvez également accéder à Media Portal si vous disposez d’informations d’identification pour cette fonctionnalité.
 
 >[!IMPORTANT]
 >
->Une seule instance de l’application de bureau peut être installée et être active à la fois.
-
-Voir Application [de bureau](/help/dynamic-media-classic-desktop-app.md) Adobe Classic pour examiner la configuration requise, télécharger et installer l’application, puis vous connecter.
+>Une seule instance de l’application de bureau peut être installée et active à la fois.
 
 ### **_Que se passe-t-il si j’utilise les API Dynamic Media Classic pour accéder au produit et que je ne me connecte pas via l’interface utilisateur Web ?_**
 
 Aucune modification n’est apportée aux API sous-jacentes pour Dynamic Media Classic.
 
-### **_Cette nouvelle expérience d’application de bureau nécessitera-t-elle des migrations ou des modifications à des intégrations tierces ?_**
+### **_Cette nouvelle expérience d’application de bureau nécessite-t-elle des migrations ou des modifications à des intégrations tierces ?_**
 
 Non. Les clients Dynamic Media Classic n’ont pas à migrer ni à modifier les intégrations tierces pour utiliser la nouvelle application de bureau.
 
-### **_Cette modification va-t-elle affecter mes scripts d&#39;automatisation ?_**
+### **_Cette modification affecte-t-elle mes scripts d’automatisation ?_**
 
 Non. Les scripts d’automatisation n’ont aucune incidence. La nouvelle application de bureau agit et se comporte de manière similaire à l’expérience basée sur un navigateur que vous connaissez déjà.
 
@@ -66,7 +60,7 @@ Non. Les scripts d’automatisation n’ont aucune incidence. La nouvelle applic
 
 Oui : La nouvelle application de bureau est une solution multiplate-forme qui fonctionne sur Mac et PC. Linux *n&#39;est pas* pris en charge.
 
-### **_Ma société a des exigences de sécurité strictes. Comment la nouvelle application de bureau Dynamic Media Classic gèrera-t-elle ces exigences ?_**
+### **_Ma société a des exigences de sécurité strictes. Comment la nouvelle application de bureau Dynamic Media Classic gère-t-elle ces exigences ?_**
 
 Adobe s’engage à faire en sorte que ses produits répondent aux exigences de sécurité de ses clients. La nouvelle application de bureau Dynamic Media Classic continuera de fournir aux clients une expérience hautement sécurisée conforme à toutes les normes de sécurité Adobe.
 
@@ -74,11 +68,19 @@ Adobe s’engage à faire en sorte que ses produits répondent aux exigences de 
 
 Si votre société ne vous permet pas de télécharger et d’installer des logiciels et des applications sur votre système sans approbation, demandez à vos équipes informatiques d’obtenir rapidement l’autorisation d’accéder à la nouvelle application de bureau Dynamic Media Classic. N&#39;oubliez pas qu&#39;après le 31 décembre 2020, la version du navigateur sera abandonnée. Il est important d’éviter d’attendre la dernière minute pour télécharger la nouvelle application de bureau.
 
-### **_La nouvelle application de bureau Dynamic Media Classic nécessitera-t-elle un nouveau SKU ? Y a-t-il un coût de licence en jeu ?_**
+### **_Plusieurs instances de la nouvelle application de bureau peuvent-elles être ouvertes en même temps ?_**
+
+Non, la technologie AIR sur laquelle la nouvelle application de bureau Dynamic Media Classic est créée empêche un utilisateur d’ouvrir plusieurs instances de l’application à un moment donné.
+
+### **_Existe-t-il des restrictions sur le nombre de fichiers pouvant être téléchargés vers Dynamic Media Classic via un ordinateur local ?_**
+
+Lorsque vous utilisez la nouvelle application de bureau Dynamic Media Classic sous Windows, vous pouvez télécharger un maximum de 150 fichiers à la fois à l’aide de la boîte de dialogue **[!UICONTROL Télécharger]** . Cette limitation sera réglée avant la fin de 2020. Il *n’existe aucune* restriction de téléchargement sur la plate-forme macOS.
+
+### **_La nouvelle application de bureau Dynamic Media Classic nécessite-t-elle un nouveau SKU ? Y a-t-il un coût de licence en jeu ?_**
 
 Aucun SKU ou changement de licence n’est nécessaire pour utiliser la nouvelle application de bureau Dynamic Media Classic.
 
-### **_Comment les mises à niveau vers l’application de bureau Dynamic Media Classic seront-elles activées ?_**
+### **_Comment les mises à niveau vers l’application de bureau Dynamic Media Classic sont-elles activées ?_**
 
 À la suite de la publication de l’application de bureau Adobe Classic le 30 juin 2020, si Adobe sort une nouvelle version, les clients doivent télécharger la nouvelle version et l’installer comme d’habitude (remplacez l’application existante dans **[!UICONTROL Applications]**). Les clients seront informés de la nouvelle version par le biais du bulletin d&#39;information Dynamic Media ou de leurs CSM. Adobe travaille également sur un mécanisme de notification de mise à niveau in-app qui avertira les utilisateurs d’une mise à niveau.
 
@@ -90,8 +92,7 @@ Contactez l’assistance Adobe pour tout problème que vous rencontrez lors de l
 
 Dynamic Media Classic est une solution puissante et riche en fonctionnalités conçue pour améliorer vos stratégies multimédias. Pour tirer parti de toutes les possibilités, veillez à explorer les ressources pratiques suivantes :
 
-* [Guide des meilleures pratiques](https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf)
-* [Adobe Experience League](https://guided.adobe.com/#recommended/solutions/experience-manager)
+* [Didacticiel sur les bonnes pratiques Dynamic Media](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [Publications de blog Dynamic Media](https://theblog.adobe.com/tag/dynamic-media/)
 * [Archives du bulletin d&#39;information Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/dynamic-media-newsletter.html)
 
@@ -100,4 +101,7 @@ De plus, [abonnez-vous au bulletin](https://www.adobe.com/subscription/dynamic-m
 ### **_Je souhaite en savoir plus sur la mise à niveau vers Dynamic Media avec les AEM Assets. Où puis-je trouver plus d&#39;informations ?_**
 
 Pour en savoir plus sur les avantages de la mise à niveau vers la nouvelle génération de création de contenu multimédia enrichi, de publication et de diffusion dynamique, consultez le portail [de mise à niveau de](http://exploreadobe.com/dynamic-media-upgrade/)Dynamic Media.
+
+
+<!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
 
