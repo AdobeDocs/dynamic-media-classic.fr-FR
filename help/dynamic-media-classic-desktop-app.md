@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 59116a685629cfd788c32fb5082f35d90e66fb5a
+source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Cette nouvelle application est désormais disponible pour Windows et macOS.
 >
 >Nous vous recommandons d’installer la nouvelle application de bureau Adobe Classic d’ici le 1er octobre 2020. Ainsi, vous aurez une transition fluide avant que Adobe Flash Player ne soit abandonné le 31 décembre 2020. A cette date, vous ne pourrez plus vous connecter à la version navigateur de l’interface utilisateur Adobe Classic, appelée Scene7 Publishing System dans le produit.
 
-Reportez-vous à la FAQ relative à l’expérience de connexion à [Dynamic Media Classic, désormais disponible](/help/new-ui-2020.md).
+Reportez-vous à la FAQ relative à l’expérience de connexion à [Dynamic Media Classic, désormais disponible.](/help/new-ui-2020.md)
 
 ## Configuration requise pour l’application de bureau Adobe Classic {#system-requirements-dmc-app}
 
@@ -40,8 +40,8 @@ L’application de bureau Adobe Classic est compatible avec les systèmes d’ex
 
 1. Téléchargez le dernier programme d’installation de l’application de bureau Adobe Classic.
 
-   * macOS (.dmg) - [Téléchargement](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg).
-   * Windows (.exe) - [Télécharger](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe).
+   * [macOS (.dmg) - Télécharger.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows (.exe) - Télécharger.](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. Effectuez l’une des opérations suivantes en fonction du programme d’installation que vous avez téléchargé.
 
