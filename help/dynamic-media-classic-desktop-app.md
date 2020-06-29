@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
+source-git-commit: f2b8c8a5bdac38a48157c6eaa80cd09692ee2259
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -47,18 +47,18 @@ L’application de bureau Adobe Classic est compatible avec les systèmes d’ex
 
    * **Pour macOS** - Dans la boîte de dialogue **[!UICONTROL glisser-déposer pour installer]** , faites glisser l’outil **[!UICONTROL Adobe Classic]** et déposez-le sur **[!UICONTROL Applications]**.
 
-      ![Effectuer un glisser-déposer d’installation sur macOS](/help/assets/dragondrop-install.png)
+      ![Effectuer un glisser-déposer d’installation sur macOS](/help/assets/dragondrop-install1.png)
 
    * Dans le dossier **[!UICONTROL Applications]** , appuyez sur l’icône Adobe Classic.
    * Dans la boîte de dialogue, appuyez sur **[!UICONTROL Ouvrir]** pour ouvrir l’application de bureau Adobe Classic.
 
-      ![Ouvrir l’application téléchargée](/help/assets/open-dmclassicapp.png)
+      ![Ouvrir l’application téléchargée](/help/assets/open-dmclassicapp1.png)
 
    * **Pour Windows** - Exécutez le fichier binaire du programme d’installation et suivez les instructions à l’écran pour installer l’application de bureau.
 
 1. Lorsque vous ouvrez l’application, la nouvelle page de connexion Adobe Classic s’affiche :
 
-   ![Connexion Dynamic Media Classic](/help/assets/dmclassic-login.png)
+   ![Connexion Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
 1. Utilisez les mêmes informations d’identification que celles de votre navigateur pour vous connecter à Adobe Classic.
 
@@ -80,7 +80,7 @@ L’application de bureau Adobe Classic est compatible avec les systèmes d’ex
 * Dans l’application Dynamic Media Classic, sélectionnez la nouvelle société dans la liste déroulante société.
 * Lorsque la fenêtre contextuelle s’affiche, appuyez sur **[!UICONTROL OK]** pour vous déconnecter et fermer l’application.
 
-   ![Redémarrez l’application pour utiliser la nouvelle société.](/help/assets/dmclassic-new-company.png)
+   ![Redémarrez l’application pour utiliser la nouvelle société.](/help/assets/dmclassic-new-company1.png)
 * Redémarrez Dynamic Media Classic, puis connectez-vous comme d’habitude pour utiliser la nouvelle société.
 
 ## Conseils et astuces
@@ -89,6 +89,6 @@ L’application de bureau Adobe Classic est compatible avec les systèmes d’ex
 
 **_L’état de publication (indicateur vert) d’une ressource n’est pas reflété correctement._**<br> Dans l’interface utilisateur du navigateur, une nouvelle connexion à l’interface utilisateur était nécessaire pour afficher l’état de publication correct des ressources. Dans l’application de bureau, nous avons introduit une icône **[!UICONTROL Actualiser]** sur la barre d’outils, à droite du bouton **[!UICONTROL Sélectionner aucun]** . Appuyez sur l’icône **[!UICONTROL Actualiser]** pour afficher le dernier état de toutes les ressources d’une page donnée. Aucune nouvelle connexion n’est requise, comme dans l’interface utilisateur du navigateur.
 
-![Icône Actualiser](/help/assets/refresh-icon.png)*Icône Actualiser*
+![Icône Actualiser](/help/assets/refresh-icon1.png)*Icône Actualiser*
 
 **_Je ne vois pas les paramètres prédéfinis d’ensemble par lot fonctionner dans l’application de bureau._**<br> Appuyez sur **[!UICONTROL Télécharger > Options tâche > Paramètres prédéfinis]** d’ensemble par lot. Assurez-vous que le paramètre prédéfini **[!UICONTROL d’ensemble]** par lot approprié est activé. Cliquez sur **[!UICONTROL Enregistrer et envoyer le transfert]**.
