@@ -1,20 +1,20 @@
 ---
-title: Nouvelle expérience de connexion Dynamic Media Classic désormais disponible
-seo-title: Nouvelle application de bureau Dynamic Media Classic désormais disponible
+title: Application de bureau Adobe Classic
+seo-title: Application de bureau Adobe Classic
 description: Les utilisateurs de Dynamic Media Classic peuvent désormais effectuer une actualisation complète de l’interface utilisateur. L’expérience fournit une connexion mise à jour avec des liens vers des ressources précieuses, en plus de cette mise à jour ne dépend plus de la technologie Adobe Flash dans le navigateur.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 42d2a6e5d1a4b33149043eed590137ea826fe146
+source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
 
 
-# Nouvelle expérience de connexion Dynamic Media Classic désormais disponible {#new-ui-2020}
+# Application de bureau Adobe Classic - Maintenant disponible {#new-ui-2020}
 
 Voir Application [de bureau](/help/dynamic-media-classic-desktop-app.md) Adobe Classic pour examiner la configuration requise, télécharger et installer la nouvelle application, puis vous connecter.
 
