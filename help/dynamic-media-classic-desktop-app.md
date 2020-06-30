@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: f2b8c8a5bdac38a48157c6eaa80cd09692ee2259
+source-git-commit: 8858ca1482b8a33e3294df345bc2e5fc34483e07
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ L’application de bureau Adobe Classic est compatible avec les systèmes d’ex
 1. Téléchargez le dernier programme d’installation de l’application de bureau Adobe Classic.
 
    * [macOS (.dmg) - Télécharger.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows (.exe) - Télécharger.](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   * [Windows (.exe) - Télécharger.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. Effectuez l’une des opérations suivantes en fonction du programme d’installation que vous avez téléchargé.
 
