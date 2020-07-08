@@ -6,9 +6,9 @@ seo-title: 'Lettre d''information Adobe '
 solution: Dynamic Media
 title: Bulletin Dynamic Media
 translation-type: tm+mt
-source-git-commit: 2b20896f4eaf52eae5a9e4955945e2df51b623cc
+source-git-commit: ddd36b31212678665df60f83491378a1ab5ad9cd
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Dans ce bulletin d&#39;information à guichet unique, découvrez de précieuses 
     * Connect with the Adobe Experience Manager Community.
     * Fast-track your Adobe expertise with Adobe Experience League. -->
 
-* **[Avril 2020, numéro 3](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@DRPFipWV_3bgH_oxl1monOhd4auNDxFVTBWB-uKB6lM_BixlVqja2E5Ml7DbtOy6pARL78LPxljqgxEEAr7RBsRp8WOyn-Zw6hQ8MNoFn9i9WMXm.html)**
+* **[Avril 2020, numéro 3](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_04_2020_April.html)**
 
    Dans ce numéro :
 
@@ -56,7 +56,7 @@ Dans ce bulletin d&#39;information à guichet unique, découvrez de précieuses 
    >
    >Nous voulons nous assurer que nous envoyons uniquement le bulletin d&#39;information Dynamic Media à ceux qui veulent le recevoir. Pour continuer à recevoir le bulletin après ce numéro, veuillez vous inscrire [ici](https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Ft.messages.adobe.com%2Fr%2F%3Fid%3Dha6c66e%2C266d7ba%2C26edbee&amp;data=02%7C01%7Crbrough%40adobe.com%7Ce0ec0f8dde0f4eb03d9c08d7e2173fd3%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637226461801398160&amp;sdata=3c1oREsqy%2FeDPKC3dd4IO9dXomQ1XbokaBAYQl8obrk%3D&amp;reserved=0).
 
-* **[Février 2020, numéro 2](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@5lYjerUalNCDQd6ABlMufSyP3GqbFDn747uBiom3-3_efxsaEjuw8LNhJxrs89ft1vcsQzjvxTGMo55w-4k0YyBVGiL6m5AWSe9I7H7wIXKT0Efz.html)**
+* **[Février 2020, numéro 2](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_02_2020_Feb.html)**
 
    Dans ce numéro :
 
@@ -67,7 +67,7 @@ Dans ce bulletin d&#39;information à guichet unique, découvrez de précieuses 
    * Découvrez la nouvelle interface utilisateur de Dynamic Media Classic.
    * Rencontrez Georgia Myers, responsable du succès client pour Adobe Experience Cloud.
 
-* **[Janvier 2020, numéro 1](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@NpvOA7LHuVbd-W1B5pENdSLNFZ4L4ZeEkA_bVd4reX31KUOs3uaPFEuEx2mWz-3oNkVBcY5fdimoW3RM-SzTt6QXI4l1Rd2mEwrYsWp7C1LnUMVp.html)**
+* **[Janvier 2020, numéro 1](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_01_2020_Jan.html)**
 
    Dans ce numéro :
 
