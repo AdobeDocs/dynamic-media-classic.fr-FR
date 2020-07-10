@@ -10,14 +10,17 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 translation-type: tm+mt
-source-git-commit: a886163176973bdea4c7f0feddefc6c228c3b83c
+source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 57%
 
 ---
 
 
 # Services de formation Adobe{#adobe-training-services}
 
-Dynamic Media Classic offre une formation sous la forme de didacticiels vidéo, d’ateliers dirigés par un instructeur, de sessions Web et de démonstrations.
+Dynamic Media Classic offres de formation sous la forme de didacticiels vidéo, d’ateliers dirigés par un instructeur et de sessions Web, et de démonstrations.
 
 **Services de formation Adobe**
 
@@ -25,15 +28,9 @@ Les services de formation Adobe proposent des formations en classe approfondies 
 
 Voir Services [de formation](https://training.adobe.com/training.html) Adobe [](https://www.adobe.com/go/learn_sc7_trainingrequest_en).
 
-**Didacticiels vidéo de démarrage rapide**
-
-Découvrez le portail multimédia, le traitement dynamique des images, les catalogues électroniques, les eVideos, l’impression en ligne et bien d’autres sujets permettant de vous familiariser avec Scene7 Publishing System et de l’utiliser.
-
-See [Quick Start Video Tutorials](https://marketing.adobe.com/resources/help/en_US/home/index.html#Scene7).
-
 **Démonstrations**
 
-Regardez des démonstrations des fonctionnalités de la visionneuse Dynamic Media Classic.
+Regardez des démonstrations des fonctionnalités du lecteur Dynamic Media Classic.
 
 Voir [Démonstrations](https://www.adobe.com/solutions/web-experience-management/rich-media-assets-demos.html).
 
