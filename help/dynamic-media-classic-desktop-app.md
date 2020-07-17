@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 8858ca1482b8a33e3294df345bc2e5fc34483e07
+source-git-commit: 88f73056803a34ef2748b19eafbe7d50933b4d6a
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ L’application de bureau Adobe Classic est compatible avec les systèmes d’ex
    | https://s7sps5.scene7.com/ | Production d&#39;APAC (Asie-Pacifique) |
 
 1. Après avoir publié l’interface utilisateur de connexion, vous remarquerez l’expérience familière de l’interface utilisateur du navigateur. Vous pouvez désormais transmettre votre activité quotidienne comme d’habitude dans l’interface utilisateur de l’application de bureau.
+
+## Présentation vidéo de l’utilisation de l’application de bureau Dynamic Media Classic
+
+Regardez une présentation [vidéo sur l’utilisation de l’application](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) de bureau Dynamic Media Classic (durée : 2 minutes et 36 secondes).
 
 ## Limites connues dans Dynamic Media Classic
 
