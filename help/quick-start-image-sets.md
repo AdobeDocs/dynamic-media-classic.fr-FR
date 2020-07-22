@@ -2,32 +2,35 @@
 title: '"Démarrage rapide : Visionneuses d’images"'
 seo-title: '"Démarrage rapide : Visionneuses d’images"'
 description: 'null'
-seo-description: Présentation et démarrage rapide des visionneuses d'images pour vous aider à maîtriser rapidement les opérations liées aux techniques de visionneuse d'images.
-uuid: daf 17 d 13-9 c 06-41 f 0-8 fc 5-2 e 56 d 460 d 341
+seo-description: Cette section présente les techniques de visionneuse d’images et vous aide à maîtriser rapidement leur fonctionnement. Elle contient également une présentation et un Début rapide sur les visionneuses d’images.
+uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sets
-discoiquuid: 612 a 425 f -2840-46 c 4-8 e 5 a-c 0 bc 5 f 738 f 4 e
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '565'
+ht-degree: 62%
 
 ---
 
 
 # Démarrage rapide : Visionneuses d’images{#quick-start-image-sets}
 
-Les visionneuses d'images dynamiques Media Classic offrent aux utilisateurs une expérience de visualisation intégrée. La visionneuse d’images dynamique vous permet d’afficher différentes vues d’un objet d’un simple clic sur une image miniature. Les visionneuses d'images vous permettent de présenter d'autres vues haute résolution d'un élément.
+Les visionneuses d’images Dynamic Media Classic offrent aux utilisateurs une expérience de visualisation intégrée. La visionneuse d’images dynamique vous permet d’afficher différentes vues d’un objet d’un simple clic sur une image miniature. Les visionneuses d’images vous permettent de présenter d’autres vues haute résolution d’un élément.
 
 Les outils de zoom de la visionneuse d’images sont pratiques pour examiner les images de plus près. Si vous le souhaitez, vous pouvez intégrer des cibles de zoom guidé et des zones cliquables dans votre visionneuse d’images. Les visionneuses d’images garantissent une visualisation concertée et privée.
 
-Cette section de démarrage rapide consacrée aux visionneuses d'images est conçue pour maîtriser rapidement les techniques de visionnage d'images dans Dynamic Media Classic.
+Ce Début rapide Visionneuses d’images est conçu pour être rapidement opérationnel avec les techniques de visionneuse d’images de Dynamic Media Classic.
 
-**Cookie. Téléchargez vos images originales pour plusieurs vues et nuanciers**
+**1. Téléchargez vos images originales pour plusieurs vues et nuanciers**
 
-Commencez par télécharger les images pour les visionneuses d’images. Comme les utilisateurs peuvent effectuer un zoom sur les images de la visionneuse, prenez en compte la fonction de zoom lorsque vous choisissez les images. Assurez-vous que la dimension la plus grande des images correspond au moins à 2 000 pixels. Dynamic Media Classic prend en charge de nombreux formats de fichiers image, mais les images TIFF, PNG et EPS sans perte sont recommandées.
+Commencez par télécharger les images pour les visionneuses d’images. Comme les utilisateurs peuvent effectuer un zoom sur les images de la visionneuse, prenez en compte la fonction de zoom lorsque vous choisissez les images. Assurez-vous que les images font au moins 2000 pixels dans leur dimension la plus grande. Dynamic Media Classic prend en charge de nombreux formats de fichier d’images, mais les images TIFF, PNG et EPS sans perte sont recommandées.
 
-Sélectionnez le bouton Télécharger dans la barre de navigation globale pour télécharger des fichiers depuis votre ordinateur vers un dossier du système de publication Scene7.
+Sélectionnez le bouton Télécharger de la barre de navigation globale pour télécharger des fichiers de votre ordinateur vers un dossier de Dynamic Media Classic.
 
 Voir les sections [Préparation du téléchargement de fichiers de visionneuse d’images](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) et [Téléchargement de fichiers](uploading-files.md#uploading-your-files).
 
@@ -41,9 +44,9 @@ Voir [Création d’une visionneuse d’images](creating-image-set.md#creating-a
 
 Voir aussi [Inclusion de cibles de zoom et de zones cliquables dans les visionneuses d’images](including-zoom-targets-image-maps.md#including-zoom-targets-and-image-maps-in-image-sets)
 
-**Cookie. Définition des paramètres prédéfinis de la visionneuse d'images, selon les besoins**
+**Cookie. Configuration des paramètres prédéfinis de la visionneuse d’images, si nécessaire**
 
-Les administrateurs peuvent créer ou modifier les paramètres prédéfinis de la visionneuse d’images. Dynamic Media Classic est fourni avec des paramètres prédéfinis par défaut pour chaque type de média enrichi. Utilisez les paramètres prédéfinis Visionneuse de zoom : Personnalisée &gt; Images ou Visionneuses d’images / Vues multiples pour visualiser vos visionneuses d’images.
+Les administrateurs peuvent créer ou modifier les paramètres prédéfinis de la visionneuse d’images. Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse par défaut pour chaque type de média enrichi. Utilisez les paramètres prédéfinis Visionneuse de zoom : Personnalisée > Images ou Visionneuses d’images / Vues multiples pour visualiser vos visionneuses d’images.
 
 L’ajout et la modification des paramètres prédéfinis de visionneuse s’effectuent à partir de l’écran Configuration de l’application.
 
@@ -57,11 +60,11 @@ Voir [Prévisualisation d’un fichier](previewing-asset.md#previewing-an-asset)
 
 **5. Publication d’une visionneuse d’images**
 
-Lorsque vous publiez une visionneuse d'images, elle est placée sur les serveurs Dynamic Media Classic et la chaîne URL est activée.
+Lorsque vous publiez une visionneuse d’images, elle est placée sur les serveurs Dynamic Media Classic et la chaîne URL est activée.
 
 >[!NOTE]
 >
->Cette étape n'est pas nécessaire si vous avez sélectionné** Publier après l'enregistrement** (par défaut) au moment de la création et de l'enregistrement de la visionneuse d'images.
+>Cette étape n’est pas nécessaire si vous avez sélectionné **Publier après l’enregistrement **(par défaut) au moment de la création et de l’enregistrement de la visionneuse d’images.
 
 Click the Mark for Publish icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
 
@@ -69,7 +72,7 @@ Voir [Publication](publishing-files.md#publishing-files).
 
 **6. Liaison d’une visionneuse d’images sur votre site Web**
 
-Dynamic Media Classic crée des appels d'URL pour les visionneuses d'images, puis les active après leur publication. Vous pouvez copier ces chaînes URL depuis l’écran de prévisualisation.
+Dynamic Media Classic crée des appels d’URL pour les visionneuses d’images et les active après leur publication. Vous pouvez copier ces chaînes URL depuis l’écran de prévisualisation.
 
 Sélectionnez la visionneuse d’images, puis cliquez sur le bouton Prévisualiser. L’écran de prévisualisation s’ouvre. Select an Image Set Viewer Preset and click **Copy URL**.
 
