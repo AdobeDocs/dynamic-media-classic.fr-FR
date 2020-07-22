@@ -6,12 +6,12 @@ seo-description: Découvrez comment ajouter des légendes à la vidéo
 uuid: 4cc64469-4369-44a9-83db-63bad51aba8a
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '909'
-ht-degree: 70%
+ht-degree: 64%
 
 ---
 
@@ -40,13 +40,13 @@ See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en
 
 **Ajout de sous-titres aux vidéos**
 
-1. A l’aide d’une application tierce extérieure à Scene7 Publishing System, créez votre propre fichier de sous-titrage vidéo en fonction du type de visionneuse utilisé.
+1. A l’aide d’une application tierce en dehors de Dynamic Media Classic, créez votre fichier de sous-titrage vidéo en fonction du type de visionneuse que vous utilisez.
 
    | Type de visionneuse | Fichier de sous-titrage |
    |--- |--- |
-   | HTML5 | Si vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fichier de sous-titrage que vous créez est conforme à la norme WebVTT (Web Video Text Tracks). Le fichier de sous-titrage a l’extension .vtt. D’autres informations sont disponibles sur la norme de sous-titrage WebVTT.<br><br>[Voir WebVTT](https://dev.w3.org/html5/webvtt/): Format Suivi de texte de vidéo Web. <br><br>Il existe des outils et services gratuits ou payants que vous pouvez utiliser pour créer les fichiers de sous-titrage en dehors de Scene7 Publishing System. Par exemple, pour créer un fichier de sous-titrage vidéo simple sans aucun style, vous pouvez utiliser l’outil gratuit de création et de modification de sous-titrage en ligne suivant : <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Pour un résultat optimal, utilisez l’outil dans Internet Explorer 9 ou version ultérieure, Google Chrome ou Safari. <br><br>Dans l’outil, dans le champ <b>Enter URL of video file</b> (entrer l’URL du fichier vidéo), collez l’URL du fichier vidéo, puis cliquez sur <b>Load</b> (Charger). <br><br>Par exemple, si vous utilisez une URL Dynamic Media Classic pour votre fichier vidéo, dans SPS, cliquez sur un fichier vidéo individuel en doublon (et non sur une visionneuse de vidéos adaptative ou une vidéo Maîtresse) pour l’ouvrir dans la Vue de détails. Dans le panneau droit de la vue Détails, développez la liste URL et code intégré. Ensuite, sous le groupe Mobile, à droite de Mobile (progressive), cliquez sur Copier l’URL. This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. Internet Explorer, Chrome ou Safari peuvent alors lire la vidéo en mode natif. Suivez maintenant les instructions à l’écran du site pour créer et enregistrer votre fichier WebVTT. Ensuite, copiez le contenu du fichier de sous-titrage et collez-le dans un éditeur de texte brut, puis enregistrez-le au format .vtt. <br><br><b>Remarque :</b> Pour une prise en charge globale des sous-titres vidéo dans des langues autres que l’anglais, sachez que la norme WebVTT exige que vous créiez des fichiers .vtt et des appels distincts pour chaque langue à prendre en charge. <br><br>En règle générale, vous attribuez au fichier VTT de sous-titrage le même nom que le fichier vidéo et vous lui ajoutez le mot captions. En procédant ainsi, vous pouvez automatiser aisément la génération des URL de vidéo en utilisant le système de gestion de contenu Web existant. |
+   | HTML5 | Si vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fichier de sous-titrage que vous créez est conforme à la norme WebVTT (Web Video Text Tracks). Le fichier de sous-titrage a l’extension .vtt. D’autres informations sont disponibles sur la norme de sous-titrage WebVTT.<br><br>[Voir WebVTT](https://dev.w3.org/html5/webvtt/): Format Suivi de texte de vidéo Web. <br><br>Il existe des outils et des services gratuits et payants que vous pouvez utiliser pour créer des fichiers de sous-titrage en dehors de Dynamic Media Classic. Par exemple, pour créer un fichier de sous-titrage vidéo simple sans aucun style, vous pouvez utiliser l’outil gratuit de création et de modification de sous-titrage en ligne suivant : <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Pour un résultat optimal, utilisez l’outil dans Internet Explorer 9 ou version ultérieure, Google Chrome ou Safari. <br><br>Dans l’outil, dans le champ <b>Enter URL of video file</b> (entrer l’URL du fichier vidéo), collez l’URL du fichier vidéo, puis cliquez sur <b>Load</b> (Charger). <br><br>Par exemple, si vous utilisez une URL Dynamic Media Classic pour votre fichier vidéo, dans DMC, cliquez sur un fichier vidéo individuel (et non sur une visionneuse de vidéos adaptative ou une vidéo Maîtresse) en doublon de la Vue de détails. Dans le panneau droit de la vue Détails, développez la liste URL et code intégré. Ensuite, sous le groupe Mobile, à droite de Mobile (progressive), cliquez sur Copier l’URL. This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. Internet Explorer, Chrome ou Safari peuvent alors lire la vidéo en mode natif. Suivez maintenant les instructions à l’écran du site pour créer et enregistrer votre fichier WebVTT. Ensuite, copiez le contenu du fichier de sous-titrage et collez-le dans un éditeur de texte brut, puis enregistrez-le au format .vtt. <br><br><b>Remarque :</b> Pour une prise en charge globale des sous-titres vidéo dans des langues autres que l’anglais, sachez que la norme WebVTT exige que vous créiez des fichiers .vtt et des appels distincts pour chaque langue à prendre en charge. <br><br>En règle générale, vous attribuez au fichier VTT de sous-titrage le même nom que le fichier vidéo et vous lui ajoutez le mot captions. En procédant ainsi, vous pouvez automatiser aisément la génération des URL de vidéo en utilisant le système de gestion de contenu Web existant. |
 
-1. Dans Scene7 Publishing System, téléchargez votre fichier de sous-titrage WebVTT, DFXP ou SMPTE XML.
+1. Dans Dynamic Media Classic, téléchargez votre fichier de sous-titrage WebVTT, DFXP ou SMPTE XML.
 
    Voir [Téléchargement de fichiers](uploading-files.md#uploading_files).
 
