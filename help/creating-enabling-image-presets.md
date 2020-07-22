@@ -2,15 +2,18 @@
 title: Création et activation des paramètres d’image prédéfinis
 seo-title: Création et activation des paramètres d’image prédéfinis
 description: 'null'
-seo-description: Découvrez comment créer et activer des paramètres d'image prédéfinis.
-uuid: 62 cfc 6 fa-da 91-4 c 42-a 3 ed -10956384 d 633
+seo-description: Découvrez comment créer et activer des paramètres d’image prédéfinis.
+uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/media_ portal
-discoiquuid: 84257 b 2 a -681 c -4 fe 9-a 6 e 5-3633 c 1 d 61 d 8 c
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 Lors de l’exportation de fichiers d’image via le portail multimédia, les utilisateurs peuvent choisir un paramètre d’image prédéfini dans la boîte de dialogue Exporter les fichiers sélectionnés. Un paramètre d’image prédéfini désigne un ensemble de paramètres préétablis qui permettent de modifier la taille, la qualité d’image, le format, la résolution et d’autres attributs de l’apparence d’une image au moment de l’exportation. 
 
-Les administrateurs du portail multimédia peuvent créer des paramètres d’image prédéfinis permettant de contrôler le type de reformatage des images lors de leur exportation. Les paramètres d’image prédéfinis permettent de reformater les images selon les spécifications de l’entreprise lors de l’exportation d’images à partir de Scene7 Publishing System. Au lieu de reformater les images selon leurs préférences, les utilisateurs les exportent en respectant les spécifications exactes d’un paramètre d’image prédéfini.
+Les administrateurs du portail multimédia peuvent créer des paramètres d’image prédéfinis permettant de contrôler le type de reformatage des images lors de leur exportation. Les paramètres d’image prédéfinis reformatent les images selon les spécifications de votre société lorsque les utilisateurs exportent des images à partir de Dynamic Media Classic. Au lieu de reformater les images selon leurs préférences, les utilisateurs les exportent en respectant les spécifications exactes d’un paramètre d’image prédéfini.
 
 Les restrictions suivantes s’appliquent lorsque vous exportez des fichiers d’image :
 
