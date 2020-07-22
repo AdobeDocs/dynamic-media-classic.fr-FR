@@ -2,22 +2,25 @@
 title: Déploiement de vidéos sur vos sites Web et sites mobiles
 seo-title: Déploiement de vidéos sur vos sites Web et sites mobiles
 description: 'null'
-seo-description: Découvrez comment déployer une vidéo sur vos sites Web et sites mobiles.
-uuid: 22 bb 4402-c 0 ab -4 df 0-89 b 9-99707 d 111927
+seo-description: Découvrez comment déployer des vidéos sur vos sites Web et sites mobiles.
+uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/video
-discoiquuid: 0 d 006314-c 4 cc -4 f 6 c-a 51 c -6075 bb 445 e 39
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1689'
+ht-degree: 69%
 
 ---
 
 
 # Déploiement de vidéos sur vos sites Web et sites mobiles{#deploying-video-to-your-websites-and-mobile-sites}
 
-Les sites Web, sites mobiles et applications de bureau accèdent au contenu du serveur Dynamic Media Classic, y compris aux vidéos, à l'aide de chaînes URL ou de code incorporé. Dynamic Media Classic active ces chaînes URL pendant le processus de publication. Pour placer la chaîne d’URL ou le code intégré de la vidéo dans vos pages Web, pages mobiles et applications de bureau, copiez-les depuis Scene7 Publishing System.
+Les sites Web, sites mobiles et applications de bureau accèdent au contenu des serveurs Dynamic Media Classic, y compris aux vidéos, au moyen de chaînes URL ou de code incorporé. Dynamic Media Classic active ces chaînes URL lors du processus de publication. Pour placer la chaîne URL ou le code incorporé de la vidéo dans vos pages Web, pages mobiles et applications de bureau, copiez-la depuis Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -25,19 +28,19 @@ Les sites Web, sites mobiles et applications de bureau accèdent au contenu du s
 
 ## Publication des vidéos {#publishing-video}
 
-La publication d'une vidéo permet aux serveurs Dynamic Media Classic de diffuser des vidéos sur votre site Web, site mobile ou application.
+La publication d’une vidéo permet aux serveurs Dynamic Media Classic de diffuser de la vidéo sur votre site Web, site mobile ou application.
 
 Deux méthodes peuvent être utilisées pour publier la vidéo :
 
 * **Publication de vidéos automatiquement et immédiatement lors du transfert**
 
-   Dans le cadre du processus de téléchargement vidéo, Dynamic Media Classic peut publier automatiquement des vidéos lorsqu'elles sont téléchargées et codées. Cette capacité de publication instantanée signifie qu’il n’est pas nécessaire de publier les vidéos séparément après coup.
+   Dans le cadre du processus de téléchargement de vidéo, Dynamic Media Classic peut automatiquement publier des vidéos lorsqu’elles sont téléchargées et codées. Cette capacité de publication instantanée signifie qu’il n’est pas nécessaire de publier les vidéos séparément après coup.
 
 * **Publication d’une vidéo manuellement après le transfert**
 
    Si vous ne souhaitez pas publier les vidéos immédiatement, vous pouvez les publier manuellement à tout moment.
 
-Une fois que vous avez publié des vidéos, Scene7 Publishing System active les chaînes URL du code HTML de vos pages ou de votre application.
+Après avoir publié des vidéos, Dynamic Media Classic active les chaînes URL de votre page HTML ou code d’application.
 
 **Publication d’une vidéo**
 
@@ -61,15 +64,15 @@ Voir aussi [Incorporation de la visionneuse de vidéos sur une page Web](deployi
 1. Au-dessus du panneau de navigation dans les fichiers, à droite de la barre d’outils, effectuez l’une des opérations suivantes :
 
    * Cliquez sur **Affichage de la grille** ou **Affichage par liste**. Dans le panneau de navigation des fichiers, cliquez deux fois sur la miniature vidéo d’un fichier pour l’ouvrir en mode Affichage des détails. Dans le panneau des URL et du code intégré sur la droite, sous Diffusion en flux continu HTTP, cliquez sur **Copier l’URL** à droite de la visionneuse appropriée. As a best practice, copy the URL associated with the `Universal_HTML5_Video` viewer.
-   * Cliquez sur **Affichage de la grille**. Dans le panneau de navigation dans les fichiers, sélectionnez un fichier, puis sous l’image miniature, cliquez sur **Prévisualiser** &gt; **Liste des visionneuses**.
+   * Cliquez sur **Affichage de la grille**. Dans le panneau de navigation dans les fichiers, sélectionnez un fichier, puis sous l’image miniature, cliquez sur **Prévisualiser** > **Liste des visionneuses**.
 
       Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **Copier l’URL**. As a best practice, copy the URL associated with the `Universal_HTML5_Video` viewer.
 
-   * Cliquez sur **Affichage par liste**. Dans le panneau de navigation dans les fichiers, sélectionnez un fichier, puis à droite de l’image miniature, cliquez sur **Prévisualiser** &gt; **Liste des visionneuses**.
+   * Cliquez sur **Affichage par liste**. Dans le panneau de navigation dans les fichiers, sélectionnez un fichier, puis à droite de l’image miniature, cliquez sur **Prévisualiser** > **Liste des visionneuses**.
 
       Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **Copier l’URL**. As a best practice, copy the URL associated with the `Universal_HTML5_Video` viewer.
 
-   * Cliquez sur **Affichage de la grille**, **Affichage par liste** ou **Affichage des détails**. Dans la même barre d’outils, cliquez sur **Prévisualiser** &gt; **Liste des visionneuses**.
+   * Cliquez sur **Affichage de la grille**, **Affichage par liste** ou **Affichage des détails**. Dans la même barre d’outils, cliquez sur **Prévisualiser** > **Liste des visionneuses**.
 
       Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **Copier l’URL**. As a best practice, copy the URL associated with the `Universal_HTML5_Video` viewer.
 
@@ -77,7 +80,7 @@ Voir aussi [Incorporation de la visionneuse de vidéos sur une page Web](deployi
 
 ## Intégration de la visionneuse de vidéos sur une page Web {#embedding-the-video-viewer-on-a-web-page}
 
-Utilisez la fonction Intégrer le code lorsque vous souhaitez lire la vidéo incorporée sur une page Web. Vous copiez le code intégré dans le Presse-papiers afin de pouvoir le coller dans vos pages Web. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code intégré.
+Utilisez la fonction Intégrer le code lorsque vous souhaitez lire la vidéo incorporée sur une page Web. Vous copiez le code intégré dans le presse-papiers pour pouvoir le coller dans vos pages web. Vous ne pouvez pas modifier le code dans la boîte de dialogue Intégrer le code.
 
 Voir aussi [Liaison d’une URL de vidéo à un site Web ou à un site mobile](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
@@ -88,15 +91,15 @@ Voir aussi [Liaison d’une URL de vidéo à un site Web ou à un site mobile](
 1. Au-dessus du panneau de navigation dans les fichiers, à droite de la barre d’outils, effectuez l’une des opérations suivantes :
 
    * Cliquez sur **Affichage de la grille** ou **Affichage par liste**. Dans le panneau de navigation des fichiers, cliquez deux fois sur la miniature vidéo d’un fichier pour l’ouvrir en mode Affichage des détails. Dans le panneau des URL et du code intégré sur la droite, sous Diffusion en flux continu HTTP, cliquez sur **Intégrer le code** à droite de la visionneuse appropriée. As a best practice, click **Embed Code** that is associated with the `Universal_HTML5_Video` viewer.
-   * Cliquez sur **Affichage de la grille**. Dans le panneau de navigation dans les fichiers, sélectionnez un fichier, puis sous l’image miniature de vidéo, cliquez sur **Prévisualiser** &gt; **Liste des visionneuses**.
+   * Cliquez sur **Affichage de la grille**. Dans le panneau de navigation dans les fichiers, sélectionnez un fichier, puis sous l’image miniature de vidéo, cliquez sur **Prévisualiser** > **Liste des visionneuses**.
 
       Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **Code intégré**. As a best practice, click **Embed Code** that is associated with the `Universal_HTML5_Video` viewer.
 
-   * Cliquez sur **Affichage par liste**. Dans le panneau de navigation dans les fichiers, sélectionnez un fichier, puis à droite de l’image miniature, cliquez sur **Prévisualiser** &gt; **Liste des visionneuses**.
+   * Cliquez sur **Affichage par liste**. Dans le panneau de navigation dans les fichiers, sélectionnez un fichier, puis à droite de l’image miniature, cliquez sur **Prévisualiser** > **Liste des visionneuses**.
 
       Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **Code intégré**. As a best practice, click **Embed Code** that is associated with the `Universal_HTML5_Video` viewer.
 
-   * Cliquez sur **Affichage de la grille**, **Affichage par liste** ou **Affichage des détails**. Dans la même barre d’outils, cliquez sur **Prévisualiser** &gt; **Liste des visionneuses**.
+   * Cliquez sur **Affichage de la grille**, **Affichage par liste** ou **Affichage des détails**. Dans la même barre d’outils, cliquez sur **Prévisualiser** > **Liste des visionneuses**.
 
       Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **Code intégré**. As a best practice, click **Embed Code** that is associated with the `Universal_HTML5_Video` viewer.
 
@@ -127,44 +130,46 @@ If you do not use the Dynamic Media Classic HTML5 video player, but instead want
 
    Voir [Liaison d’une URL de vidéo à un site Web ou un site mobile](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-* Remplacez `"S7 MP4 mobile progressive video asset URL (no player)"` cette option par l'URL progressive de la vidéo.
+* Remplacez cette valeur par `"S7 MP4 mobile progressive video asset URL (no player)"` l’URL progressive mobile de la vidéo.
 
    Voir [Liaison d’une URL de vidéo à un site Web ou un site mobile](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 ## Déploiement d’une vidéo à l’aide d’un lecteur vidéo tiers {#deploying-video-using-a-third-party-video-player}
 
-Si vous utilisez un lecteur vidéo tiers ou un lecteur vidéo intégré personnalisé au lieu d'une visionneuse vidéo Classic Media Classic, vous pouvez obtenir l'URL directe de vidéo compatible avec le téléchargement progressif ou progressif de vidéo HLS.
+Si vous utilisez un lecteur vidéo tiers ou un lecteur vidéo intégré personnalisé au lieu d’une visionneuse de vidéos Dynamic Media Classic, vous pouvez obtenir l’URL de vidéo directe qui fonctionne pour la diffusion en flux continu à débit multiple HLS ou le téléchargement progressif.
 
 **Déploiement d’une vidéo à l’aide d’un lecteur vidéo tiers**
 
-1. Dans SPS (Scene7 Publishing System), sur la barre de navigation générale, cliquez sur **Configuration** &gt; **Configuration de l’application** &gt; **Paramètres généraux**.
+1. In Dynamic Media Classic, on the Global Navigation bar, click **Setup** > **Application Setup** > **General Settings**.
 1. Selon le type d’URL à utiliser, effectuez l’une des opérations suivantes :
-* Génération d'une URL directe de vidéo en flux continu HLS (débit multiple)
+* Génération d’une URL directe de vidéo en flux continu HLS (débit multiple)
 
-   Sur **la page Paramètres** généraux de l'application, dans le groupe **Serveurs** , **dans le champ Nom** du serveur publié, générez l'URL directe selon la syntaxe suivante : `server/is/content/company/folder/filename.m3u8`
-Supposons, par exemple, que le nom du serveur publié utilise `https://s7d9.scene7.com/.` la syntaxe de l'étape 2, l'URL directe ressemblerait à ce qui suit :
+   Sur la page Paramètres **généraux de l’** application, dans le groupe **Serveurs** , dans le champ Nom **du serveur** publié, générez l’URL directe en utilisant la syntaxe suivante : `server/is/content/company/folder/filename.m3u8`
+Par exemple, supposons que le nom du serveur publié utilise `https://s7d9.scene7.com/.` la syntaxe de l’étape 2, l’URL directe peut ressembler à ce qui suit :
    `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
-* Génération d'une URL directe de vidéo en flux continu HLS (débit unique)
+* Pour générer une URL directe de vidéo en flux continu HLS (débit unique)
 
    On the **Application General Settings** page, in the **Servers** group, in the **HLS Streaming Server Name** text field, construct the direct URL using the following syntax:
-   `server/company/folder/filename.ext.m3u8`Supposons par exemple que le nom du serveur de flux continu HLS est `https://s7mbrstream.scene7.com/hls-vod/`. En utilisant la syntaxe de l’étape 2, l’URL directe ressemblerait à ce qui suit :
+   `server/company/folder/filename.ext.m3u8`
+Par exemple, supposons que le nom du serveur de flux continu HLS soit `https://s7mbrstream.scene7.com/hls-vod/`. En utilisant la syntaxe de l’étape 2, l’URL directe ressemblerait à ce qui suit :
    `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * Génération d’une URL de vidéo progressive directe
 
-   Sur la page **Paramètres généraux de l’application**, dans le groupe **Serveurs**, dans le champ **Nom du serveur de vidéo progressive**, générez l’URL eVideo directe selon la syntaxe suivante : `server/company/folder/filename`Supposons, par exemple, que le nom du serveur vidéo progressif soit `https://s7d9.scene7.com/is/content/`. En utilisant la syntaxe de l’étape 2, l’URL directe ressemblerait à ce qui suit :
+   Sur la page **Paramètres généraux de l’application**, dans le groupe **Serveurs**, dans le champ **Nom du serveur de vidéo progressive**, générez l’URL eVideo directe selon la syntaxe suivante : `server/company/folder/filename`
+For example, suppose the progressive video server name is `https://s7d9.scene7.com/is/content/`. En utilisant la syntaxe de l’étape 2, l’URL directe ressemblerait à ce qui suit :
    `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## Utilisation de miniatures de vidéo {#working-with-video-thumbnails}
 
-Dynamic Media Classic génère des miniatures pour les vidéos codées et les vidéos précodées. Vous pouvez utiliser des miniatures vidéo comme n’importe quelle autre image. De plus, vous pouvez obtenir des URL pour les miniatures vidéo générées par Dynamic Media Classic et les déployer en dehors de SPS. Vous pouvez, par exemple, déployer les miniatures dans des résultats de recherche, des listes de vidéos correspondantes et des listes de lecture vidéo sur un site Web.
+Dynamic Media Classic génère des miniatures pour les vidéos codées et les vidéos précodées. Vous pouvez utiliser des miniatures vidéo comme n’importe quelle autre image. En outre, vous pouvez obtenir des URL pour les miniatures vidéo que Dynamic Media Classic génère et déployer ces URL en dehors de Dynamic Media Classic. Vous pouvez, par exemple, déployer les miniatures dans des résultats de recherche, des listes de vidéos correspondantes et des listes de lecture vidéo sur un site Web.
 
 Les miniatures sont générées en fonction de la première image hétérogène (pas une image toute noire, toute blanche, etc.) de la vidéo.
 
 ### Obtention d’URL de miniatures vidéo {#obtaining-video-thumbnail-urls}
 
-Dynamic Media Classic génère automatiquement des miniatures vidéo au cours du processus de téléchargement. Ces miniatures apparaissent dans le panneau de navigation en mode Affichage de la liste et Affichage de la grille.
+Dynamic Media Classic génère automatiquement des miniatures vidéo pendant le processus de téléchargement. Ces miniatures apparaissent dans le panneau de navigation en mode Affichage de la liste et Affichage de la grille.
 
 Pour générer des URL de miniatures vidéo, effectuez une opération de publication.
 
@@ -174,7 +179,7 @@ Une fois la publication terminée, vous pouvez obtenir des URL de miniatures vid
 
 ### Modification de cadres d’affiche dans des visionneuses de vidéos {#modifying-poster-frames-in-video-viewers}
 
-Le *cadre d’affiche* est la première image qui apparaît dans les visionneuses de vidéos avant que ne commence la lecture de la vidéo. Dynamic Media Classic utilise des miniatures vidéo comme cadres d'affiche.
+Le *cadre d’affiche* est la première image qui apparaît dans les visionneuses de vidéos avant que ne commence la lecture de la vidéo. Dynamic Media Classic utilise des miniatures vidéo comme cadres d’affiche.
 
 Vous pouvez appliquer des modificateurs d’image au cadre d’affiche. Vous pouvez, par exemple, rogner le cadre d’affiche ou le rendre transparent. Pour modifier le cadre d’affiche, ouvrez l’écran de configuration de la visionneuse de vidéos et saisissez les modificateurs dans la section Poster Image Modifiers (Modificateurs de l’image d’affiche). 
 
@@ -186,5 +191,5 @@ Vous pouvez également modifier des miniatures vidéo en ajoutant des modificate
 
 >[!MORELIKETHIS]
 >
->* [Publication de fichiers](publishing-files.md#publishing_files)
+>* [Publication de fichiers ](publishing-files.md#publishing_files)
 
