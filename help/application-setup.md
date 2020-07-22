@@ -6,14 +6,14 @@ seo-description: Découvrez comment configurer la zone d’application de Dynami
 uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
 workflow-type: tm+mt
-source-wordcount: '11120'
-ht-degree: 71%
+source-wordcount: '10982'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ Vous pouvez utiliser les pages Configuration de l’application pour saisir des 
 
 >[!NOTE]
 >
->seuls les administrateurs Scene7 Publishing System sont habilités à modifier les paramètres des pages Configuration de l’application.
+>Seuls les administrateurs Dynamic Media Classic peuvent modifier les paramètres des pages Configuration de l’application.
 
 ## Paramètres généraux {#general-settings}
 
@@ -36,119 +36,113 @@ Lors de la création de compte, Dynamic Media Classic fournit automatiquement le
 
 Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-**Nom** du serveur publié Ce serveur est le serveur CDN actif utilisé dans tous les appels d’URL générés par le système et spécifiques à votre compte. Ne modifiez pas ce nom de serveur à moins que vous ne soyez invité à le faire par un technicien de l’assistance technique Dynamic Media Classic.
+* **Nom** du serveur publié : ce serveur est le serveur CDN actif utilisé dans tous les appels d’URL générés par le système et spécifique à votre compte. Ne modifiez pas ce nom de serveur à moins que vous ne soyez invité à le faire par un technicien de l’assistance technique Dynamic Media Classic.
 
-**Nom** du serveur d&#39;Origines Ce serveur est utilisé uniquement pour les tests d&#39;assurance qualité. Ne changez pas le nom de ce serveur, sauf si un technicien de l’assistance technique Dynamic Media Classic vous le demande.
+* **Nom** du serveur d’Origines : ce serveur est utilisé uniquement pour les tests d’assurance qualité. Ne changez pas le nom de ce serveur, sauf si un technicien de l’assistance technique Dynamic Media Classic vous le demande.
 
-**Nom** du serveur AGM Ce serveur est utilisé pour les modèles Web-to-Print. Ce serveur est défini à l’échelle de l’entreprise. Ne changez pas le nom de ce serveur, sauf si un technicien de l’assistance technique Dynamic Media Classic vous le demande.
+<!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Dynamic Media Classic support technician. -->
 
-**Test&amp;Cible Server attribue un nom** à votre URL Test&amp;Cible, jusqu’à .com compris. Pour plus d’informations sur l’obtention de cette URL, voir Intégration de Dynamic Media Classic à Cible Classic.
+* **Nom** du serveur Test&amp;Cible - Votre URL Test&amp;Cible, jusqu’à .com compris. For instructions about obtaining this URL, see Integrating [!DNL Dynamic Media Classic] with [!DNL Target Standard/Premium].
 
-**Nom** du serveur de flux continu iOS URL de votre serveur de flux continu iOS Dynamic Media Classic. Ce serveur permet de proposer des vidéos en flux continu sur les périphériques iOS à l’aide du protocole HTTP.
+<!-- **Test Publish Context Server Name** -->
 
-**Nom** du serveur de vidéo progressive URL de votre serveur de vidéo progressive Dynamic Media Classic. Ce serveur permet de proposer des vidéos progressives à l’aide du protocole HTTP.
+* **Nom** du serveur de diffusion iOS : URL de votre serveur de diffusion [!DNL Dynamic Media Classic] iOS. Ce serveur permet de proposer des vidéos en flux continu sur les périphériques iOS à l’aide du protocole HTTP.
 
-**Afficher l’URL des fichiers** non publiés Sélectionnez cette option si vous souhaitez que Dynamic Media Classic affiche une URL lors de la prévisualisation d’un fichier, qu’il soit publié ou non. Si le fichier n’est pas publié, l’URL ne fonctionne pas. Vous pouvez, cependant, utiliser l’URL à des fins de planification ou d’organisation.
+* **Nom** du serveur de vidéo progressive : URL de votre serveur de vidéo [!DNL Dynamic Media Classic] progressive. Ce serveur permet de proposer des vidéos progressives à l’aide du protocole HTTP.
 
-**Autoriser l’installation** d’AIR Sélectionnez cette option pour permettre aux utilisateurs de télécharger la version de bureau de Scene7 Publishing System sur leur disque dur local. Les utilisateurs peuvent installer l’application à partir de la zone Version de bureau de l’écran Configuration personnelle.
+* **Afficher l’URL des fichiers** non publiés : sélectionnez cette option si vous souhaitez [!DNL Dynamic Media Classic] afficher une URL lors de la prévisualisation d’un fichier, qu’il soit publié ou non. Si le fichier n’est pas publié, l’URL ne fonctionne pas. Vous pouvez, cependant, utiliser l’URL à des fins de planification ou d’organisation.
 
-Les utilisateurs d’AIR peuvent désinstaller manuellement leur application existante et effectuer une réinstallation à partir de la version en ligne de Scene7 Publishing System (sous Paramètres personnels). Après cette réinstallation unique, vous êtes invité à effectuer une mise à niveau lorsque le serveur dispose d’une version plus récente de Scene7 Publishing System AIR. Scene7 Publishing System est intégré dans Application Update Framework qui simplifie le processus de mise à niveau.
+<!-- **Allow AIR install** Select this option to allow users to download Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
-**Modèle** d’invalidation CDN Indique le modèle utilisé pour invalider le cache CDN (Content Diffusion Network).
+<!-- AIR users must manually uninstall their existing app and reinstall from the web version of Dynamic Media Classic (in Personal Settings). After this one-time reinstallation, you are prompted to upgrade whenever the server has a newer version of Dynamic Media Classic AIR. Dynamic Media Classic is integrated with the Application Update Framework which streamlines the upgrade process. -->
 
-For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
+* **Modèle** d’invalidation CDN : indique le modèle utilisé pour invalider le cache CDN (Content Diffusion Network).
 
-`https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
+   For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
 
-If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
+   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-Si vous définissez le modèle CDN Invalidate, que vous sélectionnez une image nommée Backpack_B, puis que vous cliquez sur **Fichier** > **Invalider sur le réseau de diffusion de contenu**, l’URL suivante est générée dans l’interface de CDN Invalidate :
+   Si le modèle contient uniquement `<ID>`, Dynamic Media Classic remplit la `https://<server>/is/image`zone, où `<server>` est le nom du serveur de publication défini dans Paramètres généraux.
 
-`https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
+   Si vous définissez le modèle CDN Invalidate, que vous sélectionnez une image nommée Backpack_B, puis que vous cliquez sur **Fichier** > **Invalider sur le réseau de diffusion de contenu**, l’URL suivante est générée dans l’interface de CDN Invalidate :
 
-Dans la zone de la liste des URL, cliquez sur **Continuer** pour effacer la mémoire cache de cet appel d’URL d’image spécifique. Notez que vous pouvez également ajouter des URL en les saisissant ou en les collant dans la zone de la liste des URL ; vous n’avez pas besoin de définir le modèle au préalable.
+   `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-Une fois le modèle d’invalidation sur le réseau de diffusion de contenu sélectionné et une demande d’invalidation sur le réseau de diffusion de contenu effectuée, un indicateur s’affiche dans l’interface utilisateur et donne une évaluation du temps nécessaire pour effacer le cache.
+   Dans la zone de la liste des URL, cliquez sur **Continuer** pour effacer la mémoire cache de cet appel d’URL d’image spécifique. Notez que vous pouvez également ajouter des URL en les saisissant ou en les collant dans la zone de la liste des URL ; vous n’avez pas besoin de définir le modèle au préalable.
 
-De même, si plusieurs images sont sélectionnées dans SPS lorsque vous cliquez sur **Fichier** > **Invalider sur le réseau de diffusion de contenu**, chaque image est référencée dans l’URL modèle enregistrée. Par conséquent, vous pouvez définir un modèle CDN Invalidate référençant chaque URL référencée sur votre site Web (comme le détail d’un produit, les résultats de recherche, et ainsi de suite). Ensuite, lorsque vous sélectionnez une ou plusieurs images pour invalidation à partir du cache, les URL renseignent automatiquement l’interface.
+   Une fois le modèle d’invalidation sur le réseau de diffusion de contenu sélectionné et une demande d’invalidation sur le réseau de diffusion de contenu effectuée, un indicateur s’affiche dans l’interface utilisateur et donne une évaluation du temps nécessaire pour effacer le cache.
 
-Voir [Mise en cache du contenu](scene7-platform-overview.md#content_caching).
+   Similarly, if multiple images are selected within Dynamic Media Classic when you click **File** > **Invalidate CDN**, each image is referenced in the saved Template URL. Par conséquent, vous pouvez définir un modèle CDN Invalidate référençant chaque URL référencée sur votre site Web (comme le détail d’un produit, les résultats de recherche, et ainsi de suite). Ensuite, lorsque vous sélectionnez une ou plusieurs images pour invalidation à partir du cache, les URL renseignent automatiquement l’interface.
 
-Voir [Fichiers republiés et délais CDN](publishing-files.md#republished_assets_and_cdn_delays).
+   Voir [Mise en cache du contenu](dmc-platform-overview.md#content_caching).
 
-**Parcourir**
+   Voir [Fichiers republiés et délais CDN](publishing-files.md#republished_assets_and_cdn_delays).
 
-**Afficher les projets** Détermine si des projets sont disponibles pour organiser vos ressources Dynamic Media Classic. (voir Organisation de votre travail avec des projets).
+### Parcourir
 
-**Afficher l’exemple de contenu** eVideo Activez ou désactivez l’affichage de l’exemple de contenu eVideo.
+* **Afficher les projets** : détermine si des projets sont disponibles pour organiser vos ressources Dynamic Media Classic. (voir Organisation de votre travail avec des projets).
 
-**Afficher le contenu** généré Dans les dossiers, affiche le contenu généré à partir d’un fichier. Par exemple, lorsqu’un fichier PDF est pixellisé au moment du téléchargement, Dynamic Media Classic crée une image pour chaque page du fichier PDF d’origine. Si cette option est sélectionnée, chaque image générée au moment du téléchargement du fichier PDF original apparaît aux côtés du fichier PDF dans le dossier où il a été téléchargé.
+* **Afficher l’exemple de contenu** eVideo : activez ou désactivez l’affichage de l’exemple de contenu eVideo.
 
-**Afficher les vidéos** codées désélectionnées (désactivées) par défaut.
+* **Afficher le contenu** généré : dans les dossiers, affiche le contenu généré à partir d’un fichier. Par exemple, lorsqu’un fichier PDF est pixellisé au moment du téléchargement, Dynamic Media Classic crée une image pour chaque page du fichier PDF d’origine. Si cette option est sélectionnée, chaque image générée au moment du téléchargement du fichier PDF original apparaît aux côtés du fichier PDF dans le dossier où il a été téléchargé.
 
-Pour rechercher rapidement des vidéos dans Scene7 Publishing System sans avoir à parcourir de nombreux dérivés codés de la même vidéo, ne désélectionnez pas cette option (par défaut). Seule la miniature de la vidéo originale, qui est la vidéo source que vous avez téléchargée et utilisée pour créer tous les dérivés, et seule la miniature de la visionneuse de vidéos adaptative « parent », qui contient tous les dérivés « enfants » de la visionneuse de vidéos codées, sont affichées dans l’interface utilisateur.
+* **Afficher les vidéos** codées - Désactivée (désactivée) par défaut.
 
-Il est toujours possible d’accéder à des vidéos codées individuelles à partir de la vidéo originale ou de la visionneuse de vidéos adaptatives. Pour ce faire, double-cliquez sur l’image miniature de la vidéo pour passer en mode Affichage des détails. Cliquez ensuite sur **Vidéos codées** dans le panneau droit pour accéder à l’intégralité des vidéos « enfants ».
+   Pour rechercher rapidement des vidéos dans Dynamic Media Classic sans avoir à parcourir de nombreux dérivés codés de la même vidéo, laissez cette option désélectionnée (par défaut). Seule la miniature de la vidéo originale, qui est la vidéo source que vous avez téléchargée et utilisée pour créer tous les dérivés, et seule la miniature de la visionneuse de vidéos adaptative « parent », qui contient tous les dérivés « enfants » de la visionneuse de vidéos codées, sont affichées dans l’interface utilisateur.
 
-Vous pouvez également utiliser la commande **Fichier > Retraiter** pour créer d’autres vidéos codées « enfants » directement depuis une visionneuse de vidéos adaptatives. Scene7 Publishing System recherche automatiquement la vidéo originale « parent » de la visionneuse de vidéos adaptatives et l’utilise comme source vidéo pour le transcodage. Cependant, lorsque vous enregistrez les nouvelles vidéos codées individuelles, elles ne sont pas visibles lors d’une recherche ou d’une navigation. Elles restent néanmoins accessibles à partir de l’onglet Vidéos codées dans la vue Affichage des détails.
+   Il est toujours possible d’accéder à des vidéos codées individuelles à partir de la vidéo originale ou de la visionneuse de vidéos adaptatives. Pour ce faire, double-cliquez sur l’image miniature de la vidéo pour passer en mode Affichage des détails. Cliquez ensuite sur **Vidéos codées** dans le panneau droit pour accéder à l’intégralité des vidéos « enfants ».
 
-Voir [Téléchargement et transcodage vidéo](uploading-encoding-videos.md#uploading_and_encoding_videos).
+   Vous pouvez également utiliser la commande **Fichier > Retraiter** pour créer d’autres vidéos codées « enfants » directement depuis une visionneuse de vidéos adaptatives. Dynamic Media Classic recherche automatiquement la vidéo Maître &quot;parent&quot; de la visionneuse de vidéos adaptative et l’utilise comme vidéo source pour le transcodage. Cependant, lorsque vous enregistrez les nouvelles vidéos codées individuelles, elles ne sont pas visibles lors d’une recherche ou d’une navigation. Elles restent néanmoins accessibles à partir de l’onglet Vidéos codées dans la vue Affichage des détails.
 
-Pour continuer à accéder à toutes les vidéos codées dérivées lors d’une recherche ou d’une navigation, sélectionnez **Afficher les vidéos codées**.
+   Voir [Téléchargement et transcodage vidéo](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
-Certaines actions du menu Créer ne fonctionnent qu’avec des vidéos individuelles. C’est la raison pour laquelle il est nécessaire d’afficher toutes les vidéos codées dérivées pouvant être sélectionnées, quelle que soit la façon dont vous définissez le paramètre **Afficher les vidéos codées**. The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
+   Pour continuer à accéder à toutes les vidéos codées dérivées lors d’une recherche ou d’une navigation, sélectionnez **Afficher les vidéos codées**.
 
->[Note]
->
->Si vous n’avez pas utilisé Scene7 Publishing System pour télécharger et coder vos fichiers vidéo, Dynamic Media Classic affiche toutes vos vidéos codées individuelles, même si cette option est désélectionnée.
+   Certaines actions du menu Créer ne fonctionnent qu’avec des vidéos individuelles. C’est la raison pour laquelle il est nécessaire d’afficher toutes les vidéos codées dérivées pouvant être sélectionnées, quelle que soit la façon dont vous définissez le paramètre **Afficher les vidéos codées**. The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
 
-**Afficher le bouton** Actualiser les sous-dossiers Active ou désactive l&#39;affichage du bouton Actualiser des sous-dossiers.
+   >[Note]
+   >
+   >Si vous n’avez pas utilisé Dynamic Media Classic pour télécharger et coder vos fichiers vidéo, Dynamic Media Classic affiche toutes vos vidéos codées individuelles, même si cette option est désélectionnée.
 
-**Compte FTP Dynamic Media Classic**
+* **Afficher le bouton** Actualiser les sous-dossiers : activez ou désactivez l&#39;affichage du bouton Actualiser des sous-dossiers.
 
-**Le serveur** Liste votre serveur de compte FTP.
+### Compte FTP Dynamic Media Classic
 
-**Nom** d’utilisateur Liste le nom d’utilisateur de votre compte FTP.
+* **Serveur** : Liste votre serveur de compte FTP.
 
-**Télécharger dans l’application**
+* **Nom** d&#39;utilisateur : Liste le nom d&#39;utilisateur de votre compte FTP.
 
-**Ecraser les images** Dynamic Media Classic ne permet pas à deux fichiers d’avoir le même nom. L’identifiant Scene7 Publishing System de chaque élément (le nom de l’image sans l’extension de fichier) doit être unique. De par cette règle, la boîte de dialogue Télécharger contient une option Ecraser. L’effet précis de cette option dépend de l’option Ecraser les images spécifiée. Ces options spécifient la manière dont les images de remplacement sont téléchargées : elles peuvent remplacer les images d’origine ou devenir des doublons. Lorsqu’un doublon est créé, le suffixe « -1 » est ajouté au nom de l’image d’origine. Par exemple, le nom chaise.tif devient chaise-1.tif pour le doublon. Ces options affectent les images téléchargées dans un dossier autre que le dossier d’origine ou les images dont l’extension est différente de celle du fichier d’origine (telle que JPG, TIF ou encore PNG) (voir Utilisation de l’option Ecraser les images).
+### Télécharger dans l’application
 
-**Ecraser dans le dossier actuel, même nom/même extension d’image de base**
+* **Ecraser les images** - Dynamic Media Classic ne permet pas à deux fichiers d’avoir le même nom. L’identifiant Dynamic Media Classic de chaque élément (nom de l’image sans l’extension de fichier) doit être unique. De par cette règle, la boîte de dialogue Télécharger contient une option Ecraser. L’effet précis de cette option dépend de l’option Ecraser les images spécifiée. Ces options spécifient la manière dont les images de remplacement sont téléchargées : elles peuvent remplacer les images d’origine ou devenir des doublons. Lorsqu’un doublon est créé, le suffixe « -1 » est ajouté au nom de l’image d’origine. Par exemple, le nom chaise.tif devient chaise-1.tif pour le doublon. Ces options affectent les images téléchargées dans un dossier autre que le dossier d’origine ou les images dont l’extension est différente de celle du fichier d’origine (telle que JPG, TIF ou encore PNG) (voir Utilisation de l’option Ecraser les images).
 
-Cette règle de remplacement est la plus stricte. Elle nécessite que vous téléchargiez l’image de remplacement dans le même dossier que l’image d’origine, et qu’elle ait la même extension que le fichier d’origine. Si ces conditions ne sont pas remplies, un doublon est créé.
+   * **Ecraser dans le dossier actif, même nom/extension** d&#39;image de base - Cette option est la règle de remplacement la plus stricte. Elle nécessite que vous téléchargiez l’image de remplacement dans le même dossier que l’image d’origine, et qu’elle ait la même extension que le fichier d’origine. Si ces conditions ne sont pas remplies, un doublon est créé.
 
-**Ecraser dans le dossier actuel, même nom de fichier de base sans tenir compte de l’extension**
+   * **Ecraser dans le dossier actuel, même nom de fichier de base, quelle que soit l’extension** : nécessite que vous téléchargiez l’image de remplacement dans le même dossier que l’image d’origine, mais l’extension de nom de fichier peut être différente de celle d’origine. Par exemple, chaise.tif peut remplacer chaise.jpg.
 
-Cette règle nécessite que vous téléchargiez l’image de remplacement dans le même dossier que l’image d’origine, mais l’extension peut être différente de celle du fichier d’origine. Par exemple, chaise.tif peut remplacer chaise.jpg.
+   * **Ecraser dans n’importe quel dossier, même nom/extension** de fichier de base : nécessite que l’image de remplacement ait la même extension de fichier que l’image d’origine (par exemple, chaise.jpg doit remplacer chaise.jpg et non chaise.tif). Vous pouvez toutefois télécharger l’image de remplacement dans un dossier différent de celui de l’image d’origine. L’image mise à jour se trouve dans le nouveau dossier, et le fichier d’origine n’est plus disponible à l’emplacement d’origine.
 
-**Ecraser dans n’importe quel dossier, même nom/extension de fichier de base**
+   * **Ecraser dans n’importe quel dossier, même nom de fichier de base, quelle que soit l’extension** - Cette option est la règle de remplacement la plus inclusive. Elle vous permet de télécharger une image de remplacement dans un dossier autre que celui de l’image d’origine, de télécharger un fichier dont l’extension est différente de celle du fichier d’origine et de remplacer le fichier d’origine. Si le fichier d’origine se trouve dans un dossier différent, l’image de remplacement est enregistrée dans le dossier où elle a été téléchargée.
 
-Cette règle nécessite que l’image de remplacement ait la même extension que l’image d’origine (par exemple, chaise.jpg peut remplacer uniquement chaise.jpg et non chaise.tif). Vous pouvez toutefois télécharger l’image de remplacement dans un dossier différent de celui de l’image d’origine. L’image mise à jour se trouve dans le nouveau dossier, et le fichier d’origine n’est plus disponible à l’emplacement d’origine.
+* **Conserver la publication** : indique si une image de remplacement téléchargée dans Dynamic Media Classic conserve le paramètre Prêt à publier de l’image qu’elle remplace ou si le paramètre est spécifié lors du téléchargement.
 
-**Ecraser dans un dossier, même nom de fichier, extension indépendante**
+* **Profils** de couleurs par défaut : indique les profils de couleurs appliqués dans le cadre des options de Profil de couleurs par défaut lors de l’ajout d’images CMJN.
 
-Cette règle de remplacement est la plus permissive. Elle vous permet de télécharger une image de remplacement dans un dossier autre que celui de l’image d’origine, de télécharger un fichier dont l’extension est différente de celle du fichier d’origine et de remplacer le fichier d’origine. Si le fichier d’origine se trouve dans un dossier différent, l’image de remplacement est enregistrée dans le dossier où elle a été téléchargée.
+* **Options** de téléchargement par défaut : ouvre la boîte de dialogue Télécharger les options de la tâche, dans laquelle vous pouvez spécifier les options de téléchargement par défaut. Pour plus d’informations sur ces options, voir Options de téléchargement.
 
-**Conserver la publication** Indique si une image de remplacement téléchargée dans Dynamic Media Classic conserve le paramètre Prêt à publier de l’image qu’elle remplace ou si le paramètre est spécifié lors du téléchargement.
+### Editeur de zone cliquable, vers l’application
 
-**Profils** de couleurs par défaut Indique les profils de couleurs appliqués dans le cadre des options de Profil de couleurs par défaut lors de l’ajout d’images CMJN.
+* **HREF** de mappage d&#39;image par défaut - Définit l&#39;URL par défaut utilisée pour la colonne HREF de mappage d&#39;image. Il s’agit de l’URL par défaut qui apparaît lorsque vous créez des zones cliquables.
 
-**Options** de téléchargement par défaut Ouvre la boîte de dialogue Télécharger les options de la tâche, dans laquelle vous pouvez spécifier les options de téléchargement par défaut. Pour plus d’informations sur ces options, voir Options de téléchargement.
+* **Modèle** de mappage d’images par défaut : définit le script JavaScript par défaut pour le modèle HREF de mappage d’images. Vous pouvez également définir un code personnalisé à exécuter chaque fois que vous cliquez sur une zone cliquable.
 
-**Editeur de zone cliquable, vers l’application**
+### Autres paramètres, vers l’application
 
-**HREF** de mappage d’images par défaut Définit l’URL par défaut utilisée pour la colonne HREF de mappage d’images. Il s’agit de l’URL par défaut qui apparaît lorsque vous créez des zones cliquables.
-
-**Modèle** de mappage d’images par défaut Définit le script JavaScript par défaut pour le modèle HREF de mappage d’images. Vous pouvez également définir un code personnalisé à exécuter chaque fois que vous cliquez sur une zone cliquable.
-
-**Autres paramètres, vers l’application**
-
-**La corbeille peut nettoyer les avertissements** Les fichiers de la corbeille sont automatiquement supprimés dans les sept jours. Sélectionnez « Envoyer des e-mails avant la suppression automatique des éléments de la corbeille » si vous voulez que des notifications soient envoyées aux administrateurs des entreprises quatre jours avant la suppression définitive d’éléments situés dans la corbeille. (Voir Gestion du dossier Corbeille).
+* **Corbeille peut nettoyer les avertissements** - Les fichiers de la corbeille sont automatiquement supprimés dans les sept jours. Sélectionnez « Envoyer des e-mails avant la suppression automatique des éléments de la corbeille » si vous voulez que des notifications soient envoyées aux administrateurs des entreprises quatre jours avant la suppression définitive d’éléments situés dans la corbeille. (Voir Gestion du dossier Corbeille).
 
 ## Utilisation de l’option Écraser les images {#using-the-overwrite-images-option}
 
-Dynamic Media Classic n’autorise pas deux fichiers portant le même nom. L’identifiant Scene7 Publishing System de chaque élément (le nom de l’image sans l’extension de fichier) doit être unique. De par cette règle, la boîte de dialogue Télécharger contient des options Ecraser les images. L’effet précis de cette option dépend de l’un des paramètres internes de Scene7 Publishing System pour chaque entreprise.
+Dynamic Media Classic n’autorise pas deux fichiers portant le même nom. L’identifiant Dynamic Media Classic de chaque élément (nom de l’image sans l’extension de fichier) doit être unique. De par cette règle, la boîte de dialogue Télécharger contient des options Ecraser les images. L’effet exact de cette option dépend d’un paramètre pour chaque société Paramètres internes de Dynamic Media Classic.
 
 Si vous avez précédemment téléchargé des images, puis modifié les fichiers d’origine (ou les avez remplacés), l’option Ecraser sélectionnée indique comment Dynamic Media Classic remplace les images. Aucune donnée sur l’image ne change, mais la nouvelle image remplace l’ancienne. Si le dossier contient également des images qui ne se trouvent pas encore dans Dynamic Media Classic, ces images sont ajoutées.
 
@@ -257,7 +251,7 @@ Pour plus de détails sur l’accentuation, les modes de ré-échantillonnage et
 
 **Couleur** Choisissez les options suivantes :
 
-**Profil** de couleurs de sortie Sélectionnez Utiliser la couleur par défaut ou l’un des profils de couleurs ICC disponibles dans Scene7 Publishing System.
+**Profil** de couleurs de sortie Sélectionnez Utiliser la couleur par défaut ou l’un des profils de couleurs ICC disponibles sur Dynamic Media Classic.
 
 (voir aussi [Profils ICC](icc-profiles.md#icc_profiles)).
 
@@ -278,7 +272,7 @@ Pour plus de détails sur l’accentuation, les modes de ré-échantillonnage et
 
    * Click **Edit** and then specify new options in the Edit Preset dialog box.
    * Click **Delete** to remove the preset from the list.
-   * Décochez la case Actif située en regard du nom du paramètre prédéfini à supprimer de l’ensemble de l’interface utilisateur de Scene7 Publishing System pour les utilisateurs du portail multimédia.
+   * Décochez la case Actif en regard d’un nom de paramètre prédéfini pour le supprimer de l’ensemble de l’interface utilisateur Dynamic Media Classic pour les utilisateurs de MediaPortal.
 
 ## Activation ou désactivation des paramètres prédéfinis de vidéo adaptative {#activating-or-deactivating-adaptive-video-presets}
 
@@ -290,7 +284,7 @@ Voir [Chargement et codage de vidéos](uploading-encoding-videos.md#uploading_an
 
 **Activation ou désactivation des paramètres prédéfinis de vidéo adaptative**
 
-1. Près du coin supérieur droit de Scene7 Publishing System, cliquez sur **Configuration** > **Configuration de l’application** > **Paramètres vidéo prédéfinis** > **Paramètres prédéfinis de vidéo adaptative**.
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Application Setup** > **Video Presets** > **Adaptive Video Presets**.
 1. Sur la page Paramètres prédéfinis de vidéo adaptative, décochez la case située en regard du nom d’un paramètre prédéfini à supprimer de la liste Options eVideo figurant dans la boîte de dialogue Télécharger les options de la tâche.
 1. Cliquez sur **Fermer**.
 
@@ -446,7 +440,7 @@ Pour plus d’informations sur les options de codage prédéfinies, voir [A prop
 
 >[!NOTE]
 >
->**Avis** de fin de vie des visionneuses Flash - Depuis le 31 janvier 2017, Adobe Scene7 Publishing System a officiellement mis fin à la prise en charge de la plate-forme de la visionneuse Flash. Pour plus d&#39;informations sur cette modification importante, consultez le site Web de la FAQ suivante : [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Avis** de fin de vie des visionneuses Flash - Depuis le 31 janvier 2017, Adobe Classic a officiellement mis fin à la prise en charge de la plate-forme de la visionneuse Flash. Pour plus d&#39;informations sur cette modification importante, consultez le site Web de la FAQ suivante : [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 Un *paramètre prédéfini de visionneuse* est un ensemble de paramètres qui déterminent comment les utilisateurs voient les fichiers de média enrichi sur leur écran d’ordinateur et périphériques mobiles. En tant qu’administrateur, vous pouvez créer des paramètres de visionneuse prédéfinis. Des paramètres sont disponibles pour un ensemble d’options de configuration de la visionneuse. Vous pouvez, par exemple, modifier la taille d’affichage de la visionneuse, le comportement du zoom, les modes de couleurs, les bordures et les polices.
 
@@ -494,7 +488,7 @@ Par exemple, si la taille de l’image principale est de 350 x 350 pixels et 
 
 ### Matrice de compatibilité des paramètres prédéfinis de la visionneuse Dynamic Media Classic {#scene-viewer-preset-compatibility-matrix}
 
-**Avis** de fin de vie des visionneuses Flash : Depuis le 31 janvier 2017, Adobe Scene7 Publishing System a officiellement mis fin à la prise en charge de la plate-forme de la visionneuse Flash.
+**Avis** de fin de vie des visionneuses Flash : Depuis le 31 janvier 2017, Adobe Classic a officiellement mis fin à la prise en charge de la plate-forme de la visionneuse Flash.
 
 Pour plus d&#39;informations sur cette modification importante, consultez le site Web de la FAQ suivante : [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
@@ -613,7 +607,7 @@ Voir [Exportation d’un paramètre prédéfini](application-setup.md#exporting_
 
 **Ajout et modification de paramètres prédéfinis de visionneuse**
 
-1. Près de l’angle supérieur droit de Scene7 Publishing System, cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Viewer Presets**.
 
    Vous pouvez filtrer la liste des paramètres prédéfinis. Par exemple, pour afficher uniquement les paramètres prédéfinis pour les visionneuses de vidéos, sélectionnez Visionneuse de vidéos dans le menu déroulant des visionneuses sur la barre d’outils qui se trouve directement au-dessus du tableau.
 
@@ -647,7 +641,7 @@ Voir [Exportation d’un paramètre prédéfini](application-setup.md#exporting_
 
 Vous pouvez exporter un paramètre prédéfini de visionneuse HTML5 existant afin de l’utiliser comme base pour créer un nouveau paramètre prédéfini de visionneuse HTML5. Cette méthode est pratique car elle vous évite d’avoir à créer une visionneuse depuis le début. En effet, il vous suffit d’exporter un paramètre prédéfini présentant des caractéristiques et un comportement semblables à ce que vous recherchez, puis de l’utiliser comme point de départ pour vos modifications.
 
-Notez que tous les fichiers CSS prédéfinis de visionneuse prêts à l’emploi par défaut dans SPS utilisent des chemins de diffusion d’images relatifs pointant vers des fichiers situés sur `Scene7SharedAssets`. Par exemple, voici un chemin relatif vers un fichier d’image dans un fichier CSS de paramètre prédéfini de visionneuse situé sur `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`Cependant, si vous hébergez des fichiers CSS de visionneuse sur votre propre site, vous devez résoudre ce chemin relatif d’image en utilisant un chemin explicite vers le serveur d’images dans votre propre environnement. À des fins d’illustration, si vous deviez mettre à jour le chemin relatif au-dessus d’un chemin explicite, il peut ressembler à ce qui suit, où `https://s7d1.scene7.com` est le chemin direct vers votre serveur d’images : `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Notez que tous les fichiers CSS prédéfinis de visionneuse prêts à l’emploi par défaut de Dynamic Media Classic utilisent des chemins de diffusion d’images relatifs pointant vers des fichiers situés sur `Scene7SharedAssets`. Par exemple, voici un chemin relatif vers un fichier d’image dans un fichier CSS de paramètre prédéfini de visionneuse situé sur `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`Cependant, si vous hébergez des fichiers CSS de visionneuse sur votre propre site, vous devez résoudre ce chemin relatif d’image en utilisant un chemin explicite vers le serveur d’images dans votre propre environnement. À des fins d’illustration, si vous deviez mettre à jour le chemin relatif au-dessus d’un chemin explicite, il peut ressembler à ce qui suit, où `https://s7d1.scene7.com` est le chemin direct vers votre serveur d’images : `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **Pour exporter un paramètre prédéfini de visionneuse HTML5**
 
@@ -670,7 +664,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
    Après l’exportation, vous obtenez un fichier CSS. Téléchargez et décompressez l’archive.
 
 1. Ouvrez le fichier CSS dans un éditeur CSS, effectuez vos modifications, puis enregistrez le fichier.
-1. Téléchargez le fichier CSS vers Scene7 Publishing System.
+1. Téléchargez le fichier CSS vers Dynamic Media Classic.
 
    Voir [Transfert de fichiers](uploading-files.md#uploading_files).
 
@@ -746,7 +740,7 @@ Vous ne pouvez pas modifier le code dans la boîte de dialogue Intégrer le code
 
 ## Configuration des visionneuses par défaut {#configuring-default-viewers}
 
-Vous pouvez utiliser les visionneuses par défaut pour configurer la visionneuse par défaut qui est associée au fichier lorsque vous utilisez l’option Prévisualiser dans Scene7 Publishing System. Vous pouvez configurer l’expérience de prévisualisation par défaut pour les types de fichier suivants :
+Vous pouvez utiliser les visionneuses par défaut pour configurer la visionneuse par défaut associée à un fichier lorsque vous utilisez Prévisualisation dans Dynamic Media Classic. Vous pouvez configurer l’expérience de prévisualisation par défaut pour les types de fichier suivants :
 
 * Image
 * Vidéo
@@ -822,9 +816,9 @@ Créez un paramètre prédéfini de métadonnées pour chaque ensemble de valeur
 
 ## Champs personnalisés {#user-defined-fields}
 
-Un administrateur de portail multimédia ou un administrateur d’entreprise peut créer des champs de métadonnées définis par l’utilisateur personnalisés. Les champs personnalisés peuvent vous aider à organiser les fichiers dans Scene7 Publishing System. Si nécessaire, vous pouvez marquer les champs comme Actifs. Quand ils sont activés, les noms de ces champs de métadonnées personnalisés s’affichent dans le panneau Métadonnées de la vue de détails. Les utilisateurs peuvent renseigner les champs de métadonnées définies par les utilisateurs pour décrire les fichiers. Ils peuvent également définir un champ de métadonnées utilisateur comme critère de recherche.
+Un administrateur de portail multimédia ou un administrateur d’entreprise peut créer des champs de métadonnées définis par l’utilisateur personnalisés. Les champs personnalisés peuvent vous aider à organiser les fichiers dans Dynamic Media Classic. Si nécessaire, vous pouvez marquer les champs comme Actifs. Quand ils sont activés, les noms de ces champs de métadonnées personnalisés s’affichent dans le panneau Métadonnées de la vue de détails. Les utilisateurs peuvent renseigner les champs de métadonnées définies par les utilisateurs pour décrire les fichiers. Ils peuvent également définir un champ de métadonnées utilisateur comme critère de recherche.
 
-Pour utiliser efficacement les champs de métadonnées définis par l’utilisateur, retardez l’heure d’activation d’un fichier pour un lancement ou une vente spécifique. Vous définissez un champ &quot;activation&quot;, en fonction du type *Date*. Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Scene7 Publishing System vérifie l’état de publication d’un fichier, ainsi que l’historique de publication. S’il n’est pas dans le délai d’activation, l’état de publication s’affiche comme &quot;Non publié&quot;.
+Pour utiliser efficacement les champs de métadonnées définis par l’utilisateur, retardez l’heure d’activation d’un fichier pour un lancement ou une vente spécifique. Vous définissez un champ &quot;activation&quot;, en fonction du type *Date*. Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Dynamic Media Classic vérifie l’état de publication d’un fichier et l’historique de publication. S’il n’est pas dans le délai d’activation, l’état de publication s’affiche comme &quot;Non publié&quot;.
 
 >[!NOTE]
 >
@@ -886,9 +880,9 @@ Pour ouvrir cet écran, choisissez **Configuration** > **Configuration de l’a
 
 ## Optimisation des fichiers {#optimize-files}
 
-A mesure que vous téléchargez des fichiers dans Scene7 Publishing System, ils y sont optimisés pour leur stockage et leur publication. Toutefois, en cas d’interruption du processus de téléchargement, certaines images ne pourront pas être optimisées. Dans ce cas, le message « Image non optimisée » s’affiche. Vous pouvez cependant optimiser ces fichiers si vous êtes un administrateur.
+Lorsque vous téléchargez des fichiers vers Dynamic Media Classic, le système les optimise pour l’enregistrement et la publication. Toutefois, en cas d’interruption du processus de téléchargement, certaines images ne pourront pas être optimisées. Dans ce cas, le message « Image non optimisée » s’affiche. Vous pouvez cependant optimiser ces fichiers si vous êtes un administrateur.
 
-Scene7 Publishing System lance une recherche sur vos fichiers pour n’optimiser que les images qui n’ont pas été entièrement optimisées auparavant.
+Dynamic Media Classic effectue des recherches dans vos fichiers et optimise uniquement les images qui n’ont pas été entièrement optimisées auparavant.
 
 1. Choisissez **Configuration** > Configuration **de l’** application, puis sélectionnez **Optimiser les fichiers**.
 1. Enter information for the optimization job and click **Submit**.
@@ -897,7 +891,7 @@ Scene7 Publishing System lance une recherche sur vos fichiers pour n’optimise
 
 ## Paramètres prédéfinis d’ensemble par lot {#batch-set-presets}
 
-Utilisez les paramètres prédéfinis d’ensemble par lot pour créer automatiquement des visionneuses d’images ou des visionneuses à 360° pendant l’exécution d’une tâche de téléchargement de fichiers dans Scene7 Publishing System.
+Utilisez les paramètres prédéfinis d’ensemble par lot pour créer automatiquement des visionneuses d’images ou des visionneuses à 360° pendant l’exécution d’une tâche de téléchargement de fichiers vers Dynamic Media Classic.
 
 Les administrateurs d’entreprise définissent d’abord des conventions d’affectation de nom pour les fichiers qu’ils souhaitent regrouper dans un ensemble. Vous pouvez ensuite créer un paramètre prédéfini d’ensemble par lot pour référencer ces images. Chaque paramètre prédéfini correspond à un ensemble d’instructions indépendant à nom unique qui définit comment créer la visionneuse en utilisant des images correspondant aux conventions d’affectation de nom définies dans la recette de paramètres prédéfinis.
 
