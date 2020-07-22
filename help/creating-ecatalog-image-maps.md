@@ -3,14 +3,17 @@ title: Création de zones cliquables dans un catalogue électronique
 seo-title: Création de zones cliquables dans un catalogue électronique
 description: 'null'
 seo-description: Découvrez comment créer des zones cliquables dans un catalogue électronique.
-uuid: 943ad3f7-a885-4bc2-88cb-7708384bdf8
+uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
-content-type: référence
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1496'
+ht-degree: 77%
 
 ---
 
@@ -28,10 +31,10 @@ Vous dessinez les zones cliquables des catalogues sur l’onglet Pages de zones 
 1. Sur le côté gauche de l’écran Pages de zones, sélectionnez la page souhaitée.
 1. Dans la section Zone cliquable, tracez une zone rectangulaire ou polygonale (à plusieurs côtés) :
 
-   * **Mappage** rectangulaire Sélectionnez l’outil Zone cliquable rectangulaire et faites glisser le curseur sur la page pour créer le rectangle.
+   * **Mappage** rectangulaire Sélectionnez l’outil de zone cliquable rectangulaire et faites glisser le pointeur sur la page pour créer le rectangle.
 
-   * **Carte** polygonale Sélectionnez l’outil Zone cliquable polygonale et cliquez autant de fois que nécessaire autour du périmètre de l’image. Lorsque vous cliquez sur Contenu multimédia dynamique classique, les bordures de la zone cliquable sont tracées.
-   Après avoir tracé une zone cliquable, Dynamic Media Classic lui attribue un nom dans la liste Zone cliquable. Pour former le nom, Dynamic Media Classic ajoute un numéro séquentiel au nom de la page de catalogue électronique dans laquelle vous travaillez.
+   * **Zone cliquable** polygonale Sélectionnez l’outil Zone cliquable polygonale et cliquez autant de fois que nécessaire autour du périmètre de l’image. Lorsque vous cliquez, Dynamic Media Classic trace les bordures de la zone cliquable.
+   Après avoir tracé une zone cliquable, Dynamic Media Classic lui attribue un nom dans la liste Zone cliquable. Pour former le nom, Dynamic Media Classic ajoute un numéro d’ordre au nom de la page de catalogue électronique dans laquelle vous travaillez.
 
 1. (Facultatif) Dans la liste des zones cliquables, dans la colonne Nom, saisissez un nouveau nom pour la zone cliquable. N’insérez pas d’espaces dans le nom que vous saisissez.
 1. Vous pouvez permettre aux utilisateurs d’afficher une nouvelle page Web lorsqu’ils cliquent sur la zone cliquable. Dans le panneau de la liste des zones cliquables, saisissez l’URL de la page Web dans la colonne URL.
@@ -72,7 +75,7 @@ Vous pouvez également afficher un texte d’info-bulle lorsque les clients plac
 
 En commençant par l’onglet Pages de zones de l’écran Catalogue électronique, utilisez ces techniques pour éditer les zones cliquables d’un catalogue électronique :
 
-* **Ajustement de la position** Sélectionnez l’outil Panorama et déplacez le pointeur près de la bordure de la carte, mais pas dessus. Lorsque le pointeur prend la forme d’une flèche à quatre pointes, faites glisser la zone de l’image entière vers un nouvel emplacement.
+* **Ajustement de la position** Sélectionnez l’outil Panoramique et déplacez le pointeur à proximité de la bordure de la carte, mais pas au-dessus. Lorsque le pointeur prend la forme d’une flèche à quatre pointes, faites glisser la zone de l’image entière vers un nouvel emplacement.
 
    Voir [Ajustement de la position, de la forme et de la taille des zones cliquables](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
@@ -80,15 +83,16 @@ En commençant par l’onglet Pages de zones de l’écran Catalogue électroniq
 
    Voir [Ajustement de la position, de la forme et de la taille des zones cliquables](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Suppression de zones cliquables** Sélectionnez l’outil Panorama, cliquez sur la zone cliquable pour la sélectionner, puis cliquez sur **Supprimer**.
+* **Suppression de zones cliquables** Sélectionnez l’outil Panoramique, cliquez sur la zone cliquable pour la sélectionner, puis cliquez sur 
+**Supprimer**.
 
    To remove all Image Maps from an eCatalog, click the **Order Pages** tab, and then click **Clear Maps**.
 
-* **Gestion des zones cliquables se chevauchant** Faites glisser le curseur pour modifier l’ordre des zones cliquables dans la liste Zone cliquable.
+* **Gestion des zones cliquables se chevauchant** Faites glisser le pointeur pour modifier l’ordre des zones cliquables sur la liste de zones cliquables.
 
    Voir [Gestion des zones cliquables superposées](creating-image-maps.md#handling_overlapping_image_maps).
 
-* **Copie de zones cliquables dans d’autres pages** Sélectionnez le bouton Copier les zones dans (assurez-vous que vous vous trouvez dans l’onglet Pages de zones). Dans l’écran Sélectionner des images, choisissez la ou les pages sur lesquelles copier les zones cliquables, puis cliquez sur le bouton Sélectionner.
+* **Copie de zones cliquables vers d’autres pages** Sélectionnez le bouton Copier les zones cliquables vers (assurez-vous que l’onglet Pages de zones est actif). Dans l’écran Sélectionner des images, choisissez la ou les pages sur lesquelles copier les zones cliquables, puis cliquez sur le bouton Sélectionner.
 
    Voir [Copie de zones cliquables vers d’autres images](creating-image-maps.md#copying_image_maps).
 
@@ -128,7 +132,7 @@ Depuis l’écran de résumé de zone cliquable, procédez comme suit pour impor
 
 ## Copie de zones cliquables entre catalogues électroniques {#copying-image-maps-between-ecatalogs}
 
-Vous pouvez copier toutes les zones cliquables d’un catalogue électronique dans un autre catalogue électronique. Il s’agit d’une méthode pratique de copie de zones cliquables entre les traductions en langues étrangères du même catalogue électronique. Pour que la copie soit réussie, Dynamic Media Classic recommande de copier entre des catalogues électroniques avec le même nombre de pages et les mêmes images.
+Vous pouvez copier toutes les zones cliquables d’un catalogue électronique dans un autre catalogue électronique. Il s’agit d’une méthode pratique de copie de zones cliquables entre les traductions en langues étrangères du même catalogue électronique. Pour que la copie soit réussie, Dynamic Media Classic recommande la copie entre catalogues électroniques avec le même nombre de pages et les mêmes images.
 
 >[!NOTE]
 >
@@ -140,4 +144,4 @@ Pour copier toutes les zones cliquables d’un catalogue électronique vers un a
 1. Dans l’onglet Ordre des pages, cliquez sur Copier les zones.
 1. Dans la boîte de dialogue Sélectionner un fichier, sélectionnez le catalogue électronique dans lequel vous souhaitez copier les zones cliquables, puis cliquez sur Sélectionner.
 
-Dynamic Media Classic affiche un message d’avertissement si le catalogue électronique cible (le catalogue électronique dans lequel vous copiez les zones cliquables) comporte un nombre de pages ou d’images différent, d’une taille différente. Vous pouvez cliquer sur Continuer pour copier les zones cliquables en dépit de l’avertissement.
+Dynamic Media Classic affiche un message d’avertissement si le catalogue électronique de cible (le catalogue électronique dans lequel vous copiez des zones cliquables) comporte un nombre différent de pages ou d’images de taille différente. Vous pouvez cliquer sur Continuer pour copier les zones cliquables en dépit de l’avertissement.
