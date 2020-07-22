@@ -3,14 +3,17 @@ title: Ajout de marques de chapitre à la vidéo
 seo-title: Ajout de marques de chapitre à la vidéo
 description: 'null'
 seo-description: Découvrez comment ajouter des marques de chapitre à une vidéo.
-uuid: 4 e 1 e 6 daf-afc 6-49 d 9-ac 90-183 fe 2 a 903 b 2
+uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/video
-discoiquuid: 8 bc 5 e 552-2 abb -41 f 0-89 d 2-bdf 3 ae 5 d 96 c 2
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 84%
 
 ---
 
@@ -55,7 +58,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 **Pour ajouter des marques de chapitre à la vidéo**
 
-1. Dans un éditeur de texte simple externe à Scene7 Publishing System, créez votre fichier de chapitre vidéo.
+1. A l’aide d’un éditeur de texte simple en dehors de Dynamic Media Classic, créez votre fichier de chapitre vidéo.
 
    >[!NOTE]
    >
@@ -65,12 +68,12 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
    Generally, you want to name the chapter VTT file the same name as the video file, and append it with `chapters`. En procédant ainsi, vous pouvez automatiser aisément la génération des URL de vidéo en utilisant le système de gestion de contenu Web existant.
 
-1. Dans Scene7 Publishing System, transférez votre fichier de chapitre WebVTT.
+1. Dans Dynamic Media Classic, téléchargez votre fichier de chapitre WebVTT.
 
    Voir [Téléchargement de fichiers](uploading-files.md#uploading_files).
 
 1. Dans le panneau Bibliothèque de fichiers situé sur le côté gauche, accédez au dossier de fichiers qui contient le fichier vidéo à associer au fichier de chapitre que vous avez transféré.
-1. Dans le panneau de navigation dans les fichiers, sélectionnez un fichier vidéo puis, sous l’image miniature du fichier, cliquez sur **Prévisualiser** &gt; **Liste des visionneuses**.
+1. Dans le panneau de navigation dans les fichiers, sélectionnez un fichier vidéo puis, sous l’image miniature du fichier, cliquez sur **Prévisualiser** > **Liste des visionneuses**.
 1. Dans le tableau Liste des visionneuses, recherchez la visionneuse HTML5 nommée **Univeral_HTML5_Video**, puis effectuez l’une des opérations suivantes :
 
    * Pour une expérience de visionneuse contextuelle, cliquez sur **Copier l’URL** à l’extrémité droite de son nom.
