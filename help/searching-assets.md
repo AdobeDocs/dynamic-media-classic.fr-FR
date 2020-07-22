@@ -3,21 +3,24 @@ title: Recherche de fichiers
 seo-title: Recherche de fichiers
 description: 'null'
 seo-description: Découvrez comment rechercher des ressources.
-uuid: 058209 bc-bac 4-4 d 5 c -8261-e 242 a 543 beaf
+uuid: 058209bc-bac4-4d5c-8261-e242a543beaf
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: effef 4 e 7-37 c 5-42 e 2-9266-lux 026 cad 628
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1407'
+ht-degree: 77%
 
 ---
 
 
 # Recherche de fichiers{#searching-assets}
 
-Pour localiser des fichiers dans Scene7 Publishing System, vous pouvez les afficher par type, les trier dans le panneau de navigation, lancer une recherche simple ou avancée, lancer une recherche par analogie ou filtrer les fichiers.
+Pour localiser des fichiers dans Dynamic Media Classic, vous pouvez vue les fichiers par type, les trier dans le panneau de navigation, lancer une recherche simple, lancer une recherche avancée et filtrer les fichiers.
 
 >[!NOTE]
 >
@@ -58,21 +61,21 @@ Cliquez sur Recherche avancée dans la bibliothèque de fichiers pour effectuer 
 
 Configurez un ou plusieurs des critères de recherche suivants :
 
-**Filtrage par type de ressource** Restreignez votre recherche à un seul type de fichier en choisissant un type de fichier dans le menu.
+**Filtrer par type** de fichier Limitez votre recherche à un seul type de fichier en choisissant un type de fichier dans le menu.
 
-**Fichiers et dossiers** Choisissez l'emplacement de recherche : Dans Tous les fichiers et dossiers, Dans le dossier sélectionné ou Dans dossier et sous-doss. sélect.
+**Fichiers et dossiers** Choisissez l&#39;emplacement de recherche : Dans tous les fichiers et dossiers, Dans le dossier sélectionné ou Dans dossier et sous-dossiers sélectionnés.
 
-**Tous les états** de publication Rechercher les fichiers marqués pour publication, ne sont pas marqués pour publication ou tous les fichiers.
+**Tous les états** de publication Recherchez les fichiers marqués pour publication, non marqués pour publication ou tous les fichiers.
 
-**Conditions** Si vous spécifiez des critères de métadonnées pour la recherche, indiquez si la recherche doit correspondre à toutes les conditions (recherche TOUT) ou à n'importe quelle condition (recherche OU).
+**Conditions** Si vous spécifiez des critères de métadonnées pour la recherche, indiquez si la recherche doit correspondre à toutes les conditions (recherche TOUT) ou à toute condition (recherche OU).
 
-**Définition des critères de recherche de métadonnées** Créez un ou plusieurs champs de recherche pour rechercher des métadonnées. Pour créer des champs de recherche :
+**Spécifier les critères** de recherche de métadonnées Créez un ou plusieurs champs de recherche pour rechercher des métadonnées. Pour créer des champs de recherche :
 
 1. Déroulez le menu Vues des métadonnées (situé à gauche du menu Ajouter un champ) et choisissez un type d’affichage des métadonnées. Vous pouvez choisir un affichage compact, IPTC, XMP ou tel que défini par l’administrateur.
 1. Sélectionnez le menu Ajouter un champ et choisissez un nom de champ dans la liste déroulante.
 1. Choisissez une option sous Contient (Contient, Ne contient pas, Commence par, Se termine par ou Est égal à).
 1. Pour les champs numériques, choisissez une valeur ou entrez une plage de dates personnalisée.
-1. (Facultatif) Répétez les étapes 1 à 4 pour créer d'autres champs de recherche.
+1. (Facultatif) Répétez les étapes 1 à 4 pour créer d’autres champs de recherche.
 
 Pour supprimer un champ de recherche, cliquez sur le bouton Supprimer le champ de recherche.
 
@@ -106,16 +109,15 @@ Procédez comme suit pour trouver des fichiers en filtrant leurs valeurs de mét
 
 1. Après avoir cliqué sur le bouton Champ  d’un panneau, suivez ces instructions pour afficher le menu de filtrage et exécuter une opération de filtrage :
 
-   **Choix
-d'un champ de métadonnées** Sélectionnez le nom du champ dans le menu de filtrage.
+   **Sélectionner un champ** de métadonnées Sélectionnez le nom du champ dans le menu de filtrage.
 
-   ***remarque**: Seuls les noms des champs de métadonnées dans la vue des métadonnées par défaut s'affichent dans le menu de filtrage.*
+   ***remarque **: Seuls les noms des champs de métadonnées de la Vue de métadonnées par défaut apparaissent dans le menu de filtrage.*
 
    Voir [Vues des métadonnées](application-setup.md#metadata_views).
 
-   **Ajout d'un champ de métadonnées** Choisissez Ajouter un panneau. Lorsque le volet apparaît dans le panneau Filtres, cliquez sur le bouton Champ et sélectionnez le nom d’un champ de métadonnées dans le menu de filtre.
+   **Ajouter un champ** de métadonnées Choisissez Ajouter un panneau. Lorsque le volet apparaît dans le panneau Filtres, cliquez sur le bouton Champ et sélectionnez le nom d’un champ de métadonnées dans le menu de filtre.
 
-   **Suppression d'un champ de métadonnées** Choisissez Supprimer ce panneau dans le menu de filtrage.
+   **Suppression d’un champ** de métadonnées Choisissez Supprimer ce panneau dans le menu de filtrage.
 
    Lorsque vous choisissez un champ de métadonnées, son panneau répertorie :
 
@@ -137,28 +139,27 @@ d'un champ de métadonnées** Sélectionnez le nom du champ dans le menu de filt
 
 Suivez les instructions affichées sur l’onglet Filtres pour enregistrer, réexécuter et supprimer des opérations de filtrage :
 
-**Enregistrement d'une opération de filtrage** Cliquez sur le bouton Sélectionner le paramètre prédéfini, choisissez Enregistrer le paramètre actuel en tant que nouveau paramètre prédéfini, puis saisissez un nom dans la boîte de dialogue Enregistrer.
+**Enregistrement d’une opération** de filtrage Cliquez sur le bouton Sélectionner le paramètre prédéfini, choisissez l’option Enregistrer l’élément actuel en tant que nouveau paramètre prédéfini, puis saisissez un nom dans la boîte de dialogue Enregistrer.
 
-**Répétition d'une opération de filtrage** Cliquez sur le bouton Sélectionner le paramètre prédéfini et choisissez le nom d'une opération de filtrage dans le menu. Le menu répertorie les opérations de filtrage que vous avez enregistrées.
+**Répétition d’une opération** de filtrage Cliquez sur le bouton Sélectionner un paramètre prédéfini et choisissez le nom d’une opération de filtrage dans le menu. Le menu répertorie les opérations de filtrage que vous avez enregistrées.
 
-**Suppression d'une opération de filtrage dans le menu Sélectionner un paramètre prédéfini** 
-Exécutez l'opération de filtrage. Cliquez ensuite sur le bouton Sélectionner le paramètre prédéfini, puis choisissez l’option Supprimer le paramètre prédéfini dans le menu.
+**Suppression d’une opération de filtrage à partir du menu Sélectionner le paramètre prédéfini** Exécutez l’opération de filtrage. Cliquez ensuite sur le bouton Sélectionner le paramètre prédéfini, puis choisissez l’option Supprimer le paramètre prédéfini dans le menu.
 
 ## Utilisation du serveur de métadonnées {#using-the-metadata-server}
 
 Le serveur de métadonnées est une API publique qui permet de rechercher des fichiers par métadonnées, via des requêtes HTTP.
 
-Pour configurer le serveur de métadonnées, cliquez sur Configuration &gt; Configuration de l’application &gt; Configuration de la publication &gt; Serveur de métadonnées.
+Pour configurer le serveur de métadonnées, cliquez sur Configuration > Configuration de l’application > Configuration de la publication > Serveur de métadonnées.
 
 L’écran Publication sur le serveur de métadonnées apparaît. Cet écran vous permet de définir les options suivantes :
 
-**La fonction Publication** instantanée pousse automatiquement toutes les modifications apportées aux métadonnées lorsqu'elles sont effectuées, y compris de nouveaux fichiers, des changements de mot-clé, etc.
+**Publication instantanée** Entraîne automatiquement toute modification des métadonnées lorsqu’elle est effectuée, y compris les nouveaux fichiers, les modifications de mots-clés, etc.
 
 **XMP Packet** publie le paquet XMP. Ce paquet n’est pas pris en compte dans la recherche mais fournit des informations XMP à jour.
 
-**Mots-clés** Publiez vos mots-clés sur le serveur de métadonnées pour les utiliser dans les recherches.
+**Mots-clés** Publie vos mots-clés sur le serveur de métadonnées pour les utiliser dans les recherches.
 
-**Champs de publication du serveur de métadonnées** Sélectionnez les champs à inclure dans les métadonnées. Cela vous permet de déterminer la quantité d’informations relatives à vos fichiers qui est accessible au public. Ces champs sont également affichés dans les vues des métadonnées, mais ils peuvent uniquement être modifiés dans le serveur de métadonnées.
+**Champs** de publication du serveur de métadonnées Sélectionnez les champs à inclure dans les métadonnées. Cela vous permet de déterminer la quantité d’informations relatives à vos fichiers qui est accessible au public. Ces champs sont également affichés dans les vues des métadonnées, mais ils peuvent uniquement être modifiés dans le serveur de métadonnées.
 
 Click **Publish Now** to start the job. Un message de confirmation, vous indiquant que la tâche a démarré, apparaît.
 
