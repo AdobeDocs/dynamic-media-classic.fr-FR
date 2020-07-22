@@ -3,14 +3,17 @@ title: Création de zones cliquables
 seo-title: Création de zones cliquables
 description: 'null'
 seo-description: Découvrez comment créer des zones cliquables.
-uuid: 0 dcc 4956-006 e -4 a 74-9 d 6 a -6 d 4 bb 23790 ce
+uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/master_ files
-discoiquuid: 4 eddf 983-38 cb -4 f 00-b 3 be -85 c 20 bdd 6 f 69
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '2444'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 Une zone cliquable est une partie d’une image, d’une page de catalogue électronique ou d’une image dans une visionneuse à 360°, qui affiche un panneau de survol avec du texte. Une action est déclenchée lorsque l’utilisateur clique sur une zone cliquable. Par exemple, une page Web affiche des informations détaillées sur un produit. Un contour apparaît autour de la zone cliquable lorsque l’utilisateur passe le pointeur dessus, pour la faire ressortir.
 
-Outre la possibilité de créer une zone cliquable dans Dynamic Media Classic, vous pouvez également créer des zones cliquables lorsque vous concevez un catalogue dans Adobe Acrobat ou Adobe indesign.
+Outre la possibilité de créer une zone cliquable dans Dynamic Media Classic, vous pouvez également créer des zones cliquables lors de la conception d’un catalogue dans Adobe Acrobat ou Adobe InDesign.
 
 Lorsque vous créez des zones cliquables, vous pouvez effectuer l’une des opérations suivantes :
 
@@ -39,24 +42,25 @@ Lorsque vous créez des zones cliquables, vous pouvez effectuer l’une des opé
    * If you are working with an image in the Grid View or List View, in the Edit drop-down list click **Image Map**. Or, open it in Detail View, and then click **Image Map** above the image.
    * If you are working with a SpinSet in the Grid View or List View, click **Edit**. Or, open it in Detail View, and then click **Edit**. Select an image asset, and then click **Image Map**.
    * If you are working with an eCatalog, in the Grid View, List View, Detail View, click **Edit**. Click the **Map Pages** tab.
+
    ![](assets/ma_image_map.png)
 
 1. Tracez une zone cliquable rectangulaire ou polygonale (avec de nombreux côtés) :
 
-   **Zone rectangulaire** Sélectionnez l'outil de zone cliquable rectangulaire et faites glisser la souris sur la page pour créer le rectangle. Pour ajouter un point à un rectangle et en faire un polygone, appuyez sur la touche Ctrl, placez l’outil d’insertion à l’endroit souhaité, puis cliquez.
+   **Mappage** rectangulaire Sélectionnez l’outil de zone cliquable rectangulaire et faites glisser le pointeur sur la page pour créer le rectangle. Pour ajouter un point à un rectangle et en faire un polygone, appuyez sur la touche Ctrl, placez l’outil d’insertion à l’endroit souhaité, puis cliquez.
 
-   **Zone cliquable polygonale** Sélectionnez l'outil de zone cliquable polygonale, puis cliquez sur les points du périmètre de la zone de l'image à délimiter. A l’aide du curseur de densité du polygone, modulez la densité du point. La densité initiale est conservée si vous sélectionnez d’autres zones. En revanche, si vous ajoutez, supprimez ou modifiez un point du polygone, la densité initiale est perdue et le curseur revient à la valeur maximale.
+   **Zone cliquable** polygonale Sélectionnez l’outil Zone cliquable polygonale, puis cliquez sur les points du périmètre de la zone de l’image à encadrer. A l’aide du curseur de densité du polygone, modulez la densité du point. La densité initiale est conservée si vous sélectionnez d’autres zones. En revanche, si vous ajoutez, supprimez ou modifiez un point du polygone, la densité initiale est perdue et le curseur revient à la valeur maximale.
 
 1. Nommez la zone cliquable, si vous le souhaitez, dans la liste Zone cliquable. Après avoir tracé une zone cliquable, Dynamic Media Classic lui attribue un nom.
 
-   Pour créer le nom, Dynamic Media Classic ajoute un numéro séquentiel au nom de l'image ou de la page de catalogue électronique avec laquelle vous travaillez. Vous pouvez indiquer le nom de votre choix.
+   Pour créer le nom, Dynamic Media Classic ajoute un numéro séquentiel au nom de l’image ou de la page de catalogue électronique que vous utilisez. Vous pouvez indiquer le nom de votre choix.
 
 1. Si vous souhaitez permettre aux utilisateurs d’accéder à une nouvelle page Web lorsqu’ils cliquent sur la zone cliquable, indiquez l’URL correspondante dans la liste Zone cliquable.
 
    Voir [Utilisation d’un modèle pour définir du code JavaScript et des URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
 1. Pour qu’un texte de survol s’affiche lorsque les utilisateurs déplacent le pointeur sur la zone cliquable, saisissez le texte dans la liste Zone cliquable. Dans la liste Zone cliquable, sélectionnez le menu Afficher, puis choisissez l’option Texte de survol. Ensuite, entrez le texte que vous souhaitez présenter à l’écran aux utilisateurs. Vous pouvez rédiger le texte dans une application de traitement de texte et le copier dans le champ Texte de survol.
-1. Si vous souhaitez qu’une autre action se déclenche lorsque les utilisateurs déplacent la souris sur une zone cliquable, définissez l’action. Dans la liste déroulante Afficher, cliquez sur Autres actions. Spécifiez les attributs de l’action. (Cliquez sur Afficher &gt; Les deux pour créer un texte de survol et une action pour une zone cliquable.)
+1. Si vous souhaitez qu’une autre action se déclenche lorsque les utilisateurs déplacent la souris sur une zone cliquable, définissez l’action. Dans la liste déroulante Afficher, cliquez sur Autres actions. Spécifiez les attributs de l’action. (Cliquez sur Afficher > Les deux pour créer un texte de survol et une action pour une zone cliquable.)
 
    Voir [Définition d’autres actions relatives aux zones cliquables](creating-image-maps.md#defining_other_actions_for_image_maps).
 
@@ -70,17 +74,17 @@ Lorsque vous créez des zones cliquables, vous pouvez effectuer l’une des opé
 
 ### Ajustement de la position, de la forme et de la taille des zones cliquables {#adjusting-the-position-shape-and-size-of-image-maps}
 
-Pour modifier la position, la forme et la taille d’une zone cliquable, cliquez sur le bouton Zone cliquable. Sélectionnez ensuite l'outil Panoramique et suivez les instructions ci-dessous :
+Pour modifier la position, la forme et la taille d’une zone cliquable, cliquez sur le bouton Zone cliquable. Sélectionnez ensuite l’outil Panoramique, puis suivez les instructions suivantes :
 
-**Modification de la position** Déplacez le pointeur près de la bordure de la zone cliquable mais pas dessus. Lorsque le pointeur prend la forme d’une flèche à quatre pointes, faites glisser la zone à l’emplacement voulu.
+**Modification de la position** Déplacez le pointeur près de la bordure de la zone cliquable, mais pas dessus. Lorsque le pointeur prend la forme d’une flèche à quatre pointes, faites glisser la zone à l’emplacement voulu.
 
-**La modification de la taille et de la forme** La modification de la forme et de la taille d'une zone cliquable varie selon que vous travaillez sur une zone cliquable rectangulaire ou polygonale :
+**Modification de la taille et de la forme** La modification de la forme et de la taille d’une zone cliquable dépend de l’utilisation d’une zone cliquable rectangulaire ou polygonale :
 
-***Conseil**: Vous pouvez faire glisser le curseur Taille en bas de l'écran pour modifier les vues et mieux visualiser la zone cliquable.*
+***Conseil **: Vous pouvez faire glisser le curseur Taille au bas de l’écran pour modifier les vues et mieux visualiser votre zone cliquable.*
 
-**Zone cliquable rectangulaire** Déplacez le pointeur sur un côté ou un angle de la zone cliquable. Lorsque le pointeur prend la forme d’une flèche à double pointe, faites glisser la souris. Maintenez la touche Maj enfoncée lorsque vous faites glisser la souris pour modifier la taille tout en conservant le format (la forme).
+**Zone cliquable** rectangulaire Déplacez le pointeur sur un côté ou un angle de la zone cliquable. Lorsque le pointeur prend la forme d’une flèche à double pointe, faites glisser la souris. Maintenez la touche Maj enfoncée lorsque vous faites glisser la souris pour modifier la taille tout en conservant le format (la forme).
 
-**Zone cliquable polygonale** Faites glisser une poignée de sélection carrée. Pour obtenir une poignée de sélection, cliquez sur la bordure de la zone cliquable, puis commencez à la faire glisser.
+**Zone cliquable** polygonale Faites glisser une poignée de sélection carrée. Pour obtenir une poignée de sélection, cliquez sur la bordure de la zone cliquable, puis commencez à la faire glisser.
 
 ### Gestion des zones cliquables superposées {#handling-overlapping-image-maps}
 
@@ -136,11 +140,11 @@ Javascript:loadProduct(‘$$’);void(0);
 
 Toutes les valeurs invariables entre les zones cliquables doivent être insérées dans le modèle d’URL. N’ajoutez que les valeurs variables dans la colonne URL de la liste Zone cliquable. Par exemple :
 
-* Modèle d'URL : j `avascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
-* Valeur URL : `product.htm`
+* Modèle d’URL : j `avascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
+* Valeur de l’URL : `product.htm`
 * URL réelle générée : `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-By default, the URL template includes a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens a new window with the URL destination. Cependant, vous pouvez utiliser n'importe quel code JavaScript pour remplacer ce code JavaScript ou utiliser l'un des gestionnaires Dynamic Media Classic suivants :
+By default, the URL template includes a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens a new window with the URL destination. Cependant, vous pouvez utiliser n’importe quel code JavaScript pour remplacer ce gestionnaire JavaScript ou utiliser l’un des gestionnaires Dynamic Media Classic suivants :
 
 * `loadProductCW`
 
@@ -150,7 +154,7 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 
    Affiche l’URL cible spécifiée dans la colonne URL de la fenêtre parente (la page d’où la page active a été ouverte). La fenêtre active reste ouverte, mais la fenêtre parent change pour afficher l’URL cible.
 
-   ***remarque**: Le gestionnaire`loadProductPW`ne prend pas en charge les visionneuses DHTML et HTML 5.*
+   ***remarque **: Le gestionnaire`loadProductPW`ne prend pas en charge les visionneuses DHTML et HTML5.*
 
 ### Création d’un modèle d’URL {#creating-a-url-template}
 
@@ -164,19 +168,19 @@ Pour créer un modèle d’URL, procédez comme suit :
 
 La page Editeur de zone cliquable (images et visionneuses à 360°) et l’onglet Pages de zones de l’écran Catalogue électronique (catalogues électroniques) contiennent les commandes de gestion des modèles d’URL suivantes :
 
-**Option Modèle d'URL** Sélectionnez l'option Modèle d'URL pour appliquer votre modèle d'URL à toutes les zones cliquables d'une image ou d'une page de catalogue électronique.
+**Option** Modèle d’URL Sélectionnez l’option Modèle d’URL pour appliquer votre modèle d’URL à toutes les zones cliquables d’une image ou d’une page de catalogue électronique.
 
-**Option Modèle** Désélectionnez une option Modèle dans la liste Zone cliquable d'URL si vous ne souhaitez pas qu'une zone cliquable individuelle utilise le modèle d'URL.
+**Option** Modèle Désélectionnez une option Modèle dans la liste de zone cliquable URL si vous ne souhaitez pas qu’une zone cliquable individuelle utilise le modèle d’URL.
 
 ## Définition d’autres actions relatives aux zones cliquables {#defining-other-actions-for-image-maps}
 
 Dans le menu Afficher, choisissez Autres actions pour déclencher des actions autres que le texte de survol et le lancement d’une page Web. Lorsque l’utilisateur amène le pointeur sur une zone cliquable, vous pouvez initier une action. Ces actions sont des attributs définis pour les zones cliquables côté client conformément aux spécifications HTML du consortium WWW (World Wide Web). Elles comptent notamment :
 
-**accesskey** déclenche une action lorsque l'utilisateur appuie sur une clé désignée du clavier.
+**touche** d&#39;accès Déclenche une action lorsque l&#39;utilisateur appuie sur une touche spécifiée du clavier.
 
-**onfocus** déclenche un événement lorsque la zone cliquable devient active (par le curseur, par tabulation) ou en appuyant sur une touche d'accès. Par exemple, vous pouvez lancer une page Web lorsque la zone cliquable devient active et la refermer lorsqu’elle ne l’est plus.
+**onfocus** Déclenche un événement lorsque la zone cliquable est sélectionnée (par le curseur, en appuyant sur la touche de tabulation ou en appuyant sur une touche d’accès). Par exemple, vous pouvez lancer une page Web lorsque la zone cliquable devient active et la refermer lorsqu’elle ne l’est plus.
 
-**onblur** déclenche un événement lorsque la zone cliquable n'est plus active, soit par le curseur, soit par tabulation.
+**onblur** Déclenche un événement lorsque la zone cliquable n’est plus active, que ce soit par le curseur ou par tabulation.
 
 **Pour définir d’autres actions pour les zones cliquables**
 
@@ -190,38 +194,38 @@ Dans le menu Afficher, choisissez Les deux pour associer à une zone cliquable 
 
 Vous pouvez créer des zones cliquables lors de la conception de votre catalogue électronique dans Adobe Acrobat ou Adobe InDesign.
 
-Dans Acrobat ou InDesign, créez un lien hypertexte à l’emplacement auquel vous souhaitez faire apparaître la zone cliquable et spécifiez l’URL à laquelle elle doit renvoyer. La sélection de l'option Extraire les liens lors du téléchargement du fichier PDF dans Dynamic Media Classic convertit automatiquement les liens vers les zones cliquables.
+Dans Acrobat ou InDesign, créez un lien hypertexte à l’emplacement auquel vous souhaitez faire apparaître la zone cliquable et spécifiez l’URL à laquelle elle doit renvoyer. Lorsque vous sélectionnez l’option Extraire les liens lors du téléchargement du fichier PDF dans Dynamic Media Classic, les liens sont automatiquement convertis en zones cliquables.
 
 Pour plus d’informations, reportez-vous à l’aide d’InDesign ou d’Acrobat.
 
 ### Création de zones cliquables dans Adobe InDesign {#to-create-image-maps-in-adobe-indesign}
 
-1. Dans InDesign, sélectionnez Fenêtre &gt; Objet interactif &gt; Hyperliens pour ouvrir le panneau Hyperliens.
+1. Dans InDesign, sélectionnez Fenêtre > Objet interactif > Hyperliens pour ouvrir le panneau Hyperliens.
 1. Sélectionnez le texte, le bloc ou le graphique que vous souhaitez transformer en zone cliquable.
 1. Dans le menu du panneau Hyperliens, cliquez sur Nouvel hyperlien.
 1. Dans la boîte de dialogue Nouvel hyperlien, sélectionnez l’URL dans le menu Lien vers.
-1. Tapez ou collez l’ID du produit dans le champ URL et cliquez sur OK. (Dynamic Media Classic complète l'URL à l'aide du modèle d'URL de zone cliquable.)
+1. Tapez ou collez l’ID du produit dans le champ URL et cliquez sur OK. (Dynamic Media Classic complète l’URL à l’aide du modèle d’URL de zone cliquable.)
 
    >[!NOTE]
    >
-   >vous n’avez pas besoin de définir les options d’apparence dans InDesign. Vous pouvez définir l'aspect dans Dynamic Media Classic.
+   >vous n’avez pas besoin de définir les options d’apparence dans InDesign. Vous pouvez spécifier l’aspect dans Dynamic Media Classic.
 
 1. Répétez les étapes 2 à 5 pour toutes les zones cliquables que vous souhaitez créer.
 1. Exportez les fichiers au format PDF.
-1. Téléchargez le fichier PDF vers Dynamic Media Classic et sélectionnez Extraire les liens dans les options PDF.
+1. Téléchargez le fichier PDF dans Dynamic Media Classic et sélectionnez Extraire les liens dans les options PDF.
 
 ### Création de zones cliquables dans Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
 
-1. Dans Acrobat, sélectionnez Outils &gt; Modifications avancées &gt; Outil Lien.
+1. Dans Acrobat, sélectionnez Outils > Modifications avancées > Outil Lien.
 1. Faites glisser la souris pour créer la zone cliquable. La boîte de dialogue Créer un lien s’ouvre.
 1. Sélectionnez Lien personnalisé et cliquez sur Suivant.
 
-   ***remarque**: Vous n'avez pas besoin de définir les options d'aspect dans Acrobat. Vous pouvez définir l'aspect dans Dynamic Media Classic.*
+   ***remarque **: Il n’est pas nécessaire de définir les options d’aspect dans Acrobat. Vous pouvez spécifier l’aspect dans Dynamic Media Classic.*
 
 1. Dans la boîte de dialogue Propriétés du lien, cliquez sur Actions.
 1. Sélectionnez Ouvrir un lien Web dans le menu Sélectionner l’action, puis cliquez sur Ajouter.
-1. Tapez l’ID du produit pour la zone cliquable dans la boîte de dialogue Modifier l’URL. (Dynamic Media Classic complète l'URL à l'aide du modèle d'URL de zone cliquable.)
+1. Tapez l’ID du produit pour la zone cliquable dans la boîte de dialogue Modifier l’URL. (Dynamic Media Classic complète l’URL à l’aide du modèle d’URL de zone cliquable.)
 1. Répétez les étapes 1 à 7 pour toutes les zones cliquables que vous souhaitez créer.
 1. Enregistrez le fichier.
-1. Téléchargez le fichier PDF vers Dynamic Media Classic et sélectionnez Extraire les liens dans les options PDF.
+1. Téléchargez le fichier PDF dans Dynamic Media Classic et sélectionnez Extraire les liens dans les options PDF.
 
