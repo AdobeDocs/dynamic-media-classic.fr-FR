@@ -1,31 +1,34 @@
 ---
-title: '« Démarrage rapide : Media Portal »'
-seo-title: '« Démarrage rapide : Media Portal »'
+title: '"Début rapide : Media Portal"'
+seo-title: '"Début rapide : Media Portal"'
 description: 'null'
-seo-description: Présentation et démarrage rapide de Media Portal pour vous aider à maîtriser rapidement les opérations liées aux techniques et à l'administration de Media Portal.
-uuid: 0 dbd 6146-b 392-4 e 03-955 b -0 b 323 b 654 b 9 f
+seo-description: Présentation et Début rapide sur Media Portal pour vous aider à maîtriser rapidement les techniques et l’administration du portail multimédia.
+uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/media_ portal
-discoiquuid: 1385 a 092-0 b 2 c -4 e 05-ad 1 e-ce 3685022300
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '709'
+ht-degree: 85%
 
 ---
 
 
 # Démarrage rapide :  du portail multimédia{#quick-start-media-portal}
 
-Media Portal permet aux entreprises d'acquérir, de contrôler et de distribuer facilement des ressources créatives approuvées aux partenaires et canaux externes et aux utilisateurs internes de l'entreprise. Grâce à cet environnement en libre-service « en libre-service » basé sur un navigateur, les utilisateurs du portail multimédia disposent de « vues » des fichiers multimédia dynamiques contrôlées par des administrateurs, afin d'accéder facilement aux fonctions de navigation, de navigation, de recherche, de prévisualisation et d'exportation de fichiers dans des formats approuvés par l'entreprise.
+Media Portal permet aux sociétés d’acquérir, de contrôler et de distribuer facilement des ressources créatives approuvées à des partenaires et canaux externes, ainsi qu’à des utilisateurs internes de l’entreprise. Cet environnement en libre-service basé sur un navigateur fournit aux utilisateurs du portail multimédia des &quot;vues&quot; contrôlées par l’administrateur dans les ressources Dynamic Media Classic pour un accès facile aux ressources Classic, la navigation, la recherche, la prévisualisation et l’exportation dans des formats approuvés par l’entreprise.
 
 En tant qu’administrateur, vous contrôlez la manière dont les utilisateurs visualisent, ouvrent et utilisent les fichiers disponibles dans le portail multimédia. Vous pouvez par ailleurs personnaliser l’interface du portail multimédia en fonction de votre site Web et de votre marque. Vous avez la possibilité de spécifier la police et ses attributs (couleur et taille), de même que d’incorporer des éléments d’identification de la marque (tels que des logos) dans l’interface du portail multimédia.
 
-**Démarrage rapide**
+**Début rapide**
 
 Cette section de démarrage rapide est conçue pour vous aider à maîtriser rapidement les opérations liées à l’administration du portail multimédia. A la fin de chaque étape figure une référence croisée pointant vers une rubrique présentant des informations complémentaires sur le sujet.
 
-**Cookie. Compréhension des rôles utilisateur du portail multimédia**
+**1. Compréhension des rôles utilisateur du portail multimédia**
 
 Les utilisateurs du portail multimédia se rangent dans trois catégories : utilisateur, contributeur et contributeur-utilisateur. Chaque rôle permet d’effectuer un ensemble de tâches précis. Par exemple, un contributeur est habilité à renommer et à supprimer des fichiers et des dossiers, contrairement à un simple utilisateur. Familiarisez-vous avec ces rôles afin de pouvoir, lors de la création des rôles, bien comprendre les responsabilités que vous octroyez à chacun d’entre eux.
 
@@ -45,7 +48,7 @@ Voir [Ajout et gestion des utilisateurs du portail multimédia](adding-media-por
 
 **4. Gestion des comptes FTP**
 
-Vous pouvez disposer de comptes FTP distincts associés au portail multimédia et mappés à un dossier spécifique dans votre compte Scene7 Publishing System. Ce type de fonctionnalité signifie que vous pouvez autoriser les utilisateurs à télécharger des fichiers numériques sur votre compte en utilisant des comptes FTP distincts.
+Vous pouvez disposer de comptes FTP distincts associés au portail multimédia et mappés à un dossier spécifique dans votre compte Dynamic Media Classic. Ce type de fonctionnalité signifie que vous pouvez autoriser les utilisateurs à télécharger des fichiers numériques sur votre compte en utilisant des comptes FTP distincts.
 
 Voir [Gestion des comptes FTP](ftp-accounts.md#managing_ftp_accounts).
 
