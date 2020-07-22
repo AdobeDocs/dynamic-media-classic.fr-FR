@@ -2,15 +2,18 @@
 title: Prévisualisation d’une visionneuse à 360°
 seo-title: Prévisualisation d’une visionneuse à 360°
 description: 'null'
-seo-description: Découvrez comment prévisualiser une visionneuse à 360 °.
-uuid: 5 b 9 d 4 c 37-a 4 ec -40 c 5-8 f 14-da 875 d 71226 e
+seo-description: Découvrez comment prévisualisation d’une visionneuse à 360°.
+uuid: 5b9d4c37-a4ec-40c5-8f14-da875d71226e
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/spin_ sets
-discoiquuid: 4 b 32 ffff -4387-4699-9 ba 9-c 3 b 23 a 2 c 3607
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
+discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
 translation-type: tm+mt
-source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 97%
 
 ---
 
@@ -29,9 +32,9 @@ Voir [Prévisualisation d’un fichier](previewing-asset.md#previewing_an_asset)
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient la visionneuse à 360° à prévisualiser.
 1. Effectuez l’une des opérations suivantes :
 
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage de la grille. Dans la fenêtre Fichiers, située au-dessous de l’image miniature, cliquez sur Prévisualiser &gt; Liste des visionneuses.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Liste des visionneuses. Dans la fenêtre Fichiers, sélectionnez un fichier, puis sur la droite de l’image miniature, cliquez sur Prévisualiser &gt; Liste des visionneuses.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage des détails. Sur la même barre d’outils, cliquez sur Prévisualiser &gt; Liste des visionneuses.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage de la grille. Dans la fenêtre Fichiers, située au-dessous de l’image miniature, cliquez sur Prévisualiser > Liste des visionneuses.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Liste des visionneuses. Dans la fenêtre Fichiers, sélectionnez un fichier, puis sur la droite de l’image miniature, cliquez sur Prévisualiser > Liste des visionneuses.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage des détails. Sur la même barre d’outils, cliquez sur Prévisualiser > Liste des visionneuses.
 
 1. Dans le tableau de la fenêtre Liste des visionneuses, cliquez sur un lien de la visionneuse pour prévisualiser le fichier dans la visionneuse sélectionnée.
 1. Fermez la visionneuse affichée pour revenir à la fenêtre Liste des visionneuses.
