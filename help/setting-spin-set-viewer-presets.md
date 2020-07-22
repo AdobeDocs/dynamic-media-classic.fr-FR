@@ -2,30 +2,34 @@
 title: Configuration des paramètres prédéfinis de la visionneuse à 360°
 seo-title: Configuration des paramètres prédéfinis de la visionneuse à 360°
 description: 'null'
-seo-description: Découvrez comment configurer des paramètres prédéfinis de visionneuse à 360 °.
-uuid: e 095 f 989-f 3 df -46 ea-be 62-812922805 dc 0
+seo-description: Découvrez comment configurer les paramètres prédéfinis de la visionneuse à 360°.
+uuid: e095f989-f3df-46ea-be62-812922805dc0
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/spin_ sets
-discoiquuid: 9 dfaa 37 a -59 ab -46 ae -94 c 3-c 0 ab 9 f 940023
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
+discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 76%
 
 ---
 
 
 # Configuration des paramètres prédéfinis de la visionneuse à 360°{#setting-up-spin-set-viewer-presets}
 
-Les paramètres prédéfinis de la visionneuse à 360° définissent le style, le comportement et l’aspect des visionneuses. Dynamic Media Classic est fourni avec des paramètres prédéfinis par défaut de visionneuse à 360 °. Si vous êtes un administrateur, vous pouvez créer vos propres paramètres prédéfinis de visionneuse à 360°. Vous pouvez configurer un paramètre prédéfini de visionneuse à 360° avec des couleurs, des bordures, des polices et des paramètres d’image différents.
+Les paramètres prédéfinis de la visionneuse à 360° définissent le style, le comportement et l’aspect des visionneuses. Dynamic Media Classic est fourni avec les paramètres prédéfinis de la visionneuse à 360° par défaut. Si vous êtes un administrateur, vous pouvez créer vos propres paramètres prédéfinis de visionneuse à 360°. Vous pouvez configurer un paramètre prédéfini de visionneuse à 360° avec des couleurs, des bordures, des polices et des paramètres d’image différents.
 
 Pour créer des paramètres prédéfinis de visionneuse à 360°, procédez comme suit :
 
-1. Cliquez sur **Configuration** &gt; **Paramètres prédéfinis de la visionneuse**.
+1. Cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
 1. Effectuez l’une des opérations suivantes :
 
    * To create a new preset, click **Add**, then in the Add Viewer Preset dialog box, choose a platform, and click **Spin Set Viewer**.
    * To edit an existing Spin Set Viewer preset, select the preset and click **Edit**.
+
    L’écran Configurer la visionneuse apparaît.
 
 1. Attribuez un nom au paramètre prédéfini de la visionneuse à 360° dans la zone Nom du paramètre prédéfini.
