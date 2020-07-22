@@ -2,22 +2,25 @@
 title: Modification d’une image
 seo-title: Modification d’une image
 description: 'null'
-seo-description: Découvrez comment ajuster une image.
-uuid: c 052 acd 3-e 8 c 1-4134-ad 21-b 9 c 41578097 f
+seo-description: Découvrez comment ajuster une image
+uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/master_ files
-discoiquuid: 47 a 23980-2886-4 da 3-ab 2 d -6 cd 50 e 00 d 188
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 95%
 
 ---
 
 
 # Modification d’une image{#adjusting-an-image}
 
-Dynamic Media Classic propose diverses commandes permettant de modifier l'aspect d'une image. Vous pouvez retourner, faire pivoter, rendre flou, modifier et coloriser une image ou modifier l’équilibre de ses couleurs. Faites des essais avec ces commandes pour constater leurs effets sur l’image en cours de traitement.
+Dynamic Media Classic offre diverses commandes permettant de modifier l’aspect d’une image. Vous pouvez retourner, faire pivoter, rendre flou, modifier et coloriser une image ou modifier l’équilibre de ses couleurs. Faites des essais avec ces commandes pour constater leurs effets sur l’image en cours de traitement.
 
 Voir également [Création d’un alias pour une image](adjusting-image.md#creating_an_alias_for_an_image).
 
@@ -29,7 +32,7 @@ Voir également [Création d’un alias pour une image](adjusting-image.md#creat
    * Utilisez le curseur de rotation (Pivoter) pour faire pivoter l’image. Vous pouvez saisir des valeurs dans le champ Pivoter pour appliquer une rotation à une image. Les valeurs positives appliquent une rotation horaire et les valeurs négatives, une rotation antihoraire.
    * Utilisez le curseur Estomper ou la zone correspondante pour rendre une image floue. Plus la valeur est élevée, plus l’image devient floue.
    * Utilisez les options Contraste, Luminosité, Saturation, Teinte et Equilibre des couleurs pour régler la couleur et la luminosité. Ces effets sont cumulatifs. Par exemple, les modifications apportées aux paramètres Magenta/Vert s’ajoutent aux modifications des paramètres Teinte.
-   * Utilisez les options Coloriser pour coloriser une image tout en conservant ses zones foncées et ses zones claires. Les modifications effectuées à l’aide des options Coloriser sont également cumulatives. Dans le menu Luminosité, choisissez Aucune compensation pour désactiver la compensation automatique de la luminosité. Définissez la valeur de contraste sur 0 pour conserver la plage de contraste de l’image originale, ou spécifiez une plage de contraste avec une valeur supérieure à 0. Une valeur égale à 100 produit le contraste maximum. Les valeurs habituelles sont comprises entre 30 et 70.
+   * Utilisez les options Coloriser pour coloriser une image tout en conservant ses zones foncées et ses zones claires. Les modifications effectuées à l’aide des options Coloriser sont également cumulatives. Dans le menu Luminosité, choisissez Aucune compensation pour désactiver la compensation automatique de la luminosité. Définissez la valeur de contraste sur 0 pour conserver la plage de contraste de l’image originale, ou spécifiez une plage de contraste avec une valeur supérieure à 0. Une valeur égale à 100 produit le contraste maximum. Les valeurs types se situent entre 30 et 70.
 
 1. Une fois le réglage de l’image terminé, procédez de l’une des manières suivantes :
 
