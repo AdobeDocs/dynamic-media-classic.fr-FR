@@ -2,15 +2,18 @@
 title: Prévisualisation d’un fichier
 seo-title: Prévisualisation d’un fichier
 description: 'null'
-seo-description: Découvrez comment prévisualiser un fichier.
+seo-description: Découvrez comment prévisualisation d’une ressource.
 uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: admin
-content-type: référence
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1023'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +26,7 @@ Voir [Configuration des visionneuses par défaut](application-setup.md#configuri
 
 Si vous prévisualisez un modèle de fichier avec des calques de paramètres, vous pouvez apporter des modifications aux paramètres ou modifier le paramètre d’image prédéfini. Etant donné que les modifications apportées sont effectuées en ligne, vous pouvez afficher les résultats immédiatement dans la même fenêtre de prévisualisation.
 
-Voir aussi [Adobe Viewers Reference Library Examples](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Voir aussi Exemples [de bibliothèques de référence des visionneuses](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobe.
 
 **Pour prévisualiser un fichier**
 
@@ -52,9 +55,9 @@ Pour une plate-forme de visionneuse donnée, la fenêtre Liste des visionneuses 
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier de fichiers qui contient le fichier à prévisualiser.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage de la grille. Dans la fenêtre Fichiers, sélectionnez un seul fichier, puis au-dessous de l’image miniature, cliquez sur Prévisualiser &gt; Liste des visionneuses.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage par liste. Dans la fenêtre Fichiers, sélectionnez un seul fichier, puis à droite de l’image miniature, cliquez sur Prévisualiser &gt; Liste des visionneuses.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage des détails. Sur la même barre d’outils, cliquez sur Prévisualiser &gt; Liste des visionneuses.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage de la grille. Dans la fenêtre Fichiers, sélectionnez un seul fichier, puis au-dessous de l’image miniature, cliquez sur Prévisualiser > Liste des visionneuses.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage par liste. Dans la fenêtre Fichiers, sélectionnez un seul fichier, puis à droite de l’image miniature, cliquez sur Prévisualiser > Liste des visionneuses.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage des détails. Sur la même barre d’outils, cliquez sur Prévisualiser > Liste des visionneuses.
 
 1. (Facultatif) Dans la fenêtre Liste des visionneuses, puis cliquez sur l’en-tête de la colonne **Nom** ou **Type de plate-forme** pour trier la colonne par ordre croissant ou décroissant.
 1. Dans la fenêtre Liste des visionneuses, sous la colonne Actions du tableau, cliquez sur Prévisualiser pour avoir une idée du rendu du fichier pour la visionneuse et le type de plate-forme sélectionnés.
@@ -91,9 +94,9 @@ Voir [Création et activation des paramètres d’image prédéfinis](creating-e
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient le fichier d’image à prévisualiser.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage de la grille. Dans la fenêtre Fichiers, sélectionnez un seul fichier d’image, puis au-dessous de l’image miniature, cliquez sur Prévisualiser &gt; Liste des paramètres prédéfinis de l’image.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage par liste. Dans la fenêtre Fichiers, sélectionnez un seul fichier d’image, puis sur la droite de l’image miniature, cliquez sur Prévisualiser &gt; Liste des paramètres prédéfinis de l’image.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage des détails. Sur la même barre d’outils, cliquez sur Prévisualiser &gt; Liste des paramètres prédéfinis de l’image.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage de la grille. Dans la fenêtre Fichiers, sélectionnez un seul fichier d’image, puis au-dessous de l’image miniature, cliquez sur Prévisualiser > Liste des paramètres prédéfinis de l’image.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage par liste. Dans la fenêtre Fichiers, sélectionnez un seul fichier d’image, puis sur la droite de l’image miniature, cliquez sur Prévisualiser > Liste des paramètres prédéfinis de l’image.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage des détails. Sur la même barre d’outils, cliquez sur Prévisualiser > Liste des paramètres prédéfinis de l’image.
 
 1. Dans la fenêtre Liste des paramètres prédéfinis de l’image, sélectionnez, dans le tableau, le nom du type de paramètre prédéfini dont vous souhaitez prévisualiser le fichier d’image en ligne, dans le volet droit.
 1. (Facultatif) Dans la fenêtre Liste des paramètres prédéfinis de l’image, dans la liste déroulante Codage de l’URL pour la génération de copies d’URL située dans la partie inférieure, sélectionnez le codage URL à appliquer à l’URL du fichier d’image lorsqu’elle est copiée.
