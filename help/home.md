@@ -3,11 +3,11 @@ title: Documentation technique Dynamic Media Classic
 seo-title: Documentation technique et auto-assistance pour Adobe Classic
 description: Documentation technique Dynamic Media Classic
 seo-description: 'Documentation technique, notes de mise à jour et documents d’auto-assistance pour Adobe Classic, anciennement Scene7 '
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 11%
 
 ---
@@ -33,7 +33,7 @@ Voir Questions [](new-ui-2020.md)fréquentes. Nouvelles mises à jour en date du
 * [Bulletin mensuel de Dynamic Media](dynamic-media-newsletter.md)
 * [Guide : Bonnes pratiques relatives à l’utilisation de Dynamic Media Classic](https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf)
 * [Guide : Guide des meilleures pratiques pour l’accentuation des images](/help/assets/s7_sharpening_images.pdf)
-* [Guide : Prise en charge du référencement](/help/assets/s7_seo.pdf) par Adobe Dyanamic Media Classic - Les moteurs de recherche permettent aujourd&#39;hui de rechercher des sites Web et des images. SPS prend en charge les efforts visant à rendre les images plus conviviales pour les moteurs de recherche, de sorte que davantage de trafic soit dirigé vers le site Web de l’utilisateur de Dynamic Media Classic. Ce guide en PDF présente l’arrière-plan et les recommandations d’implémentation nécessaires pour y parvenir.
+* [Guide : Prise en charge du référencement](/help/assets/s7_seo.pdf) par Adobe Dyanamic Media Classic - Les moteurs de recherche permettent aujourd&#39;hui de rechercher des sites Web et des images. Dynamic Media Classic prend en charge les efforts visant à rendre les images plus conviviales pour les moteurs de recherche, de sorte que davantage de trafic soit dirigé vers le site Web de l’utilisateur de Dynamic Media Classic. Ce guide en PDF présente l’arrière-plan et les recommandations d’implémentation nécessaires pour y parvenir.
 * [Webinaire : Bonnes pratiques pour la conception](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) réactive - Découvrez des conseils pratiques sur la manière d&#39;améliorer votre stratégie mobile. Consultez des exemples réels de conception adaptée. Créez un fichier original qui fonctionne sur plusieurs périphériques et améliorez les performances mobiles en modifiant dynamiquement la résolution ou l’orientation des images pour les affichages en mode portrait ou paysage. Découvrez comment recadrer, mettre à l’échelle ou redimensionner les images de manière dynamique.
 * [Webinaire : Bonnes pratiques Offrir des expériences interactives avec Dynamic Media Classic](http://seminars.adobeconnect.com/p7wb8ej3u6d/) - Découvrez comment intégrer et exporter du contenu dans Dynamic Media Classic et comment configurer des paramètres d’image prédéfinis pour des performances et une expérience optimales. Il présente également les paramètres prédéfinis de la visionneuse et les configurations de mise en mémoire cache.
 * [Webinaire : Optimisation du RSI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true) de vos ressources - Découvrez les meilleures pratiques du secteur pour diffuser du contenu multimédia enrichi sur vos sites et applications mobiles. Dans ce webinaire, nous donnons des exemples et des démonstrations qui vous montrent comment diffuser efficacement de la vidéo sur plusieurs périphériques, diffuser de la création dynamique dans vos campagnes marketing et augmenter la conversion en rendant les images, les guides de style ou les guides de recherche accessibles.
