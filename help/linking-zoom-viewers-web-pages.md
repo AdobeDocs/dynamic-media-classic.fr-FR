@@ -6,21 +6,21 @@ seo-description: Découvrez comment lier des visionneuses de zoom à vos pages W
 uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 89%
+source-wordcount: '673'
+ht-degree: 86%
 
 ---
 
 
 # Liaison des visionneuses de zoom à vos pages Web{#linking-zoom-viewers-to-your-web-pages}
 
-Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Image Server, y compris aux images originales et aux cibles de zoom associées, ainsi qu’aux paramètres prédéfinis de visionneuse de zoom, au moyen de chaînes URL ou de code incorporé. Ces chaînes URL sont activées au cours du processus de publication. Pour placer ces chaînes URL ou le code incorporé dans vos pages Web et applications, vous les copiez depuis Scene7 Publishing System.
+Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Image Server, y compris aux images originales et aux cibles de zoom associées, ainsi qu’aux paramètres prédéfinis de visionneuse de zoom, au moyen de chaînes URL ou de code incorporé. Ces chaînes URL sont activées au cours du processus de publication. Pour placer ces chaînes URL ou le code incorporé dans vos pages Web et applications, copiez-les à partir de Dynamic Media Classic.
 
 >[!NOTE]
 >
