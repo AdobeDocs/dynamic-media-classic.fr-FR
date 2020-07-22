@@ -6,11 +6,11 @@ seo-description: En savoir plus sur les services de formation Adobe.
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 translation-type: tm+mt
-source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 57%
@@ -38,4 +38,4 @@ Voir [Démonstrations](https://www.adobe.com/solutions/web-experience-management
 
 La section Prise en main du système d’aide contient des instructions destinées aux utilisateurs qui découvrent Dynamic Media Classic. Elle explique les notions élémentaires relatives à la plate-forme, la navigation, la configuration, la gestion des fichiers et la création de médias enrichis.
 
-(voir [Démarrage rapide](scene7-platform-overview.md)).
+(voir [Démarrage rapide](dmc-platform-overview.md)).
