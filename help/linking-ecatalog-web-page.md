@@ -6,21 +6,21 @@ seo-description: Découvrez comment lier un catalogue électronique à une page 
 uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 91%
+source-wordcount: '678'
+ht-degree: 87%
 
 ---
 
 
 # Liaison d’un catalogue électronique à une page Web{#linking-an-ecatalog-to-a-web-page}
 
-Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Image Server, y compris aux catalogues électroniques, au moyen de chaînes URL ou de code incorporé. Ces chaînes URL sont activées au cours du processus de publication. Pour placer la chaîne URL ou le code incorporé du catalogue électronique dans vos pages Web et applications, copiez l’URL ou le code depuis Scene7 Publishing System.
+Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Image Server, y compris aux catalogues électroniques, au moyen de chaînes URL ou de code incorporé. Ces chaînes URL sont activées au cours du processus de publication. Pour placer la chaîne URL ou le code incorporé de votre catalogue électronique dans vos pages Web et applications, copiez-la depuis Dynamic Media Classic.
 
 >[!NOTE]
 >
