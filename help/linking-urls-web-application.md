@@ -2,39 +2,42 @@
 title: Liaison des URL à une application Web
 seo-title: Liaison des URL à une application Web
 description: 'null'
-seo-description: Découvrez comment lier les URL à votre application Web.
-uuid: 1179 bdd 3-9 b 39-47 f 9-945 d -1 c 1 ca 186 bf 96
+seo-description: Découvrez comment lier des URL à votre application Web.
+uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sizing
-discoiquuid: 71299640-676 d -49 b 7-841 d -6118 f 31044 e 8
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
+discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 72%
 
 ---
 
 
 # Liaison des URL à une application Web{#linking-urls-to-your-web-application}
 
-Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Image Server au moyen de chaînes URL. Après avoir publié une image, Dynamic Media Classic active une chaîne URL qui référence le paramètre d'image prédéfini sur les serveurs d'images de médias dynamiques. Vous pouvez coller ces URL dans un navigateur Web pour procéder à des essais.
+Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Image Server au moyen de chaînes URL. Après avoir publié une image, Dynamic Media Classic active une chaîne URL qui référence le paramètre d’image prédéfini sur les serveurs Dynamic Media Image Server. Vous pouvez coller ces URL dans un navigateur Web pour procéder à des essais.
 
-Pour placer ces chaînes URL dans vos pages Web et applications, copiez-les à partir de Scene7 Publishing System. Pour obtenir une chaîne URL générée avec un paramètre d’image prédéfini, atteignez l’écran de prévisualisation ou le panneau de navigation (Affichage des détails).
+Pour placer ces chaînes URL dans vos pages Web et applications, copiez-les depuis Dynamic Media Classic. Pour obtenir une chaîne URL générée avec un paramètre d’image prédéfini, atteignez l’écran de prévisualisation ou le panneau de navigation (Affichage des détails).
 
 ## Obtention d’une URL de paramètre d’image prédéfini {#obtaining-an-image-preset-url}
 
 Vous pouvez obtenir une chaîne URL générée par un paramètre d’image prédéfini à partir de l’écran Prévisualisation ou Affichage des détails. Une fois l’URL copiée, elle est stockée dans le Presse-papiers ; vous pouvez ainsi la coller si nécessaire.
 
-***Remarque**: L'URL n'est active que lorsque vous publiez le fichier.*
+***Remarque **: L’URL n’est pas active tant que vous n’avez pas publié le fichier.*
 
 ### Obtention d’une URL de paramètre d’image prédéfini depuis l’écran Prévisualisation {#obtaining-an-image-preset-url-from-preview}
 
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient le fichier d’image à prévisualiser.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage de la grille. Dans la fenêtre Fichiers, sélectionnez un seul fichier d’image, puis au-dessous de l’image miniature, cliquez sur Prévisualiser &gt; Liste des paramètres prédéfinis de l’image.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage par liste. Dans la fenêtre Fichiers, sélectionnez un seul fichier d’image, puis sur la droite de l’image miniature, cliquez sur Prévisualiser &gt; Liste des paramètres prédéfinis de l’image.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage des détails. Sur la même barre d’outils, cliquez sur Prévisualiser &gt; Liste des paramètres prédéfinis de l’image.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage de la grille. Dans la fenêtre Fichiers, sélectionnez un seul fichier d’image, puis au-dessous de l’image miniature, cliquez sur Prévisualiser > Liste des paramètres prédéfinis de l’image.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage par liste. Dans la fenêtre Fichiers, sélectionnez un seul fichier d’image, puis sur la droite de l’image miniature, cliquez sur Prévisualiser > Liste des paramètres prédéfinis de l’image.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage des détails. Sur la même barre d’outils, cliquez sur Prévisualiser > Liste des paramètres prédéfinis de l’image.
 
 1. (Facultatif) Dans la fenêtre Liste des paramètres prédéfinis de l’image, dans la liste déroulante Codage de l’URL pour la génération de copies d’URL située dans la partie inférieure, sélectionnez le codage URL à appliquer à l’URL du fichier d’image lorsqu’il est copié.
 1. Dans la fenêtre Liste des paramètres prédéfinis de l’image, située dans l’angle supérieur droit du volet de prévisualisation, cliquez sur Copier l’URL pour le type de paramètre prédéfini sélectionné.
@@ -50,11 +53,11 @@ Vous pouvez obtenir une chaîne URL générée par un paramètre d’image pré
 
 ## A propos des chaînes URL de paramètre d’image prédéfini {#about-image-preset-url-strings}
 
-Un appel d'URL pour le dimensionnement d'image aux serveurs d'image multimédia dynamique présente la syntaxe de base suivante :
+Un appel d’URL pour le dimensionnement des images sur les serveurs Dynamic Media Image Server a la syntaxe de base suivante :
 
 *chemin*/*nom_serveur_Image_Server*/*nom_compte*/*nom_image*?*modificateur1*&amp;*modificateur2*&amp;…
 
-Dans une URL de serveur d'images dynamiques, les instructions sur le serveur pour l'affichage de l'image apparaissent après le point d'interrogation (?). Par exemple, cet appel d’URL fournit une image nommée « backpack » à une largeur de 250 pixels :
+Dans une URL de serveur d’images Dynamic Media, les instructions destinées au serveur pour l’affichage de l’image s’affichent après le point d’interrogation (?). Par exemple, cet appel d’URL fournit une image nommée « backpack » à une largeur de 250 pixels :
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
