@@ -2,15 +2,18 @@
 title: Création et gestion des groupes du portail multimédia
 seo-title: Création et gestion des groupes du portail multimédia
 description: 'null'
-seo-description: Découvrez comment créer et gérer des groupes Media Portal.
-uuid: 23 f 360 e 1-ddcb -491 b-ab 9 f -428 f 3 ac 9 c 316
+seo-description: Découvrez comment créer et gérer des groupes du portail multimédia.
+uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/media_ portal
-discoiquuid: 91524 d 36-b 77 a -4 dc 4-acba-a 7 bd 85297 e 98
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +34,7 @@ Si vous n’accordez pas à un groupe des autorisations spécifiques sur un fich
 
 ## Ajout d’un groupe {#adding-a-group}
 
-1. Cliquez sur **Configuration** &gt; **Configuration de Media Portal** &gt; **Groupes**.
+1. Cliquez sur **Configuration** > **Configuration de Media Portal** > **Groupes**.
 1. Cliquez sur **Ajouter**.
 1. Dans la boîte de dialogue Ajouter un groupe, saisissez le nom du groupe dans la zone Nom du groupe et cliquez sur **Ajouter un groupe**.
 1. Le cas échéant, vous pouvez cocher les cases situées en regard des noms des utilisateurs à ajouter au nouveau groupe.
@@ -47,7 +50,7 @@ Si vous n’accordez pas à un groupe des autorisations spécifiques sur un fich
 
 ## Définition des autorisations d’accès aux fichiers pour un groupe {#establishing-asset-access-permissions-for-a-group}
 
-1. Cliquez sur **Configuration** &gt; **Configuration de Media Portal** &gt; **Groupes**.
+1. Cliquez sur **Configuration** > **Configuration de Media Portal** > **Groupes**.
 1. Dans la page de liste des Groupes, effectuez l’une de ces actions :
 
    * Pour ajouter un groupe et spécifier des autorisations, cliquez sur **Ajouter**. Dans la boîte de dialogue Ajouter un groupe, saisissez un nom pour le groupe, cliquez sur **Ajouter un groupe**, puis ajoutez des utilisateurs au groupe.
@@ -79,7 +82,7 @@ Choisissez les autorisations d’accès de paramètres d’image prédéfinis si
 
 Voir aussi [Définition d’options d’exportation disponibles pour les utilisateurs du portail multimédia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-1. Cliquez sur **Configuration** &gt; **Configuration de Media Portal** &gt; **Groupes**.
+1. Cliquez sur **Configuration** > **Configuration de Media Portal** > **Groupes**.
 1. Dans la page de liste des Groupes, effectuez l’une de ces actions :
 
    * Pour ajouter un groupe et préciser quels paramètres d’image prédéfinis lui sont accessibles, cliquez sur **Ajouter**. Dans la boîte de dialogue Ajouter un groupe, saisissez un nom pour le groupe, cliquez sur **Ajouter un groupe**, puis ajoutez des utilisateurs au groupe.
@@ -91,10 +94,10 @@ Voir aussi [Définition d’options d’exportation disponibles pour les utilisa
 
 ## Modification et suppression de groupes {#edit-and-delete-groups}
 
-1. Cliquez sur **Configuration** &gt; **Configuration de Media Portal** &gt; **Groupes**.
+1. Cliquez sur **Configuration** > **Configuration de Media Portal** > **Groupes**.
 1. Sur la page de liste des groupes, sélectionnez un groupe et modifiez ou supprimez-le.
 
-   **Modifiez un groupe** Cliquez sur Modifier, puis sélectionnez des options dans la boîte de dialogue Modifier le groupe.
+   **Modification d&#39;un groupe** Cliquez sur Modifier, puis sélectionnez des options dans la boîte de dialogue Modifier le groupe.
 
-   **Suppression d'un groupe** Cliquez sur Supprimer.
+   **Suppression d&#39;un groupe** Cliquez sur Supprimer.
 
