@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
+source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Une fois que vous avez téléchargé, installé et lancé l’application de bur
 
 >[!IMPORTANT]
 >
->Une seule instance de l’application de bureau peut être installée et active à la fois.
+>Une seule instance de l’application de bureau peut être installée *et* active à la fois sur un ordinateur donné. Cependant, il n’existe aucune restriction quant au nombre d’installations que vous pouvez avoir sur plusieurs ordinateurs.
 
 ### **_Que se passe-t-il si j’utilise les API Dynamic Media Classic pour accéder au produit et que je ne me connecte pas via l’interface utilisateur Web ?_**
 
