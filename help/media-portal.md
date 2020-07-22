@@ -2,22 +2,25 @@
 title: Media Portal
 seo-title: Media Portal
 description: 'null'
-seo-description: Découvrez Media Portal.
-uuid: df 34 c 360-c 91 a -48 d 4-886 b -2 f 9178 d 220 fb
+seo-description: En savoir plus sur Media Portal.
+uuid: df34c360-c91a-48d4-886b-2f9178d220fb
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/getting_ started
-discoiquuid: bdd 0742 e -902 c -48 f 7-93 e 6-6 e 50 d 2 a 7628 b
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
+discoiquuid: bdd0742e-902c-48f7-93e6-6e50d2a7628b
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 45%
 
 ---
 
 
 # Media Portal{#media-portal}
 
-Adobe Media Portal permet aux entreprises d’acquérir, de contrôler et de distribuer facilement des fichiers créatifs destinés à des partenaires et réseaux externes, de même qu’à des utilisateurs internes de la société. Grâce à cet environnement en libre-service « en libre-service » basé sur un navigateur, les utilisateurs du portail disposent de « vues » contrôlées par des administrateurs dans les ressources Dynamic Media Classic afin d'accéder facilement aux fonctions de téléchargement, de navigation, de recherche, de prévisualisation et d'exportation de fichiers dans des formats approuvés par l'entreprise.
+Adobe Media Portal permet aux entreprises d’acquérir, de contrôler et de distribuer facilement des fichiers créatifs destinés à des partenaires et réseaux externes, de même qu’à des utilisateurs internes de la société. Cet environnement en libre-service, basé sur un navigateur, fournit aux utilisateurs du portail des &quot;vues&quot; contrôlées par l’administrateur dans les ressources Dynamic Media Classic pour un accès facile au téléchargement, à la navigation, à la recherche, à la prévisualisation et à l’exportation de ressources dans des formats approuvés par l’entreprise.
 
 For more information about Media Portal including system requirements, see [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
 
