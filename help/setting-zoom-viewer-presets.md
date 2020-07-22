@@ -5,25 +5,28 @@ description: 'null'
 seo-description: Découvrez comment configurer les paramètres prédéfinis de la visionneuse de zoom.
 uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
 contentOwner: admin
-content-type: référence
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 69%
 
 ---
 
 
 # Configuration des paramètres prédéfinis de la visionneuse de zoom{#setting-up-zoom-viewer-presets}
 
-Les paramètres prédéfinis de visionneuse de zoom déterminent le style, le comportement et l’aspect des visionneuses de zoom. Dynamic Media Classic offre de nombreuses options pour personnaliser et habiller les visionneuses. Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse de zoom personnalisés, de base (rapide), de sortie et de visionneuse de zoom personnalisée par défaut. Si vous êtes un administrateur, vous pouvez créer de nouveaux paramètres prédéfinis de visionneuse de zoom d’entreprise ou modifier un paramètre prédéfini par défaut et l’enregistrer ensuite sous un nouveau nom.
+Les paramètres prédéfinis de visionneuse de zoom déterminent le style, le comportement et l’aspect des visionneuses de zoom. Dynamic Media Classic offre de nombreuses options de personnalisation et d’habillage des visionneuses. Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse de zoom personnalisés, de visionneuse de zoom par défaut de base (rapide), à fenêtre déroulante et. Si vous êtes un administrateur, vous pouvez créer de nouveaux paramètres prédéfinis de visionneuse de zoom d’entreprise ou modifier un paramètre prédéfini par défaut et l’enregistrer ensuite sous un nouveau nom.
 
 Toutes les visionneuses de zoom comportent des boutons permettant d’effectuer un zoom avant, un zoom arrière et un panoramique mais aussi de rétablir l’état initial de l’image après le zoom. L’aspect des boutons et de la fenêtre elle-même est fonction des paramètres prédéfinis de visionneuse de zoom actuellement sélectionnés. Vous pouvez configurer un paramètre prédéfini de visionneuse de zoom avec des couleurs, des bordures, des polices et des paramètres d’image différents. Dans le cas d’une visionneuse de zoom guidé, vous pouvez également choisir l’emplacement des cibles de zoom. Les cibles de zoom correspondent aux miniatures sur lesquelles les utilisateurs cliquent pour effectuer un zoom sur les zones que vous définissez.
 
 ## A propos des paramètres prédéfinis de la visionneuse de zoom {#about-zoom-viewer-presets}
 
-Dynamic Media Classic propose les paramètres prédéfinis suivants pour la visionneuse de zoom :
+Dynamic Media Classic offre ces paramètres prédéfinis de visionneuse de zoom :
 
 * **Visionneuse de zoom : Élémentaire** Fournit un zoom de base sur l’image d’origine.
 
@@ -35,9 +38,9 @@ Par exemple, si la taille de l’image principale est de 350 x 350 pixels et 
 
 Dynamic Media Classic recommande les paramètres suivants pour les paramètres prédéfinis de la visionneuse de zoom déroulante :
 
-* **Taille** d’image agrandie Environ 1 500 x 1 500 pixels, sans dépasser 2 000 x 2 000 pixels.
+* **Taille** de l’image agrandie Environ 1 500 x 1 500 pixels, sans dépasser 2 000 x 2 000 pixels.
 
-* **Taille** de l’image inférieure ou égale à 100 Ko, ne dépassant pas 150 Ko (compressez le fichier pour qu’il reste inférieur à 150 Ko).
+* **Taille** de l’image : 100 Ko ou moins, ne doit pas dépasser 150 Ko (compressez le fichier pour qu’il ne dépasse pas 150 Ko).
 
 * **Visionneuse de zoom : Personnalisé** Fournit un zoom guidé ou non guidé avec des images, des visionneuses d’images avec plusieurs vues ou des séries d’échantillons de couleur.
 
@@ -45,12 +48,13 @@ Dynamic Media Classic recommande les paramètres suivants pour les paramètres p
 
 Pour créer ou modifier un paramètre prédéfini de visionneuse de zoom, procédez comme suit :
 
-1. Cliquez sur **Configuration** &gt; **Paramètres prédéfinis de la visionneuse**.
+1. Cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
 1. Effectuez l’une des opérations suivantes :
 
-   * **Création d’un paramètre prédéfini** Cliquez sur Ajouter. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme, choisissez une visionneuse de zoom, puis cliquez sur Ajouter. Entrez le nom du paramètre prédéfini dans la zone Nom du paramètre prédéfini.
+   * **Création d’un paramètre prédéfini** Ajoute de clic. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme, choisissez une visionneuse de zoom, puis cliquez sur Ajouter. Entrez le nom du paramètre prédéfini dans la zone Nom du paramètre prédéfini.
 
-   * **Modification d’un paramètre prédéfini** Sélectionnez un paramètre prédéfini de visionneuse de zoom, puis cliquez sur **Modifier**.
+   * **Modification d’un paramètre prédéfini** Sélectionnez un paramètre prédéfini de visionneuse de zoom, puis cliquez sur 
+**Modifier**.
 
 1. Spécifiez les paramètres de votre choix.
 
