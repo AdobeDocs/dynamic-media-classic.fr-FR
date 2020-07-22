@@ -1,23 +1,26 @@
 ---
-title: '« Démarrage rapide : Visionneuses à 360 °'
-seo-title: '« Démarrage rapide : Visionneuses à 360 °'
+title: '"Début rapide : Visionneuses à 360°"'
+seo-title: '"Début rapide : Visionneuses à 360°"'
 description: 'null'
-seo-description: Une introduction et un démarrage rapide à la visionneuse à 360 ° pour vous aider à maîtriser rapidement les opérations.
-uuid: d 0 af 9 db 6-cb 6 f -48 f 0-89 f 6-f 3 ab 2 da 0659 f
+seo-description: Une introduction et un Début rapide à la visionneuse à 360° pour vous aider à maîtriser rapidement les opérations.
+uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/spin_ sets
-discoiquuid: 282 b 8 e 83-b 20 f -43 f 7-b 9 f 8-6 eebd 5 b 1 c 5 a 7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
+discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '757'
+ht-degree: 67%
 
 ---
 
 
 # Démarrage rapide : Visionneuses à 360°{#quick-start-spin-sets}
 
-Une visionneuse à 360° simule la rotation d’un objet afin de l’examiner. Elle permet de visualiser des objets sous n’importe quel angle et profiter ainsi des moindres détails. La visionneuse à 360° procure une expérience de visualisation panoramique. Dynamic Media Classic propose des visionneuses à 360 ° unidimensionnelles dans lesquelles les utilisateurs peuvent faire pivoter un élément et visionneuses à 360 ° bidimensionnelles dans lesquelles les utilisateurs peuvent faire pivoter et retourner l'élément. De plus, les utilisateurs peuvent effectuer un zoom librement et appliquer un panoramique à l'aide de quelques clics de souris simples. Ainsi, les utilisateurs peuvent examiner un objet de plus près sous un angle bien précis.
+Une visionneuse à 360° simule la rotation d’un objet afin de l’examiner. Elle permet de visualiser des objets sous n’importe quel angle et profiter ainsi des moindres détails. La visionneuse à 360° procure une expérience de visualisation panoramique. Dynamic Media Classic offre des visionneuses à 360° unidimensionnelles dans lesquelles les utilisateurs peuvent faire pivoter un élément et des visionneuses à 360° bidimensionnelles dans lesquelles les utilisateurs peuvent faire pivoter et retourner l’élément. En outre, les utilisateurs peuvent effectuer un zoom et un panoramique &quot;libre de forme&quot; sur n’importe quelle vue en quelques clics de souris. Ainsi, les utilisateurs peuvent examiner un objet de plus près sous un angle bien précis.
 
 ![Images d’une visionneuse à 360°.](/help/assets/spin_set.png)
 
@@ -25,15 +28,15 @@ Les visionneuses à 360° acceptent également les zones cliquables. Une zone cl
 
 Voir [Création de zones cliquables](creating-image-maps.md).
 
-**Démarrage rapide**
+**Début rapide**
 
-Cette section de démarrage rapide consacrée aux visionneuses à 360 ° est conçue pour maîtriser rapidement les techniques de visionnage à 360 ° dans Dynamic Media Classic. Suivez les étapes 1 à 7. Chaque étape se termine par un renvoi à une rubrique contenant de plus amples informations.
+Ce Début rapide Visionneuses à 360° est conçu pour vous aider à maîtriser rapidement les techniques de visionneuse à 360° dans Dynamic Media Classic. Suivez les étapes 1 à 7. Chaque étape se termine par un renvoi à une rubrique contenant de plus amples informations.
 
-**Cookie. Création et téléchargement des images**
+**1. Création et téléchargement des images**
 
-Au minimum, vous avez besoin de 8 à 12 prises de vue d'un élément pour une visionneuse à 360 ° unidimensionnelle et de 16-24 pour une visionneuse à 360 ° bidimensionnelle. Les prises de vue doivent être réalisées à intervalles réguliers pour donner l’impression que l’objet est en rotation et retourné. Par exemple, si une visionneuse unidimensionnelle comprend 12 prises de vue, faites pivoter l’objet de 30 degrés (360/12) pour chaque prise de vue.
+Au minimum, vous avez besoin de 8 à 12 prises de vue d’un élément pour une visionneuse à 360° unidimensionnelle et de 16 à 24 prises de vue pour une visionneuse à 360° bidimensionnelle. Les prises de vue doivent être réalisées à intervalles réguliers pour donner l’impression que l’objet est en rotation et retourné. Par exemple, si une visionneuse unidimensionnelle comprend 12 prises de vue, faites pivoter l’objet de 30 degrés (360/12) pour chaque prise de vue.
 
-Sélectionnez le bouton Télécharger dans la barre de navigation globale pour télécharger les images de la visionneuse de votre ordinateur ou du réseau vers Scene7 Publishing System.
+Sélectionnez le bouton Télécharger sur la barre de navigation globale pour télécharger des images à 360° depuis votre ordinateur ou votre réseau vers Dynamic Media Classic.
 
 Voir [Instructions pour prendre des clichés d’images de la visionneuse à 360°](creating-spin-set.md#guidelines-for-shooting-spin-set-images).
 
@@ -85,7 +88,7 @@ Voir [Prévisualisation d’une visionneuse à 360°](previewing-spin-set.md#pr
 
 **6. Publication d’une visionneuse à 360°**
 
-Lorsque vous publiez une visionneuse à 360 °, elle est placée sur les serveurs Dynamic Media Classic afin de pouvoir être diffusée dynamiquement sur votre site Web ou dans votre application. Il active également la chaîne URL qui appelle la visionneuse à 360 ° à partir des serveurs Dynamic Media Image sur votre site Web ou votre application.
+Lorsque vous publiez une visionneuse à 360°, elle est placée sur les serveurs Dynamic Media Classic afin d’être diffusée de manière dynamique sur votre site Web ou dans votre application. Elle active également la chaîne URL qui appelle la visionneuse à 360° depuis les serveurs Dynamic Media Image Server vers votre site Web ou votre application.
 
 To publish a Spin Set, mark it for publish by selecting the **Mark for Publish** icon beside its name in the Browse Panel. Click **Publish** on the Global Navigation bar to initiate a publish. On the Publish screen, click **Start Publish**.
 
@@ -93,8 +96,8 @@ Voir [Publication d’une visionneuse à 360°](publishing-spin-set.md#publishin
 
 **7. Liaison d’une visionneuse à 360° à une page Web**
 
-Dynamic Media Classic crée des chaînes d'appel URL pour les visionneuses à 360 ° et les active après leur publication. Vous pouvez copier ces chaînes URL depuis l’écran de prévisualisation.
+Dynamic Media Classic crée des chaînes d’appel URL pour les visionneuses à 360° et les active après leur publication. Vous pouvez copier ces chaînes URL depuis l’écran de prévisualisation.
 
-Sélectionnez la visionneuse à 360 °, puis cliquez sur **Prévisualiser**. L’écran de prévisualisation s’ouvre. Sélectionnez un paramètre prédéfini de visionneuse à 360°. Cliquez ensuite **sur Copier l'URL**.
+Sélectionnez la visionneuse à 360°, puis cliquez sur **Prévisualisation**. L’écran de prévisualisation s’ouvre. Sélectionnez un paramètre prédéfini de visionneuse à 360°. Cliquez ensuite sur **Copier l’URL**.
 
 Voir [Liaison d’une visionneuse à 360° à une page Web](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page).
