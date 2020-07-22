@@ -3,21 +3,24 @@ title: Vérification de fichiers de tâche
 seo-title: Vérification de fichiers de tâche
 description: 'null'
 seo-description: Découvrez comment vérifier les fichiers de tâche.
-uuid: 8241 a 894-3014-4 a 5 c -96 ef -71 f 3 aaa 3716 a
+uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/upload_ and_ publish_ assets
-discoiquuid: d 53 ae 5 dd -8 daf -4 d 87-b 9 a 6-3039 bad 30538
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
+discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1602'
+ht-degree: 71%
 
 ---
 
 
 # Vérification de fichiers de tâche{#checking-job-files}
 
-SPS propose la page Tâches pour contrôler les téléchargements de fichiers vers Scene 7 Publishing System et les fichiers publiés sur les serveurs Dynamic Media Classic. Vous pouvez consulter des tâches de téléchargement et de publication sur la page Tâches, y vérifier l’état des tâches et annuler des publications. Vous pouvez également planifier des tâches de téléchargement et de publication.
+Pour surveiller les téléchargements de fichiers vers Dynamic Media Classic et les fichiers que vous publiez sur les serveurs Dynamic Media Classic, Dynamic Media Classic offre la page Tâches. Vous pouvez consulter des tâches de téléchargement et de publication sur la page Tâches, y vérifier l’état des tâches et annuler des publications. Vous pouvez également planifier des tâches de téléchargement et de publication.
 
 Lorsque vous téléchargez des fichiers, une icône rotative apparaît en regard du menu Tâches, indiquant qu’une tâche est en cours, ainsi que le nombre de fichiers en cours. Vous pouvez cliquer sur cette icône pour consulter davantage d’informations sur la tâche active.
 
@@ -31,43 +34,43 @@ Cliquez sur le bouton Tâches dans la barre de navigation globale pour ouvrir la
 
 Sur l’onglet Historique de la page Tâches, les tâches sont répertoriées selon les catégories suivantes :
 
-**L'icône Type** de tâche indique le type de tâche : Le téléchargement et la publication sont les types de tâche les plus courants.
+**Type** de tâche Une icône indique le type de tâche : Télécharger et publier sont les types de tâche les plus courants.
 
 **Nom** de la tâche Nom de la tâche. Le nom comprend deux parties : le nom saisi par l’utilisateur et l’horodatage.
 
-**Début** de la tâche commencée.
+**Démarrage** au démarrage de la tâche.
 
-**Total** le nombre de fichiers transférés.
+**Total** Nombre de fichiers transférés.
 
-**W (avertissements)** Nombre d'avertissements dans la tâche (le cas échéant). Les avertissements indiquent des problèmes associés à la tâche qui sont sans effet sur son exécution globale. Ces avertissements peuvent généralement être ignorés parce qu’ils sont signalés dans des fichiers masqués. Par exemple, les fichiers .DS_store (Macintosh) et Thumbs.db (Windows) contiennent des informations sur le mode d’affichage des fichiers d’images visibles par les utilisateurs. Toutefois, les avertissements concernant ces fichiers peuvent être ignorés car ils ne concernent pas la manière dont ces fichiers sont utilisés dans Dynamic Media Classic. Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les avertissements la concernant.
+**W (avertissements)** Nombre d’avertissements dans la tâche (le cas échéant). Les avertissements indiquent des problèmes associés à la tâche qui sont sans effet sur son exécution globale. Ces avertissements peuvent généralement être ignorés parce qu’ils sont signalés dans des fichiers masqués. Par exemple, les fichiers .DS_store (Macintosh) et Thumbs.db (Windows) contiennent des informations sur le mode d’affichage des fichiers d’images visibles par les utilisateurs. Cependant, les entrées d’avertissement concernant ces fichiers peuvent être ignorées, car elles ne se rapportent pas à l’utilisation de ces fichiers dans Dynamic Media Classic. Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les avertissements la concernant.
 
-**E (erreurs)** Indique le nombre d'erreurs dans la tâche (le cas échéant). Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les erreurs la concernant.
+**E (erreurs)** Liste le nombre d&#39;erreurs dans la tâche (le cas échéant). Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les erreurs la concernant.
 
-**Durée Durée** de la fin de la tâche.
+**Durée** Durée de la tâche.
 
-**Etat** Indique l'état de la tâche.
+**Statut** Affiche l&#39;état de la tâche.
 
-**Destination** pour les tâches de téléchargement, le nom et le dossier de l'entreprise sur lesquels les fichiers ont été téléchargés. Cette catégorie ne s’applique pas aux tâches publiées.
+**Destination** Pour les tâches de téléchargement, nom de la société et dossier dans lesquels les fichiers ont été téléchargés. Cette catégorie ne s’applique pas aux tâches publiées.
 
-**Envoyé par** liste qui a envoyé les fichiers.
+**Soumis par** les Listes qui ont téléchargé les fichiers.
 
-***Remarque**: Vous pouvez annuler les tâches de publication et de téléchargement en cours en cliquant sur le bouton Annuler en regard de la barre de progression.*
+***Remarque **: Vous pouvez annuler des tâches de publication et de téléchargement en cours en cliquant sur le bouton Annuler en regard de la barre de progression.*
 
 ## Modification des vues de la page Tâches {#changing-views-on-the-jobs-page}
 
 Pour trier des tâches ou modifier votre affichage sur l’onglet Historique de la page Tâches, appliquez les techniques suivantes :
 
-**Tri** d'un nom de colonne pour trier la liste selon une colonne particulière. Vous pouvez sélectionner le bouton bascule près du nom de la colonne pour trier les entrées par ordre croissant ou décroissant.
+**Tri** Sélectionnez un nom de colonne pour trier la liste selon une colonne particulière. Vous pouvez sélectionner le bouton bascule près du nom de la colonne pour trier les entrées par ordre croissant ou décroissant.
 
-**Période** : sélectionnez le menu Plage de dates et choisissez une option pour restreindre la liste des tâches à la date actuelle, à la semaine précédente ou au mois précédent. Choisissez l’option Plage de dates personnalisée pour entrer une plage de dates spécifique.
+**Période** Sélectionnez le menu Période et choisissez une option pour restreindre la liste des tâches à la date actuelle, à la semaine précédente ou au mois précédent. Choisissez l’option Plage de dates personnalisée pour entrer une plage de dates spécifique.
 
-**Type de tâche** Sélectionnez le menu Type de tâche, puis choisissez Publier ou Télécharger pour restreindre la liste aux tâches de publication ou de téléchargement. Choisissez l’option Tout pour voir les deux types de tâche.
+**Type** de tâche Sélectionnez le menu Type de tâche et choisissez Publier ou Télécharger pour restreindre la liste de publication ou de téléchargement des tâches. Choisissez l’option Tout pour voir les deux types de tâche.
 
-**Afficher** la commande Afficher &gt; Mes tâches ou Afficher &gt; Toutes les tâches pour restreindre la liste aux tâches commandées ou aux tâches que les personnes de votre entreprise ont commandées.
+**Afficher** Choisissez Afficher > Mes tâches ou Afficher > Toutes les tâches pour restreindre la liste aux tâches commandées ou aux tâches commandées par les personnes de votre société.
 
-## Affichage, copie ou impression d’un rapport de détails sur la tâche {#viewing-copying-or-printing-a-job-details-report}
+## Affichage, copie ou impression d’un rapport Détails de la tâche {#viewing-copying-or-printing-a-job-details-report}
 
-Cliquez deux fois sur le nom d’un rapport sur la page Tâches pour ouvrir la page Détails sur la tâche. Cette page présente un récapitulatif sur les fichiers de la tâche. Cliquez sur Afficher les détails pour voir l’ID SPS, le chemin de destination et les informations d’état d’une entrée. Si vous avez téléchargé un fichier PDF ou PostScript nécessitant des polices qui ne sont pas disponibles dans SPS, le rapport répertorie les polices manquantes.
+Cliquez deux fois sur le nom d’un rapport sur la page Tâches pour ouvrir la page Détails sur la tâche. Cette page présente un récapitulatif sur les fichiers de la tâche. Cliquez sur Détails de la Vue pour afficher l’identifiant Dynamic Media Classic d’une entrée, le chemin de destination et les informations d’état. Si vous avez téléchargé un fichier PDF ou PostScript nécessitant des polices qui ne sont pas disponibles dans Dynamic Media Classic, le rapport liste les polices manquantes.
 
 Vous pouvez copier ces informations dans le Presse-papiers.
 
@@ -89,17 +92,17 @@ Cliquez sur le bouton Tâches dans la barre de navigation globale et, sur la pag
 
 Sélectionnez une tâche périodique sur la page Tâches, puis procédez comme suit pour l’éditer ou la supprimer :
 
-**Modification d'une tâche périodique** Sélectionnez le bouton Modifier et saisissez les informations de planification dans la boîte de dialogue Modifier la tâche planifiée. Si vous souhaitez planifier la tâche selon l’intervalle de votre choix, choisissez l’option Répéter &gt; Personnalisé 
+**Modification d&#39;une tâche** périodique Sélectionnez le bouton Modifier, puis saisissez des informations de planification dans la boîte de dialogue Modifier la tâche planifiée. Si vous souhaitez planifier la tâche selon l’intervalle de votre choix, choisissez l’option Répéter > Personnalisé 
 
 (voir [Création d’un intervalle de téléchargement ou de publication personnalisé](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval)).
 
-**Suppression d'une tâche périodique** Sélectionnez le bouton Supprimer.
+**Suppression d’une tâche** périodique Sélectionnez le bouton Supprimer.
 
-**En pause (et en reprenant) une tâche périodique** dans la colonne Actif, décochez une case pour interrompre une tâche ; cochez une case pour reprendre une tâche interrompue.
+**Suspension (et reprise) d&#39;une tâche** périodique Dans la colonne Actif, désélectionnez une case à cocher pour interrompre une tâche ; cochez la case pour reprendre une tâche en pause.
 
 ### Création d’un intervalle de téléchargement ou de publication personnalisé {#creating-a-custom-upload-or-publish-job-time-interval}
 
-Pour créer un intervalle personnalisé pour une tâche de téléchargement (via FTP) ou de publication, choisissez l’option Répéter &gt; Personnalisé sur la page Télécharger ou Publier. Puis, entrez des numéros et des caractères génériques dans la zone Règle pour définir l’intervalle de périodicité de la tâche en question.
+Pour créer un intervalle personnalisé pour une tâche de téléchargement (via FTP) ou de publication, choisissez l’option Répéter > Personnalisé sur la page Télécharger ou Publier. Puis, entrez des numéros et des caractères génériques dans la zone Règle pour définir l’intervalle de périodicité de la tâche en question.
 
 La syntaxe de définition des intervalles personnalisés de périodicité de téléchargement ou de publication dans la zone Règle se présente comme suit :
 
@@ -117,7 +120,7 @@ Ce tableau indique les incréments temporels, leurs valeurs autorisées et les c
 | Minutes | 0-59 |  | , - * / |
 | Heures | 0-23 | Notez l’utilisation d’une horloge à cycle de 24 heures. | , - * / |
 | Jour du mois | 1-31 | Il est impossible de spécifier une valeur numérique à la fois pour « Jour du mois » et « Jour de la semaine ». Un de ces champs doit utiliser un caractère générique ?. | , - * / ? L C |
-| Mois | 1-12 ou jan, fév, mar, apr, may, may, jun, jul, aug, sep, sep, nov, déc | Les valeurs sont sensibles à la casse. | , - * / |
+| Mois | 1-12 ou jan, fév, mar, avr, mai, juin, jul, aoû, sep, oct, nov, déc | Les valeurs sont sensibles à la casse. | , - * / |
 | Jour de la semaine | Lun, Mar, Mer, Jeu, Ven, Sam, Dim | Les valeurs sont sensibles à la casse. Il est impossible de spécifier une valeur numérique à la fois pour « Jour du mois » et « Jour de la semaine ». Un de ces champs doit utiliser un caractère générique ?. | , - * / ? L C # |
 | Année (facultatif) | Vide ou 1970-2099 |  | , - * / |
 
@@ -131,9 +134,9 @@ Ce tableau indique les caractères génériques qui sont autorisés dans la zone
 | , | Virgule | Valeurs supplémentaires (par exemple, lundi et mercredi). |
 | - | Trait d’union | Plage de valeurs (par exemple, du lundi au vendredi). |
 | / | Barre oblique | Incréments (par exemple, toutes les 15 minutes). |
-| L | Lettre L majuscule | Dernier « jour du mois » ou « jour de la semaine » (disponible pour ces champs uniquement). Par exemple, pour le mois de janvier, la valeur L du champ « jour du mois » planifie la tâche pour le 31 janvier.Pour le champ « jour de la semaine », vous pouvez entrer ce caractère seul pour planifier la tâche le samedi. Vous pouvez l'utiliser avec un numéro (par exemple, 6 L) pour spécifier le dernier vendredi du mois. N'indiquez pas L avec la virgule ou le trait d'union. |
+| L | Lettre L majuscule | Dernier « jour du mois » ou « jour de la semaine » (disponible pour ces champs uniquement). Par exemple, pour le mois de janvier, la valeur L du champ « jour du mois » planifie la tâche pour le 31 janvier.Pour le champ « jour de la semaine », vous pouvez entrer ce caractère seul pour planifier la tâche le samedi. Vous pouvez l&#39;utiliser avec un nombre (par exemple, 6L) pour spécifier le dernier vendredi du mois.Ne spécifiez pas L avec la virgule ou les caractères génériques de trait d&#39;union. |
 | # | Carré | « N-ième » jour du mois (disponible pour le champ « jour de la semaine » uniquement).Par exemple, 6#3 dans le champ « jour de la semaine » signifie le troisième vendredi du mois. Le 6 représente « vendredi » (le sixième jour de la semaine), et le 3 désigne la troisième occurrence dans le mois. |
-| C | # lettre C majuscule | Premier « jour du mois » ou « jour de la semaine » du calendrier (disponible pour ces champs uniquement). Par exemple, la spécification d'une valeur 1 C pour le « jour du mois » planifie le premier jour du calendrier qui survient le ou après le cinquième. Pour le champ « Jour de la semaine », la spécification 1 C planifie le premier jour du calendrier qui survient le ou après le dimanche. |
+| C | # lettre C majuscule | Premier « jour du mois » ou « jour de la semaine » du calendrier (disponible pour ces champs uniquement). Par exemple, la valeur 1C pour &quot;jour du mois&quot; planifie le premier jour du calendrier qui se produit le ou après le cinquième.Pour le champ &quot;jour de la semaine&quot;, la valeur 1C planifie le premier jour du calendrier qui se produit le ou après le dimanche. |
 
 Cette liste donne des exemples de définition d’intervalle dans la zone Règle :
 
@@ -142,7 +145,7 @@ Cette liste donne des exemples de définition d’intervalle dans la zone Règl
 * 0 0/5 14 * * ? : toutes les 5 minutes entre 14h00 et 14h55 tous les jours
 * 0 0/5 14,18 * * ? : toutes les 5 minutes entre 14h00 et 14h55 tous les jours et toutes les 5 minutes entre 18h00 et 18h55 tous les jours
 * 0 10,44 14 ? 3 : le mercredi à 14h10 et à 14h44 tous les mercredis du mois de mars
-* 0 15 10 ? * : Mon-Fri à 10 h 15 tous les jours
+* 0 15 10 ? * : Du lundi au vendredi à 10h15 tous les jours de la semaine
 * 0 15 10 20 * ? : à 10h15 le 20e jour de chaque mois
 * 0 15 10 L * ? : à 10h15 le dernier jour de chaque mois
 * 0 15 10 ? * 6L : à 10h15 le dernier vendredi de chaque mois
