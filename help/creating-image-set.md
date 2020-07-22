@@ -2,15 +2,18 @@
 title: Création d’une visionneuse d’images
 seo-title: Création d’une visionneuse d’images
 description: 'null'
-seo-description: Découvrez comment créer une visionneuse d'images.
-uuid: 689 fdc 14-4 f 51-4 c 94-8515-cd 8551 e 101 d 8
+seo-description: Découvrez comment créer une visionneuse d’images.
+uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sets
-discoiquuid: 3 f 356410-b 30 e -4870-ad 95-6 e 5 a 9 dc 126 c 8
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 89%
 
 ---
 
@@ -34,9 +37,9 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Effectuez l’une des opérations suivantes :
 
-   **Sélectionnez les images d'abord** dans le panneau de navigation, sélectionnez les images de votre visionneuse d'images, cliquez sur Créer &gt; Visionneuses d'images.
+   **Sélectionnez d’abord** les images Dans le panneau de navigation, sélectionnez les images de votre visionneuse, cliquez sur Créer > Visionneuses d’images.
 
-   **Commencez à partir de l'écran Visionneuse d'images** cliquez sur Créer &gt; Visionneuses d'images. L’écran Visionneuse d’images s’affiche. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser les images de la visionneuse sur l’écran Visionneuse d’images.
+   **Début de l’écran Visionneuse d’images** , cliquez sur Créer > Visionneuses d’images. L’écran Visionneuse d’images s’affiche. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser les images de la visionneuse sur l’écran Visionneuse d’images.
 
 1. Pour changer l’ordre des images, faites-les glisser vers leur nouvel emplacement.
 1. Près de l’angle inférieur droit de la page, vérifiez que l’option **Publish after save** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
@@ -50,7 +53,7 @@ Selon que vous modifiez une visionneuse publiée ou non publiée, l’option **P
 | Visionneuse déjà publiée ? | L’option « Publish after save » (« Publier après l’enregistrement ») est-elle sélectionnée avant l’enregistrement de votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 |--- |--- |--- |--- |
 | Oui | Oui | Publié | Publié |
-| Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tous les nouveaux membres de la visionneuse ajoutés lors de la modification conservent leur état publié ou non publié. |
+| Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tous les nouveaux membres de visionneuse que vous avez ajoutés pendant votre modification conservent leur état publié ou non publié. |
 | Non | Oui | Publié | Publié |
 | Non | Non | Non publié | Les membres de la visionneuse existants, ainsi que tout nouveau membre de la visionneuse que vous ajoutez lors de votre modification conservent leur état publié ou non publié. |
 
@@ -77,5 +80,5 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 **Pour supprimer une visionneuse d’images**
 
 1. En mode Affichage de la grille, Affichage par liste ou Affichage des détails, sélectionnez une ou plusieurs visionneuses d’images.
-1. Sur la barre de navigation globale, cliquez sur **Fichier** &gt; **Supprimer** &gt; **Supprimer**.
+1. Sur la barre de navigation globale, cliquez sur **Fichier** > **Supprimer** > **Supprimer**.
 
