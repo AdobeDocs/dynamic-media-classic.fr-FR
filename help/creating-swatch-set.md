@@ -2,15 +2,18 @@
 title: Création d’une série d’échantillons
 seo-title: Création d’une série d’échantillons
 description: 'null'
-seo-description: Découvrez comment créer une série d'échantillons.
-uuid: 250 b 3525-310 d -4481-b 0 bc-f 9057 e 823 e 0 b
+seo-description: Découvrez comment créer une série d’échantillons.
+uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/swatch_ sets
-discoiquuid: 631 d 2 b 2 d -9 e 69-4 b 96-8392-17 e 00 a 1 a 8 de 0
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '706'
+ht-degree: 84%
 
 ---
 
@@ -23,11 +26,11 @@ Par exemple, si vous souhaitez présenter des casquettes avec des visières de c
 
 ## Création d’une série d’échantillons {#create}
 
-Lorsque vous créez un jeu, l'option **Publish after save** (« Publier après l'enregistrement ») affecte la visionneuse et ses membres comme suit :
-|L'option « Publish after save » (« Publier après l'enregistrement ») est-elle sélectionnée avant l'enregistrement ? | Etat de jeu après enregistrement | État des membres de la visionneuse après enregistrement|
+Lorsque vous créez une visionneuse, l’option **Publier après l’enregistrement** affecte la visionneuse et ses membres comme suit :
+| L&#39;option &quot;Publier après l&#39;enregistrement&quot; est sélectionnée avant l&#39;enregistrement ?|Etat de la visionneuse après l&#39;enregistrement|Etat des membres de la visionneuse après l&#39;enregistrement|
 |— |— |— |
-| Oui | Publié | Publié|
-| Non | Non publié | Définir les membres conservent leur état publié ou non publié. |
+|Oui|Publié|Publié|
+|Non|Non publié|Les membres de la visionneuse conservent leur état publié ou non publié.|
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
@@ -35,9 +38,9 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Effectuez l’une des opérations suivantes :
 
-   **Sélectionnez les images d'abord** dans le panneau de navigation, sélectionnez les images, puis cliquez sur Créer &gt; Séries d'échantillons.
+   **Sélectionnez d’abord** les images Dans le panneau de navigation, sélectionnez les images, puis cliquez sur Créer > Séries d’échantillons.
 
-   **Commencez à partir de l'écran Série d'échantillons** cliquez sur Créer &gt; Séries d'échantillons. Sélectionnez un dossier dans la bibliothèque des fichiers, puis faites glisser les images sur la section Vues de la page Série d’échantillons.
+   **Début sur l’écran** Série d’échantillons, cliquez sur Créer > Séries d’échantillons. Sélectionnez un dossier dans la bibliothèque des fichiers, puis faites glisser les images sur la section Vues de la page Série d’échantillons.
 
 1. Faites glisser des nuances, des motifs ou des finis sur l’emplacement réservé Echantillons de la page Série d’échantillons.
 
@@ -55,7 +58,7 @@ Selon que vous modifiez une visionneuse publiée ou non publiée, l’option **P
 | Visionneuse déjà publiée ? | L’option « Publish after save » (« Publier après l’enregistrement ») est-elle sélectionnée avant l’enregistrement de votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 |--- |--- |--- |--- |
 | Oui | Oui | Publié | Publié |
-| Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tous les nouveaux membres de la visionneuse ajoutés lors de la modification conservent leur état publié ou non publié. |
+| Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tous les nouveaux membres de visionneuse que vous avez ajoutés pendant votre modification conservent leur état publié ou non publié. |
 | Non | Oui | Publié | Publié |
 | Non | Non | Non publié | Les membres de la visionneuse existants, ainsi que tout nouveau membre de la visionneuse que vous ajoutez lors de votre modification conservent leur état publié ou non publié. |
 
@@ -82,5 +85,5 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 **Pour supprimer une série d’échantillons**
 
 1. En mode Affichage de la grille, Affichage par liste ou Affichage des détails, sélectionnez une ou plusieurs séries d’échantillons.
-1. Sur la barre de navigation globale, cliquez sur **Fichier** &gt; **Supprimer** &gt; **Supprimer**.
+1. Sur la barre de navigation globale, cliquez sur **Fichier** > **Supprimer** > **Supprimer**.
 
