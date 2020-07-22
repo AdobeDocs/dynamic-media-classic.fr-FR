@@ -2,15 +2,18 @@
 title: 'Utilisation de la vue Détails '
 seo-title: 'Utilisation de la vue Détails '
 description: 'null'
-seo-description: Découvrez comment travailler en mode Affichage des détails.
+seo-description: Découvrez comment travailler dans la vue de détails.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
-content-type: référence
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 translation-type: tm+mt
-source-git-commit: 52f51c59bcc03444e5e751b7b33d20bed9aaaddb
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 79%
 
 ---
 
@@ -42,8 +45,8 @@ Pour examiner en détail un fichier, le prévisualiser ou l’utiliser, choisiss
 1. Dans le panneau de navigation, effectuez l’une des opérations suivantes :
 
    * Cliquez deux fois sur le fichier.
-   * Sélectionnez le fichier, puis cliquez sur Affichage des **[!UICONTROL détails]**.
-   * Sélectionnez le fichier, puis cliquez sur **[!UICONTROL Fichier &gt; Détails]**.
+   * Sélectionnez le fichier, puis cliquez sur Vue **** de détails.
+   * Sélectionnez le fichier, puis cliquez sur **[!UICONTROL Fichier > Détails]**.
 
 >[!NOTE]
 >
@@ -51,7 +54,7 @@ Pour examiner en détail un fichier, le prévisualiser ou l’utiliser, choisiss
 
 ## Obtention d’informations dans la vue Détails {#getting-information-in-detail-view}
 
-L’affichage des détails permet d’obtenir des informations sur un fichier. Il donne les informations suivantes concernant un objet : dossier dans lequel il est stocké, nom de fichier, date de téléchargement vers Scene7 Publishing System et historique de publication. Vous pouvez également afficher et modifier des métadonnées et ajouter des mots-clés à un fichier en mode Affichage des détails.
+L’affichage des détails permet d’obtenir des informations sur un fichier. Il affiche les informations suivantes sur un élément : le dossier dans lequel il est stocké, son nom de fichier, la date de téléchargement de l’élément vers Dynamic Media Classic et son historique de publication. Vous pouvez également afficher et modifier des métadonnées et ajouter des mots-clés à un fichier en mode Affichage des détails.
 
 Vous pouvez obtenir une URL de fichier en mode Affichage des détails ; cependant, l’URL n’est activée qu’une fois l’objet publié. Pour les images, l’affichage des détails fournit également une liste des fichiers et métadonnées créés et dérivés, comme les cibles de zoom et les visionneuses d’images.
 
@@ -59,15 +62,15 @@ Vous pouvez obtenir une URL de fichier en mode Affichage des détails ; cependa
 
 L’affichage des détails donne accès à des outils utilisables avec le fichier que vous avez ouvert. La nature des outils disponibles dépend du type de fichier que vous utilisez, mais l’affichage des détails propose les fonctions suivantes :
 
-* **éléments à publier** Cliquez sur l’icône **[!UICONTROL Publier]** à gauche du nom ou sur **[!UICONTROL Fichier &gt; Publier]** ou **[!UICONTROL Fichier &gt; Annuler la publication]**.
+* **éléments à publier** Cliquez sur l’icône **[!UICONTROL Publier]** à gauche du nom ou sur **[!UICONTROL Fichier > Publier]** ou **[!UICONTROL Fichier > Annuler la publication]**.
 
-* **Attribution d’un nouveau nom au fichier** Sélectionnez le nom et saisissez un nouveau nom.
+* **Attribution d’un nouveau nom au fichier** Sélectionnez le nom et saisissez-en un nouveau.
 
 * **Modification et ajout de métadonnées** Sélectionnez le panneau Métadonnées et apportez les modifications souhaitées. (voir [Affichage, ajout et exportation de métadonnées](/help/viewing-adding-exporting-metadata.md)).
 
 * **Modification et ajout de mots-clés** Sélectionner des mots-clés et les ajouter ou les supprimer selon vos besoins. (voir [Ajout ou modification de mots-clés](/help/viewing-adding-exporting-metadata.md)).
 
-* **Suppression de la ressource** Cliquez sur **[!UICONTROL Fichier &gt; Supprimer]**.
+* **Suppression de la ressource** Cliquez sur **[!UICONTROL Fichier > Supprimer]**.
 
 Pour les fichiers discrets (images, visionneuses d’images et polices, par exemple), vous pouvez visualiser l’historique de publication et d’édition, et vérifier les détails de la tâche, en mode Affichage des détails.
 
@@ -75,7 +78,7 @@ Ce tableau indique les options supplémentaires disponibles avec différents typ
 
 | Type de fichier | Edition/Modification | Prévisualisation |
 |--- |--- |--- |
-| Images | Ajout de zones cliquables Ajouter des cibles de zoom Accentuer le recadrage Créer des vues ajustées | Oui : zoom et paramètres d’image prédéfinis. |
+| Images | Ajout de zones cliquables Ajouter les cibles de zoom Accentuer la coupe Créer des vues ajustées | Oui : zoom et paramètres d’image prédéfinis. |
 | Images de meuble et de garnitures de fenêtre | Non | Miniature. |
 | Catalogues électroniques | Edition | Oui. panneau d’informations également disponible. |
 | Polices | Edition des informations de polices | Non. |
