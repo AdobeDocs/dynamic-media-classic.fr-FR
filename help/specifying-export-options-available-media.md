@@ -1,15 +1,18 @@
 ---
-title: Définition des options d’exportation disponibles pour les utilisateurs du portail multimédia
-seo-title: Définition des options d’exportation disponibles pour les utilisateurs du portail multimédia
+title: Spécification des options d’exportation disponibles pour les utilisateurs du portail multimédia
+seo-title: Spécification des options d’exportation disponibles pour les utilisateurs du portail multimédia
 description: 'null'
 seo-description: Découvrez comment spécifier les options d’exportation disponibles pour les utilisateurs du portail multimédia.
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
-content-type: référence
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 82%
 
 ---
 
@@ -23,11 +26,11 @@ Les deux restrictions suivantes s’appliquent si vous exportez des images par l
 * La taille du fichier d’exportation zip compressé ne doit pas dépasser 1 Go pour la tâche d’exportation.
 * Une tâche d’exportation peut contenir un maximum de 500 fichiers.
 
-Voir aussi [Exportation de fichiers à partir de Scene7 Publishing System](exporting-assets-scene7-publishing-system.md#exporting_assets_from_scene7_publishing_system).
+Voir aussi [Exportation de fichiers à partir de Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
 **Pour définir les options d’exportation disponibles pour les utilisateurs du portail multimédia**
 
-1. Cliquez sur **Configuration** &gt; **Paramètres d’image prédéfinis**.
+1. Cliquez sur **Configuration** > **Paramètres d’image prédéfinis**.
 1. Dans la fenêtre Paramètres d’image prédéfinis, sélectionnez l’une des options suivantes :
 
    * **Activer la conversion** définie par l’utilisateur Lorsque cette option est sélectionnée, les utilisateurs peuvent choisir d’autres options dans la liste déroulante Taille de la fenêtre Exporter les fichiers sélectionnés. Les utilisateurs peuvent ensuite choisir une unité de mesure, pixels ou centimètres, puis spécifier la largeur et la hauteur souhaitée. Lors de l’exportation ou du téléchargement de ces fichiers, les fichiers image sont reformatés.
@@ -36,7 +39,7 @@ Voir aussi [Exportation de fichiers à partir de Scene7 Publishing System](expor
 
       Désélectionnez cette option si vous souhaitez que les utilisateurs téléchargent les fichiers sans les reformater pendant le téléchargement.
 
-   * **Activer l’option Exporter l’original** Vous permet d’exporter les images originales. Dans le panneau Exporter les fichiers sélectionnés, les utilisateurs peuvent ouvrir le menu déroulant Conversion et choisir l’option Exporter l’original afin d’exporter les fichiers d’origine. Désélectionnez cette option si vous souhaitez obliger les utilisateurs à appliquer un paramètre d’image prédéfini ou des options de conversion spécifiques lorsqu’ils exportent des images.
+   * **Activer l’exportation originale** Permet d’exporter les images originales. Dans le panneau Exporter les fichiers sélectionnés, les utilisateurs peuvent ouvrir le menu déroulant Conversion et choisir l’option Exporter l’original afin d’exporter les fichiers d’origine. Désélectionnez cette option si vous souhaitez obliger les utilisateurs à appliquer un paramètre d’image prédéfini ou des options de conversion spécifiques lorsqu’ils exportent des images.
 
 >[!MORELIKETHIS]
 >
