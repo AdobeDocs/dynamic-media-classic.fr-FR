@@ -2,26 +2,29 @@
 title: Publication des informations de configuration d’Adobe Analytics
 seo-title: Publication des informations de configuration d’Adobe Analytics
 description: 'null'
-seo-description: Découvrez comment publier des informations de configuration Adobe Analytics.
-uuid: 39 b 1 c 2 bd -8 eb 8-43 a 8-9482-9623115 c 5374
+seo-description: Découvrez comment publier les informations de configuration Adobe Analytics.
+uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/adobe_ analytics_ instrumentation_ kit
-discoiquuid: deeb 9 fed-ef 27-4 d 58-af 98-f 381 de 33 c 431
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
+discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 46%
 
 ---
 
 
 # Publication des informations de configuration d’Adobe Analytics{#publishing-adobe-analytics-configuration-information}
 
-Publiez vos visionneuses Dynamic Media Classic pour que les informations relatives à la configuration des rapports Adobe Analytics soient envoyées aux serveurs Dynamic Media Classic. Ces informations sont incorporées aux visionneuses. La publication est nécessaire pour que les informations contenues dans les visionneuses soient disponibles sur les serveurs Dynamic Media Classic. C’est à partir de là qu’elles peuvent être transmises à Adobe Analytics lorsque des utilisateurs effectuent une action au niveau des visionneuses.
+Publiez vos visionneuses Dynamic Media Classic pour que les informations sur la configuration des rapports Adobe Analytics soient envoyées aux serveurs Dynamic Media Classic. Ces informations sont incorporées aux visionneuses. La publication est nécessaire pour que les informations contenues dans les visionneuses soient disponibles sur les serveurs Dynamic Media Classic. C’est à partir de là qu’elles peuvent être transmises à Adobe Analytics lorsque des utilisateurs effectuent une action au niveau des visionneuses.
 
 >[!NOTE]
 >
->chaque fois que vous changez les paramètres des rapports dans Adobe Analytics, n’oubliez pas de vous reconnecter à Adobe Analytics à partir d’Adobe Scene7 Publishing System, de réenregistrer vos paramètres de configuration d’Adobe Analytics, puis de relancer la publication.
+>Chaque fois que vous modifiez les paramètres du rapport Adobe Analytics dans Adobe Analytics, assurez-vous de vous reconnecter à Adobe Analytics à partir de Dynamic Media Classic, de réenregistrer vos paramètres de configuration de Adobe Analytics, puis de republier.
 
 Voir [Connexion à Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
