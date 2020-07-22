@@ -3,23 +3,26 @@ title: Liaison d’un modèle à une page Web
 seo-title: Liaison d’un modèle à une page Web
 description: 'null'
 seo-description: Découvrez comment lier un modèle à une page Web.
-uuid: f 111 ef 06-4 afc -454 c -86 ce -5 d 640236 d 40 b
+uuid: f111ef06-4afc-454c-86ce-5d640236d40b
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/template_ basics
-discoiquuid: 989 dba 07-448 a -45 b 1-b 157-af 50 abb 5359 a
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
+discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 70%
 
 ---
 
 
 # Liaison d’un modèle à une page Web{#linking-a-template-to-a-web-page}
 
-Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Image Server au moyen de chaînes URL. Après avoir publié un modèle, Dynamic Media Classic active une chaîne URL qui référence le modèle sur les serveurs d'images de médias dynamiques. Vous pouvez coller cette URL dans un navigateur Web afin de la tester.
+Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Image Server au moyen de chaînes URL. Après avoir publié un modèle, Dynamic Media Classic active une chaîne URL qui référence le modèle sur les serveurs Dynamic Media Image Server. Vous pouvez coller cette URL dans un navigateur Web afin de la tester.
 
-Pour placer les chaînes URL dans vos pages Web et applications, copiez-les à partir de Scene7 Publishing System. Pour obtenir une chaîne URL générée avec un paramètre d’image prédéfini, affichez l’écran de prévisualisation ou le panneau de navigation (vue de détails). Ensuite, sélectionnez un paramètre d’image prédéfini, puis cliquez sur le bouton Copier l’URL.
+Pour placer des chaînes URL dans vos pages Web et applications, copiez-les à partir de Dynamic Media Classic. Pour obtenir une chaîne URL générée avec un paramètre d’image prédéfini, affichez l’écran de prévisualisation ou le panneau de navigation (vue de détails). Ensuite, sélectionnez un paramètre d’image prédéfini, puis cliquez sur le bouton Copier l’URL.
 
 >[!NOTE]
 >
@@ -29,7 +32,7 @@ Pour placer les chaînes URL dans vos pages Web et applications, copiez-les à
 
 Vous pouvez obtenir une chaîne URL de modèle générée par un paramètre d’image prédéfini depuis l’écran Prévisualisation du modèle. Une fois l’URL copiée, elle est stockée dans le Presse-papiers ; vous pouvez ainsi la coller si nécessaire. Pour obtenir, à partir de l’écran Prévisualisation du modèle, une chaîne URL de modèle générée avec un paramètre d’image prédéfini, procédez comme suit :
 
-1. Cliquez sur le bouton de prévisualisation en survol du modèle ou choisissez la commande Fichier &gt; Prévisualiser. L’écran de prévisualisation s’ouvre. 
+1. Cliquez sur le bouton de prévisualisation en survol du modèle ou choisissez la commande Fichier > Prévisualiser. L’écran de prévisualisation s’ouvre. 
 1. A l’aide des menus du paramètre prédéfini, choisissez le paramètre d’image prédéfini avec lequel vous souhaitez diffuser l’image de modèle. L’écran de prévisualisation affiche le modèle tel qu’il apparaîtra lors de sa diffusion à partir du serveur.
 1. Cliquez sur le bouton Copier l’URL pour copier l’URL dans le Presse-papiers.
 
