@@ -3,32 +3,35 @@ title: Chargement et codage de vidéos
 seo-title: Chargement et codage de vidéos
 description: Découvrez comment télécharger et coder des vidéos.
 seo-description: Découvrez comment télécharger et coder des vidéos.
-uuid: 9 a 7 d 6513-b 10 c -40 b 0-aebb -18 a 795 c 2 b 8 d 1
+uuid: 9a7d6513-b10c-40b0-aebb-18a795c2b8d1
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-discoiquuid: a 0941823-850 c -4373-9 e 37-f 32032 de 3805
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '3938'
+ht-degree: 81%
 
 ---
 
 
 # Chargement et codage de vidéos{#uploading-and-encoding-videos}
 
-Pour créer une visionneuse de vidéos adaptative ou une vidéo unique à diffuser sur le Web ou sur des appareils mobiles, téléchargez d’abord vos fichiers vidéo originaux vers Scene7 Publishing System. Dynamic Media Classic code les vidéos au format MP 4 et les publie dans les formats de fichier suivants :
+Pour créer des visionneuses de vidéos adaptatives ou uniques pour une diffusion sur le Web ou sur des périphériques mobiles, vous devez d’abord télécharger vos fichiers vidéo originaux dans Dynamic Media Classic. Dynamic Media Classic code les vidéos au format MP4 et les publie dans les formats de fichier suivants :
 
-**MP 4** Dynamic Media Classic recommande le format MP 4 comme format de fichier vidéo préféré. Utilisez le format de fichiers MP4 pour effectuer les opérations suivantes :
+**MP4** Dynamic Media Classic recommande le format MP4 comme format de fichier vidéo préféré. Utilisez le format de fichiers MP4 pour effectuer les opérations suivantes :
 
 * Diffusion en flux continu dynamique HTTP sur les ordinateurs de bureau.
 * Diffusion en continu HTTP (protocole de diffusion d’Apple).
 * Diffusion vidéo progressive sur appareils mobiles Android, Blackberry et Windows
 
-Dynamic Media Classic propose deux flux de travaux pour télécharger des fichiers vidéo :
+Dynamic Media Classic offre deux workflows pour télécharger des fichiers vidéo :
 
-**Vidéos précodées** Vous téléchargez des fichiers MP 4 directement dans Dynamic Media Classic. En procédant ainsi, les fichiers ne sont pas codés au moment où vous les téléchargez. Les fichiers sont précodés en vue de la diffusion sur l’ordinateur de bureau et sur des périphériques mobiles.
+**Vidéos** précodées Vous téléchargez directement des fichiers MP4 vers Dynamic Media Classic. En procédant ainsi, les fichiers ne sont pas codés au moment où vous les téléchargez. Les fichiers sont précodés en vue de la diffusion sur l’ordinateur de bureau et sur des périphériques mobiles.
 
-**Vidéos sources originales** Téléchargez des fichiers vidéo sources originaux et, au moment du téléchargement, codez-les au format MP 4. Les vidéos codées sont intitulées « Vidéos » dans le panneau de navigation. Dynamic Media Classic prend en charge le codage de fichiers vidéo dans de nombreux formats.
+**Vidéos** source du Maître Téléchargez des fichiers vidéo source originaux et, au moment du téléchargement, codez ces fichiers au format MP4. Les vidéos codées sont intitulées « Vidéos » dans le panneau de navigation. Dynamic Media Classic prend en charge le codage de fichiers vidéo dans de nombreux formats.
 
 * Vérifiez que les fichiers vidéo sources originaux que vous souhaitez coder sont pris en charge. 
 
@@ -57,7 +60,7 @@ Effectuez l’une des opérations suivantes :
 1. Sur la page de téléchargement, assurez-vous que l’option **Publier après le téléchargement** est cochée.
 1. Cliquez sur **Lancer le téléchargement**.
 
-*Si vous souhaitez coder les vidéos au moyen de Scene7 Publishing System*
+*Si vous souhaitez coder vos vidéos à l’aide de Dynamic Media Classic*
 
 1. Sur la barre de navigation globale, cliquez sur **Télécharger**.
 1. Dans l’écran Télécharger, cliquez sur l’onglet **A partir du bureau**.
@@ -79,7 +82,7 @@ Voir [Paramètres prédéfinis de codage de vidéo pour ordinateur de bureau](ap
 Si vous souhaitez coder à nouveau un fichier vidéo que vous avez précédemment téléchargé
 
 1. Dans Dynamic Media Classic, dans le panneau de navigation, accédez à la vidéo et sélectionnez-la.
-1. Cliquez sur **Fichier** &gt; **Retraiter**.
+1. Cliquez sur **Fichier** > **Retraiter**.
 1. Dans la boîte de dialogue Retraitement des fichiers de la tâche, choisissez Options eVideo.
 1. Effectuez l’une des opérations suivantes :
    * Il est conseillé d’utiliser la méthode suivante.
@@ -98,9 +101,9 @@ Seuls les fichiers de type MP4 et M4V sont créés lorsque vous générez une vi
 
 Le tableau suivant répertorie les types de fichiers vidéo (avec les codecs vidéo autorisés) que vous pouvez coder au format MP4 ou OGV lorsque vous transférez des fichiers. Le tableau répertorie les formats de fichiers et les codecs :
 
-**Formats de fichiers vidéo** Semblables à un fichier ZIP, un format de fichier vidéo détermine comment les fichiers sont contenus dans le fichier vidéo. Un fichier vidéo contient généralement plusieurs pistes : une piste vidéo (sans audio) et une ou plusieurs pistes audio (sans vidéo), qui sont étroitement liées et synchronisées. Le format de fichier vidéo détermine comment ces différentes pistes de données et métadonnées sont organisées.
+**Formats** de fichiers vidéo Tout comme un fichier ZIP, un format de fichier vidéo détermine comment les fichiers sont contenus dans le fichier vidéo. Un fichier vidéo contient généralement plusieurs pistes : une piste vidéo (sans audio) et une ou plusieurs pistes audio (sans vidéo), qui sont étroitement liées et synchronisées. Le format de fichier vidéo détermine comment ces différentes pistes de données et métadonnées sont organisées.
 
-**Le codec vidéo** A Video Codec décrit l'algorithme par lequel une vidéo est codée. Un lecteur vidéo décode la vidéo en fonction de son codec, puis affiche une série d’images, ou cadres, à l’écran. Les codecs limitent la quantité d’informations que les fichiers vidéo ont besoin de stocker pour lire la vidéo. Les fichiers vidéo n’ont ainsi pas besoin de stocker les informations de chaque cadre, mais seulement les différences entre un cadre et le suivant. Comme la plupart des vidéos changent peu d’un cadre au suivant, les codecs permettent d’obtenir des taux de compression élevés et donc, des tailles de fichiers plus petites.
+**Codecs** vidéo Un codec vidéo décrit l’algorithme par lequel une vidéo est codée. Un lecteur vidéo décode la vidéo en fonction de son codec, puis affiche une série d’images, ou cadres, à l’écran. Les codecs limitent la quantité d’informations que les fichiers vidéo ont besoin de stocker pour lire la vidéo. Les fichiers vidéo n’ont ainsi pas besoin de stocker les informations de chaque cadre, mais seulement les différences entre un cadre et le suivant. Comme la plupart des vidéos changent peu d’un cadre au suivant, les codecs permettent d’obtenir des taux de compression élevés et donc, des tailles de fichiers plus petites.
 
 | Format de fichier vidéo | Codecs vidéo |
 |:--- |:--- |
@@ -127,7 +130,7 @@ Le tableau suivant répertorie les types de fichiers vidéo (avec les codecs vid
 
 ## Meilleures pratiques en matière de codage de vidéo {#best-practices-for-video-encoding}
 
-Voici quelques conseils sur les meilleures pratiques de codage des fichiers source vidéo dans Scene7 Publishing System.
+Vous trouverez ci-dessous des conseils sur les meilleures pratiques pour le codage des fichiers vidéo source dans Dynamic Media Classic.
 
 Pour plus de conseils sur le codage vidéo, voir :
 
@@ -148,7 +151,7 @@ Le tableau ci-dessous décrit la taille recommandée, le format et le débit min
 
 ### Obtention des métadonnées d’un fichier {#obtaining-a-file-s-metadata}
 
-Vous pouvez obtenir les métadonnées d'un fichier en affichant ses métadonnées dans Dynamic Media Classic, en utilisant un outil de modification vidéo ou en utilisant une application conçue pour obtenir des métadonnées. Voici les instructions d’utilisation de MediaInfo, une application tierce permettant d’extraire les métadonnées d’un fichier vidéo :
+Vous pouvez obtenir les métadonnées d’un fichier en visualisant ses métadonnées dans Dynamic Media Classic, à l’aide d’un outil d’édition vidéo ou d’une application conçue pour l’obtention de métadonnées. Voici les instructions d’utilisation de MediaInfo, une application tierce permettant d’extraire les métadonnées d’un fichier vidéo :
 
 1. Accédez à cette page Web : [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
 1. Sélectionnez et téléchargez le programme d’installation pour la version interface graphique utilisateur, puis suivez les instructions d’installation.
@@ -189,7 +192,7 @@ Ce tableau décrit le débit de données de vitesses de connexion courantes.
 |--- |--- |
 | 256 | Connexion commutée. |
 | 800 | Connexion mobile standard. Pour cette connexion, visez un débit de données de l’ordre de 400 Kb/s, jusqu’à 800 Kb/s pour les expériences 3G. |
-| 2 000 | Connexion haut débit standard de bureau. Pour cette connexion, ciblez un débit de données dans la plage 800-2000 Kbit/s, la plupart des cibles étant moyennes 1 200-1 500 Kbits/s. |
+| 2 000 | Connexion haut débit standard de bureau. Pour cette connexion, cible un débit de données dans la plage de 800 à 2 000 Kbits/s, la plupart des cibles atteignant en moyenne 1 200 à 1 500 Kbits/s. |
 | 5000 | Connexion haut débit standard. Il est déconseillé de coder dans cette fourchette supérieure, car la diffusion de la vidéo à cette vitesse n’est pas possible pour la plupart des consommateurs. |
 
 ### Résolution {#resolution}
@@ -250,7 +253,7 @@ Supposons, par exemple, que la résolution de votre vidéo source soit équivale
 
 ### Format de fichier vidéo codé {#encoded-video-file-format}
 
-Adobe Dynamic Media Classic recommande d'utiliser des paramètres prédéfinis MP 4 H .264 pour le codage vidéo. Comme les fichiers MP4 utilisent le codec vidéo H.264, la vidéo est de haute qualité mais dans un fichier au volume compressé.
+Adobe Dynamic Media Classic recommande l’utilisation des paramètres prédéfinis de codage vidéo MP4 H.264. Comme les fichiers MP4 utilisent le codec vidéo H.264, la vidéo est de haute qualité mais dans un fichier au volume compressé.
 
 ## Utilisation des paramètres prédéfinis de codage vidéo {#working-with-video-encoding-presets}
 
@@ -258,7 +261,7 @@ Les fichiers vidéo originaux créés à partir d’équipement de production vi
 
 Voir [Chargement et codage de vidéos](uploading-encoding-videos.md#uploading-and-encoding-videos).
 
-Dynamic Media Classic fournit une bibliothèque de paramètres prédéfinis de codage vidéo qui reflètent les paramètres de codage les plus courants utilisés aujourd'hui. Ces paramètres ont été optimisés pour la lecture sur les écrans cibles. De plus, les administrateurs peuvent créer leurs propres paramètres prédéfinis de codage vidéo pour personnaliser la taille et la qualité de lecture des vidéos pour les utilisateurs. Tous les paramètres prédéfinis de codage vidéo, prêts à l'emploi de Dynamic Media Classic ou personnalisés, produisent une vidéo au format MP 4.
+Dynamic Media Classic vous offre une bibliothèque de paramètres prédéfinis de codage vidéo qui reflètent les paramètres de codage les plus courants. Ces paramètres ont été optimisés pour la lecture sur les écrans cibles. De plus, les administrateurs peuvent créer leurs propres paramètres prédéfinis de codage vidéo pour personnaliser la taille et la qualité de lecture des vidéos pour les utilisateurs. Tous les paramètres prédéfinis de codage vidéo, prêts à l’emploi de Dynamic Media Classic ou personnalisés, permettent de produire de la vidéo au format MP4.
 
 Sur l’écran Paramètres vidéo prédéfinis, les administrateurs peuvent configurer et gérer le codage vidéo. Ils peuvent effectuer les opérations suivantes :
 
@@ -267,7 +270,7 @@ Sur l’écran Paramètres vidéo prédéfinis, les administrateurs peuvent conf
 * modifier les paramètres prédéfinis de codage vidéo ;
 * supprimer des paramètres vidéo prédéfinis.
 
-Toute vidéo transférée vers Scene7 Publishing System ou codée dans Scene7 Publishing System est considérée comme une « vidéo ». En d’autres termes, ce mode de classification des fichiers signifie que vous pouvez diffuser la vidéo à des fins de lecture sur des ordinateurs de bureau, des appareils mobiles, ou les deux. Il est possible, par exemple, de prévisualiser ces types de vidéo dans Scene7 Publishing System. Vous pouvez également générer des URL (à l’aide de la fonction Copier l’URL) et du code que vous pouvez incorporer (à l’aide de la fonction Intégrer le code) pour l’utiliser avec les lecteurs vidéo, sur les sites web, etc.
+Toute vidéo que vous téléchargez vers Dynamic Media Classic ou que vous codez dans Dynamic Media Classic est traitée comme une &quot;vidéo&quot;. En d’autres termes, ce mode de classification des fichiers signifie que vous pouvez diffuser la vidéo à des fins de lecture sur des ordinateurs de bureau, des appareils mobiles, ou les deux. Par exemple, vous pouvez prévisualisation ces types de vidéos dans Dynamic Media Classic. Vous pouvez également générer des URL (à l’aide de la fonction Copier l’URL) et du code que vous pouvez incorporer (à l’aide de la fonction Intégrer le code) pour l’utiliser avec les lecteurs vidéo, sur les sites web, etc.
 
 Voir [Prévisualisation de vidéos dans une visionneuse](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
 
@@ -275,15 +278,15 @@ Voir [Liaison d’une URL de vidéo à un site Web ou un site mobile](deploying
 
 Voir [Incorporation de la visionneuse de vidéos sur une page Web](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page).
 
-Pour les fichiers vidéo que vous téléchargez et codez dans Scene 7 Publishing System, la vidéo est diffusée au format de fichier suivant :
+Pour les fichiers vidéo que vous téléchargez et codez dans Dynamic Media Classic, la vidéo est diffusée au format de fichier suivant :
 
-**MP 4 H .264** Utilisez des fichiers MP 4 pour les éléments suivants :
+**MP4 H.264** Utilisez des fichiers MP4 pour les opérations suivantes :
 
 * Diffusion en flux continu dynamique HTTP sur les ordinateurs de bureau.
-* HLS (HTTP Live Streaming, protocole de diffusion Apple).
+* HLS (HTTP Live Streaming, protocole de diffusion en continu d’Apple).
 * Diffusion vidéo progressive sur appareils mobiles Android, Blackberry et Windows.
 
-Tout autre format vidéo et codec est traité comme une « vidéo originale ». Ce mode de classification des fichiers signifie que la vidéo est un fichier vidéo source non prévu pour la lecture vidéo sur des périphériques de bureau ou des périphériques mobiles. Il est impossible, par exemple, de prévisualiser ces types de vidéo dans Scene7 Publishing System. Vous ne pouvez pas non plus copier des URL et du code intégré destinés aux lecteurs vidéo, aux sites web, et ainsi de suite.
+Tout autre format vidéo et codec est traité comme une &quot;vidéo Maîtresse&quot;. Ce mode de classification des fichiers signifie que la vidéo est un fichier vidéo source non prévu pour la lecture vidéo sur des périphériques de bureau ou des périphériques mobiles. Par exemple, vous ne pouvez pas prévisualisation ces types de vidéos dans Dynamic Media Classic. Vous ne pouvez pas non plus copier des URL et du code intégré destinés aux lecteurs vidéo, aux sites web, et ainsi de suite.
 
 ### Filtrage de la liste des paramètres prédéfinis de codage vidéo {#filtering-the-list-of-video-encoding-presets}
 
@@ -295,7 +298,7 @@ Vous pouvez également les filtrer en fonction d’une option de périphérique 
 
 **Filtrage de la liste des paramètres prédéfinis de codage vidéo**
 
-1. In Dynamic Media Classic, click **Setup** &gt; **Application Setup** &gt; **Video Presets** &gt; **Adaptive Video Presets** or **Single Encoding Presets**.
+1. In Dynamic Media Classic, click **Setup** > **Application Setup** > **Video Presets** > **Adaptive Video Presets** or **Single Encoding Presets**.
 
    Les pages Paramètres prédéfinis de vidéo adaptative et Paramètres prédéfinis de codage uniques se composent d’un tableau qui répertorie l’état actif, le nom du paramètre prédéfini, le périphérique de lecture prévu, la dimension de la vidéo et le débit cible des données de chaque paramètre vidéo prédéfini.
 
@@ -310,7 +313,7 @@ Les paramètres vidéo prédéfinis activés sont répertoriés dans la boîte d
 
 **Activation ou désactivation des paramètres prédéfinis de codage vidéo**
 
-1. Dans Dynamic Media Classic, cliquez **sur Configuration** &gt; Configuration **de l'application** &gt; Paramètres **vidéo prédéfinis**.
+1. Dans Dynamic Media Classic, cliquez sur **Configuration** > Configuration **de l’** application > Paramètres prédéfinis **** vidéo.
 1. Effectuez l’une des opérations suivantes :
 
    * Cliquez sur **Paramètres prédéfinis de vidéo adaptative**.
@@ -327,9 +330,9 @@ Les paramètres vidéo prédéfinis activés sont répertoriés dans la boîte d
 
 ### Ajout ou modification d’un paramètre prédéfini de codage vidéo {#adding-or-editing-a-video-encoding-preset}
 
-Vous pouvez créer vos propres paramètres prédéfinis de codage unique et les ajouter au tableau Paramètres vidéo prédéfinis. Vous pouvez également apporter des modifications à tous les paramètres vidéo prédéfinis de codage unique fournis avec Dynamic Media Classic, à condition que vous enregistriez le paramètre prédéfini modifié sous un nouveau nom.
+Vous pouvez créer vos propres paramètres prédéfinis de codage unique et les ajouter au tableau Paramètres vidéo prédéfinis. Vous pouvez également apporter des modifications à tous les paramètres vidéo prédéfinis de codage unique fournis avec Dynamic Media Classic, à condition d’enregistrer le paramètre prédéfini modifié sous un nouveau nom.
 
-Dynamic Media Classic a défini des limites maximales sur le débit de données cible, la hauteur de résolution et la largeur de résolution pour garantir une expérience de lecture appropriée. Les messages d’avertissement s’affichent si vous dépassez les limites suivantes :
+Dynamic Media Classic a défini des limites maximales sur le débit de données de la cible, la hauteur de résolution et la largeur de résolution afin de garantir une expérience de lecture appropriée. Les messages d’avertissement s’affichent si vous dépassez les limites suivantes :
 
 * Pour une lecture vidéo sur ordinateur, les limites sont : (Largeur/16) * (Hauteur/16) &lt; 8192. 
 * Pour une lecture vidéo sur périphérique mobile, les limites sont : (Largeur/16) * (Hauteur/16) &lt; 660 ; débit de données cible &lt; 4000. 
@@ -337,7 +340,7 @@ Dynamic Media Classic a défini des limites maximales sur le débit de données 
 
 **Ajout ou modification d’un paramètre prédéfini de codage vidéo**
 
-1. Dans Dynamic Media Classic, cliquez **sur Configuration** &gt; Configuration **de l'application** &gt; Paramètres **vidéo prédéfinis**.
+1. Dans Dynamic Media Classic, cliquez sur **Configuration** > Configuration **de l’** application > Paramètres prédéfinis **** vidéo.
 1. Cliquez sur **Paramètres prédéfinis de codage uniques** pour ouvrir la page Paramètres vidéo prédéfinis.
 1. Sur la page Paramètres vidéo prédéfinis, procédez de l’une des manières suivantes :
 
@@ -354,12 +357,12 @@ Dynamic Media Classic a défini des limites maximales sur le débit de données 
    |--- |--- |
    | Nom du paramètre prédéfini | Entrez un nom descriptif pour le paramètre vidéo prédéfini. Le nom que vous indiquez est visible dans la boîte de dialogue Télécharger les options de la tâche, où les utilisateurs choisissent les options de transcodage. |
    | Description | Décrivez le paramètre vidéo prédéfini. La description que vous fournissez apparaît sous forme d’info-bulle lorsque vous déplacez le pointeur sur le nom du paramètre prédéfini dans la boîte de dialogue Télécharger les options de la tâche, où les utilisateurs choisissent les options de transcodage. |
-   | Périphérique de lecture | Choisissez le périphérique sur lequel il est prévu que la vidéo soit lue. Les options sont Ordinateur (ordinateurs de bureau), Mobile (iphone, ipad, Android) ; ou Tablette (ipad uniquement). Ce paramètre détermine automatiquement le codec audio et vidéo approprié utilisé pendant le codage. |
+   | Périphérique de lecture | Choisissez le périphérique sur lequel il est prévu que la vidéo soit lue. Les options sont Ordinateur (ordinateurs de bureau), Mobile (iPhone, iPad, Android); ou Tablette (iPad uniquement). Ce paramètre détermine automatiquement le codec audio et vidéo approprié utilisé pendant le codage. |
    | Débit de la cible | Entrez la vitesse de connexion Internet moyenne (en kilobits par seconde) de l’utilisateur final cible. Vous pouvez saisir le débit ou faire glisser le curseur pour le saisir. Le spectre de vitesse de connexion de l’utilisateur répertorie les vitesses attendues pour les connexions haut débit, DSL, mobiles et à ligne commutée. Ce paramètre détermine automatiquement le débit combiné de données audio et vidéo, autrement dit, la quantité de données qu’il est nécessaire de coder pour produire une seule seconde de lecture vidéo. Plus le débit binaire est élevé, meilleure est la qualité de la vidéo produite. Cependant, un débit de données trop élevé se traduit par des fichiers de taille très importante, ce qui peut altérer l’expérience de visionnage pour les utilisateurs qui ne disposent pas d’une connexion avec une bande passante aussi large. Il est préférable d’essayer d’équilibrer ces deux facteurs afin d’offrir une expérience de lecture vidéo de qualité, qui convienne également aux utilisateurs qui ne disposent pas d’une bande passante aussi large. |
    | Format | Le format fait référence au rapport de la largeur de la vidéo à sa hauteur. Les deux premières proportions répertoriées ci-dessous sont souvent utilisées pour afficher la vidéo horizontalement :<ul><li> 4:3, utilisé pour la diffusion de la quasi-totalité des contenus télévisés de définition standard.</li><li>16:9, utilisé pour la diffusion sur grand écran de la quasi-totalité des contenus télévisés haute définition (HDTV) et des films.</li><li>Auto-scale (« Redimensionnement automatique ») : (valeur par défaut) un paramètre prédéfini de codage unique qui fonctionne avec n’importe quelle proportion pour créer des vidéos pour une diffusion sur téléphone, tablette et ordinateur de bureau. Les vidéos source transférées qui sont codées à l’aide de ce paramètre prédéfini sont définies avec une hauteur fixe. Toutefois, la largeur est automatiquement mise à l’échelle pour conserver les proportions de la vidéo (rapport largeur/hauteur).</li><li>Custom (« Personnaliser ») : option utilisée lorsque vous souhaitez définir une taille de vidéo non standard.</li><li>La sélection du format permet de contrôler la taille de la résolution en largeur et en hauteur, de sorte que chaque valeur soit automatiquement mise à l’échelle avec le format adéquat.</li></ul> |
-   | Taille de résolution | La taille de résolution fait référence aux dimensions de la vidéo, en termes de rapport du nombre de pixels en largeur sur le nombre de pixels en hauteur. Saisissez une valeur de largeur et de hauteur en pixels ou faites glisser le curseur pour saisir ces valeurs. Le spectre des résolutions répertorie les tailles de résolution les plus utilisées. Les valeurs de largeur et de hauteur s’adapteront automatiquement au format que vous avez sélectionné. Par exemple, si vous sélectionnez le format 4:3 et saisissez 400 pour la largeur, 300 est entré automatiquement pour la hauteur. Si vous avez sélectionné l'option Redimensionnement automatique pour le paramètre Proportion, la valeur Largeur de la taille de résolution est automatiquement définie sur Auto. Cliquez sur Aperçu pour ouvrir une fenêtre de navigateur et afficher vos choix de résolution dans cette fenêtre. |
+   | Taille de résolution | La taille de résolution fait référence aux dimensions de la vidéo, en termes de rapport du nombre de pixels en largeur sur le nombre de pixels en hauteur. Saisissez une valeur de largeur et de hauteur en pixels ou faites glisser le curseur pour saisir ces valeurs. Le spectre des résolutions répertorie les tailles de résolution les plus utilisées. Les valeurs de largeur et de hauteur s’adapteront automatiquement au format que vous avez sélectionné. Par exemple, si vous sélectionnez le format 4:3 et saisissez 400 pour la largeur, 300 est automatiquement entré pour la hauteur.Si vous avez sélectionné Mise à l&#39;échelle automatique pour le paramètre Format, la valeur Largeur de la taille de résolution est automatiquement définie sur Auto.Cliquez sur Prévisualisation pour ouvrir une fenêtre de navigateur et voir vos choix de résolution. |
    | Encoder un suffixe de fichier | Entrez un suffixe. Ce suffixe est ajouté au fichier vidéo encodé résultant. Vous pouvez entrer un trait d’union et un trait de soulignement dans le nom, mais les espaces et les caractères spéciaux ne sont pas autorisés. |
-   | Autres paramètres | Dynamic Media Classic détermine automatiquement tous les autres paramètres de codage en fonction des instructions de codage recommandées. |
+   | Autres paramètres | Dynamic Media Classic détermine automatiquement tous les autres paramètres de codage en fonction des recommandations de codage. |
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -372,7 +375,7 @@ Les administrateurs peuvent supprimer des paramètres vidéo prédéfinis person
 
 **Suppression d’un paramètre prédéfini de codage vidéo**
 
-1. Dans Dynamic Media Classic, cliquez **sur Configuration** &gt; Configuration **de l'application** &gt; Paramètres **vidéo prédéfinis**.
+1. Dans Dynamic Media Classic, cliquez sur **Configuration** > Configuration **de l’** application > Paramètres prédéfinis **** vidéo.
 1. Cliquez sur **Paramètres prédéfinis de codage uniques** pour ouvrir la page Paramètres vidéo prédéfinis.
 1. Sur la page Paramètres vidéo prédéfinis, sélectionnez dans le tableau un paramètre vidéo prédéfini dont vous n’avez plus besoin.
 1. Sur la barre d’outils Paramètres vidéo prédéfinis, cliquez sur **Supprimer**.
