@@ -4,9 +4,9 @@ seo-title: Application de bureau Adobe Classic
 description: Les utilisateurs de Dynamic Media Classic peuvent désormais effectuer une actualisation complète de l’interface utilisateur. L’expérience fournit une connexion mise à jour avec des liens vers des ressources précieuses, en plus de cette mise à jour ne dépend plus de la technologie Adobe Flash dans le navigateur.
 contentOwner: rbrough
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 0%
