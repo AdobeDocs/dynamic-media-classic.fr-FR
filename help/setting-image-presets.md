@@ -5,37 +5,40 @@ description: 'null'
 seo-description: Découvrez comment configurer des paramètres d’image prédéfinis.
 uuid: 90530948-dee9-41bd-b39e-684140446abc
 contentOwner: admin
-content-type: référence
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '654'
+ht-degree: 65%
 
 ---
 
 
 # Configuration des paramètres d’image prédéfinis{#setting-up-image-presets}
 
-Semblable à une macro, un paramètre d’image prédéfini est un ensemble prédéfini de commandes de dimensionnement et de formatage enregistrées sous un nom. Pour comprendre le fonctionnement des paramètres d’image prédéfinis, imaginez que votre site Web nécessite l’affichage de chaque image d’un produit dans deux tailles différentes : 500 x 500 pixels et 150 x 150 pixels. Vous créez deux paramètres d’image prédéfinis, l’un nommé « Agrandissement » pour afficher des images de 500 x 500 pixels et l’autre nommé « Miniature » pour afficher des images de 150 x 150 pixels. Pour diffuser des images aux formats "Agrandissement" et "Miniature", un serveur d’images de médias dynamiques recherche la définition des paramètres prédéfinis Agrandissement de l’image et Miniature. Ensuite, le serveur génère en mode dynamique une image dont la taille et le format correspondent à chaque type de paramètre prédéfini.
+Semblable à une macro, un paramètre d’image prédéfini est un ensemble prédéfini de commandes de dimensionnement et de formatage enregistrées sous un nom. Pour comprendre le fonctionnement des paramètres d’image prédéfinis, imaginez que votre site Web nécessite l’affichage de chaque image d’un produit dans deux tailles différentes : 500 x 500 pixels et 150 x 150 pixels. Vous créez deux paramètres d’image prédéfinis, l’un nommé « Agrandissement » pour afficher des images de 500 x 500 pixels et l’autre nommé « Miniature » pour afficher des images de 150 x 150 pixels. Pour diffuser des images aux formats &quot;Agrandissement&quot; et &quot;Miniature&quot;, un serveur d’images Dynamic Media recherche la définition des paramètres prédéfinis Agrandissement et Miniature. Ensuite, le serveur génère en mode dynamique une image dont la taille et le format correspondent à chaque type de paramètre prédéfini.
 
-Dynamic Media Classic est fourni avec plusieurs paramètres d’image prédéfinis de "bonnes pratiques" déjà configurés pour que vous puissiez les utiliser. Les administrateurs peuvent également créer des paramètres d’image prédéfinis. Vous pouvez créer un paramètre d’image prédéfini entièrement nouveau ou exploiter un paramètre existant et enregistrer votre création sous un nouveau nom.
+Dynamic Media Classic est fourni avec plusieurs paramètres d’image prédéfinis &quot;recommandés&quot; qui sont déjà configurés pour que vous puissiez les utiliser. Les administrateurs peuvent également créer de nouveaux paramètres d’image prédéfinis. Vous pouvez créer un paramètre d’image prédéfini entièrement nouveau ou exploiter un paramètre existant et enregistrer votre création sous un nouveau nom.
 
 Les images de taille réduite, lorsqu’elles sont diffusées dynamiquement à partir d’un serveur, peuvent perdre en netteté et en détail. C’est la raison pour laquelle chaque paramètre d’image prédéfini contient des commandes de formatage permettant d’optimiser l’image lorsqu’elle est diffusée avec une taille particulière. Ces commandes garantissent une image nette et claire au moment de la diffusion vers le site Web ou l’application.
 
 ## Création d’un paramètre d’image prédéfini {#creating-an-image-preset}
 
-Si vous avez le statut d’administrateur, vous pouvez créer vos propres paramètres d’image prédéfinis. Vous pouvez créer des paramètres d’image prédéfinis ou commencer par un paramètre d’image prédéfini par défaut fourni par Dynamic Media Classic, le modifier et l’enregistrer sous un nouveau nom.
+Si vous avez le statut d’administrateur, vous pouvez créer vos propres paramètres d’image prédéfinis. Vous pouvez créer des paramètres d’image prédéfinis ou des débuts avec un paramètre d’image prédéfini par défaut fourni par Dynamic Media Classic, le modifier et l’enregistrer sous un nouveau nom.
 
 **Pour créer un paramètre d’image prédéfini**
 
-1. Cliquez sur **Configuration** &gt; **Paramètres d’image prédéfinis**.
+1. Cliquez sur **Configuration** > **Paramètres d’image prédéfinis**.
 
    Dans cet écran, vous pouvez sélectionner le nom d’un paramètre d’image prédéfini pour le prévisualiser. Lorsque vous sélectionnez un nom de paramètre d’image prédéfini, l’échantillon d’image de la fenêtre de prévisualisation change de taille et d’apparence.
 
 1. Effectuez l’une des opérations suivantes :
 
-   * **Création d’un paramètre d’image prédéfini** Cliquez sur Ajouter.
+   * **Création d’un paramètre d’image prédéfini** Ajouté par clic.
 
    * **Modification d’un paramètre** d’image prédéfini Accédez au paramètre d’image prédéfini qui ressemble le plus à celui que vous souhaitez créer, puis cliquez sur Modifier.
 
@@ -43,13 +46,13 @@ Si vous avez le statut d’administrateur, vous pouvez créer vos propres param�
 1. Complétez les champs Largeur et Hauteur en pixels. Ces mesures déterminent la taille à laquelle les images sont diffusées.
 1. Renseignez l’écran Ajouter un paramètre prédéfini ou Modifier le paramètre prédéfini. Pour plus de détails, voir [Options des paramètres d’image prédéfinis](application-setup.md#image_preset_options).
 
-   Dynamic Media Classic recommande ces options de "bonnes pratiques" pour commencer :
+   Dynamic Media Classic recommande ces options &quot;meilleures pratiques&quot; au début :
 
-   * **Format** Choisissez JPEG ou un autre format qui répond à vos besoins. Tous les navigateurs Web prennent en charge le format d’image JPEG ; il offre un bon compromis entre la taille de fichier réduite et la qualité de l’image. Toutefois, les images au format JPEG utilisent un type de compression avec perte, lequel est susceptible d’introduire des artefacts d’image indésirables si le paramètre de compression est trop faible. Pour cette raison, il est recommandé de définir la qualité de compression (sur le curseur) sur 75. Ce paramètre offre un bon compromis entre qualité d’image et taille de fichier réduite.
+   * **Format** Choisissez JPEG ou un autre format qui répond à vos exigences. Tous les navigateurs web prennent en charge le format d’image JPEG ; celui-ci offre un bon équilibre entre taille de fichier réduite et qualité des images. Toutefois, les images au format JPEG utilisent un modèle de compression avec perte qui peut introduire des artefacts d’image indésirables si le paramètre de compression est trop faible. Pour cette raison, Dynamic Media Classic recommande de définir la qualité de compression (sur le curseur) sur 75. Ce paramètre offre un bon équilibre entre la qualité d’image et la taille de fichier réduite.
 
-   * **Accentuation** Ne sélectionnez pas Accentuation (ce filtre d’accentuation offre moins de contrôle que les paramètres de masquage flou).
+   * **Accentuation** Ne sélectionnez pas Accentuation (ce filtre d’accentuation est moins contrôlé que les paramètres de masquage flou).
 
-   * **Mode** De Rééchantillonnage Choisissez Bi-Cubique.
+   * **Mode** de ré-échantillonnage Choisissez Bi-Cubique.
 
    * **Options** de masquage flou (USM) Saisissez les paramètres affichés ici :
    | Type de paramètre prédéfini | Taille | Quantité | Rayon | Seuil |
@@ -61,11 +64,11 @@ Si vous avez le statut d’administrateur, vous pouvez créer vos propres param�
 
 1. Cliquez sur **Enregistrer**.
 
-Les options "Meilleures pratiques" de Dynamic Media Classic pour la création de paramètres d’image prédéfinis répertoriés ici sont des recommandations générales ; l’accentuation est hautement subjective. Ces paramètres sont basés sur une image originale de 2 000 x 2 000 ; il se peut que les paramètres relatifs à des images originales plus grandes ou plus petites soient différents. Si vous souhaitez ajuster les paramètres de masquage flou, Dynamic Media Classic recommande les plages suivantes :
+Les options de &quot;bonnes pratiques&quot; de Dynamic Media Classic pour la création de paramètres d’image prédéfinis répertoriées ici sont des recommandations générales ; l’accentuation est très subjective. Ces paramètres sont basés sur une image originale de 2 000 x 2 000 ; il se peut que les paramètres relatifs à des images originales plus grandes ou plus petites soient différents. Si vous souhaitez ajuster les paramètres de masquage flou, Dynamic Media Classic recommande les plages suivantes :
 
 * **Montant** compris entre 0,8 et 1,5.
 
-* **Rayon** entre 0,6 et 2.
+* **Rayon** compris entre 0,6 et 2.
 
 * **Seuil** De 1 À 6.
 
