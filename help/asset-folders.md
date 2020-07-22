@@ -5,35 +5,38 @@ description: 'null'
 seo-description: Découvrez comment utiliser les dossiers de fichiers.
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
-content-type: référence
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 55%
 
 ---
 
 
 # Utilisation de dossiers de fichiers{#working-with-asset-folders}
 
-Scene7 Publishing System conserve les fichiers dans des dossiers, lesquels sont classés par ordre alphabétique dans le panneau Bibliothèque de fichiers. Avant de télécharger les fichiers à partir de votre ordinateur ou votre réseau vers Scene7 Publishing System, vous êtes invité à nommer un dossier dans lequel stocker les fichiers en question. Créez ces dossiers avant de télécharger des fichiers.
+Les fichiers de Dynamic Media Classic sont conservés dans des dossiers. lesquels sont classés par ordre alphabétique dans le panneau Bibliothèque de fichiers. Avant de télécharger des fichiers depuis votre ordinateur ou votre réseau vers Dynamic Media Classic, vous êtes invité à nommer un dossier pour y stocker les fichiers. Créez ces dossiers avant de télécharger des fichiers.
 
-Veillez à structurer et à organiser vos dossiers dans Scene7 Publishing System avant d’y stocker les fichiers que vous téléchargerez.
+Veillez à établir une structure et une organisation de dossiers pour le stockage de vos fichiers sur Dynamic Media Classic avant de télécharger les fichiers.
 
 ## Affichage, déplacement, masquage et ouverture de dossiers {#displaying-moving-hiding-and-opening-folders}
 
 La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de dossiers. Lorsque vous sélectionnez un dossier dans la bibliothèque de fichiers, son contenu s’affiche dans le panneau de navigation. Pour localiser des dossiers dans l’arborescence de dossiers, utilisez les techniques suivantes :
 
-* **Affichage des sous-dossiers** Sélectionnez l’icône Développer le dossier pour afficher les sous-dossiers dans un dossier. Cette icône se trouve à gauche des noms de dossiers.
+* **Affichage des sous-dossiers** Sélectionnez l’icône Développer le dossier pour afficher les sous-dossiers d’un dossier. Cette icône se trouve à gauche des noms de dossiers.
 
-* **Déplacement d’un dossier** Vous pouvez déplacer un dossier en le faisant glisser et en le déposant à son nouvel emplacement ou en sélectionnant Fichier &gt; Déplacer un dossier.
+* **Déplacement d’un dossier** Vous pouvez déplacer un dossier en le faisant glisser et en le déposant à son nouvel emplacement ou en sélectionnant Fichier > Déplacer un dossier.
 
-* **Masquage des dossiers** Sélectionnez l’icône Réduire le dossier pour réduire les sous-dossiers. Cette icône se trouve à gauche des noms de dossiers.
+* **Masquage des dossiers** Sélectionnez l’icône Réduire le dossier pour réduire la taille des sous-dossiers. Cette icône se trouve à gauche des noms de dossiers.
 
 * **Ouverture d’un dossier** Sélectionnez un dossier pour afficher son contenu dans le panneau de navigation.
 
-***Conseil**: Vous pouvez masquer ou afficher la bibliothèque de fichiers en cliquant sur la commande Développer/Réduire sur son côté gauche. Réduisez le panneau Bibliothèque de fichiers pour optimiser l’espace réservé au panneau de navigation.*
+***Conseil **: Vous pouvez masquer ou afficher la bibliothèque de fichiers en cliquant sur la commande Développer/Réduire située sur son côté gauche. Réduisez le panneau Bibliothèque de fichiers pour optimiser l’espace réservé au panneau de navigation.*
 
 ## Création de dossiers {#creating-folders}
 
@@ -45,16 +48,16 @@ Pour créer un dossier, procédez comme suit :
 
    >[!NOTE]
    >
-   >Vous pouvez également créer des dossiers dans Scene7 Publishing System lorsque vous téléchargez des fichiers via FTP. En sélectionnant l’option Inclure les sous-dossiers lors du téléchargement des fichiers via FTP, la structure des dossiers de votre ordinateur est répliquée dans le système. Les fichiers et les sous-dossiers de votre ordinateur ou réseau sont répliqués dans la bibliothèque de fichiers, et les fichiers que vous téléchargez sont placés dans ces dossiers.
+   >Vous pouvez également créer des dossiers dans Dynamic Media Classic lorsque vous téléchargez des fichiers via FTP. En sélectionnant l’option Inclure les sous-dossiers lors du téléchargement des fichiers via FTP, la structure des dossiers de votre ordinateur est répliquée dans le système. Les fichiers et les sous-dossiers de votre ordinateur ou réseau sont répliqués dans la bibliothèque de fichiers, et les fichiers que vous téléchargez sont placés dans ces dossiers.
 
 ## Suppression de dossiers et attribution d’un nouveau nom aux dossiers {#deleting-and-renaming-folders}
 
 Sélectionnez un dossier et utilisez les techniques suivantes pour le supprimer ou le renommer :
 
-* **Suppression** Sélectionnez le bouton Supprimer le dossier . Les fichiers d’un dossier supprimé sont placés dans le dossier Corbeille. Vous pouvez les y récupérer.
+* **Suppression** Cliquez sur le bouton Supprimer un dossier . Les fichiers d’un dossier supprimé sont placés dans le dossier Corbeille. Vous pouvez les y récupérer.
 
-* **Attribution d’un nouveau nom** Double-cliquez sur le nom et saisissez un nouveau nom.
+* **Attribution d’un nouveau nom** au Doublon, cliquez sur le nom et saisissez un nouveau nom.
 
 >[!NOTE]
 >
->Vous ne pouvez pas copier de dossiers ou de fichiers, car cela créerait des dossiers et des fichiers en double sur Scene7 Publishing System et les doublons ne sont pas autorisés.
+>Vous ne pouvez pas copier de dossiers ou de fichiers, car cela créerait des dossiers et des ressources de duplicata dans Dynamic Media Classic et les duplicata ne sont pas autorisés.
