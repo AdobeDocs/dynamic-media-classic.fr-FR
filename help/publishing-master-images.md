@@ -3,29 +3,32 @@ title: Publication des images originales
 seo-title: Publication des images originales
 description: 'null'
 seo-description: Découvrez comment publier des images originales.
-uuid: b 56 ba 79 a-f 89 a -45 f 1-a 8 bb-c 73 a 22 eab 8 d 4
+uuid: b56ba79a-f89a-45f1-a8bb-c73a22eab8d4
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sizing
-discoiquuid: 815 e 2 a 19-c 64 d -45 c 7-96 bc -7 f 955 e 54 f 56 e
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
+discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 30%
 
 ---
 
 
 # Publication des images originales{#publishing-master-images}
 
-Lorsque vous publiez vos fichiers d'images, ils sont placés sur les serveurs Dynamic Media Image Server où ils sont disponibles pour votre site Web et votre application. En outre, au cours du processus de publication, Scene7 Publishing System active les chaînes URL nécessaires à votre site Web et à votre application.
+Lorsque vous publiez vos fichiers d’images, ils sont publiés sur les serveurs Dynamic Media Image Server où ils sont disponibles pour votre site Web et votre application. En outre, durant le processus de publication, Dynamic Media Classic active les chaînes URL nécessaires à votre site Web et à votre application.
 
 ## Marquage des images originales pour publication {#marking-master-images-for-publish}
 
-Les images originales doivent être marquées pour publication afin qu'elles soient copiées vers les serveurs d'images dynamiques de médias. Vous pouvez marquer vos images originales pour publication dans le panneau de navigation en cliquant sur l'icône Marquer pour publication. Vous pouvez également marquer des images pour publication lorsque vous les téléchargez vers Scene7 Publishing System.
+Les images du Maître doivent être marquées pour publication afin d’être copiées sur les serveurs Dynamic Media Image Server. Vous pouvez marquer vos images originales pour publication dans le panneau de navigation en cliquant sur l’icône Marquer pour publication. Vous pouvez également marquer des images pour publication lorsque vous les téléchargez vers Dynamic Media Classic.
 
 ## Publication de vos images originales {#publishing-your-master-images}
 
-Pour publier des images originales sur les serveurs d'images dynamiques, commencez par sélectionner le bouton Publier dans la barre de navigation globale. Sélectionnez ensuite une option Quand (Unique ou Périodique), entrez un nom (facultatif) pour la tâche de publication, puis cliquez sur le bouton Lancer publication.
+Pour publier des images originales sur les serveurs Dynamic Media Image Server, début en sélectionnant le bouton Publier dans la barre de navigation globale. Sélectionnez ensuite une option Quand (Unique ou Périodique), entrez un nom (facultatif) pour la tâche de publication, puis cliquez sur le bouton Lancer publication.
 
 >[!NOTE]
 >
