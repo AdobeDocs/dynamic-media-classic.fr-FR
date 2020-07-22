@@ -3,14 +3,17 @@ title: Déplacement, suppression et changement de nom de fichier
 seo-title: Déplacement, suppression et changement de nom de fichier
 description: 'null'
 seo-description: Découvrez comment déplacer, renommer et supprimer des fichiers.
-uuid: deff 6521-0 ad 0-4 db 9-b 4 e 0-e 3211 ff 97740
+uuid: deff6521-0ad0-4db9-b4e0-e3211ff97740
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 1 c 9 e 29 f 0-3083-4 d 22-a 439-2 a 01 faf 59683
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 66%
 
 ---
 
@@ -26,7 +29,7 @@ Vous pouvez déplacer des fichiers dans d’autres dossiers du panneau de naviga
 1. Pour ce faire, sélectionnez le ou les fichiers dans le panneau de navigation, puis utilisez l’une des méthodes suivantes :
 
    * Affichez le dossier vers lequel vous souhaitez déplacer les fichiers dans la bibliothèque de fichiers, puis faites glisser les fichiers vers le dossier en question.
-   * Choisissez Fichier &gt; Déplacer, sélectionnez un dossier dans la fenêtre Déplacer les fichiers, puis cliquez sur Déplacer.
+   * Choisissez Fichier > Déplacer, sélectionnez un dossier dans la fenêtre Déplacer les fichiers, puis cliquez sur Déplacer.
 
 ## Attribution d’un nouveau nom à un fichier {#rename-assets}
 
@@ -35,9 +38,9 @@ Pour renommer un fichier :
 1. Sélectionnez le fichier dans le panneau de navigation, puis utilisez l’une des méthodes suivantes :
 
    * Sélectionnez le nom, saisissez un nouveau nom, puis appuyez sur Entrée ou cliquez en dehors du nom.
-   * Choisissez Fichier &gt; Renommer. Le nom du fichier est mis en surbrillance. Saisissez un nouveau nom, puis appuyez sur la touche Entrée.
+   * Choisissez Fichier > Renommer. Le nom du fichier est mis en surbrillance. Saisissez un nouveau nom, puis appuyez sur la touche Entrée.
 
-Vous ne devez pas saisir le nom d’un fichier Scene7 Publishing System existant.
+Veillez à ne pas saisir le nom d’une ressource Dynamic Media Classic existante.
 
 ## Suppression de fichiers {#delete-assets}
 
@@ -51,28 +54,28 @@ Lorsque vous supprimez un fichier, tous les fichiers dérivés de ce fichier son
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Pour supprimer un ou plusieurs fichiers, sélectionnez-les dans le panneau de navigation et appuyez sur la touche Suppr ou choisissez Fichier &gt; Supprimer.
+   * Pour supprimer un ou plusieurs fichiers, sélectionnez-les dans le panneau de navigation et appuyez sur la touche Suppr ou choisissez Fichier > Supprimer.
    * To delete a folder, select the folder in the Asset Library, and click **Remove Folder**.
 
       La suppression d’un dossier supprime tous les fichiers qu’il contient ainsi que tous les fichiers de ses sous-dossiers.
 
 >[!NOTE]
 >
->Dynamic Media Classic recommande d'écraser les fichiers plutôt que de les supprimer si votre motif de suppression d'un fichier est de le remplacer par un autre portant le même nom.
+>Dynamic Media Classic recommande d’écraser les fichiers plutôt que de les supprimer si vous souhaitez remplacer un fichier par un autre fichier portant le même nom.
 
 ## Suppression de plusieurs fichiers à l’aide d’un fichier texte {#delete-multiple-assets-with-a-text-file}
 
-Pour supprimer plusieurs fichiers à la fois dans la bibliothèque de fichiers, vous pouvez répertorier les fichiers à supprimer dans un fichier texte et les envoyer à Dynamic Media Classic.
+Pour supprimer plusieurs fichiers à la fois dans la bibliothèque de fichiers, vous pouvez liste les fichiers à supprimer dans un fichier texte et envoyer la liste à Dynamic Media Classic.
 
-Créez la liste des identifiants Scene7 Publishing System et enregistrez-la dans un fichier texte (.txt). Chaque identifiant Scene7 Publishing System doit apparaître sur une ligne différente (suivi d’un retour à la ligne forcé).
+Créez la liste des identifiants Dynamic Media Classic et enregistrez-la dans un fichier texte (.txt). Chaque identifiant Dynamic Media Classic doit se trouver sur sa propre ligne (suivi d’un retour à la ligne forcé).
 
 Pour supprimer des fichiers à l’aide de cette liste créée, procédez comme suit :
 
-1. Choisissez Fichier &gt; Supprimer une liste de fichiers.
+1. Choisissez Fichier > Supprimer une liste de fichiers.
 1. Dans la boîte de dialogue Supprimer une liste de fichiers, parcourez les dossiers ou tapez le chemin de l’emplacement du fichier texte comportant la liste des fichiers à supprimer.
 1. Cliquez sur le bouton Supprimer.
 
-Lorsque vous supprimez des fichiers avec un fichier texte, si un identifiant Scene 7 Publishing System ne figure pas dans la liste, un message s'affiche pour vous informer que Dynamic Media Classic est « Impossible de valider ces entrées dans votre liste :  » avec la liste des entrées. Cependant, Dynamic Media Classic ne génère pas d'erreur sur l'écran Tâches.
+Lorsque vous supprimez des fichiers à l’aide d’un fichier texte, si un identifiant Dynamic Media Classic ne figure pas sur la liste, un message s’affiche vous informant que Dynamic Media Classic est &quot;Impossible de valider ces entrées dans votre liste :&quot; avec la liste des entrées. Cependant, Dynamic Media Classic ne génère pas d’erreur sur l’écran Tâches.
 
 >[!MORELIKETHIS]
 >
