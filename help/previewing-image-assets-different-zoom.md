@@ -1,16 +1,19 @@
 ---
-title: Prévisualisation de fichiers d'image avec différentes visionneuses de zoom
-seo-title: Prévisualisation de fichiers d'image avec différentes visionneuses de zoom
+title: Prévisualisation de fichiers d’image avec différentes visionneuses de zoom
+seo-title: Prévisualisation de fichiers d’image avec différentes visionneuses de zoom
 description: 'null'
-seo-description: Découvrez comment prévisualiser des fichiers d'image avec différentes visionneuses de zoom.
-uuid: 244 c 0 faa -2 a 33-416 f -8987-bdc 0 c 85 f 5 c 2 e
+seo-description: Découvrez comment prévisualisation de fichiers d’image avec différentes visionneuses de zoom.
+uuid: 244c0faa-2a33-416f-8987-bdc0c85f5c2e
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/zoom
-discoiquuid: b 072 d 3 b 7-0 d 30-4903-9 c 87-5 fbbcc 89 bd 51
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
+discoiquuid: b072d3b7-0d30-4903-9c87-5fbbcc89bd51
 translation-type: tm+mt
-source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 87%
 
 ---
 
@@ -29,9 +32,9 @@ Voir [Prévisualisation d’un fichier](previewing-asset.md#previewing_an_asset)
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient les images à prévisualiser via la visionneuse de zoom.
 1. Effectuez l’une des opérations suivantes :
 
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage de la grille. Dans la fenêtre Fichiers, située au-dessous de l’image miniature, cliquez sur Prévisualiser &gt; Liste des visionneuses.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Liste des visionneuses. Dans la fenêtre Fichiers, sélectionnez un fichier, puis sur la droite de l’image miniature, cliquez sur Prévisualiser &gt; Liste des visionneuses.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage des détails. Sur la même barre d’outils, cliquez sur Prévisualiser &gt; Liste des visionneuses.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage de la grille. Dans la fenêtre Fichiers, située au-dessous de l’image miniature, cliquez sur Prévisualiser > Liste des visionneuses.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Liste des visionneuses. Dans la fenêtre Fichiers, sélectionnez un fichier, puis sur la droite de l’image miniature, cliquez sur Prévisualiser > Liste des visionneuses.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage des détails. Sur la même barre d’outils, cliquez sur Prévisualiser > Liste des visionneuses.
 
 1. Dans le tableau de la fenêtre Liste des visionneuses, cliquez sur un lien de la visionneuse pour prévisualiser le fichier dans la visionneuse sélectionnée.
 1. Fermez la visionneuse affichée pour revenir à la fenêtre Liste des visionneuses.
