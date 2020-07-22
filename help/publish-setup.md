@@ -2,56 +2,59 @@
 title: Configuration de la publication
 seo-title: Configuration de la publication
 description: 'null'
-seo-description: Les paramètres de l'écran Configuration de la publication déterminent la manière dont les fichiers sont diffusés par défaut à partir des serveurs Dynamic Media Classic vers les sites Web ou les applications.
-uuid: 196 f 25 c 8-abf 5-4 c 5 d -8 f 6 f-bc 70007 a 0301
+seo-description: Les paramètres de l’écran Configuration de la publication déterminent comment les ressources sont distribuées par défaut depuis les serveurs Dynamic Media Classic vers les sites Web ou les applications.
+uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-discoiquuid: cba 59093-28 b 6-4490-b 838-d 942 b 72 ad 1 ec
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '2397'
+ht-degree: 65%
 
 ---
 
 
 # Configuration de la publication {#publish-setup}
 
-Les paramètres de l'écran Configuration de la publication déterminent la manière dont les fichiers sont diffusés par défaut à partir des serveurs Dynamic Media Classic vers les sites Web ou les applications. Si aucun paramètre n'est spécifié, le serveur Dynamic Media Classic fournit un fichier en fonction d'un paramètre par défaut sur l'écran Configuration de la publication. Par exemple, une requête de diffusion d’une image qui ne contient pas d’attribut de résolution renvoie une image avec le paramètre Résolution d’objet par défaut de l’écran Image Server.
+Les paramètres de l’écran Configuration de la publication déterminent comment les ressources sont distribuées par défaut depuis les serveurs Dynamic Media Classic vers les sites Web ou les applications. Si aucun paramètre n’est spécifié, le serveur Dynamic Media Classic livre un fichier selon un paramètre par défaut sur un écran Configuration de la publication. Par exemple, une requête de diffusion d’une image qui ne contient pas d’attribut de résolution renvoie une image avec le paramètre Résolution d’objet par défaut de l’écran Image Server.
 
 Les administrateurs peuvent modifier les paramètres par défaut sur les écrans Image Server, Image Renderer et Vignette pour définir les paramètres par défaut utilisés pour diffuser des fichiers à partir des serveurs.
 
-Pour ouvrir les écrans Configuration de la publication, cliquez sur Configuration &gt;Configuration de l’application &gt; Configuration de la publication.
+Pour ouvrir les écrans Configuration de la publication, cliquez sur Configuration >Configuration de l’application > Configuration de la publication.
 
 >[!NOTE]
 >
->les écrans Configuration de la publication s’adressent aux développeurs et programmeurs chevronnés de sites Web. Dynamic Media Classic suppose que les utilisateurs qui modifient les paramètres de ces écrans sont familiarisés avec Scene 7 Publishing System, les normes et les conventions de protocole HTTP et la technologie de base de l'image.
+>les écrans Configuration de la publication s’adressent aux développeurs et programmeurs chevronnés de sites Web. Dynamic Media Classic suppose que les utilisateurs qui modifient les paramètres de ces écrans connaissent Dynamic Media Classic, les normes et conventions de protocole HTTP et la technologie de base de l’imagerie.
 
 ## Image Server {#image-server}
 
 L’écran Image Server définit les paramètres par défaut permettant de diffuser les images à partir des serveurs d’images. Les paramètres sont disponibles dans cinq catégories (voir l’écran Image Server pour obtenir une description détaillée des paramètres).
 
-Modifiez ces paramètres uniquement avec l'assistance d'une personne prise en charge de Media Classic Classic.
+Modifiez ces paramètres uniquement avec l’aide d’une personne chargée du support Dynamic Media Classic.
 
-**Gestion des catalogues** Ces paramètres déterminent la manière dont Scene 7 Publishing System et le catalogue interagissent. Contrairement à la plupart des serveurs Web, les appels d'URL de serveur multimédia dynamique sont dirigés vers un fichier de manifeste ou de catalogue plutôt qu'un fichier image. Le fichier catalogue (à ne pas confondre avec un catalogue électronique) contient une liste de tous les contenus publiés sur le serveur d’images avec le chemin d’accès à chaque image. Si vous disposez d’un ID Digimarc, entrez vos informations d’utilisateur dans la section Informations d’utilisateur Digimarc.
+**Gestion** des catalogues Ces paramètres déterminent comment Dynamic Media Classic et le catalogue interagissent. Contrairement à la plupart des serveurs Web, les appels d’URL du serveur Dynamic Media Image Server s’affichent dans un fichier manifest-or catalog-file plutôt que dans un fichier image proprement dit. Le fichier catalogue (à ne pas confondre avec un catalogue électronique) contient une liste de tous les contenus publiés sur le serveur d’images avec le chemin d’accès à chaque image. Si vous disposez d’un ID Digimarc, entrez vos informations d’utilisateur dans la section Informations d’utilisateur Digimarc.
 
-**Attributs de requête** Ces paramètres imposent des limites aux images pouvant être diffusées à partir du serveur.
+**Attributs** de demande Ces paramètres imposent des limites aux images qui peuvent être diffusées à partir du serveur.
 
-**Attributs de requête par défaut** Ces paramètres concernent l'aspect par défaut des images.
+**Attributs** de requête par défaut Ces paramètres s’appliquent à l’aspect par défaut des images.
 
-**Attributs de miniature courants** Ces paramètres concernent l'aspect par défaut et l'alignement des images miniatures.
+**Attributs** de miniature courants Ces paramètres concernent l’aspect par défaut et l’alignement des miniatures.
 
 **Valeurs par défaut des champs** de catalogue Ces paramètres concernent la résolution et le type de miniature par défaut des images.
 
-**Attributs de gestion des couleurs** Ces paramètres déterminent les profils de couleurs ICC utilisés.
+**Attributs** de gestion des couleurs Ces paramètres déterminent les profils de couleur ICC utilisés.
 
-**Attributs de compatibilité** Ce paramètre permet aux paragraphes de début et de fin des calques de texte d'être traités comme dans la version 3.6 pour une compatibilité ascendante.
+**Attributs** de compatibilité Ce paramètre permet de traiter les paragraphes de début et de fin des calques de texte comme dans la version 3.6 pour une compatibilité descendante.
 
-**Prise en charge de la localisation** Ces paramètres permettent de gérer plusieurs attributs de paramètres régionaux. Il permet également de définir une chaîne de carte de paramètres régionaux pour définir les langues à prendre en charge pour les info-bulles dans les visionneuses.
+**Prise en charge** des Localisations Ces paramètres vous permettent de gérer plusieurs attributs de paramètres régionaux. Il permet également de définir une chaîne de carte de paramètres régionaux pour définir les langues à prendre en charge pour les info-bulles dans les visionneuses.
 
 Par exemple, si votre entreprise est une société multinationale qui vend dans différents pays, chaque pays peut avoir sa propre visionneuse correspondant aux paramètres régionaux. Pour accomplir cette fonctionnalité, vous spécifiez une chaîne de carte de paramètres régionaux. Vous pouvez ensuite modifier le texte d’info-bulle dans un paramètre prédéfini de la visionneuse en ajoutant les chaînes de texte traduites de la langue appropriée.
 
 >[!NOTE]
-> Pour configurer les options d'aide à la localisation, contactez l'assistance technique d'Adobe Dynamic Media Classic ou envoyez un courrier électronique à s7support@adobe.com pour demander l'aide de configuration.
+> Pour configurer les options de prise en charge des Localisations, contactez le support technique Dynamic Media Classic ou envoyez un courrier électronique à s7support@adobe.com pour demander de l’aide sur la configuration.
 
 Pour plus d’informations sur la configuration de l’**Aide à la localisation**, voir [Considérations à prendre en compte lors de la configuration de la localisation des fichiers](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -59,9 +62,9 @@ Pour plus d’informations sur la configuration de l’**Aide à la localisation
 
 >[!NOTE]
 >
->Si vous souhaitez configurer les options d'aide à la localisation dans Scene 7 Publishing System, comme le champ Carte de paramètres régionaux, contactez l'assistance technique d'Adobe Dynamic Media Classic. Ou envoyez un courrier électronique à s7support@adobe.com pour demander de l’aide au sujet de la configuration.
+>Si vous souhaitez configurer des options de prise en charge des Localisations dans Dynamic Media Classic, telles que le champ de carte des paramètres régionaux, contactez le support technique Adobe Classic. Ou envoyez un courrier électronique à s7support@adobe.com pour demander de l’aide au sujet de la configuration.
 
-L’une des façons courantes d’utiliser Scene7 Publishing System (SPS) consiste à gérer les images de produit sur les sites Web de commerce électronique. Les sociétés internationales doivent gérer le fait que l’aspect des fichiers pour des produits similaires diffère d’un pays à l’autre. En général, ces différences concernent une petite partie seulement de l’ensemble des médias. Le fait de gérer de telles différences en copiant tous les fichiers pour chacun des pays et en remplaçant uniquement les différences représente un effort considérable et contredit la métaphore du fichier original unique. De telles différences de fichiers peuvent impliquer, en raison des vidéos spécifiques aux pays avec différentes pistes audio, des différences importantes bien que très subtiles des câbles d’alimentation utilisés avec le produit. Dynamic Media Classic utilise un mécanisme de recherche de base. Vous définissez l’ordre des suffixes des fichiers analysés par le serveur d’images, en commençant par les paramètres régionaux requis.
+Une manière courante d’utiliser Dynamic Media Classic consiste à gérer les images de produit sur les sites Web de commerce électronique. Les sociétés internationales doivent gérer le fait que l’aspect des fichiers pour des produits similaires diffère d’un pays à l’autre. En général, ces différences concernent une petite partie seulement de l’ensemble des médias. Le fait de gérer de telles différences en copiant tous les fichiers pour chacun des pays et en remplaçant uniquement les différences représente un effort considérable et contredit la métaphore du fichier original unique. De telles différences de fichiers peuvent impliquer, en raison des vidéos spécifiques aux pays avec différentes pistes audio, des différences importantes bien que très subtiles des câbles d’alimentation utilisés avec le produit. Dynamic Media Classic utilise un mécanisme de recherche de base. Vous définissez l’ordre des suffixes des fichiers analysés par le serveur d’images, en commençant par les paramètres régionaux requis.
 
 **Méthode de localisation des fichiers**
 
@@ -93,11 +96,11 @@ Some of the benefits of using `locale=` and `attribute::DefaultLocale` include t
 |--- |--- |
 | Localisation de la visionneuse | Une fois les catalogues de contenu statique mis en œuvre, la localisation est entièrement contrôlée avec le paramètre locale=, qui est annexé à toutes les demandes envoyées à IS. Il peut exister des variantes spécifiques aux paramètres régionaux pour les enregistrements de configuration, habillages, écrans de démarrage, etc. Le contenu approprié est fourni par IS sans que la visionneuse doive savoir quel contenu est localisé et quels sont ses ID. |
 | Images et vidéo | Les entreprises multinationales ont généralement recours à un contenu à la fois générique et spécifique à un paramètre régional. Grâce à ce mécanisme, une référence à une image ou à une vidéo peut être générique, tandis qu’IS diffuse le contenu spécifique à un paramètre régional, s’il existe. |
-| Visionneuses d’images et visionneuses de supports | L'ensemble de la visionneuse d'images peut être différent pour certains paramètres régionaux (par exemple, lorsqu'un catalogue électronique est complètement différent) avec la traduction d'une visionneuse générique en visionneuse d'images spécifique à un paramètre régional gérée par la visionneuse. Plus souvent, les ID individuels d'un jeu générique peuvent faire référence au contenu localisé. Par exemple, la plupart des photos d’un appareil peuvent être identiques dans toutes les langues, à l’exception de la photo du panneau de contrôle. IS traduit automatiquement les ID, si bien qu’il n’est pas nécessaire de générer des visionneuses d’images spécifiques aux paramètres régionaux. |
+| Visionneuses d’images et visionneuses de supports | La visionneuse d’images entière peut être différente pour certains paramètres régionaux (par exemple, lorsqu’un catalogue électronique est complètement différent) avec la conversion d’une visionneuse d’images générique en visionneuse d’images spécifique à un paramètre régional gérée par la visionneuse. Plus couramment, les ID individuels d’une visionneuse générique peuvent faire référence au contenu localisé. Par exemple, la plupart des photos d’un appareil peuvent être identiques dans toutes les langues, à l’exception de la photo du panneau de contrôle. IS traduit automatiquement les ID, si bien qu’il n’est pas nécessaire de générer des visionneuses d’images spécifiques aux paramètres régionaux. |
 
 **Mise en œuvre de la localisation des fichiers**
 
-L’interface de Scene7 Publishing et d’Image Serving permet la localisation des images et du contenu statique.
+Dynamic Media Classic et la diffusion d’images disposent d’une interface qui permet la localisation des images et du contenu statique.
 
 Sans localisation, une URL de serveur d’images ressemble à ce qui suit :
 
@@ -107,17 +110,17 @@ With localization, an Image Server URL adds the `locale=` parameter to the path,
 
 `https://server/is/image/company/image?locale=de_DE`
 
-On receipt of the http call by the Image Server, the `locale=` parameter is parsed through the localeMap field found in **Setup** &gt; **Application Setup** &gt; **Publish Setup** &gt; **Image Server** &gt; **Localization Support** group.
+On receipt of the http call by the Image Server, the `locale=` parameter is parsed through the localeMap field found in **Setup** > **Application Setup** > **Publish Setup** > **Image Server** > **Localization Support** group.
 
 Le champ de carte de paramètres régionaux contient une liste des entrées séparées à l’aide du symbole de barre verticale (|).
 
 Chaque entrée se compose d’une liste de valeurs séparées par des virgules. The first value is the search value that is passed by the `locale=` parameter. Les autres valeurs sont les valeurs de suffixe/remplacement essayées les unes après les autres jusqu’à ce que l’une d’elles produise une image existante.
 
-L’application d’une valeur de suffixe ou de remplacement dépend du paramètre régional Monde entier dans le groupe **Configuration** &gt;**Configuration de l’application** &gt; **Configuration de la publication** &gt; **Serveur d’images** &gt; **Aide à la localisation**.
+L’application d’une valeur de suffixe ou de remplacement dépend du paramètre régional Monde entier dans le groupe **Configuration** >**Configuration de l’application** > **Configuration de la publication** > **Serveur d’images** > **Aide à la localisation**.
 
 >[!NOTE]
 >
->le paramètre régional Monde entier est actuellement possible uniquement si vous l’avez défini par l’API, et non dans l’interface de Scene7 Publishing System.
+>Le paramètre régional global n’est actuellement possible que lorsque vous le définissez via l’API, et non dans l’interface Dynamic Media Classic.
 
 **Exemple de suffixe**
 
@@ -137,7 +140,7 @@ If an unknown or empty locale parameter is supplied with `locale=`, then the loc
 
 **A propos de defaultImage**
 
-Le serveur d’images essaie l’une après l’autre les options pour les paramètres régionaux demandés. Si aucune correspondance n’est trouvée, les options de paramètres régionaux sont appliquées à defaultImage et la version correspondante est renvoyée. Par conséquent, chaque paramètre régional doit inclure une option pour l’image sans localisation ou les versions localisées de defaultImage doivent être rendues disponibles dans Scene7 Publishing System.
+Le serveur d’images essaie l’une après l’autre les options pour les paramètres régionaux demandés. Si aucune correspondance n’est trouvée, les options de paramètres régionaux sont appliquées à defaultImage et la version correspondante est renvoyée. Par conséquent, chaque paramètre régional doit inclure une option pour l’image sans localisation, ou les versions localisées de defaultImage doivent être rendues disponibles dans Dynamic Media Classic.
 
 **Scénarios de recherche de localeMap**
 
@@ -220,15 +223,15 @@ Using the first example as a basis, images for all languages may have the suffix
 
 L’écran Image Renderer définit les paramètres par défaut de la diffusion des visionneuses d’images à partir des serveurs de rendu d’images. Les paramètres sont disponibles dans les 5 catégories suivantes (voir l’écran Image Server pour obtenir des descriptions détaillées des paramètres) :
 
-**Gestion des catalogues** Ces paramètres déterminent comment Scene 7 Publishing System et le fichier de catalogue interagissent. Les appels d'URL de serveur multimédia Classic Media Classic sont dirigés vers le catalogue, qui à son tour lance un appel pour diffuser des images à partir du serveur. Modifiez ces paramètres uniquement avec l'assistance d'une personne prise en charge de Media Classic Classic.
+**Gestion** des catalogues Ces paramètres déterminent comment Dynamic Media Classic et le fichier catalogue interagissent. Les appels d’URL Dynamic Media Classic Render Server sont effectués vers le catalogue, qui à son tour appelle à diffuser des images à partir du serveur. Modifiez ces paramètres uniquement avec l’aide d’une personne chargée du support Dynamic Media Classic.
 
-**Attributs de session** Ces paramètres définissent des paramètres d'erreur, l'URL des URL d'image relative et le chevauchement des objets.
+**Attributs** de session Ces paramètres définissent les paramètres d’erreur, l’URL des URL d’image relatives et si le chevauchement d’objets est autorisé.
 
-**Attributs de matériel par défaut** Ces paramètres définissent les paramètres de résolution et d'accentuation par défaut des images.
+**Attributs** de matériau par défaut Ces paramètres définissent les paramètres de résolution et d’accentuation par défaut des images.
 
-**Attributs d'image de réponse** Ces paramètres concernent l'aspect par défaut des images.
+**Attributs** d’image de réponse Ces paramètres se rapportent à l’aspect par défaut des images.
 
-**Attributs de gestion des couleurs** Ces paramètres concernent les paramètres de couleur par défaut des images.
+**Attributs** de gestion des couleurs Ces paramètres s’appliquent aux paramètres de couleur par défaut des images.
 
 ## Vignette {#vignette}
 
