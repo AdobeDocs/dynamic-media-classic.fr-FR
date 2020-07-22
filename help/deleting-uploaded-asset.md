@@ -3,13 +3,16 @@ title: Suppression d’un fichier téléchargé
 seo-title: Suppression d’un fichier téléchargé
 description: 'null'
 seo-description: Découvrez comment supprimer un fichier téléchargé.
-uuid: edd 2 b 688-c 377-4 be 1-ba 16-d 2 dd 2 e 6 f 716 d
+uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-discoiquuid: dd 338 c 8 c -06 c 6-44 d 5-8493-dc 2087 eeeafb
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 88%
 
 ---
 
@@ -46,7 +49,7 @@ Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pou
 |--- |--- |--- |
 | op | Obligatoire | supprimer |
 | shared_secret | Obligatoire | La clé de secret partagé de l’entreprise. |
-| <ul><li>Pour les images : image_ name</li><li>Pour les fichiers vectoriels :fxg_name</li></ul> | Obligatoire | Nom du fichier à supprimer. |
+| <ul><li>Pour les images:image_name</li><li>Pour les fichiers vectoriels :fxg_name</li></ul> | Obligatoire | Nom du fichier à supprimer. |
 
 **Exemple d’URL d’image :**
 
