@@ -2,22 +2,25 @@
 title: Ajout et gestion des utilisateurs du portail multimédia
 seo-title: Ajout et gestion des utilisateurs du portail multimédia
 description: 'null'
-seo-description: Découvrez comment ajouter et gérer les utilisateurs du portail multimédia
-uuid: 96 d 4103 c -6428-4 ce 1-b 9 e 4-231599304 f 27
+seo-description: Découvrez comment ajouter et gérer des utilisateurs du portail multimédia
+uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/media_ portal
-discoiquuid: 5 e 933045-ce 1 a -41 b 9-ba 8 b -2151 c 396 b 7 a 2
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 84%
 
 ---
 
 
 # Ajout et gestion des utilisateurs du portail multimédia{#adding-and-managing-media-portal-users}
 
-En tant qu’administrateur, vous pouvez ajouter et gérer des utilisateurs, définir s’ils peuvent modifier leur mot de passe, modifier les informations utilisateur et télécharger des listes d’utilisateurs. Ces tâches sont accomplies à partir de l’écran Administration utilisateur. Pour accéder à cet écran, choisissez **Configuration** &gt; **Configuration de l’application** &gt; **Configuration de l’administration** &gt; **Administration utilisateur**.
+En tant qu’administrateur, vous pouvez ajouter et gérer des utilisateurs, définir s’ils peuvent modifier leur mot de passe, modifier les informations utilisateur et télécharger des listes d’utilisateurs. Ces tâches sont accomplies à partir de l’écran Administration utilisateur. Pour accéder à cet écran, choisissez **Configuration** > **Configuration de l’application** > **Configuration de l’administration** > **Administration utilisateur**.
 
 >[!NOTE]
 >
@@ -27,17 +30,17 @@ En tant qu’administrateur, vous pouvez ajouter et gérer des utilisateurs, dé
 
 Lorsque leur inscription est validée, les utilisateurs, les contributeurs et les contributeurs-utilisateurs du portail multimédia reçoivent un message électronique de bienvenue dans lequel figure un mot de passe. Les administrateurs peuvent déterminer si les utilisateurs du portail multimédia sont autorisés à modifier ce mot de passe.
 
-1. Cliquez sur **Configuration** &gt; **Configuration de Media Portal** &gt; **Paramètres généraux**.
+1. Cliquez sur **Configuration** > **Configuration de Media Portal** > **Paramètres généraux**.
 1. Dans la page Paramètres généraux, sélectionnez ou désélectionnez l’option **Autoriser l’utilisateur Media Portal à modifier le mot de passe**.
 1. Cliquez sur **Enregistrer**.
 
 >[!NOTE]
 >
->les utilisateurs du portail multimédia autorisés à modifier leur mot de passe peuvent procéder à cette modification en cliquant sur **Configuration** &gt; **Configuration personnelle**, puis en modifiant le mot de passe dans l’écran Configuration personnelle.
+>les utilisateurs du portail multimédia autorisés à modifier leur mot de passe peuvent procéder à cette modification en cliquant sur **Configuration** > **Configuration personnelle**, puis en modifiant le mot de passe dans l’écran Configuration personnelle.
 
 ## Ajout d’un utilisateur au portail multimédia {#adding-a-media-portal-user}
 
-1. Cliquez sur **Configuration** &gt; **Configuration de l’application** &gt; **Configuration de l’administration** &gt; **Administration utilisateur**.
+1. Cliquez sur **Configuration** > **Configuration de l’application** > **Configuration de l’administration** > **Administration utilisateur**.
 1. Sur la page Administration utilisateur, cliquez sur **Ajouter**.
 1. Dans la boîte de dialogue Ajouter un utilisateur, dans le panneau Informations utilisateur, entrez les prénom, nom et adresse électronique de l’utilisateur, puis cliquez sur **Suivant**.
 1. Dans le panneau Entreprise/Fonction, dans la liste déroulante des entreprises, sélectionnez une ou plusieurs entreprises pour l’utilisateur.
@@ -73,7 +76,7 @@ Créez un fichier CSV (nom_de_fichier.csv) conforme au format et aux champs sui
 | Nom | Contient le nom. |
 | E-mail | Contient une adresse de messagerie valide. |
 | Mot de passe | Contient une chaîne de mot de passe sensible à la casse. |
-| Rôle utilisateur | Mediaportaladminmediaportalusermediaportalcontributormediaportalcontributoruser |
+| Rôle utilisateur | MediaPortalAdminMediaPortalUserMediaPortalContributorMediaPortalContributorUser |
 | Groupes | Liste d’une ou de plusieurs attributions de groupe de compte pour chaque utilisateur, séparées par des virgules. Vous définissez le groupe en y ajoutant le nom du compte en préfixe, séparé par une barre oblique (/). Par exemple, PortalCo/IT, où PortalCo correspond au compte et IT au groupe du compte PortalCo. |
 
 L’exemple de feuille de calcul ci-dessous montre la disposition d’un fichier CSV :
@@ -99,36 +102,36 @@ si le fichier CSV n’a pas été correctement mis en forme, le message d’err
 
 Vous pouvez afficher les noms et les adresses e-mail des utilisateurs du portail multimédia dans une fenêtre contextuelle. Cette liste est utile pour couper et coller des noms d’utilisateur et des adresses qui seront utilisés à l’extérieur du portail multimédia.
 
-1. Cliquez sur **Configuration** &gt; **Configuration de l’application** &gt; **Configuration de l’administration** &gt; **Administration utilisateur**.
+1. Cliquez sur **Configuration** > **Configuration de l’application** > **Configuration de l’administration** > **Administration utilisateur**.
 1. Dans la liste **Par rôle utilisateur**, choisissez le nom d’un rôle utilisateur du portail multimédia, puis cliquez sur **Actualiser** afin d’afficher uniquement les noms d’une seule catégorie d’utilisateurs du portail multimédia.
 1. Cliquez sur **Liste contextuelle** pour ouvrir la fenêtre contextuelle. Vous pouvez copier et coller cette liste.
 
 ## Définition du message de l’e-mail de bienvenue pour les utilisateurs du portail multimédia {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-Vous pouvez envoyer un e-mail de bienvenue à tous les nouveaux utilisateurs, contributeurs et contributeurs-utilisateurs du portail multimédia. Vous pouvez configurer ce message électronique ou indiquer à Dynamic Media Classic de ne pas l'envoyer.
+Vous pouvez envoyer un e-mail de bienvenue à tous les nouveaux utilisateurs, contributeurs et contributeurs-utilisateurs du portail multimédia. Vous pouvez configurer ce message électronique ou indiquer à Dynamic Media Classic de ne pas l’envoyer.
 
-1. Choisissez **Configuration** &gt; **Configuration de l’application** &gt; **Configuration de l’administration** &gt; **Administration utilisateur**.
+1. Choisissez **Configuration** > **Configuration de l’application** > **Configuration de l’administration** > **Administration utilisateur**.
 1. In the User Administration Setup screen, click **Email Settings**.
 1. Dans la boîte de dialogue Paramètres d’e-mail, définissez les paramètres suivants à votre convenance :
 
-   **Envoyer un courrier électronique** Désélectionnez cette option si vous ne souhaitez pas envoyer par e-mail aux nouveaux utilisateurs un e-mail que vous leur avez ajouté.
+   **Envoyer un courriel** Désélectionnez cette option si vous ne souhaitez pas informer les nouveaux utilisateurs par courriel que vous les avez inscrits.
 
-   **Mot de passe par défaut** Saisissez un mot de passe temporaire pour les nouveaux utilisateurs ou laissez le champ vide pour que Dynamic Media Classic génère des mots de passe aléatoires. Les utilisateurs sont invités à modifier leur mot de passe lors de la première connexion.
+   **Mot de passe** par défaut Entrez un mot de passe temporaire pour les nouveaux utilisateurs ou laissez le champ vide pour que Dynamic Media Classic génère des mots de passe aléatoires. Les utilisateurs sont invités à modifier leur mot de passe lors de la première connexion.
 
-   **URL de remplacement** Saisissez une URL différente de la valeur par défaut si vos utilisateurs accèdent à Dynamic Media Classic via une autre URL.
+   **URL** de remplacement Entrez une URL différente de celle par défaut si vos utilisateurs accèdent à Dynamic Media Classic par une autre URL.
 
 ## Autres tâches de gestion des utilisateurs {#other-user-management-tasks}
 
 L’écran de configuration de l’administration utilisateur vous permet d’effectuer les tâches suivantes :
 
-**Filtrage et tri de la liste des utilisateurs** Filtrez la liste des utilisateurs du portail multimédia pour localiser les utilisateurs. (voir Filtrage et tri de la liste des utilisateurs).
+**Filtrez et triez la liste** utilisateur Filtrez la liste des utilisateurs du portail multimédia à localiser. (voir Filtrage et tri de la liste des utilisateurs).
 
-**Supprimer les utilisateurs** Supprimez un utilisateur de la liste. (voir Suppression d’un utilisateur.
+**Supprimer des utilisateurs** Supprimez un utilisateur de la liste. (voir Suppression d’un utilisateur.
 
-**Activer et désactiver les utilisateurs** Suspendez un utilisateur de l'accès aux dossiers. (voir Activation et désactivation d’utilisateurs).
+**Activation et désactivation des utilisateurs** Suspendre un utilisateur d’accéder aux dossiers. (voir Activation et désactivation d’utilisateurs).
 
-**Modifier les informations** de l'utilisateur Saisissez des informations à jour sur un utilisateur. (voir Modification des informations de l’utilisateur).
+**Modifier les informations** de l&#39;utilisateur Entrez des informations à jour sur un utilisateur. (voir Modification des informations de l’utilisateur).
 
-**Création de champs définis par l'utilisateur** Créez des champs de métadonnées personnalisés définis par l'utilisateur pour organiser les fichiers dans Scene 7 Publishing System. Les champs peuvent également être activés ou désactivés, le cas échéant.
+**Création de champs** définis par l’utilisateur Créez des champs de métadonnées personnalisés définis par l’utilisateur pour organiser les fichiers dans Dynamic Media Classic. Les champs peuvent également être activés ou désactivés, le cas échéant.
 
 (Voir [Champs définis par l’utilisateur](application-setup.md#user_defined_fields).)
