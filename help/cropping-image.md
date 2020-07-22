@@ -2,22 +2,25 @@
 title: Recadrage d’une image
 seo-title: Recadrage d’une image
 description: 'null'
-seo-description: Apprenez à recadrer une image.
-uuid: 84 f 199 de-cbfc -4 d 06-877 f -6 e 9148 e 82 e 15
+seo-description: Découvrez comment recadrer une image.
+uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/master_ files
-discoiquuid: 99 dfa 476-4 f 11-4569-a 27 e-a 76 ed 7787674
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 translation-type: tm+mt
-source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 86%
 
 ---
 
 
 # Recadrage d’une image{#cropping-an-image}
 
-Vous pouvez recadrer des images dans Scene7 Publishing System. Le système conserve les informations sur les images qui ont été recadrées, ce qui vous permet de rétablir leur état d’origine. Vous pouvez également recadrer une image et enregistrer la version recadrée sous un nouveau nom.
+Vous pouvez recadrer des images dans Dynamic Media Classic. Le système conserve les informations sur les images qui ont été recadrées, ce qui vous permet de rétablir leur état d’origine. Vous pouvez également recadrer une image et enregistrer la version recadrée sous un nouveau nom.
 
 Vous pouvez recadrer une image afin d’en supprimer les bords blancs ou de ne garder qu’une partie de l’image.
 
@@ -45,7 +48,7 @@ Vous pouvez éliminer les pixels transparents ou de couleur qui apparaissent au 
 
 1. To crop an image, click its rollover Edit button and choose **Crop**, or display it in the Browse Panel in Detail view and click **Crop**.
 
-1. Dans la fenêtre Editeur de recadrage, placez la partie de l'image à ne pas recadrer dans la zone de recadrage. What appears inside the box remains when you click **Save** and crop the image.
+1. Dans la fenêtre Editeur de recadrage, placez la partie de l’image que vous ne souhaitez pas recadrer dans la zone de recadrage. What appears inside the box remains when you click **Save** and crop the image.
 1. Pour modifier la zone de recadrage, effectuez l’une des opérations suivantes :
 
    * Faites glisser un côté ou un angle de la zone de recadrage. Maintenez la touche Maj enfoncée lorsque vous faites glisser la souris pour modifier la taille tout en conservant le format (la forme) de la zone de recadrage.
