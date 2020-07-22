@@ -3,25 +3,28 @@ title: Publication d’une visionneuse de supports variés
 seo-title: Publication d’une visionneuse de supports variés
 description: 'null'
 seo-description: Découvrez comment publier une visionneuse de supports variés.
-uuid: 4172347 c -7 bb 3-468 d-bda 2-fd 1 c 26 ccab 85
+uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/mixed_ media_ sets
-discoiquuid: 4 e 8694 f 7-c 1 b 5-4 d 45-a 18 b -2 b 9494 db 1757
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
+discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 60%
 
 ---
 
 
 # Publication d’une visionneuse de supports variés{#publishing-a-mixed-media-set}
 
-Créez une tâche de publication pour publier une visionneuse de supports variés marquée pour publication sur le serveur vidéo Classic Media Classic et le serveur d'images. Dynamic Media Classic propose des options de publication avancées pour la publication sur des serveurs spécifiques et des options de republication de fichiers déjà publiés.
+Créez une tâche de publication pour publier une visionneuse de supports variés marquée pour publication sur un serveur de vidéo et un serveur d’images Dynamic Media Classic. Dynamic Media Classic offres propose des options de publication avancées pour des serveurs spécifiques et des options de republication de fichiers déjà publiés.
 
-***remarque**: Les visionneuses de supports variés requièrent la publication sur **le serveur**de vidéo et sur **le serveur d'images**. Utilisez le **serveur de vidéo**pour publier les vidéos réelles que vous avez marquées pour publication Vous utilisez ensuite **le serveur d'images**pour publier les fichiers connexes, tels que les miniatures vidéo, et définir les informations de n'importe quelle visionneuse de vidéos adaptative.*
+***remarque **: Les visionneuses de supports variés exigent que vous publiiez sur un serveur**de **vidéo et sur un serveur****d’images. Utilisez le**serveur de vidéo **pour publier les vidéos réelles que vous avez marquées pour publication De plus, vous utilisez**Image Server **pour publier des fichiers connexes, tels que les miniatures vidéo, et définissez des informations pour toute visionneuse de vidéos adaptative.*
 
-Scene7 Publishing System assure le suivi des tâches de publication dans l’écran Tâches.
+Dynamic Media Classic effectue le suivi des tâches de publication dans l’écran Tâches.
 
 Voir [Publication](publishing-files.md#publishing_files).
 
