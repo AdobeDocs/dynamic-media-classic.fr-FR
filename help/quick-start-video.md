@@ -6,14 +6,14 @@ seo-description: Une introduction et un Début rapide à la vidéo pour vous aid
 uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 66%
+source-wordcount: '1443'
+ht-degree: 65%
 
 ---
 
@@ -81,26 +81,24 @@ La description de flux de travaux détaillée suivante est conçue pour vous aid
 
 Téléchargez et générez des visionneuses de vidéos adaptatives en suivant l’un des deux scénarios ci-après :
 
-* **Télécharger des vidéos** précodées Si vos vidéos étaient déjà codées en dehors de Dynamic Media Classic, cliquez sur ********
-* **Téléchargez** sur la barre de navigation globale pour parcourir et télécharger directement des fichiers vidéo MP4 vers Scene7 Publishing System. Cliquez ensuite sur **Créer > Visionneuses de vidéos adaptatives**. Accédez aux fichiers vidéo requis. Faites-les glisser et déposez-les dans le tableau Visionneuse de vidéos adaptative, puis enregistrez la visionneuse.****
+* **Télécharger des vidéos** précodées Si vos vidéos étaient déjà codées en dehors de Dynamic Media Classic, cliquez sur 
+**Téléchargez** sur la barre de navigation globale pour parcourir et télécharger directement des fichiers vidéo MP4 vers Dynamic Media Classic. Cliquez ensuite sur **Créer > Visionneuses de vidéos adaptatives**. Accédez aux fichiers vidéo requis. Faites-les glisser et déposez-les dans le tableau Visionneuse de vidéos adaptative, puis enregistrez la visionneuse.
+* **Télécharger des vidéos** source originales Si vos vidéos ne sont pas codées, cliquez sur 
+**Téléchargez** sur la barre de navigation globale des fichiers source de vidéo originaux (non-MP4) et faites en sorte que Dynamic Media Classic les code au format MP4 pour vous. Dans la boîte de dialogue Télécharger les options de la tâche, sous Options eVideo, sélectionnez **Vidéo adaptative**.
 
-   **Télécharger des vidéos** source originales Si vos vidéos ne sont pas codées, cliquez sur 
+   Cette option conseillée permet de créer une visionneuse de vidéos adaptative qui applique automatiquement à la vidéo les paramètres de codage prédéfinis corrects, qu’il s’agisse d’un format 16:9 ou 4:3, en fonction des dimensions de la vidéo téléchargée. Lorsque vous procédez au transfert, une visionneuse de vidéos adaptative est automatiquement créée, avec trois codages vidéo aux proportions appropriées.
 
-   **Téléchargez** sur la barre de navigation globale des fichiers source vidéo originaux (non MP4) et demandez à Scene7 Publishing System de les coder au format MP4 pour vous. Dans la boîte de dialogue Télécharger les options de la tâche, sous Options eVideo, sélectionnez **Vidéo adaptative**.********
+   Ou, dans la boîte de dialogue Options de tâche, sous Options eVideo, développez la liste **Paramètres prédéfinis de codage uniques** et sélectionnez des options de codage vidéo individuels parmi **Bureau**, **Mobile (iPhone, iPad, Android)** et **Tablette (iPad, Android)** afin de créer les fichiers MP4.
 
-* Cette option conseillée permet de créer une visionneuse de vidéos adaptative qui applique automatiquement à la vidéo les paramètres de codage prédéfinis corrects, qu’il s’agisse d’un format 16:9 ou 4:3, en fonction des dimensions de la vidéo téléchargée. Lorsque vous procédez au transfert, une visionneuse de vidéos adaptative est automatiquement créée, avec trois codages vidéo aux proportions appropriées.
-
-Ou, dans la boîte de dialogue Options de tâche, sous Options eVideo, développez la liste **Paramètres prédéfinis de codage uniques** et sélectionnez des options de codage vidéo individuels parmi **Bureau**, **Mobile (iPhone, iPad, Android)** et **Tablette (iPad, Android)** afin de créer les fichiers MP4.
-
-**Vous pouvez aussi retraiter une vidéo originale avec la fonction Retraiter. Les vidéos récemment codées sont ajoutées à la visionneuse de vidéos adaptative existante.**
+* Vous pouvez aussi retraiter une vidéo originale avec la fonction Retraiter. Les vidéos récemment codées sont ajoutées à la visionneuse de vidéos adaptative existante.
 
 Voir [Chargement et codage de vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
 **Facultatif**
 
-Dynamic Media Classic offre de nombreux paramètres prédéfinis de codage vidéo. Ces paramètres prédéfinis représentent les paramètres de codage vidéo les plus courants et ont été optimisés pour la lecture sur les écrans cibles.[](uploading-encoding-videos.md#working_with_video_encoding_presets)
+Dynamic Media Classic offre de nombreux paramètres prédéfinis de codage vidéo. Ces paramètres prédéfinis représentent les paramètres de codage vidéo les plus courants et ont été optimisés pour la lecture sur les écrans cibles.
 
-**Toutefois, si une personnalisation plus poussée est nécessaire, les administrateurs peuvent créer des paramètres vidéo prédéfinis pour personnaliser la taille et la lecture des vidéos pour les utilisateurs. Les administrateurs peuvent ajouter et gérer des paramètres vidéo prédéfinis sur la page Paramètres vidéo prédéfinis, sous Configuration > Configuration de l’application > Paramètres vidéo prédéfinis > Paramètres prédéfinis de codage uniques. La page Paramètres vidéo prédéfinis propose des options permettant d’ajouter, de modifier, de supprimer et d’activer des paramètres vidéo prédéfinis.**
+Toutefois, si une personnalisation plus poussée est nécessaire, les administrateurs peuvent créer des paramètres vidéo prédéfinis pour personnaliser la taille et la lecture des vidéos pour les utilisateurs. Les administrateurs peuvent ajouter et gérer des paramètres vidéo prédéfinis sur la page Paramètres vidéo prédéfinis, sous Configuration > Configuration de l’application > Paramètres vidéo prédéfinis > Paramètres prédéfinis de codage uniques. La page Paramètres vidéo prédéfinis propose des options permettant d’ajouter, de modifier, de supprimer et d’activer des paramètres vidéo prédéfinis.
 
 Voir [Utilisation des paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
@@ -114,33 +112,37 @@ Vous pouvez visionner la vidéo sur l’écran de prévisualisation. Vous pouvez
 
 **Facultatif**
 
-**Personnalisation des paramètres prédéfinis de la visionneuse - offres Dynamic Media Classic prédéfinies pour la diffusion vidéo. Ces paramètres déterminent l’aspect de la visionneuse et le mode de fonctionnement des commandes de lecture. Pour personnaliser la visionneuse de vidéos, les administrateurs peuvent ajouter et gérer des paramètres prédéfinis de visionneuse à partir de la page Paramètres prédéfinis de la visionneuse. Pour ouvrir cette page, dans le coin supérieur droit de Scene7 Publishing System, cliquez sur Configuration > Paramètres prédéfinis de la visionneuse. La page Paramètres prédéfinis de la visionneuse propose des commandes permettant d’ajouter, de modifier, de supprimer et d’activer des paramètres prédéfinis de la visionneuse.**
+Personnalisation des paramètres prédéfinis de la visionneuse - offres Dynamic Media Classic prédéfinies pour la diffusion vidéo. Ces paramètres déterminent l’aspect de la visionneuse et le mode de fonctionnement des commandes de lecture. Pour personnaliser la visionneuse de vidéos, les administrateurs peuvent ajouter et gérer des paramètres prédéfinis de visionneuse à partir de la page Paramètres prédéfinis de la visionneuse. Pour ouvrir cette page, dans le coin supérieur droit de Dynamic Media Classic, cliquez sur Configuration > Paramètres prédéfinis de la visionneuse. La page Paramètres prédéfinis de la visionneuse propose des commandes permettant d’ajouter, de modifier, de supprimer et d’activer des paramètres prédéfinis de la visionneuse.
 
 Voir [Utilisation des paramètres prédéfinis de visionneuse de vidéos](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
-* **Cookie. Déploiement de vidéos sur vos sites Web et sites mobiles**
+**Cookie. Déploiement de vidéos sur vos sites Web et sites mobiles**
 
-   Pour intégrer la vidéo sur votre site Web, procédez de l’une des manières suivantes :`Universal_HTML5_Viewer`
+Pour intégrer la vidéo sur votre site Web, procédez de l’une des manières suivantes :
 
-   Affichez la vidéo dans sa propre fenêtre contextuelle ou modale, auquel cas vous devez utiliser la fonctionnalité Copier l’URL.
+* Affichez la vidéo dans sa propre fenêtre contextuelle ou modale, auquel cas vous devez utiliser la fonctionnalité Copier l’URL.
 
-   >Pour obtenir l’URL d’une vidéo, en mode Grille ou Liste, sélectionnez la vidéo dans le panneau de navigation. Click Preview, and then click Copy URL to the right of `Universal_HTML5_Viewer`.
+   Pour obtenir l’URL d’une vidéo, en mode Grille ou Liste, sélectionnez la vidéo dans le panneau de navigation. Click Preview, and then click Copy URL to the right of `Universal_HTML5_Viewer`.
+
+   Lorsque vous cliquez sur Copier l’URL, l’URL est copiée dans le Presse-papiers. Placez ce code dans le code HTML de votre site Web, site mobile ou application.
+
+   >[!NOTE]
    >
-   >Lorsque vous cliquez sur Copier l’URL, l’URL est copiée dans le Presse-papiers. Placez ce code dans le code HTML de votre site Web, site mobile ou application.
+   >les URL sont activées uniquement après que vous ayez publié la vidéo ou la visionneuse de vidéos adaptative.
 
-* [!NOTE]
+* Affichez la vidéo incorporée dans la page Web, auquel cas vous devez utiliser la fonction Intégrer le code.
 
-   les URL sont activées uniquement après que vous ayez publié la vidéo ou la visionneuse de vidéos adaptative.`Universal_HTML5_Video`
+   Pour obtenir le code intégré d’une vidéo, en mode Grille ou Liste, sélectionnez la vidéo dans le panneau de navigation. Cliquez sur Prévisualisation > Liste des visionneuses. Sous la colonne Actions du tableau, cliquez sur Intégrer le code à droite de `Universal_HTML5_Video`. Il n’est pas possible de modifier le code.
 
-   Affichez la vidéo incorporée dans la page Web, auquel cas vous devez utiliser la fonction Intégrer le code.
+   Cliquez sur Fermer et collez le code intégré dans vos pages Web.
 
-   >Pour obtenir le code intégré d’une vidéo, en mode Grille ou Liste, sélectionnez la vidéo dans le panneau de navigation. Cliquez sur Prévisualisation > Liste des visionneuses. Sous la colonne Actions du tableau, cliquez sur Intégrer le code à droite de `Universal_HTML5_Video`. Il n’est pas possible de modifier le code.
+   >[!NOTE]
    >
-   >Cliquez sur Fermer et collez le code intégré dans vos pages Web.
+   >le code intégré est activé uniquement après que vous ayez publié la vidéo ou la visionneuse de vidéos adaptative.
 
-[!NOTE]](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)
+Voir [Déploiement de vidéos sur vos sites Web et sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
->[!MORELIKETHIS]le code intégré est activé uniquement après que vous ayez publié la vidéo ou la visionneuse de vidéos adaptative.
+>[!MORELIKETHIS]
 >
->* Voir [Déploiement de vidéos sur vos sites Web et sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>* [Meilleures pratiques en matière de codage de vidéo](uploading-encoding-videos.md#best_practices_for_video_encoding)
 
