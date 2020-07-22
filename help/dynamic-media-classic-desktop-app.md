@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9f541bf3a6f364029df868215953b14c15ae474c
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Cette nouvelle application est désormais disponible pour Windows et macOS.
 
 >[!IMPORTANT]
 >
->Nous vous recommandons d’installer la nouvelle application de bureau Adobe Classic d’ici le 1er octobre 2020. Ainsi, vous aurez une transition fluide avant que Adobe Flash Player ne soit abandonné le 31 décembre 2020. A cette date, vous ne pourrez plus vous connecter à la version navigateur de l’interface utilisateur Adobe Classic, appelée Scene7 Publishing System dans le produit.
+>Nous vous recommandons d’installer la nouvelle application de bureau Adobe Classic d’ici le 1er octobre 2020. Ainsi, vous aurez une transition fluide avant que Adobe Flash Player ne soit abandonné le 31 décembre 2020. A cette date, vous ne pourrez plus vous connecter à la version navigateur de l’interface utilisateur Adobe Classic, appelée Dynamic Media Classic dans le produit.
 
 Reportez-vous à la FAQ relative à l’expérience de connexion à [Dynamic Media Classic, désormais disponible.](/help/new-ui-2020.md)
 
