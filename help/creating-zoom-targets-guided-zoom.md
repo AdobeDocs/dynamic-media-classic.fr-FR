@@ -5,12 +5,15 @@ description: 'null'
 seo-description: Découvrez comment créer des cibles de zoom pour un zoom guidé.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
-content-type: référence
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 translation-type: tm+mt
-source-git-commit: 6ff0141d1e8e96278b95f61c00602780984aaf67
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '738'
+ht-degree: 69%
 
 ---
 
@@ -51,9 +54,9 @@ Pour créer une cible de zoom, ouvrez l’écran Editeur de cible de zoom et pro
 
 1. Click **[!UICONTROL Select Target]** (arrow), click to select the zoom target you created, and adjust the size and position of the target.
 
-   * **Redimensionnement** Déplacez le pointeur sur un coin de la cible de zoom et faites-le glisser pour agrandir ou rétrécir la cible.
+   * **Redimensionnement** Déplacez le pointeur sur un angle de la cible de zoom et faites-le glisser pour agrandir ou rétrécir la cible.
 
-   * **Positionnement** Déplacez le pointeur sur la cible de zoom et faites-la glisser vers un autre emplacement.
+   * **Positionnement** Déplacez le pointeur sur la cible de zoom et faites-le glisser vers un autre emplacement.
 
 1. Indiquez le nom de la cible de zoom dans le champ Nom. 
 
@@ -74,19 +77,19 @@ Pour créer une cible de zoom, ouvrez l’écran Editeur de cible de zoom et pro
 
 Utilisez ces techniques sur l’écran Editeur de cible de zoom pour modifier des cibles de zoom :
 
-* **Repositionnement**&#x200B;à l’aide du bouton Sélectionner la cible (flèche), cliquez sur la cible pour la sélectionner. Ensuite, faites glisser la cible vers un autre emplacement.
+* **Repositionnement**&#x200B;à l’aide du bouton Sélectionner la Cible (la flèche), cliquez sur la cible pour la sélectionner. Ensuite, faites glisser la cible vers un autre emplacement.
 
-* **Redimensionnement**&#x200B;à l’aide du bouton Sélectionner la cible (flèche), cliquez sur la cible pour la sélectionner. Ensuite, déplacez le pointeur vers un coin de la cible de zoom et faites-le glisser pour élargir ou rétrécir la cible.
+* **Redimensionnement**&#x200B;à l’aide du bouton Sélectionner la Cible (la flèche), cliquez sur la cible pour la sélectionner. Ensuite, déplacez le pointeur vers un coin de la cible de zoom et faites-le glisser pour élargir ou rétrécir la cible.
 
-* **Suppression** Cliquez sur l’image miniature de la cible sur le côté droit de l’écran. Cliquez ensuite sur **[!UICONTROL Supprimer la cible]**.
+* **Suppression** Cliquez sur l’image miniature de la cible située sur le côté droit de l’écran. Cliquez ensuite sur **[!UICONTROL Supprimer la Cible]**.
 
-* **Changement de nom** Cliquez sur l’image miniature de la cible sur le côté droit de l’écran. Then enter a name in the **[!UICONTROL Name]** text field and click **[!UICONTROL Save]**.
+* **Attribution d’un nouveau nom** Cliquez sur l’image miniature de la cible située sur le côté droit de l’écran. Then enter a name in the **[!UICONTROL Name]** text field and click **[!UICONTROL Save]**.
 
 ### Copie de cibles de zoom {#copying-zoom-targets}
 
 Vous pouvez copier des cibles de zoom d’une image à une autre. Copiez des cibles lorsque deux images présentent du contenu similaire et que leurs cibles de zoom se trouvent aux mêmes emplacements. Pour copier des cibles de zoom vers une autre image, procédez comme suit :
 
 1. Sur l’écran Editeur de cible de zoom, ouvrez l’image contenant les cibles de zoom à copier.
-1. Cliquez sur **[!UICONTROL Copier les cibles vers]**.
+1. Cliquez sur **[!UICONTROL Copier les Cibles vers]**.
 1. In the Select Images dialog box, select an image and click **[!UICONTROL Select]**.
 
