@@ -3,14 +3,17 @@ title: Gestion des comptes FTP
 seo-title: Gestion des comptes FTP
 description: 'null'
 seo-description: Découvrez comment gérer les comptes FTP.
-uuid: c 9410 f 44-14 bf -4 f 55-a 199-f 0 f 0 de 459219
+uuid: c9410f44-14bf-4f55-a199-f0f0de459219
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/media_ portal
-discoiquuid: d 592 f 0 a 7-1 c 27-4463-998 a -07351147 da 1 d
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +26,7 @@ Rappelez-vous que vous pouvez activer ou désactiver les utilisateurs existants 
 
 Voir [Activation ou désactivation d’utilisateurs](administration-setup.md#activating_or_deactivating_users).
 
-1. Cliquez sur **Configuration** &gt; **Media Portal** &gt; **Comptes FTP**.
+1. Cliquez sur **Configuration** > **Media Portal** > **Comptes FTP**.
 1. Sur la page d’ajout de compte FTP, sélectionnez un utilisateur dans la liste déroulante Nom d’utilisateur des comptes FTP.
 
    Si un utilisateur n’est pas dans la liste, vous devez peut-être d’abord l’ajouter en tant qu’Administrateur Media Portal, Contributeur-Utilisateur Media Portal ou Contributeur Media Portal dans la configuration de l’administration. Après avoir ajouté l’utilisateur avec le rôle approprié, le nom d’utilisateur est disponible dans la liste déroulante.
@@ -39,7 +42,7 @@ Voir [Activation ou désactivation d’utilisateurs](administration-setup.md#act
 
 ## Suppression d’un compte FTP existant {#deleting-an-existing-ftp-account}
 
-1. Cliquez sur **Configuration** &gt; **Media Portal** &gt; **Comptes FTP**.
+1. Cliquez sur **Configuration** > **Media Portal** > **Comptes FTP**.
 1. Sur la page d’ajout de compte FTP, sélectionnez dans la table des comptes existants le compte FTP à supprimer.
 1. Cliquez sur **Supprimer**.
 
