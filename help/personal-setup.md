@@ -6,14 +6,14 @@ seo-description: Tous les utilisateurs peuvent modifier les paramètres de l’�
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 83%
+source-wordcount: '1194'
+ht-degree: 78%
 
 ---
 
@@ -24,7 +24,7 @@ Tous les utilisateurs peuvent modifier les paramètres de l’écran Configurati
 
 >[!NOTE]
 >
->l’écran Configuration personnelle répertorie vos rôles utilisateurs dans Scene7 Publishing System : Administrateur d’entreprise, Administrateur ou Utilisateur.
+>L’écran Configuration personnelle liste le rôle utilisateur que vous avez dans Dynamic Media Classic : Administrateur de Société, Administrateur ou Utilisateur.
 
 Les paramètres de l’écran Configuration personnelle contrôlent le comportement par défaut du panneau de navigation, le mode de réception des e-mails et la configuration des mots de passe. Pensez à cliquer sur Enregistrer après avoir modifié ces paramètres.
 
@@ -34,11 +34,11 @@ Identifie le nom de compte, le nom, le nom d’utilisateur (adresse électroniqu
 
 ### Version de bureau
 
-Cliquez sur Installer maintenant pour installer la version de bureau de Scene7 Publishing System sur le disque dur local. Sinon, cliquez sur Réinstaller maintenant pour réinstaller la version de bureau.
+Cliquez sur Installer maintenant pour installer la version de bureau de Dynamic Media Classic sur votre disque dur local. Sinon, cliquez sur Réinstaller maintenant pour réinstaller la version de bureau.
 
 ## Pour installer le module externe sur votre disque dur local
 
-1. Sur la page Configuration personnelle dans Scene7 Publishing System, sous le module externe d’Illustrator pour l’impression en ligne, cliquez sur **Télécharger maintenant** pour télécharger le fichier **Module externe d’Illustrator pour Web-to-Print.zip**.
+1. On the Personal Setup page in Dynamic Media Classic, under Illustrator Plug-in for Web-to-Print, click **Download Now** to download the **Illustrator Plug-in for Web-to-Print.zip** file.
 1. Décompressez le fichier ZIP dans un dossier temporaire.
 
    Un fichier Lisez-moi relatif est inclus dans la racine du fichier décompressé pour fournir des informations supplémentaires sur le module externe.
@@ -83,8 +83,6 @@ Le module externe est désormais disponible pour être utilisé dans Adobe Illu
    * Affiche un damier derrière les images qui vous permet de voir facilement les zones transparentes d’une image qui contient une couche alpha.
 * **Afficher la taille du fichier**
    * Affiche la taille d’un fichier au cours de la navigation.
-* **Confirmer avant de quitter SPS**
-   * Affiche une fenêtre de confirmation avant que vous quittiez Scene7 Publishing System.
 * **Inclure les champs définis par les utilisateurs dans la recherche**
    * Option désélectionnée (par défaut) pour améliorer les performances du système pour la plupart des recherches de métadonnées que vous exécutez.
 
