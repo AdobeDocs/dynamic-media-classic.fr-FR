@@ -1,28 +1,31 @@
 ---
-title: '"Démarrage rapide : Catalogues électroniques"'
-seo-title: '"Démarrage rapide : Catalogues électroniques"'
+title: '"Début rapide : Catalogues électroniques"'
+seo-title: '"Début rapide : Catalogues électroniques"'
 description: 'null'
-seo-description: Une introduction et un démarrage rapide des catalogues électroniques pour vous aider à maîtriser rapidement les techniques de catalogue électronique.
+seo-description: Une introduction et un Début rapide aux catalogues électroniques pour vous aider à maîtriser rapidement les techniques de catalogue électronique.
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: admin
-content-type: référence
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1450'
+ht-degree: 63%
 
 ---
 
 
-# Démarrage rapide : Catalogues électroniques{#quick-start-ecatalogs}
+# Début rapide : Catalogues électroniques{#quick-start-ecatalogs}
 
-Un catalogue électronique est une version en ligne numérique de documents imprimés, tels qu’un catalogue, une brochure, un dépliant, un guide de produits ou un prospectus. Un catalogue électronique s’affiche dans une visionneuse de catalogue électronique sur un site Web. Cette visionneuse simule le processus de lecture de documents imprimés. Selon les paramètres que vous choisissez pour votre catalogue électronique, le lecteur de contenu peut vous permettre d’effectuer les opérations suivantes :
+Un catalogue électronique est une version en ligne numérique de documents imprimés, tels qu’un catalogue, une brochure, un dépliant, un guide de produits ou un prospectus. Un catalogue électronique s’affiche dans une visionneuse de catalogue électronique sur un site Web. Cette visionneuse simule le processus de lecture de documents imprimés. Selon les paramètres que vous choisissez pour votre catalogue électronique, la visionneuse peut vous permettre d’effectuer les opérations suivantes :
 
-* Recherchez un mot-clé ou des mots-clés dans le catalogue. Les résultats de la recherche s’affichent sous la forme d’une liste de miniatures dans un panneau de recherche situé à gauche du catalogue. Chaque miniature cliquable représente une planche de catalogue dans laquelle le terme de recherche surligné a été trouvé.
+* Recherchez un mot-clé ou des mots-clés dans le catalogue. Les résultats de la recherche s’affichent sous la forme d’une liste de miniatures dans un panneau de recherche situé à gauche du catalogue. Chaque miniature cliquable représente une planche de catalogue dans laquelle le terme de recherche mis en surbrillance a été trouvé.
 
-* Partagez le catalogue sur les réseaux sociaux ; télécharger le catalogue pour l’afficher hors ligne ; activez l’option Favoris pour marquer les éléments auxquels vous souhaitez revenir rapidement ou pour imprimer le catalogue.
-* Accédez au catalogue à l’aide de la table des matières ou de la vue de grille de page ; en avant ou en arrière en cliquant sur le bord central d’une page.
+* partager le catalogue au moyen des médias sociaux ; télécharger le catalogue vers la vue hors ligne ; activez Favoris pour marquer les éléments auxquels vous souhaitez revenir rapidement ou pour imprimer le catalogue.
+* Accédez au catalogue à l’aide de la table des matières ou de la vue de grille de pages ; en avant ou en arrière en cliquant sur le bord central d’une page.
 * effectuer un zoom avant, un zoom arrière ou un panoramique pour examiner des articles figurant sur une page ;
 * déplacer le pointeur sur une zone de la page (appelée zone cliquable) pour afficher une fenêtre contextuelle contenant des informations sur un article ;
 * cliquer sur une zone de la page pour ouvrir une nouvelle page Web contenant d’autres informations sur un article ;
@@ -39,19 +42,19 @@ Lorsque vous créez un catalogue électronique, vous agencez les pages ou les pl
 
 >[!NOTE]
 >
->Si vous êtes un utilisateur du mode AEM Dynamic Media - Scene7 et souhaitez utiliser des catalogues électroniques, vous devez modifier la `pdfbrochure` valeur dans CRXDE Lite. Pour ce faire, dans AEM, cliquez sur **[!UICONTROL Outils &gt; Général &gt; CRXDE Lite]**. Dans l’arborescence de navigation du panneau de gauche, accédez à `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Si vous utilisez le mode AEM Dynamic Media - Scene7 et souhaitez utiliser des catalogues électroniques, vous devez modifier la `pdfbrochure` valeur dans CRXDE Lite. Pour ce faire, dans AEM, cliquez sur **[!UICONTROL Outils > Général > CRXDE Lite]**. Dans l’arborescence de navigation du panneau de gauche, accédez à `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 Dans le volet inférieur droit, dans l’onglet **[!UICONTROL Propriétés]** , sélectionnez la `jobParam` ligne. Définissez la valeur de `pdfbrochure` de `false` à `true`. Comme dans `pdfbrochure=true`le coin supérieur gauche de la page CRXDE Lite, cliquez sur **[!UICONTROL Enregistrer tout]**.
-Vous pouvez désormais créer des catalogues électroniques dans SPS.
+Vous pouvez désormais créer des catalogues électroniques dans Dynamic Media Classic.
 
-**Démarrage rapide**
+**Début rapide**
 
 Cette section de démarrage rapide est conçue pour vous aider à maîtriser rapidement les opérations liées aux catalogues électroniques. Suivez les étapes 1 à 7. Chaque étape se termine par un renvoi à une rubrique contenant de plus amples informations.
 
-**Cookie. Téléchargement des fichiers PDF**
+**1. Téléchargement des fichiers PDF**
 
-En règle générale, un catalogue électronique est créé à partir de fichiers Adobe PDF. Les fichiers PDF étant destinés à l’impression, ils contiennent le plus souvent des images CMJN. Scene7 Publishing System détecte ces images et les convertit à l’aide d’un profil de couleurs CMJN standard. Cependant, vous pouvez être amené à télécharger et à utiliser un profil de couleurs personnalisé.
+En règle générale, un catalogue électronique est créé à partir de fichiers Adobe PDF. Les fichiers PDF étant destinés à l’impression, ils contiennent le plus souvent des images CMJN. Dynamic Media Classic détecte ces images et les convertit à l’aide d’un profil de couleurs CMJN standard. Cependant, vous pouvez être amené à télécharger et à utiliser un profil de couleurs personnalisé.
 
-Cliquez sur Télécharger dans la barre de navigation globale pour commencer à télécharger des fichiers PDF ou des images pour votre catalogue électronique. Vous pouvez télécharger des fichiers depuis votre bureau ou via FTP, cette dernière méthode étant recommandée si les fichiers sont nombreux ou de taille supérieure à 100 Mo.
+Cliquez sur Télécharger dans la barre de navigation globale pour début de télécharger des fichiers PDF ou des images pour votre catalogue électronique. Vous pouvez télécharger des fichiers depuis votre bureau ou via FTP, cette dernière méthode étant recommandée si les fichiers sont nombreux ou de taille supérieure à 100 Mo.
 
 La section Options PDF de l’écran de téléchargement contient des options qui permettent de télécharger des fichiers PDF présentant l’espace colorimétrique adéquat et la résolution voulue. Une résolution de 150 pixels par pouce est recommandée. L’option Générer automatiquement un catalogue permet de créer un catalogue lors du téléchargement d’un fichier PDF.
 
@@ -65,7 +68,7 @@ Sous l’onglet Ordre des pages, cliquez sur un bouton Disposition (1 vignette
 
 Pour ajouter des pages, sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser les fichiers PDF ou d’images dans l’écran Ordre des pages. Si les numéros de page par défaut ne vous conviennent pas, vous pouvez indiquer des noms de page personnalisés ou importer un grand nombre de noms de page.
 
-Click **[!UICONTROL Save]**, enter a name for your eCatalog, choose an SPS folder for storing it, and click **[!UICONTROL Save]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
+Cliquez sur **[!UICONTROL Enregistrer]**, attribuez un nom à votre catalogue électronique, choisissez un dossier Dynamic Media Classic pour le stocker, puis cliquez sur **[!UICONTROL Enregistrer]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
 
 Voir [Création d’un catalogue électronique](creating-ecatalog.md).
 
@@ -87,9 +90,9 @@ Voir [Gestion du contenu du panneau d’informations](info-panel-content.md#mana
 
 **4. Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique**
 
-Les utilisateurs finaux consultent votre catalogue dans la visionneuse de catalogue électronique. Si vous êtes un administrateur, vous avez la possibilité de configurer cette visionneuse. Vous pouvez modifier la couleur de son contour et sélectionner un nouvel habillage pour définir la marque de votre catalogue électronique. Dynamic Media Classic est fourni avec plusieurs paramètres prédéfinis de visionneuse de catalogue électronique de "bonnes pratiques". Vous pouvez choisir l’un de ces paramètres prédéfinis pour afficher vos catalogues électroniques. Vous pouvez également créer vous-même un paramètre prédéfini pour la visionneuse de catalogue électronique si vous êtes administrateur.
+Les utilisateurs finaux consultent votre catalogue dans la visionneuse de catalogue électronique. Si vous êtes un administrateur, vous avez la possibilité de configurer cette visionneuse. Vous pouvez modifier la couleur de son contour et sélectionner un nouvel habillage pour définir la marque de votre catalogue électronique. Dynamic Media Classic est fourni avec plusieurs paramètres prédéfinis de visionneuse de catalogue électronique &quot;recommandés&quot;. Vous pouvez choisir l’un de ces paramètres prédéfinis pour l’affichage de vos catalogues électroniques. Vous pouvez également créer vous-même un paramètre prédéfini pour la visionneuse de catalogue électronique si vous êtes administrateur.
 
-Pour créer un paramètre prédéfini de visionneuse de catalogue électronique, dans la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** et choisissez Paramètres prédéfinis **[!UICONTROL de la]** visionneuse. Cliquez ensuite sur **[!UICONTROL Ajouter]**, sélectionnez une plateforme, puis cliquez sur **[!UICONTROL Catalogue électronique &gt; Visionneuse]**.
+Pour créer un paramètre prédéfini de visionneuse de catalogue électronique, sur la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** , puis sélectionnez Paramètres prédéfinis **[!UICONTROL de]** visionneuse. Then click **[!UICONTROL Add]**, choose a platform, then click **[!UICONTROL eCatalog > Viewer]**.
 
 (Voir [Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).)
 
@@ -105,15 +108,15 @@ Voir [Prévisualisation des catalogues électroniques dans la visionneuse de cat
 
 **6. Publication d’un catalogue électronique et des fichiers PDF associés**
 
-Lorsque vous publiez votre catalogue électronique et le fichier PDF associé, il est placé sur les serveurs d’images Contenu multimédia dynamique afin de pouvoir être diffusé sur votre site Web et dans votre application. Scene7 Publishing System active la chaîne URL de votre catalogue électronique au cours du processus de publication. Utilisez cette URL pour appeler le catalogue électronique à partir des serveurs d’images de Contenu multimédia dynamique vers votre site Web ou votre application.
+Lorsque vous publiez votre catalogue électronique et le fichier PDF associé, il est placé sur les serveurs Dynamic Media Image Server afin de pouvoir être diffusé sur votre site Web et dans votre application. Dans le cadre du processus de publication, Dynamic Media Classic active la chaîne URL de votre catalogue électronique. Utilisez cette URL pour appeler le catalogue électronique à partir des serveurs Dynamic Media Image Server vers votre site Web ou votre application.
 
-Après avoir marqué votre catalogue électronique et votre PDF pour publication dans le panneau de navigation, sélectionnez le bouton Publier de la barre de navigation globale pour lancer une publication. On the Publish screen, click **[!UICONTROL Start Publish]**.
+Après avoir marqué votre catalogue électronique et votre fichier PDF pour publication dans le panneau de navigation, cliquez sur le bouton Publier de la barre de navigation globale pour lancer une publication. On the Publish screen, click **[!UICONTROL Start Publish]**.
 
 Voir [Publication de catalogues électroniques et de fichiers PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)associés.
 
 **7. Liaison d’un catalogue électronique à une page Web**
 
-Dynamic Media Classic active la chaîne d’appel d’URL nécessaire pour afficher votre catalogue électronique lorsque vous le publiez sur les serveurs d’images de Contenu multimédia dynamique. Vous pouvez copier cette chaîne URL depuis l’écran de prévisualisation et le panneau de navigation (en mode Affichage des détails) en la sélectionnant dans le panneau. Une fois copiée, la chaîne URL peut être utilisée sur vos sites Web et dans vos applications.
+Dynamic Media Classic active la chaîne d’appel d’URL nécessaire à l’affichage de votre catalogue électronique lorsque vous le publiez sur les serveurs Dynamic Media Image Server. Vous pouvez copier cette chaîne URL depuis l’écran de prévisualisation et le panneau de navigation (en mode Affichage des détails) en la sélectionnant dans le panneau. Une fois copiée, la chaîne URL peut être utilisée sur vos sites Web et dans vos applications.
 
 Travaillez de concert avec votre équipe informatique pour décider de l’emplacement du lien vers le catalogue électronique au sein de votre page Web. Un clic sur ce lien entraîne l’ouverture de la visionneuse, permettant ainsi aux utilisateurs de parcourir votre catalogue électronique.
 
