@@ -5,11 +5,14 @@ description: 'null'
 seo-description: Découvrez comment télécharger les fichiers PDF associés à un catalogue électronique.
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
 contentOwner: admin
-content-type: référence
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '701'
+ht-degree: 71%
 
 ---
 
@@ -20,13 +23,13 @@ En règle générale, un catalogue électronique est créé à partir de fichier
 
 ## Préparation des fichiers PDF {#preparing-your-pdf-files}
 
-Préparez vos fichiers PDF avant de les télécharger vers Scene7 Publishing System :
+Préparez vos fichiers PDF avant de les télécharger vers Dynamic Media Classic :
 
 * Placez tous les fichiers dans le même dossier sur votre ordinateur ou votre réseau pour faciliter leur téléchargement.
 * Nommez les fichiers selon un ordre alphanumérique, par page. L’organisation des pages selon un ordre donné facilite leur bon assemblage après le téléchargement des fichiers.
-* Examinez les pages PDF afin de vérifier si elles contiennent des traits de coupe, des repères de montage ou des gammes de couleurs. Ces marques indiquent où couper le papier lorsque les documents sont imprimés et doivent impérativement être supprimées avant le placement du catalogue électronique sur le Web. Dynamic Media Classic propose des options permettant de supprimer les marques de recadrage lors du téléchargement de fichiers PDF.
+* Examinez les pages PDF afin de vérifier si elles contiennent des traits de coupe, des repères de montage ou des gammes de couleurs. Ces marques indiquent où couper le papier lorsque les documents sont imprimés et doivent impérativement être supprimées avant le placement du catalogue électronique sur le Web. Dynamic Media Classic propose des options de recadrage des marques lorsque vous téléchargez des fichiers PDF.
 * Si vous souhaitez que les utilisateurs puissent effectuer des recherches par mot-clé dans votre catalogue électronique, déterminez si vos fichiers PDF sont aplatis. Il est impossible d’extraire des mots de recherche dans des fichiers PDF aplatis. Pour savoir si un fichier PDF est aplati, essayez de sélectionner le texte qu’il contient. Si le texte n’est pas sélectionnable, le fichier PDF est aplati. Les utilisateurs ne peuvent donc pas effectuer de recherches par mot-clé dans votre catalogue électronique.
-* Les fichiers PDF étant destinés à l’impression, ils contiennent le plus souvent des images CMJN. Par défaut, Scene7 Publishing System peut détecter les images CMJN et les convertir à l’aide d’un profil de couleurs CMJN interne. Vous pouvez cependant utiliser un profil de couleurs personnalisé pour convertir les images CMJN.
+* Les fichiers PDF étant destinés à l’impression, ils contiennent le plus souvent des images CMJN. Par défaut, Dynamic Media Classic peut détecter intelligemment ces images CMJN et les convertir à l’aide d’un profil de couleurs CMJN interne. Vous pouvez cependant utiliser un profil de couleurs personnalisé pour convertir les images CMJN.
 
    (voir [Profils ICC](icc-profiles.md#icc_profiles)).
 
@@ -40,7 +43,7 @@ Sélectionnez les fichiers à télécharger, puis sélectionnez ces options PDF
 
 * **Traitement** Sélectionnez le menu Traitement, puis choisissez Pixelliser. Il est nécessaire de pixelliser le fichier PDF afin que toutes les pages et les images soient affichées dans le catalogue électronique.
 
-* **Extraire les mots de recherche (facultatif)** Sélectionnez cette option si vous souhaitez que vos visiteurs puissent effectuer des recherches par mot-clé dans votre catalogue électronique.
+* **Extraire les mots de recherche (facultatif)** Sélectionnez cette option si vous souhaitez que les utilisateurs puissent effectuer des recherches par mot-clé dans votre catalogue électronique.
 
 * **Générer automatiquement un catalogue électronique à partir de plusieurs pages PDF (facultatif)** Sélectionnez cette option pour créer automatiquement un catalogue électronique lors du téléchargement. L’écran de catalogue électronique s’affiche alors directement, et vous pouvez commencer à travailler sur votre catalogue électronique sans avoir à sélectionner préalablement les fichiers PDF et la commande Créer. Le catalogue électronique prend le nom du fichier PDF.
 
@@ -50,13 +53,13 @@ Sélectionnez les fichiers à télécharger, puis sélectionnez ces options PDF
 
    (voir [Profils ICC](icc-profiles.md#icc_profiles)).
 
-* **Profil** de couleurs Choisissez une option Profil de couleurs :
+* **Profil** de couleurs Choisissez une option de Profil de couleurs :
 
 * **ConvertTo SRGB** Convertit en SRVB (rouge vert bleu standard). SRVB est l’espace colorimétrique recommandé pour l’affichage d’images sur les pages Web.
 
-* **Conserver l’espace colorimétrique** d’origine Conserve l’espace colorimétrique d’origine.
+* **Conserver l’espace** colorimétrique d’origine Conserve l’espace colorimétrique d’origine.
 
-* **Personnalisé de &gt; À** Ouvre les menus afin que vous puissiez choisir un espace colorimétrique Convertir de et Convertir en. Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique téléchargé sur SPS.
+* **Personnalisé de > à** Ouvre les menus pour choisir un espace colorimétrique Convertir à partir de et Convertir en. Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez téléchargé vers Dynamic Media Classic.
 
 (voir [Profils ICC](icc-profiles.md#icc_profiles)).
 
