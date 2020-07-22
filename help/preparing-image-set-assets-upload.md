@@ -2,26 +2,29 @@
 title: Préparation du téléchargement de fichiers de visionneuse d’images
 seo-title: Préparation du téléchargement de fichiers de visionneuse d’images
 description: 'null'
-seo-description: Découvrez comment préparer les fichiers de visionneuse d'images à télécharger.
-uuid: ea 90643 f-f 52 f -43 cd -8 a 74-ebffc 78 ab 717
+seo-description: Découvrez comment préparer des fichiers de visionneuse d’images pour le téléchargement.
+uuid: ea90643f-f52f-43cd-8a74-ebffc78ab717
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sets
-discoiquuid: c 341 f 5 ea-aa 7 b -4749-975 d -68 a 45 c 6 fa 77 c
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: c341f5ea-aa7b-4749-975d-68a45c6fa77c
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 68%
 
 ---
 
 
 # Préparation du téléchargement de fichiers de visionneuse d’images{#preparing-image-set-assets-for-upload}
 
-Avant de télécharger les images de la visionneuse vers Scene7 Publishing System, assurez-vous que leur taille et leur format sont corrects. 
+Avant de télécharger les images dont vous avez besoin pour les visionneuses d’images vers Dynamic Media Classic, assurez-vous que leur taille et leur format sont corrects.
 
 Pour créer une visionneuse d’images avec des vues multiples, vos images doivent montrer un objet selon différentes perspectives ou montrer différents aspects d’un même article. L’objectif est de mettre en lumière les caractéristiques principales d’un objet pour présenter aux utilisateurs une image fidèle à son apparence et à sa fonction.
 
-Comme il est possible d’effectuer un zoom sur les images de la visionneuse, vérifiez que la dimension la plus grande des images correspond au moins à 2 000 pixels. Dynamic Media Classic prend en charge de nombreux formats de fichiers image, mais les images TIFF, PNG et EPS sans perte sont recommandées.
+Comme il est possible d’effectuer un zoom sur les images de la visionneuse, vérifiez que la dimension la plus grande des images correspond au moins à 2 000 pixels. Dynamic Media Classic prend en charge de nombreux formats de fichier d’images, mais les images TIFF, PNG et EPS sans perte sont recommandées.
 
 Pour des instructions détaillées sur le téléchargement des fichiers, voir [Téléchargement de fichiers](uploading-files.md#uploading_files).
 
