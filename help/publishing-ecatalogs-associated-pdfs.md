@@ -3,27 +3,30 @@ title: Publication de catalogues électroniques et de fichiers PDF associés
 seo-title: Publication de catalogues électroniques et de fichiers PDF associés
 description: 'null'
 seo-description: Découvrez comment publier des catalogues électroniques et des fichiers PDF associés.
-uuid: 6 f 2 f 2 c 79-921 a -4096-8 f 80-24 e 69 c 8983 fa
+uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/ecatalogs
-discoiquuid: 76 e 5732 a -83 c 6-4 e 6 b-a 29 f-a 393 b 1 c 971 aa
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 34%
 
 ---
 
 
 # Publication de catalogues électroniques et de fichiers PDF associés{#publishing-ecatalogs-and-associated-pdfs}
 
-Lorsque vous publiez le catalogue électronique et le fichier PDF, il est placé sur les serveurs d'images dynamiques de médias afin de pouvoir être mis à la disposition de votre site Web ou de votre application. Scene7 Publishing System active la chaîne URL au cours du processus de publication. Vous pouvez placer cette chaîne URL dans le code HTML de votre page Web.
+Lorsque vous publiez votre catalogue électronique et votre fichier PDF, ils sont placés sur les serveurs Dynamic Media Image Server afin qu’ils puissent être accessibles sur votre site Web ou dans votre application. Dans le cadre du processus de publication, Dynamic Media Classic active la chaîne URL. Vous pouvez placer cette chaîne URL dans le code HTML de votre page Web.
 
 >[!NOTE]
 >
->Assurez-vous que votre catalogue électronique et votre fichier PDF résident dans le même dossier et qu'ils sont marqués pour publication dans le panneau de navigation ou la page Détails du fichier avant de les publier.
+>Assurez-vous que votre catalogue électronique et votre fichier PDF se trouvent dans le même dossier et qu’ils sont marqués pour publication dans le panneau de navigation ou la page Détails du fichier avant de les publier.
 
-Pour publier votre catalogue électronique sur les serveurs dynamiques d'image multimédia :
+Pour publier votre catalogue électronique sur les serveurs Dynamic Media Image Server :
 
 1. Click **Publish** on the Global Navigation bar.
 1. Sur l’écran de publication, sélectionnez une option Quand (Unique ou Périodique).
