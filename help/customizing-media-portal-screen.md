@@ -2,15 +2,18 @@
 title: Personnalisation de l’écran du portail multimédia
 seo-title: Personnalisation de l’écran du portail multimédia
 description: 'null'
-seo-description: Découvrez comment personnaliser l'écran du portail multimédia.
-uuid: bd 1 a 65 a 6-723 b -49 d 0-8 eac -849 da 00 e 0 e 1 a
+seo-description: Découvrez comment personnaliser l’écran du portail multimédia.
+uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/media_ portal
-discoiquuid: 8 b 000 c 25-c 9 c 3-481 e -9 b 25-96257471571 f
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 53%
 
 ---
 
@@ -19,23 +22,23 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 Les paramètres de style du portail multimédia vous permettent de faire apparaître la marque de votre entreprise sur l’écran du portail multimédia sous forme de logo et de couleurs personnalisés. Grâce aux paramètres de style, vous pouvez faire figurer le tampon de votre société sur le portail multimédia. 
 
-Pour accéder aux paramètres de style, choisissez **Configuration** &gt; **Configuration de Media Portal** &gt; **Paramètres de style**. Assurez-vous de cliquer sur **Enregistrer** pour enregistrer vos paramètres après les avoir définis. Vous pouvez cliquer sur **Restaurer** pour retrouver les paramètres par défaut. A mesure que vous configurez les options, le panneau de prévisualisation reflète vos choix.
+Pour accéder aux paramètres de style, choisissez **Configuration** > **Configuration de Media Portal** > **Paramètres de style**. Assurez-vous de cliquer sur **Enregistrer** pour enregistrer vos paramètres après les avoir définis. Vous pouvez cliquer sur **Restaurer** pour retrouver les paramètres par défaut. A mesure que vous configurez les options, le panneau de prévisualisation reflète vos choix.
 
-**Logo** Cliquez sur Parcourir et choisissez un graphique dans la fenêtre Sélectionner l'image de logo.
+**Logo** Cliquez sur Parcourir et choisissez un graphique dans la fenêtre Sélectionner l’image de logo.
 
-**Application** Créez un dégradé de couleurs en effectuant des choix dans les menus Couleur du dégradé de fond.
+**Application** Créez un dégradé de couleurs mélangées en faisant des choix dans les menus Couleurs en dégradé d&#39;arrière-plan.
 
-**Arborescence** Choisissez une couleur de survol (couleur qui s'affiche lorsque vous placez le pointeur sur un élément) et une couleur de sélection (couleur qui s'affiche lorsque vous sélectionnez un élément).
+**Arbre** Choisissez une couleur de survol (couleur qui s&#39;affiche lorsque vous déplacez le pointeur sur un élément) et une couleur de sélection (couleur qui s&#39;affiche lorsque vous sélectionnez un élément).
 
-**Accordéon** Choisissez les couleurs d'arrière-plan, un style de bordure et les couleurs de survol et sélectionnées pour l'accordéon qui apparaissent à droite de l'écran dans la vue Détails.
+**Accordéon** Choisissez les couleurs d’arrière-plan, un style de bordure, ainsi que le survol et les couleurs sélectionnées pour l’accordéon qui s’affiche sur le côté droit de l’écran dans la vue des détails.
 
-**En-tête d'accordéon** Choisissez si le texte de l'en-tête d'accordéon doit être en gras.
+**En-tête** en accordéon Choisissez si vous souhaitez insérer du texte dans l’en-tête en accordéon en caractères gras.
 
-**Grille de données** Choisissez les couleurs de la rangée d'en-tête dans les grilles de données.
+**Brochure de données** Choisissez les couleurs de la rangée d’en-tête dans les grilles de données.
 
-**Alerte** Choisissez une couleur d'arrière-plan pour les zones de message d'alerte.
+**Alerte** Choisissez une couleur d&#39;arrière-plan pour les zones de message d&#39;alerte.
 
-**Barre de progression** Choisissez une couleur pour la barre qui indique la progression des téléchargements et des téléchargements.
+**Barre** de progression Choisissez une couleur pour la barre qui indique la progression des téléchargements et des téléchargements.
 
 For Media Portal users to see the style settings you choose, they must append `?company=(company name)` to the URL with which they access Media Portal. Par exemple, pour voir les paramètres de style, les utilisateurs du portail multimédia qui accèdent à l’entreprise PortalCo à l’adresse l’exemple suivant :
 
