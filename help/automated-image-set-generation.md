@@ -2,15 +2,18 @@
 title: Génération automatique d’une visionneuse d’images
 seo-title: Génération automatique d’une visionneuse d’images
 description: 'null'
-seo-description: 'Découvrez comment automatiser la génération de visionneuses d''images. '
-uuid: bd 4 b 3252-3 e 77-4230-9684-cd 6 d 28 b 8 eecb
+seo-description: 'Découvrez comment automatiser la génération de visionneuses d’images. '
+uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sets
-discoiquuid: 1 a 9 b 525 e -6120-44 c 7-b 11 a-e 56 bfb 7 cd 017
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +34,7 @@ Vous pouvez automatiser la création d’une visionneuse d’images dans le cadr
 
 **Pour automatiser la génération de visionneuse d’images**
 
-1. Cliquez sur **Fichier** &gt; **Générer l’ensemble**.
+1. Cliquez sur **Fichier** > **Générer l’ensemble**.
 1. Dans la boîte de dialogue Générer l’ensemble, spécifiez un nom de tâche.
 
    Par défaut, le nom attribué à la tâche indique qu’il s’agit d’une tâche générée et précise la date de création de celle-ci.
