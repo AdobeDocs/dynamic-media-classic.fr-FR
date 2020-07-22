@@ -6,11 +6,11 @@ seo-description: Découvrez les meilleures pratiques pour optimiser la qualité 
 uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 707afa544ffcea8885631c9fca8b432bc7af6860
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 60%
@@ -29,7 +29,7 @@ Voir aussi Images [](https://helpx.adobe.com/experience-manager/6-3/assets/using
 ## Recommandations relatives au format d’image (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * Les formats JPG et PNG sont les mieux adaptés pour obtenir des images de bonne qualité, d’une taille et d’un volume gérables.
-* Si aucune commande de format n’est fournie dans l’URL, la fonction de traitement d’image Contenu multimédia dynamique utilise par défaut le format JPG pour la diffusion.
+* Si aucune commande de format n’est fournie dans l’URL, la diffusion d’images Dynamic Media utilise par défaut le format JPG pour la diffusion.
 * Le format JPG compresse les images à un taux de 10:1 et produit généralement des images plus petites. Le format PNG compresse les images à un rapport d’environ 2:1, sauf dans certains cas, par exemple lorsque les images contiennent un arrière-plan vide. En général, toutefois, les fichiers PNG sont plus gros que les fichiers JPG.
 * JPG utilise une compression avec perte, ce qui signifie que des éléments d’image (pixels) sont perdus lors de la compression. Le format PNG, en revanche, utilise une compression sans perte.
 * Généralement, le format JPG compresse les images photographiques avec une plus grande fidélité que les images de synthèse avec des bords nets et un fort contraste.
@@ -39,7 +39,7 @@ Pour le format des images, il est recommandé de commencer par le paramètre le 
 
 ## Recommandations relatives à la taille des images {#best-practices-for-image-size}
 
-La réduction dynamique de la taille de l’image est l’une des tâches les plus courantes exécutées par la diffusion d’images de Contenu multimédia dynamique. Cela implique de définir la taille et, éventuellement, le mode de sous-échantillonnage à utiliser.
+La réduction dynamique de la taille d’image est l’une des tâches les plus courantes que Dynamic Media Image Serving effectue. Cela implique de définir la taille et, éventuellement, le mode de sous-échantillonnage à utiliser.
 
 * Pour le dimensionnement d’image, la meilleure et la plus simple approche consiste à utiliser `&wid=<value>` et `&hei=<value>` ou simplement `&hei=<value>`. Ces paramètres définissent automatiquement la largeur de l’image par rapport à ses proportions.
 * `&resMode=<value>` contrôle l’algorithme utilisé pour le sous-échantillonnage. Début avec `&resMode=sharp2`. Cette valeur fournit la meilleure qualité d’image. While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
@@ -48,9 +48,9 @@ Il est recommandé d’utiliser `&wid=<value>&hei=<value>&resMode=sharp2` ou `&h
 
 ## Recommandations relatives à l’accentuation des images {#best-practices-for-image-sharpening}
 
-L’accentuation des images est l’aspect le plus complexe de contrôle des images sur votre site Web, et aussi source de nombreuses erreurs. Prenez le temps d’en savoir plus sur le fonctionnement de l’accentuation et du masquage flou dans Dynamic Media Classic en consultant les ressources utiles suivantes :
+L’accentuation des images est l’aspect le plus complexe de contrôle des images sur votre site Web, et aussi source de nombreuses erreurs. Prenez le temps d’en savoir plus sur le fonctionnement de l’accentuation et du masquage flou dans Dynamic Media Classic en vous référant aux ressources utiles suivantes :
 
-Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
+Bonnes pratiques pour le livre blanc [Accentuation des images dans Adobe Classic et sur Image Server](/help/assets/s7_sharpening_images.pdf).
 
 Voir aussi [Accentuation d’une image avec un masque](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)flou.
 
@@ -127,7 +127,7 @@ Si les résultats de l’accentuation ne sont toujours pas satisfaisants, augmen
 
 Tandis que vous testez différentes valeurs, vous trouverez peut-être également les suggestions générales suivantes utiles pour optimiser votre processus :
 
-* Testez différents paramètres en temps réel, directement sur une URL Dynamic Media Classic ou en utilisant la fonctionnalité de réglage d’image de Scene7 Publishing System qui fournit des prévisualisations en temps réel pour les opérations de réglage.
-* En règle générale, n’oubliez pas que vous pouvez regrouper les commandes de diffusion d’images dans un paramètre d’image prédéfini. An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. Le nom du paramètre prédéfini personnalisé dans un chemin d’URL invoque ces paramètres prédéfinis. Cette fonctionnalité permet de gérer les commandes et les paramètres de qualité de différents gabarits d’utilisation des images sur votre site Web et réduit en outre la longueur totale des URL.
+* Testez différents paramètres en temps réel, directement sur une URL Dynamic Media Classic ou en utilisant la fonctionnalité de réglage d’image de Dynamic Media Classic qui fournit des prévisualisations en temps réel pour les opérations d’ajustement.
+* En règle générale, n’oubliez pas que vous pouvez regrouper les commandes de diffusion d’images Dynamic Media dans un paramètre d’image prédéfini. An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. Le nom du paramètre prédéfini personnalisé dans un chemin d’URL invoque ces paramètres prédéfinis. Cette fonctionnalité permet de gérer les commandes et les paramètres de qualité de différents gabarits d’utilisation des images sur votre site Web et réduit en outre la longueur totale des URL.
 * Dynamic Media Classic propose également des méthodes plus avancées d’optimisation de la qualité d’image, telles que l’application d’une accentuation des images à l’assimilation. Pour les cas d’utilisation plus complexes où il peut s’avérer nécessaire d’affiner et d’optimiser les résultats de rendu, n’hésitez pas à faire appel à Adobe Professional Services.
 
