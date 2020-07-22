@@ -2,15 +2,18 @@
 title: Visualisation des séries d’échantillons
 seo-title: Visualisation des séries d’échantillons
 description: 'null'
-seo-description: Découvrez comment afficher les séries d'échantillons.
-uuid: 80 df 403 b-b 03 f -428 f -9784-c 3 f 774567 bd 0
+seo-description: Découvrez comment vue des séries d’échantillons.
+uuid: 80df403b-b03f-428f-9784-c3f774567bd0
 contentOwner: admin
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/swatch_ sets
-discoiquuid: 48 de 8604-2 bb 4-4862-82 ee -0 c 7847 f 0 d 0 e 7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 86%
 
 ---
 
@@ -19,13 +22,13 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 Vous pouvez visualiser vos séries d’échantillons dans la fenêtre de prévisualisation à l’aide de vos paramètres prédéfinis disponibles. Utilisez une visionneuse de zoom : un paramètre prédéfini et personnalisé pour les séries d’échantillons.
 
-Dynamic Media Classic est fourni avec des paramètres prédéfinis par défaut de visionneuse. Les administrateurs peuvent créer ou modifier les paramètres prédéfinis de la visionneuse.
+Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse par défaut. Les administrateurs peuvent créer ou modifier les paramètres prédéfinis de la visionneuse.
 
 ## Configuration des paramètres prédéfinis de la visionneuse de zoom pour les séries d’échantillons {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
 Vous pouvez créer et personnaliser des paramètres prédéfinis de la visionneuse en fonction de vos besoins.
 
-1. Cliquez sur **Configuration** &gt; **Paramètres prédéfinis de la visionneuse**.
+1. Cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
 1. Effectuez l’une des opérations suivantes :
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Swatch Set Viewer, then click **Add**.
@@ -51,7 +54,7 @@ La fonction Prévisualiser vous permet de vous faire une idée du rendu d’un f
    * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **Affichage de la liste**. Dans la fenêtre Fichiers, déplacez le pointeur sur un fichier, puis cliquez sur **Prévisualiser**.
    * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **Affichage de la grille**. Dans la fenêtre de miniature d’un fichier, cliquez sur **Prévisualiser**.
    * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **Affichage des détails**. Dans cette même barre d’outils, cliquez sur **Prévisualiser**.
-   * Dans la fenêtre Fichiers, sélectionnez un fichier. On the toolbar, click **File** &gt; **Preview**.
+   * Dans la fenêtre Fichiers, sélectionnez un fichier. On the toolbar, click **File** > **Preview**.
 
 1. (Facultatif) Dans la liste déroulante située en bas de la fenêtre Prévisualiser, sélectionnez le codage d’URL à appliquer à l’URL du fichier au moment de la copie.
 1. Cliquez sur le lien d’une visionneuse pour effectuer une prévisualisation dans la visionneuse sélectionnée.
