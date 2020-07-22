@@ -6,28 +6,28 @@ seo-description: Découvrez comment télécharger des fichiers.
 uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: d5dcc67200b636cafcf1c87b2ecdfb2271b7b9a2
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '3867'
-ht-degree: 51%
+source-wordcount: '3855'
+ht-degree: 43%
 
 ---
 
 
 # Téléchargement de fichiers{#uploading-files}
 
-Avant de télécharger des fichiers dans Scene7 Publishing System, assurez-vous que leur nom est correct et que la structure des dossiers est configurée et organisée selon vos souhaits. Vous pouvez télécharger des fichiers à partir d’un site FTP fourni par Dynamic Media Classic ou directement depuis votre ordinateur ou votre réseau. Options d’offres de Contenu multimédia dynamique classique pour l’optimisation des fichiers au cours du téléchargement. Si vous avez installé l’application de bureau Scene7 Publishing System, vous pouvez télécharger des fichiers et des dossiers en les faisant glisser directement depuis votre bureau (voir [Paramètres généraux de l’application](application-setup.md#general_settings)).
+Avant de télécharger des fichiers vers Dynamic Media Classic, assurez-vous que leur nom est correct et que la structure de dossiers est configurée et organisée comme vous le souhaitez. Vous pouvez télécharger des fichiers à partir d’un site FTP fourni par Dynamic Media Classic ou directement depuis votre ordinateur ou votre réseau. Options des offres Dynamic Media Classic pour l’optimisation des fichiers au cours du téléchargement. Si vous avez installé l’application de bureau Adobe Classic, vous pouvez télécharger des fichiers et des dossiers en les faisant glisser directement depuis votre bureau. (voir [Paramètres généraux de l’application](application-setup.md#general_settings)).
 
 ## Préparation du téléchargement des fichiers et dossiers {#preparing-your-assets-and-folders-for-uploading}
 
-Avant de télécharger des fichiers vers Scene7 Publishing System, vérifiez que leur format et leur taille sont corrects. Vous devez également respecter les règles de nommage des fichiers de Dynamic Media Classic. La définition d’une organisation et d’une structure de dossiers pour les fichiers garantit une facilité de localisation et d’utilisation de ces derniers.
+Avant de télécharger des fichiers vers Dynamic Media Classic, assurez-vous qu’ils sont au bon format et à la bonne taille. Vous devez également respecter les règles Dynamic Media Classic pour nommer les fichiers. La définition d’une organisation et d’une structure de dossiers pour les fichiers garantit une facilité de localisation et d’utilisation de ces derniers.
 
 ### Formats de fichiers pris en charge {#supported-asset-file-formats}
 
-Ce tableau dresse la liste des formats de fichiers pris en charge par le système de publication Scene7 For information on supported Camera Raw files, see [www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
+Ce tableau liste les formats de fichier pris en charge par Dynamic Media Classic. For information on supported Camera Raw files, see [www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
 
 | Formats de fichiers | Description |
 |--- |--- |
@@ -43,7 +43,7 @@ Ce tableau dresse la liste des formats de fichiers pris en charge par le systèm
 | PDF | PDF |
 | Photoshop | PSD, FXG et Camera Raw |
 | Postscript | EPS, PS |
-| Création d’images dans Dynamic Media Classic | VNC, VNT, VNW |
+| Création d’images Dynamic Media Classic | VNC, VNT, VNW |
 | SVG | SVG, SVGX |
 | TAR | TAR |
 | Vidéo | 3GP, AVI, M2P, M2T, M2TS, M2V, M4V, MOV, MP4, MPEG, MPG, MTS, OGV, TS, VOB, WMV/ASF |
@@ -52,11 +52,11 @@ Ce tableau dresse la liste des formats de fichiers pris en charge par le systèm
 
 La fonction de transfert au format TAR et ZIP offre une case à cocher permettant d’indiquer si vous souhaitez décompresser les fichiers.
 
-### Formats d’image non pris en charge dans Contenu multimédia dynamique {#unsupported-image-formats-dynamic-media}
+### Formats d’image non pris en charge dans Dynamic Media {#unsupported-image-formats-dynamic-media}
 
-La liste suivante décrit les sous-types de formats de fichier image pixellisée qui *ne sont pas* pris en charge dans Contenu multimédia dynamique.
+La liste suivante décrit les sous-types de formats de fichier image pixellisée qui *ne sont pas* pris en charge dans Dynamic Media.
 
-Voir aussi [Détection de formats de fichier non pris en charge pour le contenu multimédia](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html)dynamique.
+Voir aussi [Détection des formats de fichier non pris en charge pour Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
 
 * Fichiers PNG dont la taille de bloc IDAT est supérieure à 100 Mo.
 * Fichiers PSB.
@@ -90,7 +90,7 @@ Pour obtenir des résultats optimaux avec la plate-forme Dynamic Media Classic, 
 
 >[!NOTE]
 >
->lorsque vous téléchargez des fichiers d’images et des fichiers PDF vers SPS, le système convertit ces fichiers sources en fichiers P-TIFF (Pyramid TIFF). Ces fichiers P-TIFF sont les fichiers publiés ultérieurement sur les serveurs d’images de médias dynamiques. Dynamic Media Classic utilise le format de fichier Pyramid Tiff, car il contient divers rapports de zoom qui permettent un zoom rapide lors de l’affichage à l’aide d’une visionneuse de zoom classique de Contenu multimédia dynamique.
+>Lorsque vous téléchargez des fichiers d’image et des fichiers PDF vers Dynamic Media Classic, le système convertit ces fichiers source en fichiers P-TIFF (Pyramid TIFF). Ces fichiers P-TIFF sont les fichiers publiés ultérieurement sur les serveurs Dynamic Media Image Server. Dynamic Media Classic utilise le format de fichier Pyramid Tiff, car il contient divers rapports de zoom qui permettent un zoom rapide lors de l’affichage avec une visionneuse de zoom Dynamic Media Classic.
 
 ### Formats de fichier statique pris en charge {#supported-static-file-formats}
 
@@ -113,13 +113,13 @@ Dynamic Media Classic ne permet pas de générer une URL de prévisualisation de
 
 ### Exigences relatives aux noms de fichiers {#filename-requirements}
 
-Etant donné que l’extension est ôtée du nom du fichier durant le processus de téléchargement, le système ne permet pas que des fichiers présentent le même nom racine. Dans le système Dynamic Media Classic, le nom de fichier sans l’extension devient l’ID de fichier de la ressource. C’est la raison pour laquelle deux fichiers ne peuvent pas avoir le même nom.
+Etant donné que l’extension est ôtée du nom du fichier durant le processus de téléchargement, le système ne permet pas que des fichiers présentent le même nom racine. Dans le système Dynamic Media Classic, le nom de fichier sans l’extension devient l’ID de fichier du fichier. C’est la raison pour laquelle deux fichiers ne peuvent pas avoir le même nom.
 
 Veillez à ce que tous les utilisateurs de votre entreprise se familiarisent avec les règles de dénomination de fichiers suivantes :
 
 * Les ID de fichier présentant exactement le même nom ne sont pas autorisés dans le système.
 * Les ID de fichier sont sensibles à la casse.
-* Il est recommandé de s’assurer que les ID de fichier ne contiennent pas d’espace (par exemple, veste noire.tif et veste bleue.jpg). Dynamic Media Classic code les espaces vides dans les noms de fichier lorsqu’il utilise des noms de fichier pour créer des chaînes URL. Ces codes ASCII sont difficiles à lire, ce qui rend également plus difficile la lecture de ces chaînes.
+* Il est recommandé de s’assurer que les ID de fichier ne contiennent pas d’espace (par exemple, veste noire.tif et veste bleue.jpg). Dynamic Media Classic ASCII code les espaces vides dans les noms de fichier lorsqu’il utilise des noms de fichier pour créer des chaînes URL. Ces codes ASCII sont difficiles à lire, ce qui rend également plus difficile la lecture de ces chaînes.
 * Les caractères spécifiques aux langues sont autorisés dans les noms de fichier, à l’exception des caractères suivants :
 
    \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; { } %
@@ -135,12 +135,12 @@ Dans la plupart des cas, le nom de fichier correspond au numéro d’article, à
 
 ### Organisation et structure des dossiers {#folder-organization-and-structure}
 
-Organisez et structurez les dossiers et sous-dossiers dans Scene7 Publishing System avant de télécharger votre contenu. Cette procédure présente deux principaux avantages :
+Organisez et structurez les dossiers et les sous-dossiers de votre contenu dans Dynamic Media Classic avant de télécharger votre contenu sur le système. Cette procédure présente deux principaux avantages :
 
-* Au moment du téléchargement de votre contenu vers SPS via FTP, vous pouvez indiquer au système de répliquer votre structure de dossiers. Ainsi, votre contenu est organisé dans les mêmes dossiers et sous-dossiers, à la fois dans SPS et sur votre ordinateur ou votre réseau (pour répliquer la structure de dossiers dans SPS, sélectionnez l’option Inclure les sous-dossiers au moment du téléchargement des fichiers via FTP).
+* Lorsque vous téléchargez votre contenu vers Dynamic Media Classic via FTP, vous pouvez indiquer au système de répliquer la structure de dossiers pendant le téléchargement. Ainsi, votre contenu est organisé dans les mêmes dossiers et sous-dossiers dans Dynamic Media Classic que sur votre ordinateur ou votre réseau. (Pour répliquer la structure de dossiers dans Dynamic Media Classic, sélectionnez l’option Inclure les sous-dossiers lorsque vous téléchargez des fichiers par FTP.)
 * La réorganisation des dossiers au sein du système, une fois les fichiers téléchargés, s’avère beaucoup plus difficile que le démarrage avec une structure de dossiers soigneusement étudiée.
 
-La technique de nommage des dossiers et la structure que vous choisissez pour stocker votre contenu dans Scene7 Publishing System dépendent des besoins de votre entreprise. Voici quelques exemples de structure de dossiers :
+L’approche et la structure de nommage de dossiers que vous choisissez pour stocker votre contenu dans Dynamic Media Classic dépendent des besoins de votre entreprise. Voici quelques exemples de structure de dossiers :
 
 **Les dossiers basés sur** le SKU sont nommés en fonction des SKU ou des numéros d’article. Par exemple, des dossiers distincts sont créés pour les séries de numéros 0-, 20-, 30-.
 
@@ -154,21 +154,19 @@ La technique de nommage des dossiers et la structure que vous choisissez pour st
 
 Vous pouvez télécharger des fichiers à partir du bureau ou des dossiers complets par FTP (File Transfer Protocol). If you want to upload more than 100 MB of files or upload entire folders and subfolders, select the **VIA FTP** tab.
 
-Si vous avez installé l’application de bureau Scene7 Publishing System, vous pouvez directement faire glisser des fichiers et des dossiers de votre bureau vers le dossier de téléchargement de destination.
+Dynamic Media Classic vous envoie un message électronique vous confirmant à quel moment votre tâche de téléchargement commence et se termine et vous avertissant de tout problème.
 
-Scene7 Publishing System vous envoie un message électronique vous confirmant la date et l’heure de début et de fin de votre tâche de téléchargement, et vous avertissant de problèmes éventuels.
-
-Pendant (ou juste après) une tâche de téléchargement volumineuse, le message « Image non optimisée » risque de s’afficher pour certains nouveaux objets. Ce message s’affiche, car les fichiers ne sont pas encore entièrement traités et ajoutés à SPS. Vous pouvez optimiser ces fichiers ultérieurement (voir [Optimisation des fichiers](application-setup.md#optimize_files)).
+Pendant (ou juste après) une tâche de téléchargement volumineuse, le message « Image non optimisée » risque de s’afficher pour certains nouveaux objets. Ce message s’affiche, car les fichiers ne sont pas encore entièrement traités et ajoutés à Dynamic Media Classic. Vous pouvez optimiser ces fichiers ultérieurement (voir [Optimisation des fichiers](application-setup.md#optimize_files)).
 
 ### Téléchargement de fichiers à l’aide de l’onglet FROM DESKTOP {#upload-files-using-sps-desktop-application}
 
-L’application de bureau Scene7 Publishing System vous permet de télécharger des fichiers et des dossiers en les faisant glisser.
+L’application de bureau Dynamic Media Classic vous permet de télécharger des fichiers et des dossiers en les faisant glisser.
 
-1. Dans l’application de bureau Scene7 Publishing System, sur la barre de navigation globale, cliquez sur **Télécharger**.
+1. In the Dynamic Media Classic Desktop application, on the Global Navigation bar, click **Upload**.
 1. On the Upload page, click the **FROM DESKTOP** tab.
 1. Sur le côté gauche de la page de téléchargement, dans la zone **Sélectionner les fichiers à télécharger** , cliquez sur **Parcourir** pour sélectionner les fichiers ou dossiers à télécharger, puis cliquez sur **Ouvrir**.
 1. Sur le côté droit de la page de téléchargement, dans la zone **Choisir le dossier de destination** , accédez au dossier de destination dans lequel vous souhaitez ajouter les fichiers ou dossiers téléchargés.
-1. (Facultatif) Près du bas de la page de téléchargement, dans le champ Nom **de la** tâche, indiquez le nouveau nom de la tâche de téléchargement. Vous pouvez également simplement utiliser le nom généré par le système par défaut fourni par SPS. La tâche en question, ainsi que les autres tâches de téléchargement et de publication, sont enregistrées sur la page Tâches, sur laquelle vous pouvez vérifier l’état des tâches (voir [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)).
+1. (Facultatif) Près du bas de la page de téléchargement, dans le champ Nom **de la** tâche, indiquez le nouveau nom de la tâche de téléchargement. Vous pouvez également simplement utiliser le nom généré par le système par défaut fourni par Dynamic Media Classic. La tâche en question, ainsi que les autres tâches de téléchargement et de publication, sont enregistrées sur la page Tâches, sur laquelle vous pouvez vérifier l’état des tâches (voir [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)).
 1. (Facultatif) Près du bas de la page de téléchargement, sélectionnez **Publier après le téléchargement** si vous souhaitez publier automatiquement les fichiers que vous téléchargez.
 Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Notez que cette même option est également disponible dans la boîte de dialogue Options tâche.
 1. (Facultatif) Près du bas de la page de téléchargement, sélectionnez **Remplacer dans n’importe quel dossier, même nom de fichier de base, quelle que soit l’extension** , si vous souhaitez que les fichiers que vous téléchargez remplacent les fichiers existants portant le même nom. Notez que cette même option est également disponible dans la boîte de dialogue Options tâche.
@@ -179,7 +177,7 @@ The name of this option could be different, depending on the settings in **Appli
 
 1. Dans la boîte de dialogue Télécharger les options de la tâche, cliquez sur **Enregistrer**.
 1. Dans le coin inférieur droit de la page de téléchargement, cliquez sur **Envoyer le téléchargement**.
-Pour afficher la progression du transfert, cliquez sur **Tâches** dans la barre de navigation globale. Vous pouvez poursuivre votre travail dans Scene7 Publishing System et revenir à la page Tâches à n’importe quel moment pour consulter une tâche en cours. Pour annuler une tâche de téléchargement en cours, cliquez sur **Annuler** en regard de la durée.
+Pour afficher la progression du transfert, cliquez sur **Tâches** dans la barre de navigation globale. Vous pouvez continuer à travailler dans Dynamic Media Classic et revenir à la page Tâches à tout moment pour consulter une tâche en cours. Pour annuler une tâche de téléchargement en cours, cliquez sur **Annuler** en regard de la durée.
 
 ### Téléchargement de fichiers à l’aide de l’onglet FTP VIA {#upload-files-using-via-ftp}
 
@@ -187,8 +185,8 @@ Pour afficher la progression du transfert, cliquez sur **Tâches** dans la barre
 1. Dans Dynamic Media Classic, sur la barre de navigation globale, cliquez sur **Télécharger**.
 1. On the Upload page, click the **VIA FTP** tab.
 1. Sur la gauche de la page de téléchargement, dans la zone **Choisir un dossier FTP pour le téléchargement** , choisissez un dossier FTP à partir duquel télécharger les fichiers.
-1. Sur le côté droit de la page de téléchargement, dans la zone **Choisir la destination** du dossier SPS, choisissez un dossier de destination dans Scene7 Publishing System.
-1. (Facultatif) Près du bas de la page de téléchargement, dans le champ Nom **de la** tâche, indiquez le nouveau nom de la tâche de téléchargement. Vous pouvez également simplement utiliser le nom généré par le système par défaut fourni par SPS. La tâche en question, ainsi que les autres tâches de téléchargement et de publication, sont enregistrées sur la page Tâches, sur laquelle vous pouvez vérifier l’état des tâches (voir [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)).
+1. Sur le côté droit de la page de téléchargement, dans la zone **Choisir le dossier de destination** Dynamic Media, sélectionnez un dossier de destination dans Dynamic Media Classic.
+1. (Facultatif) Près du bas de la page de téléchargement, dans le champ Nom **de la** tâche, indiquez le nouveau nom de la tâche de téléchargement. Vous pouvez également simplement utiliser le nom généré par le système par défaut fourni par Dynamic Media Classic. La tâche en question, ainsi que les autres tâches de téléchargement et de publication, sont enregistrées sur la page Tâches, sur laquelle vous pouvez vérifier l’état des tâches (voir [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)).
 1. (Facultatif) Près du bas de la page de téléchargement, sélectionnez **Publier après le téléchargement** si vous souhaitez publier automatiquement les fichiers que vous téléchargez.
 Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Notez que cette même option est également disponible dans la boîte de dialogue Options tâche.
 1. (Facultatif) Près du bas de la page de téléchargement, sélectionnez **Remplacer dans n’importe quel dossier, même nom de fichier de base, quelle que soit l’extension** , si vous souhaitez que les fichiers que vous téléchargez remplacent les fichiers existants portant le même nom. Notez que cette même option est également disponible dans la boîte de dialogue Options tâche.
@@ -201,7 +199,7 @@ The name of this option could be different, depending on the settings in **Appli
 1. Dans la boîte de dialogue Télécharger les options de la tâche, cliquez sur **Enregistrer**.
 1. Dans le coin inférieur droit de la page de téléchargement, cliquez sur **Envoyer le téléchargement**.
 
-   Pour afficher la progression du transfert, dans la barre de navigation globale, cliquez sur **Tâches**. La page Tâches présente la progression du téléchargement. Vous pouvez poursuivre votre travail dans Scene7 Publishing System et revenir à la page Tâches à n’importe quel moment pour consulter une tâche en cours.
+   Pour afficher la progression du transfert, dans la barre de navigation globale, cliquez sur **Tâches**. La page Tâches présente la progression du téléchargement. Vous pouvez continuer à travailler dans Dynamic Media Classic et revenir à la page Tâches à tout moment pour consulter une tâche en cours.
 
 Pour annuler une tâche de téléchargement en cours, cliquez sur **Annuler** en regard de la durée.
 
@@ -230,7 +228,7 @@ Lors du téléchargement de fichiers, vous pouvez choisir l’une des options su
 Sélectionnez cette option si vous souhaitez extraire automatiquement tous les fichiers de votre fichier ZIP ou TAR téléchargé. Notez que cette même option est également disponible dans la boîte de dialogue Options tâche.
 
    * **Inclure les sous-dossiers** — Disponible uniquement si vous avez sélectionné l&#39;onglet **VIA FTP** .
-Permet de télécharger les sous-dossiers du dossier que vous avez l’intention de télécharger. Les noms du dossier et des sous-dossiers associés que vous téléchargez sont automatiquement saisis dans SPS.
+Permet de télécharger les sous-dossiers du dossier que vous avez l’intention de télécharger. Les noms du dossier et de ses sous-dossiers que vous téléchargez sont automatiquement saisis dans Dynamic Media Classic.
 
    * **Traiter les fichiers** de métadonnées — Disponible uniquement si vous avez sélectionné l&#39;onglet **VIA FTP** . Sélectionnez cette option si vous souhaitez télécharger un fichier XML ou délimité par des tabulations pour ajouter des métadonnées à plusieurs fichiers. Voir [Importer des métadonnées (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
@@ -249,11 +247,11 @@ Permet de télécharger les sous-dossiers du dossier que vous avez l’intention
 
       * **Tolérance** : faites glisser le curseur pour définir une tolérance comprise entre 0 et 1.
 
-* **OPTIONS** DE PROFIL DE COULEUR — Choisissez une conversion de couleur lorsque vous créez des fichiers optimisés utilisés pour la diffusion dynamique de contenu Dynamic Media Classic :
+* **OPTIONS** DE PROFIL DE COULEUR — Choisissez une conversion de couleur lorsque vous créez des fichiers optimisés utilisés pour la diffusion dynamique Dynamic Media Classic :
 
    * **Conservation** des couleurs par défaut : conserve les couleurs de l&#39;image source chaque fois que les images contiennent des informations sur l&#39;espace colorimétrique ; il n’existe aucune conversion de couleur. Pour la plupart des images aujourd’hui, un profil colorimétrique approprié est déjà inclus. Toutefois, si une image source CMJN ne contient pas de profil colorimétrique intégré, les couleurs sont converties dans l’espace colorimétrique sRVB (rouge vert bleu standard). sRVB est l’espace colorimétrique recommandé pour l’affichage d’images sur les pages Web.
 
-   * **Conserver l’espace** colorimétrique d’origine : conserve les couleurs d’origine sans conversion de couleur au moment de l’assimilation dans Scene7 Publishing System. Pour les images sans profil incorporé, toute conversion des couleurs nécessaire aux demandes de traitement de l’image sont effectuées à l’aide des profils colorimétriques par défaut configurés dans les paramètres de publication. Ces profils colorimétriques peuvent ne pas correspondre aux couleurs des fichiers créés avec cette option. Par conséquent, vous avez intérêt à utiliser l’option de conservation des couleurs par défaut.
+   * **Conserver l&#39;espace** colorimétrique d&#39;origine — Conserve les couleurs d&#39;origine sans conversion de couleur au moment de l&#39;assimilation dans Dynamic Media Classic. Pour les images sans profil incorporé, toute conversion des couleurs nécessaire aux demandes de traitement de l’image sont effectuées à l’aide des profils colorimétriques par défaut configurés dans les paramètres de publication. Ces profils colorimétriques peuvent ne pas correspondre aux couleurs des fichiers créés avec cette option. Par conséquent, vous avez intérêt à utiliser l’option de conservation des couleurs par défaut.
 
    * **Personnalisé de > à** — Ouvre les menus afin que vous puissiez choisir un espace colorimétrique Convertir à partir de et Convertir en. Cette option avancée remplace toutes les informations de couleur incorporées dans le fichier source. Sélectionnez cette option uniquement lorsque toutes les images que vous envoyez contiennent des données de profil de couleur incorrectes ou manquantes.
 
@@ -263,7 +261,7 @@ Permet de télécharger les sous-dossiers du dossier que vous avez l’intention
 * **OPTIONS** POSTSCRIPT : vous pouvez pixelliser des fichiers PostScript®, recadrer des fichiers, conserver des arrière-plans transparents, choisir une résolution et choisir un espace colorimétrique.
 (voir [Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)).
 
-* **OPTIONS** PHOTOSHOP — Vous pouvez créer des modèles à partir de fichiers Adobe® Photoshop®, conserver des calques, définir le mode de dénomination des calques, extraire du texte et indiquer le mode d&#39;ancrage des images dans les modèles.
+* **OPTIONS** PHOTOSHOP — Vous pouvez créer des modèles à partir de fichiers Adobe® Photoshop®, conserver les calques, définir le mode de nommage des calques, extraire du texte et indiquer le mode d&#39;ancrage des images dans les modèles.
 (voir [Options de téléchargement des fichiers PSD](psd-files.md#psd_upload_options)).
 
 * **OPTIONS** PDF : vous pouvez pixelliser les fichiers, extraire des mots de recherche et des liens, générer automatiquement un catalogue électronique, définir la résolution et choisir un espace colorimétrique.
