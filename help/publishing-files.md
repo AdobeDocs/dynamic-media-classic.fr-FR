@@ -5,33 +5,36 @@ description: 'null'
 seo-description: Apprenez à publier des fichiers.
 uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
 contentOwner: admin
-content-type: référence
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1657'
+ht-degree: 76%
 
 ---
 
 
 # Publication de fichiers {#publishing-files}
 
-Vous publiez vos fichiers sur les serveurs d’images de Contenu multimédia dynamique. Vous pouvez publier des fichiers une seule fois ou organiser la publication de fichiers selon un calendrier récurrent dans Dynamic Media Classic. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL à partir du système de publication Scene7 et les ajouter à votre site Web ou votre application.
+Vous publiez vos fichiers sur les serveurs Dynamic Media Image Server. Vous pouvez publier des fichiers une seule fois ou organiser Dynamic Media Classic pour publier des fichiers selon un calendrier récurrent. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL de Dynamic Media Classic et les ajouter à votre site Web ou application.
 
-Scene7 Publishing System prend désormais en charge la diffusion de toutes les images et vidéos via HTTP/2. En d’autres termes, une URL publiée ou un code incorporé pour l’image ou la vidéo peut être intégré à toute application qui accepte un fichier hébergé. Ce fichier publié est ensuite diffusé au moyen du protocole HTTP/2. Cette méthode de remise améliore la communication entre les navigateurs et les serveurs, ce qui permet de mieux répondre aux besoins et de bénéficier de meilleurs délais de chargement de tous vos fichiers Dynamic Media Classic. Voir FAQ [sur la diffusion](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)HTTP2 de contenu.
+Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos sur HTTP/2. En d’autres termes, une URL publiée ou un code incorporé pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cet actif publié est ensuite livré au moyen du protocole HTTP/2. Cette méthode de diffusion améliore la manière dont les navigateurs et les serveurs communiquent, ce qui permet de mieux répondre et de mieux charger les ressources Dynamic Media Classic. Voir Diffusion [HTTP2 du FAQ](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)sur le contenu.
 
 ## Publication après le téléchargement {#publish-after-uploading}
 
-Fichiers dans un état publié ou non publié. Par défaut, les fichiers que vous téléchargez dans Dynamic Media Classic sont automatiquement marqués pour publication.
+Fichiers dans un état publié ou non publié. Par défaut, tous les fichiers que vous téléchargez dans Dynamic Media Classic sont automatiquement marqués pour publication.
 
-Pour plus d’informations, voir le PDF [de l’avis de publication](/help/assets/rendering-instant-publish-notification.pdf)instantanée.
+Pour plus d’informations, voir l’avis de publication [instantanée PDF](/help/assets/rendering-instant-publish-notification.pdf).
 
 Pour marquer des fichiers pour publication, utilisez les techniques suivantes :
 
-* **Publier après le téléchargement** Sur la page Télécharger, dans la partie inférieure, sélectionnez Publier après le téléchargement. La valeur par défaut est un état sélectionné.
+* **Publier après le téléchargement** Sur la page de téléchargement, dans la partie inférieure, sélectionnez Publier après le téléchargement. La valeur par défaut est un état sélectionné.
 
-* **Publier après le téléchargement** dans la boîte de dialogue Options de la tâche, sélectionnez Publier après le téléchargement. La valeur par défaut est un état sélectionné.
+* **Publier après le téléchargement** Dans la boîte de dialogue Options de la tâche, sélectionnez Publier après le téléchargement. La valeur par défaut est un état sélectionné.
 
 Certains fichiers « enfants » sont systématiquement marqués pour publication lorsque leurs parents le sont. Ce tableau dresse la liste des fichiers enfants automatiquement marqués pour publication.
 
@@ -46,7 +49,7 @@ Les images dérivées sont automatiquement marquées pour publication lorsque le
 
 ## Création d’une tâche de publication {#creating-a-publish-job}
 
-Créez une tâche de publication pour publier des fichiers que vous avez téléchargés sur les serveurs Dynamic Media Classic, mais que vous avez choisi de ne pas encore publier automatiquement. Vous pouvez réaliser une tâche de publication unique ou planifier la publication périodique de certaines tâches. Dynamic Media Classic propose des options de publication avancées pour la publication sur des serveurs spécifiques et des options de republication de fichiers qui ont déjà été publiés.
+Créez une tâche de publication pour publier des fichiers que vous avez téléchargés sur les serveurs Dynamic Media Classic, mais que vous avez choisi de ne pas publier automatiquement pour le moment. Vous pouvez réaliser une tâche de publication unique ou planifier la publication périodique de certaines tâches. Dynamic Media Classic offres propose des options de publication avancées pour des serveurs spécifiques et des options de republication de fichiers déjà publiés.
 
 **Création d’une tâche de publication**
 
@@ -62,7 +65,7 @@ Créez une tâche de publication pour publier des fichiers que vous avez téléc
 
 1. Cliquez sur **Lancer public.**
 
-SPS assure le suivi des tâches de publication sur la page Tâches. Vous pouvez consulter les tâches de publication sur cette page.
+Dynamic Media Classic effectue le suivi des tâches de publication sur la page Tâches. Vous pouvez consulter les tâches de publication sur cette page.
 
 >[!NOTE]
 >
@@ -78,7 +81,7 @@ Si vous souhaitez que la tâche de publication ait lieu à une date ultérieure,
 
 Pour créer une tâche de publication périodique, sélectionnez l’option Périodique sur la page de publication.
 
-Puis, pour définir la périodicité de la tâche de publication, choisissez une option Répéter : Chaque jour, Une fois par semaine, Une fois par mois ou Personnalisé. Dynamic Media Classic propose des outils de calendrier pour planifier la tâche de publication périodique. Vous pouvez choisir l’option Personnalisé, puis entrer une règle dans la zone Règle pour définir un intervalle de tâche personnalisé 
+Puis, pour définir la périodicité de la tâche de publication, choisissez une option Répéter : Chaque jour, Une fois par semaine, Une fois par mois ou Personnalisé. Dynamic Media Classic propose des outils de calendrier pour la planification de la tâche de publication périodique. Vous pouvez choisir l’option Personnalisé, puis entrer une règle dans la zone Règle pour définir un intervalle de tâche personnalisé 
 
 (voir [Création d’un intervalle de téléchargement ou de publication personnalisé](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval)).
 
@@ -90,13 +93,13 @@ Puis, pour définir la périodicité de la tâche de publication, choisissez une
 
 Vous pouvez afficher les options avancées sur la page de publication et en choisir certaines pour gérer une tâche de publication :
 
-* **Publier pour** Choisissez un type de serveur pour publier des fichiers uniquement sur un serveur spécifique, et non sur tous les serveurs.
+* **Publier pour** Choisir un type de serveur pour publier des fichiers uniquement sur un serveur spécifique, et non sur tous les serveurs.
 
-* **Publier** Par défaut, SPS publie uniquement les fichiers nouveaux qui n’ont pas été publiés auparavant (option Nouveau depuis la dernière publication). Cependant, vous pouvez choisir l’option Publication complète pour publier également les fichiers qui ont été mis à jour ou modifiés depuis leur dernière publication. Choisissez l’option Complet avec données de recherche si vous publiez un catalogue électronique et souhaitez que ses utilisateurs puissent y effectuer des recherches par mot-clé.
+* **Publier** Par défaut, Dynamic Media Classic publie uniquement les fichiers nouveaux qui n’ont pas été publiés auparavant (option Nouveau depuis la dernière publication). Cependant, vous pouvez choisir l’option Publication complète pour publier également les fichiers qui ont été mis à jour ou modifiés depuis leur dernière publication. Choisissez l’option Complet avec données de recherche si vous publiez un catalogue électronique et souhaitez que ses utilisateurs puissent y effectuer des recherches par mot-clé.
 
-* **Exécuter la tâche en tant que** Sélectionnez un nom d’utilisateur dans la liste. Vous pouvez trier les tâches par nom d’utilisateur sur la page Tâches. En choisissant un nom, vous associez une tâche de publication à un utilisateur.
+* **Exécuter la tâche en tant que** Choisissez un nom d’utilisateur dans la liste. Vous pouvez trier les tâches par nom d’utilisateur sur la page Tâches. En choisissant un nom, vous associez une tâche de publication à un utilisateur.
 
-**Notification** HTTP : entrez une URL pour déclencher les tâches de publication suivantes.
+**Notification** HTTP Saisissez une URL pour déclencher les tâches de publication suivantes.
 
 (voir [Utilisation d’une tâche de téléchargement ou de publication comme déclencheur](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)).
 
@@ -122,7 +125,7 @@ Les fichiers non publiés sont indiqués dans l’interface utilisateur par une 
 
    * En mode Affichage de la grille, Affichage par liste ou Affichage des détails, utilisez les méthodes standard de sélection des fichiers pour sélectionner un ou plusieurs fichiers non publiés.
 
-      Sur la barre de navigation globale, cliquez sur **Fichier &gt; Publier**.
+      Sur la barre de navigation globale, cliquez sur **Fichier > Publier**.
 
    * En mode Affichage de la grille, Affichage par liste ou Affichage des détails, cliquez sur l’icône grise et ronde traversée d’une barre oblique, à gauche du nom du fichier.
 
@@ -138,7 +141,7 @@ Les fichiers publiés sont indiqués dans l’interface utilisateur par une icô
 
    * En mode Affichage de la grille, Affichage par liste ou Affichage des détails, sélectionnez un ou plusieurs fichiers publiés.
 
-      On the Global Navigation Bar, click **File &gt; **Unpublish**.
+      On the Global Navigation Bar, click **File > **Unpublish**.
 
    * En mode Affichage de la grille, Affichage par liste ou Affichage des détails, cliquez sur l’icône ronde marquée d’une coche verte située sur la gauche du nom du fichier.
 
@@ -148,15 +151,15 @@ La dernière date de publication d’un fichier apparaît dans la vue Affichage 
 
 ## Fichiers republiés et délais CDN {#republished-assets-and-cdn-delays}
 
-Les fichiers Dynamic Media Classic sont distribués sur le réseau de diffusion de contenu (CDN). CDN est un système de serveurs informatiques reliés en réseau qui coopèrent de manière transparente pour diffuser des contenus, surtout des contenus multimédias volumineux, vers des utilisateurs finaux. Dans le système CDN, le contenu Web est stocké dans des caches Web sur le réseau Internet (appelé réseau cache de périphérie). Le contenu Web est livré aux utilisateurs plus rapidement à partir de ces caches Web.
+Les ressources Dynamic Media Classic sont distribuées sur le réseau CDN (Content diffusion Network). CDN est un système de serveurs informatiques reliés en réseau qui coopèrent de manière transparente pour diffuser des contenus, surtout des contenus multimédias volumineux, vers des utilisateurs finaux. Dans le système CDN, le contenu Web est stocké dans des caches Web sur le réseau Internet (appelé réseau cache de périphérie). Le contenu Web est livré aux utilisateurs plus rapidement à partir de ces caches Web.
 
 Lors du premier téléchargement d’une page Web, les fichiers correspondants sont envoyés à un serveur cache CDN pour y être stockés. Ainsi, au prochain accès de la page Web, le même contenu mis en cache pourra être acheminé plus rapidement à une personne située à proximité. Le contenu étant plus proche de l’utilisateur final, il est livré plus vite. Le système CDN accélère l’affichage des pages Web. Il réduit les besoins en bande passante sur le serveur central dans la mesure où le contenu est diffusé à partir du réseau cache de périphérie, et non pas d’un serveur central à chaque fois.
 
-Le contenu de la nouvelle version de Dynamic Media Classic est immédiatement disponible pour l’utilisateur final et renseigne rapidement le réseau du cache de périphérie. Néanmoins, le contenu venant d’être republié (à savoir des images portant exactement le même nom que les images précédemment publiées vers un serveur d’images) n’est actualisé sur le CDN qu’au bout de 10 heures, au maximum. En fait, l’utilisateur final n’a accès qu’au contenu du cache Web sur le réseau CDN. C’est pourquoi il est possible que les fichiers republiés par Dynamic Media Classic ne semblent pas être destinés aux utilisateurs finaux pendant dix heures.
+Le contenu Dynamic Media Classic récemment publié est immédiatement disponible pour l’utilisateur final et remplit rapidement le réseau de cache de périphérie. Néanmoins, le contenu venant d’être republié (à savoir des images portant exactement le même nom que les images précédemment publiées vers un serveur d’images) n’est actualisé sur le CDN qu’au bout de 10 heures, au maximum. En fait, l’utilisateur final n’a accès qu’au contenu du cache Web sur le réseau CDN. Pour cette raison, il est possible que les fichiers republiés dans Dynamic Media Classic ne s’affichent pas pour les utilisateurs finaux pendant dix heures.
 
 Pour mettre à disposition des fichiers récemment republiés avant ce délai de 10 heures, vous pouvez vider les caches Web sur le CDN. Ce vidage aura pour effet de supprimer l’ancien contenu des caches Web CDN et de le remplacer par les derniers fichiers publiés.
 
-Pour vider le cache, cliquez sur Fichier &gt; Invalider sur le réseau de diffusion de contenu. Tous les fichiers sélectionnés sont supprimés du cache. Si aucun fichier de publication n’est disponible ou si vous n’êtes pas l’administrateur de la société, l’option Supprimer du réseau de redéfinition de contenu est désactivée.
+Pour vider le cache, cliquez sur Fichier > Invalider sur le réseau de diffusion de contenu. Tous les fichiers sélectionnés sont supprimés du cache. Si aucun fichier de publication n’est disponible ou si vous n’êtes pas l’administrateur de la société, l’option Supprimer du réseau de redéfinition de contenu est désactivée.
 
 >[!MORELIKETHIS]
 >
