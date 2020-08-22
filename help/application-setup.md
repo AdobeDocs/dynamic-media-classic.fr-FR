@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
+source-git-commit: ffb8113750e526fe9124a06ac071ceadf23f9f5c
 workflow-type: tm+mt
-source-wordcount: '10982'
+source-wordcount: '10979'
 ht-degree: 68%
 
 ---
@@ -24,7 +24,7 @@ Vous pouvez utiliser les pages Configuration de l’application pour saisir des 
 
 >[!NOTE]
 >
->Seuls les administrateurs Dynamic Media Classic peuvent modifier les paramètres des pages Configuration de l’application.
+>Seuls les administrateurs de Dynamic Media Classic peuvent modifier les paramètres des pages Configuration de l’application.
 
 ## Paramètres généraux {#general-settings}
 
@@ -36,9 +36,9 @@ Lors de la création de compte, Dynamic Media Classic fournit automatiquement le
 
 Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-* **Nom** du serveur publié : ce serveur est le serveur CDN actif utilisé dans tous les appels d’URL générés par le système et spécifique à votre compte. Ne modifiez pas ce nom de serveur à moins que vous ne soyez invité à le faire par un technicien de l’assistance technique Dynamic Media Classic.
+* **Nom** du serveur publié : ce serveur est le serveur CDN actif utilisé dans tous les appels d’URL générés par le système et spécifique à votre compte. Ne modifiez pas le nom de ce serveur, sauf si un technicien de l’assistance technique de Dynamic Media Classic vous le demande.
 
-* **Nom** du serveur d’Origines : ce serveur est utilisé uniquement pour les tests d’assurance qualité. Ne changez pas le nom de ce serveur, sauf si un technicien de l’assistance technique Dynamic Media Classic vous le demande.
+* **Nom** du serveur d’Origines : ce serveur est utilisé uniquement pour les tests d’assurance qualité. Ne modifiez pas le nom de ce serveur, sauf si un technicien de l’assistance technique de Dynamic Media Classic vous le demande.
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Dynamic Media Classic support technician. -->
 
@@ -62,7 +62,7 @@ Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md
 
    `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-   Si le modèle contient uniquement `<ID>`, Dynamic Media Classic remplit la `https://<server>/is/image`zone, où `<server>` est le nom du serveur de publication défini dans Paramètres généraux.
+   Si le modèle contient uniquement `<ID>`, la fonction Contenu multimédia dynamique classique est renseignée `https://<server>/is/image`, où `<server>` est défini le nom du serveur de publication dans Paramètres généraux.
 
    Si vous définissez le modèle CDN Invalidate, que vous sélectionnez une image nommée Backpack_B, puis que vous cliquez sur **Fichier** > **Invalider sur le réseau de diffusion de contenu**, l’URL suivante est générée dans l’interface de CDN Invalidate :
 
@@ -80,7 +80,7 @@ Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md
 
 ### Parcourir
 
-* **Afficher les projets** : détermine si des projets sont disponibles pour organiser vos ressources Dynamic Media Classic. (voir Organisation de votre travail avec des projets).
+* **Afficher les projets** - Détermine si des projets sont disponibles pour organiser vos fichiers Dynamic Media Classic. (voir Organisation de votre travail avec des projets).
 
 * **Afficher l’exemple de contenu** eVideo : activez ou désactivez l’affichage de l’exemple de contenu eVideo.
 
@@ -88,11 +88,11 @@ Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md
 
 * **Afficher les vidéos** codées - Désactivée (désactivée) par défaut.
 
-   Pour rechercher rapidement des vidéos dans Dynamic Media Classic sans avoir à parcourir de nombreux dérivés codés de la même vidéo, laissez cette option désélectionnée (par défaut). Seule la miniature de la vidéo originale, qui est la vidéo source que vous avez téléchargée et utilisée pour créer tous les dérivés, et seule la miniature de la visionneuse de vidéos adaptative « parent », qui contient tous les dérivés « enfants » de la visionneuse de vidéos codées, sont affichées dans l’interface utilisateur.
+   Pour rechercher rapidement des vidéos dans Dynamic Media Classic et les parcourir sans avoir à parcourir de nombreux dérivés codés de la même vidéo, laissez cette option désélectionnée (par défaut). Seule la miniature de la vidéo originale, qui est la vidéo source que vous avez téléchargée et utilisée pour créer tous les dérivés, et seule la miniature de la visionneuse de vidéos adaptative « parent », qui contient tous les dérivés « enfants » de la visionneuse de vidéos codées, sont affichées dans l’interface utilisateur.
 
    Il est toujours possible d’accéder à des vidéos codées individuelles à partir de la vidéo originale ou de la visionneuse de vidéos adaptatives. Pour ce faire, double-cliquez sur l’image miniature de la vidéo pour passer en mode Affichage des détails. Cliquez ensuite sur **Vidéos codées** dans le panneau droit pour accéder à l’intégralité des vidéos « enfants ».
 
-   Vous pouvez également utiliser la commande **Fichier > Retraiter** pour créer d’autres vidéos codées « enfants » directement depuis une visionneuse de vidéos adaptatives. Dynamic Media Classic recherche automatiquement la vidéo Maître &quot;parent&quot; de la visionneuse de vidéos adaptative et l’utilise comme vidéo source pour le transcodage. Cependant, lorsque vous enregistrez les nouvelles vidéos codées individuelles, elles ne sont pas visibles lors d’une recherche ou d’une navigation. Elles restent néanmoins accessibles à partir de l’onglet Vidéos codées dans la vue Affichage des détails.
+   Vous pouvez également utiliser la commande **Fichier > Retraiter** pour créer d’autres vidéos codées « enfants » directement depuis une visionneuse de vidéos adaptatives. Dynamic Media Classic recherche automatiquement la vidéo de Principal &quot;parent&quot; de la visionneuse de vidéos adaptative et l’utilise comme vidéo source pour le transcodage. Cependant, lorsque vous enregistrez les nouvelles vidéos codées individuelles, elles ne sont pas visibles lors d’une recherche ou d’une navigation. Elles restent néanmoins accessibles à partir de l’onglet Vidéos codées dans la vue Affichage des détails.
 
    Voir [Téléchargement et transcodage vidéo](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -100,13 +100,13 @@ Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md
 
    Certaines actions du menu Créer ne fonctionnent qu’avec des vidéos individuelles. C’est la raison pour laquelle il est nécessaire d’afficher toutes les vidéos codées dérivées pouvant être sélectionnées, quelle que soit la façon dont vous définissez le paramètre **Afficher les vidéos codées**. The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
 
-   >[Note]
+   >[!NOTE]
    >
    >Si vous n’avez pas utilisé Dynamic Media Classic pour télécharger et coder vos fichiers vidéo, Dynamic Media Classic affiche toutes vos vidéos codées individuelles, même si cette option est désélectionnée.
 
 * **Afficher le bouton** Actualiser les sous-dossiers : activez ou désactivez l&#39;affichage du bouton Actualiser des sous-dossiers.
 
-### Compte FTP Dynamic Media Classic
+### Compte FTP de Dynamic Media Classic
 
 * **Serveur** : Liste votre serveur de compte FTP.
 
@@ -142,25 +142,25 @@ Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md
 
 ## Utilisation de l’option Écraser les images {#using-the-overwrite-images-option}
 
-Dynamic Media Classic n’autorise pas deux fichiers portant le même nom. L’identifiant Dynamic Media Classic de chaque élément (nom de l’image sans l’extension de fichier) doit être unique. De par cette règle, la boîte de dialogue Télécharger contient des options Ecraser les images. L’effet exact de cette option dépend d’un paramètre pour chaque société Paramètres internes de Dynamic Media Classic.
+Dynamic Media Classic n’autorise pas deux fichiers portant le même nom. L’identifiant Dynamic Media Classic de chaque élément (nom de l’image sans l’extension de fichier) doit être unique. De par cette règle, la boîte de dialogue Télécharger contient des options Ecraser les images. L’effet exact de cette option dépend d’un paramètre pour chaque société Paramètres internes de Contenu multimédia dynamique classique.
 
-Si vous avez précédemment téléchargé des images, puis modifié les fichiers d’origine (ou les avez remplacés), l’option Ecraser sélectionnée indique comment Dynamic Media Classic remplace les images. Aucune donnée sur l’image ne change, mais la nouvelle image remplace l’ancienne. Si le dossier contient également des images qui ne se trouvent pas encore dans Dynamic Media Classic, ces images sont ajoutées.
+Si vous avez précédemment téléchargé des images, puis modifié les fichiers d’origine (ou les avez remplacés), l’option Ecraser sélectionnée indique comment Dynamic Media Classic remplace les images. Aucune donnée sur l’image ne change, mais la nouvelle image remplace l’ancienne. Si le dossier contient également des images qui ne se trouvent pas encore dans Contenu multimédia dynamique classique, ces images sont ajoutées.
 
 Utilisez cette option si les images que vous avez téléchargées ont été modifiées d’une façon ou d’une autre (retouchées, par exemple), mais que la référence à l’image reste inchangée. L’écrasement se révèle particulièrement utile lorsque des fichiers Adobe® PDF sont téléchargés puis extraits. To fine-tune how Dynamic Media Classic *rips* the image, adjust the ICC color profile options in the Upload dialog box and re-upload using the Overwrite feature.
 
-Les identifiants Dynamic Media Classic utilisés pour accéder aux images à partir des serveurs de production proviennent des noms de fichier des images. L’utilisation de caractères majuscules et minuscules dans le nom de fichier est importante, tant pour le remplacement de fichiers existants que pour les ID Dynamic Media Classic utilisés pour accéder à l’image. Assurez-vous que l’utilisation de caractères majuscules et minuscules dans les noms de fichier est correcte avant de procéder au téléchargement dans Dynamic Media Classic pour éviter que les ID Dynamic Media Classic ne diffèrent que par la casse de la même image.
+Les identifiants Dynamic Media Classic utilisés pour accéder aux images à partir des serveurs de production sont dérivés des noms de fichier des images. L’utilisation de caractères majuscules et minuscules dans le nom de fichier est importante, tant pour le remplacement de fichiers existants que pour les identifiants Dynamic Media Classic utilisés pour accéder à l’image. Assurez-vous que l’utilisation de caractères majuscules et minuscules dans les noms de fichier est correcte avant de procéder au téléchargement dans Dynamic Media Classic afin d’éviter que les identifiants Dynamic Media Classic ne diffèrent que par la casse de la même image.
 
 Si vous désactivez cette option, toutes les images dont les noms sont identiques à des images existantes sont considérées comme des doublons et ne sont donc pas ajoutées.
 
 ## Paramètres d’image prédéfinis {#image-presets}
 
-L’écran Paramètres d’image prédéfinis sert à créer et à modifier les paramètres d’image prédéfinis. Les paramètres d’image prédéfinis permettent à Dynamic Media Classic de diffuser des images de manière dynamique à des tailles différentes à partir de la même image originale. Chaque paramètre d’image prédéfini forme un ensemble prédéfini de commandes de dimensionnement et de formatage permettant d’afficher les images. Lorsque vous créez un paramètre d’image prédéfini, vous choisissez une taille pour la diffusion des images. Vous devez également sélectionner les commandes de formatage pour optimiser l’aspect de l’image lors de sa diffusion.
+L’écran Paramètres d’image prédéfinis sert à créer et à modifier les paramètres d’image prédéfinis. Les paramètres d’image prédéfinis permettent à Contenu multimédia dynamique Classic de diffuser des images de manière dynamique à des tailles différentes à partir de la même image originale. Chaque paramètre d’image prédéfini forme un ensemble prédéfini de commandes de dimensionnement et de formatage permettant d’afficher les images. Lorsque vous créez un paramètre d’image prédéfini, vous choisissez une taille pour la diffusion des images. Vous devez également sélectionner les commandes de formatage pour optimiser l’aspect de l’image lors de sa diffusion.
 
 Les administrateurs peuvent créer des paramètres prédéfinis pour l’exportation de fichiers. Les utilisateurs peuvent choisir un paramètre prédéfini au moment de l’exportation des images, qui reformate également les images selon les spécifications définies par l’administrateur.
 
 To open the Image Preset screen, on the Global Navigation bar, click **Setup** > **Image Presets**.
 
-Voir Images [](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)intelligentes.
+Voir Création d’images [](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)intelligentes.
 
 ### Création et modification de paramètres d’image prédéfinis {#creating-and-editing-image-presets}
 
@@ -251,7 +251,7 @@ Pour plus de détails sur l’accentuation, les modes de ré-échantillonnage et
 
 **Couleur** Choisissez les options suivantes :
 
-**Profil** de couleurs de sortie Sélectionnez Utiliser la couleur par défaut ou l’un des profils de couleurs ICC disponibles sur Dynamic Media Classic.
+**Profil** de couleurs de sortie Sélectionnez Utiliser la couleur par défaut ou l’un des profils de couleurs ICC disponibles dans Dynamic Media Classic.
 
 (voir aussi [Profils ICC](icc-profiles.md#icc_profiles)).
 
@@ -263,7 +263,7 @@ Pour plus de détails sur l’accentuation, les modes de ré-échantillonnage et
 
 **Modificateurs** d’URL Si vous préférez spécifier les modificateurs d’URL qui définissent votre paramètre d’image prédéfini plutôt que les paramètres, entrez les modificateurs ici.
 
-**L’exemple d’URL** d’image Liste la chaîne URL &quot;brute&quot; utilisée par le serveur Dynamic Media Image Server pour diffuser des images avec le paramètre d’image prédéfini que vous ajoutez ou modifiez. Cette chaîne URL code tous les paramètres de format que vous sélectionnez sur l’écran Ajouter un paramètre prédéfini ou Modifier le paramètre prédéfini.
+**L’exemple d’URL** d’image Liste la chaîne URL &quot;brute&quot; utilisée par le serveur d’images de Contenu multimédia dynamique pour diffuser des images avec le paramètre d’image prédéfini que vous ajoutez ou modifiez. Cette chaîne URL code tous les paramètres de format que vous sélectionnez sur l’écran Ajouter un paramètre prédéfini ou Modifier le paramètre prédéfini.
 
 ### Modification, suppression ou désactivation d’un paramètre d’image prédéfini {#editing-removing-or-deactivating-an-image-preset}
 
@@ -272,11 +272,11 @@ Pour plus de détails sur l’accentuation, les modes de ré-échantillonnage et
 
    * Click **Edit** and then specify new options in the Edit Preset dialog box.
    * Click **Delete** to remove the preset from the list.
-   * Décochez la case Actif en regard d’un nom de paramètre prédéfini pour le supprimer de l’ensemble de l’interface utilisateur Dynamic Media Classic pour les utilisateurs de MediaPortal.
+   * Décochez la case Principale en regard d’un nom de paramètre prédéfini pour le supprimer de l’ensemble de l’interface utilisateur de Contenu multimédia dynamique classique pour les utilisateurs de MediaPortal.
 
 ## Activation ou désactivation des paramètres prédéfinis de vidéo adaptative {#activating-or-deactivating-adaptive-video-presets}
 
-Dynamic Media Classic offres les paramètres prédéfinis de codage de vidéo adaptative. Il s’agit d’une liste type de paramètres prédéfinis qui associe dans un seul groupe les paramètres prédéfinis de vidéo adaptative 16:9 et les paramètres prédéfinis de vidéo adaptative 4:3. Ces paramètres prédéfinis représentent les paramètres de codage les plus courants et sont optimisés pour la lecture sur périphériques mobiles, tablettes cibles et ordinateurs.
+Paramètres prédéfinis de codage de vidéo adaptative des offres de contenu multimédia classique dynamique. Il s’agit d’une liste type de paramètres prédéfinis qui associe dans un seul groupe les paramètres prédéfinis de vidéo adaptative 16:9 et les paramètres prédéfinis de vidéo adaptative 4:3. Ces paramètres prédéfinis représentent les paramètres de codage les plus courants et sont optimisés pour la lecture sur périphériques mobiles, tablettes cibles et ordinateurs.
 
 Seuls les paramètres prédéfinis de codage de « vidéo adaptative » sont activés par défaut. Vous pouvez les désactiver, si vous le souhaitez. Les paramètres prédéfinis de vidéo adaptative inactifs n’apparaissent pas sous forme d’option sélectionnable dans la section eVideo de la boîte de dialogue Télécharger les options de la tâche.
 
@@ -294,7 +294,7 @@ Pour choisir un paramètre de codage prédéfini, dans le coin inférieur droit 
 
 >[!NOTE]
 >
->A l’exception de la « vidéo adaptative », qui est activée par défaut, il est possible que les autres paramètres prédéfinis de codage de vidéo adaptative ou de vidéo unique ne s’affichent pas tous dans la boîte de dialogue Télécharger les options de la tâche. Les administrateurs Dynamic Media Classic déterminent quels paramètres prédéfinis de codage vidéo sont visibles dans la boîte de dialogue Télécharger les options de la tâche.
+>A l’exception de la « vidéo adaptative », qui est activée par défaut, il est possible que les autres paramètres prédéfinis de codage de vidéo adaptative ou de vidéo unique ne s’affichent pas tous dans la boîte de dialogue Télécharger les options de la tâche. Les administrateurs de Dynamic Media Classic déterminent quels paramètres prédéfinis de codage vidéo sont visibles dans la boîte de dialogue Télécharger les options de la tâche.
 
 * Choisissez l’un des paramètres prédéfinis de codage de vidéo adaptative ou de codage unique suivants :
 
@@ -304,7 +304,7 @@ Pour choisir un paramètre de codage prédéfini, dans le coin inférieur droit 
 
    **Vidéo adaptative 4:3**
 
-   Créez des vidéos de rapport L/H 4:3 pour la diffusion sur les ordinateurs, les appareils mobiles (iPhone, iPad, Android) et les tablettes (iPad, Android), en optimisant la résolution et le débit qui correspondent le mieux à la vitesse de connexion du lecteur.
+   Créez des vidéos de rapport L/H 4:3 pour la diffusion sur les ordinateurs de bureau, les appareils mobiles (iPhone, iPad, Android) et les tablettes (iPad, Android), en optimisant la résolution et le débit qui correspondent le mieux à la vitesse de connexion du lecteur.
 
    **Vidéo adaptative**
 
@@ -322,7 +322,7 @@ Pour choisir un paramètre de codage prédéfini, dans le coin inférieur droit 
 
    **Paramètres prédéfinis de codage uniques**
 
-   >[REMARQUE]
+   >[!NOTE]
    >
    >pour diffuser de la vidéo sur des iPads, vous pouvez choisir un paramètre de codage prédéfini Mobile ou Tablette. Les paramètres prédéfinis Tablette sont spécialement conçus pour l’iPad, généralement avec une meilleure résolution et une qualité supérieure pour tirer parti de l’écran plus large et de la connexion à bande passante plus puissante. Afin de diffuser des fichiers vidéo codés avec un paramètre prédéfini Tablette, vous devez inclure un code de détection de périphérique sur votre site ou application mobile. Ce code bascule entre une expérience vidéo iPhone ou iPad, selon le périphérique de lecture. Le choix d’un paramètre prédéfini Mobile pour la diffusion de fichiers vidéo sur l’iPad représente un flux de travail plus simple, car vous pouvez utiliser le même fichier vidéo pour les iPhones et les iPads. En revanche, la qualité est normalisée sur la résolution iPhone, qui est inférieure.
 
@@ -336,7 +336,7 @@ Après avoir cliqué sur **Démarr. téléch.**, le fichier vidéo original est 
 
 Les paramètres des options de codage prédéfinies sont comme suit :
 
-**Vitesse** de connexion à la Cible Vitesse de connexion à Internet de l&#39;utilisateur final ciblé.
+**Vitesse** de connexion à la cible Vitesse de connexion à Internet de l&#39;utilisateur final ciblé.
 
 **Suffixe** de fichier codé Suffixe joint au fichier vidéo codé à des fins d’identification.
 
@@ -440,21 +440,21 @@ Pour plus d’informations sur les options de codage prédéfinies, voir [A prop
 
 >[!NOTE]
 >
->**Avis** de fin de vie des visionneuses Flash - Depuis le 31 janvier 2017, Adobe Classic a officiellement mis fin à la prise en charge de la plate-forme de la visionneuse Flash. Pour plus d&#39;informations sur cette modification importante, consultez le site Web de la FAQ suivante : [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Avis** de fin de vie pour les visionneuses de Flashs - À compter du 31 janvier 2017, l’Adobe Dynamic Media Classic a officiellement mis fin à la prise en charge de la plate-forme du lecteur de Flash. Pour plus d&#39;informations sur cette modification importante, consultez le site Web de la FAQ suivante : [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 Un *paramètre prédéfini de visionneuse* est un ensemble de paramètres qui déterminent comment les utilisateurs voient les fichiers de média enrichi sur leur écran d’ordinateur et périphériques mobiles. En tant qu’administrateur, vous pouvez créer des paramètres de visionneuse prédéfinis. Des paramètres sont disponibles pour un ensemble d’options de configuration de la visionneuse. Vous pouvez, par exemple, modifier la taille d’affichage de la visionneuse, le comportement du zoom, les modes de couleurs, les bordures et les polices.
 
-Il est recommandé d’utiliser les visionneuses de vidéos HTML5 Dynamic Media Classic. Les paramètres prédéfinis utilisés dans des visionneuses de vidéos HTML5 sont des lecteurs vidéo fiables. En combinant dans un seul lecteur la capacité de concevoir les composants de lecture à l’aide de code HTML5 et CSS, d’avoir accès à la lecture incorporée et d’utiliser les flux continus adaptatifs et progressifs selon la capacité du navigateur, vous pouvez étendre la portée de votre contenu multimédia aux utilisateurs d’appareils mobiles, de tablettes et d’ordinateurs et garantir ainsi une expérience vidéo rationalisée.
+En règle générale, il est recommandé d’utiliser les visionneuses de vidéos HTML5 Dynamic Media Classic. Les paramètres prédéfinis utilisés dans des visionneuses de vidéos HTML5 sont des lecteurs vidéo fiables. En combinant dans un seul lecteur la capacité de concevoir les composants de lecture à l’aide de code HTML5 et CSS, d’avoir accès à la lecture incorporée et d’utiliser les flux continus adaptatifs et progressifs selon la capacité du navigateur, vous pouvez étendre la portée de votre contenu multimédia aux utilisateurs d’appareils mobiles, de tablettes et d’ordinateurs et garantir ainsi une expérience vidéo rationalisée.
 
-Voir [A propos des visionneuses](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) HTML5 dans le Guide de référence des visionneuses Adobe.
+Voir [A propos des visionneuses](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) HTML5 dans le Guide de référence des visionneuses d’Adobes.
 
 Voir Matrice [de compatibilité des paramètres prédéfinis de la visionneuse](application-setup.md#scene7_viewer_preset_compatibility_matrix)Dynamic Media Classic.
 
 Reportez-vous à la section [Meilleure pratique : Utilisation de la visionneuse de vidéos HTML5](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer).
 
-Selon la visionneuse, vous pouvez ajouter des fonctions communautaires. Ces fonctions comprennent des boutons d’incorporation, d’e-mail, de lien et de visite de site. Ces boutons permettent aux utilisateurs de partager le lecteur avec d’autres personnes ou d’ouvrir le site Web Dynamic Media Classic.
+Selon la visionneuse, vous pouvez ajouter des fonctions communautaires. Ces fonctions comprennent des boutons d’incorporation, d’e-mail, de lien et de visite de site. Ces boutons permettent aux utilisateurs de partager la visionneuse avec d’autres personnes ou d’ouvrir le site Web Contenu multimédia dynamique classique.
 
-Voir aussi Exemples [de bibliothèques de référence des visionneuses](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobe.
+Voir aussi Exemples [de bibliothèque de référence des visionneuses d’](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobes.
 
 ### Prise en charge des visionneuses pour les pages Web adaptées {#viewer-support-for-responsive-designed-web-pages}
 
@@ -474,7 +474,7 @@ Les administrateurs peuvent créer et personnaliser les types de paramètres pr�
 
 **Visionneuse à 360°** Fournit plusieurs vues d’une image afin que les utilisateurs puissent tourner l’objet pour examiner les différents côtés et angles.
 
-**Visionneuse** de vidéos Affiche les vidéos en utilisant les dimensions de résolution du fichier source ou une taille personnalisée. Dynamic Media Classic est fourni avec de nombreux paramètres prédéfinis de visionneuse pour la lecture vidéo. En outre, si vous êtes un administrateur, vous pouvez créer des paramètres prédéfinis personnalisés pour la visionneuse de vidéos. Il existe plus d’une douzaine de paramètres distincts pour la configuration de la visionneuse de vidéos. Vous pouvez configurer la taille, la couleur de premier plan et d’arrière-plan, les commandes vidéo et audio, la barre de progression, l’habillage de l’interface utilisateur, les fonctions sociales et l’aide.
+**Visionneuse** de vidéos Affiche les vidéos en utilisant les dimensions de résolution du fichier source ou une taille personnalisée. Dynamic Media Classic est fourni avec de nombreux paramètres prédéfinis de visionneuse pour la lecture vidéo. Si vous êtes un administrateur, vous pouvez créer des paramètres prédéfinis personnalisés pour la visionneuse de vidéos. Il existe plus d’une douzaine de paramètres distincts pour la configuration de la visionneuse de vidéos. Vous pouvez configurer la taille, la couleur de premier plan et d’arrière-plan, les commandes vidéo et audio, la barre de progression, l’habillage de l’interface utilisateur, les fonctions sociales et l’aide.
 
 **Les visionneuses** de zoom Offre trois types de visionneuses de zoom :
 
@@ -486,19 +486,19 @@ Pour déterminer la quantité totale de bande passante allouée à la visionneus
 
 Par exemple, si la taille de l’image principale est de 350 x 350 pixels et que le facteur de zoom est de 3, la taille d’image de la fenêtre déroulante sera de 1 050 x 1 050 pixels. Si la taille de l’image principale est de 300 x 300 pixels et que le facteur de zoom est de 4, la taille d’image de la fenêtre déroulante sera de 1 200 x 1 200 pixels. Selon la valeur de qualité JPEG sélectionnée (une valeur comprise entre 80 et 90 est recommandée), il est possible de réduire sensiblement la taille du fichier. Selon la taille de l’image principale, un facteur de zoom de 2,5 à 4 est recommandé.
 
-### Matrice de compatibilité des paramètres prédéfinis de la visionneuse Dynamic Media Classic {#scene-viewer-preset-compatibility-matrix}
+### Matrice de compatibilité des paramètres prédéfinis de la visionneuse de médias classiques dynamiques {#scene-viewer-preset-compatibility-matrix}
 
-**Avis** de fin de vie des visionneuses Flash : Depuis le 31 janvier 2017, Adobe Classic a officiellement mis fin à la prise en charge de la plate-forme de la visionneuse Flash.
+**Avis** de fin de vie pour les lecteurs de Flash : Depuis le 31 janvier 2017, l’Adobe Dynamic Media Classic a officiellement mis fin à la prise en charge de la plate-forme du lecteur de Flash.
 
 Pour plus d&#39;informations sur cette modification importante, consultez le site Web de la FAQ suivante : [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
-Le tableau suivant identifie les paramètres prédéfinis actuellement disponibles pour la visionneuse Dynamic Media Classic. Ce tableau indique également la compatibilité de la visionneuse avec les périphériques mobiles et fixes, et la technologie utilisée pour chacune des visionneuses données.
+Le tableau suivant identifie les paramètres prédéfinis actuellement disponibles pour la visionneuse Contenu multimédia dynamique classique. Ce tableau indique également la compatibilité de la visionneuse avec les périphériques mobiles et fixes, et la technologie utilisée pour chacune des visionneuses données.
 
-Voir aussi Exemples [de bibliothèques de référence des visionneuses](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobe.
+Voir aussi Exemples [de bibliothèque de référence des visionneuses d’](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobes.
 
 Pour en savoir plus sur les versions de navigateur Web et de système d’exploitation prises en charge pour les visionneuses, consultez les notes de mise à jour des visionneuses.
 
-Voir Notes [de mise à jour des références des visionneuses](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)Adobe.
+Voir les Notes [de mise à jour de référence des visionneuses d’](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)Adobes.
 
 |  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android | Tablette Android |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -570,7 +570,7 @@ Créez et gérez des paramètres prédéfinis de la visionneuse sur l’écran P
 
 L’écran Paramètres prédéfinis de la visionneuse propose des outils permettant d’effectuer les tâches suivantes :
 
-**Ajouter un paramètre prédéfini** Cliquez sur Ajouter et faites vos choix dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse.
+**ajouter un paramètre prédéfini** Cliquez sur Ajouter et faites vos choix dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse.
 
 Voir [Ajout et modification des paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -589,9 +589,9 @@ Voir [Exportation d’un paramètre prédéfini](application-setup.md#exporting_
 * Dans la liste déroulante **Actifs/Inactifs**, choisissez une option pour afficher les paramètres prédéfinis actifs, les paramètres prédéfinis inactifs ou tous les paramètres prédéfinis.
 * Dans la liste déroulante **Visionneuse**, choisissez une option pour afficher uniquement les visionneuses d’un certain type. Sélectionnez **Toutes les visionneuses** pour les voir toutes.
 
-**Tri des paramètres prédéfinis** Cliquez sur un en-tête de colonne (Actif, Type, Paramètre prédéfini ou Platform) pour trier la liste sur une colonne. Cliquez à nouveau sur un en-tête de colonne pour trier la liste dans l’ordre décroissant (ou croissant).
+**Tri des paramètres prédéfinis** Cliquez sur un en-tête de colonne (Principal, Type, Paramètre prédéfini ou Plate-forme) pour trier la liste sur une colonne. Cliquez à nouveau sur un en-tête de colonne pour trier la liste dans l’ordre décroissant (ou croissant).
 
-**Activation et désactivation des paramètres prédéfinis** Sélectionnez un paramètre prédéfini et cliquez sur son option Actif pour l’activer ou le désactiver.
+**Activation et désactivation des paramètres prédéfinis** Sélectionnez un paramètre prédéfini et cliquez sur son Principal pour l’activer ou le désactiver.
 
 Voir [Activation ou désactivation des paramètres prédéfinis de la visionneuse](application-setup.md#activating_or_deactivating_viewer_presets).
 
@@ -613,11 +613,11 @@ Voir [Exportation d’un paramètre prédéfini](application-setup.md#exporting_
 
 1. Dans l’écran Paramètres prédéfinis de la visionneuse, ajoutez ou modifiez le paramètre prédéfini de visionneuse.
 
-   **Ajouter** Cliquez sur Ajouter dans la barre d’outils. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme et un type de fichier de média enrichi. 
+   **ajouter** Cliquez sur Ajouter dans la barre d’outils. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme et un type de fichier de média enrichi. 
 
    Cliquez sur **Enregistrer en tant que** lorsque vous avez terminé de créer le paramètre prédéfini de la visionneuse.
 
-   **Ajouté à partir d’un paramètre prédéfini** de visionneuse existant Dans le tableau, sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis cliquez sur Modifier dans la barre d’outils.
+   **ajouter à partir d’un paramètre prédéfini** de visionneuse existant Dans le tableau, sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis cliquez sur Modifier dans la barre d’outils.
 
    Après avoir reconfiguré la visionneuse de vidéos, cliquez sur **Enregistrer en tant que** pour enregistrer le paramètre prédéfini sous un autre nom dans le champ Nom du paramètre prédéfini.
 
@@ -626,7 +626,7 @@ Voir [Exportation d’un paramètre prédéfini](application-setup.md#exporting_
 1. Dans l’écran Configurer la visionneuse, dans le champ Nom du paramètre prédéfini, saisissez ou modifiez le nom du paramètre prédéfini.
 1. Définissez les options restantes si vous le souhaitez.
 
-   >[REMARQUE]
+   >[!NOTE]
    >
    >choisissez Identique à la source pour dimensionner automatiquement la visionneuse de vidéos selon la taille de résolution de la vidéo codée. Si vous sélectionnez cette option, vous ne pouvez pas saisir la largeur d’affichage et la hauteur d’affichage. Ces valeurs proviennent directement de la vidéo elle-même. Si vous choisissez Identique à la source, définissez l’option Taille de marge, de sorte qu’elle reflète les dimensions d’habillage en dehors de la zone de lecture vidéo. Cette taille de marge correspond à la hauteur et à la largeur, en pixels, des commandes vidéo. Vous pouvez utiliser l’illustration suivante pour vous aider à déterminer les tailles des marges à utiliser.*
 
@@ -641,7 +641,7 @@ Voir [Exportation d’un paramètre prédéfini](application-setup.md#exporting_
 
 Vous pouvez exporter un paramètre prédéfini de visionneuse HTML5 existant afin de l’utiliser comme base pour créer un nouveau paramètre prédéfini de visionneuse HTML5. Cette méthode est pratique car elle vous évite d’avoir à créer une visionneuse depuis le début. En effet, il vous suffit d’exporter un paramètre prédéfini présentant des caractéristiques et un comportement semblables à ce que vous recherchez, puis de l’utiliser comme point de départ pour vos modifications.
 
-Notez que tous les fichiers CSS prédéfinis de visionneuse prêts à l’emploi par défaut de Dynamic Media Classic utilisent des chemins de diffusion d’images relatifs pointant vers des fichiers situés sur `Scene7SharedAssets`. Par exemple, voici un chemin relatif vers un fichier d’image dans un fichier CSS de paramètre prédéfini de visionneuse situé sur `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`Cependant, si vous hébergez des fichiers CSS de visionneuse sur votre propre site, vous devez résoudre ce chemin relatif d’image en utilisant un chemin explicite vers le serveur d’images dans votre propre environnement. À des fins d’illustration, si vous deviez mettre à jour le chemin relatif au-dessus d’un chemin explicite, il peut ressembler à ce qui suit, où `https://s7d1.scene7.com` est le chemin direct vers votre serveur d’images : `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Notez que tous les fichiers CSS prédéfinis de visionneuse prêts à l’emploi par défaut dans Dynamic Media Classic utilisent des chemins de diffusion d’images relatifs pointant vers des fichiers situés sur `Scene7SharedAssets`. Par exemple, voici un chemin relatif vers un fichier d’image dans un fichier CSS de paramètre prédéfini de visionneuse situé sur `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`Cependant, si vous hébergez des fichiers CSS de visionneuse sur votre propre site, vous devez résoudre ce chemin relatif d’image en utilisant un chemin explicite vers le serveur d’images dans votre propre environnement. À des fins d’illustration, si vous deviez mettre à jour le chemin relatif au-dessus d’un chemin explicite, il peut ressembler à ce qui suit, où `https://s7d1.scene7.com` est le chemin direct vers votre serveur d’images : `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **Pour exporter un paramètre prédéfini de visionneuse HTML5**
 
@@ -664,11 +664,11 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
    Après l’exportation, vous obtenez un fichier CSS. Téléchargez et décompressez l’archive.
 
 1. Ouvrez le fichier CSS dans un éditeur CSS, effectuez vos modifications, puis enregistrez le fichier.
-1. Téléchargez le fichier CSS vers Dynamic Media Classic.
+1. Téléchargez le fichier CSS dans Dynamic Media Classic.
 
    Voir [Transfert de fichiers](uploading-files.md#uploading_files).
 
-1. Publiez le fichier CSS sur le serveur Dynamic Media Image Server.
+1. Publiez le fichier CSS sur le serveur d’images Dynamic Media.
 
    Voir [Publication de fichiers](publishing-files.md#publishing_files).
 
@@ -740,7 +740,7 @@ Vous ne pouvez pas modifier le code dans la boîte de dialogue Intégrer le code
 
 ## Configuration des visionneuses par défaut {#configuring-default-viewers}
 
-Vous pouvez utiliser les visionneuses par défaut pour configurer la visionneuse par défaut associée à un fichier lorsque vous utilisez Prévisualisation dans Dynamic Media Classic. Vous pouvez configurer l’expérience de prévisualisation par défaut pour les types de fichier suivants :
+Vous pouvez utiliser les visionneuses par défaut pour configurer la visionneuse par défaut associée à un fichier lorsque vous utilisez la Prévisualisation dans Contenu multimédia dynamique classique. Vous pouvez configurer l’expérience de prévisualisation par défaut pour les types de fichier suivants :
 
 * Image
 * Vidéo
@@ -761,7 +761,7 @@ Vous pouvez utiliser les visionneuses par défaut pour configurer la visionneuse
 
 ## Vues des métadonnées {#metadata-views}
 
-Les *métadonnées* sont des informations normalisées concernant un fichier. Vous pouvez utiliser les métadonnées pour rationaliser votre flux de travail, organiser vos fichiers et améliorer les performances de recherche. Dynamic Media Classic prend en charge les normes IPTC (International Press Telecommunications Council) et XMP (extensible metadata platform). Avant d’afficher ou de saisir des métadonnées pour un fichier en mode Affichage des détails, les utilisateurs peuvent ouvrir le menu Vues des métadonnées et choisir le jeu de champs de métadonnées à afficher ou utiliser pour décrire le fichier. 
+Les *métadonnées* sont des informations normalisées concernant un fichier. Vous pouvez utiliser les métadonnées pour rationaliser votre flux de travail, organiser vos fichiers et améliorer les performances de recherche. Dynamic Media Classic prend en charge la norme IPTC (International Press Telecommunications Council) et la norme XMP (extensible metadata platform). Avant d’afficher ou de saisir des métadonnées pour un fichier en mode Affichage des détails, les utilisateurs peuvent ouvrir le menu Vues des métadonnées et choisir le jeu de champs de métadonnées à afficher ou utiliser pour décrire le fichier. 
 
 Dynamic Media Classic est fourni avec des Vues de métadonnées prédéfinies et les administrateurs peuvent créer leurs propres Vues de métadonnées pour que les utilisateurs puissent choisir lorsqu’ils saisissent des métadonnées.
 
@@ -816,7 +816,7 @@ Créez un paramètre prédéfini de métadonnées pour chaque ensemble de valeur
 
 ## Champs personnalisés {#user-defined-fields}
 
-Un administrateur de portail multimédia ou un administrateur d’entreprise peut créer des champs de métadonnées définis par l’utilisateur personnalisés. Les champs personnalisés peuvent vous aider à organiser les fichiers dans Dynamic Media Classic. Si nécessaire, vous pouvez marquer les champs comme Actifs. Quand ils sont activés, les noms de ces champs de métadonnées personnalisés s’affichent dans le panneau Métadonnées de la vue de détails. Les utilisateurs peuvent renseigner les champs de métadonnées définies par les utilisateurs pour décrire les fichiers. Ils peuvent également définir un champ de métadonnées utilisateur comme critère de recherche.
+Un administrateur de portail multimédia ou un administrateur d’entreprise peut créer des champs de métadonnées définis par l’utilisateur personnalisés. Les champs personnalisés peuvent vous aider à organiser les fichiers dans Dynamic Media Classic. Si nécessaire, vous pouvez marquer les champs comme Principaux. Quand ils sont activés, les noms de ces champs de métadonnées personnalisés s’affichent dans le panneau Métadonnées de la vue de détails. Les utilisateurs peuvent renseigner les champs de métadonnées définies par les utilisateurs pour décrire les fichiers. Ils peuvent également définir un champ de métadonnées utilisateur comme critère de recherche.
 
 Pour utiliser efficacement les champs de métadonnées définis par l’utilisateur, retardez l’heure d’activation d’un fichier pour un lancement ou une vente spécifique. Vous définissez un champ &quot;activation&quot;, en fonction du type *Date*. Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Dynamic Media Classic vérifie l’état de publication d’un fichier et l’historique de publication. S’il n’est pas dans le délai d’activation, l’état de publication s’affiche comme &quot;Non publié&quot;.
 
@@ -876,7 +876,7 @@ Pour ouvrir cet écran, choisissez **Configuration** > **Configuration de l’a
 
 **Suppression d’un champ** Sélectionnez le champ, puis cliquez sur **Supprimer**.
 
-**Activer le champ** Cliquez pour sélectionner ou désélectionner l’option Actif en regard du nom d’un champ. Si vous êtes un administrateur dans la société, cette option peut ne pas s’afficher. Cette option étant liée à MediaPortal, vous devez sélectionner (activer) Afficher les fonctionnalités MediaPortal dans la configuration personnelle pour afficher les champs activés.
+**Activer le champ** Cliquez pour sélectionner ou désélectionner l’option Principale en regard du nom d’un champ. Si vous êtes un administrateur dans la société, cette option peut ne pas s’afficher. Cette option étant liée à MediaPortal, vous devez sélectionner (activer) Afficher les fonctionnalités MediaPortal dans la configuration personnelle pour afficher les champs activés.
 
 ## Optimisation des fichiers {#optimize-files}
 
@@ -891,11 +891,11 @@ Dynamic Media Classic effectue des recherches dans vos fichiers et optimise uniq
 
 ## Paramètres prédéfinis d’ensemble par lot {#batch-set-presets}
 
-Utilisez les paramètres prédéfinis d’ensemble par lot pour créer automatiquement des visionneuses d’images ou des visionneuses à 360° pendant l’exécution d’une tâche de téléchargement de fichiers vers Dynamic Media Classic.
+Utilisez les paramètres prédéfinis d’ensemble par lot pour créer automatiquement des visionneuses d’images ou des visionneuses à 360° pendant l’exécution d’une tâche de téléchargement de fichiers dans Contenu multimédia dynamique classique.
 
 Les administrateurs d’entreprise définissent d’abord des conventions d’affectation de nom pour les fichiers qu’ils souhaitent regrouper dans un ensemble. Vous pouvez ensuite créer un paramètre prédéfini d’ensemble par lot pour référencer ces images. Chaque paramètre prédéfini correspond à un ensemble d’instructions indépendant à nom unique qui définit comment créer la visionneuse en utilisant des images correspondant aux conventions d’affectation de nom définies dans la recette de paramètres prédéfinis.
 
-Tous les paramètres prédéfinis d’ensemble par lot actifs d’une entreprise sont répertoriés dans la boîte de dialogue Télécharger les options de la tâche. Ainsi, vous pouvez indiquer le paramètre prédéfini qui sera appliqué lors de chaque téléchargement. Les administrateurs d’entreprise verront tous les paramètres prédéfinis d’ensemble par lot actifs et inactifs. Lorsque vous téléchargez des fichiers, Dynamic Media Classic crée automatiquement une visionneuse contenant tous les fichiers qui correspondent à la convention d’affectation de nom définie dans les paramètres prédéfinis actifs.
+Tous les paramètres prédéfinis d’ensemble par lot actifs d’une entreprise sont répertoriés dans la boîte de dialogue Télécharger les options de la tâche. Ainsi, vous pouvez indiquer le paramètre prédéfini qui sera appliqué lors de chaque téléchargement. Les administrateurs d’entreprise verront tous les paramètres prédéfinis d’ensemble par lot actifs et inactifs. Lorsque vous téléchargez des fichiers, Dynamic Media Classic crée automatiquement une visionneuse contenant tous les fichiers qui correspondent à la convention d’affectation de nom définie dans les principaux paramètres prédéfinis.
 
 ### Affectation de nom par défaut {#default-naming}
 
@@ -921,7 +921,7 @@ Deux éléments sont disponibles pour la définition : Correspondance et Nom de
 
 ### Création d’un paramètre prédéfini d’ensemble par lot {#creating-a-batch-set-preset}
 
-Dynamic Media Classic utilise des paramètres prédéfinis d’ensemble par lot pour organiser les fichiers qui partagent des informations ou du contenu communs dans des visionneuses d’images en vue de les afficher dans les visionneuses. Les recettes de paramètres prédéfinis d’ensemble par lot s’exécutent automatiquement en même temps que les tâches d’importation de ressources planifiées dans Dynamic Media Classic.
+Dynamic Media Classic utilise des paramètres prédéfinis d’ensemble par lot pour organiser les fichiers qui partagent des informations ou du contenu communs dans des visionneuses d’images en vue de les afficher dans les visionneuses. Les recettes de paramètres prédéfinis d’ensemble par lot s’exécutent automatiquement en même temps que les tâches d’importation de fichiers planifiées dans Contenu multimédia dynamique classique.
 
 Utilisez Paramètre prédéfini d’ensemble par lot pour créer, modifier et gérer vos paramètres prédéfinis d’ensemble par lot. Vous pouvez créer autant de paramètres prédéfinis d’ensemble par lot que vous le souhaitez pour couvrir l’ensemble des tâches d’assimilation des fichiers. Il existe deux formes de définition de paramètre prédéfini d’ensemble par lot : une pour la convention d’affectation de nom par défaut que vous avez définie et une pour les conventions d’affectation de nom personnalisées que vous créez en cas de besoin.
 
@@ -943,8 +943,8 @@ Voir également [Création d’un paramètre prédéfini d’ensemble par lot po
    * Si vous appliquez une convention d’affectation de nom par défaut que vous avez précédemment définie sous Configuration de l’application > Paramètres prédéfinis d’ensemble par lot > Affectation de nom par défaut, développez **Conventions d’affectation de nom** puis, dans la liste déroulante Affectation de nom de fichier, cliquez sur **Par défaut**.
    * Pour définir une convention d’affectation de nom quand vous configurez le paramètre prédéfini, développez **Conventions d’affectation de nom** puis, dans la liste déroulante Affectation de nom de fichier, cliquez sur **Personnalisé**.
 
-1. Pour l’ordre des séquences, définissez l’ordre des images une fois que la visionneuse est regroupée dans Dynamic Media Classic. Par défaut, les fichiers seront classés par ordre alphanumérique. Cependant, vous pouvez utiliser une liste d’expressions courantes de format CSV (valeurs séparées par des virgules) pour définir l’ordre.
-1. Dans Options de création et d’affectation de nom de l’ensemble, indiquez le suffixe ou le préfixe du nom de base que vous avez défini dans la convention d’affectation de nom. Définissez également l’emplacement de création de la visionneuse d’images dans la structure de dossiers Dynamic Media Classic.
+1. Pour l’ordre des séquences, définissez l’ordre des images une fois que la visionneuse est regroupée dans Contenu multimédia dynamique classique. Par défaut, les fichiers seront classés par ordre alphanumérique. Cependant, vous pouvez utiliser une liste d’expressions courantes de format CSV (valeurs séparées par des virgules) pour définir l’ordre.
+1. Dans Options de création et d’affectation de nom de l’ensemble, indiquez le suffixe ou le préfixe du nom de base que vous avez défini dans la convention d’affectation de nom. Définissez également l’emplacement de création de la visionneuse d’images dans la structure de dossiers Contenu multimédia dynamique classique.
 
    Si vous définissez un grand nombre de visionneuses d’images, vous préférerez sans doute les conserver séparément des dossiers contenant les fichiers. De nombreux utilisateurs créent un dossier Visionneuses d’images et configurent l’application de façon à ce qu’elle importe les visionneuses générées par lot à cet emplacement.
 
@@ -1017,7 +1017,7 @@ Lorsque la visionneuse à 360° est téléchargée et publiée, vous activez le 
    >[!NOTE]
    si la combinaison des expressions régulières de ligne et de colonne ne parvient pas à déterminer la position du fichier dans le tableau de visionneuse à 360° multidimensionnel, ce fichier n’est pas ajouté à la visionneuse et une erreur est enregistrée.
 
-1. Dans Options de création et d’affectation de nom de l’ensemble, indiquez le suffixe ou le préfixe du nom de base que vous avez défini dans la convention d’affectation de nom. Définissez également l’emplacement de création de la visionneuse d’images dans la structure de dossiers Dynamic Media Classic.
+1. Dans Options de création et d’affectation de nom de l’ensemble, indiquez le suffixe ou le préfixe du nom de base que vous avez défini dans la convention d’affectation de nom. Définissez également l’emplacement de création de la visionneuse d’images dans la structure de dossiers Contenu multimédia dynamique classique.
 
    Si vous définissez un grand nombre de visionneuses d’images, vous préférerez sans doute les conserver séparément des dossiers contenant les fichiers. De nombreux utilisateurs créent un dossier Visionneuses d’images et configurent l’application de façon à ce qu’elle importe les visionneuses générées par lot à cet emplacement.
 
