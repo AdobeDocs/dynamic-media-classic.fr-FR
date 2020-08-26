@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 1ee586fab6a4e10a946848fd079438ade38490d9
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 56%
+source-wordcount: '1945'
+ht-degree: 64%
 
 ---
 
@@ -29,17 +29,17 @@ Les écrans Configuration de l’administration permettent d’administrer les u
 
 Tous les utilisateurs de Dynamic Media Classic se voient attribuer un rôle qui détermine leurs privilèges et droits d’accès aux fonctionnalités de Dynamic Media Classic. Les administrateurs définissent les différents rôles et responsabilités pour les entreprises auxquelles ils sont affectés.
 
-En règle générale, Dynamic Media Classic configure le premier ensemble de sociétés et affecte un administrateur de société. L’administrateur de la société configure et administre ensuite les utilisateurs de Dynamic Media Classic.
+En règle générale, Dynamic Media Classic configure le premier ensemble de sociétés et affecte un administrateur de société. L’administrateur de société configure et administre ensuite les utilisateurs de Dynamic Media Classic.
 
 Dynamic Media Classic prend en charge plusieurs rôles d’utilisateur. Ces rôles peuvent accéder aux sociétés configurées pour Dynamic Media Classic :
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
-**L’utilisateur** Adobe Classic peut accéder aux sociétés auxquelles ils ont été affectés ; ne peuvent pas exercer de fonctions administratives.
+**adobe de l’utilisateur** Dynamic Media Classic peut accéder aux sociétés auxquelles ils ont été affectés ; ne peuvent pas exercer de fonctions administratives.
 
-**Administrateur** de Société Adobe Classic peut vue et administrer uniquement leurs propres sociétés. Il peut également remplir toutes les fonctions d’administration, notamment l’ajout d’administrateurs et d’utilisateurs. Un administrateur de Société peut ajouter un utilisateur aux comptes d’administration de société DMC. (Ce rôle est le rôle utilisateur par défaut.)
+**adobe Dynamic Media Classic Société Admin** peut vue et administrer uniquement leurs propres sociétés. Il peut également remplir toutes les fonctions d’administration, notamment l’ajout d’administrateurs et d’utilisateurs. Un administrateur de Société peut ajouter un utilisateur aux comptes d’administration de société DMC. (Ce rôle est le rôle utilisateur par défaut.)
 
-Après avoir ajouté un utilisateur, Dynamic Media Classic lui envoie un e-mail de bienvenue. Le message comprend un mot de passe et l’URL Dynamic Media Classic.
+Après avoir ajouté un utilisateur, Dynamic Media Classic lui envoie un e-mail de bienvenue. Le message comprend un mot de passe et l’URL de Dynamic Media Classic.
 
 ### Ajout d’un utilisateur ou d’un administrateur {#adding-a-user-or-administrator}
 
@@ -53,7 +53,7 @@ Après avoir ajouté un utilisateur, Dynamic Media Classic lui envoie un e-mail 
 
 1. Choisissez une option de rôle pour attribuer un rôle à l’utilisateur.
 
-   Reportez-vous à la page Rôles utilisateur et privilèges [](administration-setup.md#user_administration)Dynamic Media Classic.
+   Voir Rôles utilisateur et privilèges [Dynamic Media Classic](administration-setup.md#user_administration).
 
 1. Sélectionnez un nom de société pour ajouter un utilisateur à une entreprise.
 1. Si vous souhaitez ajouter l’utilisateur à un groupe (si vous ajoutez un utilisateur ou un contributeur au portail multimédia), cliquez sur Suivant et ajoutez l’utilisateur.
@@ -65,7 +65,7 @@ Après avoir ajouté un utilisateur, Dynamic Media Classic lui envoie un e-mail 
 
    Un e-mail de bienvenue est envoyé aux utilisateurs une fois qu’ils ont été ajoutés. Ce message électronique indique un mot de passe provisoire et explique la procédure à suivre pour se connecter à Scene7 Publishing System.
 
-   Si l’utilisateur ne reçoit pas le courrier électronique de bienvenue, demandez-lui d’accéder à la page de connexion Dynamic Media Classic (https://s7sps1.scene7.com), puis cliquez sur Mot de passe oublié. Le mot de passe est réinitialisé et un nouveau courrier électronique est envoyé. Si l’utilisateur ne reçoit pas le courrier électronique et qu’il n’est pas placé dans le dossier du courrier indésirable, contactez le support technique.
+   Si l’utilisateur ne reçoit pas le courrier électronique de bienvenue, demandez-lui d’accéder à la page de connexion à Dynamic Media Classic (https://s7sps1.scene7.com), puis de cliquer sur Mot de passe oublié. Le mot de passe est réinitialisé et un nouveau courrier électronique est envoyé. Si l’utilisateur ne reçoit pas le courrier électronique et qu’il n’est pas placé dans le dossier du courrier indésirable, contactez le support technique.
 
    Lorsque vous ajoutez de nouveaux utilisateurs du portail multimédia, vous pouvez également accéder à Configuration >Configuration de l’application > Administration utilisateur, puis cliquer sur Télécharger liste utilisateur et sélectionner un fichier .csv contenant 500 utilisateurs maximum.
 
@@ -114,36 +114,37 @@ Vous pouvez utiliser les techniques de filtrage suivantes :
 
 Si les utilisateurs sont trop nombreux, vous pouvez limiter la taille de la liste en sélectionnant le menu Taille liste max., puis en choisissant une valeur.
 
-### Liaison d’une identité utilisateur IMS à un compte utilisateur IPS Dynamic Media Classic {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
+<!-- CQDOC-16690 TOPIC REMOVED AS PER JIRA TICKET INSTRUCTIONS ### Linking an IMS user identity to a Dynamic Media Classic IPS user account {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
 
-Vous pouvez lier une identité utilisateur IMS Adobe à un compte utilisateur IPS Dynamic Media Classic afin de pouvoir utiliser la fonction SSO (authentification unique) pour vous connecter et lancer Scene7 Publishing System depuis l’Adobe Marketing Cloud.
+You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user account so you can use SSO (Single Sign On) to log on and launch Scene7 Publishing System from within Adobe Marketing Cloud.
 
-1. Adobe doit déjà avoir configuré votre compte auprès d’une organisation d’Adobes Marketing Cloud et l’avoir associé à votre contexte de produit Scene7 Publishing System. Si cette configuration n’est pas encore terminée ou si vous ne savez pas si elle l’a été, contactez le service à la clientèle d’Adobe.
+1. Adobe should already have setup your account with an Adobe Marketing Cloud organization and linked it to your Scene7 Publishing System product context. If this setup is not yet done or you are unsure if it has been done, contact Adobe Customer Care.
 
-   Une fois la configuration terminée, vous pouvez vous connecter à l’Adobe Marketing Cloud et lier votre identité d’Adobe Marketing Cloud à votre compte utilisateur Dynamic Media Classic en procédant comme suit.
+   When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Dynamic Media Classic user account by doing the following.
 
-1. Dans l’Adobe Marketing Cloud, accédez aux paramètres de votre compte.
-1. Cliquez sur **Gérer les organisations**.
-1. Cliquez sur **Lier le compte** ou **Obtenir un accès**.
-1. Sélectionnez **Experience Manager**, puis saisissez vos informations d’identification.
+1. In Adobe Marketing Cloud, navigate to your account settings.
+1. Click **Manage Organizations**.
+1. Click **Link Account** or **Get Access**.
+1. Select **Experience Manager**, and then type your credentials.
 
-   Vos informations d&#39;identification comprennent votre région de société IPS, votre adresse électronique et votre mot de passe.
+   Your credentials include your IPS company region, email address, and password.
 
-1. Cliquez sur **Lien**.
-1. Une fois le lien défini, vous pouvez lancer Scene7 Publishing System à partir de l’Adobe Marketing Cloud ou directement le lancer.
+1. Click **Link**.
+1. When the link is set, you can launch Scene7 Publishing System from within Adobe Marketing Cloud, or you can launch it directly.
 
-   Effectuez l’une des opérations suivantes :
+   Do one of the following:
 
-   * Pour lancer Dynamic Media Classic à partir de l’Adobe Marketing Cloud, dans la section de gauche de l’Adobe Marketing Cloud, cliquez sur **Solutions** > **Experience Manager**. Sous la carte Dynamic Media Classic, cliquez sur **Lancer**.
-   * Pour vous connecter à Scene7 Publishing System directement à l’aide de vos informations d’identification IMS, utilisez le site Web suivant :
+    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** &gt; **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
+    * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
 
-      Remplacez &quot;N&quot; dans le chemin ci-dessus par le numéro de votre région de société IPS. Autrement dit, N = 1 pour l&#39;Amérique du Nord; 3 pour la zone EMEA ; ou 5 pour JAPAC.
+      Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
+ -->
 
 ## Bande passante et stockage {#bandwidth-storage}
 
-Les administrateurs Dynamic Media Classic peuvent générer de la bande passante, des enregistrements et d’autres types de rapports pour les sociétés qu’ils gèrent. Ces rapports sont disponibles sur l’écran Bande passante et stockage. 
+Les administrateurs de Dynamic Media Classic peuvent générer de la bande passante, des enregistrements et d’autres types de rapports pour les sociétés qu’ils gèrent. Ces rapports sont disponibles sur l’écran Bande passante et stockage. 
 
 Pour ouvrir cet écran, cliquez sur Configuration > Configuration personnelle. Développez Configuration de l’administration, puis cliquez sur Bande passante et stockage.
 
@@ -217,7 +218,7 @@ Après avoir généré un rapport, vous pouvez exporter ses données pour une ut
 
 ## Erreurs d’image {#image-errors}
 
-Les administrateurs Dynamic Media Classic peuvent générer des rapports d’erreurs d’image. Un rapport d’erreurs d’image fournit la liste des 20 erreurs d’image les plus fréquentes sur les dernières 24 heures, pour l’entreprise à laquelle vous êtes actuellement connecté. Pour générer un rapport d’erreurs d’image, procédez comme suit :
+Les administrateurs de Dynamic Media Classic peuvent générer des rapports d’erreurs d’image. Un rapport d’erreurs d’image fournit la liste des 20 erreurs d’image les plus fréquentes sur les dernières 24 heures, pour l’entreprise à laquelle vous êtes actuellement connecté. Pour générer un rapport d’erreurs d’image, procédez comme suit :
 
 1. Choisissez Configuration > Configuration personnelle.
 1. Développez Configuration de l’administration, puis cliquez sur Erreurs d’image.
