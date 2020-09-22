@@ -1,27 +1,27 @@
 ---
 cloud: experience-cloud
-product: dynamic media classic
+product: Adobe Dynamic Media Classic
 audience: end-user
-user-guide-title: Aide de Dynamic Media Classic
+user-guide-title: Guide de l’Adobe Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
+source-git-commit: 17e152e3768f527a9db2eadb664ca420778372ae
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 75%
+source-wordcount: '739'
+ht-degree: 74%
 
 ---
 
 
-# Aide de Dynamic Media Classic {#using}
+# Guide de l’Adobe Dynamic Media Classic {#using}
 
-+ [Page d’accueil de la documentation Dynamic Media Classic](home.md)
++ [Guide de l’Adobe Dynamic Media Classic](home.md)
 + [Didacticiel sur les meilleures pratiques](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NOUVEAUTÉ Connexion Dynamic Media Classic désormais disponible](new-ui-2020.md)
-+ [Bulletin Dynamic Media par Experience League](dynamic-media-newsletter.md)
-+ Introduction à Adobe Classic {#intro}
-   + [Application de bureau Adobe Classic - Maintenant disponible](dynamic-media-classic-desktop-app.md)
-   + [A propos de l’aide Dynamic Media Classic](introduction.md)
++ [NOUVEAUTÉ Expérience de connexion à Dynamic Media Classic désormais disponible](new-ui-2020.md)
++ [Newsletter de médias dynamiques par Experience League](dynamic-media-newsletter.md)
++ Présentation de l’Adobe de la technologie Dynamic Media Classic {#intro}
+   + [Application de bureau Adobe Dynamic Media Classic - Maintenant disponible](dynamic-media-classic-desktop-app.md)
+   + [A propos de l’aide de Dynamic Media Classic](introduction.md)
    + [Ressources du développeur](developer-resources.md)
    + [Nouveautés](whats-new.md)
    + [Configuration système requise](system-requirements.md)
@@ -31,7 +31,7 @@ ht-degree: 75%
    + [Ressources populaires](popular-resources.md)
    + [Vidéos de formation](training-videos.md)
 + Démarrage rapide {#getting-started}
-   + [Présentation de la plateforme Adobe Classic](dmc-platform-overview.md)
+   + [Présentation de la plate-forme Adobe Dynamic Media Classic](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Connexion et déconnexion](signing-out.md)
    + [Navigation - Notions élémentaires](navigation-basics.md)
@@ -146,7 +146,7 @@ ht-degree: 75%
    + [Publication d’une visionneuse de supports variés](publishing-mixed-media-set.md)
    + [Liaison d’une visionneuse de supports variés à une page Web](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [Début rapide : Intégration de Dynamic Media Classic avec Adobe Analytics](quick-start-integrating-dmc-analytics.md)
+   + [Début rapide : Intégration de Dynamic Media Classic à Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Connexion à Adobe Analytics](log-analytics.md)
    + [Configuration des rapports Adobe Analytics](configuring-analytics-reports.md)
    + [Instrumentation d’une visionneuse avec le kit d’instrumentation Adobe Analytics](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -154,8 +154,8 @@ ht-degree: 75%
    + [Test de l’intégration en affichant un rapport Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Activation des rapports vidéo d’Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publication des informations de configuration d’Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Intégration Adobe Target Standard/Premium {#target-classic}
-   + [Début rapide : Intégration Adobe Target Standard/Premium](quick-start-target-integration.md)
++ Intégration d’Adobe Target Standard/Premium {#target-classic}
+   + [Début rapide : Intégration d’Adobe Target Standard/Premium](quick-start-target-integration.md)
    + [Intégration de Dynamic Media Classic à Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Création d’une visionneuse d’offres](creating-offer-set.md)
    + [Pousser les jeux d’offres vers Adobe Target Standard/Premium](pushing-offer-sets-target.md)
