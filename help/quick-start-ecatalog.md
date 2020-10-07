@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 83b88623b898fdadd1b334b1c12901830c831c5c
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 63%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,9 +42,13 @@ Lorsque vous créez un catalogue électronique, vous agencez les pages ou les pl
 
 >[!NOTE]
 >
->Si vous utilisez le mode AEM Dynamic Media - Scene7 et souhaitez utiliser des catalogues électroniques, vous devez modifier la `pdfbrochure` valeur dans CRXDE Lite. Pour ce faire, dans AEM, cliquez sur **[!UICONTROL Outils > Général > CRXDE Lite]**. Dans l’arborescence de navigation du panneau de gauche, accédez à `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
-Dans le volet inférieur droit, dans l’onglet **[!UICONTROL Propriétés]** , sélectionnez la `jobParam` ligne. Définissez la valeur de `pdfbrochure` de `false` à `true`. Comme dans `pdfbrochure=true`le coin supérieur gauche de la page CRXDE Lite, cliquez sur **[!UICONTROL Enregistrer tout]**.
-Vous pouvez désormais créer des catalogues électroniques dans Dynamic Media Classic.
+>Si vous utilisez AEM Contenu multimédia dynamique - Mode Scene7 et que vous souhaitez utiliser des catalogues électroniques, vous devez modifier la `pdfbrochure` valeur dans CRXDE Lite. Pour ce faire, dans AEM, cliquez sur **[!UICONTROL Outils > Général > CRXDE Lite]**. Dans l’arborescence de navigation du panneau de gauche, accédez à `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>
+>Dans le volet inférieur droit, dans l’onglet **[!UICONTROL Propriétés]** , sélectionnez la `jobParam` ligne. Définissez la valeur de `pdfbrochure` de `false` à `true`. Comme dans `pdfbrochure=true`
+>
+>Dans le coin supérieur gauche de la page du CRXDE Lite, cliquez sur **[!UICONTROL Enregistrer tout]**.
+>
+>Vous pouvez désormais créer des catalogues électroniques dans Dynamic Media Classic.
 
 **Début rapide**
 
@@ -68,7 +72,7 @@ Sous l’onglet Ordre des pages, cliquez sur un bouton Disposition (1 vignette
 
 Pour ajouter des pages, sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser les fichiers PDF ou d’images dans l’écran Ordre des pages. Si les numéros de page par défaut ne vous conviennent pas, vous pouvez indiquer des noms de page personnalisés ou importer un grand nombre de noms de page.
 
-Cliquez sur **[!UICONTROL Enregistrer]**, attribuez un nom à votre catalogue électronique, choisissez un dossier Dynamic Media Classic pour le stocker, puis cliquez sur **[!UICONTROL Enregistrer]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
+Cliquez sur **[!UICONTROL Enregistrer]**, attribuez un nom à votre catalogue électronique, choisissez un dossier Contenu multimédia dynamique pour le stocker, puis cliquez sur **[!UICONTROL Enregistrer]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
 
 Voir [Création d’un catalogue électronique](creating-ecatalog.md).
 
@@ -108,7 +112,7 @@ Voir [Prévisualisation des catalogues électroniques dans la visionneuse de cat
 
 **6. Publication d’un catalogue électronique et des fichiers PDF associés**
 
-Lorsque vous publiez votre catalogue électronique et le fichier PDF associé, il est placé sur les serveurs Dynamic Media Image Server afin de pouvoir être diffusé sur votre site Web et dans votre application. Dans le cadre du processus de publication, Dynamic Media Classic active la chaîne URL de votre catalogue électronique. Utilisez cette URL pour appeler le catalogue électronique à partir des serveurs Dynamic Media Image Server vers votre site Web ou votre application.
+Lorsque vous publiez votre catalogue électronique et le fichier PDF associé, il est placé sur les serveurs Dynamic Media Image Server afin de pouvoir être diffusé sur votre site Web et dans votre application. Dans le cadre du processus de publication, Dynamic Media Classic active la chaîne URL de votre catalogue électronique. Utilisez cette URL pour appeler le catalogue électronique à partir des serveurs d’images de Contenu multimédia dynamique vers votre site Web ou votre application.
 
 Après avoir marqué votre catalogue électronique et votre fichier PDF pour publication dans le panneau de navigation, cliquez sur le bouton Publier de la barre de navigation globale pour lancer une publication. On the Publish screen, click **[!UICONTROL Start Publish]**.
 
@@ -116,7 +120,7 @@ Voir [Publication de catalogues électroniques et de fichiers PDF](publishing-ec
 
 **7. Liaison d’un catalogue électronique à une page Web**
 
-Dynamic Media Classic active la chaîne d’appel d’URL nécessaire à l’affichage de votre catalogue électronique lorsque vous le publiez sur les serveurs Dynamic Media Image Server. Vous pouvez copier cette chaîne URL depuis l’écran de prévisualisation et le panneau de navigation (en mode Affichage des détails) en la sélectionnant dans le panneau. Une fois copiée, la chaîne URL peut être utilisée sur vos sites Web et dans vos applications.
+Dynamic Media Classic active la chaîne d’appel d’URL nécessaire à l’affichage de votre catalogue électronique lorsque vous le publiez sur les serveurs d’images Contenu multimédia dynamique. Vous pouvez copier cette chaîne URL depuis l’écran de prévisualisation et le panneau de navigation (en mode Affichage des détails) en la sélectionnant dans le panneau. Une fois copiée, la chaîne URL peut être utilisée sur vos sites Web et dans vos applications.
 
 Travaillez de concert avec votre équipe informatique pour décider de l’emplacement du lien vers le catalogue électronique au sein de votre page Web. Un clic sur ce lien entraîne l’ouverture de la visionneuse, permettant ainsi aux utilisateurs de parcourir votre catalogue électronique.
 
