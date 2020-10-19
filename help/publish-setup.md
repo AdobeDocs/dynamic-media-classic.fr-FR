@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '2409'
-ht-degree: 65%
+source-wordcount: '2421'
+ht-degree: 64%
 
 ---
 
@@ -49,12 +49,12 @@ Modifiez ces paramètres uniquement avec l’aide d’une personne chargée du s
 
 **Attributs** de compatibilité Ce paramètre permet de traiter les paragraphes de début et de fin des calques de texte comme dans la version 3.6 pour une compatibilité descendante.
 
-**Prise en charge** des Localisations Ces paramètres vous permettent de gérer plusieurs attributs de paramètres régionaux. Il permet également de définir une chaîne de carte de paramètres régionaux pour définir les langues à prendre en charge pour les info-bulles dans les visionneuses.
+**Prise en charge** des localisations Ces paramètres vous permettent de gérer plusieurs attributs de paramètres régionaux. Il permet également de définir une chaîne de carte de paramètres régionaux pour définir les langues à prendre en charge pour les info-bulles dans les visionneuses.
 
 Par exemple, si votre entreprise est une société multinationale qui vend dans différents pays, chaque pays peut avoir sa propre visionneuse correspondant aux paramètres régionaux. Pour accomplir cette fonctionnalité, vous spécifiez une chaîne de carte de paramètres régionaux. Vous pouvez ensuite modifier le texte d’info-bulle dans un paramètre prédéfini de la visionneuse en ajoutant les chaînes de texte traduites de la langue appropriée.
 
 >[!NOTE]
-> Pour configurer les options de prise en charge des Localisations, contactez le support technique Adobe Dynamic Media Classic ou envoyez un courrier électronique à s7support@adobe.com pour demander de l’aide sur la configuration.
+> Pour configurer les options de prise en charge des Localisations, [utilisez le Admin Console pour créer un dossier de prise en charge.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Dans votre cas d’assistance, demandez de l’aide sur la configuration.
 
 Pour plus d’informations sur la configuration de l’**Aide à la localisation**, voir [Considérations à prendre en compte lors de la configuration de la localisation des fichiers](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -62,7 +62,7 @@ Pour plus d’informations sur la configuration de l’**Aide à la localisation
 
 >[!NOTE]
 >
->Si vous souhaitez configurer des options de prise en charge des Localisations dans Contenu multimédia dynamique classique, telles que le champ Mappage de paramètres régionaux, contactez le support technique Adobe Contenu multimédia dynamique classique. Ou envoyez un courrier électronique à s7support@adobe.com pour demander de l’aide au sujet de la configuration.
+>Si vous souhaitez configurer des options de prise en charge des Localisations dans Dynamic Media Classic, telles que le champ Mappage de paramètres régionaux, [utilisez le Admin Console pour créer un dossier de prise en charge.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Dans votre cas d’assistance, demandez de l’aide sur la configuration.
 
 L’utilisation de Contenu multimédia dynamique Classic se fait généralement de manière à gérer les images des produits sur les sites Web de commerce électronique. Les sociétés internationales doivent gérer le fait que l’aspect des fichiers pour des produits similaires diffère d’un pays à l’autre. En général, ces différences concernent une petite partie seulement de l’ensemble des médias. Le fait de gérer de telles différences en copiant tous les fichiers pour chacun des pays et en remplaçant uniquement les différences représente un effort considérable et contredit la métaphore du fichier original unique. De telles différences de fichiers peuvent impliquer, en raison des vidéos spécifiques aux pays avec différentes pistes audio, des différences importantes bien que très subtiles des câbles d’alimentation utilisés avec le produit. Dynamic Media Classic utilise un mécanisme de recherche de base. Vous définissez l’ordre des suffixes des fichiers analysés par le serveur d’images, en commençant par les paramètres régionaux requis.
 
