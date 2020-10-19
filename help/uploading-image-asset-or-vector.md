@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 85%
+source-wordcount: '1536'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ Avant de transférer un fichier d’image, vous devez d’abord demander une cl�
 
 ## Demande d’une clé de secret partagé {#requesting-a-shared-secret-key}
 
-Envoyez votre demande de *clé de secret partagé* par courrier électronique à l’assistance technique de Scene7, à l’adresse suivante : s7support@adobe.com.
+Demandez une clé *de secret* partagé [enutilisant le Admin Console pour créer un dossier de support.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Dans votre cas d’assistance, demandez une clé de secret partagé.
 
 Dans le message électronique, indiquez le nom d’entreprise que vous voulez utiliser pour transférer les fichiers d’image. Après avoir reçu la clé de Dynamic Media Classic, enregistrez-la localement pour une utilisation ultérieure.
 
