@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: bfe4bc1898e781780202dc311b643dc7a4c7b146
+source-git-commit: 9e7955b2311496e58e9e973c8f579b2f256c55cb
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -182,9 +182,26 @@ Pour télécharger et *silencieusement* installer la dernière version de l’ap
    | https://s7sps5.scene7.com/ | Production d&#39;APAC (Asie-Pacifique) |
 
 
-## Présentation vidéo de l’utilisation de l’application de bureau Dynamic Media Classic
+## Présentation vidéo de l’utilisation de l’application de bureau Dynamic Media Classic {#dmc-app-video-walk-through}
 
 Regardez une présentation [vidéo sur l’utilisation de l’application](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) de bureau Dynamic Media Classic (durée : 2 minutes 36 secondes).
+
+## Effacement du cache d’images et du cache de ressources sur votre ordinateur à l’aide de l’application de bureau
+
+1. Dans l’application de bureau Dynamic Media Classic, près du coin supérieur droit, appuyez sur **[!UICONTROL Configuration]** > Configuration **** personnelle.
+1. Sur la page Configuration **** personnelle, sous l’en-tête **[!UICONTROL Bureau]** , effectuez l’une des opérations suivantes :
+   * Appuyez sur **[!UICONTROL Effacer le cache]** d’images pour supprimer de votre ordinateur tous les fichiers d’image mis en cache dans le Contenu multimédia dynamique Adobe. Appuyez sur **[!UICONTROL OK]**.
+   * Appuyez sur **[!UICONTROL Effacer le cache]** de ressources pour supprimer tous les fichiers de ressources mis en cache de Contenu multimédia dynamique Adobe de votre ordinateur. Appuyez sur **[!UICONTROL OK]**.
+1. In the lower-right corner of the page, tap **[!UICONTROL Close]**.
+
+### Suppression manuelle du cache d’images et du cache de ressources
+
+Outre l’effacement du cache d’images et de ressources à l’aide de l’application de bureau, vous pouvez également effectuer cette tâche manuellement en vidant le cache directement du système de fichiers.
+
+1. En fonction de votre système d’exploitation, accédez aux options suivantes :
+
+   * macOS : `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
+   * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Limites connues de Dynamic Media Classic 20.20.1 (fixées dans la version 20.20.2)
 
