@@ -2,7 +2,7 @@
 title: Utilisation de documents PDF
 seo-title: Utilisation de documents PDF
 description: 'null'
-seo-description: Découvrez comment utiliser des PDF dans Dynamic Media Classic.
+seo-description: Découvrez comment utiliser des fichiers PDF dans Dynamic Media Classic.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 56%
@@ -64,7 +64,7 @@ Choisissez une option de profil de couleurs :
 
 **Conserver l’espace** colorimétrique d’origine Conserve l’espace colorimétrique d’origine.
 
-**Personnalisé de > à** Ouvre les menus afin que vous puissiez choisir un espace colorimétrique Convertir à partir de et Convertir en. Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez téléchargé vers Dynamic Media Classic.
+**Personnalisé de > à** Ouvre les menus afin que vous puissiez choisir un espace colorimétrique Convertir à partir de et Convertir en. Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez téléchargé dans Dynamic Media Classic.
 
 (voir [Profils ICC](icc-profiles.md#icc_profiles)).
 
