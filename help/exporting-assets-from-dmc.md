@@ -2,7 +2,7 @@
 title: Exportation de fichiers à partir de Dynamic Media Classic
 seo-title: Exportation de fichiers à partir de Dynamic Media Classic
 description: 'null'
-seo-description: Découvrez comment exporter des fichiers à partir de Dynamic Media Classic.
+seo-description: Découvrez comment exporter des fichiers à partir de Contenu multimédia dynamique classique.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 69%
@@ -26,7 +26,7 @@ La taille du fichier zip compressé ne doit pas dépasser 1 Go pour la tâche d
 
 Dynamic Media Classic conserve un enregistrement des tâches d’exportation dans l’écran Tâches.
 
-**Pour exporter des fichiers à partir de Dynamic Media Classic**
+**Pour exporter des fichiers à partir de Contenu multimédia dynamique classique**
 
 1. Sélectionnez les fichiers à exporter, puis cliquez sur **Fichier** > **Exporter**.
 1. Dans la fenêtre Exporter les fichiers sélectionnés, cliquez sur **Options d’image**, puis spécifiez une ou plusieurs options parmi les suivantes (les administrateurs déterminent quelles options sont disponibles pour les utilisateurs) :
