@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2262'
 ht-degree: 78%
@@ -24,7 +24,7 @@ You can store information specific to the files you work with in Dynamic Media C
 
 Les métadonnées s’affichent dans la vue de détails, ainsi que les informations générées par Dynamic Media Classic, telles que la date de création du fichier, la date de publication et les mots-clés. Pour afficher les métadonnées, ouvrez le fichier en mode Affichage des détails et sélectionnez le panneau Métadonnées. Ensuite, saisissez ou modifier les métadonnées.
 
-Certaines métadonnées sont intégrées directement dans un fichier. Si un fichier contient ces métadonnées, Dynamic Media Classic les télécharge automatiquement avec le fichier. Vous pouvez incorporer des métadonnées dans des fichiers source dans Adobe Photoshop, InDesign, Illustrator et d’autres applications ; Dynamic Media Classic reconnaît ces métadonnées. Vous pouvez aussi ajouter des métadonnées à des fichiers individuels dans le panneau Métadonnées en mode Affichage des détails. Pour assurer la cohérence entre fichiers, les administrateurs créent des modèles de métadonnées qui fournissent les champs de métadonnées à remplir.
+Certaines métadonnées sont intégrées directement dans un fichier. Si un fichier contient ces métadonnées, Dynamic Media Classic les télécharge automatiquement avec le fichier. Vous pouvez incorporer des métadonnées dans des fichiers source en Adobe Photoshop, InDesign, Illustrator et dans d’autres applications ; Dynamic Media Classic reconnaît ces métadonnées. Vous pouvez aussi ajouter des métadonnées à des fichiers individuels dans le panneau Métadonnées en mode Affichage des détails. Pour assurer la cohérence entre fichiers, les administrateurs créent des modèles de métadonnées qui fournissent les champs de métadonnées à remplir.
 
 For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
@@ -36,7 +36,7 @@ Pour afficher les métadonnées d’un fichier, ouvrez le fichier en question en
 
 * **IPTC** Valeurs telles que définies par l&#39;International Press Telecommunications Council.
 
-* **Valeurs XMP** telles que définies par la plate-forme de métadonnées extensible.
+* **XMP** valeurs définies par la plate-forme de métadonnées extensible.
 
 Les administrateurs peuvent créer des vues de métadonnées qui apparaissent également dans le menu Vues des métadonnées. Pour plus d’informations sur la création de vues de métadonnées, voir [Vues des métadonnées](application-setup.md#metadata_views).
 
@@ -70,14 +70,16 @@ Si vous avez ajouté des mots-clés à d’autres fichiers au cours de la sessio
 1. Pour supprimer un mot-clé, sélectionnez-le et cliquez sur Supprimer. Le mot-clé est placé dans le tableau Suggestions de mots-clés.
 
 >[!NOTE]
-Vous pouvez ajouter des mots-clés aux fichiers au fur et à mesure que vous les téléchargez vers Dynamic Media Classic. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez l’option Métadonnées supplémentaires, puis saisissez les mots-clés. Voir [Options de téléchargement](uploading-files.md#upload_options).
+>
+>Vous pouvez ajouter des mots-clés aux fichiers au fur et à mesure que vous les téléchargez vers Dynamic Media Classic. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez l’option Métadonnées supplémentaires, puis saisissez les mots-clés. Voir [Options de téléchargement](uploading-files.md#upload_options).
 
 ## Importation de métadonnées {#import-metadata}
 
 Au lieu de saisir manuellement les métadonnées fichier par fichier, vous pouvez les importer pour plusieurs fichiers à partir d’un fichier délimité par des tabulations ou d’un fichier XML. Il est plus rapide de taper les métadonnées dans un fichier délimité par des tabulations ou un fichier XML que vous importez ensuite que de les saisir dans chaque fichier concerné. Sur la première ligne du fichier délimité par des tabulations, saisissez l’identifiant et le nom des champs pour lesquels vous souhaitez enregistrer des métadonnées. Sur chaque ligne suivante, saisissez l’identifiant d’un fichier suivi des valeurs de métadonnées. Les champs qui ne font pas partie du fichier délimité par des tabulations ou du fichier XML ne sont pas modifiés. Pour importer des métadonnées à partir d’un fichier XML, veillez à respecter les définitions DTD.
 
 >[!NOTE]
-Vous pouvez créer un modèle de saisie des métadonnées afin de pouvoir les importer correctement dans Dynamic Media Classic. Une fois le modèle défini, vous pouvez y entrer les métadonnées (voir [Création d’un modèle de saisie des métadonnées à télécharger](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)).
+>
+>Vous pouvez créer un modèle de saisie des métadonnées afin de pouvoir les importer correctement dans Contenu multimédia dynamique classique. Une fois le modèle défini, vous pouvez y entrer les métadonnées (voir [Création d’un modèle de saisie des métadonnées à télécharger](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)).
 
 Vous trouverez plus d’informations sur les propriétés normalisées à l’adresse : https://www.adobe.com/devnet/xmp.html
 
@@ -146,7 +148,7 @@ Le rapport de la tâche concernant les métadonnées indique les ID qui ont ét
 
 ## Création d’un modèle de saisie des métadonnées à télécharger {#create-a-template-for-entering-metadata-to-upload}
 
-Dynamic Media Classic offre une commande permettant de créer un modèle pour l’enregistrement des métadonnées. L’utilisation du modèle permet de s’assurer que les métadonnées sont enregistrées au bon format et qu’elles peuvent être téléchargées correctement dans Dynamic Media Classic. Pour créer un modèle destiné à l’enregistrement et à l’importation de métadonnées vers Dynamic Media Classic, procédez comme suit :
+Dynamic Media Classic offre une commande permettant de créer un modèle d’enregistrement des métadonnées. L’utilisation du modèle permet de s’assurer que les métadonnées sont entrées au bon format afin de pouvoir les télécharger correctement dans Contenu multimédia dynamique classique. Pour créer un modèle à utiliser pour l’enregistrement et l’importation de métadonnées dans Dynamic Media Classic, procédez comme suit :
 
 1. Sélectionnez les fichiers d’image comportant les champs de métadonnées à insérer dans le modèle.
 1. Choisissez Fichier > Importer les métadonnées.
@@ -176,9 +178,10 @@ Vous pouvez utiliser l’Editeur de schéma de métadonnées pour exécuter les 
 Le système génère automatiquement un schéma personnalisé pour les champs définis par l’utilisateur avec le préfixe « s7udf ». Il s’agit des champs définis par l’utilisateur existants et ceux-ci peuvent être modifiés dans leur propre section de configuration.
 
 >[!NOTE]
-les modifications apportées au schéma ne modifient jamais les métadonnées de l’élément lui-même. Toutefois, elles ne sont pas visibles pour toutes les fonctionnalités Dynamic Media Classic et Serveur de métadonnées et ne peuvent pas être consultées après avoir été modifiées. De même, s’il existe des métadonnées pour un fichier, la création du schéma correspondant rend les métadonnées utilisables dans Dynamic Media Classic et le serveur de métadonnées.
+>
+>les modifications apportées au schéma ne modifient jamais les métadonnées de l’élément lui-même. Cependant, elles ne sont pas visibles pour toutes les fonctionnalités de Dynamic Media Classic et de Serveur de métadonnées et ne peuvent pas être consultées après avoir été modifiées. De même, s’il existe des métadonnées pour un fichier, la création du schéma correspondant rend les métadonnées utilisables dans Dynamic Media Classic et le serveur de métadonnées.
 
-L’éditeur de Schéma de métadonnées offre une méthode graphique pour ajouter ou modifier un schéma de société personnalisé dans Dynamic Media Classic. Un schéma est défini par un préfixe, un espace de noms et une liste de propriétés.
+L’éditeur de Schéma de métadonnées offre une méthode graphique permettant d’ajouter ou de modifier un schéma de société personnalisé dans Dynamic Media Classic. Un schéma est défini par un préfixe, un espace de noms et une liste de propriétés.
 
 * Nom
 
@@ -197,7 +200,8 @@ L’éditeur de Schéma de métadonnées offre une méthode graphique pour ajout
    Description libre du schéma.
 
 >[!NOTE]
-le préfixe et l’espace de noms ne peuvent pas être modifiés. Pour modifier ces propriétés, vous devez supprimer et recréer le schéma.
+>
+>le préfixe et l’espace de noms ne peuvent pas être modifiés. Pour modifier ces propriétés, vous devez supprimer et recréer le schéma.
 
 Les propriétés décrivent les métadonnées pouvant être stockées avec ce schéma dans le bloc XMP. Une propriété se compose des éléments suivants :
 
@@ -217,6 +221,7 @@ Lorsque la propriété présente la structure Choix ouvert ou Choix fermé, vous
 | Etiquette | Nom d’IU pour cette valeur. |
 
 >[!MORELIKETHIS]
-* [Paramètres prédéfinis de la visionneuse](application-setup.md#viewer_presets)
-* [Paramètres prédéfinis des métadonnées](application-setup.md#metadata_presets)
+>
+>* [Paramètres prédéfinis de la visionneuse](application-setup.md#viewer_presets)
+>* [Paramètres prédéfinis des métadonnées](application-setup.md#metadata_presets)
 
