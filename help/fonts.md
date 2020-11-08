@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 40%
@@ -20,17 +20,17 @@ ht-degree: 40%
 
 # Polices{#fonts}
 
-Dans certains cas, Dynamic Media Classic vous demande de télécharger un fichier de police pour entrer ou afficher du texte dans une police particulière. Par exemple, pour composer le texte d’un modèle de calque dans une police donnée, téléchargez le fichier de polices. Pour afficher la numérotation des pages de la visionneuse de catalogue électronique dans une police spécifique, téléchargez le fichier de polices.
+Dans certains cas, Dynamic Media Classic vous demande de télécharger un fichier de police pour entrer ou rendre du texte dans une police particulière. Par exemple, pour composer le texte d’un modèle de calque dans une police donnée, téléchargez le fichier de polices. Pour afficher la numérotation des pages de la visionneuse de catalogue électronique dans une police spécifique, téléchargez le fichier de polices.
 
 Dynamic Media Classic prend en charge les types de police suivants :
 
 * Ensemble des polices TrueType
-* Polices PostScript®
+* PostScript® de polices
 * Polices OpenType/TrueType
 * Polices OpenType/PostScript
 * PhotoFonts
 
-Après avoir téléchargé un fichier de polices, vous pouvez modifier son ID Dynamic Media Classic, son nom et les informations de type dans l’écran Modifier les infos.
+Après avoir téléchargé un fichier de polices, vous pouvez modifier son identifiant Dynamic Media Classic, son nom et les informations de type dans l’écran Modifier les infos.
 
 >[!NOTE]
 >
@@ -56,14 +56,14 @@ Dans le panneau de navigation, sélectionnez le fichier de polices à modifier d
 
 **Style** de police Les options sont les suivantes : Normal, Gras, Italique et Gras-Italique.
 
-**Type** de police Les options sont TrueType et Adobe Type 1. Si vous renommez ces polices, vous pouvez l’indiquer.
+**Type** de police Les options sont TrueType et Type d&#39;Adobe 1. Si vous renommez ces polices, vous pouvez l’indiquer.
 
 **Abréviation** du type de police Les options sont les suivantes :
 
 **Fichiers de police TTF** TrueType utilisés pour le rendu PDF/PostScript et la diffusion d’images.
 
-**Les fichiers de police PostScript AFM** Adobe qui contiennent des informations Adobe Font Metrics et sont utilisés pour la diffusion d’images.
+**Les fichiers de police AFM** Adobe PostScript qui contiennent des informations sur les mesures de police de l’Adobe et sont utilisés pour la diffusion d’images.
 
-**Fichiers de police PFM** Adobe PostScript contenant des informations binaires sur les mesures de police.
+**Fichiers de police Adobe PostScript PFM** qui contiennent des informations binaires sur les mesures de police.
 
-**PFB** Adobe PostScript fichiers contenant des informations de contour de police binaires et utilisés pour le rendu PDF/PostScript et la diffusion d’images.
+**Les fichiers de police PFB** Adobe PostScript qui contiennent des informations de contour de police binaires et sont utilisés pour le rendu PDF/PostScript et la diffusion d’images.
