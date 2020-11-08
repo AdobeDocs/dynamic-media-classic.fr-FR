@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 77%
@@ -155,7 +155,7 @@ L’écran Publication sur le serveur de métadonnées apparaît. Cet écran vou
 
 **Publication instantanée** Entraîne automatiquement toute modification des métadonnées lorsqu’elle est effectuée, y compris les nouveaux fichiers, les modifications de mots-clés, etc.
 
-**XMP Packet** publie le paquet XMP. Ce paquet n’est pas pris en compte dans la recherche mais fournit des informations XMP à jour.
+**XMP Packet** publie le XMP Packet. Ce paquet n’est pas pris en compte dans la recherche mais fournit des informations XMP à jour.
 
 **Mots-clés** Publie vos mots-clés sur le serveur de métadonnées pour les utiliser dans les recherches.
 
