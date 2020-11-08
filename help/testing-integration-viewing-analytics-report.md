@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 42%
@@ -20,11 +20,11 @@ ht-degree: 42%
 
 # Test de l’intégration en affichant un rapport Adobe Analytics{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-Après avoir créé les variables nécessaires dans Adobe Analytics, les avoir liées aux événements Dynamic Media Classic et avoir suivi les étapes de mise en oeuvre nécessaires, testez la configuration. Vous pouvez tester et vérifier que les données sont capturées, dans Adobe Analytics même. Si la configuration fonctionne ici, aucune autre étape n’est nécessaire. En supposant que vous ayez suivi les étapes ci-dessus et lié vos données de événement Dynamic Media Classic à une ou plusieurs variables de trafic personnalisées, suivez ce processus pour tester vos données dans Adobe.
+Après avoir créé les variables nécessaires en Adobe Analytics, les avoir liées aux événements Dynamic Media Classic et avoir suivi les étapes de mise en oeuvre nécessaires, testez la configuration. Vous pouvez tester et vérifier que les données sont capturées, dans Adobe Analytics même. Si la configuration fonctionne ici, aucune autre étape n’est nécessaire. En supposant que vous ayez suivi les étapes ci-dessus et lié vos données de événement Contenu multimédia dynamique à une ou plusieurs variables de trafic personnalisées, suivez ce processus pour tester vos données dans Adobe Analytics.
 
 **Test de l’intégration en affichant un rapport Adobe Analytics**
 
-1. Lancez une visionneuse Dynamic Media Classic à partir de votre compte, en particulier une visionneuse qui diffuse la mesure à capturer, et interagissez avec elle pour créer des données de événement.
+1. Lancez une visionneuse de contenu multimédia dynamique classique à partir de votre compte, en particulier une visionneuse qui diffuse la mesure à capturer, et interagissez avec elle pour créer des données de événement.
 
    Si, par exemple, vous souhaitez mesurer les vues alternatives les plus populaires dans une visionneuse d’images, prévisualisez une visionneuse d’images et cliquez sur les différentes images de miniatures.
 
@@ -36,6 +36,6 @@ Après avoir créé les variables nécessaires dans Adobe Analytics, les avoir l
 
 >[!NOTE]
 >
->Toutes les données du lecteur Dynamic Media Classic sont affichées et rapportées dans les rapports Trafic personnalisé ou Conversion personnalisée de Adobe Analytics.
+>Toutes les données du lecteur de contenu Contenu multimédia dynamique classique sont affichées et rapportées dans les rapports Trafic personnalisé ou Conversion personnalisée d’Adobe Analytics.
 
 Pour plus d’informations, voir [www.adobe.com/go/learn_sc7_sitecatalystguide_en](https://www.adobe.com/go/learn_sc7_sitecatalystguide_en).
