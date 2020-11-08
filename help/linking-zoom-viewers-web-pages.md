@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 86%
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 # Liaison des visionneuses de zoom à vos pages Web{#linking-zoom-viewers-to-your-web-pages}
 
-Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Image Server, y compris aux images originales et aux cibles de zoom associées, ainsi qu’aux paramètres prédéfinis de visionneuse de zoom, au moyen de chaînes URL ou de code incorporé. Ces chaînes URL sont activées au cours du processus de publication. Pour placer ces chaînes URL ou le code incorporé dans vos pages Web et applications, copiez-les à partir de Dynamic Media Classic.
+Vos sites Web et applications accèdent au contenu du serveur d’images Contenu de média dynamique, y compris aux images originales et aux cibles de zoom associées, ainsi qu’aux paramètres prédéfinis de visionneuse de zoom, au moyen de chaînes URL ou de code incorporé. Ces chaînes URL sont activées au cours du processus de publication. Pour placer ces chaînes URL ou le code incorporé dans vos pages Web et applications, copiez-les à partir de Contenu multimédia dynamique classique.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Imag
 
 En règle générale, les visiteurs d’un site Web effectuent un zoom sur les images en sélectionnant en premier lieu une icône de zoom (souvent à l’image d’une loupe). La sélection de cette icône entraîne l’ouverture d’une page Web dynamique (ASP ou JSP) qui affiche l’image dans une fenêtre contextuelle. C’est dans cette fenêtre contextuelle que les visiteurs effectuent un zoom sur l’image.
 
-Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom de base HTML5 dans le Guide](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)de référence des visionneuses Adobe.
+Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom de base HTML5 dans le Guide](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)de référence des visionneuses d’Adobes.
 
 ## Copie de la copie incorporée d’une visionneuse de zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
