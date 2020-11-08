@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 57%
@@ -32,7 +32,7 @@ Outils d’offres Dynamic Media Classic pour la modification et la création de 
 
 >[!NOTE]
 >
->Avant de créer une visionneuse d’offres, veillez à publier tous les fichiers que vous prévoyez d’utiliser pour la visionneuse sur Dynamic Media Classic. Voir [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
+>Avant de créer une visionneuse d’offres, veillez à publier tous les fichiers que vous prévoyez d’utiliser pour la visionneuse sur Contenu multimédia dynamique classique. Voir [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
 ## Types de visionneuses d’offres {#types-of-offer-sets}
 
@@ -94,7 +94,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
    * **Ecran** Visionneuse d’Offres Test&amp;Cible, cliquez sur **[!UICONTROL Créer > Visionneuse]** d’Offres Test&amp;Cible. Faites glisser les images ou les vidéos sur l’écran. Pour créer des vidéos ou des images de tailles diverses, faites glisser plusieurs copies de l’image ou de la vidéo et définissez chaque taille séparément.
 
-   * **vue** de grille ou de Liste Sélectionnez les images ou les vidéos, puis cliquez sur **[!UICONTROL Créer > Visionneuse]** d’Offres Test&amp;Cible.
+   * **Vue** de grille ou de Liste Sélectionnez les images ou les vidéos, puis cliquez sur **[!UICONTROL Créer > Visionneuse]** d’Offres Test&amp;Cible.
 
 1. (Facultatif) Sélectionnez une image ou une vidéo et cliquez sur **Aperçu**. Sur la page Offres de Prévisualisation, vous pouvez modifier la taille et l’aspect de l’image ou de la vidéo que vous avez sélectionnée. Vous pouvez également modifier toutes les images ou vidéos de la visionneuse d’offres.
 
@@ -128,13 +128,13 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
    * **Suppression d&#39;une offre** Sélectionnez l&#39;offre, puis cliquez sur 
 **Supprimer** pour supprimer une offre de la visionneuse.
-   * **Ajouter une offre** La façon dont vous ajoutez une offre dépend du type d’offre que vous utilisez :
+   * **Ajouter une offre** La façon dont vous ajoutez une offre dépend du type de jeu d’offres sur lequel vous travaillez :
    * **Modèles** Click 
-**Ajouter et Prévisualisation**, puis sur la page Ajouter et Prévisualisations Offres, créez une autre offre.
+**Ajoute et Prévisualisation**, et sur la page Ajouter et Offres de Prévisualisation, créez une autre offre.
    * **Images et vidéos** Faites glisser une image ou une vidéo sur la page Visionneuse d’Offres Test&amp;Cible.
    >[!NOTE]
    >
-   >il n’est pas possible de supprimer une visionneuse d’offres associée à une campagne. Pour supprimer un jeu d’offres associé à une campagne, connectez-vous à Target Standard/Premium et supprimez d’abord les associations de campagne. Même après avoir été dissocié d’une campagne, la ressource peut uniquement être supprimée de Dyanamic Media Classic, ce qui nécessite une connexion à Target Standard/Premium et non à partir de Target Standard/Premium.
+   >il n’est pas possible de supprimer une visionneuse d’offres associée à une campagne. Pour supprimer un jeu d’offres associé à une campagne, connectez-vous à Target Standard/Premium et supprimez d’abord les associations de campagne. Même après avoir été dissocié d’une campagne, le fichier peut uniquement être supprimé de Dyanonic Media Classic, ce qui nécessite une connexion à Target Standard/Premium et non à partir de Target Standard/Premium.
 
 1. When you finish editing, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
 1. Cliquez sur **Enregistrer**, sélectionnez un dossier de stockage, attribuez un nom à la visionneuse, puis cliquez sur **Enregistrer**.
