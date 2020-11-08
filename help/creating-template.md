@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '3441'
 ht-degree: 65%
@@ -24,7 +24,7 @@ Pour créer un modèle, cliquez sur Créer > Concepts de base des modèles. Sé
 
 >[!NOTE]
 >
->Si vous modifiez un modèle créé dans une version antérieure de Dynamic Media Classic, vous recevrez peut-être un message vous demandant si vous souhaitez ajouter un calque de zone de travail lors de l’enregistrement. Sélectionnez Non pour éviter l’ajout d’un nouveau calque de base. Si, par mégarde, vous avez cliqué sur Oui, supprimez les modificateurs « &amp;allowCanvasPrompt » et « &amp;layer=0 » de l’URL, et appuyez ensuite sur Entrée ou Retour.
+>Si vous modifiez un modèle créé dans une version antérieure de Dynamic Media Classic, vous recevrez peut-être une invite lors de l’enregistrement, vous demandant si vous souhaitez ajouter un calque de zone de travail. Sélectionnez Non pour éviter l’ajout d’un nouveau calque de base. Si, par mégarde, vous avez cliqué sur Oui, supprimez les modificateurs « &amp;allowCanvasPrompt » et « &amp;layer=0 » de l’URL, et appuyez ensuite sur Entrée ou Retour.
 
 ## Création du modèle initial {#creating-the-initial-template}
 
@@ -96,7 +96,7 @@ Utilisez les outils suivants de l’écran Modèle pour créer des modèles :
 
 **Outil** Texte Crée un calque de texte. Faites glisser le pointeur de l’outil sur la zone de travail pour créer un calque de texte, puis saisissez le texte dans le calque (voir Création d’un calque de texte).
 
-**Bouton** Prévisualisation Ouvre l’écran de Prévisualisation et affiche le modèle dans une visionneuse de zoom. Vous pouvez visualiser le modèle en situation réelle sur votre site Web ou dans votre application.
+**Bouton** prévisualisation Ouvre l’écran de Prévisualisation et affiche le modèle dans une visionneuse de zoom. Vous pouvez visualiser le modèle en situation réelle sur votre site Web ou dans votre application.
 
 **Bouton** Résumé des paramètres Ouvre l’écran Résumé des paramètres. Vous pouvez voir le nom de tous les calques d’un modèle, et sur chaque calque, le nom des paramètres qui ont été activés.
 
@@ -141,7 +141,7 @@ Pour mettre en forme le texte dans un calque de texte, procédez comme suit :
 1. Dans la zone de texte, sélectionnez le texte à mettre en forme. Vous pouvez sélectionner une partie ou la totalité du texte, ainsi que des caractères isolés.
 1. Définissez les options de mise en forme, puis cliquez sur Appliquer.
 
-   **Police** Choisissez une police dans le menu Police. Si une police ne figure pas dans le menu, vous pouvez la télécharger dans Dynamic Media Classic. (voir Polices).
+   **Police** Choisissez une police dans le menu Police. Si une police de votre choix n’apparaît pas dans le menu, vous pouvez la télécharger dans Dynamic Media Classic. (voir Polices).
 
    **Taille** de la police Choisissez une taille de police dans le menu, entrez une taille spécifique dans la zone ou cliquez sur les flèches vers le haut ou vers le bas pour augmenter ou diminuer la taille de deux points.
 
@@ -177,7 +177,7 @@ Pour mettre en forme le texte dans un calque de texte, procédez comme suit :
 
    **Interligne** Saisissez ou sélectionnez une valeur numérique permettant d’ajuster la quantité d’espace entre toutes les lignes du paragraphe.
 
-   **Retrait de tous les** clic pour augmenter la mise en retrait du texte.
+   **Retrait total** Cliquez pour augmenter la valeur de mise en retrait du texte.
 
    **Supprimer le retrait** Cliquez pour diminuer la valeur de mise en retrait du texte.
 
@@ -289,11 +289,11 @@ Pour choisir une couleur d’arrière-plan, une opacité et un mode de fusion po
 
 **Opacité** Faites glisser le curseur Opacité pour rendre n’importe quel calque translucide et ainsi faire transparaître une partie de l’image sous-jacente. Le paramètre 100 % définit une opacité totale ; le paramètre 0 % définit la transparence.
 
-**Mode** de fusion Choisissez une option pour simuler l’un des modes de fusion disponibles dans Photoshop. Les options disponibles sont les suivantes : Normal, Fondu, Eclaircir, Assombrir, Multiplier et Ecran. Ces options sont disponibles pour les calques, non pour la zone de travail.
+**Mode** de fusion Choisissez une option pour simuler l&#39;un des modes de fusion disponibles dans Photoshop. Les options disponibles sont les suivantes : Normal, Fondu, Eclaircir, Assombrir, Multiplier et Ecran. Ces options sont disponibles pour les calques, non pour la zone de travail.
 
 ## Utilisation des effets d’ombre et d’éclat sur les calques {#using-shadow-and-glow-effects-on-layers}
 
-Vous pouvez appliquer une ombre ou un éclat à un calque. L’ombre ou l’éclat est appliqué au périmètre du calque et s’étend vers l’intérieur ou l’extérieur, en fonction de l’option sélectionnée. Si votre modèle est issu d’un fichier PSD avec des effets d’ombre et d’éclat, vous pouvez ajuster ces effets dans Dynamic Media Classic.
+Vous pouvez appliquer une ombre ou un éclat à un calque. L’ombre ou l’éclat est appliqué au périmètre du calque et s’étend vers l’intérieur ou l’extérieur, en fonction de l’option sélectionnée. Si votre modèle est issu d’un fichier PSD avec des effets d’ombre et d’éclat, vous pouvez ajuster ces effets dans Contenu multimédia dynamique classique.
 
 Une fois que vous avez appliqué un effet d’ombre ou d’éclat, vous pouvez régler sa taille, sa couleur, son opacité et sa position dans la zone Propriétés calque de l’écran Modèle.
 
@@ -326,7 +326,7 @@ Pour ajuster un effet d’ombre ou d’éclat, sélectionnez d’abord son nom d
 
 **Opacité** Faites glisser le curseur pour déterminer l’intensité de l’effet. Les effets moins opaques sont plus transparents.
 
-**Mode** de fusion Choisissez une option pour simuler l’un des modes de fusion disponibles dans Photoshop. Les options disponibles sont les suivantes : Normal, Fondu, Eclaircir, Assombrir, Multiplier et Ecran. 
+**Mode** de fusion Choisissez une option pour simuler l&#39;un des modes de fusion disponibles dans Photoshop. Les options disponibles sont les suivantes : Normal, Fondu, Eclaircir, Assombrir, Multiplier et Ecran. 
 
 **Taille** Entrez les mesures dans les zones X et Y pour augmenter ou réduire l’effet d’ombre. Les options de taille ne sont disponibles que pour les ombres intérieures et les ombres portées.
 
