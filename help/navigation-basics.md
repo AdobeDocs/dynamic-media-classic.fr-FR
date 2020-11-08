@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 52%
@@ -20,7 +20,7 @@ ht-degree: 52%
 
 # Navigation - Notions élémentaires{#navigation-basics}
 
-L’écran Dynamic Media Classic comprend trois zones principales : Barre de navigation globale, Bibliothèque de fichiers et panneau de navigation/de création.
+L’écran Contenu multimédia dynamique classique comprend trois zones principales : Barre de navigation globale, Bibliothèque de fichiers et panneau de navigation/de création.
 
 ![Navigation - Notions élémentaires](/help/assets/gs_navigation_basics_popup_popup.png)
 
@@ -34,13 +34,13 @@ La barre de navigation globale, située dans la partie supérieure de l’écran
 
 **Créer** Choisissez une tâche de création dans le menu. Le panneau de création qui s’ouvre vous permet de créer un type de fichier.
 
-**Publier** Ouvre l’écran Publier pour vous permettre de publier des fichiers multimédias enrichis sur les serveurs Dynamic Media Image Server et le reste de l’infrastructure SAAS de Dynamic Media Classic. Voir Publication.
+**Publier** Ouvre l’écran Publier pour vous permettre de publier des fichiers de média enrichi sur les serveurs d’images Contenu multimédia dynamique et le reste de l’infrastructure SAAS de Dynamic Media Classic. Voir Publication.
 
 **Tâches** Ouvre l’écran Tâches afin que vous puissiez consulter les enregistrements des tâches de téléchargement et de publication.
 
 **Récent** Ouvre l’écran Activité récente afin que vous puissiez vue les noms des fichiers récemment modifiés et des tâches de téléchargement et de publication récentes.
 
-**Configuration** Ouvre l’écran de configuration afin que vous puissiez choisir les options de configuration ou d’administration pour optimiser votre utilisation de Dynamic Media Classic. (voir Configuration).
+**Configuration** Ouvre l’écran de configuration afin que vous puissiez choisir les options de configuration ou d’administration pour optimiser l’utilisation de Contenu multimédia dynamique classique. (voir Configuration).
 
 **Aide** Choisissez une option d&#39;aide :
 
@@ -50,7 +50,7 @@ La barre de navigation globale, située dans la partie supérieure de l’écran
 
 **Aide > Sommaire** de l’aide Ouvre le système d’aide sur la page d’introduction. Vous pouvez cliquer sur les entrées de la table des matières pour rechercher et afficher diverses rubriques.
 
-**Aide > À propos** Indique la version de Dynamic Media Classic en cours d’exécution.
+**Aide > À propos** Indique la version de Contenu multimédia dynamique en cours d’exécution.
 
 **Aide > Assistance** Indique comment obtenir le support technique de Dynamic Media Classic.
 
