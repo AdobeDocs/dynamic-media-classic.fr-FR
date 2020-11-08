@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 74%
@@ -24,7 +24,7 @@ Pour créer une visionneuse panoramique efficace, assurez-vous que les clichés 
 
 >[!NOTE]
 >
->Les versions précédentes de Dynamic Media Classic n’offres pas les visionneuses à 360° bidimensionnelles. Si vous avez créé une visionneuse à 360° dans une version précédente de Dynamic Media Classic, vous ne pouvez pas enregistrer votre visionneuse à 360° unidimensionnelle sans l’enregistrer d’abord sous un autre nom. Cliquez sur Enregistrer sous dans l’écran Visionneuse à 360° et saisissez un nouveau nom afin de pouvoir le modifier dans Dynamic Media Classic.
+>Les versions précédentes de Dynamic Media Classic n’offres pas les visionneuses à 360° bidimensionnelles. Si vous avez créé une visionneuse à 360° dans une version précédente de Dynamic Media Classic, vous ne pouvez pas enregistrer votre visionneuse à 360° unidimensionnelle sans l’enregistrer d’abord sous un autre nom. Cliquez sur Enregistrer sous dans l’écran Visionneuse à 360° et saisissez un nouveau nom afin de pouvoir le modifier dans Contenu multimédia dynamique classique.
 
 ## Instructions pour prendre des clichés d’images de la visionneuse à 360°{#guidelines-for-shooting-spin-set-images}
 
@@ -38,7 +38,7 @@ En règle générale, plus le nombre d’images de la visionneuse est élevé, m
 
 ## Création d’une visionneuse à 360° {#create}
 
-Notez que l’ordre dans lequel la visionneuse à 360° est créée ou créée dans Dynamic Media Classic est important. La rotation de la visionneuse à 360° varie en fonction du classement des fichiers lorsque vous faites glisser et déposer des images dans la grille de la page de la visionneuse à 360°. L’ordre dans lequel elle est affichée dans la zone de création définit sa rotation lorsque l’utilisateur déplace le pointeur de la souris ou ses doigts, de gauche à droite.
+Notez que l’ordre dans lequel la visionneuse à 360° est créée ou créée dans Contenu multimédia dynamique classique est important. La rotation de la visionneuse à 360° varie en fonction du classement des fichiers lorsque vous faites glisser et déposer des images dans la grille de la page de la visionneuse à 360°. L’ordre dans lequel elle est affichée dans la zone de création définit sa rotation lorsque l’utilisateur déplace le pointeur de la souris ou ses doigts, de gauche à droite.
 
 Lorsque vous créez une visionneuse, l’option **Publish after save** (« Publier après l’enregistrement ») affecte la visionneuse et ses membres comme suit :
 
@@ -88,7 +88,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually-publishing-
    * **Suppression d’images** Sélectionnez l’image, puis cliquez sur 
 **Supprimer**.
 
-   * **Ajouter des images** Faites glisser l’image dans une cellule.
+   * **Ajoute d’images** Faites glisser l’image dans une cellule.
 
    * **Réorganisation des lignes (visionneuses à 360° bidimensionnelles)** Cliquez sur une zone de sélection de ligne (à gauche de la ligne), puis cliquez sur 
 **Déplacer la rangée vers le bas** ou **Déplacer la rangée vers le haut**.
