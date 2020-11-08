@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0edab47b-531c-41a9-89c3-2e179c4f9fa4
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 94%
@@ -49,7 +49,7 @@ Après avoir publié une série d’échantillons, vous pouvez utiliser son URL 
 
 La méthode la plus courante pour déployer des séries d’échantillons consiste à insérer un lien (par le biais d’une icône de navigation) dans votre page Web. Lorsque vous cliquez dessus, le lien lance une page dynamique (ASP ou JSP) affichant la série d’échantillons dans une fenêtre de zoom contextuelle. Le lien de zoom affiche une fenêtre contextuelle contenant l’affichage agrandi proprement dit.
 
-Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le Guide](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)de référence des visionneuses Adobe.
+Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le Guide](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)de référence des visionneuses d’Adobes.
 
 ## Copie du code incorporé d’une visionneuse de série d’échantillons {#copying-the-embed-code-of-a-swatch-set-viewer}
 
