@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: ffb8113750e526fe9124a06ac071ceadf23f9f5c
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '10979'
 ht-degree: 68%
@@ -566,11 +566,11 @@ Le tableau suivant identifie les mouvements des visionneuses mobiles qui sont pr
 
 ### À propos de l’écran Paramètres prédéfinis de la visionneuse {#about-the-viewer-preset-screen}
 
-Créez et gérez des paramètres prédéfinis de la visionneuse sur l’écran Paramètres prédéfinis de la visionneuse. Pour ouvrir cet écran, cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
+Créez et gérez des paramètres prédéfinis de la visionneuse sur l’écran Paramètres prédéfinis de la visionneuse. Pour ouvrir cet écran, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 
 L’écran Paramètres prédéfinis de la visionneuse propose des outils permettant d’effectuer les tâches suivantes :
 
-**ajouter un paramètre prédéfini** Cliquez sur Ajouter et faites vos choix dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse.
+**Ajouter un paramètre prédéfini** Cliquez sur Ajouter et faites vos choix dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse.
 
 Voir [Ajout et modification des paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -587,7 +587,7 @@ Voir [Exportation d’un paramètre prédéfini](application-setup.md#exporting_
 **Filtrage de la liste** de paramètres prédéfinis de la visionneuse Utilisez les outils suivants pour filtrer la liste :
 
 * Dans la liste déroulante **Actifs/Inactifs**, choisissez une option pour afficher les paramètres prédéfinis actifs, les paramètres prédéfinis inactifs ou tous les paramètres prédéfinis.
-* Dans la liste déroulante **Visionneuse**, choisissez une option pour afficher uniquement les visionneuses d’un certain type. Sélectionnez **Toutes les visionneuses** pour les voir toutes.
+* Dans la liste déroulante **Visionneuse**, choisissez une option pour afficher uniquement les visionneuses d’un certain type. Sélectionnez **[!UICONTROL Toutes les visionneuses]** pour les voir toutes.
 
 **Tri des paramètres prédéfinis** Cliquez sur un en-tête de colonne (Principal, Type, Paramètre prédéfini ou Plate-forme) pour trier la liste sur une colonne. Cliquez à nouveau sur un en-tête de colonne pour trier la liste dans l’ordre décroissant (ou croissant).
 
@@ -613,11 +613,11 @@ Voir [Exportation d’un paramètre prédéfini](application-setup.md#exporting_
 
 1. Dans l’écran Paramètres prédéfinis de la visionneuse, ajoutez ou modifiez le paramètre prédéfini de visionneuse.
 
-   **ajouter** Cliquez sur Ajouter dans la barre d’outils. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme et un type de fichier de média enrichi. 
+   **Ajouter** Cliquez sur Ajouter dans la barre d’outils. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme et un type de fichier de média enrichi. 
 
    Cliquez sur **Enregistrer en tant que** lorsque vous avez terminé de créer le paramètre prédéfini de la visionneuse.
 
-   **ajouter à partir d’un paramètre prédéfini** de visionneuse existant Dans le tableau, sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis cliquez sur Modifier dans la barre d’outils.
+   **Ajouter à partir d’un paramètre prédéfini** de visionneuse existant Dans le tableau, sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis cliquez sur Modifier dans la barre d’outils.
 
    Après avoir reconfiguré la visionneuse de vidéos, cliquez sur **Enregistrer en tant que** pour enregistrer le paramètre prédéfini sous un autre nom dans le champ Nom du paramètre prédéfini.
 
@@ -909,7 +909,8 @@ Bien que la définition d’une convention d’affectation de nom par défaut ne
    Vous pouvez cocher la case Afficher le code pour afficher la valeur d’expression régulière à côté de vos sélections dans le formulaire. Vous pouvez saisir ou modifier ces valeurs pour définir les éléments de la convention d’affectation de nom si l’affichage sous forme de formulaire vous bloque pour quelque raison que ce soit. Si vos valeurs ne peuvent pas être analysées dans l’affichage sous forme de formulaire, les champs de formulaire seront inactifs.
 
    >[!NOTE]
-   les champs de formulaire désactivés n’indiquent pas que l’expression régulière n’est pas valide. Aucune validation ne vous permet de confirmer que vos expressions régulières sont correctes. Vous verrez les résultats de l’expression régulière que vous créez pour chaque élément après la ligne Résultat. L’expression régulière est visible en entier en bas de la page.
+   >
+   >les champs de formulaire désactivés n’indiquent pas que l’expression régulière n’est pas valide. Aucune validation ne vous permet de confirmer que vos expressions régulières sont correctes. Vous verrez les résultats de l’expression régulière que vous créez pour chaque élément après la ligne Résultat. L’expression régulière est visible en entier en bas de la page.
 
 1. Développez chaque élément selon vos besoins et indiquez les conventions d’affectation de nom que vous voulez utiliser.
 1. Si nécessaire, cliquez sur **Ajouter** pour ajouter une autre convention d’appellation à un élément. Pour supprimer la convention d’appellation d’un élément, cliquez sur **Supprimer**.
@@ -1015,7 +1016,8 @@ Lorsque la visionneuse à 360° est téléchargée et publiée, vous activez le 
    N’oubliez pas qu’il s’agit uniquement d’exemples. Vous pouvez créer votre expression régulière comme bon vous semble, en fonction de vos besoins.
 
    >[!NOTE]
-   si la combinaison des expressions régulières de ligne et de colonne ne parvient pas à déterminer la position du fichier dans le tableau de visionneuse à 360° multidimensionnel, ce fichier n’est pas ajouté à la visionneuse et une erreur est enregistrée.
+   >
+   >si la combinaison des expressions régulières de ligne et de colonne ne parvient pas à déterminer la position du fichier dans le tableau de visionneuse à 360° multidimensionnel, ce fichier n’est pas ajouté à la visionneuse et une erreur est enregistrée.
 
 1. Dans Options de création et d’affectation de nom de l’ensemble, indiquez le suffixe ou le préfixe du nom de base que vous avez défini dans la convention d’affectation de nom. Définissez également l’emplacement de création de la visionneuse d’images dans la structure de dossiers Contenu multimédia dynamique classique.
 
@@ -1025,8 +1027,9 @@ Lorsque la visionneuse à 360° est téléchargée et publiée, vous activez le 
 1. Téléchargez et publiez la visionneuse à 360° comme vous le faites habituellement, en veillant à activer le nom de la visionneuse à 360° 2D dans la boîte de dialogue Options de téléchargement de tâche, sous Paramètres prédéfinis d’ensemble par lot.
 
 >[!MORELIKETHIS]
-* [Prévisualisation d’un fichier](previewing-asset.md#previewing_an_asset)
-* [Configuration des paramètres d’image prédéfinis](setting-image-presets.md#setting_up_image_presets)
-* [Affichage, ajout et exportation de métadonnées](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
-* [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)
+>
+>* [Prévisualisation d’un fichier](previewing-asset.md#previewing_an_asset)
+>* [Configuration des paramètres d’image prédéfinis](setting-image-presets.md#setting_up_image_presets)
+>* [Affichage, ajout et exportation de métadonnées](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)
 
