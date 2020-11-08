@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 61%
@@ -28,13 +28,13 @@ La suppression d’éléments du dossier Corbeille supprime définitivement les 
 
 >[!NOTE]
 >
->Les fichiers qui ont été déplacés dans le dossier Corbeille sont toujours enregistrés dans Dynamic Media Classic. Si vous tentez de télécharger un fichier portant le même nom qu’un fichier supprimé dans le dossier Corbeille, Dynamic Media Classic traite le fichier à télécharger comme un fichier duplicata. A ce titre, un numéro sera ajouté à son nom.
+>Les fichiers qui ont été déplacés dans le dossier Corbeille sont toujours enregistrés dans Dynamic Media Classic. Si vous tentez de télécharger un fichier portant le même nom qu’un fichier supprimé dans le dossier Corbeille, Dynamic Media Classic traite le fichier que vous souhaitez télécharger comme un fichier duplicata. A ce titre, un numéro sera ajouté à son nom.
 
 ## A propos du dossier Corbeille {#about-the-trash-folder}
 
 Dès que vous supprimez un objet d’un dossier, cet objet est placé dans le dossier Corbeille. Voici ce qui se passe quand vous supprimez un objet et le déplacez vers le dossier Corbeille :
 
-* Bien que l’élément ait été supprimé de vos dossiers Dynamic Media Classic, son ID ne peut pas être affecté à un autre fichier tant qu’il reste dans le dossier Corbeille. Si vous tentez de télécharger un fichier portant le même nom qu’un fichier dans le dossier Corbeille, Dynamic Media Classic ajoute un numéro au nom du fichier.
+* Bien que l’élément ait été supprimé de vos dossiers Contenu multimédia dynamique classique, il est impossible d’attribuer son identifiant à un autre fichier tant qu’il reste dans le dossier Corbeille. Si vous tentez de télécharger un fichier portant le même nom qu’un fichier dans le dossier Corbeille, Dynamic Media Classic ajoute un numéro au nom du fichier.
 * L’objet ne peut pas être publié. Même si l’objet était marqué pour publication au moment de sa suppression, il ne sera pas publié.
 * L’objet reste dans le dossier Corbeille jusqu’à ce qu’il soit restauré, que 7 jours se soient écoulés ou qu’il soit définitivement supprimé par la commande Vider la corbeille. Au bout de 7 jours, l’objet est définitivement supprimé au cours d’une opération de nettoyage automatique.
 
