@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 88%
@@ -20,7 +20,7 @@ ht-degree: 88%
 
 # Liaison d’une visionneuse à 360° à une page Web{#linking-a-spin-set-to-a-web-page}
 
-Les sites Web et applications accèdent au contenu du serveur Dynamic Media Image Server, y compris aux visionneuses à 360°, au moyen de chaînes URL ou de code incorporé. Ces chaînes URL sont activées au cours du processus de publication. Pour placer la chaîne URL ou le code incorporé de votre visionneuse à 360° dans vos pages Web et applications, copiez-la depuis Dynamic Media Classic.
+Les sites Web et applications accèdent au contenu du serveur d’images de Contenu de média dynamique, y compris aux visionneuses à 360°, au moyen de chaînes URL ou de code incorporé. Ces chaînes URL sont activées au cours du processus de publication. Pour placer la chaîne URL ou le code incorporé de votre visionneuse à 360° dans vos pages Web et applications, copiez-la à partir de Contenu multimédia dynamique classique.
 
 >[!NOTE]
 >
