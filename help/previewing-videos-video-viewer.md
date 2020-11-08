@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 84%
@@ -42,7 +42,7 @@ Voir [Ajout et modification des paramètres prédéfinis de visionneuse](applica
 
 >[!NOTE]
 >
->Dynamic Media Classic fournit une méthode pratique pour prévisualiser la vidéo MP4 sur le bureau. Utilisez cette méthode pour prévisualiser du contenu mobile sur le Bureau sans le tester concrètement sur des périphériques mobiles. Sachez toutefois que ce que vous voyez dans la prévisualisation n’est pas tout à fait réaliste. Pour découvrir quel aspect et quel comportement de lecture aura une vidéo sur un périphérique mobile, accédez à l’écran de prévisualisation, sélectionnez l’option Copier l’URL, puis entrez l’URL dans le navigateur Web d’un périphérique mobile. Pour plus d’informations, voir [Déploiement de vidéos sur vos sites Web et sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Dynamic Media Classic offre une méthode pratique pour prévisualiser de la vidéo MP4 sur le bureau. Utilisez cette méthode pour prévisualiser du contenu mobile sur le Bureau sans le tester concrètement sur des périphériques mobiles. Sachez toutefois que ce que vous voyez dans la prévisualisation n’est pas tout à fait réaliste. Pour découvrir quel aspect et quel comportement de lecture aura une vidéo sur un périphérique mobile, accédez à l’écran de prévisualisation, sélectionnez l’option Copier l’URL, puis entrez l’URL dans le navigateur Web d’un périphérique mobile. Pour plus d’informations, voir [Déploiement de vidéos sur vos sites Web et sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Utilisation des paramètres prédéfinis de visionneuse de vidéos {#working-with-video-viewer-presets}
 
@@ -54,7 +54,7 @@ Voir aussi [Prévisualisation de vidéos dans une visionneuse de vidéos](previe
 
 ### Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos {#adding-or-editing-a-video-viewer-preset}
 
-La fonction Paramètres prédéfinis de la visionneuse vous permet d’afficher les divers types de visionneuse et leurs paramètres prédéfinis. Vous pouvez également ajouter et modifier vos propres paramètres prédéfinis de visionneuse personnalisés ou modifier les paramètres prédéfinis de visionneuse existants fournis avec Dynamic Media Classic.
+La fonction Paramètres prédéfinis de la visionneuse vous permet d’afficher les divers types de visionneuse et leurs paramètres prédéfinis. Vous pouvez également ajouter et modifier vos propres paramètres prédéfinis de visionneuse personnalisés ou modifier les paramètres prédéfinis de visionneuse existants fournis avec Contenu multimédia dynamique classique.
 
 Dans Paramètres prédéfinis de la visionneuse, vous pouvez activer, filtrer, trier et prévisualiser les paramètres prédéfinis de la visionneuse.
 
@@ -72,7 +72,7 @@ Voir [Paramètres prédéfinis de la visionneuse](application-setup.md#viewer_pr
 
    Voir aussi [Ajout et modification des paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
 
-   **Ajouté à partir d’un paramètre prédéfini** de visionneuse existant Dans le tableau, sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis cliquez sur Modifier dans la barre d’outils.
+   **Ajouter à partir d’un paramètre prédéfini** de visionneuse existant Dans le tableau, sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis cliquez sur Modifier dans la barre d’outils.
 
    Après avoir reconfiguré la visionneuse de vidéos, cliquez sur **Enregistrer en tant que** pour enregistrer le paramètre prédéfini sous un autre nom dans le champ Nom du paramètre prédéfini.
 
