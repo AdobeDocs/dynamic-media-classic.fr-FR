@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 64%
@@ -20,7 +20,7 @@ ht-degree: 64%
 
 # Utilisation de fichiers PSD {#working-with-psd-files}
 
-Les fichiers PSD (Documents Photoshop) sont le plus souvent utilisés dans Dynamic Media Classic pour créer des modèles. Lorsque vous téléchargez un fichier PSD, vous pouvez créer automatiquement un modèle Dynamic Media Classic à partir du fichier (sélectionnez l’option Créer un modèle dans l’écran de téléchargement).
+Les fichiers PSD (Photoshop Document) sont le plus souvent utilisés dans Dynamic Media Classic pour créer des modèles. Lorsque vous téléchargez un fichier PSD, vous pouvez créer automatiquement un modèle Contenu multimédia dynamique classique à partir du fichier (sélectionnez l’option Créer un modèle dans l’écran de téléchargement).
 
 Dynamic Media Classic crée plusieurs images à partir d’un fichier PSD avec des calques si vous utilisez le fichier pour créer un modèle ; il crée une image pour chaque calque.
 
@@ -50,7 +50,7 @@ Pour effectuer le rognage en fonction de la transparence, indiquez 0 pour rogne
 
 **Conserver l’espace** colorimétrique d’origine Conserve l’espace colorimétrique d’origine de l’image.
 
-**Personnalisé de > à** Ouvre les menus afin que vous puissiez choisir un espace colorimétrique Convertir à partir de et Convertir en. Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez téléchargé vers Dynamic Media Classic. (voir Profils ICC).
+**Personnalisé de > à** Ouvre les menus afin que vous puissiez choisir un espace colorimétrique Convertir à partir de et Convertir en. Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez téléchargé dans Dynamic Media Classic. (voir Profils ICC).
 
 **Conserver les calques** Pixellise les calques du fichier PSD, le cas échéant, dans des fichiers individuels. Les calques de ces fichiers restent associés au fichier PSD. Pour les afficher, ouvrez le fichier PSD dans l’affichage Détail et sélectionnez le panneau Calque (voir Affichage et modification de calques d’un fichier PSD).
 
@@ -64,9 +64,9 @@ Pour effectuer le rognage en fonction de la transparence, indiquez 0 pour rogne
 
 **Nom** du calque Nomme les images après leur nom de calque dans le fichier PSD. Par exemple, un calque appelé Etiquette de prix dans le fichier PSD d’origine devient une image nommée Etiquette de prix. Cependant, si les calques du fichier PSD portent les noms de calques Photoshop par défaut (Arrière-plan, Calque 1, Calque 2, etc.), les images sont nommées d’après leur numéro de calque dans le fichier PSD, et non leur nom par défaut.
 
-**Photoshop et numéro** de couche nomment les images après leur numéro de calque dans le fichier PSD, en ignorant les noms de calque d’origine. Le nom des images est composé du nom de fichier Photoshop et d’un numéro de calque. Par exemple, le deuxième calque d’un fichier appelé Pub printemps.psd est nommé Pub printemps_2 même s’il portait un nom dans Photoshop non défini par défaut.
+**Photoshop et numéro** de couche Attribuent un nom aux images après leur numéro de calque dans le fichier PSD, en ignorant les noms de calque d’origine. Le nom des images est composé du nom de fichier Photoshop et d’un numéro de calque. Par exemple, le deuxième calque d’un fichier appelé Pub printemps.psd est nommé Pub printemps_2 même s’il portait un nom dans Photoshop non défini par défaut.
 
-**Photoshop et nom** de calque nomment les images après le fichier PSD, suivies du nom du calque ou du numéro de calque. Le numéro de calque est utilisé si le nom des calques dans le fichier PSD est un nom de calque Photoshop par défaut. Par exemple, un calque nommé Etiquette de prix dans un fichier PSD appelé PubPrintemps est nommé PubPrintemps_Etiquette de prix. Un calque portant le nom par défaut Calque 2 est nommé Pub Printemps_2.
+**Photoshop and Layer Name** (et nom de couche) Noms des images après le fichier PSD suivi du nom du calque ou du numéro de calque. Le numéro de calque est utilisé si le nom des calques dans le fichier PSD est un nom de calque Photoshop par défaut. Par exemple, un calque nommé Etiquette de prix dans un fichier PSD appelé PubPrintemps est nommé PubPrintemps_Etiquette de prix. Un calque portant le nom par défaut Calque 2 est nommé Pub Printemps_2.
 
 **Ancre** Indiquez le mode d’ancrage des images dans les modèles générés à partir de la composition superposée produite à partir du fichier PSD. Par défaut, l’ancrage est au centre. Un ancrage au centre permet aux images de remplacement de remplir de manière optimale le même espace, quelles que soient les proportions de l’image de remplacement. Les images qui remplacent cette image et qui présentent un aspect différent occupent le même espace lorsque le modèle est référencé et le paramètre de substitution utilisé. Changez de paramètre si votre application nécessite le remplacement d’images pour occuper l’espace alloué dans le modèle.
 
