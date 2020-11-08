@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2159'
 ht-degree: 73%
@@ -24,15 +24,15 @@ L’accentuation est une technique de manipulation d’image qui rend plus nets 
 
 Dynamic Media Classic recommande vivement d’utiliser des paramètres d’image prédéfinis pour toutes les images. Vous vous assurez ainsi que toutes les images sont de taille uniforme et que l’accentuation est appliquée à chaque image avec des paramètres prédéfinis. En outre, vous pouvez modifier et remplacer facilement les paramètres d’accentuation prédéfinis des images. A la prochaine publication, toutes les images appelées avec ces paramètres prédéfinis se voient appliquer les nouvelles valeurs.
 
-Dynamic Media Classic recommande également d’ajouter l’accentuation aux paramètres prédéfinis de la visionneuse, puis d’appeler une visionneuse avec ce paramètre prédéfini. Les images apparaissent ainsi de façon nette et attrayante dans vos visionneuses.
+Il est également recommandé d’ajouter l’accentuation aux paramètres prédéfinis de la visionneuse, puis d’appeler une visionneuse avec ce paramètre prédéfini. Les images apparaissent ainsi de façon nette et attrayante dans vos visionneuses.
 
 Cependant, que vous utilisiez les paramètres prédéfinis de la visionneuse ou des images, ou une autre méthode d’accentuation, l’important est que vous devez accentuer vos images. Si vous ne le faites pas, vos images (et votre site Web) peuvent prendre un aspect flou.
 
 >[!NOTE]
 >
->les commandes d’accentuation remplacent les paramètres d’image prédéfinis, notamment les effets d’accentuation. Un paramètre d’image prédéfini régit la taille et le formatage des images diffusées à partir des serveurs Dynamic Media Image Server. Dynamic Media Classic recommande vivement d’utiliser des paramètres d’image prédéfinis pour diffuser toutes les images afin de s’assurer que leur taille et leur accentuation sont uniformes. Cependant, après avoir modifié les paramètres d’accentuation d’une image individuelle, les paramètres d’image prédéfinis relatifs à l’accentuation ne s’appliquent plus à l’image. Elle est diffusée sans ces paramètres.
+>les commandes d’accentuation remplacent les paramètres d’image prédéfinis, notamment les effets d’accentuation. Un paramètre d’image prédéfini régit la taille et le formatage des images diffusées à partir des serveurs d’images de médias dynamiques. Dynamic Media Classic recommande vivement d’utiliser des paramètres d’image prédéfinis pour diffuser toutes les images afin de s’assurer que leur taille et leur accentuation sont uniformes. Cependant, après avoir modifié les paramètres d’accentuation d’une image individuelle, les paramètres d’image prédéfinis relatifs à l’accentuation ne s’appliquent plus à l’image. Elle est diffusée sans ces paramètres.
 
-Il est souvent nécessaire d’accentuer les images. Dynamic Media Classic et les serveurs d’images offre plusieurs options d’accentuation. Il est important de comprendre l’impact de l’accentuation sur une image et le degré d’accentuation dont vous avez besoin. La plupart des images ont besoin d’accentuation mais le degré nécessaire dépend de l’image.
+Il est souvent nécessaire d’accentuer les images. Les serveurs Dynamic Media Classic et Image Server offre plusieurs options d’accentuation. Il est important de comprendre l’impact de l’accentuation sur une image et le degré d’accentuation dont vous avez besoin. La plupart des images ont besoin d’accentuation mais le degré nécessaire dépend de l’image.
 
 L’accentuation de l’image augmente le contraste des pixels pour créer un effet de contours renforcés. Ce contraste amélioré des bords est perçu par les yeux comme de la netteté. S’il est facile d’améliorer une image à l’aide de filtres d’accentuation, il est également facile de trop renforcer la netteté d’une image,
 
@@ -40,7 +40,7 @@ ce qui crée alors un effet de halo ou de bande sur les lignes de la bordure.
 
 Vous pouvez suivre les meilleures pratiques pour optimiser l’accentuation de vos images dans Dynamic Media Classic et sur Dynamic Media Image Server.
 
-Reportez-vous à la page [Meilleures pratiques pour l’accentuation des images dans Dynamic Media Classic et sur Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
+Voir [Meilleures pratiques pour l’accentuation des images dans Dynamic Media Classic et sur Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
 
 **Pour accentuer une image**
 
@@ -70,7 +70,7 @@ Dans le menu Accentuation, choisissez une option :
 
 Choisissez les options suivantes pour préciser l’accentuation avec le masquage flou :
 
-**Montant** Contrôle le degré de contraste appliqué aux pixels de contour. La valeur par défaut est de 0. Pour des images à haute résolution, vous pouvez l’augmenter jusqu’à 5. Imaginez la quantité comme étant l’unité de mesure de l’intensité du filtre. Notez que le paramètre Montant dans Dynamic Media Classic n’est pas identique au paramètre Montant dans Photoshop. Photoshop utilise une quantité comprise entre 1 % et 500 %, tandis que Dynamic Media Classic passe de 0,0 à 5,0. (La valeur 5 est environ équivalente à 500 % dans Photoshop, 0,9 à 90 %, et ainsi de suite.)
+**Montant** Contrôle le degré de contraste appliqué aux pixels de contour. La valeur par défaut est de 0. Pour des images à haute résolution, vous pouvez l’augmenter jusqu’à 5. Imaginez la quantité comme étant l’unité de mesure de l’intensité du filtre. Notez que le paramètre Montant dans Dynamic Media Classic n’est pas identique au paramètre Montant dans Photoshop. Photoshop utilise une valeur comprise entre 1 % et 500 %, tandis que la valeur de l’option Contenu multimédia dynamique classique est redimensionnée entre 0 et 5,0. (La valeur 5 est environ équivalente à 500 % dans Photoshop, 0,9 à 90 %, et ainsi de suite.)
 
 **Rayon** Détermine le nombre de pixels entourant les pixels de contour qui affectent l’accentuation. L’effet est exécuté sur tous les pixels de l’image et s’étend dans toutes les directions. 
 
@@ -102,7 +102,7 @@ Sélectionnez le menu Ré-échantillonnage, puis choisissez une option. Les opti
 
 **Accentuation et paramètres d’image prédéfinis**
 
-Vous pouvez mélanger les trois effets d’accentuation pour obtenir votre résultat final. Cette approche n’est toutefois pas recommandée. Dynamic Media Classic vous recommande d’enregistrer vos effets d’accentuation dans le cadre d’un paramètre d’image prédéfini.Les paramètres d’image prédéfinis vous permettent de regrouper les modificateurs d’image les plus souvent utilisés afin de créer une image redimensionnée dynamiquement dans une petite chaîne de texte. Un paramètre d’image prédéfini contient des valeurs pour le format de fichier (généralement en format JPEG pour le Web), le nombre de pixels et l’accentuation d’image. Au lieu d’ajouter à l’URL chaque modificateur d’image nécessaire à la création d’un certain type de taille d’image, vous créez des paramètres d’image prédéfinis, par exemple « Miniature », vous configurez les paramètres prédéfinis de la miniature en indiquant les options appropriées de taille, de fichier et d’accentuation, puis vous appelez l’image avec le nom du paramètre d’image prédéfini. Les paramètres d’image prédéfinis raccourcissent la longueur globale de l’URL. Ces deux URL produisent la même image JPEG 350 x 350 avec accentuation : 
+Vous pouvez mélanger les trois effets d’accentuation pour obtenir votre résultat final. Cette approche n’est toutefois pas recommandée. Dynamic Media Classic vous recommande d’enregistrer vos effets d’accentuation dans le cadre d’un paramètre d’image prédéfini.Les paramètres d’image prédéfinis vous permettent de regrouper les modificateurs d’image les plus souvent utilisés afin de créer une image redimensionnée de manière dynamique dans une petite chaîne de texte. Un paramètre d’image prédéfini contient des valeurs pour le format de fichier (généralement en format JPEG pour le Web), le nombre de pixels et l’accentuation d’image. Au lieu d’ajouter à l’URL chaque modificateur d’image nécessaire à la création d’un certain type de taille d’image, vous créez des paramètres d’image prédéfinis, par exemple « Miniature », vous configurez les paramètres prédéfinis de la miniature en indiquant les options appropriées de taille, de fichier et d’accentuation, puis vous appelez l’image avec le nom du paramètre d’image prédéfini. Les paramètres d’image prédéfinis raccourcissent la longueur globale de l’URL. Ces deux URL produisent la même image JPEG 350 x 350 avec accentuation : 
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -131,7 +131,7 @@ Pour définir les options d’accentuation par défaut de votre entreprise, sél
 
 Sauf si vous ajoutez des modificateurs d’accentuation de l’image aux paramètres prédéfinis, la petite image de chargement initial peut paraître floue car sa résolution est réduite sans accentuation pour s’ajuster à la fenêtre de la visionneuse.
 
-Dans Dynamic Media Classic, les paramètres prédéfinis de la visionneuse (tels que les paramètres d’image prédéfinis) vous permettent de centraliser de nombreuses options en un seul emplacement, y compris le choix de l’habillage et les options de la visionneuse (telles qu’un bouton Imprimer ou le contrôle de la vitesse de l’animation de zoom). Les paramètres prédéfinis de la visionneuse se trouvent dans la même section que les paramètres d’image prédéfinis, sous Configuration > Paramètres de l’application > Paramètres prédéfinis de la visionneuse.
+Dans Dynamic Media Classic, les paramètres prédéfinis de la visionneuse (tels que les paramètres d’image prédéfinis) vous permettent de centraliser de nombreuses options en un seul emplacement, y compris le choix de l’habillage et des options de la visionneuse (comme l’inclusion d’un bouton Imprimer ou le contrôle de la vitesse de l’animation de zoom). Les paramètres prédéfinis de la visionneuse se trouvent dans la même section que les paramètres d’image prédéfinis, sous Configuration > Paramètres de l’application > Paramètres prédéfinis de la visionneuse.
 
 Les options des modificateurs se trouvent dans la section des paramètres principaux de tous les paramètres prédéfinis de visionneuse de zoom personnalisés, du catalogue électronique et de rotation. En ajoutant les commandes d’accentuation de l’URL à la boîte de dialogue des modificateurs, vous ajoutez l’accentuation chaque fois que cette visionneuse est appelée avec ce paramètre prédéfini de visionneuse.
 
@@ -145,4 +145,4 @@ Dans ce cas, les paramètres prédéfinis renforcent et modifient l’habillage 
 
 La dernière méthode d’accentuation, et la moins recommandée, consiste à créer des valeurs de remplacement d’accentuation pour chaque image. Cette méthode remplace l’accentuation renforcée via des paramètres prédéfinis avec des valeurs propres spécifiques. Toutefois, cette valeur remplace toutes les autres méthodes d’accentuation pour toutes les tailles. Le meilleur scénario d’utilisation de cette méthode se présente dans le cas où certaines images ne sont pas haute résolution et que les valeurs dans les paramètres d’image prédéfinis sont trop élevées pour ces petites images. Une accentuation au cas par cas peut alors être nécessaire.
 
-Dans Dynamic Media Classic, sélectionnez une image, accédez à la Vue de détails (en cliquant sur le doublon ou en appuyant sur le bouton de Vue des détails), puis cliquez sur Accentuer. Modifiez les paramètres souhaités, puis cliquez sur Enregistrer. Cette option indique au serveur Image Server d’utiliser ces paramètres d’accentuation plutôt que toute autre commande appelée dans l’URL, comme un modificateur d’accentuation ou un paramètre prédéfini. Vous devez publier pour voir l’effet des modifications.
+Dans Contenu multimédia dynamique classique, sélectionnez une image, accédez à la Vue de détails (en cliquant sur le doublon ou en appuyant sur le bouton Vue de détails), puis cliquez sur Accentuer. Modifiez les paramètres souhaités, puis cliquez sur Enregistrer. Cette option indique au serveur Image Server d’utiliser ces paramètres d’accentuation plutôt que toute autre commande appelée dans l’URL, comme un modificateur d’accentuation ou un paramètre prédéfini. Vous devez publier pour voir l’effet des modifications.
