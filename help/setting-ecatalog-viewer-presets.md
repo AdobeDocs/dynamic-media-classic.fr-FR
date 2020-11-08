@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 67%
@@ -30,7 +30,7 @@ Pour créer un paramètre prédéfini de visionneuse de catalogue électronique 
 1. Cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
 1. Dans l’écran Paramètres prédéfinis de la visionneuse, créez un paramètre prédéfini de visionneuse de catalogues électroniques en partant de zéro ou d’un paramètre prédéfini existant :
 
-   * **Création d’un paramètre prédéfini de visionneuse** de catalogue électronique Ajoute de clics. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme, choisissez Visionneuse de catalogue électronique, puis cliquez sur 
+   * **Création d’une Ajoute de** clic prédéfinie de visionneuse de catalogue électronique Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme, choisissez Visionneuse de catalogue électronique, puis cliquez sur 
 **Ajouter**.
 
    * **Modification d’un paramètre prédéfini** de visionneuse de catalogue électronique Sélectionnez un paramètre prédéfini de visionneuse de catalogue électronique, puis cliquez sur Modifier. Cliquez sur 
