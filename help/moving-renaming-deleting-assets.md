@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 66%
@@ -40,7 +40,7 @@ Pour renommer un fichier :
    * Sélectionnez le nom, saisissez un nouveau nom, puis appuyez sur Entrée ou cliquez en dehors du nom.
    * Choisissez Fichier > Renommer. Le nom du fichier est mis en surbrillance. Saisissez un nouveau nom, puis appuyez sur la touche Entrée.
 
-Veillez à ne pas saisir le nom d’une ressource Dynamic Media Classic existante.
+Veillez à ne pas saisir le nom d’un fichier Dynamic Media Classic existant.
 
 ## Suppression de fichiers {#delete-assets}
 
@@ -61,7 +61,7 @@ Lorsque vous supprimez un fichier, tous les fichiers dérivés de ce fichier son
 
 >[!NOTE]
 >
->Dynamic Media Classic recommande d’écraser les fichiers plutôt que de les supprimer si vous souhaitez remplacer un fichier par un autre fichier portant le même nom.
+>Dynamic Media Classic recommande de remplacer les fichiers par des fichiers au lieu de les supprimer si vous souhaitez remplacer un fichier par un autre fichier portant le même nom.
 
 ## Suppression de plusieurs fichiers à l’aide d’un fichier texte {#delete-multiple-assets-with-a-text-file}
 
@@ -75,7 +75,7 @@ Pour supprimer des fichiers à l’aide de cette liste créée, procédez comme 
 1. Dans la boîte de dialogue Supprimer une liste de fichiers, parcourez les dossiers ou tapez le chemin de l’emplacement du fichier texte comportant la liste des fichiers à supprimer.
 1. Cliquez sur le bouton Supprimer.
 
-Lorsque vous supprimez des fichiers à l’aide d’un fichier texte, si un identifiant Dynamic Media Classic ne figure pas sur la liste, un message s’affiche vous informant que Dynamic Media Classic est &quot;Impossible de valider ces entrées dans votre liste :&quot; avec la liste des entrées. Cependant, Dynamic Media Classic ne génère pas d’erreur sur l’écran Tâches.
+Lorsque vous supprimez des fichiers à l’aide d’un fichier texte, si un identifiant Dynamic Media Classic ne figure pas sur la liste, un message s’affiche vous informant que Contenu de Contenu multimédia dynamique Classic est &quot;Impossible de valider ces entrées dans votre liste :&quot;, ainsi que la liste des entrées. Cependant, Dynamic Media Classic ne génère pas d’erreur sur l’écran Tâches.
 
 >[!MORELIKETHIS]
 >
