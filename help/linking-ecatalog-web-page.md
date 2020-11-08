@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 87%
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 # Liaison d’un catalogue électronique à une page Web{#linking-an-ecatalog-to-a-web-page}
 
-Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Image Server, y compris aux catalogues électroniques, au moyen de chaînes URL ou de code incorporé. Ces chaînes URL sont activées au cours du processus de publication. Pour placer la chaîne URL ou le code incorporé de votre catalogue électronique dans vos pages Web et applications, copiez-la depuis Dynamic Media Classic.
+Vos sites Web et applications accèdent au contenu du serveur d’images Contenu de Contenu de média dynamique, y compris les catalogues électroniques, au moyen de chaînes URL ou de code incorporé. Ces chaînes URL sont activées au cours du processus de publication. Pour placer la chaîne URL ou le code incorporé de votre catalogue électronique dans vos pages Web et applications, copiez-la à partir de Contenu multimédia dynamique classique.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Imag
 
 La méthode la plus courante pour déployer un catalogue électronique consiste à placer un lien se présentant sous la forme d’une page de couverture miniature de catalogue électronique sur une page Web. Consultez votre équipe informatique pour vous assurer que le catalogue électronique s’ouvre dans une fenêtre contextuelle nette et centrée. Demandez-lui de masquer dans le navigateur la barre d’outils et la barre d’adresse.
 
-Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de catalogue électronique HTML5 dans le Guide](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)de référence des visionneuses Adobe.
+Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de catalogue électronique HTML5 dans le Guide](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)de référence des visionneuses d’Adobes.
 
 ## Copie du code incorporé d’une visionneuse de catalogue électronique {#copying-the-embed-code-of-an-ecatalog-viewer}
 
