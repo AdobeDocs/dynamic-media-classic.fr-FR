@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 84%
@@ -20,7 +20,7 @@ ht-degree: 84%
 
 # Ajout et gestion des utilisateurs du portail multimédia{#adding-and-managing-media-portal-users}
 
-En tant qu’administrateur, vous pouvez ajouter et gérer des utilisateurs, définir s’ils peuvent modifier leur mot de passe, modifier les informations utilisateur et télécharger des listes d’utilisateurs. Ces tâches sont accomplies à partir de l’écran Administration utilisateur. Pour accéder à cet écran, choisissez **Configuration** > **Configuration de l’application** > **Configuration de l’administration** > **Administration utilisateur**.
+En tant qu’administrateur, vous pouvez ajouter et gérer des utilisateurs, définir s’ils peuvent modifier leur mot de passe, modifier les informations utilisateur et télécharger des listes d’utilisateurs. Ces tâches sont accomplies à partir de l’écran Administration utilisateur. Pour accéder à cet écran, choisissez **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de l’administration]** > **[!UICONTROL Administration utilisateur]**.
 
 >[!NOTE]
 >
@@ -30,21 +30,21 @@ En tant qu’administrateur, vous pouvez ajouter et gérer des utilisateurs, dé
 
 Lorsque leur inscription est validée, les utilisateurs, les contributeurs et les contributeurs-utilisateurs du portail multimédia reçoivent un message électronique de bienvenue dans lequel figure un mot de passe. Les administrateurs peuvent déterminer si les utilisateurs du portail multimédia sont autorisés à modifier ce mot de passe.
 
-1. Cliquez sur **Configuration** > **Configuration de Media Portal** > **Paramètres généraux**.
-1. Dans la page Paramètres généraux, sélectionnez ou désélectionnez l’option **Autoriser l’utilisateur Media Portal à modifier le mot de passe**.
-1. Cliquez sur **Enregistrer**.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de Media Portal]** > **[!UICONTROL Paramètres généraux]**.
+1. Dans la page Paramètres généraux, sélectionnez ou désélectionnez l’option **[!UICONTROL Autoriser l’utilisateur Media Portal à modifier le mot de passe]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 >[!NOTE]
 >
->les utilisateurs du portail multimédia autorisés à modifier leur mot de passe peuvent procéder à cette modification en cliquant sur **Configuration** > **Configuration personnelle**, puis en modifiant le mot de passe dans l’écran Configuration personnelle.
+>les utilisateurs du portail multimédia autorisés à modifier leur mot de passe peuvent procéder à cette modification en cliquant sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration personnelle]**, puis en modifiant le mot de passe dans l’écran Configuration personnelle.
 
 ## Ajout d’un utilisateur au portail multimédia {#adding-a-media-portal-user}
 
-1. Cliquez sur **Configuration** > **Configuration de l’application** > **Configuration de l’administration** > **Administration utilisateur**.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de l’administration]** > **[!UICONTROL Administration utilisateur]**.
 1. Sur la page Administration utilisateur, cliquez sur **Ajouter**.
-1. Dans la boîte de dialogue Ajouter un utilisateur, dans le panneau Informations utilisateur, entrez les prénom, nom et adresse électronique de l’utilisateur, puis cliquez sur **Suivant**.
+1. Dans la boîte de dialogue Ajouter un utilisateur, dans le panneau Informations utilisateur, entrez les prénom, nom et adresse électronique de l’utilisateur, puis cliquez sur **[!UICONTROL Suivant]**.
 1. Dans le panneau Entreprise/Fonction, dans la liste déroulante des entreprises, sélectionnez une ou plusieurs entreprises pour l’utilisateur.
-1. Dans la liste des fonctions, sélectionnez une fonction du portail multimédia, puis cliquez sur **Suivant**.
+1. Dans la liste des fonctions, sélectionnez une fonction du portail multimédia, puis cliquez sur **[!UICONTROL Suivant]**.
 
    Voir [Rôles utilisateur du portail multimédia](media-portal-user-roles.md#media_portal_user_roles).
 
@@ -52,11 +52,11 @@ Lorsque leur inscription est validée, les utilisateurs, les contributeurs et le
 
    Voir [Création et gestion des groupes du portail multimédia](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
-1. (Facultatif) Cliquez sur **Paramètres d’e-mail** pour choisir d’autres paramètres d’e-mail dans les paramètres par défaut.
+1. (Facultatif) Cliquez sur **[!UICONTROL Paramètres d’e-mail]** pour choisir d’autres paramètres d’e-mail dans les paramètres par défaut.
 
    Voir [Définition du message de l’e-mail de bienvenue pour les utilisateurs du portail multimédia](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users).
 
-1. Cliquez sur **Ajouter un utilisateur**.
+1. Cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
 
 Une fois que vous avez ajouté un utilisateur, le portail multimédia lui envoie un e-mail de bienvenue. Le message comprend un mot de passe temporaire et l’URL du portail multimédia.
 
@@ -90,48 +90,49 @@ L’exemple de feuille de calcul ci-dessous montre la disposition d’un fichier
 ### Téléchargement du fichier CSV {#uploading-the-csv-file}
 
 1. Ouvrez l’écran de configuration de l’administration utilisateur.
-1. Cliquez sur **Télécharger liste utilisateurs**.
-1. Dans la boîte de dialogue Sélectionner un fichier à télécharger, sélectionnez le fichier CSV, puis cliquez sur **Ouvrir**.
+1. Cliquez sur **[!UICONTROL Télécharger liste utilisateurs]**.
+1. Dans la boîte de dialogue Sélectionner un fichier à télécharger, sélectionnez le fichier CSV, puis cliquez sur **[!UICONTROL Ouvrir]**.
 
 Chaque utilisateur de la liste est automatiquement ajouté aux groupes spécifiés Un message de bienvenue est envoyé à chacun d’eux.
 
 >[!NOTE]
-si le fichier CSV n’a pas été correctement mis en forme, le message d’erreur suivant s’affiche : « Une erreur est survenue pendant le traitement du fichier CSV téléchargé. Veuillez vérifier que les données du fichier sont valides ». En outre, si le fichier CSV contient un utilisateur IP ou IPS existant, cet utilisateur n’est pas ajouté à la liste des utilisateurs.
+>
+>si le fichier CSV n’a pas été correctement mis en forme, le message d’erreur suivant s’affiche : « Une erreur est survenue pendant le traitement du fichier CSV téléchargé. Veuillez vérifier que les données du fichier sont valides ». En outre, si le fichier CSV contient un utilisateur IP ou IPS existant, cet utilisateur n’est pas ajouté à la liste des utilisateurs.
 
 ## Génération d’une liste d’utilisateurs du portail multimédia disponible à la sélection {#generating-a-selectable-list-of-media-portal-users}
 
 Vous pouvez afficher les noms et les adresses e-mail des utilisateurs du portail multimédia dans une fenêtre contextuelle. Cette liste est utile pour couper et coller des noms d’utilisateur et des adresses qui seront utilisés à l’extérieur du portail multimédia.
 
-1. Cliquez sur **Configuration** > **Configuration de l’application** > **Configuration de l’administration** > **Administration utilisateur**.
-1. Dans la liste **Par rôle utilisateur**, choisissez le nom d’un rôle utilisateur du portail multimédia, puis cliquez sur **Actualiser** afin d’afficher uniquement les noms d’une seule catégorie d’utilisateurs du portail multimédia.
-1. Cliquez sur **Liste contextuelle** pour ouvrir la fenêtre contextuelle. Vous pouvez copier et coller cette liste.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de l’administration]** > **[!UICONTROL Administration utilisateur]**.
+1. Dans la liste **[!UICONTROL Par rôle utilisateur]**, choisissez le nom d’un rôle utilisateur du portail multimédia, puis cliquez sur **[!UICONTROL Actualiser]** afin d’afficher uniquement les noms d’une seule catégorie d’utilisateurs du portail multimédia.
+1. Cliquez sur **[!UICONTROL Liste contextuelle]** pour ouvrir la fenêtre contextuelle. Vous pouvez copier et coller cette liste.
 
 ## Définition du message de l’e-mail de bienvenue pour les utilisateurs du portail multimédia {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
 Vous pouvez envoyer un e-mail de bienvenue à tous les nouveaux utilisateurs, contributeurs et contributeurs-utilisateurs du portail multimédia. Vous pouvez configurer ce message électronique ou indiquer à Dynamic Media Classic de ne pas l’envoyer.
 
-1. Choisissez **Configuration** > **Configuration de l’application** > **Configuration de l’administration** > **Administration utilisateur**.
-1. In the User Administration Setup screen, click **Email Settings**.
+1. Choisissez **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de l’administration]** > **[!UICONTROL Administration utilisateur]**.
+1. In the User Administration Setup screen, click **[!UICONTROL Email Settings]**.
 1. Dans la boîte de dialogue Paramètres d’e-mail, définissez les paramètres suivants à votre convenance :
 
-   **Envoyer un courriel** Désélectionnez cette option si vous ne souhaitez pas informer les nouveaux utilisateurs par courriel que vous les avez inscrits.
+   **[!UICONTROL Envoyer un courriel]** Désélectionnez cette option si vous ne souhaitez pas informer les nouveaux utilisateurs par courriel que vous les avez inscrits.
 
-   **Mot de passe** par défaut Entrez un mot de passe temporaire pour les nouveaux utilisateurs ou laissez le champ vide pour que Dynamic Media Classic génère des mots de passe aléatoires. Les utilisateurs sont invités à modifier leur mot de passe lors de la première connexion.
+   **[!UICONTROL Mot de passe]** par défaut Entrez un mot de passe temporaire pour les nouveaux utilisateurs ou laissez le champ vide pour que Dynamic Media Classic génère des mots de passe aléatoires. Les utilisateurs sont invités à modifier leur mot de passe lors de la première connexion.
 
-   **URL** de remplacement Entrez une URL différente de celle par défaut si vos utilisateurs accèdent à Dynamic Media Classic par une autre URL.
+   **[!UICONTROL URL]** de remplacement Entrez une URL différente de celle par défaut si vos utilisateurs accèdent à Contenu multimédia dynamique classique par le biais d’une autre URL.
 
 ## Autres tâches de gestion des utilisateurs {#other-user-management-tasks}
 
 L’écran de configuration de l’administration utilisateur vous permet d’effectuer les tâches suivantes :
 
-**Filtrez et triez la liste** utilisateur Filtrez la liste des utilisateurs du portail multimédia à localiser. (voir Filtrage et tri de la liste des utilisateurs).
+**[!UICONTROL Filtrez et triez la liste]** utilisateur Filtrez la liste des utilisateurs du portail multimédia à localiser. (voir Filtrage et tri de la liste des utilisateurs).
 
-**Supprimer des utilisateurs** Supprimez un utilisateur de la liste. (voir Suppression d’un utilisateur.
+**[!UICONTROL Supprimer des utilisateurs]** Supprimez un utilisateur de la liste. (voir Suppression d’un utilisateur.
 
-**Activation et désactivation des utilisateurs** Suspendre un utilisateur d’accéder aux dossiers. (voir Activation et désactivation d’utilisateurs).
+**[!UICONTROL Activation et désactivation des utilisateurs]** Suspendre un utilisateur d’accéder aux dossiers. (voir Activation et désactivation d’utilisateurs).
 
-**Modifier les informations** de l&#39;utilisateur Entrez des informations à jour sur un utilisateur. (voir Modification des informations de l’utilisateur).
+**[!UICONTROL Modifier les informations]** de l&#39;utilisateur Entrez des informations à jour sur un utilisateur. (voir Modification des informations de l’utilisateur).
 
-**Création de champs** définis par l’utilisateur Créez des champs de métadonnées personnalisés définis par l’utilisateur pour organiser les fichiers dans Dynamic Media Classic. Les champs peuvent également être activés ou désactivés, le cas échéant.
+**[!UICONTROL Création de champs]** définis par l’utilisateur Créez des champs de métadonnées personnalisés définis par l’utilisateur pour organiser les fichiers dans Dynamic Media Classic. Les champs peuvent également être activés ou désactivés, le cas échéant.
 
 (Voir [Champs définis par l’utilisateur](application-setup.md#user_defined_fields).)
