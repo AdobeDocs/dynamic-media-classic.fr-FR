@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 64%
@@ -20,7 +20,7 @@ ht-degree: 64%
 
 # Démarrage rapide : Séries d’échantillons{#quick-start-swatch-sets}
 
-Les séries d’échantillons Dynamic Media Classic offrent aux utilisateurs une expérience de visualisation intégrée. La visionneuse de série d’échantillons dynamique permet aux utilisateurs d’afficher un objet rendu dans une couleur, un matériau, une texture, un fini ou un tissu différent en cliquant simplement sur une miniature.
+Les séries d’échantillons dynamiques Media Classic offrent aux utilisateurs une expérience de visualisation intégrée. La visionneuse de série d’échantillons dynamique permet aux utilisateurs d’afficher un objet rendu dans une couleur, un matériau, une texture, un fini ou un tissu différent en cliquant simplement sur une miniature.
 
 **Début rapide**
 
@@ -30,7 +30,7 @@ Ce Début rapide Série d’échantillons est conçu pour vous aider à maîtris
 
 Commencez par télécharger les fichiers d’images et d’échantillons pour les séries d’échantillons.
 
-Cliquez sur Télécharger dans la barre de navigation globale pour télécharger des fichiers de votre ordinateur vers un dossier de Dynamic Media Classic. (voir les sections [Préparation du téléchargement de fichiers de série d’échantillons](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) et [Téléchargement de fichiers](uploading-files.md#uploading-your-files)).
+Cliquez sur Télécharger dans la barre de navigation globale pour télécharger des fichiers de votre ordinateur vers un dossier de Contenu multimédia dynamique classique. (voir les sections [Préparation du téléchargement de fichiers de série d’échantillons](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) et [Téléchargement de fichiers](uploading-files.md#uploading-your-files)).
 
 **2. Création d’une série d’échantillons**
 
