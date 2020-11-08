@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '3855'
 ht-degree: 43%
@@ -19,11 +19,11 @@ ht-degree: 43%
 
 # Téléchargement de fichiers{#uploading-files}
 
-Avant de télécharger des fichiers vers Dynamic Media Classic, assurez-vous que leur nom est correct et que la structure de dossiers est configurée et organisée comme vous le souhaitez. Vous pouvez télécharger des fichiers à partir d’un site FTP fourni par Dynamic Media Classic ou directement depuis votre ordinateur ou votre réseau. Options des offres Dynamic Media Classic pour l’optimisation des fichiers au cours du téléchargement. Si vous avez installé l’application de bureau Adobe Classic, vous pouvez télécharger des fichiers et des dossiers en les faisant glisser directement depuis votre bureau. (voir [Paramètres généraux de l’application](application-setup.md#general_settings)).
+Avant de télécharger des fichiers dans Dynamic Media Classic, assurez-vous que leur nom est correct et que la structure de dossiers est configurée et organisée comme vous le souhaitez. Vous pouvez télécharger des fichiers à partir d’un site FTP fourni par Dynamic Media Classic ou directement depuis votre ordinateur ou votre réseau. Options d’offres de Contenu multimédia dynamique classique pour l’optimisation des fichiers au cours du téléchargement. Si vous avez installé l’application de bureau Adobe Dynamic Media Classic, vous pouvez télécharger des fichiers et des dossiers en les faisant glisser directement depuis votre bureau. (voir [Paramètres généraux de l’application](application-setup.md#general_settings)).
 
 ## Préparation du téléchargement des fichiers et dossiers {#preparing-your-assets-and-folders-for-uploading}
 
-Avant de télécharger des fichiers vers Dynamic Media Classic, assurez-vous qu’ils sont au bon format et à la bonne taille. Vous devez également respecter les règles Dynamic Media Classic pour nommer les fichiers. La définition d’une organisation et d’une structure de dossiers pour les fichiers garantit une facilité de localisation et d’utilisation de ces derniers.
+Avant de télécharger des fichiers dans Dynamic Media Classic, assurez-vous qu’ils sont au bon format et à la bonne taille. Vous devez également respecter les règles de nommage des fichiers de Dynamic Media Classic. La définition d’une organisation et d’une structure de dossiers pour les fichiers garantit une facilité de localisation et d’utilisation de ces derniers.
 
 ### Formats de fichiers pris en charge {#supported-asset-file-formats}
 
@@ -43,7 +43,7 @@ Ce tableau liste les formats de fichier pris en charge par Dynamic Media Classic
 | PDF | PDF |
 | Photoshop | PSD, FXG et Camera Raw |
 | Postscript | EPS, PS |
-| Création d’images Dynamic Media Classic | VNC, VNT, VNW |
+| Création d’images dans Dynamic Media Classic | VNC, VNT, VNW |
 | SVG | SVG, SVGX |
 | TAR | TAR |
 | Vidéo | 3GP, AVI, M2P, M2T, M2TS, M2V, M4V, MOV, MP4, MPEG, MPG, MTS, OGV, TS, VOB, WMV/ASF |
@@ -52,11 +52,11 @@ Ce tableau liste les formats de fichier pris en charge par Dynamic Media Classic
 
 La fonction de transfert au format TAR et ZIP offre une case à cocher permettant d’indiquer si vous souhaitez décompresser les fichiers.
 
-### Formats d’image non pris en charge dans Dynamic Media {#unsupported-image-formats-dynamic-media}
+### Formats d’image non pris en charge dans Contenu multimédia dynamique {#unsupported-image-formats-dynamic-media}
 
-La liste suivante décrit les sous-types de formats de fichier image pixellisée qui *ne sont pas* pris en charge dans Dynamic Media.
+La liste suivante décrit les sous-types de formats de fichier image pixellisée qui *ne sont pas* pris en charge dans Contenu multimédia dynamique.
 
-Voir aussi [Détection des formats de fichier non pris en charge pour Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
+Voir aussi [Détection de formats de fichier non pris en charge pour le contenu multimédia](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html)dynamique.
 
 * Fichiers PNG dont la taille de bloc IDAT est supérieure à 100 Mo.
 * Fichiers PSB.
@@ -90,7 +90,7 @@ Pour obtenir des résultats optimaux avec la plate-forme Dynamic Media Classic, 
 
 >[!NOTE]
 >
->Lorsque vous téléchargez des fichiers d’image et des fichiers PDF vers Dynamic Media Classic, le système convertit ces fichiers source en fichiers P-TIFF (Pyramid TIFF). Ces fichiers P-TIFF sont les fichiers publiés ultérieurement sur les serveurs Dynamic Media Image Server. Dynamic Media Classic utilise le format de fichier Pyramid Tiff, car il contient divers rapports de zoom qui permettent un zoom rapide lors de l’affichage avec une visionneuse de zoom Dynamic Media Classic.
+>Lorsque vous téléchargez des fichiers d’image et des fichiers PDF vers Dynamic Media Classic, le système convertit ces fichiers source en fichiers P-TIFF (Pyramid TIFF). Ces fichiers P-TIFF sont les fichiers publiés ultérieurement sur les serveurs d’images de médias dynamiques. Dynamic Media Classic utilise le format de fichier Pyramid Tiff, car il contient divers rapports de zoom qui permettent un zoom rapide lors de l’affichage à l’aide d’une visionneuse de zoom classique de Contenu multimédia dynamique.
 
 ### Formats de fichier statique pris en charge {#supported-static-file-formats}
 
@@ -113,13 +113,13 @@ Dynamic Media Classic ne permet pas de générer une URL de prévisualisation de
 
 ### Exigences relatives aux noms de fichiers {#filename-requirements}
 
-Etant donné que l’extension est ôtée du nom du fichier durant le processus de téléchargement, le système ne permet pas que des fichiers présentent le même nom racine. Dans le système Dynamic Media Classic, le nom de fichier sans l’extension devient l’ID de fichier du fichier. C’est la raison pour laquelle deux fichiers ne peuvent pas avoir le même nom.
+Etant donné que l’extension est ôtée du nom du fichier durant le processus de téléchargement, le système ne permet pas que des fichiers présentent le même nom racine. Dans le système Dynamic Media Classic, le nom de fichier sans l’extension devient l’ID de fichier de la ressource. C’est la raison pour laquelle deux fichiers ne peuvent pas avoir le même nom.
 
 Veillez à ce que tous les utilisateurs de votre entreprise se familiarisent avec les règles de dénomination de fichiers suivantes :
 
 * Les ID de fichier présentant exactement le même nom ne sont pas autorisés dans le système.
 * Les ID de fichier sont sensibles à la casse.
-* Il est recommandé de s’assurer que les ID de fichier ne contiennent pas d’espace (par exemple, veste noire.tif et veste bleue.jpg). Dynamic Media Classic ASCII code les espaces vides dans les noms de fichier lorsqu’il utilise des noms de fichier pour créer des chaînes URL. Ces codes ASCII sont difficiles à lire, ce qui rend également plus difficile la lecture de ces chaînes.
+* Il est recommandé de s’assurer que les ID de fichier ne contiennent pas d’espace (par exemple, veste noire.tif et veste bleue.jpg). Dynamic Media Classic code les espaces vides dans les noms de fichier lorsqu’il utilise des noms de fichier pour créer des chaînes URL. Ces codes ASCII sont difficiles à lire, ce qui rend également plus difficile la lecture de ces chaînes.
 * Les caractères spécifiques aux langues sont autorisés dans les noms de fichier, à l’exception des caractères suivants :
 
    \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; { } %
@@ -137,7 +137,7 @@ Dans la plupart des cas, le nom de fichier correspond au numéro d’article, à
 
 Organisez et structurez les dossiers et les sous-dossiers de votre contenu dans Dynamic Media Classic avant de télécharger votre contenu sur le système. Cette procédure présente deux principaux avantages :
 
-* Lorsque vous téléchargez votre contenu vers Dynamic Media Classic via FTP, vous pouvez indiquer au système de répliquer la structure de dossiers pendant le téléchargement. Ainsi, votre contenu est organisé dans les mêmes dossiers et sous-dossiers dans Dynamic Media Classic que sur votre ordinateur ou votre réseau. (Pour répliquer la structure de dossiers dans Dynamic Media Classic, sélectionnez l’option Inclure les sous-dossiers lorsque vous téléchargez des fichiers par FTP.)
+* Lorsque vous téléchargez votre contenu vers Dynamic Media Classic via FTP, vous pouvez indiquer au système de répliquer la structure de dossiers pendant le téléchargement. Ainsi, votre contenu est organisé dans les mêmes dossiers et sous-dossiers dans Contenu multimédia dynamique classique que sur votre ordinateur ou votre réseau. (Pour répliquer la structure de dossiers dans Dynamic Media Classic, sélectionnez l’option Inclure les sous-dossiers lorsque vous téléchargez des fichiers par FTP.)
 * La réorganisation des dossiers au sein du système, une fois les fichiers téléchargés, s’avère beaucoup plus difficile que le démarrage avec une structure de dossiers soigneusement étudiée.
 
 L’approche et la structure de nommage de dossiers que vous choisissez pour stocker votre contenu dans Dynamic Media Classic dépendent des besoins de votre entreprise. Voici quelques exemples de structure de dossiers :
@@ -154,7 +154,7 @@ L’approche et la structure de nommage de dossiers que vous choisissez pour sto
 
 Vous pouvez télécharger des fichiers à partir du bureau ou des dossiers complets par FTP (File Transfer Protocol). If you want to upload more than 100 MB of files or upload entire folders and subfolders, select the **VIA FTP** tab.
 
-Dynamic Media Classic vous envoie un message électronique vous confirmant à quel moment votre tâche de téléchargement commence et se termine et vous avertissant de tout problème.
+Dynamic Media Classic vous envoie un message électronique vous confirmant à quel moment votre tâche de téléchargement commence et se termine et vous avertissant de problèmes éventuels.
 
 Pendant (ou juste après) une tâche de téléchargement volumineuse, le message « Image non optimisée » risque de s’afficher pour certains nouveaux objets. Ce message s’affiche, car les fichiers ne sont pas encore entièrement traités et ajoutés à Dynamic Media Classic. Vous pouvez optimiser ces fichiers ultérieurement (voir [Optimisation des fichiers](application-setup.md#optimize_files)).
 
@@ -185,7 +185,7 @@ Pour afficher la progression du transfert, cliquez sur **Tâches** dans la barre
 1. Dans Dynamic Media Classic, sur la barre de navigation globale, cliquez sur **Télécharger**.
 1. On the Upload page, click the **VIA FTP** tab.
 1. Sur la gauche de la page de téléchargement, dans la zone **Choisir un dossier FTP pour le téléchargement** , choisissez un dossier FTP à partir duquel télécharger les fichiers.
-1. Sur le côté droit de la page de téléchargement, dans la zone **Choisir le dossier de destination** Dynamic Media, sélectionnez un dossier de destination dans Dynamic Media Classic.
+1. Sur le côté droit de la page de téléchargement, dans la zone **Choisir l’Adobe de destination** du dossier Contenu multimédia dynamique, choisissez un dossier de destination dans Contenu multimédia dynamique classique.
 1. (Facultatif) Près du bas de la page de téléchargement, dans le champ Nom **de la** tâche, indiquez le nouveau nom de la tâche de téléchargement. Vous pouvez également simplement utiliser le nom généré par le système par défaut fourni par Dynamic Media Classic. La tâche en question, ainsi que les autres tâches de téléchargement et de publication, sont enregistrées sur la page Tâches, sur laquelle vous pouvez vérifier l’état des tâches (voir [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)).
 1. (Facultatif) Près du bas de la page de téléchargement, sélectionnez **Publier après le téléchargement** si vous souhaitez publier automatiquement les fichiers que vous téléchargez.
 Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Notez que cette même option est également disponible dans la boîte de dialogue Options tâche.
@@ -233,7 +233,7 @@ Permet de télécharger les sous-dossiers du dossier que vous avez l’intention
    * **Traiter les fichiers** de métadonnées — Disponible uniquement si vous avez sélectionné l&#39;onglet **VIA FTP** . Sélectionnez cette option si vous souhaitez télécharger un fichier XML ou délimité par des tabulations pour ajouter des métadonnées à plusieurs fichiers. Voir [Importer des métadonnées (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 
-* **OPTIONS** DE RECOUVREMENT : pour recadrer automatiquement les pixels représentant des espaces blancs à partir d&#39;une image, ouvrez le menu Recadrer, choisissez Manuel, puis entrez les mesures en pixels dans les champs Haut, Droite, Bas et Gauche pour recadrer à partir des côtés. Vous pouvez également choisir Rogner dans le menu Recadrer et choisir les options suivantes :
+* **OPTIONS** de recadrage : pour recadrer automatiquement les pixels représentant des espaces blancs à partir d&#39;une image, ouvrez le menu Recadrer, choisissez Manuel, puis entrez les mesures en pixels dans les champs Haut, Droite, Bas et Gauche pour recadrer à partir des côtés. Vous pouvez également choisir Rogner dans le menu Recadrer et choisir les options suivantes :
 
    * **Rogner selon** : choisissez si vous souhaitez recadrer en fonction de la couleur ou de la transparence :
 
@@ -247,27 +247,27 @@ Permet de télécharger les sous-dossiers du dossier que vous avez l’intention
 
       * **Tolérance** : faites glisser le curseur pour définir une tolérance comprise entre 0 et 1.
 
-* **OPTIONS** DE PROFIL DE COULEUR — Choisissez une conversion de couleur lorsque vous créez des fichiers optimisés utilisés pour la diffusion dynamique Dynamic Media Classic :
+* **OPTIONS** d&#39;PROFIL COLOR — Choisissez une conversion de couleur lorsque vous créez des fichiers optimisés utilisés pour la diffusion dynamique Dynamic Media Classic :
 
    * **Conservation** des couleurs par défaut : conserve les couleurs de l&#39;image source chaque fois que les images contiennent des informations sur l&#39;espace colorimétrique ; il n’existe aucune conversion de couleur. Pour la plupart des images aujourd’hui, un profil colorimétrique approprié est déjà inclus. Toutefois, si une image source CMJN ne contient pas de profil colorimétrique intégré, les couleurs sont converties dans l’espace colorimétrique sRVB (rouge vert bleu standard). sRVB est l’espace colorimétrique recommandé pour l’affichage d’images sur les pages Web.
 
-   * **Conserver l&#39;espace** colorimétrique d&#39;origine — Conserve les couleurs d&#39;origine sans conversion de couleur au moment de l&#39;assimilation dans Dynamic Media Classic. Pour les images sans profil incorporé, toute conversion des couleurs nécessaire aux demandes de traitement de l’image sont effectuées à l’aide des profils colorimétriques par défaut configurés dans les paramètres de publication. Ces profils colorimétriques peuvent ne pas correspondre aux couleurs des fichiers créés avec cette option. Par conséquent, vous avez intérêt à utiliser l’option de conservation des couleurs par défaut.
+   * **Conserver l’espace** colorimétrique d’origine : conserve les couleurs d’origine sans conversion de couleur au moment de l’assimilation dans Contenu multimédia dynamique classique. Pour les images sans profil incorporé, toute conversion des couleurs nécessaire aux demandes de traitement de l’image sont effectuées à l’aide des profils colorimétriques par défaut configurés dans les paramètres de publication. Ces profils colorimétriques peuvent ne pas correspondre aux couleurs des fichiers créés avec cette option. Par conséquent, vous avez intérêt à utiliser l’option de conservation des couleurs par défaut.
 
    * **Personnalisé de > à** — Ouvre les menus afin que vous puissiez choisir un espace colorimétrique Convertir à partir de et Convertir en. Cette option avancée remplace toutes les informations de couleur incorporées dans le fichier source. Sélectionnez cette option uniquement lorsque toutes les images que vous envoyez contiennent des données de profil de couleur incorrectes ou manquantes.
 
 * **OPTIONS** DE MODIFICATION D&#39;IMAGE : vous pouvez conserver les masques d&#39;écrêtage &lt;> dans les images et choisir un profil de couleur.
 (voir [Options d’édition d’images au téléchargement](image-editing-options-upload.md#image-editing-options-at-upload)).
 
-* **OPTIONS** POSTSCRIPT : vous pouvez pixelliser des fichiers PostScript®, recadrer des fichiers, conserver des arrière-plans transparents, choisir une résolution et choisir un espace colorimétrique.
+* **OPTIONS** POSTSCRIPT : vous pouvez pixelliser des fichiers de PostScript®, recadrer des fichiers, conserver des arrière-plans transparents, choisir une résolution et choisir un espace colorimétrique.
 (voir [Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)).
 
-* **OPTIONS** PHOTOSHOP — Vous pouvez créer des modèles à partir de fichiers Adobe® Photoshop®, conserver les calques, définir le mode de nommage des calques, extraire du texte et indiquer le mode d&#39;ancrage des images dans les modèles.
+* **OPTIONS** Photoshop : vous pouvez créer des modèles à partir de fichiers Photoshop® Adobe®, conserver les calques, définir le nom des calques, extraire du texte et indiquer comment les images sont ancrées dans les modèles.
 (voir [Options de téléchargement des fichiers PSD](psd-files.md#psd_upload_options)).
 
 * **OPTIONS** PDF : vous pouvez pixelliser les fichiers, extraire des mots de recherche et des liens, générer automatiquement un catalogue électronique, définir la résolution et choisir un espace colorimétrique.
 (voir [Options de téléchargement des fichiers PDF](pdfs.md#pdf_upload_options)).
 
-* **OPTIONS** ILLUSTRATOR : vous pouvez pixelliser des fichiers Adobe Illustrator®, conserver des arrière-plans transparents, choisir une résolution et choisir un espace colorimétrique.
+* **OPTIONS** ILLUSTRATOR : vous pouvez pixelliser les fichiers Adobe Illustrator®, conserver les arrière-plans transparents, choisir une résolution et choisir un espace colorimétrique.
 (voir [Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)).
 
 * **OPTIONS** EVIDEO : vous pouvez transcoder un fichier vidéo en choisissant un paramètre vidéo prédéfini.
@@ -275,7 +275,7 @@ Voir [Utilisation des paramètres prédéfinis de codage vidéo](uploading-encod
 
 * **MÉTADONNÉES** SUPPLÉMENTAIRES — Entrez les mots-clés qui décrivent les fichiers que vous téléchargerez. Séparez les mots clés-par des virgules. Les mots-clés facilitent les recherches portant sur les fichiers Voir [Recherche avancée](searching-assets.md#conducting_an_advanced_search).
 
-* **PARAMÈTRES PRÉDÉFINIS** DE VISIONNEUSES PAR LOTS : si vous souhaitez créer une visionneuse d’images, une visionneuse à 360° multi-axe ou une série d’échantillons à partir des fichiers téléchargés, cliquez sur la colonne Actif du paramètre prédéfini à utiliser. Rien ne vous empêche de sélectionner plusieurs paramètres prédéfinis. Vous créez les paramètres prédéfinis sur la page Configuration de l’application/Paramètres prédéfinis d’ensemble par lot (voir [Paramètres prédéfinis d’ensemble par lot](application-setup.md#batch_set_presets)).
+* **PARAMÈTRES PRÉDÉFINIS** DE VISIONNEUSES PAR LOTS : si vous souhaitez créer une visionneuse d’images, une visionneuse à 360° multi-axe ou une série d’échantillons à partir des fichiers téléchargés, cliquez sur la colonne Principale du paramètre prédéfini à utiliser. Rien ne vous empêche de sélectionner plusieurs paramètres prédéfinis. Vous créez les paramètres prédéfinis sur la page Configuration de l’application/Paramètres prédéfinis d’ensemble par lot (voir [Paramètres prédéfinis d’ensemble par lot](application-setup.md#batch_set_presets)).
 
 * **AVANCÉ** — Voir [Suivre un téléchargement avec une autre tâche](uploading-files.md#follow-an-upload-with-another-job).
 
