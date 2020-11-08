@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '3938'
 ht-degree: 81%
@@ -19,7 +19,7 @@ ht-degree: 81%
 
 # Chargement et codage de vidéos{#uploading-and-encoding-videos}
 
-Pour créer des visionneuses de vidéos adaptatives ou uniques pour une diffusion sur le Web ou sur des périphériques mobiles, vous devez d’abord télécharger vos fichiers vidéo originaux dans Dynamic Media Classic. Dynamic Media Classic code les vidéos au format MP4 et les publie dans les formats de fichier suivants :
+Pour créer des visionneuses de vidéos adaptatives ou uniques pour une diffusion sur le Web ou sur des périphériques mobiles, vous devez d’abord télécharger vos fichiers vidéo originaux dans Dynamic Media Classic. Dynamic Media Classic code les vidéos au format MP4 et les publie dans les formats de fichiers suivants :
 
 **MP4** Dynamic Media Classic recommande le format MP4 comme format de fichier vidéo préféré. Utilisez le format de fichiers MP4 pour effectuer les opérations suivantes :
 
@@ -31,7 +31,7 @@ Dynamic Media Classic offre deux workflows pour télécharger des fichiers vidé
 
 **Vidéos** précodées Vous téléchargez directement des fichiers MP4 vers Dynamic Media Classic. En procédant ainsi, les fichiers ne sont pas codés au moment où vous les téléchargez. Les fichiers sont précodés en vue de la diffusion sur l’ordinateur de bureau et sur des périphériques mobiles.
 
-**Vidéos** source du Maître Téléchargez des fichiers vidéo source originaux et, au moment du téléchargement, codez ces fichiers au format MP4. Les vidéos codées sont intitulées « Vidéos » dans le panneau de navigation. Dynamic Media Classic prend en charge le codage de fichiers vidéo dans de nombreux formats.
+**Vidéos** source de Principal Téléchargez des fichiers vidéo source originaux et, au moment du téléchargement, codez-les au format MP4. Les vidéos codées sont intitulées « Vidéos » dans le panneau de navigation. Dynamic Media Classic prend en charge le codage de fichiers vidéo dans de nombreux formats.
 
 * Vérifiez que les fichiers vidéo sources originaux que vous souhaitez coder sont pris en charge. 
 
@@ -81,7 +81,7 @@ Voir [Paramètres prédéfinis de codage de vidéo pour ordinateur de bureau](ap
 
 Si vous souhaitez coder à nouveau un fichier vidéo que vous avez précédemment téléchargé
 
-1. Dans Dynamic Media Classic, dans le panneau de navigation, accédez à la vidéo et sélectionnez-la.
+1. Dans Contenu multimédia dynamique classique, dans le panneau de navigation, accédez à la vidéo et sélectionnez-la.
 1. Cliquez sur **Fichier** > **Retraiter**.
 1. Dans la boîte de dialogue Retraitement des fichiers de la tâche, choisissez Options eVideo.
 1. Effectuez l’une des opérations suivantes :
@@ -151,7 +151,7 @@ Le tableau ci-dessous décrit la taille recommandée, le format et le débit min
 
 ### Obtention des métadonnées d’un fichier {#obtaining-a-file-s-metadata}
 
-Vous pouvez obtenir les métadonnées d’un fichier en visualisant ses métadonnées dans Dynamic Media Classic, à l’aide d’un outil d’édition vidéo ou d’une application conçue pour l’obtention de métadonnées. Voici les instructions d’utilisation de MediaInfo, une application tierce permettant d’extraire les métadonnées d’un fichier vidéo :
+Vous pouvez obtenir les métadonnées d’un fichier en les affichant dans Dynamic Media Classic, à l’aide d’un outil de modification vidéo ou d’une application conçue pour l’obtention de métadonnées. Voici les instructions d’utilisation de MediaInfo, une application tierce permettant d’extraire les métadonnées d’un fichier vidéo :
 
 1. Accédez à cette page Web : [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
 1. Sélectionnez et téléchargez le programme d’installation pour la version interface graphique utilisateur, puis suivez les instructions d’installation.
@@ -253,7 +253,7 @@ Supposons, par exemple, que la résolution de votre vidéo source soit équivale
 
 ### Format de fichier vidéo codé {#encoded-video-file-format}
 
-Adobe Dynamic Media Classic recommande l’utilisation des paramètres prédéfinis de codage vidéo MP4 H.264. Comme les fichiers MP4 utilisent le codec vidéo H.264, la vidéo est de haute qualité mais dans un fichier au volume compressé.
+Adobe Dynamic Media Classic recommande d’utiliser les paramètres prédéfinis de codage vidéo MP4 H.264. Comme les fichiers MP4 utilisent le codec vidéo H.264, la vidéo est de haute qualité mais dans un fichier au volume compressé.
 
 ## Utilisation des paramètres prédéfinis de codage vidéo {#working-with-video-encoding-presets}
 
@@ -261,7 +261,7 @@ Les fichiers vidéo originaux créés à partir d’équipement de production vi
 
 Voir [Chargement et codage de vidéos](uploading-encoding-videos.md#uploading-and-encoding-videos).
 
-Dynamic Media Classic vous offre une bibliothèque de paramètres prédéfinis de codage vidéo qui reflètent les paramètres de codage les plus courants. Ces paramètres ont été optimisés pour la lecture sur les écrans cibles. De plus, les administrateurs peuvent créer leurs propres paramètres prédéfinis de codage vidéo pour personnaliser la taille et la qualité de lecture des vidéos pour les utilisateurs. Tous les paramètres prédéfinis de codage vidéo, prêts à l’emploi de Dynamic Media Classic ou personnalisés, permettent de produire de la vidéo au format MP4.
+Dynamic Media Classic vous offre une bibliothèque de paramètres prédéfinis de codage vidéo qui reflètent les paramètres de codage les plus courants. Ces paramètres ont été optimisés pour la lecture sur les écrans cibles. De plus, les administrateurs peuvent créer leurs propres paramètres prédéfinis de codage vidéo pour personnaliser la taille et la qualité de lecture des vidéos pour les utilisateurs. Tous les paramètres prédéfinis de codage vidéo, qu’ils soient prêts à l’emploi dans Dynamic Media Classic ou personnalisés, permettent de produire de la vidéo au format MP4.
 
 Sur l’écran Paramètres vidéo prédéfinis, les administrateurs peuvent configurer et gérer le codage vidéo. Ils peuvent effectuer les opérations suivantes :
 
@@ -286,7 +286,7 @@ Pour les fichiers vidéo que vous téléchargez et codez dans Dynamic Media Clas
 * HLS (HTTP Live Streaming, protocole de diffusion en continu d’Apple).
 * Diffusion vidéo progressive sur appareils mobiles Android, Blackberry et Windows.
 
-Tout autre format vidéo et codec est traité comme une &quot;vidéo Maîtresse&quot;. Ce mode de classification des fichiers signifie que la vidéo est un fichier vidéo source non prévu pour la lecture vidéo sur des périphériques de bureau ou des périphériques mobiles. Par exemple, vous ne pouvez pas prévisualisation ces types de vidéos dans Dynamic Media Classic. Vous ne pouvez pas non plus copier des URL et du code intégré destinés aux lecteurs vidéo, aux sites web, et ainsi de suite.
+Tout autre format vidéo et codec est traité comme une &quot;vidéo Principal&quot;. Ce mode de classification des fichiers signifie que la vidéo est un fichier vidéo source non prévu pour la lecture vidéo sur des périphériques de bureau ou des périphériques mobiles. Par exemple, vous ne pouvez pas prévisualisation ces types de vidéos dans Contenu multimédia dynamique classique. Vous ne pouvez pas non plus copier des URL et du code intégré destinés aux lecteurs vidéo, aux sites web, et ainsi de suite.
 
 ### Filtrage de la liste des paramètres prédéfinis de codage vidéo {#filtering-the-list-of-video-encoding-presets}
 
@@ -330,7 +330,7 @@ Les paramètres vidéo prédéfinis activés sont répertoriés dans la boîte d
 
 ### Ajout ou modification d’un paramètre prédéfini de codage vidéo {#adding-or-editing-a-video-encoding-preset}
 
-Vous pouvez créer vos propres paramètres prédéfinis de codage unique et les ajouter au tableau Paramètres vidéo prédéfinis. Vous pouvez également apporter des modifications à tous les paramètres vidéo prédéfinis de codage unique fournis avec Dynamic Media Classic, à condition d’enregistrer le paramètre prédéfini modifié sous un nouveau nom.
+Vous pouvez créer vos propres paramètres prédéfinis de codage unique et les ajouter au tableau Paramètres vidéo prédéfinis. Vous pouvez également apporter des modifications à tout paramètre vidéo de codage unique prédéfini fourni avec Dynamic Media Classic, à condition d’enregistrer le paramètre prédéfini modifié sous un nouveau nom.
 
 Dynamic Media Classic a défini des limites maximales sur le débit de données de la cible, la hauteur de résolution et la largeur de résolution afin de garantir une expérience de lecture appropriée. Les messages d’avertissement s’affichent si vous dépassez les limites suivantes :
 
