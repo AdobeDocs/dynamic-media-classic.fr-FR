@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 66%
@@ -22,7 +22,7 @@ ht-degree: 66%
 
 L’optimisation du référencement de la vidéo consiste à améliorer le volume de trafic vers un site Web à partir des moteurs de recherche. Les moteurs de recherche sont des outils parfaits pour collecter des informations à partir d’un contenu texte. Par contre, ils sont moins performants pour obtenir des informations sur des vidéos, sauf si ces informations leur sont fournies.
 
-L’optimisation du référencement des vidéos Dynamic Media Classic vous permet d’exploiter les métadonnées vidéo pour fournir aux moteurs de recherche des descriptions de vos vidéos. Dynamic Media Classic permet de créer des plans de site vidéo et des flux mRSS. Il s’agit de fichiers XML standard utilisés pour envoyer des informations sur la vidéo aux moteurs de recherche.
+L’optimisation du référencement des vidéos dans Dynamic Media Classic vous permet d’exploiter les métadonnées vidéo pour fournir aux moteurs de recherche des descriptions de vos vidéos. Dynamic Media Classic permet de créer des plans de site vidéo et des flux mRSS. Il s’agit de fichiers XML standard utilisés pour envoyer des informations sur la vidéo aux moteurs de recherche.
 
 **Le plan de site** vidéo informe Google exactement où et quel contenu vidéo se trouve sur un site. Par conséquent, les vidéos peuvent faire l’objet d’une recherche sur Google. Par exemple, un plan de site vidéo peut préciser le temps d’exécution et la catégorie. Pour plus d’informations sur les plans de site vidéo, voir https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
 
@@ -66,9 +66,9 @@ Dans la liste déroulante Mode de génération, choisissez un mode de rapport :
 
 Dans la liste déroulante Mode automatique/Mode manuel, choisissez de générer automatiquement ou manuellement :
 
-**Le mode** automatique Dynamic Media Classic génère automatiquement un plan de site vidéo, un flux Media RSS (mRSS), ou les deux, chaque jour. Sélectionnez l’option Marquer pour publication pour marquer automatiquement pour publication le fichier XML généré par Dynamic Media Classic.
+**Le mode** automatique Contenu multimédia dynamique classique génère automatiquement un plan de site vidéo, un flux Media RSS (mRSS), ou les deux, chaque jour. Sélectionnez l’option Marquer pour publication pour marquer automatiquement pour publication le fichier XML généré par Dynamic Media Classic.
 
-**Le mode** manuel Dynamic Media Classic génère le plan de site vidéo, le flux Media RSS (mRSS) ou les deux, lorsque vous cliquez sur Générer ou sur Enregistrer et générer dans l’écran Paramètres d’optimisation de la recherche vidéo. Sélectionnez également ces options :
+**Le mode** manuel Contenu multimédia dynamique classique génère le plan de site vidéo, le flux Media RSS (mRSS) ou les deux, lorsque vous cliquez sur Générer ou Enregistrer et générer dans l’écran Paramètres d’optimisation de la recherche vidéo. Sélectionnez également ces options :
 
 **Aucun autre paramètre** Ne marque pas pour publication le fichier XML généré.
 
