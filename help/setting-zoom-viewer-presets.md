@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 69%
@@ -20,7 +20,7 @@ ht-degree: 69%
 
 # Configuration des paramètres prédéfinis de la visionneuse de zoom{#setting-up-zoom-viewer-presets}
 
-Les paramètres prédéfinis de visionneuse de zoom déterminent le style, le comportement et l’aspect des visionneuses de zoom. Dynamic Media Classic offre de nombreuses options de personnalisation et d’habillage des visionneuses. Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse de zoom personnalisés, de visionneuse de zoom par défaut de base (rapide), à fenêtre déroulante et. Si vous êtes un administrateur, vous pouvez créer de nouveaux paramètres prédéfinis de visionneuse de zoom d’entreprise ou modifier un paramètre prédéfini par défaut et l’enregistrer ensuite sous un nouveau nom.
+Les paramètres prédéfinis de visionneuse de zoom déterminent le style, le comportement et l’aspect des visionneuses de zoom. Dynamic Media Classic offre de nombreuses options de personnalisation et d’habillage des visionneuses. Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse de zoom personnalisés, de visionneuse de zoom par défaut de base (rapide), de sortie et de sortie. Si vous êtes un administrateur, vous pouvez créer de nouveaux paramètres prédéfinis de visionneuse de zoom d’entreprise ou modifier un paramètre prédéfini par défaut et l’enregistrer ensuite sous un nouveau nom.
 
 Toutes les visionneuses de zoom comportent des boutons permettant d’effectuer un zoom avant, un zoom arrière et un panoramique mais aussi de rétablir l’état initial de l’image après le zoom. L’aspect des boutons et de la fenêtre elle-même est fonction des paramètres prédéfinis de visionneuse de zoom actuellement sélectionnés. Vous pouvez configurer un paramètre prédéfini de visionneuse de zoom avec des couleurs, des bordures, des polices et des paramètres d’image différents. Dans le cas d’une visionneuse de zoom guidé, vous pouvez également choisir l’emplacement des cibles de zoom. Les cibles de zoom correspondent aux miniatures sur lesquelles les utilisateurs cliquent pour effectuer un zoom sur les zones que vous définissez.
 
@@ -36,7 +36,7 @@ Pour déterminer la quantité totale de bande passante allouée à la visionneus
 
 Par exemple, si la taille de l’image principale est de 350 x 350 pixels et que le facteur de zoom est de 3, la taille d’image de la fenêtre déroulante sera de 1 050 x 1 050 pixels. Si la taille de l’image principale est de 300 x 300 pixels et que le facteur de zoom est de 4, la taille d’image de la fenêtre déroulante sera de 1 200 x 1 200 pixels. Selon la valeur de qualité JPEG sélectionnée (une valeur comprise entre 80 et 90 est recommandée), il est possible de réduire sensiblement la taille du fichier. Selon la taille de l’image principale, un facteur de zoom de 2,5 à 4 est recommandé.
 
-Dynamic Media Classic recommande les paramètres suivants pour les paramètres prédéfinis de la visionneuse de zoom déroulante :
+Dynamic Media Classic recommande les paramètres suivants pour les paramètres prédéfinis de visionneuse de zoom déroulante :
 
 * **Taille** de l’image agrandie Environ 1 500 x 1 500 pixels, sans dépasser 2 000 x 2 000 pixels.
 
