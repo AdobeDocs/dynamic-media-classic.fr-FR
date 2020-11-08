@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 72%
@@ -20,15 +20,15 @@ ht-degree: 72%
 
 # Liaison des URL à une application Web{#linking-urls-to-your-web-application}
 
-Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Image Server au moyen de chaînes URL. Après avoir publié une image, Dynamic Media Classic active une chaîne URL qui référence le paramètre d’image prédéfini sur les serveurs Dynamic Media Image Server. Vous pouvez coller ces URL dans un navigateur Web pour procéder à des essais.
+Vos sites Web et applications accèdent au contenu du serveur d’images Dynamic Media au moyen de chaînes URL. Après avoir publié une image, Dynamic Media Classic active une chaîne URL qui référence le paramètre d’image prédéfini sur les serveurs d’images de Contenu multimédia dynamique. Vous pouvez coller ces URL dans un navigateur Web pour procéder à des essais.
 
-Pour placer ces chaînes URL dans vos pages Web et applications, copiez-les depuis Dynamic Media Classic. Pour obtenir une chaîne URL générée avec un paramètre d’image prédéfini, atteignez l’écran de prévisualisation ou le panneau de navigation (Affichage des détails).
+Pour placer ces chaînes URL dans vos pages Web et applications, copiez-les à partir de Contenu multimédia dynamique classique. Pour obtenir une chaîne URL générée avec un paramètre d’image prédéfini, atteignez l’écran de prévisualisation ou le panneau de navigation (Affichage des détails).
 
 ## Obtention d’une URL de paramètre d’image prédéfini {#obtaining-an-image-preset-url}
 
 Vous pouvez obtenir une chaîne URL générée par un paramètre d’image prédéfini à partir de l’écran Prévisualisation ou Affichage des détails. Une fois l’URL copiée, elle est stockée dans le Presse-papiers ; vous pouvez ainsi la coller si nécessaire.
 
-***Remarque **: L’URL n’est pas active tant que vous n’avez pas publié le fichier.*
+***Remarque **: L’URL n’est pas principale tant que vous n’avez pas publié le fichier.*
 
 ### Obtention d’une URL de paramètre d’image prédéfini depuis l’écran Prévisualisation {#obtaining-an-image-preset-url-from-preview}
 
@@ -53,11 +53,11 @@ Vous pouvez obtenir une chaîne URL générée par un paramètre d’image pré
 
 ## A propos des chaînes URL de paramètre d’image prédéfini {#about-image-preset-url-strings}
 
-Un appel d’URL pour le dimensionnement des images sur les serveurs Dynamic Media Image Server a la syntaxe de base suivante :
+Un appel d’URL pour le dimensionnement d’image sur les serveurs d’images de médias dynamiques a la syntaxe de base suivante :
 
 *chemin*/*nom_serveur_Image_Server*/*nom_compte*/*nom_image*?*modificateur1*&amp;*modificateur2*&amp;…
 
-Dans une URL de serveur d’images Dynamic Media, les instructions destinées au serveur pour l’affichage de l’image s’affichent après le point d’interrogation (?). Par exemple, cet appel d’URL fournit une image nommée « backpack » à une largeur de 250 pixels :
+Dans une URL de serveur d’images de médias dynamiques, les instructions à l’intention du serveur pour l’affichage de l’image s’affichent après le point d’interrogation (?). Par exemple, cet appel d’URL fournit une image nommée « backpack » à une largeur de 250 pixels :
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
