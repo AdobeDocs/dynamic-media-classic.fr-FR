@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2444'
 ht-degree: 75%
@@ -144,7 +144,7 @@ Toutes les valeurs invariables entre les zones cliquables doivent être inséré
 * Valeur de l’URL : `product.htm`
 * URL réelle générée : `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-By default, the URL template includes a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens a new window with the URL destination. Cependant, vous pouvez utiliser n’importe quel code JavaScript pour remplacer ce gestionnaire JavaScript ou utiliser l’un des gestionnaires Dynamic Media Classic suivants :
+By default, the URL template includes a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens a new window with the URL destination. Cependant, vous pouvez utiliser n’importe quel code JavaScript pour remplacer ce code JavaScript ou utiliser l’un des gestionnaires Dynamic Media Classic suivants :
 
 * `loadProductCW`
 
@@ -154,7 +154,7 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 
    Affiche l’URL cible spécifiée dans la colonne URL de la fenêtre parente (la page d’où la page active a été ouverte). La fenêtre active reste ouverte, mais la fenêtre parent change pour afficher l’URL cible.
 
-   ***remarque **: Le gestionnaire`loadProductPW`ne prend pas en charge les visionneuses DHTML et HTML5.*
+   ***remarque **: Le gestionnaire `loadProductPW` ne prend pas en charge les visionneuses DHTML et HTML5.*
 
 ### Création d’un modèle d’URL {#creating-a-url-template}
 
@@ -208,7 +208,7 @@ Pour plus d’informations, reportez-vous à l’aide d’InDesign ou d’Acroba
 
    >[!NOTE]
    >
-   >vous n’avez pas besoin de définir les options d’apparence dans InDesign. Vous pouvez spécifier l’aspect dans Dynamic Media Classic.
+   >vous n’avez pas besoin de définir les options d’apparence dans InDesign. Vous pouvez définir l’aspect dans Dynamic Media Classic.
 
 1. Répétez les étapes 2 à 5 pour toutes les zones cliquables que vous souhaitez créer.
 1. Exportez les fichiers au format PDF.
@@ -220,7 +220,7 @@ Pour plus d’informations, reportez-vous à l’aide d’InDesign ou d’Acroba
 1. Faites glisser la souris pour créer la zone cliquable. La boîte de dialogue Créer un lien s’ouvre.
 1. Sélectionnez Lien personnalisé et cliquez sur Suivant.
 
-   ***remarque **: Il n’est pas nécessaire de définir les options d’aspect dans Acrobat. Vous pouvez spécifier l’aspect dans Dynamic Media Classic.*
+   ***remarque **: Il n’est pas nécessaire de définir les options d’apparence en Acrobat. Vous pouvez définir l’aspect dans Dynamic Media Classic.*
 
 1. Dans la boîte de dialogue Propriétés du lien, cliquez sur Actions.
 1. Sélectionnez Ouvrir un lien Web dans le menu Sélectionner l’action, puis cliquez sur Ajouter.
