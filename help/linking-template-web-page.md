@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 70%
@@ -20,9 +20,9 @@ ht-degree: 70%
 
 # Liaison d’un modèle à une page Web{#linking-a-template-to-a-web-page}
 
-Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Image Server au moyen de chaînes URL. Après avoir publié un modèle, Dynamic Media Classic active une chaîne URL qui référence le modèle sur les serveurs Dynamic Media Image Server. Vous pouvez coller cette URL dans un navigateur Web afin de la tester.
+Vos sites Web et applications accèdent au contenu du serveur d’images Dynamic Media au moyen de chaînes URL. Après avoir publié un modèle, Dynamic Media Classic active une chaîne URL qui référence le modèle sur les serveurs d’images de Contenu multimédia dynamique. Vous pouvez coller cette URL dans un navigateur Web afin de la tester.
 
-Pour placer des chaînes URL dans vos pages Web et applications, copiez-les à partir de Dynamic Media Classic. Pour obtenir une chaîne URL générée avec un paramètre d’image prédéfini, affichez l’écran de prévisualisation ou le panneau de navigation (vue de détails). Ensuite, sélectionnez un paramètre d’image prédéfini, puis cliquez sur le bouton Copier l’URL.
+Pour placer des chaînes URL dans vos pages Web et applications, copiez-les à partir de Contenu multimédia dynamique classique. Pour obtenir une chaîne URL générée avec un paramètre d’image prédéfini, affichez l’écran de prévisualisation ou le panneau de navigation (vue de détails). Ensuite, sélectionnez un paramètre d’image prédéfini, puis cliquez sur le bouton Copier l’URL.
 
 >[!NOTE]
 >
