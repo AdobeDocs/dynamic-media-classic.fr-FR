@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 69%
@@ -40,7 +40,7 @@ Deux méthodes peuvent être utilisées pour publier la vidéo :
 
    Si vous ne souhaitez pas publier les vidéos immédiatement, vous pouvez les publier manuellement à tout moment.
 
-Après avoir publié des vidéos, Dynamic Media Classic active les chaînes URL de votre page HTML ou code d’application.
+Après avoir publié des vidéos, Dynamic Media Classic active les chaînes URL de votre page ou code d’application HTML.
 
 **Publication d’une vidéo**
 
@@ -163,7 +163,7 @@ For example, suppose the progressive video server name is `https://s7d9.scene7.c
 
 ## Utilisation de miniatures de vidéo {#working-with-video-thumbnails}
 
-Dynamic Media Classic génère des miniatures pour les vidéos codées et les vidéos précodées. Vous pouvez utiliser des miniatures vidéo comme n’importe quelle autre image. En outre, vous pouvez obtenir des URL pour les miniatures vidéo que Dynamic Media Classic génère et déployer ces URL en dehors de Dynamic Media Classic. Vous pouvez, par exemple, déployer les miniatures dans des résultats de recherche, des listes de vidéos correspondantes et des listes de lecture vidéo sur un site Web.
+Dynamic Media Classic génère des miniatures pour les vidéos codées et les vidéos précodées. Vous pouvez utiliser des miniatures vidéo comme n’importe quelle autre image. En outre, vous pouvez obtenir des URL pour les miniatures vidéo que Dynamic Media Classic génère et déploie ces URL en dehors de Dynamic Media Classic. Vous pouvez, par exemple, déployer les miniatures dans des résultats de recherche, des listes de vidéos correspondantes et des listes de lecture vidéo sur un site Web.
 
 Les miniatures sont générées en fonction de la première image hétérogène (pas une image toute noire, toute blanche, etc.) de la vidéo.
 
