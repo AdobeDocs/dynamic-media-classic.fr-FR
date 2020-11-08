@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 71%
@@ -20,7 +20,7 @@ ht-degree: 71%
 
 # Vérification de fichiers de tâche{#checking-job-files}
 
-Pour surveiller les téléchargements de fichiers vers Dynamic Media Classic et les fichiers que vous publiez sur les serveurs Dynamic Media Classic, Dynamic Media Classic offre la page Tâches. Vous pouvez consulter des tâches de téléchargement et de publication sur la page Tâches, y vérifier l’état des tâches et annuler des publications. Vous pouvez également planifier des tâches de téléchargement et de publication.
+Pour surveiller les téléchargements de fichiers vers Dynamic Media Classic et les fichiers que vous publiez sur des serveurs Dynamic Media Classic, Dynamic Media Classic offre la page Tâches. Vous pouvez consulter des tâches de téléchargement et de publication sur la page Tâches, y vérifier l’état des tâches et annuler des publications. Vous pouvez également planifier des tâches de téléchargement et de publication.
 
 Lorsque vous téléchargez des fichiers, une icône rotative apparaît en regard du menu Tâches, indiquant qu’une tâche est en cours, ainsi que le nombre de fichiers en cours. Vous pouvez cliquer sur cette icône pour consulter davantage d’informations sur la tâche active.
 
@@ -42,7 +42,7 @@ Sur l’onglet Historique de la page Tâches, les tâches sont répertoriées se
 
 **Total** Nombre de fichiers transférés.
 
-**W (avertissements)** Nombre d’avertissements dans la tâche (le cas échéant). Les avertissements indiquent des problèmes associés à la tâche qui sont sans effet sur son exécution globale. Ces avertissements peuvent généralement être ignorés parce qu’ils sont signalés dans des fichiers masqués. Par exemple, les fichiers .DS_store (Macintosh) et Thumbs.db (Windows) contiennent des informations sur le mode d’affichage des fichiers d’images visibles par les utilisateurs. Cependant, les entrées d’avertissement concernant ces fichiers peuvent être ignorées, car elles ne se rapportent pas à l’utilisation de ces fichiers dans Dynamic Media Classic. Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les avertissements la concernant.
+**W (avertissements)** Nombre d’avertissements dans la tâche (le cas échéant). Les avertissements indiquent des problèmes associés à la tâche qui sont sans effet sur son exécution globale. Ces avertissements peuvent généralement être ignorés parce qu’ils sont signalés dans des fichiers masqués. Par exemple, les fichiers .DS_store (Macintosh) et Thumbs.db (Windows) contiennent des informations sur le mode d’affichage des fichiers d’images visibles par les utilisateurs. Les entrées d’avertissement relatives à ces fichiers peuvent toutefois être ignorées, car elles ne concernent pas l’utilisation de ces fichiers dans Dynamic Media Classic. Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les avertissements la concernant.
 
 **E (erreurs)** Liste le nombre d&#39;erreurs dans la tâche (le cas échéant). Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les erreurs la concernant.
 
@@ -70,7 +70,7 @@ Pour trier des tâches ou modifier votre affichage sur l’onglet Historique de 
 
 ## Affichage, copie ou impression d’un rapport Détails de la tâche {#viewing-copying-or-printing-a-job-details-report}
 
-Cliquez deux fois sur le nom d’un rapport sur la page Tâches pour ouvrir la page Détails sur la tâche. Cette page présente un récapitulatif sur les fichiers de la tâche. Cliquez sur Détails de la Vue pour afficher l’identifiant Dynamic Media Classic d’une entrée, le chemin de destination et les informations d’état. Si vous avez téléchargé un fichier PDF ou PostScript nécessitant des polices qui ne sont pas disponibles dans Dynamic Media Classic, le rapport liste les polices manquantes.
+Cliquez deux fois sur le nom d’un rapport sur la page Tâches pour ouvrir la page Détails sur la tâche. Cette page présente un récapitulatif sur les fichiers de la tâche. Cliquez sur Détails de la Vue pour afficher l’identifiant Dynamic Media Classic, le chemin de destination et les informations d’état d’une entrée. Si vous avez téléchargé un fichier PDF ou PostScript nécessitant des polices qui ne sont pas disponibles dans Dynamic Media Classic, le rapport liste les polices manquantes.
 
 Vous pouvez copier ces informations dans le Presse-papiers.
 
@@ -98,7 +98,7 @@ Sélectionnez une tâche périodique sur la page Tâches, puis procédez comme s
 
 **Suppression d’une tâche** périodique Sélectionnez le bouton Supprimer.
 
-**Suspension (et reprise) d&#39;une tâche** périodique Dans la colonne Actif, désélectionnez une case à cocher pour interrompre une tâche ; cochez la case pour reprendre une tâche en pause.
+**Suspension (et reprise) d&#39;une tâche** périodique Dans la colonne Principale, désélectionnez une case à cocher pour interrompre une tâche ; cochez la case pour reprendre une tâche en pause.
 
 ### Création d’un intervalle de téléchargement ou de publication personnalisé {#creating-a-custom-upload-or-publish-job-time-interval}
 
