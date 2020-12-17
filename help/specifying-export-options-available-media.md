@@ -26,20 +26,22 @@ Les deux restrictions suivantes s’appliquent si vous exportez des images par l
 * La taille du fichier d’exportation zip compressé ne doit pas dépasser 1 Go pour la tâche d’exportation.
 * Une tâche d’exportation peut contenir un maximum de 500 fichiers.
 
-Voir aussi [Exportation de fichiers à partir de Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
+Voir aussi [Exportation d’actifs à partir de Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
 **Pour définir les options d’exportation disponibles pour les utilisateurs du portail multimédia**
 
 1. Cliquez sur **Configuration** > **Paramètres d’image prédéfinis**.
 1. Dans la fenêtre Paramètres d’image prédéfinis, sélectionnez l’une des options suivantes :
 
-   * **Activer la conversion** définie par l’utilisateur Lorsque cette option est sélectionnée, les utilisateurs peuvent choisir d’autres options dans la liste déroulante Taille de la fenêtre Exporter les fichiers sélectionnés. Les utilisateurs peuvent ensuite choisir une unité de mesure, pixels ou centimètres, puis spécifier la largeur et la hauteur souhaitée. Lors de l’exportation ou du téléchargement de ces fichiers, les fichiers image sont reformatés.
+   * **Activer la**
+conversion définie par l’utilisateurLorsqu’elle est sélectionnée, cette option permet aux utilisateurs de choisir d’autres options dans la liste déroulante Taille de la fenêtre Exporter les fichiers sélectionnés. Les utilisateurs peuvent ensuite choisir une unité de mesure, pixels ou centimètres, puis spécifier la largeur et la hauteur souhaitée. Lors de l’exportation ou du téléchargement de ces fichiers, les fichiers image sont reformatés.
 
       Lorsque vous choisissez **pixels** dans la liste déroulante **Taille**, la largeur x hauteur de l’image obtenue ne doit pas dépasser 100 millions de pixels. Cette taille équivaut à 10 000 x 10 000 pixels pour une image carrée ou à environ 8 000 x 12 000 pixels pour une image 2x3. Cette limitation de taille ne s’applique pas si vous exportez des images originales.
 
       Désélectionnez cette option si vous souhaitez que les utilisateurs téléchargent les fichiers sans les reformater pendant le téléchargement.
 
-   * **Activer l’exportation originale** Permet d’exporter les images originales. Dans le panneau Exporter les fichiers sélectionnés, les utilisateurs peuvent ouvrir le menu déroulant Conversion et choisir l’option Exporter l’original afin d’exporter les fichiers d’origine. Désélectionnez cette option si vous souhaitez obliger les utilisateurs à appliquer un paramètre d’image prédéfini ou des options de conversion spécifiques lorsqu’ils exportent des images.
+   * **Activer Exporter l’**
+originalPermet d’exporter les images originales. Dans le panneau Exporter les fichiers sélectionnés, les utilisateurs peuvent ouvrir le menu déroulant Conversion et choisir l’option Exporter l’original afin d’exporter les fichiers d’origine. Désélectionnez cette option si vous souhaitez obliger les utilisateurs à appliquer un paramètre d’image prédéfini ou des options de conversion spécifiques lorsqu’ils exportent des images.
 
 >[!MORELIKETHIS]
 >
