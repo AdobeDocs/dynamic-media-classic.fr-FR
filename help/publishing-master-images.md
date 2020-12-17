@@ -24,7 +24,7 @@ Lorsque vous publiez vos fichiers d’images, ils sont publiés sur les serveurs
 
 ## Marquage des images originales pour publication {#marking-master-images-for-publish}
 
-Les images du Maître doivent être marquées pour publication afin d’être copiées sur les serveurs Dynamic Media Image Server. Vous pouvez marquer vos images originales pour publication dans le panneau de navigation en cliquant sur l’icône Marquer pour publication. Vous pouvez également marquer des images pour publication lorsque vous les téléchargez vers Dynamic Media Classic.
+Les images de Principal doivent être marquées pour publication afin d’être copiées sur les serveurs Dynamic Media Image Server. Vous pouvez marquer vos images originales pour publication dans le panneau de navigation en cliquant sur l’icône Marquer pour publication. Vous pouvez également marquer des images pour publication lorsque vous les téléchargez vers Dynamic Media Classic.
 
 ## Publication de vos images originales {#publishing-your-master-images}
 
