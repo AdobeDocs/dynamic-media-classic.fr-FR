@@ -18,7 +18,7 @@ ht-degree: 73%
 ---
 
 
-# Gestion du contenu du panneau d’informations dans les visionneuses d’images{#managing-info-panel-content-in-image-sets}
+# Gestion du contenu du panneau d’informations dans les visionneuses d’images {#managing-info-panel-content-in-image-sets}
 
 Outre l’utilisation de texte de zone cliquable pour vos survols dans les visionneuses d’images, vous pouvez utiliser un panneau d’informations pour ajouter de plus grandes quantités de texte de survol, y compris des liens. Vous pouvez également gérer le panneau d’informations en utilisant la mise en cache temporisée et en planifiant des mises à jour du contenu.
 
@@ -28,14 +28,14 @@ Vous pouvez gérer la configuration et les données de votre panneau d’informa
 * Le panneau Source de données du panneau d’informations vous permet d’indiquer un fichier CSV contenant le texte à afficher comme texte de survol du panneau d’informations, ainsi que les heures de planification de la mise à jour des informations.
 * La boîte de dialogue Importer les métadonnées vous permet d’importer un fichier TXT délimité par des tabulations contenant les informations sur le texte de survol. Vous pouvez utiliser cette option TXT ou le panneau de source de données du panneau d’informations avec l’option de fichier CSV pour votre texte de survol.
 
-## Configuration d’un modèle de réponse pour les visionneuses d’images {#set-up-a-response-template-for-image-sets}
+## Configurer un modèle de réponse pour les visionneuses d’images {#set-up-a-response-template-for-image-sets}
 
 Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pour afficher du texte dans un panneau d’informations. Ces modèles de réponse prédéfinis déterminent le mode de présentation de vos informations dans le panneau d’informations : nombre de colonnes et de lignes, police et corps de caractères, etc. Vous pouvez sélectionner un modèle prédéfini existant ou en créer un nouveau.
 
 **Pour configurer un modèle de réponse**
 
 1. Cliquez deux fois sur votre visionneuse d’image pour l’ouvrir en mode Affichage des détails.
-1. Click **InfoPanel Setup** to unfold the panel.
+1. Cliquez sur **Configuration du panneau d’informations** pour déplier le panneau.
 1. Dans la liste déroulante Modèle de réponse, procédez de l’une des façons suivantes :
 
    * Sélectionnez Par défaut pour utiliser la réponse par défaut. Le code XML de la conception du modèle s’affiche, grisé, dans la zone de texte Modèle utilisateur.
@@ -47,14 +47,14 @@ Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pou
    * Optez pour une valeur faible si de nombreuses mises à jour des données sont effectuées quotidiennement.
    * Optez pour une valeur élevée si les données sont relativement stables et ne nécessitent pas de mises à jour fréquentes. La valeur par défaut est de 10 heures.
 
-1. Click **Upload** to upload info panel content, based on the rollover_key values, to s7info.
-1. In the S7Info Upload dialog box, browse to the file that you want to use, and then click **Upload**.
+1. Cliquez sur **Télécharger** pour charger le contenu du panneau d’informations, en fonction des valeurs rollover_key, dans s7info.
+1. Dans la boîte de dialogue de téléchargement S7Info, recherchez le fichier à utiliser, puis cliquez sur **Télécharger**.
 
    Les formats de fichiers pris en charge sont les fichiers délimités par des tabulations avec un encodage UTF-16, ou au format CSV avec un encodage ASCII. Pour les fichiers CSV, les caractères non ASCII doivent être encodés au format HTML.
 
-1. In the InfoPanel Setup panel, click **Publish**.
+1. Dans le panneau Configuration du panneau d’informations, cliquez sur **Publier**.
 
-## Importation de contenu source pour le panneau d’informations dans les visionneuses d’images {#import-source-content-for-the-info-panel-in-image-sets}
+## Importation du contenu source pour le panneau d’informations dans les visionneuses d’images {#import-source-content-for-the-info-panel-in-image-sets}
 
 Vous pouvez utiliser un fichier CSV (valeurs séparées par des virgules) avec un encodage ASCII (les caractères non ASCII doivent être encodés au format HTML) ou un fichier délimité par des tabulations pour le texte source d’un panneau d’informations, pour une visionneuse d’image. Les fichiers délimités par des tabulations doivent utiliser l’encodage UTF-16 (Unicode). La méthode d’importation utilisée dépend du type de fichier.
 
@@ -64,14 +64,14 @@ Lorsque vous effectuez la mise en forme du contenu source, n’oubliez pas les p
 * Le premier objet ou la première colonne de données doit correspondre à l’identificateur de survol (associé à la valeur rollover_key des URL de zone cliquable).
 * Assurez-vous que chaque objet délimité par des virgules ou des tabulations situé après l’identificateur est bien celui que vous souhaitez remplacer dans le modèle de réponse (la première colonne est donc remplacée par $1$, la deuxième par $2$, et ainsi de suite).
 
-### Importation de contenu CSV dans des visionneuses d’images à partir d’un emplacement hébergé en externe {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
+### Importer du contenu CSV dans les visionneuses d’images à partir d’un emplacement hébergé en externe {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Cliquez deux fois sur la visionneuse d’image pour l’ouvrir en mode Affichage des détails.
-1. Click **InfoPanel Datafeed** to unfold the panel.
+1. Cliquez sur **Source de données du panneau d’informations** pour déplier le panneau.
 1. Dans le champ de l’emplacement du fichier CSV hébergé en externe (HTTP), entrez l’URL du fichier CSV.
-1. (Optional) In the Schedule Update fields, specify a time to update the content, and then click **Add**.
+1. (Facultatif) Dans les champs Planifier la mise à jour, indiquez l’heure de mise à jour du contenu, puis cliquez sur **Ajouter**.
 
-   Vous pouvez sélectionner plusieurs heures. Chaque heure de mise à jour apparaît dans la zone Mettre à jour les durées. To remove a scheduled time, select it, and then click **Delete**.
+   Vous pouvez sélectionner plusieurs heures. Chaque heure de mise à jour apparaît dans la zone Mettre à jour les durées. Pour supprimer une heure planifiée, sélectionnez-la, puis cliquez sur **Supprimer**.
 
-1. (Optional) Click **Run Update** to immediately update the content.
+1. (Facultatif) Cliquez sur **Exécuter la mise à jour** pour mettre immédiatement à jour le contenu.
 
