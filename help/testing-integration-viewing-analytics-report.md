@@ -20,15 +20,15 @@ ht-degree: 42%
 
 # Test de l’intégration en affichant un rapport Adobe Analytics{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-Après avoir créé les variables nécessaires en Adobe Analytics, les avoir liées aux événements Dynamic Media Classic et avoir suivi les étapes de mise en oeuvre nécessaires, testez la configuration. Vous pouvez tester et vérifier que les données sont capturées, dans Adobe Analytics même. Si la configuration fonctionne ici, aucune autre étape n’est nécessaire. En supposant que vous ayez suivi les étapes ci-dessus et lié vos données de événement Contenu multimédia dynamique à une ou plusieurs variables de trafic personnalisées, suivez ce processus pour tester vos données dans Adobe Analytics.
+Après avoir créé les variables nécessaires en Adobe Analytics, les avoir liées aux événements Dynamic Media Classic et avoir suivi les étapes de mise en oeuvre nécessaires, testez la configuration. Vous pouvez tester et vérifier que les données sont capturées, dans Adobe Analytics même. Si la configuration fonctionne ici, aucune autre étape n’est nécessaire. En supposant que vous ayez suivi les étapes ci-dessus et lié vos données de événement Dynamic Media Classic à une ou plusieurs variables de trafic personnalisées, suivez ce processus pour tester vos données dans Adobe Analytics.
 
 **Test de l’intégration en affichant un rapport Adobe Analytics**
 
-1. Lancez une visionneuse de contenu multimédia dynamique classique à partir de votre compte, en particulier une visionneuse qui diffuse la mesure à capturer, et interagissez avec elle pour créer des données de événement.
+1. Lancez une visionneuse Dynamic Media Classic à partir de votre compte, en particulier une visionneuse qui diffuse la mesure à capturer, et interagissez avec elle pour créer des données de événement.
 
    Si, par exemple, vous souhaitez mesurer les vues alternatives les plus populaires dans une visionneuse d’images, prévisualisez une visionneuse d’images et cliquez sur les différentes images de miniatures.
 
-1. Inside Adobe Analytics, go to Custom Traffic > Custom Traffic 1-10 > [Name of prop], selecting your traffic prop name from the menu choices.
+1. Dans Adobe Analytics, accédez à Trafic personnalisé > Trafic personnalisé 1-10 > [Nom de la prop], en sélectionnant le nom de la prop de trafic dans les options de menu.
 
    Par exemple, pour accéder à la variable prop LoadAsset dans notre exemple de compte, sélectionnez Trafic personnalisé > Trafic personnalisé 1-10 > LoadAsset. Si vous avez plus de dix variables prop personnalisées, d’autres options de menu sont disponibles.
 
@@ -36,6 +36,6 @@ Après avoir créé les variables nécessaires en Adobe Analytics, les avoir li�
 
 >[!NOTE]
 >
->Toutes les données du lecteur de contenu Contenu multimédia dynamique classique sont affichées et rapportées dans les rapports Trafic personnalisé ou Conversion personnalisée d’Adobe Analytics.
+>Toutes les données du lecteur Dynamic Media Classic sont affichées et rapportées dans les rapports Trafic personnalisé ou Conversion personnalisée de Adobe Analytics.
 
 Pour plus d’informations, voir [www.adobe.com/go/learn_sc7_sitecatalystguide_en](https://www.adobe.com/go/learn_sc7_sitecatalystguide_en).
