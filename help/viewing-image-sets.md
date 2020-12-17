@@ -31,9 +31,9 @@ Vous pouvez créer et personnaliser des paramètres prédéfinis de la visionneu
 1. Cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
 1. Pour créer ou modifier un paramètre prédéfini sur l’écran Paramètres prédéfinis de la visionneuse, procédez de l’une des manières suivantes :
 
-   **Création** d’une Ajoute de clic. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme, sélectionnez Visionneuse de zoom : personnalisée, puis cliquez sur Ajouter. Vous pouvez également créer un paramètre prédéfini de visionneuse de zoom à partir d’un paramètre existant. Affichez le nom du paramètre, sélectionnez-le, puis cliquez sur le bouton Editer. Sur l’écran Configurer la visionneuse, attribuez un nom au paramètre prédéfini.
+   **** Création d’un Ajoute de clic. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme, sélectionnez Visionneuse de zoom : personnalisée, puis cliquez sur Ajouter. Vous pouvez également créer un paramètre prédéfini de visionneuse de zoom à partir d’un paramètre existant. Affichez le nom du paramètre, sélectionnez-le, puis cliquez sur le bouton Editer. Sur l’écran Configurer la visionneuse, attribuez un nom au paramètre prédéfini.
 
-   **Modification** Affichez le nom d’un paramètre prédéfini, sélectionnez-le, puis cliquez sur **Modifier**.
+   **** ModificationAffichez le nom d’un paramètre prédéfini, sélectionnez-le, puis cliquez sur  **Modifier**.
 
 1. Sélectionnez des options dans l’écran Configurer la visionneuse.
 
@@ -51,10 +51,10 @@ La fonction Prévisualiser vous permet de vous faire une idée du rendu d’un f
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, parcourez les dossiers de fichiers pour sélectionner la visionneuse d’images à prévisualiser.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **Affichage de la liste**. In the Asset window, hover on an asset, then click **Preview**.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **Affichage de la liste**. Dans la fenêtre Fichiers, passez la souris sur un fichier, puis cliquez sur **Prévisualisation**.
    * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **Affichage de la grille**. Dans la fenêtre de miniature d’un fichier, cliquez sur **Prévisualiser**.
    * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **Affichage des détails**. Dans cette même barre d’outils, cliquez sur **Prévisualiser**.
-   * Dans la fenêtre Fichiers, sélectionnez un fichier. On the toolbar, click **File** > **Preview**.
+   * Dans la fenêtre Fichiers, sélectionnez un fichier. Dans la barre d’outils, cliquez sur **Fichier** > **Prévisualisation**.
 
 1. (Facultatif) Dans la liste déroulante située en bas de la fenêtre Prévisualiser, sélectionnez le codage d’URL à appliquer à l’URL du fichier au moment de la copie.
 1. Cliquez sur le lien d’une visionneuse pour effectuer une prévisualisation dans la visionneuse sélectionnée.
