@@ -41,11 +41,11 @@ Après avoir publié une visionneuse de supports variés, vous pouvez obtenir so
 
       Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **Copier l’URL**.
 
-## Ajout d’URL de visionneuse de supports variés à une page Web {#add-mixed-media-set-urls-to-your-web-page}
+## Ajout d’URL de visionneuse de supports variés à une page Web  {#add-mixed-media-set-urls-to-your-web-page}
 
 La méthode la plus courante pour déployer les visionneuses de supports variés consiste à insérer un lien (par le biais d’une icône de navigation) dans votre page Web. Lorsque vous cliquez dessus, le lien lance une page dynamique (ASP ou JSP) affichant la visionneuse de supports variés dans la visionneuse appropriée.
 
-## Copie du code incorporé d’une visionneuse de supports mixtes {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## Copie du code incorporé d’une visionneuse de supports mixtes  {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
 L’utilisation de la fonction Code incorporé permet de vérifier le code de la visionneuse de supports mixtes sélectionnée. Vous pouvez aussi copier le code dans le Presse-papiers afin de le coller dans vos pages Web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Intégrer le code.
 
