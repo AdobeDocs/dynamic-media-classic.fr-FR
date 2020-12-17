@@ -22,19 +22,21 @@ ht-degree: 76%
 
 Vous publiez vos fichiers sur les serveurs Dynamic Media Image Server. Vous pouvez publier des fichiers une seule fois ou organiser Dynamic Media Classic pour publier des fichiers selon un calendrier récurrent. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL de Dynamic Media Classic et les ajouter à votre site Web ou application.
 
-Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos sur HTTP/2. En d’autres termes, une URL publiée ou un code incorporé pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cet actif publié est ensuite livré au moyen du protocole HTTP/2. Cette méthode de diffusion améliore la manière dont les navigateurs et les serveurs communiquent, ce qui permet de mieux répondre et de mieux charger les ressources Dynamic Media Classic. Voir Diffusion [HTTP2 du FAQ](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)sur le contenu.
+Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos sur HTTP/2. En d’autres termes, une URL publiée ou un code incorporé pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cet actif publié est ensuite livré au moyen du protocole HTTP/2. Cette méthode de diffusion améliore la manière dont les navigateurs et les serveurs communiquent, ce qui permet de mieux répondre et de mieux charger les ressources Dynamic Media Classic. Voir [Diffusion HTTP2 de la FAQ sur le contenu](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
 
 ## Publication après le téléchargement {#publish-after-uploading}
 
 Fichiers dans un état publié ou non publié. Par défaut, tous les fichiers que vous téléchargez dans Dynamic Media Classic sont automatiquement marqués pour publication.
 
-Pour plus d’informations, voir l’avis de publication [instantanée PDF](/help/assets/rendering-instant-publish-notification.pdf).
+Pour plus d’informations, voir le [Instant Publish Notice PDF](/help/assets/rendering-instant-publish-notification.pdf).
 
 Pour marquer des fichiers pour publication, utilisez les techniques suivantes :
 
-* **Publier après le téléchargement** Sur la page de téléchargement, dans la partie inférieure, sélectionnez Publier après le téléchargement. La valeur par défaut est un état sélectionné.
+* **Publier après le**
+téléchargementSur la page de téléchargement, dans la partie inférieure, sélectionnez Publier après le téléchargement. La valeur par défaut est un état sélectionné.
 
-* **Publier après le téléchargement** Dans la boîte de dialogue Options de la tâche, sélectionnez Publier après le téléchargement. La valeur par défaut est un état sélectionné.
+* **Publier après le**
+téléchargement Dans la boîte de dialogue Options de la tâche, sélectionnez Publier après le téléchargement. La valeur par défaut est un état sélectionné.
 
 Certains fichiers « enfants » sont systématiquement marqués pour publication lorsque leurs parents le sont. Ce tableau dresse la liste des fichiers enfants automatiquement marqués pour publication.
 
@@ -47,7 +49,7 @@ Certains fichiers « enfants » sont systématiquement marqués pour publicati
 
 Les images dérivées sont automatiquement marquées pour publication lorsque leurs images parentes sont publiées. Les images dérivées incluent les images que vous avez modifiées avec des options d’édition d’image. Vous pouvez voir ces images dérivées dans la vue de détail sous Version et dérivés.
 
-## Création d’une tâche de publication {#creating-a-publish-job}
+## Création d’une tâche de publication  {#creating-a-publish-job}
 
 Créez une tâche de publication pour publier des fichiers que vous avez téléchargés sur les serveurs Dynamic Media Classic, mais que vous avez choisi de ne pas publier automatiquement pour le moment. Vous pouvez réaliser une tâche de publication unique ou planifier la publication périodique de certaines tâches. Dynamic Media Classic offres propose des options de publication avancées pour des serveurs spécifiques et des options de republication de fichiers déjà publiés.
 
@@ -77,7 +79,7 @@ Pour créer une tâche de publication unique, sélectionnez l’option Unique s
 
 Si vous souhaitez que la tâche de publication ait lieu à une date ultérieure, sélectionnez l’option Planifier pour plus tard dans le menu Quand. Puis, à l’aide du curseur de calendrier et d’heure, sélectionnez le jour et l’heure d’exécution de la publication.
 
-### Création d’une tâche de publication périodique {#creating-a-recurring-publish-job}
+### Création d’une tâche de publication périodique  {#creating-a-recurring-publish-job}
 
 Pour créer une tâche de publication périodique, sélectionnez l’option Périodique sur la page de publication.
 
@@ -93,17 +95,21 @@ Puis, pour définir la périodicité de la tâche de publication, choisissez une
 
 Vous pouvez afficher les options avancées sur la page de publication et en choisir certaines pour gérer une tâche de publication :
 
-* **Publier pour** Choisir un type de serveur pour publier des fichiers uniquement sur un serveur spécifique, et non sur tous les serveurs.
+* **Publier**
+versChoisissez un type de serveur pour publier des fichiers uniquement sur un serveur spécifique et non sur tous les serveurs.
 
-* **Publier** Par défaut, Dynamic Media Classic publie uniquement les fichiers nouveaux qui n’ont pas été publiés auparavant (option Nouveau depuis la dernière publication). Cependant, vous pouvez choisir l’option Publication complète pour publier également les fichiers qui ont été mis à jour ou modifiés depuis leur dernière publication. Choisissez l’option Complet avec données de recherche si vous publiez un catalogue électronique et souhaitez que ses utilisateurs puissent y effectuer des recherches par mot-clé.
+* ****
+PublierPar défaut, Dynamic Media Classic publie uniquement les fichiers nouveaux qui n’ont pas été publiés auparavant (option Nouveau depuis la dernière publication). Cependant, vous pouvez choisir l’option Publication complète pour publier également les fichiers qui ont été mis à jour ou modifiés depuis leur dernière publication. Choisissez l’option Complet avec données de recherche si vous publiez un catalogue électronique et souhaitez que ses utilisateurs puissent y effectuer des recherches par mot-clé.
 
-* **Exécuter la tâche en tant que** Choisissez un nom d’utilisateur dans la liste. Vous pouvez trier les tâches par nom d’utilisateur sur la page Tâches. En choisissant un nom, vous associez une tâche de publication à un utilisateur.
+* **Exécuter la tâche**
+en tant queChoisissez un nom d&#39;utilisateur dans la liste. Vous pouvez trier les tâches par nom d’utilisateur sur la page Tâches. En choisissant un nom, vous associez une tâche de publication à un utilisateur.
 
-**Notification** HTTP Saisissez une URL pour déclencher les tâches de publication suivantes.
+**Notification HTTPEntrez une URL pour déclencher les tâches de publication suivantes.**
+
 
 (voir [Utilisation d’une tâche de téléchargement ou de publication comme déclencheur](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)).
 
-## Annulation d’une tâche de publication {#canceling-a-publish-job}
+## Annulation d’une tâche de publication  {#canceling-a-publish-job}
 
 Vous pouvez annuler une tâche de publication en cours. Par ailleurs, si vous êtes administrateur, vous pouvez annuler une tâche de publication en cours à partir de la page des tâches de l’entreprise.
 
@@ -113,7 +119,7 @@ Pour annuler une tâche de publication, sur la page Tâches, cliquez sur Annuler
 >
 >après avoir annulé une tâche de publication, son état devient « Arrêt en cours » tant qu’elle n’a pas atteint un point où elle peut s’arrêter en toute sécurité. L’arrêt d’une tâche de publication peut prendre un certain temps si la récupération des données dans la base de données est en cours.
 
-## Publication manuelle de fichiers {#manually-publishing-assets}
+## Publication manuelle de fichiers  {#manually-publishing-assets}
 
 Vous pouvez publier des fichiers individuels manuellement au lieu de créer une tâche de publication. Lorsque vous publiez des visionneuses, comme une visionneuse d’images ou de vidéos adaptative, la visionneuse (ou « parent ») et tous les membres (ou « enfants ») dans cette visionneuse sont publiés.
 
@@ -129,7 +135,7 @@ Les fichiers non publiés sont indiqués dans l’interface utilisateur par une 
 
    * En mode Affichage de la grille, Affichage par liste ou Affichage des détails, cliquez sur l’icône grise et ronde traversée d’une barre oblique, à gauche du nom du fichier.
 
-## Annulation manuelle de la publication de fichiers {#manually-unpublishing-assets}
+## Annulation manuelle de la publication de fichiers  {#manually-unpublishing-assets}
 
 Vous pouvez annuler manuellement la publication de fichiers individuels. Lorsque vous annulez la publication de visionneuses, comme une visionneuse de série d’échantillons ou un catalogue électronique, la visionneuse (ou « parent ») passe à l’état non publié. Toutefois, les membres (ou « enfants ») de cette visionneuse ne sont pas affectés : ils conservent en fait leur état existant publié ou non publié.
 
@@ -141,11 +147,11 @@ Les fichiers publiés sont indiqués dans l’interface utilisateur par une icô
 
    * En mode Affichage de la grille, Affichage par liste ou Affichage des détails, sélectionnez un ou plusieurs fichiers publiés.
 
-      On the Global Navigation Bar, click **File > **Unpublish**.
+      Dans la barre de navigation globale, cliquez sur **Fichier > **Annuler la publication**.
 
    * En mode Affichage de la grille, Affichage par liste ou Affichage des détails, cliquez sur l’icône ronde marquée d’une coche verte située sur la gauche du nom du fichier.
 
-## Récupération de l’historique de publication d’un fichier {#getting-an-asset-s-publish-history}
+## Récupération de l’historique de publication d’un fichier  {#getting-an-asset-s-publish-history}
 
 La dernière date de publication d’un fichier apparaît dans la vue Affichage des détails située dans la partie supérieure du panneau. Vous pouvez obtenir des détails supplémentaires sur l’historique de publication dans le panneau Historique et serveurs publiés de la vue de détail. A partir de là, vous pouvez savoir quand le fichier a été publié et vers quels serveurs.
 
