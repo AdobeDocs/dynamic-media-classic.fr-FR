@@ -26,25 +26,28 @@ Vous pouvez créer un des types suivants de visionneuses d’offres :
 * Modèle paramétré
 * Image
 
-For templates, click **Add and Preview**, then set the parameters you choose. Les autres types de visionneuses d’offres n’incluent pas les paramètres, mais vous pouvez toujours les personnaliser en cliquant sur **Prévisualiser** et en modifiant les paramètres prédéfinis disponibles.
+Pour les modèles, cliquez sur **Ajouter et Prévisualisation**, puis définissez les paramètres choisis. Les autres types de visionneuses d’offres n’incluent pas les paramètres, mais vous pouvez toujours les personnaliser en cliquant sur **Prévisualiser** et en modifiant les paramètres prédéfinis disponibles.
 
 Outils d’offres Dynamic Media Classic pour la modification et la création de jeux d’offres.
 
 >[!NOTE]
 >
->Avant de créer une visionneuse d’offres, veillez à publier tous les fichiers que vous prévoyez d’utiliser pour la visionneuse sur Contenu multimédia dynamique classique. Voir [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
+>Avant de créer une visionneuse d’offres, veillez à publier tous les fichiers que vous prévoyez d’utiliser pour la visionneuse sur Dynamic Media Classic. Voir [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
 ## Types de visionneuses d’offres {#types-of-offer-sets}
 
 Créez une visionneuse d’offres à partir des types suivants :
 
-* **Images** Vous pouvez assembler des images pour une visionneuse d’offres. Chaque image comporte une offre différente dans la visionneuse.
+* ****
+ImagesVous pouvez assembler des images pour une visionneuse d’offres. Chaque image comporte une offre différente dans la visionneuse.
 
-* **Modèle** d’image Vous pouvez paramétrer des modèles d’image dans Dynamic Media Classic à l’aide de la commande Créer > Concepts de base des modèles. A travers les paramètres, les composants du modèle (le texte des cadres textuels, les différentes images) peuvent être modifiés et personnalisés. Pour une visionneuse d’offres, vous pouvez utiliser les paramètres de modèles afin de créer des variantes de la même image dans votre visionneuse d’offres, par exemple. Pour plus d’informations sur la création et le paramétrage des modèles d’images, voir Création de paramètres de modèle.
+* **Modèle**
+d’imageVous pouvez paramétrer des modèles d’image dans Dynamic Media Classic à l’aide de la commande Créer > Concepts de base des modèles. A travers les paramètres, les composants du modèle (le texte des cadres textuels, les différentes images) peuvent être modifiés et personnalisés. Pour une visionneuse d’offres, vous pouvez utiliser les paramètres de modèles afin de créer des variantes de la même image dans votre visionneuse d’offres, par exemple. Pour plus d’informations sur la création et le paramétrage des modèles d’images, voir Création de paramètres de modèle.
 
-* **Vidéo** Vous pouvez assembler de la vidéo pour une visionneuse d’offres. Chaque vidéo est une offre différente dans la visionneuse.
+* ****
+VidéoVous pouvez assembler de la vidéo pour une visionneuse d’offres. Chaque vidéo est une offre différente dans la visionneuse.
 
-## Création d’un jeu d’offres à l’aide d’un modèle paramétré {#creating-an-offer-set-with-a-parameterized-template}
+## Création d’un jeu d’offres avec un modèle paramétré {#creating-an-offer-set-with-a-parameterized-template}
 
 Lorsque vous créez une visionneuse d’offres, l’option **Publish after save** (« Publier après l’enregistrement ») affecte la visionneuse et ses membres comme suit :
 
@@ -72,12 +75,12 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
    La page Jeu d&#39;Offres Test&amp;Cible liste les offres que vous avez créées.
 
 1. Répétez les étapes 3 à 5 pour créer d’autres offres pour la visionneuse.
-1. When you finish, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
-1. Click **Close**, enter a name for the offer set, and then click **Save**.
+1. Lorsque vous avez terminé, près du coin inférieur droit de la page, vérifiez que **Publier après l’enregistrement** est sélectionné (valeur par défaut).
+1. Cliquez sur **Fermer**, attribuez un nom au jeu d’offres, puis cliquez sur **Enregistrer**.
 
 Avant de fermer la page Jeu d’Offres Test&amp;Cible, poussez le jeu d’offres sur Target Standard/Premium. Voir [Promotion de visionneuses d’offres sur Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target). 
 
-## Creating an offer set with images or videos {#creating-an-offer-set-with-images-or-videos}
+## Création d’une visionneuse d’offres avec des images ou des vidéos {#creating-an-offer-set-with-images-or-videos}
 
 Lorsque vous créez une visionneuse d’offres, l’option **Publish after save** (« Publier après l’enregistrement ») affecte la visionneuse et ses membres comme suit :
 
@@ -92,9 +95,11 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Assemblage d’images ou de vidéos pour la visionneuse d’offres. Début dans l’écran Visionneuse d’Offres Test&amp;Cible ou dans la Vue de grille ou la Vue de Liste et utilisez l’une des méthodes suivantes :
 
-   * **Ecran** Visionneuse d’Offres Test&amp;Cible, cliquez sur **[!UICONTROL Créer > Visionneuse]** d’Offres Test&amp;Cible. Faites glisser les images ou les vidéos sur l’écran. Pour créer des vidéos ou des images de tailles diverses, faites glisser plusieurs copies de l’image ou de la vidéo et définissez chaque taille séparément.
+   * ****
+Ecran Visionneuse d’Offres Test&amp;CibleCliquez sur  **[!UICONTROL Créer > Visionneuse]** d’Offres Test&amp;Cible. Faites glisser les images ou les vidéos sur l’écran. Pour créer des vidéos ou des images de tailles diverses, faites glisser plusieurs copies de l’image ou de la vidéo et définissez chaque taille séparément.
 
-   * **Vue** de grille ou de Liste Sélectionnez les images ou les vidéos, puis cliquez sur **[!UICONTROL Créer > Visionneuse]** d’Offres Test&amp;Cible.
+   * **Affichage de la grille ou de la ListeSélectionnez les images ou les vidéos, puis cliquez sur**
+Créer > Visionneuse **** d’Offres Test&amp;Cible.
 
 1. (Facultatif) Sélectionnez une image ou une vidéo et cliquez sur **Aperçu**. Sur la page Offres de Prévisualisation, vous pouvez modifier la taille et l’aspect de l’image ou de la vidéo que vous avez sélectionnée. Vous pouvez également modifier toutes les images ou vidéos de la visionneuse d’offres.
 
@@ -103,12 +108,12 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
    Cliquez sur **Enregistrer** pour enregistrer les modifications dans l’offre d’images ou de vidéos. Cliquez ensuite sur **Fermer** pour retourner à la page Visionneuse d’offres Test&amp;Target.
 
-1. After you finish creating offers for the offer set and choosing Image Presets for different images, ensure that **Publish after save** is selected (default).
+1. Après avoir créé des offres pour la visionneuse d’offres et choisi des paramètres d’image prédéfinis pour différentes images, assurez-vous que **Publier après l’enregistrement** est sélectionné (par défaut).
 1. Cliquez sur **Fermer** et entrez un nom pour la visionneuse d’offres, puis cliquez sur **Enregistrer**.
 
 Avant de fermer la page Jeu d’Offres Test&amp;Cible, poussez le jeu d’offres sur Target Standard/Premium. Voir [Promotion de visionneuses d’offres sur Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target). 
 
-## Modification d’une visionneuse d’offres {#editing-an-offer-set}
+## Modification d’une visionneuse d’offres  {#editing-an-offer-set}
 
 Selon que vous modifiez une visionneuse publiée ou non publiée, l’option **Publish after save** (« Publier après l’enregistrement ») affecte la visionneuse et ses membres comme suit :
 
@@ -123,23 +128,27 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 **Pour modifier une visionneuse d’offres**
 
-1. To edit an offer set, display the offer set in Grid view or List view, and then click its **Edit** rollover button.
+1. Pour modifier un jeu d’offres, affichez le jeu d’offres dans la vue de grille ou la vue de Liste, puis cliquez sur son bouton de survol **Modifier**.
 1. Dans la page Jeu d’Offres de Test&amp;Cible, effectuez l’une des opérations suivantes :
 
-   * **Suppression d&#39;une offre** Sélectionnez l&#39;offre, puis cliquez sur 
-**Supprimer** pour supprimer une offre de la visionneuse.
-   * **Ajouter une offre** La façon dont vous ajoutez une offre dépend du type de jeu d’offres sur lequel vous travaillez :
-   * **Modèles** Click 
+   * **Suppression d’une**
+offreSélectionnez l’offre, puis cliquez sur 
+**Supprimez** une offre de la visionneuse.
+   * **Ajouter une**
+offreLa manière dont vous ajoutez une offre dépend du type de jeu d’offres sur lequel vous travaillez :
+   * ****
+ModèlesClic 
 **Ajoute et Prévisualisation**, et sur la page Ajouter et Offres de Prévisualisation, créez une autre offre.
-   * **Images et vidéos** Faites glisser une image ou une vidéo sur la page Visionneuse d’Offres Test&amp;Cible.
+   * **Images et**
+vidéosFaites glisser une image ou une vidéo sur la page Visionneuse d’Offres Test&amp;Cible.
    >[!NOTE]
    >
    >il n’est pas possible de supprimer une visionneuse d’offres associée à une campagne. Pour supprimer un jeu d’offres associé à une campagne, connectez-vous à Target Standard/Premium et supprimez d’abord les associations de campagne. Même après avoir été dissocié d’une campagne, le fichier peut uniquement être supprimé de Dyanonic Media Classic, ce qui nécessite une connexion à Target Standard/Premium et non à partir de Target Standard/Premium.
 
-1. When you finish editing, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
+1. Lorsque vous avez terminé la modification, près de l’angle inférieur droit de la page, assurez-vous que **Publier après l’enregistrement** est sélectionné (valeur par défaut).
 1. Cliquez sur **Enregistrer**, sélectionnez un dossier de stockage, attribuez un nom à la visionneuse, puis cliquez sur **Enregistrer**.
 
-## Suppression d’une visionneuse d’offres {#deleting-an-offer-set}
+## Suppression d’une visionneuse d’offres  {#deleting-an-offer-set}
 
 Lorsque vous supprimez une visionneuse d’offres, celle-ci est placée dans la corbeille. Toutefois, les membres (ou « enfants ») de cette visionneuse ne sont pas affectés : ils conservent en fait leur état existant publié ou non publié.
 
