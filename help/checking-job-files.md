@@ -20,7 +20,7 @@ ht-degree: 71%
 
 # Vérification de fichiers de tâche{#checking-job-files}
 
-Pour surveiller les téléchargements de fichiers vers Dynamic Media Classic et les fichiers que vous publiez sur des serveurs Dynamic Media Classic, Dynamic Media Classic offre la page Tâches. Vous pouvez consulter des tâches de téléchargement et de publication sur la page Tâches, y vérifier l’état des tâches et annuler des publications. Vous pouvez également planifier des tâches de téléchargement et de publication.
+Pour surveiller les téléchargements de fichiers vers Dynamic Media Classic et les fichiers que vous publiez sur les serveurs Dynamic Media Classic, Dynamic Media Classic offre la page Tâches. Vous pouvez consulter des tâches de téléchargement et de publication sur la page Tâches, y vérifier l’état des tâches et annuler des publications. Vous pouvez également planifier des tâches de téléchargement et de publication.
 
 Lorsque vous téléchargez des fichiers, une icône rotative apparaît en regard du menu Tâches, indiquant qu’une tâche est en cours, ainsi que le nombre de fichiers en cours. Vous pouvez cliquer sur cette icône pour consulter davantage d’informations sur la tâche active.
 
@@ -28,31 +28,31 @@ Lorsque vous téléchargez des fichiers, une icône rotative apparaît en regard
 >
 >la liste des tâches récemment publiées est également disponible sur la page Activités récentes. Pour ouvrir cette page, cliquez sur le bouton Récent dans la barre de navigation globale.
 
-## A propos de la page Tâches {#about-the-jobs-page}
+## A propos de la page Tâches  {#about-the-jobs-page}
 
 Cliquez sur le bouton Tâches dans la barre de navigation globale pour ouvrir la page Tâches. Par défaut, les tâches sont répertoriées de la plus récente à la moins récente.
 
 Sur l’onglet Historique de la page Tâches, les tâches sont répertoriées selon les catégories suivantes :
 
-**Type** de tâche Une icône indique le type de tâche : Télécharger et publier sont les types de tâche les plus courants.
+**Type** de tâcheUne icône indique le type de tâche : Télécharger et publier sont les types de tâche les plus courants.
 
-**Nom** de la tâche Nom de la tâche. Le nom comprend deux parties : le nom saisi par l’utilisateur et l’horodatage.
+**Nom** de la tâcheNom de la tâche. Le nom comprend deux parties : le nom saisi par l’utilisateur et l’horodatage.
 
-**Démarrage** au démarrage de la tâche.
+**** DébutAu début de la tâche.
 
-**Total** Nombre de fichiers transférés.
+**** TotalNombre de fichiers transférés.
 
-**W (avertissements)** Nombre d’avertissements dans la tâche (le cas échéant). Les avertissements indiquent des problèmes associés à la tâche qui sont sans effet sur son exécution globale. Ces avertissements peuvent généralement être ignorés parce qu’ils sont signalés dans des fichiers masqués. Par exemple, les fichiers .DS_store (Macintosh) et Thumbs.db (Windows) contiennent des informations sur le mode d’affichage des fichiers d’images visibles par les utilisateurs. Les entrées d’avertissement relatives à ces fichiers peuvent toutefois être ignorées, car elles ne concernent pas l’utilisation de ces fichiers dans Dynamic Media Classic. Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les avertissements la concernant.
+**W (avertissements)** Nombre d’avertissements dans la tâche (le cas échéant). Les avertissements indiquent des problèmes associés à la tâche qui sont sans effet sur son exécution globale. Ces avertissements peuvent généralement être ignorés parce qu’ils sont signalés dans des fichiers masqués. Par exemple, les fichiers .DS_store (Macintosh) et Thumbs.db (Windows) contiennent des informations sur le mode d’affichage des fichiers d’images visibles par les utilisateurs. Cependant, les entrées d’avertissement concernant ces fichiers peuvent être ignorées, car elles ne se rapportent pas à l’utilisation de ces fichiers dans Dynamic Media Classic. Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les avertissements la concernant.
 
 **E (erreurs)** Liste le nombre d&#39;erreurs dans la tâche (le cas échéant). Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les erreurs la concernant.
 
-**Durée** Durée de la tâche.
+**** DuréeDurée de la tâche.
 
-**Statut** Affiche l&#39;état de la tâche.
+**** Statut Affiche l&#39;état de la tâche.
 
-**Destination** Pour les tâches de téléchargement, nom de la société et dossier dans lesquels les fichiers ont été téléchargés. Cette catégorie ne s’applique pas aux tâches publiées.
+**** DestinationPour les tâches de téléchargement, nom de la société et dossier dans lesquels les fichiers ont été téléchargés. Cette catégorie ne s’applique pas aux tâches publiées.
 
-**Soumis par** les Listes qui ont téléchargé les fichiers.
+**Soumis** parLists qui a téléchargé les ressources.
 
 ***Remarque **: Vous pouvez annuler des tâches de publication et de téléchargement en cours en cliquant sur le bouton Annuler en regard de la barre de progression.*
 
@@ -60,17 +60,17 @@ Sur l’onglet Historique de la page Tâches, les tâches sont répertoriées se
 
 Pour trier des tâches ou modifier votre affichage sur l’onglet Historique de la page Tâches, appliquez les techniques suivantes :
 
-**Tri** Sélectionnez un nom de colonne pour trier la liste selon une colonne particulière. Vous pouvez sélectionner le bouton bascule près du nom de la colonne pour trier les entrées par ordre croissant ou décroissant.
+**** TriSélectionnez un nom de colonne pour trier la liste selon une colonne particulière. Vous pouvez sélectionner le bouton bascule près du nom de la colonne pour trier les entrées par ordre croissant ou décroissant.
 
-**Période** Sélectionnez le menu Période et choisissez une option pour restreindre la liste des tâches à la date actuelle, à la semaine précédente ou au mois précédent. Choisissez l’option Plage de dates personnalisée pour entrer une plage de dates spécifique.
+**** PériodeSélectionnez le menu Période et choisissez une option pour restreindre la liste des tâches à la date actuelle, à la semaine précédente ou au mois précédent. Choisissez l’option Plage de dates personnalisée pour entrer une plage de dates spécifique.
 
-**Type** de tâche Sélectionnez le menu Type de tâche et choisissez Publier ou Télécharger pour restreindre la liste de publication ou de téléchargement des tâches. Choisissez l’option Tout pour voir les deux types de tâche.
+**Type de tâcheSélectionnez le menu Type de tâche et choisissez Publier ou Télécharger pour restreindre la liste de publication ou de téléchargement des tâches.** Choisissez l’option Tout pour voir les deux types de tâche.
 
-**Afficher** Choisissez Afficher > Mes tâches ou Afficher > Toutes les tâches pour restreindre la liste aux tâches commandées ou aux tâches commandées par les personnes de votre société.
+**** AfficherChoisissez Afficher > Mes tâches ou Afficher > Toutes les tâches pour restreindre la liste aux tâches que vous avez commandées ou aux tâches commandées par des personnes de votre société.
 
 ## Affichage, copie ou impression d’un rapport Détails de la tâche {#viewing-copying-or-printing-a-job-details-report}
 
-Cliquez deux fois sur le nom d’un rapport sur la page Tâches pour ouvrir la page Détails sur la tâche. Cette page présente un récapitulatif sur les fichiers de la tâche. Cliquez sur Détails de la Vue pour afficher l’identifiant Dynamic Media Classic, le chemin de destination et les informations d’état d’une entrée. Si vous avez téléchargé un fichier PDF ou PostScript nécessitant des polices qui ne sont pas disponibles dans Dynamic Media Classic, le rapport liste les polices manquantes.
+Cliquez deux fois sur le nom d’un rapport sur la page Tâches pour ouvrir la page Détails sur la tâche. Cette page présente un récapitulatif sur les fichiers de la tâche. Cliquez sur Détails de la Vue pour afficher l’identifiant Dynamic Media Classic d’une entrée, le chemin de destination et les informations d’état. Si vous avez téléchargé un fichier PDF ou PostScript nécessitant des polices qui ne sont pas disponibles dans Dynamic Media Classic, le rapport liste les polices manquantes.
 
 Vous pouvez copier ces informations dans le Presse-papiers.
 
@@ -88,17 +88,17 @@ Cliquez sur le bouton Tâches dans la barre de navigation globale et, sur la pag
 >
 >vous pouvez filtrer la liste des tâches dans l’onglet Planifiée avec les menus Type de tâche et Afficher. Choisissez un type de tâche pour restreindre la liste à des tâches de publication spécifiques. Choisissez une option Afficher pour afficher les tâches créées par vos soins ou par quelqu’un de l’entreprise.
 
-### Edition, suppression, interruption et reprise de tâches {#editing-deleting-pausing-and-resuming-recurring-jobs}
+### Edition, suppression, interruption et reprise de tâches  {#editing-deleting-pausing-and-resuming-recurring-jobs}
 
 Sélectionnez une tâche périodique sur la page Tâches, puis procédez comme suit pour l’éditer ou la supprimer :
 
-**Modification d&#39;une tâche** périodique Sélectionnez le bouton Modifier, puis saisissez des informations de planification dans la boîte de dialogue Modifier la tâche planifiée. Si vous souhaitez planifier la tâche selon l’intervalle de votre choix, choisissez l’option Répéter > Personnalisé 
+**Modification d&#39;une** tâche périodiqueSélectionnez le bouton Modifier, puis entrez les informations de planification dans la boîte de dialogue Modifier la tâche planifiée. Si vous souhaitez planifier la tâche selon l’intervalle de votre choix, choisissez l’option Répéter > Personnalisé 
 
 (voir [Création d’un intervalle de téléchargement ou de publication personnalisé](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval)).
 
-**Suppression d’une tâche** périodique Sélectionnez le bouton Supprimer.
+**Suppression d&#39;une** tâche périodiqueSélectionnez le bouton Supprimer.
 
-**Suspension (et reprise) d&#39;une tâche** périodique Dans la colonne Principale, désélectionnez une case à cocher pour interrompre une tâche ; cochez la case pour reprendre une tâche en pause.
+**Suspension (et reprise) d&#39;une** tâche périodiqueDans la colonne Principale, désélectionnez une case à cocher pour interrompre une tâche ; cochez la case pour reprendre une tâche en pause.
 
 ### Création d’un intervalle de téléchargement ou de publication personnalisé {#creating-a-custom-upload-or-publish-job-time-interval}
 
@@ -108,7 +108,7 @@ La syntaxe de définition des intervalles personnalisés de périodicité de té
 
 `[seconds]` `[minutes]` `[hour of day]` `[day of month]` `[month]` `[day of week]`
 
-For example, `0 15 10 * * ?` schedules a job at 10:15.00 every day.
+Par exemple, `0 15 10 * * ?` planifie une tâche à 10h15 chaque jour.
 
 Les tableaux et la liste ci-après expliquent comment définir un intervalle dans la zone Règle.
 
@@ -151,7 +151,7 @@ Cette liste donne des exemples de définition d’intervalle dans la zone Règl
 * 0 15 10 ? * 6L : à 10h15 le dernier vendredi de chaque mois
 * 0 15 10 * * 6#3 : à 10h15 le troisième vendredi de chaque mois
 
-## Utilisation d’une tâche de téléchargement ou de publication comme déclencheur {#using-an-upload-or-publish-job-as-a-trigger}
+## Utilisation d’une tâche de téléchargement ou de publication comme déclencheur  {#using-an-upload-or-publish-job-as-a-trigger}
 
 Lorsque vous téléchargez des fichiers via FTP ou exécutez une tâche de publication, vous pouvez planifier une tâche ultérieure de telle manière qu’elle commence dès que le téléchargement est terminé. (Si le début d’autres tâches est planifié à ce moment-là, la tâche planifiée ici sera mise en file d’attente derrière elles.) La nouvelle tâche envoie une notification à l’adresse spécifiée par vos soins de manière à déclencher ce code à cet emplacement. Le même nom que la tâche de téléchargement actuelle est attribué à la tâche de téléchargement à suivre, si ce n’est qu’il est accompagné du préfixe _Pub.
 
