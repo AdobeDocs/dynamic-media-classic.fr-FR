@@ -20,13 +20,13 @@ ht-degree: 86%
 
 # Liaison des visionneuses de zoom à vos pages Web{#linking-zoom-viewers-to-your-web-pages}
 
-Vos sites Web et applications accèdent au contenu du serveur d’images Contenu de média dynamique, y compris aux images originales et aux cibles de zoom associées, ainsi qu’aux paramètres prédéfinis de visionneuse de zoom, au moyen de chaînes URL ou de code incorporé. Ces chaînes URL sont activées au cours du processus de publication. Pour placer ces chaînes URL ou le code incorporé dans vos pages Web et applications, copiez-les à partir de Contenu multimédia dynamique classique.
+Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Image Server, y compris aux images originales et aux cibles de zoom associées, ainsi qu’aux paramètres prédéfinis de visionneuse de zoom, au moyen de chaînes URL ou de code incorporé. Ces chaînes URL sont activées au cours du processus de publication. Pour placer ces chaînes URL ou le code incorporé dans vos pages Web et applications, copiez-les à partir de Dynamic Media Classic.
 
 >[!NOTE]
 >
 >l’URL n’est activée qu’une fois le fichier publié.
 
-## Copie de l’URL d’une visionneuse de zoom {#copying-a-zoom-viewer-url}
+## Copie de l’URL d’une visionneuse de zoom  {#copying-a-zoom-viewer-url}
 
 1. Dans le panneau Bibliothèque de fichiers sur la gauche, accédez au dossier Fichiers qui contient la visionneuse de zoom dont vous voulez copier le code incorporé.
 1. Au-dessus du panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
@@ -44,11 +44,11 @@ Vos sites Web et applications accèdent au contenu du serveur d’images Contenu
 
       Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **Copier l’URL**.
 
-## Ajout d’URL de visionneuse de zoom à une page Web {#adding-zoom-viewer-urls-to-your-web-page}
+## Ajout d’URL de visionneuse de zoom à une page Web  {#adding-zoom-viewer-urls-to-your-web-page}
 
 En règle générale, les visiteurs d’un site Web effectuent un zoom sur les images en sélectionnant en premier lieu une icône de zoom (souvent à l’image d’une loupe). La sélection de cette icône entraîne l’ouverture d’une page Web dynamique (ASP ou JSP) qui affiche l’image dans une fenêtre contextuelle. C’est dans cette fenêtre contextuelle que les visiteurs effectuent un zoom sur l’image.
 
-Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom de base HTML5 dans le Guide](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)de référence des visionneuses d’Adobes.
+Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom de base HTML5 dans le Guide de référence des visionneuses d’Adobes](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
 
 ## Copie de la copie incorporée d’une visionneuse de zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
