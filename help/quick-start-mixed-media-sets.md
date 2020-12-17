@@ -66,7 +66,7 @@ Voir [Prévisualisation d’un fichier](previewing-asset.md#previewing-an-asset)
 
 Lorsque vous publiez une visionneuse de supports variés, elle est placée sur les serveurs Dynamic Media Classic et la chaîne URL est activée.
 
-Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisez le **serveur de vidéo** pour publier les vidéos réelles que vous avez marquées pour publication De plus, vous utilisez **Image Server** pour publier des fichiers connexes, tels que les miniatures vidéo, et définissez des informations pour toute visionneuse de vidéos adaptative.
+Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisez le **serveur de vidéo** pour publier les vidéos réelles que vous avez marquées pour publication Vous utilisez également **Image Server** pour publier des fichiers connexes, tels que les miniatures vidéo, et définir des informations pour toute visionneuse de vidéos adaptative.
 
 Reportez-vous à la section [Publication d’une visionneuse de supports variés](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
