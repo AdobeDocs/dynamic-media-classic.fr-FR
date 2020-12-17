@@ -45,11 +45,11 @@ Après avoir publié une visionneuse d’images, vous pouvez copier son URL ou s
 
       Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **Copier l’URL**.
 
-## Ajout d’URL de visionneuse d’images à une page Web {#adding-image-set-urls-to-your-web-page}
+## Ajout d’URL de visionneuse d’images à une page Web  {#adding-image-set-urls-to-your-web-page}
 
 La méthode la plus courante pour déployer les visionneuses d’images consiste à insérer un lien (par le biais d’une icône de navigation) dans votre page Web. Lorsque vous cliquez dessus, le lien lance une page dynamique (JSP) qui affiche la visionneuse d’images dans une fenêtre de zoom contextuelle. Le lien de zoom affiche une fenêtre contextuelle contenant l’affichage agrandi proprement dit.
 
-Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le Guide](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)de référence des visionneuses d’Adobes.
+Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le Guide de référence des visionneuses d’Adobes](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
 
 ## Copie du code incorporé d’une visionneuse d’images {#copying-the-embed-code-of-an-image-set-viewer}
 
