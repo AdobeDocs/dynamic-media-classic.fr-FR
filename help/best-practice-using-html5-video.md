@@ -26,13 +26,13 @@ En ce qui concerne la lecture, la visionneuse, détecte automatiquement les fonc
 
 En combinant dans un lecteur unique la capacité de concevoir les composants de lecture à l’aide de code HTML5 et CSS, d’avoir accès à la lecture incorporée et d’utiliser les flux continus adaptatifs et progressifs selon la capacité du navigateur, vous pouvez étendre la portée de votre contenu multimédia aux utilisateurs d’appareils mobiles et d’ordinateurs de bureau et garantir ainsi une expérience vidéo rationalisée.
 
-Voir aussi [A propos des visionneuses](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) HTML5 dans le Guide de référence des visionneuses Adobe.
+Voir aussi [A propos des visionneuses HTML5](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) dans le Guide de référence des visionneuses d’Adobes.
 
 ## Lecture de la vidéo sur les ordinateurs de bureau et les périphériques mobiles à l’aide de la visionneuse de vidéos Dynamic Media Classic {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
 Pour la diffusion en flux continu de vidéo adaptative sur ordinateur et sur mobile, les vidéos utilisées pour le changement de débit reposent sur toutes les vidéos MP4 de la visionneuse de vidéos adaptative.
 
-La lecture vidéo s’effectue à l’aide de HLS ou d’une vidéo progressive. HLS (HTTP Live Streaming) est une norme Apple pour la diffusion de vidéo adaptative en flux continu qui ajuste automatiquement la lecture en fonction de la capacité de la bande passante du réseau. Il permet également au client de &quot;rechercher&quot; à n’importe quel point de la vidéo sans avoir à attendre le téléchargement du reste de la vidéo. Voir aussi Diffusion en flux continu [](https://developer.apple.com/streaming/)HTTP en direct. La vidéo progressive est diffusée en téléchargeant et en stockant la vidéo localement sur l’écran de bureau ou le périphérique mobile d’un utilisateur.
+La lecture vidéo s’effectue à l’aide de HLS ou d’une vidéo progressive. HLS (HTTP Live Streaming) est une norme Apple pour la diffusion de vidéo adaptative en flux continu qui ajuste automatiquement la lecture en fonction de la capacité de la bande passante du réseau. Il permet également au client de &quot;rechercher&quot; à n’importe quel point de la vidéo sans avoir à attendre le téléchargement du reste de la vidéo. Voir aussi [HTTP Live Streaming](https://developer.apple.com/streaming/). La vidéo progressive est diffusée en téléchargeant et en stockant la vidéo localement sur l’écran de bureau ou le périphérique mobile d’un utilisateur.
 
 Le tableau suivant décrit la méthode de lecture, de navigateur et de périphérique mobile des vidéos sur les ordinateurs de bureau et les périphériques mobiles à l’aide de la visionneuse de vidéos Dynamic Media Classic.
 
