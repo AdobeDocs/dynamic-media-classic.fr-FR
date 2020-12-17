@@ -22,7 +22,7 @@ ht-degree: 96%
 
 Les *groupes* sont conçus pour vous aider à administrer les utilisateurs du portail multimédia. Pour accéder à un fichier, un utilisateur doit appartenir au minimum à un groupe autorisé à accéder à ce fichier. Lorsque vous ajoutez un utilisateur, vous l’affectez à un ou plusieurs groupes. Ce faisant, vous lui accordez un accès aux dossiers attribués au groupe auquel il appartient. Vous pouvez également choisir les paramètres d’image prédéfinis qui sont disponibles pour un groupe.
 
-## Utilisation de groupes pour restreindre l’accès à des dossiers, fichiers et paramètres d’image prédéfinis {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
+## Utilisation de groupes pour restreindre l’accès à des dossiers, fichiers et paramètres d’image prédéfinis  {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
 
 Pour accorder des autorisations d’accès à différents niveaux, vous créez des groupes. Pour chaque groupe, vous définissez des autorisations d’accès en lecture, en écriture et en suppression à des dossiers et à leur contenu. Vous déterminez également les paramètres d’image prédéfinis qui sont disponibles pour le groupe. Vous affectez ensuite les utilisateurs à des groupes. Un utilisateur peut appartenir à plusieurs groupes. Le concept de groupe vous offre la possibilité de donner accès à un nombre limité de contenus par rapport au contenu total.
 
@@ -32,7 +32,7 @@ Si vous n’accordez pas à un groupe des autorisations spécifiques sur un fich
 >
 >les utilisateurs peuvent appartenir à plusieurs groupes. Lorsqu’un utilisateur appartient à deux groupes ayant des autorisations d’accès différentes à un dossier, cet utilisateur est doté du niveau d’accès le plus élevé.
 
-## Ajout d’un groupe {#adding-a-group}
+## Ajout d’un groupe  {#adding-a-group}
 
 1. Cliquez sur **Configuration** > **Configuration de Media Portal** > **Groupes**.
 1. Cliquez sur **Ajouter**.
@@ -48,7 +48,7 @@ Si vous n’accordez pas à un groupe des autorisations spécifiques sur un fich
 
 1. Cliquez sur **Fermer**.
 
-## Définition des autorisations d’accès aux fichiers pour un groupe {#establishing-asset-access-permissions-for-a-group}
+## Définition des autorisations d’accès aux fichiers pour un groupe  {#establishing-asset-access-permissions-for-a-group}
 
 1. Cliquez sur **Configuration** > **Configuration de Media Portal** > **Groupes**.
 1. Dans la page de liste des Groupes, effectuez l’une de ces actions :
@@ -76,7 +76,7 @@ Si vous n’accordez pas à un groupe des autorisations spécifiques sur un fich
 >
 >les droits d’accès sont établis lorsque vous sélectionnez une zone de texte. Lorsque vous accordez des droits sur un dossier, ses sous-dossiers ainsi que tous les fichiers qu’il contient obtiennent les mêmes droits que le dossier parent. Toutefois, vous pouvez définir des droits différents pour des sous-dossiers et des fichiers individuels.
 
-## Choix des autorisations d’accès de paramètres d’image prédéfinis pour un groupe {#choosing-image-preset-access-permissions-for-a-group}
+## Choix des autorisations d’accès de paramètres d’image prédéfinis pour un groupe  {#choosing-image-preset-access-permissions-for-a-group}
 
 Choisissez les autorisations d’accès de paramètres d’image prédéfinis si vous souhaitez indiquer quels paramètres d’image prédéfinis sont disponibles pour les membres du groupes lorsqu’ils exportent des fichiers avec le portail multimédia.
 
@@ -92,12 +92,12 @@ Voir aussi [Définition d’options d’exportation disponibles pour les utilisa
 1. Sélectionnez ou désélectionnez des paramètres d’image prédéfinis pour indiquer quels paramètres prédéfinis sont accessibles aux utilisateurs du portail multimédia lorsqu’ils exportent des fichiers.
 1. Cliquez sur **Fermer**.
 
-## Modification et suppression de groupes {#edit-and-delete-groups}
+## Modification et suppression de groupes  {#edit-and-delete-groups}
 
 1. Cliquez sur **Configuration** > **Configuration de Media Portal** > **Groupes**.
 1. Sur la page de liste des groupes, sélectionnez un groupe et modifiez ou supprimez-le.
 
-   **Modification d&#39;un groupe** Cliquez sur Modifier, puis sélectionnez des options dans la boîte de dialogue Modifier le groupe.
+   **Modification d&#39;un** groupeCliquez sur Modifier, puis sélectionnez des options dans la boîte de dialogue Modifier le groupe.
 
-   **Suppression d&#39;un groupe** Cliquez sur Supprimer.
+   **Suppression d&#39;un** groupeCliquez sur Supprimer.
 
