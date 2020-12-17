@@ -2,7 +2,7 @@
 title: Publication des informations de configuration d’Adobe Analytics
 seo-title: Publication des informations de configuration d’Adobe Analytics
 description: 'null'
-seo-description: Découvrez comment publier les informations de configuration Adobe Analytics.
+seo-description: Découvrez comment publier des informations de configuration Adobe Analytics.
 uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
 content-type: reference
@@ -24,7 +24,7 @@ Publiez vos visionneuses Dynamic Media Classic pour que les informations sur la 
 
 >[!NOTE]
 >
->Chaque fois que vous modifiez les paramètres du rapport Adobe Analytics dans Adobe Analytics, assurez-vous de vous reconnecter à Adobe Analytics à partir de Dynamic Media Classic, de réenregistrer vos paramètres de configuration de Adobe Analytics, puis de republier.
+>Chaque fois que vous modifiez les paramètres du rapport Adobe Analytics dans Adobe Analytics, veillez à vous reconnecter à Adobe Analytics à partir de Dynamic Media Classic, à réenregistrer vos paramètres de configuration Adobe Analytics, puis à republier.
 
 Voir [Connexion à Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
