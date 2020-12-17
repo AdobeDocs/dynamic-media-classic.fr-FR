@@ -28,7 +28,7 @@ Vous pouvez recadrer une image afin d’en supprimer les bords blancs ou de ne g
 >
 >une fois l’image recadrée, vous pouvez cliquer sur le bouton Enregistrer en tant que, et ainsi enregistrer la version recadrée de l’image sous un autre nom. Dans la fenêtre Enregistrer en tant que, choisissez l’option Enregistrer sous nouvelle image originale pour sauvegarder une seconde copie de l’image. Choisissez l’option Enregistrer une vue supplémentaire de l’image originale pour enregistrer l’original et sa version recadrée sous un nom différent. Choisissez l’option Remplacer l’original pour supprimer le fichier original qui a servi à recadrer l’image. Ensuite, nommez l’image, puis cliquez sur le bouton Envoyer.
 
-## Suppression de l’espace blanc autour d’une image à l’aide du recadrage {#crop-to-remove-white-space-around-an-image}
+## Suppression de l’espace blanc autour d’une image à l’aide du recadrage  {#crop-to-remove-white-space-around-an-image}
 
 Vous pouvez éliminer les pixels transparents ou de couleur qui apparaissent au bord d’une image.
 
@@ -44,11 +44,11 @@ Vous pouvez éliminer les pixels transparents ou de couleur qui apparaissent au 
 >
 >pour restaurer l’état d’origine d’une image après l’avoir recadrée, affichez l’image dans l’écran Editeur de recadrage, puis cliquez sur le bouton Réinitialiser.
 
-## Sélection d’une zone à recadrer {#select-an-area-to-crop}
+## Sélection d’une zone à recadrer  {#select-an-area-to-crop}
 
-1. To crop an image, click its rollover Edit button and choose **Crop**, or display it in the Browse Panel in Detail view and click **Crop**.
+1. Pour recadrer une image, cliquez sur son bouton de survol Modifier et choisissez **Recadrer** ou affichez-la dans le panneau de navigation de la vue de détails, puis cliquez sur **Recadrer**.
 
-1. Dans la fenêtre Editeur de recadrage, placez la partie de l’image que vous ne souhaitez pas recadrer dans la zone de recadrage. What appears inside the box remains when you click **Save** and crop the image.
+1. Dans la fenêtre Editeur de recadrage, placez la partie de l’image que vous ne souhaitez pas recadrer dans la zone de recadrage. Ce qui apparaît dans la zone reste lorsque vous cliquez sur **Enregistrer** et que vous recadrez l’image.
 1. Pour modifier la zone de recadrage, effectuez l’une des opérations suivantes :
 
    * Faites glisser un côté ou un angle de la zone de recadrage. Maintenez la touche Maj enfoncée lorsque vous faites glisser la souris pour modifier la taille tout en conservant le format (la forme) de la zone de recadrage.
