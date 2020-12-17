@@ -24,7 +24,7 @@ Adobe Target Standard/Premium permet aux spécialistes du marketing d’exécute
 
 Dynamic Media Classic vous permet de créer des offres et des jeux d’offres pour les campagnes Target Standard/Premium. Par exemple, vous pouvez créer une visionneuse d’offres avec trois variantes du même fichier de média enrichi. Ensuite, Target Standard/Premium peut déterminer quel fichier offre un meilleur effet élévateur de conversion. Vous pouvez créer des offres et des visionneuses d’offres à partir d’un modèle de base ou d’images individuelles. Une fois que la visionneuse d’offres a été envoyée ou enregistrée dans Adobe Target Standard/Premium, où les offres sont associées à des mbox et à des expériences, Target Standard/Premium peut exécuter des campagnes pour déterminer quelle variation d’un site Web est susceptible de générer les meilleurs résultats pour les clics publicitaires et les conversions.
 
-Pour une meilleure personnalisation du contenu dynamique de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu de Contenu dynamique de Target Standard/Premium. Pour plus d’informations, voir la documentation du produit Target Standard/Premium.
+Pour une meilleure personnalisation du contenu Dynamic Media Classic dynamique, utilisez les offres HTML Target Standard/Premium. Pour plus d’informations, voir la documentation du produit Target Standard/Premium.
 
 >[!NOTE]
 >
@@ -34,22 +34,22 @@ Pour une meilleure personnalisation du contenu dynamique de Contenu de Contenu d
 
 Ce Début rapide est conçu pour vous aider à maîtriser rapidement les opérations liées aux jeux d’offres HTML Target Standard/Premium. Suivez les étapes 1 à 3. Chaque étape se termine par un renvoi à une rubrique contenant de plus amples informations.
 
-**1. Enter your Adobe Target Standard/Premium URL in the Application General Settings screen.**
+**1. Entrez votre URL Adobe Target Standard/Premium dans l&#39;écran Paramètres généraux de l&#39;application.**
 
-Dynamic Media Classic a besoin de votre URL Target Standard/Premium pour l’intégrer à Target Standard/Premium. Copy the portion of your Target Standard/Premium URL up to and including *.com*, and enter it in the Dynamic Media Classic Application General Settings screen. Voir [Intégration de Dynamic Media Classic à Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
+Dynamic Media Classic a besoin de votre URL Target Standard/Premium pour s’intégrer à Target Standard/Premium. Copiez la partie de votre URL Target Standard/Premium jusqu’à *.com* et saisissez-la dans l’écran Paramètres généraux de l’application Dynamic Media Classic. Voir [Intégration de Dynamic Media Classic à Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
 
 **2. Créez la visionneuse d’offres.**
 
-Utilisez un modèle paramétré ou des images pour créer une visionneuse d’offres. Vous pouvez créer des visionneuses d’offres HTML sur l’écran Visionneuse d’offres Test&amp;Target. To open this screen, select your template or images, and click **Build** > **Test&amp;Target Offer Set**.
+Utilisez un modèle paramétré ou des images pour créer une visionneuse d’offres. Vous pouvez créer des visionneuses d’offres HTML sur l’écran Visionneuse d’offres Test&amp;Target. Pour ouvrir cet écran, sélectionnez votre modèle ou vos images, puis cliquez sur **Créer** > **Visionneuse d’Offres Test&amp;Cible**.
 
 Pour créer une offre avec un modèle, cliquez sur **Ajouter et Prévisualisation**. Dans l’écran Ajouter et Prévisualisation, modifiez les valeurs des paramètres.
 
-Pour créer une offre à partir d’images, faites glisser les images vers l’écran Visionneuse d’offres Test&amp;Target. Click **Preview** to choose an Image Preset for an image or all the images in the offer set.
+Pour créer une offre à partir d’images, faites glisser les images vers l’écran Visionneuse d’offres Test&amp;Target. Cliquez sur **Prévisualisation** pour choisir un paramètre d’image prédéfini pour une image ou toutes les images de la visionneuse d’offres.
 
 Enregistrez la visionneuse d’offres après l’avoir créée.
 
 Voir [Création d’une visionneuse d’offres](creating-offer-set.md#creating_an_offer_set).
 
-**Cookie. Placez le jeu d’offres sur Adobe Target Standard/Premium.**
+**Cookie. Placez le jeu d’offres sur Adobe Target Standard/Premium**.
 
-In the Test&amp;Target Offer Set screen, click **Push Offers**, and enter your login credentials in the Test&amp;Target Login dialog box. Voir [Pousser les jeux d’offres vers Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Dans l’écran Jeu d’Offres Test&amp;Cible, cliquez sur **Envoyer les Offres**, puis saisissez vos informations de connexion dans la boîte de dialogue Connexion à Test&amp;Cible. Voir [Pousser les jeux d’offres vers Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
