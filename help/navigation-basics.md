@@ -20,7 +20,7 @@ ht-degree: 52%
 
 # Navigation - Notions élémentaires{#navigation-basics}
 
-L’écran Contenu multimédia dynamique classique comprend trois zones principales : Barre de navigation globale, Bibliothèque de fichiers et panneau de navigation/de création.
+L’écran Dynamic Media Classic comprend trois zones principales : Barre de navigation globale, Bibliothèque de fichiers et panneau de navigation/de création.
 
 ![Navigation - Notions élémentaires](/help/assets/gs_navigation_basics_popup_popup.png)
 
@@ -28,33 +28,33 @@ L’écran Contenu multimédia dynamique classique comprend trois zones principa
 
 La barre de navigation globale, située dans la partie supérieure de l’écran, se compose de boutons permettant d’exécuter différentes tâches :
 
-**Sélectionnez Société** Choisissez la société à laquelle vous souhaitez accéder dans le menu. Ce bouton n’apparaît pas si vous travaillez avec une seule entreprise.
+**Sélectionnez** SociétéSélectionnez la société à laquelle vous souhaitez accéder dans le menu. Ce bouton n’apparaît pas si vous travaillez avec une seule entreprise.
 
-**Télécharger** Ouvre l’écran Télécharger pour vous permettre de télécharger des fichiers depuis votre ordinateur ou votre réseau vers Dynamic Media Classic. Vous pouvez télécharger des fichiers à partir du bureau ou par FTP (File Transfer Protocol) Voir Transfert de fichiers.
+**** TéléchargerOuvre l’écran Télécharger pour vous permettre de télécharger des fichiers depuis votre ordinateur ou votre réseau vers Dynamic Media Classic. Vous pouvez télécharger des fichiers à partir du bureau ou par FTP (File Transfer Protocol) Voir Transfert de fichiers.
 
-**Créer** Choisissez une tâche de création dans le menu. Le panneau de création qui s’ouvre vous permet de créer un type de fichier.
+**** CréerChoisissez une tâche de création dans le menu. Le panneau de création qui s’ouvre vous permet de créer un type de fichier.
 
-**Publier** Ouvre l’écran Publier pour vous permettre de publier des fichiers de média enrichi sur les serveurs d’images Contenu multimédia dynamique et le reste de l’infrastructure SAAS de Dynamic Media Classic. Voir Publication.
+**** PublierOuvre l’écran Publier pour vous permettre de publier des fichiers multimédias enrichis sur les serveurs Dynamic Media Image Server et le reste de l’infrastructure SAAS de Dynamic Media Classic. Voir Publication.
 
-**Tâches** Ouvre l’écran Tâches afin que vous puissiez consulter les enregistrements des tâches de téléchargement et de publication.
+**** TâchesOuvre l’écran Tâches afin que vous puissiez consulter les enregistrements des tâches de téléchargement et de publication.
 
-**Récent** Ouvre l’écran Activité récente afin que vous puissiez vue les noms des fichiers récemment modifiés et des tâches de téléchargement et de publication récentes.
+**** RécentOuvre l’écran Activité récente afin que vous puissiez vue les noms des fichiers récemment modifiés et des tâches de téléchargement et de publication récentes.
 
-**Configuration** Ouvre l’écran de configuration afin que vous puissiez choisir les options de configuration ou d’administration pour optimiser l’utilisation de Contenu multimédia dynamique classique. (voir Configuration).
+**** ConfigurationOuvre l’écran Configuration pour vous permettre de choisir les options de configuration ou d’administration en vue d’optimiser l’utilisation de Dynamic Media Classic. (voir Configuration).
 
-**Aide** Choisissez une option d&#39;aide :
+**** AideChoisissez une option d&#39;aide :
 
-**Aide > AideSur cette rubrique** Ouvre le système d’aide sur une page contenant des informations sur la tâche en cours.
+**Aide > Aide sur cette** rubriqueOuvre le système d’aide sur une page contenant des informations sur la tâche que vous êtes en train de réaliser.
 
-**Aide > Didacticiel** vidéo Accède aux vidéos sur des rubriques spécifiques afin de montrer comment commencer à utiliser chaque flux de publication de média enrichi.
+**Aide >** Didacticiel vidéoAccède aux vidéos sur des rubriques spécifiques afin de montrer comment commencer à utiliser chaque flux de publication de média enrichi.
 
-**Aide > Sommaire** de l’aide Ouvre le système d’aide sur la page d’introduction. Vous pouvez cliquer sur les entrées de la table des matières pour rechercher et afficher diverses rubriques.
+**Aide >** Contenu de l’aideOuvre le système d’aide sur la page d’introduction. Vous pouvez cliquer sur les entrées de la table des matières pour rechercher et afficher diverses rubriques.
 
-**Aide > À propos** Indique la version de Contenu multimédia dynamique en cours d’exécution.
+**Aide >** AboutIndique la version de Dynamic Media Classic en cours d’exécution.
 
-**Aide > Assistance** Indique comment obtenir le support technique de Dynamic Media Classic.
+**Aide >** SupportIndique comment obtenir le support technique de Dynamic Media Classic.
 
-**Déconnexion** Quitte Dynamic Media Classic.
+**Déconnectez-** vous de Dynamic Media Classic.
 
 ## Bibliothèque de ressources {#asset-library}
 
@@ -70,9 +70,9 @@ La partie supérieure du panneau Bibliothèque de fichiers comporte des commande
 
 Le panneau de navigation/de création est l’emplacement où se concentre votre travail. Le contenu du panneau dépend du mode utilisé (Navigation/Création) :
 
-**Mode** de navigation Sélectionnez un dossier dans la bibliothèque de fichiers à vue et travaillez avec son contenu dans le panneau de navigation. Ce panneau propose les menus suivants pour manipuler les fichiers : Fichier, Prévisualiser, Tout sélectionner, Ne rien sélectionner et Tri. Vous pouvez également visualiser les fichiers de différentes façons en déplaçant le curseur ou en sélectionnant le bouton Affichage de la grille , Affichage par liste  ou Affichage des détails . Le fait de sélectionner le bouton Affichage des détails ou de cliquer deux fois sur un fichier ouvre ce dernier en mode Affichage des détails, où vous pouvez effectuer des opérations liées au fichier.
+**** Mode de navigationSélectionnez un dossier dans la bibliothèque de fichiers à vue et travaillez avec son contenu dans le panneau de navigation. Ce panneau propose les menus suivants pour manipuler les fichiers : Fichier, Prévisualiser, Tout sélectionner, Ne rien sélectionner et Tri. Vous pouvez également visualiser les fichiers de différentes façons en déplaçant le curseur ou en sélectionnant le bouton Affichage de la grille , Affichage par liste  ou Affichage des détails . Le fait de sélectionner le bouton Affichage des détails ou de cliquer deux fois sur un fichier ouvre ce dernier en mode Affichage des détails, où vous pouvez effectuer des opérations liées au fichier.
 
-**Mode** de création Cliquez sur Créer, puis choisissez une option pour début de la création d’un catalogue électronique, d’une visionneuse d’images, d’une visionneuse à 360° ou de l’un des autres éléments disponibles dans le menu Créer. L’écran de création s’ouvre. Vous pouvez sélectionner les fichiers à utiliser avant ou après l’entrée en mode de création.
+**Créer** un modeCliquez sur Créer, puis choisissez une option pour début de la création d’un catalogue électronique, d’une visionneuse d’images, d’une visionneuse à 360° ou de l’un des autres éléments disponibles dans le menu Créer. L’écran de création s’ouvre. Vous pouvez sélectionner les fichiers à utiliser avant ou après l’entrée en mode de création.
 
 >[!MORELIKETHIS]
 >
