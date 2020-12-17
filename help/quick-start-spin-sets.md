@@ -90,7 +90,7 @@ Voir [Prévisualisation d’une visionneuse à 360°](previewing-spin-set.md#pr
 
 Lorsque vous publiez une visionneuse à 360°, elle est placée sur les serveurs Dynamic Media Classic afin d’être diffusée de manière dynamique sur votre site Web ou dans votre application. Elle active également la chaîne URL qui appelle la visionneuse à 360° depuis les serveurs Dynamic Media Image Server vers votre site Web ou votre application.
 
-To publish a Spin Set, mark it for publish by selecting the **Mark for Publish** icon beside its name in the Browse Panel. Click **Publish** on the Global Navigation bar to initiate a publish. On the Publish screen, click **Start Publish**.
+Pour publier une visionneuse à 360°, marquez-la pour publication en sélectionnant l’icône **Marquer pour publication** en regard de son nom dans le panneau de navigation. Cliquez sur **Publier** dans la barre de navigation globale pour lancer une publication. Dans l’écran Publier, cliquez sur **Publier par Début**.
 
 Voir [Publication d’une visionneuse à 360°](publishing-spin-set.md#publishing-a-spin-set).
 
