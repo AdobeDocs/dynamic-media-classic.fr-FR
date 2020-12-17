@@ -24,18 +24,26 @@ Vous pouvez utiliser des fichiers Adobe® PostScript® (EPS) et Adobe® Illustra
 
 Lorsque vous téléchargez des fichiers d’image PostScript (EPS) ou Illustrator (AI), vous pouvez les formater différemment. Vous pouvez pixelliser les fichiers, les convertir au format FXG pour le module de publication à l’aide de modèles prédéfinis, conserver l’arrière-plan transparent, choisir une résolution et sélectionner un espace colorimétrique. Les options de formatage des fichiers PostScript et Illustrator sont disponibles dans les sections Options PostScript et Options Illustrator de la boîte de dialogue Télécharger les options de la tâche. 
 
-* **Traitement** Choisissez Pixelliser pour convertir les graphiques vectoriels du fichier au format bitmap.
+* ****
+TraitementChoisissez Pixelliser pour convertir les graphiques vectoriels du fichier au format bitmap.
 
-* **Conserver l’arrière-plan transparent dans l’image** générée Conserve la transparence d’arrière-plan du fichier.
+* **Conserver l&#39;arrière-plan transparent dans l&#39;**
+image généréeConserve la transparence d&#39;arrière-plan du fichier.
 
-* **Résolution** Détermine le paramètre de résolution. qui définit le nombre de pixels affichés par pouce dans le fichier.
+* ****
+RésolutionDétermine le paramètre de résolution. qui définit le nombre de pixels affichés par pouce dans le fichier.
 
-* **Espace colorimétrique** Sélectionnez le menu Espace colorimétrique, puis choisissez un espace colorimétrique :
+* **Espace colorimétriqueSélectionnez le menu Espace colorimétrique, puis choisissez un espace colorimétrique :**
 
-* **Détecter conserve automatiquement** l’espace colorimétrique du fichier.
 
-* **Forcer comme RVB** Convertit dans l’espace colorimétrique RVB.
+* **Détecter**
+automatiquementConserve l’espace colorimétrique du fichier.
 
-* **Forcer comme CMJN** Convertit dans l’espace colorimétrique CMJN.
+* **Forcer comme**
+RGBConversion vers l’espace colorimétrique RVB.
 
-* **Forcer comme Niveaux de gris** Convertit dans l’espace colorimétrique Niveaux de gris.
+* **Forcer comme**
+CMJNonversion vers l’espace colorimétrique CMJN.
+
+* **Forcer comme**
+Niveaux de grisConvertit dans l’espace colorimétrique Niveaux de gris.
