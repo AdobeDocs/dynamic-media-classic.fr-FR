@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 4819803428adee539e46498c73e5f2ba6a952693
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 57%
@@ -95,11 +95,9 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Assemblage d’images ou de vidéos pour la visionneuse d’offres. Début dans l’écran Visionneuse d’Offres Test&amp;Cible ou dans la Vue de grille ou la Vue de Liste et utilisez l’une des méthodes suivantes :
 
-   * ****
-Ecran Visionneuse d’Offres Test&amp;CibleCliquez sur  **[!UICONTROL Créer > Visionneuse]** d’Offres Test&amp;Cible. Faites glisser les images ou les vidéos sur l’écran. Pour créer des vidéos ou des images de tailles diverses, faites glisser plusieurs copies de l’image ou de la vidéo et définissez chaque taille séparément.
+   * **** Ecran Visionneuse d’Offres Test&amp;CibleCliquez sur  **[!UICONTROL Créer > Visionneuse]** d’Offres Test&amp;Cible. Faites glisser les images ou les vidéos sur l’écran. Pour créer des vidéos ou des images de tailles diverses, faites glisser plusieurs copies de l’image ou de la vidéo et définissez chaque taille séparément.
 
-   * **Affichage de la grille ou de la ListeSélectionnez les images ou les vidéos, puis cliquez sur**
-Créer > Visionneuse **** d’Offres Test&amp;Cible.
+   * **Affichage de la grille ou de la ListeSélectionnez les images ou les vidéos, puis cliquez sur** Créer > Visionneuse **** d’Offres Test&amp;Cible.
 
 1. (Facultatif) Sélectionnez une image ou une vidéo et cliquez sur **Aperçu**. Sur la page Offres de Prévisualisation, vous pouvez modifier la taille et l’aspect de l’image ou de la vidéo que vous avez sélectionnée. Vous pouvez également modifier toutes les images ou vidéos de la visionneuse d’offres.
 
