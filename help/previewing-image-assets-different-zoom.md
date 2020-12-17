@@ -18,7 +18,7 @@ ht-degree: 87%
 ---
 
 
-# Previewing image assets with different Zoom viewers{#previewing-image-assets-with-different-zoom-viewers}
+# Prévisualisation de fichiers d’image avec différentes visionneuses de zoom{#previewing-image-assets-with-different-zoom-viewers}
 
 Sur l’écran Liste des visionneuses, vous pouvez prévisualiser des images à l’aide de différents paramètres prédéfinis de visionneuse de zoom.
 
