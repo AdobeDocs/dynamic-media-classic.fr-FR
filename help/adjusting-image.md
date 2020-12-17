@@ -57,7 +57,7 @@ Voir également [Création d’un alias pour une image](adjusting-image.md#creat
 
       Cliquez sur **Enregistrer**.
 
-## Création d’un alias pour une image {#creating-an-alias-for-an-image}
+## Création d’un alias pour une image  {#creating-an-alias-for-an-image}
 
 Une fois les réglages d’une image définis, vous pouvez l’enregistrer en tant que vue supplémentaire de l’image originale. Pour ce faire, créez un alias de l’image en utilisant la fonction **Enregistrer une vue supplémentaire de l’image originale**.
 
