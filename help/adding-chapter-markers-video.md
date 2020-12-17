@@ -50,11 +50,11 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-In the example above, `Chapter 1` is the cue identifier and is optional. La période de réplication `00:00:000 --> 01:04:364` correspond aux heures de début et de fin du chapitre au format 00:00:000. Les trois derniers chiffres sont les millisecondes et peuvent être laissés sur 000, selon vos préférences. The chapter title of `The bicycle store behind it all` is the actual description of the chapter’s contents. L’identifiant de duplication, l’heure de départ, ainsi que le titre de chapitre s’affichent tous dans une fenêtre contextuelle du lecteur vidéo lorsqu’un utilisateur place le pointeur de la souris sur un point de repère visuel dans le montage de la vidéo.
+Dans l’exemple ci-dessus, `Chapter 1` est l’identifiant de duplication et est facultatif. La période de réplication `00:00:000 --> 01:04:364` correspond aux heures de début et de fin du chapitre au format 00:00:000. Les trois derniers chiffres sont les millisecondes et peuvent être laissés sur 000, selon vos préférences. Le titre de chapitre de `The bicycle store behind it all` correspond à la description réelle du contenu du chapitre. L’identifiant de duplication, l’heure de départ, ainsi que le titre de chapitre s’affichent tous dans une fenêtre contextuelle du lecteur vidéo lorsqu’un utilisateur place le pointeur de la souris sur un point de repère visuel dans le montage de la vidéo.
 
 Puisque vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fichier de chapitre que vous créez est conforme à la norme WebVTT (Web Video Text Tracks). L’extension du fichier de chapitre est .vtt. D’autres informations sont disponibles sur la norme de sous-titrage WebVTT.
 
-See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/).
+Voir [WebVTT: Format de suivi de texte de vidéo Web ](https://dev.w3.org/html5/webvtt/).
 
 **Pour ajouter des marques de chapitre à la vidéo**
 
@@ -66,7 +66,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 1. Enregistrer le fichier .vtt dans le codage UTF8 pour éviter tout problème lié au rendu des caractères dans le texte des titres de chapitres.
 
-   Generally, you want to name the chapter VTT file the same name as the video file, and append it with `chapters`. En procédant ainsi, vous pouvez automatiser aisément la génération des URL de vidéo en utilisant le système de gestion de contenu Web existant.
+   En règle générale, vous attribuez au fichier VTT de chapitre le même nom que le fichier vidéo et vous lui ajoutez `chapters`. En procédant ainsi, vous pouvez automatiser aisément la génération des URL de vidéo en utilisant le système de gestion de contenu Web existant.
 
 1. Dans Dynamic Media Classic, téléchargez votre fichier de chapitre WebVTT.
 
@@ -86,7 +86,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
       Dans la boîte de dialogue du code intégré, cliquez sur **[!UICONTROL Copier dans le Presse-papiers]**.
 
-      For the HTML5 `Universal_HTML5_Video` viewer, append the copied embed code with the following:
+      Pour la visionneuse HTML5 `Universal_HTML5_Video`, ajoutez le code incorporé copié avec ce qui suit :
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
 
