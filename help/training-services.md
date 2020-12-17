@@ -2,7 +2,7 @@
 title: Services de formation Adobe
 seo-title: Services de formation Adobe
 description: 'null'
-seo-description: En savoir plus sur les services de formation Adobe.
+seo-description: En savoir plus sur les Services de formation en Adobe.
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
 contentOwner: admin
 content-type: reference
@@ -26,7 +26,7 @@ Dynamic Media Classic offres de formation sous la forme de didacticiels vidéo, 
 
 Les services de formation Adobe proposent des formations en classe approfondies et personnalisées, adaptées aux besoins de votre entreprise. Ces formations peuvent prendre diverses formes : cours de type universitaire ayant lieu dans la région, cours en ligne ou encore ateliers sur site personnalisés. Les cours régionaux sont ouverts à tous les clients et se déroulent régulièrement dans plusieurs villes d’Amérique du Nord et de la zone EMOA (Europe-Moyen-Orient-Afrique). Les cours personnalisés peuvent être adaptés en fonction de l’expérience des utilisateurs (débutants à avancés) et de leur rôle (utilisateurs finaux, administrateurs, personnel informatique).
 
-Voir Services [de formation](https://training.adobe.com/training.html) Adobe [](https://www.adobe.com/go/learn_sc7_trainingrequest_en).
+Voir [Adobe Training Services](https://training.adobe.com/training.html) [](https://www.adobe.com/go/learn_sc7_trainingrequest_en).
 
 **Démonstrations**
 
