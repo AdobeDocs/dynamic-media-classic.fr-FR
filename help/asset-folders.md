@@ -28,13 +28,17 @@ Veillez à établir une structure et une organisation de dossiers pour le stocka
 
 La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de dossiers. Lorsque vous sélectionnez un dossier dans la bibliothèque de fichiers, son contenu s’affiche dans le panneau de navigation. Pour localiser des dossiers dans l’arborescence de dossiers, utilisez les techniques suivantes :
 
-* **Affichage des sous-dossiers** Sélectionnez l’icône Développer le dossier pour afficher les sous-dossiers d’un dossier. Cette icône se trouve à gauche des noms de dossiers.
+* **Affichage des**
+sous-dossiersSélectionnez l&#39;icône Développer le dossier pour afficher les sous-dossiers dans un dossier. Cette icône se trouve à gauche des noms de dossiers.
 
-* **Déplacement d’un dossier** Vous pouvez déplacer un dossier en le faisant glisser et en le déposant à son nouvel emplacement ou en sélectionnant Fichier > Déplacer un dossier.
+* **Déplacement d&#39;un**
+dossierVous pouvez déplacer un dossier en le faisant glisser et en le déposant à son nouvel emplacement ou en sélectionnant Fichier > Déplacer un dossier.
 
-* **Masquage des dossiers** Sélectionnez l’icône Réduire le dossier pour réduire la taille des sous-dossiers. Cette icône se trouve à gauche des noms de dossiers.
+* **Masquage**
+des dossiersSélectionnez l&#39;icône Réduire le dossier pour réduire les sous-dossiers. Cette icône se trouve à gauche des noms de dossiers.
 
-* **Ouverture d’un dossier** Sélectionnez un dossier pour afficher son contenu dans le panneau de navigation.
+* **Ouverture d&#39;un**
+dossierSélectionnez un dossier pour afficher son contenu dans le panneau de navigation.
 
 ***Conseil **: Vous pouvez masquer ou afficher la bibliothèque de fichiers en cliquant sur la commande Développer/Réduire située sur son côté gauche. Réduisez le panneau Bibliothèque de fichiers pour optimiser l’espace réservé au panneau de navigation.*
 
@@ -50,13 +54,15 @@ Pour créer un dossier, procédez comme suit :
    >
    >Vous pouvez également créer des dossiers dans Dynamic Media Classic lorsque vous téléchargez des fichiers via FTP. En sélectionnant l’option Inclure les sous-dossiers lors du téléchargement des fichiers via FTP, la structure des dossiers de votre ordinateur est répliquée dans le système. Les fichiers et les sous-dossiers de votre ordinateur ou réseau sont répliqués dans la bibliothèque de fichiers, et les fichiers que vous téléchargez sont placés dans ces dossiers.
 
-## Suppression de dossiers et attribution d’un nouveau nom aux dossiers {#deleting-and-renaming-folders}
+## Suppression de dossiers et attribution d’un nouveau nom aux dossiers  {#deleting-and-renaming-folders}
 
 Sélectionnez un dossier et utilisez les techniques suivantes pour le supprimer ou le renommer :
 
-* **Suppression** Cliquez sur le bouton Supprimer un dossier . Les fichiers d’un dossier supprimé sont placés dans le dossier Corbeille. Vous pouvez les y récupérer.
+* ****
+SuppressionSélectionnez le bouton Supprimer un dossier . Les fichiers d’un dossier supprimé sont placés dans le dossier Corbeille. Vous pouvez les y récupérer.
 
-* **Attribution d’un nouveau nom** au Doublon, cliquez sur le nom et saisissez un nouveau nom.
+* ****
+RenommerCliquez deux fois sur le nom et saisissez un nouveau nom.
 
 >[!NOTE]
 >
