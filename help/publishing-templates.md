@@ -26,9 +26,9 @@ Lorsque vous publiez votre modèle, il est placé sur les serveurs Dynamic Media
 >
 >pour utiliser votre modèle, publiez tout le contenu qui a servi à le créer, y compris les polices et les images. Si vous n’incluez pas tous les fichiers requis, un message d’erreur s’affiche lors de la publication.
 
-## Marquage des modèles pour publication {#marking-templates-for-publish}
+## Marquage des modèles pour publication  {#marking-templates-for-publish}
 
-Les modèles et tous leurs fichiers de support doivent être marqués pour publication afin d’être placés sur les serveurs Dynamic Media Image Server. You can mark these items for publish in the Browse Panel by clicking the **Mark for Publish** icon.
+Les modèles et tous leurs fichiers de support doivent être marqués pour publication afin d’être placés sur les serveurs Dynamic Media Image Server. Vous pouvez marquer ces éléments pour publication dans le panneau de navigation en cliquant sur l’icône **Marquer pour publication**.
 
 ## Publication de votre modèle {#publishing-your-template}
 
