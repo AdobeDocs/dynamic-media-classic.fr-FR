@@ -1,8 +1,6 @@
 ---
-title: Connexion et déconnexion
-seo-title: Connexion et déconnexion
-description: 'null'
-seo-description: En savoir plus sur la connexion et la déconnexion dans Dynamic Media Classic
+title: Connexion à et hors d’Adobe Dynamic Media Classic
+description: Découvrez comment vous connecter à et sortir d'Adobe Dynamic Media Classic et vous connecter à un serveur d'environnement de production en Amérique du Nord (NA), en Europe, au Moyen-Orient, en Afrique (EMEA) ou en Asie-Pacifique (APAC).
 uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
 contentOwner: admin
 content-type: reference
@@ -10,24 +8,24 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
-source-git-commit: 436717a3a5326477b5507db0893892342c54dcef
+source-git-commit: d3c9b805f5d17c130fe5b4590bd7864351dc9d24
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 6%
+source-wordcount: '496'
+ht-degree: 4%
 
 ---
 
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Connexion à Dynamic Media Classic {#sign-in}
+# Connexion à Adobe Dynamic Media Classic {#sign-in}
 
-La manière dont vous vous connectez à Dynamic Media Classic et vous déconnectez dépend de votre utilisation de l’application de bureau ou du navigateur Web.
+La manière dont vous vous connectez à Dynamic Media Classic et vous déconnectez dépend de l’utilisation de l’[application de bureau](#sign-in-dmc-app) ou du [navigateur Web](#sign-out).
 
 Quelle que soit la manière dont vous vous connectez, assurez-vous que vous disposez des éléments suivants avant d’utiliser Dynamic Media Classic :
 
-* **Nom de**
-connexionVous utilisez votre adresse électronique comme nom de connexion.
+* **Nom**
+d&#39;utilisateurVous utilisez votre adresse électronique comme nom de connexion.
 
 * ****
 Mot de passeVous obtenez votre mot de passe temporaire dans un e-mail de bienvenue de Dynamic Media Classic ou de votre administrateur Dynamic Media Classic. Lors de votre première connexion, vous êtes invité à modifier ce mot de passe temporaire.
