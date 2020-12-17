@@ -20,7 +20,7 @@ ht-degree: 37%
 
 # Connexion à Adobe Analytics{#log-in-to-adobe-analytics}
 
-Avant de vous connecter pour configurer les rapports Adobe Analytics et associer les variables de rapports Adobe Analytics aux événements de rapports Contenu multimédia dynamique, vérifiez que vous êtes ajouté en tant que membre du groupe Accès aux services Web de Adobe Analytics. Les membres de ce groupe ont accès à tous les rapports des suites de rapports spécifiées au moyen des API des services Web de Marketing Cloud, quelles que soient les autorisations définies dans l’interface. Pour ajouter un membre au groupe, dans Adobe Analytics, cliquez sur **Outils d’administration** > **Gestion des utilisateurs** > **Modifier les groupes**.
+Avant de vous connecter pour configurer les rapports Adobe Analytics et faire correspondre les variables de rapports Adobe Analytics aux événements Dynamic Media Classic, vérifiez que vous êtes ajouté en tant que membre du groupe Accès aux services Web dans Adobe Analytics. Les membres de ce groupe ont accès à tous les rapports des suites de rapports spécifiées au moyen des API des services Web de Marketing Cloud, quelles que soient les autorisations définies dans l’interface. Pour ajouter un membre au groupe, dans Adobe Analytics, cliquez sur **Outils d’administration** > **Gestion des utilisateurs** > **Modifier les groupes**.
 
 Lorsque vous vous connectez, vous avez la possibilité de saisir votre ID d’organisation de Marketing Cloud pour utiliser la dernière mise en oeuvre des analyses vidéo. Si vous choisissez de ne pas entrer votre identifiant, le rapports vidéo fonctionne toujours. Cependant, cela peut entraîner une mauvaise intégration des données avec d’autres données pour ce client en dehors de Dynamic Media Classic.
 
@@ -30,15 +30,15 @@ Lorsque vous vous connectez, vous avez la possibilité de saisir votre ID d’or
 
 **Connexion à Adobe Analytics**
 
-1. Près du coin supérieur droit de la page Contenu multimédia dynamique classique, appuyez sur **[!UICONTROL Configuration > Configuration]** de l’application.
-1. In the left pane, under **[!UICONTROL Application Setup]**, tap **[!UICONTROL Adobe Analytics]**.
-1. In the Adobe Analytics Configuration page, tap **[!UICONTROL Adobe Analytics Login]**.
-1. Dans la boîte de dialogue Connexion **** Adobe Analytics, saisissez votre nom de société, votre ID d’organisation de Marketing Cloud (facultatif), votre nom d’utilisateur et la clé de secret ** partagé dans le champ **[!UICONTROL Mot de passe]** .
+1. Près du coin supérieur droit de la page Dynamic Media Classic, appuyez sur **[!UICONTROL Configuration > Configuration de l’application]**.
+1. Dans le volet de gauche, sous **[!UICONTROL Configuration de l’application]**, appuyez sur **[!UICONTROL Adobe Analytics]**.
+1. Dans la page Configuration Adobe Analytics, appuyez sur **[!UICONTROL Adobe Analytics Login]**.
+1. Dans la boîte de dialogue **[!UICONTROL Connexion Adobe Analytics]**, saisissez votre nom de société, votre identifiant d’organisation de Marketing Cloud (facultatif), votre nom d’utilisateur et la clé *secret partagé* dans le champ de texte **[!UICONTROL Mot de passe]**.
 
-   Vous pouvez récupérer la clé de secret ** partagé à partir de la console d’administration Analytics. Voir [Comment obtenir des informations d’identification d’API pour les comptes](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html)d’utilisateurs.
+   Vous pouvez récupérer la clé *secret partagé* à partir de la console d’administration Analytics. Voir [Comment obtenir des informations d’identification d’API pour les comptes d’utilisateurs](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html).
 
 1. Cliquez sur **[!UICONTROL Connexion]**.
-1. Dans le menu déroulant **[!UICONTROL Report Suite]** , choisissez une suite de rapports, puis cliquez sur **[!UICONTROL OK]**.
+1. Dans le menu déroulant **[!UICONTROL Report Suite]**, choisissez une suite de rapports, puis cliquez sur **[!UICONTROL OK]**.
 
    >[!NOTE]
    >
