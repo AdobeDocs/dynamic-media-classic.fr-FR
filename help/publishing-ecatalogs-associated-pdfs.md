@@ -28,13 +28,13 @@ Lorsque vous publiez votre catalogue électronique et votre fichier PDF, ils son
 
 Pour publier votre catalogue électronique sur les serveurs Dynamic Media Image Server :
 
-1. Click **Publish** on the Global Navigation bar.
+1. Cliquez sur **Publier** dans la barre de navigation globale.
 1. Sur l’écran de publication, sélectionnez une option Quand (Unique ou Périodique).
 1. (Facultatif) Saisissez un nom pour la tâche de publication, puis conservez le tampon d’heure et de date.
 
    Si vous configurez vos catalogues électroniques de manière à permettre aux utilisateurs d’effectuer des recherches par mot-clé, assurez-vous que les mots-clés sont publiés. Cliquez sur Avancé, puis sur Options avancées. Dans le menu déroulant Publier, cliquez sur Complet avec données de recherche. Cette option est sélectionnée par défaut.
 
-1. Click **Start Publish**.
+1. Cliquez sur **Publier le Début**.
 
 >[!MORELIKETHIS]
 >
