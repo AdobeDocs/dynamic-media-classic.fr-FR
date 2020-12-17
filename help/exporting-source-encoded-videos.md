@@ -22,7 +22,7 @@ ht-degree: 79%
 
 Dans le panneau de navigation, les vidéos sources sont intitulées « Vidéos originales ». Les vidéos encodées sont intitulées « Vidéos ». Vous pouvez exporter des vidéos sources et des vidéos originales. Pour exporter des fichiers vidéos, sélectionnez-les dans le panneau de navigation et choisissez Fichier > Exporter. 
 
-Voir [Exportation de fichiers à partir de Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
+Voir [Exportation d’actifs à partir de Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 
 >[!MORELIKETHIS]
 >
