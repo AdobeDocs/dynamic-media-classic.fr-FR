@@ -42,7 +42,7 @@ Voir [Ajout et modification des paramètres prédéfinis de visionneuse](applica
 
 >[!NOTE]
 >
->Dynamic Media Classic offre une méthode pratique pour prévisualiser de la vidéo MP4 sur le bureau. Utilisez cette méthode pour prévisualiser du contenu mobile sur le Bureau sans le tester concrètement sur des périphériques mobiles. Sachez toutefois que ce que vous voyez dans la prévisualisation n’est pas tout à fait réaliste. Pour découvrir quel aspect et quel comportement de lecture aura une vidéo sur un périphérique mobile, accédez à l’écran de prévisualisation, sélectionnez l’option Copier l’URL, puis entrez l’URL dans le navigateur Web d’un périphérique mobile. Pour plus d’informations, voir [Déploiement de vidéos sur vos sites Web et sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Dynamic Media Classic offre une méthode pratique pour prévisualiser la vidéo MP4 sur le bureau. Utilisez cette méthode pour prévisualiser du contenu mobile sur le Bureau sans le tester concrètement sur des périphériques mobiles. Sachez toutefois que ce que vous voyez dans la prévisualisation n’est pas tout à fait réaliste. Pour découvrir quel aspect et quel comportement de lecture aura une vidéo sur un périphérique mobile, accédez à l’écran de prévisualisation, sélectionnez l’option Copier l’URL, puis entrez l’URL dans le navigateur Web d’un périphérique mobile. Pour plus d’informations, voir [Déploiement de vidéos sur vos sites Web et sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Utilisation des paramètres prédéfinis de visionneuse de vidéos {#working-with-video-viewer-presets}
 
@@ -52,9 +52,9 @@ Dynamic Media Classic est fourni avec de nombreux paramètres prédéfinis de vi
 
 Voir aussi [Prévisualisation de vidéos dans une visionneuse de vidéos](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
-### Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos {#adding-or-editing-a-video-viewer-preset}
+### Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos  {#adding-or-editing-a-video-viewer-preset}
 
-La fonction Paramètres prédéfinis de la visionneuse vous permet d’afficher les divers types de visionneuse et leurs paramètres prédéfinis. Vous pouvez également ajouter et modifier vos propres paramètres prédéfinis de visionneuse personnalisés ou modifier les paramètres prédéfinis de visionneuse existants fournis avec Contenu multimédia dynamique classique.
+La fonction Paramètres prédéfinis de la visionneuse vous permet d’afficher les divers types de visionneuse et leurs paramètres prédéfinis. Vous pouvez également ajouter et modifier vos propres paramètres prédéfinis de visionneuse personnalisés ou modifier les paramètres prédéfinis de visionneuse existants fournis avec Dynamic Media Classic.
 
 Dans Paramètres prédéfinis de la visionneuse, vous pouvez activer, filtrer, trier et prévisualiser les paramètres prédéfinis de la visionneuse.
 
@@ -62,21 +62,21 @@ Voir [Paramètres prédéfinis de la visionneuse](application-setup.md#viewer_pr
 
 **Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos**
 
-1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Viewer Presets**.
+1. Près du coin supérieur droit de Dynamic Media Classic, cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
 
    Afin d’afficher uniquement les paramètres prédéfinis pour les visionneuses de vidéos, sélectionnez Visionneuse de vidéos dans la liste déroulante des visionneuses sur la barre d’outils qui se trouve directement au-dessus du tableau.
 
 1. Ajoutez ou modifiez un paramètre prédéfini de visionneuse pour l’affichage vidéo :
 
-   **Ajouter** Cliquez sur Ajouter dans la barre d’outils. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme et une visionneuse dans les listes déroulantes respectives, puis cliquez sur Ajouter.
+   **** AjoutCliquez sur Ajoute dans la barre d’outils. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme et une visionneuse dans les listes déroulantes respectives, puis cliquez sur Ajouter.
 
    Voir aussi [Ajout et modification des paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
 
-   **Ajouter à partir d’un paramètre prédéfini** de visionneuse existant Dans le tableau, sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis cliquez sur Modifier dans la barre d’outils.
+   **Ajouter en commençant à partir d’un** paramètre prédéfini de visionneuse existantDans le tableau, sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis cliquez sur Modifier dans la barre d’outils.
 
    Après avoir reconfiguré la visionneuse de vidéos, cliquez sur **Enregistrer en tant que** pour enregistrer le paramètre prédéfini sous un autre nom dans le champ Nom du paramètre prédéfini.
 
-   **Modification** Sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis cliquez sur Modifier.
+   **** ModificationSélectionnez un paramètre prédéfini de visionneuse de vidéos, puis cliquez sur Modifier.
 
 1. Dans l’écran Configurer la visionneuse, dans le champ Nom du paramètre prédéfini, saisissez ou modifiez le nom du paramètre prédéfini.
 1. Définissez les options restantes si vous le souhaitez.
