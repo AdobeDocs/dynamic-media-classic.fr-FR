@@ -28,17 +28,17 @@ La suppression d’éléments du dossier Corbeille supprime définitivement les 
 
 >[!NOTE]
 >
->Les fichiers qui ont été déplacés dans le dossier Corbeille sont toujours enregistrés dans Dynamic Media Classic. Si vous tentez de télécharger un fichier portant le même nom qu’un fichier supprimé dans le dossier Corbeille, Dynamic Media Classic traite le fichier que vous souhaitez télécharger comme un fichier duplicata. A ce titre, un numéro sera ajouté à son nom.
+>Les fichiers qui ont été déplacés dans le dossier Corbeille sont toujours enregistrés dans Dynamic Media Classic. Si vous tentez de télécharger un fichier portant le même nom qu’un fichier supprimé dans le dossier Corbeille, Dynamic Media Classic traite le fichier à télécharger comme un fichier duplicata. A ce titre, un numéro sera ajouté à son nom.
 
 ## A propos du dossier Corbeille {#about-the-trash-folder}
 
 Dès que vous supprimez un objet d’un dossier, cet objet est placé dans le dossier Corbeille. Voici ce qui se passe quand vous supprimez un objet et le déplacez vers le dossier Corbeille :
 
-* Bien que l’élément ait été supprimé de vos dossiers Contenu multimédia dynamique classique, il est impossible d’attribuer son identifiant à un autre fichier tant qu’il reste dans le dossier Corbeille. Si vous tentez de télécharger un fichier portant le même nom qu’un fichier dans le dossier Corbeille, Dynamic Media Classic ajoute un numéro au nom du fichier.
+* Bien que l’élément ait été supprimé de vos dossiers Dynamic Media Classic, son ID ne peut pas être affecté à un autre fichier tant qu’il reste dans le dossier Corbeille. Si vous tentez de télécharger un fichier portant le même nom qu’un fichier dans le dossier Corbeille, Dynamic Media Classic ajoute un numéro au nom du fichier.
 * L’objet ne peut pas être publié. Même si l’objet était marqué pour publication au moment de sa suppression, il ne sera pas publié.
 * L’objet reste dans le dossier Corbeille jusqu’à ce qu’il soit restauré, que 7 jours se soient écoulés ou qu’il soit définitivement supprimé par la commande Vider la corbeille. Au bout de 7 jours, l’objet est définitivement supprimé au cours d’une opération de nettoyage automatique.
 
-## Restauration de fichiers à partir du dossier Corbeille {#restoring-assets-from-the-trash-folder}
+## Restauration de fichiers à partir du dossier Corbeille  {#restoring-assets-from-the-trash-folder}
 
 N’importe quelle personne est autorisée à restaurer des fichiers du dossier Corbeille. Les fichiers restaurés sont placés dans leurs dossiers d’origine. Si ces dossiers n’existent plus, Dynamic Media Classic les recrée et les fichiers restaurés sont placés dans les dossiers recréés.
 
@@ -48,15 +48,15 @@ Pour restaurer des fichiers du dossier Corbeille vers leurs dossiers d’origine
 1. Sélectionnez le ou les fichiers à restaurer.
 1. Choisissez Fichier > Restaurer depuis la corbeille.
 
-## Suppression définitive de fichiers du dossier Corbeille {#permanently-deleting-assets-in-the-trash-folder}
+## Suppression définitive de fichiers du dossier Corbeille  {#permanently-deleting-assets-in-the-trash-folder}
 
 Lorsque vous supprimez des fichiers du dossier Corbeille, sachez qu’ils sont définitivement supprimés. Les fichiers sont automatiquement supprimés du dossier Corbeille au bout de 7 jours.
 
 Pour supprimer définitivement des fichiers du dossier Corbeille, sélectionnez l’icône Corbeille  pour ouvrir le dossier correspondant. Ensuite, procédez à la suppression de fichiers individuels ou de tous les fichiers :
 
-* **Suppression de fichiers** individuels Sélectionnez les fichiers à supprimer définitivement, puis cliquez sur **[!UICONTROL Fichier > Supprimer de la corbeille]**.
+* **Suppression de** fichiers individuelsSélectionnez les fichiers à supprimer définitivement, puis cliquez sur  **[!UICONTROL Fichier > Supprimer de la corbeille]**.
 
-* **Suppression de tous les fichiers** Cliquez sur **[!UICONTROL Fichier > Vider la corbeille]**.
+* **Suppression de toutes les** ressourcesCliquez sur  **[!UICONTROL Fichier > Vider la corbeille]**.
 
 >[!MORELIKETHIS]
 >
