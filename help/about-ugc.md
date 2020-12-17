@@ -17,7 +17,7 @@ ht-degree: 56%
 ---
 
 
-# A propos du contenu généré par l’utilisateur{#about-user-generated-content}
+# Contenu généré par l’utilisateur{#about-user-generated-content}
 
 L’utilisation du contenu généré par l’utilisateur consiste à télécharger des ressources vers un référentiel d’enregistrement Dynamic Media Classic dédié et à effectuer les opérations associées.
 
