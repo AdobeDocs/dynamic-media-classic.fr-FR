@@ -25,10 +25,10 @@ Les services d’assistance technique sont conçus pour répondre aux besoins de
 | Assistance | Abonnement |
 |--- |--- |
 | Nombre de cas | Illimité. |
-| Délai de réponse | Consultez la FAQ à l’adresse [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html). |
+| Délai de réponse | Voir la FAQ à l’adresse [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html). |
 | SLA (contrats de niveau de service) | [https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | Utilisateurs pris en charge | Jusqu’à dix utilisateurs par organisation peuvent être désignés en tant qu’utilisateurs ayant souscrit un plan d’assistance, qui peuvent ouvrir des dossiers auprès du service d’assistance clientèle. |
-| Assistance sociale | Consultez la FAQ à l’adresse [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html). |
+| Assistance sociale | Voir la FAQ à l’adresse [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/contact/enterprise-support.ec.html). |
 | Formation en ligne et en direct gratuite et didacticiels vidéo | Inclus. |
 | Créer un dossier de support | [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) |
 | Assistance téléphonique | <ul><li>États-Unis/Canada : (800) 898-9743, (800)497-033, (408)454-5910 </li> <li>Japon : +81-3-6743-9632 </li><li>Royaume-Uni : +44 (0)20 35641782</li><li>Allemagne : +49 (0)69 51709005</li><li>France : +33 157324085</li><li>Pays-Bas : +31 (0)20 2035138 (Assistance week-end en anglais)</li></ul> |
@@ -37,7 +37,7 @@ Lorsque vous signalez des problèmes à l’assistance technique, vous devez dis
 
 * Nom de la société Dynamic Media Classic.
 * Vos nom, numéro de téléphone et adresse e-mail.
-* Application, plate-forme et version de Dynamic Media Classic.
+* Application, plate-forme et version Dynamic Media Classic.
 * Description du problème et étapes à suivre pour le reproduire.
 * Message d’erreur, le cas échéant.
 * Type et version du navigateur, le cas échéant.
