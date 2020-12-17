@@ -28,8 +28,11 @@ Pour plus d’informations sur le téléchargement d’images, voir [Télécharg
 
 Préparez vos fichiers d’image originaux avant de les télécharger vers Dynamic Media Classic :
 
-* **Taille** de l’image Créez la plus grande taille d’image que vous prévoyez d’utiliser. La taille d’image type est comprise entre 1500 et 2500 pixels pour la dimension la plus longue. Si vous envisagez d’utiliser la fonction Zoom, Dynamic Media Classic recommande d’utiliser des images d’au moins 2 000 pixels dans la dimension la plus longue pour un zoom optimal. Dynamic Media Classic peut générer des images jusqu’à 25 mégapixels chacune. Par exemple, vous pouvez utiliser une image de 5 000 x 5 000 mégapixels ou toute autre combinaison de taille pouvant atteindre 25 mégapixels.
+* **Taille**
+de l’imageCréez la plus grande taille d’image que vous prévoyez d’utiliser. La taille d’image type est comprise entre 1500 et 2500 pixels pour la dimension la plus longue. Si vous envisagez d’utiliser la fonction Zoom, Dynamic Media Classic recommande d’utiliser des images d’au moins 2 000 pixels dans la dimension la plus longue pour un zoom optimal. Dynamic Media Classic peut générer des images jusqu’à 25 mégapixels chacune. Par exemple, vous pouvez utiliser une image de 5 000 x 5 000 mégapixels ou toute autre combinaison de taille pouvant atteindre 25 mégapixels.
 
-* **Les formats** de fichier Dynamic Media Classic prennent en charge tous les formats de fichier image standard, notamment TIFF, BMP, JPEG, PSD, GIF et EPS. Il est recommandé de privilégier les formats d’image sans perte, à savoir TIFF et PNG. Si vous utilisez une image JPEG, choisissez les paramètres de qualité les plus élevés.
+* **Formats de fichierDynamic Media Classic prend en charge tous les formats de fichier d’image standard, notamment TIFF, BMP, JPEG, PSD, GIF et EPS.**
+Il est recommandé de privilégier les formats d’image sans perte, à savoir TIFF et PNG. Si vous utilisez une image JPEG, choisissez les paramètres de qualité les plus élevés.
 
-* **Espace colorimétrique** RVB est l’espace colorimétrique des présentations d’images Web ; Les images CMJN couramment utilisées pour l’impression sont automatiquement converties en RVB lorsque vous les téléchargez. Il est recommandé de télécharger des images CMJN dotées d’un profil de couleurs ICC incorporé pour la conversion en mode RVB (voir aussi Profils ICC).
+* **Color**
+spaceRVB est l’espace colorimétrique pour les présentations d’images Web ; Les images CMJN couramment utilisées pour l’impression sont automatiquement converties en RVB lorsque vous les téléchargez. Il est recommandé de télécharger des images CMJN dotées d’un profil de couleurs ICC incorporé pour la conversion en mode RVB (voir aussi Profils ICC).
