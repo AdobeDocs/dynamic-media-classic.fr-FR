@@ -24,23 +24,23 @@ Les paramètres de style du portail multimédia vous permettent de faire appara�
 
 Pour accéder aux paramètres de style, choisissez **Configuration** > **Configuration de Media Portal** > **Paramètres de style**. Assurez-vous de cliquer sur **Enregistrer** pour enregistrer vos paramètres après les avoir définis. Vous pouvez cliquer sur **Restaurer** pour retrouver les paramètres par défaut. A mesure que vous configurez les options, le panneau de prévisualisation reflète vos choix.
 
-**Logo** Cliquez sur Parcourir et choisissez un graphique dans la fenêtre Sélectionner l’image de logo.
+**** LogoCliquez sur Parcourir et choisissez un graphique dans la fenêtre Sélectionner l&#39;image de logo.
 
-**Application** Créez un dégradé de couleurs mélangées en faisant des choix dans les menus Couleurs en dégradé d&#39;arrière-plan.
+**** ApplicationCréez un dégradé de couleurs mélangées en faisant des choix dans les menus Couleurs en dégradé d&#39;arrière-plan.
 
-**Arbre** Choisissez une couleur de survol (couleur qui s&#39;affiche lorsque vous déplacez le pointeur sur un élément) et une couleur de sélection (couleur qui s&#39;affiche lorsque vous sélectionnez un élément).
+**** ArbreChoisissez une couleur de survol (couleur qui s&#39;affiche lorsque vous déplacez le pointeur sur un élément) et une couleur de sélection (couleur qui s&#39;affiche lorsque vous sélectionnez un élément).
 
-**Accordéon** Choisissez les couleurs d’arrière-plan, un style de bordure, ainsi que le survol et les couleurs sélectionnées pour l’accordéon qui s’affiche sur le côté droit de l’écran dans la vue des détails.
+**** AccordéonChoisissez les couleurs d’arrière-plan, un style de bordure et les couleurs de survol et de sélection pour l’accordéon qui s’affiche sur le côté droit de l’écran dans la vue des détails.
 
-**En-tête** en accordéon Choisissez si vous souhaitez insérer du texte dans l’en-tête en accordéon en caractères gras.
+**Accordéon** HeaderChoisissez si vous souhaitez insérer du texte dans l’en-tête en accordéon en gras.
 
-**Brochure de données** Choisissez les couleurs de la rangée d’en-tête dans les grilles de données.
+**** DatagridChoisissez les couleurs de la rangée d&#39;en-tête dans les grilles de données.
 
-**Alerte** Choisissez une couleur d&#39;arrière-plan pour les zones de message d&#39;alerte.
+**** AlerteChoisissez une couleur d&#39;arrière-plan pour les zones de message d&#39;alerte.
 
-**Barre** de progression Choisissez une couleur pour la barre qui indique la progression des téléchargements et des téléchargements.
+**Barre de progressionChoisissez une couleur pour la barre qui indique la progression des téléchargements et des téléchargements.** 
 
-For Media Portal users to see the style settings you choose, they must append `?company=(company name)` to the URL with which they access Media Portal. Par exemple, pour voir les paramètres de style, les utilisateurs du portail multimédia qui accèdent à l’entreprise PortalCo à l’adresse l’exemple suivant :
+Pour que les utilisateurs du portail multimédia puissent voir les paramètres de style que vous choisissez, ils doivent ajouter `?company=(company name)` à l’URL avec laquelle ils accèdent au portail multimédia. Par exemple, pour voir les paramètres de style, les utilisateurs du portail multimédia qui accèdent à l’entreprise PortalCo à l’adresse l’exemple suivant :
 
 `https://s7sps1.scene7.com/MediaPortal`
 
