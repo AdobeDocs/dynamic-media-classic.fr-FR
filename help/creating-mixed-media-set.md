@@ -54,7 +54,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
    Cliquez sur **Aperçu** pour voir à quoi ressemble votre visionneuse combinée dans une visionneuse d’images.
 
-## Modification d’une visionneuse de supports variés {#edit-a-mixed-media-set}
+## Modification d’une visionneuse de supports variés  {#edit-a-mixed-media-set}
 
 Vous pouvez modifier une visionneuse de supports variés. Pour modifier une visionneuse contenue dans une visionneuse de supports variés, ouvrez-la séparément, modifiez-la, puis enregistrez-la. Les modifications s’affichent dans la visionneuse de supports variés.
 
@@ -80,7 +80,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Lorsque vous avez terminé de modifier la visionneuse, près de l’angle inférieur droit de la page, vérifiez que l’option **Publish after save** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
 1. Cliquez sur **Enregistrer** ou sur **Enregistrer sous**.
 
-## Suppression d’une visionneuse de supports variés {#deleting-a-mixed-media-set}
+## Suppression d’une visionneuse de supports variés  {#deleting-a-mixed-media-set}
 
 Lorsque vous supprimez une visionneuse, celle-ci est placée dans la corbeille. Toutefois, les membres (ou « enfants ») de cette visionneuse ne sont pas affectés : ils conservent en fait leur état existant publié ou non publié.
 
