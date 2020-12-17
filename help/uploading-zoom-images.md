@@ -18,7 +18,7 @@ ht-degree: 49%
 ---
 
 
-# Uploading Zoom images{#uploading-zoom-images}
+# Téléchargement des images de zoom{#uploading-zoom-images}
 
 Les images de zoom doivent présenter un grand nombre de pixels afin que les utilisateurs puissent voir clairement les détails des images lorsqu’ils effectuent un zoom. Assurez-vous que les images que vous utilisez sont de la taille appropriée avant de les télécharger vers Dynamic Media Classic.
 
@@ -30,11 +30,14 @@ Pour des instructions détaillées sur le téléchargement des images, voir [Té
 
 Pour tirer le meilleur parti des fonctions de zoom de Dynamic Media Classic, préparez vos fichiers d’image de zoom avant de les télécharger :
 
-* **La taille** d’imageDynamic Media Classic recommande l’utilisation de fichiers d’images d’une dimension minimale de 2 000 pixels. ce afin d’obtenir des images clairement visibles lors de l’exécution d’un zoom.
+* **Taille**
+de l’imageContenu multimédia dynamique classique recommande l’utilisation de fichiers d’images dont la dimension la plus longue est au minimum de 2 000 pixels. ce afin d’obtenir des images clairement visibles lors de l’exécution d’un zoom.
 
-* **Les formats** de fichier Dynamic Media Classic prennent en charge tous les formats de fichier image standard, notamment TIFF, BMP, JPEG, PSD, GIF et EPS. Il est recommandé de privilégier les formats d’image sans perte, à savoir TIFF et PNG. Si vous utilisez une image JPEG, choisissez les paramètres de qualité les plus élevés.
+* **Formats de fichierDynamic Media Classic prend en charge tous les formats de fichier d’image standard, notamment TIFF, BMP, JPEG, PSD, GIF et EPS.**
+Il est recommandé de privilégier les formats d’image sans perte, à savoir TIFF et PNG. Si vous utilisez une image JPEG, choisissez les paramètres de qualité les plus élevés.
 
-* **Espace colorimétrique** RVB est l’espace colorimétrique des présentations d’images Web ; Les images CMJN sont automatiquement converties en RVB lorsque vous les téléchargez. Il est recommandé de télécharger des images CMJN dotées d’un profil de couleurs ICC incorporé pour la conversion en mode RVB (voir aussi Profils ICC).
+* **Color**
+spaceRVB est l’espace colorimétrique pour les présentations d’images Web ; Les images CMJN sont automatiquement converties en RVB lorsque vous les téléchargez. Il est recommandé de télécharger des images CMJN dotées d’un profil de couleurs ICC incorporé pour la conversion en mode RVB (voir aussi Profils ICC).
 
 >[!MORELIKETHIS]
 >
