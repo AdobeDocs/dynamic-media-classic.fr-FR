@@ -29,9 +29,11 @@ Dans cet écran, la disponibilité des paramètres dépend de votre statut (util
 
 Parmi les privilèges des administrateurs, citons également la configuration des paramètres d’image prédéfinis et des paramètres prédéfinis de la visionneuse dans l’écran de configuration :
 
-* **Les paramètres d’image prédéfinis** sont des formats enregistrés permettant d’afficher des images originales dans différents formats et tailles.
+* **Paramètres**
+d’image prédéfinisLes paramètres d’image prédéfinis sont des formats enregistrés permettant d’afficher des images originales dans différents formats et tailles.
 
-* **Les paramètres prédéfinis** de visionneuse déterminent la manière dont vous voyez votre média enrichi dans une visionneuse.
+* **Paramètres**
+prédéfinis de la visionneuseParamètres prédéfinis de la visionneuse déterminent la manière dont vous visualisez votre média enrichi dans une visionneuse.
 
 >[!MORELIKETHIS]
 >
