@@ -18,15 +18,18 @@ ht-degree: 65%
 ---
 
 
-# Viewing assets in the Browse panel{#viewing-assets-in-the-browse-panel}
+# Affichage des fichiers dans le panneau de navigation{#viewing-assets-in-the-browse-panel}
 
 Vous pouvez modifier l’affichage des fichiers dans le panneau de navigation en sélectionnant un bouton d’affichage :
 
-* **vue** de grille Sélectionnez le bouton Vue de grille pour afficher les fichiers sous forme de miniatures dans une grille. En mode Affichage de la grille, vous pouvez faire glisser le curseur de miniature pour modifier la taille des miniatures.
+* **Affichage de la grilleSélectionnez le bouton Vue de la grille pour afficher les fichiers sous forme de miniatures dans une grille.**
+En mode Affichage de la grille, vous pouvez faire glisser le curseur de miniature pour modifier la taille des miniatures.
 
-* **vue** de Liste Sélectionnez le bouton de Vue de Liste pour afficher les ressources dans une liste. La liste vous indique le nom, le type, la date de création et la date de la dernière modification de chaque fichier. Selon le type de fichier utilisé, d’autres informations s’affichent. Par exemple, vous pouvez voir les dimensions et la taille de fichier d’une image.
+* **Liste**
+vueSélectionnez le bouton de Vue de Liste pour afficher les ressources d&#39;une liste. La liste vous indique le nom, le type, la date de création et la date de la dernière modification de chaque fichier. Selon le type de fichier utilisé, d’autres informations s’affichent. Par exemple, vous pouvez voir les dimensions et la taille de fichier d’une image.
 
-* **vue** des détails Sélectionnez un fichier, puis cliquez sur le bouton Vue des détails pour examiner le fichier dans la vue des détails. Vous pouvez également cliquer deux fois sur un fichier ou le sélectionner puis choisir la commande Fichier > Détails pour le voir dans une vue détaillée. Si l’administrateur a défini la préférence Afficher l’URL, les URL apparaissent pour tous les fichiers en mode Affichage des détails ; cependant, elles ne sont activées qu’une fois le fichier publié.
+* **Affichage des détailsSélectionnez un fichier, puis cliquez sur le bouton Vue des détails pour examiner le fichier dans la vue des détails.**
+Vous pouvez également cliquer deux fois sur un fichier ou le sélectionner puis choisir la commande Fichier > Détails pour le voir dans une vue détaillée. Si l’administrateur a défini la préférence Afficher l’URL, les URL apparaissent pour tous les fichiers en mode Affichage des détails ; cependant, elles ne sont activées qu’une fois le fichier publié.
 
 >[!TIP]
 >
