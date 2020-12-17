@@ -28,7 +28,7 @@ Dans les paramètres de calque de texte, vous pouvez également transformer la c
 
 Vous pouvez vous référer à un même paramètre plusieurs fois. Pour chaque commande de la boîte de dialogue des paramètres, sélectionnez un paramètre qui correspond à la commande concernée dans la zone combinée. Par exemple, tous les paramètres de taille sont disponibles pour la commande size=, etc. Vous pouvez attribuer de nouveau la référence de paramètre à n’importe quel autre paramètre déjà existant dans la zone combinée à condition de lui donner un nouveau nom. Dans ce cas, le nom doit être unique. A défaut de nom unique, un message d’erreur indiquant que le paramètre existe déjà apparaît. Lorsque vous supprimez une référence de paramètre, le paramètre est supprimé de l’URL s’il n’est associé à aucune autre référence. Lorsque vous modifiez la valeur par défaut d’un paramètre de texte, toutes les références renvoyant à ce paramètre sont mises à jour. Vous pouvez voir la mise à jour dans le tableau de calques, dans le rendu du modèle et dans l’URL. Lorsque vous modifiez un attribut de calque en manipulant les poignées de redimensionnement ou en saisissant de nouvelles valeurs dans le panneau des propriétés, la valeur du paramètre ainsi que toutes les références au paramètre en question sont mises à jour. Par exemple, si vous avez paramétré la taille de deux calques à l’aide d’un seul paramètre, les dimensions des deux calques sont mises à jour simultanément lorsque vous modifiez les dimensions d’un seul des calques. Lorsque vous prévisualisez un modèle et modifiez un paramètre, toutes les références au paramètre en question sont mises à jour.
 
-## Paramétrage d’un calque {#parameterizing-a-layer}
+## Paramétrage d’un calque  {#parameterizing-a-layer}
 
 Pour créer des paramètres de modèle pour chacun des calques de votre modèle, procédez comme suit :
 
@@ -42,7 +42,7 @@ Pour créer des paramètres de modèle pour chacun des calques de votre modèle,
 
 Pour obtenir la liste des paramètres que vous avez créés pour votre modèle, sélectionnez le bouton Résumé des paramètres dans l’écran Modèle. L’écran Résumé des paramètres apparaît. Il répertorie le nom de tous les calques et, si vous avez créé des paramètres pour un calque, le nom et la valeur de ces paramètres.
 
-## Création de paramètres de texte dynamique {#creating-dynamic-text-parameters}
+## Création de paramètres de texte dynamique  {#creating-dynamic-text-parameters}
 
 Pour les calques de texte, vous pouvez en outre transformer la chaîne de texte en champ dynamique lié à une valeur d’une base de données. Procédez comme suit :
 
