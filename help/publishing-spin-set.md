@@ -26,7 +26,7 @@ Lorsque vous publiez une visionneuse à 360°, les images qu’elle contient son
 
 Marquez votre visionneuse à 360° pour publication afin qu’elle soit copiée sur les serveurs d’images Dynamic Media Classic. Vous pouvez marquer votre visionneuse à 360° pour publication dans le panneau de navigation en cliquant sur l’icône Marquer pour publication  située à gauche de son nom. Toutes les images de la visionneuse sont marquées pour la publication lorsque vous appliquez le marquage à la visionneuse à 360° elle-même.
 
-## Publication de la visionneuse à 360° {#publishing-the-spin-set}
+## Publication de la visionneuse à 360°  {#publishing-the-spin-set}
 
 Pour publier une visionneuse à 360° sur les serveurs Dynamic Media Image Server, début en sélectionnant le bouton Publier sur la barre de navigation globale. Sélectionnez ensuite une option Quand, entrez un nom (facultatif) pour la tâche de publication, puis sélectionnez le bouton Lancer publication.
 
