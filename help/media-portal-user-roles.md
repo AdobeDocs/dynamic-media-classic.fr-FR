@@ -22,13 +22,17 @@ ht-degree: 73%
 
 Le portail multimédia propose les rôles suivants, chacun d’entre eux étant assorti de droits d’accès et d’autorisations spécifiques. Lorsque vous inscrivez un utilisateur, vous lui attribuez l’un des rôles suivants :
 
-* **Administrateur** du portail multimédia peut ajouter et supprimer des administrateurs, des contributeurs et des utilisateurs. Il peut également définir des droits d’accès pour les groupes, gérer les comptes FTP, attribuer des formats (paramètres prédéfinis) de conversion approuvés par l’entreprise, envoyer des e-mails aux utilisateurs du portail multimédia et afficher des rapports sur l’utilisation du portail et le stockage.
+* **Administrateur du portail multimédia**
+peut ajouter et supprimer des administrateurs, des contributeurs et des utilisateurs. Il peut également définir des droits d’accès pour les groupes, gérer les comptes FTP, attribuer des formats (paramètres prédéfinis) de conversion approuvés par l’entreprise, envoyer des e-mails aux utilisateurs du portail multimédia et afficher des rapports sur l’utilisation du portail et le stockage.
 
-* **Utilisateur** du portail multimédia a accès aux dossiers et aux fichiers. Un utilisateur peut uniquement parcourir, prévisualiser et télécharger des fichiers. Ce rôle convient à vos partenaires de réseaux de distribution ou de services qui ont besoin d’accéder à vos fichiers d’entreprise approuvés.
+* **Media Portal**
+UserA accès aux dossiers et aux fichiers. Un utilisateur peut uniquement parcourir, prévisualiser et télécharger des fichiers. Ce rôle convient à vos partenaires de réseaux de distribution ou de services qui ont besoin d’accéder à vos fichiers d’entreprise approuvés.
 
-* **Contributeur** du portail multimédia peut télécharger, prévisualisation et parcourir des fichiers et des métadonnées dans les zones auxquelles un administrateur a accordé des autorisations. Un contributeur n’est pas autorisé à télécharger des fichiers. Il peut modifier des métadonnées, renommer des fichiers, déplacer ces derniers d’un dossier vers un autre et en supprimer.
+* **Contributeur au portail multimédia**
+Peut télécharger, prévisualisation et parcourir des fichiers et des métadonnées dans les zones auxquelles un administrateur a accordé des autorisations. Un contributeur n’est pas autorisé à télécharger des fichiers. Il peut modifier des métadonnées, renommer des fichiers, déplacer ces derniers d’un dossier vers un autre et en supprimer.
 
-**Contributeur-utilisateur** Media Portal a accès aux dossiers et aux fichiers. Un contributeur-utilisateur peut parcourir, prévisualiser et télécharger des images et des métadonnées. Il peut renommer, déplacer et supprimer des fichiers.
+**Contributeur-**
+utilisateur du portail multimédia : permet d’accéder aux dossiers et aux fichiers. Un contributeur-utilisateur peut parcourir, prévisualiser et télécharger des images et des métadonnées. Il peut renommer, déplacer et supprimer des fichiers.
 
 Ce tableau décrit les tâches que les utilisateurs peuvent effectuer selon le rôle qui leur a été attribué. Les administrateurs et les contributeurs-utilisateurs sont habilités à effectuer toutes les tâches indiquées dans le tableau :
 
