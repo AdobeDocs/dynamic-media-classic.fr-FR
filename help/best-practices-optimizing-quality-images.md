@@ -24,7 +24,7 @@ L’optimisation de la qualité des images peut prendre un certain temps, car de
 
 Dynamic Media Classic comprend plus de 100 commandes de traitement d’images pour le réglage et l’optimisation des images et des résultats de rendu. Les conseils suivants vous aideront à simplifier le processus et à obtenir rapidement de bons résultats en utilisant quelques commandes essentielles et en appliquant les pratiques recommandées.
 
-Voir aussi Images [](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)intelligentes.
+Voir aussi [Imagerie intelligente](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
 
 ## Recommandations relatives au format d’image (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
@@ -41,41 +41,41 @@ Pour le format des images, il est recommandé de commencer par le paramètre le 
 
 La réduction dynamique de la taille d’image est l’une des tâches les plus courantes que Dynamic Media Image Serving effectue. Cela implique de définir la taille et, éventuellement, le mode de sous-échantillonnage à utiliser.
 
-* Pour le dimensionnement d’image, la meilleure et la plus simple approche consiste à utiliser `&wid=<value>` et `&hei=<value>` ou simplement `&hei=<value>`. Ces paramètres définissent automatiquement la largeur de l’image par rapport à ses proportions.
-* `&resMode=<value>` contrôle l’algorithme utilisé pour le sous-échantillonnage. Début avec `&resMode=sharp2`. Cette valeur fournit la meilleure qualité d’image. While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
+* Pour le dimensionnement des images, la meilleure approche et la plus simple consiste à utiliser `&wid=<value>` et `&hei=<value>` ou simplement `&hei=<value>`. Ces paramètres définissent automatiquement la largeur de l’image par rapport à ses proportions.
+* `&resMode=<value>` contrôle l’algorithme utilisé pour le sous-échantillonnage. Début avec `&resMode=sharp2`. Cette valeur fournit la meilleure qualité d’image. Bien que l’utilisation de la valeur de sous-échantillonnage `=bilin` soit plus rapide, elle entraîne souvent le crénelage des artefacts.
 
-Il est recommandé d’utiliser `&wid=<value>&hei=<value>&resMode=sharp2` ou `&hei=<value>&resMode=sharp2`
+Pour le dimensionnement des images, il est recommandé d’utiliser `&wid=<value>&hei=<value>&resMode=sharp2` ou `&hei=<value>&resMode=sharp2`
 
 ## Recommandations relatives à l’accentuation des images {#best-practices-for-image-sharpening}
 
 L’accentuation des images est l’aspect le plus complexe de contrôle des images sur votre site Web, et aussi source de nombreuses erreurs. Prenez le temps d’en savoir plus sur le fonctionnement de l’accentuation et du masquage flou dans Dynamic Media Classic en vous référant aux ressources utiles suivantes :
 
-Bonnes pratiques pour le livre blanc [Accentuation des images dans Adobe Classic et sur Image Server](/help/assets/s7_sharpening_images.pdf).
+Livre blanc des meilleures pratiques [Accentuation des images dans l’Adobe Dynamic Media Classic et sur le serveur d’images](/help/assets/s7_sharpening_images.pdf).
 
-Voir aussi [Accentuation d’une image avec un masque](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)flou.
+Voir aussi [Accentuation d’une image avec un masque flou ](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html).
 
 Avec Dynamic Media Classic, vous pouvez accentuer les images lors de l’assimilation, de la diffusion ou des deux. Dans la plupart des cas, cependant, il est préférable d’accentuer les images en utilisant uniquement l’une des deux méthodes, mais pas les deux. L’accentuation des images à la distribution, dans une URL, produit généralement de meilleurs résultats.
 
 Il existe deux méthodes d’accentuation des images que vous pouvez utiliser :
 
-* Simple sharpening ( `&op_sharpen`) - Similar to the sharpen filter used in Photoshop, simple sharpening applies basic sharpening to the final view of the image following dynamic resizing. Toutefois, cette méthode n’est pas configurable par l’utilisateur. The best practice is to not use `&op_sharpen` unless required.
-* Unsharp masking ( `&op_USM`) - Unsharp masking is an industry standard sharpening filter. Il est recommandé d’accentuer les images avec le masquage flou en suivant les conseils ci-dessous. Le masquage flou permet de contrôler les trois paramètres suivants :
+* Accentuation simple ( `&op_sharpen`) : à l’instar du filtre d’accentuation utilisé dans Photoshop, l’accentuation simple applique l’accentuation de base à la vue finale de l’image après le redimensionnement dynamique. Toutefois, cette méthode n’est pas configurable par l’utilisateur. La meilleure pratique consiste à ne pas utiliser `&op_sharpen`, sauf si nécessaire.
+* Masquage flou ( `&op_USM`) - Le masquage flou est un filtre d’accentuation standard du secteur. Il est recommandé d’accentuer les images avec le masquage flou en suivant les conseils ci-dessous. Le masquage flou permet de contrôler les trois paramètres suivants :
 
    * `&op_sharpen=amount,radius,threshold`
 
       * `amount` (0-5, résistance de l&#39;effet.)
       * `radius` (0-250, largeur des &quot;lignes d’accentuation&quot; tracées autour de l’objet accentué, mesurée en pixels.)
 
-         Keep in mind that the parameters `radius` and `amount` work against each other. La réduction `radius` peut être compensée par une augmentation `amount`. `Radius` permet un contrôle plus précis car une valeur plus faible n’accentue que les pixels de contour, tandis qu’une valeur plus élevée accentue une bande de pixels plus large.
+         N’oubliez pas que les paramètres `radius` et `amount` fonctionnent les uns par rapport aux autres. La réduction de `radius` peut être compensée en augmentant `amount`. `Radius` permet un contrôle plus précis car une valeur plus faible n’accentue que les pixels de contour, tandis qu’une valeur plus élevée accentue une bande de pixels plus large.
 
       * `threshold` (0-255, sensibilité de l&#39;effet.)
 
          Ce paramètre détermine la différence entre les pixels accentués et la zone environnante avant qu’ils ne soient considérés comme des pixels de contour et que le filtre ne les renforce. Le seuil permet d’éviter de trop accentuer les zones avec des couleurs similaires, comme des tons chair. Par exemple, une valeur de seuil de 12 permet d’ignorer les légères variations de la luminosité de la peau pour éviter d’ajouter du « bruit », tout en ajoutant un contraste sur les bords dans les zones à fort contraste, comme l’endroit où les cils rencontrent la peau.
       Pour plus d’informations sur la façon de définir ces trois paramètres, y compris les pratiques recommandées à appliquer avec le filtre, reportez-vous aux ressources suivantes :
 
-      Rubrique d’aide de Dynamic Media Classic sur l’ [accentuation d’une image](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
+      Rubrique d’aide de Dynamic Media Classic sur [Accentuation d’une image](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
 
-      Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
+      Livre blanc des meilleures pratiques [Accentuation des images dans Adobe Scene7 Publishing System et sur Image Server](/help/assets/s7_sharpening_images.pdf).
 
    * Dynamic Media Classic vous permet également de contrôler un quatrième paramètre : monochrome ( `0,1`). Ce paramètre détermine si le masquage flou est appliqué séparément à chaque composante de couleur en utilisant la valeur `0` ou à la luminosité/intensité de l’image en utilisant la valeur `1`.
 
@@ -91,15 +91,15 @@ Augmentez graduellement la valeur entre 1,75 et 4. Si l’accentuation ne corres
 
 Laissez le paramètre monochrome sur 0.
 
-## Recommandations relatives à la compression JPEG (&amp;qlt=) {#best-practices-for-jpeg-compression-qlt}
+## Recommandations relatives à la compression JPEG (&amp;qlt=)  {#best-practices-for-jpeg-compression-qlt}
 
 * Ce paramètre contrôle la qualité du codage JPG. Une valeur élevée produit une image de meilleure qualité mais un fichier plus gros ; en revanche, une valeur faible désigne une image de qualité inférieure mais un fichier plus petit. Ce paramètre est compris entre 0 et 100.
-* Pour optimiser la qualité, ne définissez pas ce paramètre sur 100. La différence entre un paramètre de 90, 95 ou 100 est presque imperceptible, mais 100 augmente inutilement la taille du fichier image. Therefore, to optimize for quality but avoid image files becoming too large, set the `qlt=` value to 90 or 95.
-* To optimize for a small image file size but keep image quality at an acceptable level, set the `qlt=` value to 80. Les valeurs inférieures à 70-75 se traduisent par une dégradation notable de la qualité d’image.
-* As a best practice, to stay in the middle, set the `qlt=` value to 85 to stay in the middle.
+* Pour optimiser la qualité, ne définissez pas ce paramètre sur 100. La différence entre un paramètre de 90, 95 ou 100 est presque imperceptible, mais 100 augmente inutilement la taille du fichier image. Par conséquent, pour optimiser la qualité tout en évitant que les fichiers image ne deviennent trop volumineux, définissez la valeur `qlt=` sur 90 ou 95.
+* Pour optimiser une petite taille de fichier d’image tout en maintenant la qualité de l’image à un niveau acceptable, définissez la valeur `qlt=` sur 80. Les valeurs inférieures à 70-75 se traduisent par une dégradation notable de la qualité d’image.
+* Pour rester au milieu, il est recommandé de définir la valeur `qlt=` sur 85 pour rester au milieu.
 * Utilisation de l’indicateur de chrominance dans `qlt=`
 
-   * The `qlt=` parameter has a second setting that lets you turn on RGB chromaticity downsampling using the normal value `,0` (default), or turn it off using the value `,1`.
+   * Le paramètre `qlt=` possède un second paramètre qui vous permet d’activer le sous-échantillonnage chromatique RVB à l’aide de la valeur normale `,0` (par défaut) ou de la désactiver à l’aide de la valeur `,1`.
    * Pour rester simple, commencez par désactiver la réduction de résolution chromatique RVB ( `,1`). Ce paramètre produit généralement une image de meilleure qualité, en particulier pour les images de synthèse contenant beaucoup de contours nets et un fort contraste.
 
 Pour la compression JPG, il est recommandé d’utiliser `&qlt=85,0`.
@@ -109,9 +109,9 @@ Pour la compression JPG, il est recommandé d’utiliser `&qlt=85,0`.
 `jpegSize` est un paramètre utile si vous souhaitez garantir qu’une image ne dépasse pas une certaine taille pour la distribution sur les périphériques ayant une mémoire limitée.
 
 * Ce paramètre est défini en kilo-octets ( `jpegSize=<size_in_kilobytes>`). Il définit la taille maximale autorisée pour la distribution des images.
-* `&jpegSize=` interagit avec le paramètre de compression JPG `&qlt=`. If the JPG response with the specified JPG compression parameter ( `&qlt=`) does not exceed the `jpegSize` value, the image is returned with `&qlt=` as defined. Otherwise, `&qlt=` is gradually decreased until the image fits in the maximum allowed size, or until the system determines it cannot fit and returns an error.
+* `&jpegSize=` interagit avec le paramètre de compression JPG  `&qlt=`. Si la réponse JPG avec le paramètre de compression JPG spécifié ( `&qlt=`) ne dépasse pas la valeur `jpegSize`, l’image est renvoyée avec `&qlt=` comme défini. Sinon, `&qlt=` est progressivement réduit jusqu&#39;à ce que l&#39;image corresponde à la taille maximale autorisée ou jusqu&#39;à ce que le système détermine qu&#39;elle ne peut pas tenir et renvoie une erreur.
 
-As a best practice, set `&jpegSize=` and add the parameter `&qlt=` if you are delivering JPG images to devices with limited memory.
+Il est recommandé de définir `&jpegSize=` et d’ajouter le paramètre `&qlt=` si vous distribuez des images JPG sur des périphériques dont la mémoire est limitée.
 
 ## Résumé des recommandations {#best-practices-summary}
 
@@ -128,6 +128,6 @@ Si les résultats de l’accentuation ne sont toujours pas satisfaisants, augmen
 Tandis que vous testez différentes valeurs, vous trouverez peut-être également les suggestions générales suivantes utiles pour optimiser votre processus :
 
 * Testez différents paramètres en temps réel, directement sur une URL Dynamic Media Classic ou en utilisant la fonctionnalité de réglage d’image de Dynamic Media Classic qui fournit des prévisualisations en temps réel pour les opérations d’ajustement.
-* En règle générale, n’oubliez pas que vous pouvez regrouper les commandes de diffusion d’images Dynamic Media dans un paramètre d’image prédéfini. An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. Le nom du paramètre prédéfini personnalisé dans un chemin d’URL invoque ces paramètres prédéfinis. Cette fonctionnalité permet de gérer les commandes et les paramètres de qualité de différents gabarits d’utilisation des images sur votre site Web et réduit en outre la longueur totale des URL.
+* En règle générale, n’oubliez pas que vous pouvez regrouper les commandes de diffusion d’images Dynamic Media dans un paramètre d’image prédéfini. Un paramètre d’image prédéfini est essentiellement une macro de commande d’URL avec des noms de paramètres prédéfinis personnalisés tels que `$thumb_low$` et `&product_high$`. Le nom du paramètre prédéfini personnalisé dans un chemin d’URL invoque ces paramètres prédéfinis. Cette fonctionnalité permet de gérer les commandes et les paramètres de qualité de différents gabarits d’utilisation des images sur votre site Web et réduit en outre la longueur totale des URL.
 * Dynamic Media Classic propose également des méthodes plus avancées d’optimisation de la qualité d’image, telles que l’application d’une accentuation des images à l’assimilation. Pour les cas d’utilisation plus complexes où il peut s’avérer nécessaire d’affiner et d’optimiser les résultats de rendu, n’hésitez pas à faire appel à Adobe Professional Services.
 
