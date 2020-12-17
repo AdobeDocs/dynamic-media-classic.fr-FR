@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 40105974e344859b7aa92a591f63d02f880eb1ef
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 60%
@@ -71,14 +71,14 @@ Il existe deux méthodes d’accentuation des images que vous pouvez utiliser :
       * `threshold` (0-255, sensibilité de l&#39;effet.)
 
          Ce paramètre détermine la différence entre les pixels accentués et la zone environnante avant qu’ils ne soient considérés comme des pixels de contour et que le filtre ne les renforce. Le seuil permet d’éviter de trop accentuer les zones avec des couleurs similaires, comme des tons chair. Par exemple, une valeur de seuil de 12 permet d’ignorer les légères variations de la luminosité de la peau pour éviter d’ajouter du « bruit », tout en ajoutant un contraste sur les bords dans les zones à fort contraste, comme l’endroit où les cils rencontrent la peau.
-      Pour plus d’informations sur la façon de définir ces trois paramètres, y compris les pratiques recommandées à appliquer avec le filtre, reportez-vous aux ressources suivantes :
 
-      Rubrique d’aide de Dynamic Media Classic sur [Accentuation d’une image](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
+         Pour plus d’informations sur la façon de définir ces trois paramètres, y compris les pratiques recommandées à appliquer avec le filtre, reportez-vous aux ressources suivantes :
 
-      Livre blanc des meilleures pratiques [Accentuation des images dans Adobe Scene7 Publishing System et sur Image Server](/help/assets/s7_sharpening_images.pdf).
+         Rubrique d’aide de Dynamic Media Classic sur [Accentuation d’une image](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
 
-   * Dynamic Media Classic vous permet également de contrôler un quatrième paramètre : monochrome ( `0,1`). Ce paramètre détermine si le masquage flou est appliqué séparément à chaque composante de couleur en utilisant la valeur `0` ou à la luminosité/intensité de l’image en utilisant la valeur `1`.
+         Livre blanc des meilleures pratiques [Accentuation des images dans Adobe Scene7 Publishing System et sur Image Server](/help/assets/s7_sharpening_images.pdf).
 
+      * Dynamic Media Classic vous permet également de contrôler un quatrième paramètre : monochrome ( `0,1`). Ce paramètre détermine si le masquage flou est appliqué séparément à chaque composante de couleur en utilisant la valeur `0` ou à la luminosité/intensité de l’image en utilisant la valeur `1`.
 
 En règle générale, il est recommandé de commencer par le paramètre de rayon du masquage flou. Voici les paramètres de rayon que vous pouvez utiliser en premier :
 
@@ -130,4 +130,3 @@ Tandis que vous testez différentes valeurs, vous trouverez peut-être égalemen
 * Testez différents paramètres en temps réel, directement sur une URL Dynamic Media Classic ou en utilisant la fonctionnalité de réglage d’image de Dynamic Media Classic qui fournit des prévisualisations en temps réel pour les opérations d’ajustement.
 * En règle générale, n’oubliez pas que vous pouvez regrouper les commandes de diffusion d’images Dynamic Media dans un paramètre d’image prédéfini. Un paramètre d’image prédéfini est essentiellement une macro de commande d’URL avec des noms de paramètres prédéfinis personnalisés tels que `$thumb_low$` et `&product_high$`. Le nom du paramètre prédéfini personnalisé dans un chemin d’URL invoque ces paramètres prédéfinis. Cette fonctionnalité permet de gérer les commandes et les paramètres de qualité de différents gabarits d’utilisation des images sur votre site Web et réduit en outre la longueur totale des URL.
 * Dynamic Media Classic propose également des méthodes plus avancées d’optimisation de la qualité d’image, telles que l’application d’une accentuation des images à l’assimilation. Pour les cas d’utilisation plus complexes où il peut s’avérer nécessaire d’affiner et d’optimiser les résultats de rendu, n’hésitez pas à faire appel à Adobe Professional Services.
-
