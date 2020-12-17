@@ -31,7 +31,7 @@ Vous pouvez déplacer des fichiers dans d’autres dossiers du panneau de naviga
    * Affichez le dossier vers lequel vous souhaitez déplacer les fichiers dans la bibliothèque de fichiers, puis faites glisser les fichiers vers le dossier en question.
    * Choisissez Fichier > Déplacer, sélectionnez un dossier dans la fenêtre Déplacer les fichiers, puis cliquez sur Déplacer.
 
-## Attribution d’un nouveau nom à un fichier {#rename-assets}
+## Attribution d’un nouveau nom à un fichier  {#rename-assets}
 
 Pour renommer un fichier :
 
@@ -40,7 +40,7 @@ Pour renommer un fichier :
    * Sélectionnez le nom, saisissez un nouveau nom, puis appuyez sur Entrée ou cliquez en dehors du nom.
    * Choisissez Fichier > Renommer. Le nom du fichier est mis en surbrillance. Saisissez un nouveau nom, puis appuyez sur la touche Entrée.
 
-Veillez à ne pas saisir le nom d’un fichier Dynamic Media Classic existant.
+Veillez à ne pas saisir le nom d’une ressource Dynamic Media Classic existante.
 
 ## Suppression de fichiers {#delete-assets}
 
@@ -55,13 +55,13 @@ Lorsque vous supprimez un fichier, tous les fichiers dérivés de ce fichier son
 1. Utilisez l’une des méthodes suivantes :
 
    * Pour supprimer un ou plusieurs fichiers, sélectionnez-les dans le panneau de navigation et appuyez sur la touche Suppr ou choisissez Fichier > Supprimer.
-   * To delete a folder, select the folder in the Asset Library, and click **Remove Folder**.
+   * Pour supprimer un dossier, sélectionnez-le dans la bibliothèque de fichiers, puis cliquez sur **Supprimer un dossier**.
 
       La suppression d’un dossier supprime tous les fichiers qu’il contient ainsi que tous les fichiers de ses sous-dossiers.
 
 >[!NOTE]
 >
->Dynamic Media Classic recommande de remplacer les fichiers par des fichiers au lieu de les supprimer si vous souhaitez remplacer un fichier par un autre fichier portant le même nom.
+>Dynamic Media Classic recommande d’écraser les fichiers plutôt que de les supprimer si vous souhaitez remplacer un fichier par un autre fichier portant le même nom.
 
 ## Suppression de plusieurs fichiers à l’aide d’un fichier texte {#delete-multiple-assets-with-a-text-file}
 
@@ -75,7 +75,7 @@ Pour supprimer des fichiers à l’aide de cette liste créée, procédez comme 
 1. Dans la boîte de dialogue Supprimer une liste de fichiers, parcourez les dossiers ou tapez le chemin de l’emplacement du fichier texte comportant la liste des fichiers à supprimer.
 1. Cliquez sur le bouton Supprimer.
 
-Lorsque vous supprimez des fichiers à l’aide d’un fichier texte, si un identifiant Dynamic Media Classic ne figure pas sur la liste, un message s’affiche vous informant que Contenu de Contenu multimédia dynamique Classic est &quot;Impossible de valider ces entrées dans votre liste :&quot;, ainsi que la liste des entrées. Cependant, Dynamic Media Classic ne génère pas d’erreur sur l’écran Tâches.
+Lorsque vous supprimez des fichiers à l’aide d’un fichier texte, si un identifiant Dynamic Media Classic ne figure pas sur la liste, un message s’affiche vous informant que Dynamic Media Classic est &quot;Impossible de valider ces entrées dans votre liste :&quot; avec la liste des entrées. Cependant, Dynamic Media Classic ne génère pas d’erreur sur l’écran Tâches.
 
 >[!MORELIKETHIS]
 >
