@@ -24,7 +24,7 @@ Une série d’échantillons permet à l’utilisateur de visualiser un objet da
 
 Par exemple, si vous souhaitez présenter des casquettes avec des visières de couleurs différentes (rouge, vert et bleu), vous avez besoin de trois prises de vue de la même casquette : une première vue avec une visière rouge, une autre avec une visière verte et une dernière avec une visière bleue. Vous avez également besoin d’une nuance rouge, verte et bleue. Les nuances servent de miniatures sur lesquelles les utilisateurs cliquent dans la visionneuse de série d’échantillons pour visualiser les casquettes avec visière rouge, verte et bleue.
 
-## Création d’une série d’échantillons {#create}
+## Création d’une série d’échantillons  {#create}
 
 Lorsque vous créez une visionneuse, l’option **Publier après l’enregistrement** affecte la visionneuse et ses membres comme suit :
 | L&#39;option &quot;Publier après l&#39;enregistrement&quot; est sélectionnée avant l&#39;enregistrement ?|Etat de la visionneuse après l&#39;enregistrement|Etat des membres de la visionneuse après l&#39;enregistrement|
@@ -38,9 +38,9 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Effectuez l’une des opérations suivantes :
 
-   **Sélectionnez d’abord** les images Dans le panneau de navigation, sélectionnez les images, puis cliquez sur Créer > Séries d’échantillons.
+   **Sélectionnez d’** abord les images dans le panneau de navigation, sélectionnez les images, puis cliquez sur Créer > Séries d’échantillons.
 
-   **Début sur l’écran** Série d’échantillons, cliquez sur Créer > Séries d’échantillons. Sélectionnez un dossier dans la bibliothèque des fichiers, puis faites glisser les images sur la section Vues de la page Série d’échantillons.
+   **Début de l’** écran Série d’échantillonsCliquez sur Créer > Séries d’échantillons. Sélectionnez un dossier dans la bibliothèque des fichiers, puis faites glisser les images sur la section Vues de la page Série d’échantillons.
 
 1. Faites glisser des nuances, des motifs ou des finis sur l’emplacement réservé Echantillons de la page Série d’échantillons.
 
@@ -51,7 +51,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Cliquez sur **Enregistrer**, sélectionnez un dossier pour y stocker votre série d’échantillons, attribuez un nom à la série, puis cliquez sur Envoyer.
 1. Pour afficher votre série d’échantillons dans sa visionneuse, cliquez sur **Prévisualiser** dans l’écran Série d’échantillons. Vous pouvez cliquer sur des miniatures d’échantillon dans la visionneuse de série d’échantillons afin d’examiner leur comportement.
 
-## Modification d’une série d’échantillons {#editing-a-swatch-set}
+## Modification d’une série d’échantillons  {#editing-a-swatch-set}
 
 Selon que vous modifiez une visionneuse publiée ou non publiée, l’option **Publish after save** (« Publier après l’enregistrement ») affecte la visionneuse et ses membres comme suit :
 
@@ -76,7 +76,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Lorsque vous avez terminé de modifier la visionneuse, près de l’angle inférieur droit de la page, assurez-vous que l’option **Publish after save** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
 1. Cliquez sur **Enregistrer**, sélectionnez un dossier de stockage, attribuez un nom à la visionneuse, puis cliquez sur **Enregistrer**.
 
-## Suppression d’une série d’échantillons {#deleting-a-swatch-set}
+## Suppression d’une série d’échantillons  {#deleting-a-swatch-set}
 
 Lorsque vous supprimez une visionneuse, celle-ci est placée dans la corbeille. Toutefois, les membres (ou « enfants ») de cette visionneuse ne sont pas affectés : ils conservent en fait leur état existant publié ou non publié.
 
