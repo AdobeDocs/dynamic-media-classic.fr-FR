@@ -18,14 +18,18 @@ ht-degree: 30%
 ---
 
 
-# Selecting assets in the Browse panel{#selecting-assets-in-the-browse-panel}
+# Sélection de fichiers dans le panneau de navigation{#selecting-assets-in-the-browse-panel}
 
 Sélectionnez un fichier dans le panneau de navigation pour l’utiliser. Utilisez les techniques suivantes pour sélectionner des fichiers :
 
-* **Fichier** unique Cliquez sur le fichier (un clic de doublon ouvre le fichier dans la vue de détails).
+* **Un seul**
+fichierCliquez sur le fichier (un clic de doublon ouvre le fichier dans la vue de détails).
 
-* **Plusieurs fichiers** Ctrl+clic (Windows) ou Commande+clic (Macintosh) permettent de sélectionner des fichiers à différents emplacements du panneau de navigation. Tout en maintenant la touche Maj enfoncée, cliquez (cliquez sur un fichier, puis cliquez sur un autre fichier avec la touche Maj enfoncée) sur des fichiers adjacents pour les sélectionner.
+* **Plusieurs**
+ressourcesCtrl+clic (Windows) ou Commande+clic (Macintosh) pour sélectionner des ressources à différents emplacements du panneau de navigation. Tout en maintenant la touche Maj enfoncée, cliquez (cliquez sur un fichier, puis cliquez sur un autre fichier avec la touche Maj enfoncée) sur des fichiers adjacents pour les sélectionner.
 
-* **Tous les fichiers du panneau de navigation** Cliquez sur Sélectionner > Tous.
+* **Tous les fichiers du**
+panneau de navigationCliquez sur Sélectionner > Tous.
 
-* **Aucun fichier** Cliquez sur Sélectionner > Aucun.
+* **Aucun**
+fichierCliquez sur Sélectionner > Aucun.
