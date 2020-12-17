@@ -27,8 +27,8 @@ Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la commun
 1. Cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
 1. Sur la page Paramètres prédéfinis de la visionneuse, effectuez l’une des opérations suivantes :
 
-   * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Mixed Media Set Viewer, then click **Add**.
-   * To edit a Mixed Media Set Viewer preset, select it, then click **Edit**.
+   * Pour créer un paramètre prédéfini, cliquez sur **Ajouter**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme, choisissez Visionneuse de supports variés, puis cliquez sur **Ajouter**.
+   * Pour modifier un paramètre prédéfini de visionneuse de supports variés, sélectionnez-le, puis cliquez sur **Modifier**.
 
    L’écran Configurer la visionneuse apparaît.
 
@@ -55,15 +55,19 @@ Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la commun
 
 1. Pour ajouter des fonctionnalités de la communauté (Incorporation, Lien et Visite) à la visionneuse, spécifiez les options pour chacun des éléments suivants :
 
-   * **Courriel** Cliquez sur Activé pour activer un bouton E-mail dans la visionneuse. Lorsque les utilisateurs cliquent sur le bouton E-mail pendant qu’ils consultent la visionneuse, un e-mail contenant le lien vers la visionneuse s’affiche.
+   * ****
+E-mailCliquez sur Activé pour activer un bouton E-mail dans la visionneuse. Lorsque les utilisateurs cliquent sur le bouton E-mail pendant qu’ils consultent la visionneuse, un e-mail contenant le lien vers la visionneuse s’affiche.
 
-   * **Incorporer** Cliquez sur En direct. Dans la boîte Etiquette de bouton d’intégration, tapez le nom de bouton d’intégration que vous souhaitez afficher dans la visionneuse. Si vous le souhaitez, cliquez sur 
-**Recherchez** et sélectionnez un habillage personnalisé pour le bouton.
+   * ****
+EmbedCliquez sur Live. Dans la boîte Etiquette de bouton d’intégration, tapez le nom de bouton d’intégration que vous souhaitez afficher dans la visionneuse. Si vous le souhaitez, cliquez sur 
+**** Recherchez et sélectionnez un habillage personnalisé pour le bouton.
 
-   * **Lien** Cliquez sur En direct. Dans la boîte Etiquette de bouton de lien, tapez le nom de bouton de lien que vous souhaitez afficher dans la visionneuse. Si vous le souhaitez, cliquez sur 
-**Recherchez** et sélectionnez un habillage personnalisé pour le bouton.
+   * ****
+LienCliquez sur En direct. Dans la boîte Etiquette de bouton de lien, tapez le nom de bouton de lien que vous souhaitez afficher dans la visionneuse. Si vous le souhaitez, cliquez sur 
+**** Recherchez et sélectionnez un habillage personnalisé pour le bouton.
 
-   * **Visite** Click 
+   * ****
+VisitClick 
 **Officiel**. Dans la boîte Etiquette de bouton de visite, tapez le nom de bouton de visite que vous souhaitez afficher dans la visionneuse. Dans la boîte de dialogue URL de visite, tapez l’URL du site Web auquel vous souhaitez accéder d’un clic par le biais du lien.
 
 1. Spécifiez les autres options voulues. Pour obtenir la description d’une option, cliquez sur l’icône d’information  adjacente.
