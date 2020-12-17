@@ -35,21 +35,21 @@ Lorsque vous créez des zones cliquables, vous pouvez effectuer l’une des opé
 * Définir d’autres actions conformément aux directives du consortium WWW (World Wide Web).
 * Prévisualiser des zones cliquables.
 
-## Création et modification d’une zone cliquable {#drawing-and-adjusting-an-image-map}
+## Création et modification d’une zone cliquable  {#drawing-and-adjusting-an-image-map}
 
 1. Effectuez l’une des opérations suivantes :
 
-   * If you are working with an image in the Grid View or List View, in the Edit drop-down list click **Image Map**. Or, open it in Detail View, and then click **Image Map** above the image.
-   * If you are working with a SpinSet in the Grid View or List View, click **Edit**. Or, open it in Detail View, and then click **Edit**. Select an image asset, and then click **Image Map**.
-   * If you are working with an eCatalog, in the Grid View, List View, Detail View, click **Edit**. Click the **Map Pages** tab.
+   * Si vous travaillez avec une image dans la Vue de grille ou la Vue de Liste, dans la liste déroulante Modifier, cliquez sur **Zone cliquable**. Ou, ouvrez-la dans la Vue de détails, puis cliquez sur **Zone cliquable** au-dessus de l’image.
+   * Si vous utilisez une visionneuse à 360° dans la Vue de grille ou la Vue de Liste, cliquez sur **Modifier**. Ou, ouvrez-la dans la Vue de détails, puis cliquez sur **Modifier**. Sélectionnez un fichier d’image, puis cliquez sur **Zone cliquable**.
+   * Si vous travaillez avec un catalogue électronique, dans la Vue de grille, la Vue de Liste, la Vue de détails, cliquez sur **Modifier**. Cliquez sur l&#39;onglet **Pages de zones**.
 
    ![](assets/ma_image_map.png)
 
 1. Tracez une zone cliquable rectangulaire ou polygonale (avec de nombreux côtés) :
 
-   **Mappage** rectangulaire Sélectionnez l’outil de zone cliquable rectangulaire et faites glisser le pointeur sur la page pour créer le rectangle. Pour ajouter un point à un rectangle et en faire un polygone, appuyez sur la touche Ctrl, placez l’outil d’insertion à l’endroit souhaité, puis cliquez.
+   **Zone** cliquable rectangulaireSélectionnez l’outil Zone cliquable rectangulaire et faites glisser le curseur sur la page pour créer le rectangle. Pour ajouter un point à un rectangle et en faire un polygone, appuyez sur la touche Ctrl, placez l’outil d’insertion à l’endroit souhaité, puis cliquez.
 
-   **Zone cliquable** polygonale Sélectionnez l’outil Zone cliquable polygonale, puis cliquez sur les points du périmètre de la zone de l’image à encadrer. A l’aide du curseur de densité du polygone, modulez la densité du point. La densité initiale est conservée si vous sélectionnez d’autres zones. En revanche, si vous ajoutez, supprimez ou modifiez un point du polygone, la densité initiale est perdue et le curseur revient à la valeur maximale.
+   **Zone cliquable polygonaleSélectionnez l’outil Zone cliquable polygonale, puis cliquez sur les points du périmètre de la zone de l’image à encadrer.** A l’aide du curseur de densité du polygone, modulez la densité du point. La densité initiale est conservée si vous sélectionnez d’autres zones. En revanche, si vous ajoutez, supprimez ou modifiez un point du polygone, la densité initiale est perdue et le curseur revient à la valeur maximale.
 
 1. Nommez la zone cliquable, si vous le souhaitez, dans la liste Zone cliquable. Après avoir tracé une zone cliquable, Dynamic Media Classic lui attribue un nom.
 
@@ -72,25 +72,25 @@ Lorsque vous créez des zones cliquables, vous pouvez effectuer l’une des opé
 
 1. Cliquez sur Enregistrer.
 
-### Ajustement de la position, de la forme et de la taille des zones cliquables {#adjusting-the-position-shape-and-size-of-image-maps}
+### Ajustement de la position, de la forme et de la taille des zones cliquables  {#adjusting-the-position-shape-and-size-of-image-maps}
 
 Pour modifier la position, la forme et la taille d’une zone cliquable, cliquez sur le bouton Zone cliquable. Sélectionnez ensuite l’outil Panoramique, puis suivez les instructions suivantes :
 
-**Modification de la position** Déplacez le pointeur près de la bordure de la zone cliquable, mais pas dessus. Lorsque le pointeur prend la forme d’une flèche à quatre pointes, faites glisser la zone à l’emplacement voulu.
+**Modification de la** positionDéplacez le pointeur près de la bordure de la zone cliquable, mais pas dessus. Lorsque le pointeur prend la forme d’une flèche à quatre pointes, faites glisser la zone à l’emplacement voulu.
 
-**Modification de la taille et de la forme** La modification de la forme et de la taille d’une zone cliquable dépend de l’utilisation d’une zone cliquable rectangulaire ou polygonale :
+**Modification de la taille et de la** formeLa modification de la forme et de la taille d’une zone cliquable dépend de l’utilisation d’une zone cliquable rectangulaire ou polygonale :
 
 ***Conseil **: Vous pouvez faire glisser le curseur Taille au bas de l’écran pour modifier les vues et mieux visualiser votre zone cliquable.*
 
-**Zone cliquable** rectangulaire Déplacez le pointeur sur un côté ou un angle de la zone cliquable. Lorsque le pointeur prend la forme d’une flèche à double pointe, faites glisser la souris. Maintenez la touche Maj enfoncée lorsque vous faites glisser la souris pour modifier la taille tout en conservant le format (la forme).
+**Zone cliquable rectangulaireDéplacez le pointeur sur un côté ou un angle de la zone cliquable.** Lorsque le pointeur prend la forme d’une flèche à double pointe, faites glisser la souris. Maintenez la touche Maj enfoncée lorsque vous faites glisser la souris pour modifier la taille tout en conservant le format (la forme).
 
-**Zone cliquable** polygonale Faites glisser une poignée de sélection carrée. Pour obtenir une poignée de sélection, cliquez sur la bordure de la zone cliquable, puis commencez à la faire glisser.
+**Zone cliquable polygonaleFaites glisser une poignée de sélection carrée.** Pour obtenir une poignée de sélection, cliquez sur la bordure de la zone cliquable, puis commencez à la faire glisser.
 
 ### Gestion des zones cliquables superposées {#handling-overlapping-image-maps}
 
 Si votre image (ou page de catalogue électronique) comprend plusieurs zones cliquables et si ces zones se superposent, vous pouvez contrôler cette superposition. Pour ce faire, changez l’ordre des zones dans la liste Zone cliquable en faisant glisser leur nom vers le haut ou vers le bas. Une position élevée dans la liste indique que la zone cliquable associée se superpose avec d’autres zones cliquables.
 
-### Importation des données de zone cliquable {#importing-image-map-data}
+### Importation des données de zone cliquable  {#importing-image-map-data}
 
 Plutôt que de saisir les données de zone cliquable sur chacune des pages, vous avez la possibilité d’importer les données de l’ensemble de votre image, visionneuse à 360° ou catalogue électronique dans l’écran Résumé de zone cliquable. Vous importez les données de zone cliquable sous la forme d’un fichier délimité par des tabulations ou d’un fichier DTD XML. Les champs du fichier doivent être dans l’ordre indiqué sur l’écran de résumé de zone cliquable : Nom, Etiquettes de table des matières, Zones, URL, Texte de survol, Autres actions et Chaînes de recherche. Vous évitez ainsi d’avoir à saisir les données dans la liste de zones cliquables au fur et à mesure que vous créez ces dernières.
 
@@ -105,7 +105,7 @@ Plutôt que de saisir les données de zone cliquable sur chacune des pages, vous
 1. (Facultatif) Dans le champ Nom de la tâche, spécifiez un nom pour la tâche de téléchargement des métadonnées.
 1. Cliquez sur Télécharger.
 
-### Copie de zones cliquables {#copying-image-maps}
+### Copie de zones cliquables  {#copying-image-maps}
 
 Vous pouvez copier des zones cliquables d’une image (ou d’une page de catalogue électronique) à l’autre. Utilisez l’option de copie des zones cliquables pour mieux préparer leur création. Vous pouvez également copier les zones cliquables afin de les recréer dans des images ou des pages qui partagent la même disposition ou structure de mappage. 
 
@@ -122,15 +122,15 @@ Par exemple, copier des zones cliquables dans un catalogue électronique permet 
 
 1. Cliquez sur Sélectionner.
 
-## Utilisation d’un modèle pour définir du code JavaScript et des URL {#using-a-template-to-enter-javascript-and-urls}
+## Utilisation d’un modèle pour définir du code JavaScript et des URL  {#using-a-template-to-enter-javascript-and-urls}
 
-Vous pouvez définir un modèle d’URL (également appelé modèle Href) pour faciliter et améliorer la saisie des URL de zones cliquables. Définissez un modèle d’URL si la plupart des URL des zones cliquables partagent un format commun et fixe. Si vous définissez la partie de l’URL fixe comme modèle d’URL, vous êtes dispensé de l’entrer chaque fois que vous créez une zone cliquable. Le modèle d’URL peut également contenir des commandes JavaScript, des chemins d’accès et des paramètres. By default, the URL template contains a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens the image in a new window.
+Vous pouvez définir un modèle d’URL (également appelé modèle Href) pour faciliter et améliorer la saisie des URL de zones cliquables. Définissez un modèle d’URL si la plupart des URL des zones cliquables partagent un format commun et fixe. Si vous définissez la partie de l’URL fixe comme modèle d’URL, vous êtes dispensé de l’entrer chaque fois que vous créez une zone cliquable. Le modèle d’URL peut également contenir des commandes JavaScript, des chemins d’accès et des paramètres. Par défaut, le modèle d’URL contient un gestionnaire JavaScript Dynamic Media Classic propriétaire appelé `loadProduct` qui ouvre l’image dans une nouvelle fenêtre.
 
 >[!NOTE]
 >
 >Notez que lorsque vous ajoutez du code Javascript dans l’attribut HREF de votre zone cliquable, le code s’exécute sur l’ordinateur du client. Veillez donc vous assurer que le code Javascript est sécurisé.
 
-### A propos des modèles d’URL {#about-url-templates}
+### A propos des modèles d’URL  {#about-url-templates}
 
 Avec un modèle d’URL, le contenu de la colonne URL dans la liste Zone cliquable est remplacé par le double signe dollar ($$) dans le modèle :
 
@@ -144,7 +144,7 @@ Toutes les valeurs invariables entre les zones cliquables doivent être inséré
 * Valeur de l’URL : `product.htm`
 * URL réelle générée : `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-By default, the URL template includes a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens a new window with the URL destination. Cependant, vous pouvez utiliser n’importe quel code JavaScript pour remplacer ce code JavaScript ou utiliser l’un des gestionnaires Dynamic Media Classic suivants :
+Par défaut, le modèle d’URL comprend un gestionnaire JavaScript Dynamic Media Classic propriétaire appelé `loadProduct` qui ouvre une nouvelle fenêtre avec la destination de l’URL. Cependant, vous pouvez utiliser n’importe quel code JavaScript pour remplacer ce gestionnaire JavaScript ou utiliser l’un des gestionnaires Dynamic Media Classic suivants :
 
 * `loadProductCW`
 
@@ -154,7 +154,7 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 
    Affiche l’URL cible spécifiée dans la colonne URL de la fenêtre parente (la page d’où la page active a été ouverte). La fenêtre active reste ouverte, mais la fenêtre parent change pour afficher l’URL cible.
 
-   ***remarque **: Le gestionnaire `loadProductPW` ne prend pas en charge les visionneuses DHTML et HTML5.*
+   ***remarque **: Le gestionnaire ne  `loadProductPW` prend pas en charge les visionneuses DHTML et HTML5.*
 
 ### Création d’un modèle d’URL {#creating-a-url-template}
 
@@ -164,23 +164,23 @@ Pour créer un modèle d’URL, procédez comme suit :
 1. Entrez le code JavaScript et l’URL complète (en remplaçant la partie variable par le double signe dollar [$$]). Vous pouvez coller le code en cliquant avec le bouton droit de la souris et en choisissant l’option Coller.
 1. Cliquez sur le bouton Enregistrer.
 
-### Gestion des modèles d’URL {#handling-url-templates}
+### Gestion des modèles d’URL  {#handling-url-templates}
 
 La page Editeur de zone cliquable (images et visionneuses à 360°) et l’onglet Pages de zones de l’écran Catalogue électronique (catalogues électroniques) contiennent les commandes de gestion des modèles d’URL suivantes :
 
-**Option** Modèle d’URL Sélectionnez l’option Modèle d’URL pour appliquer votre modèle d’URL à toutes les zones cliquables d’une image ou d’une page de catalogue électronique.
+**Modèle d’URL,** option Sélectionnez l’option Modèle d’URL pour appliquer votre modèle d’URL à toutes les zones cliquables d’une image ou d’une page de catalogue électronique.
 
-**Option** Modèle Désélectionnez une option Modèle dans la liste de zone cliquable URL si vous ne souhaitez pas qu’une zone cliquable individuelle utilise le modèle d’URL.
+**Option ModèleDésélectionnez une option Modèle dans la liste de zone cliquable URL si vous ne souhaitez pas qu’une zone cliquable individuelle utilise le modèle d’URL.** 
 
 ## Définition d’autres actions relatives aux zones cliquables {#defining-other-actions-for-image-maps}
 
 Dans le menu Afficher, choisissez Autres actions pour déclencher des actions autres que le texte de survol et le lancement d’une page Web. Lorsque l’utilisateur amène le pointeur sur une zone cliquable, vous pouvez initier une action. Ces actions sont des attributs définis pour les zones cliquables côté client conformément aux spécifications HTML du consortium WWW (World Wide Web). Elles comptent notamment :
 
-**touche** d&#39;accès Déclenche une action lorsque l&#39;utilisateur appuie sur une touche spécifiée du clavier.
+**touche** d&#39;accèsDéclenche une action lorsque l&#39;utilisateur appuie sur une touche spécifiée du clavier.
 
-**onfocus** Déclenche un événement lorsque la zone cliquable est sélectionnée (par le curseur, en appuyant sur la touche de tabulation ou en appuyant sur une touche d’accès). Par exemple, vous pouvez lancer une page Web lorsque la zone cliquable devient active et la refermer lorsqu’elle ne l’est plus.
+**** onfocusDéclenche un événement lorsque la zone cliquable est activée (par le curseur, en appuyant sur la touche de tabulation ou en appuyant sur une touche d’accès). Par exemple, vous pouvez lancer une page Web lorsque la zone cliquable devient active et la refermer lorsqu’elle ne l’est plus.
 
-**onblur** Déclenche un événement lorsque la zone cliquable n’est plus active, que ce soit par le curseur ou par tabulation.
+**** onblurDéclenche un événement lorsque la zone cliquable n’est plus active, que ce soit par le curseur ou par tabulation.
 
 **Pour définir d’autres actions pour les zones cliquables**
 
@@ -190,7 +190,7 @@ Dans le menu Afficher, choisissez Autres actions pour déclencher des actions a
 
 Dans le menu Afficher, choisissez Les deux pour associer à une zone cliquable un texte de survol ainsi qu’une action.
 
-## Création de zones cliquables dans Adobe Acrobat ou Adobe InDesign {#creating-image-maps-in-adobe-acrobat-or-adobe-indesign}
+## Création de zones cliquables dans Adobe Acrobat ou Adobe InDesign  {#creating-image-maps-in-adobe-acrobat-or-adobe-indesign}
 
 Vous pouvez créer des zones cliquables lors de la conception de votre catalogue électronique dans Adobe Acrobat ou Adobe InDesign.
 
@@ -198,7 +198,7 @@ Dans Acrobat ou InDesign, créez un lien hypertexte à l’emplacement auquel vo
 
 Pour plus d’informations, reportez-vous à l’aide d’InDesign ou d’Acrobat.
 
-### Création de zones cliquables dans Adobe InDesign {#to-create-image-maps-in-adobe-indesign}
+### Création de zones cliquables dans Adobe InDesign  {#to-create-image-maps-in-adobe-indesign}
 
 1. Dans InDesign, sélectionnez Fenêtre > Objet interactif > Hyperliens pour ouvrir le panneau Hyperliens.
 1. Sélectionnez le texte, le bloc ou le graphique que vous souhaitez transformer en zone cliquable.
@@ -208,7 +208,7 @@ Pour plus d’informations, reportez-vous à l’aide d’InDesign ou d’Acroba
 
    >[!NOTE]
    >
-   >vous n’avez pas besoin de définir les options d’apparence dans InDesign. Vous pouvez définir l’aspect dans Dynamic Media Classic.
+   >vous n’avez pas besoin de définir les options d’apparence dans InDesign. Vous pouvez spécifier l’aspect dans Dynamic Media Classic.
 
 1. Répétez les étapes 2 à 5 pour toutes les zones cliquables que vous souhaitez créer.
 1. Exportez les fichiers au format PDF.
@@ -220,7 +220,7 @@ Pour plus d’informations, reportez-vous à l’aide d’InDesign ou d’Acroba
 1. Faites glisser la souris pour créer la zone cliquable. La boîte de dialogue Créer un lien s’ouvre.
 1. Sélectionnez Lien personnalisé et cliquez sur Suivant.
 
-   ***remarque **: Il n’est pas nécessaire de définir les options d’apparence en Acrobat. Vous pouvez définir l’aspect dans Dynamic Media Classic.*
+   ***remarque **: Il n’est pas nécessaire de définir les options d’apparence en Acrobat. Vous pouvez spécifier l’aspect dans Dynamic Media Classic.*
 
 1. Dans la boîte de dialogue Propriétés du lien, cliquez sur Actions.
 1. Sélectionnez Ouvrir un lien Web dans le menu Sélectionner l’action, puis cliquez sur Ajouter.
