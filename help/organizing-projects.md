@@ -34,32 +34,39 @@ Vous pouvez créer un projet lorsque vous téléchargez des fichiers ou créer d
 >
 >l’organisation des fichiers en projets est réservée aux utilisateurs dont l’administrateur a configuré leur profil en conséquence. Si aucune section de dossier Projets ne s’affiche en bas de la bibliothèque de fichiers, c’est que vous ne bénéficiez pas de cette méthode d’organisation (voir [Paramètres généraux de l’application](application-setup.md#general-settings)).
 
-## Création d’un dossier Projet {#creating-a-project-folder}
+## Création d’un dossier Projet  {#creating-a-project-folder}
 
 Vous pouvez créer un dossier Projet à partir de la bibliothèque de fichiers ou lorsque vous téléchargez des fichiers vers Dynamic Media Classic :
 
-* **Dans la bibliothèque** de fichiers, faites défiler l’écran jusqu’au bas de la bibliothèque de fichiers vers la section Projets, puis cliquez sur le bouton Ajouter un projet . Puis, attribuez un nom au projet.
+* **Dans la**
+bibliothèque de fichiers, faites défiler la liste jusqu’au bas de la bibliothèque de fichiers vers la section Projets, puis cliquez sur le bouton Ajouter un projet . Puis, attribuez un nom au projet.
 
-* **Lors du téléchargement de fichiers** Dans l’écran de téléchargement, sélectionnez le menu Ajouter au projet, puis choisissez Créer un projet. Puis, attribuez un nom au projet.
+* **Lors du téléchargement de**
+fichiersDans l’écran de téléchargement, sélectionnez le menu Ajouter au projet, puis choisissez Créer un projet. Puis, attribuez un nom au projet.
 
 >[!NOTE]
 >
 >la zone Projets de la bibliothèque de fichiers est une liste de dossiers à niveau unique ; elle n’autorise pas les sous-dossiers.
 
-## Utilisation de dossiers Projet {#working-with-project-folders}
+## Utilisation de dossiers Projet  {#working-with-project-folders}
 
 Pour afficher, supprimer et renommer un dossier Projet, procédez comme suit :
 
-* **Navigation dans le contenu** Sélectionnez le nom du dossier dans la bibliothèque de fichiers. Les fichiers associés s’affichent dans le panneau de navigation.
+* **Navigation dans**
+le contenuSélectionnez le nom du dossier dans la bibliothèque de fichiers. Les fichiers associés s’affichent dans le panneau de navigation.
 
-* **Suppression de dossiers** Projet Sélectionnez le dossier Projet, puis cliquez sur le bouton Supprimer un projet . La suppression de fichiers d’un dossier Projet ne les supprime pas de Dynamic Media Classic ; les fichiers restent dans les dossiers d’origine dans lesquels ils sont stockés.
+* **Suppression de**
+dossiers ProjetSélectionnez le dossier Projet, puis cliquez sur le bouton Supprimer un projet . La suppression de fichiers d’un dossier Projet ne les supprime pas de Dynamic Media Classic ; les fichiers restent dans les dossiers d’origine dans lesquels ils sont stockés.
 
-* **Attribution d’un nouveau nom aux dossiers** Project, cliquez sur le nom du dossier dans le panneau Ressources, puis saisissez un nouveau nom.
+* **Attribution d&#39;un nouveau nom aux**
+dossiers du projet Cliquez deux fois sur le nom du dossier dans le panneau Fichiers, puis saisissez un nouveau nom.
 
 ## Ajout de fichiers à un dossier Projet {#adding-assets-to-a-project-folder}
 
 Vous pouvez ajouter des images à un dossier Projet à partir du panneau de navigation ou lorsque vous téléchargez des fichiers vers Dynamic Media Classic :
 
-* **Dans le panneau** de navigation, sélectionnez les fichiers et faites-les glisser vers un dossier Projet. Vous pouvez également choisir la commande Fichier > Ajouter au projet, sélectionner un nom de dossier Projet dans la boîte de dialogue Sélectionner un projet, puis sélectionner le bouton Envoyer.
+* **Dans le**
+panneau de navigation, sélectionnez les fichiers et faites-les glisser vers un dossier Projet. Vous pouvez également choisir la commande Fichier > Ajouter au projet, sélectionner un nom de dossier Projet dans la boîte de dialogue Sélectionner un projet, puis sélectionner le bouton Envoyer.
 
-* **Lors du téléchargement de fichiers** Dans l’écran de téléchargement, cliquez sur le bouton Options tâche. Dans la boîte de dialogue Télécharger les options de la tâche, choisissez Projets, puis sélectionnez un nom de projet.
+* **Lors du téléchargement de**
+fichiersDans l’écran de téléchargement, cliquez sur le bouton Options tâche. Dans la boîte de dialogue Télécharger les options de la tâche, choisissez Projets, puis sélectionnez un nom de projet.
