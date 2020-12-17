@@ -45,7 +45,7 @@ Pour examiner en détail un fichier, le prévisualiser ou l’utiliser, choisiss
 1. Dans le panneau de navigation, effectuez l’une des opérations suivantes :
 
    * Cliquez deux fois sur le fichier.
-   * Sélectionnez le fichier, puis cliquez sur Vue **** de détails.
+   * Sélectionnez le fichier, puis cliquez sur **[!UICONTROL Vue de détails]**.
    * Sélectionnez le fichier, puis cliquez sur **[!UICONTROL Fichier > Détails]**.
 
 >[!NOTE]
@@ -62,15 +62,20 @@ Vous pouvez obtenir une URL de fichier en mode Affichage des détails ; cependa
 
 L’affichage des détails donne accès à des outils utilisables avec le fichier que vous avez ouvert. La nature des outils disponibles dépend du type de fichier que vous utilisez, mais l’affichage des détails propose les fonctions suivantes :
 
-* **éléments à publier** Cliquez sur l’icône **[!UICONTROL Publier]** à gauche du nom ou sur **[!UICONTROL Fichier > Publier]** ou **[!UICONTROL Fichier > Annuler la publication]**.
+* **éléments pour**
+publicationCliquez sur la  **** publication à gauche du nom ou cliquez sur  **[!UICONTROL Fichier >]** Publier  **[!UICONTROL un fichier > Annuler la publication]**.
 
-* **Attribution d’un nouveau nom au fichier** Sélectionnez le nom et saisissez-en un nouveau.
+* **Attribution d&#39;un nouveau nom au**
+fichier Sélectionnez le nom et saisissez-en un nouveau.
 
-* **Modification et ajout de métadonnées** Sélectionnez le panneau Métadonnées et apportez les modifications souhaitées. (voir [Affichage, ajout et exportation de métadonnées](/help/viewing-adding-exporting-metadata.md)).
+* **Modification et ajout de**
+métadonnéesSélectionnez le panneau Métadonnées et apportez les modifications nécessaires. (voir [Affichage, ajout et exportation de métadonnées](/help/viewing-adding-exporting-metadata.md)).
 
-* **Modification et ajout de mots-clés** Sélectionner des mots-clés et les ajouter ou les supprimer selon vos besoins. (voir [Ajout ou modification de mots-clés](/help/viewing-adding-exporting-metadata.md)).
+* **Modification et ajout de**
+mots-clésSélectionnez Mots-clés et ajoutez ou supprimez-les selon vos besoins. (voir [Ajout ou modification de mots-clés](/help/viewing-adding-exporting-metadata.md)).
 
-* **Suppression de la ressource** Cliquez sur **[!UICONTROL Fichier > Supprimer]**.
+* **Suppression de la**
+ressourceCliquez sur  **[!UICONTROL Fichier > Supprimer]**.
 
 Pour les fichiers discrets (images, visionneuses d’images et polices, par exemple), vous pouvez visualiser l’historique de publication et d’édition, et vérifier les détails de la tâche, en mode Affichage des détails.
 
