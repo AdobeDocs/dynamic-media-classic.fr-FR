@@ -2,7 +2,7 @@
 title: Exportation de fichiers à partir de Dynamic Media Classic
 seo-title: Exportation de fichiers à partir de Dynamic Media Classic
 description: 'null'
-seo-description: Découvrez comment exporter des fichiers à partir de Contenu multimédia dynamique classique.
+seo-description: Découvrez comment exporter des fichiers à partir de Dynamic Media Classic.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
@@ -18,7 +18,7 @@ ht-degree: 69%
 ---
 
 
-# Exportation de fichiers à partir de Dynamic Media Classic{#exporting-assets-from-dmc}
+# Exportation d’actifs à partir de Dynamic Media Classic{#exporting-assets-from-dmc}
 
 Vous pouvez enregistrer des fichiers que vous avez modifiés dans Dynamic Media Classic sur un lecteur réseau local. Les fichiers exportés sont compressés dans un fichier ZIP pour le téléchargement ou l’envoi par courrier électronique.
 
@@ -26,28 +26,36 @@ La taille du fichier zip compressé ne doit pas dépasser 1 Go pour la tâche d
 
 Dynamic Media Classic conserve un enregistrement des tâches d’exportation dans l’écran Tâches.
 
-**Pour exporter des fichiers à partir de Contenu multimédia dynamique classique**
+**Pour exporter des fichiers à partir de Dynamic Media Classic**
 
 1. Sélectionnez les fichiers à exporter, puis cliquez sur **Fichier** > **Exporter**.
 1. Dans la fenêtre Exporter les fichiers sélectionnés, cliquez sur **Options d’image**, puis spécifiez une ou plusieurs options parmi les suivantes (les administrateurs déterminent quelles options sont disponibles pour les utilisateurs) :
 
-   * **Paramètres prédéfinis**(facultatif), choisissez un paramètre d’image prédéfini pour formater le fichier lorsque vous l’exportez. Si vous choisissez un paramètre d’image prédéfini, les autres options de formatage ne sont pas disponibles, car le fichier adopte les formats définis par ce paramètre d’image prédéfini.
+   * ****
+Paramètres prédéfinis (facultatif), choisissez un paramètre d’image prédéfini pour formater le fichier lorsque vous l’exportez. Si vous choisissez un paramètre d’image prédéfini, les autres options de formatage ne sont pas disponibles, car le fichier adopte les formats définis par ce paramètre d’image prédéfini.
 
-   * **Conversion** Convertir le fichier ou l’image d’origine.
+   * ****
+ConversionConvertissez le fichier ou l’image d’origine.
 
-   * **Taille** Vous pouvez sélectionner une taille standard. Ou, vous pouvez cliquer sur Autres dans la liste déroulante Taille, choisir l’unité de mesure souhaitée, puis spécifier la largeur et la hauteur.
+   * ****
+TailleVous pouvez sélectionner une taille standard. Ou, vous pouvez cliquer sur Autres dans la liste déroulante Taille, choisir l’unité de mesure souhaitée, puis spécifier la largeur et la hauteur.
 
       Voir aussi [Définition d’options d’exportation disponibles pour les utilisateurs du portail multimédia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **Format** Choisissez un format d&#39;image.
+   * ****
+FormatChoisissez un format d&#39;image.
 
-   * **Couleur** Choisissez RVB, CMJN ou Gris.
+   * ****
+CouleurChoisissez RVB, CMJN ou Gris.
 
-   * **Résolution** Choisissez 72, 150 ou 300 ppp.
+   * ****
+RésolutionChoisissez 72, 150 ou 300 ppp.
 
-   * **Nom** de la tâche Vous pouvez attribuer un nom de tâche à l’exportation.
+   * **Nom de la tâcheVous pouvez attribuer un nom de tâche à l&#39;exportation.**
 
-   * **Envoyer un courriel à**(facultatif), entrez une adresse de courriel pour envoyer les ressources par courriel. Le message e-mail indique l’URL à laquelle le destinataire peut accéder pour télécharger les fichiers.
+
+   * **Envoyer un courrier électronique**
+àSi vous le souhaitez, entrez une adresse électronique pour envoyer les fichiers par courrier électronique. Le message e-mail indique l’URL à laquelle le destinataire peut accéder pour télécharger les fichiers.
 
 1. Cliquez sur **Exporter**.
 
