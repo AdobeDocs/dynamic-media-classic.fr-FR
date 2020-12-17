@@ -26,7 +26,7 @@ Voir [Configuration des visionneuses par défaut](application-setup.md#configuri
 
 Si vous prévisualisez un modèle de fichier avec des calques de paramètres, vous pouvez apporter des modifications aux paramètres ou modifier le paramètre d’image prédéfini. Etant donné que les modifications apportées sont effectuées en ligne, vous pouvez afficher les résultats immédiatement dans la même fenêtre de prévisualisation.
 
-Voir aussi Exemples [de bibliothèque de référence des visionneuses d’](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobes.
+Voir aussi [Exemples de bibliothèque de référence des visionneuses d’Adobes](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **Pour prévisualiser un fichier**
 
@@ -42,7 +42,7 @@ Voir aussi Exemples [de bibliothèque de référence des visionneuses d’](http
    * Dans la fenêtre Fichiers en mode Affichage de la grille ou Affichage par liste, sélectionnez un seul fichier, puis cliquez sur Prévisualiser près de l’image miniature.
    * Sur la barre d’outils au-dessus de la fenêtre Fichiers en mode Affichage de la grille, Affichage par liste ou Affichage des détails, cliquez sur Prévisualiser.
 
-## Prévisualisation d’un fichier selon le type de plate-forme de la visionneuse {#previewing-an-asset-based-on-viewer-platform-type}
+## Prévisualisation d’un fichier selon le type de plate-forme de la visionneuse  {#previewing-an-asset-based-on-viewer-platform-type}
 
 La fonction Liste des visionneuses vous permet d’avoir une idée du rendu d’un fichier sur telle ou telle plateforme de visionneuse, HTML5 par exemple. Notez que la fonction Liste des visionneuses ne contient pas toutes les plates-formes selon le type de fichier et la visionneuse sélectionnés.
 
@@ -79,7 +79,7 @@ Pour une plate-forme de visionneuse donnée, la fenêtre Liste des visionneuses 
 
 1. Dans le coin inférieur droit de la fenêtre Liste des visionneuses, cliquez sur Fermer pour revenir à l’écran Fichiers.
 
-## Prévisualisation d’un fichier d’image en fonction de son paramètre d’image prédéfini {#previewing-an-image-asset-based-on-its-image-preset}
+## Prévisualisation d’un fichier d’image en fonction de son paramètre d’image prédéfini  {#previewing-an-image-asset-based-on-its-image-preset}
 
 Vous pouvez prévisualiser un fichier d’image en fonction de son paramètre d’image prédéfini afin d’avoir une idée du rendu de l’image lorsqu’elle sera dynamiquement diffusée dans votre site Web ou votre application, à des tailles différentes.
 
