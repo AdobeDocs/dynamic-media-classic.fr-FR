@@ -22,7 +22,7 @@ ht-degree: 78%
 
 Dans le cadre de la création d’un catalogue électronique, il convient de définir l’ordre des pages et leur disposition, puis de les lier en traçant des zones cliquables et en saisissant des données de lien hypertexte et de survol. Accessoirement, vous pouvez personnaliser la table des matières afin que les utilisateurs puissent voir le nom des pages plutôt que leur numéro dans la visionneuse de catalogue électronique.
 
-## Création d’un catalogue électronique {#create}
+## Création d’un catalogue électronique  {#create}
 
 Vous pouvez inclure des fichiers d’images ainsi que des fichiers PDF dans votre catalogue électronique. 
 
@@ -39,19 +39,19 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Utilisez l’une des méthodes suivantes pour commencer à créer votre catalogue électronique :
 
-   **Sélectionnez d’abord** les fichiers Dans le panneau de navigation, sélectionnez les fichiers, puis cliquez sur Créer > Catalogues électroniques.
+   **Sélectionnez d’** abord les fichiersDans le panneau de navigation, sélectionnez les fichiers, puis cliquez sur Créer > Catalogues électroniques.
 
-   **Début de l’écran** Catalogue électronique Cliquez sur Créer > Catalogues électroniques. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser son contenu vers l’onglet Ordre des pages de la page Catalogue électronique.
+   **Début de l’** écran Catalogue électroniqueCliquez sur Créer > Catalogues électroniques. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser son contenu vers l’onglet Ordre des pages de la page Catalogue électronique.
 
-   ***note**: To view the items in the Asset Library by name instead of thumbnail, select the Name option for Default Asset Library View in Personal Setup. *
+   ***note** : Pour vue des éléments de la bibliothèque de fichiers par nom plutôt que par miniature, sélectionnez l’option Nom pour la Vue Bibliothèque de fichiers par défaut dans Configuration personnelle. *
 
-1. Sélectionnez la disposition globale de votre catalogue électronique. Cliquez sur le bouton 1 vignette pour des pages simples, 2 vignettes pour des planches en double page ou Personnalisé pour des planches de plus de deux pages. La boîte de dialogue Modifier la disposition du catalogue électronique s’affiche. Select the All Spreads options and click **OK**.
-1. Le cas échéant, vous pouvez changer la disposition des pages individuelles ou des planches en les sélectionnant, puis en cliquant sur le bouton 1 vignette (1 haut), 2 vignettes (2 haut) ou Personnalisé. La boîte de dialogue Modifier la disposition du catalogue électronique s’affiche. Select the Selected Spreads options and click **OK**.
+1. Sélectionnez la disposition globale de votre catalogue électronique. Cliquez sur le bouton 1 vignette pour des pages simples, 2 vignettes pour des planches en double page ou Personnalisé pour des planches de plus de deux pages. La boîte de dialogue Modifier la disposition du catalogue électronique s’affiche. Sélectionnez l’option Toutes les planches, puis cliquez sur **OK**.
+1. Le cas échéant, vous pouvez changer la disposition des pages individuelles ou des planches en les sélectionnant, puis en cliquant sur le bouton 1 vignette (1 haut), 2 vignettes (2 haut) ou Personnalisé. La boîte de dialogue Modifier la disposition du catalogue électronique s’affiche. Sélectionnez les options Feuilles sélectionnées, puis cliquez sur **OK**.
 1. Réorganisez les pages selon vos besoins en utilisant l’une des méthodes suivantes :
 
-   **Glissement** Faites glisser une page ou une planche vers un nouvel emplacement. La barre verticale indique le nouvel emplacement de la page.
+   **** Glisser-déposerFaites glisser une page ou une planche vers un nouvel emplacement. La barre verticale indique le nouvel emplacement de la page.
 
-   **Bouton** Déplacer vers : sélectionnez une page ou une planche, cliquez sur le bouton Déplacer vers, puis choisissez la page du menu qui doit précéder la page.
+   **** Bouton Déplacer versSélectionnez une page ou une planche, cliquez sur le bouton Déplacer vers, puis choisissez la page du menu qui doit précéder la page.
 
    **Séquence #** Dans la Vue de Liste, saisissez les numéros de page dans les champs Séquence #.
 
@@ -62,7 +62,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
    Vous pouvez prévisualiser votre catalogue électronique, après l’avoir enregistré, en cliquant sur **Prévisualiser**.
 
-## Modification d’un catalogue électronique {#editing-an-ecatalog}
+## Modification d’un catalogue électronique  {#editing-an-ecatalog}
 
 Selon que vous modifiez une visionneuse publiée ou non publiée, l’option **Publish after save** (« Publier après l’enregistrement ») affecte la visionneuse et ses membres comme suit :
 
@@ -82,7 +82,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Une fois les modifications terminées, près de l’angle inférieur droit de la page, vérifiez que l’option **Publish after save** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
 1. Cliquez sur **Enregistrer**, sélectionnez un dossier de stockage, attribuez un nom à la visionneuse, puis cliquez sur **Enregistrer**.
 
-## Suppression d’un catalogue électronique {#deleting-an-ecatalog}
+## Suppression d’un catalogue électronique  {#deleting-an-ecatalog}
 
 Lorsque vous supprimez une visionneuse, celle-ci est placée dans la corbeille. Toutefois, les membres (ou « enfants ») de cette visionneuse ne sont pas affectés : ils conservent en fait leur état existant publié ou non publié.
 
@@ -93,7 +93,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. En mode Affichage de la grille, Affichage par liste ou Affichage des détails, sélectionnez un ou plusieurs catalogues électroniques.
 1. Sur la barre de navigation globale, cliquez sur **Fichier** > **Supprimer** > **Supprimer**.
 
-## Personnalisation de la table des matières {#customizing-the-table-of-contents-toc}
+## Personnalisation de la table des matières  {#customizing-the-table-of-contents-toc}
 
 Dynamic Media Classic fournit les numéros de page par défaut dans votre catalogue électronique sous l’onglet Ordre des pages de l’écran Catalogue électronique. Pour utiliser des noms de page personnalisés, libre à vous de modifier les étiquettes de page qui composent la table des matières. Il est recommandé de renommer les pages de couverture recto (avant) et verso (arrière). Par exemple, la page de couverture recto peut lire &quot;Couverture&quot; au lieu de &quot;Page 0-1&quot;.
 
@@ -103,15 +103,15 @@ Vous pouvez créer une table des matières personnalisée pour votre catalogue �
 >
 >pour restaurer les titres des pages par défaut, sous l’onglet Ordre des pages, cliquez sur le bouton Etiquettes de la table des matières, puis choisissez Restaurer paramètres par défaut (tous).
 
-### Saisie manuelle des noms de pages {#manually-entering-page-names}
+### Saisie manuelle des noms de pages  {#manually-entering-page-names}
 
 Pour entrer manuellement les noms de page un par un, activez l’onglet Ordre des pages de l’écran Catalogue électronique. Cliquez ensuite dans le champ de numérotation des pages, puis entrez un nom pour chacune des pages à nommer.
 
-### Importation des noms de page {#importing-page-names}
+### Importation des noms de page  {#importing-page-names}
 
 Il est recommandé d’utiliser la méthode d’importation des noms de page si le catalogue électronique contient de nombreuses pages. Vous pouvez importer les noms à partir d’un fichier délimité par des tabulations ou d’un fichier XML.
 
-Le libellé de la table des matières est stocké dans le champ Données utilisateur d’une image ; formater ces données en tant que liste de `name=<value>`` pairs separated by two question marks “??” `. Par exemple, pour définir une étiquette pour un champ de table des matières nommé tocEN &quot;, définissez les données utilisateur de l’image sur :
+Le libellé de la table des matières est stocké dans le champ Données utilisateur d’une image ; formater ces données en tant que liste de `name=<value>` ` pairs separated by two question marks “??” `. Par exemple, pour définir une étiquette pour un champ de table des matières nommé tocEN &quot;, définissez les données utilisateur de l’image sur :
 
 tocEN=&lt;EN_étiquette_de_page>
 
