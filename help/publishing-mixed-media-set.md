@@ -22,7 +22,7 @@ ht-degree: 60%
 
 Créez une tâche de publication pour publier une visionneuse de supports variés marquée pour publication sur un serveur de vidéo et un serveur d’images Dynamic Media Classic. Dynamic Media Classic offres propose des options de publication avancées pour des serveurs spécifiques et des options de republication de fichiers déjà publiés.
 
-***remarque **: Les visionneuses de supports variés exigent que vous publiiez sur un serveur**de **vidéo et sur un serveur****d’images. Utilisez le**serveur de vidéo **pour publier les vidéos réelles que vous avez marquées pour publication De plus, vous utilisez**Image Server **pour publier des fichiers connexes, tels que les miniatures vidéo, et définissez des informations pour toute visionneuse de vidéos adaptative.*
+***remarque **: Les visionneuses de supports variés exigent que vous publiiez sur le**serveur de **vidéo et sur le serveur****d’images. Utilisez le**serveur de vidéo **pour publier les vidéos réelles que vous avez marquées pour publication Vous utilisez également**Image Server **pour publier des éléments connexes, tels que des miniatures vidéo, et définir des informations pour toute visionneuse de vidéos adaptative.*
 
 Dynamic Media Classic effectue le suivi des tâches de publication dans l’écran Tâches.
 
