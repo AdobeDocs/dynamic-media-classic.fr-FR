@@ -20,15 +20,15 @@ ht-degree: 76%
 
 # Configuration des paramètres prédéfinis de la visionneuse à 360°{#setting-up-spin-set-viewer-presets}
 
-Les paramètres prédéfinis de la visionneuse à 360° définissent le style, le comportement et l’aspect des visionneuses. Dynamic Media Classic est fourni avec les paramètres prédéfinis par défaut de la visionneuse à 360°. Si vous êtes un administrateur, vous pouvez créer vos propres paramètres prédéfinis de visionneuse à 360°. Vous pouvez configurer un paramètre prédéfini de visionneuse à 360° avec des couleurs, des bordures, des polices et des paramètres d’image différents.
+Les paramètres prédéfinis de la visionneuse à 360° définissent le style, le comportement et l’aspect des visionneuses. Dynamic Media Classic est fourni avec les paramètres prédéfinis de la visionneuse à 360° par défaut. Si vous êtes un administrateur, vous pouvez créer vos propres paramètres prédéfinis de visionneuse à 360°. Vous pouvez configurer un paramètre prédéfini de visionneuse à 360° avec des couleurs, des bordures, des polices et des paramètres d’image différents.
 
 Pour créer des paramètres prédéfinis de visionneuse à 360°, procédez comme suit :
 
 1. Cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
 1. Effectuez l’une des opérations suivantes :
 
-   * To create a new preset, click **Add**, then in the Add Viewer Preset dialog box, choose a platform, and click **Spin Set Viewer**.
-   * To edit an existing Spin Set Viewer preset, select the preset and click **Edit**.
+   * Pour créer un paramètre prédéfini, cliquez sur **Ajouter**, puis, dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme et cliquez sur **Visionneuse à 360°**.
+   * Pour modifier un paramètre prédéfini existant de visionneuse à 360°, sélectionnez-le et cliquez sur **Modifier**.
 
    L’écran Configurer la visionneuse apparaît.
 
