@@ -30,11 +30,13 @@ Pour créer un paramètre prédéfini de visionneuse de catalogue électronique 
 1. Cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
 1. Dans l’écran Paramètres prédéfinis de la visionneuse, créez un paramètre prédéfini de visionneuse de catalogues électroniques en partant de zéro ou d’un paramètre prédéfini existant :
 
-   * **Création d’une Ajoute de** clic prédéfinie de visionneuse de catalogue électronique Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme, choisissez Visionneuse de catalogue électronique, puis cliquez sur 
+   * **Création d’un**
+paramètre prédéfini de visionneuse de catalogue électroniqueAjoute de clic. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme, choisissez Visionneuse de catalogue électronique, puis cliquez sur 
 **Ajouter**.
 
-   * **Modification d’un paramètre prédéfini** de visionneuse de catalogue électronique Sélectionnez un paramètre prédéfini de visionneuse de catalogue électronique, puis cliquez sur Modifier. Cliquez sur 
-**Enregistrer sous** après avoir créé le paramètre prédéfini.
+   * **Modification d’un**
+paramètre prédéfini de visionneuse de catalogue électroniqueSélectionnez un paramètre prédéfini de visionneuse de catalogue électronique, puis cliquez sur Modifier. Cliquez sur 
+**Enregistrez** sous après avoir créé le paramètre prédéfini.
 
 1. Dans l’écran Configurer la visionneuse, saisissez le nom à attribuer à votre paramètre prédéfini de visionneuse de catalogue électronique.
 1. Dans l’écran Configurer la visionneuse, définissez les options de votre choix.
@@ -47,7 +49,7 @@ Pour créer un paramètre prédéfini de visionneuse de catalogue électronique 
 
    | Jeton | Remplacé par | Remarques |
    |--- |--- |--- |
-   | `$1$` | valeur rollover_key | The item identifier from the `<area>` element of the map. |
+   | `$1$` | valeur rollover_key | Identificateur d&#39;élément de l&#39;élément `<area>` de la carte. |
    | `$2$` | frame | Numéro de séquence de l’image actuellement affichée dans la visionneuse d’images |
    | `$3$` | imageroot | Premier élément de chemin du premier objet indiqué dans la commande d’image (en principe, l’identifiant de catalogue d’images de l’entrée de catalogue indiquant la visionneuse d’images) |
 
@@ -60,7 +62,7 @@ Pour créer un paramètre prédéfini de visionneuse de catalogue électronique 
 1. Cliquez sur **Enregistrer**.
 1. Cliquez sur Par défaut si vous souhaitez utiliser le paramètre prédéfini de visionneuse de catalogue électronique que vous avez créé pour afficher des catalogues électroniques sur votre page Web.
 
-To delete an eCatalog Viewer Preset, select it on the Viewer Presets screen and click **Delete**.
+Pour supprimer un paramètre prédéfini de visionneuse de catalogue électronique, sélectionnez-le dans l’écran Paramètres prédéfinis de la visionneuse, puis cliquez sur **Supprimer**.
 
 >[!MORELIKETHIS]
 >
