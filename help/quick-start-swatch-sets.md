@@ -20,7 +20,7 @@ ht-degree: 64%
 
 # Démarrage rapide : Séries d’échantillons{#quick-start-swatch-sets}
 
-Les séries d’échantillons dynamiques Media Classic offrent aux utilisateurs une expérience de visualisation intégrée. La visionneuse de série d’échantillons dynamique permet aux utilisateurs d’afficher un objet rendu dans une couleur, un matériau, une texture, un fini ou un tissu différent en cliquant simplement sur une miniature.
+Les séries d’échantillons Dynamic Media Classic offrent aux utilisateurs une expérience de visualisation intégrée. La visionneuse de série d’échantillons dynamique permet aux utilisateurs d’afficher un objet rendu dans une couleur, un matériau, une texture, un fini ou un tissu différent en cliquant simplement sur une miniature.
 
 **Début rapide**
 
@@ -30,7 +30,7 @@ Ce Début rapide Série d’échantillons est conçu pour vous aider à maîtris
 
 Commencez par télécharger les fichiers d’images et d’échantillons pour les séries d’échantillons.
 
-Cliquez sur Télécharger dans la barre de navigation globale pour télécharger des fichiers de votre ordinateur vers un dossier de Contenu multimédia dynamique classique. (voir les sections [Préparation du téléchargement de fichiers de série d’échantillons](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) et [Téléchargement de fichiers](uploading-files.md#uploading-your-files)).
+Cliquez sur Télécharger dans la barre de navigation globale pour télécharger des fichiers de votre ordinateur vers un dossier de Dynamic Media Classic. (voir les sections [Préparation du téléchargement de fichiers de série d’échantillons](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) et [Téléchargement de fichiers](uploading-files.md#uploading-your-files)).
 
 **2. Création d’une série d’échantillons**
 
@@ -52,7 +52,7 @@ Voir [Prévisualisation d’un fichier](previewing-asset.md#previewing-an-asset)
 
 Lorsque vous publiez une série d’échantillons, elle est placée sur les serveurs Dynamic Media Classic et la chaîne URL est activée.
 
-Click the **Mark For Publish** icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
+Cliquez sur l’icône **Marquer pour publication** située à gauche de son nom dans le panneau de navigation. Cliquez ensuite sur **Publier**. Dans l’écran Publier, cliquez sur **Publier par Début**.
 
 Voir [Publication](publishing-files.md#publishing-files).
 
