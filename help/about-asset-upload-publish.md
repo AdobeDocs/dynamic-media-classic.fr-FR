@@ -17,7 +17,7 @@ ht-degree: 35%
 ---
 
 
-# A propos du téléchargement et de la publication de fichiers{#about-uploading-and-publishing-assets}
+# A propos du transfert et de la publication des ressources{#about-uploading-and-publishing-assets}
 
 Votre travail dans Dynamic Media Classic porte sur trois domaines fondamentaux :
 
