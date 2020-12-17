@@ -21,9 +21,9 @@ ht-degree: 83%
 
 Avant de transférer un fichier d’image, vous devez d’abord demander une clé de secret partagé. Cette clé vous permet de récupérer un jeton de téléchargement. Vous utilisez ensuite le jeton de téléchargement pour transférer les fichiers d’image ou vectoriels.
 
-## Demande d’une clé de secret partagé {#requesting-a-shared-secret-key}
+## Demande d’une clé de secret partagé  {#requesting-a-shared-secret-key}
 
-Demandez une clé *de secret* partagé [enutilisant le Admin Console pour créer un dossier de support.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Dans votre cas d’assistance, demandez une clé de secret partagé.
+Demandez une *clé de secret partagé* en utilisant [le Admin Console pour créer un dossier de support.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Dans votre cas d’assistance, demandez une clé de secret partagé.
 
 Dans le message électronique, indiquez le nom d’entreprise que vous voulez utiliser pour transférer les fichiers d’image. Après avoir reçu la clé de Dynamic Media Classic, enregistrez-la localement pour une utilisation ultérieure.
 
@@ -34,12 +34,12 @@ Le *jeton de téléchargement* garantit que personne d’autre que vous n’util
 Le jeton de téléchargement est une chaîne numérique uniquement disponible pendant une durée limitée. Utilisez les URL suivantes, en substituant votre clé de secret partagé, pour obtenir le jeton de téléchargement.
 
 * Image
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`Dans cet exemple, la clé de secret partagé est `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`Dans cet exemple, la clé de secret partagé est  `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 * Vecteur
-   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`Dans cet exemple, la clé de secret partagé est `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
+   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`Dans cet exemple, la clé de secret partagé est  `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
 
-Par défaut, le jeton de téléchargement arrive à expiration au terme d’un délai de cinq minutes (300 secondes) après sa récupération. To request more time, include `expires` in the URL and the amount of time you require in seconds. Par exemple, l’URL d’image suivante permet de récupérer un jeton de téléchargement valide pendant 1 800 secondes :
+Par défaut, le jeton de téléchargement arrive à expiration au terme d’un délai de cinq minutes (300 secondes) après sa récupération. Pour demander plus de temps, incluez `expires` dans l’URL et la durée requise en secondes. Par exemple, l’URL d’image suivante permet de récupérer un jeton de téléchargement valide pendant 1 800 secondes :
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -90,7 +90,7 @@ Vous pouvez maintenant transférer un fichier d’image.
 
 Voir [Téléchargement d’un fichier d’image](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Téléchargement d’un fichier d’image {#uploading-an-image-asset}
+## Téléchargement d’un fichier d’image  {#uploading-an-image-asset}
 
 Après avoir récupéré un jeton de téléchargement valide pendant une durée limitée, vous pouvez télécharger un fichier d’image. Vous téléchargez le fichier en tant que publication de formulaire ou publication en plusieurs parties tout en envoyant le reste des valeurs en tant que chaîne de requête d’URL, comme dans cet exemple :
 
@@ -98,7 +98,7 @@ Après avoir récupéré un jeton de téléchargement valide pendant une durée 
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-The `upload_token` and `company_name` fields are required.
+Les champs `upload_token` et `company_name` sont obligatoires.
 
 Voir [Récupération du jeton de téléchargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
@@ -110,7 +110,7 @@ Vous pouvez également envoyer d’autres valeurs facultatives comme chaînes de
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-The `file_limit` parameter specifies the file-size limit in bytes. Le paramètre `file_exts` spécifie les extensions de nom de fichier admises pour le téléchargement. Ces deux valeurs sont facultatives.
+Le paramètre `file_limit` spécifie la limite de taille de fichier en octets. Le paramètre `file_exts` spécifie les extensions de nom de fichier admises pour le téléchargement. Ces deux valeurs sont facultatives.
 
 Une limite globale est définie dans l’application pour la taille limite des fichiers et les extensions de nom de fichier autorisées. Si le contenu de votre requête se trouve dans les limites globales, celle-ci est satisfaite. Les limites globales sont les suivantes :
 
@@ -126,7 +126,7 @@ Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier
 * Taille limite de fichier.
 * Liste des extensions de nom de fichier.
 * Indique si le profil de couleur et le nom de fichier associés à la ressource doivent être conservés ou non.
-* Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les options Coin, Tolérance et Méthode de remplissage. Voir Masquer l’arrière-plan dans les options [d’édition d’images au moment du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
+* Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les options Coin, Tolérance et Méthode de remplissage. Voir la section Arrière-plan de la section [Options d’édition d’images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nom du fichier à télécharger
 
 <!-- 
@@ -147,7 +147,7 @@ Vous pouvez vue le code source HTML associé au formulaire ci-dessus en cliquant
 
 Dans Firefox, cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis cliquez sur **Vue Page Source**. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **Envoyer**.
 
-Pour afficher la réponse XML dans Internet Explorer, cliquez sur **Affichage > Source**. To view XML response in Firefox, click **Tools > Web Developer > Page Source**. Firefox est recommandé pour afficher les réponses XML.
+Pour afficher la réponse XML dans Internet Explorer, cliquez sur **Affichage > Source**. Pour vue de la réponse XML dans Firefox, cliquez sur **Outils > Développeur Web > Source de la page**. Firefox est recommandé pour afficher les réponses XML.
 
 Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi :
 
@@ -205,7 +205,7 @@ Envoyez le fichier à télécharger en tant que publication de formulaire ou en 
 
 POST
 
-### Obtention des métadonnées de fichier pour des images {#getting-asset-metadata-for-images}
+### Obtention des métadonnées de fichier pour des images  {#getting-asset-metadata-for-images}
 
 Vous pouvez utiliser `image_info` pour récupérer les métadonnées d’un fichier que vous avez téléchargé, comme indiqué dans l’exemple suivant :
 
@@ -253,7 +253,7 @@ Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pou
 
 GET et POST
 
-## Transfert d’un fichier vectoriel {#uploading-a-vector-asset}
+## Transfert d’un fichier vectoriel  {#uploading-a-vector-asset}
 
 Après avoir récupéré un jeton de téléchargement valide pendant une durée limitée, vous pouvez transférer un fichier vectoriel. Vous téléchargez le fichier en tant que publication de formulaire ou publication en plusieurs parties tout en envoyant le reste des valeurs en tant que chaîne de requête d’URL, comme dans cet exemple :
 
@@ -261,7 +261,7 @@ Après avoir récupéré un jeton de téléchargement valide pendant une durée 
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company
 ```
 
-The `upload_token` and `company_name` fields are required.
+Les champs `upload_token` et `company_name` sont obligatoires.
 
 Voir [Récupération du jeton de téléchargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
@@ -273,7 +273,7 @@ Vous pouvez également envoyer d’autres valeurs facultatives comme chaînes de
 https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=ai,pdf
 ```
 
-The `file_limit` parameter specifies the file-size limit in bytes. Le paramètre `file_exts` spécifie les extensions de nom de fichier admises pour le téléchargement. Ces deux valeurs sont facultatives.
+Le paramètre `file_limit` spécifie la limite de taille de fichier en octets. Le paramètre `file_exts` spécifie les extensions de nom de fichier admises pour le téléchargement. Ces deux valeurs sont facultatives.
 
 Une limite globale est définie dans l’application pour la taille limite des fichiers et les extensions de nom de fichier autorisées. Si le contenu de votre requête se trouve dans les limites globales, celle-ci est satisfaite. Les limites globales sont les suivantes :
 
@@ -289,7 +289,7 @@ Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier
 * Taille limite de fichier.
 * Liste des extensions de nom de fichier.
 * Indique si le profil de couleur et le nom de fichier associés à la ressource doivent être conservés ou non.
-* Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les options Coin, Tolérance et Méthode de remplissage. Voir Masquer l’arrière-plan dans les options [d’édition d’images au moment du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
+* Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les options Coin, Tolérance et Méthode de remplissage. Voir la section Arrière-plan de la section [Options d’édition d’images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nom du fichier à télécharger
 
 <!-- 
@@ -380,7 +380,7 @@ Envoyez le fichier à télécharger en tant que publication de formulaire ou en 
 |--- |--- |--- |
 | op | Obligatoire | charger |
 | upload_token | Obligatoire | Jeton de téléchargement pour la clé de secret protégé associée à l’entreprise. |
-| company_name | Obligatoire | Nom de l’entreprise qui réalise le téléchargement. |
+| société_name | Obligatoire | Nom de l’entreprise qui réalise le téléchargement. |
 | file_limit | Facultatif | Taille limite du fichier (en octets). |
 | file_exts | Facultatif | Liste des extensions de fichiers autorisées. |
 
