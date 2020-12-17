@@ -24,11 +24,11 @@ Lorsque vous publiez vos images de zoom, elles sont placées sur les serveurs Dy
 
 ## Marquage des images pour publication {#marking-images-for-publish}
 
-Les images doivent être marquées pour publication afin d’être copiées sur les serveurs Dynamic Media Image Server. You can mark your images for publish in the Browse Panel by selecting the **Mark for Publish** icon. Vous pouvez également effectuer cette opération au cours du téléchargement.
+Les images doivent être marquées pour publication afin d’être copiées sur les serveurs Dynamic Media Image Server. Vous pouvez marquer vos images pour publication dans le panneau de navigation en sélectionnant l’icône **Marquer pour publication**. Vous pouvez également effectuer cette opération au cours du téléchargement.
 
-## Publication des images {#publishing-the-images}
+## Publication des images  {#publishing-the-images}
 
-To publish zoom images, start by clicking **Publish** on the Global Navigation bar. Then, select a **When option (One-Time or Recurring)**, optionally enter a name for the publish job, and click **Start Publish**.
+Pour publier des images de zoom, début en cliquant sur **Publier** dans la barre de navigation globale. Sélectionnez ensuite une option **Quand (Unique ou Périodique)**, saisissez éventuellement un nom pour la tâche de publication, puis cliquez sur **Publier le Début**.
 
 >[!MORELIKETHIS]
 >
