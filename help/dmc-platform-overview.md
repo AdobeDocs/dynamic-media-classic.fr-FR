@@ -1,6 +1,6 @@
 ---
-title: Présentation de la plateforme Adobe Classic
-seo-title: Présentation de la plateforme Adobe Classic
+title: Présentation de la plate-forme Adobe Dynamic Media Classic
+seo-title: Présentation de la plate-forme Adobe Dynamic Media Classic
 description: 'null'
 seo-description: Présentation de la plateforme et du processus Dynamic Media Classic.
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
@@ -18,21 +18,25 @@ ht-degree: 32%
 ---
 
 
-# Présentation de la plateforme Adobe Classic{#adobe-scene-platform-overview}
+# Présentation de la plate-forme Adobe Dynamic Media Classic{#adobe-scene-platform-overview}
 
 Dynamic Media Classic est un environnement intégré de gestion, de publication et de diffusion des médias enrichis. Il est possible de diffuser le média enrichi sur tous les canaux de distribution et de vente, notamment le Web, les supports imprimés, les campagnes par e-mail, les portails Web, les bureaux et autres dispositifs.
 
-## Flux de travaux {#workflow-process}
+## Flux de travaux  {#workflow-process}
 
 Les étapes clés du processus Dynamic Media Classic sont les suivantes :
 
-* **Téléchargez et gérez vos fichiers** Téléchargez vos fichiers multimédias vers Dynamic Media Classic. Vous pouvez organiser, explorer et rechercher des fichiers sur le système. Vous pouvez également appliquer des métadonnées aux fichiers.
+* **Téléchargez et gérez vos**
+fichiersTéléchargez vos fichiers multimédias vers Dynamic Media Classic. Vous pouvez organiser, explorer et rechercher des fichiers sur le système. Vous pouvez également appliquer des métadonnées aux fichiers.
 
-* **Créer un média** enrichi Créez différentes configurations de vos ressources telles que les catalogues électroniques, les visionneuses d’images, les visionneuses à 360°, les séries d’échantillons, les visionneuses de supports variés, les modèles de base et les modèles FXG. Pour plus d’informations, voir A propos des médias enrichis.
+* **Créer des**
+médias enrichisCréez différentes configurations de vos fichiers, telles que des catalogues électroniques, des visionneuses d’images, des visionneuses à 360°, des séries d’échantillons, des visionneuses de supports variés, des modèles de base et des modèles FXG. Pour plus d’informations, voir A propos des médias enrichis.
 
-* **Publiez et gérez** Publiez des fichiers sur le réseau Dynamic Media Classic Saas, ainsi que contrôlez l’état des fichiers une fois qu’ils sont publiés, administrez les droits d’utilisateur et maintenez la sécurité.
+* **Publiez et**
+administrezPubliez des fichiers sur le réseau Dynamic Media Classic Saas, et contrôlez leur état lors de leur publication, administrez les droits d’utilisateur et maintenez la sécurité.
 
-* **Servez** Diffusez des médias du réseau Dynamic Media Classic SaaS vers des pages Web, des applications et des périphériques mobiles ; les médias sont optimisés en termes de performances et sont fournis avec la mise en cache CDN. Dynamic Media Classic fournit une URL pour chaque fichier. Une fois le fichier publié, l’URL s’active.
+* ****
+ServeFourniture de médias du réseau Dynamic Media Classic SaaS vers des pages Web, des applications et des périphériques mobiles ; les médias sont optimisés en termes de performances et sont fournis avec la mise en cache CDN. Dynamic Media Classic fournit une URL pour chaque fichier. Une fois le fichier publié, l’URL s’active.
 
 ![Processus Dynamic Media Classic](/help/assets/gs_workflow.png)
 
