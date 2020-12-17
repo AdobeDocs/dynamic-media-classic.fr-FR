@@ -2,7 +2,7 @@
 title: Utilisation de documents PDF
 seo-title: Utilisation de documents PDF
 description: 'null'
-seo-description: Découvrez comment utiliser des fichiers PDF dans Dynamic Media Classic.
+seo-description: Découvrez comment utiliser des PDF dans Dynamic Media Classic.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
@@ -32,13 +32,13 @@ Les options de téléchargement des fichiers PDF sont regroupées sous la secti
 
 Les options de traitement sont les suivantes :
 
-**Pixelliser** (par défaut) Pixellise les pages du fichier PDF et convertit les graphiques vectoriels en images bitmap. Choisissez cette option pour créer un catalogue électronique. 
+**Pixelliser**  (par défaut) Pixellise les pages du fichier PDF et convertit les graphiques vectoriels en images bitmap. Choisissez cette option pour créer un catalogue électronique. 
 
-**Extraire les mots** de recherche Extrait les mots du fichier PDF afin que le fichier puisse faire l’objet d’une recherche par mot-clé dans une visionneuse de catalogue électronique.
+**Extraire les** mots de rechercheExtrait les mots du fichier PDF afin que le fichier puisse être recherché par mot-clé dans une visionneuse de catalogue électronique.
 
-**Extraire les liens** Extrait les liens des fichiers PDF et les convertit en zones cliquables utilisées dans une visionneuse de catalogue électronique.
+**Extraire les** liensExtrait les liens des fichiers PDF et les convertit en zones cliquables utilisées dans une visionneuse de catalogue électronique.
 
-**Générer automatiquement un catalogue électronique avec plusieurs pages PDF** crée automatiquement un catalogue électronique à partir du fichier PDF. Le catalogue électronique reprend le nom du fichier PDF que vous avez téléchargé (cette option n’est disponible que si vous pixellisez le fichier PDF au moment du téléchargement).
+**Générer automatiquement un catalogue électronique avec plusieurs pages** PDFAcrée automatiquement un catalogue électronique à partir du fichier PDF. Le catalogue électronique reprend le nom du fichier PDF que vous avez téléchargé (cette option n’est disponible que si vous pixellisez le fichier PDF au moment du téléchargement).
 
 **Résolution**
 
@@ -48,42 +48,42 @@ Détermine le paramètre de résolution, qui définit le nombre de pixels affich
 
 Dans le menu Espace colorimétrique, choisissez un espace pour le fichier PDF. La plupart des fichiers PDF contiennent des images en couleurs RVB et CMJN. L’espace colorimétrique RVB est préférable pour un affichage à l’écran.
 
-**Détecter conserve automatiquement** l’espace colorimétrique du fichier PDF.
+**Détecter** automatiquementConserve l’espace colorimétrique du fichier PDF.
 
-**Forcer comme RVB** convertit dans l’espace colorimétrique RVB.
+**Forcer comme** RGBConversion vers l’espace colorimétrique RVB.
 
-**Forcer comme CMJN** Convertit dans l’espace colorimétrique CMJN.
+**Forcer comme** CMJNonversion vers l’espace colorimétrique CMJN.
 
-**Forcer comme Niveaux de gris** Convertit dans l’espace colorimétrique Niveaux de gris.
+**Forcer comme** Niveaux de grisConvertit dans l’espace colorimétrique Niveaux de gris.
 
 **Profil de couleurs**
 
 Choisissez une option de profil de couleurs :
 
-**Convertir en sRVB** Convertit en sRVB (rouge vert bleu standard). sRVB est l’espace colorimétrique recommandé pour l’affichage d’images sur les pages Web.
+**Convertir en** conversions RVBonververs sRVB (rouge vert bleu standard). sRVB est l’espace colorimétrique recommandé pour l’affichage d’images sur les pages Web.
 
-**Conserver l’espace** colorimétrique d’origine Conserve l’espace colorimétrique d’origine.
+**Conserver l’** espace colorimétrique d’origineConserve l’espace colorimétrique d’origine.
 
-**Personnalisé de > à** Ouvre les menus afin que vous puissiez choisir un espace colorimétrique Convertir à partir de et Convertir en. Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez téléchargé dans Dynamic Media Classic.
+**Personnalisé de >** ÀOuvre les menus afin que vous puissiez choisir un espace colorimétrique Convertir à partir de et Convertir en. Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez téléchargé vers Dynamic Media Classic.
 
 (voir [Profils ICC](icc-profiles.md#icc_profiles)).
 
-## Suppression de l’espace blanc d’un fichier PDF {#cropping-white-space-from-a-pdf-file}
+## Suppression de l’espace blanc d’un fichier PDF  {#cropping-white-space-from-a-pdf-file}
 
 1. Pour supprimer automatiquement les pixels d’espace blanc d’un fichier PDF au moment du téléchargement, sélectionnez le menu Recadrer, puis choisissez Rogner.
 1. Spécifiez les options suivantes :
 
-   **Rogner en fonction** Choisissez si vous souhaitez effectuer un rognage en fonction de la couleur ou de la transparence :
+   **Rogner en fonction de** l’état Choisissez si vous souhaitez effectuer un rognage en fonction de la couleur ou de la transparence :
 
-   **Couleur** Choisissez l’option Couleur. Sélectionnez ensuite le menu Coin, puis choisissez l’angle du fichier PDF présentant la couleur qui correspond le mieux à l’espace blanc à rogner.
+   **** CouleurChoisissez l&#39;option Couleur. Sélectionnez ensuite le menu Coin, puis choisissez l’angle du fichier PDF présentant la couleur qui correspond le mieux à l’espace blanc à rogner.
 
-   **Transparence** Sélectionnez l’option Transparence.
+   **** TransparenceSélectionnez l&#39;option Transparence.
 
-   **Tolérance** Faites glisser le curseur pour définir une tolérance comprise entre 0 et 1 :
+   **** ToléranceFaites glisser le curseur pour spécifier une tolérance comprise entre 0 et 1 :
 
-   **Rognage en fonction de la couleur** Indiquez 0 pour rogner les pixels uniquement s’ils correspondent exactement à la couleur que vous avez sélectionnée dans l’angle du PDF. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs.
+   **Rognage en fonction de la** couleurIndiquez 0 pour rogner les pixels uniquement s’ils correspondent exactement à la couleur que vous avez sélectionnée dans l’angle du PDF. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs.
 
-   **Rognage basé sur la transparence** Spécifiez 0 pour rogner les pixels uniquement s’ils sont entièrement transparents ; les valeurs plus proches de 1 permettent une plus grande transparence.
+   **Rognage basé sur la** transparenceSpécifiez 0 pour rogner les pixels uniquement s’ils sont entièrement transparents ; les valeurs plus proches de 1 permettent une plus grande transparence.
 
 ## Recadrage à partir des côtés des pages PDF {#cropping-from-the-sides-of-pdf-pages}
 
