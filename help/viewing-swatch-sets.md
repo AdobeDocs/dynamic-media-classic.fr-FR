@@ -31,8 +31,8 @@ Vous pouvez créer et personnaliser des paramètres prédéfinis de la visionneu
 1. Cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
 1. Effectuez l’une des opérations suivantes :
 
-   * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Swatch Set Viewer, then click **Add**.
-   * To edit an existing Swatch Set Viewer preset, select the preset, then click **Edit**.
+   * Pour créer un paramètre prédéfini, cliquez sur **Ajouter**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme, sélectionnez Visionneuse de série d’échantillons, puis cliquez sur **Ajouter**.
+   * Pour modifier un paramètre prédéfini de visionneuse de série d’échantillons existant, sélectionnez-le, puis cliquez sur **Modifier**.
 
 1. Attribuez un nom au paramètre prédéfini de la visionneuse de série d’échantillons dans la zone Nom du paramètre prédéfini.
 1. Sélectionnez des options dans l’écran Configurer la visionneuse.
@@ -54,7 +54,7 @@ La fonction Prévisualiser vous permet de vous faire une idée du rendu d’un f
    * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **Affichage de la liste**. Dans la fenêtre Fichiers, déplacez le pointeur sur un fichier, puis cliquez sur **Prévisualiser**.
    * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **Affichage de la grille**. Dans la fenêtre de miniature d’un fichier, cliquez sur **Prévisualiser**.
    * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **Affichage des détails**. Dans cette même barre d’outils, cliquez sur **Prévisualiser**.
-   * Dans la fenêtre Fichiers, sélectionnez un fichier. On the toolbar, click **File** > **Preview**.
+   * Dans la fenêtre Fichiers, sélectionnez un fichier. Dans la barre d’outils, cliquez sur **Fichier** > **Prévisualisation**.
 
 1. (Facultatif) Dans la liste déroulante située en bas de la fenêtre Prévisualiser, sélectionnez le codage d’URL à appliquer à l’URL du fichier au moment de la copie.
 1. Cliquez sur le lien d’une visionneuse pour effectuer une prévisualisation dans la visionneuse sélectionnée.
