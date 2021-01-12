@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
 source-wordcount: '1032'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -117,7 +117,7 @@ Vous pouvez envoyer un e-mail de bienvenue à tous les nouveaux utilisateurs, co
 
    **[!UICONTROL Envoyer]** EmailDésélectionnez cette option si vous ne souhaitez pas informer les nouveaux utilisateurs par e-mail que vous les avez inscrits.
 
-   **[!UICONTROL Mot de]** passe par défautEntrez un mot de passe temporaire pour les nouveaux utilisateurs ou laissez le champ vide pour que Dynamic Media Classic génère des mots de passe aléatoires. Les utilisateurs sont invités à modifier leur mot de passe lors de la première connexion.
+   **[!UICONTROL Mot de]** passe par défautEntrez un mot de passe temporaire pour les nouveaux utilisateurs ou laissez le champ vide pour que Dynamic Media Classic génère des mots de passe aléatoires. Les utilisateurs sont invités à modifier leurs mots de passe lors de leur première connexion.
 
    **[!UICONTROL URL de remplacement]** Entrez une URL différente de celle par défaut si vos utilisateurs accèdent à Dynamic Media Classic par une autre URL.
 
