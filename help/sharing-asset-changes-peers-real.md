@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 83%
+source-wordcount: '279'
+ht-degree: 71%
 
 ---
 
@@ -29,9 +29,9 @@ Avec plusieurs copies de Dynamic Media Classic s’exécutant sur un ou plusieur
 * Téléchargement d’un ou plusieurs fichiers (sur l’ordinateur et le FTP)
 * Création, suppression ou modification du nom d’un dossier
 
-Lorsqu’une modification est apportée dans le client d’origine, tous les clients pairs connectés dans la même société sont mis à jour. Les modifications sont appliquées aux pairs sans aucune notification, sauf si un pair modifie un fichier édité dans un éditeur d’images ou une zone de création.
+Une fois une modification apportée au client d’origine, tous les clients pairs connectés à la même société sont mis à jour avec la modification. Les modifications sont appliquées aux pairs sans aucune notification, sauf si un pair modifie un fichier édité dans un éditeur d’images ou une zone de création.
 
-Lorsque vous vous connectez, le lecteur Flash vous invite à accepter ou à rejeter les modifications de pairs. Vous pouvez « mémoriser » votre choix afin que la question ne vous soit plus posée par la suite. Pour annuler votre choix, supprimez le site concerné dans le panneau Mise en réseau coopérative.
+Lorsque vous vous connectez, vous êtes invité à autoriser ou à refuser les mises à jour des pairs. Vous pouvez « mémoriser » votre choix afin que la question ne vous soit plus posée par la suite. Pour annuler votre choix, supprimez le site concerné dans le panneau Mise en réseau coopérative.
 
 Si vous éditez un fichier modifié par un pair, vous êtes invité à intégrer la modification dans la zone de création ou l’éditeur. Si vous acceptez, la zone de création ou l’éditeur ignore toutes vos modifications et importe le fichier modifié par le pair. Si vous refusez, le fichier reste tel quel dans la zone de création ou l’éditeur, et toutes les modifications que vous avez apportées sont conservées au cours de cette session.
 
