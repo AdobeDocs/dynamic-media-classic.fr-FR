@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 64%
+source-wordcount: '1947'
+ht-degree: 63%
 
 ---
 
@@ -61,9 +61,9 @@ Après avoir ajouté un utilisateur, Dynamic Media Classic lui envoie un e-mail 
 
    Après l’enregistrement, une invite demande si vous souhaitez ajouter un utilisateur à une autre société. Cliquez sur Ajouter si vous souhaitez ajouter l’utilisateur à une société.
 
-   Tous les nouveaux utilisateurs se voient attribuer un mot de passe généré de manière aléatoire ; les utilisateurs doivent changer de mot de passe lors de leur première connexion à Dynamic Media Classic.
+   Tous les nouveaux utilisateurs se voient attribuer un mot de passe généré de manière aléatoire ; les utilisateurs doivent changer de mot de passe lors de leur première connexion à l’application de bureau Dynamic Media Classic.
 
-   Un e-mail de bienvenue est envoyé aux utilisateurs une fois qu’ils ont été ajoutés. Ce message électronique indique un mot de passe provisoire et explique la procédure à suivre pour se connecter à Scene7 Publishing System.
+   Un e-mail de bienvenue est envoyé aux utilisateurs une fois qu’ils ont été ajoutés. L’e-mail fournit un mot de passe temporaire et explique comment se connecter à Dynamic Media Classic.
 
    Si l’utilisateur ne reçoit pas le courrier électronique de bienvenue, demandez-lui d’accéder à la page de connexion Dynamic Media Classic (https://s7sps1.scene7.com), puis cliquez sur Mot de passe oublié. Le mot de passe est réinitialisé et un nouveau courrier électronique est envoyé. Si l’utilisateur ne reçoit pas le courrier électronique et qu’il n’est pas placé dans le dossier du courrier indésirable, contactez le support technique.
 
