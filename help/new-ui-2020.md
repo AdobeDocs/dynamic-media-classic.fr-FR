@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 60aedff7e46d134537e2a0639d1c28c3a7909b90
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,12 @@ De plus, [abonnez-vous au bulletin d&#39;information de Dynamic Media](https://w
 ### **_Je souhaite en savoir plus sur la mise à niveau vers Dynamic Media avec AEM Assets. Où puis-je trouver plus d&#39;informations ?_**
 
 Pour en savoir plus sur les avantages de la mise à niveau vers la nouvelle génération de création de contenu multimédia enrichi, de publication et de diffusion dynamique, consultez le [portail de mise à niveau de Dynamic Media](http://exploreadobe.com/dynamic-media-upgrade/).
+
+>[!MORELIKETHIS]
+>
+>* [Connexion à et hors de l’application de bureau Dynamic Media Classic](/help/signing-out.md)
+>* [Téléchargement et installation de l’application de bureau Dynamic Media Classic](/help/dynamic-media-classic-desktop-app.md)
+
 
 
 <!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
