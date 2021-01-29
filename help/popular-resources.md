@@ -1,15 +1,13 @@
 ---
 title: Ressources populaires
-seo-title: Ressources populaires
-description: 'null'
-seo-description: Liens vers des webinaires, des vidéos de formation, des informations sur les meilleures pratiques et des ressources pour les développeurs.
+description: Liens vers des webinaires, des vidéos de formation, des informations sur les meilleures pratiques et des ressources pour les développeurs.
 uuid: a2ef0e50-056c-4528-96d8-343c24f944a2
 contentOwner: Rick Brough
 discoiquuid: 094f1894-59f9-4e66-aa0a-1e0c4d7cc452
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '565'
 ht-degree: 16%
 
 ---
