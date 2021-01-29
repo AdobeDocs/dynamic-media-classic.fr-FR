@@ -1,8 +1,6 @@
 ---
 title: '"Début rapide : Visionneuses à 360°"'
-seo-title: '"Début rapide : Visionneuses à 360°"'
-description: 'null'
-seo-description: Une introduction et un Début rapide à la visionneuse à 360° pour vous aider à maîtriser rapidement les opérations.
+description: Une introduction et un Début rapide à la visionneuse à 360° pour vous aider à maîtriser rapidement les opérations.
 uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '752'
 ht-degree: 67%
 
 ---
