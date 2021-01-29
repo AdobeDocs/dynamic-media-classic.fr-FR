@@ -1,8 +1,6 @@
 ---
 title: '"Démarrage rapide : Visionneuses d’images"'
-seo-title: '"Démarrage rapide : Visionneuses d’images"'
-description: 'null'
-seo-description: Cette section présente les techniques de visionneuse d’images et vous aide à maîtriser rapidement leur fonctionnement. Elle contient également une présentation et un Début rapide sur les visionneuses d’images.
+description: Cette section présente les techniques de visionneuse d’images et vous aide à maîtriser rapidement leur fonctionnement. Elle contient également une présentation et un Début rapide sur les visionneuses d’images.
 uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '560'
 ht-degree: 62%
 
 ---
