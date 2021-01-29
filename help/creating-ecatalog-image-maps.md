@@ -1,8 +1,6 @@
 ---
 title: Création de zones cliquables dans un catalogue électronique
-seo-title: Création de zones cliquables dans un catalogue électronique
-description: 'null'
-seo-description: Découvrez comment créer des zones cliquables dans un catalogue électronique.
+description: Découvrez comment créer des zones cliquables dans un catalogue électronique.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1491'
 ht-degree: 77%
 
 ---
