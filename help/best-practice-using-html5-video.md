@@ -1,8 +1,6 @@
 ---
-title: '"Meilleure pratique : Utilisation de la visionneuse de vidéos HTML5"'
-seo-title: '"Meilleure pratique : Utilisation de la visionneuse de vidéos HTML5"'
-description: 'null'
-seo-description: Découvrez les meilleures pratiques d’utilisation de la visionneuse de vidéos HTML5.
+title: Meilleure pratique pour l’utilisation de la visionneuse de vidéos HTML5
+description: Découvrez les meilleures pratiques d’utilisation de la visionneuse de vidéos HTML5.
 uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: admin
 content-type: reference
@@ -10,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 30%
+source-wordcount: '422'
+ht-degree: 26%
 
 ---
 
 
-# Meilleure pratique : Utilisation de la visionneuse de vidéos HTML5{#best-practice-using-the-html-video-viewer}
+# Meilleures pratiques pour l’utilisation de la visionneuse de vidéos HTML5{#best-practice-using-the-html-video-viewer}
 
 Les paramètres prédéfinis de la visionneuse de vidéos HTML5 Dynamic Media Classic sont des lecteurs vidéo fiables. Du côté de la conception du lecteur, vous pouvez créer toutes les fonctionnalités du lecteur vidéo à l’aide d’outils de développement Web standard. Vous pouvez, par exemple, concevoir les boutons, les commandes et les affiches personnalisées en arrière-plan au moyen du code HTML5 et CSS afin de mieux cibler les utilisateurs avec un aspect personnalisé.
 
