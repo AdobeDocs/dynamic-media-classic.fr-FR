@@ -1,8 +1,6 @@
 ---
 title: Création de cibles de zoom pour un zoom guidé
-seo-title: Création de cibles de zoom pour un zoom guidé
-description: 'null'
-seo-description: Découvrez comment créer des cibles de zoom pour un zoom guidé.
+description: Découvrez comment créer des cibles de zoom pour un zoom guidé.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 69%
+source-wordcount: '731'
+ht-degree: 68%
 
 ---
 
