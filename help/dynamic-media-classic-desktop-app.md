@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 84a36e45ecf5fb027645e0f9da40b00ad3ce29e0
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,22 @@ Cette nouvelle application est désormais disponible pour Windows et macOS.
 
 >[!IMPORTANT]
 >
->Nous vous recommandons d’installer la nouvelle application de bureau Adobe Dynamic Media Classic d’ici le 1er octobre 2020. Ainsi, vous aurez une transition en douceur avant que le Flash Player Adobe ne soit abandonné le 31 décembre 2020. A cette date, vous ne pourrez plus vous connecter à la version navigateur de l’interface utilisateur d’Adobe Dynamic Media Classic, appelée Dynamic Media Classic dans le produit.
+>Adobe vous recommande d’installer la nouvelle application de bureau Adobe Dynamic Media Classic d’ici le 1er octobre 2020. Ainsi, vous aurez une transition en douceur avant que le Flash Player Adobe ne soit abandonné le 31 décembre 2020. Après cette date, vous ne pouvez plus vous connecter à la version navigateur de l’interface utilisateur d’Adobe Dynamic Media Classic, appelée Dynamic Media Classic dans le produit.
 
 Consultez la FAQ pour l&#39;[expérience de connexion à la nouvelle version de Dynamic Media Classic désormais disponible.](/help/new-ui-2020.md)
 
 ## Configuration système requise pour l’application de bureau Dynamic Media Classic {#system-requirements-dmc-app} Adobe
 
 L’application de bureau Adobe Dynamic Media Classic est compatible avec les systèmes d’exploitation suivants :
-* macOS X 10.10 ou version ultérieure.
+
+* macOS 10.10 ou version ultérieure.
 * Windows 7 ou version ultérieure.
 
 ## Correctifs de la dernière version (20.21.1) {#latest-fixes-desktop-app}
 
-* Problèmes de connexion dus au dépassement de délai, qui se traduisent par le message suivant : *Cet utilisateur peut être affecté aux groupes sans autorisation. Veuillez contacter votre administrateur.*
+* Problèmes de connexion dus au dépassement de délai, qui se traduisent par le message suivant : *Cet utilisateur peut être affecté au groupe ou aux groupes sans autorisation. Contactez votre administrateur.*
 * Les paramètres prédéfinis de la visionneuse sont dupliqués à chaque tentative de mot de passe incorrecte.
-* L’application de bureau ne répond plus en raison d’une grande quantité de ressources contenues dans le dossier racine. (Correction sous Windows ; fonctionne comme vous le souhaitez sur macOS.)
+* L’application de bureau ne répond plus en raison de nombreux fichiers contenus dans le dossier racine. (Correction sous Windows ; fonctionne comme vous le souhaitez sur macOS.)
 
 ## Correctifs de la version précédente (20.20.2) {#previous-version-fixes-desktop-app}
 
@@ -84,7 +85,7 @@ Voir aussi:
 
    ![Connexion Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Utilisez les mêmes informations d’identification que celles de votre navigateur pour vous connecter à Adobe Dynamic Media Classic.
+1. Pour vous connecter à l’application de bureau Dynamic Media Classic Adobe, utilisez les mêmes informations d’identification que celles utilisées pour vous connecter à Dynamic Media Classic dans le navigateur.
 
    Pour que le **[!UICONTROL serveur]** puisse être utilisé, consultez le mappage suivant pour l&#39;environnement de production :
 
@@ -94,7 +95,7 @@ Voir aussi:
    | https://s7sps3.scene7.com/ | Production EMEA (Europe, Moyen-Orient et Afrique) |
    | https://s7sps5.scene7.com/ | Production d&#39;APAC (Asie-Pacifique) |
 
-1. Après avoir publié l’interface utilisateur de connexion, vous remarquerez l’expérience familière de l’interface utilisateur du navigateur. Vous pouvez désormais transmettre votre activité quotidienne comme d’habitude dans l’interface utilisateur de l’application de bureau.
+1. Après la connexion, notez l’expérience d’interface utilisateur du navigateur qui vous est familière. Vous pouvez continuer votre activité quotidienne Dynamic Media Classic comme d’habitude sur l’application de bureau.
 
 ## Téléchargez et *silencieuse* installez la dernière application de bureau Dynamic Media Classic Adobe sur macOS {#install-silent-mac-dmc-app}
 
@@ -124,7 +125,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
    ![Connexion Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Utilisez les mêmes informations d’identification que celles de votre navigateur pour vous connecter à Adobe Dynamic Media Classic.
+1. Pour vous connecter à l’application de bureau Dynamic Media Classic Adobe, utilisez les mêmes informations d’identification que celles utilisées pour vous connecter à Dynamic Media Classic dans le navigateur.
 
    Pour que le **[!UICONTROL serveur]** puisse être utilisé, consultez le mappage suivant pour l&#39;environnement de production :
 
@@ -163,13 +164,13 @@ Pour télécharger et *silencieux* installer la dernière version de l’applica
 
    `adobe-dynamic-media-classic-20.21.1.exe /s /f1"C:\Setup.iss"`
 
-   Pour plus d&#39;informations sur les paramètres de ligne de commande, consultez [Setup.exe et Update.exe Paramètres de ligne de commande.](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
+   Pour plus d&#39;informations sur les paramètres de ligne de commande, consultez les sections [Setup.exe et Paramètres de ligne de commande Update.exe.](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
 1. Lorsque vous ouvrez l’application, la nouvelle page de connexion à l’Adobe Dynamic Media Classic s’affiche :
 
    ![Connexion Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Utilisez les mêmes informations d’identification que celles de votre navigateur pour vous connecter à Adobe Dynamic Media Classic.
+1. Pour vous connecter à l’application de bureau Dynamic Media Classic Adobe, utilisez les mêmes informations d’identification que celles utilisées pour vous connecter à Dynamic Media Classic dans le navigateur.
 
    Pour que le **[!UICONTROL serveur]** puisse être utilisé, consultez le mappage suivant pour l&#39;environnement de production :
 
@@ -194,7 +195,7 @@ Regardez une présentation [vidéo sur l’utilisation de l’application de bur
 
 ### Suppression manuelle du cache d’images et du cache de ressources
 
-Outre l’effacement du cache d’images et de ressources à l’aide de l’application de bureau, vous pouvez également effectuer cette tâche manuellement en vidant le cache directement du système de fichiers.
+Outre l’effacement du cache d’images et de ressources à l’aide de l’application de bureau, vous pouvez effacer manuellement le cache directement à partir du système de fichiers.
 
 1. En fonction de votre système d’exploitation, accédez aux options suivantes :
 
@@ -216,7 +217,7 @@ Outre l’effacement du cache d’images et de ressources à l’aide de l’app
 
 **_Je ne peux pas voir le panneau Panier sur le landing page de Dynamic Media Classic._**<br>Dans Dynamic Media Classic, appuyez sur**[!UICONTROL Configuration > Configuration ]**personnelle. Dans la section Navigateur, vérifiez que**[!UICONTROL Afficher les fonctionnalités MediaPortal ]**est sélectionné (coché). Appuyez sur**[!UICONTROL Enregistrer > Fermer ]**.
 
-**_L’état de publication (indicateur vert) d’une ressource n’est pas reflété correctement._**<br>Dans l’interface utilisateur du navigateur, une nouvelle connexion à l’interface utilisateur était nécessaire pour afficher l’état de publication correct des ressources. Dans l’application de bureau, nous avons introduit une icône**[!UICONTROL Actualiser ]**dans la barre d’outils, à droite du bouton**[!UICONTROL Sélectionner aucun ]**. Appuyez sur l’icône**[!UICONTROL Actualiser ]**pour afficher le dernier état de toutes les ressources sur la page donnée. Aucune nouvelle connexion n’est requise, comme dans l’interface utilisateur du navigateur.
+**_L’état de publication (indicateur vert) d’une ressource n’est pas reflété correctement._**<br>Dans l’interface utilisateur du navigateur, une nouvelle connexion à l’interface utilisateur était nécessaire pour afficher l’état de publication correct des ressources. Dans l’application de bureau, l’Adobe a introduit une icône**[!UICONTROL Actualiser ]**dans la barre d’outils, à droite du bouton**[!UICONTROL Sélectionner aucun ]**. Appuyez sur l’icône**[!UICONTROL Actualiser ]**pour afficher le dernier état de toutes les ressources sur la page donnée. Aucune nouvelle connexion n’est requise, comme dans l’interface utilisateur du navigateur.
 
 ![Actualiser ](/help/assets/refresh-icon1.png)
 *l&#39;icôneActualiser l&#39;icône*
