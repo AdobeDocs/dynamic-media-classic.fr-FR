@@ -1,6 +1,6 @@
 ---
 title: Aide de Dynamic Media Classic
-seo-title: ' d’Adobe Dynamic Media Classic'
+seo-title: ' d’Adobe Dynamic Media Classic'
 description: Présentation de Dynamic Media Classic
 seo-description: Présentation de Dynamic Media Classic
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
