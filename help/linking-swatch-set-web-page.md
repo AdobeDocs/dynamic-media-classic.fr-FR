@@ -1,17 +1,15 @@
 ---
 title: Liaison d’une série d’échantillons à une page Web
 description: Découvrez comment lier une série d’échantillons à une page Web.
-uuid: 1f623bf2-3bb0-481f-b063-79e4ce125424
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
-discoiquuid: 0edab47b-531c-41a9-89c3-2e179c4f9fa4
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 94%
+source-wordcount: '688'
+ht-degree: 93%
 
 ---
 
@@ -47,7 +45,7 @@ Après avoir publié une série d’échantillons, vous pouvez utiliser son URL 
 
 La méthode la plus courante pour déployer des séries d’échantillons consiste à insérer un lien (par le biais d’une icône de navigation) dans votre page Web. Lorsque vous cliquez dessus, le lien lance une page dynamique (ASP ou JSP) affichant la série d’échantillons dans une fenêtre de zoom contextuelle. Le lien de zoom affiche une fenêtre contextuelle contenant l’affichage agrandi proprement dit.
 
-Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le Guide de référence des visionneuses d’Adobes](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
+Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le Guide de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copie du code incorporé d’une visionneuse de série d’échantillons {#copying-the-embed-code-of-a-swatch-set-viewer}
 
