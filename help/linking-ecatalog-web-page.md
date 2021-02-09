@@ -8,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 87%
+source-wordcount: '679'
+ht-degree: 86%
 
 ---
 
@@ -47,7 +47,7 @@ Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Imag
 
 La méthode la plus courante pour déployer un catalogue électronique consiste à placer un lien se présentant sous la forme d’une page de couverture miniature de catalogue électronique sur une page Web. Consultez votre équipe informatique pour vous assurer que le catalogue électronique s’ouvre dans une fenêtre contextuelle nette et centrée. Demandez-lui de masquer dans le navigateur la barre d’outils et la barre d’adresse.
 
-Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de catalogue électronique HTML5 dans le Guide de référence des visionneuses d’Adobes](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html).
+Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de catalogue électronique HTML5 dans le Guide de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copie du code incorporé d’une visionneuse de catalogue électronique {#copying-the-embed-code-of-an-ecatalog-viewer}
 
