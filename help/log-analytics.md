@@ -8,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 36%
+source-wordcount: '354'
+ht-degree: 35%
 
 ---
 
@@ -33,7 +33,7 @@ Lorsque vous vous connectez, vous avez la possibilité de saisir votre ID d’or
 1. Dans la page Configuration Adobe Analytics, appuyez sur **[!UICONTROL Adobe Analytics Login]**.
 1. Dans la boîte de dialogue **[!UICONTROL Connexion Adobe Analytics]**, saisissez votre nom de société, votre identifiant d’organisation de Marketing Cloud (facultatif), votre nom d’utilisateur et la clé *secret partagé* dans le champ de texte **[!UICONTROL Mot de passe]**.
 
-   Vous pouvez récupérer la clé *secret partagé* à partir de la console d’administration Analytics. Voir [Comment obtenir des informations d’identification d’API pour les comptes d’utilisateurs](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html).
+   Vous pouvez récupérer la clé *secret partagé* à partir de la console d’administration Analytics. Voir [Comment obtenir des informations d’identification d’API pour les comptes d’utilisateurs](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/create-oauth-client.md).
 
 1. Cliquez sur **[!UICONTROL Connexion]**.
 1. Dans le menu déroulant **[!UICONTROL Report Suite]**, choisissez une suite de rapports, puis cliquez sur **[!UICONTROL OK]**.
