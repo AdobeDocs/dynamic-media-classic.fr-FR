@@ -5,9 +5,9 @@ description: Documentation technique de l’Adobe Dynamic Media Classic
 seo-description: 'Documentation technique, notes de mise à jour et documents d’aide autonome pour l’Adobe Dynamic Media Classic, anciennement Scene7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '668'
 ht-degree: 13%
 
 ---
@@ -25,7 +25,7 @@ Voir [Questions fréquentes](new-ui-2020.md). Nouvelles mises à jour en date du
 
 ## Ressources du développeur de Dynamic Media
 
-* [landing page](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)  des ressources du développeur Dynamic Media : inclut le guide de référence des visionneuses, l’API de diffusion d’images/rendu d’images, l’API Image Production System et les notes de mise à jour de Dynamic Media Classic.
+* [landing page](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)  des ressources du développeur Dynamic Media : inclut le guide de référence des visionneuses, l’API de diffusion d’images/rendu d’images, l’API Image Production System et les notes de mise à jour de Dynamic Media Classic.
 * [Exemples](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)  de la bibliothèque de visionneuses : comprend des exemples de visionneuses pour les vidéos, les médias pouvant être utilisés dans les magasins, les médias mixtes, les visionneuses à 360°, les zooms intégrés, les visionneuses d’images et d’échantillons et les vidéos enfichables.
 
 ## Ressources utilisateur Dynamic Media Classic
