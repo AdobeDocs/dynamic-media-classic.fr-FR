@@ -1,17 +1,15 @@
 ---
 title: Liaison des visionneuses de zoom à vos pages Web
 description: Découvrez comment lier des visionneuses de zoom à vos pages Web.
-uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 86%
+source-wordcount: '674'
+ht-degree: 85%
 
 ---
 
@@ -46,7 +44,7 @@ Vos sites Web et applications accèdent au contenu du serveur Dynamic Media Imag
 
 En règle générale, les visiteurs d’un site Web effectuent un zoom sur les images en sélectionnant en premier lieu une icône de zoom (souvent à l’image d’une loupe). La sélection de cette icône entraîne l’ouverture d’une page Web dynamique (ASP ou JSP) qui affiche l’image dans une fenêtre contextuelle. C’est dans cette fenêtre contextuelle que les visiteurs effectuent un zoom sur l’image.
 
-Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom de base HTML5 dans le Guide de référence des visionneuses d’Adobes](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
+Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom de base HTML5 dans le Guide de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copie de la copie incorporée d’une visionneuse de zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
@@ -72,7 +70,6 @@ La fonction Code incorporé permet de vérifier le code de la visionneuse de zoo
 
 1. Dans la boîte de dialogue Code incorporé, cliquez sur **Copier dans le Presse-papiers**.
 
-   Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
+   Vous ne pouvez pas modifier le code dans la boîte de dialogue Code intégré.
 
-1. Cliquez sur Fermer.
-
+1. Cliquez sur **Fermer**.
