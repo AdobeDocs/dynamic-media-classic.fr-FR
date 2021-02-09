@@ -1,18 +1,14 @@
 ---
 title: Configuration de l’application
-seo-title: Configuration de l’application
-description: Découvrez comment configurer la zone d’application de Dynamic Media Classic.
-seo-description: Découvrez comment configurer la zone d’application de Dynamic Media Classic.
-uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
+description: Découvrez comment configurer la zone Application de Dynamic Media Classic.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '10979'
+source-wordcount: '10914'
 ht-degree: 68%
 
 ---
@@ -160,7 +156,7 @@ Les administrateurs peuvent créer des paramètres prédéfinis pour l’exporta
 
 Pour ouvrir l’écran Paramètres d’image prédéfinis, dans la barre de navigation globale, cliquez sur **Configuration** > **Paramètres d’image prédéfinis**.
 
-Voir [Imagerie intelligente](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
+Voir [Imagerie intelligente](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
 ### Création et modification de paramètres d’image prédéfinis {#creating-and-editing-image-presets}
 
@@ -376,8 +372,8 @@ Pour plus d’informations sur les options de codage, voir [A propos des options
 | 2 | 4:3, 384x288, mobile (iPhone, iPad, Android), (400 kbits/s) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Identique à la source | 64 | Faible résolution, 3G |
 | 1 | 16:9, 512x288, mobile (iPhone, iPad, Android), (600 kbits/s) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Identique à la source | 64 | Résolution moyenne, 3G |
 | 4 | 4:3, 384x288, mobile (iPhone, iPad, Android), (600 kbits/s) | 700 | _Mobile_384x288 _600 | 600 | 384 x 288 | Identique à la source | 64 | Résolution moyenne, 3G |
-| 5 | 16:9, 640x360, tablette (iPad, Android), (800 Kbits/s) | 900 | _iPad_640x360_800K | 600 | 640 x 360 | Identique à la source | 80 | Résolution moyenne, Wi-Fi |
-| 6 | 4:3, 640x480, tablette (iPad, Android), (800 Kbits/s) | 900 | _iPad_640x480_800K | 600 | 640 x 480 | Identique à la source | 80 | Résolution moyenne, Wi-Fi |
+| 5 | 16:9, 640x360, tablette (iPad, Android), (800 Kbits/s) | 900 | _iPad_640x360_800K | 800 | 640 x 360 | Identique à la source | 80 | Résolution moyenne, Wi-Fi |
+| 6 | 4:3, 640x480, tablette (iPad, Android), (800 Kbits/s) | 900 | _iPad_640x480_800K | 800 | 640 x 480 | Identique à la source | 80 | Résolution moyenne, Wi-Fi |
 | 7 | 16:9, 768x432, tablette (iPad, Android), (1 200 Kbits/s) | 1,5 Mbit/s | _iPad_768x432_1200K | 1 200 | 768 x 432 | Identique à la source | 96 | Haute résolution, Wi-Fi |
 | 8 | 4:3, 768x576, tablette (iPad, Android), (1 200 Kbits/s) | 1,5 Mbit/s | _iPad_768x576_1200K | 1 200 | 768 x 576 | Identique à la source | 96 | Haute résolution, Wi-Fi |
 | 9 | 16:9, 1280 x 720, bureau, (2 000 Kbits/s) | 3 Mbits/s | _1280X720_2000K | 2 000 | 1280 x 720 | Identique à la source | 128 | Haute définition, Grand écran |
@@ -398,7 +394,7 @@ Pour plus d’informations sur les options de codage prédéfinies, voir [A prop
 | 1 | 16:9, 800 x 450 (1 200 Kbits/s) | 1,5 Mbit/s | _800X450_1200K | 1 200 | 800 x 450 | Identique à la source | 96 | Moyenne à haute résolution |
 | 4 | 16:9, 1280 x 720 (2 000 Kbits/s) | 3 Mbits/s | _1280X720_2000K | 2 000 | 1280 x 720 | Identique à la source | 128 | Haute définition, Grand écran |
 | 5 | 4:3, 320 x 240 (400 kb/s) | 500 | _320X240_400K | 400 | 320 x 240 | Identique à la source | 64 | Basse résolution |
-| 6 | 4:3, 480 x 360 (800 Kbits/s) | 900 | _480X360_800K | 600 | 480 x 360 | Identique à la source | 80 | Résolution moyenne |
+| 6 | 4:3, 480 x 360 (800 Kbits/s) | 900 | _480X360_800K | 800 | 480 x 360 | Identique à la source | 80 | Résolution moyenne |
 | 7 | 4:3, 640 x 480 (1 200 Kbits/s) | 1,5 Mbit/s | _640X480_1200K | 1 200 | 640 x 480 | Identique à la source | 96 | Moyenne à haute résolution |
 | 8 | 4:3, 1 280 x 960 (2 000 Kbits/s) | 3 Mbits/s | _1280X960_2000K | 2 000 | 1280 x 960 | Identique à la source | 128 | Haute définition |
 
@@ -406,12 +402,12 @@ Pour plus d’informations sur les options de codage prédéfinies, voir [A prop
 
 |  | Nom du paramètre prédéfini de codage/Texte de l’info-bulle | Vitesse de connexion cible (Kbit/s) | Suffixe de fichier codé | Débit de données vidéo (Kb/s) | Largeur/hauteur (pixels) | Nombre d’images par seconde (i/s) | Débit audio (Kbit/s) | Recommandations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9, 480 x 270 (400 Kbits/s, OGG | 500 | _OGG_480x270_400K | 400 | 480 x 270 | Identique à la source | 64 | Résolution grand écran faible |
-| 2 | 16:9, 640 x 360 (800 Kbits/s), OGG | 900 | _OGG_640x360_800K | 600 | 640 x 360 | Identique à la source | 80 | Résolution grand écran moyenne |
-| 1 | 16:9, 800 x 450 (1 200 Kbits/s), OGG | 1,5 Mbit/s | _OGG_800x450_1200K | 1 200 | 800 x 450 | Identique à la source | 96 | Moyenne à haute résolution |
+| 1 | 16:9, 480 x 270 (400 Kbits/s, OGG | 500 | _OGG_480x270_400K | 400 | 480 x 270 | Identique à la source | 64 | Résolution grand écran faible |
+| 2 | 16:9, 640 x 360 (800 Kbits/s), OGG | 900 | _OGG_640x360_800K | 800 | 640 x 360 | Identique à la source | 80 | Résolution grand écran moyenne |
+| 3 | 16:9, 800 x 450 (1 200 Kbits/s), OGG | 1,5 Mbit/s | _OGG_800x450_1200K | 1 200 | 800 x 450 | Identique à la source | 96 | Moyenne à haute résolution |
 | 4 | 16:9, 1280 x 720 (2 000 Kbits/s), OGG | 3 Mbits/s | _OGG_1280x720_2000K | 2 000 | 1280 x 720 | Identique à la source | 128 | Haute définition, Grand écran |
 | 5 | 4:3, 320 x 240 (400 kb/s), OGG | 500 | _OGG_320X240_400K | 400 | 320 x 240 | Identique à la source | 64 | Basse résolution |
-| 6 | 4:3, 480 x 360 (800 Kbits/s), OGG | 900 | _OGG_480x360_800K | 600 | 480 x 360 | Identique à la source | 80 | Résolution moyenne |
+| 6 | 4:3, 480 x 360 (800 Kbits/s), OGG | 900 | _OGG_480x360_800K | 800 | 480 x 360 | Identique à la source | 80 | Résolution moyenne |
 | 7 | 4:3, 640 x 480 (1 200 Kbits/s), OGG | 1,5 Mbit/s | _OGG_640x480_1200K | 1 200 | 640 x 480 | Identique à la source | 96 | Moyenne à haute résolution |
 | 8 | 4:3, 1 280 x 960 (2 000 Kbits/s), OGG | 3 Mbits/s | _OGG_1280x960_2000K | 2 000 | 1280 x 960 | Identique à la source | 128 | Haute définition |
 
@@ -426,13 +422,13 @@ Pour plus d’informations sur les options de codage prédéfinies, voir [A prop
 |  | Nom du paramètre prédéfini de codage/Texte de l’info-bulle | Vitesse de connexion cible (Kbit/s) | Suffixe de fichier codé | Débit vidéo (Kbit/s) | Hauteur/largeur en pixels | Nombre d’images par seconde (i/s) | Débit audio (Kbit/s) | Recommandations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 512 x 288, Mobile (400 Kbit/s) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Identique à la source | 64 | Faible résolution, 3G |
-| 2 | 16:9, 512 x 288, Mobile (600 Kbit/s) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Identique à la source | 64 | Résolution moyenne, 3G |
-| 3 | 16:9, 512 x 288, Mobile (800 Kbit/s) | 900 | _Mobile_512x288_800K | 600 | 512 x 288 | Identique à la source | 80 | Résolution moyenne, Wi-Fi |
+| 2 | 16:9, 512 x 288, Mobile (600 Kbit/s) | 700 | _Mobile_512x288_600K | 800 | 512 x 288 | Identique à la source | 64 | Résolution moyenne, 3G |
+| 3 | 16:9, 512 x 288, Mobile (800 Kbit/s) | 900 | _Mobile_512x288_800K | 800 | 512 x 288 | Identique à la source | 80 | Résolution moyenne, Wi-Fi |
 | 4 | 16:9, 512 x 288, Mobile (1 000 Kbit/s) | 1,2 Mbit/s | _Mobile_512x288_1000K | 1 000 | 512 x 288 | Identique à la source | 80 | Haute résolution, Wi-Fi |
 | 5 | 16:9, 512 x 288, Mobile (1 200 Kbit/s) | 1,5 Mbit/s | _Mobile_512x288_1200K | 1 200 | 512 x 288 | Identique à la source | 96 | Haute résolution, Wi-Fi |
 | 6 | 4:3, 384 x 288, Mobile (400 Kbit/s) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Identique à la source | 64 | Faible résolution, 3G |
-| 7 | 4:3, 384 x 288, Mobile (600 Kbit/s) | 700 | _Mobile_384x288_600K | 600 | 384 x 288 | Identique à la source | 64 | Résolution moyenne, 3G |
-| 8 | 4:3, 448 x 336, Mobile (800 Kbit/s) | 900 | _Mobile_448x336_800K | 600 | 448 x 336 | Identique à la source | 80 | Résolution moyenne, Wi-Fi |
+| 7 | 4:3, 384 x 288, Mobile (600 Kbit/s) | 700 | _Mobile_384x288_600K | 800 | 384 x 288 | Identique à la source | 64 | Résolution moyenne, 3G |
+| 8 | 4:3, 448 x 336, Mobile (800 Kbit/s) | 900 | _Mobile_448x336_800K | 800 | 448 x 336 | Identique à la source | 80 | Résolution moyenne, Wi-Fi |
 | 9 | 4:3, 448 x 336, Mobile (1 000 Kbit/s) | 1,2 Mbit/s | _Mobile_448x336_1000K | 1 000 | 448 x 336 | Identique à la source | 80 | Haute résolution, Wi-Fi |
 | 10 | 4:3, 448 x 336, Mobile (1 200 Kbit/s) | 1,5 Mbit/s | _Mobile_448x336_1200K | 1 200 | 448 x 336 | Identique à la source | 96 | Haute résolution, Wi-Fi |
 
@@ -440,13 +436,13 @@ Pour plus d’informations sur les options de codage prédéfinies, voir [A prop
 
 >[!NOTE]
 >
->**Avis**  de fin de vie pour les visionneuses de Flashs - Depuis le 31 janvier 2017, Adobe Dynamic Media Classic a officiellement mis fin à la prise en charge de la plate-forme de lecteur de Flash. Pour plus d&#39;informations sur cette modification importante, consultez le site Web de la FAQ suivante : [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Avis**  de fin de vie pour les visionneuses de Flashs - Depuis le 31 janvier 2017, Adobe Dynamic Media Classic a officiellement mis fin à la prise en charge de la plate-forme de lecteur de Flash.
 
 Un *paramètre prédéfini de visionneuse* est un ensemble de paramètres qui déterminent comment les utilisateurs voient les fichiers de média enrichi sur leur écran d’ordinateur et périphériques mobiles. En tant qu’administrateur, vous pouvez créer des paramètres de visionneuse prédéfinis. Des paramètres sont disponibles pour un ensemble d’options de configuration de la visionneuse. Vous pouvez, par exemple, modifier la taille d’affichage de la visionneuse, le comportement du zoom, les modes de couleurs, les bordures et les polices.
 
 Il est recommandé d’utiliser les visionneuses de vidéos HTML5 Dynamic Media Classic. Les paramètres prédéfinis utilisés dans des visionneuses de vidéos HTML5 sont des lecteurs vidéo fiables. En combinant dans un seul lecteur la capacité de concevoir les composants de lecture à l’aide de code HTML5 et CSS, d’avoir accès à la lecture incorporée et d’utiliser les flux continus adaptatifs et progressifs selon la capacité du navigateur, vous pouvez étendre la portée de votre contenu multimédia aux utilisateurs d’appareils mobiles, de tablettes et d’ordinateurs et garantir ainsi une expérience vidéo rationalisée.
 
-Voir [A propos des visionneuses HTML5](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) dans le Guide de référence des visionneuses d’Adobes.
+Voir [A propos des visionneuses HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses d’Adobes.
 
 Voir [Matrice de compatibilité des paramètres prédéfinis de la visionneuse Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -490,15 +486,13 @@ Par exemple, si la taille de l’image principale est de 350 x 350 pixels et 
 
 **Avis** de fin de vie pour les lecteurs de Flash : Depuis le 31 janvier 2017, l’Adobe Dynamic Media Classic a officiellement mis fin à la prise en charge de la plate-forme du lecteur de Flash.
 
-Pour plus d&#39;informations sur cette modification importante, consultez le site Web de la FAQ suivante : [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
-
 Le tableau suivant identifie les paramètres prédéfinis actuellement disponibles pour la visionneuse Dynamic Media Classic. Ce tableau indique également la compatibilité de la visionneuse avec les périphériques mobiles et fixes, et la technologie utilisée pour chacune des visionneuses données.
 
 Voir aussi [Exemples de bibliothèque de référence des visionneuses d’Adobes](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 Pour en savoir plus sur les versions de navigateur Web et de système d’exploitation prises en charge pour les visionneuses, consultez les notes de mise à jour des visionneuses.
 
-Voir [Notes de mise à jour de référence des visionneuses d’Adobes](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Voir [Notes de mise à jour de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
 |  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android | Tablette Android |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -630,7 +624,7 @@ Voir [Exportation d’un paramètre prédéfini de visionneuse HTML5](applicatio
    >
    >choisissez Identique à la source pour dimensionner automatiquement la visionneuse de vidéos selon la taille de résolution de la vidéo codée. Si vous sélectionnez cette option, vous ne pouvez pas saisir la largeur d’affichage et la hauteur d’affichage. Ces valeurs proviennent directement de la vidéo elle-même. Si vous choisissez Identique à la source, définissez l’option Taille de marge, de sorte qu’elle reflète les dimensions d’habillage en dehors de la zone de lecture vidéo. Cette taille de marge correspond à la hauteur et à la largeur, en pixels, des commandes vidéo. Vous pouvez utiliser l’illustration suivante pour vous aider à déterminer les tailles des marges à utiliser.*
 
-   ![](assets/vs_video_viewer_configure_margin.png)
+   ![Configuration de marge de la visionneuse de vidéos](assets/vs_video_viewer_configure_margin.png)
 
 1. Effectuez l’une des opérations suivantes :
 
