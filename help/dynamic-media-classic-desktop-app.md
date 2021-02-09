@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 84a36e45ecf5fb027645e0f9da40b00ad3ce29e0
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -183,7 +183,7 @@ Pour télécharger et *silencieux* installer la dernière version de l’applica
 
 ## Présentation vidéo de l’utilisation de l’application de bureau Dynamic Media Classic {#dmc-app-video-walk-through}
 
-Regardez une présentation [vidéo sur l’utilisation de l’application de bureau Dynamic Media Classic](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (durée : 2 minutes 36 secondes).
+Regardez une présentation [vidéo sur l’utilisation de l’application de bureau Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (durée : 2 minutes 36 secondes).
 
 ## Effacement du cache d’images et du cache de ressources sur votre ordinateur à l’aide de l’application de bureau
 
