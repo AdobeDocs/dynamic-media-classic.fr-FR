@@ -8,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 91%
+source-wordcount: '680'
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,7 @@ Après avoir publié une visionneuse d’images, vous pouvez copier son URL ou s
 
 La méthode la plus courante pour déployer les visionneuses d’images consiste à insérer un lien (par le biais d’une icône de navigation) dans votre page Web. Lorsque vous cliquez dessus, le lien lance une page dynamique (JSP) qui affiche la visionneuse d’images dans une fenêtre de zoom contextuelle. Le lien de zoom affiche une fenêtre contextuelle contenant l’affichage agrandi proprement dit.
 
-Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le Guide de référence des visionneuses d’Adobes](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
+Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le Guide de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copie du code incorporé d’une visionneuse d’images {#copying-the-embed-code-of-an-image-set-viewer}
 
