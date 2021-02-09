@@ -1,13 +1,11 @@
 ---
 title: Configuration de la publication
 description: Les paramètres de l’écran Configuration de la publication déterminent comment les ressources sont distribuées par défaut depuis les serveurs Dynamic Media Classic vers les sites Web ou les applications.
-uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
 source-wordcount: '2418'
 ht-degree: 64%
@@ -21,7 +19,7 @@ Les paramètres de l’écran Configuration de la publication déterminent comme
 
 Les administrateurs peuvent modifier les paramètres par défaut sur les écrans Image Server, Image Renderer et Vignette pour définir les paramètres par défaut utilisés pour diffuser des fichiers à partir des serveurs.
 
-Pour ouvrir les écrans Configuration de la publication, cliquez sur Configuration >Configuration de l’application > Configuration de la publication.
+Pour ouvrir les écrans Configuration de la publication, cliquez sur **Configuration** > **Configuration de l’application** > **Configuration de la publication**.
 
 >[!NOTE]
 >
