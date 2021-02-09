@@ -1,16 +1,14 @@
 ---
 title: Recommandations pour optimiser la qualité des images
 description: Découvrez les meilleures pratiques pour optimiser la qualité de vos images.
-uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1474'
 ht-degree: 60%
 
 ---
@@ -22,7 +20,7 @@ L’optimisation de la qualité des images peut prendre un certain temps, car de
 
 Dynamic Media Classic comprend plus de 100 commandes de traitement d’images pour le réglage et l’optimisation des images et des résultats de rendu. Les conseils suivants vous aideront à simplifier le processus et à obtenir rapidement de bons résultats en utilisant quelques commandes essentielles et en appliquant les pratiques recommandées.
 
-Voir aussi [Imagerie intelligente](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
+Voir aussi [Imagerie intelligente](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
 ## Recommandations relatives au format d’image (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
@@ -50,7 +48,7 @@ L’accentuation des images est l’aspect le plus complexe de contrôle des ima
 
 Livre blanc des meilleures pratiques [Accentuation des images dans l’Adobe Dynamic Media Classic et sur le serveur d’images](/help/assets/s7_sharpening_images.pdf).
 
-Voir aussi [Accentuation d’une image avec un masque flou ](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html).
+<!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
 Avec Dynamic Media Classic, vous pouvez accentuer les images lors de l’assimilation, de la diffusion ou des deux. Dans la plupart des cas, cependant, il est préférable d’accentuer les images en utilisant uniquement l’une des deux méthodes, mais pas les deux. L’accentuation des images à la distribution, dans une URL, produit généralement de meilleurs résultats.
 
@@ -70,11 +68,7 @@ Il existe deux méthodes d’accentuation des images que vous pouvez utiliser :
 
          Ce paramètre détermine la différence entre les pixels accentués et la zone environnante avant qu’ils ne soient considérés comme des pixels de contour et que le filtre ne les renforce. Le seuil permet d’éviter de trop accentuer les zones avec des couleurs similaires, comme des tons chair. Par exemple, une valeur de seuil de 12 permet d’ignorer les légères variations de la luminosité de la peau pour éviter d’ajouter du « bruit », tout en ajoutant un contraste sur les bords dans les zones à fort contraste, comme l’endroit où les cils rencontrent la peau.
 
-         Pour plus d’informations sur la façon de définir ces trois paramètres, y compris les pratiques recommandées à appliquer avec le filtre, reportez-vous aux ressources suivantes :
-
-         Rubrique d’aide de Dynamic Media Classic sur [Accentuation d’une image](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
-
-         Livre blanc des meilleures pratiques [Accentuation des images dans Adobe Scene7 Publishing System et sur Image Server](/help/assets/s7_sharpening_images.pdf).
+         Pour plus d’informations sur la définition de ces trois paramètres, y compris les meilleures pratiques à utiliser avec le filtre, voir [Accentuation des images dans Adobe Scene7 Publishing System et sur Image Server](/help/assets/s7_sharpening_images.pdf).
 
       * Dynamic Media Classic vous permet également de contrôler un quatrième paramètre : monochrome ( `0,1`). Ce paramètre détermine si le masquage flou est appliqué séparément à chaque composante de couleur en utilisant la valeur `0` ou à la luminosité/intensité de l’image en utilisant la valeur `1`.
 
