@@ -1,17 +1,15 @@
 ---
 title: 'Publication de fichiers '
-description: Apprenez à publier des fichiers.
-uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
+description: Vous publiez vos fichiers sur les serveurs Dynamic Media Image Server. Vous pouvez publier des fichiers une seule fois ou organiser Dynamic Media Classic pour publier des fichiers selon un calendrier récurrent. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL de Dynamic Media Classic et les ajouter à votre site Web ou application.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 76%
+source-wordcount: '1706'
+ht-degree: 75%
 
 ---
 
@@ -20,7 +18,7 @@ ht-degree: 76%
 
 Vous publiez vos fichiers sur les serveurs Dynamic Media Image Server. Vous pouvez publier des fichiers une seule fois ou organiser Dynamic Media Classic pour publier des fichiers selon un calendrier récurrent. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL de Dynamic Media Classic et les ajouter à votre site Web ou application.
 
-Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos sur HTTP/2. En d’autres termes, une URL publiée ou un code incorporé pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cet actif publié est ensuite livré au moyen du protocole HTTP/2. Cette méthode de diffusion améliore la manière dont les navigateurs et les serveurs communiquent, ce qui permet de mieux répondre et de mieux charger les ressources Dynamic Media Classic. Voir [Diffusion HTTP2 de la FAQ sur le contenu](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
+Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos sur HTTP/2. En d’autres termes, une URL publiée ou un code incorporé pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cet actif publié est ensuite livré au moyen du protocole HTTP/2. Cette méthode de diffusion améliore la manière dont les navigateurs et les serveurs communiquent, ce qui permet de mieux répondre et de mieux charger les ressources Dynamic Media Classic. Voir [Diffusion HTTP2 de la FAQ sur le contenu](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Publication après le téléchargement {#publish-after-uploading}
 
