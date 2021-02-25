@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 0aad46c6fd3c520e0e40e177be0bd0cb25188719
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ L’application de bureau Adobe Dynamic Media Classic est compatible avec les sy
 * Problèmes de connexion dus au dépassement de délai, qui se traduisent par le message suivant : *Cet utilisateur peut être affecté au groupe ou aux groupes sans autorisation. Contactez votre administrateur.*
 * Les paramètres prédéfinis de la visionneuse sont dupliqués à chaque tentative de mot de passe incorrecte.
 * L’application de bureau ne répond plus en raison de nombreux fichiers contenus dans le dossier racine. (Correction sous Windows ; fonctionne comme vous le souhaitez sur macOS.)
+* jlkjlkj
 
 ## Correctifs de la version précédente (20.20.2) {#previous-version-fixes-desktop-app}
 
@@ -189,11 +190,11 @@ Regardez une présentation [vidéo sur l’utilisation de l’application de bur
 
 1. Dans l’application de bureau Dynamic Media Classic, près du coin supérieur droit, appuyez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration personnelle]**.
 1. Sur la page **[!UICONTROL Configuration personnelle]**, sous l&#39;en-tête **[!UICONTROL Bureau]**, effectuez l&#39;une des opérations suivantes :
-   * Appuyez sur **[!UICONTROL Effacer le cache d’image]** pour supprimer tous les fichiers d’image mis en cache de Dynamic Media Adobe de votre ordinateur. Appuyez sur **[!UICONTROL OK]**.
-   * Appuyez sur **[!UICONTROL Effacer le cache de ressources]** pour supprimer tous les fichiers de ressources en cache de Dynamic Media d&#39;Adobe de votre ordinateur. Appuyez sur **[!UICONTROL OK]**.
+   * Pour supprimer tous les fichiers d’image mis en cache de Dynamic Media Adobe de votre ordinateur, appuyez sur **[!UICONTROL Effacer le cache d’image]**, puis sur **[!UICONTROL OK]**.
+   * Pour supprimer tous les fichiers de ressources mis en cache de Dynamic Media Adobe de votre ordinateur, appuyez sur **[!UICONTROL Effacer le cache de ressources]**, puis sur **[!UICONTROL OK]**.
 1. Dans le coin inférieur droit de la page, appuyez sur **[!UICONTROL Fermer]**.
 
-### Suppression manuelle du cache d’images et du cache de ressources
+### Effacement manuel du cache d’image et du cache de ressources {#clear-cache}
 
 Outre l’effacement du cache d’images et de ressources à l’aide de l’application de bureau, vous pouvez effacer manuellement le cache directement à partir du système de fichiers.
 
@@ -201,6 +202,10 @@ Outre l’effacement du cache d’images et de ressources à l’aide de l’app
 
    * macOS : `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+
+## Limite connue dans Dynamic Media Classic 2021.1
+
+* La liste déroulante **[!UICONTROL Serveur]** est vide après la mise à jour vers l’application de bureau Dynamic Media Classic 20.21.1 - Scénario : Vous installez et vous connectez à Dynamic Media Classic 20.20.1 ou 20.20.2, puis fermez l’application. Mettez ensuite à jour vers Dynamic Media Classic 20.21.1. Lorsque vous tentez de vous connecter, la liste déroulante **[!UICONTROL Serveur]** de la boîte de dialogue **[!UICONTROL Se connecter à votre compte]** est vide. Pour résoudre ce problème, [effacez manuellement le cache](#clear-cache).
 
 ## Limites connues dans Dynamic Media Classic 20.20.1 (fixées dans la version 20.20.2)
 
@@ -210,7 +215,8 @@ Outre l’effacement du cache d’images et de ressources à l’aide de l’app
 * Dans l’application Dynamic Media Classic, sélectionnez la nouvelle société dans la liste déroulante société.
 * Lorsque la fenêtre contextuelle s’affiche, appuyez sur **[!UICONTROL OK]** pour vous déconnecter et fermer l’application.
 
-   ![Redémarrez l’application pour utiliser la nouvelle société.](/help/assets/dmclassic-new-company1.png)
+   ![Pour utiliser la nouvelle société, redémarrez l’application.](/help/assets/dmclassic-new-company1.png)
+
 * Redémarrez Dynamic Media Classic, puis connectez-vous comme d’habitude pour utiliser la nouvelle société.
 
 ## Conseils et astuces
