@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 556deae011dd82e847b72c00981a84190f9a5805
+source-git-commit: 5b9529a03e6d3c84b81088493be00a8063163f42
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -203,7 +203,7 @@ Outre l’effacement du cache d’images et de ressources à l’aide de l’app
    * macOS : `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Limite connue dans Dynamic Media Classic 2021.1
+## Limite connue dans Dynamic Media Classic 20.21.1
 
 * La liste déroulante **[!UICONTROL Serveur]** est vide après la mise à jour vers l’application de bureau Dynamic Media Classic 20.21.1 - Scénario : Vous installez et vous connectez à Dynamic Media Classic 20.20.1 ou 20.20.2, puis fermez l’application. Ensuite, vous passez à Dynamic Media Classic 20.21.1. Lorsque vous tentez de vous connecter, la liste déroulante **[!UICONTROL Serveur]** de la boîte de dialogue **[!UICONTROL Se connecter à votre compte]** est vide. Pour résoudre ce problème, vous devez [effacer manuellement le cache](#clear-cache) (voir les étapes ci-dessus).
 
