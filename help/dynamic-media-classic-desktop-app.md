@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 077f6cc18f6cd88ef18a7555e7df49a975b6f229
+source-git-commit: 556deae011dd82e847b72c00981a84190f9a5805
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -186,7 +186,7 @@ Pour télécharger et *silencieux* installer la dernière version de l’applica
 
 Regardez une présentation [vidéo sur l’utilisation de l’application de bureau Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (durée : 2 minutes 36 secondes).
 
-## Effacement du cache d’images et du cache de ressources sur votre ordinateur à l’aide de l’application de bureau
+## Effacement du cache d&#39;image et du cache de ressources sur votre ordinateur à l&#39;aide de l&#39;application de bureau {#clear-cache}
 
 1. Dans l’application de bureau Dynamic Media Classic, près du coin supérieur droit, appuyez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration personnelle]**.
 1. Sur la page **[!UICONTROL Configuration personnelle]**, sous l&#39;en-tête **[!UICONTROL Bureau]**, effectuez l&#39;une des opérations suivantes :
@@ -194,7 +194,7 @@ Regardez une présentation [vidéo sur l’utilisation de l’application de bur
    * Pour supprimer tous les fichiers de ressources mis en cache de Dynamic Media Adobe de votre ordinateur, appuyez sur **[!UICONTROL Effacer le cache de ressources]**, puis sur **[!UICONTROL OK]**.
 1. Dans le coin inférieur droit de la page, appuyez sur **[!UICONTROL Fermer]**.
 
-### Effacement manuel du cache d’image et du cache de ressources {#clear-cache}
+### Suppression manuelle du cache d’images et du cache de ressources
 
 Outre l’effacement du cache d’images et de ressources à l’aide de l’application de bureau, vous pouvez effacer manuellement le cache directement à partir du système de fichiers.
 
