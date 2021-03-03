@@ -5,10 +5,10 @@ description: Documentation technique de l’Adobe Dynamic Media Classic
 seo-description: 'Documentation technique, notes de mise à jour et documents d’aide autonome pour l’Adobe Dynamic Media Classic, anciennement Scene7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 1e7635e1e8c1e9da09b22b8bdc0a71a39cd53088
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 13%
+source-wordcount: '591'
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ Voir [Questions fréquentes](new-ui-2020.md). Nouvelles mises à jour en date du
 * [Guide : Bonnes pratiques relatives à l’utilisation de Dynamic Media Classic](https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf)
 * [Guide : Guide des meilleures pratiques pour l’accentuation des images](/help/assets/s7_sharpening_images.pdf)
 * [Guide : Prise en charge du référencement](/help/assets/s7_seo.pdf)  des Adobes dynamiques par Media Classic - Les moteurs de recherche permettent aujourd&#39;hui de rechercher des sites Web et des images. Dynamic Media Classic prend en charge les efforts visant à rendre les images plus conviviales pour les moteurs de recherche, de sorte que davantage de trafic soit dirigé vers le site Web de l’utilisateur de Dynamic Media Classic. Ce guide en PDF présente l’arrière-plan et les recommandations d’implémentation nécessaires pour y parvenir.
-* [Webinaire : Bonnes pratiques pour la conception](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html)  réactive - Découvrez des conseils pratiques sur la manière d&#39;améliorer votre stratégie mobile. Consultez des exemples réels de conception adaptée. Créez un fichier original qui fonctionne sur plusieurs périphériques et améliorez les performances mobiles en modifiant dynamiquement la résolution ou l’orientation des images pour les affichages en mode portrait ou paysage. Découvrez comment recadrer, mettre à l’échelle ou redimensionner les images de manière dynamique.
+<!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one master asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
 * [Webinaire : Bonnes pratiques pour diffuser des expériences interactives avec Dynamic Media Classic](http://seminars.adobeconnect.com/p7wb8ej3u6d/)  - Découvrez comment intégrer et exporter du contenu dans Dynamic Media Classic et comment configurer des paramètres d’image prédéfinis pour des performances et une expérience optimales. Il présente également les paramètres prédéfinis de la visionneuse et les configurations de mise en mémoire cache.
 * [Webinaire : Optimisation du RSI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  de vos ressources - Découvrez les meilleures pratiques du secteur pour diffuser du contenu multimédia enrichi sur vos sites et applications mobiles. Dans ce webinaire, nous donnons des exemples et des démonstrations qui vous montrent comment diffuser de la vidéo efficacement sur plusieurs périphériques, diffuser de la création dynamique dans vos campagnes marketing et augmenter la conversion en rendant les images, les guides de style ou les guides de recherche accessibles.
 * [Webinaire : Accélérez le cycle de vie](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  de votre Diffusion de contenu - Une introduction et une démonstration des ressources Adobe Experience Manager - On Demand, la nouvelle génération de plate-forme pour la gestion et la diffusion des médias enrichis. Découvrez comment collaborer et partager des ressources entre les équipes de création et de marketing afin de rationaliser les processus de révision des ressources ; les meilleures pratiques de gestion efficace des métadonnées de ressources pour faciliter la recherche, l’utilisation, la réutilisation et le partage des ressources, ainsi que la diffusion d’expériences multimédias interactives sur plusieurs canaux.
@@ -43,5 +43,5 @@ Voir [Questions fréquentes](new-ui-2020.md). Nouvelles mises à jour en date du
 
 ## Formation Dynamic Media Classic
 
-Allez [ici](http://training.adobe.com/training/courses.html#product=adobe-scene7) pour voir les cours de formation actuellement disponibles.
+Allez [ici](https://learning.adobe.com/catalog.html#product=adobe-scene7) pour voir les cours de formation actuellement disponibles.
 [Vidéos](/help/training-videos.md) de formation Dynamic Media Classic.
