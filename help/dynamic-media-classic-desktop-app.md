@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 5b9529a03e6d3c84b81088493be00a8063163f42
+source-git-commit: 9f93993fe1d3a94e3dcf23b5a151432346b09726
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ L’application de bureau Adobe Dynamic Media Classic est compatible avec les sy
 * Problèmes de connexion dus au dépassement de délai, qui se traduisent par le message suivant : *Cet utilisateur peut être affecté au groupe ou aux groupes sans autorisation. Contactez votre administrateur.*
 * Les paramètres prédéfinis de la visionneuse sont dupliqués à chaque tentative de mot de passe incorrecte.
 * L’application de bureau ne répond plus en raison de nombreux fichiers contenus dans le dossier racine. (Correction sous Windows ; fonctionne comme vous le souhaitez sur macOS.)
-* jlkjlkj
 
 ## Correctifs de la version précédente (20.20.2) {#previous-version-fixes-desktop-app}
 
