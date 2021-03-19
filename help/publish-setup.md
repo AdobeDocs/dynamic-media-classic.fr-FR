@@ -1,13 +1,15 @@
 ---
 title: Configuration de la publication
-description: Les paramètres de l’écran Configuration de la publication déterminent comment les ressources sont distribuées par défaut depuis les serveurs Dynamic Media Classic vers les sites Web ou les applications.
+description: Les paramètres Configuration de la publication vous permettent de déterminer comment les ressources sont distribuées par défaut à partir des serveurs Dynamic Media Classic vers des sites Web ou des applications.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media Classic
+role: Administrateur
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2422'
 ht-degree: 64%
 
 ---
