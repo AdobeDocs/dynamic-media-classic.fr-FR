@@ -1,10 +1,12 @@
 ---
 title: Vidéos de formation Dynamic Media Classic
 description: Vidéos de formation Dynamic Media Classic sur la prise en main, l’imagerie dynamique, la vidéo, le portail multimédia, les modèles et la création et le rendu d’images.
+feature: Dynamic Media Classic
+role: Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 1e7635e1e8c1e9da09b22b8bdc0a71a39cd53088
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '6544'
+source-wordcount: '6550'
 ht-degree: 0%
 
 ---
