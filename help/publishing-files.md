@@ -1,15 +1,17 @@
 ---
 title: 'Publication de fichiers '
-description: Vous publiez vos fichiers sur les serveurs Dynamic Media Image Server. Vous pouvez publier des fichiers une seule fois ou organiser Dynamic Media Classic pour publier des fichiers selon un calendrier récurrent. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL de Dynamic Media Classic et les ajouter à votre site Web ou application.
+description: '"Découvrez comment publier vos fichiers sur les serveurs Dynamic Media Image Server. Vous pouvez publier des fichiers une seule fois ou organiser Dynamic Media Classic pour publier des fichiers selon un calendrier récurrent. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL de Dynamic Media Classic et les ajouter à votre site Web ou application."'
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
+feature: Dynamic Media Classic,Gestion des ressources
+role: Professionnel
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 75%
+source-wordcount: '1715'
+ht-degree: 74%
 
 ---
 
