@@ -6,10 +6,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
+feature: Dynamic Media Classic,Gestion des ressources
+role: Professionnel
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '3852'
+source-wordcount: '3859'
 ht-degree: 43%
 
 ---
@@ -164,7 +166,7 @@ L’application de bureau Dynamic Media Classic vous permet de télécharger des
 1. Sur la page Télécharger, cliquez sur l’onglet **FROM DESKTOP**.
 1. Sur le côté gauche de la page de téléchargement, dans la zone **Sélectionner les fichiers à télécharger**, cliquez sur **Parcourir** pour sélectionner les fichiers ou les dossiers à télécharger, puis cliquez sur **Ouvrir**.
 1. Sur le côté droit de la page de téléchargement, dans la zone **Choisir la destination du dossier**, accédez au dossier de destination dans lequel vous souhaitez ajouter les fichiers ou dossiers téléchargés.
-1. (Facultatif) Près du bas de la page de téléchargement, dans le champ **Nom de la tâche**, indiquez le nouveau nom de la tâche de téléchargement. Vous pouvez également simplement utiliser le nom généré par le système par défaut fourni par Dynamic Media Classic. La tâche en question, ainsi que les autres tâches de téléchargement et de publication, sont enregistrées sur la page Tâches, sur laquelle vous pouvez vérifier l’état des tâches (voir [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)).
+1. (Facultatif) Près du bas de la page Télécharger, dans le champ **Nom de la tâche**, indiquez le nouveau nom de la tâche de téléchargement. Vous pouvez également simplement utiliser le nom généré par le système par défaut fourni par Dynamic Media Classic. La tâche en question, ainsi que les autres tâches de téléchargement et de publication, sont enregistrées sur la page Tâches, sur laquelle vous pouvez vérifier l’état des tâches (voir [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)).
 1. (Facultatif) Près du bas de la page de téléchargement, sélectionnez **Publier après le téléchargement** si vous souhaitez publier automatiquement les fichiers que vous téléchargez.
 Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Notez que cette même option est également disponible dans la boîte de dialogue Options tâche.
 1. (Facultatif) Près du bas de la page de téléchargement, sélectionnez **Remplacer dans n’importe quel dossier, même nom de fichier de base, indépendamment de l’extension** si vous souhaitez que les fichiers que vous téléchargez remplacent les fichiers existants portant le même nom. Notez que cette même option est également disponible dans la boîte de dialogue Options tâche.
@@ -184,7 +186,7 @@ Pour afficher la progression du transfert, cliquez sur **Tâches** dans la barre
 1. Sur la page Télécharger, cliquez sur l’onglet **VIA FTP**.
 1. Sur le côté gauche de la page de téléchargement, dans la zone **Choisir le dossier FTP pour le téléchargement**, sélectionnez un dossier FTP à partir duquel télécharger les fichiers.
 1. Sur le côté droit de la page de téléchargement, dans la zone **Choisir le dossier Dynamic Media d&#39;Adobe Destination**, sélectionnez un dossier de destination dans Dynamic Media Classic.
-1. (Facultatif) Près du bas de la page de téléchargement, dans le champ **Nom de la tâche**, indiquez le nouveau nom de la tâche de téléchargement. Vous pouvez également simplement utiliser le nom généré par le système par défaut fourni par Dynamic Media Classic. La tâche en question, ainsi que les autres tâches de téléchargement et de publication, sont enregistrées sur la page Tâches, sur laquelle vous pouvez vérifier l’état des tâches (voir [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)).
+1. (Facultatif) Près du bas de la page Télécharger, dans le champ **Nom de la tâche**, indiquez le nouveau nom de la tâche de téléchargement. Vous pouvez également simplement utiliser le nom généré par le système par défaut fourni par Dynamic Media Classic. La tâche en question, ainsi que les autres tâches de téléchargement et de publication, sont enregistrées sur la page Tâches, sur laquelle vous pouvez vérifier l’état des tâches (voir [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)).
 1. (Facultatif) Près du bas de la page de téléchargement, sélectionnez **Publier après le téléchargement** si vous souhaitez publier automatiquement les fichiers que vous téléchargez.
 Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Notez que cette même option est également disponible dans la boîte de dialogue Options tâche.
 1. (Facultatif) Près du bas de la page de téléchargement, sélectionnez **Remplacer dans n’importe quel dossier, même nom de fichier de base, indépendamment de l’extension** si vous souhaitez que les fichiers que vous téléchargez remplacent les fichiers existants portant le même nom. Notez que cette même option est également disponible dans la boîte de dialogue Options tâche.
