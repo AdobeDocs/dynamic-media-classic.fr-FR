@@ -1,15 +1,17 @@
 ---
 title: A propos du téléchargement et de la publication de fichiers
-description: Cette section présente le téléchargement et la publication de fichiers dans Dynamic Media Classic.
+description: Découvrez comment télécharger et publier des ressources dans Dynamic Media Classic.
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 47dcbb26-b90f-40d7-964e-f08fe98fcdbb
+feature: Dynamic Media Classic,Gestion des ressources
+role: Professionnel
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 35%
+source-wordcount: '222'
+ht-degree: 34%
 
 ---
 
