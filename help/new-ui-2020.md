@@ -4,10 +4,12 @@ description: Les utilisateurs de Dynamic Media Classic peuvent désormais effect
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media Classic
+role: Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
