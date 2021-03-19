@@ -2,10 +2,12 @@
 title: Ressources populaires
 description: Liens vers des webinaires, des vidéos de formation, des informations sur les meilleures pratiques et des ressources pour les développeurs.
 contentOwner: Rick Brough
+feature: Dynamic Media Classic
+role: Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '564'
 ht-degree: 16%
 
 ---
@@ -28,7 +30,7 @@ ht-degree: 16%
 
 * [Bonnes pratiques relatives à l’accentuation des images](/help/assets/s7_sharpening_images.pdf)
 * [Optimisez votre RSI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  sur les ressources - Découvrez les meilleures pratiques du secteur pour diffuser du contenu multimédia enrichi sur vos sites et applications mobiles. Dans ce webinaire, nous donnons des exemples et des démonstrations qui vous montrent comment diffuser de la vidéo efficacement sur plusieurs périphériques, diffuser de la création dynamique dans vos campagnes marketing et augmenter la conversion en rendant les images, les guides de style ou les guides de recherche accessibles.
-* [Accélérer le cycle de vie](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  de votre Diffusion de contenu - Ce webinaire vous offre une présentation et une démonstration de Adobe Experience Manager Assets - à la demande, la plateforme de la prochaine génération pour la gestion et la diffusion des médias enrichis. Découvrez comment collaborer et partager des ressources entre les équipes de création et de marketing afin de rationaliser les processus de révision des ressources ; les meilleures pratiques de gestion efficace des métadonnées de ressources pour faciliter la recherche, l’utilisation, la réutilisation et le partage des ressources, ainsi que la diffusion d’expériences multimédias interactives sur plusieurs canaux.
+* [Accélérer le cycle de vie](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  de votre Diffusion de contenu - Ce webinaire vous offre une présentation et une démonstration de Adobe Experience Manager Assets - à la demande, la nouvelle plateforme de gestion et de diffusion des médias enrichis pour la génération suivante. Découvrez comment collaborer et partager des ressources entre les équipes de création et de marketing afin de rationaliser les processus de révision des ressources ; les meilleures pratiques de gestion efficace des métadonnées de ressources pour faciliter la recherche, l’utilisation, la réutilisation et le partage des ressources, ainsi que la diffusion d’expériences multimédias interactives sur plusieurs canaux.
 * [Conception pour l&#39;optimisation](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  mobile : utilisez Dynamic Media Classic pour diffuser efficacement des médias enrichis ciblés sur tous les périphériques. Dans ce webinaire, vous apprendrez à concevoir et diffuser des expériences de visualisation de vidéos et d’images efficaces sur les applications mobiles et les sites réactifs.
 * [Prise en charge du référencement](/help/assets/s7_seo.pdf)  des Adobes dynamiques par Media Classic - Les moteurs de recherche permettent aujourd&#39;hui de rechercher des sites Web et des images. Dynamic Media Classic prend en charge les efforts visant à rendre les images plus conviviales pour les moteurs de recherche, de sorte que davantage de trafic soit dirigé vers le site Web de l’utilisateur de Dynamic Media Classic. Ce fichier PDF présente l’arrière-plan et les recommandations d’implémentation nécessaires pour y parvenir.
 * [Utilisation de Dynamic Media Classic pour optimiser la conversion](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true)  des vacances - Ce webinaire vous explique comment configurer des workflows automatisés pour obtenir du contenu à partir de dossiers de contrôle et créer automatiquement des visionneuses à 360° et des vidéos. Vous découvrirez également comment gérer rapidement les modifications et mettre à jour les images.
