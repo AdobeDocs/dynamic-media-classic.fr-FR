@@ -4,10 +4,12 @@ seo-title: Documentation technique et auto-assistance pour l’Adobe Dynamic Med
 description: Documentation technique de l’Adobe Dynamic Media Classic
 seo-description: 'Documentation technique, notes de mise à jour et documents d’aide autonome pour l’Adobe Dynamic Media Classic, anciennement Scene7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media Classic
+role: Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 1e7635e1e8c1e9da09b22b8bdc0a71a39cd53088
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '597'
 ht-degree: 6%
 
 ---
