@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: a2824244-1755-42de-a167-42af117cf038
+feature: Dynamic Media Classic
+role: Ingénieur de données, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 36%
+source-wordcount: '307'
+ht-degree: 35%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 36%
 
 Vous pouvez utiliser le kit d’instrumentation Adobe Analytics pour intégrer une visionneuse HTML5 à Adobe Analytics.
 
-Si vous utilisez l’un des paramètres prédéfinis de la visionneuse HTML5 Dynamic Media Classic, sachez qu’ils contiennent déjà tout le code d’implémentation nécessaire pour envoyer des données à Adobe Analytics ; aucune autre instrumentation n’est requise de votre part.
+Si vous utilisez l’un des paramètres prédéfinis de la visionneuse HTML5 Dynamic Media Classic prédéfinis, sachez qu’ils contiennent déjà tout le code d’implémentation nécessaire pour envoyer les données à Adobe Analytics ; aucune autre instrumentation n’est requise de votre part.
 
 ## Configuration du suivi Adobe Analytics à partir de Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
@@ -44,4 +46,4 @@ Ce nom de fonction est sensible à la casse. Le seul paramètre requis transmis 
 
 ## Activation des événements HREF et ITEM  {#enabling-href-and-item-events}
 
-Vous pouvez activer les événements HREF (survoler) et ITEM (cliquer avec la souris/toucher) dans les visionneuses via la commande d’édition de la zone cliquable. Définissez les identificateurs pour HREF et ITEM dans la zone cliquable associée au contenu de la visionneuse Ajoutez un paramètre `&rolloverKey=` à la valeur HREF dans la zone cliquable.
+Vous pouvez activer les événements HREF (survoler) et ITEM (cliquer avec la souris/toucher) dans les visionneuses via la commande d’édition de la zone cliquable. Définissez les identificateurs pour HREF et ITEM dans la zone cliquable associée au contenu de la visionneuse Ajoutez un paramètre `&rolloverKey=` sur la valeur HREF dans la zone cliquable.
