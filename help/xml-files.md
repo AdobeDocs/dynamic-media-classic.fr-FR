@@ -4,11 +4,13 @@ description: Les sites Web qui utilisent un système XML pour gérer les images 
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media Classic
+role: Professionnel
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 61%
+source-wordcount: '126'
+ht-degree: 58%
 
 ---
 
