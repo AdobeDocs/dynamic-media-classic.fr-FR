@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
+feature: Dynamic Media Classic
+role: Professionnel
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '3437'
+source-wordcount: '3442'
 ht-degree: 65%
 
 ---
@@ -149,7 +151,7 @@ Pour mettre en forme le texte dans un calque de texte, procédez comme suit :
 
    **Tout en majuscules, Exposant ou** IndiceSélectionnez le texte, puis cliquez sur l&#39;icône correspondant au type de formatage à appliquer au texte.
 
-   **** AlignementChoisissez un bouton d&#39;alignement pour aligner le texte à gauche, au centre ou à droite dans le calque de texte.
+   **** AlignementChoisissez un bouton Alignement pour aligner à gauche, centrer ou aligner à droite le texte du calque de texte.
 
    **** TrackingType ou sélectionnez une valeur numérique permettant d&#39;ajuster l&#39;espace entre les mots.
 
@@ -247,7 +249,7 @@ Les calques doivent être suffisamment petits pour tenir dans la zone de travail
 
 Pour modifier la taille d’un calque ou de la zone de travail, sélectionnez le calque ou la zone de travail dans la liste Calques, puis utilisez l’une des méthodes suivantes :
 
-**Modification manuelle de** la tailleSélectionnez et faites glisser un coin du calque ou de la zone de travail. Avec les calques de texte, vous pouvez également faire glisser un côté du calque. Maintenez la touche Maj enfoncée lorsque vous faites glisser la souris pour modifier la taille tout en conservant le format (la forme).
+**Modification manuelle de la** tailleSélectionnez et faites glisser un coin du calque ou de la zone de travail. Avec les calques de texte, vous pouvez également faire glisser un côté du calque. Maintenez la touche Maj enfoncée lorsque vous faites glisser la souris pour modifier la taille tout en conservant le format (la forme).
 
 **Saisir des** mesures de taille de calqueEntrez des mesures en pixels dans les zones de texte W (Largeur) et H (Hauteur) de la zone Propriétés du calque.
 
