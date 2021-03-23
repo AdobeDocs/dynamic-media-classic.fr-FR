@@ -10,21 +10,27 @@ discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic, Visionneuses, Vidéo
 role: Professionnel
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 25%
+source-wordcount: '427'
+ht-degree: 13%
 
 ---
 
 
 # Meilleures pratiques pour l’utilisation de la visionneuse de vidéos HTML5{#best-practice-using-the-html-video-viewer}
 
-Les paramètres prédéfinis de la visionneuse de vidéos HTML5 Dynamic Media Classic sont des lecteurs vidéo fiables. Du côté de la conception du lecteur, vous pouvez créer toutes les fonctionnalités du lecteur vidéo à l’aide d’outils de développement Web standard. Vous pouvez, par exemple, concevoir les boutons, les commandes et les affiches personnalisées en arrière-plan au moyen du code HTML5 et CSS afin de mieux cibler les utilisateurs avec un aspect personnalisé.
+Les paramètres prédéfinis de la visionneuse de vidéos HTML5 Dynamic Media Classic sont des lecteurs vidéo fiables. Du côté de la conception du lecteur, vous pouvez créer l’intégralité des fonctionnalités du lecteur vidéo à l’aide d’outils de développement Web standard. Vous pouvez, par exemple, concevoir les boutons, les commandes et les affiches personnalisées en arrière-plan au moyen du code HTML5 et CSS afin de mieux cibler les utilisateurs avec un aspect personnalisé.
 
 En ce qui concerne la lecture, la visionneuse, détecte automatiquement les fonctionnalités vidéo du navigateur. Il diffuse ensuite la vidéo à l’aide de HLS (diffusion en flux continu de vidéo adaptative). Ou, si cette méthode de diffusion n’est pas présente, le format HTML5 progressif est utilisé à la place.
 
-En combinant dans un lecteur unique la capacité de concevoir les composants de lecture à l’aide de code HTML5 et CSS, d’avoir accès à la lecture incorporée et d’utiliser les flux continus adaptatifs et progressifs selon la capacité du navigateur, vous pouvez étendre la portée de votre contenu multimédia aux utilisateurs d’appareils mobiles et d’ordinateurs de bureau et garantir ainsi une expérience vidéo rationalisée.
+En combinant dans un seul lecteur les capacités suivantes :
+
+* Composants de lecture conçus à l’aide de HTML5 et CSS
+* Lecture intégrée
+* Utilisation de la diffusion en flux continu adaptative et progressive en fonction des capacités du navigateur
+
+Vous pouvez étendre la portée de votre contenu multimédia enrichi aux utilisateurs de bureau et mobiles. Vous garantissez également une expérience vidéo simplifiée.
 
 Voir aussi [A propos des visionneuses HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses d’Adobes.
 
@@ -44,9 +50,9 @@ Le tableau suivant décrit la méthode de lecture, de navigateur et de périphé
 | Bureau | Firefox 45 ou une version ultérieure | Diffusion vidéo en flux continu HLS. |
 | Bureau | Chrome | Diffusion vidéo en flux continu HLS. |
 | Bureau | Safari (Mac) | Diffusion vidéo en flux continu HLS. |
-| Dispositif portable | Chrome (Android 6 ou version antérieure) | Téléchargement progressif. |
-| Dispositif portable | Chrome (Android 7 ou version ultérieure) | Diffusion vidéo en flux continu HLS. |
-| Dispositif portable | Android (navigateur par défaut) | Téléchargement progressif. |
+| Dispositif portable | Chrome (Android™ 6 ou version antérieure) | Téléchargement progressif. |
+| Dispositif portable | Chrome (Android™ 7 ou version ultérieure) | Diffusion vidéo en flux continu HLS. |
+| Dispositif portable | Android™ (navigateur par défaut) | Téléchargement progressif. |
 | Dispositif portable | Safari (iOS) | Diffusion vidéo en flux continu HLS. |
 | Dispositif portable | Chrome (iOS) | Diffusion vidéo en flux continu HLS. |
-| Dispositif portable | Blackberry | Diffusion vidéo en flux continu HLS. |
+| Dispositif portable | BlackBerry® | Diffusion vidéo en flux continu HLS. |
