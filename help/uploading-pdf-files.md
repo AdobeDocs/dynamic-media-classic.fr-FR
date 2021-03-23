@@ -9,25 +9,25 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic, Visionneuses, Catalogue électronique
 role: Professionnel
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 70%
+source-wordcount: '701'
+ht-degree: 56%
 
 ---
 
 
 # Téléchargement des fichiers PDF{#uploading-the-pdf-files}
 
-En règle générale, un catalogue électronique est créé à partir de fichiers Adobe PDF ; ces fichiers contiennent l’ensemble des informations relatives aux images, ainsi que les polices et les graphiques vectoriels. Néanmoins, rien ne vous empêche de créer un catalogue électronique à partir d’images. Après avoir préparé vos fichiers PDF pour le téléchargement, cliquez sur le bouton Télécharger de la barre de navigation globale pour lancer le téléchargement des fichiers.
+En règle générale, les fichiers Adobe PDF sont la source d’un catalogue électronique. Ces fichiers contiennent toutes les informations sur les images, les polices et les graphiques vectoriels. Néanmoins, rien ne vous empêche de créer un catalogue électronique à partir d’images. Après avoir préparé vos fichiers PDF pour le téléchargement, cliquez sur le bouton Télécharger de la barre de navigation globale pour lancer le téléchargement des fichiers.
 
 ## Préparation des fichiers PDF  {#preparing-your-pdf-files}
 
 Préparez vos fichiers PDF avant de les télécharger vers Dynamic Media Classic :
 
-* Placez tous les fichiers dans le même dossier sur votre ordinateur ou votre réseau pour faciliter leur téléchargement.
+* Pour faciliter le téléchargement des fichiers, placez tous les fichiers dans le même dossier sur votre ordinateur ou votre réseau.
 * Nommez les fichiers selon un ordre alphanumérique, par page. L’organisation des pages selon un ordre donné facilite leur bon assemblage après le téléchargement des fichiers.
-* Examinez les pages PDF afin de vérifier si elles contiennent des traits de coupe, des repères de montage ou des gammes de couleurs. Ces marques indiquent où couper le papier lorsque les documents sont imprimés et doivent impérativement être supprimées avant le placement du catalogue électronique sur le Web. Dynamic Media Classic propose des options de recadrage des marques lorsque vous téléchargez des fichiers PDF.
+* Pour savoir si les pages PDF contiennent des traits de coupe, des cibles d’enregistrement ou des barres de couleurs, examinez les pages. Ces marques indiquent où couper le papier lorsque les documents sont imprimés et doivent impérativement être supprimées avant le placement du catalogue électronique sur le Web. Dynamic Media Classic propose des options de recadrage des marques lorsque vous téléchargez des fichiers PDF.
 * Si vous souhaitez que les utilisateurs puissent effectuer des recherches par mot-clé dans votre catalogue électronique, déterminez si vos fichiers PDF sont aplatis. Il est impossible d’extraire des mots de recherche dans des fichiers PDF aplatis. Pour savoir si un fichier PDF est aplati, essayez de sélectionner le texte qu’il contient. Si le texte n’est pas sélectionnable, le fichier PDF est aplati. Les utilisateurs ne peuvent donc pas effectuer de recherches par mot-clé dans votre catalogue électronique.
 * Les fichiers PDF étant destinés à l’impression, ils contiennent le plus souvent des images CMJN. Par défaut, Dynamic Media Classic peut détecter intelligemment ces images CMJN et les convertir à l’aide d’un profil de couleurs CMJN interne. Vous pouvez cependant utiliser un profil de couleurs personnalisé pour convertir les images CMJN.
 
@@ -40,7 +40,7 @@ Pour obtenir des informations détaillées sur les différentes méthodes de té
 Sélectionnez les fichiers à télécharger, puis sélectionnez ces options PDF *recommandées* :
 
 * ****
-RecadrerSélectionnez le menu Recadrer et choisissez Manuel si les pages contiennent des traits de coupe, des repères de montage ou d&#39;autres marques. Indiquez les valeurs de recadrage (en nombre de pixels) à partir des bords supérieur, droit, inférieur et gauche des pages. En règle générale, les traits de coupe sont définis sur une marge d’un demi-pouce. Supposons que vous choisissiez une résolution de 150 pixels par pouce (valeur recommandée), si vous entrez 75, 75, 75, 75 dans les zones de texte Bord supérieur, Droite, Bord inférieur et Gauche, les marges sont recadrées d’un demi-pouce (à 150 ppp, la moitié d’un pouce équivaut à 75 pixels).
+RecadrerSélectionnez le menu Recadrer et choisissez Manuel si les pages contiennent des traits de coupe, des repères de montage ou d&#39;autres marques. Indiquez les valeurs de recadrage (en nombre de pixels) à partir des bords supérieur, droit, inférieur et gauche des pages. Les traits de coupe sont souvent définis sur une marge d’un demi-pouce. Supposons que vous choisissiez 150 pixels par pouce (résolution recommandée) et que vous saisissez 75, 75, 75, 75 dans les zones de texte Haut, Droite, Bas et Gauche. Dans ce cas, elle rogne un demi-pouce des marges (à 150 ppp, la moitié de 1 équivaut à 75 pixels).
 
 * ****
 TraitementSélectionnez le menu Traitement, puis choisissez Pixelliser. Il est nécessaire de pixelliser le fichier PDF afin que toutes les pages et les images soient affichées dans le catalogue électronique.
