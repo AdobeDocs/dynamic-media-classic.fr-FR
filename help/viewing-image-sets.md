@@ -10,10 +10,10 @@ discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 feature: Dynamic Media Classic, Visionneuses, Visionneuses d’images
 role: Professionnel
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 88%
+ht-degree: 80%
 
 ---
 
@@ -37,7 +37,7 @@ Vous pouvez créer et personnaliser des paramètres prédéfinis de la visionneu
 
 1. Sélectionnez des options dans l’écran Configurer la visionneuse.
 
-   Pour obtenir la description d’une option, cliquez sur l’icône d’information  adjacente.
+   Pour afficher la description d’une option, cliquez sur l’icône d’information en regard de l’option.
 
    L’écran de prévisualisation affiche la visionneuse à mesure que vous actualisez et modifiez les paramètres.
 
@@ -57,11 +57,11 @@ La fonction Prévisualiser vous permet de vous faire une idée du rendu d’un f
    * Dans la fenêtre Fichiers, sélectionnez un fichier. Dans la barre d’outils, cliquez sur **Fichier** > **Prévisualisation**.
 
 1. (Facultatif) Dans la liste déroulante située en bas de la fenêtre Prévisualiser, sélectionnez le codage d’URL à appliquer à l’URL du fichier au moment de la copie.
-1. Cliquez sur le lien d’une visionneuse pour effectuer une prévisualisation dans la visionneuse sélectionnée.
+1. Pour prévisualisation du fichier dans la visionneuse sélectionnée, cliquez sur un lien de visionneuse.
 
    Lorsque vous cliquez sur un lien de visionneuse donné, l’URL associée est automatiquement copiée dans le Presse-papiers.
 
-1. Fermez la visionneuse affichée pour revenir à l’écran de prévisualisation.
+1. Pour revenir à l’écran de la Prévisualisation, fermez la visionneuse affichée.
 1. Cliquez sur **Fermer** pour revenir à l’écran Fichiers.
 
 >[!MORELIKETHIS]
