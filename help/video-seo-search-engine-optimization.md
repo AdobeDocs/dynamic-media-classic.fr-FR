@@ -10,10 +10,10 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Administrateur
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 66%
+ht-degree: 62%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 66%
 
 L’optimisation du référencement de la vidéo consiste à améliorer le volume de trafic vers un site Web à partir des moteurs de recherche. Les moteurs de recherche sont des outils parfaits pour collecter des informations à partir d’un contenu texte. Par contre, ils sont moins performants pour obtenir des informations sur des vidéos, sauf si ces informations leur sont fournies.
 
-L’optimisation du référencement des vidéos Dynamic Media Classic vous permet d’exploiter les métadonnées vidéo pour fournir aux moteurs de recherche des descriptions de vos vidéos. Dynamic Media Classic permet de créer des plans de site vidéo et des flux mRSS. Il s’agit de fichiers XML standard utilisés pour envoyer des informations sur la vidéo aux moteurs de recherche.
+L’optimisation du référencement des vidéos Dynamic Media Classic vous permet d’appliquer des métadonnées vidéo afin de fournir aux moteurs de recherche des descriptions de vos vidéos. Dynamic Media Classic vous permet de créer des plans de site vidéo et des flux mRSS. Ces fichiers XML standard sont utilisés pour envoyer des informations sur les vidéos aux moteurs de recherche :
 
-**Carte de** site vidéoInforme Google exactement où et quel est le contenu vidéo sur un site. Par conséquent, les vidéos peuvent faire l’objet d’une recherche sur Google. Par exemple, un plan de site vidéo peut préciser le temps d’exécution et la catégorie. Pour plus d’informations sur les plans de site vidéo, voir https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
+**Carte de** site vidéoInforme Google exactement où et quel est le contenu vidéo sur un site. Ainsi, les vidéos peuvent faire l&#39;objet de recherches sur Google. Par exemple, un plan de site vidéo peut préciser le temps d’exécution et la catégorie. Pour plus d’informations sur les plans de site vidéo, voir https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
 
 **mRSS (Media Really Simple Syndication)** fluxUtilisé par les éditeurs de contenu pour alimenter des fichiers multimédia dans Yahoo! Video Search. Pour plus d’informations sur les flux mRSS, voir https://www.rssboard.org/media-rss.
 
@@ -62,7 +62,7 @@ Dans la liste déroulante Mode de génération, choisissez un mode de rapport :
 
 **** Les deuxCréez les deux types de fichiers XML.
 
-**** DésactivéSélectionnez cette option pour arrêter de générer des plans de site vidéo et un flux Media RSS (mRSS).
+**** DésactivéPour arrêter de générer des plans de site vidéo et des flux Media RSS (mRSS), sélectionnez cette option.
 
 Dans la liste déroulante Mode automatique/Mode manuel, choisissez de générer automatiquement ou manuellement :
 
@@ -93,7 +93,7 @@ La zone Paramètres de génération répertorie les champs d’entrée du plan d
 
 >[!NOTE]
 >
->vous devez publier le plan de site vidéo ou le flux mRSS avant de pouvoir l’envoyer aux moteurs de recherche. Les fichiers de plan de site vidéo et de flux Media RSS (mRSS) sont stockés dans le dossier racine de l’entreprise. Si nécessaire, marquez ces fichiers XML pour publication et cliquez sur Publier.
+>Publiez le plan de site vidéo ou le flux mRSS avant de l’envoyer aux moteurs de recherche. Les fichiers de plan de site vidéo et de flux Media RSS (mRSS) sont stockés dans le dossier racine de l’entreprise. Si nécessaire, marquez ces fichiers XML pour publication et cliquez sur Publier.
 
 ## Envoi des fichiers de plan de site vidéo et de flux mRSS aux moteurs de recherche  {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
