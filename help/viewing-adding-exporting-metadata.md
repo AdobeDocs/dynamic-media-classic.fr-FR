@@ -10,10 +10,10 @@ discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Gestion des ressources,Métadonnées
 role: Professionnel
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 78%
+source-wordcount: '2250'
+ht-degree: 63%
 
 ---
 
@@ -30,7 +30,7 @@ Pour plus d’informations sur les métadonnées incorporées, voir [www.adobe.c
 
 ## Affichage des métadonnées {#view-metadata}
 
-Pour afficher les métadonnées d’un fichier, ouvrez le fichier en question en mode Affichage des détails, puis cliquez dans le panneau Métadonnées. Choisissez alors une option dans le menu Vues des métadonnées pour sélectionner un jeu de champs de métadonnées. Dynamic Media Classic offre ces Vues de métadonnées :
+Pour vue des métadonnées d’un fichier, ouvrez le fichier dans la vue de détails, puis appuyez sur le panneau Métadonnées. Pour sélectionner un ensemble de champs de métadonnées, choisissez une option dans le menu Vue de métadonnées. Dynamic Media Classic offre ces Vues de métadonnées :
 
 * **Affichage compact**
 liste de base des valeurs.
@@ -59,7 +59,7 @@ Les administrateurs peuvent créer des vues de métadonnées qui apparaissent é
 
 ## Ajout ou modification de mots-clés  {#add-or-edit-keywords}
 
-En plus des métadonnées, vous pouvez utiliser des mots-clés pour faciliter la recherche et la gestion des fichiers.
+Outre les métadonnées, vous pouvez utiliser des mots-clés pour faciliter la recherche et la gestion de vos fichiers.
 
 Si vous avez ajouté des mots-clés à d’autres fichiers au cours de la session actuelle ou si vous avez supprimé des mots-clés de votre liste, ils figurent dans le tableau Suggestions de mots-clés.
 
@@ -97,21 +97,21 @@ Vous trouverez plus d’informations sur les propriétés normalisées à l’ad
 
 Gardez cela à l’esprit lors de l’identification des différents types de métadonnées à importer :
 
-* Les champs définis par l’utilisateur sont identifiés par le nom qui leur a été attribué lors de la création dans Configuration > Configuration de l’application > Métadonnées > Champs définis par l’utilisateur. Utilisez la fonctionnalité Générer un fichier pour obtenir une liste de tous les champs définis par l’utilisateur au format d’importation correct.
-* Les propriétés des métadonnées XMP doivent avoir le préfixe XMP associé avant le nom (property-). Le symbole deux-points sépare le préfixe du nom. Le préfixe XMP se trouve dans Configuration > Configuration de l’application > Métadonnées > Editeur de schéma de métadonnées. Les noms techniques se trouvent dans la documentation du schéma XMP associé. Notez que les noms des propriétés XMP n’apparaissent pas dans la fonction Générer un fichier.
-* Les propriétés de schéma des métadonnées doivent avoir le préfixe associé avant le nom (property-). Le symbole deux-points sépare le préfixe du nom. Le préfixe et les noms de propriété sont définis dans l’Editeur de schéma de métadonnées. Notez que les noms des propriétés de schéma de métadonnées n’apparaissent pas dans la fonction Générer un fichier.
+* Les champs définis par l’utilisateur sont identifiés par leur nom tel qu’ils ont été créés dans Configuration > Configuration de l’application > Métadonnées > Champs définis par l’utilisateur. Utilisez la fonctionnalité Générer un fichier pour obtenir une liste de tous les champs définis par l’utilisateur au format d’importation correct.
+* Les propriétés des métadonnées XMP doivent avoir le préfixe XMP associé avant le nom (property-). Le symbole deux-points sépare le préfixe du nom. Le préfixe XMP se trouve dans Configuration > Configuration de l’application > Métadonnées > Editeur de schéma de métadonnées. Les noms techniques se trouvent dans la documentation du schéma XMP associé. XMP noms de propriétés n’apparaissent pas dans la fonction Générer un fichier.
+* Les propriétés de schéma des métadonnées doivent avoir le préfixe associé avant le nom (property-). Le symbole deux-points sépare le préfixe du nom. Le préfixe et les noms de propriété sont définis dans l’Editeur de schéma de métadonnées. Les noms des propriétés du Schéma de métadonnées n’apparaissent pas dans la fonction Générer un fichier.
 
-Par exemple : la propriété XMP pour les mots-clés est le schéma XMP « Dublin Core » avec le préfixe « dc » et « subject » est le nom XMP technique. Le préfixe et le nom XMP technique sont combinés en un nom complet de propriété « dc:subject ». Dans le format d’importation des métadonnées XML, « dc:subject » doit représenter le nom de la propriété. Dans le format d’importation délimité par tabulation, il doit représenter l’en-tête de la colonne.
+Par exemple : la propriété XMP pour les mots-clés est le schéma XMP « Dublin Core » avec le préfixe « dc » et « subject » est le nom XMP technique. Le préfixe et le nom XMP technique sont combinés en un nom complet de propriété « dc:subject ». Dans le format d’importation des métadonnées XML, « dc:subject » doit représenter le nom de la propriété. Dans le format d’importation délimité par des tabulations, il doit s’agir de l’en-tête de colonne.
 
 **Importation de mots-clés**
 
-Les mots-clés peuvent être importés en tant que liste séparée par des virgules. Si une virgule apparaît dans l’une des valeurs individuelles, elle doit absolument être ignorée par une barre oblique inverse (\). Une barre oblique inverse littérale est l’habituelle double-barre oblique inverse (\\).
+Les mots-clés peuvent être importés en tant que liste séparée par des virgules. Si une virgule apparaît dans l’une des valeurs individuelles, elle doit être précédée d’une barre oblique inverse (\). Une barre oblique inverse littérale est l’habituelle double-barre oblique inverse (\\).
 
 Par exemple, un fichier d’importation de métadonnées contenant la valeur «Hello\, World!,back\\slash,foo » pour « dc:subject » définit trois mots-clés XMP sur le fichier : « Hello, World! », « back\slash » et « foo ».
 
 **Importation de fichiers XMP de métadonnées et de schémas de métadonnées**
 
-L’importation XML n’accepte que les fichiers XML valides. Lors de l’importation de champs XMP ou de schéma de métadonnées, le préfixe d’espace de noms est ajouté et se comporte comme un espace de noms XMP. Cet espace de noms doit être déclaré, par ex. dans la balise de niveau supérieur.
+L’importation XML n’accepte que les fichiers XML valides. Lors de l’importation de champs de Schéma de XMP ou de métadonnées, le préfixe d’espace de nommage est ajouté et se comporte ici comme un XMP-espace de nommage. Cet espace de nommage doit être déclaré. Par exemple, dans la balise de niveau supérieur.
 
 Par exemple :
 
@@ -131,9 +131,9 @@ Pour importer les métadonnées de plusieurs fichiers, saisissez les métadonné
 
 Vérifiez que les données contenues dans le fichier délimité par des tabulations ou le fichier XML sont enregistrées au bon format. Sur la première ligne, saisissez le champ de l’identifiant, suivi du nom des champs de métadonnées à modifier. Sur chaque ligne suivante, saisissez l’identifiant d’un fichier suivi des valeurs de métadonnées. Les champs qui ne font pas partie du fichier délimité par des tabulations ou du fichier XML ne sont pas modifiés.
 
-Dans la barre de navigation globale, cliquez sur le bouton Télécharger. Ensuite, dans l’écran Tâches, activez l’onglet Via FTP pour importer les métadonnées. Cliquez ensuite sur Options tâche. Dans la boîte de dialogue Télécharger les options de la tâche, choisissez Traiter les fichiers de métadonnées.
+Cliquez sur le bouton Télécharger de la barre de navigation globale. Pour importer les métadonnées, dans l’écran Tâches, sélectionnez l’onglet **[!UICONTROL Via FTP]**, puis cliquez sur **[!UICONTROL Options tâche]**. Dans la boîte de dialogue Télécharger les options de la tâche, choisissez Traiter les fichiers de métadonnées.
 
-## Attribution d’un nouveau nom aux ID par lots à l’aide de métadonnées  {#batch-rename-ids-using-metadata}
+## Attribution d’un nouveau nom aux ID par lots à l’aide de métadonnées {#batch-rename-ids-using-metadata}
 
 A l’aide de métadonnées importées à partir d’un fichier délimité par des tabulations ou d’un fichier XML, vous pouvez renommer les identifiants Dynamic Media Classic. Les métadonnées importées sont appliquées uniquement aux images spécifiées dans le fichier de métadonnées. Il n’est pas important que les images soient sélectionnées dans le panneau de navigation.
 
@@ -146,12 +146,11 @@ Par exemple :
 | testjacket_1 | Jacket_test_1 |
 | testjacket_blue | Jacket_test_2 |
 
+Le journal des tâches de la tâche de métadonnées indique les ID qui ont été renommés avec succès et ceux qui n’ont pas été renommés.
 
-Le rapport de la tâche concernant les métadonnées indique les ID qui ont été renommés et ceux qui ne l’ont pas été.
+## Création d’un modèle de saisie des métadonnées à télécharger {#create-a-template-for-entering-metadata-to-upload}
 
-## Création d’un modèle de saisie des métadonnées à télécharger  {#create-a-template-for-entering-metadata-to-upload}
-
-Dynamic Media Classic offre une commande permettant de créer un modèle pour l’enregistrement des métadonnées. L’utilisation du modèle permet de s’assurer que les métadonnées sont enregistrées au bon format afin de pouvoir être téléchargées correctement dans Dynamic Media Classic. Pour créer un modèle destiné à l’enregistrement et à l’importation de métadonnées vers Dynamic Media Classic, procédez comme suit :
+Dynamic Media Classic offre une commande permettant de créer un modèle pour l’enregistrement des métadonnées. L’utilisation du modèle permet de s’assurer que les métadonnées sont enregistrées au bon format afin de pouvoir être téléchargées correctement dans Dynamic Media Classic. Pour créer un modèle à utiliser pour l’enregistrement et l’importation de métadonnées vers Dynamic Media Classic, procédez comme suit :
 
 1. Sélectionnez les fichiers d’image comportant les champs de métadonnées à insérer dans le modèle.
 1. Choisissez Fichier > Importer les métadonnées.
@@ -164,21 +163,21 @@ Dynamic Media Classic offre une commande permettant de créer un modèle pour l�
 
 Un administrateur de la société peut afficher une liste de tous les schémas disponibles. Ouvrez Configuration de l’application > Métadonnées > Schéma de métadonnées.
 
-Initialement, la liste des schémas standard globaux tels que XMP est masquée. Elle peut être affichée en utilisant la case située au bas de la liste.
+Au départ, la liste des schémas standard globaux tels que XMP est masquée. Elle peut être affichée en utilisant la case située au bas de la liste.
 
-L’administrateur de la société peut créer un nouveau schéma personnalisé ou modifier un schéma personnalisé existant.
+L’administrateur de société peut créer un schéma personnalisé ou modifier un schéma personnalisé existant.
 
 Vous pouvez utiliser l’Editeur de schéma de métadonnées pour exécuter les actions suivantes :
 
 | Action | Description |
 |--- |--- |
-| Ajouter | Ajoute une nouvelle propriété au schéma. Une boîte de dialogue modale collecte les informations : ID, Etiquette, Structure et Type des données. |
-| Ajouter une valeur de choix | Ajoute un nouveau choix sélectionnable à une propriété avec la structure Choix ouvert ou Choix fermé. Toutes les valeurs de choix présentent le même type. Vous devez sélectionner la propriété elle-même pour activer le bouton. |
+| Ajouter | Ajoute une propriété au schéma. Une boîte de dialogue modale collecte les informations suivantes : ID, libellé, structure et type de données. |
+| Ajouter une valeur de choix | Ajoute un nouveau choix sélectionnable à une propriété avec la structure Choix ouvert ou Choix fermé. Toutes les valeurs de choix présentent le même type. Sélectionnez la propriété elle-même pour activer le bouton. |
 | Edition | Modifiez l’étiquette d’une propriété ou d’une valeur de choix. Vous pouvez uniquement modifier l’étiquette. L’ID et les informations de type sont immuables. |
-| Déplacer vers le haut / Déplacer vers le bas | L’ordre du schéma est reflété dans l’interface utilisateur. Pour modifier l’ordre, sélectionnez une propriété ou une valeur de choix et déplacez-la avec les boutons. L’opération glisser-déposer n’est pas prise en charge pour le moment. |
-| Suppression | Supprime une propriété ou une valeur de choix du schéma. Cette opération ne supprime pas les valeurs du bloc XMP ou de la base de données. La propriété n’est plus disponible pour les Vues des métadonnées et est supprimée du mode Affichage des détails du fichier. Si la propriété a été publiée sur le serveur de métadonnées, effectuez une publication de force pour supprimer les données du serveur de métadonnées accessible au public. |
+| Déplacer vers le haut / Déplacer vers le bas | L’ordre du schéma est reflété dans l’interface utilisateur. Pour modifier l’ordre, sélectionnez une propriété ou une valeur de choix et déplacez-la avec les boutons. Le glisser-déposer n’est pas pris en charge actuellement. |
+| Suppression | Supprime une propriété ou une valeur de choix du schéma. Il ne supprime pas les valeurs du bloc XMP ou de la base de données. La propriété n’est plus disponible pour les Vues de métadonnées et est supprimée de la Vue Détails du fichier. Si la propriété a été publiée sur le serveur de métadonnées, effectuez une publication forcée pour supprimer les données du serveur de métadonnées destiné au public. |
 
-Le système génère automatiquement un schéma personnalisé pour les champs définis par l’utilisateur avec le préfixe « s7udf ». Il s’agit des champs définis par l’utilisateur existants et ceux-ci peuvent être modifiés dans leur propre section de configuration.
+Le système génère automatiquement un schéma personnalisé pour les champs définis par l’utilisateur avec le préfixe « s7udf ». Il s’agit de champs définis par l’utilisateur existants et ils sont modifiés dans leur propre section Configuration.
 
 >[!NOTE]
 >
@@ -192,7 +191,7 @@ L’éditeur de Schéma de métadonnées offre une méthode graphique pour ajout
 
 * Préfixe
 
-   Identificateur unique technique pour le schéma. Limité aux lettres a-z et A-Z. Le préfixe n’est pas visible dans l’interface utilisateur de Dynamic Media Classic, mais il est utilisé lorsque les métadonnées d’un fichier sont stockées dans le bloc XMP et dans notre base de données. Le préfixe est utilisé pour identifier de manière unique les champs de métadonnées dans les recherches de métadonnées sur le serveur de métadonnées ou lors de l’importation.
+   Identificateur unique technique pour le schéma. Limité aux lettres a-z et A-Z. Le préfixe n’est pas visible dans l’interface utilisateur de Dynamic Media Classic, mais il est utilisé lorsque les métadonnées d’un fichier sont stockées dans le bloc XMP et la base de données. Le préfixe est utilisé pour identifier de manière unique les champs de métadonnées dans les recherches de métadonnées sur le serveur de métadonnées ou lors de l’importation.
 
 * Espace de noms
 
@@ -210,7 +209,7 @@ Les propriétés décrivent les métadonnées pouvant être stockées avec ce sc
 
 | Propriété | Description |
 |--- |--- |
-| ID | Identificateur technique pour cette propriété. L’ID n’est pas visible dans l’interface utilisateur de Dynamic Media Classic, mais il est utilisé lorsque les métadonnées d’un fichier sont stockées dans le bloc XMP et dans notre base de données. L’ID est utilisé pour créer des requêtes de recherche sur le Serveur de métadonnées. L’ID est soumis à certaines restrictions telles que : <ul><li>Aucun espace</li><li>Pas de &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>Pas de nombre en premier caractère</li><li>Il est conseillé d’utiliser une lettre a-z ou A-Z comme premier caractère</li></ul> <br>Une fois créé, l’ID ne peut pas être modifié. |
+| ID | Identificateur technique pour cette propriété. L’ID n’est pas visible dans l’interface utilisateur de Dynamic Media Classic, mais il est utilisé lorsque les métadonnées d’un fichier sont stockées dans le bloc XMP et la base de données. L’ID est utilisé pour créer des requêtes de recherche sur le Serveur de métadonnées. L’ID est soumis à certaines restrictions telles que : <ul><li>Aucun espace</li><li>Pas de &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>Pas de nombre en premier caractère</li><li>Il est conseillé d’utiliser une lettre a-z ou A-Z comme premier caractère</li></ul> <br>Une fois créé, l’ID ne peut pas être modifié. |
 | Etiquette | Nom d’IU pour cette propriété. |
 | Structure | Détermine le type de la propriété ainsi que le type de données. La structure peut avoir l’une des valeurs suivantes :<ul><li>Type simple : valeur unique de type de données</li><li>Séquence : une liste de valeurs du même type de données</li><li>Choix ouvert : sélectionnez un élément à partir d’une liste de valeurs prédéfinies, ou saisissez du texte libre. Peut uniquement être de type Chaîne ou Entier</li><li>Choix fermé : sélectionnez un élément dans une liste de valeurs prédéfinies (une fenêtre contextuelle ou une zone combinée)</li></ul> |
 | Type de données | Sélectionnez parmi ces types disponibles : <ul><li>Chaîne</li><li>Entier</li><li>Flottante</li><li>Oui/Non (valeur booléenne)</li><li>Date</li></ul> |
