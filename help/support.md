@@ -8,13 +8,12 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9801d5707bef099da72f9163826188b703e75168
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 33%
+source-wordcount: '189'
+ht-degree: 28%
 
 ---
-
 
 # Assistance {#support}
 
@@ -23,13 +22,15 @@ Les services d’assistance technique sont conçus pour répondre aux besoins de
 | Assistance | Abonnement |
 |--- |--- |
 | Nombre de cas | Illimité. |
-| Délai de réponse | Voir la FAQ à l’adresse [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html). |
-| SLA (contrats de niveau de service) | [https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
+| Vérifier l&#39;état du système d&#39;Adobe | [État](https://status.adobe.com/products/1175) du système Dynamic Media Classic. |
+| Vous ne trouvez pas de réponse ? | [Pour obtenir de l&#39;aide auprès de l&#39;assistance, ouvrez un ticket](https://experienceleague.adobe.com/?support-solution=General#support). |
+| Forum de la communauté | [Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community) de la communauté Experience Manager. |
+| SLA (contrats de niveau de service) | [Services d&#39;assistance / Conditions générales](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | Utilisateurs pris en charge | Jusqu’à dix utilisateurs par organisation peuvent être désignés en tant qu’utilisateurs ayant souscrit un plan d’assistance, qui peuvent ouvrir des dossiers auprès du service d’assistance clientèle. |
-| Assistance sociale | Voir la FAQ à l’adresse [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/contact/enterprise-support.ec.html). |
 | Formation en ligne et en direct gratuite et didacticiels vidéo | Inclus. |
-| Créer un dossier de support | [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) |
-| Assistance téléphonique | <ul><li>États-Unis/Canada : (800) 898-9743, (800)497-033, (408)454-5910 </li> <li>Japon : +81-3-6743-9632 </li><li>Royaume-Uni : +44 (0)20 35641782</li><li>Allemagne : +49 (0)69 51709005</li><li>France : +33 157324085</li><li>Pays-Bas : +31 (0)20 2035138 (Assistance week-end en anglais)</li></ul> |
+| Assistance téléphonique | <ul><li>États-Unis et Canada : 1-800-497-0335 </li><li>[Numéros de téléphone pour les autres régions](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html).</li></ul> |
+
+<!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 
 Lorsque vous signalez des problèmes à l’assistance technique, vous devez disposer des informations suivantes :
 
@@ -39,4 +40,3 @@ Lorsque vous signalez des problèmes à l’assistance technique, vous devez dis
 * Description du problème et étapes à suivre pour le reproduire.
 * Message d’erreur, le cas échéant.
 * Type et version du navigateur, le cas échéant.
-
