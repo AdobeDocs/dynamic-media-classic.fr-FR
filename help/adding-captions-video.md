@@ -5,15 +5,15 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic, Visionneuses, Vidéo
-role: Professionnel
+role: Business Practitioner
+exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '897'
 ht-degree: 51%
 
 ---
-
 
 # Ajout de sous-titres aux vidéos{#adding-captions-to-video}
 
@@ -25,11 +25,13 @@ Les légendes élargissent également l’accessibilité en utilisant le sous-ti
 >
 >le lecteur vidéo utilisé doit prendre en charge l’affichage des sous-titres.
 
-Voir [Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) pour configurer l’effet de sous-titrage et modifier le menu de sous-titrage, y compris le texte du menu pour n’importe laquelle des visionneuses suivantes :
+Pour configurer l’effet Légende et modifier le menu Légende lui-même, y compris le texte du menu pour l’une des visionneuses suivantes :
 
-* `Universal_HTML5_Video` observateur.
-* `Universal_HTML5_MixedMedia_dark` observateur.
-* `Universal_HTML5_MixedMedia_light` observateur.
+* `Universal_HTML5_Video` observateur
+* `Universal_HTML5_MixedMedia_dark` observateur
+* `Universal_HTML5_MixedMedia_light` observateur
+
+voir [Ajouter ou modifier un paramètre prédéfini de visionneuse de vidéos](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 Voir aussi [Ajout et modification des paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -43,7 +45,7 @@ Pour plus d’informations sur l’utilisation de la fonction JSON dans une URL,
 
    | Type de visionneuse | Fichier de sous-titrage |
    |--- |--- |
-   | HTML5 | Si vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fichier de sous-titrage que vous créez est conforme à la norme WebVTT (Web Video Text Tracks). Le fichier de sous-titrage a l’extension .vtt. D’autres informations sont disponibles sur la norme de sous-titrage WebVTT.<br><br>[Voir WebVTT](https://dev.w3.org/html5/webvtt/) : Format Suivi de texte de vidéo Web. <br><br>Il existe des outils et des services gratuits et payants que vous pouvez utiliser pour créer des fichiers de sous-titrage en dehors de Dynamic Media Classic. Par exemple, pour créer un fichier de sous-titrage vidéo simple sans aucun style, vous pouvez utiliser l’outil gratuit de création et de modification de sous-titrage en ligne suivant : <br><br>[Créateur de légendes WebVTT](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Pour un résultat optimal, utilisez l’outil dans Internet Explorer 9 ou version ultérieure, Google Chrome ou Safari. <br><br>Dans l’outil, dans le champ <b>Enter URL of video file</b> (entrer l’URL du fichier vidéo), collez l’URL du fichier vidéo, puis cliquez sur <b>Load</b> (Charger). <br><br>Par exemple, si vous utilisez une URL Dynamic Media Classic pour votre fichier vidéo, cliquez sur un fichier vidéo individuel en doublon (et non sur une visionneuse de vidéos adaptative ou une vidéo de Principal) pour l’ouvrir dans la Vue de détails. Dans le panneau droit de la vue Détails, développez la liste URL et code intégré. Ensuite, sous le groupe Mobile, à droite de Mobile (progressive), cliquez sur Copier l’URL. Ce processus vous donne l’URL du fichier vidéo lui-même que vous pouvez ensuite coller dans le champ <b>Entrer l’URL du fichier vidéo</b>. Internet Explorer, Chrome ou Safari peuvent alors lire la vidéo en mode natif. Suivez maintenant les instructions à l’écran du site pour créer et enregistrer votre fichier WebVTT. Lorsque vous avez terminé, copiez le contenu du fichier de sous-titrage et collez-le dans un éditeur de texte brut, puis enregistrez-le avec l’extension de nom de fichier .VTT. <br><br><b>Remarque : </b> pour une prise en charge globale des sous-titres vidéo dans des langues autres que l’anglais, la norme WebVTT exige que vous créiez des fichiers .vtt et des appels distincts pour chaque langue à prendre en charge. <br><br>En règle générale, vous attribuez au fichier VTT de sous-titrage le même nom que le fichier vidéo et vous lui ajoutez le mot captions. En procédant ainsi, vous pouvez automatiser aisément la génération des URL de vidéo en utilisant le système de gestion de contenu Web existant. |
+   | HTML5 | Si vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fichier de sous-titrage que vous créez est conforme à la norme WebVTT (Web Video Text Tracks). Le fichier de sous-titrage a l’extension .vtt. D’autres informations sont disponibles sur la norme de sous-titrage WebVTT.<br><br>[Voir WebVTT](https://w3c.github.io/webvtt/) : Format Suivi de texte de vidéo Web. <br><br>Il existe des outils et des services gratuits et payants que vous pouvez utiliser pour créer des fichiers de sous-titrage en dehors de Dynamic Media Classic. Par exemple, pour créer un fichier de sous-titrage vidéo simple sans aucun style, vous pouvez utiliser l’outil gratuit de création et de modification de sous-titrage en ligne suivant : <br><br>[Créateur de légendes WebVTT](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Pour un résultat optimal, utilisez l’outil dans Internet Explorer 9 ou version ultérieure, Google Chrome ou Safari. <br><br>Dans l’outil, dans le champ <b>Enter URL of video file</b> (entrer l’URL du fichier vidéo), collez l’URL du fichier vidéo, puis cliquez sur <b>Load</b> (Charger). <br><br>Par exemple, si vous utilisez une URL Dynamic Media Classic pour votre fichier vidéo, cliquez sur un fichier vidéo individuel en doublon (et non sur une visionneuse de vidéos adaptative ou une vidéo de Principal) pour l’ouvrir dans la Vue de détails. Dans le panneau droit de la vue Détails, développez la liste URL et code intégré. Ensuite, sous le groupe Mobile, à droite de Mobile (progressive), cliquez sur Copier l’URL. Ce processus vous donne l’URL du fichier vidéo lui-même que vous pouvez ensuite coller dans le champ <b>Entrer l’URL du fichier vidéo</b>. Internet Explorer, Chrome ou Safari peuvent alors lire la vidéo en mode natif. Suivez maintenant les instructions à l’écran du site pour créer et enregistrer votre fichier WebVTT. Ensuite, copiez le contenu du fichier de sous-titrage et collez-le dans un éditeur de texte brut, puis enregistrez-le au format .vtt. <br><br><b>Remarque : </b> pour une prise en charge globale des sous-titres vidéo dans des langues autres que l’anglais, la norme WebVTT exige que vous créiez des fichiers .vtt et des appels distincts pour chaque langue à prendre en charge. <br><br>En règle générale, vous attribuez au fichier VTT de sous-titrage le même nom que le fichier vidéo et vous lui ajoutez le mot captions. En procédant ainsi, vous pouvez automatiser aisément la génération des URL de vidéo en utilisant le système de gestion de contenu Web existant. |
 
 1. Dans Dynamic Media Classic, téléchargez votre fichier de sous-titrage WebVTT, DFXP ou SMPTE XML.
 
@@ -59,7 +61,7 @@ Pour plus d’informations sur l’utilisation de la fonction JSON dans une URL,
 
       `&caption=<full Copy URL path to the caption file .vtt>,1`
 
-      Notez la balise `,1` à la fin du chemin d’accès de l’URL de sous-titrage. Immédiatement après l’extension de nom de fichier .VTT dans le chemin d’accès, vous pouvez éventuellement activer ou désactiver le bouton de sous-titrage dans la barre du lecteur vidéo en définissant `1` ou `0`, respectivement.
+      Notez la balise `,1` à la fin du chemin d’accès de l’URL de sous-titrage. Immédiatement après l’extension de fichier .vtt dans le chemin d’accès, vous pouvez éventuellement activer ou désactiver le bouton de sous-titrage dans la barre du lecteur vidéo en définissant `1` ou `0`, respectivement.
 
    * Pour une expérience de visionneuse de vidéos intégrée, cliquez sur **[!UICONTROL Code intégré]** à l’extrémité droite de son nom.
 
@@ -69,5 +71,4 @@ Pour plus d’informations sur l’utilisation de la fonction JSON dans une URL,
 
       `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
 
-      Notez la balise `,1` à la fin du chemin d’accès à l’URL. Immédiatement après l’extension de nom de fichier .VTT dans le chemin d’accès de l’URL, vous pouvez éventuellement activer ou désactiver le bouton de sous-titrage sur la barre du lecteur vidéo en définissant `1` ou `0`, respectivement.
-
+      Notez la balise `,1` à la fin du chemin d’accès à l’URL. Immédiatement après l’extension de fichier .vtt dans le chemin d’accès de l’URL, vous pouvez éventuellement activer ou désactiver le bouton de sous-titrage dans la barre du lecteur vidéo en définissant `1` ou `0`, respectivement.
