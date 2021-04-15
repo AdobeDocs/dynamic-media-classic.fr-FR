@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 feature: Dynamic Media Classic,Collaboration,Gestion des ressources
-role: Administrateur, Professionnel
+role: Administrator,Business Practitioner
+exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 82%
+source-wordcount: '1009'
+ht-degree: 81%
 
 ---
-
 
 # Ajout et gestion des utilisateurs du portail multimédia{#adding-and-managing-media-portal-users}
 
@@ -83,8 +83,8 @@ L’exemple de feuille de calcul ci-dessous montre la disposition d’un fichier
 
 | Prénom | Nom | E-mail | Mot de passe | Rôle utilisateur | Groupes |
 |--- |--- |--- |--- |--- |--- |
-| Peter | Peterson | `petep@company.com` | bienvenue | MediaPortalAdmin | PortalCo/IT,PortalCo/Admin |
-| Kevin | Marks | `kevinm@myco.com` | bienvenue | Utilisateur du portail multimédia | PortalCo/MktgGroup, PortalCo/test |
+| Prairie | Kat | `prairiek@company.com` | bienvenue | MediaPortalAdmin | PortalCo/IT,PortalCo/Admin |
+| Rick | Brugueux | `rickb@myco.com` | bienvenue | Utilisateur du portail multimédia | PortalCo/MktgGroup, PortalCo/test |
 
 
 ### Téléchargement du fichier CSV  {#uploading-the-csv-file}
@@ -105,9 +105,9 @@ Vous pouvez afficher les noms et les adresses e-mail des utilisateurs du portail
 
 1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de l’administration]** > **[!UICONTROL Administration utilisateur]**.
 1. Dans la liste **[!UICONTROL Par rôle utilisateur]**, choisissez le nom d’un rôle utilisateur du portail multimédia, puis cliquez sur **[!UICONTROL Actualiser]** afin d’afficher uniquement les noms d’une seule catégorie d’utilisateurs du portail multimédia.
-1. Cliquez sur **[!UICONTROL Liste contextuelle]** pour ouvrir la fenêtre contextuelle. Vous pouvez copier et coller cette liste.
+1. Cliquez sur **[!UICONTROL Liste contextuelle]** pour ouvrir la fenêtre contextuelle. Copiez et collez cette liste.
 
-## Définition du message de l’e-mail de bienvenue pour les utilisateurs du portail multimédia  {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
+## Définition du message de l’e-mail de bienvenue pour les utilisateurs du portail multimédia {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
 Vous pouvez envoyer un e-mail de bienvenue à tous les nouveaux utilisateurs, contributeurs et contributeurs-utilisateurs du portail multimédia. Vous pouvez configurer ce message électronique ou indiquer à Dynamic Media Classic de ne pas l’envoyer.
 
@@ -115,24 +115,24 @@ Vous pouvez envoyer un e-mail de bienvenue à tous les nouveaux utilisateurs, co
 1. Dans l’écran Configuration de l’administration utilisateur, cliquez sur **[!UICONTROL Paramètres d’e-mail]**.
 1. Dans la boîte de dialogue Paramètres d’e-mail, définissez les paramètres suivants à votre convenance :
 
-   **[!UICONTROL Envoyer]** EmailDésélectionnez cette option si vous ne souhaitez pas informer les nouveaux utilisateurs par e-mail que vous les avez inscrits.
+   * **[!UICONTROL Envoyer un courriel]**  - Désélectionnez cette option si vous ne souhaitez pas informer les nouveaux utilisateurs par courriel que vous les avez inscrits.
 
-   **[!UICONTROL Mot de]** passe par défautEntrez un mot de passe temporaire pour les nouveaux utilisateurs ou laissez le champ vide pour que Dynamic Media Classic génère des mots de passe aléatoires. Les utilisateurs sont invités à modifier leurs mots de passe lors de leur première connexion.
+   * **[!UICONTROL Mot de passe]**  par défaut : saisissez un mot de passe temporaire pour les nouveaux utilisateurs ou laissez le champ vide pour que Dynamic Media Classic génère des mots de passe aléatoires. Les utilisateurs sont invités à modifier leurs mots de passe lors de leur première connexion.
 
-   **[!UICONTROL URL de remplacement]** Entrez une URL différente de celle par défaut si vos utilisateurs accèdent à Dynamic Media Classic par une autre URL.
+   * **[!UICONTROL URL]**  de remplacement : saisissez une URL différente de celle par défaut si vos utilisateurs accèdent à Dynamic Media Classic par une autre URL.
 
 ## Autres tâches de gestion des utilisateurs {#other-user-management-tasks}
 
 L’écran de configuration de l’administration utilisateur vous permet d’effectuer les tâches suivantes :
 
-**[!UICONTROL Filtrez et triez la]** liste des utilisateursFiltrez la liste des utilisateurs du portail multimédia à localiser les utilisateurs. (voir Filtrage et tri de la liste des utilisateurs).
+* **[!UICONTROL Filtrage et tri de la liste]**  utilisateur : filtrez la liste des utilisateurs du portail multimédia à localiser.
 
-**[!UICONTROL Supprimer]** des utilisateursSupprimez un utilisateur de la liste. (voir Suppression d’un utilisateur.
+* **[!UICONTROL Suppression d’utilisateurs]**  : supprimez un utilisateur de la liste.
 
-**[!UICONTROL Activation et désactivation]** des utilisateursSuspendre un utilisateur de l&#39;accès aux dossiers. (voir Activation et désactivation d’utilisateurs).
+* **[!UICONTROL Activation et désactivation des utilisateurs]**  - Interrompre l’accès d’un utilisateur aux dossiers.
 
-**[!UICONTROL Modifier les]** informations de l&#39;utilisateurEntrez des informations à jour sur un utilisateur. (voir Modification des informations de l’utilisateur).
+* **[!UICONTROL Modifier les informations]**  de l&#39;utilisateur - Entrez des informations à jour sur un utilisateur.
 
-**[!UICONTROL Création de]** champs définis par l’utilisateurCréation de champs de métadonnées personnalisés définis par l’utilisateur pour organiser les fichiers dans Dynamic Media Classic. Les champs peuvent également être activés ou désactivés, le cas échéant.
+* **[!UICONTROL Création de champs]**  définis par l’utilisateur - Créez des champs de métadonnées personnalisés définis par l’utilisateur pour organiser les fichiers dans Dynamic Media Classic. Les champs peuvent également être activés ou désactivés, le cas échéant.
 
 (Voir [Champs définis par l’utilisateur](application-setup.md#user_defined_fields).)
