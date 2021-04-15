@@ -6,15 +6,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Gestion des ressources
-role: Professionnel
+role: Business Practitioner
+exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 60%
+source-wordcount: '1465'
+ht-degree: 53%
 
 ---
-
 
 # Recommandations pour optimiser la qualité des images{#best-practices-for-optimizing-the-quality-of-your-images}
 
@@ -28,7 +28,7 @@ Voir aussi [Imagerie intelligente](https://experienceleague.adobe.com/docs/exper
 
 * Les formats JPG et PNG sont les mieux adaptés pour obtenir des images de bonne qualité, d’une taille et d’un volume gérables.
 * Si aucune commande de format n’est fournie dans l’URL, la diffusion d’images Dynamic Media utilise par défaut le format JPG pour la diffusion.
-* Le format JPG compresse les images à un taux de 10:1 et produit généralement des images plus petites. Le format PNG compresse les images à un rapport d’environ 2:1, sauf dans certains cas, par exemple lorsque les images contiennent un arrière-plan vide. En général, toutefois, les fichiers PNG sont plus gros que les fichiers JPG.
+* Le format JPG compresse les images à un taux de 10:1 et produit généralement des images plus petites. Le format PNG compresse les images à un rapport d’environ 2:1, sauf parfois lorsque les images contiennent un arrière-plan vide. En général, toutefois, les fichiers PNG sont plus gros que les fichiers JPG.
 * JPG utilise une compression avec perte, ce qui signifie que des éléments d’image (pixels) sont perdus lors de la compression. Le format PNG, en revanche, utilise une compression sans perte.
 * Généralement, le format JPG compresse les images photographiques avec une plus grande fidélité que les images de synthèse avec des bords nets et un fort contraste.
 * Si vos images contiennent de la transparence, utilisez le format PNG car JPG ne prend pas en charge la transparence.
@@ -52,7 +52,7 @@ Livre blanc des meilleures pratiques [Accentuation des images dans l’Adobe Dyn
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-Avec Dynamic Media Classic, vous pouvez accentuer les images lors de l’assimilation, de la diffusion ou des deux. Dans la plupart des cas, cependant, il est préférable d’accentuer les images en utilisant uniquement l’une des deux méthodes, mais pas les deux. L’accentuation des images à la distribution, dans une URL, produit généralement de meilleurs résultats.
+Avec Dynamic Media Classic, vous pouvez accentuer les images lors de l’assimilation, de la diffusion ou des deux. En règle générale, cependant, vous accentuez les images à l’aide d’une seule méthode ou de l’autre, mais pas des deux. L’accentuation des images à la distribution, dans une URL, produit généralement de meilleurs résultats.
 
 Il existe deux méthodes d’accentuation des images que vous pouvez utiliser :
 
@@ -100,7 +100,7 @@ Pour la compression JPG, il est recommandé d’utiliser `&qlt=85,0`.
 
 ## Recommandations relatives au dimensionnement JPEG (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
-`jpegSize` est un paramètre utile si vous souhaitez garantir qu’une image ne dépasse pas une certaine taille pour la distribution sur les périphériques ayant une mémoire limitée.
+Le paramètre `jpegSize` est utile si vous souhaitez garantir qu&#39;une image ne dépasse pas une certaine taille pour la diffusion sur des périphériques dont la mémoire est limitée.
 
 * Ce paramètre est défini en kilo-octets ( `jpegSize=<size_in_kilobytes>`). Il définit la taille maximale autorisée pour la distribution des images.
 * `&jpegSize=` interagit avec le paramètre de compression JPG  `&qlt=`. Si la réponse JPG avec le paramètre de compression JPG spécifié ( `&qlt=`) ne dépasse pas la valeur `jpegSize`, l’image est renvoyée avec `&qlt=` comme défini. Sinon, `&qlt=` est progressivement réduit jusqu&#39;à ce que l&#39;image corresponde à la taille maximale autorisée ou jusqu&#39;à ce que le système détermine qu&#39;elle ne peut pas tenir et renvoie une erreur.
@@ -119,8 +119,8 @@ Si l’image doit être davantage optimisée, accentuez-la progressivement (masq
 
 Si les résultats de l’accentuation ne sont toujours pas satisfaisants, augmentez le rayon point décimal par point décimal. Pour chaque incrément décimal, redémarrez la quantité à 1,75 et augmentez-le progressivement jusqu’à 4. Répétez cette procédure jusqu’à ce que vous obteniez le résultat escompté. Les valeurs ci-dessus sont une approche validée par les studios de création ; cela ne vous empêche toutefois pas de commencer par d’autres valeurs et d’appliquer d’autres stratégies. Que vous soyez ou non satisfait par les résultats est subjectif. Par conséquent, la clé réside dans une mise en application structurée.
 
-Tandis que vous testez différentes valeurs, vous trouverez peut-être également les suggestions générales suivantes utiles pour optimiser votre processus :
+Au fur et à mesure que vous testez, les suggestions générales suivantes s’avèrent utiles pour optimiser votre flux de travail :
 
-* Testez différents paramètres en temps réel, directement sur une URL Dynamic Media Classic ou en utilisant la fonctionnalité de réglage d’image de Dynamic Media Classic qui fournit des prévisualisations en temps réel pour les opérations d’ajustement.
-* En règle générale, n’oubliez pas que vous pouvez regrouper les commandes de diffusion d’images Dynamic Media dans un paramètre d’image prédéfini. Un paramètre d’image prédéfini est essentiellement une macro de commande d’URL avec des noms de paramètres prédéfinis personnalisés tels que `$thumb_low$` et `&product_high$`. Le nom du paramètre prédéfini personnalisé dans un chemin d’URL invoque ces paramètres prédéfinis. Cette fonctionnalité permet de gérer les commandes et les paramètres de qualité de différents gabarits d’utilisation des images sur votre site Web et réduit en outre la longueur totale des URL.
-* Dynamic Media Classic propose également des méthodes plus avancées d’optimisation de la qualité d’image, telles que l’application d’une accentuation des images à l’assimilation. Pour les cas d’utilisation plus complexes où il peut s’avérer nécessaire d’affiner et d’optimiser les résultats de rendu, n’hésitez pas à faire appel à Adobe Professional Services.
+* Testez différents paramètres en temps réel, directement sur une URL Dynamic Media Classic ou en utilisant la fonctionnalité de réglage d’image de Dynamic Media Classic. Ce dernier fournit des prévisualisations en temps réel pour les opérations d&#39;ajustement.
+* En règle générale, n’oubliez pas que vous pouvez regrouper les commandes de diffusion d’images Dynamic Media dans un paramètre d’image prédéfini. Un paramètre d’image prédéfini est essentiellement une macro de commande d’URL avec des noms de paramètres prédéfinis personnalisés tels que `$thumb_low$` et `&product_high$`. Le nom du paramètre prédéfini personnalisé dans un chemin d’URL appelle ces paramètres prédéfinis. Cette fonctionnalité permet de gérer les commandes et les paramètres de qualité de différents gabarits d’utilisation des images sur votre site Web et réduit en outre la longueur totale des URL.
+* Dynamic Media Classic propose également des méthodes plus avancées d’optimisation de la qualité d’image, telles que l’application de l’accentuation des images lors de l’assimilation. Pour les cas d’utilisation avancés où il est possible d’optimiser les résultats rendus et de les affiner davantage, Adobe Professional Services peut vous aider à personnaliser les informations et les meilleures pratiques.
