@@ -8,21 +8,21 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic, Visionneuses, Vidéo
-role: Professionnel
+role: Business Practitioner
+exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '431'
 ht-degree: 13%
 
 ---
-
 
 # Meilleures pratiques pour l’utilisation de la visionneuse de vidéos HTML5{#best-practice-using-the-html-video-viewer}
 
 Les paramètres prédéfinis de la visionneuse de vidéos HTML5 Dynamic Media Classic sont des lecteurs vidéo fiables. Du côté de la conception du lecteur, vous pouvez créer l’intégralité des fonctionnalités du lecteur vidéo à l’aide d’outils de développement Web standard. Vous pouvez, par exemple, concevoir les boutons, les commandes et les affiches personnalisées en arrière-plan au moyen du code HTML5 et CSS afin de mieux cibler les utilisateurs avec un aspect personnalisé.
 
-En ce qui concerne la lecture, la visionneuse, détecte automatiquement les fonctionnalités vidéo du navigateur. Il diffuse ensuite la vidéo à l’aide de HLS (diffusion en flux continu de vidéo adaptative). Ou, si cette méthode de diffusion n’est pas présente, le format HTML5 progressif est utilisé à la place.
+En ce qui concerne la lecture, la visionneuse, détecte automatiquement les fonctionnalités vidéo du navigateur. Il diffuse ensuite la vidéo à l’aide de HLS (HTTP Live Streaming), également appelé diffusion de vidéo adaptative en flux continu. Ou, si cette méthode de diffusion n’est pas présente, le format HTML5 progressif est utilisé à la place.
 
 En combinant dans un seul lecteur les capacités suivantes :
 
