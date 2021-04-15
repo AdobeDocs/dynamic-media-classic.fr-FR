@@ -7,15 +7,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
-role: Administrateur
+role: Administrator
+exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1948'
-ht-degree: 62%
+source-wordcount: '1946'
+ht-degree: 61%
 
 ---
-
 
 <!-- UPDATE TOPIC AFTER DECEMBER 31, 2020!!!! -->
 
@@ -89,7 +89,7 @@ Les utilisateurs désactivés n’ont plus le droit d’accéder au compte indiq
 
 Les informations sur l’utilisateur que vous pouvez modifier dépendent de votre rôle en tant qu’administrateur et du rôle de l’utilisateur dont vous souhaitez modifier les informations. Les options qui apparaissent en grisé (non disponibles) ne sont pas modifiables.
 
-1. Allez à **Configuration** > **Configuration de l’application** > **Configuration de l’administration** > **Administration utilisateur**.
+1. Accédez à **Configuration** > **Configuration de l’application** > **Configuration de l’administration** > **Administration utilisateur**.
 1. Sélectionnez l’utilisateur, puis cliquez sur **Modifier**.
 1. Sélectionnez l’entrée dans le tableau qui affiche l’entreprise dont vous essayez de modifier les autorisations ou l’accès, puis cliquez sur le lien Gérer l’entreprise.
 1. Sélectionnez le rôle de l’utilisateur.
@@ -102,15 +102,15 @@ Vous pouvez filtrer et trier la liste des utilisateurs afin de localiser les uti
 
 Vous pouvez utiliser les techniques de filtrage suivantes :
 
-**Filtrer par** groupeSélectionnez le menu Par groupe et choisissez une option pour restreindre la liste aux utilisateurs d&#39;un groupe.
+* **Filtrer par groupe**  : sélectionnez le menu Par groupe et choisissez une option pour restreindre la liste aux utilisateurs d&#39;un groupe.
 
-**Filtrer par** rôle utilisateurSélectionnez le menu Par rôle utilisateur et choisissez une option pour restreindre la liste aux utilisateurs ou aux administrateurs de différents types.
+* **Filtrer par rôle**  utilisateur : sélectionnez le menu Par rôle utilisateur et choisissez une option pour restreindre la liste aux utilisateurs ou aux administrateurs de différents types.
 
-**Filtrer par** nom de champSélectionnez l’option Activer le filtre par champ. Sélectionnez ensuite le menu Par nom de champ, puis choisissez une colonne pour filtrer la liste. Sélectionnez ensuite le menu Filtrer par caractère, puis choisissez une lettre. La liste est filtrée en fonction d’une des colonnes selon la lettre que vous avez choisie. Désélectionnez l’option Activer le filtre par champ pour afficher la liste complète.
+* **Filtrer par nom**  de champ : sélectionnez l&#39;option Activer le filtre par champ. Sélectionnez ensuite le menu Par nom de champ, puis choisissez une colonne pour filtrer la liste. Sélectionnez ensuite le menu Filtrer par caractère, puis choisissez une lettre. La liste est filtrée en fonction d’une des colonnes selon la lettre que vous avez choisie. Désélectionnez l’option Activer le filtre par champ pour afficher la liste complète.
 
-**Filtrer les** utilisateurs non validesDésélectionnez l’option Inclure les utilisateurs non valides. Les résultats de la recherche affichent uniquement les utilisateurs présents dans le système. Les utilisateurs non valides ont été supprimés du système et des comptes que vous gérez.
+* **Filtrer les utilisateurs**  non valides - Désélectionnez l’option Inclure les utilisateurs non valides. Les résultats de la recherche affichent uniquement les utilisateurs présents dans le système. Les utilisateurs non valides ont été supprimés du système et des comptes que vous gérez.
 
-**Tri par** en-tête de colonneCliquez sur un en-tête pour trier tous les utilisateurs selon leur état, par ordre alphabétique de prénom, nom ou adresse électronique, par rôle utilisateur ou par statut valide/non valide.
+* **Tri par en-tête**  de colonne : cliquez sur un en-tête pour trier tous les utilisateurs selon leur état, par ordre alphabétique de prénom, nom ou adresse électronique, par rôle utilisateur ou par statut valide/non valide.
 
 Si les utilisateurs sont trop nombreux, vous pouvez limiter la taille de la liste en sélectionnant le menu Taille liste max., puis en choisissant une valeur.
 
@@ -161,20 +161,19 @@ Le tableau suivant décrit les rapports que vous pouvez générer à partir de l
 | Diffusion de vidéo en flux continu | Utilisation de la bande passante pour la diffusion de vidéo en flux continu | Observe l’utilisation de la diffusion de vidéo en flux continu par entreprise dans un intervalle de temps spécifié afin de définir des schémas de trafic. |
 | Contenu vidéo | Temps de lecture de différentes vidéos | Détermine quelles sont les vidéos les plus visionnées et les moins visionnées. |
 
-
 Le rapport Contenu de l’image fournit des informations sur les requêtes pour les types d’image suivants :
 
-**Image** RequestRequests pour les images.
+* **Demande**  d’image - Demandes d’images.
 
-**Demande de** miniatureDemande de nuance ou d’autres images dans les visionneuses.
+* **Demande**  de miniature : demande des échantillons ou des images de remplacement dans les visionneuses.
 
-**Masque** RequestRequests aux images renvoyant des masques en niveaux de gris.
+* **Requête**  de masque : demande des images renvoyant des masques en niveaux de gris.
 
-**Requêtes** RequestImage de mosaïque de visionneuse chargées par une visionneuse.
+* **Demande**  de mosaïque de visionneuse - Demandes d’image chargées par une visionneuse.
 
-**Vnt Objet** RequestImage demandes de rendu qui renvoient une image avec des objets spécifiés dans les vignettes demandées.
+* **Demande**  d’objet Vnt - Demandes de rendu d’image qui renvoient une image avec des objets spécifiés dans les vignettes demandées.
 
-**Demandes de rendu Vnt Info** RequestImage renvoyant des informations concernant les vignettes demandées.
+* **Demande**  d’informations sur les vignettes : demandes de rendu d’image renvoyant des informations concernant les vignettes demandées.
 
 >[!NOTE]
 >
@@ -194,27 +193,27 @@ Pour générer un rapport de bande passante, stockage, contenu de l’image, dom
 
 Après avoir généré un rapport sur la page Bande passante et stockage, vous pouvez choisir des options pour l’affichage des informations. Vous pouvez choisir le mode de présentation des informations, afficher les informations dans un tableau ou une grille de données et indiquer une période pour la capture des informations. En mode Affichage des données, vous pouvez également trier les informations et réorganiser les colonnes.
 
-**Affichage des données dans un graphique ou une** grille de donnéesCliquez sur l&#39;option Vue du graphique pour vue des données dans un graphique ; cliquez sur l’option Vue de données pour vue des données dans une grille de données.
+* **Affichage des données dans un graphique ou une grille**  de données - Cliquez sur l&#39;option Vue du graphique pour vue des données dans un graphique ; cliquez sur l’option Vue de données pour vue des données dans une grille de données.
 
-**Choix d&#39;un** type de présentation de rapport Dans le menu Type de rapport, choisissez Résumé, Quotidien ou Mensuel pour organiser les données sous forme de résumé, par jour ou par mois. Tous les rapports ne proposent pas cette option.
+* **Choix d&#39;un type**  de présentation de rapport : dans le menu Type de rapport, choisissez Résumé, Quotidien ou Mensuel pour organiser les données sous forme de résumé, par jour ou par mois. Tous les rapports ne proposent pas cette option.
 
-**Spécification d&#39;une** périodeChoisissez des options pour définir une période pour votre rapport, puis cliquez sur Mettre à jour après avoir défini une période :
+* **Spécification d&#39;une période**  - Choisissez des options pour définir une période pour votre rapport, puis cliquez sur Mettre à jour après avoir défini une période :
 
-**** Période prédéfinieDans le menu Rapport prédéfini, choisissez une option. Par exemple, choisissez Le mois dernier pour capturer les données du mois précédent.
+* **Période**  prédéfinie : dans le menu Rapport prédéfini, sélectionnez une option. Par exemple, choisissez Le mois dernier pour capturer les données du mois précédent.
 
-**Période personnaliséeDans le menu Rapport prédéfini,** choisissez Personnalisé. Choisissez ensuite une date dans le menu Mois de début (ou Date de début) et une date dans le menu Nombre de mois (ou Nombre de jours). Pour les rapports de domaine ou de contenu vidéo, vous pouvez choisir une date de début et une date de fin spécifiques pour la capture des informations du rapport.
+* **Période**  personnalisée : dans le menu Rapport prédéfini, choisissez Personnalisé. Choisissez ensuite une date dans le menu Mois de début (ou Date de début) et une date dans le menu Nombre de mois (ou Nombre de jours). Pour les rapports de domaine ou de contenu vidéo, vous pouvez choisir une date de début et une date de fin spécifiques pour la capture des informations du rapport.
 
-**Tri des données (vue de données uniquement)** Pour trier les informations d’une colonne, cliquez sur son en-tête. Cliquez une nouvelle fois pour effectuer le tri dans l’ordre décroissant.
+* **Tri des données (vue de données uniquement)**  : pour trier les informations d&#39;une colonne, cliquez sur son en-tête. Cliquez une nouvelle fois pour effectuer le tri dans l’ordre décroissant.
 
-**Réorganisation des colonnes (vue de données uniquement)** Pour déplacer une colonne vers un autre emplacement de la grille de données, faites glisser son en-tête.
+* **Réorganisation des colonnes (vue de données uniquement)**  - Pour déplacer une colonne vers un autre emplacement de la grille de données, faites glisser son en-tête.
 
 ### Exportation et impression des rapports {#exporting-and-printing-reports}
 
 Après avoir généré un rapport, vous pouvez exporter ses données pour une utilisation dans des feuilles de calcul et d’autres applications. Vous pouvez également imprimer des rapports.
 
-**Exportation de** données de rapportDans la vue de données, triez et disposez les données selon vos besoins. Ouvrez ensuite le menu Exporter et choisissez un format : Délimité par une tabulation, Séparé par des virgules ou Format HTML. Les données sont copiées dans le Presse-papiers au format choisi. Vous pouvez à présent coller les données dans une feuille de calcul ou une application.
+* **Exportation des données**  du rapport - Dans la vue de données, triez et disposez les données selon vos besoins. Ouvrez ensuite le menu Exporter et choisissez un format : Délimité par une tabulation, Séparé par des virgules ou Format HTML. Les données sont copiées dans le Presse-papiers au format choisi. Vous pouvez à présent coller les données dans une feuille de calcul ou une application.
 
-**Impression d&#39;un** rapportCliquez sur Imprimer, choisissez les options de votre choix dans la boîte de dialogue Imprimer, puis cliquez sur OK.
+* **Impression d&#39;un rapport**  - Cliquez sur  **[!UICONTROL Imprimer]**, choisissez les options de votre choix dans la boîte de dialogue Imprimer, puis cliquez sur  **[!UICONTROL OK]**.
 
 ## Erreurs d’image {#image-errors}
 
@@ -227,21 +226,21 @@ Les administrateurs Dynamic Media Classic peuvent générer des rapports d’err
    * Cliquez sur un en-tête pour trier les erreurs selon les informations de l’en-tête. Par défaut, les erreurs sont triées par nombre d’occurrences, du plus élevé au moins élevé.
    * Placez le curseur sur le champ Réponse d’une erreur pour afficher le message d’erreur correspondant.
    * Placez le curseur sur le champ URL ou sur le champ Référent pour afficher le lien pointant vers l’image ou le site Web référent.
-   * Cliquez sur Copier l’URL de la colonne URL pour copier le lien pointant vers l’image. Vous pouvez coller ce lien dans un navigateur pour accéder à l’image et étudier l’erreur.
-   * Cliquez sur Copier l’URL de la colonne Référent pour copier le lien pointant vers le site Web référent.
+   * Cliquez sur **[!UICONTROL URL Copier l’URL]** pour copier le lien vers l’image réelle. Vous pouvez coller ce lien dans un navigateur pour accéder à l’image et étudier l’erreur.
+   * Cliquez sur **[!UICONTROL Parrain Copier l’URL]** pour copier le lien vers la page Web du parrain.
 
 Les erreurs s’affichent pour la société à laquelle vous êtes actuellement connecté. Les informations suivantes sont indiquées pour chaque erreur :
 
-**Image** IDID pour l’image incriminée.
+* **ID**  d’image - ID de l’image incriminée.
 
-**** TempsPériode de la première fois où l’erreur a été signalée à la dernière fois que l’erreur a été signalée, au cours des dernières 24 heures.
+* **Heure**  : période comprise entre la première fois que l&#39;erreur a été signalée et la dernière fois que l&#39;erreur a été signalée, au cours des dernières 24 heures.
 
-**** NombreNombre d’erreurs signalées sur l’image.
+* **Nombre**  : nombre d&#39;erreurs signalées sur l&#39;image.
 
-**** RéponseMessage d&#39;erreur spécifique. Les erreurs sont soit 4xx soit 5xx.
+* **Réponse**  : message d&#39;erreur spécifique. Les erreurs sont soit 4xx soit 5xx.
 
-**** URLsAffiche l’URL de l’image dans Scene7.
+* **URL**  : Liste l&#39;URL de l&#39;image sur Dynamic Media Classic.
 
-**** RéférentIndique l’URL du site Web d’où provient la demande initiale. Le référant peut être n’importe quel site Web contenant un lien vers l’image.
+* **Parrain**  : indique l’URL du site Web d’où provient la demande initiale. Le référant peut être n’importe quel site Web contenant un lien vers l’image.
 
 Les colonnes URL et Référent disposent de boutons Copier l’URL qui permettent de simplifier les tests.
