@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Gestion des ressources
-role: Professionnel
+role: Business Practitioner
+exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 54%
+source-wordcount: '442'
+ht-degree: 49%
 
 ---
-
 
 # Utilisation de dossiers de fichiers{#working-with-asset-folders}
 
@@ -28,26 +28,22 @@ Veillez à établir une structure et une organisation de dossiers pour le stocka
 
 La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de dossiers. Lorsque vous sélectionnez un dossier dans la bibliothèque de fichiers, son contenu s’affiche dans le panneau de navigation. Pour localiser des dossiers dans l’arborescence de dossiers, utilisez les techniques suivantes :
 
-* **Affichage des**
-sous-dossiersSélectionnez l&#39;icône Développer le dossier pour afficher les sous-dossiers dans un dossier. Cette icône se trouve à gauche des noms de dossiers.
+* **Affichage des sous-dossiers**  - Sélectionnez l&#39;icône Développer le dossier pour afficher les sous-dossiers dans un dossier. Cette icône se trouve à gauche des noms de dossiers.
 
-* **Déplacement d&#39;un**
-dossierVous pouvez déplacer un dossier en le faisant glisser et en le déposant à son nouvel emplacement ou en sélectionnant Fichier > Déplacer un dossier.
+* **Déplacement d&#39;un dossier**  : vous pouvez déplacer un dossier en le faisant glisser et en le déposant à son nouvel emplacement ou en sélectionnant Fichier > Déplacer un dossier.
 
-* **Masquage**
-des dossiersSélectionnez l&#39;icône Réduire le dossier pour réduire les sous-dossiers. Cette icône se trouve à gauche des noms de dossiers.
+* **Masquage des dossiers**  - Sélectionnez l&#39;icône Réduire le dossier pour réduire la taille des sous-dossiers. Cette icône se trouve à gauche des noms de dossiers.
 
-* **Ouverture d&#39;un**
-dossierSélectionnez un dossier pour afficher son contenu dans le panneau de navigation.
+* **Ouverture d&#39;un dossier**  : sélectionnez un dossier pour afficher son contenu dans le panneau de navigation.
 
 ***Conseil **: Vous pouvez masquer ou afficher la bibliothèque de fichiers en cliquant sur la commande Développer/Réduire située sur son côté gauche. Réduisez le panneau Bibliothèque de fichiers pour optimiser l’espace réservé au panneau de navigation.*
 
 ## Création de dossiers {#creating-folders}
 
-Pour créer un dossier, procédez comme suit :
+Pour créer des dossiers, procédez comme suit :
 
 1. Dans la bibliothèque de fichiers, sélectionnez le dossier dans lequel vous souhaitez créer un sous-dossier.
-1. Sélectionnez le bouton Ajouter un dossier . Cette icône est située en haut de la liste des dossiers.
+1. Sélectionnez le bouton **[!UICONTROL Ajouter le dossier]**. Cette icône se trouve en haut de la liste de dossiers.
 1. Donnez un nom descriptif au nouveau dossier ou sous-dossier dans le champ situé en regard de l’icône de dossier.
 
    >[!NOTE]
@@ -58,11 +54,9 @@ Pour créer un dossier, procédez comme suit :
 
 Sélectionnez un dossier et utilisez les techniques suivantes pour le supprimer ou le renommer :
 
-* ****
-SuppressionSélectionnez le bouton Supprimer un dossier . Les fichiers d’un dossier supprimé sont placés dans le dossier Corbeille. Vous pouvez les y récupérer.
+* **Suppression**  - Cliquez sur le bouton Supprimer un dossier . Les fichiers d’un dossier supprimé sont placés dans le dossier Corbeille. Vous pouvez les y récupérer.
 
-* ****
-RenommerCliquez deux fois sur le nom et saisissez un nouveau nom.
+* **Changement de nom**  : cliquez sur le nom en cliquant sur le Doublon et saisissez un nouveau nom.
 
 >[!NOTE]
 >
