@@ -8,25 +8,25 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
-role: Ingénieur de données, Administrateur, Professionnel
+role: Data Engineer,Administrator,Business Practitioner
+exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 50%
+source-wordcount: '1196'
+ht-degree: 46%
 
 ---
-
 
 # Configuration des rapports Adobe Analytics{#configuring-adobe-analytics-reports}
 
 Pour indiquer à Adobe Analytics quelles informations reporter dans les rapports Adobe Analytics, accédez à l’écran de configuration d’Adobe Analytics. Une fois les rapports configurés, cet écran liste, pour chaque événement de visionneuse dont vous souhaitez obtenir des informations, une variable Adobe Analytics correspondante et une variable Dynamic Media Classic. Ces combinaisons de variables de événement de visionneuse-variable Adobe Analytics-Dynamic Media Classic déterminent quelles informations sont rapportées.
 
-En plus d’associer les événements de visionneuse aux variables, l’écran de configuration d’Adobe Analytics propose des outils permettant d’activer, de modifier et de supprimer des événements de visionneuse.
+Outre l’association de événements de visionneuse aux variables, l’écran Configuration Adobe Analytics offre des outils permettant d’activer, de modifier et de supprimer des événements de visionneuse.
 
 >[!NOTE]
 >
->Chaque fois que vous modifiez les paramètres du rapport Adobe Analytics dans Adobe Analytics, veillez à vous reconnecter à Adobe Analytics à partir d’Adobe Dynamic Media Classic, à enregistrer à nouveau vos paramètres de configuration Adobe Analytics, puis à publier à nouveau.
+>Chaque fois que vous modifiez les paramètres du rapport Adobe Analytics dans Adobe Analytics, veillez à vous reconnecter à Adobe Analytics à partir d’Adobe Dynamic Media Classic, à réenregistrer vos paramètres de configuration Adobe Analytics, puis à republier.
 
 Voir [Connexion à Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
@@ -38,7 +38,7 @@ Utilisez l’écran de configuration Adobe Analytics pour associer des événeme
 
 **Pour attribuer des variables Adobe Analytics aux événements et variables du lecteur Dynamic Media Classic**
 
-1. Après vous être connecté à Adobe Analytics à partir de Dynamic Media Classic et avoir sélectionné une suite de rapports, sur la page de configuration Adobe Analytics, dans la colonne la plus à droite du tableau, activez un événement de visionneuse en cliquant sur **Activer**.
+1. Après vous être connecté à Adobe Analytics à partir de Dynamic Media Classic et avoir sélectionné une suite de rapports, sur la page de configuration Adobe Analytics, dans la colonne du tableau de droite, activez un événement de visionneuse en cliquant sur **[!UICONTROL Activer]**.
 1. Sous la colonne Variables, affichez le sélecteur de paires de variables en cliquant sur la touche fléchée de l’événement de visionneuse de votre choix.
 
    Voir [Evénements de visionneuse](configuring-analytics-reports.md#viewer_events).
@@ -60,7 +60,7 @@ Utilisez l’écran de configuration Adobe Analytics pour associer des événeme
 
 ### Evénements de visionneuse {#viewer-events}
 
-Les événements de visionneuse décrivent les actions que les utilisateurs effectuent avec les visionneuses Dynamic Media Classic. Lorsqu’un utilisateur initie une certaine action (en cliquant sur une vignette ou en lançant ou arrêtant la lecture d’une vidéo, par exemple), la visionneuse « diffuse » un événement sur la page Web, avec les données associées à cet événement.
+Les événements de visionneuse décrivent les actions que les utilisateurs effectuent avec les visionneuses Dynamic Media Classic. Lorsqu’un utilisateur lance une action donnée, telle qu’un clic sur une miniature ou le démarrage ou l’arrêt d’une vidéo, la visionneuse &quot;diffuse&quot; un événement sur la page Web, ainsi que les données associées à ce événement.
 
 Le tableau ci-après décrit les événements de visionneuse que vous pouvez ajouter à l’écran de configuration d’Adobe Analytics.
 
@@ -111,7 +111,7 @@ Sur l’écran de configuration d’Adobe Analytics, vous pouvez activer, modifi
 ActivationCliquez  **** sur Activer pour activer ou  **** désactiver la désactivation d’un événement de visionneuse sélectionné.
 
 * ****
-ModificationSélectionnez un événement de visionneuse, puis cliquez sur le bouton gris  **[!UICONTROL Vue/]** Modifier les variables. Dans les listes déroulantes Variable Dynamic Media Classic et Variable Adobe Analytics, choisissez une variable différente dans chaque liste respective. Pour plus d’informations, voir Association de variables Adobe Analytics aux événements et variables du lecteur de contenu Dynamic Media Classic.
+ModificationSélectionnez un événement de visionneuse et cliquez sur le bouton gris  **[!UICONTROL Vue/]** ModifierVariables. Dans les listes déroulantes Variable Dynamic Media Classic et Variable Adobe Analytics, choisissez une variable différente dans chaque liste respective. Pour plus d’informations, voir Association de variables Adobe Analytics aux événements et variables du lecteur de contenu Dynamic Media Classic.
 
 * ****
-SuppressionSélectionnez un événement de visionneuse, puis cliquez sur le bouton gris  **[!UICONTROL Vue/]** Modifier les variables. Cliquez sur **[!UICONTROL Supprimer]**.
+SuppressionSélectionnez un événement de visionneuse, puis cliquez sur le bouton gris  **[!UICONTROL Vue/]** ModifierVariables. Cliquez sur **[!UICONTROL Supprimer]**.
