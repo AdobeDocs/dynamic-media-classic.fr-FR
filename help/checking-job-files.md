@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Gestion des ressources
-role: Professionnel
+role: Business Practitioner
+exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1584'
 ht-degree: 60%
 
 ---
-
 
 # Vérification de fichiers de tâche{#checking-job-files}
 
@@ -121,7 +121,7 @@ Ce tableau indique les incréments temporels, leurs valeurs autorisées et les c
 | Heures | 0-23 | Notez l’utilisation d’une horloge à cycle de 24 heures. | `, - * /` |
 | Jour du mois | 1-31 | Il est impossible de spécifier une valeur numérique à la fois pour « Jour du mois » et « Jour de la semaine ». L’un de ces champs doit utiliser un caractère générique `?`. | `, - * / ? L C` |
 | Mois | 1-12 ou jan, fév, mar, avr, mai, juin, jul, aoû, sep, oct, nov, déc | Les valeurs respectent la casse. | `, - * /` |
-| Jour de la semaine | Lun, Mar, Mer, Jeu, Ven, Sam, Dim | Les valeurs respectent la casse. Il est impossible de spécifier une valeur numérique à la fois pour « Jour du mois » et « Jour de la semaine ». Un de ces champs doit utiliser un caractère générique ?. | `, - * / ? L C #` |
+| Jour de la semaine | Lun, Mar, Mer, Jeu, Ven, Sam, Dim | Les valeurs respectent la casse. Il est impossible de spécifier une valeur numérique à la fois pour « Jour du mois » et « Jour de la semaine ». L’un de ces champs doit utiliser un caractère générique `?`. | `, - * / ? L C #` |
 | Année (facultatif) | Vide ou 1970-2099 |  | `, - * /` |
 
 
