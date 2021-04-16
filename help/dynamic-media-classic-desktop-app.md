@@ -9,10 +9,10 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 8427c3ea6ca3083fd0868286e634a5569c62f7ab
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 0%
+source-wordcount: '1845'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Les utilisateurs de Dynamic Media Classic ont désormais accès à une nouvelle expérience d’application de bureau qui ne repose plus sur la technologie de Flash d’Adobe dans le navigateur.
 
-Cette nouvelle application est désormais disponible pour Windows et macOS.
+Cette nouvelle application est désormais disponible pour Windows® et macOS.
 
 >[!IMPORTANT]
 >
@@ -33,41 +33,57 @@ Consultez la FAQ pour l&#39;[expérience de connexion à la nouvelle version de 
 L’application de bureau Adobe Dynamic Media Classic est compatible avec les systèmes d’exploitation suivants :
 
 * macOS 10.10 ou version ultérieure.
-* Windows 7 ou version ultérieure.
+* Windows® 7 ou version ultérieure.
+
+>[!NOTE]
+>
+>La notification de mise à niveau dans l’application de bureau Dynamic Media Classic n’est pas générée pour les versions *mineures*. Les clients qui bénéficient de correctifs dans une version mineure peuvent effectuer une mise à niveau.
+
+## Correctifs de la version mineure (20.21.2) {#minor-release}
+
+* Limite connue dans la version 20.21.1 de la liste déroulante Serveur vide.
+* Dans **[!UICONTROL Télécharger les options de la tâche]**, la valeur par défaut de nommage de calque sous **[!UICONTROL Options Photoshop]**, est désormais **[!UICONTROL Nom de la couche]**. Les calques du fichier PSD sont téléchargés comme images distinctes.
+   * La valeur par défaut précédente de **[!UICONTROL Nom de calque]** désignait les images en fonction de leur nom de calque ou de leur numéro de calque dans le fichier PSD. Le numéro de calque a été utilisé si les noms de calque du fichier PSD étaient des noms de calque Photoshop par défaut.
+   * La nouvelle valeur par défaut **[!UICONTROL Photoshop and Layer Name]** désigne les images situées après le fichier PSD suivi du nom du calque ou du numéro de calque. Le numéro de calque est utilisé si le nom des calques dans le fichier PSD est un nom de calque Photoshop par défaut.
+   * Étant donné que les images de calque dans Dynamic Media Classic ont désormais des noms uniques, aucune mise à jour du fichier PSD ou des modèles existants n’est effectuée (les noms de calque partagés dans les fichiers PSD d’origine).
+* Miniatures endommagées des ressources.
 
 ## Correctifs de la dernière version (20.21.1) {#latest-fixes-desktop-app}
 
 * Problèmes de connexion dus au dépassement de délai, qui se traduisent par le message suivant : *Cet utilisateur peut être affecté au groupe ou aux groupes sans autorisation. Contactez votre administrateur.*
 * Les paramètres prédéfinis de la visionneuse sont dupliqués à chaque tentative de mot de passe incorrecte.
-* L’application de bureau ne répond plus en raison de nombreux fichiers contenus dans le dossier racine. (Correction sous Windows ; fonctionne comme vous le souhaitez sur macOS.)
+* L’application de bureau ne répond plus en raison de nombreux fichiers contenus dans le dossier racine. (Correction sous Windows® ; fonctionne comme vous le souhaitez sur macOS.)
 
 ## Correctifs de la version précédente (20.20.2) {#previous-version-fixes-desktop-app}
 
-* Le nombre de fichiers que vous pouvez télécharger via l’interface utilisateur de l’application de bureau n’est pas limité pour macOS et Windows.
+* Le nombre de fichiers que vous pouvez télécharger via l’interface utilisateur de l’application de bureau n’est pas limité pour macOS et Windows®.
 * Il n’est pas nécessaire de se déconnecter de l’application de bureau pour basculer entre les sociétés.
-* Ctrl+V pour l’opération de collage fonctionne désormais sous Windows.
+* Ctrl+V pour l’opération de collage fonctionne désormais sous Windows®.
 * À l’avenir, lorsqu’une nouvelle version de l’application de bureau sera publiée, les utilisateurs seront avertis au sein de l’application de bureau elle-même.
 
-## Téléchargez et installez la dernière application de bureau Dynamic Media Classic Adobe sur macOS ou Windows {#installation-dmc-app}
+## Téléchargez et installez la dernière application de bureau Dynamic Media Classic Adobe sur macOS ou Windows® {#installation-dmc-app}
 
 Voir aussi:
 
 * [Téléchargement et installation silencieuse de la dernière application de bureau Dynamic Media Classic Adobe sous Mac](#install-silent-mac-dmc-app)
-* [Téléchargement et installation silencieuse de la dernière application de bureau Dynamic Media Classic Adobe sous Windows](#install-silent-windows-dmc-app)
+* [Téléchargez et installez en mode silencieux la dernière application de bureau Adobe Dynamic Media Classic sous Windows®.](#install-silent-windows-dmc-app)
 
 1. Désinstallez toutes les anciennes versions d’application de bureau Dynamic Media Classic sur votre système.
 
 1. Téléchargez le dernier programme d’installation de l’application de bureau Adobe Dynamic Media Classic.
 
-   * La dernière version (20.21.1) est disponible à l’adresse suivante :
+   * La dernière version (20.21.2) est disponible à l’adresse suivante :
 
-      * [macOS (.DMG) - Télécharger.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows (.EXE) - Télécharger.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
-   * La version précédente (20.20.2) est disponible à l’adresse suivante :
+      * [macOS (.DMG) - Télécharger](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+      * [Windows® (.EXE) - Télécharger](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * La version précédente (20.21.1) est disponible à l’adresse suivante :
 
-      * [macOS (.DMG) - Télécharger.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-      * [Windows (.EXE) - Télécharger.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+      * [macOS (.DMG) - Télécharger](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+      * [Windows® (.EXE) - Télécharger](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
+
+<!--         * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+        * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
 
 
 1. Effectuez l’une des opérations suivantes en fonction du programme d’installation que vous avez téléchargé.
@@ -103,8 +119,8 @@ Voir aussi:
 
 Voir aussi:
 
-* [Téléchargement et installation de la dernière application de bureau Adobe Dynamic Media Classic sous Mac ou Windows](#installation-dmc-app)
-* [Téléchargement et installation silencieuse de la dernière application de bureau Dynamic Media Classic Adobe sous Windows](#install-silent-windows-dmc-app)
+* [Téléchargement et installation de la dernière application de bureau Adobe Dynamic Media Classic sous Mac ou Windows®](#installation-dmc-app)
+* [Téléchargez et installez en mode silencieux la dernière application de bureau Adobe Dynamic Media Classic sous Windows®.](#install-silent-windows-dmc-app)
 
 Pour télécharger et *silencieux* installer la dernière version de l’application de bureau Dynamic Media Classic Adobe sur macOS :
 
@@ -112,11 +128,11 @@ Pour télécharger et *silencieux* installer la dernière version de l’applica
 
 1. Téléchargez le dernier programme d’installation pour l’application de bureau Dynamic Media Classic Adobe pour macOS.
 
-   * [macOS (.DMG) - Télécharger.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+   * [macOS (.DMG) - Télécharger](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
 
 1. Montez l&#39;image de disque (.DMG) téléchargée à un emplacement de point de montage à l&#39;aide de la commande suivante :
 
-   `hdiutil attach adobe-dynamic-media-classic-20.21.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.2.dmg -mountpoint <mount_point_path>`
 
 1. Copiez le fichier .APP dans **[!UICONTROL Applications]** à l’aide de la commande suivante :
 
@@ -137,36 +153,36 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    | https://s7sps3.scene7.com/ | Production EMEA (Europe, Moyen-Orient et Afrique) |
    | https://s7sps5.scene7.com/ | Production d&#39;APAC (Asie-Pacifique) |
 
-## Téléchargez et *silencieuse* installez la dernière application de bureau Adobe Dynamic Media Classic sur Windows {#install-silent-windows-dmc-app}
+## Téléchargez et *silencieuse* installez la dernière application de bureau Dynamic Media Classic Adobe sous Windows® {#install-silent-windows-dmc-app}.
 
-La commande que vous utilisez est destinée à une installation silencieuse MSI de base. Cependant, le programme d’installation de l’application de bureau Dynamic Media Classic est un programme d’installation MSI InstallScript créé à l’aide d’InstallShield. Lorsque vous exécutez le programme d’installation en mode d’enregistrement, toute interaction utilisateur est enregistrée dans un fichier de réponse. Ce fichier de réponse est ensuite utilisé pour une installation silencieuse, comme décrit dans [Exécution d&#39;installations en mode silencieux.](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+La commande que vous utilisez est destinée à une installation silencieuse MSI de base. Cependant, le programme d’installation de l’application de bureau Dynamic Media Classic est un programme d’installation MSI InstallScript créé à l’aide d’InstallShield. Lorsque vous exécutez le programme d’installation en mode d’enregistrement, toute interaction utilisateur est enregistrée dans un fichier de réponse. Ce fichier de réponse est ensuite utilisé pour une installation silencieuse, comme décrit dans [Exécution d&#39;installations en mode silencieux.](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 Voir aussi:
 
-* [Téléchargement et installation de la dernière application de bureau Adobe Dynamic Media Classic sous Mac ou Windows](#installation-dmc-app)
+* [Téléchargement et installation de la dernière application de bureau Adobe Dynamic Media Classic sous Mac ou Windows®](#installation-dmc-app)
 * [Téléchargement et installation silencieuse de la dernière application de bureau Dynamic Media Classic Adobe sur macOS](#install-silent-mac-dmc-app)
 
-Pour télécharger et *silencieux* installer la dernière version de l’application de bureau Dynamic Media Classic Adobe sous Windows :
+Pour télécharger et *silencieux* installer la dernière version de l’application de bureau Dynamic Media Classic Adobe sous Windows® :
 
 1. Désinstallez toutes les anciennes versions d’application de bureau Dynamic Media Classic sur votre système.
 
 1. Téléchargez le dernier programme d’installation de l’application de bureau Adobe Dynamic Media Classic.
 
-   * [Windows (.EXE) - Télécharger.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
+   * [Windows® (.EXE) - Télécharger](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
 
 1. Exécutez le programme d’installation en mode enregistrement à l’aide de la commande suivante :
 
-   `adobe-dynamic-media-classic-20.21.1.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.2.exe /r /f1"C:\Setup.iss"`
 
 1. Dans la fenêtre du programme d’installation de l’interface utilisateur graphique, suivez les étapes pour installer de sorte que les interactions/entrées, telles que l’emplacement d’installation, soient enregistrées dans le fichier `Setup.iss`.
 
-1. Copiez le fichier `Setup.iss` et `adobe-dynamic-media-classic-20.21.1.exe` créé sur un autre ordinateur.
+1. Copiez le fichier `Setup.iss` et `adobe-dynamic-media-classic-20.21.2.exe` créé sur un autre ordinateur.
 
 1. Exécutez la commande suivante pour une installation silencieuse :
 
-   `adobe-dynamic-media-classic-20.21.1.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.2.exe /s /f1"C:\Setup.iss"`
 
-   Pour plus d&#39;informations sur les paramètres de ligne de commande, consultez les sections [Setup.exe et Paramètres de ligne de commande Update.exe.](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
+   Pour plus d&#39;informations sur les paramètres de ligne de commande, consultez les sections [Setup.exe et Paramètres de ligne de commande Update.exe.](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
 1. Lorsque vous ouvrez l’application, la nouvelle page de connexion à l’Adobe Dynamic Media Classic s’affiche :
 
@@ -202,7 +218,7 @@ Outre l’effacement du cache d’images et de ressources à l’aide de l’app
 1. En fonction de votre système d’exploitation, accédez aux options suivantes :
 
    * macOS : `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
-   * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+   * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Limite connue dans Dynamic Media Classic 20.21.1
 
@@ -210,9 +226,10 @@ Outre l’effacement du cache d’images et de ressources à l’aide de l’app
 
 ## Limites connues dans Dynamic Media Classic 20.20.1 (fixées dans la version 20.20.2)
 
-**_S’applique uniquement à Windows : le nombre de fichiers pouvant être téléchargés via l’interface utilisateur de l’application de bureau est-il limité ?_**<br>Oui, un maximum de 150 fichiers peuvent être téléchargés à la fois via l’interface utilisateur de l’application de bureau.
+**_S’applique uniquement à Windows® : le nombre de fichiers pouvant être téléchargés via l’interface utilisateur de l’application de bureau est-il limité ?_**<br>Oui, un maximum de 150 fichiers peuvent être téléchargés à la fois via l’interface utilisateur de l’application de bureau.
 
-**_Application pour Windows et macOS - Comment puis-je passer d’une société à l’autre ?_**<br>Pour passer d’une société à l’autre, procédez comme suit :
+**_Application pour Windows® et macOS - Comment puis-je passer d’une société à l’autre ?_**<br>Pour passer d’une société à l’autre, procédez comme suit :
+
 * Dans l’application Dynamic Media Classic, sélectionnez la nouvelle société dans la liste déroulante société.
 * Lorsque la fenêtre contextuelle s’affiche, appuyez sur **[!UICONTROL OK]** pour vous déconnecter et fermer l’application.
 
