@@ -3,7 +3,7 @@ title: Ressources populaires
 description: Liens vers des webinaires, des vidéos de formation, des informations sur les meilleures pratiques et des ressources pour les développeurs.
 contentOwner: Rick Brough
 feature: Dynamic Media Classic
-role: Administrateur, Professionnel
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

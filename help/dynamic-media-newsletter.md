@@ -3,7 +3,7 @@ description: 'La Dynamic Media Newsletter d''Experience League est un bulletin d
 keywords: média dynamique ; newsletter ; mises à jour des produits ; conseils et astuces ; événements ; succès client ; blog ; blogs ; images ; vidéos ; fonctionnalités ; fonctionnalités
 title: Bulletin Dynamic Media
 feature: Dynamic Media Classic
-role: Administrateur, Professionnel
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
