@@ -7,14 +7,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestion des ressources
 role: Business Practitioner
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
+source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 60%
+source-wordcount: '1583'
+ht-degree: 61%
 
 ---
 
@@ -54,9 +54,11 @@ Sur l’onglet Historique de la page Tâches, les tâches sont répertoriées se
 
 **Soumis** parLists qui a téléchargé les ressources.
 
-***Remarque **: Vous pouvez annuler des tâches de publication et de téléchargement en cours en cliquant sur le bouton Annuler en regard de la barre de progression.*
+>[!NOTE]
+>
+>vous pouvez annuler des tâches de publication et de téléchargement en cours en cliquant sur le bouton Annuler en regard de la barre de progression.
 
-## Modification des vues de la page Tâches {#changing-views-on-the-jobs-page}
+## Modification des vues de la page Tâches  {#changing-views-on-the-jobs-page}
 
 Pour trier des tâches ou modifier votre affichage sur l’onglet Historique de la page Tâches, appliquez les techniques suivantes :
 
@@ -66,7 +68,7 @@ Pour trier des tâches ou modifier votre affichage sur l’onglet Historique de 
 
 **Type de tâcheSélectionnez le menu Type de tâche et choisissez Publier ou Télécharger pour restreindre la liste de publication ou de téléchargement des tâches.** Choisissez l’option Tout pour voir les deux types de tâche.
 
-**** AfficherChoisissez Afficher > Mes tâches ou Afficher > Toutes les tâches pour restreindre la liste aux tâches commandées ou aux tâches commandées par les personnes de votre société.
+**** AfficherChoisissez Afficher > Mes tâches ou Afficher > Toutes les tâches pour restreindre la liste aux tâches que vous avez commandées ou aux tâches commandées par des personnes de votre société.
 
 ## Affichage, copie ou impression d’un rapport Détails de la tâche {#viewing-copying-or-printing-a-job-details-report}
 
