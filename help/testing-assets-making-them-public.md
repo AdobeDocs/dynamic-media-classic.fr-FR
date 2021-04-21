@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestion des ressources
 role: Business Practitioner
+exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 54%
+source-wordcount: '1100'
+ht-degree: 55%
 
 ---
-
 
 # Test des fichiers avant de les rendre publics {#testing-assets-before-making-them-public}
 
@@ -46,7 +46,9 @@ L’emplacement de la requête d’origine devant être confirmé, le trafic du 
 
 Les fichiers non publiés sont immédiatement disponibles à partir des services Secure Testing, sans avoir besoin d’être publiés. Cela vous permet d’effectuer un aperçu avant que les fichiers ne soient publiés dans leur serveur d’images destiné au public.
 
-***remarque **: Les services Secure Testing tirent parti du serveur de catalogue configuré avec un contexte de publication interne. Par conséquent, si votre société est configurée pour publier sur Secure Testing, n’oubliez pas que tout fichier téléchargé dans Dynamic Media Classic devient immédiatement disponible sur les services Secure Testing. Cela est vrai pour les fichiers marqués ou non pour publication au moment du transfert.*
+>[!NOTE]
+>
+>Les services Secure Testing tirent parti du serveur de catalogue configuré avec un contexte de publication interne. Par conséquent, si votre société est configurée pour publier sur Secure Testing, n’oubliez pas que tout fichier téléchargé dans Dynamic Media Classic devient immédiatement disponible sur les services Secure Testing. Cela est vrai pour les fichiers marqués ou non pour publication au moment du transfert.
 
 Les services Secure Testing prennent actuellement en charge les types et fonctionnalités de ressources suivants :
 
@@ -145,4 +147,3 @@ Effectuez les tests suivants :
    Accédez votre réseau depuis l’extérieur (par exemple, depuis votre ordinateur personnel ou via une connexion 3G), puis vérifiez que la version publique du site affiche tous les fichiers publiés mais pas le contenu non publié.
 
    Confirmez que la version intermédiaire n’affiche aucun fichier, car vous accédez au service Secure Testing à partir d’une adresse IP non approuvée.
-
