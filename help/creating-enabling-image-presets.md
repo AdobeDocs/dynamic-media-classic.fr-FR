@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
-feature: Dynamic Media Classic,Collaboration,Image Presets,Asset Management
+feature: Dynamic Media Classic,Collaboration,Paramètres d’image prédéfinis,Gestion des ressources
 role: Administrator,Business Practitioner
+exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 85%
+source-wordcount: '260'
+ht-degree: 81%
 
 ---
-
 
 # Création et activation des paramètres d’image prédéfinis{#creating-and-enabling-image-presets}
 
@@ -27,7 +27,7 @@ Les administrateurs du portail multimédia peuvent créer des paramètres d’im
 Les restrictions suivantes s’appliquent lorsque vous exportez des fichiers d’image :
 
 * La largeur x hauteur doit être inférieure ou égale à 100 Mo par image. Par exemple, l’image ne doit pas dépasser 10 K x 10 K, ou toute variation de rapport telle que 8 K x 12 K.
-* La taille totale maximum du fichier est de 1 Go par tâche d’exportation.
+* La taille totale du fichier par tâche d’exportation ne peut pas dépasser 1 Go.
 * Il peut y avoir un maximum de 500 fichiers par tâche d’exportation.
 
 >[!NOTE]
