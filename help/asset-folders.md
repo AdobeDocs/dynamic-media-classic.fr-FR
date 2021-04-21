@@ -7,11 +7,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestion des ressources
 role: Business Practitioner
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 49%
@@ -36,9 +36,11 @@ La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de
 
 * **Ouverture d&#39;un dossier**  : sélectionnez un dossier pour afficher son contenu dans le panneau de navigation.
 
-***Conseil **: Vous pouvez masquer ou afficher la bibliothèque de fichiers en cliquant sur la commande Développer/Réduire située sur son côté gauche. Réduisez le panneau Bibliothèque de fichiers pour optimiser l’espace réservé au panneau de navigation.*
+>[!TIP]
+>
+>Vous pouvez masquer ou afficher la bibliothèque de fichiers en cliquant sur le contrôle **[!UICONTROL Développer]** ou **[!UICONTROL Réduire]** sur son côté gauche. Réduisez le panneau Bibliothèque de fichiers pour optimiser l’espace réservé au panneau de navigation.
 
-## Création de dossiers {#creating-folders}
+## Création de dossiers  {#creating-folders}
 
 Pour créer des dossiers, procédez comme suit :
 
