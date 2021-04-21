@@ -9,16 +9,16 @@ feature: Dynamic Media Classic
 role: Administrator
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 223bbacab2f244b91763de2ea324a5c8d777feb9
 workflow-type: tm+mt
-source-wordcount: '10928'
-ht-degree: 68%
+source-wordcount: '10917'
+ht-degree: 57%
 
 ---
 
 # Configuration de l’application{#application-setup}
 
-Vous pouvez utiliser les pages Configuration de l’application pour saisir des paramètres généraux, créer des paramètres d’image prédéfinis, des paramètres prédéfinis de codage vidéo, des paramètres prédéfinis de visionneuse ou définir des visionneuses par défaut et des métadonnées. Vous pouvez également configurer les paramètres prédéfinis d’ensemble par lot afin d’automatiser la génération de visionneuses à 360° 2D (par exemple), des paramètres de publication et des paramètres d’optimisation du référencement de la vidéo.
+Vous pouvez utiliser les pages Configuration de l’application pour saisir des paramètres généraux, créer des paramètres d’image prédéfinis, des paramètres prédéfinis de codage vidéo, des paramètres prédéfinis de visionneuse ou définir des visionneuses par défaut et des métadonnées. Vous pouvez configurer des paramètres prédéfinis d’ensemble par lot pour automatiser également la génération de visionneuses à 360° 2D (par exemple), les paramètres de publication et les paramètres d’optimisation du référencement des vidéos.
 
 >[!NOTE]
 >
@@ -34,13 +34,13 @@ Lors de la création de compte, Dynamic Media Classic fournit automatiquement le
 
 Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-* **Nom**  du serveur publié : ce serveur est le serveur CDN actif utilisé dans tous les appels d’URL générés par le système et spécifique à votre compte. Ne modifiez pas ce nom de serveur à moins que vous ne soyez invité à le faire par un technicien de l’assistance technique Dynamic Media Classic.
+* **Nom**  du serveur publié : ce serveur est le serveur CDN (Content Deliver Network) utilisé dans tous les appels d’URL générés par le système et spécifique à votre compte. Ne modifiez pas ce nom de serveur à moins que vous ne soyez invité à le faire par un technicien de l’assistance technique Dynamic Media Classic.
 
 * **Nom**  du serveur d&#39;Origine : ce serveur est utilisé uniquement pour les tests d&#39;assurance qualité. Ne changez pas le nom de ce serveur, sauf si un technicien de l’assistance technique Dynamic Media Classic vous le demande.
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Dynamic Media Classic support technician. -->
 
-* **Nom**  du serveur Test&amp;Cible : votre URL Test&amp;Cible, jusqu’à .com compris. Pour obtenir des instructions sur l’obtention de cette URL, voir Intégration de [!DNL Dynamic Media Classic] à [!DNL Target Standard/Premium].
+* **Nom**  du serveur Test&amp;Cible : votre URL Test&amp;Cible, jusqu’à .com compris. Pour obtenir des instructions sur l’obtention de cette URL, voir Intégration de [!DNL Dynamic Media Classic] à [!DNL Adobe Target Standard/Premium].
 
 <!-- **Test Publish Context Server Name** -->
 
@@ -66,11 +66,11 @@ Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md
 
    `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-   Dans la zone de la liste des URL, cliquez sur **Continuer** pour effacer la mémoire cache de cet appel d’URL d’image spécifique. Notez que vous pouvez également ajouter des URL en les saisissant ou en les collant dans la zone de la liste des URL ; vous n’avez pas besoin de définir le modèle au préalable.
+   Dans la zone de la liste des URL, cliquez sur **[!UICONTROL Continuer]** pour effacer la mémoire cache de cet appel d’URL d’image spécifique. Vous pouvez également ajouter des URL en les saisissant ou en les collant dans la zone de liste d’URL ; vous n’avez pas besoin de définir le modèle au préalable.
 
-   Une fois le modèle d’invalidation sur le réseau de diffusion de contenu sélectionné et une demande d’invalidation sur le réseau de diffusion de contenu effectuée, un indicateur s’affiche dans l’interface utilisateur et donne une évaluation du temps nécessaire pour effacer le cache.
+   Après avoir sélectionné votre modèle d’invalidation CDN et effectué une demande d’invalidation CDN, un indicateur s’affiche dans l’interface utilisateur. Vous obtenez une estimation du temps nécessaire pour vider le cache.
 
-   De même, si plusieurs images sont sélectionnées dans Dynamic Media Classic lorsque vous cliquez sur **Fichier** > **Invalider CDN**, chaque image est référencée dans l’URL de modèle enregistrée. Par conséquent, vous pouvez définir un modèle CDN Invalidate référençant chaque URL référencée sur votre site Web (comme le détail d’un produit, les résultats de recherche, et ainsi de suite). Ensuite, lorsque vous sélectionnez une ou plusieurs images pour invalidation à partir du cache, les URL renseignent automatiquement l’interface.
+   De même, si plusieurs images sont sélectionnées dans Dynamic Media Classic lorsque vous cliquez sur **Fichier** > **Invalider CDN**, chaque image est référencée dans l’URL de modèle enregistrée. Par conséquent, vous pouvez définir un modèle CDN Invalidate référençant chaque URL référencée sur votre site Web (comme les détails du produit et les résultats de la recherche). Ensuite, lorsque vous sélectionnez une ou plusieurs images pour invalidation à partir du cache, les URL renseignent automatiquement l’interface.
 
    Voir [Mise en cache du contenu](dmc-platform-overview.md#content_caching).
 
@@ -88,9 +88,9 @@ Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md
 
    Pour rechercher rapidement des vidéos dans Dynamic Media Classic sans avoir à parcourir de nombreux dérivés codés de la même vidéo, laissez cette option désélectionnée (par défaut). Seule la miniature de la vidéo originale, qui est la vidéo source que vous avez téléchargée et utilisée pour créer tous les dérivés, et seule la miniature de la visionneuse de vidéos adaptative « parent », qui contient tous les dérivés « enfants » de la visionneuse de vidéos codées, sont affichées dans l’interface utilisateur.
 
-   Il est toujours possible d’accéder à des vidéos codées individuelles à partir de la vidéo originale ou de la visionneuse de vidéos adaptatives. Pour ce faire, double-cliquez sur l’image miniature de la vidéo pour passer en mode Affichage des détails. Cliquez ensuite sur **Vidéos codées** dans le panneau droit pour accéder à l’intégralité des vidéos « enfants ».
+   Il est toujours possible d’accéder à des vidéos codées individuelles à partir de la vidéo originale ou de la visionneuse de vidéos adaptatives. Pour ce faire, double-cliquez sur l’image miniature de la vidéo pour passer en mode Affichage des détails. Cliquez ensuite sur **[!UICONTROL Vidéos codées]** dans le panneau droit pour accéder à l’intégralité des vidéos « enfants ».
 
-   Vous pouvez également utiliser la commande **Fichier > Retraiter** pour créer d’autres vidéos codées « enfants » directement depuis une visionneuse de vidéos adaptatives. Dynamic Media Classic recherche automatiquement la vidéo de Principal &quot;parent&quot; de la visionneuse de vidéos adaptative et l’utilise comme vidéo source pour le transcodage. Cependant, lorsque vous enregistrez les nouvelles vidéos codées individuelles, elles ne sont pas visibles lors d’une recherche ou d’une navigation. Elles restent néanmoins accessibles à partir de l’onglet Vidéos codées dans la vue Affichage des détails.
+   Vous pouvez également utiliser **[!UICONTROL Fichier]** > **[!UICONTROL Retraiter]** pour créer d’autres vidéos &quot;enfants&quot; codées directement à partir d’une visionneuse de vidéos adaptative. Dynamic Media Classic recherche automatiquement la vidéo de Principal &quot;parent&quot; de la visionneuse de vidéos adaptative et l’utilise comme vidéo source pour le transcodage. Cependant, lorsque vous enregistrez les nouvelles vidéos codées individuelles, elles ne sont pas visibles lors d’une recherche ou d’une navigation. Elles restent néanmoins accessibles à partir de l’onglet Vidéos codées dans la vue Affichage des détails.
 
    Voir [Téléchargement et transcodage vidéo](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -130,9 +130,9 @@ Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md
 
 ### Editeur de zone cliquable, vers l’application
 
-* **HREF**  de mappage d’images par défaut : définit l’URL par défaut utilisée pour la colonne HREF de mappage d’images. Il s’agit de l’URL par défaut qui apparaît lorsque vous créez des zones cliquables.
+* **HREF**  de mappage d’images par défaut : définit l’URL par défaut utilisée pour la colonne HREF de mappage d’images. Il s’agit de l’URL par défaut affichée lorsque vous créez des zones cliquables.
 
-* **Modèle**  de mappage d&#39;image par défaut : définit le script JavaScript par défaut pour le modèle HREF de mappage d&#39;image. Vous pouvez également définir un code personnalisé à exécuter chaque fois que vous cliquez sur une zone cliquable.
+* **Modèle**  de mappage d’images par défaut : définit le code JavaScript™ par défaut pour le modèle HREF de mappage d’images. Vous pouvez également définir un code personnalisé à exécuter chaque fois que vous cliquez sur une zone cliquable.
 
 ### Autres paramètres, vers l’application
 
@@ -156,24 +156,25 @@ L’écran Paramètres d’image prédéfinis sert à créer et à modifier les 
 
 Les administrateurs peuvent créer des paramètres prédéfinis pour l’exportation de fichiers. Les utilisateurs peuvent choisir un paramètre prédéfini au moment de l’exportation des images, qui reformate également les images selon les spécifications définies par l’administrateur.
 
-Pour ouvrir l’écran Paramètres d’image prédéfinis, dans la barre de navigation globale, cliquez sur **Configuration** > **Paramètres d’image prédéfinis**.
+Pour ouvrir l’écran Paramètres d’image prédéfinis, dans la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres d’image prédéfinis]**.
 
 Voir [Imagerie intelligente](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
 ### Création et modification de paramètres d’image prédéfinis {#creating-and-editing-image-presets}
 
-1. Cliquez sur **Configuration** > **Paramètres d’image prédéfinis**.
-1. Créez un paramètre prédéfini à partir d’un paramètre existant :
-   * **Création d’un paramètre**  d’image prédéfini - Cliquez sur  **Ajouter**.
-   * **Création d’un paramètre d’image prédéfini à partir d’un paramètre**  existant : sélectionnez le paramètre d’image prédéfini qui ressemble le plus à celui que vous souhaitez créer, puis cliquez sur Modifier.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres d’image prédéfinis]**.
+1. Créez un paramètre prédéfini ou un début à partir d’un paramètre existant :
 
-1. Sur l’écran Ajouter un paramètre prédéfini ou Modifier le paramètre prédéfini, attribuez un nom au paramètre prédéfini.
+   * **Création d’un paramètre**  d’image prédéfini - Cliquez sur  **[!UICONTROL Ajouter]**.
+   * **Création d’un paramètre d’image prédéfini à partir d’un paramètre**  existant : sélectionnez le paramètre d’image prédéfini qui ressemble le plus à celui que vous souhaitez créer, puis cliquez sur  **[!UICONTROL Modifier]**.
+
+1. Sur la page Ajouter (ou Modifier) le paramètre prédéfini, saisissez le nom du paramètre prédéfini.
 1. Définissez les options de paramètres prédéfinis de votre choix. 
 
    Voir [Options des paramètres d’image prédéfinis](application-setup.md#image_preset_options).
 
-1. Cliquez sur **Enregistrer** ou, si vous avez commencé à partir d’un paramètre prédéfini existant, cliquez sur **Enregistrer sous**.
-1. Pour prévisualisation du paramètre prédéfini avec votre propre image, cliquez sur **Parcourir**, puis sélectionnez une image. Pour prévisualisation avec l’image par défaut, cliquez sur **Réinitialiser**.
+1. Cliquez sur **[!UICONTROL Enregistrer]** ou, si vous avez commencé à partir d’un paramètre prédéfini existant, cliquez sur **[!UICONTROL Enregistrer sous]**.
+1. Pour prévisualisation du paramètre prédéfini avec votre propre image, cliquez sur **[!UICONTROL Parcourir]**, puis sélectionnez une image. Pour prévisualisation avec l’image par défaut, cliquez sur **[!UICONTROL Réinitialiser]**.
 
 Pour modifier un paramètre d’image prédéfini, sélectionnez son nom dans l’écran Paramètres d’image prédéfinis, puis cliquez sur Modifier. Pour supprimer un paramètre d’image prédéfini, sélectionnez-le, puis cliquez sur Supprimer.
 
@@ -181,96 +182,82 @@ Pour modifier un paramètre d’image prédéfini, sélectionnez son nom dans l�
 
 Les écrans Ajouter un paramètre prédéfini et Modifier le paramètre prédéfini mettent à votre disposition les options suivantes pour créer et modifier les paramètres d’image prédéfinis :
 
-**Nom** du paramètre prédéfiniEntrez un nom descriptif sans espaces. Ajoutez la spécification de taille de l’image dans le nom pour permettre aux utilisateurs d’identifier ce paramètre d’image prédéfini.
+* **Nom**  du paramètre prédéfini : entrez un nom descriptif sans espaces. Pour aider les utilisateurs à identifier ce paramètre d’image prédéfini, incluez la spécification de taille d’image dans le nom.
 
-**Largeur et** HauteurSaisissez en pixels la taille de diffusion de l’image.
+* **Largeur et Hauteur**  : entrez en pixels la taille de diffusion de l’image.
 
-**** FormatChoisissez un format dans le menu. Le choix du format GIF, JPEG, PDF ou TIFF apporte des options supplémentaires :
+* **Format**  : choisissez un format dans le menu. Le choix du format GIF, JPEG, PDF ou TIFF propose d’autres options :
 
-* Options Quantification de couleurs GIF
+   * Options Quantification de couleurs GIF
 
-   **Type**
+      * **Type**  : sélectionnez Adaptatif (valeur par défaut), Web ou Macintosh. Si vous choisissez GIF avec Alpha, l’option Macintosh n’est pas disponible.
 
-   Choisissez Adaptatif (par défaut), Web ou Macintosh. Si vous choisissez GIF avec Alpha, l’option Macintosh® n’est pas disponible.
+      * **Dither**  - Choisissez Diffuse ou Désactivé.
 
-   **Juxtaposition**
+      * **Nombre de couleurs**  - Faites glisser le curseur pour entrer 2-255.
 
-   Sélectionnez Diffus ou Non.
+      * **Liste**  des couleurs - Entrez une liste séparée par des virgules. Par exemple, pour le blanc, le gris et le noir, entrez 000000,888888,ffffff.
+   * Options JPEG
 
-   **Nombre de couleurs**
+      * **Qualité**  - Contrôle le niveau de compression JPEG. Ce paramètre affecte à la fois la taille du fichier et la qualité de l’image. L’échelle de qualité JPEG est de 1 à 100.
 
-   Faites glisser le curseur pour entrer une valeur comprise entre 2 et 255.
+      * **Activer le sous-échantillonnage**  de la chrominance JPG - Comme l&#39;oeil est moins sensible aux informations sur les couleurs à haute fréquence qu&#39;à la luminance à haute fréquence, les images JPEG divisent les informations sur les images en composantes de luminance et de couleur. Lorsqu’une image JPEG est compressée, la composante de luminance conserve sa pleine résolution, tandis que les composantes de couleur sont sous-échantillonnées par interpolation, c’est-à-dire le calcul de la moyenne de groupes de pixels. La réduction de résolution (sous-échantillonnage) réduit de moitié ou d’un tiers le volume de données, quasiment sans nuire à la qualité perceptible par l’œil humain. La réduction de résolution ne s’applique pas aux images en niveaux de gris. Cette technique réduit le niveau de compression nécessaire pour les images présentant un contraste élevé (par exemple, les images contenant du texte superposé).
+   * Options PDF et TIFF
 
-   **Liste de couleurs**
+      * **Compression**  : choisissez un algorithme de compression.
 
-   Entrez une liste séparée par des virgules. Par exemple, pour le blanc, le gris et le noir, entrez 000000,888888,ffffff.
 
-* Options JPEG
 
-   **Qualité**
+* **Espace colorimétrique**  - Choisissez un espace colorimétrique.
 
-   Contrôle le niveau de compression JPEG. Ce paramètre affecte à la fois la taille du fichier et la qualité de l’image. L’échelle de qualité JPEG est de 1 à 100.
+* **Accentuation**  : sélectionnez l’option Activer l’accentuation simple pour appliquer un filtre d’accentuation de base à l’image après toute mise à l’échelle. L’accentuation peut compenser le flou produit lors de l’affichage d’une image à une taille différente. 
 
-   **Activer la réduction de la chrominance JPEG**
+   Pour plus de détails sur l’accentuation, les modes de ré-échantillonnage et le masquage flou, voir [Accentuation d’une image](sharpening-image.md#sharpening_an_image).
 
-   Comme l’œil humain est moins sensible aux données chromatiques à fréquence élevée qu’à la luminance à fréquence élevée, les images JPEG divisent les informations graphiques en composantes de luminance et de couleur. Lorsqu’une image JPEG est compressée, la composante de luminance conserve sa pleine résolution, tandis que les composantes de couleur sont sous-échantillonnées par interpolation, c’est-à-dire le calcul de la moyenne de groupes de pixels. La réduction de résolution (sous-échantillonnage) réduit de moitié ou d’un tiers le volume de données, quasiment sans nuire à la qualité perceptible par l’œil humain. La réduction de résolution ne s’applique pas aux images en niveaux de gris. Cette technique réduit le niveau de compression nécessaire pour les images présentant un contraste élevé (par exemple, les images contenant du texte superposé).
+* **Mode**  de ré-échantillonnage : choisissez une option de mode de ré-échantillonnage. Les options suivantes permettent d’accentuer l’image lorsque sa résolution est réduite :
 
-* Options PDF et TIFF
+* **B-Linéaire**  - La méthode de rééchantillonnage la plus rapide ; certains artefacts de crénelage sont visibles.
 
-   **Compression**
+* **Bi-Cubique**  : augmente l’utilisation du processeur sur le serveur Image Server, mais produit des images plus nettes avec des artefacts de crénelage moins visibles.
 
-   Choisissez un algorithme de compression.
+* **Sharp2**  - Peut produire des résultats légèrement plus nets que l’option Bi-Cubique, mais à un coût CPU encore plus élevé sur le serveur Image Server.
 
-**Espace** colorimétriqueChoisissez un espace colorimétrique.
+* **Tri-Linéaire**  : utilise des résolutions supérieures et inférieures, le cas échéant ; recommandé uniquement lorsque le crénelage est un problème. Elle réduit la taille du fichier JPEG en raison des données à haute fréquence réduites.
 
-**** AccentuationSélectionnez l’option Activer l’accentuation simple pour appliquer un filtre d’accentuation de base à l’image après toute mise à l’échelle. L’accentuation peut compenser le flou produit lors de l’affichage d’une image à une taille différente. 
+* **Masquage flou**  - Choisissez les options suivantes pour affiner l’accentuation :
 
-Pour plus de détails sur l’accentuation, les modes de ré-échantillonnage et le masquage flou, voir [Accentuation d’une image](sharpening-image.md#sharpening_an_image).
+* **Montant**  : contrôle le degré de contraste appliqué aux pixels de contour. La valeur par défaut est de 1. Pour des images à haute résolution, vous pouvez l’augmenter jusqu’à 5. Imaginez la quantité comme étant l’unité de mesure de l’intensité du filtre.
 
-**Mode de ré-échantillonnageChoisissez une option de mode de ré-échantillonnage.** Les options suivantes permettent d’accentuer l’image lorsque sa résolution est réduite :
+* **Rayon**  : détermine le nombre de pixels entourant les pixels de contour qui affectent l’accentuation. Pour les images à haute résolution, entrez une valeur comprise entre 1 et 2. Une valeur faible renforce uniquement les pixels de contour, tandis qu’une valeur élevée traite une plus large bande de pixels. La valeur appropriée dépend de la taille de l’image.
 
-**B-** LinearLa méthode de rééchantillonnage la plus rapide ; certains artefacts de crénelage sont visibles.
+* **Seuil**  : détermine la plage de contraste à ignorer lorsque le filtre de masquage flou est appliqué. En d’autres termes, cette option définit l’écart recherché entre les pixels et la zone environnante avant qu’ils ne soient considérés comme des pixels de contour et ne soient accentués. Pour éviter d’introduire du bruit, jouez avec des valeurs comprises entre 0,02 et 0,2. La valeur par défaut de 6 permet d’accentuer tous les pixels de l’image.
 
-**Bi-** CubicAugmente l’utilisation du processeur sur le serveur Image Server, mais produit des images plus nettes avec des artefacts de crénelage moins visibles.
+* **Espace**  colorimétrique : détermine si l&#39;image utilise l&#39;espace dans lequel elle a été créée, généralement RVB (original) ou un espace de luminance (intensité).
 
-**Sharp2** peut produire des résultats légèrement plus nets que l’option Bi-Cubique, mais à un coût CPU encore plus élevé sur le serveur Image Server.
+* **** CouleurChoisissez les options suivantes :
 
-**Tri-** LinearUtilise des résolutions supérieures et inférieures, le cas échéant ; recommandé uniquement lorsque le crénelage est un problème. Elle réduit la taille du fichier JPEG en raison des données à haute fréquence réduites.
+* **Profil**  de couleurs de sortie : sélectionnez Utiliser la couleur par défaut ou l’un des profils de couleurs ICC disponibles sur Dynamic Media Classic.
 
-**Masquage flou** Choisissez les options suivantes pour affiner l’accentuation :
+   (voir aussi [Profils ICC](icc-profiles.md#icc_profiles)).
 
-**** AmountContrôle le degré de contraste appliqué aux pixels de contour. La valeur par défaut est de 1. Pour des images à haute résolution, vous pouvez l’augmenter jusqu’à 5. Imaginez la quantité comme étant l’unité de mesure de l’intensité du filtre.
+* **Mode** de renduSélectionnez une option si vous souhaitez remplacer le mode de rendu par défaut du profil de couleurs. Utilisez cette option lorsqu’un des profils ICC par défaut est l’espace cible d’une conversion de couleurs, qu’un périphérique de sortie (imprimante ou moniteur) est caractérisé par ce profil et que le mode de rendu spécifié est valide pour ce profil.
 
-**** Rayon Détermine le nombre de pixels entourant les pixels de contour qui affectent l’accentuation. Pour les images à haute résolution, entrez une valeur comprise entre 1 et 2. Une valeur faible renforce uniquement les pixels de contour, tandis qu’une valeur élevée traite une plus large bande de pixels. La valeur appropriée dépend de la taille de l’image.
+* **Incorporer le** profil Sélectionnez cette option de sorte que, si vous ouvrez cette image dans Adobe® Photoshop®, elle utilise ce profil.
 
-**** SeuilDétermine la plage de contraste à ignorer lorsque le filtre de masquage flou est appliqué. En d’autres termes, cette option définit l’écart recherché entre les pixels et la zone environnante avant qu’ils ne soient considérés comme des pixels de contour et ne soient accentués. Pour éviter d’introduire du bruit, jouez avec des valeurs comprises entre 0,02 et 0,2. La valeur par défaut de 6 permet d’accentuer tous les pixels de l’image.
+* **** Résolution d&#39;impressionChoisissez une résolution pour imprimer cette image ; 72 pixels est la valeur par défaut.
 
-**Color** Space (Espace colorimétrique) Détermine si l’image utilise l’espace dans lequel elle a été créée, généralement RVB (Original) ou un espace de luminance (Intensité).
+* **Modificateurs d’URLSi vous préférez spécifier les modificateurs d’URL qui définissent votre paramètre d’image prédéfini plutôt que les paramètres, entrez les modificateurs ici.** 
 
-**** CouleurChoisissez les options suivantes :
-
-**Profil** de couleurs de sortieSélectionnez Utiliser la couleur par défaut ou l’un des profils de couleurs ICC disponibles sur Dynamic Media Classic.
-
-(voir aussi [Profils ICC](icc-profiles.md#icc_profiles)).
-
-**Mode** de renduSélectionnez une option si vous souhaitez remplacer le mode de rendu par défaut du profil de couleurs. Utilisez cette option lorsqu’un des profils ICC par défaut est l’espace cible d’une conversion de couleurs, qu’un périphérique de sortie (imprimante ou moniteur) est caractérisé par ce profil et que le mode de rendu spécifié est valide pour ce profil.
-
-**Incorporer le** profil Sélectionnez cette option de sorte que, si vous ouvrez cette image dans Adobe® Photoshop®, elle utilise ce profil.
-
-**** Résolution d&#39;impressionChoisissez une résolution pour imprimer cette image ; 72 pixels est la valeur par défaut.
-
-**Modificateurs d’URLSi vous préférez spécifier les modificateurs d’URL qui définissent votre paramètre d’image prédéfini plutôt que les paramètres, entrez les modificateurs ici.** 
-
-**Exemple d’URL** d’imageIndique la chaîne URL &quot;brute&quot; utilisée par le serveur Dynamic Media Image Server pour diffuser des images avec le paramètre d’image prédéfini que vous ajoutez ou modifiez. Cette chaîne URL code tous les paramètres de format que vous sélectionnez sur l’écran Ajouter un paramètre prédéfini ou Modifier le paramètre prédéfini.
+* **Exemple d’URL** d’imageIndique la chaîne URL &quot;brute&quot; utilisée par le serveur Dynamic Media Image Server pour diffuser des images avec le paramètre d’image prédéfini que vous ajoutez ou modifiez. Cette chaîne URL code tous les paramètres de format que vous sélectionnez sur l’écran Ajouter un paramètre prédéfini ou Modifier le paramètre prédéfini.
 
 ### Modification, suppression ou désactivation d’un paramètre d’image prédéfini  {#editing-removing-or-deactivating-an-image-preset}
 
-1. Cliquez sur **Configuration** > **Paramètres d’image prédéfinis**.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres d’image prédéfinis]**.
 1. Dans l’écran Paramètres d’image prédéfinis, sélectionnez un paramètre prédéfini dans le tableau, puis effectuez l’une des opérations suivantes :
 
-   * Cliquez sur **Modifier**, puis spécifiez de nouvelles options dans la boîte de dialogue Modifier le paramètre prédéfini.
-   * Cliquez sur **Supprimer** pour supprimer le paramètre prédéfini de la liste.
-   * Décochez la case Principale en regard d’un nom de paramètre prédéfini pour le supprimer de toute l’interface utilisateur de Dynamic Media Classic pour les utilisateurs de MediaPortal.
+   * Cliquez sur **[!UICONTROL Modifier]**, puis spécifiez de nouvelles options dans la boîte de dialogue Modifier le paramètre prédéfini.
+   * Cliquez sur **[!UICONTROL Supprimer]** pour supprimer le paramètre prédéfini de la liste.
+   * Décochez la case **[!UICONTROL Principal]** en regard d’un nom de paramètre prédéfini pour le supprimer de toute l’interface utilisateur de Dynamic Media Classic pour les utilisateurs de MediaPortal.
 
 ## Activation ou désactivation des paramètres prédéfinis de vidéo adaptative {#activating-or-deactivating-adaptive-video-presets}
 
@@ -280,11 +267,11 @@ Seuls les paramètres prédéfinis de codage de « vidéo adaptative » sont a
 
 Voir [Chargement et codage de vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
-**Activation ou désactivation des paramètres prédéfinis de vidéo adaptative**
+**Activation ou désactivation des paramètres prédéfinis de vidéo adaptative:**
 
-1. Près du coin supérieur droit de Dynamic Media Classic, cliquez sur **Configuration** > **Configuration de l’application** > **Paramètres vidéo prédéfinis** > **Paramètres prédéfinis de vidéo adaptative**.
+1. Près du coin supérieur droit de Dynamic Media Classic, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres vidéo prédéfinis]** > **[!UICONTROL Paramètres prédéfinis de vidéo adaptative]**.
 1. Sur la page Paramètres prédéfinis de vidéo adaptative, décochez la case située en regard du nom d’un paramètre prédéfini à supprimer de la liste Options eVideo figurant dans la boîte de dialogue Télécharger les options de la tâche.
-1. Cliquez sur **Fermer**.
+1. Cliquez sur **[!UICONTROL Fermer]**.
 
 ## Paramètres vidéo prédéfinis pour le codage des fichiers vidéo  {#video-presets-for-encoding-video-files}
 
@@ -292,59 +279,51 @@ Pour choisir un paramètre de codage prédéfini, dans le coin inférieur droit 
 
 >[!NOTE]
 >
->A l’exception de la « vidéo adaptative », qui est activée par défaut, il est possible que les autres paramètres prédéfinis de codage de vidéo adaptative ou de vidéo unique ne s’affichent pas tous dans la boîte de dialogue Télécharger les options de la tâche. Les administrateurs Dynamic Media Classic déterminent quels paramètres prédéfinis de codage vidéo sont visibles dans la boîte de dialogue Télécharger les options de la tâche.
+>A l’exception de la &quot;vidéo adaptative&quot;, qui est activée par défaut, vous ne pouvez pas afficher tous les autres paramètres prédéfinis de codage de vidéo adaptative ou de vidéo unique dans la boîte de dialogue Télécharger les options de la tâche. Les administrateurs Dynamic Media Classic déterminent quels paramètres prédéfinis de codage vidéo sont visibles dans la boîte de dialogue Télécharger les options de la tâche.
 
 * Choisissez l’un des paramètres prédéfinis de codage de vidéo adaptative ou de codage unique suivants :
 
-   **Vidéo adaptative 16:9**
+   * **Vidéo**  adaptative 16:9 : créez des vidéos 16:9 pour la diffusion sur les ordinateurs de bureau, les mobiles (iPhone, iPad, Android™) et les tablettes (iPad, Android™), optimisées avec la résolution et le débit qui correspondent le mieux à la vitesse de connexion du lecteur.
 
-   Créez des vidéos 16:9 pour diffusion sur les ordinateurs de bureau, les appareils mobiles (iPhone, iPad, Android) et les tablettes (iPad, Android), avec la résolution et le débit qui correspondent le mieux à la vitesse de connexion du lecteur.
+   * **Vidéo**  adaptative 4:3 : créez des vidéos de rapport L/H 4:3 pour la diffusion sur les ordinateurs de bureau, les appareils mobiles (iPhone, iPad, Android™) et les tablettes (iPad, Android™), optimisées avec la résolution et le débit qui correspondent le mieux à la vitesse de connexion de la visionneuse.
 
-   **Vidéo adaptative 4:3**
+   * **Vidéo**  adaptative : paramètre prédéfini de codage unique qui fonctionne avec n’importe quelle proportion pour créer des vidéos pour diffusion sur mobile, tablette et ordinateur de bureau. Les vidéos source transférées qui sont codées avec ce paramètre prédéfini sont définies avec une hauteur fixe. Toutefois, la largeur est automatiquement mise à l’échelle pour conserver les proportions de la vidéo.
 
-   Créez des vidéos de rapport L/H 4:3 pour la diffusion sur les ordinateurs de bureau, les appareils mobiles (iPhone, iPad, Android) et les tablettes (iPad, Android), en optimisant la résolution et le débit qui correspondent le mieux à la vitesse de connexion du lecteur.
+      Cette souplesse que procure la fonctionnalité de « redimensionnement automatique » est également disponible par défaut lorsque vous créez votre propre paramètre prédéfini de codage de vidéo personnalisé.
 
-   **Vidéo adaptative**
+      Voir [Ajout ou modification d’un paramètre prédéfini de codage vidéo](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
 
-   Un paramètre prédéfini de codage unique qui fonctionne avec n’importe quelle proportion pour créer des vidéos pour une diffusion sur téléphone, tablette et ordinateur de bureau. Les vidéos source transférées qui sont codées avec ce paramètre prédéfini sont définies avec une hauteur fixe. Toutefois, la largeur est automatiquement mise à l’échelle pour conserver les proportions de la vidéo.
+   * **Codage de vidéo adaptative (16:9 ou 4:3)**  : créez des vidéos 16:9 et 4:3 pour la diffusion sur les ordinateurs de bureau, les appareils mobiles (iPhone, iPad, Android™) et les tablettes (iPad, Android™). Tous optimisés avec la résolution et le débit qui correspondent le mieux à la vitesse de connexion de la visionneuse.
 
-   Cette souplesse que procure la fonctionnalité de « redimensionnement automatique » est également disponible par défaut lorsque vous créez votre propre paramètre prédéfini de codage de vidéo personnalisé.
+      Voir [Paramètres prédéfinis de codage de vidéo adaptative (16:9 ou 4:3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
 
-   Voir [Ajout ou modification d’un paramètre prédéfini de codage vidéo](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
+   * **Paramètres prédéfinis de codage uniques**
 
-   **Codage de vidéo adaptative (16:9 ou 4:3)**
+      >[!NOTE]
+      >
+      >pour diffuser de la vidéo sur des iPads, vous pouvez choisir un paramètre de codage prédéfini Mobile ou Tablette. Les paramètres prédéfinis Tablette sont spécialement conçus pour l’iPad, généralement avec une meilleure résolution et une qualité supérieure pour tirer parti de l’écran plus large et de la connexion à bande passante plus puissante. Afin de diffuser des fichiers vidéo codés avec un paramètre prédéfini Tablette, vous devez inclure un code de détection de périphérique sur votre site ou application mobile. Ce code bascule entre une expérience vidéo iPhone ou iPad, selon le périphérique de lecture. Le choix d’un paramètre prédéfini Mobile pour la diffusion de fichiers vidéo sur l’iPad représente un flux de travail plus simple, car vous pouvez utiliser le même fichier vidéo pour les iPhones et les iPads. En revanche, la qualité est normalisée sur la résolution iPhone, qui est inférieure.
 
-   Créez des vidéos 16:9 et 4:3 pour la diffusion sur les ordinateurs de bureau, les appareils mobiles (iPhone, iPad, Android) et les tablettes (iPad, Android), avec la résolution et le débit qui correspondent le mieux à la vitesse de connexion du lecteur.
+      * Sous le groupe Paramètres prédéfinis de codage, dans la liste déroulante Trier les paramètres prédéfinis de codage, sélectionnez Nom ou Taille pour trier les paramètres prédéfinis par nom ou taille de résolution.
+      * Choisissez un paramètre de codage prédéfini en fonction de la taille de résolution et de la bande passante prévues pour lire la vidéo. 
+      * Vous pouvez sélectionner Codage de vidéo adaptative et un ou plusieurs paramètres prédéfinis de codage par vidéo. Par exemple, vous pouvez coder un fichier pour les ordinateurs de bureau et pour les périphériques mobiles dans le cadre d’une seule tâche de téléchargement.
 
-   Voir [Paramètres prédéfinis de codage de vidéo adaptative (16:9 ou 4:3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
-
-   **Paramètres prédéfinis de codage uniques**
-
-   >[!NOTE]
-   >
-   >pour diffuser de la vidéo sur des iPads, vous pouvez choisir un paramètre de codage prédéfini Mobile ou Tablette. Les paramètres prédéfinis Tablette sont spécialement conçus pour l’iPad, généralement avec une meilleure résolution et une qualité supérieure pour tirer parti de l’écran plus large et de la connexion à bande passante plus puissante. Afin de diffuser des fichiers vidéo codés avec un paramètre prédéfini Tablette, vous devez inclure un code de détection de périphérique sur votre site ou application mobile. Ce code bascule entre une expérience vidéo iPhone ou iPad, selon le périphérique de lecture. Le choix d’un paramètre prédéfini Mobile pour la diffusion de fichiers vidéo sur l’iPad représente un flux de travail plus simple, car vous pouvez utiliser le même fichier vidéo pour les iPhones et les iPads. En revanche, la qualité est normalisée sur la résolution iPhone, qui est inférieure.
-
-   * Sous le groupe Paramètres prédéfinis de codage, dans la liste déroulante Trier les paramètres prédéfinis de codage, sélectionnez Nom ou Taille pour trier les paramètres prédéfinis par nom ou taille de résolution.
-   * Choisissez un paramètre de codage prédéfini en fonction de la taille de résolution et de la bande passante prévues pour lire la vidéo. 
-   * Sélectionnez Codage de vidéo adaptative et un ou plusieurs paramètres prédéfinis de codage par vidéo. Par exemple, vous pouvez coder un fichier pour les ordinateurs de bureau et pour les périphériques mobiles dans le cadre d’une seule tâche de téléchargement.
-
-Après avoir cliqué sur **Démarr. téléch.**, le fichier vidéo original est téléchargé et des fichiers codés sont générés à partir de celui-ci.
+Après avoir cliqué sur **[!UICONTROL Démarr. téléch.]**, le fichier vidéo original est téléchargé et des fichiers codés sont générés à partir de celui-ci.
 
 ### A propos des options de codage prédéfinies  {#about-encoding-preset-options}
 
 Les paramètres des options de codage prédéfinies sont comme suit :
 
-**** Vitesse de connexion à la cibleVitesse de connexion à Internet de l&#39;utilisateur final ciblé.
+* **Vitesse**  de connexion à la cible : vitesse de connexion à Internet de l&#39;utilisateur final ciblé.
 
-**Suffixe de fichier codéSuffixe** associé au fichier vidéo codé à des fins d’identification.
+* **Suffixe**  de fichier codé : suffixe joint au fichier vidéo codé à des fins d’identification.
 
-**Débit vidéo (débit de données)** Quantité de données codées pour produire une seule seconde de lecture vidéo (en kilobits par seconde).
+* **Débit vidéo (débit de données)**  - Quantité de données codées pour produire une seule seconde de lecture vidéo (en kilobits par seconde).
 
-**Largeur/** hauteur des pixelsDimension de largeur de l’image à l’écran, en pixels ; la hauteur de l’image à l’écran (en pixels).
+* **Largeur/hauteur**  des pixels : dimension de largeur de l&#39;image à l&#39;écran, en pixels ; la hauteur de l’image à l’écran (en pixels).
 
-**Image par seconde (ips)** Nombre d’images, ou d’images fixes, pour chaque seconde de vidéo. Aux Etats-Unis et au Japon, la plupart des vidéos sont tournées à 29,97 ips ; en Europe et dans les autres pays d’Asie, la plupart des vidéos le sont à 25 ips. Un film est tourné à 24 ips.
+* **Image par seconde (ips)**  : nombre d’images, ou d’images fixes, pour chaque seconde de vidéo. Aux Etats-Unis et au Japon, la plupart des vidéos sont tournées à 29,97 ips ; en Europe et dans les autres pays d’Asie, la plupart des vidéos le sont à 25 ips. Un film est tourné à 24 ips.
 
-**Débit audio** Quantité de données codées pour produire une seule seconde de lecture audio, en kilobits par seconde.
+* **Débit**  audio : quantité de données codées pour produire une seule seconde de lecture audio, en kilobits par seconde.
 
 Le tableau suivant répertorie les meilleures pratiques recommandées pour la sélection de paramètres vidéo prédéfinis et les conventions de dénomination qui sont utilisées pour désigner les fichiers codés.
 
@@ -356,8 +335,8 @@ Un paramètre prédéfini de codage qui fonctionne avec n’importe quelle propo
 
 |  | Nom du paramètre prédéfini de codage/Texte de l’info-bulle | Suffixe de fichier codé | Débit de données vidéo (Kb/s) | Largeur/hauteur (pixels) | Nombre d’images par seconde (i/s) | Débit audio (Kbit/s) | Recommandations |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Automatique x 360, 800 Kbits/s | _Mobile_Autox360p_800K | 800 | Autox360 | Identique à la source | 64 | Mobile (iPhone, iPad, Android) |
-| 2 | Automatique x 480, 1 400 Kbits/s | _Tablet_Autox480p_1400K | 1400 | Autox480 | Identique à la source | 96 | Tablette (iPad, Android) |
+| 1 | Automatique x 360, 800 Kbits/s | _Mobile_Autox360p_800K | 800 | Autox360 | Identique à la source | 64 | Mobile (iPhone, iPad, Android™) |
+| 2 | Automatique x 480, 1 400 Kbits/s | _Tablet_Autox480p_1400K | 1400 | Autox480 | Identique à la source | 96 | Tablette (iPad, Android™) |
 | 3 | Automatique x 720, 2 600 Kbits/s | _Desktop_Autox720p_2600K | 2600 | Autox720 | Identique à la source | 128 | Pour bureau |
 
 ### Paramètres prédéfinis de codage de vidéo adaptative (16:9 ou 4:3){#adaptive-video-encoding-or-video-presets}
@@ -370,14 +349,14 @@ Pour plus d’informations sur les options de codage, voir [A propos des options
 
 |  | Nom du paramètre prédéfini de codage/Texte de l’info-bulle | Vitesse de connexion cible (Kbit/s) | Suffixe de fichier codé | Débit de données vidéo (Kb/s) | Largeur/hauteur (pixels) | Nombre d’images par seconde (i/s) | Débit audio (Kbit/s) | Recommandations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9, 512x288, mobile (iPhone, iPad, Android), (400 kbits/s) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Identique à la source | 64 | Faible résolution, 3G |
-| 2 | 4:3, 384x288, mobile (iPhone, iPad, Android), (400 kbits/s) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Identique à la source | 64 | Faible résolution, 3G |
-| 3 | 16:9, 512x288, mobile (iPhone, iPad, Android), (600 kbits/s) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Identique à la source | 64 | Résolution moyenne, 3G |
-| 4 | 4:3, 384x288, mobile (iPhone, iPad, Android), (600 kbits/s) | 700 | _Mobile_384x288 _600 | 600 | 384 x 288 | Identique à la source | 64 | Résolution moyenne, 3G |
-| 5 | 16:9, 640x360, tablette (iPad, Android), (800 Kbits/s) | 900 | _iPad_640x360_800K | 600 | 640 x 360 | Identique à la source | 80 | Résolution moyenne, Wi-Fi |
-| 6 | 4:3, 640x480, tablette (iPad, Android), (800 Kbits/s) | 900 | _iPad_640x480_800K | 800 | 640 x 480 | Identique à la source | 80 | Résolution moyenne, Wi-Fi |
-| 7 | 16:9, 768x432, tablette (iPad, Android), (1 200 Kbits/s) | 1,5 Mbit/s | _iPad_768x432_1200K | 1 200 | 768 x 432 | Identique à la source | 96 | Haute résolution, Wi-Fi |
-| 8 | 4:3, 768x576, tablette (iPad, Android), (1 200 Kbits/s) | 1,5 Mbit/s | _iPad_768x576_1200K | 1 200 | 768 x 576 | Identique à la source | 96 | Haute résolution, Wi-Fi |
+| 1 | 16:9, 512 x 288, Mobile (iPhone, iPad, Android™), (400 Kbits/s) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Identique à la source | 64 | Faible résolution, 3G |
+| 2 | 4:3, 384 x 288 pixels, Mobile (iPhone, iPad, Android™), (400 Kbits/s) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Identique à la source | 64 | Faible résolution, 3G |
+| 3 | 16:9, 512 x 288, Mobile (iPhone, iPad, Android™), (600 Kbits/s) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Identique à la source | 64 | Résolution moyenne, 3G |
+| 4 | 4:3, 384 x 288, Mobile (iPhone, iPad, Android™), (600 Kbits/s) | 700 | _Mobile_384x288 _600 | 800 | 384 x 288 | Identique à la source | 64 | Résolution moyenne, 3G |
+| 5 | 16:9, 640 X 360, Tablette (iPad, Android™), (800 Kbits/s) | 900 | _iPad_640x360_800K | 800 | 640 x 360 | Identique à la source | 80 | Résolution moyenne, Wi-Fi |
+| 6 | 4:3, 640 X 480, Tablette (iPad, Android™), (800 Kbits/s) | 900 | _iPad_640x480_800K | 800 | 640 x 480 | Identique à la source | 80 | Résolution moyenne, Wi-Fi |
+| 7 | 16:9, 768 x 432, Tablette (iPad, Android™), (1 200 Kbits/s) | 1,5 Mbit/s | _iPad_768x432_1200K | 1 200 | 768 x 432 | Identique à la source | 96 | Haute résolution, Wi-Fi |
+| 8 | 4:3, 768 x 576, Tablette (iPad, Android™), (1 200 Kbits/s) | 1,5 Mbit/s | _iPad_768x576_1200K | 1 200 | 768 x 576 | Identique à la source | 96 | Haute résolution, Wi-Fi |
 | 9 | 16:9, 1280 x 720, bureau, (2 000 Kbits/s) | 3 Mbits/s | _1280X720_2000K | 2 000 | 1280 x 720 | Identique à la source | 128 | Haute définition, Grand écran |
 | 10 | 4:3, 1 280 x 960, bureau, (2 000 Kbits/s) | 3 Mbits/s | _1280X 960_2000K | 2 000 Kbits/s | 1280x960 | Identique à la source | 128 | Haute définition |
 
@@ -404,8 +383,8 @@ Pour plus d’informations sur les options de codage prédéfinies, voir [A prop
 
 |  | Nom du paramètre prédéfini de codage/Texte de l’info-bulle | Vitesse de connexion cible (Kbit/s) | Suffixe de fichier codé | Débit de données vidéo (Kb/s) | Largeur/hauteur (pixels) | Nombre d’images par seconde (i/s) | Débit audio (Kbit/s) | Recommandations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9, 480 x 270 (400 Kbits/s, OGG | 500 | _OGG_480x270_400K | 400 | 480 x 270 | Identique à la source | 64 | Résolution grand écran faible |
-| 2 | 16:9, 640 x 360 (800 Kbits/s), OGG | 900 | _OGG_640x360_800K | 600 | 640 x 360 | Identique à la source | 80 | Résolution grand écran moyenne |
+| 1 | 16:9, 480 x 270 (400 Kbits/s, OGG | 500 | _OGG_480x270_400K | 400 | 480 x 270 | Identique à la source | 64 | Résolution grand écran faible |
+| 2 | 16:9, 640 x 360 (800 Kbits/s), OGG | 900 | _OGG_640x360_800K | 800 | 640 x 360 | Identique à la source | 80 | Résolution grand écran moyenne |
 | 1 | 16:9, 800 x 450 (1 200 Kbits/s), OGG | 1,5 Mbit/s | _OGG_800x450_1200K | 1 200 | 800 x 450 | Identique à la source | 96 | Moyenne à haute résolution |
 | 4 | 16:9, 1280 x 720 (2 000 Kbits/s), OGG | 3 Mbits/s | _OGG_1280x720_2000K | 2 000 | 1280 x 720 | Identique à la source | 128 | Haute définition, Grand écran |
 | 5 | 4:3, 320 x 240 (400 kb/s), OGG | 500 | _OGG_320X240_400K | 400 | 320 x 240 | Identique à la source | 64 | Basse résolution |
@@ -413,9 +392,9 @@ Pour plus d’informations sur les options de codage prédéfinies, voir [A prop
 | 7 | 4:3, 640 x 480 (1 200 Kbits/s), OGG | 1,5 Mbit/s | _OGG_640x480_1200K | 1 200 | 640 x 480 | Identique à la source | 96 | Moyenne à haute résolution |
 | 8 | 4:3, 1 280 x 960 (2 000 Kbits/s), OGG | 3 Mbits/s | _OGG_1280x960_2000K | 2 000 | 1280 x 960 | Identique à la source | 128 | Haute définition |
 
-### Paramètres prédéfinis de codage vidéo pour périphérique mobile  {#mobile-video-encoding-presets}
+### Paramètres prédéfinis de codage vidéo pour périphérique mobile {#mobile-video-encoding-presets}
 
-Identique au débit source. Paramètres prédéfinis de codage de vidéo pour périphériques mobiles tels que l’iPhone, l’iPad et Android.
+Identique au débit source. Paramètres prédéfinis de codage vidéo pour les périphériques mobiles iPhone, iPad et Android™.
 
 Pour plus d’informations sur les options de codage prédéfinies, voir [A propos des options de codage prédéfinies](application-setup.md#about_encoding_preset_options).
 
@@ -425,7 +404,7 @@ Pour plus d’informations sur les options de codage prédéfinies, voir [A prop
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 3 | 16:9, 512 x 288, Mobile (400 Kbit/s) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Identique à la source | 64 | Faible résolution, 3G |
 | 2 | 16:9, 512 x 288, Mobile (600 Kbit/s) | 700 | _Mobile_512x288_600K | 800 | 512 x 288 | Identique à la source | 64 | Résolution moyenne, 3G |
-| 3 | 16:9, 512 x 288, Mobile (800 Kbit/s) | 900 | _Mobile_512x288_800K | 800 | 512 x 288 | Identique à la source | 80 | Résolution moyenne, Wi-Fi |
+| 1 | 16:9, 512 x 288, Mobile (800 Kbit/s) | 900 | _Mobile_512x288_800K | 800 | 512 x 288 | Identique à la source | 80 | Résolution moyenne, Wi-Fi |
 | 4 | 16:9, 512 x 288, Mobile (1 000 Kbit/s) | 1,2 Mbit/s | _Mobile_512x288_1000K | 1 000 | 512 x 288 | Identique à la source | 80 | Haute résolution, Wi-Fi |
 | 5 | 16:9, 512 x 288, Mobile (1 200 Kbit/s) | 1,5 Mbit/s | _Mobile_512x288_1200K | 1 200 | 512 x 288 | Identique à la source | 96 | Haute résolution, Wi-Fi |
 | 6 | 4:3, 384 x 288, Mobile (400 Kbit/s) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Identique à la source | 64 | Faible résolution, 3G |
@@ -456,7 +435,7 @@ Voir aussi [Exemples de bibliothèque de référence des visionneuses d’Adobes
 
 ### Prise en charge des visionneuses pour les pages Web adaptées {#viewer-support-for-responsive-designed-web-pages}
 
-Différentes pages Web ont différents besoins. Vous pouvez souhaiter qu’une page Web fournisse un lien qui ouvre la visionneuse HTML5 dans une fenêtre distincte du navigateur. Dans d’autres cas, il peut être nécessaire d’incorporer la visionneuse HTML5 directement sur la page d’hébergement. Dans ce dernier cas, la page Web peut avoir une disposition statique. Sinon, elle peut être « adaptée » et s’afficher différemment en fonction du périphérique ou de la taille du navigateur. Pour répondre à ces besoins, les visionneuses HTML5 fournies avec Dynamic Media Classic prennent en charge les pages Web statiques et les pages Web adaptées.
+Différentes pages Web ont différents besoins. Il peut arriver que vous souhaitiez une page Web contenant un lien qui ouvre la visionneuse HTML5 dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer la visionneuse HTML5 directement sur la page d’hébergement. Dans ce dernier cas, la page Web a probablement une disposition statique. Ou bien, il est &quot;réactif&quot; et s’affiche différemment sur différents périphériques ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, les visionneuses HTML5 fournies avec Dynamic Media Classic prennent en charge les pages Web statiques et les pages Web adaptées.
 
 Pour plus d’informations sur la façon d’incorporer des visionneuses réactives à vos pages Web, voir [A propos de la bibliothèque d’images réactives](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api), [Utilisation de la bibliothèque d’images réactives](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api) et [Référence de commande - Attributs de commande](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library).
 
@@ -464,21 +443,21 @@ Pour plus d’informations sur la façon d’incorporer des visionneuses réacti
 
 Les administrateurs peuvent créer et personnaliser les types de paramètres prédéfinis suivants :
 
-**Visionneuse de** catalogue électroniqueSimule l’expérience de lecture d’un catalogue imprimé. Vous pouvez passer d’une page à l’autre, effectuer un zoom avant ou arrière sur les éléments d’une page, utiliser des zones cliquables pour afficher davantage d’informations sur les éléments de la page ou effectuer des recherches dans le catalogue. Vous pouvez également inclure un panneau d’informations afin d’afficher des informations détaillées et un objet créé à partir d’une image si la zone cliquable contient un attribut rollover_key valide. Pour ce faire, indiquez l’URL du serveur d’informations dans le volet Paramètres du panneau d’informations de la fenêtre des paramètres par défaut de la visionneuse de catalogue électronique.
+* **Visionneuse**  de catalogue électronique - Simule l’expérience de lecture d’un catalogue imprimé. Vous pouvez passer d’une page à l’autre, effectuer un zoom avant ou arrière sur les éléments d’une page, utiliser des zones cliquables pour afficher davantage d’informations sur les éléments de la page ou effectuer des recherches dans le catalogue. Vous pouvez également inclure un panneau d’informations afin d’afficher des informations détaillées et un objet créé à partir d’une image si la zone cliquable contient un attribut rollover_key valide. Pour ce faire, indiquez l’URL du serveur d’informations dans le volet Paramètres du panneau d’informations de la fenêtre des paramètres par défaut de la visionneuse de catalogue électronique.
 
-**Visionneuse** d’échantillonsAffiche une image dans une couleur, un matériau, une texture, un fini ou un tissu différent. Les utilisateurs cliquent sur une miniature pour voir les variations de l’image.
+* **Visionneuse**  de série d’échantillons : affiche une image dans une couleur, un matériau, une texture, un fini ou un tissu différent. Les utilisateurs cliquent sur une miniature pour voir les variations de l’image.
 
-**Visionneuse de supports variésAffiche différents types de supports dans une seule visionneuse.** Vous pouvez y inclure des séries d’échantillons, des visionneuses à 360°, des images et des vidéos. Vous pouvez également configurer des onglets pour stocker différents types de contenu (par exemple, un pour les visionneuses d’images et un autre pour les vidéos). Les vidéos lues grâce à une visionneuse de supports variés utilisent une visionneuse de vidéos standard comportant un plan de montage chronologique et des commandes vidéo comme Arrêt, Pause, Rembobinage et Lecture. Lorsque vous configurez un paramètre prédéfini de visionneuse de supports variés, vous indiquez les visionneuses à utiliser pour les différents types de fichiers qu’elle contient. Vous pouvez également utiliser la visionneuse de grille ou de carrousel pour visualiser les fichiers d’une visionneuse de supports variés.
+* **Visionneuse**  de supports variés : affiche différents types de supports dans une seule visionneuse. Vous pouvez y inclure des séries d’échantillons, des visionneuses à 360°, des images et des vidéos. Vous pouvez également configurer des onglets pour stocker différents types de contenu (par exemple, un pour les visionneuses d’images et un autre pour les vidéos). Les vidéos lues grâce à une visionneuse de supports variés utilisent une visionneuse de vidéos standard comportant un plan de montage chronologique et des commandes vidéo comme Arrêt, Pause, Rembobinage et Lecture. Lorsque vous configurez un paramètre prédéfini de visionneuse de supports variés, vous indiquez les visionneuses à utiliser pour les différents types de fichiers qu’elle contient. Vous pouvez également utiliser la visionneuse de grille ou de carrousel pour visualiser les fichiers d’une visionneuse de supports variés.
 
-**Visionneuse à 360°** Visionneuse à 360°Fournit plusieurs vues d’une image afin que les utilisateurs puissent tourner l’objet pour examiner les différents côtés et angles.
+* **Visionneuse à 360°**  - Fournit plusieurs vues d’une image afin que les utilisateurs puissent tourner l’objet pour examiner les différents côtés et angles.
 
-**Visionneuse** de vidéosAffiche les vidéos en utilisant les dimensions de résolution du fichier source ou une taille personnalisée. Dynamic Media Classic est fourni avec de nombreux paramètres prédéfinis de visionneuse pour la lecture vidéo. En outre, si vous êtes un administrateur, vous pouvez créer des paramètres prédéfinis personnalisés pour la visionneuse de vidéos. Il existe plus d’une douzaine de paramètres distincts pour la configuration de la visionneuse de vidéos. Vous pouvez configurer la taille, la couleur de premier plan et d’arrière-plan, les commandes vidéo et audio, la barre de progression, l’habillage de l’interface utilisateur, les fonctions sociales et l’aide.
+* **Visionneuse**  vidéo : affiche les vidéos en utilisant les dimensions de résolution du fichier source ou une taille personnalisée. Dynamic Media Classic est fourni avec de nombreux paramètres prédéfinis de visionneuse pour la lecture vidéo. En outre, si vous êtes un administrateur, vous pouvez créer des paramètres prédéfinis personnalisés pour la visionneuse de vidéos. Il existe plus d’une douzaine de paramètres distincts pour la configuration de la visionneuse de vidéos. Vous pouvez configurer la taille, la couleur de premier plan et d’arrière-plan, les commandes vidéo et audio, la barre de progression, l’habillage de l’interface utilisateur, les fonctions sociales et l’aide.
 
-**Visionneuses** de zoomOffre trois types de visionneuses de zoom :
+* **Visionneuses**  de zoom : Offre un choix de trois types de visionneuses de zoom :
 
-**Visionneuse** de zoomPermet aux utilisateurs d’effectuer un zoom sur la zone en cliquant dessus. Ils peuvent cliquer sur les commandes pour effectuer un zoom avant ou arrière et rétablir la taille par défaut de l’image.
+* **Visionneuse**  de zoom : permet aux utilisateurs d’effectuer un zoom sur la zone en cliquant dessus. Ils peuvent cliquer sur les commandes pour effectuer un zoom avant ou arrière et rétablir la taille par défaut de l’image.
 
-**Visionneuse de zoom : SurvolAffiche une seconde image de la zone agrandie** en regard de l’image d’origine. Aucune commande n’est disponible. Il suffit de déplacer la sélection sur la zone à visualiser.
+* **Visionneuse de zoom : Fenêtre déroulante**  : affiche une seconde image de la zone agrandie en regard de l&#39;image d&#39;origine. Aucune commande n’est disponible. Il suffit de déplacer la sélection sur la zone à visualiser.
 
 Pour déterminer la quantité totale de bande passante allouée à la visionneuse, n’oubliez pas que l’image principale et celle de la fenêtre déroulante sont toutes deux diffusées par la visionneuse. La taille de l’image principale (largeur et hauteur d’affichage) et le facteur de zoom déterminent la taille de la fenêtre déroulante. Pour que la fenêtre déroulante ne devienne pas trop volumineuse, équilibrez ces deux valeurs : si la taille de l’image principale est importante, réduisez la valeur du facteur de zoom. (La Largeur de la fenêtre déroulante et la Hauteur de la fenêtre déroulante déterminent la taille de la fenêtre déroulante, mais pas la taille de l’image diffusée par la visionneuse.)
 
@@ -494,9 +473,9 @@ Voir aussi [Exemples de bibliothèque de référence des visionneuses d’Adobes
 
 Pour en savoir plus sur les versions de navigateur Web et de système d’exploitation prises en charge pour les visionneuses, consultez les notes de mise à jour des visionneuses.
 
-Voir [Notes de mise à jour de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
+Voir [Notes de mise à jour de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
-|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android | Tablette Android |
+|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
 | Visionneuses de zoom |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
@@ -505,27 +484,27 @@ Voir [Notes de mise à jour de référence des visionneuses d’Adobes](https://
 | Universal_HTML5_Zoom_light | HTML5 | X | X | X | X | X |
 
 
-|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android | Tablette Android |
+|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
 | Visionneuses d’images |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
 
-|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android | Tablette Android |
+|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
 | Visionneuses d’échantillons |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_light | HTML5 | X | X | X | X | X |
 
-|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android | Tablette Android |
+|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
 | Visionneuses de catalogue électronique |  |  |  |  |  |  |
 | Universal_HTML5_eCatalog_Adv(Inclut la prise en charge de la recherche dans les médias sociaux et les catalogues.) | HTML5 | X | X | X | X | X |
 | Universal_HTML5_eCatalog (Inclut la prise en charge de la recherche dans les médias sociaux et les catalogues.) | HTML5 | X | X | X | X | X |
 
-|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android | Tablette Android |
+|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
 | Visionneuses à 360° |  |  |  |  |  |  |
 | Universal_HTML5_SpinSet_dark | HTML5 | X | X | X | X | X |
@@ -535,15 +514,15 @@ Voir [Notes de mise à jour de référence des visionneuses d’Adobes](https://
 
 Dynamic Media Classic prend en charge la lecture vidéo mobile pour la vidéo MP4 H.264.
 
-* Vous trouverez les périphériques Blackberry qui prennent en charge ce format vidéo à l’adresse suivante : [Formats vidéo pris en charge sur Blackberry](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
-* Vous pouvez également trouver les périphériques Windows qui prennent en charge ce format vidéo à l’adresse suivante :[Formats vidéo pris en charge sur Windows Phone](https://docs.microsoft.com/en-us/previous-versions/windows/apps/ff462087(v=vs.105)?redirectedfrom=MSDN)
+* Vous trouverez les périphériques BlackBerry® qui prennent en charge ce format vidéo à l’adresse suivante : [Formats vidéo pris en charge sur BlackBerry®](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
+* Vous trouverez également les périphériques Windows® qui prennent en charge ce format vidéo à l’adresse suivante : [Formats vidéo pris en charge sur Windows® Phone](https://docs.microsoft.com/en-us/previous-versions/windows/apps/ff462087(v=vs.105)?redirectedfrom=MSDN)
 
-|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android | Tablette Android | Smartphone Blackberry | Windows Phone |
+|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ | Smartphone BlackBerry® | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | Universal_HTML5_Video (inclut la prise en charge du sous-titrage.) Reportez-vous à la section [Meilleure pratique : Utilisation de la visionneuse de vidéos HTML5 universelle.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
 | Universal_HTML5_Video_social(Inclut la prise en charge du sous-titrage et des médias sociaux.) | HTML5 | X | X | X | X | X | X | X |
 
-|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android | Tablette Android |
+|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
 | Visionneuses de supports variés |  |  |  |  |  |  |
 | Universal_HTML5_MixedMedia_dark | HTML5 | X | X | X | X | X |
@@ -551,9 +530,9 @@ Dynamic Media Classic prend en charge la lecture vidéo mobile pour la vidéo MP
 
 ### Matrice des mouvements des visionneuses mobiles pris en charge {#supported-mobile-viewers-gestures-matrix}
 
-Le tableau suivant identifie les mouvements des visionneuses mobiles qui sont pris en charge sur les périphériques iOS, Android 2.x et Android 3.x.
+Le tableau suivant identifie les mouvements du lecteur de contenu mobile pris en charge sur les appareils iOS, Android™ 2.x et Android™ 3.x.
 
-|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android | Tablette Android |
+|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
 | Visionneuses d’images |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
@@ -566,80 +545,84 @@ Créez et gérez des paramètres prédéfinis de la visionneuse sur l’écran P
 
 L’écran Paramètres prédéfinis de la visionneuse propose des outils permettant d’effectuer les tâches suivantes :
 
-**Ajouter un paramètre prédéfiniCliquez sur Ajouter et faites vos choix dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse.** 
+* **Ajouter un paramètre prédéfini**  - Cliquez sur  **** Ajouter et faites vos choix dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse.
 
-Voir [Ajout et modification des paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
+       Voir [Ajoute et modification des paramètres prédéfinis de la visionneuse](application-setup.md#adding_and_edit_viewer_presets).
+   
+* **Modification d&#39;un paramètre**  prédéfini : sélectionnez un paramètre prédéfini, puis cliquez sur  **[!UICONTROL Modifier]**.
 
-**Modification d’un** paramètre prédéfiniSélectionnez un paramètre prédéfini, puis cliquez sur  **Modifier**.
+       Voir [Ajoute et modification des paramètres prédéfinis de la visionneuse](application-setup.md#adding_and_edit_viewer_presets).
+   
+* **Suppression d&#39;un paramètre prédéfini**  - Sélectionnez un paramètre prédéfini, puis cliquez sur  **[!UICONTROL Supprimer]**.
 
-Voir [Ajout et modification des paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
+* **Exportation d’un paramètre prédéfini**  : sélectionnez un paramètre prédéfini de visionneuse HTML5, puis cliquez sur  **** Exporter pour télécharger l’habillage de la visionneuse afin que vous puissiez l’utiliser comme base pour créer et ajouter un autre paramètre prédéfini de visionneuse.
 
-**Suppression d’un** paramètre prédéfiniSélectionnez un paramètre prédéfini, puis cliquez sur  **Supprimer**.
+       Voir [Exportation d’un paramètre prédéfini de visionneuse HTML5](application-setup.md#export_an_html5_viewer_preset).
+   
+* **Filtrage de la liste**  de paramètres prédéfinis de la visionneuse - Utilisez ces outils pour filtrer la liste :
 
-**Exportation d’un** paramètre prédéfiniSélectionnez un paramètre prédéfini de visionneuse HTML5, puis cliquez sur Exporter pour télécharger l’habillage de la visionneuse afin que vous puissiez l’utiliser comme base pour créer et ajouter un nouveau paramètre prédéfini de visionneuse.
+       * Ouvrez la liste déroulante **Principal/Inactif** et choisissez une option pour afficher les paramètres prédéfinis principaux, les paramètres prédéfinis inactifs ou tous les paramètres prédéfinis.
+       * Ouvrez la liste déroulante **Viewer** et choisissez une option pour afficher uniquement les visionneuses d’un certain type. Sélectionnez **[!UICONTROL Toutes les visionneuses]** pour afficher toutes les visionneuses.
+   
+* **Tri des paramètres prédéfinis**  : cliquez sur un en-tête de colonne (**[!UICONTROL Principal]**,  **[!UICONTROL Type]**,  **[!UICONTROL Paramètre prédéfini]** ou Plate-forme) pour trier la liste sur une colonne.**** Cliquez à nouveau sur un en-tête de colonne pour trier la liste dans l’ordre décroissant (ou croissant).
 
-Voir [Exportation d’un paramètre prédéfini de visionneuse HTML5](application-setup.md#exporting_an_html5_viewer_preset).
+* **Activation et désactivation des paramètres prédéfinis**  - Sélectionnez un paramètre prédéfini et cliquez sur son Principal pour l’activer ou le désactiver.
 
-**Filtrage de la** liste des paramètres prédéfinis de la visionneuseUtilisez les outils suivants pour filtrer la liste :
-
-* Dans la liste déroulante **Actifs/Inactifs**, choisissez une option pour afficher les paramètres prédéfinis actifs, les paramètres prédéfinis inactifs ou tous les paramètres prédéfinis.
-* Dans la liste déroulante **Visionneuse**, choisissez une option pour afficher uniquement les visionneuses d’un certain type. Sélectionnez **[!UICONTROL Toutes les visionneuses]** pour les voir toutes.
-
-**Tri des** paramètres prédéfinisCliquez sur un en-tête de colonne (Principal, Type, Paramètre prédéfini ou Plate-forme) pour trier la liste sur une colonne. Cliquez à nouveau sur un en-tête de colonne pour trier la liste dans l’ordre décroissant (ou croissant).
-
-**Activation et désactivation de** paramètres prédéfinisSélectionnez un paramètre prédéfini et cliquez sur son Principal pour l’activer ou le désactiver.
-
-Voir [Activation ou désactivation des paramètres prédéfinis de la visionneuse](application-setup.md#activating_or_deactivating_viewer_presets).
-
+       Voir [Activation ou désactivation des paramètres prédéfinis de la visionneuse](application-setup.md#activating_or_deactivating_viewer_presets).
+   
 >[!NOTE]
 >
->Cliquez sur Prévisualiser sur le côté droit de l’écran Paramètres prédéfinis de la visionneuse pour avoir une idée du rendu d’un fichier avec le paramètre de visionneuse prédéfini sélectionné. Pour voir un autre fichier, vous pouvez cliquer sur le bouton Parcourir de l’écran Paramètres prédéfinis de la visionneuse et sélectionner un autre fichier dans la boîte de dialogue Choisir fich. à prévisualiser.
+>Cliquez sur **[!UICONTROL Prévisualisation]** sur le côté droit de la page Paramètres prédéfinis de la visionneuse pour voir à quoi ressemble un fichier dans le paramètre prédéfini de visionneuse que vous avez sélectionné. Pour afficher un autre fichier, cliquez sur **[!UICONTROL Parcourir]** dans la page Paramètres prédéfinis de la visionneuse et sélectionnez un autre fichier dans la boîte de dialogue Sélectionner la Prévisualisation de fichier.
 
-### Ajout et modification de paramètres prédéfinis de la visionneuse  {#adding-and-editing-viewer-presets}
+### Ajout et modification de paramètres prédéfinis de la visionneuse {#adding-and-editing-viewer-presets}
 
-Outre l’option Ajouter de l’interface utilisateur, vous pouvez également utiliser l’option Exporter pour ajouter un paramètre prédéfini de visionneuse. Il vous suffit d’exporter un paramètre prédéfini de visionneuse HTML5 existant, puis de l’utiliser comme base du nouveau paramètre prédéfini.
+Outre l’ajout de paramètres prédéfinis de visionneuse à l’aide de **[!UICONTROL Ajouter]** dans l’interface utilisateur, vous pouvez également utiliser **[!UICONTROL Exporter]** pour ajouter un paramètre prédéfini de visionneuse. Il vous suffit d’exporter un paramètre prédéfini de visionneuse HTML5 existant, puis de l’utiliser comme base du nouveau paramètre prédéfini.
 
 Voir [Exportation d’un paramètre prédéfini de visionneuse HTML5](application-setup.md#exporting_an_html5_viewer_preset).
 
-**Ajout et modification de paramètres prédéfinis de visionneuse**
+**Ajout et modification de paramètres prédéfinis de visionneuse:**
 
-1. Près du coin supérieur droit de Dynamic Media Classic, cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
+1. Près du coin supérieur droit de Dynamic Media Classic, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 
    Vous pouvez filtrer la liste des paramètres prédéfinis. Par exemple, pour afficher uniquement les paramètres prédéfinis pour les visionneuses de vidéos, sélectionnez Visionneuse de vidéos dans le menu déroulant des visionneuses sur la barre d’outils qui se trouve directement au-dessus du tableau.
 
-1. Dans l’écran Paramètres prédéfinis de la visionneuse, ajoutez ou modifiez le paramètre prédéfini de visionneuse.
+1. Dans la page Paramètres prédéfinis de la visionneuse, ajoutez ou modifiez le paramètre prédéfini de visionneuse sur l’écran Paramètres prédéfinis de la visionneuse.
 
-   **** AjoutCliquez sur Ajoute dans la barre d’outils. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme et un type de fichier de média enrichi. 
+   * **Ajoute**  : dans la barre d&#39;outils, cliquez sur  **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme et un type de fichier de média enrichi. 
 
-   Cliquez sur **Enregistrer en tant que** lorsque vous avez terminé de créer le paramètre prédéfini de la visionneuse.
+          Cliquez sur **[!UICONTROL Enregistrer sous]** lorsque vous avez terminé de créer le paramètre prédéfini de visionneuse.
+      
+   * **Ajouter à partir d’un paramètre**  prédéfini de visionneuse existant : dans le tableau, sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis cliquez sur Modifier dans la barre d’outils.
 
-   **Ajouter en commençant à partir d’un** paramètre prédéfini de visionneuse existantDans le tableau, sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis cliquez sur Modifier dans la barre d’outils.
-
-   Après avoir reconfiguré la visionneuse de vidéos, cliquez sur **Enregistrer en tant que** pour enregistrer le paramètre prédéfini sous un autre nom dans le champ Nom du paramètre prédéfini.
-
-   **** ModificationSélectionnez un paramètre prédéfini de visionneuse existant, puis cliquez sur  **Modifier**.
+          Après avoir reconfiguré la visionneuse de vidéos, cliquez sur **[!UICONTROL Enregistrer sous]** pour enregistrer le paramètre prédéfini sous un autre nom dans le champ Nom du paramètre prédéfini.
+      
+   * **Modification**  : sélectionnez un paramètre prédéfini de visionneuse existant, puis cliquez sur  **[!UICONTROL Modifier]**.
 
 1. Dans l’écran Configurer la visionneuse, dans le champ Nom du paramètre prédéfini, saisissez ou modifiez le nom du paramètre prédéfini.
 1. Définissez les options restantes si vous le souhaitez.
 
    >[!NOTE]
    >
-   >choisissez Identique à la source pour dimensionner automatiquement la visionneuse de vidéos selon la taille de résolution de la vidéo codée. Si vous sélectionnez cette option, vous ne pouvez pas saisir la largeur d’affichage et la hauteur d’affichage. Ces valeurs proviennent directement de la vidéo elle-même. Si vous choisissez Identique à la source, définissez l’option Taille de marge, de sorte qu’elle reflète les dimensions d’habillage en dehors de la zone de lecture vidéo. Cette taille de marge correspond à la hauteur et à la largeur, en pixels, des commandes vidéo. Vous pouvez utiliser l’illustration suivante pour vous aider à déterminer les tailles des marges à utiliser.*
+   >Cliquez sur **[!UICONTROL Identique à la source]** pour dimensionner automatiquement la visionneuse de vidéos en fonction de la taille de résolution de la vidéo codée elle-même. Si vous sélectionnez cette option, vous ne pouvez pas saisir la largeur d’affichage et la hauteur d’affichage. Ces valeurs proviennent directement de la vidéo elle-même. Si vous choisissez Identique à la source, définissez l’option Taille de marge, de sorte qu’elle reflète les dimensions d’habillage en dehors de la zone de lecture vidéo. Cette taille de marge correspond à la hauteur et à la largeur, en pixels, des commandes vidéo. Vous pouvez utiliser l’illustration suivante pour vous aider à déterminer les tailles des marges à utiliser.*
 
    ![Configuration de marge de la visionneuse de vidéos](assets/vs_video_viewer_configure_margin.png)
 
 1. Effectuez l’une des opérations suivantes :
 
-   * Cliquez sur **Enregistrer en tant que** si vous avez ajouté un paramètre prédéfini de visionneuse à partir d’un paramètre prédéfini existant.
-   * Cliquez sur **Enregistrer** si vous avez ajouté ou modifié un paramètre prédéfini de visionneuse.
+   * Cliquez sur **[!UICONTROL Enregistrer en tant que]** si vous avez ajouté un paramètre prédéfini de visionneuse à partir d’un paramètre prédéfini existant.
+   * Cliquez sur **[!UICONTROL Enregistrer]** si vous avez ajouté ou modifié un paramètre prédéfini de visionneuse.
 
 ### Exportation d’un paramètre prédéfini de visionneuse HTML5 {#exporting-an-html-viewer-preset}
 
-Vous pouvez exporter un paramètre prédéfini de visionneuse HTML5 existant afin de l’utiliser comme base pour créer un nouveau paramètre prédéfini de visionneuse HTML5. Cette méthode est pratique car elle vous évite d’avoir à créer une visionneuse depuis le début. En effet, il vous suffit d’exporter un paramètre prédéfini présentant des caractéristiques et un comportement semblables à ce que vous recherchez, puis de l’utiliser comme point de départ pour vos modifications.
+Vous pouvez exporter un paramètre prédéfini de visionneuse HTML5 existant pour l’utiliser comme base de création d’un paramètre prédéfini de visionneuse HTML5. Cette méthode est pratique car elle vous évite d’avoir à créer une visionneuse depuis le début. En effet, il vous suffit d’exporter un paramètre prédéfini présentant des caractéristiques et un comportement semblables à ce que vous recherchez, puis de l’utiliser comme point de départ pour vos modifications.
 
-Notez que tous les fichiers CSS prédéfinis de visionneuse prêts à l’emploi par défaut de Dynamic Media Classic utilisent des chemins de diffusion d’images relatifs pointant vers des fichiers situés sur `Scene7SharedAssets`. Par exemple, voici un chemin relatif vers un fichier d’image dans un fichier CSS de paramètre prédéfini de visionneuse situé sur `Scene7SharedAsset` : `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`Cependant, si vous hébergez des fichiers CSS de visionneuse sur votre propre site, vous devez résoudre ce chemin d’accès relatif à l’image en utilisant un chemin explicite vers le serveur d’images dans votre propre environnement. À des fins d’illustration, si vous deviez mettre à jour le chemin relatif au-dessus vers un chemin explicite, il peut ressembler à ce qui suit, où `https://s7d1.scene7.com` est le chemin direct vers votre serveur d’images : `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Tous les fichiers CSS prédéfinis de visionneuse prêts à l’emploi par défaut de Dynamic Media Classic utilisent des chemins de diffusion d’images relatifs qui pointent vers des ressources sur `Scene7SharedAssets`. Par exemple, voici le chemin relatif vers un fichier d’image dans un fichier CSS de paramètre prédéfini de visionneuse sur
 
-**Pour exporter un paramètre prédéfini de visionneuse HTML5**
+`Scene7SharedAsset`:  `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
+
+Cependant, si vous hébergez des fichiers CSS de visionneuse sur votre propre site, vous devez résoudre ces chemins relatifs d’image en utilisant un chemin explicite vers le serveur d’images dans votre propre environnement. À des fins d’illustration, si vous deviez mettre à jour le chemin relatif au-dessus d’un chemin explicite, il peut ressembler à ce qui suit, où `https://s7d1.scene7.com` est le chemin direct vers votre serveur d’images : `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+
+**Pour exporter un paramètre prédéfini de visionneuse HTML5 :**
 
 ```as3
 .s7videoviewer .s7fullscreenbutton[state][selected] 
@@ -650,12 +633,12 @@ Notez que tous les fichiers CSS prédéfinis de visionneuse prêts à l’emploi
 https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha
 ```
 
-1. Cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
-1. Dans la barre d’outils Paramètres prédéfinis de la visionneuse, dans la deuxième liste déroulante en partant de la gauche, sélectionnez **HTML5**.
-1. Dans la troisième liste déroulante en partant de la gauche, sélectionnez **Toutes les visionneuses**.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
+1. Dans la barre d’outils Paramètres prédéfinis de la visionneuse, dans la deuxième liste déroulante en partant de la gauche, sélectionnez **[!UICONTROL HTML5]**.
+1. Dans la troisième liste déroulante en partant de la gauche, sélectionnez **[!UICONTROL Toutes les visionneuses]**.
 1. Sélectionnez le paramètre prédéfini de visionneuse à utiliser comme base pour un nouveau paramètre prédéfini de visionneuse HTML5.
-1. Dans la barre d’outils, cliquez sur **Exporter**.
-1. Dans la boîte de dialogue Exporter les fichiers sélectionnés, cliquez sur **Lancer l’exportation**.
+1. Dans la barre d’outils, cliquez sur **[!UICONTROL Exporter]**.
+1. Dans la boîte de dialogue Exporter les fichiers sélectionnés, cliquez sur **[!UICONTROL Lancer l’exportation]**.
 
    Après l’exportation, vous obtenez un fichier CSS. Téléchargez et décompressez l’archive.
 
@@ -678,10 +661,10 @@ Pour créer une URL afin d’afficher des fichiers, les utilisateurs ouvrent la 
 
 A moins que vous ne désactiviez les Paramètres prédéfinis de la visionneuse sur l’écran Paramètres prédéfinis de la visionneuse, la liste déroulante Paramètres prédéfinis de la boîte de dialogue Prévisualisation peut très vite être remplie. 
 
-**Activation ou désactivation des paramètres prédéfinis de visionneuse**
+**Activation ou désactivation des paramètres prédéfinis de visionneuse:**
 
-1. Sélectionnez **Configuration** > **Paramètres prédéfinis de la visionneuse** pour ouvrir l’écran Paramètres prédéfinis de la visionneuse.
-1. Sélectionnez ou désélectionnez les options Actif pour activer ou désactiver les Paramètres prédéfinis de la visionneuse.
+1. Sélectionnez **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
+1. Sur la page Paramètres prédéfinis de la visionneuse, sélectionnez ou désélectionnez les options **[!UICONTROL Principal]** pour activer ou désactiver les paramètres prédéfinis de la visionneuse.
 
 ### Copie de l’URL d’un paramètre prédéfini de visionneuse {#copying-the-url-of-a-viewer-preset}
 
@@ -689,23 +672,21 @@ Après avoir publié un fichier, vous pouvez copier une URL pour afficher le fic
 
 L’URL est copiée dans le Presse-papiers. Vous pouvez l’utiliser, selon vos besoins, dans le code HTML de votre page Web, de votre périphérique mobile ou de votre application.
 
-**Copie de l’URL d’un paramètre prédéfini de visionneuse**
+**Copie de l’URL d’un paramètre prédéfini de visionneuse:**
 
 1. Sélectionnez le fichier dans le panneau de navigation.
 1. Au-dessus du panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
 
-   * Cliquez sur **Affichage de la grille**. Dans le panneau de navigation des fichiers, cliquez deux fois sur un fichier pour l’ouvrir dans le mode Affichage des détails. Dans le panneau des URL et d’intégration du code, sur la droite, cliquez sur **Copier l’URL** à droite de la visionneuse appropriée.
-   * Cliquez sur **Affichage de la grille**. Dans le panneau de navigation des fichiers, sélectionnez un fichier, puis sous l’image miniature, cliquez sur **Prévisualiser** > **Liste des visionneuses**.
+   * Cliquez sur **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des fichiers, cliquez deux fois sur un fichier pour l’ouvrir dans le mode Affichage des détails. Dans le panneau des URL et d’intégration du code, sur la droite, cliquez sur **[!UICONTROL Copier l’URL]** à droite de la visionneuse appropriée.
+   * Cliquez sur **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des fichiers, sélectionnez un fichier, puis sous l’image miniature, cliquez sur **[!UICONTROL Prévisualiser]** > **[!UICONTROL Liste des visionneuses]**.
 
-   Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **Copier l’URL**.
+   Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **[!UICONTROL Copier l’URL]**.
 
-   * Cliquez sur **Affichage par liste**. Dans le panneau de navigation des fichiers, sélectionnez un fichier, puis à droite de l’image miniature, cliquez sur **Prévisualiser** > **Liste des visionneuses**.
+   * Cliquez sur **[!UICONTROL Affichage par liste]**. Dans le panneau de navigation des fichiers, sélectionnez un fichier, puis à droite de l’image miniature, cliquez sur **[!UICONTROL Prévisualiser]** > **[!UICONTROL Liste des visionneuses]**.
+   Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **[!UICONTROL Copier l’URL]**.
 
-   Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **Copier l’URL**.
-
-   * Cliquez sur **Affichage de la grille**, **Affichage par liste** ou **Affichage des détails**. Dans la même barre d’outils, cliquez sur **Prévisualiser** > **Liste des visionneuses**.
-
-   Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **Copier l’URL**.
+   * Cliquez sur **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Affichage par liste]** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, cliquez sur **[!UICONTROL Prévisualiser]** > **[!UICONTROL Liste des visionneuses]**.
+   Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **[!UICONTROL Copier l’URL]**.
 
 ### Copie du code intégré d’un paramètre prédéfini de visionneuse  {#copying-the-embed-code-of-a-viewer-preset}
 
@@ -713,26 +694,24 @@ La fonction Code incorporé permet de vérifier le code du paramètre prédéfin
 
 Vous ne pouvez pas modifier le code dans la boîte de dialogue Intégrer le code.
 
-**Copie du code intégré d’un paramètre prédéfini de visionneuse**
+**Copie du code intégré d’un paramètre prédéfini de visionneuse:**
 
 1. Sélectionnez le fichier dans le panneau de navigation des fichiers.
 1. Au-dessus du panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
 
-   * Cliquez sur **Affichage de la grille**. Dans le panneau de navigation des fichiers, cliquez deux fois sur un fichier pour l’ouvrir dans le mode Affichage des détails. Dans le panneau des URL sur la droite, cliquez sur **Code incorporé**.
-   * Cliquez sur **Affichage de la grille**. Dans le panneau de navigation des fichiers, sélectionnez un fichier, puis sous l’image miniature, cliquez sur **Prévisualiser** > **Liste des visionneuses**.
+   * Cliquez sur **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des fichiers, cliquez deux fois sur un fichier pour l’ouvrir dans le mode Affichage des détails. Dans le panneau des URL sur la droite, cliquez sur **[!UICONTROL Code incorporé]**.
+   * Cliquez sur **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des fichiers, sélectionnez un fichier, puis sous l’image miniature, cliquez sur **[!UICONTROL Prévisualiser]** > **[!UICONTROL Liste des visionneuses]**.
 
-   Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **Code incorporé**.
+   Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **[!UICONTROL Code incorporé]**.
 
-   * Cliquez sur **Affichage par liste**. Dans le panneau de navigation des fichiers, sélectionnez un fichier, puis à droite de l’image miniature, cliquez sur **Prévisualiser** > **Liste des visionneuses**.
+   * Cliquez sur **[!UICONTROL Affichage par liste]**. Dans le panneau de navigation des fichiers, sélectionnez un fichier, puis à droite de l’image miniature, cliquez sur **[!UICONTROL Prévisualiser]** > **[!UICONTROL Liste des visionneuses]**.
+   Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **[!UICONTROL Code incorporé]**.
 
-   Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **Code incorporé**.
+   * Cliquez sur **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Affichage par liste]** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, cliquez sur **[!UICONTROL Prévisualiser]** > **[!UICONTROL Liste des visionneuses]**.
+   Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **[!UICONTROL Code incorporé]**.
 
-   * Cliquez sur **Affichage de la grille**, **Affichage par liste** ou **Affichage des détails**. Dans la même barre d’outils, cliquez sur **Prévisualiser** > **Liste des visionneuses**.
-
-   Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **Code incorporé**.
-
-1. Dans la boîte de dialogue Code incorporé, cliquez sur **Copier dans le Presse-papiers**.
-1. Cliquez sur **Fermer**.
+1. Dans la boîte de dialogue Code incorporé, cliquez sur **[!UICONTROL Copier dans le Presse-papiers]**.
+1. Cliquez sur **[!UICONTROL Fermer]**.
 
 ## Configuration des visionneuses par défaut  {#configuring-default-viewers}
 
@@ -746,42 +725,42 @@ Vous pouvez utiliser les visionneuses par défaut pour configurer la visionneuse
 * SwatchSet
 * Visionneuse de supports
 
-**Pour configurer les visionneuses par défaut**
+**Pour configurer les visionneuses par défaut:**
 
-1. Dans la liste déroulante Configuration, cliquez sur **Configuration de l’application**.
-1. Dans la fenêtre Configuration, dans le volet de gauche, développez **Configuration de l’application** > **Visionneuses**.
-1. Cliquez sur **Visionneuses par défaut**.
+1. Dans la liste déroulante Configuration, cliquez sur **[!UICONTROL Configuration de l’application]**.
+1. Dans la fenêtre Configuration, dans le volet de gauche, développez **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Visionneuses]**.
+1. Cliquez sur **[!UICONTROL Visionneuses par défaut]**.
 1. Sur la fenêtre Visionneuses par défaut, dans la liste déroulante de chaque type de fichier, sélectionnez la visionneuse que vous souhaitez associer à l’aperçu du fichier.
-1. Dans le coin inférieur droit de la fenêtre Visionneuses par défaut, cliquez sur **Enregistrer les paramètres**.
-1. Dans le coin inférieur droit de la fenêtre Configuration, cliquez sur **Fermer** pour revenir à la fenêtre Fichiers.
+1. Dans le coin inférieur droit de la fenêtre Visionneuses par défaut, cliquez sur **[!UICONTROL Enregistrer les paramètres]**.
+1. Dans le coin inférieur droit de la fenêtre Configuration, cliquez sur **[!UICONTROL Fermer]** pour revenir à la fenêtre Fichiers.
 
 ## Vues des métadonnées {#metadata-views}
 
-Les *métadonnées* sont des informations normalisées concernant un fichier. Vous pouvez utiliser les métadonnées pour rationaliser votre flux de travail, organiser vos fichiers et améliorer les performances de recherche. Dynamic Media Classic prend en charge la norme IPTC (International Press Telecommunications Council) et la norme XMP (extensible metadata platform). Avant d’afficher ou de saisir des métadonnées pour un fichier en mode Affichage des détails, les utilisateurs peuvent ouvrir le menu Vues des métadonnées et choisir le jeu de champs de métadonnées à afficher ou utiliser pour décrire le fichier. 
+Les *métadonnées* sont des informations normalisées concernant un fichier. Vous pouvez utiliser les métadonnées pour rationaliser votre flux de travail, organiser vos fichiers et améliorer les performances de recherche. Dynamic Media Classic prend en charge la norme IPTC (International Press Telecommunications Council) et la norme XMP (extensible metadata platform). Avant que les utilisateurs ne vue ou ne saisissent des métadonnées sur un fichier dans la vue de détails, ils peuvent ouvrir le menu Vues de métadonnées. A partir de là, ils peuvent choisir l’ensemble de champs de métadonnées à vue ou à utiliser pour décrire la ressource.
 
 Dynamic Media Classic est fourni avec des Vues de métadonnées prédéfinies et les administrateurs peuvent créer leurs propres Vues de métadonnées pour que les utilisateurs puissent choisir lorsqu’ils saisissent des métadonnées.
 
 ### Création d’une vue de métadonnées {#creating-a-metadata-view}
 
-1. Cliquez sur **Configuration** > **Configuration de l’application** > **Métadonnées** > **Vues de métadonnées**.
-1. Cliquez sur **Ajouter**.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Métadonnées]** > **[!UICONTROL Vues de métadonnées]**.
+1. Cliquez sur **[!UICONTROL Ajouter]**.
 1. Dans le champ de texte Nom du paramètre prédéfini, saisissez le nom de la vue.
-1. (Facultatif) Cochez **Définir comme valeur par défaut** pour que cette vue soit celle que les utilisateurs voient lorsqu’ils ouvrent le panneau Métadonnées dans la Vue de détails.
-1. (Facultatif) Sélectionnez **Inclure les champs définis par l’utilisateur** pour inclure des champs définis par l’utilisateur dans la vue. Les champs définis par les utilisateurs apparaissent en haut du panneau Métadonnées en mode Affichage des détails.
-1. Sélectionnez les champs de la vue (cliquez sur **Sélectionner tout** pour sélectionner tous les champs).
-1. Cliquez sur **Enregistrer**.
+1. (Facultatif) Cochez **[!UICONTROL Définir comme valeur par défaut]** pour que cette vue soit celle que les utilisateurs voient lorsqu’ils ouvrent le panneau Métadonnées dans la Vue de détails.
+1. (Facultatif) Sélectionnez **[!UICONTROL Inclure les champs définis par l’utilisateur]** pour inclure des champs définis par l’utilisateur dans la vue. Les champs définis par les utilisateurs apparaissent en haut du panneau Métadonnées en mode Affichage des détails.
+1. Sélectionnez les champs de la vue (cliquez sur **[!UICONTROL Sélectionner tout]** pour sélectionner tous les champs).
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    Les catégories et les champs sélectionnés pour la vue apparaissent dans le panneau de prévisualisation.
 
 ### Gestion des vues de métadonnées  {#managing-metadata-views}
 
-1. Cliquez sur **Configuration** > **Configuration de l’application** > **Métadonnées** > **Vues de métadonnées**.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Métadonnées]** > **[!UICONTROL Vues de métadonnées]**.
 1. Utilisez l’une des méthodes suivantes :
 
    * Pour prévisualiser une vue, sélectionnez-la. Les champs de la vue apparaissent dans le panneau de prévisualisation.
-   * Pour modifier une vue, sélectionnez-la, puis cliquez sur **Modifier**. Sélectionnez ou désélectionnez ensuite les noms de champ dans le panneau Prévisualisation, puis sélectionnez ou désélectionnez l’option **Inclure les champs définis par les utilisateurs**.
-   * Pour supprimer une vue, sélectionnez-la, puis cliquez sur **Supprimer**.
-   * Pour définir une vue comme valeur par défaut, sélectionnez-la, puis cliquez sur **Définir comme valeur par défaut**. La vue par défaut est celle qui s’affiche automatiquement lorsque les utilisateurs ouvrent un fichier en mode Affichage des détails, puis accèdent au panneau Métadonnées.
+   * Pour modifier une vue, sélectionnez-la, puis cliquez sur **[!UICONTROL Modifier]**. Sélectionnez ou désélectionnez ensuite les noms de champ dans le panneau Prévisualisation, puis sélectionnez ou désélectionnez l’option **[!UICONTROL Inclure les champs définis par les utilisateurs]**.
+   * Pour supprimer une vue, sélectionnez-la, puis cliquez sur **[!UICONTROL Supprimer]**.
+   * Pour définir une vue comme valeur par défaut, sélectionnez-la, puis cliquez sur **[!UICONTROL Définir comme valeur par défaut]**. La vue par défaut est celle qui s’affiche automatiquement lorsque les utilisateurs ouvrent un fichier en mode Affichage des détails, puis accèdent au panneau Métadonnées.
 
 ## Paramètres prédéfinis des métadonnées  {#metadata-presets}
 
@@ -791,30 +770,30 @@ Créez un paramètre prédéfini de métadonnées pour chaque ensemble de valeur
 
 ### Création ou modification d’un paramètre prédéfini de métadonnées {#creating-or-editing-a-metadata-preset}
 
-1. Cliquez sur **Configuration** > **Configuration de l’application** > **Métadonnées** > **Paramètres prédéfinis des métadonnées**.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Métadonnées]** > **[!UICONTROL Paramètres prédéfinis des métadonnées]**.
 1. Dans l’écran Paramètres prédéfinis de métadonnées, utilisez l’une des méthodes suivantes :
 
-   * Pour créer un paramètre prédéfini, cliquez sur **Ajouter**. Dans le champ de texte Nom du modèle de métadonnées, saisissez le nom du paramètre prédéfini, puis cliquez sur **Vues de métadonnées** et choisissez une vue dans la liste déroulante (voir [Vues de métadonnées](application-setup.md#metadata_views)).
-   * Pour modifier un paramètre prédéfini existant, sélectionnez-le dans la liste Paramètres prédéfinis des métadonnées, puis cliquez sur **Modifier**.
+   * Pour créer un paramètre prédéfini, cliquez sur **[!UICONTROL Ajouter]**. Dans le champ de texte Nom du modèle de métadonnées, saisissez le nom du paramètre prédéfini, puis cliquez sur **[!UICONTROL Vues de métadonnées]** et choisissez une vue dans la liste déroulante (voir [Vues de métadonnées](application-setup.md#metadata_views)).
+   * Pour modifier un paramètre prédéfini existant, sélectionnez-le dans la liste Paramètres prédéfinis des métadonnées, puis cliquez sur **[!UICONTROL Modifier]**.
 
 1. Développez les en-têtes que vous souhaitez inclure dans le paramètre prédéfini et entrez les valeurs dans les différents champs que vous souhaitez inclure dans le paramètre prédéfini.
-1. Cliquez sur **Enregistrer**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    Les catégories et les champs sélectionnés pour le paramètre prédéfini sont visibles dans le panneau de prévisualisation.
 
 ### Gestion des paramètres prédéfinis des métadonnées  {#managing-metadata-presets}
 
-1. Cliquez sur **Configuration** > **Configuration de l’application** > **Métadonnées** > **Paramètres prédéfinis des métadonnées**.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Métadonnées]** > **[!UICONTROL Paramètres prédéfinis des métadonnées]**.
 1. Utilisez l’une des méthodes suivantes :
 
    * Pour prévisualiser un paramètre prédéfini, sélectionnez ce dernier. Les informations correspondantes (catégories et champs) s’affichent dans l’écran de prévisualisation.
-   * Pour supprimer un paramètre prédéfini, sélectionnez-le, puis cliquez sur **Supprimer**.
+   * Pour supprimer un paramètre prédéfini, sélectionnez-le, puis cliquez sur **[!UICONTROL Supprimer]**.
 
 ## Champs personnalisés {#user-defined-fields}
 
 Un administrateur de portail multimédia ou un administrateur d’entreprise peut créer des champs de métadonnées définis par l’utilisateur personnalisés. Les champs personnalisés peuvent vous aider à organiser les fichiers dans Dynamic Media Classic. Si nécessaire, vous pouvez marquer les champs comme Principaux. Quand ils sont activés, les noms de ces champs de métadonnées personnalisés s’affichent dans le panneau Métadonnées de la vue de détails. Les utilisateurs peuvent renseigner les champs de métadonnées définies par les utilisateurs pour décrire les fichiers. Ils peuvent également définir un champ de métadonnées utilisateur comme critère de recherche.
 
-Pour utiliser efficacement les champs de métadonnées définis par l’utilisateur, retardez l’heure d’activation d’un fichier pour un lancement ou une vente spécifique. Vous définissez un champ &quot;activation&quot;, en fonction du type *Date*. Ensuite, à l’aide du panneau **Métadonnées** de la vue **Détails** ou **Fichier** > **Modifier les infos**, vous pouvez spécifier le moment où le fichier est activé. Dynamic Media Classic vérifie l’état de publication d’un fichier et l’historique de publication. S’il n’est pas dans le délai d’activation, l’état de publication s’affiche comme &quot;Non publié&quot;.
+Pour utiliser efficacement les champs de métadonnées définis par l’utilisateur, retardez l’heure d’activation d’un fichier pour un lancement ou une vente spécifique. Vous définissez un champ &quot;activation&quot;, en fonction du type *Date*. Ensuite, à l’aide du panneau **[!UICONTROL Métadonnées]** dans la vue de détails ou **[!UICONTROL Fichier]** > **[!UICONTROL Modifier les infos]**, vous pouvez spécifier le moment où le fichier est activé. Dynamic Media Classic vérifie l’état de publication d’un fichier et l’historique de publication. S’il n’est pas dans le délai d’activation, l’état de publication s’affiche comme &quot;Non publié&quot;.
 
 >[!NOTE]
 >
@@ -822,43 +801,45 @@ Pour utiliser efficacement les champs de métadonnées définis par l’utilisat
 
 >[!NOTE]
 >
->Pour rechercher des fichiers en utilisant les champs personnalisés définis par les utilisateurs, cliquez sur **Configuration** > **Configuration personnelle**, puis sélectionnez **Inclure les champs définis par les utilisateurs dans la recherche**. Voir [Configuration personnelle](personal-setup.md#personal_setup).
+>Pour rechercher des fichiers en utilisant les champs personnalisés définis par les utilisateurs, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration personnelle]**, puis sélectionnez **[!UICONTROL Inclure les champs définis par les utilisateurs dans la recherche]**. Voir [Configuration personnelle](personal-setup.md#personal_setup).
 
 ### Création d’un champ de métadonnées défini par l’utilisateur  {#creating-a-user-defined-metadata-field}
 
-1. Cliquez sur **Configuration** > **Configuration de l’application** > **Métadonnées** > **Champs définis par l’utilisateur**.
-1. Cliquez sur **Ajouter**.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Métadonnées]** > **[!UICONTROL Champs définis par l’utilisateur]**.
+1. Cliquez sur **[!UICONTROL Ajouter]**.
 1. Dans la boîte de dialogue Champ personnalisé, définissez les options de votre choix.
 
-   **** NomEntrez un nom pour le champ de métadonnées.
+   * **Nom**  - Entrez un nom pour le champ de métadonnées.
 
-   **** TypeChoisissez une option qui définit le type d&#39;information que les utilisateurs peuvent entrer dans le champ de métadonnées :
+   * **Type**  - Choisissez une option qui définit le type d&#39;information que les utilisateurs peuvent entrer dans le champ de métadonnées :
 
-   **Chaîne** de texte StringChaîne de texte.
+   * **Chaîne**  - Chaîne de texte.
 
-   **Entier** IntAn.
+   * **Int** - Entier.
 
-   **** FlottantNombre à virgule flottante.
+   * **Float**  - Nombre à virgule flottante.
 
-   **Oui/** NonA oui/non valeur booléenne.
+   * **Oui/Non**  - Valeur booléenne oui/non.
 
-   **Date** A. Le format de date MM/JJ/AAAA est accepté.
+   * **Date**  - Date. Le format de date MM/JJ/AAAA est accepté.
 
-   **** Nom de fichierNom d&#39;un fichier.
+   * **Nom**  de fichier : nom d&#39;un fichier.
 
-   **** CouleurNom d&#39;une couleur.
+   * **Couleur**  : nom d&#39;une couleur.
 
-   **** DimensionLargeur et hauteur du fichier.
+   * **Dimension**  : largeur et hauteur du fichier.
 
-   **** UntypedPour la rétrocompatibilité. Ne sélectionnez pas cette option.
+   * **Sans type**  - Pour une compatibilité ascendante. Ne sélectionnez pas cette option.
 
-   **Valeur** par défautSi vous le souhaitez, entrez la valeur que les utilisateurs sont le plus susceptibles d’entrer dans le champ. La valeur que vous entrez devient la valeur par défaut du champ que vous créez.
+   * **Valeur**  par défaut - Vous pouvez éventuellement saisir la valeur que les utilisateurs sont le plus susceptibles d’entrer dans le champ. La valeur que vous entrez devient la valeur par défaut du champ que vous créez.
 
-   **S’applique** àFacultatif, choisissez un type de fichier si vous souhaitez que le champ de métadonnées s’applique uniquement à un type de fichier spécifique.
+   * **Application pour**  : (Facultatif) choisissez un type de fichier si vous souhaitez que le champ de métadonnées s&#39;applique uniquement à un type de fichier spécifique.
 
-   ***Note** : Choisissez soigneusement une option **Application à**, car vous ne pouvez pas modifier l&#39;option **Application à** après avoir créé un champ défini par l&#39;utilisateur. Dynamic Media Classic vous permet de modifier le nom, le type et la valeur par défaut d’un champ défini par l’utilisateur, mais pas le paramètre **S’applique à**. *
+      >[!NOTE]
+      >
+      >Choisissez soigneusement une option **[!UICONTROL Application à]**, car vous ne pouvez pas modifier l&#39;option **[!UICONTROL Application à]** après avoir créé un champ défini par l&#39;utilisateur. Dynamic Media Classic vous permet de modifier le nom, le type et la valeur par défaut d’un champ défini par l’utilisateur, mais pas le paramètre **[!UICONTROL S’applique à]**. *
 
-1. Cliquez sur **Enregistrer** lorsque vous avez terminé de créer le champ de métadonnées.
+1. Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé de créer le champ de métadonnées.
 
 ### Gestion de champs définis par les utilisateurs  {#manage-user-defined-fields}
 
@@ -866,13 +847,13 @@ L’écran Champs définis par l’utilisateur comporte des commandes qui permet
 
 Seul un administrateur du portail multimédia ou un administrateur d’entreprise peut gérer les champs définis par l’utilisateur.
 
-Pour ouvrir cet écran, choisissez **Configuration** > **Configuration de l’application** > **Métadonnées** > **Champs définis par l’utilisateur**.
+Pour ouvrir cet écran, choisissez **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Métadonnées]** > **[!UICONTROL Champs définis par l’utilisateur]**.
 
-**Modification d&#39;un** champSélectionnez le champ, puis cliquez sur  **Modifier**.
+* **Modification d&#39;un champ**  : sélectionnez le champ, puis cliquez sur  **[!UICONTROL Modifier]**.
 
-**Suppression d&#39;un** champSélectionnez le champ, puis cliquez sur  **Supprimer**.
+* **Suppression d&#39;un champ**  : sélectionnez le champ, puis cliquez sur  **[!UICONTROL Supprimer]**.
 
-**Activer** champCliquez pour sélectionner ou désélectionner l’option Principale en regard du nom d’un champ. Si vous êtes un administrateur dans la société, cette option peut ne pas s’afficher. Cette option étant liée à MediaPortal, vous devez sélectionner (activer) Afficher les fonctionnalités MediaPortal dans la configuration personnelle pour afficher les champs activés.
+* **Activer le champ**  : cliquez sur pour sélectionner ou désélectionner l&#39;option  **** Active en regard du nom d&#39;un champ. Si vous êtes dans un rôle d’administration de société, cette option n’est pas affichée. Cette option étant liée à MediaPortal, vous devez sélectionner (activer) Afficher les fonctionnalités MediaPortal dans la configuration personnelle pour afficher les champs activés.
 
 ## Optimisation des fichiers {#optimize-files}
 
@@ -880,8 +861,8 @@ Lorsque vous téléchargez des fichiers vers Dynamic Media Classic, le système 
 
 Dynamic Media Classic effectue des recherches dans vos fichiers et optimise uniquement les images qui n’ont pas été entièrement optimisées auparavant.
 
-1. Sélectionnez **Configuration** > **Configuration de l’application**, puis sélectionnez O **optimiser les fichiers**.
-1. Saisissez les informations relatives à la tâche d’optimisation et cliquez sur **Envoyer**.
+1. Sélectionnez **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]**, puis **[!UICONTROL Optimiser les fichiers]**.
+1. Saisissez les informations relatives à la tâche d’optimisation et cliquez sur **[!UICONTROL Envoyer]**.
 
    Si vous travaillez pour plusieurs sociétés, optimisez les fichiers des différentes entreprises séparément.
 
@@ -889,63 +870,63 @@ Dynamic Media Classic effectue des recherches dans vos fichiers et optimise uniq
 
 Utilisez les paramètres prédéfinis d’ensemble par lot pour créer automatiquement des visionneuses d’images ou des visionneuses à 360° pendant l’exécution d’une tâche de téléchargement de fichiers vers Dynamic Media Classic.
 
-Les administrateurs d’entreprise définissent d’abord des conventions d’affectation de nom pour les fichiers qu’ils souhaitent regrouper dans un ensemble. Vous pouvez ensuite créer un paramètre prédéfini d’ensemble par lot pour référencer ces images. Chaque paramètre prédéfini correspond à un ensemble d’instructions indépendant à nom unique qui définit comment créer la visionneuse en utilisant des images correspondant aux conventions d’affectation de nom définies dans la recette de paramètres prédéfinis.
+Les administrateurs de sociétés commencent par définir des conventions d’affectation de nom pour les ressources qu’ils souhaitent regrouper dans une visionneuse. Vous pouvez ensuite créer un paramètre prédéfini d’ensemble par lot pour référencer ces images. Chaque paramètre prédéfini correspond à un ensemble d’instructions indépendant à nom unique qui définit comment créer la visionneuse en utilisant des images correspondant aux conventions d’affectation de nom définies dans la recette de paramètres prédéfinis.
 
 Tous les paramètres prédéfinis d’ensemble par lot actifs d’une entreprise sont répertoriés dans la boîte de dialogue Télécharger les options de la tâche. Ainsi, vous pouvez indiquer le paramètre prédéfini qui sera appliqué lors de chaque téléchargement. Les administrateurs d’entreprise verront tous les paramètres prédéfinis d’ensemble par lot actifs et inactifs. Lorsque vous téléchargez des fichiers, Dynamic Media Classic crée automatiquement une visionneuse contenant tous les fichiers qui correspondent à la convention d’affectation de nom définie dans les principaux paramètres prédéfinis.
 
 ### Affectation de nom par défaut {#default-naming}
 
-L’administrateur d’entreprise crée une convention d’affectation de nom par défaut, qui est utilisée dans n’importe quelle recette de paramètres prédéfinis d’ensemble par lot. La convention d’affectation de nom par défaut sélectionnée dans la définition des paramètres prédéfinis d’ensemble par lot peut être la seule convention dont votre entreprise a besoin pour générer des visionneuses par lot pour tous les sites Web. Vous devez créer un paramètre prédéfini d’ensemble par lot pour utiliser la convention d’affectation de nom par défaut définie. Vous pouvez créer autant de paramètres prédéfinis d’ensemble par lot que nécessaire avec des conventions d’affectation de nom différentes et personnalisées pour une visionneuse de contenu spécifique au cas où il existe une exception dans l’affectation de nom par défaut définie par l’entreprise. 
+L’administrateur d’entreprise crée une convention d’affectation de nom par défaut, qui est utilisée dans n’importe quelle recette de paramètres prédéfinis d’ensemble par lot. La convention d’affectation de nom par défaut sélectionnée dans la définition des paramètres prédéfinis d’ensemble par lot peut être la seule convention dont votre société a besoin pour générer par lot des visionneuses pour tous les sites Web. Vous devez créer un paramètre prédéfini d’ensemble par lot pour utiliser la convention d’affectation de nom par défaut définie. Vous pouvez créer autant de paramètres prédéfinis d’ensemble par lot que nécessaire avec des conventions d’affectation de nom différentes et personnalisées pour une visionneuse de contenu spécifique au cas où il existe une exception dans l’affectation de nom par défaut définie par l’entreprise. 
 
-Bien que la définition d’une convention d’affectation de nom par défaut ne soit pas nécessaire pour utiliser les paramètres prédéfinis d’ensemble par lot, il est recommandé d’utiliser la convention d’affectation de nom par défaut pour définir les éléments de votre convention d’affectation de nom que vous souhaitez regrouper dans une visionneuse afin de rationaliser la création d’ensembles par lot.
+La configuration d’une convention d’affectation de nom par défaut n’est pas nécessaire pour utiliser la fonctionnalité de paramètres prédéfinis d’ensemble par lot. Toutefois, il est recommandé d’utiliser une convention d’affectation de nom par défaut pour définir autant d’éléments de votre convention d’affectation de nom que vous souhaitez regrouper dans un jeu. Cela permet de rationaliser la création de jeux de lots.
 
-1. Cliquez sur **Configuration** > **Configuration de l’application** > **Paramètres prédéfinis d’ensemble par lot** > **Affectation de nom par défaut**.
-1. Sélectionnez **Afficher le formulaire** ou **Afficher le code** pour indiquer comment afficher et saisir des informations sur chaque élément.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres prédéfinis d’ensemble par lot]** > **[!UICONTROL Affectation de nom par défaut]**.
+1. Sélectionnez **[!UICONTROL Afficher le formulaire]** ou **[!UICONTROL Afficher le code]** pour indiquer comment afficher et saisir des informations sur chaque élément.
 
-   Vous pouvez cocher la case Afficher le code pour afficher la valeur d’expression régulière à côté de vos sélections dans le formulaire. Vous pouvez saisir ou modifier ces valeurs pour définir les éléments de la convention d’affectation de nom si l’affichage sous forme de formulaire vous bloque pour quelque raison que ce soit. Si vos valeurs ne peuvent pas être analysées dans l’affichage sous forme de formulaire, les champs de formulaire seront inactifs.
+   Vous pouvez cocher la case **[!UICONTROL Code de Vue]** pour vue de la valeur d’expression normale générée en même temps que vos sélections de formulaire. Vous pouvez saisir ou modifier ces valeurs pour définir les éléments de la convention d’affectation de nom si l’affichage sous forme de formulaire vous bloque pour quelque raison que ce soit. Si vos valeurs ne peuvent pas être analysées dans la vue de formulaires, les champs de formulaire deviennent inactifs.
 
    >[!NOTE]
    >
    >les champs de formulaire désactivés n’indiquent pas que l’expression régulière n’est pas valide. Aucune validation ne vous permet de confirmer que vos expressions régulières sont correctes. Vous verrez les résultats de l’expression régulière que vous créez pour chaque élément après la ligne Résultat. L’expression régulière est visible en entier en bas de la page.
 
 1. Développez chaque élément selon vos besoins et indiquez les conventions d’affectation de nom que vous voulez utiliser.
-1. Si nécessaire, cliquez sur **Ajouter** pour ajouter une autre convention d’appellation à un élément. Pour supprimer la convention d’appellation d’un élément, cliquez sur **Supprimer**.
-1. Cliquez sur **Enregistrer sous** et saisissez un nom pour le paramètre prédéfini. Si vous modifiez un paramètre prédéfini existant, cliquez sur **Enregistrer**.
+1. Si nécessaire, cliquez sur **[!UICONTROL Ajouter]** pour ajouter une autre convention d’appellation à un élément. Pour supprimer la convention d’appellation d’un élément, cliquez sur **[!UICONTROL Supprimer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer sous]** et saisissez un nom pour le paramètre prédéfini. Si vous modifiez un paramètre prédéfini existant, cliquez sur **[!UICONTROL Enregistrer]**.
 
-Vous pouvez également utiliser l’affichage du code sans champ de formulaire. Cet affichage vous permet de définir vos conventions d’affectation de nom en utilisant uniquement des expressions régulières.
+Vous pouvez également utiliser l’affichage du code sans champ de formulaire. Dans cette vue, vous créez vos définitions de convention d’affectation de nom entièrement à l’aide d’expressions régulières.
 
-Deux éléments sont disponibles pour la définition : Correspondance et Nom de base. Ces champs vous permettent de définir tous les éléments de la convention d’affectation de nom et d’identifier la partie de la convention utilisée pour nommer la visionneuse dans laquelle ils se trouvent. La convention d’affectation de nom individuelle d’une entreprise est susceptible d’utiliser une ou plusieurs lignes de définition pour chacun de ces éléments. Vous pouvez utiliser autant de lignes que vous le souhaitez pour votre définition unique et les regrouper dans des éléments distincts, par exemple pour l’image principale, l’élément Couleur, l’élément d’affichage secondaire et l’élément Echantillon.
+Deux éléments sont disponibles pour la définition : Correspondance et Nom de base. Ces champs vous permettent de définir tous les éléments de la convention d’affectation de nom et d’identifier la partie de la convention utilisée pour nommer la visionneuse dans laquelle ils se trouvent. La convention d’affectation de nom individuelle d’une société peut utiliser une ou plusieurs lignes de définition pour chacun de ces éléments. Vous pouvez utiliser autant de lignes que vous le souhaitez pour votre définition unique et les regrouper dans des éléments distincts, par exemple pour l’image principale, l’élément Couleur, l’élément d’affichage secondaire et l’élément Echantillon.
 
 ### Création d’un paramètre prédéfini d’ensemble par lot  {#creating-a-batch-set-preset}
 
 Dynamic Media Classic utilise des paramètres prédéfinis d’ensemble par lot pour organiser les fichiers qui partagent des informations ou du contenu communs dans des visionneuses d’images en vue de les afficher dans les visionneuses. Les recettes de paramètres prédéfinis d’ensemble par lot s’exécutent automatiquement en même temps que les tâches d’importation de ressources planifiées dans Dynamic Media Classic.
 
-Utilisez Paramètre prédéfini d’ensemble par lot pour créer, modifier et gérer vos paramètres prédéfinis d’ensemble par lot. Vous pouvez créer autant de paramètres prédéfinis d’ensemble par lot que vous le souhaitez pour couvrir l’ensemble des tâches d’assimilation des fichiers. Il existe deux formes de définition de paramètre prédéfini d’ensemble par lot : une pour la convention d’affectation de nom par défaut que vous avez définie et une pour les conventions d’affectation de nom personnalisées que vous créez en cas de besoin.
+Utilisez Paramètre prédéfini d’ensemble par lot pour créer, modifier et gérer vos paramètres prédéfinis d’ensemble par lot. Vous pouvez créer autant de paramètres prédéfinis d’ensemble par lot que vous le souhaitez pour couvrir l’ensemble des tâches d’assimilation des fichiers. Il existe deux formes de définitions de paramètres prédéfinis d’ensemble par lot : l’une pour une convention d’affectation de nom par défaut que vous avez configurée, l’autre pour des conventions d’affectation de nom personnalisées que vous créez à la volée.
 
-Pour définir un paramètre prédéfini d’ensemble par lot, utilisez la méthode de champ de formulaire ou la méthode de code, qui vous permet d’utiliser les expressions régulières. Tout comme pour l’affectation de nom par défaut, vous pouvez choisir d’afficher le code lorsque vous créez des définitions sous forme de formulaire et utiliser des expressions régulières pour créer vos définitions. Vous pouvez également désélectionner l’un des deux affichages pour utiliser uniquement l’un ou l’autre.
+Vous pouvez utiliser soit la méthode de champ de formulaire pour définir un paramètre prédéfini d’ensemble par lot, soit la méthode de code, qui vous permet d’utiliser des expressions régulières. Tout comme pour l’affectation de nom par défaut, vous pouvez choisir d’afficher le code lorsque vous créez des définitions sous forme de formulaire et utiliser des expressions régulières pour créer vos définitions. Vous pouvez également désélectionner l’un des deux affichages pour utiliser uniquement l’un ou l’autre.
 
 Voir également [Création d’un paramètre prédéfini d’ensemble par lot pour la génération automatique d’une visionneuse à 360° 2D](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set).
 
-**Création d’un paramètre prédéfini d’ensemble par lot**
+**Création d’un paramètre prédéfini d’ensemble par lot:**
 
-1. Cliquez sur **Configuration** > **Configuration de l’application** > **Paramètres prédéfinis d’ensemble par lot** > **Paramètre prédéfini d’ensemble par lot**. La vue par défaut est la vue **Afficher le formulaire**, comme défini dans le coin supérieur droit de la page Détails.
-1. Dans le panneau Liste des paramètres prédéfinis, cliquez sur **Ajouter** pour activer les champs de définition dans le panneau Détails situé sur la droite de l’écran.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres prédéfinis d’ensemble par lot]** > **[!UICONTROL Paramètre prédéfini d’ensemble par lot]**. La vue par défaut est la vue **[!UICONTROL Afficher le formulaire]**, comme défini dans le coin supérieur droit de la page Détails.
+1. Dans le panneau Liste des paramètres prédéfinis, cliquez sur **[!UICONTROL Ajouter]** pour activer les champs de définition dans le panneau Détails sur le côté droit de la page.
 1. Dans le panneau Détails, dans le champ Nom du paramètre prédéfini, nommez le paramètre prédéfini.
 1. Dans le menu déroulant Type d’ensemble par lot, sélectionnez un type de paramètre prédéfini.
 
-   Pour générer automatiquement une visionneuse à 360° 2D, sélectionnez **Visionneuse à 360° multi-axe** dans la liste déroulante Type d’ensemble par lot.
+   Pour générer automatiquement une visionneuse à 360° 2D, sélectionnez **[!UICONTROL Visionneuse à 360° multi-axe]** dans la liste déroulante Type d’ensemble par lot.
 
 1. Effectuez l’une des opérations suivantes :
 
-   * Si vous appliquez une convention d’affectation de nom par défaut que vous avez précédemment définie sous Configuration de l’application > Paramètres prédéfinis d’ensemble par lot > Affectation de nom par défaut, développez **Conventions d’affectation de nom** puis, dans la liste déroulante Affectation de nom de fichier, cliquez sur **Par défaut**.
-   * Pour définir une convention d’affectation de nom quand vous configurez le paramètre prédéfini, développez **Conventions d’affectation de nom** puis, dans la liste déroulante Affectation de nom de fichier, cliquez sur **Personnalisé**.
+   * Si vous utilisez une convention d’affectation de nom par défaut que vous avez précédemment définie sous **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres prédéfinis d’ensemble par lot]** > **[!UICONTROL Affectation de nom par défaut]**, développez **[!UICONTROL Conventions d’affectation de nom]**, puis cliquez sur **[!UICONTROL Par défaut]**.
+   * Pour définir une convention d’affectation de nom quand vous configurez le paramètre prédéfini, développez **[!UICONTROL Conventions d’affectation de nom]** puis, dans la liste déroulante Affectation de nom de fichier, cliquez sur **[!UICONTROL Personnalisé]**.
 
 1. Pour l’ordre des séquences, définissez l’ordre des images une fois que la visionneuse est regroupée dans Dynamic Media Classic. Par défaut, les fichiers seront classés par ordre alphanumérique. Cependant, vous pouvez utiliser une liste d’expressions courantes de format CSV (valeurs séparées par des virgules) pour définir l’ordre.
 1. Dans Options de création et d’affectation de nom de l’ensemble, indiquez le suffixe ou le préfixe du nom de base que vous avez défini dans la convention d’affectation de nom. Définissez également l’emplacement de création de la visionneuse d’images dans la structure de dossiers Dynamic Media Classic.
 
-   Si vous définissez un grand nombre de visionneuses d’images, vous préférerez sans doute les conserver séparément des dossiers contenant les fichiers. De nombreux utilisateurs créent un dossier Visionneuses d’images et configurent l’application de façon à ce qu’elle importe les visionneuses générées par lot à cet emplacement.
+   Si vous définissez un grand nombre de visionneuses d’images, gardez ces visionneuses à l’écart des dossiers contenant les fichiers eux-mêmes. De nombreux utilisateurs créent un dossier Visionneuses d’images et configurent l’application de façon à ce qu’elle importe les visionneuses générées par lot à cet emplacement.
 
-1. Cliquez sur **Enregistrer** dans le panneau Détails.
+1. Cliquez sur **[!UICONTROL Enregistrer]** dans le panneau Détails.
 
 ### Création d’un paramètre prédéfini d’ensemble par lot pour la génération automatique d’une visionneuse à 360° 2D  {#creating-a-batch-set-preset-for-the-auto-generation-of-a-d-spin-set}
 
@@ -967,33 +948,33 @@ spin-02-01
 spin-03-12
 ```
 
-Avec ces informations, vous pouvez créer votre recette de type d’ensemble par lot comme suit :
+Grâce à ces informations, votre recette Type d&#39;ensemble par lot peut être créée comme suit :
 
 ![](assets/se_batch_set_recipe.png)
 
-Le regroupement de la partie du nom de ressource partagé de la visionneuse à 360° est ajouté au champ **Correspondance** (éléments en surbrillance). La partie variable du nom de ressource contenant la ligne et la colonne est ajoutée respectivement aux champs **Ligne** et **Colonne**.
+Le regroupement de la partie du nom de ressource partagée de la visionneuse à 360° est ajouté au champ Correspondance (comme mis en surbrillance). La partie variable du nom de ressource contenant la ligne et la colonne est ajoutée respectivement aux champs Ligne et Colonne.
 
-Lorsque la visionneuse à 360° est téléchargée et publiée, vous activez le nom de la recette de visionneuse à 360° répertoriée sous **Paramètres prédéfinis d’ensemble par lot** dans la boîte de dialogue **Télécharger les options de la tâche**.
+Lorsque la visionneuse à 360° est téléchargée et publiée, vous activez le nom de la recette de visionneuse à 360° répertoriée sous **[!UICONTROL Paramètres prédéfinis d’ensemble par lot]** dans la boîte de dialogue Télécharger les options de la tâche.
 
-**Création d’un paramètre prédéfini d’ensemble par lot pour la génération automatique d’une visionneuse à 360° 2D.**
+**Pour créer un paramètre prédéfini d’ensemble par lot pour la génération automatique d’une visionneuse à 360° 2D :**
 
-1. Sélectionnez **Configuration** > **Configuration de l’application** > **Paramètres prédéfinis d’ensemble par lot** > **Paramètre prédéfini d’ensemble par lot**. La vue par défaut est la vue **Afficher le formulaire**, comme défini dans le coin supérieur droit de la page Détails.
-1. Dans le panneau Liste des paramètres prédéfinis, cliquez sur **Ajouter** pour activer les champs de définition dans le panneau Détails situé sur la droite de l’écran.
+1. Sélectionnez **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres prédéfinis d’ensemble par lot]** > **[!UICONTROL Paramètre prédéfini d’ensemble par lot]**. La vue par défaut est la vue **[!UICONTROL Afficher le formulaire]**, comme défini dans le coin supérieur droit de la page Détails.
+1. Dans le panneau Liste des paramètres prédéfinis, cliquez sur **[!UICONTROL Ajouter]** pour activer les champs de définition dans le panneau Détails sur le côté droit de la page.
 1. Dans le panneau Détails, dans le champ Nom du paramètre prédéfini, nommez le paramètre prédéfini.
-1. Dans le menu déroulant Type d’ensemble par lot, sélectionnez **Visionneuse de ressources**.
-1. Dans la liste déroulante Sous-type, sélectionnez **Visionneuse à 360° multi-axe**.
-1. Développez les **Conventions d’affectation de nom** puis, dans la liste déroulante Affectation de nom de fichier, cliquez sur **Personnalisé**.
-1. Utilisez les attributs **Correspondance** et, éventuellement, **Nom de base** pour définir une expression régulière pour nommer les fichiers d’image qui constituent le regroupement.
+1. Dans le menu déroulant Type d’ensemble par lot, sélectionnez **[!UICONTROL Visionneuse de ressources]**.
+1. Dans la liste déroulante Sous-type, sélectionnez **[!UICONTROL Visionneuse à 360° multi-axe]**.
+1. Développez les **[!UICONTROL Conventions d’affectation de nom]** puis, dans la liste déroulante Affectation de nom de fichier, cliquez sur **[!UICONTROL Personnalisé]**.
+1. Utilisez les attributs **[!UICONTROL Correspondance]** et, éventuellement, **[!UICONTROL Nom de base]** pour définir une expression régulière pour nommer les fichiers d’image qui constituent le regroupement.
 
-   Par exemple, votre expression régulière Correspondance littérale peut se présenter comme suit :
+   Par exemple, votre expression Correspondance littérale peut se présenter comme suit :
 
    `(\w+)-\w+-\w+`
 
-1. Développez **Position des colonnes/lignes**, puis définissez le format de nom de la position du fichier d’image dans le tableau de la visionneuse à 360° 2D.
+1. Développez **[!UICONTROL Position des colonnes/lignes]**, puis définissez le format de nom de la position du fichier d’image dans le tableau de la visionneuse à 360° 2D.
 
    Placez la position de ligne ou de colonne entre parenthèses dans le nom de fichier.
 
-   Par exemple, l’expression régulière de ligne peut se présenter comme suit :
+   Par exemple, pour votre expression régulière de ligne, elle peut se présenter comme suit :
 
    `\w+-R([0-9]+)-\w+`
 
@@ -1001,7 +982,7 @@ Lorsque la visionneuse à 360° est téléchargée et publiée, vous activez le 
 
    `\w+-(\d+)-\w+`
 
-   L’expression régulière de colonne peut se présenter comme suit :
+   Pour l’expression régulière de votre colonne, elle peut se présenter comme suit :
 
    `\w+-\w+-C([0-9]+)`
 
@@ -1009,17 +990,17 @@ Lorsque la visionneuse à 360° est téléchargée et publiée, vous activez le 
 
    `\w+-\w+-C(\d+)`
 
-   N’oubliez pas qu’il s’agit uniquement d’exemples. Vous pouvez créer votre expression régulière comme bon vous semble, en fonction de vos besoins.
+   N&#39;oubliez pas que ces expressions ne sont que des exemples. Vous pouvez créer votre expression régulière comme bon vous semble, en fonction de vos besoins.
 
    >[!NOTE]
    >
-   >si la combinaison des expressions régulières de ligne et de colonne ne parvient pas à déterminer la position du fichier dans le tableau de visionneuse à 360° multidimensionnel, ce fichier n’est pas ajouté à la visionneuse et une erreur est enregistrée.
+   >Si la combinaison d’expressions régulières de ligne et de colonne ne parvient pas à déterminer la position de la ressource dans le tableau de la visionneuse à 360° multidimensionnelle, cette ressource n’est pas ajoutée à la visionneuse et une erreur est consignée.
 
 1. Dans Options de création et d’affectation de nom de l’ensemble, indiquez le suffixe ou le préfixe du nom de base que vous avez défini dans la convention d’affectation de nom. Définissez également l’emplacement de création de la visionneuse d’images dans la structure de dossiers Dynamic Media Classic.
 
-   Si vous définissez un grand nombre de visionneuses d’images, vous préférerez sans doute les conserver séparément des dossiers contenant les fichiers. De nombreux utilisateurs créent un dossier Visionneuses d’images et configurent l’application de façon à ce qu’elle importe les visionneuses générées par lot à cet emplacement.
+   Si vous définissez un grand nombre de visionneuses d’images, gardez ces visionneuses à l’écart des dossiers contenant les fichiers eux-mêmes. De nombreux utilisateurs créent un dossier Visionneuses d’images et configurent l’application de façon à ce qu’elle importe les visionneuses générées par lot à cet emplacement.
 
-1. Cliquez sur **Enregistrer** dans le panneau Détails.
+1. Cliquez sur **[!UICONTROL Enregistrer]** dans le panneau Détails.
 1. Téléchargez et publiez la visionneuse à 360° comme vous le faites habituellement, en veillant à activer le nom de la visionneuse à 360° 2D dans la boîte de dialogue Options de téléchargement de tâche, sous Paramètres prédéfinis d’ensemble par lot.
 
 >[!MORELIKETHIS]
