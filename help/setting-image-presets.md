@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
-feature: Dynamic Media Classic,Image Presets
+feature: Dynamic Media Classic,Paramètres d’image prédéfinis
 role: Business Practitioner
+exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '654'
 ht-degree: 64%
 
 ---
-
 
 # Configuration des paramètres d’image prédéfinis{#setting-up-image-presets}
 
@@ -30,7 +30,7 @@ Les images de taille réduite, lorsqu’elles sont diffusées dynamiquement à p
 
 Si vous avez le statut d’administrateur, vous pouvez créer vos propres paramètres d’image prédéfinis. Vous pouvez créer des paramètres d’image prédéfinis ou des débuts avec un paramètre d’image prédéfini par défaut fourni par Dynamic Media Classic, le modifier et l’enregistrer sous un nouveau nom.
 
-**Pour créer un paramètre d’image prédéfini**
+**Pour créer un paramètre d’image prédéfini:**
 
 1. Cliquez sur **Configuration** > **Paramètres d’image prédéfinis**.
 
