@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 72%
+source-wordcount: '836'
+ht-degree: 73%
 
 ---
-
 
 # Liaison des URL à une application Web{#linking-urls-to-your-web-application}
 
@@ -28,9 +28,11 @@ Pour placer ces chaînes URL dans vos pages Web et applications, copiez-les depu
 
 Vous pouvez obtenir une chaîne URL générée par un paramètre d’image prédéfini à partir de l’écran Prévisualisation ou Affichage des détails. Une fois l’URL copiée, elle est stockée dans le Presse-papiers ; vous pouvez ainsi la coller si nécessaire.
 
-***Remarque **: L’URL n’est pas principale tant que vous n’avez pas publié le fichier.*
+>[!NOTE]
+>
+>l’URL n’est activée qu’une fois le fichier publié.
 
-### Obtention d’une URL de paramètre d’image prédéfini depuis l’écran Prévisualisation {#obtaining-an-image-preset-url-from-preview}
+### Obtention d’une URL de paramètre d’image prédéfini depuis l’écran Prévisualisation  {#obtaining-an-image-preset-url-from-preview}
 
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient le fichier d’image à prévisualiser.
 1. Utilisez l’une des méthodes suivantes :
