@@ -8,16 +8,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic, Visionneuses, Vidéo
 role: Business Practitioner
+exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '3945'
-ht-degree: 81%
+source-wordcount: '3942'
+ht-degree: 82%
 
 ---
-
 
 # Chargement et codage de vidéos{#uploading-and-encoding-videos}
 
@@ -250,7 +250,7 @@ Supposons, par exemple, que la résolution de votre vidéo source soit équivale
 |--- |--- |--- |--- |
 | Source | 1 920 x 1 080 | 1 | 1 |
 | Codée | 960 x 540 | 2 | 2 |
-| Codée | 640 x 360 | 3 | 3 |
+| Codée | 640 x 360 | 3 | 1 |
 | Codée | 480 x 270 | 4 | 4 |
 
 ### Format de fichier vidéo codé  {#encoded-video-file-format}
@@ -313,22 +313,24 @@ Vous pouvez également les filtrer en fonction d’une option de périphérique 
 
 Les paramètres vidéo prédéfinis activés sont répertoriés dans la boîte de dialogue Télécharger les options de la tâche. Cette boîte de dialogue s’ouvre lorsqu’un utilisateur transfère les fichiers vidéo pendant le processus de téléchargement. Ils peuvent choisir parmi une liste de tous les paramètres prédéfinis de codage activés.
 
-**Activation ou désactivation des paramètres prédéfinis de codage vidéo**
+**Activation ou désactivation des paramètres prédéfinis de codage vidéo:**
 
-1. Dans Dynamic Media Classic, cliquez sur **Configuration** > **Configuration de l’application** > **Paramètres vidéo prédéfinis**.
+1. Dans Dynamic Media Classic, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres vidéo prédéfinis]**.
 1. Effectuez l’une des opérations suivantes :
 
-   * Cliquez sur **Paramètres prédéfinis de vidéo adaptative**.
-   * Cliquez sur **Paramètres prédéfinis de codage uniques**.
+   * Cliquez sur **[!UICONTROL Paramètres prédéfinis de vidéo adaptative]**.
+   * Cliquez sur **[!UICONTROL Paramètres prédéfinis de codage uniques]**.
 
 1. Effectuez l’une des opérations suivantes :
 
    * Pour activer un paramètre vidéo prédéfini, sur la page Paramètres prédéfinis, sous la colonne Actif, cochez la case en regard du nom du paramètre prédéfini.
    * Pour désactiver un paramètre vidéo prédéfini, décochez la case en regard des paramètres vidéo prédéfinis que vous souhaitez rendre inactifs.
 
-      ***note** : Les paramètres vidéo prédéfinis inactifs n’apparaissent pas dans la boîte de dialogue Télécharger les options de la tâche. *
+      >[!NOTE]
+      >
+      >Les paramètres vidéo prédéfinis inactifs ne sont pas répertoriés dans la boîte de dialogue Télécharger les options de la tâche.
 
-1. Dans le coin inférieur droit de la page, cliquez sur **Fermer**.
+1. Dans le coin inférieur droit de la page, cliquez sur **[!UICONTROL Fermer]**.
 
 ### Ajout ou modification d’un paramètre prédéfini de codage vidéo  {#adding-or-editing-a-video-encoding-preset}
 
