@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestion des ressources
 role: Business Practitioner
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 translation-type: tm+mt
-source-git-commit: a5a6596213e273d806fbc012e2c63bf3458127b0
+source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1402'
 ht-degree: 77%
 
 ---
@@ -109,23 +109,26 @@ Procédez comme suit pour trouver des fichiers en filtrant leurs valeurs de mét
 
 1. Après avoir cliqué sur le bouton Champ  d’un panneau, suivez ces instructions pour afficher le menu de filtrage et exécuter une opération de filtrage :
 
-   **Choix d&#39;un** champ de métadonnéesSélectionnez le nom du champ dans le menu de filtrage.
+   * **Choix d&#39;un champ**  de métadonnées : sélectionnez le nom du champ dans le menu de filtrage.
 
-   ***remarque **: Seuls les noms des champs de métadonnées de la Vue de métadonnées par défaut apparaissent dans le menu de filtrage.*
+      >[!NOTE]
+      >
+      >seuls les noms des champs de métadonnées contenus dans la vue de métadonnées par défaut s’affichent dans le menu de filtrage. 
 
-   Voir [Vues des métadonnées](application-setup.md#metadata_views).
+      Voir [Vues des métadonnées](application-setup.md#metadata_views).
 
-   **Ajouter un** champ de métadonnéesChoisissez Ajouter un panneau. Lorsque le volet apparaît dans le panneau Filtres, cliquez sur le bouton Champ et sélectionnez le nom d’un champ de métadonnées dans le menu de filtre.
+   * **Ajouter un champ**  de métadonnées - Choisissez Ajouter un panneau. Lorsque le volet apparaît dans le panneau Filtres, cliquez sur le bouton Champ et sélectionnez le nom d’un champ de métadonnées dans le menu de filtre.
 
-   **Suppression d’un** champ de métadonnéesChoisissez Supprimer ce panneau dans le menu de filtrage.
+   * **Suppression d&#39;un champ**  de métadonnées : choisissez  **[!UICONTROL Supprimer ce]** panneau dans le menu de filtrage.
 
    Lorsque vous choisissez un champ de métadonnées, son panneau répertorie :
 
    * toutes les valeurs de métadonnées saisies dans le champ,
    * pour chaque valeur de métadonnées, le nombre de fichiers portant cette valeur.
 
+
 1. Répétez l’étape 2 autant de fois que nécessaire pour répertorier tous les champs de métadonnées pour l’opération de filtre sur les panneaux.
-1. Dans chaque panneau, sélectionnez une valeur de métadonnées à filtrer (pas plus d’une par panneau).
+1. Dans chaque panneau, sélectionnez une valeur de métadonnées à filtrer Vous ne pouvez pas sélectionner plusieurs valeurs de métadonnées dans chaque panneau.
 
    Les fichiers qui correspondent à toutes les valeurs sélectionnées s’affichent dans le panneau de navigation.
 
@@ -139,13 +142,13 @@ Procédez comme suit pour trouver des fichiers en filtrant leurs valeurs de mét
 
 Suivez les instructions affichées sur l’onglet Filtres pour enregistrer, réexécuter et supprimer des opérations de filtrage :
 
-**Enregistrement d’une** opération de filtrageCliquez sur le bouton Sélectionner le paramètre prédéfini, choisissez l’option Enregistrer l’élément actuel en tant que nouveau paramètre prédéfini, puis saisissez un nom dans la boîte de dialogue Enregistrer.
+* **Enregistrement d’une opération**  de filtrage : cliquez sur  **[!UICONTROL Sélectionner un paramètre prédéfini]**, choisissez  **[!UICONTROL Enregistrer l’élément actuel en tant que nouveau paramètre prédéfini]**, puis saisissez un nom dans la boîte de dialogue Enregistrer.
 
-**Répétition d&#39;une** opération de filtrageCliquez sur le bouton Sélectionner un paramètre prédéfini et choisissez le nom d&#39;une opération de filtrage dans le menu. Le menu répertorie les opérations de filtrage que vous avez enregistrées.
+* **Répétition d&#39;une opération**  de filtrage : cliquez sur  **[!UICONTROL Sélectionner un]** paramètre prédéfini, puis choisissez le nom d&#39;une opération de filtrage dans le menu. Le menu répertorie les opérations de filtrage que vous avez enregistrées.
 
-**Suppression d’une opération de filtrage à partir du** menu Sélectionner un paramètre prédéfini Exécutez l’opération de filtrage. Cliquez ensuite sur le bouton Sélectionner le paramètre prédéfini, puis choisissez l’option Supprimer le paramètre prédéfini dans le menu.
+* **Suppression d&#39;une opération de filtrage à partir du menu**  Sélectionner un paramètre prédéfini - Exécutez l&#39;opération de filtrage. Cliquez ensuite sur **[!UICONTROL Sélectionner le paramètre prédéfini]** et choisissez Supprimer le paramètre prédéfini dans le menu.
 
-## Utilisation du serveur de métadonnées  {#using-the-metadata-server}
+## Utilisation du serveur de métadonnées {#using-the-metadata-server}
 
 Le serveur de métadonnées est une API publique qui permet de rechercher des fichiers par métadonnées, via des requêtes HTTP.
 
@@ -153,15 +156,15 @@ Pour configurer le serveur de métadonnées, cliquez sur Configuration > Config
 
 L’écran Publication sur le serveur de métadonnées apparaît. Cet écran vous permet de définir les options suivantes :
 
-**Publication instantanée** Entraîne automatiquement toute modification des métadonnées lorsqu’elle est effectuée, y compris les nouveaux actifs, les changements de mots-clés, etc.
+* **Publication**  instantanée : envoie automatiquement toutes les modifications apportées aux métadonnées, y compris les nouveaux actifs, les modifications apportées aux mots-clés, etc.
 
-**XMP** PacketPublie le XMP Packet. Ce paquet n’est pas pris en compte dans la recherche mais fournit des informations XMP à jour.
+* **XMP Packet**  - Publie le XMP Packet. Ce paquet n’est pas pris en compte dans la recherche mais fournit des informations XMP à jour.
 
-**** Mots-clésPublie vos mots-clés sur le serveur de métadonnées pour les utiliser dans les recherches.
+* **Mots-clés**  : publie vos mots-clés sur le serveur de métadonnées pour les utiliser dans les recherches.
 
-**Champs** de publication du serveur de métadonnéesSélectionnez les champs à inclure dans les métadonnées. Cela vous permet de déterminer la quantité d’informations relatives à vos fichiers qui est accessible au public. Ces champs sont également affichés dans les vues des métadonnées, mais ils peuvent uniquement être modifiés dans le serveur de métadonnées.
+* **Champs**  de publication du serveur de métadonnées : sélectionnez les champs à inclure dans les métadonnées. Cela vous permet de déterminer la quantité d’informations relatives à vos fichiers qui est accessible au public. Ces champs sont également affichés dans les vues des métadonnées, mais ils peuvent uniquement être modifiés dans le serveur de métadonnées.
 
-Cliquez sur **Publier maintenant** pour début de la tâche. Un message de confirmation, vous indiquant que la tâche a démarré, apparaît.
+Cliquez sur **[!UICONTROL Publier maintenant]** pour début de la tâche. Un message de confirmation, vous indiquant que la tâche a démarré, apparaît.
 
 >[!MORELIKETHIS]
 >
