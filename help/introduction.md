@@ -6,14 +6,14 @@ seo-description: Présentation de Dynamic Media Classic
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '249'
 ht-degree: 32%
 
 ---
-
 
 # Aide de Dynamic Media Classic {#scene7-overview}
 
@@ -41,4 +41,3 @@ Bienvenue dans Adobe Dynamic Media Classic, le principal système de publication
 * [Début rapide : Concepts de base des modèles](/help/quick-start-template-basics.md)
 * [Démarrage rapide : Vidéo](/help/quick-start-video.md)
 * [Démarrage rapide : Zoom](/help/quick-start-zoom.md)
-
