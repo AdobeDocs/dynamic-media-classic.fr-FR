@@ -7,57 +7,49 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestion des ressources
 role: Business Practitioner
+exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 69%
+source-wordcount: '426'
+ht-degree: 63%
 
 ---
-
 
 # Exportation d’actifs à partir de Dynamic Media Classic{#exporting-assets-from-dmc}
 
 Vous pouvez enregistrer des fichiers que vous avez modifiés dans Dynamic Media Classic sur un lecteur réseau local. Les fichiers exportés sont compressés dans un fichier ZIP pour le téléchargement ou l’envoi par courrier électronique.
 
-La taille du fichier zip compressé ne doit pas dépasser 1 Go pour la tâche d’exportation. En outre, chaque tâche d’exportation ne peut contenir que 500 fichiers au maximum.
+La taille du fichier zip compressé ne doit pas dépasser 1 Go pour la tâche d’exportation. En outre, un maximum de 500 fichiers par tâche d’exportation est autorisé.
 
 Dynamic Media Classic conserve un enregistrement des tâches d’exportation dans l’écran Tâches.
 
-**Pour exporter des fichiers à partir de Dynamic Media Classic**
+**Pour exporter des actifs à partir de Dynamic Media Classic :**
 
-1. Sélectionnez les fichiers à exporter, puis cliquez sur **Fichier** > **Exporter**.
+1. Sélectionnez les fichiers à exporter, puis cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Exporter]**.
 1. Dans la fenêtre Exporter les fichiers sélectionnés, cliquez sur **Options d’image**, puis spécifiez une ou plusieurs options parmi les suivantes (les administrateurs déterminent quelles options sont disponibles pour les utilisateurs) :
 
-   * ****
-Paramètres prédéfinis (facultatif), choisissez un paramètre d’image prédéfini pour formater le fichier lorsque vous l’exportez. Si vous choisissez un paramètre d’image prédéfini, les autres options de formatage ne sont pas disponibles, car le fichier adopte les formats définis par ce paramètre d’image prédéfini.
+   * **Paramètres**  prédéfinis : si vous le souhaitez, choisissez un paramètre d’image prédéfini pour formater le fichier lors de son exportation. Si vous choisissez un paramètre d’image prédéfini, les autres options de formatage ne sont pas disponibles, car le fichier adopte les formats définis par ce paramètre d’image prédéfini.
 
-   * ****
-ConversionConvertissez le fichier ou l’image d’origine.
+   * **Conversion**  : convertissez le fichier ou l&#39;image d&#39;origine.
 
-   * ****
-TailleVous pouvez sélectionner une taille standard. Ou, vous pouvez cliquer sur Autres dans la liste déroulante Taille, choisir l’unité de mesure souhaitée, puis spécifier la largeur et la hauteur.
+   * **Taille**  : vous pouvez sélectionner une taille standard. Ou, vous pouvez cliquer sur **[!UICONTROL Autres]** dans la liste déroulante Taille, choisir l’unité de mesure souhaitée, puis spécifier la largeur et la hauteur.****
 
       Voir aussi [Définition d’options d’exportation disponibles pour les utilisateurs du portail multimédia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * ****
-FormatChoisissez un format d&#39;image.
+   * **Format**  : choisissez un format d&#39;image.
 
-   * ****
-CouleurChoisissez RVB, CMJN ou Gris.
+   * **Couleur**  : choisissez RVB, CMJN ou Gris.
 
-   * ****
-RésolutionChoisissez 72, 150 ou 300 ppp.
+   * **Résolution**  : choisissez 72 ppp, 150 ppp ou 300 ppp.
 
-   * **Nom de la tâcheVous pouvez attribuer un nom de tâche à l&#39;exportation.**
+   * **Nom**  de tâche : vous pouvez attribuer un nom de tâche à l&#39;exportation.
 
+   * **Envoyer un courrier électronique à**  - Vous pouvez éventuellement saisir une adresse électronique pour envoyer les fichiers par courrier électronique. Le message e-mail indique l’URL à laquelle le destinataire peut accéder pour télécharger les fichiers.
 
-   * **Envoyer un courrier électronique**
-àSi vous le souhaitez, entrez une adresse électronique pour envoyer les fichiers par courrier électronique. Le message e-mail indique l’URL à laquelle le destinataire peut accéder pour télécharger les fichiers.
-
-1. Cliquez sur **Exporter**.
+1. Cliquez sur **[!UICONTROL Exporter]**.
 
 Trois actions d’exportation de base sont prises en charge :
 
@@ -65,7 +57,7 @@ Trois actions d’exportation de base sont prises en charge :
 * Conversion avec un paramètre prédéfini (utilise un paramètre prédéfini d’image pour formater le fichier)
 * Conversion sans paramètre prédéfini) (utilise la boîte de dialogue d’exportation pour spécifier les modificateurs d’image)
 
-Il est impossible d’exporter les types de fichier suivants (pour tous les autres types de fichier, l’exportation est possible) :
+Il est impossible d’exporter les types de fichier suivants Tous les autres génèrent une exportation.
 
 * Visionneuses d’images
 * Visionneuses de rendus
@@ -82,10 +74,9 @@ Pour exporter les types de fichier suivants, utilisez la conversion :
 * Modèles
 * Images modifiées
 * PDF (génère des pages converties)
-* Postscript
+* Postscript®
 
 Le chargement de nombreux types de fichier divers dans l’outil d’exportation entraîne les comportements suivants :
 
 * Tous les types de fichier qu’il est impossible d’exporter sont supprimés de la liste avant que la tâche soit soumise.
 * Si une conversion est demandée, tous les types de fichier pouvant être convertis le sont, et tous les autres sont exportés en tant que fichier d’origine.
-
