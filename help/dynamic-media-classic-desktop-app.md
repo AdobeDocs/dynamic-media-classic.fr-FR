@@ -9,9 +9,9 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt
-source-git-commit: 8427c3ea6ca3083fd0868286e634a5569c62f7ab
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1849'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ L’application de bureau Adobe Dynamic Media Classic est compatible avec les sy
 * Dans **[!UICONTROL Télécharger les options de la tâche]**, la valeur par défaut de nommage de calque sous **[!UICONTROL Options Photoshop]**, est désormais **[!UICONTROL Nom de la couche]**. Les calques du fichier PSD sont téléchargés comme images distinctes.
    * La valeur par défaut précédente de **[!UICONTROL Nom de calque]** désignait les images en fonction de leur nom de calque ou de leur numéro de calque dans le fichier PSD. Le numéro de calque a été utilisé si les noms de calque du fichier PSD étaient des noms de calque Photoshop par défaut.
    * La nouvelle valeur par défaut **[!UICONTROL Photoshop and Layer Name]** désigne les images situées après le fichier PSD suivi du nom du calque ou du numéro de calque. Le numéro de calque est utilisé si le nom des calques dans le fichier PSD est un nom de calque Photoshop par défaut.
-   * Étant donné que les images de calque dans Dynamic Media Classic ont désormais des noms uniques, aucune mise à jour du fichier PSD ou des modèles existants n’est effectuée (les noms de calque partagés dans les fichiers PSD d’origine).
+   * Etant donné que les images de calque dans Dynamic Media Classic ont désormais des noms uniques, aucune mise à jour du fichier PSD ou des modèles existants ne se produira (les noms de calque partagés dans les fichiers PSD d’origine).
 * Miniatures endommagées des ressources.
 
 ## Correctifs de la dernière version (20.21.1) {#latest-fixes-desktop-app}
