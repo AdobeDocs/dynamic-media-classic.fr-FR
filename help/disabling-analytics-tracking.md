@@ -9,21 +9,20 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 discoiquuid: 3f1f5575-9fe5-436c-b009-99f3bff0b21f
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: fa5b3971-1c7d-4371-8d69-c399cec0390d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 46%
+source-wordcount: '82'
+ht-degree: 48%
 
 ---
 
-
 # Désactivation du suivi d’Adobe Analytics{#disabling-adobe-analytics-tracking}
 
-**Désactivation du suivi Adobe Analytics**
+**Désactivation du suivi Adobe Analytics:**
 
 1. Désactivez tous les événements de la page Configuration Adobe Analytics dans Dynamic Media Classic.
 1. Enregistrez et publiez.
 
-Cela désactive la prise en charge via Dynamic Media Classic et les URL obtenues à partir de la fonction **CopyURL**. Si vous mettez en œuvre le suivi personnalisé, désactivez le suivi Adobe Analytics tel qu’il est configuré dans la page Configuration afin d’empêcher les conflits avec l’implémentation personnalisée.
-
+Ces étapes désactivent la prise en charge via Dynamic Media Classic et les URL obtenues à partir de la fonction CopyURL. Si vous mettez en œuvre le suivi personnalisé, désactivez le suivi Adobe Analytics tel qu’il est configuré dans la page Configuration afin d’empêcher les conflits avec l’implémentation personnalisée.
