@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestion des ressources
 role: Business Practitioner
+exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 78%
+source-wordcount: '587'
+ht-degree: 70%
 
 ---
-
 
 # Utilisation de la vue Détails {#working-in-detail-view}
 
@@ -46,11 +46,11 @@ Pour examiner en détail un fichier, le prévisualiser ou l’utiliser, choisiss
 
    * Cliquez deux fois sur le fichier.
    * Sélectionnez le fichier, puis cliquez sur **[!UICONTROL Vue de détails]**.
-   * Sélectionnez le fichier, puis cliquez sur **[!UICONTROL Fichier > Détails]**.
+   * Sélectionnez le fichier, puis cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Détails]**.
 
 >[!NOTE]
 >
->En mode Affichage des détails, vous pouvez passer d’un fichier à l’autre dans le même dossier en sélectionnant le bouton Fichier précédent ou Fichier suivant. Ces boutons sont situés dans le coin supérieur droit de l’affichage des détails.
+>En mode Affichage des détails, vous pouvez passer d’un fichier à l’autre dans le même dossier en sélectionnant le bouton Fichier précédent ou Fichier suivant. Ces boutons se trouvent dans le coin supérieur droit de la vue de détails.
 
 ## Obtention d’informations dans la vue Détails {#getting-information-in-detail-view}
 
@@ -62,45 +62,40 @@ Vous pouvez obtenir une URL de fichier en mode Affichage des détails ; cependa
 
 L’affichage des détails donne accès à des outils utilisables avec le fichier que vous avez ouvert. La nature des outils disponibles dépend du type de fichier que vous utilisez, mais l’affichage des détails propose les fonctions suivantes :
 
-* **éléments pour**
-publicationCliquez sur la  **** publication à gauche du nom ou cliquez sur  **[!UICONTROL Fichier >]** Publier  **[!UICONTROL un fichier > Annuler la publication]**.
+* **éléments pour publication**  - Cliquez sur la  **** publication à gauche du nom ou sur  **[!UICONTROL Fichier >]** Fichier de publication  **[!UICONTROL > Annuler la publication]**.
 
-* **Attribution d&#39;un nouveau nom au**
-fichier Sélectionnez le nom et saisissez-en un nouveau.
+* **Attribution d&#39;un nouveau nom au fichier**  : sélectionnez le nom et saisissez-en un nouveau.
 
-* **Modification et ajout de**
-métadonnéesSélectionnez le panneau Métadonnées et apportez les modifications nécessaires. (voir [Affichage, ajout et exportation de métadonnées](/help/viewing-adding-exporting-metadata.md)).
+* **Modification et ajout de métadonnées**  - Sélectionnez le panneau Métadonnées et modifiez-le selon vos besoins. (voir [Affichage, ajout et exportation de métadonnées](/help/viewing-adding-exporting-metadata.md)).
 
-* **Modification et ajout de**
-mots-clésSélectionnez Mots-clés et ajoutez ou supprimez-les selon vos besoins. (voir [Ajout ou modification de mots-clés](/help/viewing-adding-exporting-metadata.md)).
+* **Modification et ajout de mots-clés**  - Sélectionnez Mots-clés et ajoutez ou supprimez-les selon vos besoins. (voir [Ajout ou modification de mots-clés](/help/viewing-adding-exporting-metadata.md)).
 
-* **Suppression de la**
-ressourceCliquez sur  **[!UICONTROL Fichier > Supprimer]**.
+* **Suppression de la ressource**  - Cliquez sur  **[!UICONTROL Fichier]**  >  **[!UICONTROL Supprimer]**.
 
 Pour les fichiers discrets (images, visionneuses d’images et polices, par exemple), vous pouvez visualiser l’historique de publication et d’édition, et vérifier les détails de la tâche, en mode Affichage des détails.
 
-Ce tableau indique les options supplémentaires disponibles avec différents types de fichier (de ressource) en mode Affichage des détails.
+Ce tableau présente les autres options disponibles avec différents types de fichiers dans la vue de détails.
 
 | Type de fichier | Edition/Modification | Prévisualisation |
 |--- |--- |--- |
-| Images | Ajout de zones cliquables Ajouter les cibles de zoom Accentuer la coupe Créer des vues ajustées | Oui : zoom et paramètres d’image prédéfinis. |
-| Images de meuble et de garnitures de fenêtre | Non | Miniature. |
-| Catalogues électroniques | Edition | Oui. panneau d’informations également disponible. |
-| Polices | Edition des informations de polices | Non. |
-| Fichiers FXG | Edition | Oui. |
-| Profils ICC | Edition des informations de profil | Non. |
-| Fichiers Illustrator | Non (sauf conversion au format FXG) | Non. |
-| Visionneuses d’images | Edition | Oui. |
-| Fichiers InDesign | Non (sauf conversion au format FXG) | Non. |
-| Fichiers PDF | Non | Non. |
-| Fichiers PSD | Oui pour les calques individuels | Oui pour les calques individuels. |
-| Visionneuses à 360° | Edition | Oui. |
-| Fichiers SVG | Non | Non. |
-| Modèles | Edition | Oui. |
-| Vidéos | Non | Oui. |
-| Vignettes et rendus de vignette | Non | L’image est affichée. Vous pouvez visualiser le contenu et la structure des éléments permettant de créer un rendu de la vignette au format XML.. |
-| Fichiers XML | Non | Le contenu est affiché.. |
-| Fichiers ZIP | Non | Le contenu n’est pas affiché. |
+| Images | Ajout de zones cliquables<br>Ajouter des <br><br><br>cibles de zoomCropSharpenCréer des vues ajustées | Oui : zoom et paramètres d’image prédéfinis |
+| Images de meuble et de garnitures de fenêtre | Non | Miniature |
+| Catalogues électroniques | Edition | Oui<br>Le panneau d’informations est également disponible |
+| Polices | Edition des informations de polices | Non |
+| Fichiers FXG | Edition | Oui |
+| Profils ICC | Edition des informations de profil | Non |
+| Fichiers Illustrator | Non (sauf conversion au format FXG) | Non |
+| Visionneuses d’images | Edition | Oui |
+| Fichiers InDesign | Non (sauf conversion au format FXG) | Non |
+| Fichiers PDF | Non | Non |
+| Fichiers PSD | Oui pour les calques individuels | Oui pour les calques individuels |
+| Visionneuses à 360° | Edition | Oui |
+| Fichiers SVG | Non | Non |
+| Modèles | Edition | Oui |
+| Vidéos | Non | Oui |
+| Vignettes et rendus de vignette | Non | L’image s’affiche <br>Vous pouvez vue le contenu et la structure des éléments du rendu de la vignette au format XML. |
+| Fichiers XML | Non | Le contenu est affiché. |
+| Fichiers ZIP | Non | Le contenu n’est pas affiché |
 
 >[!MORELIKETHIS]
 >
