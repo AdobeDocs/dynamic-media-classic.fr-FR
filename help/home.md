@@ -6,14 +6,14 @@ seo-description: 'Documentation technique, notes de mise à jour et documents d�
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 6%
+source-wordcount: '585'
+ht-degree: 7%
 
 ---
-
 
 # Guide d’Adobe Dynamic Media Classic {#scene7-overview}
 
@@ -27,8 +27,8 @@ Voir [Questions fréquentes](new-ui-2020.md). Nouvelles mises à jour en date du
 
 ## Ressources du développeur de Dynamic Media
 
-* [landing page](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)  des ressources du développeur Dynamic Media : inclut le guide de référence des visionneuses, l’API de diffusion d’images/rendu d’images, l’API Image Production System et les notes de mise à jour de Dynamic Media Classic.
-* [Exemples](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)  de la bibliothèque de visionneuses : comprend des exemples de visionneuses pour les vidéos, les médias pouvant être utilisés dans les magasins, les médias mixtes, les visionneuses à 360°, les zooms intégrés, les visionneuses d’images et d’échantillons et les vidéos enfichables.
+* [landing page](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)  des ressources des développeurs Dynamic Media - Inclut le Guide de référence des visionneuses, l’API de diffusion d’images/rendu d’images, l’API Image Production System et les Notes de mise à jour de Dynamic Media Classic.
+* [Exemples](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)  de la bibliothèque de visionneuses - Inclut des exemples de visionneuses pour les vidéos, les médias pouvant être utilisés dans les magasins, les médias mixtes, les visionneuses à 360°, les zooms intégrés, les visionneuses d’images et d’échantillons, ainsi que les visionneuses à 360°.
 
 ## Ressources utilisateur Dynamic Media Classic
 
