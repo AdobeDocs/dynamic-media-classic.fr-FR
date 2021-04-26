@@ -11,10 +11,10 @@ feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 73%
+source-wordcount: '832'
+ht-degree: 53%
 
 ---
 
@@ -37,23 +37,23 @@ Vous pouvez obtenir une chaîne URL générée par un paramètre d’image pré
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient le fichier d’image à prévisualiser.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage de la grille. Dans la fenêtre Fichiers, sélectionnez un seul fichier d’image, puis au-dessous de l’image miniature, cliquez sur Prévisualiser > Liste des paramètres prédéfinis de l’image.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage par liste. Dans la fenêtre Fichiers, sélectionnez un seul fichier d’image, puis sur la droite de l’image miniature, cliquez sur Prévisualiser > Liste des paramètres prédéfinis de l’image.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage des détails. Sur la même barre d’outils, cliquez sur Prévisualiser > Liste des paramètres prédéfinis de l’image.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage de la grille]**. Dans la fenêtre Fichiers, sélectionnez un seul fichier d’image, puis sous l’image miniature, cliquez sur **[!UICONTROL Prévisualisation]** > **[!UICONTROL Liste des paramètres d’image prédéfinis]**.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage de la liste]**. Dans la fenêtre Fichiers, sélectionnez un seul fichier d’image, puis à droite de l’image miniature, cliquez sur **[!UICONTROL Prévisualisation]** > **[!UICONTROL Liste des paramètres d’image prédéfinis]**.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage des détails]**. Sur la même barre d’outils, cliquez sur **[!UICONTROL Prévisualisation]** > **[!UICONTROL Liste de paramètres d’image prédéfinis]**.
 
-1. (Facultatif) Dans la fenêtre Liste des paramètres prédéfinis de l’image, dans la liste déroulante Codage de l’URL pour la génération de copies d’URL située dans la partie inférieure, sélectionnez le codage URL à appliquer à l’URL du fichier d’image lorsqu’il est copié.
-1. Dans la fenêtre Liste des paramètres prédéfinis de l’image, située dans l’angle supérieur droit du volet de prévisualisation, cliquez sur Copier l’URL pour le type de paramètre prédéfini sélectionné.
-1. Dans le coin inférieur droit de la fenêtre Liste des paramètres prédéfinis de l’image, cliquez sur Fermer pour revenir à l’écran Fichiers.
+1. (Facultatif) Dans la Liste de paramètres d’image prédéfinis, dans la liste déroulante Codage de l’URL pour la génération de copies d’URL, sélectionnez le codage d’URL à appliquer à l’URL du fichier d’image lors de sa copie.
+1. Dans la fenêtre Liste des paramètres d’image prédéfinis, dans la zone supérieure droite du volet prévisualisation, cliquez sur **[!UICONTROL Copier l’URL]** pour le type de paramètre prédéfini sélectionné.
+1. Dans le coin inférieur droit de la fenêtre Liste des paramètres d’image prédéfinis, cliquez sur **[!UICONTROL Fermer]** pour revenir à l’écran Fichiers.
 
-### Obtention d’une URL de paramètre d’image prédéfini à partir du panneau de navigation  {#obtaining-an-image-preset-url-from-the-browse-panel}
+### Obtention d’une URL de paramètre d’image prédéfini à partir du panneau de navigation {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient le fichier d’image à prévisualiser.
-1. Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage de la grille. Dans la fenêtre Fichiers, sélectionnez un seul fichier d’image.
-1. Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage des détails. 
-1. Cliquez sur des URL dans le panneau situé du côté droit de l’écran afin d’afficher la liste des paramètres d’image prédéfinis.
-1. Activez le lien Copier l’URL situé en regard du nom du paramètre d’image prédéfini dont vous souhaitez copier l’URL dans le Presse-papiers.
+1. Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage de la grille]**. Dans la fenêtre Fichiers, sélectionnez un seul fichier d’image.
+1. Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage des détails]**.
+1. Cliquez sur **[!UICONTROL URL]** dans le panneau sur le côté droit de l’écran pour développer la liste des paramètres d’image prédéfinis.
+1. Cliquez sur le lien **[!UICONTROL Copier l’URL]** en regard du nom du paramètre d’image prédéfini avec l’URL à copier dans le Presse-papiers.
 
-## A propos des chaînes URL de paramètre d’image prédéfini  {#about-image-preset-url-strings}
+## A propos des chaînes URL de paramètre d’image prédéfini {#about-image-preset-url-strings}
 
 Un appel d’URL pour le dimensionnement des images sur les serveurs Dynamic Media Image Server a la syntaxe de base suivante :
 
@@ -89,7 +89,7 @@ Par exemple, à la place de l’appel type pour ouvrir une image statique telle 
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-vous utilisez désormais la balise `<IMG>`pour remplacer la référence à une image statique par un appel de paramètre d’image prédéfini à la plate-forme Dynamic Media Classic. Exemple d’appel :
+Vous utilisez désormais la balise `<IMG>`pour remplacer la référence à une image statique par un appel de paramètre d’image prédéfini à la plate-forme Dynamic Media Classic. Exemple d’appel :
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
