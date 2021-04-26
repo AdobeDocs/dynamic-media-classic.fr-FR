@@ -9,32 +9,28 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media Classic,Collaboration,Gestion des ressources
 role: Administrator,Business Practitioner
+exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '328'
 ht-degree: 71%
 
 ---
-
 
 # Rôles utilisateur du portail multimédia{#media-portal-user-roles}
 
 Le portail multimédia propose les rôles suivants, chacun d’entre eux étant assorti de droits d’accès et d’autorisations spécifiques. Lorsque vous inscrivez un utilisateur, vous lui attribuez l’un des rôles suivants :
 
-* **Administrateur du portail multimédia**
-peut ajouter et supprimer des administrateurs, des contributeurs et des utilisateurs. Il peut également définir des droits d’accès pour les groupes, gérer les comptes FTP, attribuer des formats (paramètres prédéfinis) de conversion approuvés par l’entreprise, envoyer des e-mails aux utilisateurs du portail multimédia et afficher des rapports sur l’utilisation du portail et le stockage.
+* **Administrateur**  du portail multimédia : peut ajouter et supprimer des administrateurs, des contributeurs et des utilisateurs. Il peut également définir des droits d’accès pour les groupes, gérer les comptes FTP, attribuer des formats (paramètres prédéfinis) de conversion approuvés par l’entreprise, envoyer des e-mails aux utilisateurs du portail multimédia et afficher des rapports sur l’utilisation du portail et le stockage.
 
-* **Media Portal**
-UserA accès aux dossiers et aux fichiers. Un utilisateur peut uniquement parcourir, prévisualiser et télécharger des fichiers. Ce rôle convient à vos partenaires de réseaux de distribution ou de services qui ont besoin d’accéder à vos fichiers d’entreprise approuvés.
+* **Utilisateur**  du portail multimédia : permet d’accéder aux dossiers et aux fichiers. Un utilisateur peut uniquement parcourir, prévisualiser et télécharger des fichiers. Ce rôle convient à vos partenaires de réseaux de distribution ou de services qui ont besoin d’accéder à vos fichiers d’entreprise approuvés.
 
-* **Contributeur au portail multimédia**
-Peut télécharger, prévisualisation et parcourir des fichiers et des métadonnées dans les zones auxquelles un administrateur a accordé des autorisations. Un contributeur n’est pas autorisé à télécharger des fichiers. Il peut modifier des métadonnées, renommer des fichiers, déplacer ces derniers d’un dossier vers un autre et en supprimer.
+* **Contributeur**  au portail multimédia : peut télécharger, prévisualisation et parcourir des fichiers et des métadonnées dans les zones auxquelles un administrateur a accordé des autorisations. Un contributeur n’est pas autorisé à télécharger des fichiers. Il peut modifier des métadonnées, renommer des fichiers, déplacer ces derniers d’un dossier vers un autre et en supprimer.
 
-**Contributeur-**
-utilisateur du portail multimédia : permet d’accéder aux dossiers et aux fichiers. Un contributeur-utilisateur peut parcourir, prévisualiser et télécharger des images et des métadonnées. Il peut renommer, déplacer et supprimer des fichiers.
+* **Contributeur-utilisateur**  Media Portal : permet d’accéder aux dossiers et aux fichiers. Un contributeur-utilisateur peut parcourir, prévisualiser et télécharger des images et des métadonnées. Il peut renommer, déplacer et supprimer des fichiers.
 
 Ce tableau décrit les tâches que les utilisateurs peuvent effectuer selon le rôle qui leur a été attribué. Les administrateurs et les contributeurs-utilisateurs sont habilités à effectuer toutes les tâches indiquées dans le tableau :
 
