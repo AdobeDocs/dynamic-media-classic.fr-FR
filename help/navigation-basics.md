@@ -11,10 +11,10 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 52%
+source-wordcount: '610'
+ht-degree: 27%
 
 ---
 
@@ -28,51 +28,51 @@ L’écran Dynamic Media Classic comprend trois zones principales : Barre de nav
 
 La barre de navigation globale, située dans la partie supérieure de l’écran, se compose de boutons permettant d’exécuter différentes tâches :
 
-**Sélectionnez** SociétéSélectionnez la société à laquelle vous souhaitez accéder dans le menu. Ce bouton n’apparaît pas si vous travaillez avec une seule entreprise.
+* **Sélectionner une Société**  : choisissez la société à laquelle vous souhaitez accéder à partir du menu. Ce bouton n’est pas disponible si vous travaillez avec une société.
 
-**** TéléchargerOuvre l’écran Télécharger pour vous permettre de télécharger des fichiers depuis votre ordinateur ou votre réseau vers Dynamic Media Classic. Vous pouvez télécharger des fichiers à partir du bureau ou par FTP (File Transfer Protocol) Voir Transfert de fichiers.
+* **Télécharger**  : ouvre l’écran Télécharger pour vous permettre de télécharger des fichiers depuis votre ordinateur ou votre réseau vers Dynamic Media Classic. Vous pouvez télécharger des fichiers à partir du bureau ou par FTP (File Transfer Protocol) (voir la section [Téléchargement de fichiers](/help/uploading-files.md)).
 
-**** CréerChoisissez une tâche de création dans le menu. Le panneau de création qui s’ouvre vous permet de créer un type de fichier.
+* **Créer**  : choisissez une tâche de création dans le menu. Le panneau de création qui s’ouvre vous permet de créer un type de fichier.
 
-**** PublierOuvre l’écran Publier pour vous permettre de publier des fichiers multimédias enrichis sur les serveurs Dynamic Media Image Server et le reste de l’infrastructure SAAS de Dynamic Media Classic. Voir Publication.
+* **Publier**  : ouvre l’écran Publier pour vous permettre de publier des fichiers multimédias enrichis sur les serveurs Dynamic Media Image Server et le reste de l’infrastructure SAAS de Dynamic Media Classic.
 
-**** TâchesOuvre l’écran Tâches afin que vous puissiez consulter les enregistrements des tâches de téléchargement et de publication.
+* **Tâches**  - Ouvre l’écran Tâches afin que vous puissiez consulter les enregistrements des tâches de téléchargement et de publication.
 
-**** RécentOuvre l’écran Activité récente afin que vous puissiez vue les noms des fichiers récemment modifiés et des tâches de téléchargement et de publication récentes.
+* **Récent**  : ouvre l&#39;écran Activité récente pour vous permettre de vue des noms des fichiers récemment modifiés et des tâches de téléchargement et de publication récentes.
 
-**** ConfigurationOuvre l’écran Configuration pour vous permettre de choisir les options de configuration ou d’administration en vue d’optimiser l’utilisation de Dynamic Media Classic. (voir Configuration).
+* **Configuration**  : ouvre l&#39;écran Configuration pour vous permettre de choisir les options de configuration ou d&#39;administration en vue d&#39;optimiser l&#39;utilisation de Dynamic Media Classic. (voir [Configuration](/help/setup-basics.md)).
 
-**** AideChoisissez une option d&#39;aide :
+* **** AideChoisissez une option d&#39;aide :
 
-**Aide > Aide sur cette** rubriqueOuvre le système d’aide sur une page contenant des informations sur la tâche que vous êtes en train de réaliser.
+* **Aide > Aide sur cette rubrique**  - Ouvre le système d&#39;aide sur une page contenant des informations sur la tâche que vous êtes en train de réaliser.
 
-**Aide >** Didacticiel vidéoAccède aux vidéos sur des rubriques spécifiques afin de montrer comment commencer à utiliser chaque flux de publication de média enrichi.
+* **Aide > Didacticiel**  vidéo - Accède à des vidéos sur des rubriques spécifiques qui vous montrent comment commencer avec chaque flux de publication de média enrichi.
 
-**Aide >** Contenu de l’aideOuvre le système d’aide sur la page d’introduction. Vous pouvez cliquer sur les entrées de la table des matières pour rechercher et afficher diverses rubriques.
+* **Aide > Sommaire**  de l’aide - Ouvre le système d’aide sur la page d’introduction. Vous pouvez cliquer sur les entrées de la table des matières pour rechercher et afficher diverses rubriques.
 
-**Aide >** AboutIndique la version de Dynamic Media Classic en cours d’exécution.
+* **Aide > À propos**  - Indique la version de Dynamic Media Classic en cours d’exécution.
 
-**Aide >** SupportIndique comment obtenir le support technique de Dynamic Media Classic.
+* **Aide > Assistance**  - Indique comment obtenir le support technique de Dynamic Media Classic.
 
-**Déconnectez-** vous de Dynamic Media Classic.
+* **Déconnexion**  - Quitte Dynamic Media Classic.
 
 ## Bibliothèque de ressources {#asset-library}
 
 Utilisez la bibliothèque de fichiers pour organiser vos fichiers. A cette fin, vous pouvez créer des dossiers et des sous-dossiers.
 
-La partie supérieure du panneau Bibliothèque de fichiers comporte des commandes qui permettent de localiser les fichiers. Vous pouvez rechercher des fichiers et appliquer des filtres visant à localiser des fichiers précis. Cliquez sur l’icône Corbeille  en bas de la bibliothèque de fichiers pour consulter les fichiers supprimés.
+La partie supérieure du panneau Bibliothèque de fichiers comporte des commandes qui permettent de localiser les fichiers. Vous pouvez rechercher des fichiers et appliquer des filtres visant à localiser des fichiers précis. Cliquez sur l’icône **[!UICONTROL Corbeille]** au bas de la bibliothèque de fichiers pour examiner les fichiers que vous avez supprimés.
 
 >[!NOTE]
 >
->Vous pouvez utiliser les commandes de la bibliothèque de fichiers pour ouvrir ou fermer cette dernière et obtenir davantage d’espace pour le travail à l’écran. Choisissez Développer/Réduire pour développer ou réduire le panneau. Ces commandes se situent sur le côté gauche du panneau.
+>Vous pouvez cliquer sur les commandes **[!UICONTROL Bibliothèque de fichiers]** pour ouvrir ou fermer la bibliothèque de fichiers et avoir plus d’espace pour travailler à l’écran. Cliquez sur le contrôle **[!UICONTROL Développer]**/**[!UICONTROL Réduire]** pour développer ou fermer le panneau. Ces commandes se trouvent sur le côté gauche du panneau.
 
 ## Panneau de navigation/Panneau de création {#browse-panel-build-panel}
 
-Le panneau de navigation/de création est l’emplacement où se concentre votre travail. Le contenu du panneau dépend du mode utilisé (Navigation/Création) :
+Le panneau de navigation/de création est l’emplacement où se concentre votre travail. Les fonctions disponibles dans ce panneau dépendent du mode Parcourir ou du mode Création.
 
-**** Mode de navigationSélectionnez un dossier dans la bibliothèque de fichiers à vue et travaillez avec son contenu dans le panneau de navigation. Ce panneau propose les menus suivants pour manipuler les fichiers : Fichier, Prévisualiser, Tout sélectionner, Ne rien sélectionner et Tri. Vous pouvez également visualiser les fichiers de différentes façons en déplaçant le curseur ou en sélectionnant le bouton Affichage de la grille , Affichage par liste  ou Affichage des détails . Le fait de sélectionner le bouton Affichage des détails ou de cliquer deux fois sur un fichier ouvre ce dernier en mode Affichage des détails, où vous pouvez effectuer des opérations liées au fichier.
+* **Mode**  de navigation : pour vue et utiliser le contenu d’un dossier dans le panneau de navigation, sélectionnez un dossier dans la bibliothèque de fichiers. Ce panneau offre les menus **[!UICONTROL Fichier]**, **[!UICONTROL Prévisualisation]**, **[!UICONTROL Sélectionner tout]**, **[!UICONTROL Sélectionner aucun]** et **[!UICONTROL Trier]** pour utiliser les ressources. Vous pouvez également vue des fichiers de différentes manières en déplaçant le curseur ou en cliquant sur **[!UICONTROL Vue de grille]**, **[!UICONTROL Vue de Liste]** ou **[!UICONTROL Vue de détails]**. Cliquez sur **[!UICONTROL Vue de détails]** ou sur un fichier en cliquant sur un doublon pour ouvrir le fichier dans la vue de détails, où vous pouvez effectuer des opérations sur des fichiers dépendants du fichier.
 
-**Créer** un modeCliquez sur Créer, puis choisissez une option pour début de la création d’un catalogue électronique, d’une visionneuse d’images, d’une visionneuse à 360° ou de l’un des autres éléments disponibles dans le menu Créer. L’écran de création s’ouvre. Vous pouvez sélectionner les fichiers à utiliser avant ou après l’entrée en mode de création.
+* **Mode**  de création : cliquez sur  **[!UICONTROL Créer]**, puis choisissez une option pour début de la création d’un catalogue électronique, d’une visionneuse d’images, d’une visionneuse à 360° ou de plusieurs autres éléments disponibles dans le menu Créer. La page Créer s’ouvre. Vous pouvez sélectionner les fichiers à utiliser avant ou après l’entrée en mode de création.
 
 >[!MORELIKETHIS]
 >
