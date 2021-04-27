@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 71%
+source-wordcount: '785'
+ht-degree: 70%
 
 ---
-
 
 # Démarrage rapide : Concepts de base des modèles{#quick-start-template-basics}
 
@@ -64,7 +64,7 @@ Lorsque vous publiez votre modèle, il est placé sur les serveurs Dynamic Media
 
 Assurez-vous de publier toutes les images associées à votre modèle.
 
-Pour publier un modèle, marquez-le pour publication, puis sélectionnez le bouton Publier dans la barre de navigation globale. Sélectionnez ensuite le bouton Lancer publication (voir [Publication de modèles](publishing-templates.md#publishing_templates)).
+Pour publier un modèle, marquez-le pour publication, puis sélectionnez le bouton Publier dans la barre de navigation globale. Cliquez ensuite sur **[!UICONTROL Envoyer la publication]**. (voir [Publication de modèles](publishing-templates.md#publishing_templates)).
 
 **5. Liaison d’un modèle à une page Web**
 
