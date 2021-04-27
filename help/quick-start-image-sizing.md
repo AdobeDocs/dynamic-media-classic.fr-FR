@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestion des ressources
 role: Business Practitioner
+exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 55%
+source-wordcount: '850'
+ht-degree: 54%
 
 ---
-
 
 # Démarrage rapide : Dimensionnement des images{#quick-start-image-sizing}
 
@@ -63,9 +63,9 @@ La publication des fichiers d’images originaux présente deux objectifs essent
 * Publication des images originales sur les serveurs Dynamic Media Image Server afin que les images puissent être diffusées de manière dynamique sur votre site Web et dans votre application.
 * La publication active les chaînes URL pour l’appel d’images depuis les serveurs Dynamic Media Image Server vers votre site Web ou votre application. Après la publication, vous pouvez copier et placer les URL générées par Dynamic Media Classic lorsque cela s’avère nécessaire sur votre site Web ou dans votre application.
 
-Cliquez sur le bouton Publier de la barre de navigation globale pour lancer une publication. Dans l’écran de publication qui s’affiche, cliquez sur le bouton Lancer publication (voir [Publication des images originales](publishing-master-images.md#publishing_master_images)).
+Cliquez sur le bouton Publier dans la barre de navigation globale pour lancer une publication. Dans la boîte de dialogue Publier, cliquez sur **[!UICONTROL Envoyer la publication]**. (voir [Publication des images originales](publishing-master-images.md#publishing_master_images)).
 
-**5. Liaison des URL à une application Web**
+**5. Liaison des URL à une application Web:**
 
 Dynamic Media Classic crée des chaînes d’appel URL pour les images. Lorsque vous publiez des images sur les serveurs Dynamic Media Image Server, les URL deviennent principales. Vous pouvez copier ces chaînes URL à partir du panneau de navigation (Affichage des détails) ou de l’écran de prévisualisation. Une fois que vous avez copié les chaînes URL, vous pouvez les utiliser dans votre site Web et vos applications. L’URL de dimensionnement d’image remplace la référence à un nom d’image statique dans votre code de page Web. L’URL référence un nom d’image originale, qui est remplacé par votre base de données pour chaque nouvelle image à afficher.
 
