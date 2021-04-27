@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestion des ressources
 role: Business Practitioner
+exl-id: b0010107-248c-4ebc-955c-7514462f351d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 27%
+source-wordcount: '160'
+ht-degree: 22%
 
 ---
-
 
 # Publication des images originales{#publishing-master-images}
 
@@ -24,11 +24,13 @@ Lorsque vous publiez vos fichiers d’images, ils sont publiés sur les serveurs
 
 ## Marquage des images originales pour publication {#marking-master-images-for-publish}
 
-Les images de Principal doivent être marquées pour publication afin d’être copiées sur les serveurs Dynamic Media Image Server. Vous pouvez marquer vos images originales pour publication dans le panneau de navigation en cliquant sur l’icône Marquer pour publication. Vous pouvez également marquer des images pour publication lorsque vous les téléchargez vers Dynamic Media Classic.
+Les images de Principal doivent être marquées pour publication pour être copiées sur les serveurs Dynamic Media Image Server. Vous pouvez marquer vos images originales pour publication dans le panneau de navigation en cliquant sur l’icône **[!UICONTROL Marquer pour publication]**. Vous pouvez également marquer des images pour publication lorsque vous les téléchargez vers Dynamic Media Classic.
 
 ## Publication de vos images originales {#publishing-your-master-images}
 
-Pour publier des images originales sur les serveurs Dynamic Media Image Server, début en sélectionnant le bouton Publier dans la barre de navigation globale. Sélectionnez ensuite une option Quand (Unique ou Périodique), entrez un nom (facultatif) pour la tâche de publication, puis cliquez sur le bouton Lancer publication.
+1. Sur la barre de navigation générale, cliquez sur **[!UICONTROL Publier]**, Dans la boîte de dialogue Publier, sélectionnez une option Quand (**[!UICONTROL Unique]** ou **[!UICONTROL Périodique]**), puis saisissez éventuellement un nom pour la tâche de publication.
+
+1. Cliquez sur **[!UICONTROL Lancer public.]**
 
 >[!NOTE]
 >
