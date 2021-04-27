@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic, Visionneuses, Visionneuses d’images
 role: Business Practitioner
+exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 61%
 
 ---
-
 
 # Démarrage rapide : Visionneuses d’images{#quick-start-image-sets}
 
@@ -66,11 +66,11 @@ Lorsque vous publiez une visionneuse d’images, elle est placée sur les serveu
 >
 >Cette étape n’est pas nécessaire si vous avez sélectionné **Publier après l’enregistrement **(par défaut) au moment de la création et de l’enregistrement de la visionneuse d’images.
 
-Cliquez sur l’icône Marquer pour publication située à gauche de son nom dans le panneau de navigation. Cliquez ensuite sur **Publier**. Dans l’écran Publier, cliquez sur **Publier par Début**.
+Cliquez sur l’icône Marquer pour publication située à gauche de son nom dans le panneau de navigation. Cliquez ensuite sur **Publier**. Dans l’écran Publier, cliquez sur **Envoyer la publication**.
 
 Voir [Publication](publishing-files.md#publishing-files).
 
-**6. Liaison d’une visionneuse d’images sur votre site Web**
+**6. Liaison d’une visionneuse d’images sur votre site Web:**
 
 Dynamic Media Classic crée des appels d’URL pour les visionneuses d’images et les active après leur publication. Vous pouvez copier ces chaînes URL depuis l’écran de prévisualisation.
 
