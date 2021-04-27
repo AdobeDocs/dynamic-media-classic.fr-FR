@@ -11,10 +11,10 @@ feature: Dynamic Media Classic, Visionneuses, Combiner des visionneuses de suppo
 role: Business Practitioner
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 63%
+ht-degree: 55%
 
 ---
 
@@ -40,7 +40,7 @@ Last Modified Date:
 
  -->
 
-**Publication d’une visionneuse de supports variés**
+**Publication d’une visionneuse de supports variés:**
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -52,12 +52,12 @@ Last Modified Date:
 1. (Facultatif) Dans le champ **[!UICONTROL Nom de la tâche]**, entrez un nom pour la tâche de publication.
 1. Dans les options **[!UICONTROL avancées]**, dans la liste déroulante **[!UICONTROL Publier vers]**, sélectionnez **[!UICONTROL Serveur de vidéo]**.
 
-   Voir [Options de publication avancées](publishing-files.md#advanced_publish_options) pour connaître les autres options que vous pouvez définir.
+   Voir [Options de publication avancées](publishing-files.md#advanced_publish_options) pour en savoir plus sur les options que vous pouvez définir.
 
 1. Cliquez sur **[!UICONTROL Lancer public.]**
 1. Répétez les étapes 2 à 4 ci-dessus.
 1. Dans les options **[!UICONTROL avancées]**, dans la liste déroulante **[!UICONTROL Publier vers]**, sélectionnez **[!UICONTROL Serveur d’images￼]**.
 
-   Voir [Options de publication avancées](publishing-files.md#advanced_publish_options) pour connaître les autres options que vous pouvez définir.
+   Voir [Options de publication avancées](publishing-files.md#advanced_publish_options) pour en savoir plus sur les options que vous pouvez définir.
 
 1. Cliquez sur **[!UICONTROL Lancer public.]**
