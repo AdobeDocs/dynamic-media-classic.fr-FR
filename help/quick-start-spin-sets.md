@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media Classic, Visionneuses, Visionneuses à 360°
 role: Business Practitioner
+exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '758'
 ht-degree: 67%
 
 ---
-
 
 # Démarrage rapide : Visionneuses à 360°{#quick-start-spin-sets}
 
@@ -90,7 +90,7 @@ Voir [Prévisualisation d’une visionneuse à 360°](previewing-spin-set.md#pr
 
 Lorsque vous publiez une visionneuse à 360°, elle est placée sur les serveurs Dynamic Media Classic afin d’être diffusée de manière dynamique sur votre site Web ou dans votre application. Elle active également la chaîne URL qui appelle la visionneuse à 360° depuis les serveurs Dynamic Media Image Server vers votre site Web ou votre application.
 
-Pour publier une visionneuse à 360°, marquez-la pour publication en sélectionnant l’icône **Marquer pour publication** en regard de son nom dans le panneau de navigation. Cliquez sur **Publier** dans la barre de navigation globale pour lancer une publication. Dans l’écran Publier, cliquez sur **Publier par Début**.
+Pour publier une visionneuse à 360°, marquez-la pour publication en sélectionnant l’icône **Marquer pour publication** en regard de son nom dans le panneau de navigation. Cliquez sur **Publier** dans la barre de navigation globale pour lancer une publication. Dans l’écran Publier, cliquez sur **Envoyer la publication**.
 
 Voir [Publication d’une visionneuse à 360°](publishing-spin-set.md#publishing-a-spin-set).
 
