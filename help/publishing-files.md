@@ -5,16 +5,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestion des ressources
 role: Business Practitioner
+exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 74%
+source-wordcount: '1712'
+ht-degree: 59%
 
 ---
-
 
 # Publication de fichiers {#publishing-files}
 
@@ -30,11 +30,9 @@ Pour plus d’informations, voir le [Instant Publish Notice PDF](/help/assets/re
 
 Pour marquer des fichiers pour publication, utilisez les techniques suivantes :
 
-* **Publier après le**
-téléchargementSur la page de téléchargement, dans la partie inférieure, sélectionnez Publier après le téléchargement. La valeur par défaut est un état sélectionné.
+* **Publier après le téléchargement**  : sur la page de téléchargement, dans la partie inférieure, sélectionnez Publier après le téléchargement. La valeur par défaut est un état sélectionné.
 
-* **Publier après le**
-téléchargement Dans la boîte de dialogue Options de la tâche, sélectionnez Publier après le téléchargement. La valeur par défaut est un état sélectionné.
+* **Publier après le téléchargement**  : dans la boîte de dialogue Options de la tâche, sélectionnez Publier après le téléchargement. La valeur par défaut est un état sélectionné.
 
 Certains fichiers « enfants » sont systématiquement marqués pour publication lorsque leurs parents le sont. Ce tableau dresse la liste des fichiers enfants automatiquement marqués pour publication.
 
@@ -49,11 +47,11 @@ Les images dérivées sont automatiquement marquées pour publication lorsque le
 
 ## Création d’une tâche de publication  {#creating-a-publish-job}
 
-Créez une tâche de publication pour publier des fichiers que vous avez téléchargés sur les serveurs Dynamic Media Classic, mais que vous avez choisi de ne pas publier automatiquement pour le moment. Vous pouvez réaliser une tâche de publication unique ou planifier la publication périodique de certaines tâches. Dynamic Media Classic offres propose des options de publication avancées pour des serveurs spécifiques et des options de republication de fichiers déjà publiés.
+Créez une tâche de publication pour publier des fichiers que vous avez téléchargés sur les serveurs Dynamic Media Classic, mais choisissez de ne pas les publier automatiquement pour le moment. Vous pouvez effectuer une tâche de publication unique ou planifier la répétition régulière de tâches. Dynamic Media Classic offres propose des options de publication avancées pour des serveurs spécifiques et des options de republication de fichiers déjà publiés.
 
-**Création d’une tâche de publication**
+**Création d’une tâche de publication:**
 
-1. Sur la barre de navigation générale, cliquez sur **Publier**, 
+1. Sur la barre de navigation générale, cliquez sur **[!UICONTROL Publier]**, 
 1. Dans la boîte de dialogue Publier, choisissez s’il s’agit d’une tâche de publication ponctuelle ou périodique
 
    (voir les sections [Création d’une tâche de publication unique](publishing-files.md#creating_a_one_time_publish_job) et [Création d’une tâche de publication périodique](publishing-files.md#creating_a_recurring_publish_job)).
@@ -63,7 +61,7 @@ Créez une tâche de publication pour publier des fichiers que vous avez téléc
 
    (voir [Options de publication avancées](publishing-files.md#advanced_publish_options)).
 
-1. Cliquez sur **Lancer public.**
+1. Cliquez sur **[!UICONTROL Lancer public.]**
 
 Dynamic Media Classic effectue le suivi des tâches de publication sur la page Tâches. Vous pouvez consulter les tâches de publication sur cette page.
 
@@ -75,13 +73,13 @@ Dynamic Media Classic effectue le suivi des tâches de publication sur la page T
 
 Pour créer une tâche de publication unique, sélectionnez l’option Unique sur la page de publication.
 
-Si vous souhaitez que la tâche de publication ait lieu à une date ultérieure, sélectionnez l’option Planifier pour plus tard dans le menu Quand. Puis, à l’aide du curseur de calendrier et d’heure, sélectionnez le jour et l’heure d’exécution de la publication.
+Si vous souhaitez que la tâche de publication se produise ultérieurement, dans la page Publier, sélectionnez **[!UICONTROL Unique]**, puis cliquez sur **[!UICONTROL Planifier pour plus tard]**. Utilisez le calendrier et le curseur de l’heure pour sélectionner un jour et une heure d’exécution de la tâche de publication.
 
-### Création d’une tâche de publication périodique  {#creating-a-recurring-publish-job}
+### Création d’une tâche de publication périodique {#creating-a-recurring-publish-job}
 
-Pour créer une tâche de publication périodique, sélectionnez l’option Périodique sur la page de publication.
+Créez une tâche de publication périodique en sélectionnant **[!UICONTROL Périodique]** sur la page de publication.
 
-Puis, pour définir la périodicité de la tâche de publication, choisissez une option Répéter : Chaque jour, Une fois par semaine, Une fois par mois ou Personnalisé. Dynamic Media Classic propose des outils de calendrier pour la planification de la tâche de publication périodique. Vous pouvez choisir l’option Personnalisé, puis entrer une règle dans la zone Règle pour définir un intervalle de tâche personnalisé 
+Sélectionnez ensuite une option Répéter : **[!UICONTROL Quotidien]**, **[!UICONTROL Hebdomadaire]**, **[!UICONTROL Mensuel]** ou **[!UICONTROL Personnalisé]**, puis indiquez quand la tâche de publication doit se répéter. Dynamic Media Classic propose des outils de calendrier pour la planification de la tâche de publication périodique. Vous pouvez cliquer sur l’option **[!UICONTROL Personnalisé]** et entrer une règle dans le champ de texte Règle pour décrire un intervalle de travail personnalisé.
 
 (voir [Création d’un intervalle de téléchargement ou de publication personnalisé](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval)).
 
@@ -93,17 +91,13 @@ Puis, pour définir la périodicité de la tâche de publication, choisissez une
 
 Vous pouvez afficher les options avancées sur la page de publication et en choisir certaines pour gérer une tâche de publication :
 
-* **Publier**
-versChoisissez un type de serveur pour publier des fichiers uniquement sur un serveur spécifique et non sur tous les serveurs.
+* **Publier vers**  : pour publier des fichiers uniquement sur un serveur spécifique, choisissez un type de serveur.
 
-* ****
-PublierPar défaut, Dynamic Media Classic publie uniquement les fichiers nouveaux qui n’ont pas été publiés auparavant (option Nouveau depuis la dernière publication). Cependant, vous pouvez choisir l’option Publication complète pour publier également les fichiers qui ont été mis à jour ou modifiés depuis leur dernière publication. Choisissez l’option Complet avec données de recherche si vous publiez un catalogue électronique et souhaitez que ses utilisateurs puissent y effectuer des recherches par mot-clé.
+* **Publier**  : par défaut, Dynamic Media Classic publie uniquement les fichiers nouveaux qui n’ont pas été publiés auparavant (option Nouveau depuis la dernière publication). Cependant, vous pouvez cliquer sur **[!UICONTROL Publication complète]** pour publier également les fichiers qui ont été mis à jour ou modifiés depuis leur dernière publication. Sélectionnez **[!UICONTROL Complet avec données de recherche]** si vous publiez un catalogue électronique et souhaitez que les lecteurs puissent y effectuer des recherches par mot-clé.
 
-* **Exécuter la tâche**
-en tant queChoisissez un nom d&#39;utilisateur dans la liste. Vous pouvez trier les tâches par nom d’utilisateur sur la page Tâches. En choisissant un nom, vous associez une tâche de publication à un utilisateur.
+* **Exécuter la tâche en tant que**  : choisissez un nom d&#39;utilisateur dans la liste. Vous pouvez trier les tâches par nom d’utilisateur sur la page Tâches. En choisissant un nom, vous associez une tâche de publication à un utilisateur.
 
-**Notification HTTPEntrez une URL pour déclencher les tâches de publication suivantes.**
-
+**Notification**  HTTP : entrez une URL pour déclencher les tâches de publication suivantes.
 
 (voir [Utilisation d’une tâche de téléchargement ou de publication comme déclencheur](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)).
 
@@ -111,7 +105,7 @@ en tant queChoisissez un nom d&#39;utilisateur dans la liste. Vous pouvez trier 
 
 Vous pouvez annuler une tâche de publication en cours. Par ailleurs, si vous êtes administrateur, vous pouvez annuler une tâche de publication en cours à partir de la page des tâches de l’entreprise.
 
-Pour annuler une tâche de publication, sur la page Tâches, cliquez sur Annuler. Dans l’onglet Planifiée de la page Tâches, vous pouvez interrompre ou reprendre une tâche en décochant/cochant la case située dans la colonne Actif de la tâche.
+Pour annuler une tâche de publication, accédez à la page Tâches et cliquez sur **[!UICONTROL Annuler]**. Dans l’onglet Planifiée de la page Tâches, vous pouvez interrompre ou reprendre une tâche en décochant/cochant la case située dans la colonne Actif de la tâche.
 
 >[!NOTE]
 >
@@ -123,29 +117,29 @@ Vous pouvez publier des fichiers individuels manuellement au lieu de créer une 
 
 Les fichiers non publiés sont indiqués dans l’interface utilisateur par une icône grise et ronde traversée d’une barre oblique (état non publié), à gauche du nom du fichier. Une fois le fichier publié, l’icône devient verte et une coche blanche s’affiche en son centre (état publié).
 
-**Pour publier manuellement des fichiers**
+**Pour publier manuellement des fichiers:**
 
 1. Effectuez l’une des opérations suivantes :
 
    * En mode Affichage de la grille, Affichage par liste ou Affichage des détails, utilisez les méthodes standard de sélection des fichiers pour sélectionner un ou plusieurs fichiers non publiés.
 
-      Sur la barre de navigation globale, cliquez sur **Fichier > Publier**.
+      Sur la barre de navigation globale, cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Publier]**.
 
-   * En mode Affichage de la grille, Affichage par liste ou Affichage des détails, cliquez sur l’icône grise et ronde traversée d’une barre oblique, à gauche du nom du fichier.
+   * Dans la Vue Grille, Vue de Liste ou Détails, cliquez sur l’icône grise et ronde traversée d’une barre oblique, à gauche du nom du fichier.
 
-## Annulation manuelle de la publication de fichiers  {#manually-unpublishing-assets}
+## Annulation manuelle de la publication de fichiers {#manually-unpublishing-assets}
 
 Vous pouvez annuler manuellement la publication de fichiers individuels. Lorsque vous annulez la publication de visionneuses, comme une visionneuse de série d’échantillons ou un catalogue électronique, la visionneuse (ou « parent ») passe à l’état non publié. Toutefois, les membres (ou « enfants ») de cette visionneuse ne sont pas affectés : ils conservent en fait leur état existant publié ou non publié.
 
-Les fichiers publiés sont indiqués dans l’interface utilisateur par une icône ronde et verte avec une coche blanche affichée en son centre (état publié), à gauche du nom du fichier. Suite à l’annulation de la publication d’un fichier, l’icône s’affiche en gris et traversée d’une barre oblique (état non publié),
+Les fichiers publiés sont indiqués dans l’interface utilisateur par une icône ronde et verte avec une coche blanche affichée en son centre (état publié), à gauche du nom du fichier. Après l’annulation de la publication d’un fichier, l’icône devient grise avec une barre oblique (état non publié),
 
-**Pour annuler manuellement la publication de fichiers**
+**Pour annuler manuellement la publication de fichiers:**
 
 1. Effectuez l’une des opérations suivantes :
 
-   * En mode Affichage de la grille, Affichage par liste ou Affichage des détails, sélectionnez un ou plusieurs fichiers publiés.
+   * Dans la Vue Grille, Vue de Liste ou Détails, sélectionnez un ou plusieurs fichiers publiés.
 
-      Dans la barre de navigation globale, cliquez sur **Fichier > **Annuler la publication**.
+      Sur la barre de navigation globale, cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Unpublish]** (« Annuler la publication »).
 
    * En mode Affichage de la grille, Affichage par liste ou Affichage des détails, cliquez sur l’icône ronde marquée d’une coche verte située sur la gauche du nom du fichier.
 
@@ -155,15 +149,15 @@ La dernière date de publication d’un fichier apparaît dans la vue Affichage 
 
 ## Fichiers republiés et délais CDN {#republished-assets-and-cdn-delays}
 
-Les ressources Dynamic Media Classic sont distribuées sur le réseau CDN (Content diffusion Network). CDN est un système de serveurs informatiques reliés en réseau qui coopèrent de manière transparente pour diffuser des contenus, surtout des contenus multimédias volumineux, vers des utilisateurs finaux. Dans le système CDN, le contenu Web est stocké dans des caches Web sur le réseau Internet (appelé réseau cache de périphérie). Le contenu Web est livré aux utilisateurs plus rapidement à partir de ces caches Web.
+Les ressources Dynamic Media Classic sont distribuées sur le réseau CDN (Content diffusion Network). CDN est un système de serveurs informatiques reliés en réseau qui coopèrent de manière transparente pour diffuser des contenus, surtout des contenus multimédias volumineux, vers des utilisateurs finaux. Dans le système CDN, le contenu Web est stocké dans des caches Web sur le réseau Internet (appelé réseau cache de périphérie). Le contenu Web est distribué depuis les caches Web aux utilisateurs finaux afin d’accélérer les diffusions.
 
 Lors du premier téléchargement d’une page Web, les fichiers correspondants sont envoyés à un serveur cache CDN pour y être stockés. Ainsi, au prochain accès de la page Web, le même contenu mis en cache pourra être acheminé plus rapidement à une personne située à proximité. Le contenu étant plus proche de l’utilisateur final, il est livré plus vite. Le système CDN accélère l’affichage des pages Web. Il réduit les besoins en bande passante sur le serveur central dans la mesure où le contenu est diffusé à partir du réseau cache de périphérie, et non pas d’un serveur central à chaque fois.
 
-Le contenu Dynamic Media Classic récemment publié est immédiatement disponible pour l’utilisateur final et remplit rapidement le réseau de cache de périphérie. Néanmoins, le contenu venant d’être republié (à savoir des images portant exactement le même nom que les images précédemment publiées vers un serveur d’images) n’est actualisé sur le CDN qu’au bout de 10 heures, au maximum. En fait, l’utilisateur final n’a accès qu’au contenu du cache Web sur le réseau CDN. Pour cette raison, il est possible que les fichiers republiés dans Dynamic Media Classic ne s’affichent pas pour les utilisateurs finaux pendant dix heures.
+Le contenu Dynamic Media Classic récemment publié est immédiatement disponible pour l’utilisateur final et remplit rapidement le réseau de cache de périphérie. Néanmoins, le contenu venant d’être republié (à savoir des images portant exactement le même nom que les images précédemment publiées vers un serveur d’images) n’est actualisé sur le CDN qu’au bout de 10 heures, au maximum. En fait, l’utilisateur final n’a accès qu’au contenu du cache Web sur le réseau CDN. Pour cette raison, les fichiers republiés dans Dynamic Media Classic ne semblent pas être destinés aux utilisateurs finaux pendant dix heures.
 
 Pour mettre à disposition des fichiers récemment republiés avant ce délai de 10 heures, vous pouvez vider les caches Web sur le CDN. Ce vidage aura pour effet de supprimer l’ancien contenu des caches Web CDN et de le remplacer par les derniers fichiers publiés.
 
-Pour vider le cache, cliquez sur Fichier > Invalider sur le réseau de diffusion de contenu. Tous les fichiers sélectionnés sont supprimés du cache. Si aucun fichier de publication n’est disponible ou si vous n’êtes pas l’administrateur de la société, l’option Supprimer du réseau de redéfinition de contenu est désactivée.
+Pour vider le cache, dans la barre de navigation globale, cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Invalider le CDN]**. Tous les fichiers sélectionnés sont supprimés du cache. Si aucun fichier de publication n’est disponible ou si vous n’êtes pas l’administrateur de la société, l’option Supprimer du réseau de redéfinition de contenu est désactivée.
 
 >[!MORELIKETHIS]
 >
