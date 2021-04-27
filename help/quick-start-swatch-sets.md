@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
-feature: Dynamic Media Classic,Viewers
+feature: Dynamic Media Classic,Visionneuses
 role: Business Practitioner
+exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '389'
 ht-degree: 62%
 
 ---
-
 
 # Démarrage rapide : Séries d’échantillons{#quick-start-swatch-sets}
 
@@ -52,7 +52,7 @@ Voir [Prévisualisation d’un fichier](previewing-asset.md#previewing-an-asset)
 
 Lorsque vous publiez une série d’échantillons, elle est placée sur les serveurs Dynamic Media Classic et la chaîne URL est activée.
 
-Cliquez sur l’icône **Marquer pour publication** située à gauche de son nom dans le panneau de navigation. Cliquez ensuite sur **Publier**. Dans l’écran Publier, cliquez sur **Publier par Début**.
+Cliquez sur l’icône **Marquer pour publication** située à gauche de son nom dans le panneau de navigation. Cliquez ensuite sur **Publier**. Dans l’écran Publier, cliquez sur **Envoyer la publication**.
 
 Voir [Publication](publishing-files.md#publishing-files).
 
