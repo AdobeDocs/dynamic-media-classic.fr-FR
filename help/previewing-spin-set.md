@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media Classic, Visionneuses, Visionneuses à 360°
 role: Business Practitioner
+exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 94%
+source-wordcount: '253'
+ht-degree: 79%
 
 ---
-
 
 # Prévisualisation d’une visionneuse à 360°{#previewing-a-spin-set}
 
@@ -26,19 +26,19 @@ Voir [Configuration des visionneuses par défaut](application-setup.md#configuri
 
 Voir [Prévisualisation d’un fichier](previewing-asset.md#previewing_an_asset)
 
-**Pour prévisualiser une visionneuse à 360°**
+**Pour prévisualisation d’une visionneuse à 360° :**
 
 1. Dans la liste déroulante d’affichage du panneau Bibliothèque de fichiers situé à gauche, sélectionnez le type de fichier de la visionneuse à 360°.
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient la visionneuse à 360° à prévisualiser.
 1. Effectuez l’une des opérations suivantes :
 
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage de la grille. Dans la fenêtre Fichiers, située au-dessous de l’image miniature, cliquez sur Prévisualiser > Liste des visionneuses.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Liste des visionneuses. Dans la fenêtre Fichiers, sélectionnez un fichier, puis sur la droite de l’image miniature, cliquez sur Prévisualiser > Liste des visionneuses.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur Affichage des détails. Sur la même barre d’outils, cliquez sur Prévisualiser > Liste des visionneuses.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage de la grille]**. Dans la fenêtre Fichiers, sous l’image miniature, cliquez sur **[!UICONTROL Prévisualisation]** > **[!UICONTROL Liste du lecteur]**.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage de la liste]**. Dans la fenêtre Fichiers, sélectionnez un fichier, puis sur la droite de l’image miniature, cliquez sur **[!UICONTROL Prévisualiser]** > **[!UICONTROL Liste des visionneuses]**.
+   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, cliquez sur **[!UICONTROL Prévisualiser]** > **[!UICONTROL Liste des visionneuses]**.
 
 1. Dans le tableau de la fenêtre Liste des visionneuses, cliquez sur un lien de la visionneuse pour prévisualiser le fichier dans la visionneuse sélectionnée.
-1. Fermez la visionneuse affichée pour revenir à la fenêtre Liste des visionneuses.
-1. Dans le coin inférieur droit de la fenêtre Liste des visionneuses, cliquez sur Fermer pour revenir à la fenêtre Fichiers.
+1. Fermez la visionneuse affichée.
+1. Dans le coin inférieur droit de la fenêtre Liste du lecteur de contenu, cliquez sur **[!UICONTROL Fermer]** pour revenir à l’écran Fichiers.
 
 >[!MORELIKETHIS]
 >
