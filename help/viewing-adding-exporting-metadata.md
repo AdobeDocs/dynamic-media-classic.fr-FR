@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
-feature: Dynamic Media Classic,Asset Management,Metadata
+feature: Dynamic Media Classic,Gestion des ressources,Métadonnées
 role: Business Practitioner
+exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2248'
 ht-degree: 63%
 
 ---
-
 
 # Affichage, ajout et exportation de métadonnées{#viewing-adding-and-exporting-metadata}
 
@@ -181,7 +181,7 @@ Le système génère automatiquement un schéma personnalisé pour les champs d�
 
 >[!NOTE]
 >
->les modifications apportées au schéma ne modifient jamais les métadonnées de l’élément lui-même. Toutefois, elles ne sont pas visibles pour toutes les fonctionnalités Dynamic Media Classic et Serveur de métadonnées et ne peuvent pas être consultées après avoir été modifiées. De même, s’il existe des métadonnées pour un fichier, la création du schéma correspondant rend les métadonnées utilisables dans Dynamic Media Classic et le serveur de métadonnées.
+>les modifications apportées au schéma ne modifient jamais les métadonnées de l’élément lui-même. Toutefois, elles ne sont pas visibles pour toutes les fonctionnalités Dynamic Media Classic et Serveur de métadonnées et ne sont pas accessibles après avoir été modifiées. De même, s’il existe des métadonnées pour un fichier, la création du schéma correspondant rend les métadonnées utilisables dans Dynamic Media Classic et le serveur de métadonnées.
 
 L’éditeur de Schéma de métadonnées offre une méthode graphique pour ajouter ou modifier un schéma de société personnalisé dans Dynamic Media Classic. Un schéma est défini par un préfixe, un espace de noms et une liste de propriétés.
 
