@@ -1,6 +1,6 @@
 ---
-title: '"Début rapide : Intégration de Target Standard/Premium"'
-description: Une introduction et un Début rapide à Adobe Target Standard/Premium pour vous aider à maîtriser rapidement les techniques d’intégration de Target Standard/Premium.
+title: '"Début rapide : Intégration d’Adobe Target Standard/Premium"'
+description: Une introduction et un Début rapide à Adobe Target Standard/Premium pour vous aider à maîtriser rapidement les techniques d’intégration Adobe Target Standard/Premium.
 uuid: d8f79fbf-8be1-44fa-8058-3508060fcd70
 contentOwner: admin
 content-type: reference
@@ -9,47 +9,45 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
 discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: 4745ace5-7825-468e-8a82-bfbbcf1b0440
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 19%
+source-wordcount: '505'
+ht-degree: 12%
 
 ---
-
 
 # Début rapide : Intégration d’Adobe Target Standard/Premium{#quick-start-target-integration}
 
 Adobe Target Standard/Premium permet aux spécialistes du marketing d’exécuter rapidement et continuellement plusieurs tests A/B et multivariés, de mesurer l’efficacité et d’accroître la pertinence du contenu en ligne par le biais de la segmentation, du ciblage et de la personnalisation automatisée.
 
-Dynamic Media Classic vous permet de créer des offres et des jeux d’offres pour les campagnes Target Standard/Premium. Par exemple, vous pouvez créer une visionneuse d’offres avec trois variantes du même fichier de média enrichi. Ensuite, Target Standard/Premium peut déterminer quel fichier offre un meilleur effet élévateur de conversion. Vous pouvez créer des offres et des visionneuses d’offres à partir d’un modèle de base ou d’images individuelles. Une fois que la visionneuse d’offres a été envoyée ou enregistrée dans Adobe Target Standard/Premium, où les offres sont associées à des mbox et à des expériences, Target Standard/Premium peut exécuter des campagnes pour déterminer quelle variation d’un site Web est susceptible de générer les meilleurs résultats pour les clics publicitaires et les conversions.
+Dynamic Media Classic vous permet de créer des offres et des jeux d’offres pour les campagnes Adobe Target Standard/Premium. Par exemple, vous pouvez créer une visionneuse d’offres avec trois variantes du même fichier de média enrichi. Vous pouvez ensuite demander à Adobe Target Standard/Premium de déterminer quel fichier offre un meilleur effet élévateur de conversion. Vous pouvez créer des offres et des visionneuses d’offres à partir d’un modèle de base ou d’images individuelles. Une fois que la visionneuse d’offres a été envoyée ou enregistrée dans Adobe Target Standard/Premium, où les offres sont associées à des mbox et à des expériences, Adobe Target Standard/Premium peut exécuter des campagnes. Ces campagnes déterminent la variation d’un site Web susceptible de générer les meilleurs résultats en termes de clics publicitaires et de conversion.
 
-Pour une meilleure personnalisation du contenu Dynamic Media Classic dynamique, utilisez les offres HTML Target Standard/Premium. Pour plus d’informations, voir la documentation du produit Target Standard/Premium.
+Pour une meilleure personnalisation du contenu Dynamic Media Classic dynamique, utilisez les offres HTML Adobe Target Standard/Premium. Pour plus d’informations, consultez la [documentation du produit Adobe Target Standard/Premium](https://experienceleague.adobe.com/docs/target.html).
 
 >[!NOTE]
 >
->Un compte Adobe Target Standard/Premium valide est nécessaire pour utiliser Target Standard/Premium avec Dynamic Media Classic.
+>Un compte Adobe Target Standard/Premium valide est nécessaire pour utiliser Adobe Target Standard/Premium avec Dynamic Media Classic.
 
-**Début rapide**
+Ce Début rapide est conçu pour vous aider à maîtriser rapidement les opérations liées aux offres HTML Adobe Target Standard/Premium. Suivez les étapes 1 à 3. Chaque étape se termine par un renvoi à une rubrique contenant de plus amples informations.
 
-Ce Début rapide est conçu pour vous aider à maîtriser rapidement les opérations liées aux jeux d’offres HTML Target Standard/Premium. Suivez les étapes 1 à 3. Chaque étape se termine par un renvoi à une rubrique contenant de plus amples informations.
+## 1. Entrez votre URL Adobe Target Standard/Premium dans la page Paramètres généraux de l’application.
 
-**1. Entrez votre URL Adobe Target Standard/Premium dans l&#39;écran Paramètres généraux de l&#39;application.**
+Dynamic Media Classic a besoin de votre URL Adobe Target Standard/Premium pour l’intégrer à Adobe Target Standard/Premium. Copiez la partie de votre URL Adobe Target Standard/Premium jusqu’à `.com` incluse, puis saisissez-la dans la page Paramètres généraux de l’application **[!UICONTROL Dynamic Media Classic Paramètres généraux de l’application]**, dans le groupe **[!UICONTROL Servers]**, **[!UICONTROL Nom du serveur de test&amp;Cible]**. Voir [Intégration de Dynamic Media Classic à Adobe Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
 
-Dynamic Media Classic a besoin de votre URL Target Standard/Premium pour s’intégrer à Target Standard/Premium. Copiez la partie de votre URL Target Standard/Premium jusqu’à *.com* et saisissez-la dans l’écran Paramètres généraux de l’application Dynamic Media Classic. Voir [Intégration de Dynamic Media Classic à Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
+## 2. Créez la visionneuse d’offres
 
-**2. Créez la visionneuse d’offres.**
+Utilisez un modèle paramétré ou des images pour créer une visionneuse d’offres. Vous créez des jeux d’offres HTML sur la page Jeu d’Offres Test&amp;Cible. Pour ouvrir cette page, sélectionnez votre modèle ou vos images, puis sur la barre de navigation globale, cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Visionneuse d’Offres Test&amp;Cible]**.
 
-Utilisez un modèle paramétré ou des images pour créer une visionneuse d’offres. Vous pouvez créer des visionneuses d’offres HTML sur l’écran Visionneuse d’offres Test&amp;Target. Pour ouvrir cet écran, sélectionnez votre modèle ou vos images, puis cliquez sur **Créer** > **Visionneuse d’Offres Test&amp;Cible**.
+Pour créer une offre avec un modèle, cliquez sur **[!UICONTROL Ajouter et Prévisualisation]**. Dans la page Ajouter et Prévisualisation, modifiez les valeurs des paramètres.
 
-Pour créer une offre avec un modèle, cliquez sur **Ajouter et Prévisualisation**. Dans l’écran Ajouter et Prévisualisation, modifiez les valeurs des paramètres.
-
-Pour créer une offre à partir d’images, faites glisser les images vers l’écran Visionneuse d’offres Test&amp;Target. Cliquez sur **Prévisualisation** pour choisir un paramètre d’image prédéfini pour une image ou toutes les images de la visionneuse d’offres.
+Pour créer une offre avec des images, faites glisser les images vers la page Visionneuse d’Offres Test&amp;Cible. Cliquez sur **[!UICONTROL Prévisualisation]** et choisissez un paramètre d’image prédéfini pour une image ou toutes les images de la visionneuse d’offres.
 
 Enregistrez la visionneuse d’offres après l’avoir créée.
 
 Voir [Création d’une visionneuse d’offres](creating-offer-set.md#creating_an_offer_set).
 
-**Cookie. Placez le jeu d’offres sur Adobe Target Standard/Premium**.
+## 3. Placez le jeu d’offres sur Adobe Target Standard/Premium.
 
-Dans l’écran Jeu d’Offres Test&amp;Cible, cliquez sur **Envoyer les Offres**, puis saisissez vos informations de connexion dans la boîte de dialogue Connexion à Test&amp;Cible. Voir [Pousser les jeux d’offres vers Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Dans la page Jeu d&#39;Offres Test&amp;Cible, cliquez sur **[!UICONTROL Envoyer les Offres]**, puis entrez vos informations de connexion dans la boîte de dialogue Connexion à Test&amp;Cible. Voir [Pousser les jeux d’offres vers Adobe Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
