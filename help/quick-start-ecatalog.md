@@ -11,9 +11,9 @@ feature: Dynamic Media Classic, Visionneuses, Catalogue électronique
 role: Business Practitioner
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1427'
 ht-degree: 50%
 
 ---
@@ -50,11 +50,9 @@ Lorsque vous créez un catalogue électronique, vous agencez les pages ou les pl
 >
 >Vous pouvez désormais créer des catalogues électroniques dans Dynamic Media Classic.
 
-## Début rapide
-
 Cette section de démarrage rapide est conçue pour vous aider à maîtriser rapidement les opérations liées aux catalogues électroniques. Suivez les étapes 1 à 7. Chaque étape se termine par un renvoi à une rubrique contenant de plus amples informations.
 
-### 1. Téléchargement des fichiers PDF
+## 1. Téléchargement des fichiers PDF
 
 En règle générale, un catalogue électronique est créé à partir de fichiers Adobe PDF. Les fichiers PDF étant destinés à l’impression, ils contiennent le plus souvent des images CMJN. Dynamic Media Classic détecte ces images et les convertit à l’aide d’un profil de couleurs CMJN standard. Cependant, vous devez télécharger et utiliser un profil de couleurs personnalisé.
 
@@ -64,7 +62,7 @@ La section Options PDF de l’écran de téléchargement contient des options q
 
 Voir [Téléchargement des fichiers PDF](uploading-pdf-files.md#uploading_the_pdf_files).
 
-### 2. Création d’un catalogue électronique
+## 2. Création d’un catalogue électronique
 
 Créez votre catalogue électronique en sélectionnant des fichiers PDF ou d’images dans le panneau de navigation. Cliquez sur **[!UICONTROL Créer]**, puis sélectionnez **[!UICONTROL Catalogues électroniques]**.
 
@@ -76,7 +74,7 @@ Cliquez sur **[!UICONTROL Enregistrer]**, attribuez un nom à votre catalogue é
 
 Voir [Création d’un catalogue électronique](creating-ecatalog.md).
 
-### 3. Création de zones cliquables
+## 3. Création de zones cliquables
 
 Les zones cliquables ajoutent un autre aspect aux pages de catalogue électronique. Une zone cliquable correspond à une zone de la page permettant d’afficher d’autres informations sur un article. Lorsque les utilisateurs placent le pointeur sur une zone cliquable, une description de l’article en question s’affiche. La sélection d’une zone cliquable a pour effet d’activer une référence externe qui permet d’ouvrir une nouvelle page Web contenant des informations supplémentaires sur un article.
 
@@ -92,7 +90,7 @@ Vous pouvez configurer et gérer le texte de zone cliquable à l’aide des para
 
 Voir [Gestion du contenu du panneau d’informations](info-panel-content.md#managing-info-panel-content).
 
-### 4. Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique
+## 4. Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique
 
 Les utilisateurs finaux consultent votre catalogue dans la visionneuse de catalogue électronique. Si vous êtes un administrateur, vous avez la possibilité de configurer cette visionneuse. Vous pouvez modifier la couleur de son contour et sélectionner un nouvel habillage pour définir la marque de votre catalogue électronique. Dynamic Media Classic est fourni avec plusieurs paramètres prédéfinis de visionneuse de catalogue électronique &quot;recommandés&quot;. Vous pouvez choisir l’un de ces paramètres prédéfinis pour l’affichage de vos catalogues électroniques. Vous pouvez également créer vous-même un paramètre prédéfini pour la visionneuse de catalogue électronique si vous êtes administrateur.
 
@@ -100,7 +98,7 @@ Pour créer un paramètre prédéfini de visionneuse de catalogue électronique,
 
 (Voir [Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).)
 
-### 5. Prévisualisation des catalogues électroniques dans la visionneuse de catalogue électronique
+## 5. Prévisualisation des catalogues électroniques dans la visionneuse de catalogue électronique
 
 Les paramètres prédéfinis de visionneuse de catalogue électronique déterminent le style et le comportement de vos visionneuses de catalogue électronique.
 
@@ -110,7 +108,7 @@ Observez l’orientation des pages, la palette de couleurs, l’aspect des comma
 
 Voir [Prévisualisation des catalogues électroniques dans la visionneuse de catalogue électronique](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
 
-### 6. Publication d’un catalogue électronique et des fichiers PDF associés
+## 6. Publication d’un catalogue électronique et des fichiers PDF associés
 
 Lorsque vous publiez votre catalogue électronique et le fichier PDF associé, il est placé sur les serveurs Dynamic Media Image Server afin de pouvoir être diffusé sur votre site Web et dans votre application. Dans le cadre du processus de publication, Dynamic Media Classic active la chaîne URL de votre catalogue électronique. Utilisez cette URL pour appeler le catalogue électronique à partir des serveurs Dynamic Media Image Server vers votre site Web ou votre application.
 
@@ -118,7 +116,7 @@ Après avoir marqué votre catalogue électronique et votre fichier PDF pour pub
 
 Voir [Publication de catalogues électroniques et de fichiers PDF associés](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
-### 7. Liaison d’un catalogue électronique à une page Web
+## 7. Liaison d’un catalogue électronique à une page Web
 
 Dynamic Media Classic active la chaîne d’appel d’URL nécessaire à l’affichage de votre catalogue électronique lorsque vous le publiez sur les serveurs Dynamic Media Image Server. Vous pouvez copier cette chaîne URL depuis l’écran de prévisualisation et le panneau de navigation (en mode Affichage des détails) en la sélectionnant dans le panneau. Une fois copiée, la chaîne URL peut être utilisée sur vos sites Web et dans vos applications.
 
