@@ -11,59 +11,57 @@ feature: Dynamic Media Classic, Visionneuses, Zoom
 role: Business Practitioner
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 63%
+source-wordcount: '813'
+ht-degree: 41%
 
 ---
 
 # Démarrage rapide : Zoom{#quick-start-zoom}
 
-Le zoom vous permet de vue interactive des détails haute résolution dans les images. Vous pouvez, par exemple, voir les couleurs, les options, les angles et les détails d’une image dans une visionneuse intégrée, entièrement configurable et dynamique. Cette visionneuse peut être incorporée à une page Web ou s’afficher dans une fenêtre contextuelle. Vous pouvez examiner des images de près et effectuer un panoramique à des résolutions élevées pour les inspecter en détail. La fonction de zoom permet à vos clients de bénéficier d’une expérience de visualisation plus interactive, instructive et dynamique. 
+Le zoom vous permet de vue interactive des détails haute résolution dans les images. Vous pouvez, par exemple, voir les couleurs, les options, les angles et les détails d’une image dans une visionneuse intégrée, entièrement configurable et dynamique. Cette visionneuse peut être incorporée à une page Web ou s’afficher dans une fenêtre contextuelle. Vous pouvez contrôler les images à distance rapprochée et effectuer un panoramique à haute résolution pour les examiner de près. La fonction de zoom permet à vos clients de bénéficier d’une expérience de visualisation plus interactive, instructive et dynamique. 
 
 Dynamic Media Classic offre également le zoom guidé, qui vous permet de mettre en évidence les fonctions importantes d’une image. Vous pouvez par exemple créer une cible de zoom pour un logo afin d’attirer l’attention des utilisateurs sur ce dernier. Lorsque les utilisateurs cliquent sur cette cible de zoom, ils effectuent un zoom sur le logo.
 
 Toutes les images de zoom sont créées et servies à partir d’images originales uniques, de graphiques et d’attributs gérés par des bases de données. La fonction de zoom de Dynamic Media Classic réduit considérablement le temps et les coûts de production et de diffusion des images. Vous pouvez utiliser les visionneuses de zoom pour effectuer un zoom avant ou arrière sur les images. La visionneuse de zoom comporte des boutons sur lesquels il suffit de cliquer pour effectuer un zoom et un panoramique ; à cela s’ajoute la possibilité d’effectuer un panoramique par glissement sur l’écran. Des paramètres prédéfinis de visionneuse de zoom permettent de configurer la visionneuse utilisée pour effectuer un zoom sur les images.
 
-**Début rapide**
-
 Ce Début de zoom rapide est conçu pour vous aider à maîtriser rapidement les techniques de zoom dans Dynamic Media Classic. Suivez les étapes 1 à 6. Chaque étape se termine par un renvoi à une rubrique contenant de plus amples informations.
 
-**1. Téléchargement des images de zoom**
+## 1. Téléchargement des images de zoom
 
-Début en téléchargeant vos images de zoom vers Dynamic Media Classic. Pour un zoom optimal, Dynamic Media Classic recommande que les images fassent au moins 2 000 pixels dans la dimension la plus longue.
+Début en téléchargeant vos images de zoom vers Dynamic Media Classic. Pour un zoom optimal, Dynamic Media Classic recommande que la taille des images soit d’au moins 2 000 pixels.
 
-Sélectionnez le bouton Télécharger de la barre de navigation globale pour télécharger des images depuis votre ordinateur ou votre réseau vers un dossier de Dynamic Media Classic. (voir [Téléchargement des images de zoom](uploading-zoom-images.md#uploading_zoom_images)).
+Sur la barre de navigation globale, cliquez sur **[!UICONTROL Télécharger]** pour télécharger des images depuis votre ordinateur ou votre réseau vers un dossier de Dynamic Media Classic. (voir [Téléchargement des images de zoom](uploading-zoom-images.md#uploading_zoom_images)).
 
-**2. Création de cibles de zoom pour un zoom guidé**
+## 2. Création de cibles de zoom pour un zoom guidé
 
 Les cibles de zoom vous permettent de mettre en valeur des sections particulières d’une image. Vous pouvez, par exemple, attirer l’attention des utilisateurs sur les sections d’une image qui la caractérisent ou la distinguent. Les cibles de zoom s’affichent sous la forme de miniatures, à côté de l’image, dans la fenêtre de la visionneuse de zoom. La sélection d’une de ces miniatures de cible de zoom permet d’effectuer un zoom automatique sur la section de l’image que vous définissez.
 
-Pour créer une cible de zoom, cliquez sur le bouton de modification en survol et choisissez Cibles de zoom ou ouvrez une image dans le panneau de navigation de la vue de détails, puis cliquez sur Cibles de zoom. Utilisez ensuite les outils de zoom disponibles sur l’écran de l’éditeur de cible de zoom pour définir une partie de l’image comme cible (voir [Création de cibles de zoom pour un zoom guidé](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)).
+Pour créer une cible de zoom, cliquez sur **[!UICONTROL Modifier]** et choisissez Cibles de zoom ou ouvrez une image dans le panneau de navigation de la vue de détails, puis cliquez sur **[!UICONTROL Cibles de zoom]**. Utilisez ensuite les outils de zoom de la page Editeur de Cible de zoom pour isoler une partie de l’image en tant que cible. (voir [Création de cibles de zoom pour un zoom guidé](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)).
 
-**Cookie. Configuration des paramètres prédéfinis de la visionneuse de zoom**
+## 3. Configuration des paramètres prédéfinis de la visionneuse de zoom
 
 Les paramètres prédéfinis de visionneuse de zoom déterminent le style et le comportement des visionneuses de zoom. Vous pouvez configurer des paramètres prédéfinis de visionneuse de zoom si vous êtes administrateur ; Dynamic Media Classic est également fourni avec les paramètres prédéfinis par défaut de la visionneuse de zoom &quot;Meilleure pratique&quot;.
 
-Pour créer un paramètre prédéfini de visionneuse de zoom, cliquez sur le bouton Configuration dans la barre de navigation globale et choisissez Paramètres prédéfinis de la visionneuse. Ensuite, sur l’écran Paramètres prédéfinis de la visionneuse, cliquez sur le bouton Ajouter, choisissez une plate-forme, choisissez une visionneuse de zoom, puis cliquez sur Ajouter. Ensuite, sélectionnez des options sur l’écran Configurer la visionneuse 
+Pour créer un paramètre prédéfini de visionneuse de zoom, sur la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**. Sur la page Paramètres prédéfinis de la visionneuse, cliquez sur **[!UICONTROL Ajouter]**, choisissez une plate-forme et une visionneuse de zoom, puis cliquez sur **[!UICONTROL Ajouter]**. Sélectionnez ensuite les options de la page Configurer la visionneuse.
 
-Les options de paramètre prédéfini de visionneuse de zoom des offres Dynamic Media Classic vous permettent de sélectionner le style de bouton et l’aspect général de la visionneuse. Vous avez également la possibilité de personnaliser les paramètres de zoom pour votre site Web (voir [Configuration des paramètres prédéfinis de la visionneuse de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)).
+offres Dynamic Media Classic **[!UICONTROL Paramètres prédéfinis de la visionneuse de zoom]** qui vous permettent de sélectionner le style de bouton et l’aspect général de la visionneuse. Vous avez également la possibilité de personnaliser les paramètres de zoom pour votre site Web (voir [Configuration des paramètres prédéfinis de la visionneuse de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)).
 
-**4. Prévisualisation des images avec la visionneuse de zoom**
+## 4. Prévisualisation d’images à l’aide de la visionneuse de zoom
 
 Vous pouvez prévisualiser des images dans une visionneuse de zoom afin de vérifier le résultat obtenu lorsque vous effectuez un zoom sur les images.
 
-Pour faire des essais avec divers paramètres prédéfinis de visionneuse de zoom, choisissez une image dans le panneau de navigation, puis cliquez sur le bouton Prévisualiser. L’écran Prévisualiser s’ouvre. Choisissez la commande Paramètres prédéfinis > Zoom, puis sélectionnez un paramètre prédéfini avec les menus Zoom.
+Pour découvrir les différents paramètres prédéfinis de visionneuse de zoom et leur présentation, sélectionnez une image dans le panneau de navigation, puis cliquez sur **[!UICONTROL Prévisualisation]**. Cliquez sur **[!UICONTROL Paramètres prédéfinis]** > **[!UICONTROL Zoom]**, puis sélectionnez un paramètre prédéfini avec les menus Zoom.
 
-Les boutons de zoom apparaissent. Vous pouvez alors vérifier l’aspect des images de zoom sur votre site Web. Sélectionnez les boutons de zoom (et les cibles de zoom) pour tester le paramètre prédéfini de visionneuse de zoom choisi (voir [Prévisualisation d’images avec différentes visionneuses de zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers)).
+Les boutons de zoom apparaissent. Vous pouvez alors vérifier l’aspect des images de zoom sur votre site Web. Cliquez sur les boutons de zoom (et les cibles de zoom) pour tester les paramètres du paramètre prédéfini de visionneuse de zoom que vous avez choisi. (voir [Prévisualisation d’images avec différentes visionneuses de zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers)).
 
-**5. Publication des images de zoom**
+## 5. Publication des images de zoom
 
 Lorsque vous publiez vos images de zoom, elles sont placées sur les serveurs Dynamic Media Image Server afin d’être diffusées sur votre site Web et dans votre application. Dans le cadre du processus de publication, Dynamic Media Classic active les chaînes URL. Ces chaînes URL appellent des images de zoom des serveurs Dynamic Media Image Server vers votre site Web ou votre application.
 
-Sur la barre de navigation générale, cliquez sur **[!UICONTROL Publier]**, Dans la boîte de dialogue Publier, cliquez sur Lancer publication. (voir [Publication des images de zoom](publishing-zoom-images.md#publishing_zoom_images)).
+Sur la barre de navigation générale, cliquez sur **[!UICONTROL Publier]**, Dans la boîte de dialogue Publier, cliquez sur **[!UICONTROL Envoyer la publication]**. (voir [Publication des images de zoom](publishing-zoom-images.md#publishing_zoom_images)).
 
-**6. Liaison des visionneuses de zoom à une page Web**
+## 6. Liaison des visionneuses de zoom à votre page Web
 
-Dynamic Media Classic crée les chaînes d’appel URL nécessaires pour zoomer sur les images et les active lorsque vous publiez des images sur les serveurs Dynamic Media Image Server. Vous pouvez copier ces chaînes URL depuis l’écran Prévisualiser. Une fois copiées, les chaînes URL peuvent être utilisées dans vos applications et sur vos sites Web (voir [Liaison des visionneuses de zoom à une page Web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages)).
+Dynamic Media Classic crée les chaînes d’appel URL nécessaires pour zoomer sur les images et les active lorsque vous publiez des images sur les serveurs Dynamic Media Image Server. Vous pouvez copier ces chaînes URL à partir de la page **[!UICONTROL Prévisualisation]**. Une fois copiées, les chaînes URL peuvent être utilisées dans vos applications et sur vos sites Web (voir [Liaison des visionneuses de zoom à une page Web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages)).
