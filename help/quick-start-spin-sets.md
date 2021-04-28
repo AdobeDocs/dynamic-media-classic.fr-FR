@@ -11,10 +11,10 @@ feature: Dynamic Media Classic, Visionneuses, Visionneuses à 360°
 role: Business Practitioner
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 67%
+source-wordcount: '724'
+ht-degree: 32%
 
 ---
 
@@ -24,25 +24,23 @@ Une visionneuse à 360° simule la rotation d’un objet afin de l’examiner. E
 
 ![Images d’une visionneuse à 360°.](/help/assets/spin_set.png)
 
-Les visionneuses à 360° acceptent également les zones cliquables. Une zone cliquable est une partie sur une image dans la visionneuse à 360° qui affiche un panneau de survol avec un texte. Une action est déclenchée lorsque l’utilisateur clique sur une zone cliquable. Par exemple, une page Web affiche des informations détaillées sur un produit. Pour attirer l’attention sur l’utilisation d’une zone cliquable dans une visionneuse à 360°, un contour apparaît autour de la zone cliquable lorsque l’utilisateur déplace le pointeur de la souris au-dessus d’elle.
+Les visionneuses à 360° acceptent également les zones cliquables. Une zone cliquable est une partie sur une image dans la visionneuse à 360° qui affiche un panneau de survol avec un texte. Une action est déclenchée lorsque l’utilisateur clique sur une zone cliquable. Par exemple, une page Web affiche des informations détaillées sur un produit. Pour mettre en évidence une zone cliquable dans une visionneuse à 360°, un contour s’affiche autour de la zone cliquable lorsque l’utilisateur déplace le pointeur de la souris dessus.
 
-Voir [Création de zones cliquables](creating-image-maps.md).
+(voir [Création de zones cliquables](creating-image-maps.md)).
 
-**Début rapide**
+Ce Début rapide Visionneuses à 360° est conçu pour vous aider à maîtriser rapidement les techniques de visionneuse à 360° dans Dynamic Media Classic. Suivez les étapes 1 à 7. À la fin de chaque étape, vous pouvez cliquer sur un lien de rubrique pour en savoir plus.
 
-Ce Début rapide Visionneuses à 360° est conçu pour vous aider à maîtriser rapidement les techniques de visionneuse à 360° dans Dynamic Media Classic. Suivez les étapes 1 à 7. Chaque étape se termine par un renvoi à une rubrique contenant de plus amples informations.
+## 1. Création et téléchargement des images
 
-**1. Création et téléchargement des images**
+Au minimum, vous avez besoin de 8 à 12 prises de vue d’un élément pour une visionneuse à 360° unidimensionnelle et de 16 à 24 prises de vue pour une visionneuse à 360° bidimensionnelle. Les prises de vue doivent être réalisées à intervalles réguliers pour donner l’impression que l’objet est en rotation et retourné. Par exemple, si une visionneuse à 360/12° unidimensionnelle comprend 12 prises de vue, faites pivoter l’élément de 30° (360/12) pour chaque prise de vue.
 
-Au minimum, vous avez besoin de 8 à 12 prises de vue d’un élément pour une visionneuse à 360° unidimensionnelle et de 16 à 24 prises de vue pour une visionneuse à 360° bidimensionnelle. Les prises de vue doivent être réalisées à intervalles réguliers pour donner l’impression que l’objet est en rotation et retourné. Par exemple, si une visionneuse unidimensionnelle comprend 12 prises de vue, faites pivoter l’objet de 30 degrés (360/12) pour chaque prise de vue.
-
-Sélectionnez le bouton Télécharger sur la barre de navigation globale pour télécharger des images à 360° depuis votre ordinateur ou votre réseau vers Dynamic Media Classic.
+Sur la barre de navigation globale, cliquez sur **[!UICONTROL Télécharger]** pour télécharger des images à 360° depuis votre ordinateur ou votre réseau vers Dynamic Media Classic.
 
 Voir [Instructions pour prendre des clichés d’images de la visionneuse à 360°](creating-spin-set.md#guidelines-for-shooting-spin-set-images).
 
-**2. Création d’une visionneuse à 360°**
+## 2. Création d’une visionneuse à 360°
 
-Pour créer une visionneuse à 360°, cliquez sur le bouton Créer, puis choisissez l’option Visionneuses à 360°. Dans la boîte de dialogue Taille de la visionneuse, choisissez le nombre de lignes et de cellules à créer, puis cliquez sur OK. Ensuite, faites glisser des images vers la grille de l’écran Visionneuse à 360°. 
+Pour créer une visionneuse à 360°, sur la barre de navigation globale, cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Visionneuses à 360°]**. Dans la boîte de dialogue Taille de la visionneuse à 360°, choisissez le nombre de lignes et de cellules de votre choix, puis cliquez sur **[!UICONTROL OK]**. Ensuite, faites glisser des images dans la grille de la page Visionneuse à 360°.
 
 Voir [Création d’une visionneuse à 360°](creating-spin-set.md#creating-a-spin-set).
 
@@ -66,38 +64,38 @@ Last Modified Date:
 
  -->
 
-**Cookie. Edition d’une visionneuse à 360°**
+## 3. Modification d’une visionneuse à 360°
 
-Pour modifier une visionneuse à 360°, sélectionnez son bouton de modification en survol. L’écran Visionneuse à 360° apparaît. Ajoutez, supprimez des images et modifiez leur position. Vous pouvez modifier la position des lignes des visionneuses à 360° bidimensionnelles. 
+Pour modifier une visionneuse à 360°, dans la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**. Sélectionnez une visionneuse à 360°, puis cliquez sur **[!UICONTROL Modifier]**. Ajoutez, supprimez des images et modifiez leur position. Vous pouvez modifier la position des lignes des visionneuses à 360° bidimensionnelles. 
 
 Voir [Edition d’une visionneuse à 360°](creating-spin-set.md#editing-a-spin-set).
 
-**4. Configuration des paramètres prédéfinis de la visionneuse à 360°**
+## 4. Configuration des paramètres prédéfinis de la visionneuse à 360°
 
-Les administrateurs peuvent créer des paramètres prédéfinis de visionneuse à 360°. Ces paramètres définissent son aspect. Pour configurer un nouveau paramètre prédéfini de visionneuse à 360°, sélectionnez le bouton Configuration dans la barre de navigation globale. Dans l’écran de configuration, affichez les options Configuration de l’application, puis choisissez l’option Paramètres prédéfinis de la visionneuse.
+Les administrateurs peuvent créer des paramètres prédéfinis de visionneuse à 360°. Ces paramètres définissent son aspect. Pour configurer un nouveau paramètre prédéfini de visionneuse à 360°, sur la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 
-Sur l’écran Paramètres prédéfinis de la visionneuse, sélectionnez le menu Ajouter, puis dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, sélectionnez Visionneuse à 360°. Ensuite, sélectionnez des options sur l’écran Configurer la visionneuse.
+Sur la page Paramètres prédéfinis de la visionneuse, cliquez sur **[!UICONTROL Ajouter]**, puis sélectionnez **[!UICONTROL Visionneuse à 360°]** dans la liste déroulante, puis cliquez sur **[!UICONTROL Ajouter]**. Sélectionnez des options dans la page Configurer la visionneuse, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 Voir [Configuration des paramètres prédéfinis de la visionneuse à 360°](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
-**5. Prévisualisation d’une visionneuse à 360°**
+## 5. Prévisualisation d’une visionneuse à 360°
 
-Sélectionnez la visionneuse à 360° dans le panneau de navigation, puis cliquez sur son bouton de prévisualisation en survol. Dans l’écran de prévisualisation, maintenez le bouton de la souris enfoncé et faites glisser le pointeur vers la gauche ou la droite pour faire tourner visuellement l’élément.
+Sélectionnez votre visionneuse à 360° dans le panneau de navigation, puis cliquez sur **[!UICONTROL Prévisualisation]**. Sur la page Prévisualisation, maintenez le bouton de la souris enfoncé et faites glisser le pointeur vers la gauche ou la droite pour &quot;faire tourner&quot; visuellement l’élément.
 
 Voir [Prévisualisation d’une visionneuse à 360°](previewing-spin-set.md#previewing-a-spin-set).
 
-**6. Publication d’une visionneuse à 360°**
+## 6. Publication d’une visionneuse à 360°
 
 Lorsque vous publiez une visionneuse à 360°, elle est placée sur les serveurs Dynamic Media Classic afin d’être diffusée de manière dynamique sur votre site Web ou dans votre application. Elle active également la chaîne URL qui appelle la visionneuse à 360° depuis les serveurs Dynamic Media Image Server vers votre site Web ou votre application.
 
-Pour publier une visionneuse à 360°, marquez-la pour publication en sélectionnant l’icône **Marquer pour publication** en regard de son nom dans le panneau de navigation. Cliquez sur **Publier** dans la barre de navigation globale pour lancer une publication. Dans l’écran Publier, cliquez sur **Envoyer la publication**.
+Pour publier une visionneuse à 360°, marquez-la pour publication en sélectionnant l’icône **[!UICONTROL Marquer pour publication]** en regard de son nom dans le panneau de navigation. Sur la barre de navigation globale, cliquez sur **[!UICONTROL Publier]** pour lancer une publication. Dans l’écran Publier, cliquez sur **[!UICONTROL Envoyer la publication]**.
 
 Voir [Publication d’une visionneuse à 360°](publishing-spin-set.md#publishing-a-spin-set).
 
-**7. Liaison d’une visionneuse à 360° à une page Web**
+## 7. Liaison d’une visionneuse à 360° à une page Web
 
-Dynamic Media Classic crée des chaînes d’appel URL pour les visionneuses à 360° et les active après leur publication. Vous pouvez copier ces chaînes URL depuis l’écran de prévisualisation.
+Dynamic Media Classic crée des chaînes d’appel URL pour les visionneuses à 360° et les active après leur publication. Vous pouvez copier ces URL à partir de la page de Prévisualisation.
 
-Sélectionnez la visionneuse à 360°, puis cliquez sur **Prévisualisation**. L’écran de prévisualisation s’ouvre. Sélectionnez un paramètre prédéfini de visionneuse à 360°. Cliquez ensuite sur **Copier l’URL**.
+Sélectionnez la visionneuse à 360°, puis cliquez sur **[!UICONTROL Prévisualisation]**. Sélectionnez un paramètre prédéfini de visionneuse à 360°. Cliquez ensuite sur **[!UICONTROL Copier l’URL]**.
 
 Voir [Liaison d’une visionneuse à 360° à une page Web](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page).
