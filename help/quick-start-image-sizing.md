@@ -11,10 +11,10 @@ feature: Dynamic Media Classic,Gestion des ressources
 role: Business Practitioner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 54%
+source-wordcount: '844'
+ht-degree: 37%
 
 ---
 
@@ -24,48 +24,46 @@ Le dimensionnement des images fait référence à la capacité de Dynamic Media 
 
 * Vous n’êtes pas tenu de créer manuellement plusieurs copies de l’image selon différentes tailles. Vous fournissez une image originale à Dynamic Media Classic, et Dynamic Media Classic génère des dérivés de différentes tailles à partir de l’image originale.
 * Vous pouvez rapidement modifier la taille d’un type d’image sur votre site Web ou dans votre application. Par exemple, pour modifier toutes les images miniatures, vous pouvez modifier le paramètre d’image prédéfini « miniature ». Un paramètre d’image prédéfini s’apparente à une macro ; il représente un ensemble d’attributs de taille et de formatage. Vous pouvez modifier le paramètre d’image prédéfini « miniature » en vue de changer la taille de toutes les images miniatures de votre site Web ou de votre application.
-* Vous n’êtes pas tenu de gérer les images originales et l’ensemble des images dérivées dans vos systèmes de gestion de contenu, en interne ou en externe.
+* Il n’est pas nécessaire de gérer les maîtres et tous les dérivés dans vos systèmes de gestion de contenu ou de ressources internes ou externes.
 
 ![Vous pouvez créer plusieurs images dérivées de tailles différentes à partir du même fichier original haute résolution.](/help/assets/is_derivative_sizes_popup.png)
 
-**Début rapide**
-
 Ce Début rapide de dimensionnement d’image est conçu pour vous aider à maîtriser rapidement les techniques de dimensionnement d’image dans Dynamic Media Classic. Suivez les étapes 1 à 5. A la fin de chaque étape, un renvoi vous permet d’obtenir davantage d’informations, si nécessaire.
 
-**1. Téléchargement des images originales**
+## 1. Téléchargement des images originales
 
-Début en téléchargeant vos images originales dans Dynamic Media Classic. En ce qui concerne la taille, Dynamic Media Classic recommande d’utiliser des images de la taille la plus grande que vous prévoyez d’utiliser sur votre site Web ou dans votre application. Par exemple, si vous souhaitez que les visionneuses effectuent un zoom, téléchargez des images dont la dimension la plus grande correspond au moins à 2 000 pixels. Dynamic Media Classic prend en charge de nombreux formats de fichier d’images, mais les images TIFF et PNG sans perte sont recommandées.
+Début en téléchargeant vos images originales dans Dynamic Media Classic. En ce qui concerne la taille, Dynamic Media Classic recommande d’utiliser des images de la taille la plus grande que vous prévoyez d’utiliser sur votre site Web ou dans votre application. Par exemple, si vous souhaitez que les visionneuses effectuent un zoom sur les images, téléchargez des images d’au moins 2 000 pixels de la taille la plus grande. Dynamic Media Classic prend en charge de nombreux formats de fichier d’images, mais les images TIFF et PNG sans perte sont recommandées.
 
-Sélectionnez le bouton Télécharger de la barre de navigation globale pour télécharger des fichiers de votre ordinateur vers un dossier de Dynamic Media Classic. (voir [Téléchargement des images originales](uploading-master-images.md#uploading_master_images)).
+Sur la barre de navigation globale, cliquez sur **[!UICONTROL Télécharger]** pour télécharger des fichiers de votre ordinateur vers un dossier de Dynamic Media Classic. (voir [Téléchargement des images originales](uploading-master-images.md#uploading_master_images)).
 
-**2. Configuration des paramètres d’image prédéfinis**
+## 2. Configuration des paramètres d’image prédéfinis
 
 Semblable à une macro, un paramètre d’image prédéfini est un ensemble de commandes prédéfinies de taille et de formatage enregistrées sous un nom. Un paramètre d’image prédéfini régit la taille et le formatage des images diffusées à partir des serveurs Dynamic Media Image Server. Vous pouvez définir vous-même des paramètres d’image prédéfinis si vous avez le statut d’administrateur. Dynamic Media Classic est également fourni avec des paramètres d’image prédéfinis par défaut et vous pouvez les utiliser pour diffuser des images de manière dynamique.
 
-Pour créer un paramètre prédéfini d’image (si vous êtes administrateur), choisissez Configuration > Configuration de l’application. Dans l’écran qui apparaît, affichez les options Configuration de l’application, puis choisissez l’option Paramètres d’image prédéfinis. Cliquez ensuite sur **Ajouter** ou **Modifier** pour créer un paramètre d’image prédéfini.
+Pour créer un paramètre d’image prédéfini (si vous êtes un administrateur), dans la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres d’image prédéfinis]**. Cliquez ensuite sur **[!UICONTROL Ajouter]** pour créer un paramètre d’image prédéfini ou sur **[!UICONTROL Modifier]** pour modifier un paramètre d’image prédéfini existant.
 
-Le paramètre créé est ajouté au menu Paramètres d’image prédéfinis dans l’écran de prévisualisation. Vous pouvez utiliser le nouveau paramètre d’image prédéfini pour afficher des images dynamiquement sur vos sites Web et dans vos applications (voir [Configuration des paramètres d’image prédéfinis](setting-image-presets.md#setting_up_image_presets)).
+Le paramètre d’image prédéfini que vous créez est ajouté au menu Paramètres d’image prédéfinis de la page Prévisualisation. Vous pouvez utiliser le nouveau paramètre d’image prédéfini pour afficher des images dynamiquement sur vos sites Web et dans vos applications (voir [Configuration des paramètres d’image prédéfinis](setting-image-presets.md#setting_up_image_presets)).
 
-**Cookie. Prévisualisation des paramètres d’image prédéfinis**
+## 3. Prévisualisation des paramètres d’image prédéfinis
 
 L’étape suivante consiste à prévisualiser les paramètres d’image prédéfinis que votre administrateur a configurés selon différentes tailles.
 
-Pour explorer les paramètres d’image prédéfinis, cliquez sur **Configuration** > **Paramètres d’image prédéfinis**, puis recherchez un paramètre d’image prédéfini.
+Pour explorer les paramètres d’image prédéfinis, sur la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres d’image prédéfinis]**, puis recherchez un paramètre d’image prédéfini.
 
-Testez les différents paramètres d’image prédéfinis. Découvrez l’apparence de votre image lorsqu’elle est diffusée dynamiquement vers votre site Web ou votre application, selon différentes tailles.
+Testez les différents paramètres d’image prédéfinis. Découvrez comment votre image s’affiche lorsqu’elle est diffusée dynamiquement sur votre site Web ou dans votre application, selon différentes tailles.
 
 Voir [Prévisualisation d’un fichier d’image en fonction de son paramètre d’image prédéfini](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset).
 
-**4. Publication de vos images originales**
+## 4. Publication des images originales
 
 La publication des fichiers d’images originaux présente deux objectifs essentiels :
 
 * Publication des images originales sur les serveurs Dynamic Media Image Server afin que les images puissent être diffusées de manière dynamique sur votre site Web et dans votre application.
 * La publication active les chaînes URL pour l’appel d’images depuis les serveurs Dynamic Media Image Server vers votre site Web ou votre application. Après la publication, vous pouvez copier et placer les URL générées par Dynamic Media Classic lorsque cela s’avère nécessaire sur votre site Web ou dans votre application.
 
-Cliquez sur le bouton Publier dans la barre de navigation globale pour lancer une publication. Dans la boîte de dialogue Publier, cliquez sur **[!UICONTROL Envoyer la publication]**. (voir [Publication des images originales](publishing-master-images.md#publishing_master_images)).
+Sur la barre de navigation globale, cliquez sur **[!UICONTROL Publier]** pour début d’une tâche de publication. Dans la boîte de dialogue Publier, cliquez sur **[!UICONTROL Envoyer la publication]**. (voir [Publication des images originales](publishing-master-images.md#publishing_master_images)).
 
-**5. Liaison des URL à une application Web:**
+## 5. Liaison d’URL à une application Web
 
 Dynamic Media Classic crée des chaînes d’appel URL pour les images. Lorsque vous publiez des images sur les serveurs Dynamic Media Image Server, les URL deviennent principales. Vous pouvez copier ces chaînes URL à partir du panneau de navigation (Affichage des détails) ou de l’écran de prévisualisation. Une fois que vous avez copié les chaînes URL, vous pouvez les utiliser dans votre site Web et vos applications. L’URL de dimensionnement d’image remplace la référence à un nom d’image statique dans votre code de page Web. L’URL référence un nom d’image originale, qui est remplacé par votre base de données pour chaque nouvelle image à afficher.
 
