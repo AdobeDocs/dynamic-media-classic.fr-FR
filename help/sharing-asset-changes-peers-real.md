@@ -7,22 +7,22 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
-feature: Dynamic Media Classic,Asset Management,Collaboration
+feature: Dynamic Media Classic,Gestion des ressources,Collaboration
 role: Administrator,Business Practitioner
+exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 68%
+source-wordcount: '280'
+ht-degree: 50%
 
 ---
-
 
 # Partage de modifications de fichier en temps réel avec des pairs{#sharing-asset-changes-with-peers-in-real-time}
 
 Avec plusieurs copies de Dynamic Media Classic s’exécutant sur un ou plusieurs ordinateurs de la même société, les actions suivantes de tout client Dynamic Media Classic sont mises à jour en temps réel avec tous les clients pairs :
 
-* Edition d’un fichier (zone de création, éditeur d’images, etc.)
+* Modification d’un fichier (créateur, éditeur d’images, etc.)
 * Modification du nom d’un fichier
 * Suppression d’un fichier
 * Déplacement d’un fichier
@@ -33,6 +33,6 @@ Une fois une modification apportée au client d’origine, tous les clients pair
 
 Lorsque vous vous connectez, vous êtes invité à autoriser ou à refuser les mises à jour des pairs. Vous pouvez « mémoriser » votre choix afin que la question ne vous soit plus posée par la suite. Pour annuler votre choix, supprimez le site concerné dans le panneau Mise en réseau coopérative.
 
-Si vous éditez un fichier modifié par un pair, vous êtes invité à intégrer la modification dans la zone de création ou l’éditeur. Si vous acceptez, la zone de création ou l’éditeur ignore toutes vos modifications et importe le fichier modifié par le pair. Si vous refusez, le fichier reste tel quel dans la zone de création ou l’éditeur, et toutes les modifications que vous avez apportées sont conservées au cours de cette session.
+Si vous éditez un fichier modifié par un pair, vous êtes invité à intégrer la modification dans la zone de création ou l’éditeur. Si vous sélectionnez **[!UICONTROL Oui]**, le créateur ou l’éditeur ignore toutes les modifications apportées à la ressource et importe la ressource mise à jour. Si vous sélectionnez **[!UICONTROL Non]**, la ressource reste inchangée dans le créateur ou l’éditeur et toutes les modifications que vous avez apportées sont conservées au cours de cette session.
 
 Au moment d’enregistrer le fichier, vous êtes informé qu’il existe une nouvelle version et êtes invité à remplacer cette version par la vôtre.
