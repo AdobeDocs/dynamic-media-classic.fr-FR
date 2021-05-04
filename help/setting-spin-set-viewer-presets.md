@@ -7,43 +7,41 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
-feature: Dynamic Media Classic,Viewers,Spin Sets,Viewer Presets
+feature: Dynamic Media Classic, Visionneuses, Visionneuses à 360°, Paramètres prédéfinis de la visionneuse
 role: Business Practitioner
+exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
 workflow-type: tm+mt
 source-wordcount: '240'
-ht-degree: 72%
+ht-degree: 31%
 
 ---
-
 
 # Configuration des paramètres prédéfinis de la visionneuse à 360°{#setting-up-spin-set-viewer-presets}
 
 Les paramètres prédéfinis de la visionneuse à 360° définissent le style, le comportement et l’aspect des visionneuses. Dynamic Media Classic est fourni avec les paramètres prédéfinis de la visionneuse à 360° par défaut. Si vous êtes un administrateur, vous pouvez créer vos propres paramètres prédéfinis de visionneuse à 360°. Vous pouvez configurer un paramètre prédéfini de visionneuse à 360° avec des couleurs, des bordures, des polices et des paramètres d’image différents.
 
-Pour créer des paramètres prédéfinis de visionneuse à 360°, procédez comme suit :
+**Pour créer un paramètre prédéfini de visionneuse à 360° :**
 
-1. Cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
+1. Sur la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 1. Effectuez l’une des opérations suivantes :
 
-   * Pour créer un paramètre prédéfini, cliquez sur **Ajouter**, puis, dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme et cliquez sur **Visionneuse à 360°**.
-   * Pour modifier un paramètre prédéfini existant de visionneuse à 360°, sélectionnez-le et cliquez sur **Modifier**.
+   * Pour créer un paramètre prédéfini, cliquez sur **[!UICONTROL Ajouter]**, puis, dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme, puis cliquez sur **[!UICONTROL Visionneuse à 360°]**.
+   * Pour modifier un paramètre prédéfini existant de visionneuse à 360°, sélectionnez-le, puis cliquez sur **[!UICONTROL Modifier]**.
 
-   L’écran Configurer la visionneuse apparaît.
+1. Sur la page Configurer la visionneuse, saisissez un nom dans la zone Nom du paramètre prédéfini de la visionneuse à 360°.
+1. Spécifiez les autres options voulues. Pour obtenir la description d’une option, cliquez sur l’icône **[!UICONTROL Info-bulle]** en regard de l’option.
 
-1. Attribuez un nom au paramètre prédéfini de la visionneuse à 360° dans la zone Nom du paramètre prédéfini.
-1. Spécifiez les autres options voulues. Pour obtenir la description d’une option, cliquez sur l’icône d’information  adjacente.
+   La page Prévisualisation affiche la visionneuse à mesure que vous mettez à jour et modifiez les paramètres.
 
-   L’écran de prévisualisation affiche la visionneuse à mesure que vous actualisez et modifiez les paramètres.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Cliquez sur **Enregistrer**.
+Cliquez sur **[!UICONTROL Définir comme valeur par défaut]** pour que le paramètre prédéfini de visionneuse à 360° que vous avez créé soit la société par défaut pour l’affichage des visionneuses à 360°.
 
-Cliquez sur Définir comme valeur par défaut pour que le paramètre prédéfini de visionneuse à 360° que vous avez créé devienne la configuration par défaut de la société pour l’affichage des visionneuses à 360°.
+Voir [Configuration par défaut des visionneuses](application-setup.md#configuring_default_viewers).
 
-Voir [Configuration des visionneuses par défaut](application-setup.md#configuring_default_viewers).
-
-Pour supprimer un paramètre prédéfini de visionneuse à 360°, sélectionnez-le dans l’écran Paramètres prédéfinis de la visionneuse, puis cliquez sur le bouton Supprimer.
+Pour supprimer un paramètre prédéfini de visionneuse à 360°, sélectionnez-le dans la page Paramètres prédéfinis de la visionneuse, puis cliquez sur **[!UICONTROL Supprimer]**.
 
 >[!MORELIKETHIS]
 >
