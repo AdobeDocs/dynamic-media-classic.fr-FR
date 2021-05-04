@@ -9,10 +9,10 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
 translation-type: tm+mt
-source-git-commit: ed39a8f7febe194a70fb00acbb9d346f6e9a57ca
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 28%
+source-wordcount: '186'
+ht-degree: 25%
 
 ---
 
@@ -28,7 +28,7 @@ Les services d’assistance technique sont conçus pour répondre aux besoins de
 | Forum de la communauté | [Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community) de la communauté Experience Manager. |
 | SLA (contrats de niveau de service) | [Services d&#39;assistance / Conditions générales](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | Utilisateurs pris en charge | Jusqu’à dix utilisateurs par organisation peuvent être désignés en tant qu’utilisateurs ayant souscrit un plan d’assistance, qui peuvent ouvrir des dossiers auprès du service d’assistance clientèle. |
-| Formation en ligne et en direct gratuite et didacticiels vidéo | Inclus. |
+| Vidéos de formation en ligne et d&#39;enseignement gratuites | Inclus. |
 | Assistance téléphonique | <ul><li>États-Unis et Canada : 1-800-497-0335 </li><li>[Numéros de téléphone pour les autres régions](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html).</li></ul> |
 
 <!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
