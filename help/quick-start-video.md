@@ -9,7 +9,7 @@ feature: Dynamic Media Classic, Visionneuses, Vidéo
 role: Business Practitioner
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 translation-type: tm+mt
-source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '1425'
 ht-degree: 43%
@@ -40,7 +40,9 @@ Pour la gestion de vidéos uniques et de visionneuses de vidéos adaptatives, Dy
 
    Lorsqu’une visionneuse de vidéos adaptative est générée, elle comprend des vidéos MP4.
 
-   `**Note:**` Les vidéos Principal/source et toute autre vidéo au format source  ** ne sont pas ajoutées à une visionneuse de vidéos adaptative.
+   >[!NOTE]
+   >
+   >Les vidéos Principal/source et toute autre vidéo au format source sont *non* ajoutées à une visionneuse de vidéos adaptative.
 
 * Le sous-titrage des vidéos dans les visionneuses Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark et Universal_HTML5_MixedMedia_light et la navigation dans les chapitres vidéo dans les visionneuses Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark et Universal_HTML5_MixedMedia_light.
 
