@@ -1,6 +1,6 @@
 ---
-title: Présentation de la plate-forme Adobe Dynamic Media Classic
-description: Présentation de la plateforme et du processus Dynamic Media Classic.
+title: Présentation du programme  Dynamic Media Classic Adobe
+description: Présentation du programme et du processus Dynamic Media Classic.
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
 contentOwner: admin
 content-type: reference
@@ -11,14 +11,14 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 31%
 
 ---
 
-# Présentation de la plate-forme Adobe Dynamic Media Classic{#adobe-scene-platform-overview}
+# Présentation du programme Dynamic Media Classic Adobe{#adobe-scene-platform-overview}
 
 Dynamic Media Classic est un environnement intégré de gestion, de publication et de diffusion des médias enrichis. Il est possible de diffuser le média enrichi sur tous les canaux de distribution et de vente, notamment le Web, les supports imprimés, les campagnes par e-mail, les portails Web, les bureaux et autres dispositifs.
 
