@@ -11,20 +11,20 @@ feature: Dynamic Media Classic,Gestion des ressources
 role: Business Practitioner
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 55%
+source-wordcount: '1027'
+ht-degree: 37%
 
 ---
 
 # Test des fichiers avant de les rendre publics {#testing-assets-before-making-them-public}
 
-Secure Testing vous permet de définir un environnement de test sécurisé et de créer des solutions B2B solides, basées sur un ensemble configurable de plages et d’adresses IP. Cette fonctionnalité vous permet de faire correspondre vos déploiements Dynamic Media Classic avec l’architecture de votre gestion de contenu et plateforme de commerce.
+Secure Testing vous permet de définir un environnement de test sécurisé et de créer une solution B2B robuste, basée sur un ensemble configurable d’adresses et de plages IP. Cette fonctionnalité vous permet d’associer vos déploiements Dynamic Media Classic à l’architecture de votre gestion de contenu et de votre système d’entreprise.
 
 Avec Secure Testing, vous pouvez prévisualiser la version intermédiaire du site Web avec le contenu non publié.
 
-Il se peut que vous préfériez créer un environnement intermédiaire plutôt que de publier des fichiers pour les raisons suivantes :
+Si vous le souhaitez, créez un environnement d’évaluation plutôt que de rendre les ressources publiques pour les raisons suivantes :
 
 * Aperçu des sites Web avant lancement public (site Web intermédiaire).
 * Servir les fichiers qui nécessitent un accès restreint, tels que les catalogues électroniques qui affichent des prix dans une application Web B2B.
@@ -42,13 +42,13 @@ Sur votre réseau d’entreprise, vous pouvez déterminer votre adresse IP publi
 
 Avec Secure Testing, Dynamic Media Classic établit un serveur d’images dédié pour les environnements d’évaluation ou les applications internes. Toute requête sur ce serveur vérifie l’adresse IP d’origine. Si la requête entrante n’est pas incluse dans la liste approuvée des adresses IP, une réponse d’échec est renvoyée. L’administrateur de la Société Dynamic Media Classic configure la liste approuvée des adresses IP pour l’environnement Secure Testing de leur société.
 
-L’emplacement de la requête d’origine devant être confirmé, le trafic du service Secure Testing n’est pas acheminé via un réseau de distribution de contenu tel que le trafic public du serveur Dynamic Media Image Server. Les requêtes envoyées au service Secure Testing peuvent présenter une latence légèrement plus élevée que les serveurs Dynamic Media Image Server publics.
+L’emplacement de la requête d’origine devant être confirmé, le trafic du service Secure Testing n’est pas acheminé via un réseau de distribution de contenu tel que le trafic public du serveur Dynamic Media Image Server. Les requêtes envoyées au service Secure Testing présentent une latence légèrement plus élevée que les serveurs Dynamic Media Image Server publics.
 
-Les fichiers non publiés sont immédiatement disponibles à partir des services Secure Testing, sans avoir besoin d’être publiés. Cela vous permet d’effectuer un aperçu avant que les fichiers ne soient publiés dans leur serveur d’images destiné au public.
+Les fichiers non publiés sont immédiatement disponibles à partir des services Secure Testing, sans avoir besoin d’être publiés. Ainsi, vous pouvez exécuter une prévisualisation avant que les fichiers ne soient publiés sur leur serveur d’images accessible au public.
 
 >[!NOTE]
 >
->Les services Secure Testing tirent parti du serveur de catalogue configuré avec un contexte de publication interne. Par conséquent, si votre société est configurée pour publier sur Secure Testing, n’oubliez pas que tout fichier téléchargé dans Dynamic Media Classic devient immédiatement disponible sur les services Secure Testing. Cela est vrai pour les fichiers marqués ou non pour publication au moment du transfert.
+>Les services Secure Testing utilisent le serveur de catalogue configuré avec un contexte de publication interne. Par conséquent, si votre société est configurée pour publier sur Secure Testing, les ressources transférées dans Dynamic Media Classic deviennent immédiatement disponibles sur les services Secure Testing. Cette fonctionnalité est vraie, que les ressources soient marquées pour publication au moment du téléchargement ou non.
 
 Les services Secure Testing prennent actuellement en charge les types et fonctionnalités de ressources suivants :
 
@@ -81,12 +81,13 @@ Les types de fichiers suivants et les fonctionnalités suivantes ne sont actuell
 
 ## Test du service Secure Testing {#testing-the-secure-testing-service}
 
-Vous devez tester le service Secure Testing pour vous assurer qu’il fonctionne correctement.
+Testez le service Secure Testing pour vous assurer qu’il fonctionne comme prévu.
 
-Remarque : Si vous ne mentionnez aucune adresse IP sous Configuration > Configuration de la publication > Image Server > Test Image Service
-si vous ajoutez une adresse IP uniquement, cette adresse IP pourra appeler les ressources et aucune autre adresse IP ne sera autorisée à effectuer les appels. Tant qu&#39;aucune IP n&#39;est mentionnée dans cette section, toutes les adresses IP sont autorisées à lancer des appels pour les ressources, et elles s&#39;afficheront.
+<!-- >[!NOTE]
+>
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]*** - If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
 
-**Préparation de votre compte**
+### Préparation de votre compte
 
 <!-- 
 
@@ -98,20 +99,20 @@ Last Modified Date:
 
  -->
 
-1. Contactez le support technique et demandez qu’il active Secure Testing dans votre compte.
-1. Dans Dynamic Media Classic, cliquez sur **Configuration** > **Configuration de la publication** > **Image Server**.
-1. Dans la liste déroulante Contexte de publication de la page Publication sur hébergeur d’images, sélectionnez **Test de l&#39;hébergeur d&#39;images**.
-1. Pour l’option Filtre d’adresse client, cliquez sur **Ajouter**.
-1. Cochez la case permettant d’activer l’adresse, puis saisissez une adresse IP et un masque de sous-réseau dans les champs correspondants.
+1. Contactez le service à la clientèle d’Adobe et demandez-lui d’activer Secure Testing sur votre compte.
+1. Dans Dynamic Media Classic, sur la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de la publication]** > **[!UICONTROL Image Server]**.
+1. Sur la page Publication sur hébergeur d’images, dans la liste déroulante **[!UICONTROL Contexte de publication]**, sélectionnez **[!UICONTROL Test Image Serving]**.
+1. Pour l’option Filtre d’adresse client, cliquez sur **[!UICONTROL Ajouter]**.
+1. Activez la case à cocher pour que l’adresse soit activée, puis entrez une adresse IP et un masque de réseau dans les champs de texte respectifs.
 
    >[!NOTE]
    >
-   >Si vous ajoutez une seule adresse IP et un seul masque de réseau, cette adresse peut effectuer des appels de ressources. Toutefois, les autres adresses IP et masques réseau que vous ajoutez ne sont pas autorisés à effectuer des appels de ressources. Par conséquent, vous pouvez envisager de désactiver (désactiver) la case à cocher de l’étape ci-dessus pour désactiver la possibilité de spécifier une adresse IP et un masque réseau. Cela permet à *toutes les* adresses IP de passer des appels de ressources, et elles apparaîtront toutes.
+   >Si vous ajoutez une seule adresse IP et un seul masque de réseau, cette adresse peut effectuer des appels de ressources. Toutefois, les autres adresses IP et masques réseau que vous ajoutez ne sont pas autorisés à effectuer des appels de ressources. Par conséquent, pensez à désactiver (désactiver) la case à cocher de l’étape ci-dessus pour désactiver la possibilité de spécifier une adresse IP et un masque de réseau. Cela permet à *toutes les* adresses IP de passer des appels de ressources, et elles s&#39;affichent toutes.
 
 1. Effectuez l’une des opérations suivantes :
-   * Répétez les deux étapes précédentes pour ajouter d’autres adresses IP.
+   * Répétez les deux étapes précédentes si vous devez ajouter d’autres adresses IP.
    * Passez à l’étape suivante.
-1. En bas à gauche de la page Publication sur hébergeur d’images, cliquez sur **Enregistrer**. 
+1. Dans le coin inférieur gauche de la page Publication sur hébergeur d’images, cliquez sur **[!UICONTROL Enregistrer]**.
 1. Téléchargez les images de votre choix sur votre compte Dynamic Media Classic.
 
    Voir [Transfert de fichiers](uploading-files.md#uploading_files).
@@ -120,25 +121,25 @@ Last Modified Date:
 
    Voir [Publication](publishing-files.md#publishing_files).
 
-1. Déterminez le nom de votre service Secure Testing en cliquant sur **Configuration** > **Configuration de l’application** > **Paramètres généraux**.
-1. A la page Paramètres généraux de l’application, sous le groupe Serveurs, recherchez le nom indiqué à droite de **Test de contexte de publication du nom du serveur**.
+1. Déterminez le nom de votre service Secure Testing en cliquant sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux]**.
+1. A la page Paramètres généraux de l’application, sous le groupe Serveurs, recherchez le nom indiqué à droite de **[!UICONTROL Test de contexte de publication du nom du serveur]**.
 
 Contactez le service à l’Adobe si le nom du serveur est absent ou si les URL vers le serveur ne fonctionnent pas.
 
-**Préparation des variations de site Web**
+### Préparation des variations de site Web
 
 Deux variations d’un site Web qui lie les fichiers publiés et non publiés sont nécessaires :
 
 * Version publique - Liez des fichiers à l’aide de votre syntaxe d’URL classique Dynamic Media Classic.
 * Version d’évaluation : liez les fichiers en utilisant la même syntaxe mais avec le nom du site Secure Testing.
 
-**Exécution des tests**
+### Exécution des tests
 
 Effectuez les tests suivants :
 
 1. Vérifiez si les fichiers sont visibles de l’intérieur de votre réseau d’entreprise.
 
-   Depuis le réseau d’entreprise identifié par la plage d’adresses IP précédemment définie, la version intermédiaire du site Web doit afficher toutes les images, qu’elles soient marquées pour publication ou non. Cela vous permet de tester sans rendre les images accidentellement disponibles avant approbation ou lancement du produit.
+   Depuis le réseau d’entreprise identifié par la plage d’adresses IP précédemment définie, la version intermédiaire du site Web affiche toutes les images, marquées ou non pour publication. Ainsi, vous pouvez tester sans rendre accidentellement les images disponibles avant l’approbation de la prévisualisation ou le lancement du produit.
 
    Confirmez que la version publique de votre site affiche les fichiers publiés comme vous l’avez vu précédemment avec Dynamic Media Classic.
 
