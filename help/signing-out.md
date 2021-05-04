@@ -7,14 +7,14 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 6%
+source-wordcount: '228'
+ht-degree: 7%
 
 ---
-
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
@@ -22,11 +22,9 @@ ht-degree: 6%
 
 Assurez-vous que vous disposez des éléments suivants avant d’utiliser l’application de bureau Dynamic Media Classic :
 
-* **Nom**
-d&#39;utilisateurVous utilisez votre adresse électronique comme nom de connexion.
+* **Nom**  d&#39;utilisateur : utilisez votre adresse de messagerie comme nom de connexion.
 
-* ****
-Mot de passeVous obtenez votre mot de passe temporaire dans un e-mail de bienvenue de Dynamic Media Classic ou de votre administrateur Dynamic Media Classic. Lors de votre première connexion, vous êtes invité à modifier ce mot de passe temporaire.
+* **Mot de passe**  - Vous obtenez votre mot de passe temporaire dans un e-mail de bienvenue de Dynamic Media Classic ou de votre administrateur Dynamic Media Classic. Lors de votre première connexion, vous êtes invité à modifier ce mot de passe temporaire.
 
 1. Ouvrez l’application de bureau Adobe Dynamic Media Classic.
 
@@ -47,7 +45,7 @@ Utilisez le mappage suivant pour sélectionner l’environnement de production �
 
 ## Déconnexion de l’Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. Dans le coin supérieur droit de l’application de bureau Dynamic Media Classic, appuyez sur **[!UICONTROL Déconnexion]**, puis de nouveau sur **[!UICONTROL Déconnexion]**.
+1. Dans le coin supérieur droit de l’application de bureau Dynamic Media Classic, appuyez sur **[!UICONTROL Déconnexion]**, puis appuyez de nouveau sur **[!UICONTROL Déconnexion]**.
 
 >[!MORELIKETHIS]
 >
