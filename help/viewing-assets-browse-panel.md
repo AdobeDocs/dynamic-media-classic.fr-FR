@@ -7,29 +7,26 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: feab1194-a98c-4a18-812c-7e2e537ca488
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestion des ressources
 role: Business Practitioner
+exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 65%
+source-wordcount: '245'
+ht-degree: 40%
 
 ---
-
 
 # Affichage des fichiers dans le panneau de navigation{#viewing-assets-in-the-browse-panel}
 
 Vous pouvez modifier l’affichage des fichiers dans le panneau de navigation en sélectionnant un bouton d’affichage :
 
-* **Affichage de la grilleSélectionnez le bouton Vue de la grille pour afficher les fichiers sous forme de miniatures dans une grille.**
-En mode Affichage de la grille, vous pouvez faire glisser le curseur de miniature pour modifier la taille des miniatures.
+* **Vue**  de grille - Près du coin supérieur droit de l’écran Dynamic Media Classic, cliquez sur l’icône  **[!UICONTROL Affichage de la grille]** pour afficher les fichiers sous forme de miniatures dans une grille. En mode Affichage de la grille, vous pouvez faire glisser le curseur de miniature pour modifier la taille des miniatures.
 
-* **Liste**
-vueSélectionnez le bouton de Vue de Liste pour afficher les ressources d&#39;une liste. La liste vous indique le nom, le type, la date de création et la date de la dernière modification de chaque fichier. Selon le type de fichier utilisé, d’autres informations s’affichent. Par exemple, vous pouvez voir les dimensions et la taille de fichier d’une image.
+* **Vue**  de liste - Près du coin supérieur droit de l’écran Dynamic Media Classic, cliquez sur l’icône de  **[!UICONTROL visionneuse de]** Listes pour afficher les ressources dans une liste. La liste vous indique le nom, le type, la date de création et la date de la dernière modification de chaque fichier. Selon le type de fichier utilisé, d’autres informations s’affichent. Par exemple, vous pouvez voir les dimensions et la taille de fichier d’une image.
 
-* **Affichage des détailsSélectionnez un fichier, puis cliquez sur le bouton Vue des détails pour examiner le fichier dans la vue des détails.**
-Vous pouvez également cliquer deux fois sur un fichier ou le sélectionner puis choisir la commande Fichier > Détails pour le voir dans une vue détaillée. Si l’administrateur a défini la préférence Afficher l’URL, les URL apparaissent pour tous les fichiers en mode Affichage des détails ; cependant, elles ne sont activées qu’une fois le fichier publié.
+* **Vue**  de détails - Sélectionnez un fichier. Près du coin supérieur droit de l’écran Dynamic Media Classic, cliquez sur **[!UICONTROL Vue de détails]** pour examiner le fichier dans la vue de détails. Vous pouvez également cliquer sur un fichier en doublon ou le sélectionner et cliquer sur **[!UICONTROL Fichier]** > **[!UICONTROL Détails]** pour le voir dans la vue de détails. Si votre administrateur a spécifié la préférence Afficher l’URL, les URL s’affichent pour tous les fichiers dans la vue de détails ; toutefois, les URL ne sont principales qu’une fois le fichier publié.
 
 >[!TIP]
 >
