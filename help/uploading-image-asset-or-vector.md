@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 translation-type: tm+mt
-source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 83%
+source-wordcount: '1497'
+ht-degree: 77%
 
 ---
-
 
 # Transfert d’un fichier d’image ou d’un fichier vectoriel{#uploading-an-image-asset-or-a-vector-asset}
 
@@ -29,7 +29,7 @@ Dans le message électronique, indiquez le nom d’entreprise que vous voulez ut
 
 Le *jeton de téléchargement* garantit que personne d’autre que vous n’utilisera la même clé de secret partagé pour télécharger des fichiers. Il garantit le caractère légitime et la fiabilité de la source du téléchargement.
 
-Le jeton de téléchargement est une chaîne numérique uniquement disponible pendant une durée limitée. Utilisez les URL suivantes, en substituant votre clé de secret partagé, pour obtenir le jeton de téléchargement.
+Le jeton de téléchargement est une chaîne numérique uniquement disponible pendant une durée limitée. Utilisez les URL suivantes, en substituant votre clé de secret partagé, afin de récupérer le jeton de téléchargement.
 
 * Image
    `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`Dans cet exemple, la clé de secret partagé est  `fece4b21-87ee-47fc-9b99-2e29b78b602`
@@ -43,7 +43,7 @@ Par défaut, le jeton de téléchargement arrive à expiration au terme d’un d
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-Dans le cas d’images, voici à quoi ressemble une réponse positive : 
+La réponse positive pour les images s’affiche comme suit :
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -82,7 +82,8 @@ Vous pouvez utiliser les champs suivants dans l’URL de requête pour récupér
 
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000`
 
-**Méthodes HTTP autorisées :** GET et POST
+**méthode HTTP autorisée:**
+`GET` et  `POST`
 
 Vous pouvez maintenant transférer un fichier d’image.
 
@@ -123,9 +124,10 @@ Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier
 * Jeton de téléchargement.
 * Taille limite de fichier.
 * Liste des extensions de nom de fichier.
-* Indique si le profil de couleur et le nom de fichier associés à la ressource doivent être conservés ou non.
-* Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les options Coin, Tolérance et Méthode de remplissage. Voir la section Arrière-plan de la section [Options d’édition d’images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
-* Nom du fichier à télécharger
+* Indique si le profil de couleur et le nom de fichier associés à la ressource doivent être conservés.
+* Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les options Coin, Tolérance et Méthode de remplissage.
+Reportez-vous à la section Masquage de l’arrière-plan dans [Options d’édition d’images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
+* Nom du fichier à télécharger.
 
 <!-- 
 
@@ -137,15 +139,11 @@ Last Modified Date:
 
  -->
 
-![]()
+Vous pouvez vue le code source HTML associé au formulaire ci-dessus en cliquant sur [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html).
 
-Vous pouvez vue le code source HTML associé au formulaire ci-dessus en cliquant sur le lien suivant :
+Dans Firefox, cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis cliquez sur **[!UICONTROL Vue Page Source]**. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **[!UICONTROL Envoyer]**.
 
-[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
-
-Dans Firefox, cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis cliquez sur **Vue Page Source**. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **Envoyer**.
-
-Pour afficher la réponse XML dans Internet Explorer, cliquez sur **Affichage > Source**. Pour vue de la réponse XML dans Firefox, cliquez sur **Outils > Développeur Web > Source de la page**. Firefox est recommandé pour afficher les réponses XML.
+Pour afficher la réponse XML dans Internet Explorer, cliquez sur **[!UICONTROL Affichage]** > **[!UICONTROL Source]**. Pour vue la réponse XML dans Firefox, cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Outils de navigateur]** > **[!UICONTROL Outils de développement Web]**. Firefox est recommandé pour afficher les réponses XML.
 
 Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi :
 
@@ -183,13 +181,13 @@ Envoyez le fichier à télécharger en tant que publication de formulaire ou en 
 
 | Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
 |--- |--- |--- |
-| op | Obligatoire | charger |
-| upload_token | Obligatoire | Jeton de téléchargement pour la clé de secret protégé associée à l’entreprise. |
-| company_name | Obligatoire | Nom de l’entreprise qui réalise le téléchargement. |
-| file_limit | Facultatif | Taille limite du fichier (en octets). |
-| file_exts | Facultatif | Liste des extensions de fichiers d’image autorisées. |
-| preserve_colorprofile | Facultatif | Conservation de tout profil de couleur incorporé avec conversion du fichier téléchargé au format PTIFF. Les valeurs possibles sont vrai ou faux. La valeur par défaut est faux. |
-| preserve_filename | Facultatif | Conservation du nom du fichier téléchargé. Les valeurs possibles sont vrai ou faux. La valeur par défaut est faux. |
+| `op` | Obligatoire | charger |
+| `upload_token` | Obligatoire | Jeton de téléchargement pour la clé de secret protégé associée à l’entreprise. |
+| `company_name` | Obligatoire | Nom de l’entreprise qui réalise le téléchargement. |
+| `file_limit` | Facultatif | Taille limite du fichier (en octets). |
+| `file_exts` | Facultatif | Liste des extensions de fichiers d’image autorisées. |
+| `preserve_colorprofile` | Facultatif | Conservation de tout profil de couleur incorporé avec conversion du fichier téléchargé au format PTIFF. Les valeurs possibles sont vrai ou faux. La valeur par défaut est faux. |
+| `preserve_filename` | Facultatif | Conservation du nom du fichier téléchargé. Les valeurs possibles sont vrai ou faux. La valeur par défaut est faux. |
 
 >[!NOTE]
 >
@@ -211,7 +209,7 @@ Vous pouvez utiliser `image_info` pour récupérer les métadonnées d’un fich
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
 ```
 
-Une réponse positive ressemble à ce qui suit :
+Voici un exemple de réponse réussie :
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -239,9 +237,9 @@ Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pou
 
 | Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
 |--- |--- |--- |
-| op | Obligatoire | image_info |
-| shared_secret | Obligatoire | La clé de secret partagé de l’entreprise. |
-| image_name | Obligatoire | Nom de l’image. |
+| `op` | Obligatoire | image_info |
+| `shared_secret` | Obligatoire | La clé de secret partagé de l’entreprise. |
+| `image_name` | Obligatoire | Nom de l’image. |
 
 **Exemple d’URL :**
 
@@ -286,9 +284,10 @@ Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier
 * Jeton de téléchargement.
 * Taille limite de fichier.
 * Liste des extensions de nom de fichier.
-* Indique si le profil de couleur et le nom de fichier associés à la ressource doivent être conservés ou non.
-* Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les options Coin, Tolérance et Méthode de remplissage. Voir la section Arrière-plan de la section [Options d’édition d’images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
-* Nom du fichier à télécharger
+* Indique si le profil de couleur et le nom de fichier associés à la ressource doivent être conservés.
+* Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les options Coin, Tolérance et Méthode de remplissage.
+Reportez-vous à la section Masquage de l’arrière-plan dans [Options d’édition d’images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
+* Nom du fichier à télécharger.
 
 <!-- 
 
@@ -300,9 +299,7 @@ Last Modified Date:
 
  -->
 
-![]()
-
-Le code HTML suivant correspondant au formulaire illustré ici est affiché lorsque vous cliquez avec le bouton droit de la souris dans la fenêtre de navigation, puis cliquez sur l’option **Afficher la source**. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **Envoyer**.
+Le code HTML suivant s’affiche lorsque vous cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis que vous cliquez sur **[!UICONTROL Source de la Vue]** pour le formulaire illustré dans l’exemple. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **[!UICONTROL Envoyer]**.
 
 ```as3
 <body> 
@@ -336,7 +333,7 @@ return true;
 </body>
 ```
 
-Pour afficher la réponse XML dans Internet Explorer, cliquez sur **Affichage** > **Source**. Pour afficher la réponse XML dans Firefox, cliquez sur **Affichage** > **Code source de la page**. Firefox est recommandé pour afficher les réponses XML.
+Pour afficher la réponse XML dans Internet Explorer, cliquez sur **[!UICONTROL Affichage]** > **[!UICONTROL Source]**. Pour vue de la réponse XML dans Firefox, cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Outils du navigateur]** > **[!UICONTROL Source de la page]**. Firefox est recommandé pour afficher les réponses XML.
 
 Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi :
 
@@ -366,7 +363,7 @@ Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi�
 >
 >le fichier transféré (AI, EPS, PDF, etc.) est converti au format FXG et un lien direct vers ce fichier FXG est envoyé dans la réponse.
 
-Ce fichier est semblable à n’importe quelle autre ressource d’impression en ligne ; vous pouvez lui appliquer des requêtes de traitement. Par exemple, l’URL suivante convertit une ressource FXG en image PNG 500 x 500.
+La ressource est semblable à toute autre ressource d&#39;impression en ligne ; vous lui appliquez des requêtes de traitement. Par exemple, l’URL suivante convertit une ressource FXG en image PNG 500 x 500.
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
@@ -376,11 +373,11 @@ Envoyez le fichier à télécharger en tant que publication de formulaire ou en 
 
 | Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
 |--- |--- |--- |
-| op | Obligatoire | charger |
-| upload_token | Obligatoire | Jeton de téléchargement pour la clé de secret protégé associée à l’entreprise. |
-| société_name | Obligatoire | Nom de l’entreprise qui réalise le téléchargement. |
-| file_limit | Facultatif | Taille limite du fichier (en octets). |
-| file_exts | Facultatif | Liste des extensions de fichiers autorisées. |
+| `op` | Obligatoire | charger |
+| `upload_token` | Obligatoire | Jeton de téléchargement pour la clé de secret protégé associée à l’entreprise. |
+| `company_name` | Obligatoire | Nom de l’entreprise qui réalise le téléchargement. |
+| `file_limit` | Facultatif | Taille limite du fichier (en octets). |
+| `file_exts` | Facultatif | Liste des extensions de fichiers autorisées. |
 
 >[!NOTE]
 >
