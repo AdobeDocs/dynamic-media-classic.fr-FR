@@ -11,10 +11,10 @@ feature: Dynamic Media Classic,Gestion des ressources
 role: Business Practitioner
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 translation-type: tm+mt
-source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 61%
+source-wordcount: '1160'
+ht-degree: 59%
 
 ---
 
@@ -33,19 +33,19 @@ Ces options se trouvent sur la page Télécharger sous Options de modification d
 
 ## Suppression de l’espace blanc des images
 
-Pour supprimer automatiquement d’une image les pixels représentant des espaces blancs, sélectionnez le menu Recadrer, puis choisissez Rogner. Ensuite, choisissez les options suivantes :
+Pour supprimer automatiquement d’une image les pixels représentant des espaces blancs, dans la boîte de dialogue Télécharger les options de la tâche, cliquez sur **[!UICONTROL Options de recadrage]**. Dans la liste déroulante **[!UICONTROL Recadrer]**, choisissez **[!UICONTROL Rogner]**. Ensuite, choisissez les options suivantes :
 
-* **Rogner selon**  : choisissez si vous souhaitez recadrer en fonction de la couleur ou de la transparence :
+* **Rogner en fonction**  de : dans cette liste déroulante, choisissez si vous souhaitez effectuer un rognage en fonction de la couleur ou de la transparence :
 
-* **Couleur**  - Choisissez l&#39;option  **** Colorage. Ensuite, dans la liste déroulante **[!UICONTROL Coin]**, sélectionnez l’angle de l’image présentant la couleur qui représente le mieux la couleur de l’espace blanc à rogner.
+   * **Couleur**  - Choisissez l&#39;option  **** Colorage. Ensuite, dans la liste déroulante **[!UICONTROL Coin]**, sélectionnez l’angle de l’image présentant la couleur qui représente le mieux la couleur de l’espace blanc à rogner.
 
-* **Transparence**  - Sélectionnez l&#39;option Transparence.
+   * **Transparence**  - Sélectionnez l&#39;option Transparence.
 
 * **Tolérance**  - Faites glisser le curseur pour spécifier une tolérance comprise entre 0 et 1 :
 
-* **Rognage en fonction de la couleur**  : indiquez 0 pour rogner les pixels uniquement s’ils correspondent exactement à la couleur que vous avez sélectionnée dans l’angle de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs.
+   * **Rognage en fonction de la couleur**  : indiquez 0 pour rogner les pixels uniquement s’ils correspondent exactement à la couleur que vous avez sélectionnée dans l’angle de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs.
 
-* **Rognage basé sur la transparence**  : indiquez 0 pour rogner les pixels uniquement s’ils sont transparents ; les valeurs plus proches de 1 permettent une plus grande transparence.
+   * **Rognage basé sur la transparence**  : indiquez 0 pour rogner les pixels uniquement s’ils sont transparents ; les valeurs plus proches de 1 permettent une plus grande transparence.
 
 ## Recadrage manuel à partir des côtés d’une image
 
