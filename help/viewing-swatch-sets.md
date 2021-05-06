@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
-feature: Dynamic Media Classic,Viewers
+feature: Dynamic Media Classic,Visionneuses
 role: Business Practitioner
+exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 71%
+source-wordcount: '454'
+ht-degree: 34%
 
 ---
-
 
 # Visualisation des séries d’échantillons{#viewing-swatch-sets}
 
@@ -28,41 +28,40 @@ Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneus
 
 Vous pouvez créer et personnaliser des paramètres prédéfinis de la visionneuse en fonction de vos besoins.
 
-1. Cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
+1. Sur la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 1. Effectuez l’une des opérations suivantes :
 
-   * Pour créer un paramètre prédéfini, cliquez sur **Ajouter**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme, sélectionnez Visionneuse de série d’échantillons, puis cliquez sur **Ajouter**.
-   * Pour modifier un paramètre prédéfini de visionneuse de série d’échantillons existant, sélectionnez-le, puis cliquez sur **Modifier**.
+   * Pour créer un paramètre prédéfini, cliquez sur **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter le paramètre prédéfini de la visionneuse, dans la liste déroulante Visionneuse, choisissez **[!UICONTROL Visionneuse de série d’échantillons]**, puis cliquez sur **[!UICONTROL Ajouter]**.
+   * Pour modifier un paramètre prédéfini de visionneuse de série d’échantillons existant, sélectionnez-le, puis cliquez sur **[!UICONTROL Modifier]**.
 
-1. Attribuez un nom au paramètre prédéfini de la visionneuse de série d’échantillons dans la zone Nom du paramètre prédéfini.
+1. Sur la page Configurer la visionneuse, dans le champ Nom du paramètre prédéfini, saisissez le nom du paramètre prédéfini de visionneuse de série d’échantillons.
 1. Sélectionnez des options dans l’écran Configurer la visionneuse.
 
-   Pour afficher la description d’une option, cliquez sur l’icône d’information en regard de l’option.
+   Pour obtenir la description d’une option, cliquez sur l’icône **[!UICONTROL Info-bulle]** située à droite de l’option.
 
-   L’écran de prévisualisation affiche la visionneuse à mesure que vous actualisez et modifiez les paramètres.
+   La page Prévisualisation affiche la visionneuse à mesure que vous mettez à jour et modifiez les paramètres.
 
-1. Cliquez sur **Enregistrer**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Prévisualisation des séries d’échantillons dans une visionneuse {#previewing-swatch-sets-in-a-viewer}
 
-La fonction Prévisualiser vous permet de vous faire une idée du rendu d’un fichier sur telle ou telle plateforme de type visionneuse, HTML5 par exemple. Notez que la fonction de prévisualisation ne contient pas toutes les plates-formes, selon le type de fichier et la visionneuse sélectionnés.
+Vous pouvez utiliser la Prévisualisation pour voir comment un fichier s’affiche sur un type particulier de visionneuse, tel que HTML5. En fonction du type de fichier et de la visionneuse que vous avez sélectionnée pour la prévisualisation, toutes les plates-formes de type de visionneuse ne sont pas disponibles dans la Prévisualisation.
 
-1. Dans la liste déroulante Afficher du panneau Bibliothèque de fichiers situé à gauche, sélectionnez un type de fichier basé sur une série d’échantillons, tel que Série d’échantillons.
+1. Dans le panneau Bibliothèque de fichiers situé à gauche, dans la liste déroulante **[!UICONTROL Afficher]**, sélectionnez un type de fichier basé sur une série d’échantillons tel que **[!UICONTROL Série d’échantillons]**.
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient la série d’échantillons à prévisualiser à l’aide d’une visionneuse.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **Affichage de la liste**. Dans la fenêtre Fichiers, déplacez le pointeur sur un fichier, puis cliquez sur **Prévisualiser**.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **Affichage de la grille**. Dans la fenêtre de miniature d’un fichier, cliquez sur **Prévisualiser**.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **Affichage des détails**. Dans cette même barre d’outils, cliquez sur **Prévisualiser**.
-   * Dans la fenêtre Fichiers, sélectionnez un fichier. Dans la barre d’outils, cliquez sur **Fichier** > **Prévisualisation**.
+   * Près du coin supérieur droit de la fenêtre Dynamic Media Classic, cliquez sur l’icône **[!UICONTROL Vue de Liste]**. Dans la fenêtre Fichiers, passez la souris sur un fichier, puis cliquez sur **[!UICONTROL Prévisualisation]** (et non sur la liste déroulante Prévisualisation).
+   * Près du coin supérieur droit de la fenêtre Dynamic Media Classic, cliquez sur l’icône **[!UICONTROL Vue de grille]**. Dans la fenêtre de miniature de fichier de la fenêtre Fichiers, cliquez sur **[!UICONTROL Prévisualisation]** (et non sur la liste déroulante Prévisualisation).
+   * Près du coin supérieur droit de la fenêtre Dynamic Media Classic, cliquez sur l’icône **[!UICONTROL Vue de détails]**. Sur la même barre d’outils, cliquez sur **[!UICONTROL Prévisualisation]** (et non sur la liste déroulante Prévisualisation).
 
 1. (Facultatif) Dans la liste déroulante située en bas de la fenêtre Prévisualiser, sélectionnez le codage d’URL à appliquer à l’URL du fichier au moment de la copie.
 1. Pour prévisualisation du fichier dans la visionneuse sélectionnée, cliquez sur un lien de visionneuse.
 
    Lorsque vous cliquez sur un lien de visionneuse donné, l’URL associée est automatiquement copiée dans le Presse-papiers.
 
-1. Pour revenir à l’écran de la Prévisualisation, fermez la visionneuse affichée.
-1. Cliquez sur **Fermer** pour revenir à l’écran Fichiers.
+1. Pour revenir à la visionneuse de Prévisualisations, fermez la visionneuse affichée.
+1. Cliquez sur **[!UICONTROL Fermer]** pour revenir à la page Ressources.
 
 >[!MORELIKETHIS]
 >
