@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic, Visionneuses, Visionneuses d’images
 role: Business Practitioner
+exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 80%
+source-wordcount: '493'
+ht-degree: 33%
 
 ---
-
 
 # Visualisation des visionneuses d’images{#viewing-image-sets}
 
@@ -28,41 +28,41 @@ Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneus
 
 Vous pouvez créer et personnaliser des paramètres prédéfinis de la visionneuse en fonction de vos besoins.
 
-1. Cliquez sur **Configuration** > **Paramètres prédéfinis de la visionneuse**.
-1. Pour créer ou modifier un paramètre prédéfini sur l’écran Paramètres prédéfinis de la visionneuse, procédez de l’une des manières suivantes :
+1. Sur la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
+1. Créez ou modifiez un paramètre prédéfini de visionneuse sur la page Paramètres prédéfinis de la visionneuse en procédant de l’une des manières suivantes :
 
-   **** Création d’un Ajoute de clic. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme, sélectionnez Visionneuse de zoom : personnalisée, puis cliquez sur Ajouter. Vous pouvez également créer un paramètre prédéfini de visionneuse de zoom à partir d’un paramètre existant. Affichez le nom du paramètre, sélectionnez-le, puis cliquez sur le bouton Editer. Sur l’écran Configurer la visionneuse, attribuez un nom au paramètre prédéfini.
+   * **Création**  - Cliquez sur  **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter le paramètre prédéfini de la visionneuse, dans la liste déroulante Visionneuse, choisissez **[!UICONTROL Visionneuse de zoom]**, puis cliquez sur **[!UICONTROL Ajouter]**. Vous pouvez également créer un paramètre prédéfini de visionneuse de zoom à partir d’un paramètre existant. Affichez le nom du paramètre prédéfini, sélectionnez-le, puis cliquez sur **[!UICONTROL Modifier]**. Sur la page Configurer la visionneuse, saisissez un nouveau nom pour le paramètre prédéfini.
 
-   **** ModificationAffichez le nom d’un paramètre prédéfini, sélectionnez-le, puis cliquez sur  **Modifier**.
+   * **Modification**  - Affichez le nom d&#39;un paramètre prédéfini, sélectionnez-le, puis cliquez sur  **[!UICONTROL Modifier]**.
 
-1. Sélectionnez des options dans l’écran Configurer la visionneuse.
+1. Sur la page Configurer la visionneuse, dans le champ Nom du paramètre prédéfini, saisissez le nom du paramètre prédéfini de visionneuse de série d’échantillons.
+1. Sélectionnez des options dans la page Configurer la visionneuse.
 
-   Pour afficher la description d’une option, cliquez sur l’icône d’information en regard de l’option.
+   Pour obtenir la description d’une option, cliquez sur l’icône **[!UICONTROL Info-bulle]** située à droite de l’option.
 
-   L’écran de prévisualisation affiche la visionneuse à mesure que vous actualisez et modifiez les paramètres.
+   La page Prévisualisation affiche la visionneuse à mesure que vous mettez à jour et modifiez les paramètres.
 
-1. Cliquez sur **Enregistrer** ou sur **Enregistrer sous**.
+1. Cliquez sur **[!UICONTROL Enregistrer]** ou sur **[!UICONTROL Enregistrer sous]**.
 
 ## Prévisualisation des fichiers d’une visionneuse d’images dans une visionneuse {#previewing-image-set-assets-in-a-viewer}
 
-La fonction Prévisualiser vous permet de vous faire une idée du rendu d’un fichier sur telle ou telle plateforme de type visionneuse, HTML5 par exemple. Notez que la fonction de prévisualisation ne contient pas toutes les plates-formes, selon le type de fichier et la visionneuse sélectionnés.
+Vous pouvez utiliser la Prévisualisation pour voir comment un fichier s’affiche sur un type particulier de visionneuse, tel que HTML5. Notez que la fonction de prévisualisation ne contient pas toutes les plates-formes, selon le type de fichier et la visionneuse sélectionnés.
 
-1. Dans la liste déroulante Afficher du panneau Bibliothèque de fichiers situé à gauche, sélectionnez Visionneuse d’images.
+1. Dans le panneau Bibliothèque de fichiers situé à gauche, dans la liste déroulante **[!UICONTROL Afficher]**, choisissez **[!UICONTROL Visionneuse d’images]**.
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, parcourez les dossiers de fichiers pour sélectionner la visionneuse d’images à prévisualiser.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **Affichage de la liste**. Dans la fenêtre Fichiers, passez la souris sur un fichier, puis cliquez sur **Prévisualisation**.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **Affichage de la grille**. Dans la fenêtre de miniature d’un fichier, cliquez sur **Prévisualiser**.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **Affichage des détails**. Dans cette même barre d’outils, cliquez sur **Prévisualiser**.
-   * Dans la fenêtre Fichiers, sélectionnez un fichier. Dans la barre d’outils, cliquez sur **Fichier** > **Prévisualisation**.
+   * Près du coin supérieur droit de la fenêtre Dynamic Media Classic, cliquez sur l’icône **[!UICONTROL Vue de Liste]**. Dans la fenêtre Fichiers, passez la souris sur un fichier, puis cliquez sur **[!UICONTROL Prévisualisation]** (et non sur la liste déroulante Prévisualisation).
+   * Près du coin supérieur droit de la fenêtre Dynamic Media Classic, cliquez sur l’icône **[!UICONTROL Vue de grille]**. Dans la fenêtre de miniature de fichier de la fenêtre Fichiers, cliquez sur **[!UICONTROL Prévisualisation]** (et non sur la liste déroulante Prévisualisation).
+   * Près du coin supérieur droit de la fenêtre Dynamic Media Classic, cliquez sur l’icône **[!UICONTROL Vue de détails]**. Sur la même barre d’outils, cliquez sur **[!UICONTROL Prévisualisation]** (et non sur la liste déroulante Prévisualisation).
 
 1. (Facultatif) Dans la liste déroulante située en bas de la fenêtre Prévisualiser, sélectionnez le codage d’URL à appliquer à l’URL du fichier au moment de la copie.
 1. Pour prévisualisation du fichier dans la visionneuse sélectionnée, cliquez sur un lien de visionneuse.
 
    Lorsque vous cliquez sur un lien de visionneuse donné, l’URL associée est automatiquement copiée dans le Presse-papiers.
 
-1. Pour revenir à l’écran de la Prévisualisation, fermez la visionneuse affichée.
-1. Cliquez sur **Fermer** pour revenir à l’écran Fichiers.
+1. Pour revenir à la page de Prévisualisation, fermez la visionneuse affichée.
+1. Cliquez sur **[!UICONTROL Fermer]** pour revenir à la page Ressources.
 
 >[!MORELIKETHIS]
 >
