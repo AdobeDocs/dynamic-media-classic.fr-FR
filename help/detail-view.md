@@ -11,10 +11,10 @@ feature: Dynamic Media Classic,Gestion des ressources
 role: Business Practitioner
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 70%
+source-wordcount: '612'
+ht-degree: 65%
 
 ---
 
@@ -32,7 +32,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
  -->
 
-![Vue Détails](/help/assets/image_0.img.png)
+![Affichage des détails ](/help/assets/image_0.img.png)
+*VueDétails avec le panneau Bibliothèque de fichiers masqué de la vue sur le côté gauche.*
 
 >[!NOTE]
 >
@@ -42,10 +43,10 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 Pour examiner en détail un fichier, le prévisualiser ou l’utiliser, choisissez l’option Affichage des détails. 
 
-1. Dans le panneau de navigation, effectuez l’une des opérations suivantes :
+1. Dans le panneau de navigation, effectuez l’une des opérations suivantes :
 
+   * Sélectionnez le fichier. Près du coin supérieur droit de Dynamic Media Classic, cliquez sur l’icône **[!UICONTROL Vue de détails]** .
    * Cliquez deux fois sur le fichier.
-   * Sélectionnez le fichier, puis cliquez sur **[!UICONTROL Vue de détails]**.
    * Sélectionnez le fichier, puis cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Détails]**.
 
 >[!NOTE]
