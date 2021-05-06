@@ -11,18 +11,20 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 translation-type: tm+mt
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 27%
+source-wordcount: '644'
+ht-degree: 25%
 
 ---
 
 # Navigation - Notions élémentaires{#navigation-basics}
 
-L’écran Dynamic Media Classic comprend trois zones principales : Barre de navigation globale, Bibliothèque de fichiers et panneau de navigation/de création.
+L’écran Dynamic Media Classic comprend trois zones principales : Barre de navigation globale, Bibliothèque de fichiers, onglet Filtres de fichiers, panneau de navigation/panneau de création et panier (Media Portal uniquement).
 
-![Navigation - Notions élémentaires](/help/assets/gs_navigation_basics_popup_popup.png)
+![Navigation ](/help/assets/gs_navigation_basics_popup_popup.png)
+*BasicsPrincipales*
+*zones Dynamic Media ClassicA) Barre de navigation globale B) Panneau Bibliothèque de fichiers C) Filtres de fichiers D) Panneau de navigation E) Panier (Media Portal uniquement)*
 
 ## Barre de navigation globale {#global-navigation-bar}
 
