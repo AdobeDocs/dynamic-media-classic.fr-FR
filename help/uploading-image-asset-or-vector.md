@@ -1,13 +1,12 @@
 ---
 title: Transfert d’un fichier d’image ou d’un fichier vectoriel
-description: Découvrez comment télécharger un fichier d’image ou un fichier vectoriel.
+description: Découvrez comment télécharger une ressource d’image ou vectorielle.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '1497'
@@ -19,17 +18,17 @@ ht-degree: 77%
 
 Avant de transférer un fichier d’image, vous devez d’abord demander une clé de secret partagé. Cette clé vous permet de récupérer un jeton de téléchargement. Vous utilisez ensuite le jeton de téléchargement pour transférer les fichiers d’image ou vectoriels.
 
-## Demande d’une clé de secret partagé  {#requesting-a-shared-secret-key}
+## Demande d’une clé de secret partagé {#requesting-a-shared-secret-key}
 
-Demandez une *clé de secret partagé* en utilisant [le Admin Console pour créer un dossier de support.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Dans votre cas d’assistance, demandez une clé de secret partagé.
+Demandez une *clé de secret partagé* par [à l’aide du Admin Console pour créer un cas de support.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Dans votre cas de prise en charge, demandez une clé de secret partagé.
 
-Dans le message électronique, indiquez le nom d’entreprise que vous voulez utiliser pour transférer les fichiers d’image. Après avoir reçu la clé de Dynamic Media Classic, enregistrez-la localement pour une utilisation ultérieure.
+Dans le message électronique, indiquez le nom d’entreprise que vous voulez utiliser pour transférer les fichiers d’image. Une fois que vous avez reçu la clé de Dynamic Media Classic, enregistrez-la localement pour une utilisation ultérieure.
 
 ## Récupération du jeton de téléchargement {#retrieving-the-upload-token}
 
 Le *jeton de téléchargement* garantit que personne d’autre que vous n’utilisera la même clé de secret partagé pour télécharger des fichiers. Il garantit le caractère légitime et la fiabilité de la source du téléchargement.
 
-Le jeton de téléchargement est une chaîne numérique uniquement disponible pendant une durée limitée. Utilisez les URL suivantes, en substituant votre clé de secret partagé, afin de récupérer le jeton de téléchargement.
+Le jeton de téléchargement est une chaîne numérique uniquement disponible pendant une durée limitée. Utilisez les URL suivantes, en substituant votre clé de secret partagé, afin que vous puissiez récupérer le jeton de chargement.
 
 * Image
    `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`Dans cet exemple, la clé de secret partagé est  `fece4b21-87ee-47fc-9b99-2e29b78b602`
@@ -37,13 +36,13 @@ Le jeton de téléchargement est une chaîne numérique uniquement disponible pe
 * Vecteur
    `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`Dans cet exemple, la clé de secret partagé est  `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
 
-Par défaut, le jeton de téléchargement arrive à expiration au terme d’un délai de cinq minutes (300 secondes) après sa récupération. Pour demander plus de temps, incluez `expires` dans l’URL et la durée requise en secondes. Par exemple, l’URL d’image suivante permet de récupérer un jeton de téléchargement valide pendant 1 800 secondes :
+Par défaut, le jeton de téléchargement arrive à expiration au terme d’un délai de cinq minutes (300 secondes) après sa récupération. Pour demander plus de temps, incluez `expires` dans l’URL et le temps nécessaire en secondes. Par exemple, l’URL d’image suivante permet de récupérer un jeton de téléchargement valide pendant 1 800 secondes :
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-La réponse positive pour les images s’affiche comme suit :
+La réponse réussie des images s’affiche comme suit :
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -82,14 +81,14 @@ Vous pouvez utiliser les champs suivants dans l’URL de requête pour récupér
 
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000`
 
-**méthode HTTP autorisée:**
+**Méthodes HTTP autorisées :**
 `GET` et  `POST`
 
 Vous pouvez maintenant transférer un fichier d’image.
 
 Voir [Téléchargement d’un fichier d’image](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Téléchargement d’un fichier d’image  {#uploading-an-image-asset}
+## Téléchargement d’un fichier d’image {#uploading-an-image-asset}
 
 Après avoir récupéré un jeton de téléchargement valide pendant une durée limitée, vous pouvez télécharger un fichier d’image. Vous téléchargez le fichier en tant que publication de formulaire ou publication en plusieurs parties tout en envoyant le reste des valeurs en tant que chaîne de requête d’URL, comme dans cet exemple :
 
@@ -124,9 +123,9 @@ Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier
 * Jeton de téléchargement.
 * Taille limite de fichier.
 * Liste des extensions de nom de fichier.
-* Indique si le profil de couleur et le nom de fichier associés à la ressource doivent être conservés.
-* Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les options Coin, Tolérance et Méthode de remplissage.
-Reportez-vous à la section Masquage de l’arrière-plan dans [Options d’édition d’images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
+* Permet de conserver le profil colorimétrique et le nom de fichier associés à la ressource.
+* Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les méthodes Coin, Tolérance et Remplir.
+Voir Masquer l’arrière-plan dans [Options d’édition d’images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nom du fichier à télécharger.
 
 <!-- 
@@ -139,11 +138,11 @@ Last Modified Date:
 
  -->
 
-Vous pouvez vue le code source HTML associé au formulaire ci-dessus en cliquant sur [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html).
+Vous pouvez afficher le code source HTML associé au formulaire ci-dessus en cliquant sur [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Dans Firefox, cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis cliquez sur **[!UICONTROL Vue Page Source]**. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **[!UICONTROL Envoyer]**.
+Dans Firefox, cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis cliquez sur **[!UICONTROL Afficher la source de la page]**. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **[!UICONTROL Envoyer]**.
 
-Pour afficher la réponse XML dans Internet Explorer, cliquez sur **[!UICONTROL Affichage]** > **[!UICONTROL Source]**. Pour vue la réponse XML dans Firefox, cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Outils de navigateur]** > **[!UICONTROL Outils de développement Web]**. Firefox est recommandé pour afficher les réponses XML.
+Pour afficher la réponse XML dans Internet Explorer, cliquez sur **[!UICONTROL Affichage]** > **[!UICONTROL Source]**. Pour afficher la réponse XML dans Firefox, cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Outils de navigateur]** > **[!UICONTROL Outils de développement web]**. Firefox est recommandé pour afficher les réponses XML.
 
 Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi :
 
@@ -201,7 +200,7 @@ Envoyez le fichier à télécharger en tant que publication de formulaire ou en 
 
 POST
 
-### Obtention des métadonnées de fichier pour des images  {#getting-asset-metadata-for-images}
+### Obtention des métadonnées de fichier pour des images {#getting-asset-metadata-for-images}
 
 Vous pouvez utiliser `image_info` pour récupérer les métadonnées d’un fichier que vous avez téléchargé, comme indiqué dans l’exemple suivant :
 
@@ -249,7 +248,7 @@ Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pou
 
 GET et POST
 
-## Transfert d’un fichier vectoriel  {#uploading-a-vector-asset}
+## Transfert d’un fichier vectoriel {#uploading-a-vector-asset}
 
 Après avoir récupéré un jeton de téléchargement valide pendant une durée limitée, vous pouvez transférer un fichier vectoriel. Vous téléchargez le fichier en tant que publication de formulaire ou publication en plusieurs parties tout en envoyant le reste des valeurs en tant que chaîne de requête d’URL, comme dans cet exemple :
 
@@ -284,9 +283,9 @@ Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier
 * Jeton de téléchargement.
 * Taille limite de fichier.
 * Liste des extensions de nom de fichier.
-* Indique si le profil de couleur et le nom de fichier associés à la ressource doivent être conservés.
-* Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les options Coin, Tolérance et Méthode de remplissage.
-Reportez-vous à la section Masquage de l’arrière-plan dans [Options d’édition d’images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
+* Permet de conserver le profil colorimétrique et le nom de fichier associés à la ressource.
+* Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les méthodes Coin, Tolérance et Remplir.
+Voir Masquer l’arrière-plan dans [Options d’édition d’images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nom du fichier à télécharger.
 
 <!-- 
@@ -299,7 +298,7 @@ Last Modified Date:
 
  -->
 
-Le code HTML suivant s’affiche lorsque vous cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis que vous cliquez sur **[!UICONTROL Source de la Vue]** pour le formulaire illustré dans l’exemple. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **[!UICONTROL Envoyer]**.
+Le code HTML suivant s’affiche lorsque vous cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis cliquez sur **[!UICONTROL Afficher la source]** pour le formulaire affiché dans l’exemple. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **[!UICONTROL Envoyer]**.
 
 ```as3
 <body> 
@@ -333,7 +332,7 @@ return true;
 </body>
 ```
 
-Pour afficher la réponse XML dans Internet Explorer, cliquez sur **[!UICONTROL Affichage]** > **[!UICONTROL Source]**. Pour vue de la réponse XML dans Firefox, cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Outils du navigateur]** > **[!UICONTROL Source de la page]**. Firefox est recommandé pour afficher les réponses XML.
+Pour afficher la réponse XML dans Internet Explorer, cliquez sur **[!UICONTROL Affichage]** > **[!UICONTROL Source]**. Pour afficher la réponse XML dans Firefox, cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Outils de navigateur]** > **[!UICONTROL Source de page]**. Firefox est recommandé pour afficher les réponses XML.
 
 Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi :
 
@@ -363,7 +362,7 @@ Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi�
 >
 >le fichier transféré (AI, EPS, PDF, etc.) est converti au format FXG et un lien direct vers ce fichier FXG est envoyé dans la réponse.
 
-La ressource est semblable à toute autre ressource d&#39;impression en ligne ; vous lui appliquez des requêtes de traitement. Par exemple, l’URL suivante convertit une ressource FXG en image PNG 500 x 500.
+La ressource est semblable à toute autre ressource d’impression en ligne ; vous lui appliquez des requêtes de traitement. Par exemple, l’URL suivante convertit une ressource FXG en image PNG 500 x 500.
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
