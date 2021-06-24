@@ -6,39 +6,38 @@ user-guide-title: Guide d’Adobe Dynamic Media Classic
 breadcrumb-title: Guide de Dynamic Media Classic
 user-guide-description: En savoir plus sur l’utilisation de Dynamic Media Classic
 index: y
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
 
-# Guide d’Adobe Dynamic Media Classic  {#using}
+# Guide d’Adobe Dynamic Media Classic {#using}
 
 + [Guide d’Adobe Dynamic Media Classic](home.md)
-+ [Didacticiel sur les meilleures pratiques](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NOUVEAUTÉ Connexion Dynamic Media Classic désormais disponible](new-ui-2020.md)
-+ [Bulletin Dynamic Media par Experience League](dynamic-media-newsletter.md)
-+ Présentation de l’Adobe Dynamic Media Classic {#intro}
-   + [Adobe de l&#39;application de bureau Dynamic Media Classic - Maintenant disponible](dynamic-media-classic-desktop-app.md)
-   + [A propos de l’aide Dynamic Media Classic](introduction.md)
++ [Tutoriel sur les bonnes pratiques](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [NOUVELLE expérience de connexion à Dynamic Media Classic désormais disponible](new-ui-2020.md)
++ [Newsletter Dynamic Media par Experience League](dynamic-media-newsletter.md)
++ Présentation d’Adobe Dynamic Media Classic {#intro}
+   + [Application de bureau Adobe Dynamic Media Classic - Maintenant disponible](dynamic-media-classic-desktop-app.md)
+   + [À propos de l’aide de Dynamic Media Classic](introduction.md)
    + [Ressources du développeur](developer-resources.md)
    + [Nouveautés](whats-new.md)
    + [Configuration système requise](system-requirements.md)
    + [Assistance](support.md)
-   + [Aide de Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
+   + [Aide pour Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Services de formation Adobe](training-services.md)
    + [Ressources populaires](popular-resources.md)
    + [Vidéos de formation](training-videos.md)
 + Démarrage rapide {#getting-started}
-   + [Présentation du programme  Dynamic Media Classic Adobe](dmc-platform-overview.md)
+   + [Présentation du programme Adobe Dynamic Media Classic](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Connexion et déconnexion](signing-out.md)
    + [Navigation - Notions élémentaires](navigation-basics.md)
    + [Configuration - Notions élémentaires](setup-basics.md)
-   + [Multimédia enrichi](rich-media.md)
+   + [Média enrichi](rich-media.md)
 + Configuration {#setup}
    + [Configuration personnelle](personal-setup.md)
    + [Configuration de l’application](application-setup.md)
@@ -47,7 +46,7 @@ ht-degree: 77%
    + [Configuration de l’administration](administration-setup.md)
 + Media Portal {#media-portal}
    + [Configuration système requise](system-requirements-1.md)
-   + [Début rapide : Portail multimédia](quick-start-media-portal-administration.md)
+   + [Démarrage rapide :  du portail multimédia](quick-start-media-portal-administration.md)
    + [Rôles utilisateur du portail multimédia](media-portal-user-roles.md)
    + [Création et gestion des groupes du portail multimédia](creating-media-portal-groups.md)
    + [Ajout et gestion des utilisateurs du portail multimédia](adding-media-portal-users.md)
@@ -57,22 +56,22 @@ ht-degree: 77%
    + [Optimisation de l’utilisation des métadonnées](making-efficient-metadata.md)
    + [Personnalisation de l’écran du portail multimédia](customizing-media-portal-screen.md)
 + Téléchargement et publication de fichiers {#upload-publish}
-   + [A propos du téléchargement et de la publication de fichiers](about-asset-upload-publish.md)
+   + [À propos du chargement et de la publication de ressources](about-asset-upload-publish.md)
    + [Téléchargement de fichiers](uploading-files.md)
    + [Publication de fichiers ](publishing-files.md)
    + [Test des fichiers avant de les rendre publics](testing-assets-making-them-public.md)
    + [Vérification de fichiers de tâche](checking-job-files.md)
 + Gestion des fichiers {#managing-assets}
-   + [A propos de la gestion des ressources](about-managing-assets.md)
+   + [À propos de la gestion des ressources](about-managing-assets.md)
    + [Utilisation de dossiers de fichiers](asset-folders.md)
-   + [Affichage des fichiers dans le panneau de navigation](viewing-assets-browse-panel.md)
-   + [Sélection de fichiers dans le panneau de navigation](selecting-assets-browse-panel.md)
+   + [Affichage des ressources dans le panneau de navigation](viewing-assets-browse-panel.md)
+   + [Sélection de ressources dans le panneau Parcourir](selecting-assets-browse-panel.md)
    + [Recherche de fichiers](searching-assets.md)
    + [Prévisualisation d’un fichier](previewing-asset.md)
    + [Déplacement, suppression et changement de nom de fichier](moving-renaming-deleting-assets.md)
    + [Utilisation de la vue Détails ](detail-view.md)
    + [Affichage, ajout et exportation de métadonnées](viewing-adding-exporting-metadata.md)
-   + [Exportation de fichiers à partir de Dynamic Media Classic](exporting-assets-from-dmc.md)
+   + [Exportation de ressources à partir de Dynamic Media Classic](exporting-assets-from-dmc.md)
    + [Partage de modifications de fichier en temps réel avec des pairs](sharing-asset-changes-peers-real.md)
    + [Impression de fichiers](printing-assets.md)
    + [Gestion du dossier Corbeille](trash-folder.md)
@@ -85,18 +84,18 @@ ht-degree: 77%
    + [Liaison des URL à une application Web](linking-urls-web-application.md)
 + Zoom {#zoom}
    + [Démarrage rapide : Zoom](quick-start-zoom.md)
-   + [Téléchargement des images de zoom](uploading-zoom-images.md)
+   + [Chargement des images de zoom](uploading-zoom-images.md)
    + [Création de cibles de zoom pour un zoom guidé](creating-zoom-targets-guided-zoom.md)
    + [Configuration des paramètres prédéfinis de la visionneuse de zoom](setting-zoom-viewer-presets.md)
-   + [Prévisualisation de fichiers d’image avec différentes visionneuses de zoom](previewing-image-assets-different-zoom.md)
+   + [Prévisualisation de ressources d’image avec différentes visionneuses de zoom](previewing-image-assets-different-zoom.md)
    + [Publication des images de zoom](publishing-zoom-images.md)
    + [Liaison des visionneuses de zoom à vos pages Web](linking-zoom-viewers-web-pages.md)
 + Catalogues électroniques {#ecatalogs}
-   + [Début rapide : Catalogues électroniques](quick-start-ecatalog.md)
+   + [Démarrage rapide : Catalogues électroniques](quick-start-ecatalog.md)
    + [Téléchargement des fichiers PDF](uploading-pdf-files.md)
    + [Création d’un catalogue électronique](creating-ecatalog.md)
    + [Création de zones cliquables dans un catalogue électronique](creating-ecatalog-image-maps.md)
-   + [Gestion du contenu du panneau d’informations dans les catalogues électroniques](info-panel-content.md)
+   + [Gestion du contenu du panneau Informations dans les catalogues électroniques](info-panel-content.md)
    + [Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique](setting-ecatalog-viewer-presets.md)
    + [Prévisualisation des catalogues électroniques dans la visionneuse de catalogue électronique](previewing-ecatalogs-ecatalog-viewer.md)
    + [Publication de catalogues électroniques et de fichiers PDF associés](publishing-ecatalogs-associated-pdfs.md)
@@ -106,7 +105,7 @@ ht-degree: 77%
    + [Préparation du téléchargement de fichiers de visionneuse d’images](preparing-image-set-assets-upload.md)
    + [Création d’une visionneuse d’images](creating-image-set.md)
    + [Inclusion de cibles de zoom et de zones cliquables dans les visionneuses d’images](including-zoom-targets-image-maps.md)
-   + [Gestion du contenu du panneau d’informations dans les visionneuses d’images](info-panel-content-1.md)
+   + [Gestion du contenu du panneau Informations dans les visionneuses d’images](info-panel-content-1.md)
    + [Visualisation des visionneuses d’images](viewing-image-sets.md)
    + [Génération automatique d’une visionneuse d’images](automated-image-set-generation.md)
    + [Liaison d’une visionneuse d’images à une page Web](linking-image-set-web-page.md)
@@ -147,8 +146,8 @@ ht-degree: 77%
    + [Création d’une visionneuse de supports variés](creating-mixed-media-set.md)
    + [Publication d’une visionneuse de supports variés](publishing-mixed-media-set.md)
    + [Liaison d’une visionneuse de supports variés à une page Web](linking-mixed-media-set-web.md)
-+ Kit d&#39;instrumentation Adobe Analytics {#analytics-kit}
-   + [Début rapide : Intégration de Dynamic Media Classic à Adobe Analytics](quick-start-integrating-dmc-analytics.md)
++ Kit d’instrumentation Adobe Analytics {#analytics-kit}
+   + [Démarrage rapide : Intégration de Dynamic Media Classic à Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Connexion à Adobe Analytics](log-analytics.md)
    + [Configuration des rapports Adobe Analytics](configuring-analytics-reports.md)
    + [Instrumentation d’une visionneuse avec le kit d’instrumentation Adobe Analytics](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -157,10 +156,10 @@ ht-degree: 77%
    + [Activation des rapports vidéo d’Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publication des informations de configuration d’Adobe Analytics](publishing-analytics-configuration-information.md)
 + Intégration d’Adobe Target Standard/Premium {#target-classic}
-   + [Début rapide : Intégration d’Adobe Target Standard/Premium](quick-start-target-integration.md)
+   + [Démarrage rapide : Intégration d’Adobe Target Standard/Premium](quick-start-target-integration.md)
    + [Intégration de Dynamic Media Classic à Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Création d’une visionneuse d’offres](creating-offer-set.md)
-   + [Pousser les jeux d’offres vers Adobe Target Standard/Premium](pushing-offer-sets-target.md)
+   + [Pousser des ensembles d’offres vers Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + Contenu généré par l’utilisateur {#user-generated-content}
    + [A propos du contenu généré par l’utilisateur](about-ugc.md)
    + [Suppression d’un fichier téléchargé](deleting-uploaded-asset.md)
