@@ -1,6 +1,6 @@
 ---
-title: '"Début rapide : Media Portal"'
-description: Présentation et Début rapide sur Media Portal pour vous aider à maîtriser rapidement les techniques et l’administration du portail multimédia.
+title: '"Démarrage rapide : Media Portal"'
+description: Présentation et démarrage rapide de Media Portal pour vous aider à maîtriser rapidement les techniques et l’administration de Media Portal.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,6 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Gestion des ressources
 role: Administrator,Business Practitioner
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-translation-type: tm+mt
 source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
 source-wordcount: '692'
@@ -20,9 +19,9 @@ ht-degree: 73%
 
 # Démarrage rapide :  du portail multimédia{#quick-start-media-portal}
 
-Media Portal permet aux sociétés d’acquérir, de contrôler et de distribuer facilement des fichiers approuvés à des partenaires et canaux externes, ainsi qu’à des utilisateurs internes d’une société. Cet environnement en libre-service basé sur un navigateur fournit aux utilisateurs du portail multimédia des &quot;vues&quot; contrôlées par l’administrateur dans les ressources Dynamic Media Classic pour un accès facile aux ressources Classic, la navigation, la recherche, la prévisualisation et l’exportation dans des formats approuvés par l’entreprise.
+Media Portal permet aux entreprises d’acquérir, de contrôler et de distribuer facilement des ressources approuvées à des partenaires et canaux externes, ainsi qu’aux utilisateurs internes d’une entreprise. Cet environnement en libre-service basé sur un navigateur fournit aux utilisateurs de Media Portal des &quot;vues&quot; contrôlées par l’administrateur des ressources Dynamic Media Classic pour un accès facile aux ressources, leur navigation, leur recherche, leur prévisualisation et leur exportation dans des formats approuvés par l’entreprise.
 
-En tant qu’administrateur, vous contrôlez la manière dont les utilisateurs visualisent, ouvrent et utilisent les fichiers disponibles dans le portail multimédia. Vous pouvez par ailleurs personnaliser l’interface du portail multimédia en fonction de votre site Web et de votre marque. Vous pouvez spécifier la police, la couleur de la police, la taille de la police et incorporer des éléments de marque tels que des logos dans l’interface du portail multimédia.
+En tant qu’administrateur, vous contrôlez la manière dont les utilisateurs visualisent, ouvrent et utilisent les fichiers disponibles dans le portail multimédia. Vous pouvez par ailleurs personnaliser l’interface du portail multimédia en fonction de votre site Web et de votre marque. Vous pouvez spécifier la police, la couleur de la police, la taille de la police et incorporer des éléments de marque tels que des logos dans l’interface de Media Portal.
 
 Cette section de démarrage rapide est conçue pour vous aider à maîtriser rapidement les opérations liées à l’administration du portail multimédia. À la fin de chaque étape, cliquez sur le lien de la rubrique pour en savoir plus.
 
@@ -46,7 +45,7 @@ Voir [Ajout et gestion des utilisateurs du portail multimédia](adding-media-por
 
 ## 4. Gestion des comptes FTP
 
-Vous pouvez disposer de comptes FTP distincts associés au portail multimédia et mappés à un dossier spécifique dans votre compte Dynamic Media Classic. Ce type de fonctionnalité signifie que vous pouvez autoriser les utilisateurs à télécharger des fichiers numériques sur votre compte en utilisant des comptes FTP distincts.
+Vous pouvez disposer de comptes FTP distincts associés à Media Portal et mappés à un dossier spécifique dans votre compte Dynamic Media Classic. Ce type de fonctionnalité signifie que vous pouvez autoriser les utilisateurs à télécharger des fichiers numériques sur votre compte en utilisant des comptes FTP distincts.
 
 Voir [Gestion des comptes FTP](ftp-accounts.md#managing_ftp_accounts).
 
@@ -74,8 +73,8 @@ Les métadonnées permettent de décrire et d’identifier un fichier ; elles s
 
 Voir [Optimisation de l’utilisation des métadonnées](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 
-## 8. Personnalisation de la page du portail multimédia
+## 8. Personnalisation de la page Media Portal
 
-Les paramètres de style du portail multimédia vous permettent de marquer la page du portail multimédia avec votre logo et vos couleurs de société. Utilisez les paramètres de style pour placer votre marque de société sur Media Portal.
+Les paramètres de style Media Portal vous permettent de personnaliser la page Media Portal avec le logo et les couleurs de votre entreprise. Utilisez les paramètres de style pour placer la marque de votre entreprise sur Media Portal.
 
 Voir [Personnalisation de la page Media Portal](customizing-media-portal-screen.md#customizing_the_media_portal_screen).
