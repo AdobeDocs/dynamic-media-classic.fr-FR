@@ -1,6 +1,6 @@
 ---
 title: Services de formation Adobe
-description: En savoir plus sur les Services de formation en Adobe.
+description: En savoir plus sur les services de formation des Adobes.
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,6 @@ discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: e2840200-246e-4c68-b10f-a66461f2a118
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '163'
@@ -20,7 +19,7 @@ ht-degree: 52%
 
 # Services de formation Adobe{#adobe-training-services}
 
-Dynamic Media Classic offres de formation sous forme de formation vidéo, d&#39;ateliers animés par des instructeurs et de sessions Web, et de démonstrations.
+Dynamic Media Classic offre des formations sous la forme de formations vidéo, d’ateliers dirigés par un instructeur, de sessions web et de démonstrations.
 
 ## Services de formation Adobe
 
@@ -30,12 +29,12 @@ Voir [Adobe Training Services](https://learning.adobe.com/)
 
 ## Démonstrations
 
-Regardez des démonstrations des fonctionnalités du lecteur Dynamic Media Classic.
+Regardez des démonstrations des fonctionnalités de la visionneuse Dynamic Media Classic.
 
 Voir [Démonstrations](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 ## Chapitre Démarrage rapide de l’aide
 
-La section Prise en main du système d’aide contient des instructions destinées aux utilisateurs qui découvrent Dynamic Media Classic. Il explique les bases du programme, de la navigation, de la configuration, de la gestion des ressources et de la création de médias enrichis.
+La section Prise en main du système d’aide contient des instructions destinées aux utilisateurs qui découvrent Dynamic Media Classic. Il explique les principes de base du programme, de la navigation, de la configuration, de la gestion des ressources et de la création de médias riches.
 
 (voir [Démarrage rapide](dmc-platform-overview.md)).
