@@ -10,7 +10,6 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '171'
@@ -20,7 +19,7 @@ ht-degree: 22%
 
 # Publication de modèles{#publishing-templates}
 
-Lorsque vous publiez votre modèle, il est placé sur les serveurs Dynamic Media Image Server où il est disponible pour votre site Web et votre application. Au cours du processus de publication, Dynamic Media Classic active les URL nécessaires à votre site Web et à votre application.
+Lorsque vous publiez votre modèle, il est placé sur les serveurs d’images Dynamic Media, où il est disponible pour votre site web et votre application. Pendant le processus de publication, Dynamic Media Classic active les URL dont vous avez besoin pour votre site web et votre application.
 
 >[!NOTE]
 >
@@ -28,14 +27,14 @@ Lorsque vous publiez votre modèle, il est placé sur les serveurs Dynamic Media
 
 ## Marquage des modèles pour publication {#marking-templates-for-publish}
 
-Les modèles et tous leurs fichiers de support doivent être marqués pour publication afin d’être placés sur les serveurs Dynamic Media Image Server. Vous pouvez marquer ces éléments pour publication dans le panneau de navigation en cliquant sur l’icône **[!UICONTROL Marquer pour publication]**.
+Les modèles et tous leurs fichiers de prise en charge doivent être marqués pour publication afin d’être placés sur les serveurs d’images Dynamic Media. Vous pouvez marquer ces éléments pour publication dans le panneau de navigation en cliquant sur l’icône **[!UICONTROL Marquer pour publication]** .
 
 ## Publication de votre modèle {#publishing-your-template}
 
-Pour publier des modèles sur les serveurs Dynamic Media Image Server, sur la barre de navigation globale, cliquez sur **[!UICONTROL Publier]**, puis sélectionnez une option **[!UICONTROL Quand]**. Vous pouvez éventuellement saisir un nom pour la tâche de publication. Cliquez sur **[!UICONTROL Lancer public.]**
+Pour publier des modèles sur les serveurs d’images Dynamic Media, dans la barre de navigation globale, cliquez sur **[!UICONTROL Publier]**, puis sélectionnez une option **[!UICONTROL Lorsque]**. Vous pouvez éventuellement saisir un nom pour la tâche de publication. Cliquez sur **[!UICONTROL Lancer public.]**
 
 >[!MORELIKETHIS]
 >
 >* [Marquage des fichiers pour publication](publishing-files.md#publish_after_uploading)
->* [Création d’une tâche de publication](publishing-files.md#creating_a_publish_job)
+* [Création d’une tâche de publication](publishing-files.md#creating_a_publish_job)
 
