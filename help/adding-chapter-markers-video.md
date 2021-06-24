@@ -1,22 +1,21 @@
 ---
 title: Ajout de marques de chapitre à la vidéo
-description: Découvrez comment ajouter des marques de chapitre à une vidéo.
+description: Découvrez comment ajouter des marqueurs de chapitre à une vidéo.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic,Visionneuses,Vidéo
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 82%
+source-wordcount: '624'
+ht-degree: 80%
 
 ---
-
 
 # Ajout de marques de chapitre à la vidéo{#adding-chapter-markers-to-video}
 
@@ -50,15 +49,15 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-Dans l’exemple ci-dessus, `Chapter 1` est l’identifiant de duplication et est facultatif. La période de réplication `00:00:000 --> 01:04:364` correspond aux heures de début et de fin du chapitre au format 00:00:000. Les trois derniers chiffres sont les millisecondes et peuvent être laissés sur 000, selon vos préférences. Le titre de chapitre de `The bicycle store behind it all` correspond à la description réelle du contenu du chapitre. L’identifiant de duplication, l’heure de départ, ainsi que le titre de chapitre s’affichent tous dans une fenêtre contextuelle du lecteur vidéo lorsqu’un utilisateur place le pointeur de la souris sur un point de repère visuel dans le montage de la vidéo.
+Dans l’exemple ci-dessus, `Chapter 1` est l’identifiant de repère et est facultatif. L’heure de repère `00:00:000 --> 01:04:364` spécifie l’heure de début et l’heure de fin du chapitre, au format 00:00:000. Les trois derniers chiffres sont les millisecondes et peuvent être laissés sur 000, selon vos préférences. Le titre du chapitre `The bicycle store behind it all` est la description réelle du contenu du chapitre. L’identifiant de duplication, l’heure de départ, ainsi que le titre de chapitre s’affichent tous dans une fenêtre contextuelle du lecteur vidéo lorsqu’un utilisateur place le pointeur de la souris sur un point de repère visuel dans le montage de la vidéo.
 
 Puisque vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fichier de chapitre que vous créez est conforme à la norme WebVTT (Web Video Text Tracks). L’extension du fichier de chapitre est .vtt. D’autres informations sont disponibles sur la norme de sous-titrage WebVTT.
 
-Voir [WebVTT: Format de suivi de texte de vidéo Web ](https://dev.w3.org/html5/webvtt/).
+Voir [WebVTT : Format de suivi de texte vidéo web ](https://dev.w3.org/html5/webvtt/).
 
 **Pour ajouter des marques de chapitre à la vidéo**
 
-1. A l’aide d’un éditeur de texte simple en dehors de Dynamic Media Classic, créez votre fichier de chapitre vidéo.
+1. À l’aide d’un éditeur de texte simple en dehors de Dynamic Media Classic, créez votre fichier de chapitres vidéo.
 
    >[!NOTE]
    >
@@ -66,9 +65,9 @@ Voir [WebVTT: Format de suivi de texte de vidéo Web ](https://dev.w3.org/html5/
 
 1. Enregistrer le fichier .vtt dans le codage UTF8 pour éviter tout problème lié au rendu des caractères dans le texte des titres de chapitres.
 
-   En règle générale, vous attribuez au fichier VTT de chapitre le même nom que le fichier vidéo et vous lui ajoutez `chapters`. En procédant ainsi, vous pouvez automatiser aisément la génération des URL de vidéo en utilisant le système de gestion de contenu Web existant.
+   En règle générale, vous attribuez au fichier de chapitres VTT le même nom que le fichier vidéo et lui ajoutez `chapters`. En procédant ainsi, vous pouvez automatiser aisément la génération des URL de vidéo en utilisant le système de gestion de contenu Web existant.
 
-1. Dans Dynamic Media Classic, téléchargez votre fichier de chapitre WebVTT.
+1. Dans Dynamic Media Classic, téléchargez votre fichier de chapitres WebVTT.
 
    Voir [Téléchargement de fichiers](uploading-files.md#uploading_files).
 
@@ -86,7 +85,6 @@ Voir [WebVTT: Format de suivi de texte de vidéo Web ](https://dev.w3.org/html5/
 
       Dans la boîte de dialogue du code intégré, cliquez sur **[!UICONTROL Copier dans le Presse-papiers]**.
 
-      Pour la visionneuse HTML5 `Universal_HTML5_Video`, ajoutez le code incorporé copié avec ce qui suit :
+      Pour la visionneuse HTML5 `Universal_HTML5_Video`, ajoutez le code intégré copié avec ce qui suit :
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
-
