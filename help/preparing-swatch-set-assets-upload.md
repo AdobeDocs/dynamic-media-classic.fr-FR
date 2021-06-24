@@ -1,22 +1,21 @@
 ---
 title: Préparation du téléchargement de fichiers de série d’échantillons
-description: Découvrez comment préparer des fichiers de série d’échantillons pour le téléchargement.
+description: Découvrez comment préparer le chargement de ressources de série d’échantillons.
 uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
-feature: Dynamic Media Classic,Viewers
+feature: Dynamic Media Classic,Visionneuses
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 90216519-4b14-4f8b-8e72-3d7ce9ec89ff
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '176'
 ht-degree: 82%
 
 ---
-
 
 # Préparation du téléchargement de fichiers de série d’échantillons{#preparing-swatch-set-assets-for-upload}
 
@@ -27,7 +26,7 @@ Pour créer une série d’échantillons, vous devez utiliser des vignettes ou d
 * Une prise de vue en noir, en marron et en vert de la même veste
 * Une nuance noire, marron et verte
 
-Etant donné qu’il est possible d’effectuer un zoom sur les images des séries d’échantillons, vérifiez que la dimension la plus grande des images correspond au moins à 2 000 pixels. Dynamic Media Classic prend en charge de nombreux formats de fichier d’images, mais les images TIFF, PNG et EPS sans perte sont recommandées.
+Etant donné qu’il est possible d’effectuer un zoom sur les images des séries d’échantillons, vérifiez que la dimension la plus grande des images correspond au moins à 2 000 pixels. Dynamic Media Classic prend en charge de nombreux formats de fichier image, mais les formats sans perte TIFF, PNG et EPS sont recommandés.
 
 Pour des instructions détaillées sur le téléchargement des fichiers, voir [Téléchargement de fichiers](uploading-files.md#uploading_files).
 
