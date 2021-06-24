@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestion des ressources
 role: Business Practitioner
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-translation-type: tm+mt
 source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
 source-wordcount: '553'
@@ -20,7 +19,7 @@ ht-degree: 86%
 
 # Modification d’une image{#adjusting-an-image}
 
-Dynamic Media Classic offre diverses commandes permettant de modifier l’aspect d’une image. Vous pouvez retourner, faire pivoter, rendre flou, modifier et coloriser une image ou modifier l’équilibre de ses couleurs. Faites des essais avec ces commandes pour constater leurs effets sur l’image en cours de traitement.
+Dynamic Media Classic propose différentes commandes pour ajuster l’aspect d’une image. Vous pouvez retourner, faire pivoter, rendre flou, modifier et coloriser une image ou modifier l’équilibre de ses couleurs. Faites des essais avec ces commandes pour constater leurs effets sur l’image en cours de traitement.
 
 Voir également [Création d’un alias pour une image](adjusting-image.md#creating_an_alias_for_an_image).
 
@@ -49,17 +48,17 @@ Voir également [Création d’un alias pour une image](adjusting-image.md#creat
 
       Cliquez sur **[!UICONTROL Enregistrer]**.
 
-   * Pour enregistrer l’image comme une autre vue de l’image originale. créez un alias pour cette image. Cliquez sur **[!UICONTROL Enregistrer sous]**.
+   * Pour enregistrer l’image comme une autre vue de l’image maître. créez un alias pour cette image. Cliquez sur **[!UICONTROL Enregistrer sous]**.
 
-      Dans la boîte de dialogue **[!UICONTROL Enregistrer sous]**, dans la liste déroulante, cliquez sur **[!UICONTROL Enregistrer en tant qu’autre vue de maître]**.
+      Dans la boîte de dialogue **[!UICONTROL Enregistrer sous]**, dans la liste déroulante, cliquez sur **[!UICONTROL Enregistrer en tant qu’autre vue du gabarit]**.
 
       Dans la zone de liste **[!UICONTROL Nom de dossier]**, sélectionnez le dossier où enregistrer la nouvelle image originale.
 
       Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Création d’un alias pour une image  {#creating-an-alias-for-an-image}
+## Création d’un alias pour une image {#creating-an-alias-for-an-image}
 
-Après avoir modifié une image, vous pouvez l’enregistrer comme une autre vue de l’image originale. Pour ce faire, créez un alias de l’image en utilisant la fonction **[!UICONTROL Enregistrer une vue supplémentaire de l’image originale]**.
+Une fois une image ajustée, vous pouvez l’enregistrer en tant qu’autre vue de l’image maître. Pour ce faire, créez un alias de l’image en utilisant la fonction **[!UICONTROL Enregistrer une vue supplémentaire de l’image originale]**.
 
 1. En mode Affichage de la grille ou Affichage de la liste, dans la liste déroulante **[!UICONTROL Modifier]** en regard d’une image pour laquelle vous souhaitez créer un alias, cliquez sur **[!UICONTROL Modifier]**.
 1. Dans le coin inférieur droit de la page, cliquez sur **[!UICONTROL Enregistrer sous]**.
