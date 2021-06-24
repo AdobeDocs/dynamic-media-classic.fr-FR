@@ -1,16 +1,15 @@
 ---
 title: Liaison d’une visionneuse d’images à une page Web
-description: Découvrez comment lier une visionneuse d’images à une page Web.
+description: Découvrez comment lier une visionneuse d’images à une page web.
 uuid: 8153a228-b2ec-4bc2-8996-266113a83df5
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
-feature: Dynamic Media Classic, Visionneuses, Visionneuses d’images
+feature: Dynamic Media Classic,Visionneuses,Visionneuses d’images
 role: Business Practitioner
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '686'
@@ -45,11 +44,11 @@ Après avoir publié une visionneuse d’images, vous pouvez copier son URL ou s
 
       Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **[!UICONTROL Copier l’URL]**.
 
-## Ajout d’URL de visionneuse d’images à une page Web  {#adding-image-set-urls-to-your-web-page}
+## Ajout d’URL de visionneuse d’images à une page Web {#adding-image-set-urls-to-your-web-page}
 
 La méthode la plus courante pour déployer les visionneuses d’images consiste à insérer un lien (par le biais d’une icône de navigation) dans votre page Web. Lorsque vous cliquez dessus, le lien lance une page dynamique (JSP) qui affiche la visionneuse d’images dans une fenêtre de zoom contextuelle. Le lien de zoom affiche une fenêtre contextuelle contenant l’affichage agrandi proprement dit.
 
-Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le Guide de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le Guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copie du code incorporé d’une visionneuse d’images {#copying-the-embed-code-of-an-image-set-viewer}
 
