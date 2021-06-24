@@ -1,16 +1,15 @@
 ---
 title: Publication d’une visionneuse de supports variés
-description: Découvrez comment publier une visionneuse de supports variés.
+description: Découvrez comment publier une visionneuse de médias mixtes.
 uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
-feature: Dynamic Media Classic, Visionneuses, Combiner des visionneuses de supports
+feature: Dynamic Media Classic,Visionneuses,Combiner des visionneuses de médias
 role: Business Practitioner
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '258'
@@ -20,13 +19,13 @@ ht-degree: 55%
 
 # Publication d’une visionneuse de supports variés{#publishing-a-mixed-media-set}
 
-Créez une tâche de publication pour publier une visionneuse de supports variés marquée pour publication sur un serveur de vidéo et un serveur d’images Dynamic Media Classic. Dynamic Media Classic offres propose des options de publication avancées pour des serveurs spécifiques et des options de republication de fichiers déjà publiés.
+Créez une tâche de publication pour publier une visionneuse de médias mixtes que vous avez marquée pour publication sur Dynamic Media Classic Video Server et Image Server. Dynamic Media Classic propose des options de publication avancées pour la publication sur des serveurs spécifiques et des options pour la republication de ressources qui ont déjà été publiées.
 
 >[!NOTE]
 >
->Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisez le **serveur de vidéo** pour publier les vidéos réelles que vous avez marquées pour publication Vous utilisez également **Image Server** pour publier des fichiers connexes, tels que les miniatures vidéo, et définir des informations pour toute visionneuse de vidéos adaptative.
+>Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisez le **serveur de vidéo** pour publier les vidéos réelles que vous avez marquées pour publication De plus, vous utilisez **Image Server** pour publier des ressources connexes, telles que les miniatures vidéo, et définir des informations pour toute visionneuse de vidéos adaptative.
 
-Dynamic Media Classic effectue le suivi des tâches de publication dans l’écran Tâches.
+Dynamic Media Classic effectue le suivi des tâches de publication sur l’écran Tâches .
 
 Voir [Publication](publishing-files.md#publishing_files).
 
@@ -52,12 +51,12 @@ Last Modified Date:
 1. (Facultatif) Dans le champ **[!UICONTROL Nom de la tâche]**, entrez un nom pour la tâche de publication.
 1. Dans les options **[!UICONTROL avancées]**, dans la liste déroulante **[!UICONTROL Publier vers]**, sélectionnez **[!UICONTROL Serveur de vidéo]**.
 
-   Voir [Options de publication avancées](publishing-files.md#advanced_publish_options) pour en savoir plus sur les options que vous pouvez définir.
+   Voir [Options de publication avancées](publishing-files.md#advanced_publish_options) pour plus d’options que vous pouvez définir.
 
 1. Cliquez sur **[!UICONTROL Lancer public.]**
 1. Répétez les étapes 2 à 4 ci-dessus.
 1. Dans les options **[!UICONTROL avancées]**, dans la liste déroulante **[!UICONTROL Publier vers]**, sélectionnez **[!UICONTROL Serveur d’images￼]**.
 
-   Voir [Options de publication avancées](publishing-files.md#advanced_publish_options) pour en savoir plus sur les options que vous pouvez définir.
+   Voir [Options de publication avancées](publishing-files.md#advanced_publish_options) pour plus d’options que vous pouvez définir.
 
 1. Cliquez sur **[!UICONTROL Lancer public.]**
