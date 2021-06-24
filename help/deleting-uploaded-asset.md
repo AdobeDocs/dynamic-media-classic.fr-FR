@@ -1,6 +1,6 @@
 ---
 title: Suppression d’un fichier téléchargé
-description: Découvrez comment supprimer un fichier téléchargé.
+description: Découvrez comment supprimer une ressource chargée.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
 content-type: reference
@@ -8,14 +8,13 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: d845bcb2-f914-4727-8df2-049dc172f266
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 83%
+source-wordcount: '97'
+ht-degree: 85%
 
 ---
-
 
 # Suppression d’un fichier téléchargé{#deleting-an-uploaded-asset}
 
@@ -49,7 +48,7 @@ Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pou
 |--- |--- |--- |
 | op | Obligatoire | supprimer |
 | shared_secret | Obligatoire | La clé de secret partagé de l’entreprise. |
-| <ul><li>Pour les images:image_name</li><li>Pour les fichiers vectoriels :fxg_name</li></ul> | Obligatoire | Nom du fichier à supprimer. |
+| <ul><li>Pour les images : image_name</li><li>Pour les fichiers vectoriels :fxg_name</li></ul> | Obligatoire | Nom du fichier à supprimer. |
 
 **Exemple d’URL d’image :**
 
