@@ -1,21 +1,20 @@
 ---
 title: Nouveautés
-description: Découvrez ce qu’est la nouvelle version de Dynamic Media Classic dans les notes de mise à jour actuelles.
+description: Découvrez les nouveautés de Dynamic Media Classic au moyen des notes de mise à jour actuelles.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 94cfb748-30f9-4a8b-9576-3b4775964d04
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 3%
 
 ---
 
-
 # Nouveautés {#what-s-new}
 
-Pour consulter les dernières informations de mise à jour de Dynamic Media Classic Adobe, y compris les nouvelles fonctionnalités, les améliorations et les correctifs, consultez les [Notes de mise à jour de Dynamic Media Classic](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html).
+Pour consulter les dernières informations de mise à jour d’Adobe Dynamic Media Classic, notamment les nouvelles fonctionnalités, les améliorations et les correctifs, voir les [Notes de mise à jour de Dynamic Media Classic](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html).
