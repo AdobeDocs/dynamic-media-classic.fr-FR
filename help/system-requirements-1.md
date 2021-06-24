@@ -1,6 +1,6 @@
 ---
 title: Configuration système requise
-description: 'Découvrez la configuration système requise pour optimiser l’utilisation de Media Portal. '
+description: 'Découvrez la configuration requise pour obtenir la meilleure expérience avec Media Portal. '
 uuid: e870b198-19ae-4647-8833-2764358de53d
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,6 @@ discoiquuid: 43df059d-7c4d-481a-978a-ca4c74e604b4
 feature: Dynamic Media Classic,Collaboration,Gestion des ressources
 role: Administrator
 exl-id: aa268ff7-c474-409a-af3e-3fd8ae1e6241
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '99'
@@ -20,10 +19,10 @@ ht-degree: 31%
 
 # Configuration requise pour Media Portal {#system-requirements}
 
-Pour profiter au mieux de Dynamic Media Classic Media Portal, assurez-vous que votre système est conforme à la configuration requise et aux suggestions suivantes :
+Pour une expérience optimale avec Dynamic Media Classic Media Portal, assurez-vous que votre système respecte la configuration requise et les suggestions suivantes :
 
-* Microsoft® Windows® 7 ou version ultérieure ou macOS X 10.6 ou version ultérieure processeur Macintosh Intel® requis.
-* 3 Go de RAM ou plus requis (4 Go ou plus suggéré).
+* Processeur Microsoft® Windows® 7 ou version ultérieure ou macOS X 10.6 ou version ultérieure Macintosh Intel® requis.
+* 3 Go de RAM ou plus requis (4 Go ou plus suggérés).
 * Moniteur couleur.
 * Carte vidéo prenant en charge les couleurs vraies à une résolution de 1280 x 1024 pixels ou plus.
 * Navigateur compatible JAVA.
