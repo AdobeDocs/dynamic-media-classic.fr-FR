@@ -1,16 +1,15 @@
 ---
 title: Liaison d’une visionneuse de supports variés à une page Web
-description: Découvrez comment lier une visionneuse de supports variés à une page Web.
+description: Découvrez comment lier une visionneuse de médias mixtes à une page web.
 uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
-feature: Dynamic Media Classic, Visionneuses, Combiner des visionneuses de supports
+feature: Dynamic Media Classic,Visionneuses,Combiner des visionneuses de médias
 role: Business Practitioner
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '645'
@@ -41,11 +40,11 @@ Après avoir publié une visionneuse de supports variés, vous pouvez obtenir so
 
       Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **[!UICONTROL Copier l’URL]**.
 
-## Ajout d’URL de visionneuse de supports variés à une page Web  {#add-mixed-media-set-urls-to-your-web-page}
+## Ajout d’URL de visionneuse de supports variés à une page Web {#add-mixed-media-set-urls-to-your-web-page}
 
 La méthode la plus courante pour déployer les visionneuses de supports variés consiste à insérer un lien (par le biais d’une icône de navigation) dans votre page Web. Lorsque vous cliquez dessus, le lien lance une page dynamique (ASP ou JSP) affichant la visionneuse de supports variés dans la visionneuse appropriée.
 
-## Copie du code incorporé d’une visionneuse de supports mixtes  {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## Copie du code incorporé d’une visionneuse de supports mixtes {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
 L’utilisation de la fonction Code incorporé permet de vérifier le code de la visionneuse de supports mixtes sélectionnée. Vous pouvez aussi copier le code dans le Presse-papiers afin de le coller dans vos pages Web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Intégrer le code.
 
