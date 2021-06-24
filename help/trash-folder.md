@@ -10,7 +10,6 @@ discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 feature: Dynamic Media Classic,Gestion des ressources
 role: Business Practitioner
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '545'
@@ -20,7 +19,7 @@ ht-degree: 39%
 
 # Gestion du dossier Corbeille{#managing-the-trash-folder}
 
-Les éléments que vous supprimez de Dynamic Media Classic sont déplacés dans le dossier Corbeille. Les éléments supprimés restent dans ce dossier pendant sept jours jusqu’à ce qu’ils soient restaurés ou définitivement supprimés. Vous pouvez examiner les éléments supprimés en cliquant sur l’icône **[!UICONTROL Corbeille]** au bas de la bibliothèque de fichiers et en affichant les éléments dans la page du dossier Corbeille.
+Les éléments que vous supprimez de Dynamic Media Classic sont déplacés dans le dossier Corbeille . Les éléments supprimés restent dans ce dossier pendant sept jours jusqu’à ce qu’ils soient restaurés ou supprimés définitivement. Vous pouvez examiner les éléments supprimés en cliquant sur l’icône **[!UICONTROL Corbeille]** au bas de la bibliothèque de ressources et en affichant les éléments dans la page du dossier Corbeille.
 
 Tous les utilisateurs peuvent restaurer des objets du dossier Corbeille vers leurs dossiers d’origine. Tous les utilisateurs peuvent également vider le dossier Corbeille de tout son contenu.
 
@@ -28,23 +27,23 @@ La suppression d’éléments du dossier Corbeille supprime définitivement les 
 
 >[!NOTE]
 >
->Les fichiers qui ont été déplacés dans le dossier Corbeille sont toujours enregistrés dans Dynamic Media Classic. Si vous tentez de télécharger un fichier portant le même nom qu’un fichier supprimé dans le dossier Corbeille, Dynamic Media Classic traite le fichier à télécharger comme un fichier duplicata. A ce titre, un numéro sera ajouté à son nom.
+>Les ressources qui ont été déplacées dans le dossier Corbeille sont toujours enregistrées dans Dynamic Media Classic. Si vous essayez de charger un fichier portant le même nom qu’un fichier supprimé dans le dossier Corbeille, Dynamic Media Classic traite la ressource que vous souhaitez charger comme ressource en double. A ce titre, un numéro sera ajouté à son nom.
 
 ## A propos du dossier Corbeille {#about-the-trash-folder}
 
 Dès que vous supprimez un objet d’un dossier, cet objet est placé dans le dossier Corbeille. Voici ce qui se passe quand vous supprimez un objet et le déplacez vers le dossier Corbeille :
 
-* Bien que l’élément ait été supprimé de vos dossiers Dynamic Media Classic, son ID ne peut pas être affecté à un autre fichier tant qu’il reste dans le dossier Corbeille. Si vous tentez de télécharger un fichier portant le même nom qu’un fichier dans le dossier Corbeille, Dynamic Media Classic ajoute un numéro au nom du fichier.
+* Bien que l’élément ait été supprimé de vos dossiers Dynamic Media Classic, son identifiant ne peut pas être attribué à une autre ressource tant qu’il reste dans le dossier Corbeille. Si vous essayez de charger une ressource portant le même nom qu’un fichier dans le dossier Corbeille, Dynamic Media Classic ajoute un chiffre au nom de la ressource.
 * L’objet ne peut pas être publié. Même si l’objet était marqué pour publication au moment de sa suppression, il ne sera pas publié.
-* L’élément reste dans le dossier Corbeille jusqu’à ce qu’il soit restauré, que sept jours s’écoulent ou que quelqu’un choisisse la commande **[!UICONTROL Vider la corbeille]**. Au bout de 7 jours, l’objet est définitivement supprimé au cours d’une opération de nettoyage automatique.
+* L’élément reste dans le dossier Corbeille jusqu’à ce qu’il soit restauré, que sept jours s’écoulent ou qu’une personne choisisse la commande **[!UICONTROL Vider la corbeille]** . Au bout de 7 jours, l’objet est définitivement supprimé au cours d’une opération de nettoyage automatique.
 
-## Restauration de fichiers à partir du dossier Corbeille  {#restoring-assets-from-the-trash-folder}
+## Restauration de fichiers à partir du dossier Corbeille {#restoring-assets-from-the-trash-folder}
 
-N’importe quelle personne est autorisée à restaurer des fichiers du dossier Corbeille. Les fichiers restaurés sont placés dans leurs dossiers d’origine. Si ces dossiers n’existent plus, Dynamic Media Classic les recrée et les fichiers restaurés sont placés dans les dossiers recréés.
+N’importe quelle personne est autorisée à restaurer des fichiers du dossier Corbeille. Les fichiers restaurés sont placés dans leurs dossiers d’origine. Si ces dossiers n’existent plus, Dynamic Media Classic les recrée et les ressources restaurées sont placées dans les dossiers recréés.
 
-Pour restaurer des fichiers du dossier Corbeille vers les dossiers à partir desquels ils ont été supprimés, procédez comme suit :
+Pour restaurer des ressources du dossier Corbeille dans les dossiers à partir desquels elles ont été supprimées, procédez comme suit :
 
-1. Au bas du panneau Bibliothèque de fichiers, cliquez sur l’icône **[!UICONTROL Corbeille]** pour ouvrir le dossier Corbeille.
+1. Au bas du panneau Bibliothèque de ressources, cliquez sur l’icône **[!UICONTROL Corbeille]** pour ouvrir le dossier Corbeille.
 1. Sélectionnez le ou les fichiers à restaurer.
 1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Restaurer à partir de la corbeille]**.
 
@@ -52,11 +51,11 @@ Pour restaurer des fichiers du dossier Corbeille vers les dossiers à partir des
 
 Lorsque vous supprimez des fichiers du dossier Corbeille, sachez qu’ils sont définitivement supprimés. Les fichiers sont automatiquement supprimés du dossier Corbeille au bout de 7 jours.
 
-Pour supprimer définitivement des fichiers du dossier Corbeille, cliquez sur l’icône **[!UICONTROL Corbeille]**. Sur la page du dossier Corbeille, effectuez l’une des opérations suivantes :
+Pour supprimer définitivement des ressources du dossier Corbeille, cliquez sur l’icône **[!UICONTROL Corbeille]**. Sur la page du dossier Corbeille, effectuez l’une des opérations suivantes :
 
-* **Suppression de fichiers**  individuels : sélectionnez les fichiers à supprimer définitivement, puis cliquez sur  **[!UICONTROL Fichier]**  >  **[!UICONTROL Supprimer de la corbeille]**.
+* **Suppression de ressources individuelles**  : sélectionnez les ressources à supprimer définitivement, puis cliquez sur  **[!UICONTROL Fichier]**  >  **[!UICONTROL Vider de la corbeille]**.
 
-* **Suppression de tous les fichiers**  - Cliquez sur  **[!UICONTROL Fichier]**  >  **[!UICONTROL Vider la corbeille]**.
+* **Suppression de toutes les ressources**  - Cliquez sur  **[!UICONTROL Fichier]**  >  **[!UICONTROL Corbeille vide]**.
 
 >[!MORELIKETHIS]
 >
