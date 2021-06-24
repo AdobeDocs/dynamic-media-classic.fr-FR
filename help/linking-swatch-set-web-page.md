@@ -1,6 +1,6 @@
 ---
 title: Liaison d’une série d’échantillons à une page Web
-description: Découvrez comment lier une série d’échantillons à une page Web.
+description: Découvrez comment lier une série d’échantillons à une page web.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 feature: Dynamic Media Classic,Visionneuses
 role: Business Practitioner
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '692'
@@ -43,11 +42,11 @@ Après avoir publié une série d’échantillons, vous pouvez utiliser son URL 
 
       Dans la page Liste des visionneuses, dans la colonne Actions du tableau, cliquez sur **[!UICONTROL Copier l’URL]**.
 
-## Ajout d’URL de série d’échantillons à une page Web  {#adding-swatch-set-urls-to-your-web-page}
+## Ajout d’URL de série d’échantillons à une page Web {#adding-swatch-set-urls-to-your-web-page}
 
 La méthode la plus courante pour déployer des séries d’échantillons consiste à insérer un lien (par le biais d’une icône de navigation) dans votre page Web. Lorsque vous cliquez dessus, le lien lance une page dynamique (ASP ou JSP) affichant la série d’échantillons dans une fenêtre de zoom contextuelle. Le lien de zoom affiche une fenêtre contextuelle contenant l’affichage agrandi proprement dit.
 
-Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le Guide de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le Guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copie du code incorporé d’une visionneuse de série d’échantillons {#copying-the-embed-code-of-a-swatch-set-viewer}
 
