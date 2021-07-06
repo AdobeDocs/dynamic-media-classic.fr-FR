@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
-feature: Dynamic Media Classic,Visionneuses,Combiner des visionneuses de médias
-role: Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,Combiner une visionneuse de médias
+role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: f99832bc9660a16b06e63b19f9ead1267dab0f35
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 97%
+source-wordcount: '648'
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ Après avoir publié une visionneuse de supports variés, vous pouvez obtenir so
 
 ## Ajout d’URL de visionneuse de supports variés à une page Web {#add-mixed-media-set-urls-to-your-web-page}
 
-La méthode la plus courante pour déployer les visionneuses de supports variés consiste à insérer un lien (par le biais d’une icône de navigation) dans votre page Web. Lorsque vous cliquez dessus, le lien lance une page dynamique (ASP ou JSP) affichant la visionneuse de supports variés dans la visionneuse appropriée.
+La méthode la plus courante pour déployer une visionneuse de médias mixtes consiste à placer un lien (au moyen d’une icône de navigation) sur votre page web. Lorsque vous cliquez dessus, le lien lance une page dynamique (ASP ou JSP) affichant la visionneuse de supports variés dans la visionneuse appropriée.
 
 ## Copie du code incorporé d’une visionneuse de supports mixtes {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
