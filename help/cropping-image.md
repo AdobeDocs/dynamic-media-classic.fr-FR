@@ -10,10 +10,10 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Gestion des ressources
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 51%
+source-wordcount: '547'
+ht-degree: 43%
 
 ---
 
@@ -25,44 +25,44 @@ Vous pouvez recadrer une image afin d’en supprimer les bords blancs ou de ne g
 
 >[!NOTE]
 >
->une fois l’image recadrée, vous pouvez cliquer sur le bouton Enregistrer en tant que, et ainsi enregistrer la version recadrée de l’image sous un autre nom. Dans la fenêtre Enregistrer en tant que, choisissez l’option Enregistrer sous nouvelle image originale pour sauvegarder une seconde copie de l’image. Cliquez sur **[!UICONTROL Enregistrer en tant que vue supplémentaire du Principal]** pour enregistrer l’original et sa version recadrée sous un autre nom. Cliquez sur **[!UICONTROL Remplacer l’original]** pour supprimer le fichier d’origine à partir duquel vous avez recadré votre image. Saisissez ensuite le nom de l’image, puis cliquez sur **[!UICONTROL Submit]**.
+>Une fois le recadrage effectué, vous pouvez sélectionner **[!UICONTROL Enregistrer sous]** et enregistrer une version recadrée de l’image sous un autre nom. Dans la fenêtre Enregistrer en tant que, choisissez l’option Enregistrer sous nouvelle image originale pour sauvegarder une seconde copie de l’image. Sélectionnez **[!UICONTROL Enregistrer en tant que vue supplémentaire du Principal]** afin que vous puissiez enregistrer l’original et sa version recadrée sous un autre nom. Sélectionnez **[!UICONTROL Remplacer l’original]** pour supprimer le fichier d’origine à partir duquel vous avez recadré votre image. Saisissez ensuite le nom de l’image, puis sélectionnez **[!UICONTROL Envoyer]**.
 
 ## Suppression de l’espace blanc autour d’une image à l’aide du recadrage {#crop-to-remove-white-space-around-an-image}
 
 Vous pouvez éliminer les pixels transparents ou de couleur qui apparaissent au bord d’une image.
 
-1. Pour recadrer une image, cliquez sur son bouton de survol **[!UICONTROL Modifier]** et sélectionnez **[!UICONTROL Recadrer]**, ou affichez-la dans le panneau de navigation en mode Détails, puis cliquez sur le bouton **[!UICONTROL Recadrer]**.
+1. Pour recadrer une image, cliquez sur le bouton de survol **[!UICONTROL Modifier]** et choisissez **[!UICONTROL Recadrer]**, ou affichez-la dans le panneau de navigation en mode Détails et sélectionnez le bouton **[!UICONTROL Recadrer]** .
 1. Sur la page Éditeur de recadrage , effectuez l’une des opérations suivantes :
 
-   * Pour rogner les pixels de couleur, cliquez sur **[!UICONTROL Rogner]** > **[!UICONTROL Couleur]**. La boîte de dialogue Recadrage automatique par couleur s’affiche. Cliquez sur le menu **[!UICONTROL Coin]** et sélectionnez un coin avec la couleur d’arrière-plan à recadrer. Saisissez ensuite un paramètre **[!UICONTROL Tolérance]** compris entre 0 et 1. La valeur 0 permet de rogner les pixels uniquement s’ils correspondent exactement à la couleur sélectionnée dans l’angle de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs. Cliquez sur le bouton **[!UICONTROL Recadrer]** .
-   * Pour rogner les pixels transparents, sélectionnez **[!UICONTROL Rogner]** > **[!UICONTROL Transparent]**. La boîte de dialogue Recadrage auto par transparence s’affiche. Spécifiez une valeur de tolérance comprise entre 0 et 1. Le paramètre 0 rogne les pixels uniquement s’ils sont transparents. Les valeurs plus proches de 1 permettent une plus grande transparence. Cliquez sur **[!UICONTROL Recadrer]**.
+   * Pour rogner les pixels de couleur, accédez à **[!UICONTROL Rogner]** > **[!UICONTROL Couleur]**. La boîte de dialogue Recadrage automatique par couleur s’affiche. Sélectionnez le menu **[!UICONTROL Coin]** et choisissez un coin avec la couleur d’arrière-plan que vous souhaitez recadrer. Saisissez ensuite un paramètre **[!UICONTROL Tolérance]** compris entre 0 et 1. La valeur 0 permet de rogner les pixels uniquement s’ils correspondent exactement à la couleur sélectionnée dans l’angle de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs. Sélectionnez **[!UICONTROL Recadrer]**.
+   * Pour rogner les pixels transparents, accédez à **[!UICONTROL Rogner]** > **[!UICONTROL Transparent]**. La boîte de dialogue Recadrage auto par transparence s’affiche. Spécifiez une valeur de tolérance comprise entre 0 et 1. Le paramètre 0 rogne les pixels uniquement s’ils sont transparents. Les valeurs plus proches de 1 permettent une plus grande transparence. Sélectionnez **[!UICONTROL Recadrer]**.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
 >[!NOTE]
 >
->Pour restaurer l’état d’origine d’une image après l’avoir recadrée, affichez-la dans l’écran Éditeur de recadrage, puis cliquez sur **[!UICONTROL Réinitialiser]**.
+>Pour restaurer l’état d’origine d’une image après l’avoir recadrée, affichez-la dans l’écran Éditeur de recadrage et sélectionnez **[!UICONTROL Réinitialiser]**.
 
 ## Sélection d’une zone à recadrer {#select-an-area-to-crop}
 
-1. Pour recadrer une image, cliquez sur son bouton de survol **[!UICONTROL Modifier]**, puis sélectionnez **[!UICONTROL Recadrer]**, ou affichez-la dans le panneau de navigation de la vue Détails, puis cliquez sur **[!UICONTROL Recadrer]**.
+1. Pour recadrer une image, cliquez sur son bouton de survol **[!UICONTROL Modifier]**, puis sélectionnez **[!UICONTROL Recadrer]** ou affichez-la dans le panneau de navigation en mode Détails et sélectionnez **[!UICONTROL Recadrer]**.
 
-1. Dans la fenêtre Editeur de recadrage, placez la partie de l’image que vous ne souhaitez pas recadrer dans la zone de recadrage. Ce qui apparaît dans la zone est ce qui reste lorsque vous cliquez sur **[!UICONTROL Enregistrer]** et que vous recadrez l’image.
+1. Dans la fenêtre Editeur de recadrage, placez la partie de l’image que vous ne souhaitez pas recadrer dans la zone de recadrage. Tout ce qui apparaît dans la zone est ce qui reste après avoir sélectionné **[!UICONTROL Enregistrer]** et recadré l’image.
 1. Pour modifier la zone de recadrage, effectuez l’une des opérations suivantes :
 
    * Faites glisser un côté ou un angle de la zone de recadrage. Maintenez la touche Maj enfoncée lorsque vous faites glisser la souris pour modifier la taille tout en conservant le format (la forme) de la zone de recadrage.
    * Spécifiez des valeurs en pixels dans les zones Taille.
    * Faites glisser la souris pour déplacer la zone de recadrage. Positionnez le pointeur dans les limites du cadre. Lorsque le pointeur prend la forme d’une flèche à quatre pointes, faites glisser la zone à l’emplacement voulu sur l’image.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
 >[!NOTE]
 >
->Pour restaurer l’état d’origine d’une image après l’avoir recadrée, affichez-la dans l’écran Éditeur de recadrage, puis cliquez sur **[!UICONTROL Réinitialiser]**.
+>Pour restaurer l’état d’origine d’une image après l’avoir recadrée, affichez-la dans l’écran Éditeur de recadrage et sélectionnez **[!UICONTROL Réinitialiser]**.
 
 >[!MORELIKETHIS]
 >
->* [Options d’édition d’images au téléchargement](image-editing-options-upload.md#image-editing-options-at-upload)
-* [Suppression de l’espace blanc d’un fichier PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
-* [Recadrage à partir des côtés des pages PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+>* [Options d’édition d’images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload)
+* [Recadrer l’espace blanc d’un fichier PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
+* [Recadrage à partir des côtés des pages PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
 
