@@ -10,22 +10,22 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Visionneuses,Vidéo
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 80%
+source-wordcount: '627'
+ht-degree: 51%
 
 ---
 
 # Ajout de marques de chapitre à la vidéo{#adding-chapter-markers-to-video}
 
-Vous pouvez rendre vos vidéos de forme longue plus faciles à regarder et à parcourir en ajoutant des marques de chapitre aux vidéos uniques ou aux visionneuses de vidéos adaptatives. Lorsqu’un utilisateur lit la vidéo, il peut cliquer sur les marques de chapitre du montage vidéo (également connues sous le nom de barre visuelle) pour accéder facilement à son point ciblé ou accéder immédiatement au nouveau contenu, à des démonstrations, des didacticiels, etc.
+Vous pouvez rendre vos vidéos de forme longue plus faciles à regarder et à parcourir en ajoutant des marques de chapitre aux vidéos uniques ou aux visionneuses de vidéos adaptatives. Lorsqu’un utilisateur lit la vidéo, il peut cliquer sur les marqueurs de chapitre dans la chronologie de la vidéo (également appelée défilement vidéo). Cela leur permet de naviguer facilement jusqu’à leur point ciblé ou d’accéder immédiatement à un nouveau contenu, à des démonstrations, à des tutoriels, etc.
 
 >[!NOTE]
 >
 >Le lecteur vidéo utilisé doit prendre en charge l’utilisation des marques de chapitre.
 
-Voir [Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) pour configurer les indices de navigation des chapitres et le texte contextuel des titres de chapitres pour la visionneuse `Universal_HTML5_Video` (HTML5).
+Voir [Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) si vous souhaitez configurer les points de repère de navigation du chapitre et le texte contextuel du titre du chapitre pour la visionneuse `Universal_HTML5_Video` (HTML5).
 
 Voir aussi [Ajout et modification des paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -49,21 +49,21 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-Dans l’exemple ci-dessus, `Chapter 1` est l’identifiant de repère et est facultatif. L’heure de repère `00:00:000 --> 01:04:364` spécifie l’heure de début et l’heure de fin du chapitre, au format 00:00:000. Les trois derniers chiffres sont les millisecondes et peuvent être laissés sur 000, selon vos préférences. Le titre du chapitre `The bicycle store behind it all` est la description réelle du contenu du chapitre. L’identifiant de duplication, l’heure de départ, ainsi que le titre de chapitre s’affichent tous dans une fenêtre contextuelle du lecteur vidéo lorsqu’un utilisateur place le pointeur de la souris sur un point de repère visuel dans le montage de la vidéo.
+Dans l’exemple ci-dessus, `Chapter 1` est l’identifiant de repère et est facultatif. L’heure de repère `00:00:000 --> 01:04:364` spécifie l’heure de début et l’heure de fin du chapitre, au format 00:00:000. Les trois derniers chiffres sont les millisecondes et peuvent être laissés sur 000, selon vos préférences. Le titre du chapitre `The bicycle store behind it all` est la description réelle du contenu du chapitre. L’identifiant de repère, l’heure de repère de départ et le titre du chapitre apparaissent tous dans une fenêtre contextuelle du lecteur vidéo lorsque le pointeur est placé sur un point de repère visuel dans la chronologie de la vidéo.
 
-Puisque vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fichier de chapitre que vous créez est conforme à la norme WebVTT (Web Video Text Tracks). L’extension du fichier de chapitre est .vtt. D’autres informations sont disponibles sur la norme de sous-titrage WebVTT.
+Puisque vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fichier de chapitre que vous créez est conforme à la norme WebVTT (Web Video Text Tracks). L’extension de nom de fichier de chapitre est .VTT. D’autres informations sont disponibles sur la norme de sous-titrage WebVTT.
 
-Voir [WebVTT : Format de suivi de texte vidéo web ](https://dev.w3.org/html5/webvtt/).
+Voir [WebVTT : Le Texte De La Vidéo Web Effectue Le Suivi Du Format](https://w3c.github.io/webvtt/).
 
-**Pour ajouter des marques de chapitre à la vidéo**
+**Pour ajouter des marques de chapitre à la vidéo:**
 
 1. À l’aide d’un éditeur de texte simple en dehors de Dynamic Media Classic, créez votre fichier de chapitres vidéo.
 
    >[!NOTE]
    >
-   >Pour une prise en charge internationale des chapitres vidéo dans d’autres langues que l’anglais, n’oubliez pas que la norme WebVTT exige que vous créiez des fichiers .vtt et des appels distincts pour chaque langue à prendre en charge.
+   >Pour une prise en charge globale des chapitres vidéo dans des langues autres que l’anglais, la norme WebVTT exige que vous créiez des fichiers .vtt et des appels distincts pour chaque langue que vous souhaitez prendre en charge.
 
-1. Enregistrer le fichier .vtt dans le codage UTF8 pour éviter tout problème lié au rendu des caractères dans le texte des titres de chapitres.
+1. Enregistrez le fichier VTT en codage UTF8 afin d’éviter tout problème de rendu des caractères dans le texte du titre du chapitre.
 
    En règle générale, vous attribuez au fichier de chapitres VTT le même nom que le fichier vidéo et lui ajoutez `chapters`. En procédant ainsi, vous pouvez automatiser aisément la génération des URL de vidéo en utilisant le système de gestion de contenu Web existant.
 
@@ -77,7 +77,7 @@ Voir [WebVTT : Format de suivi de texte vidéo web ](https://dev.w3.org/html5/we
 
    * Pour une expérience de visionneuse contextuelle, cliquez sur **[!UICONTROL Copier l’URL]** à l’extrémité droite de son nom.
 
-      Annexez l’URL copiée de la vidéo avec la syntaxe suivante pour l’associer à l’URL copiée dans le fichier de sous-titrage :
+      Ajoutez l’URL copiée de la vidéo avec la syntaxe suivante afin de l’associer à l’URL copiée dans votre fichier de sous-titres :
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
