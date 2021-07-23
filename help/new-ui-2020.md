@@ -1,15 +1,15 @@
 ---
 title: Application de bureau Adobe Dynamic Media Classic
-description: Les utilisateurs de Dynamic Media Classic peuvent désormais effectuer une actualisation complète de l’interface utilisateur. L’expérience fournit une connexion mise à jour avec des liens vers des ressources précieuses. En outre, cette mise à jour ne repose plus sur la technologie de Flash d’Adobe dans le navigateur.
+description: Les utilisateurs de Dynamic Media Classic peuvent désormais effectuer une actualisation complète de l’interface utilisateur. L’expérience fournit une connexion mise à jour avec des liens vers des ressources précieuses. De plus, cette mise à jour ne repose plus sur la technologie de Flash d’Adobe dans le navigateur.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7663cca62046a334c4ab9852df3a9ae64f4ca2ef
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Les utilisateurs de Dynamic Media Classic ont désormais accès à une nouvelle 
 
 ### **_Lorsque les navigateurs cesseront de prendre en charge le Flash Adobe le 31 décembre 2020, cela aura-t-il un impact sur Dynamic Media Classic (anciennement Scene7) ?_**
 
-Adobe Flash Player était un module externe de navigateur web qui permettait aux navigateurs web d’utiliser le contenu développé sur Adobe Flash Platform. L’interface utilisateur web de Dynamic Media Classic (actuellement étiquetée [!DNL Scene7 Publishing System] ou [!DNL SPS] dans le produit) nécessitait le Flash Player d’Adobe. Lorsque le Flash Adobe sera abandonné le 31 décembre 2020, les clients Dynamic Media Classic ne pourront plus se connecter à l’interface utilisateur web. En raison de cette modification, Adobe a fourni aux clients une appli de bureau qui remplace l’expérience du navigateur.
+Adobe Flash Player était un module externe de navigateur Web qui permettait aux navigateurs Web d’utiliser le contenu développé sur Adobe Flash Platform. L’interface utilisateur web de Dynamic Media Classic (actuellement étiquetée [!DNL Scene7 Publishing System] ou [!DNL SPS] dans le produit) nécessitait le Flash Player d’Adobe. Lorsque le Flash Adobe sera abandonné le 31 décembre 2020, les clients Dynamic Media Classic ne pourront plus se connecter à l’interface utilisateur web. En raison de cette modification, Adobe a fourni aux clients une appli de bureau qui remplace l’expérience du navigateur.
 
 ### **_Comment accéder à la nouvelle appli de bureau ?_**
 
@@ -98,7 +98,7 @@ De plus, [abonnez-vous à la newsletter Dynamic Media](https://www.adobe.com/sub
 
 ### **_Je souhaite en savoir plus sur la mise à niveau vers Dynamic Media avec AEM Assets. Où puis-je trouver plus d’informations ?_**
 
-Pour en savoir plus sur les avantages de la mise à niveau vers la nouvelle génération de la création, de la publication et de la diffusion dynamique de médias riches, consultez le [portail de mise à niveau de Dynamic Media](http://exploreadobe.com/dynamic-media-upgrade/).
+Pour en savoir plus sur les avantages de la mise à niveau vers la nouvelle génération de la création, de la publication et de la diffusion dynamique de médias riches, consultez le [portail de mise à niveau de Dynamic Media](https://exploreadobe.com/dynamic-media-upgrade/).
 
 >[!MORELIKETHIS]
 >
