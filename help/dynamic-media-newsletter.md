@@ -5,7 +5,7 @@ title: Archive de newsletter Dynamic Media
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: ca42d0167f72adc1b22f1e6e65b7026b6f6897a3
+source-git-commit: 0b0556cdd05b6155e5e72b3cb40021589b232101
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -21,6 +21,8 @@ ht-degree: 0%
 La newsletter Dynamic Media par Experience League a été conçue pour vous aider à maîtriser Dynamic Media et Dynamic Media Classic afin que vous puissiez commencer à en tirer immédiatement parti.
 
 Dans cette newsletter archivée, vous trouverez des ressources précieuses pour développer vos connaissances, telles que des vidéos pratiques et des présentations de solutions. Il existe également des présentations des principales fonctionnalités telles que les paramètres d’image prédéfinis, les paramètres de visionneuse prédéfinis et les profils vidéo.
+
+<!-- microsite demo page https://experienceleague.adobe.com/tools/dynamic-media-demo/index.html -->
 
 <!-- ## Get inspired. Stay informed.
 
