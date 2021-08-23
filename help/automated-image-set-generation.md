@@ -1,6 +1,6 @@
 ---
 title: Génération automatique d’une visionneuse d’images
-description: 'Découvrez comment automatiser la génération de visionneuses d’images. '
+description: 'Découvrez comment automatiser la génération de visionneuses d’images dans Dynamic Media Classic. '
 uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 feature: Dynamic Media Classic,Visionneuses,Visionneuses d’images
 role: User
 exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 85%
+source-wordcount: '107'
+ht-degree: 63%
 
 ---
 
@@ -31,13 +31,13 @@ Last Modified Date:
 
 Vous pouvez automatiser la création d’une visionneuse d’images dans le cadre d’une tâche indépendante d’un transfert.
 
-**Pour automatiser la génération de visionneuse d’images**
+**Pour automatiser la génération de visionneuse d’images:**
 
-1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Générer l’ensemble]**.
+1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Générer le jeu]**.
 1. Dans la boîte de dialogue Générer l’ensemble, spécifiez un nom de tâche.
 
    Par défaut, le nom attribué à la tâche indique qu’il s’agit d’une tâche générée et précise la date de création de celle-ci.
 
 1. Sélectionnez le paramètre prédéfini que vous souhaitez appliquer.
-1. Cliquez sur **[!UICONTROL Dossier de destination]** et spécifiez le dossier que vous avez l’intention d’utiliser.
-1. Cliquez sur **[!UICONTROL Envoyer]**.
+1. Sélectionnez **[!UICONTROL Dossier de destination]**, puis spécifiez le dossier à utiliser.
+1. Sélectionnez **[!UICONTROL Envoyer]**.
