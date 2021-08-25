@@ -1,18 +1,18 @@
 ---
 title: Création d’une visionneuse de supports variés
-description: Découvrez comment créer une visionneuse de médias mixtes.
+description: Découvrez comment créer une visionneuse de médias mixtes dans Dynamic Media Classic.
 uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
-feature: Dynamic Media Classic,Visionneuses,Visionneuses de médias mixtes
+feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-source-git-commit: 5f7e0c821dc2a34170e811157c9e689370d36d21
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 88%
+source-wordcount: '625'
+ht-degree: 77%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez créer une visionneuse de supports variés pour associer plusieurs t
 Lorsque vous créez une visionneuse, l’option **Publish after save** (« Publier après l’enregistrement ») affecte la visionneuse et ses membres comme suit :
 
 | L’option « Publish after save » (« Publier après l’enregistrement ») est-elle sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
-|--- |--- |--- |
+| --- | --- | --- |
 | Oui | Publié | Publié |
 | Non | Non publié | Les membres de la visionneuse conservent leur état publié ou non publié. |
 
@@ -35,7 +35,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 **Création d’une visionneuse de supports variés:**
 
-1. Cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Visionneuses de supports variés]**.
+1. Accédez à **[!UICONTROL Build]** > **[!UICONTROL Visionneuses de médias mixtes]**.
 1. Faites glisser les vidéos, visionneuses d’images, visionneuses à 360° et échantillons depuis la bibliothèque de fichiers vers l’écran Visionneuse de supports variés.
 
    >[!NOTE]
@@ -49,9 +49,11 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
    * (Optionnel) Pour ajouter une miniature personnalisée représentant une vidéo dans la visionneuse, faites glisser un fichier d’image depuis la bibliothèque de fichiers vers l’emplacement réservé à la miniature.
 
 1. Près de l’angle inférieur droit de la page, assurez-vous que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
-1. Cliquez sur **[!UICONTROL Enregistrer]**, sélectionnez un dossier pour y stocker votre visionneuse de supports variés, attribuez un nom à la visionneuse, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Sélectionnez **[!UICONTROL Enregistrer]**.
+1. Sélectionnez un dossier pour le stockage de votre visionneuse de médias mixtes, puis saisissez un nom pour la visionneuse.
+1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
-   Pour voir à quoi ressemble votre visionneuse d’images combinée dans une visionneuse d’images, cliquez sur **[!UICONTROL Aperçu]**.
+   Pour voir à quoi ressemble votre visionneuse d’images combinée dans une visionneuse d’images, sélectionnez **[!UICONTROL Aperçu]**.
 
 ## Modification d’une visionneuse de supports variés {#edit-a-mixed-media-set}
 
@@ -59,8 +61,8 @@ Vous pouvez modifier une visionneuse de supports variés. Pour modifier une visi
 
 Que vous modifiiez un jeu publié ou non publié, l’option **[!UICONTROL Publier après l’enregistrement]** affecte le jeu et les membres de la façon suivante :
 
-| Visionneuse déjà publiée ? | L’option « Publish after save » (« Publier après l’enregistrement ») est-elle sélectionnée avant l’enregistrement de votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
-|--- |--- |--- |--- |
+| Visionneuse déjà publiée ? | **[!UICONTROL l’option Publier après l’]** enregistrement est sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| --- |--- |--- |--- |
 | Oui | Oui | Publié | Publié |
 | Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
 | Non | Oui | Publié | Publié |
@@ -70,16 +72,16 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 **Pour modifier une visionneuse de supports variés:**
 
-1. Cliquez sur le bouton de **[!UICONTROL modification]** en survol de la visionneuse de supports variés. 
+1. Sélectionnez le bouton de survol **[!UICONTROL Modifier]** de la visionneuse de médias mixtes.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Pour supprimer des objets, sélectionnez-les, puis cliquez sur **[!UICONTROL Supprimer]**.
+   * Pour supprimer des éléments, sélectionnez-les et sélectionnez **[!UICONTROL Supprimer]**.
    * Pour réorganiser des objets, faites-les glisser vers leur nouvel emplacement.
 
 1. Lorsque vous avez terminé de modifier la visionneuse, près de l’angle inférieur droit de la page, vérifiez que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
-1. Cliquez sur **[!UICONTROL Enregistrer]** ou sur **[!UICONTROL Enregistrer sous]**.
+1. Sélectionnez **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer sous]**.
 
-## Suppression d’une visionneuse de supports variés {#deleting-a-mixed-media-set}
+## Suppression d’une visionneuse de médias mixtes {#deleting-a-mixed-media-set}
 
 Lorsque vous supprimez une visionneuse, celle-ci est placée dans la corbeille. Toutefois, les membres (ou « enfants ») de cette visionneuse ne sont pas affectés : ils conservent en fait leur état existant publié ou non publié.
 
@@ -88,4 +90,4 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 **Pour supprimer une visionneuse de supports variés:**
 
 1. En mode Affichage de la grille, Affichage par liste ou Affichage des détails, sélectionnez une ou plusieurs visionneuses de supports variés.
-1. Sur la barre de navigation globale, cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer]** > **[!UICONTROL Supprimer]**.
+1. Dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer]** > **[!UICONTROL Supprimer]**.
