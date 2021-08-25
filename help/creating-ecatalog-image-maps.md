@@ -1,6 +1,6 @@
 ---
-title: Création de zones cliquables dans un catalogue électronique
-description: Découvrez comment créer des zones cliquables de catalogue électronique.
+title: Création de zones cliquables de catalogue électronique
+description: Découvrez comment créer des zones cliquables de catalogue électronique dans Dynamic Media Classic.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
@@ -10,18 +10,18 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Visionneuses,Catalogue électronique
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 46%
+source-wordcount: '1491'
+ht-degree: 40%
 
 ---
 
-# Création de zones cliquables dans un catalogue électronique{#creating-ecatalog-image-maps}
+# Création de zones cliquables de catalogue électronique{#creating-ecatalog-image-maps}
 
 Une zone cliquable est une zone d’une page de catalogue électronique que vous pouvez parcourir avec la souris ou sélectionner pour déclencher des actions de différents types. Lorsque vous déplacez le pointeur sur une zone cliquable, par exemple, une description de texte de survol d’un élément s’affiche. Lorsque vous sélectionnez une zone cliquable, une autre action est lancée. Par exemple, vous pouvez ouvrir une page Web pour que les utilisateurs qui la consultent puissent en savoir plus sur un élément ou l’acheter, ou vous pouvez lancer une vidéo pour afficher un élément en cours d’utilisation.
 
-## Traçage de zones cliquables dans un catalogue électronique {#drawing-ecatalog-image-maps}
+## Dessin de zones cliquables de catalogue électronique {#drawing-ecatalog-image-maps}
 
 Vous dessinez les zones cliquables des catalogues sur l’onglet Pages de zones de l’écran Catalogue électronique. Cet écran contient une section Zone cliquable dans laquelle les pages du catalogue électronique sont affichées, ainsi qu’une liste des zones cliquables, à droite. Au fur et à mesure que vous tracez les zones cliquables, leur nom est ajouté à cette liste.
 
@@ -41,19 +41,19 @@ Vous dessinez les zones cliquables des catalogues sur l’onglet Pages de zones 
 
    Pour faciliter la saisie des URL (modèles Href), sélectionnez **[!UICONTROL Modifier]** et saisissez un modèle.
 
-(voir [Utilisation d’un modèle pour définir du code JavaScript et des URL)](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)).
+Voir [Utiliser un modèle pour saisir du code JavaScript et des URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
 1. (Facultatif) Dans la liste déroulante Afficher, sélectionnez **[!UICONTROL Texte de survol]**, puis saisissez le texte que les utilisateurs doivent afficher à l’écran lorsqu’ils déplacent leurs pointeurs sur la zone cliquable.
 1. (Facultatif) Dans la liste déroulante Afficher, sélectionnez **[!UICONTROL Autres actions]**, puis saisissez un attribut pour déclencher un flou ou une action de focus lorsque les utilisateurs déplacent leur pointeur sur une zone cliquable.
 
-   (voir [Définition d’autres actions relatives aux zones cliquables](creating-image-maps.md#defining_other_actions_for_image_maps)).
+   Voir [Définir d’autres actions pour les zones cliquables](creating-image-maps.md#defining_other_actions_for_image_maps).
 
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 1. (Facultatif) Sélectionnez **[!UICONTROL Aperçu]** pour afficher le catalogue électronique avec le paramètre prédéfini de visionneuse de catalogue électronique par défaut.
 
 Pour supprimer une zone cliquable, sélectionnez son nom dans la liste Zone cliquable et sélectionnez **[!UICONTROL Supprimer]**. Pour désactiver temporairement une zone cliquable sur une page sans supprimer la zone cliquable, désélectionnez l’option Oui de la zone cliquable dans le panneau de la liste des zones cliquables.
 
-## Intégration de médias enrichis dans un catalogue électronique {#embedding-rich-media-in-an-ecatalog}
+## Incorporation de médias riches dans un catalogue électronique {#embedding-rich-media-in-an-ecatalog}
 
 Vous pouvez utiliser l’option Média enrichis du catalogue électronique pour ajouter des vidéos de format MP4 ou des visionneuses à 360° aux zones cliquables que vous avez ajoutées dans un catalogue électronique. Lorsqu’un utilisateur sélectionne la zone cliquable dans le catalogue électronique, la visionneuse à 360° ou la vidéo associée s’affiche. Cette fonctionnalité est particulièrement utile si vous souhaitez que les clients puissent voir un élément en cours d’utilisation ou le voir sous d’autres angles et perspectives.
 
@@ -63,7 +63,7 @@ Vous pouvez également, si vous le souhaitez, afficher du texte d’info-bulle l
 
 1. Tracez une zone cliquable dans un catalogue électronique.
 
-   Voir [Traçage de zones cliquables dans un catalogue électronique](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
+   Voir [Dessiner des zones cliquables de catalogue électronique](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
 1. Dans la liste déroulante Afficher , sélectionnez **[!UICONTROL Média enrichi]**.
 1. Dans le panneau d’ajout de fichiers sur la gauche, accédez à un dossier contenant le fichier de la visionneuse à 360° ou de vidéo (format MP4) à intégrer.
@@ -75,13 +75,13 @@ Vous pouvez également, si vous le souhaitez, afficher du texte d’info-bulle l
 
 En commençant par l’onglet Pages de zones de l’écran Catalogue électronique, utilisez ces techniques pour éditer les zones cliquables d’un catalogue électronique :
 
-* **Réglage de la position**  : sélectionnez l’outil Panoramique et déplacez le pointeur près de la bordure de la carte, mais pas au-dessus. Lorsque le pointeur prend la forme d’une flèche à quatre pointes, faites glisser la zone de l’image entière vers un nouvel emplacement.
+* **Ajuster la position**  : sélectionnez l’outil Panoramique et déplacez le pointeur près de la bordure de la carte, mais pas au-dessus. Lorsque le pointeur prend la forme d’une flèche à quatre pointes, faites glisser la zone de l’image entière vers un nouvel emplacement.
 
-   Voir [Ajustement de la position, de la forme et de la taille des zones cliquables](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+   Voir [Ajuster la position, la forme et la taille des zones cliquables](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Modification de la forme et de la taille**  : pour redimensionner une zone cliquable rectangulaire, sélectionnez l’outil Panoramique . Puis déplacez le pointeur au-dessus d’une ligne de bordure ou d’un coin, et lorsque vous voyez apparaître l’icône en forme de flèche à deux pointes, faites glisser. Pour redimensionner une zone cliquable polygonale, faites glisser une poignée de sélection carrée. Pour créer une poignée de sélection, sélectionnez la bordure de la zone cliquable et faites glisser.
+* **Modifier la forme et la taille**  : pour redimensionner une zone cliquable rectangulaire, sélectionnez l’outil Panoramique. Puis déplacez le pointeur au-dessus d’une ligne de bordure ou d’un coin, et lorsque vous voyez apparaître l’icône en forme de flèche à deux pointes, faites glisser. Pour redimensionner une zone cliquable polygonale, faites glisser une poignée de sélection carrée. Pour créer une poignée de sélection, sélectionnez la bordure de la zone cliquable et faites glisser.
 
-   Voir [Ajustement de la position, de la forme et de la taille des zones cliquables](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+   Voir [Ajuster la position, la forme et la taille des zones cliquables](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **Suppression de zones cliquables**  : sélectionnez l’outil Panoramique, choisissez la zone cliquable à sélectionner, puis sélectionnez  **[!UICONTROL Supprimer]**.
 
@@ -89,17 +89,17 @@ En commençant par l’onglet Pages de zones de l’écran Catalogue électroniq
 
 * **Gestion des zones cliquables se chevauchant**  : faites glisser le curseur pour modifier l’ordre des zones cliquables dans la liste des zones cliquables.
 
-   Voir [Gestion des zones cliquables superposées](creating-image-maps.md#handling_overlapping_image_maps).
+   Voir [Gestion des zones cliquables se chevauchant](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **Copie de zones cliquables dans d’autres pages**  : sélectionnez  **[!UICONTROL Copier des zones dans]**  (assurez-vous que vous vous trouvez dans l’onglet Pages de zones). Dans l’écran Sélectionner les images, sélectionnez la ou les pages sur lesquelles vous souhaitez copier les zones cliquables, puis sélectionnez **[!UICONTROL Sélectionner]**.
 
-   Voir [Copie de zones cliquables vers d’autres images](creating-image-maps.md#copying_image_maps).
+   Voir [Copier des zones cliquables vers d’autres images](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >
->Outre la copie de zones cliquables sur différentes pages dans un catalogue électronique, vous pouvez copier toutes les zones cliquables d’un catalogue électronique dans un autre catalogue électronique. Voir [Copie de zones cliquables entre catalogues électroniques](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
+>Outre la copie de zones cliquables sur différentes pages dans un catalogue électronique, vous pouvez copier toutes les zones cliquables d’un catalogue électronique dans un autre catalogue électronique. Voir [Copie de zones cliquables entre des catalogues électroniques](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
 
-## Vérification et importation des données de zone cliquable {#reviewing-and-importing-image-map-data}
+## Vérification et importation de données de zone cliquable {#reviewing-and-importing-image-map-data}
 
 L’écran de résumé de zone cliquable fournit des métadonnées concernant votre catalogue électronique. Il permet également l’importation par lots des données de zone cliquable pour votre catalogue électronique. Cette méthode d’importation des données facilite la saisie des URL et du texte de survol des zones cliquables.
 
@@ -129,7 +129,7 @@ Depuis l’écran de résumé de zone cliquable, procédez comme suit pour impor
 1. Dans le champ Nom de la tâche, saisissez le nom du fichier (en veillant à bien indiquer l’extension).
 1. Sélectionnez **[!UICONTROL Télécharger]**.
 
-## Copie de zones cliquables entre catalogues électroniques {#copying-image-maps-between-ecatalogs}
+## Copie de zones cliquables entre des catalogues électroniques {#copying-image-maps-between-ecatalogs}
 
 Vous pouvez copier toutes les zones cliquables d’un catalogue électronique dans un autre catalogue électronique. Il s’agit d’une méthode pratique de copie de zones cliquables entre les traductions en langues étrangères du même catalogue électronique. Pour que la copie soit réussie, Dynamic Media Classic recommande de copier entre des catalogues électroniques avec le même nombre de pages et les mêmes images.
 
