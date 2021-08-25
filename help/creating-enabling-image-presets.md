@@ -1,6 +1,6 @@
 ---
-title: Création et activation des paramètres d’image prédéfinis
-description: Découvrez comment créer et activer des paramètres d’image prédéfinis.
+title: Création et activation de paramètres d’image prédéfinis
+description: Découvrez comment créer et activer des paramètres d’image prédéfinis dans Dynamic Media Classic.
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 feature: Dynamic Media Classic,Collaboration,paramètres d’image prédéfinis,Gestion des ressources
 role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 81%
+source-wordcount: '264'
+ht-degree: 76%
 
 ---
 
-# Création et activation des paramètres d’image prédéfinis{#creating-and-enabling-image-presets}
+# Création et activation de paramètres d’image prédéfinis{#creating-and-enabling-image-presets}
 
 Lors de l’exportation de fichiers d’image via le portail multimédia, les utilisateurs peuvent choisir un paramètre d’image prédéfini dans la boîte de dialogue Exporter les fichiers sélectionnés. Un paramètre d’image prédéfini désigne un ensemble de paramètres préétablis qui permettent de modifier la taille, la qualité d’image, le format, la résolution et d’autres attributs de l’apparence d’une image au moment de l’exportation. 
 
