@@ -1,19 +1,19 @@
 ---
 title: Personnalisation de l’écran du portail multimédia
-description: Découvrez comment personnaliser l’écran Media Portal.
+description: Découvrez comment personnaliser l’écran Media Portal dans Dynamic Media Classic.
 uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
-feature: Dynamic Media Classic,Collaboration,Gestion des ressources
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 46%
+source-wordcount: '345'
+ht-degree: 32%
 
 ---
 
@@ -21,23 +21,23 @@ ht-degree: 46%
 
 Les paramètres de style du portail multimédia vous permettent de faire apparaître la marque de votre entreprise sur l’écran du portail multimédia sous forme de logo et de couleurs personnalisés. Utilisez les paramètres de style pour placer la marque de votre entreprise sur Media Portal.
 
-Pour accéder aux paramètres de style, choisissez **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de Media Portal]** > **[!UICONTROL Paramètres de style]**. Assurez-vous de cliquer sur **[!UICONTROL Enregistrer]** pour enregistrer vos paramètres après les avoir définis. Vous pouvez cliquer sur **[!UICONTROL Restaurer]** pour retrouver les paramètres par défaut. A mesure que vous configurez les options, le panneau de prévisualisation reflète vos choix.
+Pour accéder aux paramètres de style, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration du portail multimédia]** > **[!UICONTROL Paramètres de style]**. Veillez à sélectionner **[!UICONTROL Enregistrer]** pour enregistrer vos paramètres après les avoir créés. Vous pouvez sélectionner **[!UICONTROL Restaurer]** pour rétablir les paramètres par défaut. Au fur et à mesure de vos choix, le panneau Aperçu vous montre comment ils s’affichent.
 
-* **Logo**  : cliquez sur  **** Parcourir et sélectionnez un graphique dans la fenêtre Sélectionner l’image du logo.
+* **[!UICONTROL Logo]**  : sélectionnez  **[!UICONTROL Parcourir]**, puis choisissez un graphique dans la fenêtre Sélectionner l’image du logo.
 
-* **Application**  : créez un dégradé de couleurs en effectuant des choix dans les menus Couleurs du dégradé de l’arrière-plan.
+* **[!UICONTROL Application]**  : créez un dégradé de couleurs en effectuant des choix dans les menus Couleurs du dégradé de l’arrière-plan.
 
-* **Arborescence**  : choisissez une couleur de survol (la couleur qui s’affiche lorsque vous placez le pointeur sur un élément) et une couleur de sélection (la couleur qui s’affiche lorsque vous sélectionnez un élément).
+* **[!UICONTROL Arborescence]**  : choisissez une couleur de survol (la couleur qui s’affiche lorsque vous placez le pointeur sur un élément) et une couleur de sélection (la couleur qui s’affiche lorsque vous sélectionnez un élément).
 
-* **Accordéon**  : choisissez les couleurs d’arrière-plan, le style de la bordure, le survol et les couleurs sélectionnées pour l’accordéon qui s’affiche sur le côté droit de l’écran en mode Détails.
+* **[!UICONTROL Accordéon]**  : choisissez les couleurs d’arrière-plan, le style de la bordure, le survol et les couleurs sélectionnées pour l’accordéon qui s’affiche sur le côté droit de l’écran en mode Détails.
 
-* **En-tête d’accordéon**  : choisissez si vous souhaitez insérer du texte dans le gras de l’en-tête d’accordéon.
+* **[!UICONTROL En-tête d’accordéon]**  : choisissez si vous souhaitez insérer du texte dans le gras de l’en-tête d’accordéon.
 
-* **Grille de données**  : choisissez les couleurs de la rangée d’en-tête dans les grilles de données.
+* **[!UICONTROL Grille de données]**  : choisissez les couleurs de la rangée d’en-tête dans les grilles de données.
 
-* **Alerte**  : sélectionnez une couleur d’arrière-plan pour les zones de message d’alerte.
+* **[!UICONTROL Alerte]**  : sélectionnez une couleur d’arrière-plan pour les zones de message d’alerte.
 
-* **Barre de progression**  : choisissez une couleur pour la barre qui indique la progression des chargements et des téléchargements.
+* **[!UICONTROL Barre de progression]**  : choisissez une couleur pour la barre qui indique la progression des chargements et des téléchargements.
 
 Pour que les utilisateurs du portail multimédia voient les paramètres de style que vous avez choisis, ils doivent ajouter `?company=(company name)` à l’URL avec laquelle ils accèdent au portail multimédia. Par exemple, pour voir les paramètres de style, les utilisateurs du portail multimédia qui accèdent à l’entreprise PortalCo à l’adresse l’exemple suivant :
 
