@@ -1,27 +1,27 @@
 ---
-title: Création et gestion des groupes du portail multimédia
-description: Découvrez comment créer et gérer des groupes Media Portal.
+title: Création et gestion des groupes Media Portal
+description: Découvrez comment créer et gérer des groupes Media Portal dans Dynamic Media Classic.
 uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
-feature: Dynamic Media Classic,Collaboration,Gestion des ressources
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 86%
+source-wordcount: '838'
+ht-degree: 57%
 
 ---
 
-# Création et gestion des groupes du portail multimédia{#creating-and-managing-media-portal-groups}
+# Création et gestion des groupes Media Portal{#creating-and-managing-media-portal-groups}
 
 Les *groupes* sont conçus pour vous aider à administrer les utilisateurs du portail multimédia. Pour accéder à un fichier, un utilisateur doit appartenir au minimum à un groupe autorisé à accéder à ce fichier. Lorsque vous ajoutez un utilisateur, vous l’affectez à un ou plusieurs groupes. Ce faisant, vous lui accordez un accès aux dossiers attribués au groupe auquel il appartient. Vous pouvez également choisir les paramètres d’image prédéfinis qui sont disponibles pour un groupe.
 
-## Utilisation de groupes pour restreindre l’accès à des dossiers, fichiers et paramètres d’image prédéfinis {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
+## Utilisation de groupes pour restreindre l’accès aux dossiers, aux ressources et aux paramètres d’image prédéfinis {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
 
 Pour accorder des autorisations d’accès à différents niveaux, vous créez des groupes. Pour chaque groupe, vous définissez des autorisations d’accès en lecture, en écriture et en suppression à des dossiers et à leur contenu. Vous déterminez également les paramètres d’image prédéfinis qui sont disponibles pour le groupe. Vous affectez ensuite les utilisateurs à des groupes. Un utilisateur peut appartenir à plusieurs groupes. Le concept de groupe vous offre la possibilité de donner accès à un nombre limité de contenus par rapport au contenu total.
 
@@ -33,35 +33,35 @@ Si vous n’accordez pas spécifiquement l’autorisation à un groupe à une re
 
 ## Ajout d’un groupe {#adding-a-group}
 
-1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de Media Portal]** > **[!UICONTROL Groupes]**.
-1. Cliquez sur **[!UICONTROL Ajouter]**.
-1. Dans la boîte de dialogue Ajouter un groupe, saisissez le nom du groupe dans la zone Nom du groupe et cliquez sur **[!UICONTROL Ajouter un groupe]**.
+1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration du portail multimédia]** > **[!UICONTROL Groupes]**.
+1. Sélectionnez **[!UICONTROL Ajouter]**.
+1. Dans la boîte de dialogue Ajouter un groupe, saisissez le nom du groupe dans la zone Nom du groupe, puis sélectionnez **[!UICONTROL Ajouter un groupe]**.
 1. Le cas échéant, vous pouvez cocher les cases situées en regard des noms des utilisateurs à ajouter au nouveau groupe.
-1. Si vous souhaitez définir les autorisations d’accès maintenant, cliquez sur l’onglet **[!UICONTROL Autorisations d’accès aux ressources]** , puis spécifiez les options de votre choix.
+1. Si vous souhaitez définir les autorisations d’accès maintenant, sélectionnez l’onglet **[!UICONTROL Autorisations d’accès aux ressources]** , puis spécifiez les options de votre choix.
 
    Voir [Définition des autorisations d’accès aux fichiers pour un groupe](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 
-1. Si vous souhaitez choisir les paramètres d’image prédéfinis qui sont disponibles pour le groupe, cliquez sur l’onglet **[!UICONTROL Autorisations d’accès ImagePreset]**, puis sélectionnez l’option Paramètres d’image prédéfinis que le groupe peut utiliser.
+1. Si vous souhaitez choisir les paramètres d’image prédéfinis disponibles pour le groupe, sélectionnez l’onglet **[!UICONTROL Autorisations d’accès aux paramètres d’image prédéfinis]**, puis sélectionnez les paramètres d’image prédéfinis que le groupe peut utiliser.
 
    Voir [Choix des autorisations d’accès de paramètres d’image prédéfinis pour un groupe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
 
-1. Cliquez sur **[!UICONTROL Fermer]**.
+1. Sélectionnez **[!UICONTROL Fermer]**.
 
 ## Définition des autorisations d’accès aux fichiers pour un groupe {#establishing-asset-access-permissions-for-a-group}
 
-1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de Media Portal]** > **[!UICONTROL Groupes]**.
+1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration du portail multimédia]** > **[!UICONTROL Groupes]**.
 1. Dans la page de liste des Groupes, effectuez l’une de ces actions :
 
-   * Pour ajouter un groupe et spécifier des autorisations, cliquez sur **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un groupe, saisissez un nom pour le groupe, cliquez sur **[!UICONTROL Ajouter un groupe]**, puis ajoutez des utilisateurs au groupe.
-   * Pour modifier les autorisations d’un groupe, sélectionnez le groupe qui vous intéresse et cliquez sur **[!UICONTROL Modifier]**.
+   * Pour ajouter un groupe et spécifier des autorisations, sélectionnez **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un groupe, saisissez un nom pour le groupe, sélectionnez **[!UICONTROL Ajouter un groupe]**, puis ajoutez des utilisateurs au groupe.
+   * Pour modifier les autorisations d’un groupe, sélectionnez-le, puis sélectionnez **[!UICONTROL Modifier]**.
 
-1. Dans la boîte de dialogue Ajouter un groupe ou Modifier le groupe, cliquez sur l’onglet **[!UICONTROL Autorisation d’accès au fichier]**. Dans la partie droite de l’onglet, des cases permettent de définir les autorisations en lecture, en écriture et en suppression sur les dossiers et les fichiers. Vous pouvez développer et réduire les dossiers et sous-dossiers dans le volet gauche.
+1. Dans la boîte de dialogue Ajouter un groupe ou Modifier le groupe, sélectionnez l’onglet **[!UICONTROL Autorisations d’accès aux ressources]** . Dans la partie droite de l’onglet, des cases permettent de définir les autorisations en lecture, en écriture et en suppression sur les dossiers et les fichiers. Vous pouvez développer et réduire les dossiers et sous-dossiers dans le volet gauche.
 1. Pour attribuer des droits sur des dossiers ou des fichiers individuels, sélectionnez le dossier dans le volet gauche. Le contenu du dossier s’affiche dans le volet droit. Attribuez ensuite des droits au groupe en cochant les cases des dossiers ou fichiers correspondants dans le volet droit.
 
    Ce tableau présente la correspondance entre différentes tâches et les autorisations de lecture, d’écriture et de suppression associées.
 
    | Tâche | Lecture | Ecriture | Suppression |
-   |--- |--- |--- |--- |
+   | --- | --- | --- | --- |
    | Parcourir dossiers et fichiers | X |  |  |
    | Modifier des fichiers (recadrage, accentuation, modification) |  | X |  |
    | Modifier les noms de fichiers |  | X |  |
@@ -69,7 +69,7 @@ Si vous n’accordez pas spécifiquement l’autorisation à un groupe à une re
    | Renommer des fichiers |  | X |  |
    | Supprimer des fichiers |  |  | X |
 
-1. Cliquez sur **[!UICONTROL Fermer]**.
+1. Sélectionnez **[!UICONTROL Fermer]**.
 
 >[!NOTE]
 >
@@ -79,23 +79,25 @@ Si vous n’accordez pas spécifiquement l’autorisation à un groupe à une re
 
 Choisissez les autorisations d’accès de paramètres d’image prédéfinis si vous souhaitez indiquer quels paramètres d’image prédéfinis sont disponibles pour les membres du groupes lorsqu’ils exportent des fichiers avec le portail multimédia.
 
-Voir aussi [Définition d’options d’exportation disponibles pour les utilisateurs du portail multimédia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+Voir aussi [Définition des options d’exportation disponibles pour les utilisateurs de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de Media Portal]** > **[!UICONTROL Groupes]**.
+**Pour choisir les autorisations d’accès aux paramètres d’image prédéfinis pour un groupe :**
+
+1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration du portail multimédia]** > **[!UICONTROL Groupes]**.
 1. Dans la page de liste des Groupes, effectuez l’une de ces actions :
 
-   * Pour ajouter un groupe et préciser quels paramètres d’image prédéfinis lui sont accessibles, cliquez sur **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un groupe, saisissez un nom pour le groupe, cliquez sur **[!UICONTROL Ajouter un groupe]**, puis ajoutez des utilisateurs au groupe.
-   * Pour modifier les options de paramètres d’image prédéfinis d’un groupe, sélectionnez le groupe et cliquez sur **[!UICONTROL Modifier]**.
+   * Pour ajouter un groupe et spécifier les paramètres d’image prédéfinis qui lui sont disponibles, sélectionnez **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un groupe, saisissez un nom pour le groupe, sélectionnez **[!UICONTROL Ajouter un groupe]**, puis ajoutez des utilisateurs au groupe.
+   * Pour modifier les options de paramètre d’image prédéfini d’un groupe, sélectionnez le groupe, puis sélectionnez **[!UICONTROL Modifier]**.
 
-1. Dans la boîte de dialogue Ajouter un groupe ou Modifier le groupe, cliquez sur l’onglet **[!UICONTROL Autorisations d’accès ImagePreset]**.
+1. Dans la boîte de dialogue Ajouter un groupe ou Modifier le groupe, sélectionnez l’onglet **[!UICONTROL Autorisations d’accès aux paramètres d’image prédéfinis]** .
 1. Pour spécifier les paramètres prédéfinis qui sont disponibles pour les utilisateurs du portail multimédia lorsqu’ils exportent des ressources, sélectionnez ou désélectionnez Paramètres d’image prédéfinis.
-1. Cliquez sur **[!UICONTROL Fermer]**.
+1. Sélectionnez **[!UICONTROL Fermer]**.
 
 ## Modification et suppression de groupes {#edit-and-delete-groups}
 
-1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de Media Portal]** > **[!UICONTROL Groupes]**.
+1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration du portail multimédia]** > **[!UICONTROL Groupes]**.
 1. Sur la page de liste des groupes, sélectionnez un groupe et modifiez ou supprimez-le.
 
-   **Modification d’un groupe**  : cliquez sur  **[!UICONTROL Modifier]**, puis sélectionnez des options dans la boîte de dialogue Modifier le groupe.
+   **Modifier un groupe**  : sélectionnez  **[!UICONTROL Modifier]**, puis choisissez des options dans la boîte de dialogue Modifier le groupe.
 
-   **Suppression d’un groupe**  : cliquez sur  **[!UICONTROL Supprimer]**.
+   **Supprimer un groupe**  : sélectionnez  **[!UICONTROL Supprimer]**.
