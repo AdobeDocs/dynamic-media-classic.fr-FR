@@ -1,25 +1,25 @@
 ---
-title: 'Utilisation de la vue Détails '
-description: Découvrez comment travailler en mode Détails.
+title: Travail en mode Détails
+description: Découvrez comment travailler en mode Affichage des détails dans Dynamic Media Classic.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
-feature: Dynamic Media Classic,Gestion des ressources
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 65%
+ht-degree: 25%
 
 ---
 
-# Utilisation de la vue Détails {#working-in-detail-view}
+# Travail en mode Détails{#working-in-detail-view}
 
-Le mode Affichage des détails permet d’utiliser un fichier et d’en savoir plus à son sujet. En mode Affichage des détails, la taille, les attributs, les dérivés, ainsi que les métadonnées du fichier sont visibles. Vous obtenez également des indications sur la publication ou non du fichier, la date de sa publication et l’URL du fichier publié. En fonction du type de fichier, vous pouvez le prévisualiser selon différentes tailles, effectuer un zoom avant et exécuter une accentuation, un recadrage ou d’autres opérations de mise en forme.
+Vous pouvez utiliser et en savoir plus sur une ressource en l’ouvrant dans l’affichage des détails. En mode d’affichage des détails, la taille, les attributs, les dérivés et les métadonnées des ressources s’affichent. Vous obtenez également des indications sur la publication ou non du fichier, la date de sa publication et l’URL du fichier publié. En fonction du type de fichier, vous pouvez le prévisualiser selon différentes tailles, effectuer un zoom avant et exécuter une accentuation, un recadrage ou d’autres opérations de mise en forme.
 
 <!-- 
 
@@ -36,48 +36,48 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 >[!NOTE]
 >
->Pour ouvrir le dossier dans lequel le fichier est stocké, vous pouvez cliquer sur le chemin du dossier indiqué en haut du panneau Informations.
+>Pour ouvrir le dossier dans lequel la ressource est stockée, vous pouvez sélectionner le chemin du dossier en haut du panneau Informations.
 
-## Ouverture d’une ressource dans la vue Détails {#open-an-asset-in-detail-view}
+## Ouverture d’une ressource dans l’affichage des détails {#open-an-asset-in-detail-view}
 
-Pour examiner en détail un fichier, le prévisualiser ou l’utiliser, choisissez l’option Affichage des détails. 
+Pour examiner de plus près, prévisualiser ou travailler sur une ressource, vous pouvez l’afficher dans la vue Détails.
 
 1. Dans le panneau de navigation, effectuez l’une des opérations suivantes :
 
-   * Sélectionnez le fichier. Dans le coin supérieur droit de Dynamic Media Classic, cliquez sur l’icône **[!UICONTROL Affichage des détails]** .
+   * Sélectionnez le fichier. Près du coin supérieur droit de Dynamic Media Classic, sélectionnez l’icône **[!UICONTROL Affichage des détails]** .
    * Cliquez deux fois sur le fichier.
-   * Sélectionnez la ressource, puis cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Détails]**.
+   * Sélectionnez la ressource, puis accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Détails]**.
 
 >[!NOTE]
 >
->En mode Affichage des détails, vous pouvez passer d’un fichier à l’autre dans le même dossier en sélectionnant le bouton Fichier précédent ou Fichier suivant. Ces boutons se trouvent dans le coin supérieur droit de la vue Détails.
+>Vous pouvez passer d’une ressource à une autre dans le même dossier en mode Affichage des détails en sélectionnant **[!UICONTROL Ressource précédente]** ou **[!UICONTROL Ressource suivante]**. Ces boutons se trouvent dans le coin supérieur droit de la vue Détails.
 
 ## Obtention d’informations dans la vue Détails {#getting-information-in-detail-view}
 
-L’affichage des détails permet d’obtenir des informations sur un fichier. Elle affiche les informations suivantes sur un élément : le dossier dans lequel il est stocké, son nom de fichier, la date à laquelle l’élément a été chargé dans Dynamic Media Classic et son historique de publication. Vous pouvez également afficher et modifier des métadonnées et ajouter des mots-clés à un fichier en mode Affichage des détails.
+L’affichage des détails fournit des informations sur une ressource ou un fichier. Elle affiche les informations suivantes sur un élément : le dossier dans lequel il est stocké, son nom de fichier, la date à laquelle l’élément a été chargé dans Dynamic Media Classic et son historique de publication. Vous pouvez également afficher et modifier des métadonnées et ajouter des mots-clés pour une ressource dans le mode Affichage des détails.
 
-Vous pouvez obtenir une URL de fichier en mode Affichage des détails ; cependant, l’URL n’est activée qu’une fois l’objet publié. Pour les images, l’affichage des détails fournit également une liste des fichiers et métadonnées créés et dérivés, comme les cibles de zoom et les visionneuses d’images.
+Vous pouvez obtenir une URL de ressource en mode Affichage des détails ; toutefois, l’URL n’est pas principale tant que vous n’avez pas publié la ressource. Pour les images, la vue Détails fournit également une liste de ressources et de métadonnées de création et dérivées, telles que les cibles de zoom et les visionneuses d’images.
 
-## Utilisation de ressources dans la vue Détails {#working-with-assets-in-detail-view}
+## Utilisation de ressources dans l’affichage des détails {#working-with-assets-in-detail-view}
 
-L’affichage des détails donne accès à des outils utilisables avec le fichier que vous avez ouvert. La nature des outils disponibles dépend du type de fichier que vous utilisez, mais l’affichage des détails propose les fonctions suivantes :
+Le mode Affichage des détails propose des outils pour travailler avec la ressource que vous avez ouverte. Les outils disponibles dépendent du type de ressource que vous utilisez, mais l’affichage des détails offre toujours les fonctions suivantes :
 
-* **éléments à publier**  : cliquez sur  **** Publier à gauche du nom ou cliquez sur  **[!UICONTROL Fichier >]** Publier  **[!UICONTROL le fichier > Annuler la publication]**.
+* **éléments à publier**  : sélectionnez l’option  **** Publication à gauche du nom ou accédez à  **[!UICONTROL Fichier]**  >  ****  **[!UICONTROL Fichier de publication]**  >  **[!UICONTROL Annuler la publication]**.
 
 * **Renommer la ressource**  : sélectionnez le nom et saisissez un nouveau nom.
 
-* **Modification et ajout de métadonnées**  : sélectionnez le panneau Métadonnées et modifiez les métadonnées suivant vos besoins. (voir [Affichage, ajout et exportation de métadonnées](/help/viewing-adding-exporting-metadata.md)).
+* **Modifier et ajouter des métadonnées**  : sélectionnez le panneau Métadonnées et modifiez-le selon vos besoins. Voir [Affichage, ajout et exportation des métadonnées](/help/viewing-adding-exporting-metadata.md).
 
-* **Modification et ajout de mots-clés**  : sélectionnez Mots-clés et ajoutez ou supprimez-les selon vos besoins. (voir [Ajout ou modification de mots-clés](/help/viewing-adding-exporting-metadata.md)).
+* **Modifier et ajouter des mots-clés**  : sélectionnez des mots-clés et ajoutez ou supprimez-les selon vos besoins. (voir [Ajout ou modification de mots-clés](/help/viewing-adding-exporting-metadata.md)).
 
-* **Suppression de la ressource**  - Cliquez sur  **[!UICONTROL Fichier]**  >  **[!UICONTROL Supprimer]**.
+* **Supprimer la ressource**  - Accédez à  **[!UICONTROL Fichier]**  >  **[!UICONTROL Supprimer]**.
 
-Pour les fichiers discrets (images, visionneuses d’images et polices, par exemple), vous pouvez visualiser l’historique de publication et d’édition, et vérifier les détails de la tâche, en mode Affichage des détails.
+Pour les fichiers discrets (images, visionneuses d’images et polices, par exemple), vous pouvez afficher l’historique de publication et de modification, ainsi que vérifier les détails de la tâche, en mode Affichage des détails.
 
 Ce tableau indique quelles autres options sont disponibles avec différents types de ressources dans la vue Détails.
 
 | Type de fichier | Edition/Modification | Prévisualisation |
-|--- |--- |--- |
+| --- | --- | --- |
 | Images | Ajout de zones cliquables<br>Ajout de <br><br><br>cibles de zoomCropSharpenCreate vues ajustées | Oui : zoom et paramètres d’image prédéfinis |
 | Images de meuble et de garnitures de fenêtre | Non | Miniature |
 | Catalogues électroniques | Edition | Oui<br>Le panneau Informations est également disponible |
