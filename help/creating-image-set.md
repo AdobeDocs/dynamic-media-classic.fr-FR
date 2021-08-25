@@ -1,19 +1,19 @@
 ---
 title: Création d’une visionneuse d’images
-description: Découvrez comment créer une visionneuse d’images.
+description: Découvrez comment créer une visionneuse d’images dans Dynamic Media Classic.
 uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
-feature: Dynamic Media Classic,Visionneuses,Visionneuses d’images
+feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 86%
+source-wordcount: '587'
+ht-degree: 63%
 
 ---
 
@@ -23,10 +23,10 @@ Pour créer une visionneuse d’images avec des vues multiples, vos images doive
 
 ## Création d’une visionneuse d’images {#create}
 
-Lorsque vous créez une visionneuse, l’option **Publish after save** (« Publier après l’enregistrement ») affecte la visionneuse et ses membres comme suit :
+Lorsque vous créez une visionneuse, l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») affecte la visionneuse et ses membres comme suit :
 
-| L’option « Publish after save » (« Publier après l’enregistrement ») est-elle sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
-|:--- |:--- |:--- |
+| **[!UICONTROL Option Publier après l’]** enregistrement sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| --- | --- | --- |
 | Oui | Publié | Publié |
 | Non | Non publié | Les membres de la visionneuse conservent leur état publié ou non publié. |
 
@@ -36,21 +36,21 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Effectuez l’une des opérations suivantes :
 
-   * **Sélectionner d’abord les images**  : dans le panneau de navigation, sélectionnez les images de votre visionneuse d’images, puis cliquez sur  **[!UICONTROL Créer]**  >  **[!UICONTROL Visionneuses d’images]**.
+   * **Sélectionner d’abord les images**  : dans le panneau de navigation, sélectionnez les images de votre visionneuse d’images, accédez à  **[!UICONTROL Créer]**  >  **[!UICONTROL Visionneuses d’images]**.
 
-   * **Démarrez à partir de l’écran Visionneuse d’images**  - Cliquez sur  **[!UICONTROL Créer]**  >  **[!UICONTROL Visionneuses d’images]**. L’écran Visionneuse d’images s’affiche. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser les images de la visionneuse sur l’écran Visionneuse d’images.
+   * **Démarrez à partir de l’écran Visionneuse d’images**  - Accédez à  **[!UICONTROL Créer]**  >  **[!UICONTROL Visionneuses d’images]**. L’écran Visionneuse d’images s’affiche. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser les images de la visionneuse sur l’écran Visionneuse d’images.
 
 1. Pour changer l’ordre des images, faites-les glisser vers leur nouvel emplacement.
 1. Près de l’angle inférieur droit de la page, vérifiez que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
-1. Cliquez sur **[!UICONTROL Enregistrer]**, sélectionnez un dossier pour y stocker la visionneuse d’images, attribuez un nom à la visionneuse, puis cliquez sur **[!UICONTROL Enregistrer]**.
-1. Pour afficher vos images dans la visionneuse, cliquez sur **[!UICONTROL Prévisualiser]** dans l’écran Visionneuse d’images. Vous pouvez cliquer sur des miniatures d’échantillon dans la visionneuse d’images afin d’examiner leur comportement.
+1. Sélectionnez **[!UICONTROL Enregistrer]**, sélectionnez un dossier pour stocker votre visionneuse d’images, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
+1. Pour afficher votre visionneuse d’images dans la visionneuse, sélectionnez **[!UICONTROL Aperçu]** dans l’écran Visionneuse d’images. Vous pouvez sélectionner des miniatures d’échantillon dans la visionneuse d’images pour voir comment elles se comportent.
 
 ## Modification d’une visionneuse d’images {#editing-an-image-set}
 
 Que vous modifiiez un jeu publié ou non publié, l’option **[!UICONTROL Publier après l’enregistrement]** affecte le jeu et les membres de la façon suivante :
 
 | Visionneuse déjà publiée ? | **[!UICONTROL l’option Publier après l’]** enregistrement est sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 | Oui | Oui | Publié | Publié |
 | Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
 | Non | Oui | Publié | Publié |
@@ -60,15 +60,15 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 **Pour modifier une visionneuse d’images:**
 
-1. En mode Grille, recherchez un ImageSet (visionneuse d’images), puis au-dessous de l’image, cliquez sur **[!UICONTROL Modifier]**.
+1. En mode Grille, accédez à un visionneuse d’images, puis, sous l’image, sélectionnez **[!UICONTROL Modifier]**.
 1. Utilisez l’une des méthodes suivantes :
 
    * Pour ajouter une image (publiée ou non publiée), faites-la glisser d’un dossier du panneau d’ajout de fichiers sur la page **[!UICONTROL des vues]** de la visionneuse d’images.
-   * Pour supprimer une image, sélectionnez-la, puis cliquez sur **[!UICONTROL Supprimer]** dans la barre d’outils.
+   * Pour supprimer une image, sélectionnez-la, puis sélectionnez **[!UICONTROL Supprimer]** dans la barre d’outils.
    * Pour réorganiser des images, faites glisser l’image de votre choix vers sa nouvelle position.
 
 1. Lorsque vous avez terminé de modifier la visionneuse, près de l’angle inférieur droit de la page, assurez-vous que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
-1. Cliquez sur **[!UICONTROL Enregistrer]**, sélectionnez un dossier pour y stocker la visionneuse, attribuez un nom à celle-ci, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Sélectionnez **[!UICONTROL Enregistrer]**, sélectionnez un dossier de stockage pour votre visionneuse, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
 ## Suppression d’une visionneuse d’images {#deleting-an-image-set}
 
@@ -78,5 +78,5 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 **Pour supprimer une visionneuse d’images:**
 
-1. En mode Affichage de la grille, Affichage par liste ou Affichage des détails, sélectionnez une ou plusieurs visionneuses d’images.
-1. Sur la barre de navigation globale, cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer]** > **[!UICONTROL Supprimer]**.
+1. En mode Grille, Liste ou Détails, sélectionnez une visionneuse d’images ou plus.
+1. Dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer]** > **[!UICONTROL Supprimer]**.
