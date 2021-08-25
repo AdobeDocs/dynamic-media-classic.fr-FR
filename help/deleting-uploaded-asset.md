@@ -1,6 +1,6 @@
 ---
-title: Suppression d’un fichier téléchargé
-description: Découvrez comment supprimer une ressource chargée.
+title: Supprimer un fichier téléchargé
+description: Découvrez comment supprimer une ressource chargée dans Dynamic Media Classic.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
 content-type: reference
@@ -9,14 +9,14 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 85%
+source-wordcount: '95'
+ht-degree: 84%
 
 ---
 
-# Suppression d’un fichier téléchargé{#deleting-an-uploaded-asset}
+# Supprimer un fichier téléchargé{#deleting-an-uploaded-asset}
 
 Vous pouvez utiliser le paramètre `delete` dans ce format pour supprimer un fichier :
 
@@ -45,9 +45,9 @@ Vous trouverez ci-après un exemple de réponse à une suppression de fichier d�
 Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pour supprimer un fichier :
 
 | Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
-|--- |--- |--- |
-| op | Obligatoire | supprimer |
-| shared_secret | Obligatoire | La clé de secret partagé de l’entreprise. |
+| --- | --- | --- |
+| `op` | Obligatoire | supprimer |
+| `shared_secret` | Obligatoire | La clé de secret partagé de l’entreprise. |
 | <ul><li>Pour les images : image_name</li><li>Pour les fichiers vectoriels :fxg_name</li></ul> | Obligatoire | Nom du fichier à supprimer. |
 
 **Exemple d’URL d’image :**
