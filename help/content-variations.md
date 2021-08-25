@@ -1,6 +1,6 @@
 ---
 title: Gestion des variations de contenu
-description: Découvrez comment gérer les variations de contenu.
+description: Découvrez comment gérer les variations de contenu dans Dynamic Media Classic.
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 59%
+source-wordcount: '250'
+ht-degree: 54%
 
 ---
 
@@ -27,10 +27,10 @@ Les URL universelles sont utilisées pour afficher la variation de modèle qui s
 
 Vous pouvez utiliser n’importe quelle URL prédéfinie d’image à partir de la liste. Les URL prédéfinies d’image sont similaires aux URL universelles. Il peut y avoir plusieurs URL prédéfinies d’image.
 
-1. Cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Jeux de modèles]**. Le générateur s’ouvre.
-1. Sélectionnez un modèle, puis cliquez sur **[!UICONTROL Ajouter/Prévisualiser]**.
-1. Modifiez les propriétés du modèle et cliquez sur **[!UICONTROL Enregistrer sous]** pour créer une autre version.
-1. Saisissez un nom et cliquez sur **[!UICONTROL Enregistrer]**.
+1. Accédez à **[!UICONTROL Build]** > **[!UICONTROL Template Sets]** (Jeux de modèles).
+1. Dans le créateur, sélectionnez un modèle, puis sélectionnez **[!UICONTROL Ajouter/Aperçu]**.
+1. Modifiez les propriétés du modèle et sélectionnez **[!UICONTROL Enregistrer sous]** pour créer une autre version.
+1. Saisissez un nom, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
    La ressource et le modèle doivent être publiés.
 
