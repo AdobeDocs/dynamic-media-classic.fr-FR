@@ -1,6 +1,6 @@
 ---
-title: Vérification de fichiers de tâche
-description: Découvrez comment vérifier les fichiers de tâche.
+title: Vérification des fichiers de tâche
+description: Découvrez comment vérifier les fichiers de tâche dans Dynamic Media Classic.
 uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: admin
 content-type: reference
@@ -10,100 +10,100 @@ discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Gestion des ressources
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 61%
+source-wordcount: '1590'
+ht-degree: 36%
 
 ---
 
-# Vérification de fichiers de tâche{#checking-job-files}
+# Vérification des fichiers de tâche{#checking-job-files}
 
 Pour surveiller les téléchargements de fichiers vers Dynamic Media Classic et les fichiers que vous publiez sur les serveurs Dynamic Media Classic, Dynamic Media Classic propose la page Tâches . Vous pouvez consulter des tâches de téléchargement et de publication sur la page Tâches, y vérifier l’état des tâches et annuler des publications. Vous pouvez également planifier des tâches de téléchargement et de publication.
 
-Lorsque vous téléchargez des fichiers, une icône rotative apparaît en regard du menu Tâches, indiquant qu’une tâche est en cours, ainsi que le nombre de fichiers en cours. Vous pouvez cliquer sur cette icône pour consulter davantage d’informations sur la tâche active.
+Lorsque vous téléchargez des fichiers, une icône rotative apparaît en regard du menu Tâches, indiquant qu’une tâche est en cours, ainsi que le nombre de fichiers en cours. Vous pouvez sélectionner l’icône pour afficher plus d’informations sur la tâche principale.
 
 >[!NOTE]
 >
->la liste des tâches récemment publiées est également disponible sur la page Activités récentes. Cliquez sur **[!UICONTROL Récent]** dans la barre de navigation globale pour ouvrir cette page.
+>la liste des tâches récemment publiées est également disponible sur la page Activités récentes. Sélectionnez **[!UICONTROL Récent]** dans la barre de navigation globale.
 
 ## A propos de la page Tâches {#about-the-jobs-page}
 
-Sélectionnez **[!UICONTROL Tâches]** dans la barre de navigation globale pour ouvrir la page Tâches. Par défaut, les tâches sont répertoriées de la plus récente à la moins récente.
+Sélectionnez **[!UICONTROL Tâches]** dans la barre de navigation globale pour que la page Tâches s’ouvre. Par défaut, les tâches sont répertoriées de la plus récente à la moins récente.
 
 Sur l’onglet Historique de la page Tâches, les tâches sont répertoriées selon les catégories suivantes :
 
-**Type** de tâcheUne icône indique le type de tâche : Télécharger et publier sont les types de tâche les plus courants.
+* **[!UICONTROL Type de tâche]**  : une icône indique le type de tâche : Télécharger et publier sont les types de tâche les plus courants.
 
-**Nom de la tâche** : nom de la tâche. Le nom inclut la partie du nom saisie par l’utilisateur et la date et l’heure.
+* **[!UICONTROL Nom de la tâche]**  : nom de la tâche. Le nom inclut la partie du nom saisie par l’utilisateur et la date et l’heure.
 
-**** DémarréLorsque la tâche a commencé.
+* **[!UICONTROL Démarré]**  : lorsque la tâche a commencé.
 
-**** TotalNombre de fichiers transférés.
+* **[!UICONTROL Total]**  : nombre de fichiers transférés.
 
-**W (avertissements)** Nombre d’avertissements dans la tâche (le cas échéant). Les avertissements indiquent des problèmes associés à la tâche qui sont sans effet sur son exécution globale. Ces avertissements peuvent généralement être ignorés parce qu’ils sont signalés dans des fichiers masqués. Par exemple, les fichiers `.DS_store` (Macintosh) et Thumbs.db (Windows®) contiennent des informations sur l’affichage des fichiers image aux utilisateurs. Les entrées d’avertissement concernant ces fichiers peuvent toutefois être ignorées, car elles ne se rapportent pas à la manière dont ces fichiers sont utilisés dans Dynamic Media Classic. Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les avertissements la concernant.
+* **[!UICONTROL W (avertissement)]**  : nombre d’avertissements dans la tâche (le cas échéant). Les avertissements indiquent des problèmes associés à la tâche qui sont sans effet sur son exécution globale. Ces avertissements peuvent généralement être ignorés parce qu’ils sont signalés dans des fichiers masqués. Par exemple, les fichiers `.DS_store` (Macintosh) et Thumbs.db (Windows®) contiennent des informations sur l’affichage des fichiers image aux utilisateurs. Les entrées d’avertissement concernant ces fichiers peuvent toutefois être ignorées, car elles ne se rapportent pas à la manière dont ces fichiers sont utilisés dans Dynamic Media Classic. Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les avertissements la concernant.
 
-**E (Erreurs)** Répertorie le nombre d’erreurs dans la tâche (le cas échéant). Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les erreurs la concernant.
+* **[!UICONTROL E (erreurs)]**  : répertorie le nombre d’erreurs dans la tâche (le cas échéant). Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les erreurs la concernant.
 
-**** Durée : temps nécessaire pour terminer la tâche.
+* **[!UICONTROL Durée]**  : temps nécessaire pour terminer la tâche.
 
-**** StatusAffiche l’état de la tâche.
+* **[!UICONTROL État]**  : affiche l’état de la tâche.
 
-**** DestinationPour les tâches de transfert, le nom de l’entreprise et le dossier dans lequel les fichiers ont été chargés. Cette catégorie ne s’applique pas aux tâches publiées.
+* **[!UICONTROL Destination]**  : pour les tâches de transfert, le nom de la société et le dossier dans lequel les fichiers ont été chargés. Cette catégorie ne s’applique pas aux tâches publiées.
 
-**Envoyé** par les listes qui ont chargé les ressources.
+* **[!UICONTROL Envoyé par]**  : répertorie les personnes qui ont chargé les ressources.
 
 >[!NOTE]
 >
->vous pouvez annuler des tâches de publication et de téléchargement en cours en cliquant sur le bouton Annuler en regard de la barre de progression.
+>Vous pouvez annuler les tâches de publication et de chargement en cours en sélectionnant le bouton **[!UICONTROL Annuler]** en regard de la barre de progression.
 
-## Modification des vues de la page Tâches {#changing-views-on-the-jobs-page}
+## Modification des vues sur la page Tâches {#changing-views-on-the-jobs-page}
 
 Pour trier des tâches ou modifier votre affichage sur l’onglet Historique de la page Tâches, appliquez les techniques suivantes :
 
-**** Tri : sélectionnez un nom de colonne pour trier la liste selon une colonne particulière. Vous pouvez sélectionner le bouton bascule près du nom de la colonne pour trier les entrées par ordre croissant ou décroissant.
+* **[!UICONTROL Tri]**  : sélectionnez un nom de colonne pour trier la liste selon une colonne particulière. Vous pouvez sélectionner le bouton bascule près du nom de la colonne pour trier les entrées par ordre croissant ou décroissant.
 
-**** Période : sélectionnez le menu Période et choisissez une option pour réduire la liste des tâches à la date actuelle, à la semaine précédente ou au mois précédent. Choisissez Période personnalisée, puis saisissez une période spécifique.
+* **[!UICONTROL Période]**  : sélectionnez la  **** période et choisissez une option pour réduire la liste des tâches à la date actuelle, à la semaine précédente ou au mois précédent. Sélectionnez **[!UICONTROL Période personnalisée]**, puis saisissez une période spécifique.
 
-**Type de tâche** : sélectionnez le menu Type de tâche et choisissez Publier ou Télécharger pour restreindre la liste aux tâches de publication ou de téléchargement. Choisissez l’option Tout pour voir les deux types de tâche.
+* **[!UICONTROL Type de tâche]**  : sélectionnez le  **[!UICONTROL type de tâche]** et choisissez  **** Publier  **** pour réduire la liste afin de publier des tâches ou de charger des tâches. Sélectionnez **[!UICONTROL Toutes]** pour afficher les deux types de tâches.
 
-**** AfficherSélectionnez Afficher > Mes tâches ou Afficher > Toutes les tâches pour restreindre la liste aux tâches que vous avez commandées ou aux tâches commandées par des personnes de votre entreprise.
+* **[!UICONTROL Afficher]**  - Accédez à  **[!UICONTROL Afficher]**  >  **[!UICONTROL Mon]** programme  **[!UICONTROL Afficher]**  >  **[!UICONTROL Tous]** Jobsto pour restreindre la liste aux tâches que vous avez commandées ou aux tâches commandées par des personnes de votre entreprise.
 
 ## Affichage, copie ou impression d’un rapport Détails de la tâche {#viewing-copying-or-printing-a-job-details-report}
 
-Cliquez deux fois sur le nom d’un rapport sur la page Tâches pour ouvrir la page Détails sur la tâche. Cette page présente un récapitulatif sur les fichiers de la tâche. Cliquez sur Afficher les détails pour afficher l’identifiant Dynamic Media Classic d’une entrée, le chemin de destination et les informations d’état. Si vous avez téléchargé un fichier PDF ou PostScript qui nécessite des polices qui ne sont pas disponibles dans Dynamic Media Classic, le rapport répertorie les polices manquantes.
+Double-cliquez sur le nom d’un rapport sur la page Tâches pour ouvrir la page Détails de la tâche. Cette page présente un récapitulatif sur les fichiers de la tâche. Sélectionnez **[!UICONTROL Afficher les détails]** pour afficher l’identifiant Dynamic Media Classic, le chemin de destination et les informations d’état d’une entrée. Si vous avez téléchargé un fichier PDF ou PostScript qui nécessite des polices qui ne sont pas disponibles dans Dynamic Media Classic, le rapport répertorie les polices manquantes.
 
 Vous pouvez copier ces informations dans le Presse-papiers.
 
-1. Cliquez deux fois sur le nom d’un rapport sur la page Tâches pour ouvrir la page Détails sur la tâche. 
-1. Cliquez sur Afficher les détails pour obtenir un rapport détaillé sur une entrée.
-1. Cliquez sur Copier dans le Presse-papiers.
+1. Double-cliquez sur le nom d’un rapport sur la page Tâches.
+1. Sur la page Détails de la tâche, sélectionnez **[!UICONTROL Afficher les détails]** pour obtenir un rapport détaillé sur une entrée.
+1. Sélectionnez **[!UICONTROL Copier dans le Presse-papiers]**.
 
-## Gestion de tâches de téléchargement et de publication périodiques {#handling-recurring-upload-and-publish-jobs}
+## Gestion des tâches de chargement et de publication récurrentes {#handling-recurring-upload-and-publish-jobs}
 
 Les tâches de téléchargement et de publication périodiques que vous créez dans les pages Télécharger et Publier sont répertoriées dans l’onglet Planifiée de la page Tâches. Vous pouvez éditer et supprimer des tâches périodiques dans l’onglet Planifiée.
 
-Cliquez sur le bouton Tâches dans la barre de navigation globale et, sur la page Tâches qui apparaît, sélectionnez l’onglet Planifiée pour éditer et supprimer des tâches périodiques.
+Sélectionnez le bouton Tâches dans la barre de navigation globale, puis, sur la page Tâches, sélectionnez l’onglet **[!UICONTROL Planifié]** afin de pouvoir modifier et supprimer les tâches récurrentes.
 
 >[!NOTE]
 >
->vous pouvez filtrer la liste des tâches dans l’onglet Planifiée avec les menus Type de tâche et Afficher. Choisissez un type de tâche pour restreindre la liste à des tâches de publication spécifiques. Choisissez une option Afficher pour afficher les tâches créées par vos soins ou par quelqu’un de l’entreprise.
+>Vous pouvez filtrer la liste des tâches sur l’onglet **[!UICONTROL Planifié]** avec les menus **[!UICONTROL Type de tâche]** et **[!UICONTROL Afficher]**. Sélectionnez un type de tâche afin de limiter la liste aux tâches d’un type spécifique. Sélectionnez une option **[!UICONTROL Afficher]** si vous souhaitez afficher les tâches que vous avez créées ou créées par toutes les personnes de votre entreprise.
 
-### Edition, suppression, interruption et reprise de tâches {#editing-deleting-pausing-and-resuming-recurring-jobs}
+### Modification, suppression, pause et reprise de tâches récurrentes {#editing-deleting-pausing-and-resuming-recurring-jobs}
 
-Sélectionnez une tâche périodique sur la page Tâches, puis procédez comme suit pour l’éditer ou la supprimer :
+Sélectionnez une tâche récurrente sur la page Tâches et suivez ces instructions si vous souhaitez la modifier ou la supprimer :
 
-**Modification d’une** tâche récurrente : sélectionnez le bouton Modifier et saisissez les informations de planification dans la boîte de dialogue Modifier la tâche planifiée . Si vous souhaitez planifier la tâche selon l’intervalle de votre choix, choisissez l’option Répéter > Personnalisé 
+* **Modifier une tâche récurrente**  : sélectionnez le bouton  **** Modifier et saisissez les informations de planification dans la boîte de dialogue Modifier la tâche planifiée. Si vous souhaitez que la tâche se répète à l’intervalle de votre choix, accédez à **[!UICONTROL Répéter]** > **[!UICONTROL Personnalisé]**.
 
-(voir [Création d’un intervalle de téléchargement ou de publication personnalisé](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval)).
+Voir [Création d’un intervalle de temps de tâche de téléchargement ou de publication personnalisé](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
-**Suppression d’une** tâche récurrenteSélectionnez le bouton Supprimer .
+* **Suppression d’une tâche récurrente**  : sélectionnez le bouton  **** Supprimer.
 
-**Suspension (et reprise) d’une** tâche récurrenteDans la colonne Principale, décochez une case pour suspendre une tâche. cochez une case pour reprendre une tâche en pause.
+* **Suspension (et reprise) d’une tâche**  récurrente : dans la colonne Principale, désélectionnez une case à cocher pour suspendre une tâche. cochez une case pour reprendre une tâche en pause.
 
-### Création d’un intervalle de téléchargement ou de publication personnalisé {#creating-a-custom-upload-or-publish-job-time-interval}
+### Création d’un intervalle de temps de tâche de téléchargement ou de publication personnalisé {#creating-a-custom-upload-or-publish-job-time-interval}
 
-Pour créer un intervalle personnalisé pour une tâche de téléchargement (via FTP) ou de publication, choisissez l’option Répéter > Personnalisé sur la page Télécharger ou Publier. Puis, entrez des numéros et des caractères génériques dans la zone Règle pour définir l’intervalle de périodicité de la tâche en question.
+Pour créer un intervalle de temps personnalisé pour une tâche de téléchargement (via FTP) ou de publication, sur la page Télécharger ou Publier, accédez à **[!UICONTROL Répéter]** > **[!UICONTROL Personnalisé]**. Saisissez ensuite des nombres et des caractères génériques dans la zone Règle pour décrire un intervalle de temps entre les tâches de téléchargement ou de publication à répéter.
 
 La syntaxe de définition des intervalles personnalisés de périodicité de téléchargement ou de publication dans la zone Règle se présente comme suit :
 
@@ -141,19 +141,19 @@ Ce tableau indique les caractères génériques qui sont autorisés dans la zone
 
 Cette liste donne des exemples de définition d’intervalle dans la zone Règle :
 
-* 0 0 12 * * ? : à midi tous les jours
-* 0 15 10 ? * * : à 10h15 tous les jours
-* 0 0/5 14 * * ? : toutes les 5 minutes entre 14h00 et 14h55 tous les jours
-* 0 0/5 14,18 * * ? : toutes les 5 minutes entre 14h00 et 14h55 tous les jours et toutes les 5 minutes entre 18h00 et 18h55 tous les jours
-* 0 10,44 14 ? 3 : le mercredi à 14h10 et à 14h44 tous les mercredis du mois de mars
-* 0 15 10 ? *: Lun-vendredi à 10h15 tous les jours de la semaine
-* 0 15 10 20 * ? : à 10h15 le 20e jour de chaque mois
-* 0 15 10 L * ? : à 10h15 le dernier jour de chaque mois
-* 0 15 10 ? * 6L : à 10h15 le dernier vendredi de chaque mois
-* 0 15 10 * * 6#3 : à 10h15 le troisième vendredi de chaque mois
+* `0 0 12 * * ?` : Midi tous les jours
+* `0 15 10 ? * *` : 10h15 tous les jours
+* `0 0/5 14 * * ?`: Toutes les 5 minutes entre 14 h et 14 h 55 tous les jours
+* `0 0/5 14,18 * * ?` : Toutes les 5 minutes entre 14h00 et 14h55 tous les jours et toutes les 5 minutes entre 18h00 et 18h55 tous les jours
+* `0 10,44 14 ? 3` : Mer à 14h10 et 14h44 tous les mercredis de mars
+* `0 15 10 ? *` : Lun-vendredi à 10h15 tous les jours de la semaine
+* `0 15 10 20 * ?` : À 10h15 le 20e jour de chaque mois
+* `0 15 10 L * ?` : À 10h15 le dernier jour de chaque mois
+* `0 15 10 ? * 6L` : À 10h15 le dernier vendredi de chaque mois
+* `0 15 10 * * 6#3` : À 10h15 le troisième vendredi de chaque mois
 
 ## Utilisation d’une tâche de téléchargement ou de publication comme déclencheur {#using-an-upload-or-publish-job-as-a-trigger}
 
 Lorsque vous transférez des ressources par FTP ou exécutez une tâche de publication, vous pouvez planifier une tâche ultérieure qui commencera une fois le transfert terminé. (Si d’autres tâches doivent alors commencer, la tâche que vous programmez ici est mise en file d’attente derrière elles.) La nouvelle tâche envoie une notification à l’adresse spécifiée par vos soins de manière à déclencher ce code à cet emplacement. Le même nom que la tâche de téléchargement actuelle est attribué à la tâche de téléchargement à suivre, si ce n’est qu’il est accompagné du préfixe _Pub.
 
-Pour faire en sorte qu’une tâche de téléchargement ou de publication serve de déclencheur à une autre tâche, sélectionnez l’option Avancé sur la page Télécharger ou Publier. Entrez ensuite l’URL dans le champ Notification HTTP.
+Pour qu’une tâche de téléchargement ou de publication déclenche une autre tâche, sélectionnez **[!UICONTROL Avancé]** sur la page Télécharger ou Publier . Entrez ensuite l’URL dans le champ Notification HTTP.
