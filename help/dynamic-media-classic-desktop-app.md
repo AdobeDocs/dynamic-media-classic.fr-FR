@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 9ff171590c65f55cef8c9e5a2b4e77ddbbfa6895
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1841'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Cette nouvelle application est désormais disponible pour Windows® et macOS.
 >
 >Adobe vous recommande d’installer la nouvelle appli de bureau Dynamic Media Classic Adobe d’ici le 1er octobre 2020. Cela vous assurera une transition en douceur avant que le Flash Player Adobe ne soit abandonné le 31 décembre 2020. Après cette date, vous ne pourrez plus vous connecter à la version navigateur de l’interface utilisateur d’Adobe Dynamic Media Classic, appelée Dynamic Media Classic dans le produit.
 
-Consultez la FAQ sur la [Nouvelle connexion Dynamic Media Classic désormais disponible.](/help/new-ui-2020.md)
+Voir la FAQ pour [Nouvelle expérience de connexion à Dynamic Media Classic désormais disponible.](/help/new-ui-2020.md)
 
 ## Configuration requise pour l’appli de bureau Dynamic Media Classic Adobe {#system-requirements-dmc-app}
 
@@ -87,7 +87,7 @@ Voir aussi:
 
 1. Effectuez l’une des opérations suivantes en fonction du programme d’installation que vous avez téléchargé.
 
-   * **Pour macOS**  - Dans la boîte de dialogue  **[!UICONTROL Faire glisser et déposer vers l’]** installation, faites glisser  **[!UICONTROL Adobe Dynamic Media]** Classic et déposez-le sur  **[!UICONTROL Applications]**.
+   * **macOS**  - Dans la boîte de dialogue  **[!UICONTROL Faire glisser et déposer vers l’]** installation, faites glisser  **[!UICONTROL Adobe Dynamic Media]** Classic et déposez-le sur  **[!UICONTROL Applications]**.
 
       ![Installation par glisser-déposer sur macOS](/help/assets/dragondrop-install1.png)
 
@@ -96,7 +96,7 @@ Voir aussi:
 
       ![Ouvrir l’application téléchargée](/help/assets/open-dmclassicapp1.png)
 
-   * **Pour Windows**  : exécutez le fichier binaire du programme d’installation et suivez les instructions à l’écran pour installer l’appli de bureau .
+   * **Windows**  : exécutez le binaire du programme d’installation et suivez les instructions à l’écran pour installer l’appli de bureau.
 
 1. Lorsque vous ouvrez l’application, la nouvelle page de connexion Dynamic Media Classic Adobe s’affiche :
 
@@ -107,7 +107,7 @@ Voir aussi:
    Pour que **[!UICONTROL Serveur]** soit utilisé, voir le mappage suivant pour l’environnement de production :
 
    | URL du navigateur | Nom du serveur d’applications de bureau |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Production NA (Amérique du Nord) |
    | https://s7sps3.scene7.com/ | Production EMEA (Europe, Moyen-Orient et Afrique) |
    | https://s7sps5.scene7.com/ | Production APAC (Asie-Pacifique) |
@@ -149,7 +149,7 @@ Pour télécharger et *silencieux* installer la dernière version de l’appli d
    Pour que **[!UICONTROL Serveur]** soit utilisé, voir le mappage suivant pour l’environnement de production :
 
    | URL du navigateur | Nom du serveur d’applications de bureau |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Production NA (Amérique du Nord) |
    | https://s7sps3.scene7.com/ | Production EMEA (Europe, Moyen-Orient et Afrique) |
    | https://s7sps5.scene7.com/ | Production APAC (Asie-Pacifique) |
@@ -194,7 +194,7 @@ Pour télécharger et *silencieux* installer la dernière version de l’appli d
    Pour que **[!UICONTROL Serveur]** soit utilisé, voir le mappage suivant pour l’environnement de production :
 
    | URL du navigateur | Nom du serveur d’applications de bureau |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Production NA (Amérique du Nord) |
    | https://s7sps3.scene7.com/ | Production EMEA (Europe, Moyen-Orient et Afrique) |
    | https://s7sps5.scene7.com/ | Production APAC (Asie-Pacifique) |
