@@ -10,9 +10,9 @@ discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1201'
 ht-degree: 31%
 
 ---
@@ -35,7 +35,7 @@ Voir [Publier les informations de configuration](publishing-analytics-configurat
 
 Utilisez l’écran Configuration d’Adobe Analytics pour associer des événements de visionneuse à des variables Adobe Analytics et à des variables Dynamic Media Classic. Pour chaque événement de visionneuse, choisissez une variable Adobe Analytics et une variable Dynamic Media Classic. Pour obtenir des instructions sur l’ouverture de l’écran de configuration d’Adobe Analytics, voir [Connexion à Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-**Pour affecter des variables Adobe Analytics aux événements et variables de visionneuse Dynamic Media Classic**
+**Pour affecter des variables Adobe Analytics aux événements et variables de visionneuse Dynamic Media Classic :**
 
 1. Après vous être connecté à Adobe Analytics à partir de Dynamic Media Classic et avoir sélectionné une suite de rapports, sur la page de configuration d’Adobe Analytics, dans la colonne de droite du tableau, activez un événement de visionneuse en sélectionnant **[!UICONTROL Activer]**.
 1. Dans la colonne Variables , affichez le sélecteur de paires de variables en sélectionnant le bouton fléché de l’événement de visionneuse de votre choix.
@@ -53,7 +53,7 @@ Utilisez l’écran Configuration d’Adobe Analytics pour associer des événem
    Après avoir sélectionné **[!UICONTROL Enregistrer]**, l’événement de visionneuse, sa variable Adobe Analytics et sa variable Dynamic Media Classic sont répertoriés dans l’écran de configuration d’Adobe Analytics.
 
 1. Dans le coin inférieur droit, sélectionnez **[!UICONTROL Fermer]**.
-1. Sélectionnez **[!UICONTROL Publier]** > **[!UICONTROL Soumettre la publication]** pour exécuter une publication de serveur d’images.
+1. Accédez à **[!UICONTROL Publier]** > **[!UICONTROL Envoyer la publication]** pour exécuter une publication de serveur d’images.
 
    La publication est nécessaire pour que les informations contenues dans les visionneuses soient disponibles sur les serveurs Dynamic Media Classic.
 
@@ -64,23 +64,22 @@ Les événements de visionneuse décrivent les actions que les utilisateurs effe
 Le tableau ci-après décrit les événements de visionneuse que vous pouvez ajouter à l’écran de configuration d’Adobe Analytics.
 
 | Evénement de visionneuse | Prise en charge et visionneuses de la plate-forme de la visionneuse HTML5 | Description |
-|--- |--- |--- |
-| CHARGEMENT | **X** (catalogue électronique, fenêtre déroulante, visionneuse à 360°, vidéo, zoom) | Lorsqu’une visionneuse est lancée par un utilisateur |
-| PAGE | **X** (catalogue électronique) | Dans les catalogues électroniques, lorsqu’un utilisateur fait tourner une page ; dans les visionneuses de zoom ciblées, lorsqu’un utilisateur sélectionne une autre cible ou un échantillon de couleur |
-| PERMUTATION | **X** (catalogue électronique, fenêtre déroulante, visionneuse à 360°, vidéo, zoom) | Lorsqu’un utilisateur sélectionne une autre miniature pour afficher une autre image |
-| OBJET | **X** (catalogue électronique) | Lorsqu’un utilisateur place le pointeur sur une zone cliquable afin d’afficher le texte de survol associé, et ce, dans une visionneuse prenant en charge les zones cliquables comportant du texte de survol |
-| HREF | **X** (catalogue électronique) | Dans les visionneuses prenant en charge les zones cliquables, lorsqu’un utilisateur sélectionne une URL dans une zone cliquable |
+| --- | --- | --- |
+| CHARGEMENT | **X** (catalogue électronique, fenêtre déroulante, visionneuse à 360°, vidéo, zoom) | Lorsqu’un utilisateur démarre une visionneuse |
+| PAGE | **X** (catalogue électronique) | Dans les catalogues électroniques, lorsqu’un utilisateur fait tourner une page ; dans les visionneuses de zoom ciblées, lorsqu’un utilisateur sélectionne une autre cible ou un autre échantillon de couleur. |
+| PERMUTATION | **X** (catalogue électronique, fenêtre déroulante, visionneuse à 360°, vidéo, zoom) | Lorsqu’un utilisateur sélectionne une autre miniature pour afficher une autre image. |
+| OBJET | **X** (catalogue électronique) | Lorsqu’un utilisateur place le pointeur sur une zone cliquable afin d’afficher le texte de survol associé, et ce, dans une visionneuse prenant en charge les zones cliquables comportant du texte de survol. |
+| HREF | **X** (catalogue électronique) | Dans les visionneuses prenant en charge les zones cliquables, lorsqu’un utilisateur sélectionne une URL dans une zone cliquable. |
 | CIBLE |  | Dans les visionneuses de zoom ciblées, lorsqu’un utilisateur sélectionne une cible de zoom pour effectuer un zoom sur une partie d’une image. |
 | RECHERCHE |  | Lorsqu’un utilisateur effectue une recherche textuelle dans des catalogues électroniques. |
 | LECTURE | **X** (vidéo) | Dans les visionneuses de vidéos, lorsqu’un utilisateur sélectionne Lecture pour commencer la lecture d’une vidéo.<br><br>**Remarque :** Si vous utilisez les rapports vidéo basés sur la pulsation Adobe Analytics, vous n’avez pas besoin de mapper de variables à cet événement de visionneuse lorsque vous configurez Adobe Analytics dans Dynamic Media Classic. Video Heartbeat fonctionne avec les visionneuses vidéo HTML5 et de supports variés Dynamic Media Classic prêtes à l’emploi. Le lecteur vidéo génère des données de suivi à afficher dans les rapports vidéo d’Adobe Analytics. Voir [Activation des rapports vidéo Adobe Analytics](enabling-analytics-video-reports.md). |
 | PAUSE | **X** (vidéo) | Dans les visionneuses de vidéos, lorsqu’un utilisateur sélectionne **[!UICONTROL Mettre en pause]** pour geler une vidéo.<br><br>**Remarque :** Si vous utilisez les rapports vidéo basés sur la pulsation Adobe Analytics, vous n’avez pas besoin de mapper de variables à cet événement de visionneuse lorsque vous configurez Adobe Analytics dans Dynamic Media Classic. Video Heartbeat fonctionne avec les visionneuses vidéo HTML5 et de supports variés Dynamic Media Classic prêtes à l’emploi. Le lecteur vidéo génère des données de suivi à afficher dans les rapports vidéo d’Adobe Analytics. Voir [Activation des rapports vidéo Adobe Analytics](enabling-analytics-video-reports.md). |
 | ARRET | **X** (vidéo) | Dans les visionneuses de vidéos, lorsqu’un utilisateur sélectionne **[!UICONTROL Arrêter]** pour arrêter la lecture d’une vidéo.<br><br>**Remarque :** Si vous utilisez les rapports vidéo basés sur la pulsation Adobe Analytics, vous n’avez pas besoin de mapper de variables à cet événement de visionneuse lorsque vous configurez Adobe Analytics dans Dynamic Media Classic. Video Heartbeat fonctionne avec les visionneuses vidéo HTML5 et de supports variés Dynamic Media Classic prêtes à l’emploi. Le lecteur vidéo génère des données de suivi à afficher dans les rapports vidéo d’Adobe Analytics. Voir [Activation des rapports vidéo Adobe Analytics](enabling-analytics-video-reports.md). |
 | JALON | **X**  (Vidéo) | Dans les visionneuses de vidéos, des événements de référence sont créés lorsque l’utilisateur regarde 0, 25, 50, 75 ou 100 % de la vidéo.<br><br>**Remarque :** Si vous utilisez les rapports vidéo basés sur la pulsation Adobe Analytics, vous n’avez pas besoin de mapper de variables à cet événement de visionneuse lorsque vous configurez Adobe Analytics dans Dynamic Media Classic. Video Heartbeat fonctionne avec les visionneuses vidéo HTML5 et de supports variés Dynamic Media Classic prêtes à l’emploi. Le lecteur vidéo génère des données de suivi à afficher dans les rapports vidéo d’Adobe Analytics. Voir [Activation des rapports vidéo Adobe Analytics](enabling-analytics-video-reports.md). |
-| NUANCES | X (fenêtre déroulante, zoom) | Cet événement de visionneuse est mappé sur l’événement de visionneuse PAGE dans Dynamic Media Classic. |
-| ZOOM | **X** (catalogue électronique, visionneuse à 360°, zoom) | Non suivi par Adobe Analytics.<br> |
-| PANORAMIQUE | **X** (catalogue électronique, visionneuse à 360°, zoom) | Non suivi par Adobe Analytics.<br> |
-| ROTATION | **X** (visionneuse à 360°) | Non suivi par Adobe Analytics.<br> |
-
+| NUANCES | **X** (fenêtre déroulante, zoom) | Cet événement de visionneuse est mappé sur l’événement de visionneuse PAGE dans Dynamic Media Classic. |
+| ZOOM | **X** (catalogue électronique, visionneuse à 360°, zoom) | Non suivi par Adobe Analytics. |
+| PANORAMIQUE | **X** (catalogue électronique, visionneuse à 360°, zoom) | Non suivi par Adobe Analytics. |
+| ROTATION | **X** (visionneuse à 360°) | Non suivi par Adobe Analytics. |
 
 ### Variables Dynamic Media Classic {#scene-variables}
 
@@ -89,7 +88,7 @@ Pour chaque événement de visionneuse de l’écran de configuration d’Adobe 
 Le tableau suivant décrit les variables Dynamic Media Classic :
 
 | Variable Dynamic Media Classic | Description |
-|--- |:--- |
+| --- | --- |
 | asset | Identifiant de ressource ou fichier de chemin d’accès vidéo Dynamic Media Classic. |
 | viewerId | Numéro arbitraire attribué à chaque type de visionneuse |
 | pageLabel | Dans un catalogue électronique, page affichée par une visionneuse |
@@ -106,11 +105,8 @@ Le tableau suivant décrit les variables Dynamic Media Classic :
 
 Sur l’écran de configuration d’Adobe Analytics, vous pouvez activer, modifier et supprimer des événements de visionneuse :
 
-* ****
-ActiverSélectionnez  **** Activer pour activer ou  **** désactiver l’événement de visionneuse sélectionné.
+* **Activer**  : sélectionnez  **** Activer pour activer ou  **** Désactiver pour désactiver un événement de visionneuse sélectionné.
 
-* ****
-ModifierSélectionnez un événement de visionneuse et cliquez sur le bouton gris  **[!UICONTROL Afficher/]** Modifier les variables. Dans les listes déroulantes Variable Dynamic Media Classic et Variable Adobe Analytics , sélectionnez une variable différente dans chaque liste respective. Pour plus d’informations, voir Attribution de variables Adobe Analytics aux événements et variables de visionneuse Dynamic Media Classic .
+* **Modifier**  : sélectionnez un événement de visionneuse et cliquez sur le bouton gris  **[!UICONTROL Afficher/]** Modifier les variables. Dans les listes déroulantes Variable Dynamic Media Classic et Variable Adobe Analytics , sélectionnez une variable différente dans chaque liste respective. Pour plus d’informations, voir [Attribution de variables Adobe Analytics aux événements et variables de visionneuse Dynamic Media Classic](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
 
-* ****
-SupprimerSélectionnez un événement de visionneuse, puis cliquez sur le bouton gris  **[!UICONTROL Afficher/]** Modifier les variables. Sélectionnez **[!UICONTROL Supprimer]**.
+* **Supprimer**  : sélectionnez un événement de visionneuse, puis le bouton gris  **[!UICONTROL Afficher/]** Modifier les variables. Sélectionnez **[!UICONTROL Supprimer]**.
