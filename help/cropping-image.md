@@ -1,19 +1,19 @@
 ---
 title: Recadrage d’une image
-description: Découvrez comment recadrer une image.
+description: Découvrez comment recadrer une image dans Dynamic Media Classic.
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
-feature: Dynamic Media Classic,Gestion des ressources
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 39%
+ht-degree: 35%
 
 ---
 
@@ -25,13 +25,13 @@ Vous pouvez recadrer une image afin d’en supprimer les bords blancs ou de ne g
 
 >[!NOTE]
 >
->Une fois le recadrage effectué, vous pouvez sélectionner **[!UICONTROL Enregistrer sous]** et enregistrer une version recadrée de l’image sous un autre nom. Dans la fenêtre Enregistrer en tant que, choisissez l’option Enregistrer sous nouvelle image originale pour sauvegarder une seconde copie de l’image. Sélectionnez **[!UICONTROL Enregistrer en tant que vue supplémentaire du Principal]** afin que vous puissiez enregistrer l’original et sa version recadrée sous un autre nom. Sélectionnez **[!UICONTROL Remplacer l’original]** pour supprimer le fichier d’origine à partir duquel vous avez recadré votre image. Saisissez ensuite le nom de l’image, puis sélectionnez **[!UICONTROL Envoyer]**.
+>Une fois le recadrage effectué, vous pouvez sélectionner **[!UICONTROL Enregistrer sous]** et enregistrer une version recadrée de l’image sous un autre nom. Dans la fenêtre Enregistrer sous, sélectionnez **[!UICONTROL Enregistrer comme nouveau Principal]** pour enregistrer une seconde copie de l’image. Sélectionnez **[!UICONTROL Enregistrer en tant que vue supplémentaire du Principal]** afin que vous puissiez enregistrer l’original et sa version recadrée sous un autre nom. Sélectionnez **[!UICONTROL Remplacer l’original]** pour supprimer le fichier d’origine à partir duquel vous avez recadré votre image. Saisissez ensuite le nom de l’image, puis sélectionnez **[!UICONTROL Submit]**.
 
 ## Suppression de l’espace blanc autour d’une image à l’aide du recadrage {#crop-to-remove-white-space-around-an-image}
 
 Vous pouvez éliminer les pixels transparents ou de couleur qui apparaissent au bord d’une image.
 
-1. Pour recadrer une image, cliquez sur le bouton de survol **[!UICONTROL Modifier]** et choisissez **[!UICONTROL Recadrer]**, ou affichez-la dans le panneau de navigation en mode Détails et sélectionnez le bouton **[!UICONTROL Recadrer]** .
+1. Pour recadrer une image, cliquez sur son bouton de survol **[!UICONTROL Modifier]**, puis sélectionnez **[!UICONTROL Recadrer]** ou affichez-la dans le panneau de navigation en mode Détails et sélectionnez le bouton **[!UICONTROL Recadrer]**.
 1. Sur la page Éditeur de recadrage , effectuez l’une des opérations suivantes :
 
    * Pour rogner les pixels de couleur, accédez à **[!UICONTROL Rogner]** > **[!UICONTROL Couleur]**. Dans la boîte de dialogue **[!UICONTROL Recadrage automatique par couleur]**, sélectionnez le menu **[!UICONTROL Coin]** et choisissez un coin avec la couleur d’arrière-plan que vous souhaitez recadrer. Saisissez ensuite un paramètre **[!UICONTROL Tolérance]** compris entre 0 et 1. La valeur 0 permet de rogner les pixels uniquement s’ils correspondent exactement à la couleur sélectionnée dans l’angle de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs. Sélectionnez **[!UICONTROL Recadrer]**.
@@ -63,6 +63,6 @@ Vous pouvez éliminer les pixels transparents ou de couleur qui apparaissent au 
 >[!MORELIKETHIS]
 >
 >* [Options d’édition d’images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload)
-* [Recadrer l’espace blanc d’un fichier PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
-* [Recadrage à partir des côtés des pages PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+>* [Recadrer l’espace blanc d’un fichier PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
+>* [Recadrage à partir des côtés des pages PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
 
