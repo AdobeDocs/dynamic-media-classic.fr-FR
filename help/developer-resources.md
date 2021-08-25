@@ -6,13 +6,13 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 40%
+source-wordcount: '268'
+ht-degree: 41%
 
 ---
 
@@ -24,30 +24,29 @@ Des notes de mise à jour sont également disponibles pour certains modules. Les
 
 Les guides de référence sur le serveur d’images et le rendu d’images, ainsi que les visionneuses, décrivent les protocoles http pour ces modules de serveur. Les développeurs de sites web qui souhaitent personnaliser davantage et utiliser des médias enrichis Dynamic Media Classic pour un site web ou une application personnalisée peuvent utiliser ces guides. Dynamic Media Classic suppose que l’utilisateur connaît l’appli de bureau, les normes et conventions générales du protocole http et la terminologie de base de l’imagerie.
 
-
 ## API Dynamic Media Classic
 
 | Document | Adresse Web |
-|--- |--- |
+| --- | --- |
 | Guide de référence des API | Contactez l’assistance technique de Dynamic Media Classic pour obtenir de la documentation. |
 
 ## Image Authoring
 
 | Document | Adresse Web |
-|--- |--- |
+| --- | --- |
 | Guide de l’utilisateur | Contactez l’assistance technique de Dynamic Media Classic pour consulter cette documentation. |
 | Notes de mise à jour | Contactez l’assistance technique de Dynamic Media Classic pour consulter cette documentation. |
 
 ##  Image Serving et Image Rendering
 
 | Document | Adresse Web |
-|--- |--- |
+| --- | --- |
 | Guide de référence des API | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) |
 
 ## Visionneuses
 
 | Document | Adresse Web |
-|--- |--- |
+| --- | --- |
 | Guide de référence et notes de mise à jours des visionneuses | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) |
 | Exemples de bibliothèque de visionneuse | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
