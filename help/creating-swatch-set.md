@@ -1,6 +1,6 @@
 ---
 title: Création de la série d’échantillons
-description: Découvrez comment créer un ensemble d’échantillons dans Dynamic Media Classic.
+description: Découvrez comment créer un ensemble d’échantillons dans Adobe Dynamic Media Classic.
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '708'
 ht-degree: 61%
 
 ---
@@ -65,7 +65,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 **Pour modifier une série d’échantillons:**
 
-1. En mode Grille, accédez à un SwatchSet, puis, sous l’image, sélectionnez **[!UICONTROL Modifier]**.
+1. En mode d’affichage Grille, accédez à un SwatchSet, puis, sous l’image, sélectionnez **[!UICONTROL Modifier]**.
 1. Utilisez l’une des méthodes suivantes :
 
    * Pour ajouter une image (publiée ou non publiée), faites-la glisser d’un dossier du panneau d’ajout des fichiers sur la page **[!UICONTROL des vues]** de la série d’échantillons.

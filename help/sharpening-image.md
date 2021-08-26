@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
-feature: Dynamic Media Classic,Gestion des ressources
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2174'
 ht-degree: 46%
 
 ---
@@ -21,29 +21,29 @@ ht-degree: 46%
 
 L’accentuation est une technique de manipulation d’image qui rend plus nets les contours d’une image numérique. L’accentuation consiste à augmenter le contraste entre les pixels de contour, et ainsi à souligner la transition entre les zones sombres et les zones claires. L’accentuation augmente le contraste local et fait ressortir les détails infimes. Il n’existe pas de formule magique pour accentuer correctement toutes les images. Une accentuation trop faible produit une image douce, tandis qu’une accentuation exagérée crée des halos, des artefacts et du bruit.
 
-Dynamic Media Classic vous recommande vivement d’utiliser des paramètres d’image prédéfinis pour toutes les images. Elles garantissent une taille uniforme et l’accentuation est appliquée sur toute image appelée avec un paramètre d’image prédéfini. De plus, vous pouvez facilement modifier et modifier les paramètres d’accentuation d’un paramètre d’image prédéfini. A la prochaine publication, toutes les images appelées avec ces paramètres prédéfinis se voient appliquer les nouvelles valeurs.
+Adobe Dynamic Media Classic vous recommande vivement d’utiliser des paramètres d’image prédéfinis pour toutes les images. Elles garantissent une taille uniforme et l’accentuation est appliquée sur toute image appelée avec un paramètre d’image prédéfini. De plus, vous pouvez facilement modifier et modifier les paramètres d’accentuation d’un paramètre d’image prédéfini. A la prochaine publication, toutes les images appelées avec ces paramètres prédéfinis se voient appliquer les nouvelles valeurs.
 
-Dynamic Media Classic recommande également d’ajouter de l’accentuation aux paramètres prédéfinis de la visionneuse, puis d’appeler une visionneuse avec ce paramètre prédéfini. Cela permet de s’assurer que les images de vos visionneuses sont crise et attrayantes.
+Adobe Dynamic Media Classic recommande également d’ajouter de l’accentuation aux paramètres prédéfinis de la visionneuse, puis d’appeler une visionneuse avec ce paramètre prédéfini. Cela permet de s’assurer que les images de vos visionneuses sont crise et attrayantes.
 
 Cependant, que vous utilisiez les paramètres d’image prédéfinis et les paramètres de visionneuse prédéfinis, ou une autre méthode d’accentuation, l’essentiel est que vous devez accentuer vos images. Si ce n’est pas le cas, vos images (et votre site web) peuvent sembler douces et floues.
 
 >[!NOTE]
 >
->les commandes d’accentuation remplacent les paramètres d’image prédéfinis, notamment les effets d’accentuation. Un paramètre d’image prédéfini détermine la taille et le formatage avec lesquels les images sont diffusées à partir des serveurs d’images Dynamic Media. Dynamic Media Classic recommande vivement d’utiliser des paramètres d’image prédéfinis pour diffuser toutes les images afin de s’assurer que leur taille et leur accentuation sont uniformes. Cependant, après avoir modifié les paramètres d’accentuation d’une image individuelle, les paramètres d’image prédéfinis relatifs à l’accentuation ne s’appliquent plus à l’image. Elle est diffusée sans ces paramètres.
+>les commandes d’accentuation remplacent les paramètres d’image prédéfinis, notamment les effets d’accentuation. Un paramètre d’image prédéfini détermine la taille et le formatage avec lesquels les images sont diffusées à partir des serveurs d’images Dynamic Media. Adobe Dynamic Media Classic recommande vivement d’utiliser des paramètres d’image prédéfinis pour diffuser toutes les images afin de s’assurer que leur taille et leur accentuation sont uniformes. Cependant, après avoir modifié les paramètres d’accentuation d’une image individuelle, les paramètres d’image prédéfinis relatifs à l’accentuation ne s’appliquent plus à l’image. Elle est diffusée sans ces paramètres.
 
-Il est souvent nécessaire d’accentuer les images. Dynamic Media Classic et les serveurs d’images offrent plusieurs options d’accentuation. Il est important de comprendre l’impact de l’accentuation sur une image et le degré d’accentuation dont vous avez besoin. La plupart des images ont besoin d’accentuation mais le degré nécessaire dépend de l’image.
+Il est souvent nécessaire d’accentuer les images. Les serveurs Adobe Dynamic Media Classic et Image offrent plusieurs options d’accentuation. Il est important de comprendre l’impact de l’accentuation sur une image et le degré d’accentuation dont vous avez besoin. La plupart des images ont besoin d’accentuation mais le degré nécessaire dépend de l’image.
 
 L’accentuation de l’image augmente le contraste des pixels pour créer un effet de contours renforcés. Ce contraste amélioré des bords est perçu par les yeux comme de la netteté. S’il est facile d’améliorer une image à l’aide de filtres d’accentuation, il est également facile de trop renforcer la netteté d’une image,
 
 ce qui crée alors un effet de halo ou de bande sur les lignes de la bordure.
 
-Il existe des bonnes pratiques que vous pouvez suivre pour optimiser l’accentuation de vos images dans Dynamic Media Classic et sur Dynamic Media Image Server.
+Il existe des bonnes pratiques que vous pouvez suivre pour optimiser l’accentuation de vos images dans Adobe Dynamic Media Classic et sur Dynamic Media Image Server.
 
-Voir [Bonnes pratiques relatives à l’accentuation des images dans Dynamic Media Classic et sur Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
+Voir [Bonnes pratiques relatives à l’accentuation des images dans Adobe Dynamic Media Classic et sur Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
 
 **Pour accentuer une image:**
 
-Pour accentuer une image, cliquez sur son bouton de survol **[!UICONTROL Modifier]** et choisissez **[!UICONTROL Accentuer]**, ou ouvrez-le dans le panneau de navigation en mode Détails, puis cliquez sur **[!UICONTROL Accentuer]**. La page Éditeur d’accentuation s’ouvre avec des commandes d’accentuation. Choisissez des commandes, puis cliquez sur **[!UICONTROL Enregistrer]**.
+Pour accentuer une image, cliquez sur son bouton de survol **[!UICONTROL Modifier]** et choisissez **[!UICONTROL Accentuer]**, ou ouvrez-le dans le panneau de navigation en mode Affichage des détails, puis cliquez sur **[!UICONTROL Accentuer]**. La page Éditeur d’accentuation s’ouvre avec des commandes d’accentuation. Choisissez des commandes, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Sélectionnez le menu **[!UICONTROL Accentuation]** et choisissez une option :
 
 Sélectionnez ces options afin d’affiner l’accentuation à l’aide du masquage flou :
 
-* **Quantité**  : contrôle le degré de contraste appliqué aux pixels de contour. La valeur par défaut est de 0. Pour des images à haute résolution, vous pouvez l’augmenter jusqu’à 5. Imaginez la quantité comme étant l’unité de mesure de l’intensité du filtre. Le paramètre **[!UICONTROL Amount]** dans Dynamic Media Classic n’est pas le même que le paramètre Amount dans Adobe Photoshop. Adobe Photoshop utilise un montant compris entre 1 % et 500 %, tandis que Dynamic Media Classic passe de 0,0 à 5,0. (La valeur 5 est environ équivalente à 500 % dans Photoshop, 0,9 à 90 %, et ainsi de suite.)
+* **Quantité**  : contrôle le degré de contraste appliqué aux pixels de contour. La valeur par défaut est de 0. Pour des images à haute résolution, vous pouvez l’augmenter jusqu’à 5. Imaginez la quantité comme étant l’unité de mesure de l’intensité du filtre. Le paramètre **[!UICONTROL Amount]** dans Adobe Dynamic Media Classic n’est pas le même que le paramètre Amount dans Adobe Photoshop. Adobe Photoshop utilise un montant compris entre 1 % et 500 %, tandis qu’Adobe Dynamic Media Classic est réparti entre 0,0 et 5,0. (La valeur 5 est environ équivalente à 500 % dans Photoshop, 0,9 à 90 %, et ainsi de suite.)
 
 * **Rayon**  : détermine le nombre de pixels entourant les pixels de contour qui affectent l’accentuation. L’effet est exécuté sur tous les pixels de l’image et s’étend dans toutes les directions. 
 
@@ -101,7 +101,7 @@ Cliquez sur le menu **[!UICONTROL Rééchantillonnage]** et choisissez une optio
 
 **Accentuation et paramètres d’image prédéfinis**
 
-Vous pouvez incorporer les trois effets d’accentuation pour obtenir votre résultat final. Cependant, cette méthode n’est pas recommandée. Dynamic Media Classic vous recommande d’enregistrer vos effets d’accentuation dans le cadre d’un paramètre d’image prédéfini. Les paramètres d’image prédéfinis vous permettent de regrouper les modificateurs d’image les plus souvent utilisés afin de créer une image redimensionnée dynamiquement dans une petite chaîne de texte. Un paramètre d’image prédéfini contient des valeurs pour le format de fichier (généralement JPEG pour le web), le nombre de pixels et l’accentuation d’image. Au lieu d’ajouter l’URL à chaque modificateur d’image que vous devez utiliser pour créer un type spécifique de taille d’image, créez un paramètre d’image prédéfini nommé, tel que &quot;miniature&quot;. Ensuite, configurez le paramètre prédéfini d’image miniature avec la taille, le format de fichier et les options d’accentuation appropriés. Appelez l’image à l’aide du nom du paramètre d’image prédéfini. Les paramètres d’image prédéfinis raccourcissent la longueur de l’URL globale. Ces deux URL produisent la même image JPEG 350x350 avec accentuation :
+Vous pouvez incorporer les trois effets d’accentuation pour obtenir votre résultat final. Cependant, cette méthode n’est pas recommandée. Adobe Dynamic Media Classic vous recommande d’enregistrer vos effets d’accentuation dans le cadre d’un paramètre d’image prédéfini. Les paramètres d’image prédéfinis vous permettent de regrouper les modificateurs d’image les plus souvent utilisés afin de créer une image redimensionnée dynamiquement dans une petite chaîne de texte. Un paramètre d’image prédéfini contient des valeurs pour le format de fichier (généralement JPEG pour le web), le nombre de pixels et l’accentuation d’image. Au lieu d’ajouter l’URL à chaque modificateur d’image que vous devez utiliser pour créer un type spécifique de taille d’image, créez un paramètre d’image prédéfini nommé, tel que &quot;miniature&quot;. Ensuite, configurez le paramètre prédéfini d’image miniature avec la taille, le format de fichier et les options d’accentuation appropriés. Appelez l’image à l’aide du nom du paramètre d’image prédéfini. Les paramètres d’image prédéfinis raccourcissent la longueur de l’URL globale. Ces deux URL produisent la même image JPEG 350x350 avec accentuation :
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -144,4 +144,4 @@ Dans ce cas, les paramètres prédéfinis renforcent et modifient l’habillage 
 
 La dernière méthode d’accentuation, et la moins recommandée, consiste à créer des valeurs de remplacement d’accentuation pour chaque image. Cette méthode remplace l’accentuation dans un paramètre d’image prédéfini par ses propres valeurs spécifiques. Cependant, cette méthode remplace également toutes les autres méthodes d’accentuation à n’importe quelle taille. Le meilleur scénario d’utilisation de cette méthode se présente dans le cas où certaines images ne sont pas haute résolution et que les valeurs dans les paramètres d’image prédéfinis sont trop élevées pour ces petites images. Dans ce cas, une accentuation par image est peut-être nécessaire.
 
-Dans Dynamic Media Classic, sélectionnez une image, accédez à la vue Détails (en double-cliquant ou en appuyant sur le bouton **[!UICONTROL Affichage des détails]**), puis cliquez sur **[!UICONTROL Accentuer]**. Modifiez n’importe quel paramètre, puis cliquez sur **[!UICONTROL Enregistrer]**. Ce processus demande au serveur d’images d’utiliser ces paramètres d’accentuation plutôt que toute commande appelée dans l’URL, comme un modificateur d’accentuation ou un paramètre d’image prédéfini. Veillez à publier pour que les modifications prennent effet.
+Dans Adobe Dynamic Media Classic, sélectionnez une image, accédez à la vue Détails (en double-cliquant ou en appuyant sur le bouton **[!UICONTROL Affichage des détails]**), puis cliquez sur **[!UICONTROL Accentuer]**. Modifiez n’importe quel paramètre, puis cliquez sur **[!UICONTROL Enregistrer]**. Ce processus demande au serveur d’images d’utiliser ces paramètres d’accentuation plutôt que toute commande appelée dans l’URL, comme un modificateur d’accentuation ou un paramètre d’image prédéfini. Veillez à publier pour que les modifications prennent effet.

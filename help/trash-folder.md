@@ -7,39 +7,39 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
-feature: Dynamic Media Classic,Gestion des ressources
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '547'
 ht-degree: 39%
 
 ---
 
 # Gestion du dossier Corbeille{#managing-the-trash-folder}
 
-Les éléments que vous supprimez de Dynamic Media Classic sont déplacés dans le dossier Corbeille . Les éléments supprimés restent dans ce dossier pendant sept jours jusqu’à ce qu’ils soient restaurés ou supprimés définitivement. Vous pouvez examiner les éléments supprimés en cliquant sur l’icône **[!UICONTROL Corbeille]** au bas de la bibliothèque de ressources et en affichant les éléments dans la page du dossier Corbeille.
+Les éléments que vous supprimez d’Adobe Dynamic Media Classic sont déplacés dans le dossier Corbeille . Les éléments supprimés restent dans ce dossier pendant sept jours jusqu’à ce qu’ils soient restaurés ou supprimés définitivement. Vous pouvez examiner les éléments supprimés en cliquant sur l’icône **[!UICONTROL Corbeille]** au bas de la bibliothèque de ressources et en affichant les éléments dans la page du dossier Corbeille.
 
 Tous les utilisateurs peuvent restaurer des objets du dossier Corbeille vers leurs dossiers d’origine. Tous les utilisateurs peuvent également vider le dossier Corbeille de tout son contenu.
 
-La suppression d’éléments du dossier Corbeille supprime définitivement les éléments de Dynamic Media Classic ; les éléments supprimés du dossier Corbeille ne peuvent plus être restaurés. Pour plus d’informations sur la configuration de notifications envoyées aux administrateurs d’entreprises lorsque des fichiers sont sur le point d’être supprimés automatiquement du dossier Corbeille, voir [Paramètres généraux de l’application](application-setup.md#general_settings).
+La suppression d’éléments du dossier Corbeille supprime définitivement les éléments d’Adobe Dynamic Media Classic ; les éléments supprimés du dossier Corbeille ne peuvent plus être restaurés. Pour plus d’informations sur la configuration de notifications envoyées aux administrateurs d’entreprises lorsque des fichiers sont sur le point d’être supprimés automatiquement du dossier Corbeille, voir [Paramètres généraux de l’application](application-setup.md#general_settings).
 
 >[!NOTE]
 >
->Les ressources qui ont été déplacées dans le dossier Corbeille sont toujours enregistrées dans Dynamic Media Classic. Si vous essayez de charger un fichier portant le même nom qu’un fichier supprimé dans le dossier Corbeille, Dynamic Media Classic traite la ressource que vous souhaitez charger comme ressource en double. A ce titre, un numéro sera ajouté à son nom.
+>Les ressources qui ont été déplacées dans le dossier Corbeille sont toujours enregistrées dans Adobe Dynamic Media Classic. Si vous essayez de charger un fichier portant le même nom qu’un fichier supprimé dans le dossier Corbeille, Adobe Dynamic Media Classic traite la ressource que vous souhaitez charger comme ressource en double. A ce titre, un numéro sera ajouté à son nom.
 
 ## A propos du dossier Corbeille {#about-the-trash-folder}
 
 Dès que vous supprimez un objet d’un dossier, cet objet est placé dans le dossier Corbeille. Voici ce qui se passe quand vous supprimez un objet et le déplacez vers le dossier Corbeille :
 
-* Bien que l’élément ait été supprimé de vos dossiers Dynamic Media Classic, son identifiant ne peut pas être attribué à une autre ressource tant qu’il reste dans le dossier Corbeille. Si vous essayez de charger une ressource portant le même nom qu’un fichier dans le dossier Corbeille, Dynamic Media Classic ajoute un chiffre au nom de la ressource.
+* Bien que l’élément ait été supprimé de vos dossiers Dynamic Media Classic Adobe, son identifiant ne peut pas être attribué à une autre ressource tant qu’il reste dans le dossier Corbeille. Si vous essayez de charger une ressource portant le même nom qu’un fichier dans le dossier Corbeille, Adobe Dynamic Media Classic ajoute un chiffre au nom de la ressource.
 * L’objet ne peut pas être publié. Même si l’objet était marqué pour publication au moment de sa suppression, il ne sera pas publié.
 * L’élément reste dans le dossier Corbeille jusqu’à ce qu’il soit restauré, que sept jours s’écoulent ou qu’une personne choisisse la commande **[!UICONTROL Vider la corbeille]** . Au bout de 7 jours, l’objet est définitivement supprimé au cours d’une opération de nettoyage automatique.
 
 ## Restauration de fichiers à partir du dossier Corbeille {#restoring-assets-from-the-trash-folder}
 
-N’importe quelle personne est autorisée à restaurer des fichiers du dossier Corbeille. Les fichiers restaurés sont placés dans leurs dossiers d’origine. Si ces dossiers n’existent plus, Dynamic Media Classic les recrée et les ressources restaurées sont placées dans les dossiers recréés.
+N’importe quelle personne est autorisée à restaurer des fichiers du dossier Corbeille. Les fichiers restaurés sont placés dans leurs dossiers d’origine. Si ces dossiers n’existent plus, Adobe Dynamic Media Classic les recrée et les ressources restaurées sont placées dans les dossiers recréés.
 
 Pour restaurer des ressources du dossier Corbeille dans les dossiers à partir desquels elles ont été supprimées, procédez comme suit :
 

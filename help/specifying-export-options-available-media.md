@@ -6,13 +6,13 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
-feature: Dynamic Media Classic,Collaboration,Gestion des ressources
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 71%
+source-wordcount: '375'
+ht-degree: 72%
 
 ---
 
@@ -25,7 +25,7 @@ Les deux restrictions suivantes s’appliquent si vous exportez des images par l
 * La taille du fichier d’exportation zip compressé ne doit pas dépasser 1 Go pour la tâche d’exportation.
 * Une tâche d’exportation peut contenir un maximum de 500 fichiers.
 
-Voir aussi [Exportation de ressources à partir de Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
+Voir aussi [Exportation de ressources à partir d’Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
 **Pour définir les options d’exportation disponibles pour les utilisateurs du portail multimédia:**
 
@@ -43,5 +43,5 @@ Voir aussi [Exportation de ressources à partir de Dynamic Media Classic](export
 >[!MORELIKETHIS]
 >
 >* [Paramètres d’image prédéfinis](application-setup.md#image_presets)
-* [Choix des autorisations d’accès de paramètres d’image prédéfinis pour un groupe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [Choix des autorisations d’accès de paramètres d’image prédéfinis pour un groupe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
 

@@ -4,12 +4,12 @@ product: adobe dynamic media classic
 audience: end-user
 user-guide-title: Guide d’Adobe Dynamic Media Classic
 breadcrumb-title: Guide de Dynamic Media Classic
-user-guide-description: En savoir plus sur l’utilisation de Dynamic Media Classic
+user-guide-description: En savoir plus sur l’utilisation d’Adobe Dynamic Media Classic
 index: y
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: a8b5ad338ef8c8b2c50acea5d4c0560820c40ae4
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 33%
+source-wordcount: '778'
+ht-degree: 30%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 33%
 # Guide d’Adobe Dynamic Media Classic {#using}
 
 + [Guide d’Adobe Dynamic Media Classic](home.md)
-+ [Tutoriel sur les bonnes pratiques](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NOUVELLE expérience de connexion à Dynamic Media Classic désormais disponible](new-ui-2020.md)
-+ [Archivage de la newsletter Dynamic Media par un Experience League](dynamic-media-newsletter.md)
++ [Tutoriel sur les bonnes pratiques d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [NOUVELLE expérience de connexion à Adobe Dynamic Media Classic désormais disponible](new-ui-2020.md)
++ [Archivage de la newsletter Dynamic Media Adobe par Experience League](dynamic-media-newsletter.md)
 + Présentation d’Adobe Dynamic Media Classic {#intro}
    + [Application de bureau Adobe Dynamic Media Classic - Maintenant disponible](dynamic-media-classic-desktop-app.md)
-   + [À propos de l’aide de Dynamic Media Classic](introduction.md)
+   + [À propos de l’aide d’Adobe Dynamic Media Classic](introduction.md)
    + [Ressources du développeur](developer-resources.md)
    + [Nouveautés](whats-new.md)
-   + [Configuration système requise](system-requirements.md)
+   + [Configuration requise pour l’appli de bureau Dynamic Media Classic Adobe](system-requirements.md)
    + [Assistance](support.md)
-   + [Aide pour Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
+   + [Aide pour Adobe Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Services de formation Adobe](training-services.md)
    + [Ressources populaires](popular-resources.md)
    + [Vidéos de formation](training-videos.md)
@@ -45,7 +45,7 @@ ht-degree: 33%
    + [Optimisation du référencement de la vidéo](video-seo-search-engine-optimization.md)
    + [Configuration de l’administration](administration-setup.md)
 + Media Portal {#media-portal}
-   + [Configuration système requise](system-requirements-1.md)
+   + [Configuration requise pour Media Portal dans Adobe Dynamic Media Classic](system-requirements-media-portal.md)
    + [Démarrage rapide :  du portail multimédia](quick-start-media-portal-administration.md)
    + [Rôles utilisateur du portail multimédia](media-portal-user-roles.md)
    + [Création et gestion des groupes Media Portal](creating-media-portal-groups.md)
@@ -71,7 +71,7 @@ ht-degree: 33%
    + [Déplacer, renommer et supprimer des ressources](moving-renaming-deleting-assets.md)
    + [Travail en mode Détails](detail-view.md)
    + [Affichage, ajout et exportation de métadonnées](viewing-adding-exporting-metadata.md)
-   + [Exportation de ressources à partir de Dynamic Media Classic](exporting-assets-from-dmc.md)
+   + [Exportation de ressources à partir d’Adobe Dynamic Media Classic](exporting-assets-from-dmc.md)
    + [Partage des modifications de ressources avec des pairs en temps réel](sharing-asset-changes-peers-real.md)
    + [Impression de ressources](printing-assets.md)
    + [Gestion du dossier Corbeille](trash-folder.md)
@@ -147,7 +147,7 @@ ht-degree: 33%
    + [Publication d’une visionneuse de médias mixtes](publishing-mixed-media-set.md)
    + [Liaison d’une visionneuse de supports variés à une page Web](linking-mixed-media-set-web.md)
 + Kit d’instrumentation Adobe Analytics {#analytics-kit}
-   + [Démarrage rapide : Intégration de Dynamic Media Classic à Adobe Analytics](quick-start-integrating-dmc-analytics.md)
+   + [Démarrage rapide : Intégration d’Adobe Dynamic Media Classic à Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Connexion à Adobe Analytics](log-analytics.md)
    + [Configuration des rapports Adobe Analytics](configuring-analytics-reports.md)
    + [Instrumentation d’une visionneuse avec le kit d’instrumentation Adobe Analytics](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -157,7 +157,7 @@ ht-degree: 33%
    + [Publication des informations de configuration Adobe Analytics](publishing-analytics-configuration-information.md)
 + Intégration d’Adobe Target Standard/Premium {#target-classic}
    + [Démarrage rapide : Intégration d’Adobe Target Standard/Premium](quick-start-target-integration.md)
-   + [Intégration de Dynamic Media Classic à Adobe Target Standard/Premium](integrating-dmc-with-target.md)
+   + [Intégration d’Adobe Dynamic Media Classic à Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Créer un ensemble d’offres](creating-offer-set.md)
    + [Jeux d’offres push vers Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + Contenu généré par l’utilisateur {#user-generated-content}

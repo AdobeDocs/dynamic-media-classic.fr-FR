@@ -1,6 +1,6 @@
 ---
 title: Configuration de l’administration
-description: Découvrez comment configurer la zone d’administration de Dynamic Media Classic.
+description: Découvrez comment configurer la zone d’administration d’Adobe Dynamic Media Classic.
 uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: admin
 content-type: reference
@@ -9,10 +9,10 @@ discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1948'
-ht-degree: 37%
+source-wordcount: '1966'
+ht-degree: 36%
 
 ---
 
@@ -20,25 +20,25 @@ ht-degree: 37%
 
 # Configuration de l’administration{#administration-setup}
 
-Les écrans Configuration de l’administration permettent d’administrer les utilisateurs de Dynamic Media Classic. Utilisez ces écrans pour permettre aux utilisateurs de travailler dans Dynamic Media Classic et de communiquer par e-mail avec les utilisateurs.
+Les écrans Configuration de l’administration permettent d’administrer les utilisateurs d’Adobe Dynamic Media Classic. Utilisez ces écrans pour permettre aux utilisateurs de travailler dans Adobe Dynamic Media Classic et de communiquer par e-mail avec les utilisateurs.
 
 1. Pour accéder aux options Configuration de l’administration, accédez à **Configuration** > **Configuration personnelle** > **Configuration de l’administration**.
 
 ## Administration utilisateur {#user-administration}
 
-Tous les utilisateurs de Dynamic Media Classic se voient attribuer un rôle qui détermine leurs privilèges et droits d’accès aux fonctionnalités de Dynamic Media Classic. Les administrateurs définissent les différents rôles et responsabilités pour les entreprises auxquelles ils sont affectés.
+Tous les utilisateurs d’Adobe Dynamic Media Classic se voient attribuer un rôle qui détermine leurs privilèges et droits d’accès aux fonctionnalités d’Adobe Dynamic Media Classic. Les administrateurs définissent les différents rôles et responsabilités pour les entreprises auxquelles ils sont affectés.
 
-En règle générale, Dynamic Media Classic configure le premier ensemble d’entreprises et affecte un administrateur d’entreprise. L’administrateur de l’entreprise configure et administre ensuite les utilisateurs de Dynamic Media Classic.
+En règle générale, Adobe Dynamic Media Classic configure le premier ensemble d’entreprises et affecte un administrateur d’entreprise. L’administrateur de l’entreprise configure et administre ensuite les utilisateurs d’Adobe Dynamic Media Classic.
 
-Dynamic Media Classic prend en charge plusieurs rôles d’utilisateur. Ces rôles peuvent accéder aux entreprises configurées pour Dynamic Media Classic :
+Adobe Dynamic Media Classic prend en charge plusieurs rôles d’utilisateur. Ces rôles peuvent accéder aux entreprises configurées pour Adobe Dynamic Media Classic :
 
-<!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Dynamic Media Classic, as well as set up companies and add administrators and users. -->
+<!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Adobe Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
 **Adobe** Utilisateur Dynamic Media Classic Peut accéder aux entreprises auxquelles elles ont été affectées ; ne peuvent pas effectuer de tâches administratives.
 
 **Adobe Dynamic Media Classic Company** AdminPeut afficher et administrer uniquement leurs propres entreprises. Il peut également remplir toutes les fonctions d’administration, notamment l’ajout d’administrateurs et d’utilisateurs. Un administrateur d’entreprise peut ajouter un utilisateur aux comptes administrateur d’entreprise DMC. (Ce rôle est le rôle utilisateur par défaut.)
 
-Après avoir ajouté un utilisateur, Dynamic Media Classic lui envoie un e-mail de bienvenue. Le message comprend un mot de passe et l’URL de Dynamic Media Classic.
+Une fois que vous avez ajouté un utilisateur, Adobe Dynamic Media Classic lui envoie un e-mail de bienvenue. Le message comprend un mot de passe et l’URL Adobe Dynamic Media Classic.
 
 ### Ajout d’un utilisateur ou d’un administrateur {#adding-a-user-or-administrator}
 
@@ -52,7 +52,7 @@ Après avoir ajouté un utilisateur, Dynamic Media Classic lui envoie un e-mail 
 
 1. Pour attribuer un rôle à l’utilisateur, sélectionnez une option Rôle .
 
-   Voir [Rôles utilisateur et privilèges Dynamic Media Classic](administration-setup.md#user_administration).
+   Voir [Adobe des rôles utilisateur et des privilèges Dynamic Media Classic](administration-setup.md#user_administration).
 
 1. Pour ajouter un utilisateur à une société, sélectionnez son nom.
 1. Si vous souhaitez ajouter l’utilisateur à un groupe (si vous ajoutez un utilisateur ou un contributeur Media Portal), sélectionnez **[!UICONTROL Suivant]** et ajoutez l’utilisateur.
@@ -60,17 +60,17 @@ Après avoir ajouté un utilisateur, Dynamic Media Classic lui envoie un e-mail 
 
    Après l’enregistrement, une invite demande si vous souhaitez ajouter un utilisateur à une autre société. Sélectionnez **[!UICONTROL Ajouter]** si vous souhaitez ajouter l’utilisateur à une société.
 
-   Tous les nouveaux utilisateurs reçoivent un mot de passe généré de manière aléatoire ; Les utilisateurs doivent changer de mot de passe la première fois qu’ils se connectent à l’application de bureau Dynamic Media Classic.
+   Tous les nouveaux utilisateurs reçoivent un mot de passe généré de manière aléatoire ; Les utilisateurs doivent changer de mot de passe la première fois qu’ils se connectent à l’application de bureau Dynamic Media Classic Adobe.
 
-   Un e-mail de bienvenue est envoyé aux utilisateurs une fois qu’ils ont été ajoutés. L’e-mail fournit un mot de passe temporaire et explique comment vous connecter à Dynamic Media Classic.
+   Un e-mail de bienvenue est envoyé aux utilisateurs une fois qu’ils ont été ajoutés. L’e-mail fournit un mot de passe temporaire et explique comment vous connecter à Adobe Dynamic Media Classic.
 
-   Si l’utilisateur ne reçoit pas l’e-mail de bienvenue, demandez-lui d’accéder à la page de connexion de Dynamic Media Classic (https://s7sps1.scene7.com), puis sélectionnez **[!UICONTROL Mot de passe oublié]**. Le mot de passe est réinitialisé et un nouveau courrier électronique est envoyé. Si l’utilisateur ne reçoit pas le courrier électronique et qu’il n’est pas placé dans le dossier du courrier indésirable, contactez le support technique.
+   Si l’utilisateur ne reçoit pas l’e-mail de bienvenue, demandez-lui d’accéder à la page de connexion d’Adobe Dynamic Media Classic (https://s7sps1.scene7.com), puis sélectionnez **[!UICONTROL Mon mot de passe oublié]**. Le mot de passe est réinitialisé et un nouveau courrier électronique est envoyé. Si l’utilisateur ne reçoit pas le courrier électronique et qu’il n’est pas placé dans le dossier du courrier indésirable, contactez le support technique.
 
    Lors de l’ajout de nouveaux utilisateurs Media Portal, vous pouvez également accéder à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Administration des utilisateurs]**, sélectionner **[!UICONTROL Télécharger la liste des utilisateurs]** et sélectionner un fichier .csv ne contenant pas plus de 500 utilisateurs.
 
 ### Suppression d’un utilisateur {#deleting-a-user}
 
-Vous pouvez supprimer des utilisateurs de Dynamic Media Classic en les rendant non valides. Les utilisateurs non valides sont supprimés du système et de tous les comptes.
+Vous pouvez supprimer des utilisateurs d’Adobe Dynamic Media Classic en les rendant non valides. Les utilisateurs non valides sont supprimés du système et de tous les comptes.
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de l’administration]** > **[!UICONTROL Administration des utilisateurs]**.
 1. Sélectionnez un utilisateur dans la liste, puis **[!UICONTROL Modifier]**.
@@ -113,13 +113,13 @@ Vous pouvez utiliser les techniques de filtrage suivantes :
 
 Si les utilisateurs sont trop nombreux, vous pouvez limiter la taille de la liste en sélectionnant le menu Taille liste max., puis en choisissant une valeur.
 
-<!-- CQDOC-16690 TOPIC REMOVED AS PER JIRA TICKET INSTRUCTIONS ### Linking an IMS user identity to a Dynamic Media Classic IPS user account {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
+<!-- CQDOC-16690 TOPIC REMOVED AS PER JIRA TICKET INSTRUCTIONS ### Linking an IMS user identity to a Adobe Dynamic Media Classic IPS user account {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
 
-You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user account so you can use SSO (Single Sign On) to log on and launch Scene7 Publishing System from within Adobe Marketing Cloud.
+You can link an Adobe IMS user identity to a Adobe Dynamic Media Classic IPS user account so you can use SSO (Single Sign On) to log on and launch Scene7 Publishing System from within Adobe Marketing Cloud.
 
 1. Adobe should already have setup your account with an Adobe Marketing Cloud organization and linked it to your Scene7 Publishing System product context. If this setup is not yet done or you are unsure if it has been done, contact Adobe Customer Care.
 
-   When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Dynamic Media Classic user account by doing the following.
+   When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Adobe Dynamic Media Classic user account by doing the following.
 
 1. In Adobe Marketing Cloud, navigate to your account settings.
 1. Select **Manage Organizations**.
@@ -133,7 +133,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
 
    Do one of the following:
 
-    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, select **Solutions** > **Experience Manager**. Under the Dynamic Media Classic card, select **Launch**.
+    * To launch Adobe Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, select **Solutions** > **Experience Manager**. Under the Adobe Dynamic Media Classic card, select **Launch**.
     * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
@@ -143,7 +143,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
 
 ## Bande passante et stockage {#bandwidth-storage}
 
-Les administrateurs de Dynamic Media Classic peuvent générer de la bande passante, du stockage et d’autres types de rapports pour les entreprises qu’ils gèrent. Ces rapports sont disponibles sur la page Bande passante et stockage .
+Les administrateurs d’Adobe Dynamic Media Classic peuvent générer de la bande passante, du stockage et d’autres types de rapports pour les entreprises qu’ils gèrent. Ces rapports sont disponibles sur la page Bande passante et stockage .
 
 Pour ouvrir cette page, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration personnelle]**. Développez **[!UICONTROL Configuration de l’administration]**, puis sélectionnez **[!UICONTROL Bande passante et stockage]**.
 
@@ -156,7 +156,7 @@ Le tableau suivant décrit les rapports que vous pouvez générer à partir de l
 | Bande passante | Utilisation de la bande passante par entreprise | Observe l’utilisation de la bande passante par entreprise dans un intervalle de temps spécifié afin de définir des schémas de trafic. |
 | Stockage | Utilisation de l’espace de stockage | Observe la quantité de données téléchargées par une entreprise. |
 | Contenu de l’image | Nombre de demandes d’images par type | Observe le nombre de demandes et le volume pour différents types d’images. |
-| Domaine | Nombre de demandes d’URL par domaine | Observe l’utilisation des images en fonction du domaine de la demande d’image pour une entreprise spécifique. (Dynamic Media Classic peut fournir plusieurs domaines par compte. Pour plus d’informations, contactez l’assistance technique.) |
+| Domaine | Nombre de demandes d’URL par domaine | Observe l’utilisation des images en fonction du domaine de la demande d’image pour une entreprise spécifique. (Adobe Dynamic Media Classic peut fournir plusieurs domaines par compte. Pour plus d’informations, contactez l’assistance technique.) |
 | Diffusion de vidéo en flux continu | Utilisation de la bande passante pour la diffusion de vidéo en flux continu | Observe l’utilisation de la diffusion de vidéo en flux continu par entreprise dans un intervalle de temps spécifié afin de définir des schémas de trafic. |
 | Contenu vidéo | Temps de lecture de différentes vidéos | Détermine quelles sont les vidéos les plus visionnées et les moins visionnées. |
 
@@ -216,7 +216,7 @@ Après avoir généré un rapport, vous pouvez exporter ses données pour une ut
 
 ## Erreurs d’image {#image-errors}
 
-Les administrateurs de Dynamic Media Classic peuvent générer des rapports d’erreur d’image. Un rapport d’erreurs d’image fournit la liste des 20 erreurs d’image les plus fréquentes sur les dernières 24 heures, pour l’entreprise à laquelle vous êtes actuellement connecté. Pour générer un rapport d’erreur d’image, procédez comme suit :
+Les administrateurs d’Adobe Dynamic Media Classic peuvent générer des rapports d’erreur d’image. Un rapport d’erreurs d’image fournit la liste des 20 erreurs d’image les plus fréquentes sur les dernières 24 heures, pour l’entreprise à laquelle vous êtes actuellement connecté. Pour générer un rapport d’erreur d’image, procédez comme suit :
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration personnelle]**.
 1. Développez Configuration de l’administration, puis sélectionnez **[!UICONTROL Erreurs d’image]**.
@@ -238,7 +238,7 @@ Les erreurs s’affichent pour la société à laquelle vous êtes actuellement 
 
 * **Réponse**  : message d’erreur spécifique. Les erreurs sont soit 4xx soit 5xx.
 
-* **URL**  : répertorie l’URL de l’image sur Dynamic Media Classic.
+* **URL**  : répertorie l’URL de l’image sur Adobe Dynamic Media Classic.
 
 * **Référent**  : indique l’URL du site web d’où provient la requête initiale. Le référant peut être n’importe quel site Web contenant un lien vers l’image.
 

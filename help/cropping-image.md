@@ -1,6 +1,6 @@
 ---
 title: Recadrage d’une image
-description: Découvrez comment recadrer une image dans Dynamic Media Classic.
+description: Découvrez comment recadrer une image dans Adobe Dynamic Media Classic.
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '550'
 ht-degree: 35%
 
 ---
 
 # Recadrage d’une image{#cropping-an-image}
 
-Vous pouvez recadrer des images dans Dynamic Media Classic. Le système conserve les informations sur les images qui ont été recadrées, ce qui vous permet de rétablir leur état d’origine. Vous pouvez également recadrer une image et enregistrer la version recadrée sous un nouveau nom.
+Vous pouvez recadrer des images dans Adobe Dynamic Media Classic. Le système conserve les informations sur les images qui ont été recadrées, ce qui vous permet de rétablir leur état d’origine. Vous pouvez également recadrer une image et enregistrer la version recadrée sous un nouveau nom.
 
 Vous pouvez recadrer une image afin d’en supprimer les bords blancs ou de ne garder qu’une partie de l’image.
 
@@ -31,7 +31,7 @@ Vous pouvez recadrer une image afin d’en supprimer les bords blancs ou de ne g
 
 Vous pouvez éliminer les pixels transparents ou de couleur qui apparaissent au bord d’une image.
 
-1. Pour recadrer une image, cliquez sur son bouton de survol **[!UICONTROL Modifier]**, puis sélectionnez **[!UICONTROL Recadrer]** ou affichez-la dans le panneau de navigation en mode Détails et sélectionnez le bouton **[!UICONTROL Recadrer]**.
+1. Pour recadrer une image, cliquez sur son bouton de survol **[!UICONTROL Modifier]**, puis sélectionnez **[!UICONTROL Recadrer]** ou affichez-la dans le panneau de navigation de la vue Détails et sélectionnez le bouton **[!UICONTROL Recadrer]**.
 1. Sur la page Éditeur de recadrage , effectuez l’une des opérations suivantes :
 
    * Pour rogner les pixels de couleur, accédez à **[!UICONTROL Rogner]** > **[!UICONTROL Couleur]**. Dans la boîte de dialogue **[!UICONTROL Recadrage automatique par couleur]**, sélectionnez le menu **[!UICONTROL Coin]** et choisissez un coin avec la couleur d’arrière-plan que vous souhaitez recadrer. Saisissez ensuite un paramètre **[!UICONTROL Tolérance]** compris entre 0 et 1. La valeur 0 permet de rogner les pixels uniquement s’ils correspondent exactement à la couleur sélectionnée dans l’angle de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs. Sélectionnez **[!UICONTROL Recadrer]**.
@@ -45,7 +45,7 @@ Vous pouvez éliminer les pixels transparents ou de couleur qui apparaissent au 
 
 ## Sélection d’une zone à recadrer {#select-an-area-to-crop}
 
-1. Pour recadrer une image, cliquez sur son bouton de survol **[!UICONTROL Modifier]**, puis sélectionnez **[!UICONTROL Recadrer]** ou affichez-la dans le panneau de navigation en mode Détails et sélectionnez **[!UICONTROL Recadrer]**.
+1. Pour recadrer une image, cliquez sur son bouton de survol **[!UICONTROL Modifier]**, puis sélectionnez **[!UICONTROL Recadrer]** ou affichez-la dans le panneau de navigation de la vue Détails et sélectionnez **[!UICONTROL Recadrer]**.
 
 1. Dans la fenêtre Editeur de recadrage, placez la partie de l’image que vous ne souhaitez pas recadrer dans la zone de recadrage. Tout ce qui apparaît dans la zone est ce qui reste après avoir sélectionné **[!UICONTROL Enregistrer]** et recadré l’image.
 1. Pour modifier la zone de recadrage, effectuez l’une des opérations suivantes :

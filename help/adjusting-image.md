@@ -1,31 +1,31 @@
 ---
 title: Modification d’une image
-description: Découvrez comment ajuster une image dans Dynamic Media Classic.
+description: Découvrez comment ajuster une image dans Adobe Dynamic Media Classic.
 uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
-feature: Dynamic Media Classic,Gestion des ressources
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '565'
 ht-degree: 58%
 
 ---
 
 # Modification d’une image{#adjusting-an-image}
 
-Dynamic Media Classic propose différentes commandes pour ajuster l’aspect d’une image. Vous pouvez retourner, faire pivoter, rendre flou, modifier et coloriser une image ou modifier l’équilibre de ses couleurs. Faites des essais avec ces commandes pour constater leurs effets sur l’image en cours de traitement.
+Adobe Dynamic Media Classic propose différentes commandes pour ajuster l’aspect d’une image. Vous pouvez retourner, faire pivoter, rendre flou, modifier et coloriser une image ou modifier l’équilibre de ses couleurs. Faites des essais avec ces commandes pour constater leurs effets sur l’image en cours de traitement.
 
 Voir aussi [Créer un alias pour une image](adjusting-image.md#creating_an_alias_for_an_image).
 
 **Pour ajuster une image :**
 
-1. Sélectionnez le bouton de survol Modifier de l’image et choisissez Ajuster. Dans le panneau de navigation, double-cliquez sur l’image pour l’ouvrir en mode Détails.
+1. Sélectionnez le bouton de survol Modifier de l’image et choisissez Ajuster. Dans le panneau de navigation, double-cliquez sur l’image pour l’ouvrir dans la vue Détails.
 1. Sélectionnez une taille et un paramètre prédéfini d’image (dans la partie inférieure de la fenêtre).
 1. Utilisez les commandes situées sur le côté droit de la fenêtre Editeur de modification pour régler l’image :
 

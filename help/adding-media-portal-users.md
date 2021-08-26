@@ -1,18 +1,18 @@
 ---
 title: Ajout et gestion des utilisateurs de Media Portal
-description: Découvrez comment ajouter et gérer des utilisateurs Media Portal dans Dynamic Media Classic.
+description: Découvrez comment ajouter et gérer des utilisateurs du portail multimédia dans Adobe Dynamic Media Classic.
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
-feature: Dynamic Media Classic,Collaboration,Gestion des ressources
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1017'
 ht-degree: 58%
 
 ---
@@ -107,7 +107,7 @@ Vous pouvez afficher les noms et les adresses e-mail des utilisateurs du portail
 
 ## Définition du message de l’e-mail de bienvenue pour les utilisateurs du portail multimédia {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-Vous pouvez envoyer un e-mail de bienvenue à tous les nouveaux utilisateurs, contributeurs et contributeurs-utilisateurs du portail multimédia. Vous pouvez configurer ce message électronique ou indiquer à Dynamic Media Classic de ne pas l’envoyer.
+Vous pouvez envoyer un e-mail de bienvenue à tous les nouveaux utilisateurs, contributeurs et contributeurs-utilisateurs du portail multimédia. Vous pouvez configurer ce message électronique ou indiquer à Adobe Dynamic Media Classic de ne pas l’envoyer.
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de l’administration]** > **[!UICONTROL Administration des utilisateurs]**.
 1. Dans l’écran Configuration de l’administration des utilisateurs, sélectionnez **[!UICONTROL Paramètres des emails]**.
@@ -115,9 +115,9 @@ Vous pouvez envoyer un e-mail de bienvenue à tous les nouveaux utilisateurs, co
 
    * **[!UICONTROL Envoyer un courrier électronique]**  : désélectionnez cette option si vous ne souhaitez pas informer les nouveaux utilisateurs par courrier électronique que vous les avez inscrits.
 
-   * **[!UICONTROL Mot de passe par défaut]**  : saisissez un mot de passe temporaire pour les nouveaux utilisateurs ou laissez le champ vide pour que Dynamic Media Classic génère des mots de passe aléatoires. Les utilisateurs sont invités à modifier leurs mots de passe la première fois qu’ils se connectent.
+   * **[!UICONTROL Mot de passe par défaut]**  : saisissez un mot de passe temporaire pour les nouveaux utilisateurs ou laissez le champ vide pour qu’Adobe Dynamic Media Classic génère des mots de passe aléatoires. Les utilisateurs sont invités à modifier leurs mots de passe la première fois qu’ils se connectent.
 
-   * **[!UICONTROL URL de remplacement]**  : saisissez une URL différente de celle par défaut si vos utilisateurs accèdent à Dynamic Media Classic par le biais d’une autre URL.
+   * **[!UICONTROL URL de remplacement]**  : saisissez une URL différente de celle par défaut si vos utilisateurs accèdent à Adobe Dynamic Media Classic via une autre URL.
 
 ## Autres tâches de gestion des utilisateurs {#other-user-management-tasks}
 
@@ -131,6 +131,6 @@ L’écran de configuration de l’administration utilisateur vous permet d’ef
 
 * **[!UICONTROL Modifier les informations sur l’utilisateur]**  : renseignez les informations à jour sur un utilisateur.
 
-* **[!UICONTROL Créer des champs]**  définis par l’utilisateur : créez des champs de métadonnées personnalisés définis par l’utilisateur afin qu’ils vous aident à organiser les ressources dans Dynamic Media Classic. Les champs peuvent également être activés ou désactivés, le cas échéant.
+* **[!UICONTROL Créer des champs]**  définis par l’utilisateur : créez des champs de métadonnées personnalisés définis par l’utilisateur afin qu’ils vous aident à organiser les ressources dans Adobe Dynamic Media Classic. Les champs peuvent également être activés ou désactivés, le cas échéant.
 
 (Voir [Champs définis par l’utilisateur](application-setup.md#user_defined_fields).)

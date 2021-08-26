@@ -1,25 +1,25 @@
 ---
 title: Utilisation de documents PDF
-description: Découvrez comment utiliser des PDF dans Dynamic Media Classic.
+description: Découvrez comment utiliser des PDF dans Adobe Dynamic Media Classic.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
-feature: Dynamic Media Classic,Gestion des ressources
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '662'
 ht-degree: 45%
 
 ---
 
 # Utilisation de documents PDF{#working-with-pdfs}
 
-Les fichiers PDF (Portable Document Format) sont le plus souvent utilisés dans Dynamic Media Classic pour créer des catalogues électroniques. Lorsque vous chargez un fichier PDF, Dynamic Media Classic pixellise les pages par défaut afin que les pages puissent être utilisées pour créer du contenu multimédia.
+Les fichiers PDF (Portable Document Format) sont le plus souvent utilisés dans Adobe Dynamic Media Classic pour créer des catalogues électroniques. Lorsque vous chargez un fichier PDF, Adobe Dynamic Media Classic pixellise les pages par défaut afin que les pages puissent être utilisées pour créer du contenu multimédia enrichi.
 
 ## Options de téléchargement des fichiers PDF {#pdf-upload-options}
 
@@ -59,7 +59,7 @@ Dans le menu Espace colorimétrique, choisissez un espace pour le fichier PDF. 
 
 * **Conserver l’espace colorimétrique d’origine**  : conserve l’espace colorimétrique d’origine.
 
-* **Personnaliser de > à**  : ouvre les menus afin que vous puissiez sélectionner un espace colorimétrique Convertir de et Convertir en. Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez chargé dans Dynamic Media Classic.
+* **Personnaliser de > à**  : ouvre les menus afin que vous puissiez sélectionner un espace colorimétrique Convertir de et Convertir en. Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez chargé dans Adobe Dynamic Media Classic.
 
 (voir aussi [Profils ICC](/help/icc-profiles.md#icc_profiles)).
 

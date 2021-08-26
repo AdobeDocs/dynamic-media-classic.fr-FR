@@ -1,6 +1,6 @@
 ---
-title: Configuration système requise
-description: 'Découvrez la configuration requise pour optimiser l’expérience avec Dynamic Media Classic. '
+title: Configuration requise pour l’appli de bureau Dynamic Media Classic Adobe
+description: 'Découvrez la configuration requise pour obtenir la meilleure expérience avec Adobe Dynamic Media Classic. '
 uuid: 8dfc925b-7350-41af-9207-3b2a743c0998
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: a8b5ad338ef8c8b2c50acea5d4c0560820c40ae4
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 34%
+source-wordcount: '108'
+ht-degree: 26%
 
 ---
 
-# Configuration système requise {#system-requirements}
+# Configuration requise pour l’appli de bureau Dynamic Media Classic Adobe {#system-requirements}
 
-Pour optimiser l’utilisation de l’appli de bureau Dynamic Media Classic, assurez-vous que votre système respecte la configuration requise et les suggestions suivantes :
+Pour optimiser l’utilisation de l’appli de bureau Dynamic Media Classic Adobe, assurez-vous que votre système respecte la configuration requise et les suggestions suivantes :
 
 * Processeur Microsoft® Windows® 7 ou version ultérieure ou macOS X 10.6 ou version ultérieure Macintosh Intel® requis.
 * 3 Go de RAM ou plus requis (4 Go ou plus suggérés).

@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
-feature: Dynamic Media Classic,Visionneuses,Vidéo
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 66%
+source-wordcount: '765'
+ht-degree: 67%
 
 ---
 
@@ -41,19 +41,19 @@ Voir [Ajout et modification des paramètres prédéfinis de visionneuse](applica
 
 >[!NOTE]
 >
->Dynamic Media Classic fournit une méthode pratique pour prévisualiser une vidéo MP4 sur le bureau. Utilisez cette méthode pour prévisualiser du contenu mobile sur le Bureau sans le tester concrètement sur des périphériques mobiles. Sachez toutefois que ce que vous voyez dans la prévisualisation n’est pas tout à fait réaliste. Pour prévisualiser l’aspect et la lecture de la vidéo sur un appareil mobile, accédez à l’écran Aperçu , cliquez sur **[!UICONTROL Copier l’URL]**, puis saisissez cette URL dans le navigateur web d’un appareil mobile. Pour plus d’informations, voir [Déploiement de vidéos sur vos sites Web et sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic offre une méthode pratique pour prévisualiser une vidéo MP4 sur le bureau. Utilisez cette méthode pour prévisualiser du contenu mobile sur le Bureau sans le tester concrètement sur des périphériques mobiles. Sachez toutefois que ce que vous voyez dans la prévisualisation n’est pas tout à fait réaliste. Pour prévisualiser l’aspect et la lecture de la vidéo sur un appareil mobile, accédez à l’écran Aperçu , cliquez sur **[!UICONTROL Copier l’URL]**, puis saisissez cette URL dans le navigateur web d’un appareil mobile. Pour plus d’informations, voir [Déploiement de vidéos sur vos sites Web et sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Utilisation des paramètres prédéfinis de visionneuse de vidéos {#working-with-video-viewer-presets}
 
 Les vidéos sont regardées dans la visionneuse vidéo. Le comportement de la visionneuse de vidéos, son aspect et le fonctionnement de ses commandes de lecture dépendent du paramètre prédéfini de visionneuse que vous choisissez pour lire la vidéo. Vous choisissez un paramètre prédéfini de la visionneuse sur l’écran de prévisualisation. Après avoir choisi un paramètre prédéfini, vous pouvez obtenir l’URL ou le code intégré permettant de lire la vidéo avec le paramètre prédéfini de visionneuse que vous avez choisi.
 
-Dynamic Media Classic est fourni avec de nombreux paramètres prédéfinis de visionneuse pour la lecture de vidéos. Si vous êtes administrateur, vous pouvez créer des paramètres prédéfinis de visionneuse personnalisés. Il existe plus d’une douzaine de paramètres distincts pour la configuration de la visionneuse de vidéo. Vous pouvez configurer la taille, la couleur, les commandes vidéo et audio, la barre de progression, l’habillage de l’interface utilisateur et les fonctionnalités de réseau social.
+Adobe Dynamic Media Classic est fourni avec de nombreux paramètres prédéfinis de visionneuse pour la lecture de vidéos. Si vous êtes administrateur, vous pouvez créer des paramètres prédéfinis de visionneuse personnalisés. Il existe plus d’une douzaine de paramètres distincts pour la configuration de la visionneuse de vidéo. Vous pouvez configurer la taille, la couleur, les commandes vidéo et audio, la barre de progression, l’habillage de l’interface utilisateur et les fonctionnalités de réseau social.
 
 Voir aussi [Prévisualisation de vidéos dans une visionneuse de vidéos](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
 ### Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos {#adding-or-editing-a-video-viewer-preset}
 
-La fonction Paramètres prédéfinis de la visionneuse vous permet d’afficher les divers types de visionneuse et leurs paramètres prédéfinis. Vous pouvez également ajouter et modifier vos propres paramètres prédéfinis de visionneuse personnalisés ou modifier les paramètres prédéfinis de visionneuse existants fournis avec Dynamic Media Classic.
+La fonction Paramètres prédéfinis de la visionneuse vous permet d’afficher les divers types de visionneuse et leurs paramètres prédéfinis. Vous pouvez également ajouter et modifier vos propres paramètres prédéfinis de visionneuse personnalisés ou modifier les paramètres prédéfinis de visionneuse existants fournis avec Adobe Dynamic Media Classic.
 
 Dans Paramètres prédéfinis de la visionneuse, vous pouvez activer, filtrer, trier et prévisualiser les paramètres prédéfinis de la visionneuse.
 
@@ -61,7 +61,7 @@ Voir [Paramètres prédéfinis de la visionneuse](application-setup.md#viewer_pr
 
 **Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos:**
 
-1. Près du coin supérieur droit de Dynamic Media Classic, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
+1. Près du coin supérieur droit d’Adobe Dynamic Media Classic, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 
    Pour afficher uniquement les paramètres prédéfinis pour les visionneuses de vidéos, sélectionnez Visionneuse de vidéos dans la liste déroulante Visionneuses ouverte de la barre d’outils directement au-dessus du tableau.
 
@@ -90,5 +90,5 @@ Voir [Paramètres prédéfinis de la visionneuse](application-setup.md#viewer_pr
 >[!MORELIKETHIS]
 >
 >* [Meilleures pratiques en matière de codage de vidéo](uploading-encoding-videos.md#best_practices_for_video_encoding)
-* [Utilisation des paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets)
+>* [Utilisation des paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets)
 

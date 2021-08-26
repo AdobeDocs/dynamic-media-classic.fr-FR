@@ -7,25 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
-feature: Dynamic Media Classic,Visionneuses,Visionneuses de médias mixtes
+feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
-source-git-commit: 591feb7ee4ac88e39941b429a8aa965d4d919738
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 55%
+source-wordcount: '254'
+ht-degree: 56%
 
 ---
 
 # Publication d’une visionneuse de supports variés{#publishing-a-mixed-media-set}
 
-Créez une tâche de publication pour publier une visionneuse de médias mixtes que vous avez marquée pour publication sur Dynamic Media Classic Video Server et Image Server. Dynamic Media Classic propose des options de publication avancées pour la publication sur des serveurs spécifiques et des options pour la republication de ressources qui ont déjà été publiées.
+Créez une tâche de publication pour publier une visionneuse de médias mixtes que vous avez marquée pour publication sur Adobe Dynamic Media Classic Video Server et Image Server. Adobe Dynamic Media Classic propose des options de publication avancées pour la publication sur des serveurs spécifiques et des options pour la republication de ressources qui ont déjà été publiées.
 
 >[!NOTE]
 >
 >Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisez le **serveur de vidéo** pour publier les vidéos réelles que vous avez marquées pour publication De plus, vous utilisez **Image Server** pour publier des ressources connexes, telles que les miniatures vidéo, et définir des informations pour toute visionneuse de vidéos adaptative.
 
-Dynamic Media Classic effectue le suivi des tâches de publication sur l’écran Tâches .
+Adobe Dynamic Media Classic effectue le suivi des tâches de publication sur l’écran Tâches .
 
 Voir [Publication](publishing-files.md#publishing_files).
 

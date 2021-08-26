@@ -1,18 +1,18 @@
 ---
 title: Création de zones cliquables de catalogue électronique
-description: Découvrez comment créer des zones cliquables de catalogue électronique dans Dynamic Media Classic.
+description: Découvrez comment créer des zones cliquables de catalogue électronique dans Adobe Dynamic Media Classic.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
-feature: Dynamic Media Classic,Visionneuses,Catalogue électronique
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1493'
 ht-degree: 40%
 
 ---
@@ -32,9 +32,9 @@ Vous dessinez les zones cliquables des catalogues sur l’onglet Pages de zones 
 
    * **Zone rectangulaire**  : sélectionnez l’outil Zone cliquable de rectangle et faites glisser sur la page pour créer le rectangle.
 
-   * **Zone**  polygonal : sélectionnez l’outil Zone cliquable polygonal, puis sélectionnez autant de fois que nécessaire autour du périmètre de l’image. Lorsque vous sélectionnez cette option, Dynamic Media Classic trace les bordures de la zone cliquable.
+   * **Zone**  polygonal : sélectionnez l’outil Zone cliquable polygonal, puis sélectionnez autant de fois que nécessaire autour du périmètre de l’image. Lorsque vous sélectionnez cette option, Adobe Dynamic Media Classic trace les bordures de la zone cliquable.
 
-      Après avoir dessiné une zone cliquable, Dynamic Media Classic lui attribue un nom dans la liste Zone cliquable. Pour former ce nom, Dynamic Media Classic ajoute un numéro de séquence au nom de la page de catalogue électronique sur laquelle vous travaillez.
+      Après avoir dessiné une zone cliquable, Adobe Dynamic Media Classic lui attribue un nom dans la liste Zone cliquable. Pour former ce nom, Adobe Dynamic Media Classic ajoute un numéro de séquence au nom de la page de catalogue électronique sur laquelle vous travaillez.
 
 1. (Facultatif) Dans la liste Zone cliquable, dans la colonne [!UICONTROL Nom], vous pouvez saisir un nouveau nom pour la zone cliquable. N’insérez pas d’espaces dans le nom que vous saisissez.
 1. Les visiteurs peuvent ouvrir une nouvelle page web lorsqu’ils sélectionnent la zone cliquable. Dans le panneau de la liste des zones cliquables, saisissez l’URL de la page Web dans la colonne URL.
@@ -131,7 +131,7 @@ Depuis l’écran de résumé de zone cliquable, procédez comme suit pour impor
 
 ## Copie de zones cliquables entre des catalogues électroniques {#copying-image-maps-between-ecatalogs}
 
-Vous pouvez copier toutes les zones cliquables d’un catalogue électronique dans un autre catalogue électronique. Il s’agit d’une méthode pratique de copie de zones cliquables entre les traductions en langues étrangères du même catalogue électronique. Pour que la copie soit réussie, Dynamic Media Classic recommande de copier entre des catalogues électroniques avec le même nombre de pages et les mêmes images.
+Vous pouvez copier toutes les zones cliquables d’un catalogue électronique dans un autre catalogue électronique. Il s’agit d’une méthode pratique de copie de zones cliquables entre les traductions en langues étrangères du même catalogue électronique. Pour que la copie soit réussie, Adobe Adobe Dynamic Media Classic recommande de copier entre les catalogues électroniques avec le même nombre de pages et les mêmes images.
 
 >[!NOTE]
 >
@@ -143,4 +143,4 @@ Pour copier toutes les zones cliquables d’un catalogue électronique dans un a
 1. Dans l’onglet Ordre des pages, sélectionnez **[!UICONTROL Copier les mappages]**.
 1. Dans la boîte de dialogue Select Asset, sélectionnez le catalogue électronique dans lequel vous souhaitez copier les zones cliquables, puis sélectionnez **[!UICONTROL Sélectionner]**.
 
-Dynamic Media Classic affiche un message d’avertissement si le catalogue électronique cible (le catalogue électronique dans lequel vous copiez les zones cliquables) comporte un nombre différent de pages ou d’images d’une taille différente. Sélectionnez **[!UICONTROL Continuer]** pour copier les zones cliquables malgré l’avertissement.
+Adobe Dynamic Media Classic affiche un message d’avertissement si le catalogue électronique cible (le catalogue électronique dans lequel vous copiez les zones cliquables) comporte un nombre différent de pages ou d’images d’une taille différente. Sélectionnez **[!UICONTROL Continuer]** pour copier les zones cliquables malgré l’avertissement.

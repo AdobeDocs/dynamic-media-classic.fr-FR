@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 7%
+source-wordcount: '230'
+ht-degree: 6%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 7%
 
 # Connexion à Adobe Dynamic Media Classic {#dmc-sign-in}
 
-Assurez-vous que vous disposez des éléments suivants avant d’utiliser l’application de bureau Dynamic Media Classic :
+Assurez-vous que vous disposez des éléments suivants avant d’utiliser l’application de bureau Dynamic Media Classic Adobe :
 
 * **Nom d’utilisateur**  : utilisez votre adresse électronique comme nom de connexion.
 
-* **Mot de passe**  : vous obtenez votre mot de passe temporaire dans un e-mail &quot;Bienvenue&quot; de Dynamic Media Classic ou de votre administrateur Dynamic Media Classic. Lors de votre première connexion, vous êtes invité à modifier ce mot de passe temporaire.
+* **Mot de passe**  : vous obtenez votre mot de passe temporaire dans un e-mail &quot;Bienvenue&quot; d’Adobe Dynamic Media Classic ou de votre administrateur Dynamic Media Classic Adobe. Lors de votre première connexion, vous êtes invité à modifier ce mot de passe temporaire.
 
 1. Ouvrez l’application de bureau Adobe Dynamic Media Classic.
 
-   ![Connexion à Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+   ![Connexion à Adobe Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
 1. Dans le champ **[!UICONTROL Nom d’utilisateur]**, saisissez votre adresse électronique.
 1. Dans le champ **[!UICONTROL Mot de passe]**, saisissez le mot de passe.
@@ -44,7 +44,7 @@ Utilisez le mappage suivant pour sélectionner l’environnement de production �
 
 ## Déconnexion d’Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. Dans le coin supérieur droit de l’application de bureau Dynamic Media Classic, appuyez sur **[!UICONTROL Se déconnecter]**, puis appuyez de nouveau sur **[!UICONTROL Se déconnecter]**.
+1. Dans le coin supérieur droit de l’application de bureau Dynamic Media Classic Adobe, appuyez sur **[!UICONTROL Se déconnecter]**, puis appuyez de nouveau sur **[!UICONTROL Se déconnecter]**.
 
 >[!MORELIKETHIS]
 >

@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
-feature: Dynamic Media Classic,Gestion des ressources
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1491'
 ht-degree: 24%
 
 ---
 
 # Recherche de fichiers{#searching-assets}
 
-Pour localiser des ressources de fichier dans Dynamic Media Classic, vous pouvez afficher les ressources par type, les trier dans le panneau de navigation, lancer une recherche simple, lancer une recherche avancée et filtrer les ressources.
+Pour localiser des ressources de fichier dans Adobe Dynamic Media Classic, vous pouvez afficher les ressources par type, les trier dans le panneau de navigation, lancer une recherche simple, lancer une recherche avancée et filtrer les ressources.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Pour afficher uniquement les fichiers d’un certain type au fur et à mesure de
 
 >[!NOTE]
 >
->Si le panneau Bibliothèque de ressources ne s’affiche pas sur le côté gauche, cliquez sur la flèche du triangle droit sur le côté gauche, à mi-chemin de la fenêtre Dynamic Media Classic, pour ouvrir la bibliothèque de ressources.)
+>Si le panneau Bibliothèque de ressources ne s’affiche pas sur le côté gauche, cliquez sur la flèche du triangle droit sur le côté gauche, à mi-chemin de la fenêtre Adobe Dynamic Media Classic, pour ouvrir la bibliothèque de ressources.)
 
 ## Tri de fichiers dans le panneau de navigation {#sorting-files-in-the-browse-panel}
 
@@ -55,7 +55,7 @@ Utilisez le champ Rechercher de la bibliothèque de ressources pour effectuer de
 
 <!-- Does not appear to be working anymore >[!NOTE]
 >
->Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
+>Adobe Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
 
 ## Recherche avancée {#conducting-an-advanced-search}
 
@@ -171,5 +171,5 @@ Cliquez sur **[!UICONTROL Publier maintenant]** pour lancer la tâche. Un messag
 >[!MORELIKETHIS]
 >
 >* [Navigation - Notions élémentaires](navigation-basics.md#navigation_basics)
-* [Affichage, ajout et exportation de métadonnées](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [Affichage, ajout et exportation de métadonnées](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 

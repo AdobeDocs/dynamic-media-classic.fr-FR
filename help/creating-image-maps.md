@@ -1,6 +1,6 @@
 ---
 title: Création de zones cliquables
-description: Découvrez comment créer des zones cliquables dans Dynamic Media Classic.
+description: Découvrez comment créer des zones cliquables dans Adobe Dynamic Media Classic.
 uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2422'
 ht-degree: 52%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 52%
 
 Une zone cliquable est une partie d’une image, d’une page de catalogue électronique ou d’une image dans une visionneuse à 360°, qui affiche un panneau de survol avec du texte. Lorsque l’utilisateur sélectionne une zone cliquable, une action d’une sorte ou d’une autre est déclenchée. Par exemple, une page Web affiche des informations détaillées sur un produit. Un contour s’affiche autour d’une zone cliquable lorsque l’utilisateur déplace le pointeur dessus.
 
-Outre la possibilité de créer des zones cliquables dans Dynamic Media Classic, vous pouvez également créer des zones cliquables lorsque vous créez un catalogue dans Adobe Acrobat ou Adobe InDesign.
+Outre la possibilité de créer des zones cliquables dans Adobe Dynamic Media Classic, vous pouvez également créer des zones cliquables lorsque vous créez un catalogue dans Adobe Acrobat ou Adobe InDesign.
 
 Lorsque vous créez des zones cliquables, vous pouvez effectuer l’une des opérations suivantes :
 
@@ -50,9 +50,9 @@ Lorsque vous créez des zones cliquables, vous pouvez effectuer l’une des opé
 
    * **Carte**  polygonale : sélectionnez l’outil Zone cliquable polygonal et sélectionnez des points sur le périmètre de la zone de l’image à fermer. A l’aide du curseur de densité du polygone, modulez la densité du point. La densité initiale est conservée si vous sélectionnez d’autres zones. En revanche, si vous ajoutez, supprimez ou modifiez un point du polygone, la densité initiale est perdue et le curseur revient à la valeur maximale.
 
-1. Nommez la zone cliquable, si vous le souhaitez, dans la liste Zone cliquable. Après avoir dessiné une zone cliquable, Dynamic Media Classic lui attribue un nom.
+1. Nommez la zone cliquable, si vous le souhaitez, dans la liste Zone cliquable. Après avoir dessiné une zone cliquable, Adobe Dynamic Media Classic lui attribue un nom.
 
-   Pour créer le nom, Dynamic Media Classic ajoute un numéro séquentiel au nom de l’image ou de la page de catalogue électronique que vous utilisez. Vous pouvez indiquer le nom de votre choix.
+   Pour créer le nom, Adobe Dynamic Media Classic ajoute un numéro séquentiel au nom de l’image ou de la page de catalogue électronique que vous utilisez. Vous pouvez indiquer le nom de votre choix.
 
 1. Si vous souhaitez que les utilisateurs ouvrent une nouvelle page web lorsqu’ils sélectionnent la zone cliquable, saisissez l’URL dans la liste Zone cliquable.
 
@@ -146,7 +146,7 @@ Vous placez toutes les valeurs qui ne changent pas entre les zones cliquables da
 * Valeur d’URL - `product.htm`
 * URL réelle générée - `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-Par défaut, le modèle d’URL comprend un gestionnaire JavaScript Dynamic Media Classic propriétaire appelé `loadProduct` qui ouvre une nouvelle fenêtre avec la destination de l’URL. Cependant, vous pouvez utiliser n’importe quel code JavaScript pour remplacer ce gestionnaire JavaScript ou utiliser l’un des gestionnaires Dynamic Media Classic suivants :
+Par défaut, le modèle d’URL comprend un gestionnaire JavaScript Dynamic Media Classic propriétaire appelé `loadProduct` qui ouvre une nouvelle fenêtre avec la destination de l’URL. Cependant, vous pouvez utiliser n’importe quel code JavaScript pour remplacer ce gestionnaire JavaScript ou utiliser l’un des gestionnaires Dynamic Media Classic d’Adobe suivants :
 
 * `loadProductCW` - Affiche l’URL cible spécifiée dans la colonne URL de la fenêtre active. Ce code est réservé principalement aux catalogues électroniques intégrés dans une page d’un site Web.
 
@@ -192,7 +192,7 @@ Sélectionnez le menu **[!UICONTROL Afficher]** et sélectionnez **[!UICONTROL L
 
 Vous pouvez créer des zones cliquables lors de la conception de votre catalogue électronique dans Adobe Acrobat ou Adobe InDesign.
 
-Dans Acrobat ou InDesign, créez un lien hypertexte à l’emplacement auquel vous souhaitez faire apparaître la zone cliquable et spécifiez l’URL à laquelle elle doit renvoyer. Lorsque vous sélectionnez l’option Extract Links (Extraire les liens) lors du téléchargement du fichier PDF dans Dynamic Media Classic, les liens sont automatiquement convertis en zones cliquables.
+Dans Acrobat ou InDesign, créez un lien hypertexte à l’emplacement auquel vous souhaitez faire apparaître la zone cliquable et spécifiez l’URL à laquelle elle doit renvoyer. Lorsque vous sélectionnez l’option Extract Links (Extraire les liens) lors du téléchargement du fichier PDF dans Adobe Dynamic Media Classic, les liens sont automatiquement convertis en zones cliquables.
 
 Pour plus d’informations, voir Aide d’Adobe InDesign ou Aide d’Adobe Acrobat.
 
@@ -203,15 +203,15 @@ Pour plus d’informations, voir Aide d’Adobe InDesign ou Aide d’Adobe Acrob
 1. Sélectionnez **[!UICONTROL Nouvel hyperlien]** dans le menu du panneau.
 1. Dans la boîte de dialogue Nouvel hyperlien, dans le menu **[!UICONTROL Lien vers]**, sélectionnez **[!UICONTROL URL]**.
 1. Saisissez ou collez l’ID du produit dans la zone URL.
-1. Sélectionnez **[!UICONTROL OK]**. (Dynamic Media Classic complète l’URL à l’aide du modèle d’URL de zone cliquable.)
+1. Sélectionnez **[!UICONTROL OK]**. (Adobe Dynamic Media Classic complète l’URL à l’aide du modèle d’URL de zone cliquable.)
 
    >[!NOTE]
    >
-   >Vous n’avez pas besoin de définir les options d’aspect dans Adobe InDesign. Vous pouvez spécifier l’aspect dans Dynamic Media Classic.
+   >Vous n’avez pas besoin de définir les options d’aspect dans Adobe InDesign. Vous pouvez spécifier l’aspect dans Adobe Dynamic Media Classic.
 
 1. Répétez les étapes 2 à 6 pour toutes les zones cliquables que vous souhaitez créer.
 1. Exportez les fichiers au format PDF.
-1. Téléchargez le PDF vers Dynamic Media Classic.
+1. Téléchargez le fichier PDF dans Adobe Dynamic Media Classic.
 1. Dans **[!UICONTROL Options PDF]**, sélectionnez **[!UICONTROL Extract Links]**.
 
 ### Création de zones cliquables dans Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
@@ -222,11 +222,11 @@ Pour plus d’informations, voir Aide d’Adobe InDesign ou Aide d’Adobe Acrob
 
 >[!NOTE]
 >
->Vous n’avez pas besoin de définir les options d’aspect dans Adobe Acrobat. Vous pouvez spécifier l’aspect dans Dynamic Media Classic.
+>Vous n’avez pas besoin de définir les options d’aspect dans Adobe Acrobat. Vous pouvez spécifier l’aspect dans Adobe Dynamic Media Classic.
 
 1. Dans la zone Propriétés du lien, sélectionnez **[!UICONTROL Actions]**.
 1. Sélectionnez **[!UICONTROL Ouvrir un lien Web]** dans le menu Sélectionner une action , puis sélectionnez **[!UICONTROL Ajouter]**.
-1. Saisissez l’ID du produit pour la zone Zone cliquable dans la zone Modifier l’URL, puis sélectionnez **[!UICONTROL OK]**. (Dynamic Media Classic complète l’URL à l’aide du modèle d’URL de zone cliquable.)
+1. Saisissez l’ID du produit pour la zone Zone cliquable dans la zone Modifier l’URL, puis sélectionnez **[!UICONTROL OK]**. (Adobe Dynamic Media Classic complète l’URL à l’aide du modèle d’URL de zone cliquable.)
 1. Répétez les étapes 1 à 7 pour toutes les zones cliquables que vous souhaitez créer.
 1. Enregistrez le fichier.
-1. Téléchargez le fichier PDF dans Dynamic Media Classic et sélectionnez Extract Links from PDF Options.
+1. Téléchargez le PDF dans Adobe Classic et sélectionnez Extraire les liens depuis les options PDF.

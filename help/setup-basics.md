@@ -10,16 +10,16 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 23%
 
 ---
 
 # Configuration - Notions élémentaires{#setup-basics}
 
-Utilisez la page Configuration de Dynamic Media Classic pour saisir vos paramètres personnels. Si vous êtes administrateur, vous pouvez configurer les paramètres de votre entreprise. Pour ouvrir une page Configuration, dans la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]**.
+Utilisez la page Configuration d’Adobe Dynamic Media Classic pour saisir vos paramètres personnels. Si vous êtes administrateur, vous pouvez configurer les paramètres de votre entreprise. Pour ouvrir une page Configuration, dans la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]**.
 
 Les paramètres disponibles sur cette page dépendent de votre statut d’utilisateur ou d’administrateur :
 
@@ -34,7 +34,7 @@ Les administrateurs peuvent également configurer des paramètres d’image pré
 
 >[!MORELIKETHIS]
 >
->* [Rôles utilisateur et privilèges Dynamic Media Classic](administration-setup.md#user_administration)
-* [Paramètres d’image prédéfinis](application-setup.md#image_presets)
-* [Paramètres prédéfinis de la visionneuse](application-setup.md#viewer_presets)
+>* [Adobe des rôles et des privilèges des utilisateurs Dynamic Media Classic](administration-setup.md#user_administration)
+>* [Paramètres d’image prédéfinis](application-setup.md#image_presets)
+>* [Paramètres prédéfinis de la visionneuse](application-setup.md#viewer_presets)
 

@@ -1,6 +1,6 @@
 ---
 title: Gestion du contenu du panneau Informations dans les visionneuses d’images
-description: Découvrez comment gérer le contenu du panneau Informations dans les visionneuses d’images de Dynamic Media Classic.
+description: Découvrez comment gérer le contenu du panneau d’informations dans les visionneuses d’images d’Adobe Dynamic Media Classic.
 uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '767'
 ht-degree: 51%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 51%
 
 Outre l’utilisation de texte de zone cliquable pour vos survols dans les visionneuses d’images, vous pouvez utiliser un panneau d’informations pour ajouter de plus grandes quantités de texte de survol, y compris des liens. Vous pouvez également gérer le panneau d’informations en utilisant la mise en cache temporisée et en planifiant des mises à jour du contenu.
 
-Vous pouvez gérer la configuration et les données du panneau d’informations à l’aide des fonctionnalités suivantes de Dynamic Media Classic :
+Vous pouvez gérer la configuration et les données de votre panneau d’informations à l’aide des fonctionnalités suivantes d’Adobe Dynamic Media Classic :
 
 * Le panneau Configuration du panneau d’informations vous permet de définir le modèle utilisé pour afficher le texte du panneau, une réponse par défaut aux erreurs, ainsi que la période de mise en cache (en heures) des informations. Par ailleurs, vous pouvez préciser si la visionneuse d’image est automatiquement publiée.
 * Le panneau Source de données du panneau d’informations vous permet de spécifier un fichier CSV contenant le texte que vous souhaitez afficher dans le texte de survol du panneau d’informations et de planifier les heures de mise à jour des informations.
@@ -40,7 +40,7 @@ Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pou
    * Pour utiliser la réponse par défaut, sélectionnez **[!UICONTROL Default]**. Le code XML de la conception du modèle s’affiche, grisé, dans la zone de texte Modèle utilisateur.
    * Pour créer votre propre modèle de réponse, sélectionnez **[!UICONTROL Personnalisé]**. Dans la zone de texte Modèle utilisateur, entrez la définition du modèle XML. Vous pouvez utiliser le modèle par défaut qui est déjà défini dans la zone de texte comme base pour votre propre réponse.
 
-1. (Facultatif) Dans la zone Réponse par défaut, saisissez le texte que vous souhaitez afficher si Dynamic Media Classic rencontre une erreur lors de la récupération des informations pour une zone cliquable. Par exemple, si le système reçoit un nom d’entreprise et un nom de visionneuse d’image, mais pas d’identificateur de survol, ce message est affiché à l’intention de l’utilisateur.
+1. (Facultatif) Dans la zone Réponse par défaut, saisissez le texte que vous souhaitez afficher si Adobe Dynamic Media Classic rencontre une erreur lors de la récupération des informations pour une zone cliquable. Par exemple, si le système reçoit un nom d’entreprise et un nom de visionneuse d’image, mais pas d’identificateur de survol, ce message est affiché à l’intention de l’utilisateur.
 1. Dans le champ Réponse TTL, entrez le nombre d’heures d’attente avant la mise en cache des données.
 
    * Optez pour une valeur faible si de nombreuses mises à jour des données sont effectuées quotidiennement.

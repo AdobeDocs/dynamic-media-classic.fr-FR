@@ -1,6 +1,6 @@
 ---
 title: Configuration personnelle
-description: Tous les utilisateurs peuvent modifier les paramètres de l’écran Configuration personnelle de Dynamic Media Classic.
+description: Tous les utilisateurs peuvent modifier les paramètres de l’écran Configuration personnelle d’Adobe Dynamic Media Classic.
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 28%
 
 ---
@@ -23,7 +23,7 @@ Tous les utilisateurs peuvent modifier les paramètres de l’écran Configurati
 
 >[!NOTE]
 >
->L’écran Configuration personnelle répertorie le rôle utilisateur que vous avez dans Dynamic Media Classic : Administrateur d’entreprise, administrateur ou utilisateur.
+>L’écran Configuration personnelle répertorie le rôle utilisateur que vous avez dans Adobe Dynamic Media Classic : Administrateur d’entreprise, administrateur ou utilisateur.
 
 Les paramètres de l’écran Configuration personnelle contrôlent le comportement par défaut du panneau de navigation, le mode de réception des e-mails et la configuration des mots de passe. Pensez à cliquer sur Enregistrer après avoir modifié ces paramètres.
 
@@ -45,7 +45,7 @@ Outre l’effacement de l’image et du cache des ressources à l’aide de l’
 
 **Pour installer l’extension Adobe Dynamic Media Creative Suite :**
 
-1. Dans Dynamic Media Classic, dans la barre d’outils, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration personnelle]**, sous Extension du Creative Suite, cliquez sur **[!UICONTROL Télécharger maintenant]** pour télécharger le fichier `s7csxs.zxp`.
+1. Dans Adobe Dynamic Media Classic, dans la barre d’outils, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration personnelle]**, sous Extension du Creative Suite, cliquez sur **[!UICONTROL Télécharger maintenant]** pour télécharger le fichier `s7csxs.zxp`.
 1. Cliquez sur les liens **[!UICONTROL Installation]** et **[!UICONTROL Configuration requise]** pour plus d’informations sur l’extension.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
@@ -95,7 +95,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## E-mail
 
-* **Options de courrier électronique**  : choisissez la manière dont Dynamic Media Classic doit vous informer par courrier électronique lorsque les tâches de téléchargement et de publication sont terminées. Vous pouvez recevoir des avis de fin de travaux uniquement si des avertissements ou des erreurs se sont produits.
+* **Options de courrier électronique**  : choisissez la manière dont vous souhaitez qu’Adobe Dynamic Media Classic vous informe par courrier électronique lorsque les tâches de téléchargement et de publication sont terminées. Vous pouvez recevoir des avis de fin de travaux uniquement si des avertissements ou des erreurs se sont produits.
 * **Domaine de l’e-mail**  : détermine si vous recevez tous les e-mails de tâche pour votre entreprise ou uniquement des e-mails concernant les tâches de téléchargement et de publication que vous lancez.
 * **Types de courrier électronique**  : détermine si vous êtes informé lorsque les tâches de téléchargement et de publication sont terminées.
 

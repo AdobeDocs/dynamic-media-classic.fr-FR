@@ -10,26 +10,26 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '554'
 ht-degree: 41%
 
 ---
 
 # Démarrage rapide : Visionneuses d’images{#quick-start-image-sets}
 
-Les visionneuses d’images Dynamic Media Classic offrent aux utilisateurs une expérience de visionnage intégrée. La visionneuse d’images dynamique vous permet d’afficher différentes vues d’un objet d’un simple clic sur une image miniature. Les visionneuses d’images vous permettent de présenter d’autres vues haute résolution d’un élément.
+Les visionneuses d’images Dynamic Media Classic Adobe offrent aux utilisateurs une expérience de visionnage intégrée. La visionneuse d’images dynamique vous permet d’afficher différentes vues d’un objet d’un simple clic sur une image miniature. Les visionneuses d’images vous permettent de présenter d’autres vues haute résolution d’un élément.
 
 Les outils de zoom de la visionneuse d’images sont pratiques pour examiner les images de plus près. Si vous le souhaitez, vous pouvez intégrer des cibles de zoom guidé et des zones cliquables dans votre visionneuse d’images. Les visionneuses d’images garantissent une visualisation concertée et privée.
 
-Cette section de démarrage rapide des visionneuses d’images est conçue pour vous aider à maîtriser rapidement les techniques de visionneuse d’images dans Dynamic Media Classic.
+Cette section de démarrage rapide des visionneuses d’images est conçue pour vous aider à maîtriser rapidement les techniques de visionneuse d’images dans Adobe Dynamic Media Classic.
 
 ## 1. Chargement des images originales pour plusieurs vues et échantillons
 
-Commencez par télécharger les images pour les visionneuses d’images. Comme les utilisateurs peuvent zoomer sur les images dans la visionneuse d’images, veillez à en tenir compte lors du choix des images. Assurez-vous que la taille des images est d’au moins 2 000 pixels. Dynamic Media Classic prend en charge de nombreux formats de fichier image, mais les formats sans perte TIFF, PNG et EPS sont recommandés.
+Commencez par télécharger les images pour les visionneuses d’images. Comme les utilisateurs peuvent zoomer sur les images dans la visionneuse d’images, veillez à en tenir compte lors du choix des images. Assurez-vous que la taille des images est d’au moins 2 000 pixels. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichier image, mais les formats sans perte TIFF, PNG et EPS sont recommandés.
 
-Dans la barre de navigation globale, cliquez sur **[!UICONTROL Télécharger]** pour charger des fichiers depuis votre ordinateur vers un dossier de Dynamic Media Classic.
+Dans la barre de navigation globale, cliquez sur **[!UICONTROL Télécharger]** pour charger des fichiers depuis votre ordinateur vers un dossier sur Adobe Dynamic Media Classic.
 
 Voir les sections [Préparation du téléchargement de fichiers de visionneuse d’images](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) et [Téléchargement de fichiers](uploading-files.md#uploading-your-files).
 
@@ -45,7 +45,7 @@ Voir aussi [Inclusion de cibles de zoom et de zones cliquables dans les visionne
 
 ## 3. Configuration de paramètres prédéfinis de visionneuse d’images, si nécessaire
 
-Les administrateurs peuvent créer ou modifier les paramètres prédéfinis de la visionneuse d’images. Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse par défaut pour chaque type de média enrichi. Utilisez les paramètres prédéfinis Visionneuse de zoom : Personnalisée > Images ou Visionneuses d’images / Vues multiples pour visualiser vos visionneuses d’images.
+Les administrateurs peuvent créer ou modifier les paramètres prédéfinis de la visionneuse d’images. Adobe Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse par défaut pour chaque type de média enrichi. Utilisez les paramètres prédéfinis Visionneuse de zoom : Personnalisée > Images ou Visionneuses d’images / Vues multiples pour visualiser vos visionneuses d’images.
 
 L’ajout et la modification des paramètres prédéfinis de visionneuse s’effectuent à partir de l’écran Configuration de l’application.
 
@@ -59,7 +59,7 @@ Voir [Prévisualisation d’un fichier](previewing-asset.md#previewing-an-asset)
 
 ## 5. Publication d’une visionneuse d’images
 
-La publication d’une visionneuse d’images la place sur les serveurs Dynamic Media Classic et active la chaîne URL.
+La publication d’une visionneuse d’images la place sur les serveurs Dynamic Media Classic Adobe et active la chaîne URL.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Voir [Publication](publishing-files.md#publishing-files).
 
 ## 6. Liaison d’une visionneuse d’images à votre site web
 
-Dynamic Media Classic crée des appels URL pour les visionneuses d’images et les active après leur publication. Vous pouvez copier ces chaînes URL depuis l’écran de prévisualisation.
+Adobe Dynamic Media Classic crée des appels URL pour les visionneuses d’images et les active une fois que vous avez publié. Vous pouvez copier ces chaînes URL depuis l’écran de prévisualisation.
 
 Sélectionnez la visionneuse d’images, puis cliquez sur **[!UICONTROL Aperçu]**. Sélectionnez maintenant un paramètre prédéfini de visionneuse d’images, puis cliquez sur **[!UICONTROL Copier l’URL]**.
 

@@ -1,6 +1,6 @@
 ---
-title: Exportation de ressources à partir de Dynamic Media Classic
-description: Découvrez comment exporter des ressources à partir de Dynamic Media Classic.
+title: Exportation de ressources à partir d’Adobe Dynamic Media Classic
+description: Découvrez comment exporter des ressources à partir d’Adobe Dynamic Media Classic.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
@@ -10,22 +10,22 @@ discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '431'
 ht-degree: 52%
 
 ---
 
-# Exportation de ressources à partir de Dynamic Media Classic{#exporting-assets-from-dmc}
+# Exportation de ressources à partir d’Adobe Dynamic Media Classic{#exporting-assets-from-dmc}
 
-Vous pouvez enregistrer les ressources que vous avez modifiées dans Dynamic Media Classic sur un lecteur réseau local. Les fichiers exportés sont compressés dans un fichier ZIP pour le téléchargement ou l’envoi par courrier électronique.
+Vous pouvez enregistrer les ressources que vous avez modifiées dans Adobe Dynamic Media Classic sur un lecteur réseau local. Les fichiers exportés sont compressés dans un fichier ZIP pour le téléchargement ou l’envoi par courrier électronique.
 
 La taille du fichier zip compressé ne doit pas dépasser 1 Go pour la tâche d’exportation. En outre, un maximum de 500 ressources par tâche d’exportation est autorisé.
 
-Dynamic Media Classic conserve un enregistrement des tâches d’exportation dans l’écran Tâches .
+Adobe Dynamic Media Classic conserve un enregistrement des tâches d’exportation dans l’écran Tâches .
 
-**Pour exporter des ressources à partir de Dynamic Media Classic :**
+**Pour exporter des ressources à partir d’Adobe Dynamic Media Classic :**
 
 1. Sélectionnez les ressources à exporter, puis accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Exporter]**.
 1. Dans la fenêtre Exporter les fichiers sélectionnés, cliquez sur **[!UICONTROL Options d’image]**, puis spécifiez une ou plusieurs options parmi les suivantes (les administrateurs déterminent quelles options sont disponibles pour les utilisateurs) :

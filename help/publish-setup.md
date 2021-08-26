@@ -1,22 +1,22 @@
 ---
 title: Configuration de la publication
-description: Les paramètres de configuration de la publication vous permettent de déterminer comment les ressources sont diffusées par défaut des serveurs Dynamic Media Classic vers des sites web ou des applications.
+description: Les paramètres de configuration de la publication vous permettent de déterminer comment les ressources sont diffusées par défaut des serveurs Adobe Dynamic Media Classic vers les sites web ou les applications.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2416'
 ht-degree: 47%
 
 ---
 
 # Configuration de la publication {#publish-setup}
 
-Les paramètres de la page Configuration de la publication déterminent la manière dont les ressources sont diffusées par défaut des serveurs Dynamic Media Classic vers les sites web ou les applications. Si aucun paramètre n’est spécifié, le serveur Dynamic Media Classic diffuse une ressource en fonction d’un paramètre par défaut sur une page Configuration de la publication . Par exemple, une demande de diffusion d’une image qui n’inclut pas d’attribut de résolution génère une image avec le paramètre de résolution d’objet par défaut sur la page Serveur d’images.
+Les paramètres de la page Configuration de la publication déterminent la manière dont les ressources sont diffusées par défaut des serveurs Adobe Dynamic Media Classic vers les sites web ou les applications. Si aucun paramètre n’est spécifié, le serveur Dynamic Media Classic Adobe diffuse une ressource selon un paramètre par défaut sur une page de configuration de publication. Par exemple, une demande de diffusion d’une image qui n’inclut pas d’attribut de résolution génère une image avec le paramètre de résolution d’objet par défaut sur la page Serveur d’images.
 
 Les administrateurs peuvent modifier les paramètres par défaut sur les pages Image Server, Image Renderer et Vignette afin de définir les paramètres par défaut de diffusion des ressources à partir des serveurs.
 
@@ -24,15 +24,15 @@ Pour ouvrir les pages Configuration de la publication , cliquez sur **[!UICONTRO
 
 >[!NOTE]
 >
->Les pages Configuration de la publication sont destinées aux développeurs et programmeurs de sites web expérimentés. Dynamic Media Classic suppose que les utilisateurs qui modifient les paramètres de ces pages connaissent Dynamic Media Classic, les normes et conventions de protocole HTTP, ainsi que la technologie d’imagerie de base.
+>Les pages Configuration de la publication sont destinées aux développeurs et programmeurs de sites web expérimentés. Adobe Dynamic Media Classic suppose que les utilisateurs qui modifient les paramètres de ces pages connaissent Adobe Dynamic Media Classic, les normes et conventions de protocole HTTP, ainsi que la technologie d’imagerie de base.
 
 ## Image Server {#image-server}
 
 La page Serveur d’images définit les paramètres par défaut de la diffusion des images à partir des serveurs d’images. Les paramètres sont disponibles dans ces cinq catégories (voir la page Image Server elle-même pour des descriptions détaillées des paramètres).
 
-Modifiez ces paramètres uniquement avec l’aide d’une personne du service clientèle de Dynamic Media Classic.
+Modifiez ces paramètres uniquement avec l’aide d’une personne du service clientèle Dynamic Media Classic Adobe.
 
-* **Gestion de catalogue**  : ces paramètres déterminent la manière dont Dynamic Media Classic et le catalogue interagissent. Contrairement à la plupart des serveurs web, les appels d’URL de serveur d’images Dynamic Media sont dirigés vers un fichier manifeste ou catalogue plutôt qu’un fichier image proprement dit. Le fichier catalogue (à ne pas confondre avec un catalogue électronique) contient une liste de tous les contenus publiés sur le serveur d’images avec le chemin d’accès à chaque image. Si vous disposez d’un ID Digimarc, entrez vos informations d’utilisateur dans la section Informations d’utilisateur Digimarc.
+* **Gestion de catalogue**  : ces paramètres déterminent la manière dont Adobe Dynamic Media Classic et le catalogue interagissent. Contrairement à la plupart des serveurs web, les appels d’URL de serveur d’images Dynamic Media sont dirigés vers un fichier manifeste ou catalogue plutôt qu’un fichier image proprement dit. Le fichier catalogue (à ne pas confondre avec un catalogue électronique) contient une liste de tous les contenus publiés sur le serveur d’images avec le chemin d’accès à chaque image. Si vous disposez d’un ID Digimarc, entrez vos informations d’utilisateur dans la section Informations d’utilisateur Digimarc.
 
 * **Attributs de requête**  : ces paramètres imposent des limites aux images qui peuvent être diffusées à partir du serveur. Par exemple, la *taille maximale* **[!UICONTROL Limite de taille de l’image de réponse]** est **[!UICONTROL Largeur]** 5000 et **[!UICONTROL Hauteur]** 5000.
 
@@ -59,9 +59,9 @@ Modifiez ces paramètres uniquement avec l’aide d’une personne du service cl
 
 >[!NOTE]
 >
->Si vous souhaitez configurer les options de prise en charge de la localisation dans Dynamic Media Classic, telles que le champ Carte des paramètres régionaux, [utilisez le Admin Console pour créer un cas de prise en charge.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Dans votre cas d’assistance, demandez de l’aide sur la configuration.
+>Si vous souhaitez configurer les options de prise en charge de la localisation dans Adobe Dynamic Media Classic, telles que le champ Carte des paramètres régionaux, [utilisez le Admin Console pour créer un cas de prise en charge.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Dans votre cas d’assistance, demandez de l’aide sur la configuration.
 
-Une méthode courante d’utilisation de Dynamic Media Classic consiste à gérer l’imagerie du produit sur les sites web d’e-commerce. Les sociétés internationales doivent gérer le fait que l’aspect des fichiers pour des produits similaires diffère d’un pays à l’autre. Généralement, les différences concernent quelques parties du média global. Le fait de gérer de telles différences en copiant tous les fichiers pour chacun des pays et en remplaçant uniquement les différences représente un effort considérable et contredit la métaphore du fichier original unique. De telles différences de fichiers peuvent impliquer, en raison des vidéos spécifiques aux pays avec différentes pistes audio, des différences importantes bien que très subtiles des câbles d’alimentation utilisés avec le produit. Dynamic Media Classic utilise un mécanisme de recherche de base. Vous définissez l’ordre des suffixes des fichiers analysés par le serveur d’images, en commençant par les paramètres régionaux requis.
+Une méthode courante d’utilisation d’Adobe Dynamic Media Classic consiste à gérer l’imagerie du produit sur les sites web d’e-commerce. Les sociétés internationales doivent gérer le fait que l’aspect des fichiers pour des produits similaires diffère d’un pays à l’autre. Généralement, les différences concernent quelques parties du média global. Le fait de gérer de telles différences en copiant tous les fichiers pour chacun des pays et en remplaçant uniquement les différences représente un effort considérable et contredit la métaphore du fichier original unique. De telles différences de fichiers peuvent impliquer, en raison des vidéos spécifiques aux pays avec différentes pistes audio, des différences importantes bien que très subtiles des câbles d’alimentation utilisés avec le produit. Adobe Dynamic Media Classic utilise un mécanisme de recherche de base. Vous définissez l’ordre des suffixes des fichiers analysés par le serveur d’images, en commençant par les paramètres régionaux requis.
 
 #### Méthode de localisation des fichiers
 
@@ -97,7 +97,7 @@ Voici quelques-uns des avantages de `locale=` et `attribute::DefaultLocale` :
 
 #### Mise en œuvre de la localisation des fichiers
 
-Dynamic Media Classic et le service d’images disposent d’une interface qui permet de localiser les images et le contenu statique.
+Adobe Dynamic Media Classic et le service d’images disposent d’une interface qui permet de localiser les images et le contenu statique.
 
 Sans localisation, une URL de serveur d’images ressemble à ce qui suit :
 
@@ -117,7 +117,7 @@ L’application d’une valeur de suffixe ou de remplacement dépend du paramèt
 
 >[!NOTE]
 >
->Le paramètre Global Locale n’est possible que lorsque vous le définissez via l’API, et non dans l’interface de Dynamic Media Classic.
+>Le paramètre Global Locale n’est possible que lorsque vous le définissez via l’API, et non dans l’interface d’Adobe Dynamic Media Classic.
 
 **Exemple de suffixe:**
 
@@ -137,7 +137,7 @@ Si un paramètre régional vide ou inconnu est fourni avec `locale=`, la variabl
 
 #### À propos de defaultImage
 
-Le serveur d’images essaie l’une après l’autre les options pour les paramètres régionaux demandés. Si aucune correspondance n’est trouvée, les options des paramètres régionaux sont appliquées à defaultImage et la version correspondante est renvoyée. Par conséquent, chaque paramètre régional doit inclure une option pour l’image sans localisation ou les versions localisées defaultImage sont rendues disponibles dans Dynamic Media Classic.
+Le serveur d’images essaie l’une après l’autre les options pour les paramètres régionaux demandés. Si aucune correspondance n’est trouvée, les options des paramètres régionaux sont appliquées à defaultImage et la version correspondante est renvoyée. Par conséquent, chaque paramètre régional doit inclure une option pour l’image sans localisation ou les versions localisées defaultImage sont rendues disponibles dans Adobe Dynamic Media Classic.
 
 #### Scénarios de recherche de localeMap
 
@@ -220,7 +220,7 @@ En reprenant le premier exemple comme base, les images pour toutes les langues p
 
 La page Image Renderer définit les paramètres par défaut pour la diffusion de visionneuses d’images à partir des serveurs de rendu d’image. Les paramètres sont disponibles dans ces cinq catégories (voir la page Image Server elle-même pour obtenir des descriptions détaillées des paramètres) :
 
-* **Gestion de catalogue**  : ces paramètres déterminent la manière dont Dynamic Media Classic et le fichier de catalogue interagissent. Les appels d’URL de serveur de rendu Dynamic Media Classic sont effectués vers le catalogue, qui à son tour appelle pour diffuser des images à partir du serveur. Modifiez ces paramètres uniquement avec l’aide d’une personne du service clientèle de Dynamic Media Classic.
+* **Gestion de catalogue**  : ces paramètres déterminent la manière dont Adobe Dynamic Media Classic et le fichier de catalogue interagissent. Les appels d’URL de serveur de rendu Dynamic Media Classic Adobe sont effectués vers le catalogue, qui à son tour appelle pour diffuser des images à partir du serveur. Modifiez ces paramètres uniquement avec l’aide d’une personne du service clientèle Dynamic Media Classic Adobe.
 
 * **Attributs de session**  : ces paramètres définissent les paramètres d’erreur, l’URL des URL d’image relatives et si le recouvrement d’objet est autorisé.
 

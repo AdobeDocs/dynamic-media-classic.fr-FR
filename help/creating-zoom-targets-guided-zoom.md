@@ -1,6 +1,6 @@
 ---
 title: Création de cibles de zoom pour un zoom guidé
-description: Découvrez comment créer des cibles de zoom pour un zoom guidé dans Dynamic Media Classic.
+description: Découvrez comment créer des cibles de zoom pour un zoom guidé dans Adobe Dynamic Media Classic.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '728'
 ht-degree: 44%
 
 ---
@@ -38,7 +38,7 @@ Vous pouvez ajuster la taille de la visionneuse de zoom à celle utilisée sur v
 
 Créez et modifiez des cibles de zoom sur l’écran Editeur de cible de zoom. Pour ouvrir cet écran, sélectionnez une image et procédez de l’une des façons suivantes :
 
-* sélectionnez le bouton de survol **[!UICONTROL Modifier]** et choisissez Cibles de zoom.
+* Sélectionnez le bouton de survol **[!UICONTROL Modifier]** et choisissez Cibles de zoom.
 * Dans le panneau de navigation, affichez l’image dans la **[!UICONTROL vue Détails]**, puis sélectionnez **[!UICONTROL Cibles de zoom]**.
 
 Dans l’écran Éditeur de cible de zoom, sélectionnez le bouton **[!UICONTROL Sélectionner la cible]** (flèche) pour sélectionner une cible avant de modifier sa taille ou sa position. Pour créer une cible de zoom sur l’image, sélectionnez **[!UICONTROL Ajouter des cibles]** (rectangle). La page Éditeur de cible de zoom propose également des outils pour supprimer, copier et nommer des cibles de zoom.

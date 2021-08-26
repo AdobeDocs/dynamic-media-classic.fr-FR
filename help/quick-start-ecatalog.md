@@ -10,10 +10,10 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 50%
+source-wordcount: '1430'
+ht-degree: 48%
 
 ---
 
@@ -47,13 +47,13 @@ Lorsque vous créez un catalogue électronique, vous agencez les pages ou les pl
 >
 >Dans le coin supérieur gauche de la page du CRXDE Lite, cliquez sur **[!UICONTROL Enregistrer tout]**.
 >
->Vous pouvez désormais créer des catalogues électroniques dans Dynamic Media Classic.
+>Vous pouvez désormais créer des catalogues électroniques dans Adobe Dynamic Media Classic.
 
 Cette section de démarrage rapide est conçue pour vous aider à maîtriser rapidement les opérations liées aux catalogues électroniques. Suivez les étapes 1 à 7. Chaque étape se termine par un renvoi à une rubrique contenant de plus amples informations.
 
 ## 1. Téléchargement des fichiers PDF
 
-En règle générale, un catalogue électronique est créé à partir de fichiers Adobe PDF. Les fichiers PDF étant destinés à l’impression, ils contiennent le plus souvent des images CMJN. Dynamic Media Classic détecte ces images et les convertit à l’aide d’un profil colorimétrique CMJN standard. Cependant, vous devez charger et utiliser un profil colorimétrique personnalisé.
+En règle générale, un catalogue électronique est créé à partir de fichiers Adobe PDF. Les fichiers PDF étant destinés à l’impression, ils contiennent le plus souvent des images CMJN. Adobe Dynamic Media Classic détecte ces images et les convertit à l’aide d’un profil colorimétrique CMJN standard. Cependant, vous devez charger et utiliser un profil colorimétrique personnalisé.
 
 Dans la barre de navigation globale, cliquez sur **[!UICONTROL Télécharger]** pour commencer à charger des fichiers PDF ou des images pour votre catalogue électronique. Vous pouvez télécharger des fichiers depuis votre bureau ou via FTP, cette dernière méthode étant recommandée si les fichiers sont nombreux ou de taille supérieure à 100 Mo.
 
@@ -69,7 +69,7 @@ Sur la page Catalogue électronique, dans l’onglet **[!UICONTROL Classer les p
 
 Pour ajouter des pages, sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser les fichiers PDF ou d’images dans l’écran Ordre des pages. Au lieu des numéros de page par défaut, vous pouvez indiquer des noms de page personnalisés ou importer de nombreux noms de page.
 
-Cliquez sur **[!UICONTROL Enregistrer]**, saisissez un nom pour votre catalogue électronique, choisissez un dossier Dynamic Media Classic pour le stocker, puis cliquez sur **[!UICONTROL Enregistrer]**. Chaque fois que vous modifiez l’ordre des pages ou l’ordre de votre catalogue électronique, enregistrez vos modifications en cliquant sur **[!UICONTROL Enregistrer]**.
+Cliquez sur **[!UICONTROL Enregistrer]**, saisissez un nom pour votre catalogue électronique, choisissez un dossier Dynamic Media Classic Adobe pour le stocker, puis cliquez sur **[!UICONTROL Enregistrer]**. Chaque fois que vous modifiez l’ordre des pages ou l’ordre de votre catalogue électronique, enregistrez vos modifications en cliquant sur **[!UICONTROL Enregistrer]**.
 
 Voir [Création d’un catalogue électronique](creating-ecatalog.md).
 
@@ -91,7 +91,7 @@ Voir [Gestion du contenu du panneau Informations dans les catalogues électroniq
 
 ## 4. Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique
 
-Les utilisateurs finaux consultent votre catalogue dans la visionneuse de catalogue électronique. Si vous êtes un administrateur, vous avez la possibilité de configurer cette visionneuse. Vous pouvez modifier la couleur de son contour et sélectionner un nouvel habillage pour définir la marque de votre catalogue électronique. Dynamic Media Classic est fourni avec plusieurs paramètres prédéfinis de visionneuse de catalogue électronique &quot;recommandés&quot;. Vous pouvez choisir l’un de ces paramètres prédéfinis pour l’affichage de vos catalogues électroniques. Vous pouvez également créer vous-même un paramètre prédéfini pour la visionneuse de catalogue électronique si vous êtes administrateur.
+Les utilisateurs finaux consultent votre catalogue dans la visionneuse de catalogue électronique. Si vous êtes un administrateur, vous avez la possibilité de configurer cette visionneuse. Vous pouvez modifier la couleur de son contour et sélectionner un nouvel habillage pour définir la marque de votre catalogue électronique. Adobe Dynamic Media Classic est fourni avec plusieurs paramètres prédéfinis de visionneuse de catalogue électronique &quot;recommandés&quot;. Vous pouvez choisir l’un de ces paramètres prédéfinis pour l’affichage de vos catalogues électroniques. Vous pouvez également créer vous-même un paramètre prédéfini pour la visionneuse de catalogue électronique si vous êtes administrateur.
 
 Pour créer un paramètre prédéfini de visionneuse de catalogue électronique, dans la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** et sélectionnez **[!UICONTROL Paramètres prédéfinis de la visionneuse]**. Cliquez ensuite sur **[!UICONTROL Ajouter]**, choisissez une plateforme, puis cliquez sur **[!UICONTROL Catalogue électronique > Visionneuse]**.
 
@@ -109,7 +109,7 @@ Voir [Prévisualisation des catalogues électroniques dans la visionneuse de cat
 
 ## 6. Publication d’un catalogue électronique et des fichiers PDF associés
 
-La publication de votre catalogue électronique et du fichier PDF associé le place sur les serveurs d’images Dynamic Media afin qu’il puisse être diffusé sur votre site web et dans votre application. Dans le cadre du processus de publication, Dynamic Media Classic active la chaîne URL de votre catalogue électronique. Utilisez cette URL pour appeler le catalogue électronique à partir des serveurs d’images Dynamic Media vers votre site web ou votre application.
+La publication de votre catalogue électronique et du fichier PDF associé le place sur les serveurs d’images Dynamic Media afin qu’il puisse être diffusé sur votre site web et dans votre application. Dans le cadre du processus de publication, Adobe Dynamic Media Classic active la chaîne URL de votre catalogue électronique. Utilisez cette URL pour appeler le catalogue électronique à partir des serveurs d’images Dynamic Media vers votre site web ou votre application.
 
 Après avoir marqué votre catalogue électronique et votre fichier PDF en vue de la publication dans le panneau de navigation, sélectionnez le bouton Publier de la barre de navigation globale pour lancer une publication. Dans l’écran Publier, cliquez sur **[!UICONTROL Envoyer la publication]**.
 
@@ -117,7 +117,7 @@ Voir [Publication de catalogues électroniques et de fichiers PDF associés](pub
 
 ## 7. Liaison d’un catalogue électronique à une page web
 
-Dynamic Media Classic active la chaîne d’appel d’URL nécessaire à l’affichage de votre catalogue électronique lorsque vous le publiez sur les serveurs d’images Dynamic Media. Vous pouvez copier cette chaîne URL depuis l’écran de prévisualisation et le panneau de navigation (en mode Affichage des détails) en la sélectionnant dans le panneau. Une fois copiée, la chaîne URL peut être utilisée sur vos sites Web et dans vos applications.
+Adobe Dynamic Media Classic active la chaîne d’appel d’URL nécessaire à l’affichage de votre catalogue électronique lorsque vous le publiez sur les serveurs d’images Dynamic Media. Vous pouvez copier cette chaîne d’URL à partir de l’écran de prévisualisation et du panneau de navigation (dans le mode Affichage des détails) en sélectionnant les URL dans le panneau. Une fois copiée, la chaîne URL peut être utilisée sur vos sites Web et dans vos applications.
 
 Travaillez de concert avec votre équipe informatique pour décider de l’emplacement du lien vers le catalogue électronique au sein de votre page Web. Un clic sur ce lien entraîne l’ouverture de la visionneuse, permettant ainsi aux utilisateurs de parcourir votre catalogue électronique.
 

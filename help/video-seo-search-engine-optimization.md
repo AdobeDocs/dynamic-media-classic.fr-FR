@@ -10,9 +10,9 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1027'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 40%
 
 L’optimisation du référencement de la vidéo consiste à améliorer le volume de trafic vers un site Web à partir des moteurs de recherche. Les moteurs de recherche sont des outils parfaits pour collecter des informations à partir d’un contenu texte. Par contre, ils sont moins performants pour obtenir des informations sur des vidéos, sauf si ces informations leur sont fournies.
 
-L’optimisation pour les moteurs de recherche des vidéos Dynamic Media Classic vous permet d’appliquer des métadonnées vidéo afin de fournir aux moteurs de recherche des descriptions de vos vidéos. Dynamic Media Classic vous permet de créer des plans de site vidéo et des flux mRSS. Ces fichiers XML standard sont utilisés pour envoyer des informations vidéo aux moteurs de recherche :
+Grâce au SEO vidéo d’Adobe Dynamic Media Classic, vous pouvez appliquer des métadonnées vidéo pour fournir aux moteurs de recherche des descriptions de vos vidéos. Adobe Dynamic Media Classic vous permet de créer des plans de site vidéo et des flux mRSS. Ces fichiers XML standard sont utilisés pour envoyer des informations vidéo aux moteurs de recherche :
 
 * **Plan du site vidéo**  : indique à Google exactement où et quel contenu vidéo se trouve sur un site. Donc, les vidéos peuvent faire l&#39;objet de recherches complètes sur Google. Par exemple, un plan de site vidéo peut préciser le temps d’exécution et la catégorie. Pour plus d’informations sur les plans de site vidéo, voir [Cartes de site vidéo et alternatives de plans de site vidéo](https://developers.google.com/search/docs/advanced/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
@@ -31,17 +31,17 @@ L’optimisation pour les moteurs de recherche des vidéos Dynamic Media Classic
 >
 >Google prend en charge à la fois le plan de site vidéo et le protocole de flux mRSS pour envoyer des informations aux moteurs de recherche.
 
-Dynamic Media Classic peut générer des plans de site vidéo et des flux mRSS à partir de métadonnées stockées avec chaque vidéo. Lorsque vous créez des plans de site vidéo et des flux mRSS, vous choisissez les champs de métadonnées à partir des fichiers vidéo à inclure. Ainsi, vous décrivez vos vidéos aux moteurs de recherche pour qu’ils puissent plus facilement rediriger le trafic vers les vidéos de votre site Web.
+Adobe Dynamic Media Classic peut générer des plans de site vidéo et des flux mRSS à partir de métadonnées stockées avec chaque vidéo. Lorsque vous créez des plans de site vidéo et des flux mRSS, vous choisissez les champs de métadonnées à partir des fichiers vidéo à inclure. Ainsi, vous décrivez vos vidéos aux moteurs de recherche pour qu’ils puissent plus facilement rediriger le trafic vers les vidéos de votre site Web.
 
 >[!NOTE]
 >
 >avant de créer un plan de site vidéo ou un flux mRSS, cherchez quels champs sont nécessaires au moteur de recherche dans le fichier XML et comment les structurer. Pour qu’un plan de site vidéo ou un flux mRSS soit réussi, il doit répondre aux exigences du moteur de recherche.
 
-Dynamic Media Classic crée des rapports sur les plans de site vidéo et les flux mRSS après leur génération. Ces rapports sont disponibles sur la page Rapport d’optimisation pour les moteurs de recherche vidéo .
+Adobe Dynamic Media Classic crée des rapports sur les plans de site vidéo et les flux mRSS après leur génération. Ces rapports sont disponibles sur la page Rapport d’optimisation pour les moteurs de recherche vidéo .
 
 >[!NOTE]
 >
->Pour les plans de site vidéo et les flux mRSS, Dynamic Media Classic capture uniquement les métadonnées des vidéos marquées pour publication. Les vidéos marquées pour la publication incluent leurs métadonnées dans les plans de site vidéo et les flux mRSS.
+>Pour les plans de site vidéo et les flux mRSS, Adobe Dynamic Media Classic capture uniquement les métadonnées des vidéos marquées pour publication. Les vidéos marquées pour la publication incluent leurs métadonnées dans les plans de site vidéo et les flux mRSS.
 
 ## Choix des paramètres d’optimisation du référencement vidéo {#choosing-video-seo-settings}
 
@@ -65,11 +65,11 @@ Dans la liste déroulante **[!UICONTROL Mode de génération]** , choisissez un 
 
 Dans la liste déroulante **[!UICONTROL Mode automatique/manuel]** , choisissez de générer automatiquement ou manuellement :
 
-* **Mode**  automatique : Dynamic Media Classic génère automatiquement un plan de site vidéo, un flux Media RSS (mRSS), ou les deux, chaque jour. Sélectionnez l’option Marquer pour publication pour marquer automatiquement pour publication le fichier XML généré par Dynamic Media Classic.
+* **Mode**  automatique : Adobe Dynamic Media Classic génère automatiquement un plan de site vidéo, un flux Media RSS (mRSS), ou les deux, chaque jour. Sélectionnez l’option Marquer pour publication pour marquer automatiquement pour publication le fichier XML généré par Adobe Dynamic Media Classic.
 
    * **Marquez pour** PublishMarks pour publier le fichier XML généré.
 
-* **Mode**  manuel : Dynamic Media Classic génère le plan de site vidéo, le flux Media RSS (mRSS), ou les deux, lorsque vous cliquez sur Générer ou Enregistrer et générer dans l’écran Paramètres d’optimisation de la recherche vidéo. Sélectionnez également ces options :
+* **Mode**  manuel : Adobe Dynamic Media Classic génère le plan de site vidéo, le flux Media RSS (mRSS), ou les deux, lorsque vous cliquez sur Générer ou Enregistrer et générer dans l’écran Paramètres d’optimisation de la recherche vidéo. Sélectionnez également ces options :
 
    * **Aucun autre paramètre**  : ne marque pas pour publication le fichier XML généré.
 
@@ -79,7 +79,7 @@ Dans la liste déroulante **[!UICONTROL Mode automatique/manuel]** , choisissez 
 
 ### Choix des paramètres de génération {#choosing-generation-settings}
 
-La zone Paramètres de génération répertorie les champs de saisie du plan de site vidéo, du flux mRSS ou des deux, ainsi que les noms des champs de métadonnées dans le panneau Métadonnées. Utilisez la zone Paramètres généraux pour mapper les champs d’entrée aux champs de métadonnées. Ce faisant, vous indiquez à Dynamic Media Classic où obtenir des métadonnées pour le plan de site vidéo et/ou le flux mRSS.
+La zone Paramètres de génération répertorie les champs de saisie du plan de site vidéo, du flux mRSS ou des deux, ainsi que les noms des champs de métadonnées dans le panneau Métadonnées. Utilisez la zone Paramètres généraux pour mapper les champs d’entrée aux champs de métadonnées. Ce faisant, vous indiquez à Adobe Dynamic Media Classic où obtenir des métadonnées pour le plan de site vidéo et/ou le flux mRSS.
 
 1. Dans le menu Vues des métadonnées, choisissez un affichage de métadonnées. Après avoir choisi un affichage, les noms des champs de métadonnées apparaissent dans le panneau Métadonnées.
 Voir [Vues des métadonnées](application-setup.md#metadata_views).

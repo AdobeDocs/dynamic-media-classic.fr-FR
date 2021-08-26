@@ -1,6 +1,6 @@
 ---
 title: Création d’une visionneuse d’images
-description: Découvrez comment créer une visionneuse d’images dans Dynamic Media Classic.
+description: Découvrez comment créer une visionneuse d’images dans Adobe Dynamic Media Classic.
 uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 63%
 
 ---
@@ -60,7 +60,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 **Pour modifier une visionneuse d’images:**
 
-1. En mode Grille, accédez à un visionneuse d’images, puis, sous l’image, sélectionnez **[!UICONTROL Modifier]**.
+1. En mode d’affichage Grille, accédez à une visionneuse d’images, puis, sous l’image, sélectionnez **[!UICONTROL Modifier]**.
 1. Utilisez l’une des méthodes suivantes :
 
    * Pour ajouter une image (publiée ou non publiée), faites-la glisser d’un dossier du panneau d’ajout de fichiers sur la page **[!UICONTROL des vues]** de la visionneuse d’images.

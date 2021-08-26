@@ -1,6 +1,6 @@
 ---
 title: Inclusion de cibles de zoom et de zones cliquables dans les séries d’échantillons
-description: Découvrez comment inclure des cibles de zoom et des zones cliquables dans les séries d’échantillons dans Dynamic Media Classic.
+description: Découvrez comment inclure des cibles de zoom et des zones cliquables dans les séries d’échantillons dans Adobe Dynamic Media Classic.
 uuid: e46ebebd-b086-450c-9812-22290a92db8c
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: f75f6d5b-d689-4640-838f-a32d77859f62
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 1eaffe17-1fa3-4726-b0a1-369fabb9ee7e
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 46%
+source-wordcount: '165'
+ht-degree: 32%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 46%
 
 Si vous définissez des cibles de zoom et des zones cliquables pour les images de votre série d’échantillons, elles apparaissent dans la visionneuse correspondante. Les utilisateurs peuvent, par exemple, sélectionner une zone cliquable dans la visionneuse de séries d’échantillons et ouvrir une nouvelle page de votre site web contenant des informations sur un élément. Les utilisateurs peuvent sélectionner une miniature cible dans la visionneuse de série d’échantillons et effectuer automatiquement un zoom sur une partie d’une image.
 
-Pour rendre accessibles aux utilisateurs les cibles de zoom et les zones cliquables, créez-les dans votre visionneuse de série d’échantillons. Pour cela, vous pouvez utiliser les outils Zones cliquables ou Cibles de zoom dans l’écran Visionneuse de série d’échantillons ou dans le panneau de navigation (en mode Affichage des détails).
+Pour rendre accessibles aux utilisateurs les cibles de zoom et les zones cliquables, créez-les dans votre visionneuse de série d’échantillons. Pour ce faire, utilisez les outils de zone cliquable ou de cible de zoom de l’écran de la série d’échantillons ou du panneau de navigation (en mode Affichage des détails).
 
 >[!MORELIKETHIS]
 >

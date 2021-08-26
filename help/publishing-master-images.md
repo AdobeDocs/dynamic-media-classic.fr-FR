@@ -7,23 +7,23 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
-feature: Dynamic Media Classic,Gestion des ressources
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '157'
 ht-degree: 22%
 
 ---
 
 # Publication des images originales{#publishing-master-images}
 
-Lorsque vous publiez vos fichiers image, ils sont publiés sur les serveurs d’images Dynamic Media, où ils sont disponibles pour votre site web et votre application. En outre, pendant le processus de publication, Dynamic Media Classic active les chaînes d’URL dont vous avez besoin pour votre site web et votre application.
+Lorsque vous publiez vos fichiers image, ils sont publiés sur les serveurs d’images Dynamic Media, où ils sont disponibles pour votre site web et votre application. En outre, pendant le processus de publication, Adobe Dynamic Media Classic active les chaînes d’URL dont vous avez besoin pour votre site web et votre application.
 
 ## Marquage des images originales pour publication {#marking-master-images-for-publish}
 
-Les images de Principal doivent être marquées pour publication afin d’être copiées vers les serveurs d’images Dynamic Media. Vous pouvez marquer vos images originales pour publication dans le panneau de navigation en cliquant sur l’icône **[!UICONTROL Marquer pour publication]**. Vous pouvez également marquer les images pour publication lorsque vous les chargez vers Dynamic Media Classic.
+Les images de Principal doivent être marquées pour publication afin d’être copiées vers les serveurs d’images Dynamic Media. Vous pouvez marquer vos images originales pour publication dans le panneau de navigation en cliquant sur l’icône **[!UICONTROL Marquer pour publication]**. Vous pouvez également marquer les images pour publication lorsque vous les chargez dans Adobe Dynamic Media Classic.
 
 ## Publication de vos images originales {#publishing-your-master-images}
 

@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
-feature: Dynamic Media Classic,Visionneuses
+feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 90216519-4b14-4f8b-8e72-3d7ce9ec89ff
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 82%
+source-wordcount: '173'
+ht-degree: 84%
 
 ---
 
@@ -26,7 +26,7 @@ Pour créer une série d’échantillons, vous devez utiliser des vignettes ou d
 * Une prise de vue en noir, en marron et en vert de la même veste
 * Une nuance noire, marron et verte
 
-Etant donné qu’il est possible d’effectuer un zoom sur les images des séries d’échantillons, vérifiez que la dimension la plus grande des images correspond au moins à 2 000 pixels. Dynamic Media Classic prend en charge de nombreux formats de fichier image, mais les formats sans perte TIFF, PNG et EPS sont recommandés.
+Etant donné qu’il est possible d’effectuer un zoom sur les images des séries d’échantillons, vérifiez que la dimension la plus grande des images correspond au moins à 2 000 pixels. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichier image, mais les formats sans perte TIFF, PNG et EPS sont recommandés.
 
 Pour des instructions détaillées sur le téléchargement des fichiers, voir [Téléchargement de fichiers](uploading-files.md#uploading_files).
 

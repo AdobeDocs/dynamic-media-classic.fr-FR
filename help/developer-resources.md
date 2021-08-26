@@ -9,33 +9,33 @@ discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 feature: Dynamic Media Classic,SDK/API
 role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 41%
+source-wordcount: '277'
+ht-degree: 40%
 
 ---
 
 # Ressources du développeur {#developer-resources}
 
-Dynamic Media Classic fournit de la documentation pour la dernière version majeure de chaque module logiciel Dynamic Media Classic. Les documents de module sont disponibles pour la création d’images, Dynamic Media Classic, le serveur d’images et le rendu d’images, ainsi que pour les visionneuses.
+Adobe Dynamic Media Classic fournit de la documentation pour la dernière version majeure de chaque module logiciel Dynamic Media Classic d’Adobe. Les documents de module sont disponibles pour la création d’images, Adobe Dynamic Media Classic, le serveur d’images et le rendu d’images, ainsi que pour les visionneuses.
 
 Des notes de mise à jour sont également disponibles pour certains modules. Les notes de mise à jour fournissent des détails sur la version, notamment les améliorations, les nouveautés, les conseils, les solutions de dépannage et autres problèmes répertoriés. Elles présentent également des exemples interactifs sur les fonctions de média enrichi et illustrent leur mode d’activation. Par ailleurs, les notes de mise à jour contiennent des instructions d’installation et de configuration pour les clients propriétaires d’un logiciel sous licence.
 
-Les guides de référence sur le serveur d’images et le rendu d’images, ainsi que les visionneuses, décrivent les protocoles http pour ces modules de serveur. Les développeurs de sites web qui souhaitent personnaliser davantage et utiliser des médias enrichis Dynamic Media Classic pour un site web ou une application personnalisée peuvent utiliser ces guides. Dynamic Media Classic suppose que l’utilisateur connaît l’appli de bureau, les normes et conventions générales du protocole http et la terminologie de base de l’imagerie.
+Les guides de référence sur le serveur d’images et le rendu d’images, ainsi que les visionneuses, décrivent les protocoles http pour ces modules de serveur. Les développeurs de sites web qui souhaitent personnaliser davantage et utiliser des médias enrichis Adobe Dynamic Media Classic pour un site web ou une application personnalisée peuvent utiliser ces guides. Adobe Dynamic Media Classic suppose que l’utilisateur connaît l’appli de bureau, les normes et conventions générales du protocole http et la terminologie de base de l’imagerie.
 
-## API Dynamic Media Classic
+## API Adobe Dynamic Media Classic
 
 | Document | Adresse Web |
 | --- | --- |
-| Guide de référence des API | Contactez l’assistance technique de Dynamic Media Classic pour obtenir de la documentation. |
+| Guide de référence des API | Contactez l’assistance technique d’Adobe Dynamic Media Classic pour obtenir de la documentation. |
 
 ## Image Authoring
 
 | Document | Adresse Web |
 | --- | --- |
-| Guide de l’utilisateur | Contactez l’assistance technique de Dynamic Media Classic pour consulter cette documentation. |
-| Notes de mise à jour | Contactez l’assistance technique de Dynamic Media Classic pour consulter cette documentation. |
+| Guide de l’utilisateur | Contactez l’assistance technique d’Adobe Dynamic Media Classic pour consulter cette documentation. |
+| Notes de mise à jour | Contactez l’assistance technique d’Adobe Dynamic Media Classic pour consulter cette documentation. |
 
 ##  Image Serving et Image Rendering
 

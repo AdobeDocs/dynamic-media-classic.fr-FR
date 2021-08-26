@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
-feature: Dynamic Media Classic,Visionneuses,Visionneuses à 360°,Paramètres prédéfinis de la visionneuse
+feature: Dynamic Media Classic,Viewers,Spin Sets,Viewer Presets
 role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 31%
+source-wordcount: '233'
+ht-degree: 32%
 
 ---
 
 # Configuration des paramètres prédéfinis de la visionneuse à 360°{#setting-up-spin-set-viewer-presets}
 
-Les paramètres prédéfinis de la visionneuse à 360° définissent le style, le comportement et l’aspect des visionneuses. Dynamic Media Classic est fourni avec les paramètres prédéfinis de visionneuse à 360° par défaut. Si vous êtes un administrateur, vous pouvez créer vos propres paramètres prédéfinis de visionneuse à 360°. Vous pouvez configurer un paramètre prédéfini de visionneuse à 360° avec des couleurs, des bordures, des polices et des paramètres d’image différents.
+Les paramètres prédéfinis de la visionneuse à 360° définissent le style, le comportement et l’aspect des visionneuses. Adobe Dynamic Media Classic est fourni avec les paramètres prédéfinis de visionneuse à 360° par défaut. Si vous êtes un administrateur, vous pouvez créer vos propres paramètres prédéfinis de visionneuse à 360°. Vous pouvez configurer un paramètre prédéfini de visionneuse à 360° avec des couleurs, des bordures, des polices et des paramètres d’image différents.
 
 **Pour créer un paramètre prédéfini de visionneuse à 360° :**
 

@@ -1,18 +1,18 @@
 ---
 title: Ajout de marqueurs de chapitre à la vidéo
-description: Découvrez comment ajouter des marqueurs de chapitre à une vidéo dans Dynamic Media Classic.
+description: Découvrez comment ajouter des marqueurs de chapitre à une vidéo dans Adobe Dynamic Media Classic.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
-feature: Dynamic Media Classic,Visionneuses,Vidéo
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 37%
 
 ---
@@ -57,7 +57,7 @@ Voir [WebVTT : Le Texte De La Vidéo Web Effectue Le Suivi Du Format](https://w3
 
 **Pour ajouter des marques de chapitre à la vidéo:**
 
-1. À l’aide d’un éditeur de texte simple en dehors de Dynamic Media Classic, créez votre fichier de chapitres vidéo.
+1. À l’aide d’un éditeur de texte simple en dehors d’Adobe Dynamic Media Classic, créez votre fichier de chapitres vidéo.
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ Voir [WebVTT : Le Texte De La Vidéo Web Effectue Le Suivi Du Format](https://w3
 
    En règle générale, vous attribuez au fichier de chapitres VTT le même nom que le fichier vidéo et lui ajoutez `chapters`. En procédant ainsi, vous pouvez automatiser aisément la génération des URL de vidéo en utilisant le système de gestion de contenu Web existant.
 
-1. Dans Dynamic Media Classic, téléchargez votre fichier de chapitres WebVTT.
+1. Dans Adobe Dynamic Media Classic, téléchargez votre fichier de chapitres WebVTT.
 
    Voir [Chargement de fichiers](uploading-files.md#uploading_files).
 

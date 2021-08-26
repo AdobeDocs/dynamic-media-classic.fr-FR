@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: c04c1331-8d94-449b-9693-1488c94084dc
-feature: Dynamic Media Classic,Gestion des ressources
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 42%
+source-wordcount: '210'
+ht-degree: 43%
 
 ---
 
 # Utilisation de fichiers PostScript et Illustrator{#working-with-postscript-and-illustrator-files}
 
-Vous pouvez utiliser des fichiers Adobe PostScript® (EPS) et Adobe® Illustrator® (AI) dans Dynamic Media Classic. Dynamic Media Classic propose des commandes pour configurer ces fichiers au fur et à mesure de leur chargement.
+Vous pouvez utiliser des fichiers Adobe PostScript® (EPS) et Adobe® Illustrator® (AI) dans Adobe Dynamic Media Classic. Adobe Dynamic Media Classic propose des commandes pour configurer ces fichiers au fur et à mesure de leur chargement.
 
 Lorsque vous téléchargez des fichiers d’image PostScript (EPS) ou Illustrator (AI), vous pouvez les formater différemment. Vous pouvez pixelliser les fichiers, les convertir au format FXG pour le module de publication à l’aide de modèles prédéfinis, conserver l’arrière-plan transparent, choisir une résolution et sélectionner un espace colorimétrique. Les options de formatage des fichiers PostScript et Illustrator sont disponibles dans les sections Options PostScript et Options Illustrator de la boîte de dialogue Télécharger les options de la tâche. 
 

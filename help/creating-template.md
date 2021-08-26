@@ -1,6 +1,6 @@
 ---
 title: Création d’un modèle
-description: Découvrez comment créer un modèle dans Dynamic Media Classic.
+description: Découvrez comment créer un modèle dans Adobe Dynamic Media Classic.
 uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3405'
 ht-degree: 45%
 
 ---
@@ -23,7 +23,7 @@ Pour créer un modèle, accédez à **[!UICONTROL Build]** > **[!UICONTROL Templ
 
 >[!NOTE]
 >
->Si vous modifiez un modèle créé dans une version antérieure de Dynamic Media Classic, une invite vous demande lors de l’enregistrement &quot;Voulez-vous ajouter un calque de zone de travail ?&quot;. Sélectionnez **[!UICONTROL Non]** pour éviter d’ajouter un calque de base. Si vous sélectionnez accidentellement **[!UICONTROL Oui]**, supprimez les modificateurs `&allowCanvasPrompt` et `&layer=0` dans l’URL et appuyez sur **[!UICONTROL Entrée]** ou **[!UICONTROL Retour]**.
+>Si vous modifiez un modèle créé dans une version antérieure d’Adobe Dynamic Media Classic, une invite vous demande lors de l’enregistrement &quot;Voulez-vous ajouter un calque de zone de travail ?&quot;. Sélectionnez **[!UICONTROL Non]** pour éviter d’ajouter un calque de base. Si vous sélectionnez accidentellement **[!UICONTROL Oui]**, supprimez les modificateurs `&allowCanvasPrompt` et `&layer=0` dans l’URL et appuyez sur **[!UICONTROL Entrée]** ou **[!UICONTROL Retour]**.
 
 ## Créer le modèle initial {#creating-the-initial-template}
 
@@ -52,7 +52,7 @@ Vous pouvez créer un modèle à partir d’un modèle existant. Ouvrez le modè
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 1. Sélectionnez un dossier pour le stockage de votre modèle, saisissez un nom pour le modèle, puis sélectionnez **[!UICONTROL Envoyer]**.
 
-   Dynamic Media Classic réduit les images si nécessaire pour les adapter à la zone de travail, à la zone de l’écran Modèle permettant de définir votre modèle.
+   Adobe Dynamic Media Classic réduit les images si nécessaire pour les adapter à la zone de travail, c’est-à-dire la zone de l’écran Modèle pour définir votre modèle.
 
 ## Modifier un jeu de modèles {#editing-a-template-set}
 
@@ -69,7 +69,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 **Pour modifier un jeu de modèles :**
 
-1. En mode Grille, accédez à un jeu de modèles, puis, sous l’image, sélectionnez **[!UICONTROL Modifier]**.
+1. En mode d’affichage Grille, accédez à un jeu de modèles, puis, sous l’image, sélectionnez **[!UICONTROL Modifier]**.
 1. Modifiez le modèle selon vos besoins.
 1. Une fois les modifications terminées, près de l’angle inférieur droit de la page, vérifiez que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
 1. Sélectionnez **[!UICONTROL Enregistrer]**, sélectionnez un dossier de stockage, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
@@ -103,7 +103,7 @@ Utilisez ces outils dans l’écran Modèle pour créer des modèles :
 
    >[!NOTE]
    >
-   >La suppression de l’éditeur de texte v4.2 est prévue comme option dans Dynamic Media Classic. Il est donc recommandé d’utiliser l’éditeur de texte 4.3 dans la mesure du possible. L’option **[!UICONTROL Retour à la ligne des mots]** sera intégrée dans une prochaine version de l’éditeur de texte.
+   >La suppression de l’éditeur de texte v4.2 est prévue comme option dans Adobe Dynamic Media Classic. Il est donc recommandé d’utiliser l’éditeur de texte 4.3 dans la mesure du possible. L’option **[!UICONTROL Retour à la ligne des mots]** sera intégrée dans une prochaine version de l’éditeur de texte.
 
 * **[!UICONTROL Designer et développeur]**  : sélectionnez l’option qui décrit le mieux votre rôle.
 
@@ -121,7 +121,7 @@ Utilisez ces outils dans l’écran Modèle pour créer des modèles :
 
    >[!NOTE]
    >
-   >Si nécessaire, Dynamic Media Classic réduit les images pour les ajuster à la zone de travail lors de la création d’un calque d’image.
+   >Si nécessaire, Adobe Dynamic Media Classic réduit les images pour les ajuster à la zone de travail lors de la création d’un calque d’image.
 
 ## Création d’un calque de texte {#creating-a-text-layer}
 
@@ -142,7 +142,7 @@ Pour mettre en forme le texte dans un calque de texte, procédez comme suit :
 1. Dans la zone de texte de l’éditeur de texte, sélectionnez le texte à mettre en forme. Vous pouvez sélectionner tout le texte, des parties du texte ou des caractères individuels.
 1. Spécifiez l’une des options de formatage suivantes, puis sélectionnez **[!UICONTROL Appliquer]**.
 
-   * **[!UICONTROL Police]**  : sélectionnez une police dans le menu Police. Si une police souhaitée n’apparaît pas dans le menu, vous pouvez la charger dans Dynamic Media Classic. (voir Polices).
+   * **[!UICONTROL Police]**  : sélectionnez une police dans le menu Police. Si une police souhaitée n’apparaît pas dans le menu, vous pouvez la charger dans Adobe Dynamic Media Classic. (voir Polices).
 
    * **[!UICONTROL Taille de police]**  : choisissez une taille de police dans le menu, saisissez une taille spécifique dans la zone ou sélectionnez  **** Déplacer les  **** lignes de bas pour augmenter ou réduire la taille de deux points.
 
@@ -244,7 +244,7 @@ Les calques doivent être suffisamment petits pour tenir dans la zone de travail
 
 >[!NOTE]
 >
->Dynamic Media Classic recommande de créer un paramètre d’image prédéfini de la taille exacte de votre modèle. Travailler avec un paramètre d’image prédéfini et un modèle de taille identique permet de définir correctement la taille de sortie finale et les options d’accentuation du modèle. Une fois que vous avez créé ce paramètre d’image prédéfini, vous pouvez le sélectionner dans le menu Appliquer le paramètre prédéfini de l’écran Prévisualisation du modèle. L’écran montre l’image telle qu’elle sera diffusée depuis le serveur Voir [Configuration des paramètres d’image prédéfinis](setting-image-presets.md#setting_up_image_presets).
+>Adobe Dynamic Media Classic recommande de créer un paramètre d’image prédéfini de la taille exacte de votre modèle. Travailler avec un paramètre d’image prédéfini et un modèle de taille identique permet de définir correctement la taille de sortie finale et les options d’accentuation du modèle. Une fois que vous avez créé ce paramètre d’image prédéfini, vous pouvez le sélectionner dans le menu Appliquer le paramètre prédéfini de l’écran Prévisualisation du modèle. L’écran montre l’image telle qu’elle sera diffusée depuis le serveur Voir [Configuration des paramètres d’image prédéfinis](setting-image-presets.md#setting_up_image_presets).
 
 * **Modification de la taille d’un calque**  : pour modifier la taille d’un calque ou de la zone de travail, sélectionnez le calque ou la zone de travail dans la liste Calques et utilisez l’une des techniques suivantes :
 
@@ -288,7 +288,7 @@ Pour choisir une couleur d’arrière-plan, une opacité et un mode de fusion po
 
 ## Utiliser des effets d’ombre et d’éclat sur les calques {#using-shadow-and-glow-effects-on-layers}
 
-Vous pouvez appliquer une ombre ou un éclat à un calque. L’ombre ou l’éclat est appliqué au périmètre du calque et s’étend vers l’intérieur ou l’extérieur, en fonction de l’option sélectionnée. Si votre modèle provient d’un fichier PSD avec des effets d’ombre et de lueur, vous pouvez ajuster ces effets dans Dynamic Media Classic.
+Vous pouvez appliquer une ombre ou un éclat à un calque. L’ombre ou l’éclat est appliqué au périmètre du calque et s’étend vers l’intérieur ou l’extérieur, en fonction de l’option sélectionnée. Si votre modèle provient d’un fichier PSD avec des effets d’ombre et de lueur, vous pouvez ajuster ces effets dans Adobe Dynamic Media Classic.
 
 Une fois que vous avez appliqué un effet d’ombre ou d’éclat, vous pouvez régler sa taille, sa couleur, son opacité et sa position dans la zone Propriétés calque de l’écran Modèle.
 

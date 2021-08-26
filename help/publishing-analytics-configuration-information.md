@@ -10,20 +10,20 @@ discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '147'
 ht-degree: 37%
 
 ---
 
 # Publication des informations de configuration d’Adobe Analytics{#publishing-adobe-analytics-configuration-information}
 
-Publiez vos visionneuses Dynamic Media Classic afin que les informations sur la configuration des rapports Adobe Analytics soient envoyées aux serveurs Dynamic Media Classic. Ces informations sont incorporées aux visionneuses. La publication est nécessaire pour que les informations contenues dans les visionneuses soient disponibles sur les serveurs Dynamic Media Classic. C’est à partir de là qu’elles peuvent être transmises à Adobe Analytics lorsque des utilisateurs effectuent une action au niveau des visionneuses.
+Publiez vos visionneuses Dynamic Media Classic Adobe afin que les informations sur la configuration des rapports Adobe Analytics soient envoyées aux serveurs Dynamic Media Classic Adobe. Ces informations sont incorporées aux visionneuses. La publication est nécessaire afin que les informations contenues dans les visionneuses soient disponibles sur les serveurs Dynamic Media Classic Adobe. C’est à partir de là qu’elles peuvent être transmises à Adobe Analytics lorsque des utilisateurs effectuent une action au niveau des visionneuses.
 
 >[!NOTE]
 >
->Chaque fois que vous modifiez les paramètres du rapport Adobe Analytics dans Adobe Analytics, veillez à vous reconnecter à Adobe Analytics depuis Dynamic Media Classic, à réenregistrer vos paramètres de configuration Adobe Analytics, puis à le republier.
+>Chaque fois que vous modifiez les paramètres du rapport Adobe Analytics dans Adobe Analytics, assurez-vous de vous reconnecter à Adobe Analytics depuis Adobe Dynamic Media Classic, de réenregistrer vos paramètres de configuration Adobe Analytics, puis de republier.
 
 Voir [Connexion à Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 

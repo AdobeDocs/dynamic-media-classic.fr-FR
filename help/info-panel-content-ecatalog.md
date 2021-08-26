@@ -1,6 +1,6 @@
 ---
 title: Gestion du contenu du panneau Informations dans les catalogues électroniques
-description: Découvrez comment gérer le contenu du panneau d’informations dans les catalogues électroniques de Dynamic Media Classic.
+description: Découvrez comment gérer le contenu du panneau d’informations dans les catalogues électroniques dans Adobe Dynamic Media Classic.
 uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '866'
 ht-degree: 59%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 59%
 
 Outre l’utilisation de texte de zone cliquable pour vos survols dans les catalogues électroniques, vous pouvez utiliser un panneau d’informations pour ajouter de plus grandes quantités de texte de survol, y compris des liens. Vous pouvez également gérer le panneau d’informations en utilisant la mise en cache temporisée et en planifiant des mises à jour du contenu.
 
-Vous pouvez gérer la configuration et les données du panneau d’informations à l’aide des fonctionnalités suivantes de Dynamic Media Classic :
+Vous pouvez gérer la configuration et les données de votre panneau d’informations à l’aide des fonctionnalités suivantes d’Adobe Dynamic Media Classic :
 
 * Le panneau Configuration du panneau d’informations vous permet de définir le modèle utilisé pour afficher le texte du panneau, une réponse par défaut aux erreurs, ainsi que la période de mise en cache (en heures) des informations. Par ailleurs, vous pouvez préciser si les catalogues électroniques sont automatiquement publiés.
 * Le panneau Source de données du panneau d’informations vous permet de spécifier un fichier CSV contenant le texte que vous souhaitez afficher dans le texte de survol du panneau d’informations, ainsi que de planifier les heures de mise à jour des informations.
@@ -45,7 +45,7 @@ Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pou
    * Sélectionnez un paramètre prédéfini dans le menu Modèle de réponse. Le code XML de la conception du modèle s’affiche dans le champ Modèle utilisateur.
    * Pour créer votre propre modèle de réponse, sélectionnez **[!UICONTROL Personnalisé]**. Entrez la définition XML du modèle dans le champ Modèle utilisateur. Vous pouvez vous inspirer des modèles prédéfinis pour créer le vôtre. 
 
-1. (Facultatif) Dans la zone Réponse par défaut, saisissez le texte que vous souhaitez afficher si Dynamic Media Classic rencontre une erreur lors de la récupération des informations pour une zone cliquable. Par exemple, si le système reçoit un nom d’entreprise et un nom de catalogue électronique, mais pas d’identificateur de survol, ce message est affiché à l’intention de l’utilisateur.
+1. (Facultatif) Dans la zone Réponse par défaut, saisissez le texte que vous souhaitez afficher si Adobe Dynamic Media Classic rencontre une erreur lors de la récupération des informations pour une zone cliquable. Par exemple, si le système reçoit un nom d’entreprise et un nom de catalogue électronique, mais pas d’identificateur de survol, ce message est affiché à l’intention de l’utilisateur.
 1. Dans le champ Réponse TTL, entrez le nombre d’heures d’attente avant la mise en cache des données :
 
    * Optez pour une valeur faible si de nombreuses mises à jour des données sont effectuées quotidiennement.
@@ -89,7 +89,7 @@ Last Modified Date:
 1. Sélectionnez **[!UICONTROL Parcourir]**, sélectionnez le fichier TXT délimité par des tabulations, le fichier CSV ou le fichier SSV que vous souhaitez utiliser, puis sélectionnez **[!UICONTROL Ouvrir]**.
 1. Sélectionnez **[!UICONTROL Télécharger]**.
 
-Dynamic Media Classic vous envoie un message électronique vous informant de la réussite ou de l’échec du transfert.
+Adobe Dynamic Media Classic vous envoie un e-mail vous indiquant si le transfert a réussi ou non.
 
 ## Prévisualisation du texte de survol pour une zone cliquable {#preview-rollover-key-text-for-an-image-map}
 

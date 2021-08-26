@@ -7,29 +7,29 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
-feature: Dynamic Media Classic,Gestion des ressources,Métadonnées
+feature: Dynamic Media Classic,Asset Management,Metadata
 role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2254'
-ht-degree: 48%
+source-wordcount: '2268'
+ht-degree: 47%
 
 ---
 
 # Affichage, ajout et exportation de métadonnées{#viewing-adding-and-exporting-metadata}
 
-Vous pouvez stocker des informations spécifiques aux fichiers que vous utilisez dans Dynamic Media Classic ; ces informations sont appelées *metadata*. Vous pouvez utiliser des métadonnées dans Dynamic Media Classic pour organiser, rechercher, filtrer et trier vos ressources.
+Vous pouvez stocker des informations spécifiques aux fichiers que vous utilisez dans Adobe Dynamic Media Classic ; ces informations sont appelées *metadata*. Vous pouvez utiliser des métadonnées dans Adobe Dynamic Media Classic pour organiser, rechercher, filtrer et trier vos ressources.
 
-Les métadonnées s’affichent dans la vue Détails avec les informations générées par Dynamic Media Classic, telles que la date de création du fichier, la date de publication et les mots-clés. Pour afficher les métadonnées, ouvrez la ressource en mode Détails, puis sélectionnez le panneau Métadonnées. Ensuite, saisissez ou modifier les métadonnées.
+Les métadonnées s’affichent dans la vue Détails avec les informations générées par Adobe Dynamic Media Classic, telles que la date de création du fichier, la date de publication et les mots-clés. Pour afficher les métadonnées, ouvrez la ressource en mode Affichage des détails, puis sélectionnez le panneau Métadonnées. Vous pouvez saisir et modifier des métadonnées en mode Affichage des détails.
 
-Certaines métadonnées sont intégrées directement dans un fichier. Si un fichier contient ces métadonnées, Dynamic Media Classic les télécharge automatiquement avec le fichier . Vous pouvez incorporer des métadonnées dans des ressources source dans Adobe Photoshop, InDesign, Illustrator et d’autres applications. Dynamic Media Classic reconnaît ces métadonnées. Vous pouvez aussi ajouter des métadonnées à des fichiers individuels dans le panneau Métadonnées en mode Affichage des détails. Pour assurer la cohérence entre fichiers, les administrateurs créent des modèles de métadonnées qui fournissent les champs de métadonnées à remplir.
+Certaines métadonnées sont intégrées directement dans un fichier. Si un fichier contient ces métadonnées, Adobe Dynamic Media Classic les télécharge automatiquement avec le fichier . Vous pouvez incorporer des métadonnées dans des ressources source dans Adobe Photoshop, InDesign, Illustrator et d’autres applications. Adobe Dynamic Media Classic reconnaît ces métadonnées. Vous pouvez également ajouter des métadonnées à des fichiers individuels dans le panneau Métadonnées en mode Affichage des détails. Pour assurer la cohérence entre fichiers, les administrateurs créent des modèles de métadonnées qui fournissent les champs de métadonnées à remplir.
 
 Pour plus d’informations sur les métadonnées incorporées, voir [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
 ## Affichage des métadonnées {#view-metadata}
 
-Pour afficher les métadonnées d’une ressource, ouvrez-la dans la vue Détails, puis appuyez sur le panneau Métadonnées. Pour sélectionner un ensemble de champs de métadonnées, choisissez une option dans le menu Affichage des métadonnées . Dynamic Media Classic offre les vues de métadonnées suivantes :
+Pour afficher les métadonnées d’une ressource, ouvrez-la dans l’affichage des détails, puis appuyez sur le panneau Métadonnées. Pour sélectionner un ensemble de champs de métadonnées, choisissez une option dans le menu Affichage des métadonnées . Adobe Dynamic Media Classic offre les vues de métadonnées suivantes :
 
 * **Affichage réduit**  : liste de valeurs de base.
 
@@ -43,7 +43,7 @@ Voir [Vues des métadonnées](application-setup.md#metadata_views) pour plus d�
 
 ## Saisie manuelle de métadonnées pour un fichier {#manually-enter-metadata-for-an-asset}
 
-1. Ouvrez le fichier en mode Affichage des détails.
+1. Ouvrez la ressource dans la vue Détails.
 1. Ouvrez le panneau Métadonnées et effectuez une ou les deux opérations suivantes :
 
    * Choisissez une vue de métadonnées pour déterminer les champs de métadonnées qui apparaissent dans le panneau.
@@ -72,7 +72,7 @@ Si vous avez ajouté des mots-clés à d’autres fichiers au cours de cette ses
 
 >[!NOTE]
 >
->Vous pouvez ajouter des mots-clés aux fichiers lors de leur chargement dans Dynamic Media Classic. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Métadonnées supplémentaires]** et saisissez des mots-clés.
+>Vous pouvez ajouter des mots-clés aux fichiers lors de leur chargement dans Adobe Dynamic Media Classic. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Métadonnées supplémentaires]** et saisissez des mots-clés.
 >Voir [Options de téléchargement](uploading-files.md#upload_options).
 
 ## Importation de métadonnées {#import-metadata}
@@ -81,7 +81,7 @@ Au lieu de saisir manuellement les métadonnées fichier par fichier, vous pouve
 
 >[!NOTE]
 >
->Vous pouvez créer un modèle pour saisir des métadonnées afin qu’elles puissent être correctement importées dans Dynamic Media Classic. Une fois le modèle défini, vous pouvez y entrer les métadonnées 
+>Vous pouvez créer un modèle pour saisir des métadonnées afin qu’elles puissent être correctement importées dans Adobe Dynamic Media Classic. Une fois le modèle défini, vous pouvez y entrer les métadonnées 
 >(voir [Création d’un modèle de saisie des métadonnées à télécharger](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)).
 
 Vous trouverez plus d’informations sur les propriétés normalisées à l’adresse [Adobe XMP Centre de développement](https://www.adobe.com/devnet/xmp.html).
@@ -135,9 +135,9 @@ Sur la barre de navigation globale, cliquez sur **[!UICONTROL Télécharger]**. 
 
 ## Attribution d’un nouveau nom aux ID par lots à l’aide de métadonnées {#batch-rename-ids-using-metadata}
 
-Les métadonnées importées depuis un fichier délimité par des tabulations ou un fichier XML vous permettent de renommer les Dynamic Media Classic ID. Les métadonnées importées sont appliquées uniquement aux images spécifiées dans le fichier de métadonnées. Peu importe que les images soient sélectionnées dans le panneau de navigation.
+À l’aide de métadonnées importées à partir d’un fichier délimité par des tabulations ou d’un fichier XML, vous pouvez renommer les Dynamic Media Classic ID Adobe. Les métadonnées importées sont appliquées uniquement aux images spécifiées dans le fichier de métadonnées. Peu importe que les images soient sélectionnées dans le panneau de navigation.
 
-Pour renommer l’identifiant Dynamic Media Classic d’une image, ajoutez une colonne intitulée *newipsid* au fichier délimité par des tabulations ou ajoutez un champ appelé `new_vc_objectname` aux données XML.
+Pour renommer l’identifiant Dynamic Media Classic Adobe d’une image, ajoutez une colonne intitulée *newipsid* au fichier délimité par des tabulations ou ajoutez un champ appelé `new_vc_objectname` aux données XML.
 
 Par exemple :
 
@@ -150,7 +150,7 @@ Le journal des tâches de la tâche Métadonnées indique quels ID ont été ren
 
 ## Création d’un modèle de saisie des métadonnées à télécharger {#create-a-template-for-entering-metadata-to-upload}
 
-Dynamic Media Classic propose une commande pour créer un modèle d’enregistrement des métadonnées. L’utilisation du modèle permet de s’assurer que les métadonnées sont entrées dans le bon format afin qu’elles puissent être correctement chargées dans Dynamic Media Classic. Pour créer un modèle à utiliser dans l’enregistrement et l’importation de métadonnées dans Dynamic Media Classic, procédez comme suit :
+Adobe Dynamic Media Classic propose une commande pour créer un modèle d’enregistrement des métadonnées. L’utilisation du modèle permet de s’assurer que les métadonnées sont entrées dans le bon format afin qu’elles puissent être chargées correctement dans Adobe Dynamic Media Classic. Pour créer un modèle à utiliser dans l’enregistrement et l’importation de métadonnées dans Adobe Dynamic Media Classic, procédez comme suit :
 
 1. Sélectionnez les fichiers d’image comportant les champs de métadonnées à insérer dans le modèle.
 1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Importer les métadonnées]**.
@@ -181,15 +181,15 @@ Le système génère automatiquement un schéma personnalisé pour les champs d�
 
 >[!NOTE]
 >
->les modifications apportées au schéma ne modifient jamais les métadonnées de l’élément lui-même. Toutefois, elles ne sont pas visibles pour toutes les fonctionnalités de Dynamic Media Classic et du serveur de métadonnées et ne sont pas accessibles après avoir été modifiées. De même, s’il existe des métadonnées pour une ressource, la création du schéma correspondant rend les métadonnées utilisables dans Dynamic Media Classic et le serveur de métadonnées.
+>les modifications apportées au schéma ne modifient jamais les métadonnées de l’élément lui-même. Toutefois, elles ne sont pas visibles pour toutes les fonctionnalités Adobe Dynamic Media Classic et Serveur de métadonnées et ne sont pas accessibles après avoir été modifiées. De même, s’il existe des métadonnées pour une ressource, la création du schéma correspondant rend les métadonnées utilisables dans Adobe Dynamic Media Classic et le serveur de métadonnées.
 
-L’éditeur de schéma de métadonnées offre un moyen graphique d’ajouter ou de modifier un schéma d’entreprise personnalisé dans Dynamic Media Classic. Un schéma est défini par un préfixe, un espace de noms et une liste de propriétés.
+L’éditeur de schéma de métadonnées offre un moyen graphique d’ajouter ou de modifier un schéma d’entreprise personnalisé dans Adobe Dynamic Media Classic. Un schéma est défini par un préfixe, un espace de noms et une liste de propriétés.
 
 * **Nom**  - Nom d’interface utilisateur du schéma. Utilisé pour identifier les propriétés dans les Vues des métadonnées et dans la Recherche avancée. Similaire aux sections XMP telles que Basic, IPTC, PDF.
 
-* **Préfixe**  : identifiant unique technique du schéma. Limité aux lettres a-z et A-Z. Le préfixe n’est pas visible dans l’interface utilisateur de Dynamic Media Classic, mais il est utilisé lorsque les métadonnées d’une ressource sont stockées dans le bloc XMP et dans la base de données. Le préfixe est utilisé pour identifier de manière unique les champs de métadonnées dans les recherches de métadonnées sur le serveur de métadonnées ou lors de l’importation.
+* **Préfixe**  : identifiant unique technique du schéma. Limité aux lettres a-z et A-Z. Le préfixe n’est pas visible dans l’interface utilisateur d’Adobe Dynamic Media Classic, mais il est utilisé lorsque les métadonnées d’une ressource sont stockées dans le bloc XMP et dans la base de données. Le préfixe est utilisé pour identifier de manière unique les champs de métadonnées dans les recherches de métadonnées sur le serveur de métadonnées ou lors de l’importation.
 
-* **Espace de noms**  : identifiant unique technique du schéma, généralement une URL dans le formulaire  `https://your.company.com/name/version/`. Consultez la liste des schémas standard pour obtenir des exemples. L’espace de noms n’est pas visible dans l’interface utilisateur de Dynamic Media Classic, mais est utilisé pour stocker les métadonnées dans le bloc XMP.
+* **Espace de noms**  : identifiant unique technique du schéma, généralement une URL dans le formulaire  `https://your.company.com/name/version/`. Consultez la liste des schémas standard pour obtenir des exemples. L’espace de noms n’est pas visible dans l’interface utilisateur d’Adobe Dynamic Media Classic, mais est utilisé pour stocker les métadonnées dans le bloc XMP.
 
 * **Description**  : description libre du schéma.
 
@@ -201,7 +201,7 @@ Les propriétés décrivent les métadonnées pouvant être stockées avec ce sc
 
 | Propriété | Description |
 |--- |--- |
-| ID | Identificateur technique pour cette propriété. L’ID n’est pas visible dans l’interface utilisateur de Dynamic Media Classic, mais il est utilisé lorsque les métadonnées d’une ressource sont stockées dans le bloc XMP et dans la base de données. L’ID est utilisé pour créer des requêtes de recherche sur le Serveur de métadonnées. L’ID est soumis à certaines restrictions telles que : <ul><li>Aucun espace</li><li>Pas de &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>Pas de nombre en premier caractère</li><li>Il est conseillé d’utiliser une lettre a-z ou A-Z comme premier caractère</li></ul> <br>Une fois créé, l’ID ne peut pas être modifié. |
+| ID | Identificateur technique pour cette propriété. L’ID n’est pas visible dans l’interface utilisateur d’Adobe Dynamic Media Classic, mais il est utilisé lorsque les métadonnées d’une ressource sont stockées dans le bloc XMP et dans la base de données. L’ID est utilisé pour créer des requêtes de recherche sur le Serveur de métadonnées. L’ID est soumis à certaines restrictions telles que : <ul><li>Aucun espace</li><li>Pas de &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>Pas de nombre en premier caractère</li><li>Il est conseillé d’utiliser une lettre a-z ou A-Z comme premier caractère</li></ul> <br>Une fois créé, l’ID ne peut pas être modifié. |
 | Etiquette | Nom d’IU pour cette propriété. |
 | Structure | Détermine le type de la propriété ainsi que le type de données. La structure peut avoir l’une des valeurs suivantes :<ul><li>Type simple : valeur unique de type de données</li><li>Séquence : une liste de valeurs du même type de données</li><li>Choix ouvert : sélectionnez un élément à partir d’une liste de valeurs prédéfinies, ou saisissez du texte libre. Peut uniquement être de type Chaîne ou Entier</li><li>Choix fermé : sélectionnez un élément dans une liste de valeurs prédéfinies (une fenêtre contextuelle ou une zone combinée)</li></ul> |
 | Type de données | Sélectionnez parmi ces types disponibles : <ul><li>Chaîne</li><li>Entier</li><li>Flottante</li><li>Oui/Non (valeur booléenne)</li><li>Date</li></ul> |
@@ -210,11 +210,11 @@ Lorsque la propriété présente la structure Choix ouvert ou Choix fermé, vous
 
 | Propriété | Description |
 |--- |--- |
-| ID | Identificateur technique pour cette valeur. L’ID n’est pas visible dans l’interface utilisateur de Dynamic Media Classic, mais il est utilisé lorsque les métadonnées d’une ressource sont stockées dans le bloc XMP et dans la base de données. L’ID est utilisé dans les requêtes de recherche sur le Serveur de métadonnées. L’ID ne doit pas contenir d’espace. Une fois créé, l’ID ne peut pas être modifié. |
+| ID | Identificateur technique pour cette valeur. L’ID n’est pas visible dans l’interface utilisateur d’Adobe Dynamic Media Classic, mais il est utilisé lorsque les métadonnées d’une ressource sont stockées dans le bloc XMP et dans la base de données. L’ID est utilisé dans les requêtes de recherche sur le Serveur de métadonnées. L’ID ne doit pas contenir d’espace. Une fois créé, l’ID ne peut pas être modifié. |
 | Etiquette | Nom d’IU pour cette valeur. |
 
 >[!MORELIKETHIS]
 >
 >* [Paramètres prédéfinis de la visionneuse](application-setup.md#viewer_presets)
-* [Paramètres prédéfinis des métadonnées](application-setup.md#metadata_presets)
+>* [Paramètres prédéfinis des métadonnées](application-setup.md#metadata_presets)
 

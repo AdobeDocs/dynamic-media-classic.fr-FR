@@ -1,6 +1,6 @@
 ---
 title: Travail en mode Détails
-description: Découvrez comment travailler en mode Affichage des détails dans Dynamic Media Classic.
+description: Découvrez comment travailler en mode Détails dans Adobe Dynamic Media Classic.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '615'
 ht-degree: 25%
 
 ---
@@ -44,7 +44,7 @@ Pour examiner de plus près, prévisualiser ou travailler sur une ressource, vou
 
 1. Dans le panneau de navigation, effectuez l’une des opérations suivantes :
 
-   * Sélectionnez le fichier. Près du coin supérieur droit de Dynamic Media Classic, sélectionnez l’icône **[!UICONTROL Affichage des détails]** .
+   * Sélectionnez le fichier. Près du coin supérieur droit de Dynamic Media Classic Adobe, sélectionnez l’icône **[!UICONTROL Affichage des détails]** .
    * Cliquez deux fois sur le fichier.
    * Sélectionnez la ressource, puis accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Détails]**.
 
@@ -54,7 +54,7 @@ Pour examiner de plus près, prévisualiser ou travailler sur une ressource, vou
 
 ## Obtention d’informations dans la vue Détails {#getting-information-in-detail-view}
 
-L’affichage des détails fournit des informations sur une ressource ou un fichier. Elle affiche les informations suivantes sur un élément : le dossier dans lequel il est stocké, son nom de fichier, la date à laquelle l’élément a été chargé dans Dynamic Media Classic et son historique de publication. Vous pouvez également afficher et modifier des métadonnées et ajouter des mots-clés pour une ressource dans le mode Affichage des détails.
+L’affichage des détails fournit des informations sur une ressource ou un fichier. Elle affiche les informations suivantes sur un élément : le dossier dans lequel il est stocké, son nom de fichier, la date à laquelle l’élément a été chargé dans Adobe Dynamic Media Classic et son historique de publication. Vous pouvez également afficher et modifier des métadonnées et ajouter des mots-clés pour une ressource dans le mode Affichage des détails.
 
 Vous pouvez obtenir une URL de ressource en mode Affichage des détails ; toutefois, l’URL n’est pas principale tant que vous n’avez pas publié la ressource. Pour les images, la vue Détails fournit également une liste de ressources et de métadonnées de création et dérivées, telles que les cibles de zoom et les visionneuses d’images.
 

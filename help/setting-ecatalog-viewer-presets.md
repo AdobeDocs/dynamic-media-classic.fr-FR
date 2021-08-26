@@ -6,21 +6,21 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
-feature: Dynamic Media Classic,Visionneuses,Paramètres prédéfinis de la visionneuse,Catalogue électronique
+feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '482'
 ht-degree: 42%
 
 ---
 
 # Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique{#setting-up-ecatalog-viewer-presets}
 
-Les paramètres prédéfinis de la visionneuse de catalogue électronique déterminent le style, le comportement et l’aspect des visionneuses de catalogue électronique. Dynamic Media Classic fournit des paramètres prédéfinis de visionneuse de catalogue électronique. Vous pouvez également créer vos propres paramètres prédéfinis de visionneuse de catalogue électronique si vous êtes administrateur.
+Les paramètres prédéfinis de la visionneuse de catalogue électronique déterminent le style, le comportement et l’aspect des visionneuses de catalogue électronique. Adobe Dynamic Media Classic fournit des paramètres prédéfinis de visionneuse de catalogue électronique. Vous pouvez également créer vos propres paramètres prédéfinis de visionneuse de catalogue électronique si vous êtes administrateur.
 
-Pour créer un paramètre prédéfini, vous pouvez partir de zéro ou commencer avec un paramètre prédéfini de visionneuse de catalogue électronique fourni par Dynamic Media Classic et l’enregistrer sous un nouveau nom. Vous pouvez créer vos paramètres prédéfinis de visionneuse de catalogue électronique pour présenter un support imprimé dans les couleurs de votre société et définir le ton.
+Pour créer un paramètre prédéfini, vous pouvez partir de zéro ou commencer avec un paramètre prédéfini de visionneuse de catalogue électronique fourni par Dynamic Media Classic Adobe et l’enregistrer sous un nouveau nom. Vous pouvez créer vos paramètres prédéfinis de visionneuse de catalogue électronique pour présenter un support imprimé dans les couleurs de votre société et définir le ton.
 
 De nombreux paramètres prédéfinis sont disponibles pour la visionneuse de catalogue électronique ; ils portent notamment sur la navigation, l’exécution de zoom, la recherche, ainsi que sur les habillages. L’aspect de ces commandes et l’affichage de la visionneuse dépendent de votre choix de paramètres prédéfinis de visionneuse de catalogue électronique.
 
@@ -48,7 +48,7 @@ Pour créer un paramètre prédéfini de visionneuse de catalogue électronique 
    | `$2$` | frame | Numéro de séquence de l’image actuellement affichée dans la visionneuse d’images |
    | `$3$` | imageroot | Premier élément de chemin du premier objet indiqué dans la commande d’image (en principe, l’identifiant de catalogue d’images de l’entrée de catalogue indiquant la visionneuse d’images) |
 
-1. (Facultatif) Dans la zone **[!UICONTROL Paramètres du panneau d’informations]**, dans la zone **[!UICONTROL Modèle de réponse]**, saisissez le texte à afficher si Dynamic Media Classic rencontre une erreur lors de la récupération des informations pour une zone cliquable. Par exemple, si le système reçoit un nom d’entreprise et un nom de catalogue électronique, mais pas d’identificateur de survol, ce message est affiché à l’intention de l’utilisateur.
+1. (Facultatif) Dans la zone **[!UICONTROL Paramètres du panneau d’informations]**, dans la zone **[!UICONTROL Modèle de réponse]**, saisissez le texte à afficher si Adobe Dynamic Media Classic rencontre une erreur lors de la récupération des informations pour une zone cliquable. Par exemple, si le système reçoit un nom d’entreprise et un nom de catalogue électronique, mais pas d’identificateur de survol, ce message est affiché à l’intention de l’utilisateur.
 
 >[!NOTE]
 >

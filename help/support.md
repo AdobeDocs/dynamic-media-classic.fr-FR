@@ -8,21 +8,21 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '187'
 ht-degree: 25%
 
 ---
 
 # Assistance {#support}
 
-Les services d’assistance technique sont conçus pour répondre aux besoins des entreprises de toute taille. Le tableau suivant décrit les offres d’assistance clientèle de Dynamic Media Classic :
+Les services d’assistance technique sont conçus pour répondre aux besoins des entreprises de toute taille. Le tableau suivant décrit les offres d’assistance clientèle d’Adobe Dynamic Media Classic :
 
 | Assistance | Abonnement |
 |--- |--- |
 | Nombre de cas | Illimité. |
-| Vérification de l’état du système d’Adobe | [État du système Dynamic Media Classic](https://status.adobe.com/products/1175). |
+| Vérification de l’état du système d’Adobe | [Adobe de l’état du système Dynamic Media Classic](https://status.adobe.com/products/1175). |
 | Vous ne trouvez pas de réponse ? | [Pour obtenir de l’aide de l’assistance, ouvrez un ticket](https://experienceleague.adobe.com/?support-solution=General#support). |
 | Forum de la communauté | [Forum de la communauté des Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
 | Contrats de niveau de service (SLA) | [Services d’assistance / Conditions générales](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
@@ -34,9 +34,9 @@ Les services d’assistance technique sont conçus pour répondre aux besoins de
 
 Lorsque vous signalez des problèmes à l’assistance technique, vous devez disposer des informations suivantes :
 
-* Nom de la société Dynamic Media Classic.
+* Adobe du nom de la société Dynamic Media Classic.
 * Vos nom, numéro de téléphone et adresse e-mail.
-* Application, plateforme et version Dynamic Media Classic.
+* Adobe de l’application, de la plateforme et de la version Dynamic Media Classic.
 * Description du problème et étapes à suivre pour le reproduire.
 * Message d’erreur, le cas échéant.
 * Type et version du navigateur, le cas échéant.

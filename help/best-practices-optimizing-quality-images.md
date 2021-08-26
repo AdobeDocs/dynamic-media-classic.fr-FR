@@ -5,12 +5,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-feature: Dynamic Media Classic,Gestion des ressources
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 53%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 53%
 
 L’optimisation de la qualité des images peut prendre un certain temps, car de nombreux facteurs entrent en jeu pour obtenir des résultats de rendu acceptables. Les résultats sont partiellement subjectifs car chaque individu perçoit différemment la qualité des images. La clé réside dans une mise en application structurée.
 
-Dynamic Media Classic comprend plus de 100 commandes de traitement d’images pour l’optimisation et le réglage des images et des résultats de rendu. Les conseils suivants vous aideront à simplifier le processus et à obtenir rapidement de bons résultats en utilisant quelques commandes essentielles et en appliquant les pratiques recommandées.
+Adobe Dynamic Media Classic comprend plus de 100 commandes de traitement d’images pour l’optimisation et l’optimisation des images et des résultats de rendu. Les conseils suivants vous aideront à simplifier le processus et à obtenir rapidement de bons résultats en utilisant quelques commandes essentielles et en appliquant les pratiques recommandées.
 
 Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
@@ -45,13 +45,13 @@ Pour le dimensionnement des images, il est recommandé d’utiliser `&wid=<value
 
 ## Recommandations relatives à l’accentuation des images {#best-practices-for-image-sharpening}
 
-L’accentuation des images est l’aspect le plus complexe de contrôle des images sur votre site Web, et aussi source de nombreuses erreurs. Prenez le temps d’en savoir plus sur le fonctionnement de l’accentuation et du masquage flou dans Dynamic Media Classic en vous référant aux ressources utiles suivantes :
+L’accentuation des images est l’aspect le plus complexe de contrôle des images sur votre site Web, et aussi source de nombreuses erreurs. Prenez le temps d’en savoir plus sur le fonctionnement de l’accentuation et du masquage flou dans Adobe Dynamic Media Classic en vous référant aux ressources utiles suivantes :
 
 Livre blanc des bonnes pratiques [Accentuer les images dans Adobe Dynamic Media Classic et sur le serveur d’images](/help/assets/s7_sharpening_images.pdf).
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-Avec Dynamic Media Classic, vous pouvez accentuer les images lors de l’ingestion, de la diffusion ou des deux. Toutefois, en règle générale, vous accentuez les images en utilisant une seule méthode ou l’autre, mais pas les deux. L’accentuation des images à la distribution, dans une URL, produit généralement de meilleurs résultats.
+Avec Adobe Dynamic Media Classic, vous pouvez accentuer les images lors de l’ingestion, de la diffusion ou des deux. Toutefois, en règle générale, vous accentuez les images en utilisant une seule méthode ou l’autre, mais pas les deux. L’accentuation des images à la distribution, dans une URL, produit généralement de meilleurs résultats.
 
 Il existe deux méthodes d’accentuation des images que vous pouvez utiliser :
 
@@ -71,7 +71,7 @@ Il existe deux méthodes d’accentuation des images que vous pouvez utiliser :
 
          Pour plus d’informations sur la manière dont vous définissez ces trois paramètres, y compris les bonnes pratiques à utiliser avec le filtre, voir [Accentuation des images dans Adobe Dynamic Media Classic et sur Image Server](/help/assets/s7_sharpening_images.pdf).
 
-      * Dynamic Media Classic vous permet également de contrôler un quatrième paramètre : monochrome ( `0,1`). Ce paramètre détermine si le masquage flou est appliqué séparément à chaque composante de couleur en utilisant la valeur `0` ou à la luminosité/intensité de l’image en utilisant la valeur `1`.
+      * Adobe Dynamic Media Classic vous permet également de contrôler un quatrième paramètre : monochrome ( `0,1`). Ce paramètre détermine si le masquage flou est appliqué séparément à chaque composante de couleur en utilisant la valeur `0` ou à la luminosité/intensité de l’image en utilisant la valeur `1`.
 
 En règle générale, il est recommandé de commencer par le paramètre de rayon du masquage flou. Voici les paramètres de rayon que vous pouvez utiliser en premier :
 
@@ -120,6 +120,6 @@ Si les résultats de l’accentuation ne sont toujours pas satisfaisants, augmen
 
 Lors de votre test, les suggestions générales suivantes s’avèrent utiles pour optimiser votre workflow :
 
-* Testez différents paramètres en temps réel, directement sur une URL Dynamic Media Classic ou à l’aide de la fonctionnalité d’ajustement d’image de Dynamic Media Classic. Ce dernier fournit des aperçus en temps réel pour les opérations d&#39;ajustement.
+* Testez différents paramètres en temps réel, directement sur une URL Dynamic Media Classic Adobe ou à l’aide de la fonctionnalité d’ajustement d’image d’Adobe Dynamic Media Classic. Ce dernier fournit des aperçus en temps réel pour les opérations d&#39;ajustement.
 * Pour respecter les bonnes pratiques, n’oubliez pas que vous pouvez regrouper les commandes de diffusion d’images Dynamic Media dans un paramètre d’image prédéfini. Un paramètre d’image prédéfini est essentiellement constitué de macros de commande d’URL avec des noms de paramètres prédéfinis personnalisés tels que `$thumb_low$` et `&product_high$`. Le nom du paramètre prédéfini personnalisé dans un chemin d’URL appelle ces paramètres prédéfinis. Cette fonctionnalité permet de gérer les commandes et les paramètres de qualité de différents gabarits d’utilisation des images sur votre site Web et réduit en outre la longueur totale des URL.
-* Dynamic Media Classic propose également des méthodes plus avancées pour régler la qualité des images, telles que l’application de l’accentuation des images lors de l’ingestion. Pour les cas d’utilisation avancés où l’optimisation et le réglage des résultats rendus sont une option, Adobe Professional Services peut vous aider à personnaliser les informations et les bonnes pratiques.
+* Adobe Dynamic Media Classic offre également des méthodes plus avancées pour régler la qualité des images, comme l’application de l’accentuation des images lors de l’ingestion. Pour les cas d’utilisation avancés où l’optimisation et le réglage des résultats rendus sont une option, Adobe Professional Services peut vous aider à personnaliser les informations et les bonnes pratiques.

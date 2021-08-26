@@ -1,27 +1,27 @@
 ---
 title: Utilisation des dossiers de ressources
-description: Découvrez comment utiliser des dossiers de ressources dans Dynamic Media Classic.
+description: Découvrez comment utiliser des dossiers de ressources dans Adobe Dynamic Media Classic.
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
-feature: Dynamic Media Classic,Gestion des ressources
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '451'
 ht-degree: 39%
 
 ---
 
 # Utilisation des dossiers de ressources{#working-with-asset-folders}
 
-Les ressources de fichier dans Dynamic Media Classic sont conservées dans des dossiers. lesquels sont classés par ordre alphabétique dans le panneau Bibliothèque de fichiers. Avant de charger des fichiers depuis votre ordinateur ou votre réseau vers Dynamic Media Classic, vous êtes invité à nommer un dossier pour le stockage des fichiers. Créez ces dossiers avant de télécharger des fichiers.
+Les ressources de fichier dans Adobe Dynamic Media Classic sont conservées dans des dossiers. lesquels sont classés par ordre alphabétique dans le panneau Bibliothèque de fichiers. Avant de charger des fichiers depuis votre ordinateur ou votre réseau vers Adobe Dynamic Media Classic, vous devez nommer un dossier pour le stockage des fichiers. Créez ces dossiers avant de télécharger des fichiers.
 
-Veillez à établir une structure et une organisation de dossiers pour le stockage de vos fichiers dans Dynamic Media Classic avant de charger les fichiers.
+Veillez à établir une structure et une organisation de dossiers pour le stockage de vos fichiers dans Adobe Dynamic Media Classic avant de charger les fichiers.
 
 ## Afficher, déplacer, masquer et ouvrir des dossiers {#displaying-moving-hiding-and-opening-folders}
 
@@ -47,7 +47,7 @@ La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de
 
    >[!NOTE]
    >
-   >Vous pouvez également créer des dossiers dans Dynamic Media Classic lorsque vous transférez des fichiers par FTP. Si vous sélectionnez l’option **[!UICONTROL Inclure les sous-dossiers]** lors du téléchargement via FTP, la structure de dossiers de votre ordinateur est répliquée dans le système. Les fichiers et les sous-dossiers de votre ordinateur ou réseau sont répliqués dans la bibliothèque de fichiers, et les fichiers que vous téléchargez sont placés dans ces dossiers.
+   >Vous pouvez également créer des dossiers dans Adobe Dynamic Media Classic lorsque vous transférez des fichiers par FTP. Si vous sélectionnez l’option **[!UICONTROL Inclure les sous-dossiers]** lors du téléchargement via FTP, la structure de dossiers de votre ordinateur est répliquée dans le système. Les fichiers et les sous-dossiers de votre ordinateur ou réseau sont répliqués dans la bibliothèque de fichiers, et les fichiers que vous téléchargez sont placés dans ces dossiers.
 
 ## Suppression et changement du nom des dossiers {#deleting-and-renaming-folders}
 
@@ -59,4 +59,4 @@ Sélectionnez un dossier et utilisez les techniques suivantes pour le supprimer 
 
 >[!NOTE]
 >
->Vous ne pouvez pas copier de dossiers ou de ressources, car cela créerait des dossiers et des ressources en double sur Dynamic Media Classic et les doublons ne sont pas autorisés.
+>Vous ne pouvez pas copier de dossiers ou de ressources, car cela créerait des dossiers et des ressources en double sur Adobe Dynamic Media Classic et les doublons ne sont pas autorisés.

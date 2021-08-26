@@ -1,6 +1,6 @@
 ---
 title: Recours à une visionneuse à l’aide du kit d’instrumentation Adobe Analytics
-description: Découvrez comment instrumenter une visionneuse à l’aide du kit d’instrumentation Adobe Analytics dans Dynamic Media Classic.
+description: Découvrez comment instrumenter une visionneuse à l’aide du kit d’instrumentation Adobe Analytics dans Adobe Dynamic Media Classic.
 uuid: cf9a4002-966d-4641-9cd0-2ee8b5454f60
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: a2824244-1755-42de-a167-42af117cf038
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '304'
 ht-degree: 20%
 
 ---
@@ -21,17 +21,17 @@ ht-degree: 20%
 
 Vous pouvez utiliser le kit d’instrumentation Adobe Analytics pour intégrer une visionneuse HTML5 à Adobe Analytics.
 
-Si vous utilisez l’un des paramètres prédéfinis de la visionneuse HTML5 Dynamic Media Classic prédéfinis, ils contiennent déjà tout le code d’implémentation pour envoyer des données à Adobe Analytics ; aucune autre instrumentation n’est requise de votre part.
+Si vous utilisez l’un des paramètres prédéfinis de visionneuse HTML5 Adobe Classic prédéfinis, ils contiennent déjà tout le code d’implémentation pour envoyer des données à Adobe Analytics ; aucune autre instrumentation n’est requise de votre part.
 
-## Configuration du suivi Adobe Analytics à partir de Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
+## Configuration du suivi Adobe Analytics à partir d’Adobe Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
 Pour toutes les visionneuses HTML5, ajoutez le code JavaScript suivant au conteneur HTML, généralement dans l’élément &lt;head> :
 
 ```as3
-<!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
+<!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-Où `Dynamic Media Classic Company ID` est défini sur le nom de la société Dynamic Media Classic. `&preset` est facultatif, sauf si le nom du paramètre prédéfini de l’entreprise n’est pas `companypreset`. Dans ce cas, il peut s’agir de `companypreset-1, companypreset-2`, etc. Le plus grand nombre correspond à une nouvelle instance du paramètre prédéfini. Pour déterminer le nom de valeur prédéfini de l’entreprise correct, sélectionnez **[!UICONTROL Copier l’URL]** , puis examinez le paramètre `preset=`pour trouver le nom du paramètre prédéfini de l’entreprise.
+Où `Adobe Dynamic Media Classic Company ID` est défini sur le nom de la société Dynamic Media Classic Adobe. `&preset` est facultatif, sauf si le nom du paramètre prédéfini de l’entreprise n’est pas `companypreset`. Dans ce cas, il peut s’agir de `companypreset-1, companypreset-2`, etc. Le plus grand nombre correspond à une nouvelle instance du paramètre prédéfini. Pour déterminer le nom de valeur prédéfini de l’entreprise correct, sélectionnez **[!UICONTROL Copier l’URL]** , puis examinez le paramètre `preset=`pour trouver le nom du paramètre prédéfini de l’entreprise.
 
 Continuez en ajoutant une fonction qui transmet l’événement de visionneuse au code de suivi Adobe Analytics.
 

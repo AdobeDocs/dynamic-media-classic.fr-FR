@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
-feature: Dynamic Media Classic,Gestion des ressources
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 46%
+source-wordcount: '990'
+ht-degree: 42%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 46%
 
 <!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)** - Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on web pages. -->
 
-Les fichiers PSD (Photoshop Document) sont le plus souvent utilisés dans Dynamic Media Classic pour créer des modèles. Lorsque vous chargez un fichier PSD, vous pouvez créer automatiquement un modèle Dynamic Media Classic à partir du fichier (sélectionnez l’option Créer un modèle dans l’écran de téléchargement).
+Les fichiers PSD (Photoshop Document) sont le plus souvent utilisés dans Adobe Dynamic Media Classic pour créer des modèles. Lorsque vous chargez un fichier PSD, vous pouvez créer automatiquement un modèle Adobe Dynamic Media Classic à partir du fichier (sélectionnez l’option Créer un modèle dans l’écran de téléchargement).
 
-Dynamic Media Classic crée plusieurs images à partir d’un fichier PSD avec des calques si vous utilisez le fichier pour créer un modèle ; il crée une image pour chaque calque.
+Adobe Dynamic Media Classic crée plusieurs images à partir d’un fichier PSD avec des calques si vous utilisez le fichier pour créer un modèle ; il crée une image pour chaque calque.
 
 ## Options de téléchargement des fichiers PSD {#psd-upload-options}
 
@@ -47,11 +47,11 @@ Les options suivantes sont disponibles au cours du téléchargement des fichiers
 
    * **Conserver l’espace colorimétrique d’origine**  : conserve l’espace colorimétrique d’origine de l’image.
 
-   * **Personnaliser de > à**  : ouvre les menus afin que vous puissiez sélectionner un espace colorimétrique Convertir de et Convertir en. Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez chargé dans Dynamic Media Classic. (voir [Profils ICC](/help/icc-profiles.md)).
+   * **Personnaliser de > à**  : ouvre les menus afin que vous puissiez sélectionner un espace colorimétrique Convertir de et Convertir en. Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez chargé dans Adobe Dynamic Media Classic. (voir [Profils ICC](/help/icc-profiles.md)).
 
 * **Options Photoshop**
 
-   * **Conserver les calques**  : extrait les calques du fichier PSD, le cas échéant, dans des ressources individuelles. Les calques de ces fichiers restent associés au fichier PSD. Pour les afficher, ouvrez le fichier PSD dans l’affichage Détail et sélectionnez le panneau Calque (voir Affichage et modification de calques d’un fichier PSD).
+   * **Conserver les calques**  : extrait les calques du fichier PSD, le cas échéant, dans des ressources individuelles. Les calques de ces fichiers restent associés au fichier PSD. Vous pouvez les afficher en ouvrant le fichier PSD dans la vue Détails et en sélectionnant le panneau Calque. (voir Affichage et modification de calques d’un fichier PSD).
 
    * **Créer un modèle**  : crée un modèle à partir des calques du fichier PSD.
 
@@ -59,7 +59,7 @@ Les options suivantes sont disponibles au cours du téléchargement des fichiers
 
    * **Etendre les calques à la taille de l’arrière-plan**  : permet d’étendre la taille des calques d’image pixellisés à celle du calque d’arrière-plan.
 
-   * **Affectation de nom de calque**  : les calques du fichier PSD sont téléchargés en tant qu’images distinctes. Pour nommer ces images dans Dynamic Media Classic, choisissez l’une des options suivantes :
+   * **Affectation de nom de calque**  : les calques du fichier PSD sont téléchargés en tant qu’images distinctes. Pour nommer ces images dans Adobe Dynamic Media Classic, choisissez l’une des options suivantes :
 
       * **Nom de calque**  : nomme les images à la suite de leur nom de calque dans le fichier PSD. Par exemple, un calque appelé Etiquette de prix dans le fichier PSD d’origine devient une image nommée Etiquette de prix. Cependant, si les calques du fichier PSD portent les noms de calques Photoshop par défaut (Arrière-plan, Calque 1, Calque 2, etc.), les images sont nommées d’après leur numéro de calque dans le fichier PSD, et non leur nom par défaut.
 
@@ -71,7 +71,7 @@ Les options suivantes sont disponibles au cours du téléchargement des fichiers
 
 ## Affichage et modification de calques d’un fichier PSD {#viewing-and-editing-layers-in-a-psd-file}
 
-Si vous avez sélectionné l’option Conserver les calques lors du transfert de votre fichier PSD, Dynamic Media Classic les a tronqués dans des ressources. Pour afficher et modifier les calques de fichier appartenant à un fichier PSD, ouvrez le fichier dans le panneau de navigation en mode Affichage des détails.
+Si vous avez sélectionné l’option Conserver les calques lors du transfert de votre fichier PSD, Adobe Dynamic Media Classic les a tronqués dans des ressources. Vous pouvez afficher et modifier les calques de ressources appartenant à un fichier PSD en ouvrant le fichier dans le panneau de navigation de la vue Détails.
 
 1. Double-cliquez sur le fichier PSD complet dans le panneau de navigation. Le fichier s’ouvre dans la vue Détails.
 
@@ -90,4 +90,4 @@ Si vous avez sélectionné l’option Conserver les calques lors du transfert de
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou sur **[!UICONTROL Enregistrer sous]**.
 1. Pour afficher ou modifier un autre calque, cliquez sur la flèche située au bas de l’aperçu des calques.
-1. Pour quitter la vue Détails du calque, cliquez sur l’icône **[!UICONTROL Affichage de la grille]** .
+1. Pour quitter le mode Détails du calque, cliquez sur l’icône **[!UICONTROL Affichage de la grille]** .
