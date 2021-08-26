@@ -10,10 +10,10 @@ discoiquuid: 3b4add18-4191-475e-a3a3-0184367a25fc
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: c6f217fb-89cb-4c8d-aa7f-309fc42f7d46
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 1%
+source-wordcount: '149'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,6 @@ Avant de pouvoir intégrer [!DNL Dynamic Media Classic] à [!DNL Target Standard
 
    Par exemple, si l’URL *fictive* (les chemins d’URL contiennent toujours des barres obliques, et non des barres obliques inverses comme dans cet exemple) de la barre d’adresse est `https:\\www.myfictionalsite.com/categories/admin/home.do`, copiez uniquement cette partie de l’URL *fictive* : `https:\\www.myfictionalsite.com`.
 
-1. Dans [!DNL Dynamic Media Classic], cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]**.
+1. Dans [!DNL Dynamic Media Classic], accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]**.
 1. Sur la page Paramètres généraux de l’application, dans le champ **[!UICONTROL Nom du serveur Test&amp;Target]**, collez l’URL que vous avez copiée à l’étape 2.
-1. Cliquez sur **[!UICONTROL Fermer]**.
+1. Sélectionnez **[!UICONTROL Fermer]**.

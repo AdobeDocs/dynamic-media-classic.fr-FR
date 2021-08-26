@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
-feature: Dynamic Media Classic,Gestion des ressources
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 63%
+source-wordcount: '425'
+ht-degree: 52%
 
 ---
 
@@ -27,28 +27,28 @@ Dynamic Media Classic conserve un enregistrement des tâches d’exportation dan
 
 **Pour exporter des ressources à partir de Dynamic Media Classic :**
 
-1. Sélectionnez les fichiers à exporter, puis cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Exporter]**.
-1. Dans la fenêtre Exporter les fichiers sélectionnés, cliquez sur **Options d’image**, puis spécifiez une ou plusieurs options parmi les suivantes (les administrateurs déterminent quelles options sont disponibles pour les utilisateurs) :
+1. Sélectionnez les ressources à exporter, puis accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Exporter]**.
+1. Dans la fenêtre Exporter les fichiers sélectionnés, cliquez sur **[!UICONTROL Options d’image]**, puis spécifiez une ou plusieurs options parmi les suivantes (les administrateurs déterminent quelles options sont disponibles pour les utilisateurs) :
 
-   * **Paramètres prédéfinis**  : (Facultatif) choisissez un paramètre d’image prédéfini pour formater la ressource lorsque vous l’exportez. Si vous choisissez un paramètre d’image prédéfini, les autres options de formatage ne sont pas disponibles, car le fichier adopte les formats définis par ce paramètre d’image prédéfini.
+   * **[!UICONTROL Paramètres prédéfinis]**  : (Facultatif) choisissez un paramètre d’image prédéfini pour formater la ressource lorsque vous l’exportez. Si vous choisissez un paramètre d’image prédéfini, les autres options de formatage ne sont pas disponibles, car le fichier adopte les formats définis par ce paramètre d’image prédéfini.
 
-   * **Conversion**  : convertissez le fichier de ressource ou l’image d’origine.
+   * **[!UICONTROL Conversion]**  : convertissez le fichier de ressource ou l’image d’origine.
 
-   * **Taille**  : vous pouvez sélectionner une taille standard. Ou, vous pouvez cliquer sur **[!UICONTROL Autres]** dans la liste déroulante Taille, choisir l’unité de mesure souhaitée, puis spécifier la largeur et la hauteur.****
+   * **[!UICONTROL Taille]**  : vous pouvez sélectionner une taille standard. Vous pouvez également sélectionner **[!UICONTROL Autre]** dans la liste déroulante **[!UICONTROL Taille]**, choisir l’unité de mesure souhaitée, puis spécifier la largeur et la hauteur.
 
-      Voir aussi [Définition d’options d’exportation disponibles pour les utilisateurs du portail multimédia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+      Voir aussi [Définition des options d’exportation disponibles pour les utilisateurs de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **Format**  : choisissez un format d’image.
+   * **[!UICONTROL Format]**  : choisissez un format d’image.
 
-   * **Couleur**  : choisissez RVB, CMJN ou Gris.
+   * **[!UICONTROL Couleur]**  : choisissez RVB, CMJN ou Gris.
 
-   * **Résolution**  : 72 ppp, 150 ppp ou 300 ppp.
+   * **[!UICONTROL Résolution]**  : 72 ppp, 150 ppp ou 300 ppp.
 
-   * **Nom de la tâche**  : vous pouvez attribuer un nom à la tâche à exporter.
+   * **[!UICONTROL Nom de la tâche]**  : vous pouvez attribuer un nom à la tâche à exporter.
 
-   * **Envoyer un courrier électronique à**  : si vous le souhaitez, saisissez une adresse électronique pour envoyer les ressources par courrier électronique. Le message e-mail indique l’URL à laquelle le destinataire peut accéder pour télécharger les fichiers.
+   * **[!UICONTROL Envoyer un courrier électronique à]**  : si vous avez l’intention d’envoyer les ressources par courrier électronique, vous pouvez éventuellement saisir une adresse électronique. Le message e-mail indique l’URL à laquelle le destinataire peut accéder pour télécharger les fichiers.
 
-1. Cliquez sur **[!UICONTROL Exporter]**.
+1. Sélectionnez **[!UICONTROL Exporter]**.
 
 Trois actions d’exportation de base sont prises en charge :
 

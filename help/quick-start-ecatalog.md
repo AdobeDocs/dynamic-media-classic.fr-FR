@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
-feature: Dynamic Media Classic,Visionneuses,Catalogue électronique
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1424'
 ht-degree: 50%
 
 ---
@@ -87,7 +87,7 @@ Voir [Utilisation des zones cliquables pour intégrer des médias enrichis dans 
 
 Vous pouvez configurer et gérer le texte de zone cliquable à l’aide des paramètres du panneau d’informations de l’écran Catalogue électronique.
 
-Voir [Gestion du contenu du panneau d’informations](info-panel-content.md#managing-info-panel-content).
+Voir [Gestion du contenu du panneau Informations dans les catalogues électroniques](/help/info-panel-content-ecatalog.md).
 
 ## 4. Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique
 
@@ -111,7 +111,7 @@ Voir [Prévisualisation des catalogues électroniques dans la visionneuse de cat
 
 La publication de votre catalogue électronique et du fichier PDF associé le place sur les serveurs d’images Dynamic Media afin qu’il puisse être diffusé sur votre site web et dans votre application. Dans le cadre du processus de publication, Dynamic Media Classic active la chaîne URL de votre catalogue électronique. Utilisez cette URL pour appeler le catalogue électronique à partir des serveurs d’images Dynamic Media vers votre site web ou votre application.
 
-Après avoir marqué le catalogue électronique et le fichier PDF en vue de leur publication dans le panneau de navigation, cliquez sur le bouton Publier de la barre de navigation globale pour lancer une publication. Dans l’écran Publier, cliquez sur **[!UICONTROL Envoyer la publication]**.
+Après avoir marqué votre catalogue électronique et votre fichier PDF en vue de la publication dans le panneau de navigation, sélectionnez le bouton Publier de la barre de navigation globale pour lancer une publication. Dans l’écran Publier, cliquez sur **[!UICONTROL Envoyer la publication]**.
 
 Voir [Publication de catalogues électroniques et de fichiers PDF associés](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
