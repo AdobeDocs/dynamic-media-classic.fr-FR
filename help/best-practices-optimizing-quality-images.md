@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1463'
 ht-degree: 53%
 
 ---
@@ -120,6 +120,6 @@ Si les résultats de l’accentuation ne sont toujours pas satisfaisants, augmen
 
 Lors de votre test, les suggestions générales suivantes s’avèrent utiles pour optimiser votre workflow :
 
-* Testez différents paramètres en temps réel, directement sur une URL Dynamic Media Classic Adobe ou à l’aide de la fonctionnalité d’ajustement d’image d’Adobe Dynamic Media Classic. Ce dernier fournit des aperçus en temps réel pour les opérations d&#39;ajustement.
+* Testez différents paramètres en temps réel, directement sur une URL ou à l’aide de la fonctionnalité d’ajustement d’image d’Adobe Dynamic Media Classic. Ce dernier fournit des aperçus en temps réel pour les opérations d&#39;ajustement.
 * Pour respecter les bonnes pratiques, n’oubliez pas que vous pouvez regrouper les commandes de diffusion d’images Dynamic Media dans un paramètre d’image prédéfini. Un paramètre d’image prédéfini est essentiellement constitué de macros de commande d’URL avec des noms de paramètres prédéfinis personnalisés tels que `$thumb_low$` et `&product_high$`. Le nom du paramètre prédéfini personnalisé dans un chemin d’URL appelle ces paramètres prédéfinis. Cette fonctionnalité permet de gérer les commandes et les paramètres de qualité de différents gabarits d’utilisation des images sur votre site Web et réduit en outre la longueur totale des URL.
 * Adobe Dynamic Media Classic offre également des méthodes plus avancées pour régler la qualité des images, comme l’application de l’accentuation des images lors de l’ingestion. Pour les cas d’utilisation avancés où l’optimisation et le réglage des résultats rendus sont une option, Adobe Professional Services peut vous aider à personnaliser les informations et les bonnes pratiques.
