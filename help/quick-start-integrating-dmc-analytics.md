@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 39%
 
 ---
@@ -37,7 +37,7 @@ Cette section de démarrage rapide est conçue pour vous familiariser rapidement
 >
 >Avant de pouvoir configurer des rapports Adobe Analytics et de faire correspondre des variables de rapports Adobe Analytics à des événements Dynamic Media Classic Adobe, vérifiez que vous êtes ajouté en tant que membre du groupe Accès aux services Web dans Adobe Analytics. Les membres de ce groupe ont accès à tous les rapports des suites de rapports spécifiées au moyen des API des services Web de Marketing Cloud, quelles que soient les autorisations définies dans l’interface. Pour ajouter un membre au groupe, dans Adobe Analytics, cliquez sur **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Modifier les groupes]**.
 
-Une fois que vous avez vérifié que vous êtes membre du groupe Accès aux services web, dans Adobe Dynamic Media Classic, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Adobe Analytics]**. Sur la page Configuration d’Adobe Analytics, cliquez sur **[!UICONTROL Connexion à Adobe Analytics]**.
+Une fois que vous avez vérifié que vous êtes membre du groupe Accès aux services web, dans Adobe Dynamic Media Classic, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Adobe Analytics]**. Sur la page Configuration d’Adobe Analytics, cliquez sur **[!UICONTROL Connexion à Adobe Analytics]**.
 
 Voir [Connexion à Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
@@ -45,7 +45,7 @@ Dans la boîte de dialogue Connexion Adobe Analytics, saisissez votre ID d’org
 
 ## 2. Affectez des variables de rapport Adobe Analytics à des événements de visionneuse Dynamic Media Classic et à des variables Dynamic Media Classic Adobe
 
-Sur la page Configuration d’Adobe Analytics, spécifiez les informations souhaitées dans les rapports d’Adobe Analytics. Pour chaque événement de visionneuse Dynamic Media Classic d’Adobe dont vous souhaitez obtenir des informations, choisissez une variable Adobe Analytics (à partir de votre suite de rapports) et une variable Dynamic Media Classic d’Adobe.
+Sur la page Configuration d’Adobe Analytics, spécifiez les informations souhaitées dans les rapports d’Adobe Analytics. Pour chaque événement de visionneuse Dynamic Media Classic Adobe dont vous souhaitez obtenir des informations, choisissez une variable Adobe Analytics (à partir de votre suite de rapports) et une variable Dynamic Media Classic Adobe.
 
 * Les événements de visionneuse décrivent l’activité utilisateur que vous souhaitez mesurer à travers les rapports.
 * Les variables Adobe Dynamic Media Classic décrivent les données sur les événements utilisateur que vous souhaitez que les rapports diffusent.

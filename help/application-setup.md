@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '10952'
+source-wordcount: '10951'
 ht-degree: 44%
 
 ---
@@ -35,9 +35,9 @@ Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md
 
 * **[!UICONTROL Nom du serveur publié]**  : ce serveur est le serveur CDN (Content Delivery Network) en direct utilisé dans tous les appels d’URL générés par le système et spécifiques à votre compte. Ne modifiez pas le nom de ce serveur, sauf si un technicien du support Dynamic Media Classic Adobe vous demande de le faire.
 
-* **[!UICONTROL Nom du serveur d’origine]**  : ce serveur est utilisé uniquement pour les tests d’assurance qualité. Ne modifiez pas le nom de ce serveur, sauf si un technicien du support Adobe Dynamic Media Classic vous a demandé de le faire.
+* **[!UICONTROL Nom du serveur d’origine]**  : ce serveur est utilisé uniquement pour les tests d’assurance qualité. Ne modifiez pas le nom de ce serveur, sauf si un technicien du support Dynamic Media Classic Adobe vous a demandé de le faire.
 
-<!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Adobe Dynamic Media Classic support technician. -->
+<!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by an Adobe DynamicMedia Classic support technician. -->
 
 * **[!UICONTROL Nom du serveur Test&amp;Target]**  : votre URL Test&amp;Target, y compris .com. Pour plus d’informations sur l’obtention de cette URL, voir Intégration de [!DNL Adobe Dynamic Media Classic] à [!DNL Adobe Target Standard/Premium].
 

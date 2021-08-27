@@ -1,24 +1,24 @@
 ---
-title: Impression de fichiers
-description: Découvrez comment imprimer des ressources.
+title: Impression de ressources
+description: Découvrez comment imprimer des ressources à partir d’Adobe Dynamic Media Classic.
 uuid: 6cd5ba38-ec80-461f-b095-6cd4d7ea7814
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: e4a2a5b8-a074-4f0e-a607-0c47acbb81b4
-feature: Dynamic Media Classic,Gestion des ressources
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 23d6727b-0b48-4dac-be9f-f284d8d10de1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 34%
+source-wordcount: '51'
+ht-degree: 25%
 
 ---
 
-# Impression de fichiers{#printing-assets}
+# Impression de ressources{#printing-assets}
 
 1. Dans le panneau de navigation, sélectionnez le ou les fichiers à imprimer.
-1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Imprimer]** ou appuyez sur `Ctrl+P` (Windows®) ou `Command+P` (Macintosh).
+1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Imprimer]** ou appuyez sur `Ctrl+P` (Windows®) ou `Command+P` (Macintosh).
 1. Dans la boîte de dialogue Imprimer, sélectionnez le nombre de copies à imprimer, puis cliquez sur **[!UICONTROL Imprimer]**.

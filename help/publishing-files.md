@@ -1,5 +1,5 @@
 ---
-title: 'Publication de fichiers '
+title: Publication de fichiers
 description: '"Découvrez comment publier vos ressources sur les serveurs d’images Dynamic Media. Vous pouvez publier des ressources ponctuellement ou organiser Adobe Dynamic Media Classic pour les publier selon une planification récurrente. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL d’Adobe Dynamic Media Classic et les ajouter à votre site web ou à votre application."'
 contentOwner: admin
 content-type: reference
@@ -8,14 +8,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '1722'
-ht-degree: 56%
+source-wordcount: '1726'
+ht-degree: 48%
 
 ---
 
-# Publication de fichiers {#publishing-files}
+# Publication de fichiers{#publishing-files}
 
 Vous publiez vos ressources sur les serveurs d’images Dynamic Media. Vous pouvez publier des ressources ponctuellement ou organiser Adobe Dynamic Media Classic pour les publier selon une planification récurrente. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL d’Adobe Dynamic Media Classic et les ajouter à votre site web ou à votre application.
 
@@ -29,14 +29,14 @@ Pour plus d’informations, voir la [Instant Publish Notice PDF](/help/assets/re
 
 Pour marquer des fichiers pour publication, utilisez les techniques suivantes :
 
-* **Publier après le téléchargement**  : sur la page Télécharger, près du bas, sélectionnez Publier après le téléchargement. La valeur par défaut est un état sélectionné.
+* **[!UICONTROL Publier après le téléchargement]**  : sur la page Télécharger, près du bas, sélectionnez  **[!UICONTROL Publier après le téléchargement]**. La valeur par défaut est un état sélectionné.
 
-* **Publier après le téléchargement**  : dans la boîte de dialogue Options de tâche, sélectionnez Publier après le téléchargement. La valeur par défaut est un état sélectionné.
+* **[!UICONTROL Publier après le téléchargement]**  : dans la boîte de dialogue Options de tâche, sélectionnez  **[!UICONTROL Publier après le téléchargement]**. La valeur par défaut est un état sélectionné.
 
 Certains fichiers « enfants » sont systématiquement marqués pour publication lorsque leurs parents le sont. Ce tableau dresse la liste des fichiers enfants automatiquement marqués pour publication.
 
 | Elément (groupe) parent | Eléments (membre) enfants |
-|--- |--- |
+| --- | --- |
 | Visionneuses d’images | Images dans la visionneuse. |
 | Séries d’échantillons | Echantillons dans la visionneuse. |
 | Visionneuses à 360° | Images dans la visionneuse. |
@@ -46,21 +46,21 @@ Les images dérivées sont automatiquement marquées pour publication lorsque le
 
 ## Création d’une tâche de publication {#creating-a-publish-job}
 
-Créez une tâche de publication pour publier les ressources que vous avez chargées sur les serveurs Dynamic Media Classic Adobe, mais choisissez de ne pas encore les publier automatiquement. Vous pouvez effectuer une tâche de publication ponctuelle ou planifier la réexécution régulière des tâches. Adobe Dynamic Media Classic propose des options de publication avancées pour la publication sur des serveurs spécifiques et des options pour la republication de ressources qui ont déjà été publiées.
+Créez une tâche de publication pour publier les ressources que vous avez chargées sur les serveurs Adobe Dynamic Media Classic, mais que vous ne souhaitez pas encore publier automatiquement. Vous pouvez effectuer une tâche de publication ponctuelle ou planifier la réexécution régulière des tâches. Adobe Dynamic Media Classic propose des options de publication avancées pour la publication sur des serveurs spécifiques et des options pour la republication de ressources qui ont déjà été publiées.
 
 **Création d’une tâche de publication:**
 
-1. Sur la barre de navigation générale, cliquez sur **[!UICONTROL Publier]**, 
+1. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**.
 1. Dans la boîte de dialogue Publier, choisissez s’il s’agit d’une tâche de publication ponctuelle ou périodique
 
-   (voir les sections [Création d’une tâche de publication unique](publishing-files.md#creating_a_one_time_publish_job) et [Création d’une tâche de publication périodique](publishing-files.md#creating_a_recurring_publish_job)).
+   Voir [Création d’une tâche de publication ponctuelle](publishing-files.md#creating_a_one_time_publish_job) et [Création d’une tâche de publication récurrente](publishing-files.md#creating_a_recurring_publish_job).
 
 1. Entrez un nom de tâche.
 1. (Facultatif) Affichez les options avancées, puis choisissez parmi elles 
 
    (voir [Options de publication avancées](publishing-files.md#advanced_publish_options)).
 
-1. Cliquez sur **[!UICONTROL Lancer public.]**
+1. Sélectionnez **[!UICONTROL Envoyer la publication]**.
 
 Adobe Dynamic Media Classic effectue le suivi des tâches de publication sur la page Tâches . Vous pouvez consulter les tâches de publication sur cette page.
 
@@ -70,17 +70,17 @@ Adobe Dynamic Media Classic effectue le suivi des tâches de publication sur la 
 
 ### Création d’une tâche de publication unique {#creating-a-one-time-publish-job}
 
-Pour créer une tâche de publication unique, sélectionnez l’option Unique sur la page de publication.
+Créez une tâche de publication unique en sélectionnant l’option **[!UICONTROL Unique]** sur la page Publier.
 
-Si vous souhaitez que la tâche de publication se produise ultérieurement, dans la page Publier, sélectionnez **[!UICONTROL Unique]**, puis cliquez sur la liste déroulante **[!UICONTROL Planifier pour plus tard]** . Utilisez le calendrier et le curseur de l’heure pour sélectionner un jour et une heure pour exécuter la tâche de publication.
+Si vous souhaitez que la tâche de publication se produise ultérieurement, dans la page Publier, sélectionnez **[!UICONTROL Unique]**, puis sélectionnez la liste déroulante **[!UICONTROL Planifier pour plus tard]**. Utilisez le calendrier et le curseur de l’heure pour sélectionner un jour et une heure pour exécuter la tâche de publication.
 
-### Création d’une tâche de publication périodique {#creating-a-recurring-publish-job}
+### Création d’une tâche de publication récurrente {#creating-a-recurring-publish-job}
 
 Créez une tâche de publication récurrente en sélectionnant **[!UICONTROL Récurrente]** sur la page Publier.
 
-Choisissez ensuite une option Répéter **[!UICONTROL Quotidienne]**, **[!UICONTROL Hebdomadaire]**, **[!UICONTROL Mensuelle]** ou **[!UICONTROL Personnalisée]**, puis indiquez quand la tâche de publication doit se répéter. Adobe Dynamic Media Classic présente des outils de calendrier pour la planification de la tâche de publication récurrente. Vous pouvez cliquer sur l’option **[!UICONTROL Personnalisée]** et saisir une règle dans le champ Texte de la règle pour décrire un intervalle de tâches personnalisé.
+Choisissez ensuite une option Répéter **[!UICONTROL Quotidienne]**, **[!UICONTROL Hebdomadaire]**, **[!UICONTROL Mensuelle]** ou **[!UICONTROL Personnalisée]**, puis indiquez quand la tâche de publication doit se répéter. Adobe Dynamic Media Classic présente des outils de calendrier pour la planification de la tâche de publication récurrente. Vous pouvez sélectionner l’option **[!UICONTROL Personnalisée]** et saisir une règle dans le champ Texte de la règle pour décrire un intervalle de tâches personnalisé.
 
-(voir [Création d’un intervalle de téléchargement ou de publication personnalisé](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval)).
+Voir [Création d’un intervalle de temps de tâche de téléchargement ou de publication personnalisé](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
 >[!NOTE]
 >
@@ -90,27 +90,27 @@ Choisissez ensuite une option Répéter **[!UICONTROL Quotidienne]**, **[!UICONT
 
 Vous pouvez afficher les options avancées sur la page de publication et en choisir certaines pour gérer une tâche de publication :
 
-* **Publier sur**  : pour publier des ressources uniquement sur un serveur spécifique, choisissez un type de serveur.
+* **[!UICONTROL Publier sur]**  : pour publier des ressources uniquement sur un serveur spécifique, choisissez un type de serveur.
 
-* **Publier**  : par défaut, Adobe Dynamic Media Classic publie uniquement les nouvelles ressources qui n’ont pas été publiées avant (option Nouveau depuis la dernière publication ). Vous pouvez toutefois cliquer sur **[!UICONTROL Publication complète]** pour publier également les ressources qui ont été mises à jour ou modifiées depuis leur dernière publication. Sélectionnez **[!UICONTROL Complet avec données de recherche]** si vous publiez un catalogue électronique et souhaitez que les lecteurs puissent y effectuer des recherches par mot-clé.
+* **[!UICONTROL Publier]**  : par défaut, Adobe Dynamic Media Classic publie uniquement les nouvelles ressources qui n’ont pas été publiées avant (option Nouveau depuis la dernière publication ). Vous pouvez toutefois sélectionner **[!UICONTROL Publication complète]** pour publier également les ressources qui ont été mises à jour ou modifiées depuis leur dernière publication. Sélectionnez **[!UICONTROL Complet avec données de recherche]** si vous publiez un catalogue électronique et souhaitez que les lecteurs puissent y effectuer des recherches par mot-clé.
 
-* **Exécuter la tâche en tant que**  : sélectionnez un nom d’utilisateur dans la liste. Vous pouvez trier les tâches par nom d’utilisateur sur la page Tâches. En choisissant un nom, vous associez une tâche de publication à un utilisateur.
+* **[!UICONTROL Exécuter la tâche en tant que]**  : sélectionnez un nom d’utilisateur dans la liste. Vous pouvez trier les tâches par nom d’utilisateur sur la page Tâches. En choisissant un nom, vous associez une tâche de publication à un utilisateur.
 
-**Notification HTTP**  : entrez une URL pour déclencher les tâches de publication suivantes.
+**[!UICONTROL Notification HTTP]**  : entrez une URL pour déclencher les tâches de publication suivantes.
 
-(voir [Utilisation d’une tâche de téléchargement ou de publication comme déclencheur](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)).
+Voir [Utilisation d’une tâche de téléchargement ou de publication comme déclencheur](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).
 
 ## Annulation d’une tâche de publication {#canceling-a-publish-job}
 
 Vous pouvez annuler une tâche de publication en cours. Par ailleurs, si vous êtes administrateur, vous pouvez annuler une tâche de publication en cours à partir de la page des tâches de l’entreprise.
 
-Pour annuler une tâche de publication, accédez à la page Tâches et cliquez sur **[!UICONTROL Annuler]**. Dans l’onglet Planifiée de la page Tâches, vous pouvez interrompre ou reprendre une tâche en décochant/cochant la case située dans la colonne Actif de la tâche.
+Pour annuler une tâche de publication, accédez à la page Tâches et sélectionnez **[!UICONTROL Annuler]**. Dans l’onglet Planifiée de la page Tâches, vous pouvez interrompre ou reprendre une tâche en décochant/cochant la case située dans la colonne Actif de la tâche.
 
 >[!NOTE]
 >
 >après avoir annulé une tâche de publication, son état devient « Arrêt en cours » tant qu’elle n’a pas atteint un point où elle peut s’arrêter en toute sécurité. L’arrêt d’une tâche de publication peut prendre un certain temps si la récupération des données dans la base de données est en cours.
 
-## Publication manuelle de fichiers {#manually-publishing-assets}
+## Publication manuelle de ressources {#manually-publishing-assets}
 
 Vous pouvez publier des fichiers individuels manuellement au lieu de créer une tâche de publication. Lorsque vous publiez des visionneuses, comme une visionneuse d’images ou de vidéos adaptative, la visionneuse (ou « parent ») et tous les membres (ou « enfants ») dans cette visionneuse sont publiés.
 
@@ -122,11 +122,11 @@ Les ressources non publiées sont indiquées dans l’interface utilisateur par 
 
    * En mode Affichage de la grille, Affichage par liste ou Affichage des détails, utilisez les méthodes standard de sélection des fichiers pour sélectionner un ou plusieurs fichiers non publiés.
 
-      Sur la barre de navigation globale, cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Publier]**.
+      Dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Publier]**.
 
-   * En mode Grille, Liste ou Détails, cliquez sur l’icône grise ronde avec une barre oblique, à gauche du nom de la ressource.
+   * En mode Grille, Liste ou Détails, sélectionnez l’icône grise ronde avec une barre oblique, à gauche du nom de la ressource.
 
-## Annulation manuelle de la publication de fichiers {#manually-unpublishing-assets}
+## Annulation manuelle de la publication des ressources {#manually-unpublishing-assets}
 
 Vous pouvez annuler manuellement la publication de fichiers individuels. Lorsque vous annulez la publication de visionneuses, comme une visionneuse de série d’échantillons ou un catalogue électronique, la visionneuse (ou « parent ») passe à l’état non publié. Toutefois, les membres (ou « enfants ») de cette visionneuse ne sont pas affectés : ils conservent en fait leur état existant publié ou non publié.
 
@@ -138,11 +138,11 @@ Les fichiers publiés sont indiqués dans l’interface utilisateur par une icô
 
    * En mode Grille, Liste ou Détails, sélectionnez une ou plusieurs ressources publiées.
 
-      Sur la barre de navigation globale, cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Unpublish]** (« Annuler la publication »).
+      Dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Annuler la publication]**.
 
-   * En mode Affichage de la grille, Affichage par liste ou Affichage des détails, cliquez sur l’icône ronde marquée d’une coche verte située sur la gauche du nom du fichier.
+   * En mode Grille, Liste ou Détails, sélectionnez l’icône en forme de coche ronde et verte située à gauche du nom de la ressource.
 
-## Récupération de l’historique de publication d’un fichier {#getting-an-asset-s-publish-history}
+## Obtention de l’historique de publication d’une ressource {#getting-an-asset-s-publish-history}
 
 La dernière date de publication d’une ressource s’affiche dans l’affichage des détails en haut du panneau. Pour plus d’informations sur l’historique de publication, ouvrez le panneau Historique et serveurs publiés dans la vue Détails. A partir de là, vous pouvez savoir quand le fichier a été publié et vers quels serveurs.
 
@@ -156,10 +156,10 @@ Le contenu Dynamic Media Classic nouvellement publié Adobe est immédiatement d
 
 Pour mettre à disposition des fichiers récemment republiés avant ce délai de 10 heures, vous pouvez vider les caches Web sur le CDN. Ce vidage aura pour effet de supprimer l’ancien contenu des caches Web CDN et de le remplacer par les derniers fichiers publiés.
 
-Pour vider le cache, dans la barre de navigation globale, cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Invalider le CDN]**. Tous les fichiers sélectionnés sont supprimés du cache. Si aucun fichier de publication n’est disponible ou si vous n’êtes pas l’administrateur de la société, l’option Supprimer du réseau de redéfinition de contenu est désactivée.
+Pour vider le cache, dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Invalider le CDN]**. Tous les fichiers sélectionnés sont supprimés du cache. Si aucun fichier de publication n’est disponible ou si vous n’êtes pas l’administrateur de la société, l’option Supprimer du réseau de redéfinition de contenu est désactivée.
 
 >[!MORELIKETHIS]
 >
->* [Vérification de fichiers de tâche](checking-job-files.md)
->* [Edition, suppression, interruption et reprise de tâches](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
+>* [Vérification des fichiers de tâche](checking-job-files.md)
+>* [Modification, suppression, pause et reprise de tâches récurrentes](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
 

@@ -7,10 +7,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 47%
+source-wordcount: '2410'
+ht-degree: 45%
 
 ---
 
@@ -20,7 +20,7 @@ Les paramètres de la page Configuration de la publication déterminent la mani�
 
 Les administrateurs peuvent modifier les paramètres par défaut sur les pages Image Server, Image Renderer et Vignette afin de définir les paramètres par défaut de diffusion des ressources à partir des serveurs.
 
-Pour ouvrir les pages Configuration de la publication , cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]**.
+Pour ouvrir les pages Configuration de la publication , accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]**.
 
 >[!NOTE]
 >
@@ -32,28 +32,28 @@ La page Serveur d’images définit les paramètres par défaut de la diffusion 
 
 Modifiez ces paramètres uniquement avec l’aide d’une personne du service clientèle Dynamic Media Classic Adobe.
 
-* **Gestion de catalogue**  : ces paramètres déterminent la manière dont Adobe Dynamic Media Classic et le catalogue interagissent. Contrairement à la plupart des serveurs web, les appels d’URL de serveur d’images Dynamic Media sont dirigés vers un fichier manifeste ou catalogue plutôt qu’un fichier image proprement dit. Le fichier catalogue (à ne pas confondre avec un catalogue électronique) contient une liste de tous les contenus publiés sur le serveur d’images avec le chemin d’accès à chaque image. Si vous disposez d’un ID Digimarc, entrez vos informations d’utilisateur dans la section Informations d’utilisateur Digimarc.
+* **[!UICONTROL Gestion de catalogue]**  : ces paramètres déterminent la manière dont Adobe Dynamic Media Classic et le catalogue interagissent. Contrairement à la plupart des serveurs web, les appels d’URL de serveur d’images Dynamic Media sont dirigés vers un fichier manifeste ou catalogue plutôt qu’un fichier image proprement dit. Le fichier catalogue (à ne pas confondre avec un catalogue électronique) contient une liste de tous les contenus publiés sur le serveur d’images avec le chemin d’accès à chaque image. Si vous disposez d’un ID Digimarc, entrez vos informations d’utilisateur dans la section Informations d’utilisateur Digimarc.
 
-* **Attributs de requête**  : ces paramètres imposent des limites aux images qui peuvent être diffusées à partir du serveur. Par exemple, la *taille maximale* **[!UICONTROL Limite de taille de l’image de réponse]** est **[!UICONTROL Largeur]** 5000 et **[!UICONTROL Hauteur]** 5000.
+* **[!UICONTROL Attributs de requête]**  : ces paramètres imposent des limites aux images qui peuvent être diffusées à partir du serveur. Par exemple, la *taille maximale* **[!UICONTROL Limite de taille de l’image de réponse]** est **[!UICONTROL Largeur]** 5000 et **[!UICONTROL Hauteur]** 5000.
 
-* **Attributs de requête par défaut**  : ces paramètres concernent l’aspect par défaut des images.
+* **[!UICONTROL Attributs de requête par défaut]**  : ces paramètres concernent l’aspect par défaut des images.
 
-* **Attributs de miniature courants**  : ces paramètres concernent l’aspect par défaut et l’alignement des images miniatures.
+* **[!UICONTROL Attributs de miniature courants]**  : ces paramètres concernent l’aspect par défaut et l’alignement des images miniatures.
 
-* **Valeurs par défaut des champs de catalogue**  : ces paramètres concernent la résolution et le type de miniature par défaut des images.
+* **[!UICONTROL Valeurs par défaut des champs de catalogue]**  : ces paramètres concernent la résolution et le type de miniature par défaut des images.
 
-* **Attributs de gestion des couleurs**  : ces paramètres déterminent les profils de couleurs ICC utilisés.
+* **[!UICONTROL Attributs de gestion des couleurs]**  : ces paramètres déterminent les profils de couleurs ICC utilisés.
 
-* **Attributs de compatibilité**  : ce paramètre permet aux paragraphes de début et de fin des calques de texte d’être traités tels qu’ils l’étaient dans la version 3.6 à des fins de compatibilité descendante.
+* **[!UICONTROL Attributs de compatibilité]**  : ce paramètre permet aux paragraphes de début et de fin des calques de texte d’être traités tels qu’ils l’étaient dans la version 3.6 à des fins de compatibilité descendante.
 
-* **Prise en charge de la localisation**  : ces paramètres vous permettent de gérer plusieurs attributs de paramètres régionaux. Il permet également de définir une chaîne de carte de paramètres régionaux pour définir les langues à prendre en charge pour les info-bulles dans les visionneuses.
+* **[!UICONTROL Prise en charge de la localisation]*** : ces paramètres vous permettent de gérer plusieurs attributs de paramètres régionaux. Il permet également de définir une chaîne de carte de paramètres régionaux pour définir les langues à prendre en charge pour les info-bulles dans les visionneuses.
 
    Par exemple, si votre entreprise est une société multinationale qui vend dans différents pays, chaque pays peut avoir sa propre visionneuse correspondant aux paramètres régionaux. Pour accomplir cette fonctionnalité, vous spécifiez une chaîne de carte de paramètres régionaux. Vous pouvez ensuite modifier le texte d’info-bulle dans un paramètre prédéfini de la visionneuse en ajoutant les chaînes de texte traduites de la langue appropriée.
 
    >[!NOTE]
    > Pour configurer les options de prise en charge de la localisation, [utilisez le Admin Console pour créer un cas de prise en charge.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Dans votre cas d’assistance, demandez de l’aide sur la configuration.
 
-   Pour plus d’informations sur la configuration de l’**Aide à la localisation**, voir [Considérations à prendre en compte lors de la configuration de la localisation des fichiers](publish-setup.md#considerations_when_setting_up_localization_of_assets).
+   Pour plus d’informations sur la configuration de l’**[!UICONTROL Aide à la localisation]**, voir [Considérations à prendre en compte lors de la configuration de la localisation des fichiers](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
 ### Considérations à prendre en compte lors de la configuration de la localisation des fichiers {#considerations-when-setting-up-localization-of-assets}
 
@@ -90,12 +90,12 @@ Voici quelques-uns des avantages de `locale=` et `attribute::DefaultLocale` :
 #### Scénarios d’application
 
 | Application | Scénario |
-|--- |--- |
+| --- | --- |
 | Localisation de la visionneuse | Une fois les catalogues de contenu statique mis en œuvre, la localisation est entièrement contrôlée avec le paramètre locale=, qui est annexé à toutes les demandes envoyées à IS. Il peut exister des variantes spécifiques aux paramètres régionaux pour les enregistrements de configuration, habillages, écrans de démarrage, etc. Le contenu approprié est fourni par IS sans que la visionneuse doive savoir quel contenu est localisé et quels sont ses ID. |
 | Images et vidéo | Les entreprises multinationales ont généralement recours à un contenu à la fois générique et spécifique à un paramètre régional. Grâce à ce mécanisme, une référence à une image ou à une vidéo peut être générique, tandis qu’IS diffuse le contenu spécifique à un paramètre régional, s’il existe. |
-| Visionneuses d’images et visionneuses de supports | La visionneuse d’images entière peut être différente pour certains paramètres régionaux (par exemple, lorsqu’un catalogue électronique est différent), avec la traduction d’un jeu d’images générique à un jeu d’images spécifique à un paramètre régional géré par la visionneuse. Plus généralement, les identifiants individuels d’un ensemble générique peuvent faire référence à des contenus localisés. Par exemple, la plupart des photos d’un appareil peuvent être identiques dans toutes les langues, à l’exception de la photo du Panneau de Contrôle. IS traduit automatiquement les ID, si bien qu’il n’est pas nécessaire de générer des visionneuses d’images spécifiques aux paramètres régionaux. |
+| Visionneuses d’images et de médias | La visionneuse d’images entière peut être différente pour certains paramètres régionaux (par exemple, lorsqu’un catalogue électronique est différent), avec la traduction d’un jeu d’images générique à un jeu d’images spécifique à un paramètre régional géré par la visionneuse. Plus généralement, les identifiants individuels d’un ensemble générique peuvent faire référence à des contenus localisés. Par exemple, la plupart des photos d’un appareil peuvent être identiques dans toutes les langues, à l’exception de la photo du Panneau de Contrôle. IS traduit automatiquement les ID, si bien qu’il n’est pas nécessaire de générer des visionneuses d’images spécifiques aux paramètres régionaux. |
 
-#### Mise en œuvre de la localisation des fichiers
+#### Mise en oeuvre de la localisation des ressources
 
 Adobe Dynamic Media Classic et le service d’images disposent d’une interface qui permet de localiser les images et le contenu statique.
 
@@ -107,7 +107,7 @@ Avec la localisation, une URL de serveur d’images ajoute le paramètre `locale
 
 `https://server/is/image/company/image?locale=de_DE`
 
-A réception de l’appel http par le serveur d’images, le paramètre `locale=` est analysé via le champ localeMap situé dans **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]** **[!UICONTROL Serveur d’images]** **[!UICONTROL Prise en charge de la localisation]**.
+A réception de l’appel http par le serveur d’images, le paramètre `locale=` est analysé via le champ `localeMap` situé dans **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]** > **[!UICONTROL Serveur d’images]** > **[!UICONTROL Prise en charge de la localisation]** groupe.
 
 Le champ de carte de paramètres régionaux contient une liste des entrées séparées à l’aide du symbole de barre verticale (|).
 
@@ -122,18 +122,18 @@ L’application d’une valeur de suffixe ou de remplacement dépend du paramèt
 **Exemple de suffixe:**
 
 | URL | ID de localeMap | Résultat |
-|--- |--- |--- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Aucun paramètre GlobalLocale n’est défini. Le paramètre régional de_DE est trié par rapport à la première entrée dans localeMap. La première valeur _DE correspondante est ajoutée sous forme de suffixe au fichier image_DE et est recherchée sur le serveur d’images. Si elle est trouvée sur le serveur, elle est renvoyée. Dans le cas contraire, la seconde valeur “” est utilisée comme suffixe et l’image elle-même est renvoyée. |
+| --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Aucun paramètre GlobalLocale n’est défini. Le paramètre régional de_DE est trié par rapport à la première entrée dans `localeMap`. La première valeur _DE correspondante est ajoutée sous forme de suffixe au fichier image_DE et est recherchée sur le serveur d’images. Si elle est trouvée sur le serveur, elle est renvoyée. Dans le cas contraire, la seconde valeur “” est utilisée comme suffixe et l’image elle-même est renvoyée. |
 
 **Exemple de remplacement:**
 
-| URL | ID de GlobalLocale et localeMap | Résultat |
+| URL | `GlobalLocale` et  `localeMap` ID | Résultat |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | Dans l’exemple de remplacement ci-dessus, GlobalLocale est défini sur main. Le paramètre régional de_DE est trié par rapport à la première entrée dans localeMap. La sous-chaîne GlobalLocale est trouvée et remplacée par la première valeur `de` correspondante dans le paramètre localeMap : `image-de-01`. Si elle est trouvée sur le serveur d’images, elle est renvoyée. Dans le cas contraire, la seconde valeur est remplacée, ce qui donne `image-main-01`. |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | Dans l’exemple de remplacement ci-dessus, GlobalLocale est défini sur main. Le paramètre régional de_DE est trié par rapport à la première entrée dans `localeMap`. La sous-chaîne GlobalLocale est trouvée et remplacée par la première valeur `de` correspondante dans la balise `localeMap` : `image-de-01`. Si elle est trouvée sur le serveur d’images, elle est renvoyée. Dans le cas contraire, la seconde valeur est remplacée, ce qui donne `image-main-01`. |
 
 Si aucun paramètre régional n’est défini dans l’URL, le serveur d’images prend l’attribut DefaultLocale, s’il est défini, et l’applique à l’URL.
 
-Si un paramètre régional vide ou inconnu est fourni avec `locale=`, la variable localeMap est analysée pour la valeur vide &quot;commençant par&quot;. Il est important d’appliquer un paramètre régional par défaut pour les paramètres régionaux inconnus.
+Si un paramètre régional inconnu ou vide est fourni avec `locale=`, la valeur `localeMap` vide &quot;commençant par&quot; est analysée. Il est important d’appliquer un paramètre régional par défaut pour les paramètres régionaux inconnus.
 
 #### À propos de defaultImage
 
@@ -154,7 +154,7 @@ Les ID de paramètres régionaux sont associés à leurs suffixes correspondants
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,`
 
 | locale= | ID de sortie à rechercher |
-|--- |--- |
+| --- | --- |
 | en,en_us, en_uk | myImg_E,myImg |
 | de,de_de,de_at | myImg_D,myImg |
 | fr | myImg_F,myImg |
@@ -167,7 +167,7 @@ Vous pouvez associer les paramètres régionaux inconnus aux ID spécifiques ou 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,_E,`
 
 | locale= | ID de sortie à rechercher |
-|--- |--- |
+| --- | --- |
 | de,de_de,de_at | myImg_D,myImg |
 | fr | myImg_F,myImg |
 | Tous les autres | myImg_E,myImg |
@@ -189,14 +189,14 @@ Pour cet exemple, supposons que vous souhaitiez prendre en charge les collection
 `attribute::LocaleMap=w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
 | locale= | ID de sortie à rechercher |
-|--- |--- |
+| --- | --- |
 | w1, w3 | myImg-W, myImg |
 | w2 | myImg-W2, myImg-W, myImg |
 | m1 | myImg-M1, myImg-M, myImg |
 | m2 | myImg-M2, myImg-M, myImg |
 | Tous les autres | mylmg |
 
-##### Recherche de localeMap en recherchant des ID spécifiques
+##### Recherchez localeMap en recherchant des identifiants spécifiques.
 
 Certaines conventions de dénomination d’image ne prennent pas en charge les ID d’image génériques. Les ID génériques issus de la demande doivent être mappés à l’ID spécifié dans le catalogue. Cependant, il existe des cas où l’identifiant spécifique exact n’est pas connu.
 
@@ -205,7 +205,7 @@ En reprenant le premier exemple comme base, les images pour toutes les langues p
 `attribute::LocaleMap=,_1,_2,_3|fr,_22,_23,_1,_2,_3|de,_470,_480,_1,_2,_3|de_at,_470,_480,_1,_2,_3|de_de,_470,_480,_1,_2,_3`
 
 | locale= | ID de sortie à rechercher |
-|--- |--- |
+| --- | --- |
 | fr | myImg_22, myImg_23, myImg_1, myImg_2, myImg_3 |
 | de, de_at, de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
 | Tous les autres | myImg_1, myImg_2, myImg_3 |
@@ -220,15 +220,15 @@ En reprenant le premier exemple comme base, les images pour toutes les langues p
 
 La page Image Renderer définit les paramètres par défaut pour la diffusion de visionneuses d’images à partir des serveurs de rendu d’image. Les paramètres sont disponibles dans ces cinq catégories (voir la page Image Server elle-même pour obtenir des descriptions détaillées des paramètres) :
 
-* **Gestion de catalogue**  : ces paramètres déterminent la manière dont Adobe Dynamic Media Classic et le fichier de catalogue interagissent. Les appels d’URL de serveur de rendu Dynamic Media Classic Adobe sont effectués vers le catalogue, qui à son tour appelle pour diffuser des images à partir du serveur. Modifiez ces paramètres uniquement avec l’aide d’une personne du service clientèle Dynamic Media Classic Adobe.
+* **[!UICONTROL Gestion de catalogue]**  : ces paramètres déterminent la manière dont Adobe Dynamic Media Classic et le fichier de catalogue interagissent. Les appels d’URL de serveur de rendu Dynamic Media Classic Adobe sont effectués vers le catalogue, qui à son tour appelle pour diffuser des images à partir du serveur. Modifiez ces paramètres uniquement avec l’aide d’une personne du service clientèle Dynamic Media Classic Adobe.
 
-* **Attributs de session**  : ces paramètres définissent les paramètres d’erreur, l’URL des URL d’image relatives et si le recouvrement d’objet est autorisé.
+* **[!UICONTROL Attributs de session]**  : ces paramètres définissent les paramètres d’erreur, l’URL des URL d’image relatives et si le recouvrement d’objet est autorisé.
 
-* **Attributs de matière par défaut**  : ces paramètres définissent les paramètres de résolution et d’accentuation par défaut des images.
+* **[!UICONTROL Attributs de matière par défaut]**  : ces paramètres définissent les paramètres de résolution et d’accentuation par défaut des images.
 
-* **Attributs d’image de réponse**  : ces paramètres concernent l’aspect par défaut des images.
+* **[!UICONTROL Attributs d’image de réponse]**  : ces paramètres concernent l’aspect par défaut des images.
 
-* **Attributs de gestion des couleurs**  : ces paramètres concernent les paramètres de couleurs par défaut des images.
+* **[!UICONTROL Attributs de gestion des couleurs]**  : ces paramètres concernent les paramètres de couleurs par défaut des images.
 
 ## Vignette {#vignette}
 

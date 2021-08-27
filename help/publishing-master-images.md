@@ -1,6 +1,6 @@
 ---
 title: Publication des images originales
-description: Découvrez comment publier des images originales.
+description: Découvrez comment publier des images originales à partir d’Adobe Dynamic Media Classic.
 uuid: b56ba79a-f89a-45f1-a8bb-c73a22eab8d4
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 22%
+source-wordcount: '163'
+ht-degree: 6%
 
 ---
 
@@ -25,11 +25,11 @@ Lorsque vous publiez vos fichiers image, ils sont publiés sur les serveurs d’
 
 Les images de Principal doivent être marquées pour publication afin d’être copiées vers les serveurs d’images Dynamic Media. Vous pouvez marquer vos images originales pour publication dans le panneau de navigation en cliquant sur l’icône **[!UICONTROL Marquer pour publication]**. Vous pouvez également marquer les images pour publication lorsque vous les chargez dans Adobe Dynamic Media Classic.
 
-## Publication de vos images originales {#publishing-your-master-images}
+## Publier les images originales {#publishing-your-master-images}
 
-1. Sur la barre de navigation générale, cliquez sur **[!UICONTROL Publier]**, Dans la boîte de dialogue Publier, sélectionnez une option Lorsque (**[!UICONTROL Unique]** ou **[!UICONTROL Récurrente]**), puis saisissez éventuellement un nom pour la tâche de publication.
+1. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**. Dans la boîte de dialogue Publier, sélectionnez une option Lorsque (**[!UICONTROL Unique]** ou **[!UICONTROL Récurrente]**), puis saisissez éventuellement un nom pour la tâche de publication.
 
-1. Cliquez sur **[!UICONTROL Lancer public.]**
+1. Sélectionnez **[!UICONTROL Envoyer la publication]**.
 
 >[!NOTE]
 >
@@ -37,5 +37,5 @@ Les images de Principal doivent être marquées pour publication afin d’être 
 
 >[!MORELIKETHIS]
 >
->* [Publication](publishing-files.md#publishing_files)
+>* [Publication de fichiers](publishing-files.md#publishing_files)
 

@@ -9,7 +9,7 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 42%
@@ -31,7 +31,7 @@ Pour créer un paramètre prédéfini de visionneuse de catalogue électronique 
 
    * **Création d’un paramètre prédéfini de visionneuse de catalogue électronique**  - Cliquez sur  **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plateforme, sélectionnez Visionneuse de catalogue électronique, puis cliquez sur **[!UICONTROL Ajouter]**.
 
-   * **Modification d’un paramètre prédéfini de visionneuse de catalogue électronique**  : sélectionnez un paramètre prédéfini de visionneuse de catalogue électronique, puis cliquez sur Modifier. Cliquez sur **[!UICONTROL Enregistrer sous]** une fois le paramètre prédéfini créé.
+   * **Modification d’un paramètre prédéfini de visionneuse de catalogue électronique**  : sélectionnez un paramètre prédéfini de visionneuse de catalogue électronique, puis cliquez sur  **[!UICONTROL Modifier]**. Cliquez sur **[!UICONTROL Enregistrer sous]** une fois le paramètre prédéfini créé.
 
 1. Dans l’écran Configurer la visionneuse, saisissez le nom à attribuer à votre paramètre prédéfini de visionneuse de catalogue électronique.
 1. Dans l’écran Configurer la visionneuse, définissez les options de votre choix.

@@ -1,6 +1,6 @@
 ---
 title: Publication de catalogues électroniques et de fichiers PDF associés
-description: Découvrez comment publier des catalogues électroniques et des fichiers PDF associés.
+description: Découvrez comment publier des catalogues électroniques et des fichiers PDF associés à partir d’Adobe Dynamic Media Classic.
 uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 26%
+source-wordcount: '192'
+ht-degree: 21%
 
 ---
 
@@ -27,15 +27,15 @@ La publication place votre catalogue électronique et votre PDF sur les serveurs
 
 **Pour publier des catalogues électroniques et des fichiers PDF associés :**
 
-1. Sur la barre de navigation générale, cliquez sur **[!UICONTROL Publier]**, 
-1. Dans l’écran Publier, cliquez sur **[!UICONTROL Unique]** ou **[!UICONTROL Récurrent]**.
+1. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**.
+1. Dans l’écran Publier, sélectionnez **[!UICONTROL Unique]** ou **[!UICONTROL Récurrente]**.
 1. (Facultatif) Dans le champ Nom de la tâche, saisissez un nom pour la tâche de publication, mais conservez le texte de date et d’heure prédéfini.
 
-   Si vous configurez vos catalogues électroniques de manière à permettre aux utilisateurs d’effectuer des recherches par mot-clé, assurez-vous que les mots-clés sont publiés. Dans la boîte de dialogue Publier, cliquez sur **[!UICONTROL Avancé]**. Dans le menu déroulant **[!UICONTROL Publier]**, cliquez sur **[!UICONTROL Complet avec données de recherche]**. Cette option est sélectionnée par défaut.
+   Si vous configurez vos catalogues électroniques de manière à permettre aux utilisateurs d’effectuer des recherches par mot-clé, assurez-vous que les mots-clés sont publiés. Dans la boîte de dialogue Publier, sélectionnez **[!UICONTROL Avancé]**. Dans le menu déroulant **[!UICONTROL Publier]**, sélectionnez **[!UICONTROL Complet avec données de recherche]**. Cette option est sélectionnée par défaut.
 
-1. Cliquez sur ****[!UICONTROL Lancer public.]****
+1. Cliquez sur **[!UICONTROL Lancer public.]**
 
 >[!MORELIKETHIS]
 >
->* [Publication](publishing-files.md)
+>* [Publication de fichiers](publishing-files.md)
 
