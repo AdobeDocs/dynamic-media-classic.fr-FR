@@ -1,6 +1,6 @@
 ---
 title: Utilisation de fichiers PostScript et Illustrator
-description: Découvrez comment utiliser des fichiers PostScript et Illustrator.
+description: Découvrez comment utiliser des fichiers PostScript et Illustrator dans Adobe Dynamic Media Classic.
 uuid: 36dee172-8bd4-45a9-820b-c2ca319edf20
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: c04c1331-8d94-449b-9693-1488c94084dc
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 43%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,18 +23,18 @@ Vous pouvez utiliser des fichiers Adobe PostScript® (EPS) et Adobe® Illustrato
 
 Lorsque vous téléchargez des fichiers d’image PostScript (EPS) ou Illustrator (AI), vous pouvez les formater différemment. Vous pouvez pixelliser les fichiers, les convertir au format FXG pour le module de publication à l’aide de modèles prédéfinis, conserver l’arrière-plan transparent, choisir une résolution et sélectionner un espace colorimétrique. Les options de formatage des fichiers PostScript et Illustrator sont disponibles dans les sections Options PostScript et Options Illustrator de la boîte de dialogue Télécharger les options de la tâche. 
 
-* **Traitement**  : choisissez  **** Pixelliser pour convertir les graphiques vectoriels du fichier au format bitmap.
+* **[!UICONTROL Traitement]**  : choisissez  **** Pixelliser pour convertir les graphiques vectoriels du fichier au format bitmap.
 
-* **Conserver l’arrière-plan transparent dans l’image**  affichée : conserve la transparence en arrière-plan du fichier.
+* **[!UICONTROL Conserver l’arrière-plan transparent dans l’image]**  affichée : conserve la transparence en arrière-plan du fichier.
 
-* **Résolution**  : détermine le paramètre de résolution. qui définit le nombre de pixels affichés par pouce dans le fichier.
+* **[!UICONTROL Résolution]**  : détermine le paramètre de résolution. qui définit le nombre de pixels affichés par pouce dans le fichier.
 
-* **Espace colorimétrique**  : sélectionnez l’espace  **[!UICONTROL colorimétrique]** et choisissez un espace colorimétrique :
+* **[!UICONTROL Espace colorimétrique]**  : sélectionnez l’espace  **[!UICONTROL colorimétrique]** et choisissez un espace colorimétrique :
 
-   * **Détecter automatiquement**  : conserve l’espace colorimétrique du fichier.
+   * **[!UICONTROL Détecter automatiquement]**  : conserve l’espace colorimétrique du fichier.
 
-   * **Forcer comme RVB**  : convertit l’espace colorimétrique RVB.
+   * **[!UICONTROL Forcer comme RVB]**  : convertit l’espace colorimétrique RVB.
 
-   * **Forcer comme CMJN**  : convertit l’espace colorimétrique CMJN.
+   * **[!UICONTROL Forcer comme CMJN]**  : convertit l’espace colorimétrique CMJN.
 
-   * **Forcer comme Niveaux de gris**  : convertit l’espace colorimétrique Niveaux de gris.
+   * **[!UICONTROL Forcer comme Niveaux de gris]**  : convertit l’espace colorimétrique Niveaux de gris.

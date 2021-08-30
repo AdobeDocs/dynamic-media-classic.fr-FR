@@ -1,23 +1,23 @@
 ---
-title: Prévisualisation d’un fichier
-description: Découvrez comment prévisualiser une ressource.
+title: Aperçu d’une ressource
+description: Découvrez comment prévisualiser une ressource dans Adobe Dynamic Media Classic.
 uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
-feature: Dynamic Media Classic,Gestion des ressources,Visionneuses
+feature: Dynamic Media Classic,Asset Management,Viewers
 role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 56%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Prévisualisation d’un fichier{#previewing-an-asset}
+# Aperçu d’une ressource{#previewing-an-asset}
 
 Vous pouvez utiliser l’aperçu pour afficher une ressource numérique lorsqu’elle est visualisée par un client. Elle utilise la visionneuse par défaut qui a été attribuée au fichier. Les visionneuses par défaut sont configurées dans Configuration de l’application.
 
@@ -32,16 +32,16 @@ Voir aussi [Exemples de bibliothèques de références des visionneuses d’Adob
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier de fichiers qui contient le fichier à prévisualiser.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage de la grille]**.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage de la liste]**.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage des détails]**.
+   * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage de la grille]**.
+   * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Mode Liste]**.
+   * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage des détails]**.
 
 1. Selon la vue que vous utilisez, effectuez l’une des opérations suivantes :
 
-   * Dans la fenêtre Ressource du mode Grille ou Liste, sélectionnez une seule ressource, puis cliquez sur **[!UICONTROL Aperçu]** près de l’image miniature.
-   * Dans la barre d’outils située au-dessus de la fenêtre Ressources des modes Grille, Liste ou Détails, cliquez sur **[!UICONTROL Aperçu]**.
+   * Dans la fenêtre Ressource du mode Grille ou Liste, sélectionnez une seule ressource, puis **[!UICONTROL Aperçu]** près de l’image miniature.
+   * Dans la barre d’outils située au-dessus de la fenêtre Ressources des modes Grille, Liste ou Détails, sélectionnez **[!UICONTROL Aperçu]**.
 
-## Prévisualisation d’un fichier selon le type de plate-forme de la visionneuse {#previewing-an-asset-based-on-viewer-platform-type}
+## Prévisualiser une ressource en fonction du type de plate-forme de la visionneuse {#previewing-an-asset-based-on-viewer-platform-type}
 
 La fonction Liste des visionneuses vous permet d’avoir une idée du rendu d’un fichier sur telle ou telle plateforme de visionneuse, HTML5 par exemple. Notez que la fonction Liste des visionneuses ne contient pas toutes les plates-formes selon le type de fichier et la visionneuse sélectionnés.
 
@@ -54,31 +54,31 @@ Pour une plate-forme de visionneuse donnée, la fenêtre Liste des visionneuses 
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier de fichiers qui contient le fichier à prévisualiser.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage de la grille]**. Dans la fenêtre Ressource, sélectionnez une seule ressource, puis sous l’image miniature, cliquez sur **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage de la liste]**. Dans la fenêtre Ressource, sélectionnez une seule ressource, puis à droite de l’image miniature, cliquez sur **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, cliquez sur **[!UICONTROL Prévisualiser]** > **[!UICONTROL Liste des visionneuses]**.
+   * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage de la grille]**. Dans la fenêtre Ressource, sélectionnez une seule ressource, puis sous l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Mode Liste]**. Dans la fenêtre Ressource, sélectionnez une seule ressource, puis, à droite de l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
-1. (Facultatif) Dans la fenêtre Liste des visionneuses, puis cliquez sur l’en-tête de la colonne **[!UICONTROL Nom]** ou **[!UICONTROL Type de plate-forme]** pour trier la colonne par ordre croissant ou décroissant.
-1. Dans la fenêtre Liste des visionneuses, sous la colonne Actions du tableau, cliquez sur **[!UICONTROL Aperçu]** pour voir comment la ressource apparaît pour une visionneuse et un type de plateforme sélectionnés.
+1. (Facultatif) Dans la fenêtre Liste des visionneuses, sélectionnez l’en-tête de colonne **[!UICONTROL Nom]** ou **[!UICONTROL Type de plateforme]** pour trier la colonne par ordre croissant ou décroissant.
+1. Dans la fenêtre Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Aperçu]** pour voir comment la ressource apparaît pour une visionneuse et un type de plateforme sélectionnés.
 
    Fermez l’aperçu affiché.
 
 1. (Facultatif) Sur la fenêtre Liste des visionneuses, dans la liste déroulante Codage de l’URL pour la génération de copies d’URL située dans la partie inférieure, sélectionnez le codage URL que vous souhaitez appliquer à l’URL du fichier lorsqu’elle est copiée.
 1. (Facultatif) Utilisez l’une des méthodes suivantes :
 
-   * Dans la fenêtre Liste des visionneuses, sous la colonne Actions du tableau, cliquez sur **[!UICONTROL Copier l’URL]** pour une visionneuse et un type de plateforme sélectionnés.
+   * Dans la fenêtre Liste des visionneuses, dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]** pour une visionneuse et un type de plateforme sélectionnés.
 
-      Lorsque vous cliquez sur **[!UICONTROL Copier l’URL]**, l’URL associée est automatiquement copiée dans le Presse-papiers.
+      Lorsque vous sélectionnez **[!UICONTROL Copier l’URL]**, l’URL associée est automatiquement copiée dans le Presse-papiers.
 
-   * Dans la fenêtre Liste des visionneuses, sous la colonne Actions du tableau, cliquez sur **[!UICONTROL Code incorporé]**.
+   * Dans la fenêtre Liste des visionneuses, dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 
-      Lorsque vous cliquez sur **[!UICONTROL Code incorporé]**, la fenêtre Code incorporé s’ouvre dans laquelle vous pouvez consulter le code de la visionneuse. Vous ne pouvez pas modifier le code dans cette fenêtre. Vous pouvez également copier le code dans le Presse-papiers ; vous pouvez ainsi le coller dans vos pages Web.
+      Lorsque vous sélectionnez **[!UICONTROL Code incorporé]**, la fenêtre Code incorporé s’ouvre dans laquelle vous pouvez consulter le code de la visionneuse. Vous ne pouvez pas modifier le code dans cette fenêtre. Vous pouvez également copier le code dans le Presse-papiers ; vous pouvez ainsi le coller dans vos pages Web.
 
       Fermez l’aperçu affiché.
 
-1. Dans le coin inférieur droit de la fenêtre Liste des visionneuses, cliquez sur **[!UICONTROL Fermer]** pour revenir à l’écran Ressources.
+1. Dans le coin inférieur droit de la fenêtre Liste des visionneuses, sélectionnez **[!UICONTROL Fermer]** pour revenir à l’écran Ressources.
 
-## Prévisualisation d’un fichier d’image en fonction de son paramètre d’image prédéfini {#previewing-an-image-asset-based-on-its-image-preset}
+## Prévisualiser une ressource d’image en fonction de son paramètre d’image prédéfini {#previewing-an-image-asset-based-on-its-image-preset}
 
 Vous pouvez prévisualiser un fichier d’image en fonction de son paramètre d’image prédéfini afin d’avoir une idée du rendu de l’image lorsqu’elle sera dynamiquement diffusée dans votre site Web ou votre application, à des tailles différentes.
 
@@ -93,14 +93,14 @@ Voir [Création et activation des paramètres d’image prédéfinis](creating-e
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient le fichier d’image à prévisualiser.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage de la grille]**. Dans la fenêtre Ressource , sélectionnez une seule ressource image, puis sous l’image miniature, cliquez sur **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des paramètres d’image prédéfinis]**.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage de la liste]**. Dans la fenêtre Ressource , sélectionnez une seule ressource image, puis à droite de l’image miniature, cliquez sur **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des paramètres d’image prédéfinis]**.
-   * Au-dessus de la fenêtre Fichiers, dans la partie droite de la barre d’outils, cliquez sur **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, cliquez sur **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des paramètres d’image prédéfinis]**.
+   * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage de la grille]**. Dans la fenêtre Ressource , sélectionnez une seule ressource image, puis sous l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des paramètres d’image prédéfinis]**.
+   * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Mode Liste]**. Dans la fenêtre Ressource , sélectionnez une seule ressource image, puis, à droite de l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des paramètres d’image prédéfinis]**.
+   * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des paramètres d’image prédéfinis]**.
 
 1. Dans la fenêtre Liste des paramètres prédéfinis de l’image, sélectionnez, dans le tableau, le nom du type de paramètre prédéfini dont vous souhaitez prévisualiser le fichier d’image en ligne, dans le volet droit.
 1. (Facultatif) Dans la fenêtre Liste des paramètres d’image prédéfinis, dans la liste déroulante **[!UICONTROL Codage URL pour la génération d’URL de copie]** située en bas, sélectionnez le codage d’URL à appliquer à l’URL de la ressource d’image lorsqu’elle est copiée.
-1. (Facultatif) Dans la fenêtre Liste des paramètres d’image prédéfinis, dans la zone supérieure droite du volet d’aperçu, cliquez sur **[!UICONTROL Copier l’URL]** pour le type de paramètre prédéfini sélectionné.
+1. (Facultatif) Dans la fenêtre Liste des paramètres d’image prédéfinis, dans la zone supérieure droite du volet d’aperçu, sélectionnez **[!UICONTROL Copier l’URL]** pour le type de paramètre prédéfini sélectionné.
 
-   Lorsque vous cliquez sur **[!UICONTROL Copier l’URL]**, l’URL associée est automatiquement copiée dans le Presse-papiers.
+   Lorsque vous sélectionnez **[!UICONTROL Copier l’URL]**, l’URL associée est automatiquement copiée dans le Presse-papiers.
 
-1. Dans le coin inférieur droit de la fenêtre Liste des paramètres d’image prédéfinis, cliquez sur **[!UICONTROL Fermer]** pour revenir à l’écran Ressources.
+1. Dans le coin inférieur droit de la fenêtre Liste des paramètres d’image prédéfinis, sélectionnez **[!UICONTROL Fermer]** pour revenir à l’écran Ressources.

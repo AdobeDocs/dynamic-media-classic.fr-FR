@@ -1,6 +1,6 @@
 ---
-title: Préparation du téléchargement de fichiers de série d’échantillons
-description: Découvrez comment préparer le chargement de ressources de série d’échantillons.
+title: Préparation du chargement de ressources de série d’échantillons
+description: Découvrez comment préparer le chargement de ressources de visionneuse d’échantillons dans Adobe Dynamic Media Classic.
 uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 90216519-4b14-4f8b-8e72-3d7ce9ec89ff
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Préparation du téléchargement de fichiers de série d’échantillons{#preparing-swatch-set-assets-for-upload}
+# Préparation du chargement de ressources de série d’échantillons{#preparing-swatch-set-assets-for-upload}
 
 Avant de télécharger les images dont vous avez besoin, assurez-vous que leur taille et leur format sont corrects. Assemblez également les fichiers d’échantillons nécessaires.
 
@@ -28,9 +28,9 @@ Pour créer une série d’échantillons, vous devez utiliser des vignettes ou d
 
 Etant donné qu’il est possible d’effectuer un zoom sur les images des séries d’échantillons, vérifiez que la dimension la plus grande des images correspond au moins à 2 000 pixels. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichier image, mais les formats sans perte TIFF, PNG et EPS sont recommandés.
 
-Pour des instructions détaillées sur le téléchargement des fichiers, voir [Téléchargement de fichiers](uploading-files.md#uploading_files).
+Pour obtenir des instructions détaillées sur le chargement de ressources, voir [Chargement de fichiers](uploading-files.md#uploading_files).
 
 >[!MORELIKETHIS]
 >
->* [Utilisation de fichiers de vignettes, de garnitures de fenêtre et de meubles](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [Utilisation de fichiers de vignette, de vitrine et d’armoire](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 
