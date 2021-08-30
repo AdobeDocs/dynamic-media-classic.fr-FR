@@ -1,6 +1,6 @@
 ---
-title: Configuration - Notions élémentaires
-description: Découvrez comment utiliser l’écran Configuration pour saisir vos paramètres personnels. Si vous êtes administrateur, vous pouvez configurer les paramètres de votre entreprise.
+title: 'Configuration - Notions élémentaires '
+description: Découvrez comment utiliser l’écran Configuration pour entrer vos paramètres personnels dans Adobe Dynamic Media Classic. Si vous êtes administrateur, vous pouvez configurer les paramètres de votre entreprise.
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 23%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Configuration - Notions élémentaires{#setup-basics}
 
-Utilisez la page Configuration d’Adobe Dynamic Media Classic pour saisir vos paramètres personnels. Si vous êtes administrateur, vous pouvez configurer les paramètres de votre entreprise. Pour ouvrir une page Configuration, dans la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]**.
+Utilisez la page Configuration d’Adobe Dynamic Media Classic pour saisir vos paramètres personnels. Si vous êtes administrateur, vous pouvez configurer les paramètres de votre entreprise. Pour ouvrir une page Configuration, dans la barre de navigation globale, sélectionnez **[!UICONTROL Configuration]**.
 
 Les paramètres disponibles sur cette page dépendent de votre statut d’utilisateur ou d’administrateur :
 

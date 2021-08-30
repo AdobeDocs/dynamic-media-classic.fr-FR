@@ -10,7 +10,7 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -95,9 +95,9 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## E-mail
 
-* ****[!UICONTROL Options de courrier électronique]****  : choisissez la manière dont vous souhaitez qu’Adobe Dynamic Media Classic vous informe par courrier électronique lorsque les tâches de téléchargement et de publication sont terminées. Vous pouvez recevoir des avis de fin de travaux uniquement si des avertissements ou des erreurs se sont produits.
-* ****[!UICONTROL Domaine de l’e-mail]****  : détermine si vous recevez tous les e-mails de tâche pour votre entreprise ou uniquement des e-mails concernant les tâches de téléchargement et de publication que vous lancez.
-* ****[!UICONTROL Types de courrier électronique]****  : détermine si vous êtes informé lorsque les tâches de téléchargement et de publication sont terminées.
+* **[!UICONTROL Options de courrier électronique]**  : choisissez la manière dont vous souhaitez qu’Adobe Dynamic Media Classic vous informe par courrier électronique lorsque les tâches de téléchargement et de publication sont terminées. Vous pouvez recevoir des avis de fin de travaux uniquement si des avertissements ou des erreurs se sont produits.
+* **[!UICONTROL Domaine de l’e-mail]**  : détermine si vous recevez tous les e-mails de tâche pour votre entreprise ou uniquement des e-mails concernant les tâches de téléchargement et de publication que vous lancez.
+* **[!UICONTROL Types de courrier électronique]**  : détermine si vous êtes informé lorsque les tâches de téléchargement et de publication sont terminées.
 
 ## Langue
 

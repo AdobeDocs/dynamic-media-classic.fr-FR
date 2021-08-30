@@ -11,10 +11,10 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 6ed77dbc14b0b1f62f119b7ceb0ada21679781c1
 workflow-type: tm+mt
-source-wordcount: '3893'
-ht-degree: 69%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,9 +84,9 @@ Voir [Paramètres prédéfinis de codage de vidéo pour ordinateur de bureau](ap
 1. Dans la boîte de dialogue Retraiter les ressources, développez **[!UICONTROL Options eVideo]**, puis effectuez l’une des opérations suivantes :
    * Il est conseillé d’utiliser la méthode suivante. Sélectionnez **Vidéo adaptative**.
 Voir [Vidéo adaptative (par défaut)](application-setup.md#adaptive-video-default).
-   * Facultatif. Si vous souhaitez utiliser des paramètres de codage individuels, développez ****[!UICONTROL Paramètres prédéfinis de codage uniques]****, puis sélectionnez les options de codage souhaitées pour Bureau, Mobile et Tablette.
+   * Facultatif. Si vous souhaitez utiliser des paramètres de codage individuels, développez **[!UICONTROL Paramètres prédéfinis de codage uniques]**, puis sélectionnez les options de codage souhaitées pour Bureau, Mobile et Tablette.
 Voir [Paramètres prédéfinis de codage de vidéo pour ordinateur de bureau](application-setup.md#desktop-video-encoding-presets), [Paramètres prédéfinis de codage vidéo pour périphérique mobile](application-setup.md#mobile-video-encoding-presets), [Paramètres prédéfinis de codage vidéo pour tablette](application-setup.md#tablet-video-encoding-presets).
-1. Dans la boîte de dialogue Retraitement des fichiers, cliquez sur **[!UICONTROL Envoyer]**.
+1. Dans la boîte de dialogue Retraiter les ressources, sélectionnez **[!UICONTROL Submit]**.
 
 Lorsque vous utilisez un paramètre prédéfini de codage de vidéo adaptative ou si vous utilisez plusieurs paramètres prédéfinis de codage uniques, une visionneuse de vidéos adaptative est automatiquement créée avec plusieurs codages vidéo. Vous pouvez également créer manuellement une visionneuse de vidéos adaptative en choisissant des vidéos individuelles.
 
@@ -140,7 +140,7 @@ Lorsque vous codez un fichier vidéo, utilisez un fichier vidéo source ayant la
 Le tableau suivant décrit la taille recommandée, les proportions et le débit minimal requis par vos fichiers vidéo sources lorsque vous les codez :
 
 | Taille | Format | Débit minimum |
-|--- |--- |--- |
+| --- | --- | --- |
 | 1024 x 768 | 4:3 | 4 500 Kbits/s pour la plupart des vidéos. |
 | 1280 x 720 | 16:9 | 3 000 à 6 000 Kbits/s, selon la quantité de mouvement dans la vidéo. |
 | 1920 x 1080 | 16:9 | 6 000 à 8 000 Kbits/s, selon la quantité de mouvement dans la vidéo. |
@@ -149,7 +149,7 @@ Le tableau suivant décrit la taille recommandée, les proportions et le débit 
 
 Vous pouvez obtenir les métadonnées d’un fichier en les affichant dans Adobe Dynamic Media Classic, à l’aide d’un outil de modification vidéo ou d’une application conçue pour obtenir des métadonnées. Voici les instructions d’utilisation de MediaInfo, une application tierce permettant d’extraire les métadonnées d’un fichier vidéo :
 
-1. Accédez à cette page web : [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
+1. Accédez à cette page web : [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
 1. Sélectionnez et téléchargez le programme d’installation pour la version interface graphique utilisateur, puis suivez les instructions d’installation.
 1. Après l’installation, cliquez avec le bouton droit sur le fichier vidéo (Windows® uniquement) et sélectionnez MediaInfo, ou ouvrez MediaInfo et faites glisser votre fichier vidéo dans l’application. Toutes les métadonnées de votre fichier vidéo, telles que sa largeur, sa hauteur et le nombre d’images par seconde, sont alors visibles à l’écran. 
 

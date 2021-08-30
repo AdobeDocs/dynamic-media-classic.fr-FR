@@ -10,10 +10,10 @@ discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 48%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Dynamic Media Classic offre de nombreux outils pour créer des médias ric
 * **Catalogues électroniques**  : présente une version web interactive et compatible avec la recherche de votre catalogue ou de tout autre document imprimé. Créez des zones cliquables affichant du contenu de survol, et autorisez les clients à tourner les pages, zoomer, effectuer un panoramique ou encore ajouter des pense-bêtes à des pages (voir [Démarrage rapide : Catalogues électroniques](/help/quick-start-ecatalog.md)).
 
 * **eVideo**  : diffuser des expériences vidéo de haute qualité sur plusieurs écrans, y compris des ordinateurs de bureau, des appareils mobiles et des tablettes. Utilisez des paramètres prédéfinis de codage Dynamic Media Classic Adobe prédéfinis ou personnalisez le codage pour contrôler la qualité et la taille de la vidéo. Organiser, parcourir et effectuer des recherches dans la vidéo avec une prise en charge complète des métadonnées pour une gestion efficace des fichiers vidéo.
-(voir [Démarrage rapide : eVideo](/help/quick-start-video.md)).
+Voir [Démarrage rapide : Vidéo dans Adobe Dynamic Media Classic](/help/quick-start-video.md).
 
 * **Cartes d’images**  : diffusez dynamiquement les images à n’importe quelle taille et format sur l’ensemble de votre site web. Plutôt que de créer manuellement de nombreuses images de différentes tailles, utilisez une seule image originale. À mesure qu’Adobe Dynamic Media Classic diffuse l’image demandée, il l’optimise pour obtenir des résultats de qualité optimale en termes de taille, format, poids, qualité et accentuation.
 (voir [Démarrage rapide : Dimensionnement des images](/help/quick-start-image-sizing.md)).

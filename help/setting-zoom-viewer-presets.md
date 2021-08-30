@@ -1,6 +1,6 @@
 ---
 title: Configuration des paramètres prédéfinis de la visionneuse de zoom
-description: Découvrez comment configurer les paramètres prédéfinis de la visionneuse de zoom.
+description: Découvrez comment configurer les paramètres prédéfinis de la visionneuse de zoom dans Adobe Dynamic Media Classic.
 uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 52%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,25 +45,25 @@ Adobe Dynamic Media Classic recommande les paramètres suivants pour les paramè
 
 ## Création et modification de paramètres prédéfinis de la visionneuse de zoom {#creating-and-editing-zoom-viewer-presets}
 
-1. Dans la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
+1. Dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 1. Effectuez l’une des opérations suivantes :
 
-   * **Création d’un paramètre prédéfini**  - Cliquez sur  **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plateforme, choisissez une visionneuse de zoom, puis cliquez sur **[!UICONTROL Ajouter]**. Saisissez un nom pour le paramètre prédéfini dans la zone Nom du paramètre prédéfini .
+   * **Créer un paramètre prédéfini**  : sélectionnez  **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plateforme, choisissez une visionneuse de zoom, puis sélectionnez **[!UICONTROL Ajouter]**. Saisissez un nom pour le paramètre prédéfini dans la zone Nom du paramètre prédéfini .
 
-   * **Modification d’un paramètre prédéfini**  : sélectionnez un paramètre prédéfini de la visionneuse de zoom, puis cliquez sur  **[!UICONTROL Modifier]**.
+   * **Modifier un paramètre prédéfini**  : sélectionnez un paramètre prédéfini de la visionneuse de zoom, puis sélectionnez  **[!UICONTROL Modifier]**.
 
 1. Spécifiez les paramètres de votre choix.
 
-   Pour voir la description d’une option, cliquez sur l’icône **[!UICONTROL Conseil d’information]** en regard de l’option.
+   Pour afficher la description d’une option, cliquez sur l’icône **[!UICONTROL Conseil d’information]** en regard de l’option.
 
    La page Aperçu affiche la visionneuse au fur et à mesure que vous mettez à jour et modifiez les paramètres.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** ou sur **[!UICONTROL Enregistrer sous]**.
-1. Sur la page Paramètres prédéfinis de la visionneuse, examinez le paramètre prédéfini de la visionneuse de zoom ou le paramètre prédéfini de la visionneuse de zoom guidé que vous avez créé. Si un ajustement est nécessaire, cliquez sur **[!UICONTROL Modifier]**, modifiez les paramètres sur la page Configurer la visionneuse, puis cliquez sur ****[!UICONTROL Enregistrer]****.
+1. Sélectionnez **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer sous]**.
+1. Sur la page Paramètres prédéfinis de la visionneuse, examinez le paramètre prédéfini de la visionneuse de zoom ou le paramètre prédéfini de la visionneuse de zoom guidé que vous avez créé. Si un ajustement est nécessaire, sélectionnez **[!UICONTROL Modifier]**, modifiez les paramètres sur la page Configurer la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
 Pour plus d’informations sur la gestion des paramètres prédéfinis de visionneuse sur l’écran Paramètres prédéfinis de la visionneuse, voir [Paramètres prédéfinis de visionneuse](application-setup.md#viewer_presets).
 
 >[!MORELIKETHIS]
 >
->* [Création et modification de paramètres prédéfinis de la visionneuse](application-setup.md#adding_and_editing_viewer_presets)
+>* [Création et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets)
 

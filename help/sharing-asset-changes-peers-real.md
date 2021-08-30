@@ -1,6 +1,6 @@
 ---
-title: Partage de modifications de fichier en temps réel avec des pairs
-description: Découvrez comment partager des modifications de ressources avec des pairs en temps réel.
+title: Partage des modifications de ressources avec des pairs en temps réel
+description: Découvrez comment partager des modifications de ressources avec des pairs en temps réel dans Adobe Dynamic Media Classic.
 uuid: 13fa4f6e-66bf-4682-96a9-0e7040706f53
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 feature: Dynamic Media Classic,Asset Management,Collaboration
 role: Admin,User
 exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 50%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Partage de modifications de fichier en temps réel avec des pairs{#sharing-asset-changes-with-peers-in-real-time}
+# Partage des modifications de ressources avec des pairs en temps réel{#sharing-asset-changes-with-peers-in-real-time}
 
-Avec plusieurs copies d’Adobe Dynamic Media Classic exécutées sur un ou plusieurs ordinateurs de la même société, les actions suivantes de n’importe quel client Dynamic Media Classic d’Adobe sont mises à jour en temps réel avec tous les clients pairs :
+Avec plusieurs copies d’Adobe Dynamic Media Classic exécutées sur plusieurs ordinateurs de la même société, les actions suivantes de n’importe quel client Dynamic Media Classic d’Adobe sont mises à jour en temps réel avec tous les clients pairs :
 
 * Modification d’une ressource (créateur, éditeur d’image, etc.)
 * Modification du nom d’un fichier

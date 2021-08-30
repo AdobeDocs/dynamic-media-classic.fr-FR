@@ -1,6 +1,6 @@
 ---
-title: Définition d’options d’exportation disponibles pour les utilisateurs du portail multimédia
-description: Découvrez comment spécifier les options d’exportation disponibles pour les utilisateurs de Media Portal.
+title: Définition d’options d’exportation disponibles pour les utilisateurs de Media Portal
+description: Découvrez comment spécifier des options d’exportation disponibles pour les utilisateurs du portail multimédia dans Adobe Dynamic Media Classic.
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
@@ -9,14 +9,14 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Définition d’options d’exportation disponibles pour les utilisateurs du portail multimédia {#specifying-export-options-available-to-media-portal-users}
+# Définition d’options d’exportation disponibles pour les utilisateurs de Media Portal {#specifying-export-options-available-to-media-portal-users}
 
 Sous réserve que l’administrateur les y autorise, les utilisateurs du portail multimédia peuvent reformater des images lors de leur exportation. Par exemple, il est possible de modifier la taille et le format du fichier, ainsi que la qualité de l’image. Le reformatage automatique des images au cours de l’exportation évite d’avoir à effectuer cette opération séparément, ce qui permet de gagner du temps. De plus, les administrateurs peuvent créer un paramètre prédéfini, c’est-à-dire une sélection préétablie de paramètres de format d’image. Vous pouvez ainsi utiliser un paramètre prédéfini lors de l’exportation d’images afin de les reformater selon les spécifications de l’entreprise.
 
@@ -29,7 +29,7 @@ Voir aussi [Exportation de ressources à partir d’Adobe Dynamic Media Classic]
 
 **Pour définir les options d’exportation disponibles pour les utilisateurs du portail multimédia:**
 
-1. Dans la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres d’image prédéfinis]**.
+1. Dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres d’image prédéfinis]**.
 1. Dans la fenêtre Paramètres d’image prédéfinis, sélectionnez l’une des options suivantes :
 
    * **Activer la conversion définie par l’utilisateur**  : lorsque cette option est sélectionnée, les utilisateurs peuvent choisir d’autres éléments dans la liste  **** déroulante Taille de la fenêtre Exporter les ressources sélectionnées. Les utilisateurs peuvent ensuite choisir une unité de mesure, pixels ou centimètres, puis spécifier la largeur et la hauteur souhaitée. Lors de l’exportation ou du téléchargement de ces fichiers, les fichiers image sont reformatés.
