@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 34%
+source-wordcount: '243'
+ht-degree: 25%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 34%
 
 Bienvenue dans Adobe Adobe Dynamic Media Classic, le principal système de publication multimédia à la demande pour le chargement, la gestion, l’amélioration et la publication de contenu dynamique enrichi sur tous les appareils et écrans. Les solutions Adobe Dynamic Media Classic sont les suivantes :
 
-* Traitement dynamique de l’image : retouche, formatage et redimensionnement en temps réel, zoom et panoramique interactifs, échantillonnage de couleurs et de textures, visionneuse à 360°, modèles d’image et visionneuses multimédia.
+* Dynamic Imaging : Modification, formatage et dimensionnement en temps réel, zoom et panoramique interactifs ; nuancier et nuancier ; 360° spin; modèles d’image ; visionneuses multimédia.
 * Catalogues électroniques : Créez des catalogues en ligne dynamiques, créez des liens vers des zones réactives, recherchez-les, publiez-les et diffusez-les dans des visionneuses configurables.
 * Media Portal : Environnement en libre-service fournissant aux utilisateurs du portail des &quot;vues&quot; contrôlées par l’administrateur dans les ressources Dynamic Media Classic Adobe pour un accès facile au chargement, à la navigation, à la recherche, à la prévisualisation et à l’exportation des ressources.
 * eVideo : Téléchargez des vidéos finales dans n’importe quel format, gérez, modifiez, créez des zones réactives et des modèles vidéo, publiez et diffusez en continu dans des visionneuses vidéo configurables.

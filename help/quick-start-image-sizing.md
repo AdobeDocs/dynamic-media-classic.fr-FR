@@ -1,6 +1,6 @@
 ---
 title: '"Démarrage rapide : Dimensionnement des images"'
-description: Cette section vous présente et vous aide à maîtriser rapidement les techniques de dimensionnement d’image.
+description: Introduction et démarrage rapide du dimensionnement des images pour vous aider à maîtriser rapidement les techniques de dimensionnement des images dans Adobe Dynamic Media Classic.
 uuid: 6c4ad4b7-549d-4daa-b6b9-5997a8427af8
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 35%
+source-wordcount: '858'
+ht-degree: 31%
 
 ---
 
@@ -33,25 +33,25 @@ Ce didacticiel de mise en route du dimensionnement des images est conçu pour vo
 
 Commencez par charger vos images originales dans Adobe Dynamic Media Classic. Pour ce qui est de la taille, Adobe Dynamic Media Classic recommande d’utiliser des images de la plus grande taille que vous prévoyez d’utiliser sur votre site web ou votre application. Si vous souhaitez, par exemple, que les visionneuses effectuent un zoom sur des images, chargez des images d’au moins 2 000 pixels de la taille la plus grande. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichier image, mais les formats sans perte TIFF et PNG sont recommandés.
 
-Dans la barre de navigation globale, cliquez sur **[!UICONTROL Télécharger]** pour charger des fichiers depuis votre ordinateur vers un dossier sur Adobe Dynamic Media Classic. (voir [Téléchargement des images originales](uploading-master-images.md#uploading_master_images)).
+Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour charger des fichiers depuis votre ordinateur vers un dossier sur Adobe Dynamic Media Classic. Voir [Téléchargement des images originales](uploading-master-images.md#uploading_master_images).
 
 ## 2. Configuration de paramètres d’image prédéfinis
 
 Semblable à une macro, un paramètre d’image prédéfini est un ensemble de commandes prédéfinies de taille et de formatage enregistrées sous un nom. Un paramètre d’image prédéfini détermine la taille et le formatage avec lesquels les images sont diffusées à partir des serveurs d’images Dynamic Media. Vous pouvez définir vous-même des paramètres d’image prédéfinis si vous avez le statut d’administrateur. Adobe Dynamic Media Classic est également fourni avec des paramètres d’image prédéfinis par défaut, que vous pouvez utiliser pour diffuser des images de manière dynamique.
 
-Pour créer un paramètre d’image prédéfini (si vous êtes administrateur), dans la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres d’image prédéfinis]**. Cliquez ensuite sur **[!UICONTROL Ajouter]** pour créer un paramètre d’image prédéfini, ou cliquez sur **[!UICONTROL Modifier]** pour modifier un paramètre d’image prédéfini existant.
+Pour créer un paramètre d’image prédéfini (si vous êtes administrateur), dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres d’image prédéfinis]**. Sélectionnez ensuite **[!UICONTROL Ajouter]** pour créer un paramètre d’image prédéfini, ou sélectionnez **[!UICONTROL Modifier]** pour modifier un paramètre d’image prédéfini existant.
 
-Le paramètre d’image prédéfini que vous créez est ajouté au menu Paramètre d’image prédéfini de la page Aperçu. Vous pouvez utiliser le nouveau paramètre d’image prédéfini pour afficher des images dynamiquement sur vos sites Web et dans vos applications (voir [Configuration des paramètres d’image prédéfinis](setting-image-presets.md#setting_up_image_presets)).
+Le paramètre d’image prédéfini que vous créez est ajouté au menu Paramètre d’image prédéfini de la page Aperçu. Vous pouvez utiliser le nouveau paramètre d’image prédéfini pour afficher des images dynamiquement sur vos sites Web et dans vos applications Voir [Configuration des paramètres d’image prédéfinis](setting-image-presets.md#setting_up_image_presets).
 
 ## 3. Aperçu des paramètres d’image prédéfinis
 
 L’étape suivante consiste à prévisualiser les paramètres d’image prédéfinis que votre administrateur a configurés selon différentes tailles.
 
-Pour explorer les paramètres d’image prédéfinis, dans la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres d’image prédéfinis]**, puis accédez à un paramètre d’image prédéfini.
+Pour explorer les paramètres d’image prédéfinis, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres d’image prédéfinis]**, puis accédez à un paramètre d’image prédéfini.
 
 Testez les différents paramètres d’image prédéfinis. Découvrez comment votre image apparaît lorsqu’elle est diffusée dynamiquement vers votre site web ou votre application, selon différentes tailles.
 
-Voir [Prévisualisation d’un fichier d’image en fonction de son paramètre d’image prédéfini](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset).
+Voir [Aperçu d’une ressource image en fonction de son paramètre d’image prédéfini](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset).
 
 ## 4. Publier les images originales
 
@@ -60,10 +60,10 @@ La publication des fichiers d’images originaux présente deux objectifs essent
 * Publier vos images originales sur les serveurs d’images Dynamic Media afin que les images puissent être diffusées dynamiquement vers votre site web et votre application.
 * La publication active les chaînes URL pour appeler des images à partir des serveurs Dynamic Media Image Server vers votre site web ou votre application. Après la publication, vous pouvez copier et placer les URL générées par Dynamic Media Classic Adobe si nécessaire dans votre site web ou votre application.
 
-Dans la barre de navigation globale, cliquez sur **[!UICONTROL Publier]** pour lancer une tâche de publication. Dans la boîte de dialogue Publier, cliquez sur **[!UICONTROL Envoyer la publication]**. (voir [Publication des images originales](publishing-master-images.md#publishing_master_images)).
+Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]** pour lancer une tâche de publication. Dans la boîte de dialogue Publier, sélectionnez **[!UICONTROL Envoyer la publication]**. Voir [Publier les images originales](publishing-master-images.md#publishing_master_images).
 
 ## 5. Liaison d’URL à une application web
 
 Adobe Dynamic Media Classic crée des chaînes d’légende URL pour les images. Lorsque vous publiez des images sur les serveurs Dynamic Media Image, les URL deviennent principales. Vous pouvez copier ces chaînes URL à partir du panneau de navigation (en mode Affichage des détails) ou de l’écran de prévisualisation. Une fois que vous avez copié les chaînes URL, vous pouvez les utiliser dans votre site Web et vos applications. L’URL de dimensionnement d’image remplace la référence à un nom d’image statique dans votre code de page Web. L’URL référence un nom d’image originale, qui est remplacé par votre base de données pour chaque nouvelle image à afficher.
 
-Les chaînes URL générées avec des paramètres d’image prédéfinis contiennent le nom d’un paramètre d’image prédéfini. Ce nom est inclus dans les signes dollar (`$`). Par exemple, `$thumbnail$` peut être le paramètre d’image prédéfini conçu pour afficher les images originales à la taille de la miniature. (voir [Liaison des URL à une application Web](linking-urls-web-application.md#linking_urls_to_your_web_application)).
+Les chaînes URL générées avec des paramètres d’image prédéfinis contiennent le nom d’un paramètre d’image prédéfini. Ce nom est inclus dans les signes dollar (`$`). Par exemple, `$thumbnail$` peut être le paramètre d’image prédéfini conçu pour afficher les images originales à la taille de la miniature. Voir [Liaison d’URL à une application web](linking-urls-web-application.md#linking_urls_to_your_web_application).

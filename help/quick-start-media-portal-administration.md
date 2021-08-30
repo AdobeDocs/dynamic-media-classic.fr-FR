@@ -1,6 +1,6 @@
 ---
 title: '"Démarrage rapide : Media Portal"'
-description: Présentation et démarrage rapide de Media Portal pour vous aider à maîtriser rapidement les techniques et l’administration de Media Portal.
+description: Présentation et démarrage rapide de Media Portal pour vous aider à maîtriser rapidement les techniques et l’administration de Media Portal dans Adobe Dynamic Media Classic.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 74%
+source-wordcount: '693'
+ht-degree: 69%
 
 ---
 
@@ -23,7 +23,7 @@ Media Portal permet aux entreprises d’acquérir, de contrôler et de distribue
 
 En tant qu’administrateur, vous contrôlez la manière dont les utilisateurs visualisent, ouvrent et utilisent les fichiers disponibles dans le portail multimédia. Vous pouvez par ailleurs personnaliser l’interface du portail multimédia en fonction de votre site Web et de votre marque. Vous pouvez spécifier la police, la couleur de la police, la taille de la police et incorporer des éléments de marque tels que des logos dans l’interface de Media Portal.
 
-Cette section de démarrage rapide est conçue pour vous aider à maîtriser rapidement les opérations liées à l’administration du portail multimédia. À la fin de chaque étape, cliquez sur le lien de la rubrique pour en savoir plus.
+Cette section de démarrage rapide est conçue pour vous aider à maîtriser rapidement les opérations liées à l’administration du portail multimédia. À la fin de chaque étape, sélectionnez le lien de la rubrique pour en savoir plus.
 
 ## 1. Compréhension des rôles utilisateur du portail multimédia
 
@@ -35,7 +35,7 @@ Voir [Rôles utilisateur du portail multimédia](media-portal-user-roles.md#medi
 
 Les groupes déterminent les dossiers et les fichiers auxquels l’utilisateur a accès, les opérations qu’il peut effectuer dans ceux-ci, ainsi que les paramètres d’image prédéfinis disponibles. En tant qu’administrateur, votre première tâche consiste à créer des groupes. Pour chaque groupe, décidez des dossiers, fichiers et paramètres d’image prédéfinis auxquels les membres du groupe pourront accéder. Accordez également aux membres du groupe les autorisations de lecture, d’écriture et de suppression adéquates. Ces autorisations déterminent si les membres du groupe sont habilités à parcourir, modifier, renommer et supprimer les dossiers et fichiers auxquels ils ont accès.
 
-Voir [Création et gestion des groupes du portail multimédia](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+Voir [Création et gestion des groupes Media Portal](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## 3. Ajout des utilisateurs
 
@@ -47,7 +47,7 @@ Voir [Ajout et gestion des utilisateurs du portail multimédia](adding-media-por
 
 Vous pouvez disposer de comptes FTP distincts associés à Media Portal et mappés à un dossier spécifique dans votre compte Dynamic Media Classic Adobe. Ce type de fonctionnalité signifie que vous pouvez autoriser les utilisateurs à télécharger des fichiers numériques sur votre compte en utilisant des comptes FTP distincts.
 
-Voir [Gestion des comptes FTP](ftp-accounts.md#managing_ftp_accounts).
+Voir [Gestion des comptes FTP](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Voir [Rôles utilisateur du portail multimédia](media-portal-user-roles.md#medi
 
 Lors de l’exportation de fichiers, les utilisateurs du portail multimédia ont la possibilité de reformater les fichiers en vue d’exporter les fichiers originaux, sous réserve d’y être autorisés par vous (l’administrateur). En effet, en tant qu’administrateur, c’est à vous de décider du mode d’exportation des fichiers par les utilisateurs.
 
-Voir [Définition d’options d’exportation disponibles pour les utilisateurs du portail multimédia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+Voir [Définition des options d’exportation disponibles pour les utilisateurs de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
 ## 6. Création de paramètres d’image prédéfinis
 
