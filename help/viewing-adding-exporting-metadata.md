@@ -1,6 +1,6 @@
 ---
 title: Affichage, ajout et exportation de métadonnées
-description: Découvrez comment afficher, ajouter et exporter des métadonnées.
+description: Découvrez comment afficher, ajouter et exporter des métadonnées dans Adobe Dynamic Media Classic.
 uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Asset Management,Metadata
 role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '2268'
-ht-degree: 47%
+source-wordcount: '2259'
+ht-degree: 46%
 
 ---
 
@@ -25,7 +25,7 @@ Les métadonnées s’affichent dans la vue Détails avec les informations gén�
 
 Certaines métadonnées sont intégrées directement dans un fichier. Si un fichier contient ces métadonnées, Adobe Dynamic Media Classic les télécharge automatiquement avec le fichier . Vous pouvez incorporer des métadonnées dans des ressources source dans Adobe Photoshop, InDesign, Illustrator et d’autres applications. Adobe Dynamic Media Classic reconnaît ces métadonnées. Vous pouvez également ajouter des métadonnées à des fichiers individuels dans le panneau Métadonnées en mode Affichage des détails. Pour assurer la cohérence entre fichiers, les administrateurs créent des modèles de métadonnées qui fournissent les champs de métadonnées à remplir.
 
-Pour plus d’informations sur les métadonnées incorporées, voir [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
+Pour plus d’informations sur les métadonnées intégrées, voir [Plateforme de métadonnées extensible](https://www.adobe.com/products/xmp.html).
 
 ## Affichage des métadonnées {#view-metadata}
 
@@ -47,13 +47,13 @@ Voir [Vues des métadonnées](application-setup.md#metadata_views) pour plus d�
 1. Ouvrez le panneau Métadonnées et effectuez une ou les deux opérations suivantes :
 
    * Choisissez une vue de métadonnées pour déterminer les champs de métadonnées qui apparaissent dans le panneau.
-   * Sélectionnez une valeur prédéfinie, puis cliquez sur **[!UICONTROL Appliquer]** pour remplir les champs de métadonnées avec des valeurs prédéfinies. Les administrateurs d’entreprise créent ces valeurs prédéfinies.
+   * Sélectionnez une valeur prédéfinie, puis **[!UICONTROL Appliquez]** pour remplir les champs de métadonnées avec des valeurs prédéfinies. Les administrateurs d’entreprise créent ces valeurs prédéfinies.
 
 1. Entrez les valeurs dans le panneau Métadonnées.
 
 >[!NOTE]
 >
->Pour modifier les métadonnées de plusieurs ressources à la fois, sélectionnez les ressources et cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Modifier les informations]**. Les modifications apportées aux métadonnées dans la fenêtre Modifier les infos s’appliquent à tous les fichiers sélectionnés.
+>Pour modifier les métadonnées de plusieurs ressources à la fois, sélectionnez les ressources et accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Modifier les informations]**. Les modifications apportées aux métadonnées dans la fenêtre Modifier les infos s’appliquent à tous les fichiers sélectionnés.
 
 ## Ajout ou modification de mots-clés {#add-or-edit-keywords}
 
@@ -62,13 +62,13 @@ Outre les métadonnées, vous pouvez utiliser des mots-clés pour faciliter la r
 Si vous avez ajouté des mots-clés à d’autres fichiers au cours de cette session ou si vous avez supprimé des mots-clés de votre liste, ils apparaissent dans le tableau Suggestions de mots-clés .
 
 1. Ouvrez le fichier en mode Affichage des détails.
-1. Cliquez sur **[!UICONTROL Mots-clés]**.
+1. Sélectionnez **[!UICONTROL Mots-clés]**.
 1. Pour ajouter des mots-clés, utilisez l’une des méthodes suivantes :
 
-   * Saisissez un mot-clé dans la zone de texte, puis cliquez sur **[!UICONTROL Ajouter]**.
-   * Cliquez sur un mot-clé dans le tableau **[!UICONTROL Suggestions de mots-clés]** .
+   * Saisissez un mot-clé dans la zone de texte et sélectionnez **[!UICONTROL Ajouter]**.
+   * Sélectionnez un mot-clé dans le tableau **[!UICONTROL Suggestions de mots-clés]** .
 
-1. Pour supprimer un mot-clé, sélectionnez-le et cliquez sur **[!UICONTROL Supprimer]**. Le mot-clé est placé dans le tableau Suggestions de mots-clés.
+1. Pour supprimer un mot-clé, sélectionnez-le et sélectionnez **[!UICONTROL Supprimer]**. Le mot-clé est placé dans le tableau Suggestions de mots-clés.
 
 >[!NOTE]
 >
@@ -87,11 +87,11 @@ Au lieu de saisir manuellement les métadonnées fichier par fichier, vous pouve
 Vous trouverez plus d’informations sur les propriétés normalisées à l’adresse [Adobe XMP Centre de développement](https://www.adobe.com/devnet/xmp.html).
 
 1. Dans le panneau de navigation, sélectionnez les images auxquelles vous souhaitez ajouter des métadonnées à partir du fichier délimité par des tabulations ou du fichier XML.
-1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Importer les métadonnées]**.
-1. Dans la boîte de dialogue **[!UICONTROL Télécharger les métadonnées]**, cliquez sur **[!UICONTROL Parcourir]**.
+1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Importer les métadonnées]**.
+1. Dans la boîte de dialogue **[!UICONTROL Télécharger les métadonnées]**, sélectionnez **[!UICONTROL Parcourir]**.
 1. Dans la boîte de dialogue **[!UICONTROL Sélectionnez les fichiers à télécharger]**, sélectionnez le fichier XML ou délimité par des tabulations contenant les métadonnées.
 1. Entrez un nom de tâche.
-1. Cliquez sur **[!UICONTROL Télécharger]**.
+1. Sélectionnez **[!UICONTROL Télécharger]**.
 
 ### Identification des différents types de métadonnées dans l’importation
 
@@ -107,7 +107,7 @@ Par exemple : La propriété XMP pour les mots-clés est le schéma XMP &quot;Du
 
 Les mots-clés peuvent être importés sous forme de liste séparée par des virgules. Si une virgule apparaît dans l’une des valeurs individuelles, elle doit être précédée d’une barre oblique inverse (\). Une barre oblique inverse littérale est l’habituelle double-barre oblique inverse (\\).
 
-Par exemple, un fichier d’importation de métadonnées contenant la valeur &quot;Hello\, World!,back\\slash,foo&quot; pour `dc:subject` définit trois mots-XMP sur la ressource : &quot;Bonjour, monde !&quot; &quot;back\slash&quot; et &quot;foo&quot;.
+Par exemple, un fichier d’importation de métadonnées contenant la valeur `Hello\, World!,back\\slash,foo` pour `dc:subject` définit trois mots-clés XMP sur la ressource : `Hello, World!,` `back\slash,` et `foo`.
 
 ### Importation de fichiers XMP de métadonnées et de schémas de métadonnées
 
@@ -131,7 +131,7 @@ Vous pouvez importer des métadonnées pour plusieurs fichiers en saisissant les
 
 Vérifiez que les données contenues dans le fichier délimité par des tabulations ou le fichier XML sont enregistrées au bon format. Sur la première ligne, saisissez le champ de l’identifiant, suivi du nom des champs de métadonnées à modifier. Sur chaque ligne suivante, saisissez l’identifiant d’un fichier suivi des valeurs de métadonnées. Les champs qui ne font pas partie du fichier délimité par des tabulations ou du fichier XML ne sont pas modifiés.
 
-Sur la barre de navigation globale, cliquez sur **[!UICONTROL Télécharger]**. Pour importer les métadonnées, sur la page Télécharger, cliquez sur l’onglet **[!UICONTROL Via FTP]**, puis sur **[!UICONTROL Options de tâche]**. Dans la boîte de dialogue Télécharger les options de la tâche, cliquez sur **[!UICONTROL Traitement]**, puis cochez la case **[!UICONTROL Traiter les fichiers de métadonnées]** .
+Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]**. Pour importer les métadonnées, sur la page Télécharger, sélectionnez l’onglet **[!UICONTROL Via FTP]**, puis sélectionnez **[!UICONTROL Options de tâche]**. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Traitement]**, puis cochez la case **[!UICONTROL Traiter les fichiers de métadonnées]** .
 
 ## Attribution d’un nouveau nom aux ID par lots à l’aide de métadonnées {#batch-rename-ids-using-metadata}
 
@@ -141,8 +141,8 @@ Pour renommer l’identifiant Dynamic Media Classic Adobe d’une image, ajoutez
 
 Par exemple :
 
-| ipsid | newipsid |
-|--- |--- |
+|  | newipsid |
+| --- | --- |
 | testjacket_1 | Jacket_test_1 |
 | testjacket_blue | Jacket_test_2 |
 
@@ -153,15 +153,15 @@ Le journal des tâches de la tâche Métadonnées indique quels ID ont été ren
 Adobe Dynamic Media Classic propose une commande pour créer un modèle d’enregistrement des métadonnées. L’utilisation du modèle permet de s’assurer que les métadonnées sont entrées dans le bon format afin qu’elles puissent être chargées correctement dans Adobe Dynamic Media Classic. Pour créer un modèle à utiliser dans l’enregistrement et l’importation de métadonnées dans Adobe Dynamic Media Classic, procédez comme suit :
 
 1. Sélectionnez les fichiers d’image comportant les champs de métadonnées à insérer dans le modèle.
-1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Importer les métadonnées]**.
+1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Importer les métadonnées]**.
 1. Pour **[!UICONTROL Type de propriétés de ressource]**, sélectionnez **[!UICONTROL Image]**.
 1. Dans la liste déroulante **[!UICONTROL Générer le fichier]**, sélectionnez **[!UICONTROL Modèle délimité par des tabulations]**, **[!UICONTROL Métadonnées XML de la ressource]** ou **[!UICONTROL DTD XML]**.
-1. Cliquez sur **[!UICONTROL Générer]**.
+1. Sélectionnez **[!UICONTROL Générer]**.
 1. Dans la boîte de dialogue qui s’affiche, copiez les données. Elles vous serviront à créer le modèle.
 
 ## Utilisation des schémas de métadonnées {#working-with-metadata-schemas}
 
-Un administrateur de la société peut afficher une liste de tous les schémas disponibles. Dans la barre de navigation globale, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Métadonnées]** > **[!UICONTROL Schéma de métadonnées]**.
+Un administrateur de la société peut afficher une liste de tous les schémas disponibles. Dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Métadonnées]** > **[!UICONTROL Schéma de métadonnées]**.
 
 Au départ, la liste des schémas standard globaux tels que XMP est masquée. Elle peut être affichée en utilisant la case située au bas de la liste.
 
@@ -170,7 +170,7 @@ L’administrateur de l’entreprise peut créer un schéma personnalisé ou mod
 Vous pouvez utiliser l’Editeur de schéma de métadonnées pour exécuter les actions suivantes :
 
 | Action | Description |
-|--- |--- |
+| --- | --- |
 | Ajouter | Ajoute une propriété au schéma. Une boîte de dialogue modale collecte les informations suivantes : ID, libellé, structure et type de données. |
 | Ajouter une valeur de choix | Ajoute un nouveau choix sélectionnable à une propriété avec la structure Choix ouvert ou Choix fermé. Toutes les valeurs de choix présentent le même type. Sélectionnez la propriété elle-même pour activer le bouton. |
 | Edition | Modifiez l’étiquette d’une propriété ou d’une valeur de choix. Vous pouvez uniquement modifier l’étiquette. L’ID et les informations de type sont immuables. |
@@ -185,13 +185,13 @@ Le système génère automatiquement un schéma personnalisé pour les champs d�
 
 L’éditeur de schéma de métadonnées offre un moyen graphique d’ajouter ou de modifier un schéma d’entreprise personnalisé dans Adobe Dynamic Media Classic. Un schéma est défini par un préfixe, un espace de noms et une liste de propriétés.
 
-* **Nom**  - Nom d’interface utilisateur du schéma. Utilisé pour identifier les propriétés dans les Vues des métadonnées et dans la Recherche avancée. Similaire aux sections XMP telles que Basic, IPTC, PDF.
+* **[!UICONTROL Nom]**  - Nom d’interface utilisateur du schéma. Utilisé pour identifier les propriétés dans les Vues des métadonnées et dans la Recherche avancée. Similaire aux sections XMP telles que Basic, IPTC, PDF.
 
-* **Préfixe**  : identifiant unique technique du schéma. Limité aux lettres a-z et A-Z. Le préfixe n’est pas visible dans l’interface utilisateur d’Adobe Dynamic Media Classic, mais il est utilisé lorsque les métadonnées d’une ressource sont stockées dans le bloc XMP et dans la base de données. Le préfixe est utilisé pour identifier de manière unique les champs de métadonnées dans les recherches de métadonnées sur le serveur de métadonnées ou lors de l’importation.
+* **[!UICONTROL Préfixe]**  : identifiant unique technique du schéma. Limité aux lettres a-z et A-Z. Le préfixe n’est pas visible dans l’interface utilisateur d’Adobe Dynamic Media Classic, mais il est utilisé lorsque les métadonnées d’une ressource sont stockées dans le bloc XMP et dans la base de données. Le préfixe est utilisé pour identifier de manière unique les champs de métadonnées dans les recherches de métadonnées sur le serveur de métadonnées ou lors de l’importation.
 
-* **Espace de noms**  : identifiant unique technique du schéma, généralement une URL dans le formulaire  `https://your.company.com/name/version/`. Consultez la liste des schémas standard pour obtenir des exemples. L’espace de noms n’est pas visible dans l’interface utilisateur d’Adobe Dynamic Media Classic, mais est utilisé pour stocker les métadonnées dans le bloc XMP.
+* **[!UICONTROL Espace de noms]**  : identifiant unique technique du schéma, généralement une URL dans le formulaire  `https://your.company.com/name/version/`. Consultez la liste des schémas standard pour obtenir des exemples. L’espace de noms n’est pas visible dans l’interface utilisateur d’Adobe Dynamic Media Classic, mais est utilisé pour stocker les métadonnées dans le bloc XMP.
 
-* **Description**  : description libre du schéma.
+* **[!UICONTROL Description]**  : description libre du schéma.
 
 >[!NOTE]
 >
@@ -200,7 +200,7 @@ L’éditeur de schéma de métadonnées offre un moyen graphique d’ajouter ou
 Les propriétés décrivent les métadonnées pouvant être stockées avec ce schéma dans le bloc XMP. Une propriété se compose des éléments suivants :
 
 | Propriété | Description |
-|--- |--- |
+| --- | --- |
 | ID | Identificateur technique pour cette propriété. L’ID n’est pas visible dans l’interface utilisateur d’Adobe Dynamic Media Classic, mais il est utilisé lorsque les métadonnées d’une ressource sont stockées dans le bloc XMP et dans la base de données. L’ID est utilisé pour créer des requêtes de recherche sur le Serveur de métadonnées. L’ID est soumis à certaines restrictions telles que : <ul><li>Aucun espace</li><li>Pas de &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>Pas de nombre en premier caractère</li><li>Il est conseillé d’utiliser une lettre a-z ou A-Z comme premier caractère</li></ul> <br>Une fois créé, l’ID ne peut pas être modifié. |
 | Etiquette | Nom d’IU pour cette propriété. |
 | Structure | Détermine le type de la propriété ainsi que le type de données. La structure peut avoir l’une des valeurs suivantes :<ul><li>Type simple : valeur unique de type de données</li><li>Séquence : une liste de valeurs du même type de données</li><li>Choix ouvert : sélectionnez un élément à partir d’une liste de valeurs prédéfinies, ou saisissez du texte libre. Peut uniquement être de type Chaîne ou Entier</li><li>Choix fermé : sélectionnez un élément dans une liste de valeurs prédéfinies (une fenêtre contextuelle ou une zone combinée)</li></ul> |
@@ -209,7 +209,7 @@ Les propriétés décrivent les métadonnées pouvant être stockées avec ce sc
 Lorsque la propriété présente la structure Choix ouvert ou Choix fermé, vous devez fournir au moins une valeur de choix. Le choix ouvert peut être modifié. Le choix fermé ne peut pas être modifié. Toutes les valeurs de choix présentent le même type de données que la propriété.
 
 | Propriété | Description |
-|--- |--- |
+| --- | --- |
 | ID | Identificateur technique pour cette valeur. L’ID n’est pas visible dans l’interface utilisateur d’Adobe Dynamic Media Classic, mais il est utilisé lorsque les métadonnées d’une ressource sont stockées dans le bloc XMP et dans la base de données. L’ID est utilisé dans les requêtes de recherche sur le Serveur de métadonnées. L’ID ne doit pas contenir d’espace. Une fois créé, l’ID ne peut pas être modifié. |
 | Etiquette | Nom d’IU pour cette valeur. |
 

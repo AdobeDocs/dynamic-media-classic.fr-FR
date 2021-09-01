@@ -1,6 +1,6 @@
 ---
-title: Chargement des images de zoom
-description: Découvrez comment télécharger des images de zoom.
+title: Télécharger des images de zoom
+description: Découvrez comment télécharger des images de zoom dans Adobe Dynamic Media Classic.
 uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
 contentOwner: admin
 content-type: reference
@@ -10,22 +10,22 @@ discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 28%
+source-wordcount: '220'
+ht-degree: 21%
 
 ---
 
-# Chargement des images de zoom{#uploading-zoom-images}
+# Télécharger des images de zoom{#uploading-zoom-images}
 
 Les images de zoom doivent présenter un grand nombre de pixels Un nombre élevé de pixels est nécessaire pour que les visionneuses puissent voir clairement les détails des images lorsqu’elles effectuent un zoom sur les images. Assurez-vous que les images que vous utilisez ont la taille appropriée avant de les télécharger vers Adobe Dynamic Media Classic.
 
-Dans la barre de navigation globale, cliquez sur **[!UICONTROL Télécharger]** pour commencer à charger des images.
+Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour commencer à charger des images.
 
-Pour des instructions détaillées sur le téléchargement des images, voir [Téléchargement de fichiers](uploading-files.md#uploading_files).
+Pour obtenir des instructions détaillées sur la mise en ligne des images, voir [Chargement de fichiers](uploading-files.md#uploading_files).
 
-**Préparation des images de zoom:**
+**Préparez vos images pour un zoom :**
 
 Pour tirer le meilleur parti des fonctionnalités de zoom Adobe Dynamic Media Classic, préparez vos fichiers d’image de zoom avant de les télécharger :
 

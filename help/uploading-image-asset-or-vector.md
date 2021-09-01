@@ -1,20 +1,20 @@
 ---
-title: Transfert d’un fichier d’image ou d’un fichier vectoriel
-description: Découvrez comment télécharger une ressource d’image ou vectorielle.
+title: Chargement d’une ressource image ou vectorielle
+description: Découvrez comment télécharger une ressource d’image ou vectorielle dans Adobe Dynamic Media Classic
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 77%
+source-wordcount: '1504'
+ht-degree: 69%
 
 ---
 
-# Transfert d’un fichier d’image ou d’un fichier vectoriel{#uploading-an-image-asset-or-a-vector-asset}
+# Chargement d’une ressource image ou vectorielle{#uploading-an-image-asset-or-a-vector-asset}
 
 Avant de transférer un fichier d’image, vous devez d’abord demander une clé de secret partagé. Cette clé vous permet de récupérer un jeton de téléchargement. Vous utilisez ensuite le jeton de téléchargement pour transférer les fichiers d’image ou vectoriels.
 
@@ -24,7 +24,7 @@ Demandez une *clé de secret partagé* par [à l’aide du Admin Console pour cr
 
 Dans le message électronique, indiquez le nom d’entreprise que vous voulez utiliser pour transférer les fichiers d’image. Une fois que vous avez reçu la clé d’Adobe Dynamic Media Classic, enregistrez-la localement pour une utilisation ultérieure.
 
-## Récupération du jeton de téléchargement {#retrieving-the-upload-token}
+## Récupération du jeton de chargement {#retrieving-the-upload-token}
 
 Le *jeton de téléchargement* garantit que personne d’autre que vous n’utilisera la même clé de secret partagé pour télécharger des fichiers. Il garantit le caractère légitime et la fiabilité de la source du téléchargement.
 
@@ -68,7 +68,7 @@ Enregistrez le jeton de téléchargement sur l’ordinateur pour l’utiliser av
 Vous pouvez utiliser les champs suivants dans l’URL de requête pour récupérer un jeton de téléchargement :
 
 | Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | Obligatoire | get_uploadtoken |
 | shared_secret | Obligatoire | La clé de secret partagé de l’entreprise qui procède au téléchargement. |
 | expires | Facultatif | Durée de validité (en secondes) du jeton de téléchargement. Valeur par défaut : 300 secondes. |
@@ -86,9 +86,9 @@ Vous pouvez utiliser les champs suivants dans l’URL de requête pour récupér
 
 Vous pouvez maintenant transférer un fichier d’image.
 
-Voir [Téléchargement d’un fichier d’image](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+Voir [Chargement d’une ressource image](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Téléchargement d’un fichier d’image {#uploading-an-image-asset}
+## Chargement d’une ressource image {#uploading-an-image-asset}
 
 Après avoir récupéré un jeton de téléchargement valide pendant une durée limitée, vous pouvez télécharger un fichier d’image. Vous téléchargez le fichier en tant que publication de formulaire ou publication en plusieurs parties tout en envoyant le reste des valeurs en tant que chaîne de requête d’URL, comme dans cet exemple :
 
@@ -98,7 +98,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Les champs `upload_token` et `company_name` sont obligatoires.
 
-Voir [Récupération du jeton de téléchargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Voir [Récupération du jeton de chargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
 Voir [Récupération d’une clé de secret partagé](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
@@ -113,7 +113,7 @@ Le paramètre `file_limit` spécifie la limite de taille de fichier en octets. L
 Une limite globale est définie dans l’application pour la taille limite des fichiers et les extensions de nom de fichier autorisées. Si le contenu de votre requête se trouve dans les limites globales, celle-ci est satisfaite. Les limites globales sont les suivantes :
 
 | Limite globale | Valeur |
-|--- |--- |
+| --- | --- |
 | Taille du fichier pour tous les clients | 20 Mo |
 | Formats de fichiers d’image pris en charge pour le téléchargement | BMP, GIF, JPG, PNG, PSD |
 
@@ -125,7 +125,7 @@ Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier
 * Liste des extensions de nom de fichier.
 * Permet de conserver le profil colorimétrique et le nom de fichier associés à la ressource.
 * Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les méthodes Coin, Tolérance et Remplir.
-Voir Masquer l’arrière-plan dans [Options d’édition d’images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
+Voir Masquer l’arrière-plan dans [Options d’optimisation de l’image à l’adresse ](image-editing-options-upload.md#image-editing-options-at-upload) de téléchargement.
 * Nom du fichier à télécharger.
 
 <!-- 
@@ -138,11 +138,11 @@ Last Modified Date:
 
  -->
 
-Vous pouvez afficher le code source HTML associé au formulaire ci-dessus en cliquant sur [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Vous pouvez afficher le code source HTML associé au formulaire ci-dessus en sélectionnant [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Dans Firefox, cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis cliquez sur **[!UICONTROL Afficher la source de la page]**. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **[!UICONTROL Envoyer]**.
+Dans Firefox, cliquez avec le bouton droit dans la fenêtre du navigateur, puis sélectionnez **[!UICONTROL Afficher la source de la page]**. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **[!UICONTROL Envoyer]**.
 
-Pour afficher la réponse XML dans Internet Explorer, cliquez sur **[!UICONTROL Affichage]** > **[!UICONTROL Source]**. Pour afficher la réponse XML dans Firefox, cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Outils de navigateur]** > **[!UICONTROL Outils de développement web]**. Firefox est recommandé pour afficher les réponses XML.
+Pour afficher la réponse XML dans Internet Explorer, accédez à **[!UICONTROL Vue]** > **[!UICONTROL Source]**. Pour afficher la réponse XML dans Firefox, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Outils de navigateur]** > **[!UICONTROL Outils de développement web]**. Firefox est recommandé pour afficher les réponses XML.
 
 Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi :
 
@@ -179,7 +179,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 Envoyez le fichier à télécharger en tant que publication de formulaire ou en plusieurs parties tout en envoyant le reste des valeurs en tant que chaîne de requête d’URL. Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pour télécharger un fichier :
 
 | Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | Obligatoire | charger |
 | `upload_token` | Obligatoire | Jeton de téléchargement pour la clé de secret protégé associée à l’entreprise. |
 | `company_name` | Obligatoire | Nom de l’entreprise qui réalise le téléchargement. |
@@ -200,7 +200,7 @@ Envoyez le fichier à télécharger en tant que publication de formulaire ou en 
 
 POST
 
-### Obtention des métadonnées de fichier pour des images {#getting-asset-metadata-for-images}
+### Obtention des métadonnées de ressource pour les images {#getting-asset-metadata-for-images}
 
 Vous pouvez utiliser `image_info` pour récupérer les métadonnées d’un fichier que vous avez téléchargé, comme indiqué dans l’exemple suivant :
 
@@ -235,7 +235,7 @@ Voici un exemple de réponse réussie :
 Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pour demander des informations sur un fichier :
 
 | Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | Obligatoire | image_info |
 | `shared_secret` | Obligatoire | La clé de secret partagé de l’entreprise. |
 | `image_name` | Obligatoire | Nom de l’image. |
@@ -248,7 +248,7 @@ Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pou
 
 GET et POST
 
-## Transfert d’un fichier vectoriel {#uploading-a-vector-asset}
+## Chargement d’une ressource vectorielle {#uploading-a-vector-asset}
 
 Après avoir récupéré un jeton de téléchargement valide pendant une durée limitée, vous pouvez transférer un fichier vectoriel. Vous téléchargez le fichier en tant que publication de formulaire ou publication en plusieurs parties tout en envoyant le reste des valeurs en tant que chaîne de requête d’URL, comme dans cet exemple :
 
@@ -258,7 +258,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Les champs `upload_token` et `company_name` sont obligatoires.
 
-Voir [Récupération du jeton de téléchargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Voir [Récupération du jeton de chargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
 Voir [Récupération d’une clé de secret partagé](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
@@ -273,7 +273,7 @@ Le paramètre `file_limit` spécifie la limite de taille de fichier en octets. L
 Une limite globale est définie dans l’application pour la taille limite des fichiers et les extensions de nom de fichier autorisées. Si le contenu de votre requête se trouve dans les limites globales, celle-ci est satisfaite. Les limites globales sont les suivantes :
 
 | Limite globale | Valeur |
-|--- |--- |
+| --- | --- |
 | Taille du fichier pour tous les clients | 20 Mo |
 | Formats de fichiers vectoriels pris en charge pour le transfert | AI, EPS, PDF (uniquement si le fichier PDF est déjà ouvert et enregistré dans Adobe Illustrator CS6) |
 
@@ -285,7 +285,7 @@ Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier
 * Liste des extensions de nom de fichier.
 * Permet de conserver le profil colorimétrique et le nom de fichier associés à la ressource.
 * Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les méthodes Coin, Tolérance et Remplir.
-Voir Masquer l’arrière-plan dans [Options d’édition d’images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
+Voir Masquer l’arrière-plan dans [Options d’optimisation de l’image à l’adresse ](image-editing-options-upload.md#image-editing-options-at-upload) de téléchargement.
 * Nom du fichier à télécharger.
 
 <!-- 
@@ -298,7 +298,7 @@ Last Modified Date:
 
  -->
 
-Le code HTML suivant s’affiche lorsque vous cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis cliquez sur **[!UICONTROL Afficher la source]** pour le formulaire affiché dans l’exemple. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **[!UICONTROL Envoyer]**.
+Le code HTML suivant s’affiche lorsque vous cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis sélectionnez **[!UICONTROL Afficher la source]** pour le formulaire affiché dans l’exemple. Le code affiche la chaîne de requête d’URL correspondante et la méthode du POST qui sont exécutées lorsque l’utilisateur sélectionne **[!UICONTROL Submit]**.
 
 ```as3
 <body> 
@@ -324,7 +324,7 @@ return true;
 </tr> 
 <tr><td colspan="2"></td></tr> 
 <tr> 
-<td><strong>Click Submit to upload your Vector: </strong></td> 
+<td><strong>Select Submit to upload your Vector: </strong></td> 
 <td><input type="submit" value="Submit"></td> 
 </tr> 
 </table> 
@@ -332,7 +332,7 @@ return true;
 </body>
 ```
 
-Pour afficher la réponse XML dans Internet Explorer, cliquez sur **[!UICONTROL Affichage]** > **[!UICONTROL Source]**. Pour afficher la réponse XML dans Firefox, cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Outils de navigateur]** > **[!UICONTROL Source de page]**. Firefox est recommandé pour afficher les réponses XML.
+Pour afficher la réponse XML dans Internet Explorer, accédez à **[!UICONTROL Vue]** > **[!UICONTROL Source]**. Pour afficher la réponse XML dans Firefox, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Outils de navigateur]** > **[!UICONTROL Source de page]**. Firefox est recommandé pour afficher les réponses XML.
 
 Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi :
 
@@ -371,7 +371,7 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 Envoyez le fichier à télécharger en tant que publication de formulaire ou en plusieurs parties tout en envoyant le reste des valeurs en tant que chaîne de requête d’URL. Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pour télécharger un fichier :
 
 | Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | Obligatoire | charger |
 | `upload_token` | Obligatoire | Jeton de téléchargement pour la clé de secret protégé associée à l’entreprise. |
 | `company_name` | Obligatoire | Nom de l’entreprise qui réalise le téléchargement. |

@@ -9,7 +9,7 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
 source-wordcount: '3866'
 ht-degree: 33%
@@ -128,7 +128,7 @@ Veillez à ce que tous les utilisateurs de votre entreprise se familiarisent ave
 En règle générale, un nom de fichier de ressource peut être identique à son numéro d’élément, à la référence du produit ou à un autre nom, comme dans l’exemple suivant :
 
 | Article | Nom de fichier | ID de fichier |
-|--- |--- |--- |
+| --- | --- | --- |
 | 896649 | 896649.jpg | 896649 |
 | 48A3_2X | 48A3_2X.tif | 48A3_2X |
 
@@ -232,7 +232,7 @@ Permet de télécharger les sous-dossiers du dossier que vous avez l’intention
    * **[!UICONTROL Traiter les fichiers de métadonnées]**  : disponible uniquement si vous avez sélectionné l’onglet  **[!UICONTROL VIA]** FTP. Sélectionnez cette option si vous souhaitez télécharger un fichier XML ou délimité par des tabulations pour ajouter des métadonnées à plusieurs fichiers. Voir [Importer des métadonnées (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 
-* **OPTIONS de recadrage**  : pour recadrer automatiquement les pixels d’espace blanc d’une image, ouvrez le  **** menu Recadrage, sélectionnez  **[!UICONTROL Manuel]**, puis saisissez des mesures en pixels dans les champs de texte Haut, Droite, Bas et Gauche pour recadrer les bords. Vous pouvez également sélectionner **[!UICONTROL Rogner]** dans le menu Recadrer et choisir les options suivantes :
+* **Options de recadrage**  : pour recadrer automatiquement les pixels d’espace blanc d’une image, ouvrez le  **** menu contextuel, sélectionnez  **[!UICONTROL Manuel]**, puis saisissez des mesures en pixels dans les champs de texte Haut, Droite, Bas et Gauche pour recadrer les bords. Vous pouvez également sélectionner **[!UICONTROL Rogner]** dans le menu Recadrer et choisir les options suivantes :
 
    * **[!UICONTROL Rogner en fonction de]**  : choisissez si vous souhaitez recadrer en fonction de la couleur ou de la transparence :
       * **[!UICONTROL Couleur]**  : choisissez l’option Couleur. Sélectionnez ensuite le menu Coin, puis choisissez l’angle de l’image présentant la couleur qui correspond le mieux à l’espace blanc à rogner.
@@ -241,7 +241,7 @@ Rognage en fonction de la couleur : Indiquez 0 pour rogner uniquement les pixels
 Rognage en fonction de la transparence : Spécifiez 0 pour rogner les pixels uniquement s’ils sont transparents ; Les valeurs plus proches de 1 permettent une plus grande transparence.
       * **[!UICONTROL Tolérance]**  : faites glisser le curseur pour spécifier une tolérance comprise entre 0 et 1.
 
-* **OPTIONS de PROFIL DE COULEUR**  : choisissez une conversion de couleurs lorsque vous créez des fichiers optimisés utilisés pour la diffusion dynamique Dynamic Media Classic Adobe :
+* **Options de profil colorimétrique**  : choisissez une conversion de couleurs lorsque vous créez des fichiers optimisés utilisés pour la diffusion dynamique Dynamic Media Classic Adobe :
 
    * **[!UICONTROL Conservation des couleurs par défaut]**  : conserve les couleurs de l’image source chaque fois que les images contiennent des informations sur l’espace colorimétrique ; il n’existe aucune conversion de couleur. Pour la plupart des images aujourd’hui, un profil colorimétrique approprié est déjà inclus. Toutefois, si une image source CMJN ne contient pas de profil colorimétrique intégré, les couleurs sont converties dans l’espace colorimétrique sRVB (rouge vert bleu standard). sRVB est l’espace colorimétrique recommandé pour l’affichage d’images sur les pages Web.
    * **[!UICONTROL Conserver l’espace colorimétrique d’origine]**  : conserve les couleurs d’origine sans conversion des couleurs au moment de l’ingestion dans Adobe Dynamic Media Classic. Pour les images sans profil de couleur incorporé, toute conversion de couleur requise pour traiter les demandes d’image est effectuée à l’aide des profils de couleur par défaut configurés dans les paramètres de publication. Ces profils de couleurs ne correspondent pas toujours à la couleur des fichiers créés avec cette option. Par conséquent, vous avez intérêt à utiliser l’option de conservation des couleurs par défaut.
@@ -259,10 +259,10 @@ Voir [Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-
 * **Options PDF**  : vous pouvez pixelliser les fichiers, extraire des mots de recherche et des liens, générer automatiquement un catalogue électronique, définir la résolution et choisir un espace colorimétrique.
 (voir [Options de téléchargement des fichiers PDF](pdfs.md#pdf_upload_options)).
 
-* **Options Illustrator**  : vous pouvez pixelliser les fichiers Adobe Illustrator®, conserver les arrière-plans transparents, choisir une résolution et choisir un espace colorimétrique.
+* **Options**  Illustrator : vous pouvez pixelliser les fichiers Adobe Illustrator®, conserver les arrière-plans transparents, choisir une résolution et choisir un espace colorimétrique.
 Voir [Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **Options vidéo**  : vous pouvez transcoder un fichier vidéo en sélectionnant un paramètre vidéo prédéfini.
+* **Options**  EVIDEO : vous pouvez transcoder un fichier vidéo en sélectionnant un paramètre vidéo prédéfini.
 Voir [Utilisation des paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
 * **Métadonnées supplémentaires**  : entrez des mots-clés qui décrivent les fichiers que vous avez l’intention de charger. Séparez les mots clés-par des virgules. Les mots-clés facilitent les recherches portant sur les fichiers Voir [Réaliser une recherche avancée](searching-assets.md#conducting_an_advanced_search).
