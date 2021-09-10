@@ -9,10 +9,10 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 53%
+source-wordcount: '164'
+ht-degree: 47%
 
 ---
 
@@ -24,6 +24,10 @@ UGC prend en charge les formats de fichier suivants :
 
 * Fichiers pixellisés : JPG, PNG, TIFF
 * Vecteur : AI, EPS (les fichiers EPS d’Adobe Illustrator 2018 ne sont pas pris en charge), PDF (uniquement lorsque le fichier PDF est précédemment ouvert et enregistré dans Adobe Illustrator CS6)
+
+>[!IMPORTANT]
+>
+>La prise en charge des ressources d’image vectorielle UGC nouvelles ou existantes dans Adobe Dynamic Media Classic prendra fin le 30 septembre 2021.
 
 Avant de télécharger les fichiers, vous devez obtenir une clé de secret partagé. Cette clé vous permet de récupérer un jeton de téléchargement. Vous envoyez le jeton de téléchargement lorsque vous téléchargez des fichiers et réalisez d’autres tâches sur le contenu généré par l’utilisateur.
 

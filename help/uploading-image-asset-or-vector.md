@@ -7,16 +7,20 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 69%
+source-wordcount: '1540'
+ht-degree: 68%
 
 ---
 
 # Chargement d’une ressource image ou vectorielle{#uploading-an-image-asset-or-a-vector-asset}
 
 Avant de transférer un fichier d’image, vous devez d’abord demander une clé de secret partagé. Cette clé vous permet de récupérer un jeton de téléchargement. Vous utilisez ensuite le jeton de téléchargement pour transférer les fichiers d’image ou vectoriels.
+
+>[!IMPORTANT]
+>
+>La prise en charge des ressources d’image vectorielle UGC nouvelles ou existantes dans Adobe Dynamic Media Classic prendra fin le 30 septembre 2021.
 
 ## Demande d’une clé de secret partagé {#requesting-a-shared-secret-key}
 
@@ -249,6 +253,10 @@ Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pou
 GET et POST
 
 ## Chargement d’une ressource vectorielle {#uploading-a-vector-asset}
+
+>[!IMPORTANT]
+>
+>La prise en charge des ressources d’image vectorielle UGC nouvelles ou existantes dans Adobe Dynamic Media Classic prendra fin le 30 septembre 2021.
 
 Après avoir récupéré un jeton de téléchargement valide pendant une durée limitée, vous pouvez transférer un fichier vectoriel. Vous téléchargez le fichier en tant que publication de formulaire ou publication en plusieurs parties tout en envoyant le reste des valeurs en tant que chaîne de requête d’URL, comme dans cet exemple :
 
