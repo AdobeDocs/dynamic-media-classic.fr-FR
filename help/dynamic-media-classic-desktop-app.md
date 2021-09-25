@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 474fc6022557a1eee782a22cb40d39f2ad9aa01d
+source-git-commit: e3c2dcaa245e486ada62edd554db5a39d495483e
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1870'
 ht-degree: 1%
 
 ---
@@ -106,11 +106,11 @@ Voir aussi:
 
    Pour que **[!UICONTROL Serveur]** soit utilisé, voir le mappage suivant pour l’environnement de production :
 
-   | Nom du serveur d’applications de bureau | URL du navigateur |
+   | URL du navigateur | Nom du serveur d’applications de bureau |
    | --- | --- |
-   | Production NA (Amérique du Nord) | `https://s7sps1.scene7.com/` |
-   | Production EMEA (Europe, Moyen-Orient et Afrique) | `https://s7sps3.scene7.com/` |
-   | Production APAC (Asie-Pacifique) | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | Production NA (Amérique du Nord) |
+   | https://s7sps3.scene7.com/ | Production EMEA (Europe, Moyen-Orient et Afrique) |
+   | https://s7sps5.scene7.com/ | Production APAC (Asie-Pacifique) |
 
 1. Après vous être connecté, notez l’expérience familière de l’interface utilisateur du navigateur. Vous pouvez continuer votre activité Dynamic Media Classic d’Adobe au jour le jour comme vous le faites habituellement sur l’appli de bureau .
 
@@ -123,7 +123,7 @@ Voir aussi:
 
 Pour télécharger et *silencieux* installer la dernière version de l’appli de bureau Dynamic Media Classic Adobe sous macOS :
 
-1. Désinstallez toutes les anciennes versions de l’appli de bureau Dynamic Media Classic d’Adobe sur votre système en déplaçant le fichier Adobe Dynamic Media Classic.app vers la corbeille.
+1. Désinstallez toutes les anciennes versions de l’appli de bureau Dynamic Media Classic d’Adobe sur votre système.
 
 1. Téléchargez la dernière version du programme d’installation de l’appli de bureau Dynamic Media Classic Adobe pour macOS.
 
@@ -148,11 +148,11 @@ Pour télécharger et *silencieux* installer la dernière version de l’appli d
 
    Pour que **[!UICONTROL Serveur]** soit utilisé, voir le mappage suivant pour l’environnement de production :
 
-   | Nom du serveur d’applications de bureau | URL du navigateur |
+   | URL du navigateur | Nom du serveur d’applications de bureau |
    | --- | --- |
-   | Production NA (Amérique du Nord) | `https://s7sps1.scene7.com/` |
-   | Production EMEA (Europe, Moyen-Orient et Afrique) | `https://s7sps3.scene7.com/` |
-   | Production APAC (Asie-Pacifique) | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | Production NA (Amérique du Nord) |
+   | https://s7sps3.scene7.com/ | Production EMEA (Europe, Moyen-Orient et Afrique) |
+   | https://s7sps5.scene7.com/ | Production APAC (Asie-Pacifique) |
 
 ## Téléchargez et *silencieux* installez la dernière application de bureau Dynamic Media Classic Adobe sous Windows® {#install-silent-windows-dmc-app}
 
@@ -193,11 +193,12 @@ Pour télécharger et *silencieux* installer la dernière version de l’appli d
 
    Pour que **[!UICONTROL Serveur]** soit utilisé, voir le mappage suivant pour l’environnement de production :
 
-   | Nom du serveur d’applications de bureau | URL du navigateur |
+   | URL du navigateur | Nom du serveur d’applications de bureau |
    | --- | --- |
-   | Production NA (Amérique du Nord) | `https://s7sps1.scene7.com/` |
-   | Production EMEA (Europe, Moyen-Orient et Afrique) | `https://s7sps3.scene7.com/` |
-   | Production APAC (Asie-Pacifique) | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | Production NA (Amérique du Nord) |
+   | https://s7sps3.scene7.com/ | Production EMEA (Europe, Moyen-Orient et Afrique) |
+   | https://s7sps5.scene7.com/ | Production APAC (Asie-Pacifique) |
+
 
 ## Présentation vidéo de l’utilisation de l’application de bureau Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
