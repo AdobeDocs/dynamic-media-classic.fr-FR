@@ -1,6 +1,6 @@
 ---
 title: Configuration de l’application
-description: Découvrez comment configurer la zone Application d’Adobe Dynamic Media Classic.
+description: Découvrez comment configurer et configurer la zone Application d’Adobe Dynamic Media Classic. La zone Application vous permet de saisir des paramètres généraux, de créer des paramètres prédéfinis d’image, de visionneuse et de codage vidéo, de définir les visionneuses et métadonnées par défaut, les paramètres de publication et les paramètres d’optimisation pour les moteurs de recherche vidéo. Vous pouvez également utiliser la zone pour configurer des paramètres prédéfinis d’ensemble par lot afin d’automatiser la génération de visionneuses à 360° en 2D.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: 0e2271924f49edd6ac424bb7cbd56af1e6afd817
 workflow-type: tm+mt
-source-wordcount: '10951'
+source-wordcount: '11003'
 ht-degree: 44%
 
 ---
@@ -957,7 +957,7 @@ spin-03-12
 
 Avec ces informations, votre recette de type d’ensemble par lot peut être créée comme suit :
 
-![](assets/se_batch_set_recipe.png)
+![Image de recette d’ensemble par lot](assets/se_batch_set_recipe.png)
 
 Le regroupement de la partie du nom de ressource partagée de la visionneuse à 360° est ajouté au champ Correspondance (comme mis en surbrillance). La partie variable du nom de ressource contenant la ligne et la colonne est ajoutée respectivement aux champs Ligne et Colonne.
 

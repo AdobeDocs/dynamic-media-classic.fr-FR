@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: e3c2dcaa245e486ada62edd554db5a39d495483e
+source-git-commit: 4e42d90747af895d27c64fa3fb5830f73e3a0a95
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -38,22 +38,34 @@ L’appli de bureau Dynamic Media Classic Adobe est compatible avec les système
 >
 >La notification de mise à niveau dans l’application de bureau Dynamic Media Classic Adobe n’est pas générée pour les versions *mineures*. Les clients qui bénéficient de correctifs dans une version mineure peuvent effectuer une mise à niveau.
 
-## Correctifs de la version mineure (20.21.2) {#minor-release}
+## Correctifs de la dernière version (20.21.3) {#release-sept2021}
 
-* Limite connue dans 20.21.1 de la liste déroulante Serveur étant vide.
+* Vignettes endommagées pour les ressources affichées après une période d’inactivité sur l’appli de bureau.
+* L’appli de bureau cesse de répondre, généralement après les opérations Set .
+* L’obscurcissement des demandes et le mode de verrouillage sont activés automatiquement sous **[!UICONTROL Test de la diffusion d’images]**.
+
+   Voir [Test du service Secure Testing](/help/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+
+* Mise à jour du mécanisme d’authentification avec Adobe Analytics. Convient aux nouvelles intégrations ou si certaines variables Analytics doivent être mises à jour dans l’appli de bureau Dynamic Media Classic.
+
+   Voir [Connexion à Adobe Analytics](/help/log-analytics.md) pour connaître les étapes mises à jour.
+
+## Correctifs de la version 20.21.2 {#minor-release}
+
+* Limites connues en 20.21.1 : la liste déroulante **[!UICONTROL Serveur]** de l’écran de connexion était vide.
 * Dans **[!UICONTROL Télécharger les options de tâche]**, la valeur par défaut de dénomination des calques sous **[!UICONTROL Options Photoshop]** est désormais **[!UICONTROL Photoshop et nom de couche]**. Les calques du fichier PSD sont téléchargés comme images distinctes.
    * La valeur par défaut précédente de **[!UICONTROL Nom de calque]**, désignait les images en fonction de leur nom de calque ou de leur numéro de calque dans le fichier PSD. Le numéro de calque a été utilisé si les noms de calque dans le fichier PSD étaient des noms de calque Photoshop par défaut.
    * La nouvelle valeur par défaut **[!UICONTROL Photoshop et Nom de calque]**, nomme les images après le fichier PSD suivi du nom du calque ou du numéro de calque. Le numéro de calque est utilisé si le nom des calques dans le fichier PSD est un nom de calque Photoshop par défaut.
    * Étant donné que les images de calque dans Adobe Dynamic Media Classic portent désormais des noms uniques, aucune mise à jour du fichier PSD ou des modèles existants ne sera effectuée (les noms de calque partagés dans les fichiers PSD d’origine).
 * Miniatures des ressources endommagées.
 
-## Correctifs de la dernière version (20.21.1) {#latest-fixes-desktop-app}
+## Correctifs de la version 20.21.1 {#latest-fixes-desktop-app}
 
 * Problèmes de connexion en raison d’un délai d’expiration, qui entraînent le message suivant : *Cet utilisateur peut être affecté au groupe ou aux groupes sans autorisation. Contactez votre administrateur.*
 * Les paramètres prédéfinis de la visionneuse sont dupliqués à chaque tentative de mot de passe incorrect.
 * L’application de bureau ne répond plus en raison de la présence de nombreuses ressources dans le dossier racine. (Corrigé sous Windows®; fonctionne comme vous le souhaitez sur macOS.)
 
-## Correctifs de la version précédente (20.20.2) {#previous-version-fixes-desktop-app}
+## Correctifs de la version 20.20.2 {#previous-version-fixes-desktop-app}
 
 * Le nombre de fichiers que vous pouvez charger via l’interface utilisateur de l’appli de bureau n’est pas limité pour macOS et Windows®.
 * Il n’est pas nécessaire de se déconnecter de l’appli de bureau pour basculer entre les entreprises.
@@ -71,14 +83,14 @@ Voir aussi:
 
 1. Téléchargez la dernière version du programme d’installation de l’appli de bureau Dynamic Media Classic Adobe.
 
-   * La dernière version (20.21.2) est disponible à l’adresse suivante :
+   * La dernière version (20.21.3) est disponible à l’adresse suivante :
+
+      * [macOS (.DMG) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
+      * [Windows® (.EXE) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+   * La version précédente (20.21.2) est disponible à l’adresse suivante :
 
       * [macOS (.DMG) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
       * [Windows® (.EXE) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
-   * La version précédente (20.21.1) est disponible à l’adresse suivante :
-
-      * [macOS (.DMG) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows® (.EXE) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
 
 <!--         * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
@@ -106,11 +118,11 @@ Voir aussi:
 
    Pour que **[!UICONTROL Serveur]** soit utilisé, voir le mappage suivant pour l’environnement de production :
 
-   | URL du navigateur | Nom du serveur d’applications de bureau |
+   | Serveur | URL du navigateur |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | Production NA (Amérique du Nord) |
-   | https://s7sps3.scene7.com/ | Production EMEA (Europe, Moyen-Orient et Afrique) |
-   | https://s7sps5.scene7.com/ | Production APAC (Asie-Pacifique) |
+   | Production NA (Amérique du Nord) | https://s7sps1.scene7.com/ |
+   | Production EMEA (Europe, Moyen-Orient et Afrique) | https://s7sps3.scene7.com/ |
+   | Production APAC (Asie-Pacifique) | https://s7sps5.scene7.com/ |
 
 1. Après vous être connecté, notez l’expérience familière de l’interface utilisateur du navigateur. Vous pouvez continuer votre activité Dynamic Media Classic d’Adobe au jour le jour comme vous le faites habituellement sur l’appli de bureau .
 
@@ -127,11 +139,11 @@ Pour télécharger et *silencieux* installer la dernière version de l’appli d
 
 1. Téléchargez la dernière version du programme d’installation de l’appli de bureau Dynamic Media Classic Adobe pour macOS.
 
-   * [macOS (.DMG) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+   * [macOS (.DMG) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
 
 1. Montez l’image de disque (.DMG) téléchargée vers un emplacement de point de montage à l’aide de la commande suivante :
 
-   `hdiutil attach adobe-dynamic-media-classic-20.21.2.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.3.dmg -mountpoint <mount_point_path>`
 
 1. Copiez le fichier .APP dans **[!UICONTROL Applications]** à l’aide de la commande suivante :
 
@@ -148,11 +160,11 @@ Pour télécharger et *silencieux* installer la dernière version de l’appli d
 
    Pour que **[!UICONTROL Serveur]** soit utilisé, voir le mappage suivant pour l’environnement de production :
 
-   | URL du navigateur | Nom du serveur d’applications de bureau |
+   | Serveur | URL du navigateur |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | Production NA (Amérique du Nord) |
-   | https://s7sps3.scene7.com/ | Production EMEA (Europe, Moyen-Orient et Afrique) |
-   | https://s7sps5.scene7.com/ | Production APAC (Asie-Pacifique) |
+   | Production NA (Amérique du Nord) | https://s7sps1.scene7.com/ |
+   | Production EMEA (Europe, Moyen-Orient et Afrique) | https://s7sps3.scene7.com/ |
+   | Production APAC (Asie-Pacifique) | https://s7sps5.scene7.com/ |
 
 ## Téléchargez et *silencieux* installez la dernière application de bureau Dynamic Media Classic Adobe sous Windows® {#install-silent-windows-dmc-app}
 
@@ -169,19 +181,19 @@ Pour télécharger et *silencieux* installer la dernière version de l’appli d
 
 1. Téléchargez la dernière version du programme d’installation de l’appli de bureau Dynamic Media Classic Adobe.
 
-   * [Windows® (.EXE) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * [Windows® (.EXE) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
 1. Exécutez le programme d’installation en mode d’enregistrement à l’aide de la commande suivante :
 
-   `adobe-dynamic-media-classic-20.21.2.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.3.exe /r /f1"C:\Setup.iss"`
 
 1. Dans la fenêtre du programme d’installation de l’interface utilisateur graphique, suivez les étapes à suivre pour que les interactions/entrées, comme l’emplacement d’installation, soient enregistrées dans le fichier `Setup.iss`.
 
-1. Copiez le fichier `Setup.iss` créé et `adobe-dynamic-media-classic-20.21.2.exe` sur un autre ordinateur.
+1. Copiez le fichier `Setup.iss` créé et `adobe-dynamic-media-classic-20.21.3.exe` sur un autre ordinateur.
 
 1. Exécutez la commande suivante pour une installation silencieuse :
 
-   `adobe-dynamic-media-classic-20.21.2.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.3.exe /s /f1"C:\Setup.iss"`
 
    Vous trouverez des informations détaillées sur les paramètres de ligne de commande à l’adresse [Setup.exe et Update.exe Paramètres de ligne de commande.](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
@@ -193,12 +205,11 @@ Pour télécharger et *silencieux* installer la dernière version de l’appli d
 
    Pour que **[!UICONTROL Serveur]** soit utilisé, voir le mappage suivant pour l’environnement de production :
 
-   | URL du navigateur | Nom du serveur d’applications de bureau |
+   | Serveur | URL du navigateur |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | Production NA (Amérique du Nord) |
-   | https://s7sps3.scene7.com/ | Production EMEA (Europe, Moyen-Orient et Afrique) |
-   | https://s7sps5.scene7.com/ | Production APAC (Asie-Pacifique) |
-
+   | Production NA (Amérique du Nord) | https://s7sps1.scene7.com/ |
+   | Production EMEA (Europe, Moyen-Orient et Afrique) | https://s7sps3.scene7.com/ |
+   | Production APAC (Asie-Pacifique) | https://s7sps5.scene7.com/ |
 
 ## Présentation vidéo de l’utilisation de l’application de bureau Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
