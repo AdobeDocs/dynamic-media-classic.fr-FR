@@ -1,30 +1,30 @@
 ---
-title: Chargement d’une ressource image ou vectorielle
-description: Découvrez comment télécharger une ressource d’image ou vectorielle dans Adobe Dynamic Media Classic
+title: Chargement d’une ressource d’image pixellisée
+description: Découvrez comment télécharger une ressource d’image pixellisée dans Adobe Dynamic Media Classic
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 68%
+source-wordcount: '994'
+ht-degree: 67%
 
 ---
 
-# Chargement d’une ressource image ou vectorielle{#uploading-an-image-asset-or-a-vector-asset}
+# Chargement d’une ressource d’image pixellisée {#uploading-an-image-asset-or-a-vector-asset}
 
-Avant de transférer un fichier d’image, vous devez d’abord demander une clé de secret partagé. Cette clé vous permet de récupérer un jeton de téléchargement. Vous utilisez ensuite le jeton de téléchargement pour transférer les fichiers d’image ou vectoriels.
+Avant de transférer un fichier d’image, vous devez d’abord demander une clé de secret partagé. Cette clé vous permet de récupérer un jeton de téléchargement. Vous pouvez ensuite utiliser le jeton de chargement pour charger des ressources d’image pixellisée.
 
 >[!IMPORTANT]
 >
->La prise en charge des ressources d’image vectorielle UGC nouvelles ou existantes dans Adobe Dynamic Media Classic prendra fin le 30 septembre 2021.
+>La prise en charge des ressources vectorielles UGC nouvelles ou existantes dans Adobe Dynamic Media Classic s’est terminée le 30 septembre 2021.
 
 ## Demande d’une clé de secret partagé {#requesting-a-shared-secret-key}
 
-Demandez une *clé de secret partagé* par [à l’aide du Admin Console pour créer un cas de support.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Dans votre cas de prise en charge, demandez une clé de secret partagé.
+Demandez une *clé de secret partagé* par [à l’aide du Admin Console pour créer un cas de support.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Dans votre cas de prise en charge, demandez une clé de secret partagé.
 
 Dans le message électronique, indiquez le nom d’entreprise que vous voulez utiliser pour transférer les fichiers d’image. Une fois que vous avez reçu la clé d’Adobe Dynamic Media Classic, enregistrez-la localement pour une utilisation ultérieure.
 
@@ -34,11 +34,11 @@ Le *jeton de téléchargement* garantit que personne d’autre que vous n’util
 
 Le jeton de téléchargement est une chaîne numérique uniquement disponible pendant une durée limitée. Utilisez les URL suivantes, en substituant votre clé de secret partagé, afin que vous puissiez récupérer le jeton de chargement.
 
-* Image
+* Image pixellisée
    `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`Dans cet exemple, la clé de secret partagé est  `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
-* Vecteur
-   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`Dans cet exemple, la clé de secret partagé est  `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
+<!-- * Vector
+  `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
 Par défaut, le jeton de téléchargement arrive à expiration au terme d’un délai de cinq minutes (300 secondes) après sa récupération. Pour demander plus de temps, incluez `expires` dans l’URL et le temps nécessaire en secondes. Par exemple, l’URL d’image suivante permet de récupérer un jeton de téléchargement valide pendant 1 800 secondes :
 
@@ -77,13 +77,13 @@ Vous pouvez utiliser les champs suivants dans l’URL de requête pour récupér
 | shared_secret | Obligatoire | La clé de secret partagé de l’entreprise qui procède au téléchargement. |
 | expires | Facultatif | Durée de validité (en secondes) du jeton de téléchargement. Valeur par défaut : 300 secondes. |
 
-**Exemple d’URL d’image :**
+**Exemple d’URL d’image pixellisée :**
 
 `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=600`
 
-**Exemple d’URL de fichier vectoriel :**
+<!-- **Sample vector URL:**
 
-`https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000`
+`https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
 **Méthodes HTTP autorisées :**
 `GET` et  `POST`
@@ -92,7 +92,7 @@ Vous pouvez maintenant transférer un fichier d’image.
 
 Voir [Chargement d’une ressource image](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Chargement d’une ressource image {#uploading-an-image-asset}
+## Chargement d’une ressource d’image pixellisée {#uploading-an-image-asset}
 
 Après avoir récupéré un jeton de téléchargement valide pendant une durée limitée, vous pouvez télécharger un fichier d’image. Vous téléchargez le fichier en tant que publication de formulaire ou publication en plusieurs parties tout en envoyant le reste des valeurs en tant que chaîne de requête d’URL, comme dans cet exemple :
 
@@ -119,7 +119,7 @@ Une limite globale est définie dans l’application pour la taille limite des f
 | Limite globale | Valeur |
 | --- | --- |
 | Taille du fichier pour tous les clients | 20 Mo |
-| Formats de fichiers d’image pris en charge pour le téléchargement | BMP, GIF, JPG, PNG, PSD |
+| Formats de fichiers d’image pris en charge pour le téléchargement | BMP, GIF, JPG, PNG, PSD, TIFF |
 
 Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier. L’utilisateur est invité à entrer les informations suivantes :
 
@@ -131,16 +131,6 @@ Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier
 * Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les méthodes Coin, Tolérance et Remplir.
 Voir Masquer l’arrière-plan dans [Options d’optimisation de l’image à l’adresse ](image-editing-options-upload.md#image-editing-options-at-upload) de téléchargement.
 * Nom du fichier à télécharger.
-
-<!-- 
-
-Comment Type: remark
-Last Modified By: unknown unknown 
-Last Modified Date: 
-
-<p>Art Spec: If not leaving art spec, delete only the first of the 2 &lt;draft-comment> elements under &lt;adobefig>.</p>
-
- -->
 
 Vous pouvez afficher le code source HTML associé au formulaire ci-dessus en sélectionnant [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
@@ -252,61 +242,51 @@ Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pou
 
 GET et POST
 
-## Chargement d’une ressource vectorielle {#uploading-a-vector-asset}
+<!-- ## Upload a vector asset {#uploading-a-vector-asset}
 
 >[!IMPORTANT]
 >
->La prise en charge des ressources d’image vectorielle UGC nouvelles ou existantes dans Adobe Dynamic Media Classic prendra fin le 30 septembre 2021.
+>Support for new or existing UGC vector image assets in Adobe Dynamic Media Classic end on September 30, 2021.
 
-Après avoir récupéré un jeton de téléchargement valide pendant une durée limitée, vous pouvez transférer un fichier vectoriel. Vous téléchargez le fichier en tant que publication de formulaire ou publication en plusieurs parties tout en envoyant le reste des valeurs en tant que chaîne de requête d’URL, comme dans cet exemple :
+After you retrieve an upload token that is valid for a specific amount of time, you can upload a vector asset. You upload the asset as a multipart/form post while sending the rest of the values as a URL query string, as shown in this example:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company
 ```
 
-Les champs `upload_token` et `company_name` sont obligatoires.
+The `upload_token` and `company_name` fields are required.
 
-Voir [Récupération du jeton de chargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+See [Retrieve the upload token](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Voir [Récupération d’une clé de secret partagé](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+See [Retrieve a shared-secret key](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
-Vous pouvez également envoyer d’autres valeurs facultatives comme chaînes de requête d’URL, comme dans cet exemple :
+You can also send other optional values as URL query strings, as in this example:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=ai,pdf
 ```
 
-Le paramètre `file_limit` spécifie la limite de taille de fichier en octets. Le paramètre `file_exts` spécifie les extensions de nom de fichier admises pour le téléchargement. Ces deux valeurs sont facultatives.
+The `file_limit` parameter specifies the file-size limit in bytes. The `file_exts` parameter specifies the filename extensions that are allowed for upload. Both of these values are optional.
 
-Une limite globale est définie dans l’application pour la taille limite des fichiers et les extensions de nom de fichier autorisées. Si le contenu de votre requête se trouve dans les limites globales, celle-ci est satisfaite. Les limites globales sont les suivantes :
+A global limit is set in the application for the file size limit and the filename extensions allowed. If what you send in the request is a subset of the global limits, it is honored. The global limits are the following:
 
-| Limite globale | Valeur |
+| Global limit | Value |
 | --- | --- |
-| Taille du fichier pour tous les clients | 20 Mo |
-| Formats de fichiers vectoriels pris en charge pour le transfert | AI, EPS, PDF (uniquement si le fichier PDF est déjà ouvert et enregistré dans Adobe Illustrator CS6) |
+| File size for all clients | 20 MB |
+| Supported vector file formats for upload | AI, EPS, PDF (only when the PDF is previously opened and saved in Adobe Illustrator CS6) |
 
-Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier. L’utilisateur est invité à entrer les informations suivantes :
+The following HTML form lets a user upload an asset. The form asks the user to enter the following information:
 
-* Nom de l’entreprise.
-* Jeton de téléchargement.
-* Taille limite de fichier.
-* Liste des extensions de nom de fichier.
-* Permet de conserver le profil colorimétrique et le nom de fichier associés à la ressource.
-* Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les méthodes Coin, Tolérance et Remplir.
-Voir Masquer l’arrière-plan dans [Options d’optimisation de l’image à l’adresse ](image-editing-options-upload.md#image-editing-options-at-upload) de téléchargement.
-* Nom du fichier à télécharger.
+* A company name.
+* An upload token.
+* A file size limit.
+* A list of filename extensions.
+* Whether to preserve the color profile and file name associated with the asset.
+* Whether to use Knockout Background. If you enable Knockout Background, set the Corner, Tolerance, and Fill Method.
+See Knockout Background in [Image fine-tuning options at upload](image-editing-options-upload.md#image-editing-options-at-upload).
+* The name of the file to upload.
 
-<!-- 
-
-Comment Type: remark
-Last Modified By: unknown unknown 
-Last Modified Date: 
-
-<p>Art Spec: If not leaving art spec, delete only the first of the 2 &lt;draft-comment> elements under &lt;adobefig>.</p>
-
- -->
-
-Le code HTML suivant s’affiche lorsque vous cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis sélectionnez **[!UICONTROL Afficher la source]** pour le formulaire affiché dans l’exemple. Le code affiche la chaîne de requête d’URL correspondante et la méthode du POST qui sont exécutées lorsque l’utilisateur sélectionne **[!UICONTROL Submit]**.
+The following HTML code is displayed when you right-click in the browser window, and then select **[!UICONTROL View Source]** for the form shown in the example. The code shows the corresponding URL query string and the POST method that are run when the user selects **[!UICONTROL Submit]**.
 
 ```as3
 <body> 
@@ -340,9 +320,9 @@ return true;
 </body>
 ```
 
-Pour afficher la réponse XML dans Internet Explorer, accédez à **[!UICONTROL Vue]** > **[!UICONTROL Source]**. Pour afficher la réponse XML dans Firefox, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Outils de navigateur]** > **[!UICONTROL Source de page]**. Firefox est recommandé pour afficher les réponses XML.
+To view the XML response in Internet Explorer, go to **[!UICONTROL View]** > **[!UICONTROL Source]**. To view XML response in Firefox, go to **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Page Source]**. Firefox is recommended for viewing XML responses.
 
-Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi :
+The following is a sample response from a successful upload:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -368,32 +348,33 @@ Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi�
 
 >[!NOTE]
 >
->le fichier transféré (AI, EPS, PDF, etc.) est converti au format FXG et un lien direct vers ce fichier FXG est envoyé dans la réponse.
+>The uploaded asset (AI, EPS, PDF so on) is converted to the FXG format and the response sends a direct link to that FXG asset.
 
-La ressource est semblable à toute autre ressource d’impression en ligne ; vous lui appliquez des requêtes de traitement. Par exemple, l’URL suivante convertit une ressource FXG en image PNG 500 x 500.
+The asset is like any other Web-to-print resource; you apply processing queries to it. For example, the following URL converts an FXG resource into a 500x500 png image.
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 ```
 
-Envoyez le fichier à télécharger en tant que publication de formulaire ou en plusieurs parties tout en envoyant le reste des valeurs en tant que chaîne de requête d’URL. Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pour télécharger un fichier :
+Send the asset to upload as a multipart/form post while sending the rest of the values as a URL query string. You can use the following fields in the URL query string to upload an asset:
 
-| Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
+| URL Parameter | Required or Optional | Value |
 | --- | --- | --- |
-| `op` | Obligatoire | charger |
-| `upload_token` | Obligatoire | Jeton de téléchargement pour la clé de secret protégé associée à l’entreprise. |
-| `company_name` | Obligatoire | Nom de l’entreprise qui réalise le téléchargement. |
-| `file_limit` | Facultatif | Taille limite du fichier (en octets). |
-| `file_exts` | Facultatif | Liste des extensions de fichiers autorisées. |
+| `op` | Required | upload |
+| `upload_token` | Required | Upload token for the shared-secret key associated with the company. |
+| `company_name` | Required | Name of the company performing the upload. |
+| `file_limit` | Optional | File size limit, in bytes, for the asset. |
+| `file_exts` | Optional | List of allowable extensions for the asset file. |
 
 >[!NOTE]
 >
->vous devez envoyer le fichier à télécharger en tant que champ unique dans la requête POST en plusieurs parties.
+>You are required to send the asset to be uploaded as the only field in a multipart POST request.
 
-**Exemple d’URL :**
+**Sample URL:**
 
 `https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_to ken=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company`
 
-**Méthode HTTP autorisée :**
+**Allowed HTTP method:**
 
 POST
+ -->

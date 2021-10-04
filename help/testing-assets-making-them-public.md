@@ -10,9 +10,9 @@ discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1066'
 ht-degree: 31%
 
 ---
@@ -73,14 +73,14 @@ Last Modified Date:
 
 Les types de fichiers suivants et les fonctionnalités suivantes ne sont actuellement pas pris en charge :
 
-* Diffusion vidéo en flux continu RTMP
-* Services de contenu généré par l’utilisateur
-* Impression en ligne
 * Adobe Dynamic Media Classic Info ou recherche eCatalog
+* Diffusion vidéo en flux continu RTMP
+* Impression en ligne
+* Services de contenu généré par l’utilisateur
 
 >[!IMPORTANT]
 >
->La prise en charge des ressources d’image vectorielle UGC nouvelles ou existantes dans Adobe Dynamic Media Classic prendra fin le 30 septembre 2021.
+>La prise en charge des ressources d’image vectorielle UGC nouvelles ou existantes dans Adobe Dynamic Media Classic s’est terminée le 30 septembre 2021.
 
 ## Test du service Secure Testing {#testing-the-secure-testing-service}
 
