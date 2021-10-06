@@ -10,7 +10,7 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 53551f938946bb78074127c05f984ae97e9ccca1
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 35%
@@ -76,7 +76,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Une fois que vous avez terminé, près du coin inférieur droit de la page, assurez-vous que l’option **[!UICONTROL Publier après l’enregistrement*]** est sélectionnée (par défaut).
 1. Sélectionnez **[!UICONTROL Fermer]**, saisissez un nom pour le jeu d’offres, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-Avant de fermer la page du jeu d’offres Test&amp;Target, vous devez envoyer le jeu d’offres vers Adobe Target Standard/Premium. Voir [Promotion de visionneuses d’offres sur Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target). 
+Avant de fermer la page du jeu d’offres Test&amp;Target, vous devez envoyer le jeu d’offres vers Adobe Target Standard/Premium. Voir [Jeux d’offres push vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Création d’une visionneuse d’offres avec des images ou des vidéos {#creating-an-offer-set-with-images-or-videos}
 
