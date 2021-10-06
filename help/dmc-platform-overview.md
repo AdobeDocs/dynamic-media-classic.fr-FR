@@ -10,9 +10,9 @@ discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '527'
 ht-degree: 25%
 
 ---
@@ -31,7 +31,7 @@ Les étapes clés du workflow Adobe Dynamic Media Classic sont les suivantes :
 
 * **Créer un média enrichi**  : créez différentes configurations de vos ressources telles que des catalogues électroniques, des visionneuses d’images, des visionneuses à 360°, des séries d’échantillons, des visionneuses de médias mixtes, des modèles de base et des modèles FXG.
 
-* **Publier et administrer**  : publiez des ressources sur le réseau Adobe Dynamic Media Classic SaaS, surveillez l’état des ressources lorsqu’elles sont publiées, administrez les droits d’utilisateur et maintenez la sécurité.
+* **Publier et administrer**  : publiez des ressources sur le réseau Adobe Dynamic Media Classic SaaS. Surveillez l’état des ressources lorsqu’elles sont publiées. Gérez les droits des utilisateurs et maintenez la sécurité.
 
 * **Diffuser**  : diffuser du contenu multimédia du réseau Adobe Dynamic Media Classic SaaS vers des pages web, des applications et des appareils mobiles ; les médias sont optimisés en termes de performances et sont fournis avec la mise en cache CDN. Adobe Dynamic Media Classic fournit une URL pour chaque ressource. Une fois le fichier publié, l’URL s’active.
 
