@@ -10,10 +10,10 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '883'
+ht-degree: 29%
 
 ---
 
@@ -41,7 +41,7 @@ Voir [Ajout et modification de paramètres de visionneuse prédéfinis](applicat
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic offre une méthode pratique pour prévisualiser une vidéo MP4 sur le bureau. Utilisez cette méthode pour prévisualiser du contenu mobile sur le Bureau sans le tester concrètement sur des périphériques mobiles. Notez toutefois que ce qui est affiché dans l’aperçu de bureau n’indique pas de manière réaliste à quoi ressemble la lecture sur l’appareil mobile. Pour prévisualiser l’aspect et la lecture d’une vidéo sur un appareil mobile, accédez à l’écran Aperçu , sélectionnez **[!UICONTROL Copier l’URL]**, puis saisissez cette URL dans le navigateur web d’un appareil mobile. Pour plus d’informations, voir [Déployer une vidéo sur vos sites web et sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic fournit une méthode pratique pour prévisualiser une vidéo MP4 sur le bureau. Utilisez cette méthode pour prévisualiser du contenu mobile sur le Bureau sans le tester concrètement sur des périphériques mobiles. Notez toutefois que ce qui est affiché dans l’aperçu de bureau n’indique pas de manière réaliste à quoi ressemble la lecture sur l’appareil mobile. Pour prévisualiser l’aspect et la lecture d’une vidéo sur un appareil mobile, accédez à l’écran Aperçu , sélectionnez **[!UICONTROL Copier l’URL]**, puis saisissez cette URL dans le navigateur web d’un appareil mobile. Pour plus d’informations, voir [Déployer une vidéo sur vos sites web et sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Utilisation des paramètres prédéfinis de visionneuse de vidéos {#working-with-video-viewer-presets}
 
@@ -49,7 +49,9 @@ Les vidéos sont regardées dans la visionneuse vidéo. Le comportement de la v
 
 Adobe Dynamic Media Classic est fourni avec de nombreux paramètres prédéfinis de visionneuse pour la lecture de vidéos. Si vous êtes administrateur, vous pouvez créer des paramètres prédéfinis de visionneuse personnalisés. Il existe plus d’une douzaine de paramètres distincts pour la configuration de la visionneuse de vidéo. Vous pouvez configurer la taille, la couleur, les commandes vidéo et audio, la barre de progression, l’habillage de l’interface utilisateur et les fonctionnalités de réseau social.
 
-Voir aussi [Prévisualisation de vidéos dans une visionneuse de vidéos](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
+Voir [Prévisualisation de vidéos dans une visionneuse de vidéos](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
+
+Voir aussi [Vidéo de formation Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 ### Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos {#adding-or-editing-a-video-viewer-preset}
 
@@ -58,6 +60,8 @@ La fonction Paramètres prédéfinis de la visionneuse vous permet d’afficher 
 Dans Paramètres prédéfinis de la visionneuse, vous pouvez activer, filtrer, trier et prévisualiser les paramètres prédéfinis de la visionneuse.
 
 Voir [Paramètres prédéfinis de la visionneuse](application-setup.md#viewer_presets).
+
+Voir aussi [Vidéo de formation Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 **Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos:**
 

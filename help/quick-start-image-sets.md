@@ -10,24 +10,26 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 25%
+source-wordcount: '626'
+ht-degree: 22%
 
 ---
 
 # Démarrage rapide : Visionneuses d’images{#quick-start-image-sets}
 
-Les visionneuses d’images Dynamic Media Classic Adobe offrent aux utilisateurs une expérience de visionnage intégrée. La visionneuse d’images dynamique vous permet d’afficher différentes vues d’un objet d’un simple clic sur une image miniature. Les visionneuses d’images vous permettent de présenter d’autres vues haute résolution d’un élément.
+Les visionneuses d’images Adobe Dynamic Media Classic offrent aux utilisateurs une expérience de visionnage intégrée. La visionneuse d’images dynamique vous permet d’afficher différentes vues d’un objet d’un simple clic sur une image miniature. Les visionneuses d’images vous permettent de présenter d’autres vues haute résolution d’un élément.
 
 Les outils de zoom de la visionneuse d’images sont pratiques pour examiner les images de plus près. Si vous le souhaitez, vous pouvez intégrer des cibles de zoom guidé et des zones cliquables dans votre visionneuse d’images. Les visionneuses d’images garantissent une visualisation concertée et privée.
 
-Cette section de démarrage rapide des visionneuses d’images est conçue pour vous aider à maîtriser rapidement les techniques de visionneuse d’images dans Adobe Dynamic Media Classic.
+Voir [Visionneuses d’images et de 360° : Vidéo de formation de Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
+
+Le démarrage rapide des visionneuses d’images suivant est conçu pour vous aider à maîtriser rapidement les techniques de visionneuse d’images dans Adobe Dynamic Media Classic.
 
 ## 1. Chargement des images originales pour plusieurs vues et échantillons
 
-Commencez par télécharger les images pour les visionneuses d’images. Comme les utilisateurs peuvent zoomer sur les images dans la visionneuse d’images, veillez à en tenir compte lors du choix des images. Assurez-vous que la taille des images est d’au moins 2 000 pixels. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichier image, mais les formats sans perte TIFF, PNG et EPS sont recommandés.
+Commencez par télécharger les images pour les visionneuses d’images. Comme les utilisateurs peuvent zoomer sur les images dans la visionneuse d’images, veillez à en tenir compte lors du choix des images. Assurez-vous que la taille des images est d’au moins 2 000 pixels. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichier image, mais les formats TIFF, PNG et EPS sans perte sont recommandés.
 
 Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour charger des fichiers depuis votre ordinateur vers un dossier sur Adobe Dynamic Media Classic.
 
@@ -59,7 +61,7 @@ Voir [Aperçu d’une ressource](previewing-asset.md#previewing-an-asset).
 
 ## 5. Publication d’une visionneuse d’images
 
-La publication d’une visionneuse d’images la place sur les serveurs Dynamic Media Classic Adobe et active la chaîne URL.
+La publication d’une visionneuse d’images la place sur les serveurs Adobe Dynamic Media Classic et active la chaîne URL.
 
 >[!NOTE]
 >
@@ -71,7 +73,7 @@ Voir [Publier les fichiers](publishing-files.md#publishing-files).
 
 ## 6. Liez une visionneuse d’images à votre site Web.
 
-Adobe Dynamic Media Classic crée des appels URL pour les visionneuses d’images et les active une fois que vous avez publié. Vous pouvez copier ces chaînes URL depuis l’écran de prévisualisation.
+Adobe Dynamic Media Classic crée des appels URL pour les visionneuses d’images et les active après leur publication. Vous pouvez copier ces chaînes URL depuis l’écran de prévisualisation.
 
 Sélectionnez la visionneuse d’images, puis **[!UICONTROL Aperçu]**. Sélectionnez maintenant un paramètre prédéfini de visionneuse d’images, puis sélectionnez **[!UICONTROL Copier l’URL]**.
 

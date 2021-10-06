@@ -6,9 +6,9 @@ user-guide-title: Guide d’Adobe Dynamic Media Classic
 breadcrumb-title: Guide de Dynamic Media Classic
 user-guide-description: En savoir plus sur l’utilisation d’Adobe Dynamic Media Classic
 index: y
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '776'
 ht-degree: 30%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 30%
    + [À propos de l’aide d’Adobe Dynamic Media Classic](introduction.md)
    + [Ressources du développeur](developer-resources.md)
    + [Nouveautés](whats-new.md)
-   + [Configuration requise pour l’appli de bureau Dynamic Media Classic Adobe](system-requirements.md)
+   + [Configuration requise pour l’appli de bureau Adobe Dynamic Media Classic](system-requirements.md)
    + [Assistance](support.md)
    + [Aide pour Adobe Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Services de formation Adobe](training-services.md)
-   + [Ressources populaires](popular-resources.md)
+   + [Ressources d’apprentissage les plus consultées](popular-resources.md)
    + [Vidéos de formation](training-videos.md)
 + Démarrage rapide {#getting-started}
    + [Présentation du programme Adobe Dynamic Media Classic](dmc-platform-overview.md)
@@ -92,13 +92,13 @@ ht-degree: 30%
    + [Liaison des visionneuses de zoom à des pages web](linking-zoom-viewers-web-pages.md)
 + Catalogues électroniques {#ecatalogs}
    + [Démarrage rapide : Catalogues électroniques](quick-start-ecatalog.md)
-   + [Téléchargement des fichiers PDF](uploading-pdf-files.md)
+   + [Chargement des fichiers du PDF](uploading-pdf-files.md)
    + [Création d’un catalogue électronique](creating-ecatalog.md)
    + [Création de zones cliquables de catalogue électronique](creating-ecatalog-image-maps.md)
    + [Gestion du contenu du panneau Informations dans les catalogues électroniques](info-panel-content-ecatalog.md)
    + [Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique](setting-ecatalog-viewer-presets.md)
    + [Aperçu des catalogues électroniques dans la visionneuse de catalogue électronique](previewing-ecatalogs-ecatalog-viewer.md)
-   + [Publication de catalogues électroniques et de fichiers PDF associés](publishing-ecatalogs-associated-pdfs.md)
+   + [Publication de catalogues électroniques et de PDF associés](publishing-ecatalogs-associated-pdfs.md)
    + [Liaison d’un catalogue électronique à une page web](linking-ecatalog-web-page.md)
 + Visionneuses d’images {#image-sets}
    + [Démarrage rapide : Visionneuses d’images](quick-start-image-sets.md)
@@ -174,7 +174,7 @@ ht-degree: 30%
    + [Modification d’une image](adjusting-image.md)
    + [Options d’optimisation des images lors du téléchargement](image-editing-options-upload.md)
    + [Utilisation de PDF](pdfs.md)
-   + [Utilisation de fichiers PSD](psd-files.md)
+   + [Utilisation de fichiers de PSD](psd-files.md)
    + [Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md)
    + [Utilisation de fichiers de vignette, de vitrine et d’armoire](vignette-window-covering-cabinet-files.md)
 + Fichiers de support {#support-files}

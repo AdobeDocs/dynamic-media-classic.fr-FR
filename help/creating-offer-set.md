@@ -10,10 +10,10 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 38%
+source-wordcount: '1293'
+ht-degree: 35%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Dynamic Media Classic propose des outils d’édition et de création de v
 
 >[!NOTE]
 >
->Avant de créer une visionneuse d’offres, veillez à publier toutes les ressources que vous prévoyez d’utiliser pour la visionneuse sur Adobe Dynamic Media Classic. Voir [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
+>Avant de créer une visionneuse d’offres, veillez à publier toutes les ressources que vous prévoyez d’utiliser pour la visionneuse dans Adobe Dynamic Media Classic. Voir [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
 ## Types de visionneuses d’offres {#types-of-offer-sets}
 
@@ -39,7 +39,9 @@ Créez une visionneuse d’offres à partir des types suivants :
 
 * **Images**  : vous pouvez assembler des images pour une visionneuse d’offres. Chaque image comprend une offre différente dans la visionneuse.
 
-* **Modèle d’image**  : vous pouvez paramétrer des modèles d’image dans Adobe Dynamic Media Classic à l’aide de la commande Créer > Concepts de base des modèles . A travers les paramètres, les composants du modèle (le texte des cadres textuels, les différentes images) peuvent être modifiés et personnalisés. Pour une visionneuse d’offres, vous pouvez utiliser les paramètres de modèles afin de créer des variantes de la même image dans votre visionneuse d’offres, par exemple. Pour plus d’informations sur la création et le paramétrage des modèles d’images, voir Création de paramètres de modèle.
+* **Modèle d’image**  : vous pouvez paramétrer des modèles d’image dans Adobe Dynamic Media Classic à l’aide de la commande  **[!UICONTROL Créer]**  > Concepts de base des modèles. A travers les paramètres, les composants du modèle (le texte des cadres textuels, les différentes images) peuvent être modifiés et personnalisés. Pour une visionneuse d’offres, vous pouvez utiliser les paramètres de modèles afin de créer des variantes de la même image dans votre visionneuse d’offres, par exemple. Pour plus d’informations sur la création et le paramétrage des modèles d’image, voir [Création de paramètres de modèle](creating-template-parameters.md#creating_template_parameters).
+
+Voir également la [vidéo de formation sur les concepts de base](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
 * **Vidéo**  : vous pouvez assembler une vidéo pour une visionneuse d’offres. Chaque vidéo est une offre différente dans la visionneuse.
 

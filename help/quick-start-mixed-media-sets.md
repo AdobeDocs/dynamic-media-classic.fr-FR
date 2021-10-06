@@ -10,10 +10,10 @@ discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 38%
+source-wordcount: '701'
+ht-degree: 34%
 
 ---
 
@@ -23,7 +23,7 @@ Les visionneuses de supports variés offrent aux utilisateurs une expérience de
 
 Les paramètres prédéfinis de visionneuse de supports variés incluent des options de la communauté permettant aux utilisateurs finals d’incorporer du code, de copier des URL et de créer des liens vers le site Web principal. Les utilisateurs peuvent utiliser ces options pour partager des informations de produits sur leur site Web personnel ou sur des sites de réseaux sociaux.
 
-Cette section de démarrage rapide des visionneuses de médias mixtes est conçue pour vous aider à maîtriser rapidement les techniques de visionneuse de médias mixtes dans Adobe Dynamic Media Classic.
+Ce didacticiel de supports variés est conçu pour vous aider à maîtriser rapidement les techniques de visionneuse de supports variés dans Adobe Dynamic Media Classic.
 
 ## 1. Chargement des images, des fichiers d’échantillon et des vidéos
 
@@ -53,6 +53,8 @@ Lors de la configuration d’un paramètre prédéfini de visionneuse de médias
 
 Voir [Configuration d’un paramètre prédéfini de visionneuse de médias mixtes](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) et [Création et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding-and-editing-viewer-presets).
 
+Voir également la [vidéo de formation Paramètres prédéfinis de la visionneuse](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
+
 ## 5. Aperçu d’une visionneuse de médias mixtes
 
 Sélectionnez le bouton **[!UICONTROL Aperçu]** de la visionneuse de médias mixtes. Vous pouvez sélectionner les icônes de miniature et d’échantillon pour examiner votre visionneuse de médias mixtes dans la visionneuse de médias mixtes. Différentes visionneuses sont disponibles dans les menus Paramètres prédéfinis.
@@ -61,7 +63,7 @@ Voir [Aperçu d’une ressource](previewing-asset.md#previewing-an-asset).
 
 ## 6. Publication d’une visionneuse de médias mixtes
 
-La publication d’une visionneuse de médias mixtes la place sur les serveurs Dynamic Media Classic Adobe et active la chaîne URL.
+La publication d’une visionneuse de médias mixtes la place sur les serveurs Adobe Dynamic Media Classic et active la chaîne URL.
 
 Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisez le **serveur de vidéo** pour publier les vidéos réelles que vous avez marquées pour publication De plus, vous utilisez **Image Server** pour publier des ressources connexes, telles que les miniatures vidéo, et définir des informations pour toute visionneuse de vidéos adaptative.
 

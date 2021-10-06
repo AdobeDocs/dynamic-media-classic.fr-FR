@@ -10,20 +10,20 @@ discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 18%
+source-wordcount: '711'
+ht-degree: 16%
 
 ---
 
 # Navigation - Notions élémentaires{#navigation-basics}
 
-L’écran Adobe Dynamic Media Classic comprend trois principaux aspects : Barre de navigation globale, Bibliothèque de ressources, onglet Filtres de ressources, Panneau de navigation/Créer et Panier de médias (Media Portal uniquement).
+L’écran Adobe Dynamic Media Classic comprend trois zones principales : Barre de navigation globale, Bibliothèque de ressources, onglet Filtres de ressources, Panneau de navigation/Créer et Panier de médias (Media Portal uniquement).
 
 ![Principes ](/help/assets/gs_navigation_basics_popup_popup.png)
 *de navigationPrincipales*
-*zones Dynamic Media ClassicA) Barre de navigation globale B) Panneau Bibliothèque de ressources C) Onglet Filtres de ressources D) Panneau de navigation E) Panier multimédia (Media Portal uniquement)*
+*zones Adobe Dynamic Media ClassicA) Barre de navigation globale B) Panneau Bibliothèque de ressources C) Onglet Filtres de ressources D) Panneau de navigation E) Panier multimédia (Media Portal uniquement)*
 
 ## Barre de navigation globale {#global-navigation-bar}
 
@@ -31,19 +31,19 @@ La barre de navigation globale, située dans la partie supérieure de l’écran
 
 * **[!UICONTROL Sélectionner Société]**  : sélectionnez la société à laquelle vous souhaitez accéder dans le menu. Ce bouton n’est pas disponible si vous travaillez avec une seule société.
 
-* **[!UICONTROL Télécharger]**  : ouvre l’écran de téléchargement afin que vous puissiez charger des fichiers depuis votre ordinateur ou votre réseau vers Adobe Dynamic Media Classic. Vous pouvez télécharger des fichiers à partir du bureau ou par FTP (File Transfer Protocol) Voir [Chargement de fichiers](/help/uploading-files.md).
+* **[!UICONTROL Télécharger]**  : ouvre l’écran Télécharger pour vous permettre de télécharger des fichiers de votre ordinateur ou du réseau vers Adobe Dynamic Media Classic. Vous pouvez télécharger des fichiers à partir du bureau ou par FTP (File Transfer Protocol) Voir [Chargement de fichiers](/help/uploading-files.md).
 
 * **[!UICONTROL Créer]**  : sélectionnez une tâche Créer dans le menu. Le panneau de création qui s’ouvre vous permet de créer un type de fichier.
 
-* **[!UICONTROL Publier]**  : ouvre l’écran de publication pour vous permettre de publier des ressources multimédias enrichies sur les serveurs d’images Dynamic Media et le reste de l’infrastructure SAAS Dynamic Media Classic d’Adobe.
+* **[!UICONTROL Publier]**  : ouvre l’écran de publication pour vous permettre de publier des ressources multimédias enrichies sur les serveurs d’images Dynamic Media et le reste de l’infrastructure SAAS Adobe Dynamic Media Classic.
 
 * **[!UICONTROL Tâches]**  : ouvre l’écran Tâches pour vous permettre d’examiner les enregistrements des tâches de téléchargement et de publication.
 
 * **[!UICONTROL Récent]**  : ouvre l’écran Activité récente afin que vous puissiez afficher les noms des ressources récemment modifiées et des tâches de chargement et de publication récentes.
 
-* **[!UICONTROL Configuration]**  : ouvre l’écran Configuration afin que vous puissiez choisir les options de configuration ou d’administration pour optimiser votre utilisation d’Adobe Dynamic Media Classic. (voir [Configuration](/help/setup-basics.md)).
+* **[!UICONTROL Configuration]**  : ouvre l’écran Configuration afin que vous puissiez sélectionner les options de configuration ou d’administration pour optimiser votre utilisation d’Adobe Dynamic Media Classic. (voir [Configuration](/help/setup-basics.md)).
 
-* **** Aide Sélectionnez une option d’aide :
+* **** Aide Choisissez une option d’aide :
 
    * **[!UICONTROL Aide sur cette rubrique]**  : ouvre le système d’aide sur une page contenant des informations sur la tâche que vous effectuez actuellement.
    * **[!UICONTROL Tutoriel vidéo]**  : accède à des vidéos sur des rubriques spécifiques qui vous montrent comment commencer à utiliser chaque workflow de publication de contenu multimédia.
@@ -70,6 +70,8 @@ Le panneau de navigation/de création est l’emplacement où se concentre votre
 * **[!UICONTROL Mode]**  de navigation : pour afficher et utiliser le contenu d’un dossier dans le panneau de navigation, sélectionnez un dossier dans la bibliothèque de ressources. Ce panneau propose les menus **[!UICONTROL Fichier]**, **[!UICONTROL Aperçu]**, **[!UICONTROL Sélectionner tout]**, **[!UICONTROL Sélectionner aucun]** et **[!UICONTROL Tri]** pour utiliser des ressources. Vous pouvez également afficher les ressources de différentes manières en déplaçant le curseur ou en sélectionnant **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]** ou **[!UICONTROL Affichage des détails]**. Sélectionnez **[!UICONTROL Affichage des détails]** ou double-cliquez sur une ressource pour ouvrir la ressource en mode Affichage des détails, où vous pouvez effectuer des opérations sur des fichiers dépendants d’une ressource.
 
 * **[!UICONTROL Mode de création]**  : sélectionnez  **[!UICONTROL Créer]**, puis choisissez une option pour commencer à créer un catalogue électronique, une visionneuse d’images, une visionneuse à 360° ou l’un des autres éléments disponibles dans le menu Créer. La page Créer s’ouvre. Vous pouvez sélectionner les fichiers à utiliser avant ou après l’entrée en mode de création.
+
+Voir également la [vidéo de formation Principes de navigation](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS).
 
 >[!MORELIKETHIS]
 >

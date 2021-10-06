@@ -10,10 +10,10 @@ discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 64%
+source-wordcount: '844'
+ht-degree: 59%
 
 ---
 
@@ -26,6 +26,8 @@ Lorsque vous créez des paramètres de modèle, vous spécifiez en fait les part
 Dans les paramètres de calque de texte, vous pouvez également transformer la chaîne de texte en champ dynamique lié aux valeurs d’une base de données. Il est très pratique de pouvoir lier un texte à une base de données, notamment dans le cadre de promotions. Vous pouvez personnaliser les images de modèle pour qu’elles affichent le nom des clients. Vous pouvez également associer un paramètre de calque de texte à une base de données de prix pour afficher le prix d’un article dans une image de modèle.
 
 Vous pouvez vous référer à un même paramètre plusieurs fois. Pour chaque commande de la boîte de dialogue des paramètres, sélectionnez un paramètre qui correspond à la commande concernée dans la zone combinée. Par exemple, tous les paramètres de taille sont disponibles pour la commande `size=`. Vous pouvez attribuer de nouveau la référence de paramètre à n’importe quel autre paramètre déjà existant dans la zone combinée à condition de lui donner un nouveau nom. Dans ce cas, le nom doit être unique. Dans le cas contraire, une erreur indique que le paramètre existe. Lorsque vous supprimez une référence de paramètre, le paramètre est supprimé de l’URL s’il n’est référencé nulle part ailleurs. Lorsque vous modifiez la valeur par défaut d’un paramètre de texte, toutes les références à ce paramètre sont mises à jour. Vous pouvez voir la mise à jour dans le tableau de calques, dans le rendu du modèle et dans l’URL. Lorsque vous modifiez un attribut de calque en manipulant les poignées de redimensionnement ou en saisissant des valeurs dans le panneau de propriétés, la valeur du paramètre est mise à jour et toutes les références au paramètre sont mises à jour. Par exemple, si vous avez paramétré la taille de deux calques à l’aide d’un seul paramètre, les dimensions des deux calques sont mises à jour simultanément lorsque vous modifiez les dimensions d’un seul des calques. Lorsque vous prévisualisez un modèle et modifiez un paramètre, toutes les références au paramètre en question sont mises à jour.
+
+Voir également la [vidéo de formation sur les concepts de base](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
 ## Paramétrage d’un calque {#parameterizing-a-layer}
 

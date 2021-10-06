@@ -10,10 +10,10 @@ discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2276'
+ht-degree: 42%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 L’accentuation est une technique de manipulation d’image qui rend plus nets les contours d’une image numérique. L’accentuation consiste à augmenter le contraste entre les pixels de contour, et ainsi à souligner la transition entre les zones sombres et les zones claires. L’accentuation augmente le contraste local et fait ressortir les détails infimes. Il n’existe pas de formule magique pour accentuer correctement toutes les images. Une accentuation trop faible produit une image douce, tandis qu’une accentuation exagérée crée des halos, des artefacts et du bruit.
 
-Adobe Dynamic Media Classic vous recommande vivement d’utiliser des paramètres d’image prédéfinis pour toutes les images. Elles garantissent une taille uniforme et l’accentuation est appliquée sur toute image appelée avec un paramètre d’image prédéfini. De plus, vous pouvez facilement modifier et modifier les paramètres d’accentuation d’un paramètre d’image prédéfini. A la prochaine publication, toutes les images appelées avec ces paramètres prédéfinis se voient appliquer les nouvelles valeurs.
+Adobe Dynamic Media Classic recommande vivement d’utiliser des paramètres d’image prédéfinis pour toutes les images. Elles garantissent une taille uniforme et l’accentuation est appliquée sur toute image appelée avec un paramètre d’image prédéfini. De plus, vous pouvez facilement modifier et modifier les paramètres d’accentuation d’un paramètre d’image prédéfini. A la prochaine publication, toutes les images appelées avec ces paramètres prédéfinis se voient appliquer les nouvelles valeurs.
 
 Adobe Dynamic Media Classic recommande également d’ajouter de l’accentuation aux paramètres prédéfinis de la visionneuse, puis d’appeler une visionneuse avec ce paramètre prédéfini. Cela permet de s’assurer que les images de vos visionneuses sont crise et attrayantes.
 
@@ -31,7 +31,7 @@ Cependant, que vous utilisiez les paramètres d’image prédéfinis et les para
 >
 >les commandes d’accentuation remplacent les paramètres d’image prédéfinis, notamment les effets d’accentuation. Un paramètre d’image prédéfini détermine la taille et le formatage avec lesquels les images sont diffusées à partir des serveurs d’images Dynamic Media. Adobe Dynamic Media Classic recommande vivement d’utiliser des paramètres d’image prédéfinis pour diffuser toutes les images afin de s’assurer que leur taille et leur accentuation sont uniformes. Cependant, après avoir modifié les paramètres d’accentuation d’une image individuelle, les paramètres d’image prédéfinis relatifs à l’accentuation ne s’appliquent plus à l’image. Elle est diffusée sans ces paramètres.
 
-Il est souvent nécessaire d’accentuer les images. Les serveurs Adobe Dynamic Media Classic et Image offrent plusieurs options d’accentuation. Il est important de comprendre l’impact de l’accentuation sur une image et le degré d’accentuation dont vous avez besoin. La plupart des images ont besoin d’accentuation mais le degré nécessaire dépend de l’image.
+Il est souvent nécessaire d’accentuer les images. Adobe Dynamic Media Classic et les serveurs d’images offrent plusieurs options d’accentuation. Il est important de comprendre l’impact de l’accentuation sur une image et le degré d’accentuation dont vous avez besoin. La plupart des images ont besoin d’accentuation mais le degré nécessaire dépend de l’image.
 
 L’accentuation de l’image augmente le contraste des pixels pour créer un effet de contours renforcés. Ce contraste amélioré des bords est perçu par les yeux comme de la netteté. S’il est facile d’améliorer une image à l’aide de filtres d’accentuation, il est également facile de trop renforcer la netteté d’une image,
 
@@ -40,6 +40,8 @@ ce qui crée alors un effet de halo ou de bande sur les lignes de la bordure.
 Il existe des bonnes pratiques que vous pouvez suivre pour optimiser l’accentuation de vos images dans Adobe Dynamic Media Classic et sur Dynamic Media Image Server.
 
 Voir [Bonnes pratiques relatives à l’accentuation des images dans Adobe Dynamic Media Classic et sur Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
+
+Voir également la [vidéo de formation à l’accentuation](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
 
 **Pour accentuer une image:**
 
@@ -69,7 +71,7 @@ Sélectionnez le menu **[!UICONTROL Accentuation]** et choisissez une option :
 
 Sélectionnez ces options afin d’affiner l’accentuation à l’aide du masquage flou :
 
-* **Quantité**  : contrôle le degré de contraste appliqué aux pixels de contour. La valeur par défaut est de 0. Pour des images à haute résolution, vous pouvez l’augmenter jusqu’à 5. Imaginez la quantité comme étant l’unité de mesure de l’intensité du filtre. Le paramètre **[!UICONTROL Amount]** dans Adobe Dynamic Media Classic n’est pas le même que le paramètre Amount dans Adobe Photoshop. Adobe Photoshop utilise un montant compris entre 1 % et 500 %, tandis qu’Adobe Dynamic Media Classic est réparti entre 0,0 et 5,0. (La valeur 5 est environ équivalente à 500 % dans Photoshop, 0,9 à 90 %, et ainsi de suite.)
+* **Quantité**  : contrôle le degré de contraste appliqué aux pixels de contour. La valeur par défaut est de 0. Pour des images à haute résolution, vous pouvez l’augmenter jusqu’à 5. Imaginez la quantité comme étant l’unité de mesure de l’intensité du filtre. Le paramètre **[!UICONTROL Amount]** dans Adobe Dynamic Media Classic n’est pas le même que le paramètre Amount dans Adobe Photoshop. Adobe Photoshop utilise un montant compris entre 1 et 500 %, tandis qu’Adobe Dynamic Media Classic le met à l’échelle de 0,0 à 5,0. (La valeur 5 est environ équivalente à 500 % dans Photoshop, 0,9 à 90 %, et ainsi de suite.)
 
 * **Rayon**  : détermine le nombre de pixels entourant les pixels de contour qui affectent l’accentuation. L’effet est exécuté sur tous les pixels de l’image et s’étend dans toutes les directions. 
 
@@ -101,7 +103,7 @@ Sélectionnez le menu **[!UICONTROL Rééchantillonnage]** et choisissez une opt
 
 **Accentuation et paramètres d’image prédéfinis**
 
-Vous pouvez incorporer les trois effets d’accentuation pour obtenir votre résultat final. Cependant, cette méthode n’est pas recommandée. Adobe Dynamic Media Classic vous recommande d’enregistrer vos effets d’accentuation dans le cadre d’un paramètre d’image prédéfini. Les paramètres d’image prédéfinis vous permettent de regrouper les modificateurs d’image les plus souvent utilisés afin de créer une image redimensionnée dynamiquement dans une petite chaîne de texte. Un paramètre d’image prédéfini contient des valeurs pour le format de fichier (généralement JPEG pour le web), le nombre de pixels et l’accentuation d’image. Au lieu d’ajouter l’URL à chaque modificateur d’image que vous devez utiliser pour créer un type spécifique de taille d’image, créez un paramètre d’image prédéfini nommé, tel que &quot;miniature&quot;. Ensuite, configurez le paramètre prédéfini d’image miniature avec la taille, le format de fichier et les options d’accentuation appropriés. Appelez l’image à l’aide du nom du paramètre d’image prédéfini. Les paramètres d’image prédéfinis raccourcissent la longueur de l’URL globale. Ces deux URL produisent la même image JPEG 350x350 avec accentuation :
+Vous pouvez incorporer les trois effets d’accentuation pour obtenir votre résultat final. Cependant, cette méthode n’est pas recommandée. Adobe Dynamic Media Classic vous recommande d’enregistrer vos effets d’accentuation dans le cadre d’un paramètre d’image prédéfini. Les paramètres d’image prédéfinis vous permettent de regrouper les modificateurs d’image les plus souvent utilisés afin de créer une image redimensionnée dynamiquement dans une petite chaîne de texte. Un paramètre d’image prédéfini contient des valeurs pour le format de fichier (généralement JPEG pour le web), le nombre de pixels et l’accentuation de l’image. Au lieu d’ajouter l’URL à chaque modificateur d’image que vous devez utiliser pour créer un type spécifique de taille d’image, créez un paramètre d’image prédéfini nommé, tel que &quot;miniature&quot;. Ensuite, configurez le paramètre prédéfini d’image miniature avec la taille, le format de fichier et les options d’accentuation appropriés. Appelez l’image à l’aide du nom du paramètre d’image prédéfini. Les paramètres d’image prédéfinis raccourcissent la longueur de l’URL globale. Ces deux URL produisent la même image de JPEG 350x350 avec accentuation :
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -114,11 +116,11 @@ Si vous utilisez un paramètre prédéfini pour chaque image dans une catégorie
 
 Les options de qualité JPG contrôlent le niveau de compression JPG :
 
-* **Qualité JPG**  : sélectionnez cette option si vous souhaitez contrôler les niveaux de compression et le sous-échantillonnage chromatique.
+* **Qualité du JPG**  : sélectionnez cette option si vous souhaitez contrôler les niveaux de compression et le sous-échantillonnage de chrominance.
 
-* **Curseur**  : détermine le niveau de compression JPG. Ce paramètre affecte à la fois la taille du fichier et la qualité de l’image. L’échelle de qualité JPG est de 1 à 100.
+* **Curseur**  : détermine le niveau de compression du JPG. Ce paramètre affecte à la fois la taille du fichier et la qualité de l’image. L’échelle de qualité du JPG est de 1 à 100.
 
-* **Activer le sous-échantillonnage de la chrominance JPG**  : dans la mesure où l’oeil est moins sensible aux informations de couleur à haute fréquence qu’à la luminance à haute fréquence, les images JPEG divisent les informations d’image en composantes de luminance et de couleur. Lorsqu’une image JPEG est compressée, la composante de luminance conserve sa pleine résolution, tandis que les composantes de couleur sont sous-échantillonnées par interpolation, c’est-à-dire le calcul de la moyenne de groupes de pixels. La réduction de résolution (sous-échantillonnage) réduit de moitié ou d’un tiers le volume de données, quasiment sans nuire à la qualité perceptible par l’œil humain. La réduction de résolution ne s’applique pas aux images en niveaux de gris. Cette technique réduit le niveau de compression nécessaire pour les images présentant un contraste élevé (par exemple, les images contenant du texte superposé).
+* **Activer le sous-échantillonnage de la chrominance du JPG**  : comme l’oeil est moins sensible aux informations colorimétriques à haute fréquence qu’à la luminance à haute fréquence, les images du JPEG divisent les informations d’image en composantes de luminance et de couleur. Lorsqu’une image JPEG est compressée, la composante de luminance conserve sa pleine résolution, tandis que les composantes de couleur sont sous-échantillonnées par interpolation, c’est-à-dire le calcul de la moyenne de groupes de pixels. La réduction de résolution (sous-échantillonnage) réduit de moitié ou d’un tiers le volume de données, quasiment sans nuire à la qualité perceptible par l’œil humain. La réduction de résolution ne s’applique pas aux images en niveaux de gris. Cette technique réduit le niveau de compression nécessaire pour les images présentant un contraste élevé (par exemple, les images contenant du texte superposé).
 
 **Définition des options d’accentuation à l’échelle de l’entreprise**
 
@@ -131,6 +133,8 @@ Pour définir les options d’accentuation par défaut de votre entreprise, acc�
 Sauf si vous ajoutez des modificateurs d’accentuation de l’image aux paramètres prédéfinis, la petite image de chargement initial peut paraître floue car sa résolution est réduite sans accentuation pour s’ajuster à la fenêtre de la visionneuse.
 
 Les paramètres prédéfinis de la visionneuse (tels que les paramètres d’image prédéfinis) vous permettent de centraliser de nombreuses options à un seul emplacement, y compris le choix de l’habillage et les options de la visionneuse (comme un bouton Imprimer ou le contrôle de la vitesse de l’animation du zoom). Les paramètres de visionneuse prédéfinis se trouvent dans la même section que les paramètres d’image prédéfinis, sous **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres de l’application]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
+
+Voir la vidéo de formation [Paramètres prédéfinis de la visionneuse](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 Les options des modificateurs se trouvent dans la section des paramètres principaux de tous les paramètres prédéfinis de visionneuse de zoom personnalisés, du catalogue électronique et de rotation. En ajoutant les commandes d’accentuation de l’URL à la boîte de dialogue des modificateurs, vous ajoutez l’accentuation chaque fois que cette visionneuse est appelée avec ce paramètre prédéfini de visionneuse.
 

@@ -10,20 +10,28 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 69%
+source-wordcount: '872'
+ht-degree: 53%
 
 ---
 
 # Démarrage rapide :  du portail multimédia{#quick-start-media-portal}
 
-Media Portal permet aux entreprises d’acquérir, de contrôler et de distribuer facilement des ressources approuvées à des partenaires et canaux externes, ainsi qu’aux utilisateurs internes d’une entreprise. Cet environnement &quot;libre-service&quot; basé sur un navigateur fournit aux utilisateurs de Media Portal des &quot;vues&quot; contrôlées par l’administrateur dans les ressources Dynamic Media Classic d’Adobe pour un accès facile, une navigation, une recherche, un aperçu et une exportation des ressources dans des formats approuvés par l’entreprise.
+Media Portal permet aux entreprises d’acquérir, de contrôler et de distribuer facilement des ressources approuvées à des partenaires et canaux externes, ainsi qu’aux utilisateurs internes d’une entreprise. Cet environnement &quot;libre-service&quot; basé sur un navigateur fournit aux utilisateurs de Media Portal des &quot;vues&quot; contrôlées par l’administrateur dans les ressources Adobe Dynamic Media Classic afin de faciliter l’accès, la navigation, la recherche, la prévisualisation et l’exportation des ressources dans des formats approuvés par l’entreprise.
 
 En tant qu’administrateur, vous contrôlez la manière dont les utilisateurs visualisent, ouvrent et utilisent les fichiers disponibles dans le portail multimédia. Vous pouvez par ailleurs personnaliser l’interface du portail multimédia en fonction de votre site Web et de votre marque. Vous pouvez spécifier la police, la couleur de la police, la taille de la police et incorporer des éléments de marque tels que des logos dans l’interface de Media Portal.
 
-Cette section de démarrage rapide est conçue pour vous aider à maîtriser rapidement les opérations liées à l’administration du portail multimédia. À la fin de chaque étape, sélectionnez le lien de la rubrique pour en savoir plus.
+Consultez les vidéos de formation suivantes :
+
+* [Présentation de Media Portal](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
+
+* [Visite de Media Portal 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+
+* [Visite de Media Portal 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+
+Le didacticiel de mise en route suivant est conçu pour vous aider à maîtriser rapidement les opérations liées à l’administration de Media Portal. À la fin de chaque étape, sélectionnez le lien de la rubrique pour en savoir plus.
 
 ## 1. Compréhension des rôles utilisateur du portail multimédia
 
@@ -45,7 +53,7 @@ Voir [Ajout et gestion des utilisateurs du portail multimédia](adding-media-por
 
 ## 4. Gestion des comptes FTP
 
-Vous pouvez disposer de comptes FTP distincts associés à Media Portal et mappés à un dossier spécifique dans votre compte Dynamic Media Classic Adobe. Ce type de fonctionnalité signifie que vous pouvez autoriser les utilisateurs à télécharger des fichiers numériques sur votre compte en utilisant des comptes FTP distincts.
+Vous pouvez avoir des comptes FTP distincts associés à Media Portal et mappés à un dossier spécifique dans votre compte Adobe Dynamic Media Classic. Ce type de fonctionnalité signifie que vous pouvez autoriser les utilisateurs à télécharger des fichiers numériques sur votre compte en utilisant des comptes FTP distincts.
 
 Voir [Gestion des comptes FTP](ftp-accounts.md#managing_ftp_accounts).
 

@@ -1,6 +1,6 @@
 ---
 title: Présentation du programme Adobe Dynamic Media Classic
-description: Une vue d’ensemble du programme et du processus Adobe Dynamic Media Classic.
+description: Une vue d’ensemble du programme Adobe Dynamic Media Classic et de l’ensemble de son processus de workflow.
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 29%
+source-wordcount: '530'
+ht-degree: 25%
 
 ---
 
@@ -21,28 +21,30 @@ ht-degree: 29%
 
 Adobe Dynamic Media Classic est un environnement intégré de gestion, de publication et de service des médias riches. Il est possible de diffuser le média enrichi sur tous les canaux de distribution et de vente, notamment le Web, les supports imprimés, les campagnes par e-mail, les portails Web, les bureaux et autres dispositifs.
 
+Voir aussi [Vidéo de formation sur la présentation de la plateforme](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS).
+
 ## Flux de travaux {#workflow-process}
 
-Les principales étapes du workflow Dynamic Media Classic d’Adobe sont les suivantes :
+Les étapes clés du workflow Adobe Dynamic Media Classic sont les suivantes :
 
-* **Charger et gérer vos ressources**  : téléchargez vos ressources multimédias vers Adobe Classic. Vous pouvez organiser, explorer et rechercher des fichiers sur le système. Vous pouvez également appliquer des métadonnées aux fichiers.
+* **Charger et gérer vos ressources**  : téléchargez vos ressources multimédias vers Adobe Dynamic Media Classic. Vous pouvez organiser, explorer et rechercher des fichiers sur le système. Vous pouvez également appliquer des métadonnées aux fichiers.
 
 * **Créer un média enrichi**  : créez différentes configurations de vos ressources telles que des catalogues électroniques, des visionneuses d’images, des visionneuses à 360°, des séries d’échantillons, des visionneuses de médias mixtes, des modèles de base et des modèles FXG.
 
-* **Publier et administrer**  : publiez des ressources sur le réseau Adobe Dynamic Media Classic SaaS, ainsi que surveillez l’état des ressources lorsqu’elles sont publiées, administrez les droits utilisateur et maintenez la sécurité.
+* **Publier et administrer**  : publiez des ressources sur le réseau Adobe Dynamic Media Classic SaaS, surveillez l’état des ressources lorsqu’elles sont publiées, administrez les droits d’utilisateur et maintenez la sécurité.
 
-* **Service**  : diffuser du contenu multimédia du réseau Adobe Dynamic Media Classic SaaS vers des pages web, des applications et des appareils mobiles ; les médias sont optimisés en termes de performances et sont fournis avec la mise en cache CDN. Adobe Dynamic Media Classic fournit une URL pour chaque ressource. Une fois le fichier publié, l’URL s’active.
+* **Diffuser**  : diffuser du contenu multimédia du réseau Adobe Dynamic Media Classic SaaS vers des pages web, des applications et des appareils mobiles ; les médias sont optimisés en termes de performances et sont fournis avec la mise en cache CDN. Adobe Dynamic Media Classic fournit une URL pour chaque ressource. Une fois le fichier publié, l’URL s’active.
 
-![Processus de workflow Adobe Dynamic Media Classic](/help/assets/gs_workflow.png)
+![Processus du processus Adobe Dynamic Media Classic](/help/assets/gs_workflow.png)
 
 ## Images originales uniques et appels d’URL uniques {#single-master-images-and-single-url-calls}
 
-Adobe Dynamic Media Classic est fondamentalement différent des autres systèmes, car vous pouvez utiliser Adobe Dynamic Media Classic pour diffuser dynamiquement des médias à partir de ressources maître uniques et d’appels d’URL.
+Adobe Dynamic Media Classic est fondamentalement différent des autres systèmes, car vous pouvez utiliser Adobe Dynamic Media Classic pour diffuser dynamiquement des médias à partir de ressources maître uniques et d’appels URL.
 
 Les chaînes d’URL que vous générez avec Adobe Dynamic Media Classic incluent des instructions qui indiquent au serveur comment afficher la ressource lorsqu’elle est diffusée. Par exemple, il est possible de mettre à disposition une même image originale selon des tailles, formats, poids, couleurs et vues de zoom différents. Dans le cadre de la création et de la publication de ressources multimédias avec Adobe Dynamic Media Classic, vous configurez visuellement les effets. Ainsi, vous créez les appels d’URL qui indiquent correctement au serveur les modalités de présentation du fichier original dans les applications.
 
-![Adobe Dynamic Media Classic peut fournir la même image originale à différents supports, dans des formats et des tailles différents.](/help/assets/gs_dynamic_publishing.png)
-*Adobe Dynamic Media Classic garantit que des expériences de qualité et cohérentes sont diffusées sur n’importe quel écran, quelle que soit la taille ou la bande passante.*
+![Adobe Dynamic Media Classic peut diffuser la même image originale sur différents supports, dans des formats et des tailles différents.](/help/assets/gs_dynamic_publishing.png)
+*Adobe Dynamic Media Classic s’assure que des expériences de qualité cohérentes sont diffusées sur n’importe quel écran, quelle que soit la taille ou la bande passante.*
 
 ## Mise en cache du contenu {#content-caching}
 

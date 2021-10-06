@@ -10,16 +10,23 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '1436'
-ht-degree: 41%
+source-wordcount: '1558'
+ht-degree: 38%
 
 ---
 
 # Démarrage rapide : Catalogues électroniques{#quick-start-ecatalogs}
 
-Un catalogue électronique est une version en ligne numérique de documents imprimés, tels qu’un catalogue, une brochure, un dépliant, un guide de produits ou un prospectus. Un catalogue électronique s’affiche dans une visionneuse de catalogue électronique sur un site Web. Cette visionneuse simule le processus de lecture de documents imprimés. Selon les paramètres que vous choisissez pour votre catalogue électronique, la visionneuse peut vous permettre d’effectuer les opérations suivantes :
+Un catalogue électronique est une version en ligne numérique de documents imprimés, tels qu’un catalogue, une brochure, un dépliant, un guide de produits ou un prospectus. Un catalogue électronique s’affiche dans une visionneuse de catalogue électronique sur un site Web. Cette visionneuse simule le processus de lecture de documents imprimés.
+
+Visionnez également les vidéos de formation suivantes :
+
+* [Démarrage rapide 1 : Catalogues électroniques](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
+* [Démarrage rapide 2 : Catalogues électroniques](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
+
+Selon les paramètres que vous choisissez pour votre catalogue électronique, la visionneuse peut vous permettre d’effectuer les opérations suivantes :
 
 * Recherchez un mot-clé ou des mots-clés dans le catalogue. Les résultats de la recherche s’affichent sous la forme d’une liste de miniatures dans un panneau de recherche sur le côté gauche du catalogue. Chaque miniature cliquable représente une étendue de catalogue où le terme de recherche mis en surbrillance a été trouvé.
 
@@ -51,25 +58,25 @@ Lorsque vous créez un catalogue électronique, vous agencez les pages ou les pl
 
 Cette section de démarrage rapide est conçue pour vous aider à maîtriser rapidement les opérations liées aux catalogues électroniques. Suivez les étapes 1 à 7. Chaque étape se termine par un renvoi à une rubrique contenant de plus amples informations.
 
-## 1. Télécharger les fichiers PDF
+## 1. Télécharger les fichiers du PDF
 
 En règle générale, un catalogue électronique est créé à partir de fichiers Adobe PDF. Les fichiers PDF étant destinés à l’impression, ils contiennent le plus souvent des images CMJN. Adobe Dynamic Media Classic détecte ces images et les convertit à l’aide d’un profil colorimétrique CMJN standard. Cependant, vous devez charger et utiliser un profil colorimétrique personnalisé.
 
-Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour commencer à charger des fichiers PDF ou des images pour votre catalogue électronique. Vous pouvez télécharger des fichiers depuis votre bureau ou via FTP, cette dernière méthode étant recommandée si les fichiers sont nombreux ou de taille supérieure à 100 Mo.
+Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour commencer à charger des fichiers ou des images de PDF pour votre catalogue électronique. Vous pouvez télécharger des fichiers depuis votre bureau ou via FTP, cette dernière méthode étant recommandée si les fichiers sont nombreux ou de taille supérieure à 100 Mo.
 
 La section Options PDF de l’écran de téléchargement contient des options qui permettent de télécharger des fichiers PDF présentant l’espace colorimétrique adéquat et la résolution voulue. Une résolution de 150 pixels par pouce est recommandée. L’option Générer automatiquement un catalogue permet de créer un catalogue lors du téléchargement d’un fichier PDF.
 
-Voir [Téléchargement des fichiers PDF](uploading-pdf-files.md#uploading_the_pdf_files).
+Voir [Téléchargement des fichiers du PDF](uploading-pdf-files.md#uploading_the_pdf_files).
 
 ## 2. Création d’un catalogue électronique
 
-Créez votre catalogue électronique en sélectionnant des fichiers PDF ou image dans le panneau de navigation. Sélectionnez **[!UICONTROL Build]**, puis **[!UICONTROL eCatalogs]**.
+Créez votre catalogue électronique en sélectionnant des fichiers de PDF ou d’image dans le panneau de navigation. Sélectionnez **[!UICONTROL Build]**, puis **[!UICONTROL eCatalogs]**.
 
 Sur la page Catalogue électronique, dans l’onglet **[!UICONTROL Classer les pages]**, sélectionnez une option Disposition : **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** ou **[!UICONTROL Custom]**. Vous pouvez réorganiser les pages ou les planches en les faisant glisser ou, dans le cas de catalogues électroniques volumineux, en choisissant un nom de page dans le menu Déplacer vers.
 
 Pour ajouter des pages, sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser les fichiers PDF ou d’images dans l’écran Ordre des pages. Au lieu des numéros de page par défaut, vous pouvez indiquer des noms de page personnalisés ou importer de nombreux noms de page.
 
-Sélectionnez **[!UICONTROL Enregistrer]**, saisissez un nom pour votre catalogue électronique, choisissez un dossier Dynamic Media Classic Adobe pour le stocker, puis sélectionnez **[!UICONTROL Enregistrer]**. Chaque fois que vous modifiez l’ordre des pages ou l’ordre de votre catalogue électronique, enregistrez vos modifications en cliquant sur **[!UICONTROL Enregistrer]**.
+Sélectionnez **[!UICONTROL Enregistrer]**, saisissez un nom pour votre catalogue électronique, choisissez un dossier Adobe Dynamic Media Classic pour le stocker, puis sélectionnez **[!UICONTROL Enregistrer]**. Chaque fois que vous modifiez l’ordre des pages ou l’ordre de votre catalogue électronique, enregistrez vos modifications en cliquant sur **[!UICONTROL Enregistrer]**.
 
 Voir [Création d’un catalogue électronique](creating-ecatalog.md).
 
@@ -107,17 +114,17 @@ Observez l’orientation des pages, la palette de couleurs, l’aspect des comma
 
 Voir [Aperçu des catalogues électroniques dans la visionneuse de catalogue électronique](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
 
-## 6. Publier un catalogue électronique et les fichiers PDF associés
+## 6. Publier le catalogue électronique et les PDF associés
 
-La publication de votre catalogue électronique et du fichier PDF associé le place sur les serveurs d’images Dynamic Media afin qu’il puisse être diffusé sur votre site web et dans votre application. Dans le cadre du processus de publication, Adobe Dynamic Media Classic active la chaîne URL de votre catalogue électronique. Utilisez cette URL pour appeler le catalogue électronique à partir des serveurs d’images Dynamic Media vers votre site web ou votre application.
+La publication de votre catalogue électronique et du PDF associé le place sur les serveurs d’images Dynamic Media afin qu’il puisse être diffusé sur votre site web et dans votre application. Dans le cadre du processus de publication, Adobe Dynamic Media Classic active la chaîne URL de votre catalogue électronique. Utilisez cette URL pour appeler le catalogue électronique à partir des serveurs d’images Dynamic Media vers votre site web ou votre application.
 
-Après avoir marqué votre catalogue électronique et votre fichier PDF en vue de la publication dans le panneau de navigation, sélectionnez le bouton Publier de la barre de navigation globale pour lancer une publication. Dans l’écran Publier, sélectionnez **[!UICONTROL Envoyer la publication]**.
+Après avoir marqué votre catalogue électronique et votre PDF pour publication dans le panneau de navigation, cliquez sur le bouton Publier de la barre de navigation globale pour lancer une publication. Dans l’écran Publier, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
-Voir [Publier des catalogues électroniques et les fichiers PDF associés](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
+Voir [Publier des catalogues électroniques et les PDF associés](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
 ## 7. Associer un catalogue électronique à une page web
 
-Adobe Dynamic Media Classic active la chaîne d’appel d’URL nécessaire à l’affichage de votre catalogue électronique lorsque vous le publiez sur les serveurs d’images Dynamic Media. Vous pouvez copier cette chaîne d’URL à partir de l’écran de prévisualisation et du panneau de navigation (dans le mode Affichage des détails) en sélectionnant les URL dans le panneau. Une fois copiée, la chaîne URL peut être utilisée sur vos sites Web et dans vos applications.
+Adobe Dynamic Media Classic active la chaîne d’légende URL nécessaire à l’affichage de votre catalogue électronique lorsque vous le publiez sur les serveurs d’images Dynamic Media. Vous pouvez copier cette chaîne d’URL à partir de l’écran de prévisualisation et du panneau de navigation (dans le mode Affichage des détails) en sélectionnant les URL dans le panneau. Une fois copiée, la chaîne URL peut être utilisée sur vos sites Web et dans vos applications.
 
 Travaillez de concert avec votre équipe informatique pour décider de l’emplacement du lien vers le catalogue électronique au sein de votre page Web. Lorsque les utilisateurs sélectionnent le lien, la visionneuse de catalogue électronique s’affiche et ils peuvent parcourir votre catalogue électronique.
 

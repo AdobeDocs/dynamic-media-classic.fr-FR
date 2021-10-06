@@ -1,6 +1,6 @@
 ---
 title: '"Démarrage rapide : Vidéo dans Adobe Dynamic Media Classic"'
-description: Introduction et démarrage rapide pour Adobe la vidéo Dynamic Media Classic afin de vous aider à démarrer rapidement.
+description: Introduction et démarrage rapide de la vidéo Adobe Dynamic Media Classic pour vous aider à démarrer rapidement.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,20 +8,20 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 35%
+source-wordcount: '1806'
+ht-degree: 28%
 
 ---
 
 # Démarrage rapide : Vidéo dans Adobe Dynamic Media Classic{#quick-start-video}
 
-Adobe Dynamic Media Classic Video est une solution de bout en bout qui facilite la publication de vidéos adaptatives de haute qualité pour la diffusion en continu sur plusieurs écrans, y compris les appareils mobiles de bureau, iOS, Android™, BlackBerry® et Windows®. Une visionneuse de vidéos adaptative regroupe les versions d’une même vidéo codées dans des débits et des formats différents, par exemple 400 kbit/s, 800 kbit/s et 1 000 kbit/s. L’ordinateur de bureau ou le périphérique mobile détecte la bande passante disponible.
+Adobe Dynamic Media Classic Video est une solution de bout en bout qui facilite la publication de vidéos adaptatives de haute qualité pour la diffusion en continu sur plusieurs écrans, notamment les ordinateurs de bureau, iOS, Android™, BlackBerry® et les appareils mobiles Windows®. Une visionneuse de vidéos adaptative regroupe les versions d’une même vidéo codées dans des débits et des formats différents, par exemple 400 kbit/s, 800 kbit/s et 1 000 kbit/s. L’ordinateur de bureau ou le périphérique mobile détecte la bande passante disponible.
 
 Par exemple, sur un périphérique mobile iOS, il détecte une bande passante telle que 3G, 4G ou une connexion Wi-Fi, puis sélectionne automatiquement la vidéo codée selon le débit correspondant parmi ceux disponibles dans la visionneuse de vidéos adaptative. La vidéo est diffusée en continu sur les ordinateurs, les appareils mobiles ou les tablettes.
 
-En outre, la qualité de la vidéo est automatiquement adaptée en temps réel selon les conditions réseau sur le bureau ou l’appareil mobile. En outre, si un client passe en mode plein écran sur un bureau, la visionneuse de vidéos adaptative répond en utilisant une meilleure résolution, améliorant ainsi l’expérience de visionnage du client. L’utilisation de visionneuses de vidéos adaptatives vous permet de lire la vidéo la plus optimale pour les clients qui lisent la vidéo Dynamic Media Classic Adobe sur plusieurs écrans et appareils.
+En outre, la qualité de la vidéo est automatiquement adaptée en temps réel selon les conditions réseau sur le bureau ou l’appareil mobile. En outre, si un client passe en mode plein écran sur un bureau, la visionneuse de vidéos adaptative répond en utilisant une meilleure résolution, améliorant ainsi l’expérience de visionnage du client. L’utilisation de visionneuses de vidéos adaptatives vous permet de lire le mieux possible la vidéo Adobe Dynamic Media Classic sur plusieurs écrans et appareils.
 
 La logique appliquée par un lecteur vidéo pour déterminer quelles sont les vidéos codées à lire ou à sélectionner en cours de lecture repose sur l’algorithme suivant :
 
@@ -33,26 +33,30 @@ La logique appliquée par un lecteur vidéo pour déterminer quelles sont les vi
 
 Pour obtenir des informations techniques à ce sujet, voir la logique de l’algorithme à l’adresse [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) .
 
-Pour la gestion des visionneuses de vidéos adaptatives et d’une seule vidéo, Adobe Dynamic Media Classic prend en charge les éléments suivants :
+Pour la gestion des visionneuses de vidéos adaptatives et de vidéos uniques, Adobe Dynamic Media Classic prend en charge les éléments suivants :
 
-* Téléchargement de vidéos en différents formats vidéo et audio pris en charge et codage vidéo au format MP4 H.264 pour la lecture sur plusieurs écrans. Vous pouvez utiliser des paramètres prédéfinis de vidéo adaptative Dynamic Media Classic Adobe prédéfinis, des paramètres prédéfinis de codage vidéo unique ou personnaliser votre propre codage pour contrôler la qualité et la taille de la vidéo.
+* Téléchargement de vidéos en différents formats vidéo et audio pris en charge et codage vidéo au format MP4 H.264 pour la lecture sur plusieurs écrans. Vous pouvez utiliser des paramètres prédéfinis de vidéo adaptative Adobe Dynamic Media Classic prédéfinis, des paramètres prédéfinis de codage vidéo unique ou personnaliser votre propre codage pour contrôler la qualité et la taille de la vidéo.
 
-   Lorsqu’une visionneuse de vidéos adaptative est générée, elle comprend des vidéos MP4.
+Voir [Activation ou désactivation des paramètres prédéfinis de vidéo adaptative](/help/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
-   >[!NOTE]
-   >
-   >Les vidéos Principal/source et toute autre vidéo au format source ne sont *pas* ajoutées à une visionneuse de vidéos adaptative.
+Voir aussi [Vidéo de formation Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
-* Sous-titrage des vidéos dans les visionneuses Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark et Universal_HTML5_MixedMedia_light et navigation dans les chapitres vidéo dans les visionneuses Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark et Universal_HTML5_MixedMedia_light.
+Lorsqu’une visionneuse de vidéos adaptative est générée, elle comprend des vidéos MP4.
+
+>[!NOTE]
+>
+>Les vidéos Principal/source et toute autre vidéo au format source ne sont *pas* ajoutées à une visionneuse de vidéos adaptative.
+
+* Sous-titrage des vidéos dans les visionneuses Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark et Universal_HTML5_MixedMedia_light et navigation des chapitres vidéo dans les visionneuses Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark et Universal_HTML5_MixedMedia_light.
 
    Voir [Ajout de sous-titres à video](adding-captions-video.md).
 
    Voir [Ajout de marqueurs de chapitre à video](adding-chapter-markers-video.md).
 
 * Organiser, parcourir et effectuer des recherches dans la vidéo avec une prise en charge complète des métadonnées pour une gestion efficace des fichiers vidéo.
-* Diffusez des visionneuses de vidéos adaptatives sur le web et sur les ordinateurs de bureau et les appareils mobiles, y compris l’iPhone, l’iPad, Android™, BlackBerry® et le téléphone Windows®.
+* Diffusez des visionneuses de vidéos adaptatives sur le web et sur les ordinateurs de bureau et les appareils mobiles, y compris le téléphone iPhone, iPad, Android™, BlackBerry® et Windows®.
 
-   La diffusion de vidéo adaptative en continu est prise en charge sur différentes plateformes iOS.
+   La diffusion en continu de vidéo adaptative est prise en charge sur différentes plateformes iOS.
 
    Voir la dernière prise en charge dans le [Guide de référence des visionneuses d’Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
@@ -64,13 +68,22 @@ Pour la gestion des visionneuses de vidéos adaptatives et d’une seule vidéo,
 
    Voir [Formats vidéo pris en charge sur Windows® Phone](https://docs.microsoft.com/en-us/).
 
-* Lisez la vidéo à l’aide des paramètres prédéfinis de la visionneuse Dynamic Media Classic Adobe, notamment :
+* Lisez la vidéo à l’aide des paramètres prédéfinis de la visionneuse Adobe Dynamic Media Classic, notamment :
 
    * des visionneuses de vidéos uniques,
    * des visionneuses de supports mixtes combinant du contenu vidéo et des images.
 
 * Configurer des lecteurs vidéo pour répondre à vos besoins de stratégie de marque.
 * Intégrer la vidéo à votre site Web, site mobile ou application mobile grâce à une simple URL ou à un code intégré.
+
+Consultez les vidéos de formation suivantes :
+* [Présentation vidéo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
+
+* [Aperçu vidéo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
+
+* [Chargement de vidéos MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
+
+* [Présentation de la diffusion en continu](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
 **Démarrage rapide**
 
@@ -80,8 +93,8 @@ La description suivante du workflow étape par étape est conçue pour vous aide
 
 Téléchargez et générez des visionneuses de vidéos adaptatives en suivant l’un des deux scénarios ci-après :
 
-* **Télécharger des vidéos précodées**  : si vos vidéos ont déjà été codées en dehors d’Adobe Dynamic Media Classic, dans la barre de navigation globale, sélectionnez  **** Télécharger pour parcourir et charger directement les fichiers vidéo MP4 dans Adobe Dynamic Media Classic. Ensuite, accédez à **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]** (Visionneuses de vidéos adaptatives). Accédez aux fichiers vidéo requis. Faites-les glisser et déposez-les dans le tableau Visionneuse de vidéos adaptative, puis enregistrez la visionneuse.
-* **Télécharger les vidéos sources originales**  : si vos vidéos ne sont pas codées, dans la barre de navigation globale, sélectionnez  **** Télécharger pour charger les fichiers source de la vidéo originale (non-MP4). Adobe Dynamic Media Classic les code à votre place dans des fichiers MP4. Dans la boîte de dialogue **[!UICONTROL Télécharger les options de la tâche]**, sous **[!UICONTROL Options eVideo]**, sélectionnez **[!UICONTROL Vidéo adaptative]**.
+* **Télécharger des vidéos précodées**  : si vos vidéos ont déjà été codées en dehors d’Adobe Dynamic Media Classic, dans la barre de navigation globale, sélectionnez  **** Télécharger pour parcourir et charger les fichiers vidéo MP4 directement dans Adobe Dynamic Media Classic. Ensuite, accédez à **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]** (Visionneuses de vidéos adaptatives). Accédez aux fichiers vidéo requis. Faites-les glisser et déposez-les dans le tableau Visionneuse de vidéos adaptative, puis enregistrez la visionneuse.
+* **Télécharger les vidéos sources originales**  : si vos vidéos ne sont pas codées, dans la barre de navigation globale, sélectionnez  **** Télécharger pour charger les fichiers source de la vidéo originale (non-MP4). Adobe Dynamic Media Classic les code pour vous dans des fichiers MP4. Dans la boîte de dialogue **[!UICONTROL Télécharger les options de la tâche]**, sous **[!UICONTROL Options eVideo]**, sélectionnez **[!UICONTROL Vidéo adaptative]**.
 
    Cette option conseillée permet de créer une visionneuse de vidéos adaptative qui applique automatiquement à la vidéo les paramètres de codage prédéfinis corrects, qu’il s’agisse d’un format 16:9 ou 4:3, en fonction des dimensions de la vidéo téléchargée. Lorsque vous envoyez votre tâche de téléchargement, une visionneuse de vidéos adaptative est automatiquement créée, qui comprend trois paramètres de codage vidéo dans les proportions correctes.
 
@@ -112,6 +125,8 @@ Vous pouvez lire la vidéo sur la page Aperçu . Vous pouvez également choisir 
 Personnalisation des paramètres prédéfinis de la visionneuse : Adobe Dynamic Media Classic propose des paramètres prédéfinis de visionneuse pour la diffusion vidéo. Ces paramètres déterminent l’aspect de la visionneuse et le mode de fonctionnement des commandes de lecture. Pour personnaliser la visionneuse de vidéos, les administrateurs peuvent ajouter et gérer des paramètres prédéfinis de visionneuse à partir de la page Paramètres prédéfinis de la visionneuse. Pour ouvrir cette page, dans le coin supérieur droit d’Adobe Dynamic Media Classic, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**. La page Paramètres prédéfinis de la visionneuse propose des commandes permettant d’ajouter, de modifier, de supprimer et d’activer des paramètres prédéfinis de la visionneuse.
 
 Voir [Utilisation des paramètres prédéfinis de visionneuse de vidéos](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
+
+Voir aussi [Vidéo de formation Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 ## 3. Déployez des vidéos sur vos sites web et vos sites mobiles
 

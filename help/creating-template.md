@@ -10,16 +10,18 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '3405'
-ht-degree: 45%
+source-wordcount: '3466'
+ht-degree: 44%
 
 ---
 
 # Création d’un modèle {#creating-a-template}
 
 Pour créer un modèle, accédez à **[!UICONTROL Build]** > **[!UICONTROL Template Basics]** (Concepts de base des modèles). Sélectionnez Concepteur ou Développeur. Sur cette page, vous pouvez ajouter des calques d’image et de texte. Vous pouvez également réorganiser les calques, modifier la taille et la position des calques et appliquer des effets d’ombre et d’éclat aux images et au texte.
+
+Voir également la [vidéo de formation sur les concepts de base](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
 >[!NOTE]
 >
@@ -42,7 +44,7 @@ Vous pouvez créer un modèle à partir d’un modèle existant. Ouvrez le modè
 
 1. Pour créer votre modèle initial, utilisez l’une des méthodes suivantes :
 
-   * **Sélectionnez d’abord le fichier PSD ou les images** : dans le panneau de navigation, sélectionnez le fichier PSD ou les images de votre modèle, accédez à  **[!UICONTROL Créer]**  >  **[!UICONTROL Concepts de base des modèles]**.
+   * **Sélectionnez d’abord le ou les PSDS**  : dans le panneau de navigation, sélectionnez le ou les images de PSD de votre modèle, accédez à  **[!UICONTROL Créer]**  >  **[!UICONTROL Concepts de base des modèles]**.
 
    * **Démarrez à partir de l’écran**  Modèle - Accédez à  **[!UICONTROL Créer]**  >  **[!UICONTROL Concepts de base des modèles]**. Sélectionnez Concepteur ou Développeur.
 
@@ -52,7 +54,7 @@ Vous pouvez créer un modèle à partir d’un modèle existant. Ouvrez le modè
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 1. Sélectionnez un dossier pour le stockage de votre modèle, saisissez un nom pour le modèle, puis sélectionnez **[!UICONTROL Envoyer]**.
 
-   Adobe Dynamic Media Classic réduit les images si nécessaire pour les adapter à la zone de travail, c’est-à-dire la zone de l’écran Modèle pour définir votre modèle.
+   Adobe Dynamic Media Classic réduit les images si nécessaire pour les adapter à la zone de travail, c’est-à-dire la zone de l’écran Modèle qui permet de définir votre modèle.
 
 ## Modifier un jeu de modèles {#editing-a-template-set}
 
@@ -103,7 +105,7 @@ Utilisez ces outils dans l’écran Modèle pour créer des modèles :
 
    >[!NOTE]
    >
-   >La suppression de l’éditeur de texte v4.2 est prévue comme option dans Adobe Dynamic Media Classic. Il est donc recommandé d’utiliser l’éditeur de texte 4.3 dans la mesure du possible. L’option **[!UICONTROL Retour à la ligne des mots]** sera intégrée dans une prochaine version de l’éditeur de texte.
+   >La suppression de l’éditeur de texte v4.2 est prévue comme option dans Adobe Dynamic Media Classic. Il est donc recommandé d’utiliser la version 4.3 de l’éditeur de texte dans la mesure du possible. L’option **[!UICONTROL Retour à la ligne des mots]** sera intégrée dans une prochaine version de l’éditeur de texte.
 
 * **[!UICONTROL Designer et développeur]**  : sélectionnez l’option qui décrit le mieux votre rôle.
 
@@ -288,7 +290,7 @@ Pour choisir une couleur d’arrière-plan, une opacité et un mode de fusion po
 
 ## Utiliser des effets d’ombre et d’éclat sur les calques {#using-shadow-and-glow-effects-on-layers}
 
-Vous pouvez appliquer une ombre ou un éclat à un calque. L’ombre ou l’éclat est appliqué au périmètre du calque et s’étend vers l’intérieur ou l’extérieur, en fonction de l’option sélectionnée. Si votre modèle provient d’un fichier PSD avec des effets d’ombre et de lueur, vous pouvez ajuster ces effets dans Adobe Dynamic Media Classic.
+Vous pouvez appliquer une ombre ou un éclat à un calque. L’ombre ou l’éclat est appliqué au périmètre du calque et s’étend vers l’intérieur ou l’extérieur, en fonction de l’option sélectionnée. Si votre modèle est issu d’un fichier de PSD avec des effets d’ombre et de lueur, vous pouvez ajuster ces effets dans Adobe Dynamic Media Classic.
 
 Une fois que vous avez appliqué un effet d’ombre ou d’éclat, vous pouvez régler sa taille, sa couleur, son opacité et sa position dans la zone Propriétés calque de l’écran Modèle.
 

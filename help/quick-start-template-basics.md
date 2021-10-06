@@ -10,10 +10,10 @@ discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 32%
+source-wordcount: '851'
+ht-degree: 28%
 
 ---
 
@@ -21,25 +21,27 @@ ht-degree: 32%
 
 Les concepts de base des modèles sont des fichiers d’images créés dynamiquement et superposés de manière adressable, tels que des fichiers superposés dans des applications de retouche d’images telles qu’Adobe Photoshop. Contrairement à un fichier statique contenant des calques, par exemple un fichier PSD, un modèle peut comporter des paramètres. C’est grâce à ces paramètres que les différents aspects de l’image peuvent être traités et personnalisés.
 
-Un modèle peut contenir n’importe quel nombre de calques d’image et de texte. Vous pouvez convertir un fichier statique contenant des calques, tels qu’un fichier PSD superposé, en modèle, puis créer des modèles dans Adobe Dynamic Media Classic. Vous pouvez créer des calques de texte dans les modèles à l’aide des polices que vous avez chargées dans Adobe Dynamic Media Classic. Une fois que vous avez ajouté du texte à un modèle, vous pouvez le mettre en forme en modifiant la justification, les polices, le corps des caractères et la couleur.
+Un modèle peut contenir n’importe quel nombre de calques d’image et de texte. Vous pouvez convertir un fichier statique contenant des calques, tels qu’un fichier de PSD superposé, en modèle, puis créer des modèles dans Adobe Dynamic Media Classic. Vous pouvez créer des calques de texte dans les modèles à l’aide des polices que vous avez téléchargées dans Adobe Dynamic Media Classic. Une fois que vous avez ajouté du texte à un modèle, vous pouvez le mettre en forme en modifiant la justification, les polices, le corps des caractères et la couleur.
 
 La page Paramètres vous permet de convertir n’importe quel aspect d’un modèle en paramètre adressable. Ainsi, vous pouvez sélectionner l’image superposée ou la valeur du texte à utiliser dans votre modèle. Les paramètres sont transmis avec la chaîne URL, ce qui vous permet de modifier n’importe quel paramètre afin de personnaliser dynamiquement l’image de réponse générée à partir du serveur d’images.
 
-Cette section de démarrage rapide est conçue pour aider à maîtriser rapidement les opérations liées aux concepts de base des modèles. 
+Voir également la [vidéo de formation sur les concepts de base](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
+
+Ce didacticiel de mise en route est conçu pour vous aider à maîtriser rapidement les opérations liées aux concepts de base des modèles.
 
 ## 1. Télécharger les fichiers
 
-Commencez par télécharger le fichier PSD ou le fichier d’image de votre modèle. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichier image en plus du PSD, mais les formats sans perte TIFF et PNG sont recommandés pour les modèles car ils permettent une transparence.
+Commencez par télécharger le fichier PSD ou le fichier d’image de votre modèle. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichier image en plus du PSD, mais les images TIFF sans perte et PNG sont recommandées pour les modèles, car elles permettent une transparence.
 
-Si vous utilisez un fichier PSD pour créer votre modèle, sélectionnez **[!UICONTROL Créer un modèle]** dans la boîte de dialogue **[!UICONTROL Télécharger les options de tâche]** lorsque vous chargez le fichier PSD. Choisissez également une option **[!UICONTROL Affectation de nom de calque]** pour qu’Adobe Dynamic Media Classic sache comment nommer les calques PSD lorsqu’ils sont chargés vers Adobe Dynamic Media Classic.
+Si vous utilisez un fichier de PSD pour créer votre modèle, sélectionnez **[!UICONTROL Créer un modèle]** dans la boîte de dialogue **[!UICONTROL Télécharger les options de tâche]** lorsque vous chargez le fichier de PSD. Choisissez également une option **[!UICONTROL Affectation de nom de calque]** pour qu’Adobe Dynamic Media Classic sache comment nommer les calques de PSD lorsqu’ils sont chargés dans Adobe Dynamic Media Classic.
 
 Si vous utilisez des fichiers d’images, vous pouvez recadrer les images et créer également un masque à partir des chemins de tracé dans les images au cours du téléchargement.
 
-Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour charger un fichier PSD ou d’autres fichiers image de votre ordinateur dans un dossier d’Adobe Dynamic Media Classic. Voir [Chargement de fichiers de modèle](uploading-template-files.md#uploading_template_files).
+Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger un fichier de PSD ou d’autres fichiers image de votre ordinateur vers un dossier sur Adobe Dynamic Media Classic. Voir [Chargement de fichiers de modèle](uploading-template-files.md#uploading_template_files).
 
 ## 2. Créer un modèle
 
-Pour créer un modèle à partir d’un fichier PSD, sélectionnez **[!UICONTROL Créer un modèle]** lorsque vous chargez le fichier. Pour créer un modèle à partir d’images, dans la barre de navigation globale, accédez à **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**, saisissez une mesure de largeur et de hauteur pour la zone de travail. Près du coin supérieur droit de la page, sélectionnez **[!UICONTROL Designer]** ou **[!UICONTROL Développeur]**, puis faites glisser les images sur la page Modèle. Vous pouvez également sélectionner les images *avant* d’accéder à **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. La page Modèle contient des outils pour :
+Pour créer un modèle à partir d’un fichier de PSD, sélectionnez **[!UICONTROL Créer un modèle]** lorsque vous chargez le fichier. Pour créer un modèle à partir d’images, dans la barre de navigation globale, accédez à **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**, saisissez une mesure de largeur et de hauteur pour la zone de travail. Près du coin supérieur droit de la page, sélectionnez **[!UICONTROL Designer]** ou **[!UICONTROL Développeur]**, puis faites glisser les images sur la page Modèle. Vous pouvez également sélectionner les images *avant* d’accéder à **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. La page Modèle contient des outils pour :
 
 * Ajout de calques d’images Pour ajouter un calque, faites glisser une image sur la page Modèle.
 * Ajout de calques de texte Sélectionnez l’icône **[!UICONTROL Outil Texte]** . Faites glisser le pointeur pour créer une zone pour le calque de texte ; mettez ensuite le texte en forme à l’aide des outils de la page Texte .

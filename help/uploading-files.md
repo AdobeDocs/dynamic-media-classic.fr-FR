@@ -9,20 +9,20 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '3866'
+source-wordcount: '3925'
 ht-degree: 33%
 
 ---
 
 # Téléchargement de fichiers{#uploading-files}
 
-Avant de charger des fichiers de ressources dans Adobe Dynamic Media Classic, assurez-vous que les fichiers de ressources sont correctement nommés et que votre structure de dossiers est configurée et organisée comme vous le souhaitez. Vous pouvez télécharger des fichiers à partir d’un site FTP fourni par Dynamic Media Classic Adobe ou directement depuis votre ordinateur ou votre réseau. Adobe Dynamic Media Classic offre des options d’optimisation des fichiers lors de leur chargement. Si vous avez installé l’application de bureau Dynamic Media Classic Adobe, vous pouvez charger des fichiers et des dossiers en les faisant glisser directement depuis votre bureau. (voir [Paramètres généraux de l’application](application-setup.md#general_settings)).
+Avant de charger des fichiers de ressources vers Adobe Dynamic Media Classic, assurez-vous que les fichiers de ressources sont correctement nommés et que la structure de dossiers est configurée et organisée comme vous le souhaitez. Vous pouvez transférer des fichiers depuis un site FTP fourni par Adobe Dynamic Media Classic ou directement depuis votre ordinateur ou votre réseau. Adobe Dynamic Media Classic propose des options d’optimisation des fichiers lors de leur chargement. Si vous avez installé l’application de bureau Adobe Dynamic Media Classic, vous pouvez charger des fichiers et des dossiers en les faisant glisser directement depuis votre bureau. (voir [Paramètres généraux de l’application](application-setup.md#general_settings)).
 
 ## Préparation du chargement des ressources et des dossiers {#preparing-your-assets-and-folders-for-uploading}
 
-Avant de charger des ressources vers Adobe Dynamic Media Classic, assurez-vous qu’elles sont au bon format et à la bonne taille. Vous devez également observer les règles Dynamic Media Classic d’Adobe pour nommer les ressources. La définition d’une organisation et d’une structure de dossiers pour les fichiers garantit une facilité de localisation et d’utilisation de ces derniers.
+Avant de charger des ressources vers Adobe Dynamic Media Classic, assurez-vous qu’elles sont au format et à la taille adéquats. Vous devez également respecter les règles Adobe Dynamic Media Classic pour nommer les ressources. La définition d’une organisation et d’une structure de dossiers pour les fichiers garantit une facilité de localisation et d’utilisation de ces derniers.
 
 ### Formats de fichiers pris en charge {#supported-asset-file-formats}
 
@@ -59,10 +59,10 @@ Voir aussi [Détecter les formats de fichiers non pris en charge pour Dynamic Me
 
 * Fichiers PNG dont la taille de bloc IDAT est supérieure à 100 Mo.
 * Fichiers PSB.
-* Les fichiers PSD avec un espace colorimétrique autre que CMJN, RVB, Niveaux de gris ou Bitmap ne sont pas pris en charge. Les espaces colorimétriques DuoTone, Lab et indexé ne sont pas pris en charge.
-* Fichiers PSD ayant une profondeur de bit supérieure à 16.
-* Fichiers TIFF contenant des données à virgule flottante.
-* Fichiers TIFF dotés d’un espace colorimétrique Lab.
+* Les fichiers de PSD avec un espace colorimétrique autre que CMJN, RGB, Niveaux de gris ou Bitmap ne sont pas pris en charge. Les espaces colorimétriques DuoTone, Lab et indexé ne sont pas pris en charge.
+* Fichiers de PSD dont la profondeur est supérieure à 16.
+* Fichiers de TIFF contenant des données à virgule flottante.
+* Fichiers de TIFF dotés d’un espace colorimétrique Lab.
 
 ### Types de ressource {#asset-types}
 
@@ -71,7 +71,7 @@ Pour obtenir des résultats optimaux avec le programme Adobe Dynamic Media Class
 | Type de fichier | Description/Recommandations |
 | --- | --- |
 | Audio | Les formats de fichiers audio entrants incluent AAC, HE-AAC, AC3, WAV, WMA, AIFF et MP3. Vous pouvez transcoder du contenu audio aux formats suivants : MP3, AAC et HE-AAC. |
-| Images (pour le dimensionnement des images, le zoom, les visionneuses d’images, les visionneuses à 360°) | Les images doivent mesurer au moins 2 000 pixels à la plus grande taille ; les tailles d’image standard sont comprises entre 1 500 et 2 500 pixels pour la plus grande taille. Les formats d’image sans perte, notamment TIFF et PNG, sont recommandés. Avec une image JPEG, utilisez les paramètres de qualité les plus élevés. Les fichiers GIF animés sont gérés comme tout autre contenu statique. |
+| Images (pour le dimensionnement des images, le zoom, les visionneuses d’images, les visionneuses à 360°) | Les images doivent mesurer au moins 2 000 pixels à la plus grande taille ; les tailles d’image standard sont comprises entre 1 500 et 2 500 pixels pour la plus grande taille. Les formats d’image sans perte, notamment TIFF et PNG, sont recommandés. Avec une image JPEG, utilisez les paramètres de qualité les plus élevés. Les fichiers de GIF animés sont gérés comme tout autre contenu statique. |
 | Catalogues électroniques | Utilisez des fichiers PDF haute résolution créés dans Adobe® Acrobat® ou dans une application Creative Suite avec un enregistrement « bon à tirer ». Les fichiers PDF incluent l’ensemble des polices, images, masques et éléments graphiques référencés nécessaires, au format de page unique, de planche en double page ou de plusieurs pages. Organisez les pages en nommant les fichiers selon un ordre alphanumérique. Placez tous les fichiers PDF du catalogue électronique dans un dossier unique en vue de faciliter le téléchargement. Vous pouvez sélectionner des options de recadrage lors du téléchargement afin de supprimer la zone de rognage des fichiers PDF, notamment les traits de coupe, les repères de montage ou les gammes de couleurs. La plupart des fichiers PDF « bon à tirer » sont caractérisés par l’espace colorimétrique CMJN ; il est donc important d’obtenir le profil colorimétrique ICC CMJN utilisé avec vos fichiers PDF. |
 | Modèles | Image superposée ou disposition pouvant inclure du texte, des images et des calques. Les calques d’image, les chaînes de texte et les attributs, comme la couleur et la taille, peuvent être paramétrés de manière à pouvoir personnaliser les données variables. Pour les modèles, les exigences sont les mêmes que pour les autres images. Préparez vos images dans Photoshop ou un autre éditeur d’images. Enregistrez chaque image sous forme de fichier transparent aplati au format TIFF ou PNG. Assurez-vous que la résolution de l’image est adaptée à l’utilisation qui en sera faite. Les images pour impression sont de 300 ppp. |
 | Vidéos | Adobe Dynamic Media Classic prend en charge les fichiers vidéo enregistrés aux formats OGV et MP4. Vous pouvez transcoder des fichiers vers le format MP4 lors du téléchargement. Voir [Formats de fichiers pris en charge](#supported-static-file-formats). |
@@ -89,7 +89,7 @@ Pour obtenir des résultats optimaux avec le programme Adobe Dynamic Media Class
 
 >[!NOTE]
 >
->Lorsque vous chargez des fichiers image et des fichiers PDF dans Adobe Dynamic Media Classic, le système convertit ces fichiers source en fichiers P-TIFF (Pyramid TIFF). Ces fichiers P-TIFF sont les fichiers qui sont publiés ultérieurement sur les serveurs d’images Dynamic Media. Adobe Dynamic Media Classic utilise le format de fichier Pyramid Tiff , car il contient divers rapports de zoom qui permettent un zoom rapide lors de l’affichage avec une visionneuse de zoom Dynamic Media Classic Adobe.
+>Lorsque vous chargez des fichiers image et des PDF vers Adobe Dynamic Media Classic, le système convertit ces fichiers source en fichiers de TIFF P (Pyramid TIFF). Ces TIFFs P sont les fichiers qui sont publiés ultérieurement sur les serveurs d’images Dynamic Media. Adobe Dynamic Media Classic utilise le format de fichier Pyramid Tiff , car il contient divers rapports de zoom qui permettent un zoom rapide lors de l’affichage à l’aide d’une visionneuse de zoom Adobe Dynamic Media Classic.
 
 ### Formats de fichier statique pris en charge {#supported-static-file-formats}
 
@@ -102,7 +102,7 @@ Les types de fichier suivants peuvent être publiés :
 * CSS
 * JavaScript (lorsque l’entreprise est configurée avec son propre domaine)
 * Vidéo originale
-* PDF (lorsque le fichier PDF est marqué pour publication après le chargement, afin d’éviter l’envoi de tous les fichiers PDF pour le processus eCatalog/PDF existant)
+* PDF (lorsque le PDF est marqué pour publication après le chargement, afin d’éviter la diffusion de tous les PDF pour le processus de catalogue électronique/PDF existant)
 * Vidéo PrX
 * SVG
 * XML
@@ -118,7 +118,7 @@ Veillez à ce que tous les utilisateurs de votre entreprise se familiarisent ave
 
 * Les ID de fichier présentant exactement le même nom ne sont pas autorisés dans le système.
 * Les noms d’ID de ressource sont sensibles à la casse.
-* Il est recommandé de s’assurer que les ID de fichier ne contiennent pas d’espace (par exemple, veste noire.tif et veste bleue.jpg). Adobe Dynamic Media Classic code en ASCII des espaces vides dans les noms de ressources lorsqu’il utilise des noms de ressources pour créer des chaînes d’URL. Ces codes ASCII sont difficiles à lire, ce qui rend également plus difficile la lecture de ces chaînes.
+* Il est recommandé de s’assurer que les ID de fichier ne contiennent pas d’espace (par exemple, veste noire.tif et veste bleue.jpg). Adobe Dynamic Media Classic code les espaces vides dans les noms de ressources à l’aide de noms de ressources pour créer des chaînes d’URL. Ces codes ASCII sont difficiles à lire, ce qui rend également plus difficile la lecture de ces chaînes.
 * Les caractères spécifiques aux langues sont autorisés dans les noms de fichier, à l’exception des caractères suivants :
 
    \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; { } %
@@ -134,9 +134,9 @@ En règle générale, un nom de fichier de ressource peut être identique à son
 
 ### Organisation et structure des dossiers {#folder-organization-and-structure}
 
-Organisez et structurez les dossiers et sous-dossiers de votre contenu dans Adobe Dynamic Media Classic avant de télécharger votre contenu vers le système. Cette procédure présente deux principaux avantages :
+Organisez et structurez les dossiers et les sous-dossiers de votre contenu dans Adobe Dynamic Media Classic avant de télécharger votre contenu vers le système. Cette procédure présente deux principaux avantages :
 
-* Lorsque vous transférez votre contenu vers Adobe Dynamic Media Classic par FTP, vous pouvez indiquer au système de répliquer la structure de dossiers pendant le transfert. Ainsi, votre contenu est organisé dans les mêmes dossiers et sous-dossiers dans Adobe Dynamic Media Classic que sur votre ordinateur ou votre réseau. (Pour répliquer la structure de dossiers dans Adobe Dynamic Media Classic, sélectionnez l’option Inclure les sous-dossiers lorsque vous chargez des ressources via FTP.)
+* Lorsque vous transférez votre contenu vers Adobe Dynamic Media Classic par FTP, vous pouvez indiquer au système de répliquer la structure de dossiers lors du transfert. Ainsi, votre contenu est organisé dans les mêmes dossiers et sous-dossiers dans Adobe Dynamic Media Classic que sur votre ordinateur ou votre réseau. (Pour répliquer la structure de dossiers dans Adobe Dynamic Media Classic, sélectionnez l’option Inclure les sous-dossiers lorsque vous chargez des ressources via FTP.)
 * La réorganisation des dossiers au sein du système, une fois les fichiers téléchargés, s’avère beaucoup plus difficile que le démarrage avec une structure de dossiers soigneusement étudiée.
 
 L’approche et la structure de nommage de dossiers que vous choisissez pour stocker votre contenu dans Adobe Dynamic Media Classic dépendent des besoins de votre entreprise. Voici quelques exemples de structure de dossiers :
@@ -153,15 +153,15 @@ L’approche et la structure de nommage de dossiers que vous choisissez pour sto
 
 Vous pouvez télécharger des fichiers à partir du bureau ou des dossiers complets par FTP (File Transfer Protocol). Si vous souhaitez télécharger plus de 100 Mo de fichiers ou des dossiers et sous-dossiers entiers, sélectionnez l’onglet **VIA FTP**.
 
-Adobe Dynamic Media Classic vous envoie un message électronique pour confirmer le début et la fin de votre tâche de téléchargement et vous informer des problèmes éventuels.
+Adobe Dynamic Media Classic vous envoie un e-mail pour confirmer le début et la fin de votre tâche de téléchargement et vous informer des problèmes éventuels.
 
 Au cours (ou immédiatement après) d’une tâche de téléchargement volumineuse, certains nouveaux éléments peuvent afficher le message &quot;Image non encore optimisée&quot;. Ce message s’affiche, car les fichiers ne sont pas encore entièrement traités et ajoutés à Adobe Dynamic Media Classic. Vous pouvez optimiser ces fichiers ultérieurement Voir [Optimisation des fichiers](application-setup.md#optimize_files).
 
 ### Chargement de fichiers à l’aide de l’onglet De bureau {#upload-files-using-sps-desktop-application}
 
-L’application de bureau Adobe Dynamic Media Classic vous permet de charger des fichiers et des dossiers en les faisant glisser.
+L’application de bureau Adobe Dynamic Media Classic vous permet de télécharger des fichiers et des dossiers par glisser-déposer.
 
-1. Dans l’application de bureau Dynamic Media Classic Adobe, dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]**.
+1. Dans l’application de bureau Adobe Dynamic Media Classic, dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]**.
 1. Sur la page Télécharger , sélectionnez l’onglet **[!UICONTROL Depuis le bureau]** .
 1. Sur le côté gauche de la page Télécharger, dans la zone **[!UICONTROL Sélectionner les fichiers à charger]**, sélectionnez **[!UICONTROL Parcourir]** pour sélectionner les fichiers ou les dossiers à charger, puis sélectionnez **[!UICONTROL Ouvrir]**.
 1. Sur le côté droit de la page Télécharger, dans la zone **Choisir la destination du dossier**, accédez à un dossier de destination où vous souhaitez que les fichiers ou dossiers chargés soient ajoutés.
@@ -180,7 +180,7 @@ Pour afficher la progression du chargement, sélectionnez **[!UICONTROL Tâches]
 
 ### Chargement de fichiers à l’aide de l’onglet FTP via {#upload-files-using-via-ftp}
 
-1. Connectez-vous au site FTP Dynamic Media Classic Adobe spécifique à votre région. Utilisez le nom d’utilisateur et le mot de passe FTP qui vous ont été envoyés par votre administrateur.
+1. Connectez-vous au site FTP Adobe Dynamic Media Classic spécifique à votre région. Utilisez le nom d’utilisateur et le mot de passe FTP qui vous ont été envoyés par votre administrateur.
 1. Dans Adobe Dynamic Media Classic, dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]**.
 1. Sur la page Télécharger , sélectionnez l’onglet **[!UICONTROL VIA FTP]** .
 1. Sur le côté gauche de la page Télécharger, dans la zone **[!UICONTROL Choisir le dossier FTP à télécharger]**, sélectionnez un dossier FTP à partir duquel télécharger les fichiers.
@@ -241,7 +241,7 @@ Rognage en fonction de la couleur : Indiquez 0 pour rogner uniquement les pixels
 Rognage en fonction de la transparence : Spécifiez 0 pour rogner les pixels uniquement s’ils sont transparents ; Les valeurs plus proches de 1 permettent une plus grande transparence.
       * **[!UICONTROL Tolérance]**  : faites glisser le curseur pour spécifier une tolérance comprise entre 0 et 1.
 
-* **Options de profil colorimétrique**  : choisissez une conversion de couleurs lorsque vous créez des fichiers optimisés utilisés pour la diffusion dynamique Dynamic Media Classic Adobe :
+* **Options de profil colorimétrique**  : choisissez une conversion de couleurs lorsque vous créez des fichiers optimisés utilisés pour la diffusion dynamique Adobe Dynamic Media Classic :
 
    * **[!UICONTROL Conservation des couleurs par défaut]**  : conserve les couleurs de l’image source chaque fois que les images contiennent des informations sur l’espace colorimétrique ; il n’existe aucune conversion de couleur. Pour la plupart des images aujourd’hui, un profil colorimétrique approprié est déjà inclus. Toutefois, si une image source CMJN ne contient pas de profil colorimétrique intégré, les couleurs sont converties dans l’espace colorimétrique sRVB (rouge vert bleu standard). sRVB est l’espace colorimétrique recommandé pour l’affichage d’images sur les pages Web.
    * **[!UICONTROL Conserver l’espace colorimétrique d’origine]**  : conserve les couleurs d’origine sans conversion des couleurs au moment de l’ingestion dans Adobe Dynamic Media Classic. Pour les images sans profil de couleur incorporé, toute conversion de couleur requise pour traiter les demandes d’image est effectuée à l’aide des profils de couleur par défaut configurés dans les paramètres de publication. Ces profils de couleurs ne correspondent pas toujours à la couleur des fichiers créés avec cette option. Par conséquent, vous avez intérêt à utiliser l’option de conservation des couleurs par défaut.
@@ -256,7 +256,7 @@ Voir [Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-
 * **Options Photoshop**  : vous pouvez créer des modèles à partir de fichiers Adobe® Photoshop®, conserver les calques, spécifier le mode de nommage des calques, extraire du texte et spécifier le mode d’ancrage des images dans les modèles.
 (voir [Options de téléchargement des fichiers PSD](psd-files.md#psd_upload_options)).
 
-* **Options PDF**  : vous pouvez pixelliser les fichiers, extraire des mots de recherche et des liens, générer automatiquement un catalogue électronique, définir la résolution et choisir un espace colorimétrique.
+* **Options de PDF**  : vous pouvez pixelliser les fichiers, extraire des mots de recherche et des liens, générer automatiquement un catalogue électronique, définir la résolution et choisir un espace colorimétrique.
 (voir [Options de téléchargement des fichiers PDF](pdfs.md#pdf_upload_options)).
 
 * **Options**  Illustrator : vous pouvez pixelliser les fichiers Adobe Illustrator®, conserver les arrière-plans transparents, choisir une résolution et choisir un espace colorimétrique.
@@ -265,7 +265,7 @@ Voir [Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-
 * **Options**  EVIDEO : vous pouvez transcoder un fichier vidéo en sélectionnant un paramètre vidéo prédéfini.
 Voir [Utilisation des paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **Métadonnées supplémentaires**  : entrez des mots-clés qui décrivent les fichiers que vous avez l’intention de charger. Séparez les mots clés-par des virgules. Les mots-clés facilitent les recherches portant sur les fichiers Voir [Réaliser une recherche avancée](searching-assets.md#conducting_an_advanced_search).
+* **Métadonnées supplémentaires**  : entrez des mots-clés qui décrivent les fichiers que vous avez l’intention de charger. Séparez les mots clés-par des virgules. Les mots-clés facilitent les recherches portant sur les fichiers Voir [Réaliser une recherche avancée](searching-assets.md#conducting_an_advanced_search). Voir aussi [Vidéo de formation Téléchargement des mots-clés](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS).
 
 * **Paramètres prédéfinis d’ensemble par lot**  : si vous souhaitez créer une visionneuse d’images, une visionneuse à 360° ou une série d’échantillons à partir des fichiers transférés, sélectionnez la colonne  **** Activation du paramètre prédéfini à utiliser. Rien ne vous empêche de sélectionner plusieurs paramètres prédéfinis. Vous créez les paramètres prédéfinis sur la page Configuration de l’application/Paramètres prédéfinis d’ensemble par lot (voir [Paramètres prédéfinis d’ensemble par lot](application-setup.md#batch_set_presets)).
 
