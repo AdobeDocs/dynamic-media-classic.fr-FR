@@ -10,9 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: 876b4c61167b28f7d5e50a656564eafcbe5b9eab
+source-git-commit: 8111895ac527b92b152382ea80b7b383659f00a9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Lorsque vous vous connectez, vous avez la possibilité de saisir votre ID d’or
 >
 >Si votre compte Adobe Analytics a été migré vers l’authentification Adobe IMS (système Identity Management) pour la connexion, la saisie d’informations d’identification directes ne fonctionne pas.
 
-**Pour vous connecter à Adobe Analytics à partir d’Adobe Dynamic Media Classic :**
+## Connectez-vous à Adobe Analytics à partir de Adobe Dynamic Media Classic. {#log-in-to-analytics-from-dmc}
 
 Commencez par intégrer Dynamic Media Classic à Adobe Analytics OAuth. L’intégration Adobe Analytics OAuth avec Dynamic Media Classic n’est généralement effectuée qu’une seule fois par utilisateur.
 
@@ -64,7 +64,7 @@ Commencez par intégrer Dynamic Media Classic à Adobe Analytics OAuth. L’int�
    * Sous **[!UICONTROL ID client]**, sélectionnez **[!UICONTROL Copier]** pour copier la valeur. Vous devez utiliser cette valeur pour la configuration suivante d’Analytics dans l’application de bureau Dynamic Media Classic à suivre.
    * Sous **[!UICONTROL Secret client]**, sélectionnez **[!UICONTROL Récupérer le secret client]** pour afficher la valeur associée. Sélectionner **[!UICONTROL Copier]** pour copier la valeur. Vous avez besoin de cette valeur pour la configuration Adobe Analytics ultérieure dans l’application de bureau Dynamic Media Classic à suivre.
 
-**Configuration d’Adobe Analytics dans l’application de bureau Dynamic Media Classic**
+## Configuration d’Adobe Analytics dans Adobe Dynamic Media Classic {#configure-analytics-in-dmc}
 
 >[!NOTE]
 >
