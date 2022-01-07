@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: df41d69e2fa6e9db806d8ffbb06edc42b70d1011
+source-git-commit: a575c698fec3f85e537ad07f5948e7e65912ca52
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '2002'
 ht-degree: 1%
 
 ---
@@ -40,21 +40,13 @@ L’appli de bureau Adobe Dynamic Media Classic est compatible avec les système
 
 ## Correctifs de la dernière version (20.22.1) {#release-jan2022}
 
-* 
+Modification des images **[!UICONTROL Enregistrer]** Les boutons n’étaient pas fonctionnels.
 
-   <!-- CQ-4333853 :  -->Image editing **[!UICONTROL Save]** buttons were non-functional.
-* 
-
-   <!-- CQ-4334638 :  -->In the Set editors, the **[!UICONTROL Close]**, **[!UICONTROL Save]**, and **[!UICONTROL Save As]** buttons become disabled after scrolling assets in the **[!UICONTROL Add Assets]** panel.
-* 
-
-   <!-- CQ-4335992 :  -->**[!UICONTROL Play]** button in Video Detail view did not work.
-* 
-
-   <!-- CQ-4336687 :  -->Could not enter `d` and `e` in **[!UICONTROL Username]** and **[!UICONTROL Password]** fields when running macOS Monterey.
-* 
-
-   <!-- CQ-4334197 :  -->Moved the remaining analytics APIs to version 2.0.
+* Modification des images **[!UICONTROL Enregistrer]** Les boutons n’étaient pas fonctionnels.
+* Dans les éditeurs de visionneuse, la variable **[!UICONTROL Fermer]**, **[!UICONTROL Enregistrer]**, et **[!UICONTROL Enregistrer sous]** les boutons deviennent désactivés après avoir fait défiler les ressources dans la **[!UICONTROL Ajouter des ressources]** du panneau.
+* **[!UICONTROL Play]** ne fonctionnait pas dans la vue Détails de la vidéo.
+* Impossible de saisir `d` et `e` in **[!UICONTROL Nom d’utilisateur]** et **[!UICONTROL Mot de passe]** lors de l’exécution de macOS Monterey.
+* Déplacement des API d’analyse restantes vers la version 2.0.
 
 ## Correctifs de la version (20.21.3) {#release-sept2021}
 
@@ -160,7 +152,7 @@ Pour télécharger et *silence* installez la dernière version de l’appli de b
 
 1. Téléchargez la dernière version du programme d’installation de l’appli de bureau Adobe Dynamic Media Classic pour macOS.
 
-   * [macOS (.DMG) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
+   * [macOS (.DMG) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
 
 1. Montez l’image de disque (.DMG) téléchargée vers un emplacement de point de montage à l’aide de la commande suivante :
 
