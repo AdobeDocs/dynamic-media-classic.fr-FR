@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: a575c698fec3f85e537ad07f5948e7e65912ca52
+source-git-commit: 085ff63afc73d120fdc29a93b56e5d926eb93e34
 workflow-type: tm+mt
 source-wordcount: '2002'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Modification des images **[!UICONTROL Enregistrer]** Les boutons n’étaient pa
 * Impossible de saisir `d` et `e` in **[!UICONTROL Nom d’utilisateur]** et **[!UICONTROL Mot de passe]** lors de l’exécution de macOS Monterey.
 * Déplacement des API d’analyse restantes vers la version 2.0.
 
-## Correctifs de la version (20.21.3) {#release-sept2021}
+## Correctifs de la version 20.21.3 {#release-sept2021}
 
 * Vignettes endommagées pour les ressources affichées après une période d’inactivité sur l’appli de bureau.
 * L’appli de bureau cesse de répondre, généralement après les opérations Set .
