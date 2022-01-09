@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 085ff63afc73d120fdc29a93b56e5d926eb93e34
+source-git-commit: 92c3cccbd03f8e159ca6e1ae90558826a5b1443b
 workflow-type: tm+mt
-source-wordcount: '2002'
+source-wordcount: '1996'
 ht-degree: 1%
 
 ---
@@ -39,8 +39,6 @@ L’appli de bureau Adobe Dynamic Media Classic est compatible avec les système
 >La notification de mise à niveau dans l’application de bureau Adobe Dynamic Media Classic n’est pas générée pour *mineur* versions. Les clients qui bénéficient de correctifs dans une version mineure peuvent effectuer une mise à niveau.
 
 ## Correctifs de la dernière version (20.22.1) {#release-jan2022}
-
-Modification des images **[!UICONTROL Enregistrer]** Les boutons n’étaient pas fonctionnels.
 
 * Modification des images **[!UICONTROL Enregistrer]** Les boutons n’étaient pas fonctionnels.
 * Dans les éditeurs de visionneuse, la variable **[!UICONTROL Fermer]**, **[!UICONTROL Enregistrer]**, et **[!UICONTROL Enregistrer sous]** les boutons deviennent désactivés après avoir fait défiler les ressources dans la **[!UICONTROL Ajouter des ressources]** du panneau.
