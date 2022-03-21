@@ -1,16 +1,16 @@
 ---
 title: Application de bureau Adobe Dynamic Media Classic - Maintenant disponible
 description: En savoir plus sur l’application de bureau Adobe Dynamic Media Classic.
-contentOwner: admin
+contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 92c3cccbd03f8e159ca6e1ae90558826a5b1443b
+source-git-commit: f0c02d40a1a84e52b25d1c4558958af970859a07
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '2025'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,14 @@ Consultez la FAQ pour [Nouvelle expérience de connexion à Adobe Dynamic Media 
 L’appli de bureau Adobe Dynamic Media Classic est compatible avec les systèmes d’exploitation suivants :
 
 * macOS 10.10 ou version ultérieure.
+
+   >[!NOTE]
+   >
+   >L’appli de bureau Dynamic Media Classic voit sa fonctionnalité dégradée lorsqu’elle est utilisée avec macOS Monterey. Par conséquent, Adobe travaille à la publication d’une nouvelle version de l’appli de bureau dans les semaines à venir.
+
 * Windows® 7 ou version ultérieure.
 
->[!NOTE]
->
->La notification de mise à niveau dans l’application de bureau Adobe Dynamic Media Classic n’est pas générée pour *mineur* versions. Les clients qui bénéficient de correctifs dans une version mineure peuvent effectuer une mise à niveau.
+La notification de mise à niveau dans l’application de bureau Adobe Dynamic Media Classic n’est pas générée pour *mineur* versions. Les clients qui bénéficient de correctifs dans une version mineure peuvent effectuer une mise à niveau.
 
 ## Correctifs de la dernière version (20.22.1) {#release-jan2022}
 
@@ -135,7 +138,7 @@ Voir aussi:
    | Production EMEA (Europe, Moyen-Orient et Afrique) | https://s7sps3.scene7.com/ |
    | Production APAC (Asie-Pacifique) | https://s7sps5.scene7.com/ |
 
-1. Après vous être connecté, notez l’expérience familière de l’interface utilisateur du navigateur. Vous pouvez continuer votre activité Adobe Dynamic Media Classic au quotidien comme vous le faites habituellement sur l’appli de bureau .
+1. Après vous être connecté, notez l’expérience familière de l’interface utilisateur du navigateur. Vous pouvez continuer votre activité Adobe Dynamic Media Classic quotidienne comme vous le faites habituellement sur l’appli de bureau .
 
 ## Téléchargement et *silence* installation de la dernière appli de bureau Adobe Dynamic Media Classic sur macOS {#install-silent-mac-dmc-app}
 
