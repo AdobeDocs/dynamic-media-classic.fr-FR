@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: f0c02d40a1a84e52b25d1c4558958af970859a07
+source-git-commit: a53245c3a9c82fb68db1b62798b962dd3283be12
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2011'
 ht-degree: 1%
 
 ---
@@ -32,14 +32,13 @@ Consultez la FAQ pour [Nouvelle expérience de connexion à Adobe Dynamic Media 
 L’appli de bureau Adobe Dynamic Media Classic est compatible avec les systèmes d’exploitation suivants :
 
 * macOS 10.10 ou version ultérieure.
-
-   >[!NOTE]
-   >
-   >L’appli de bureau Dynamic Media Classic voit sa fonctionnalité dégradée lorsqu’elle est utilisée avec macOS Monterey. Par conséquent, Adobe travaille à la publication d’une nouvelle version de l’appli de bureau dans les semaines à venir.
-
 * Windows® 7 ou version ultérieure.
 
 La notification de mise à niveau dans l’application de bureau Adobe Dynamic Media Classic n’est pas générée pour *mineur* versions. Les clients qui bénéficient de correctifs dans une version mineure peuvent effectuer une mise à niveau.
+
+## Corrigé dans la dernière version (20.22.2) - macOS uniquement {#release-feb2022}
+
+* macOS Monterey : la page de téléchargement de fichiers s’est figée lors des chargements suivants. <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
 ## Correctifs de la dernière version (20.22.1) {#release-jan2022}
 
@@ -94,15 +93,17 @@ Voir aussi:
 
 1. Téléchargez la dernière version du programme d’installation de l’appli de bureau Adobe Dynamic Media Classic.
 
-   * La dernière version (20.22.1) est disponible à l’adresse suivante :
+   * La dernière version est disponible à l’adresse suivante :
+
+      * [macOS (.DMG) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+      * [Windows (.EXE) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+   * La version précédente est disponible à l’adresse suivante :
 
       * [macOS (.DMG) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
-      * [Windows (.EXE) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
-   * La version précédente (20.21.3) est disponible à l’adresse suivante :
-
-      * [macOS (.DMG) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
       * [Windows® (.EXE) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
+
+<!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
 <!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
         * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
@@ -153,11 +154,11 @@ Pour télécharger et *silence* installez la dernière version de l’appli de b
 
 1. Téléchargez la dernière version du programme d’installation de l’appli de bureau Adobe Dynamic Media Classic pour macOS.
 
-   * [macOS (.DMG) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
+   * [macOS (.DMG) - Téléchargement](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
 
 1. Montez l’image de disque (.DMG) téléchargée vers un emplacement de point de montage à l’aide de la commande suivante :
 
-   `hdiutil attach adobe-dynamic-media-classic-20.22.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.22.2.dmg -mountpoint <mount_point_path>`
 
 1. Copiez le fichier .APP dans **[!UICONTROL Applications]** à l’aide de la commande suivante :
 
