@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: a53245c3a9c82fb68db1b62798b962dd3283be12
+source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2026'
 ht-degree: 1%
 
 ---
@@ -34,9 +34,11 @@ L’appli de bureau Adobe Dynamic Media Classic est compatible avec les système
 * macOS 10.10 ou version ultérieure.
 * Windows® 7 ou version ultérieure.
 
+Voir la configuration système requise complète à l’adresse [Configuration requise pour l’appli de bureau Adobe Dynamic Media Classic](/help/system-requirements.md).
+
 La notification de mise à niveau dans l’application de bureau Adobe Dynamic Media Classic n’est pas générée pour *mineur* versions. Les clients qui bénéficient de correctifs dans une version mineure peuvent effectuer une mise à niveau.
 
-## Corrigé dans la dernière version (20.22.2) - macOS uniquement {#release-feb2022}
+## Ce problème a été corrigé dans la dernière version (20.22.2) de macOS uniquement. {#release-feb2022}
 
 * macOS Monterey : la page de téléchargement de fichiers s’est figée lors des chargements suivants. <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
