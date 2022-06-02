@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: f0e6d634587500877dbcd9e56bcfca105a6e6b9b
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 48%
@@ -19,26 +19,26 @@ ht-degree: 48%
 
 Vous publiez vos ressources sur les serveurs d’images Dynamic Media. Vous pouvez publier des ressources ponctuellement ou organiser Adobe Dynamic Media Classic pour les publier selon une planification récurrente. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL d’Adobe Dynamic Media Classic et les ajouter à votre site web ou à votre application.
 
-Adobe Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos sur HTTP/2. En d’autres termes, une URL publiée ou un code incorporé pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cette ressource publiée est ensuite diffusée au moyen du protocole HTTP/2. Cette méthode de remise améliore la communication entre les navigateurs et les serveurs, ce qui permet d’améliorer les temps de réponse et de chargement de toutes vos ressources Dynamic Media Classic Adobe. Voir [FAQ sur la diffusion de contenu HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Adobe Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos sur HTTP/2. En d’autres termes, une URL publiée ou un code incorporé pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cette ressource publiée est ensuite diffusée au moyen du protocole HTTP/2. Cette méthode de remise améliore la communication entre les navigateurs et les serveurs, ce qui permet de bénéficier de meilleurs temps de réponse et de chargement de toutes vos ressources Adobe Dynamic Media Classic. Voir [FAQ sur la diffusion de contenu HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Publication après le téléchargement {#publish-after-uploading}
 
 Fichiers dans un état publié ou non publié. Par défaut, toutes les ressources que vous chargez dans Adobe Dynamic Media Classic sont automatiquement marquées pour publication.
 
-Pour plus d’informations, voir la [Instant Publish Notice PDF](/help/assets/rendering-instant-publish-notification.pdf).
+Pour plus d’informations, voir [PDF Instant Publish Notice](/help/assets/rendering-instant-publish-notification.pdf).
 
 Pour marquer des fichiers pour publication, utilisez les techniques suivantes :
 
-* **[!UICONTROL Publier après le téléchargement]**  : sur la page Télécharger, près du bas, sélectionnez  **[!UICONTROL Publier après le téléchargement]**. La valeur par défaut est un état sélectionné.
+* **[!UICONTROL Publier après le téléchargement]** - Sur la page Télécharger, près du bas, sélectionnez **[!UICONTROL Publier après le téléchargement]**. La valeur par défaut est un état sélectionné.
 
-* **[!UICONTROL Publier après le téléchargement]**  : dans la boîte de dialogue Options de tâche, sélectionnez  **[!UICONTROL Publier après le téléchargement]**. La valeur par défaut est un état sélectionné.
+* **[!UICONTROL Publier après le téléchargement]** - Dans la boîte de dialogue Options de tâche, sélectionnez **[!UICONTROL Publier après le téléchargement]**. La valeur par défaut est un état sélectionné.
 
 Certains fichiers « enfants » sont systématiquement marqués pour publication lorsque leurs parents le sont. Ce tableau dresse la liste des fichiers enfants automatiquement marqués pour publication.
 
 | Elément (groupe) parent | Eléments (membre) enfants |
 | --- | --- |
 | Visionneuses d’images | Images dans la visionneuse. |
-| Séries d’échantillons | Echantillons dans la visionneuse. |
+| Série d’échantillons | Echantillons dans la visionneuse. |
 | Visionneuses à 360° | Images dans la visionneuse. |
 | Modèles | Images, pages et fichiers de modèle. |
 
@@ -53,16 +53,16 @@ Créez une tâche de publication pour publier les ressources que vous avez charg
 1. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**.
 1. Dans la boîte de dialogue Publier, choisissez s’il s’agit d’une tâche de publication ponctuelle ou périodique
 
-   Voir [Création d’une tâche de publication ponctuelle](publishing-files.md#creating_a_one_time_publish_job) et [Création d’une tâche de publication récurrente](publishing-files.md#creating_a_recurring_publish_job).
+   Voir [Création d’une tâche de publication unique](publishing-files.md#creating_a_one_time_publish_job) et [Création d’une tâche de publication récurrente](publishing-files.md#creating_a_recurring_publish_job).
 
 1. Entrez un nom de tâche.
 1. (Facultatif) Affichez les options avancées, puis choisissez parmi elles 
 
    (voir [Options de publication avancées](publishing-files.md#advanced_publish_options)).
 
-1. Sélectionnez **[!UICONTROL Envoyer la publication]**.
+1. Sélectionner **[!UICONTROL Envoyer la publication]**.
 
-Adobe Dynamic Media Classic effectue le suivi des tâches de publication sur la page Tâches . Vous pouvez consulter les tâches de publication sur cette page.
+Adobe Dynamic Media Classic effectue le suivi des tâches de publication sur la page Tâches. Vous pouvez consulter les tâches de publication sur cette page.
 
 >[!NOTE]
 >
@@ -70,15 +70,15 @@ Adobe Dynamic Media Classic effectue le suivi des tâches de publication sur la 
 
 ### Création d’une tâche de publication unique {#creating-a-one-time-publish-job}
 
-Créez une tâche de publication unique en sélectionnant l’option **[!UICONTROL Unique]** sur la page Publier.
+Créez une tâche de publication unique en sélectionnant l’option **[!UICONTROL Unique]** sur la page Publier .
 
-Si vous souhaitez que la tâche de publication se produise ultérieurement, dans la page Publier, sélectionnez **[!UICONTROL Unique]**, puis sélectionnez la liste déroulante **[!UICONTROL Planifier pour plus tard]**. Utilisez le calendrier et le curseur de l’heure pour sélectionner un jour et une heure pour exécuter la tâche de publication.
+Si vous souhaitez que la tâche de publication se produise ultérieurement, sélectionnez dans la page Publier . **[!UICONTROL Unique]**, puis sélectionnez **[!UICONTROL Planifier ultérieurement]** menu déroulant. Utilisez le calendrier et le curseur de l’heure pour sélectionner un jour et une heure pour exécuter la tâche de publication.
 
 ### Création d’une tâche de publication récurrente {#creating-a-recurring-publish-job}
 
-Créez une tâche de publication récurrente en sélectionnant **[!UICONTROL Récurrente]** sur la page Publier.
+Créez une tâche de publication récurrente en sélectionnant **[!UICONTROL Récurrente]** sur la page Publier .
 
-Choisissez ensuite une option Répéter **[!UICONTROL Quotidienne]**, **[!UICONTROL Hebdomadaire]**, **[!UICONTROL Mensuelle]** ou **[!UICONTROL Personnalisée]**, puis indiquez quand la tâche de publication doit se répéter. Adobe Dynamic Media Classic présente des outils de calendrier pour la planification de la tâche de publication récurrente. Vous pouvez sélectionner l’option **[!UICONTROL Personnalisée]** et saisir une règle dans le champ Texte de la règle pour décrire un intervalle de tâches personnalisé.
+Choisissez ensuite l’option Répéter de **[!UICONTROL Quotidien]**, **[!UICONTROL Hebdomadaire]**, **[!UICONTROL Mensuel]** ou **[!UICONTROL Personnalisé]**, puis indiquez quand la tâche de publication doit se répéter. Adobe Dynamic Media Classic présente des outils de calendrier pour la planification de la tâche de publication récurrente. Vous pouvez sélectionner **[!UICONTROL Personnalisé]** et saisissez une règle dans le champ Texte de la règle pour décrire un intervalle de tâche personnalisé.
 
 Voir [Création d’un intervalle de temps de tâche de téléchargement ou de publication personnalisé](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
@@ -90,15 +90,15 @@ Voir [Création d’un intervalle de temps de tâche de téléchargement ou de p
 
 Vous pouvez afficher les options avancées sur la page de publication et en choisir certaines pour gérer une tâche de publication :
 
-* **[!UICONTROL Publier sur]**  : pour publier des ressources uniquement sur un serveur spécifique, choisissez un type de serveur.
+* **[!UICONTROL Publier sur]** - Pour publier des ressources uniquement sur un serveur spécifique, choisissez un type de serveur.
 
-* **[!UICONTROL Publier]**  : par défaut, Adobe Dynamic Media Classic publie uniquement les nouvelles ressources qui n’ont pas été publiées avant (option Nouveau depuis la dernière publication ). Vous pouvez toutefois sélectionner **[!UICONTROL Publication complète]** pour publier également les ressources qui ont été mises à jour ou modifiées depuis leur dernière publication. Sélectionnez **[!UICONTROL Complet avec données de recherche]** si vous publiez un catalogue électronique et souhaitez que les lecteurs puissent y effectuer des recherches par mot-clé.
+* **[!UICONTROL Publier]** - Par défaut, Adobe Dynamic Media Classic publie uniquement les nouvelles ressources qui n’ont pas été publiées avant (option Nouveau depuis la dernière publication ). Vous pouvez toutefois sélectionner **[!UICONTROL Publication complète]** pour publier également les ressources qui ont été mises à jour ou modifiées depuis leur dernière publication. Sélectionner **[!UICONTROL Complet avec données de recherche]** si vous publiez un catalogue électronique et souhaitez que les lecteurs puissent y effectuer des recherches par mot-clé.
 
-* **[!UICONTROL Exécuter la tâche en tant que]**  : sélectionnez un nom d’utilisateur dans la liste. Vous pouvez trier les tâches par nom d’utilisateur sur la page Tâches. En choisissant un nom, vous associez une tâche de publication à un utilisateur.
+* **[!UICONTROL Exécuter la tâche en tant que]** - Sélectionnez un nom d’utilisateur dans la liste. Vous pouvez trier les tâches par nom d’utilisateur sur la page Tâches. En choisissant un nom, vous associez une tâche de publication à un utilisateur.
 
-**[!UICONTROL Notification HTTP]**  : entrez une URL pour déclencher les tâches de publication suivantes.
+**[!UICONTROL Notification HTTP]** - Entrez une URL pour déclencher les tâches de publication suivantes.
 
-Voir [Utilisation d’une tâche de téléchargement ou de publication comme déclencheur](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).
+Voir [Utilisation d’une tâche de téléchargement ou de publication comme déclencheur](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
 
 ## Annulation d’une tâche de publication {#canceling-a-publish-job}
 
@@ -148,15 +148,15 @@ La dernière date de publication d’une ressource s’affiche dans l’affichag
 
 ## Fichiers republiés et délais CDN {#republished-assets-and-cdn-delays}
 
-Les ressources Adobe Dynamic Media Classic sont distribuées sur le réseau de diffusion de contenu (CDN). CDN est un système de serveurs informatiques reliés en réseau qui coopèrent de manière transparente pour diffuser des contenus, surtout des contenus multimédias volumineux, vers des utilisateurs finaux. Dans le système CDN, le contenu Web est stocké dans des caches Web sur le réseau Internet (appelé réseau cache de périphérie). Le contenu web est diffusé à partir des caches web aux utilisateurs finaux afin d’accélérer les diffusions.
+Les ressources Adobe Dynamic Media Classic sont distribuées sur le réseau de diffusion de contenu (CDN). CDN est un système de serveurs informatiques reliés en réseau qui coopèrent de manière transparente pour diffuser des contenus, surtout des contenus multimédias volumineux, vers des utilisateurs finaux. Dans le système CDN, le contenu Web est stocké dans des caches Web sur le réseau Internet (appelé réseau cache de périphérie). Le contenu web est diffusé à partir des caches web aux utilisateurs finaux afin de permettre des diffusions plus rapides.
 
 Lors du premier téléchargement d’une page Web, les fichiers correspondants sont envoyés à un serveur cache CDN pour y être stockés. Ainsi, au prochain accès de la page Web, le même contenu mis en cache pourra être acheminé plus rapidement à une personne située à proximité. Le contenu étant plus proche de l’utilisateur final, il est livré plus vite. Le système CDN accélère l’affichage des pages Web. Il réduit les besoins en bande passante sur le serveur central dans la mesure où le contenu est diffusé à partir du réseau cache de périphérie, et non pas d’un serveur central à chaque fois.
 
-Le contenu Dynamic Media Classic nouvellement publié Adobe est immédiatement disponible pour l’utilisateur final et remplit rapidement le réseau de cache de périphérie. Néanmoins, le contenu venant d’être republié (à savoir des images portant exactement le même nom que les images précédemment publiées vers un serveur d’images) n’est actualisé sur le CDN qu’au bout de 10 heures, au maximum. En fait, l’utilisateur final n’a accès qu’au contenu du cache Web sur le réseau CDN. Pour cette raison, les ressources republiées de Dynamic Media Classic de votre Adobe ne semblent pas destinées aux utilisateurs finaux pendant dix heures.
+Le contenu Adobe Dynamic Media Classic récemment publié est immédiatement disponible pour l’utilisateur final et remplit rapidement le réseau de cache de périphérie. Néanmoins, le contenu venant d’être republié (à savoir des images portant exactement le même nom que les images précédemment publiées vers un serveur d’images) n’est actualisé sur le CDN qu’au bout de 10 heures, au maximum. En fait, l’utilisateur final n’a accès qu’au contenu du cache Web sur le réseau CDN. Pour cette raison, les ressources republiées d’Adobe Dynamic Media Classic ne semblent pas être destinées aux utilisateurs finaux pendant dix heures.
 
 Pour mettre à disposition des fichiers récemment republiés avant ce délai de 10 heures, vous pouvez vider les caches Web sur le CDN. Ce vidage aura pour effet de supprimer l’ancien contenu des caches Web CDN et de le remplacer par les derniers fichiers publiés.
 
-Pour vider le cache, dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Invalider le CDN]**. Tous les fichiers sélectionnés sont supprimés du cache. Si aucun fichier de publication n’est disponible ou si vous n’êtes pas l’administrateur de la société, l’option Supprimer du réseau de redéfinition de contenu est désactivée.
+Pour vider le cache, dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Invalider le réseau de diffusion de contenu]**. Tous les fichiers sélectionnés sont supprimés du cache. Si aucun fichier de publication n’est disponible ou si vous n’êtes pas l’administrateur de la société, l’option Supprimer du réseau de redéfinition de contenu est désactivée.
 
 >[!MORELIKETHIS]
 >

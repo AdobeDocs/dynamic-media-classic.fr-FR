@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: fe765d1acfa37e9d13f5ef1b655f8cf04195a8a6
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 63%
+source-wordcount: '626'
+ht-degree: 59%
 
 ---
 
@@ -25,31 +25,43 @@ Pour créer une visionneuse d’images avec des vues multiples, vos images doive
 
 Lorsque vous créez une visionneuse, l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») affecte la visionneuse et ses membres comme suit :
 
-| **[!UICONTROL Option Publier après l’]** enregistrement sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| **[!UICONTROL Publier après l’enregistrement]** l’option sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- |
 | Oui | Publié | Publié |
 | Non | Non publié | Les membres de la visionneuse conservent leur état publié ou non publié. |
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
+>[!NOTE]
+>
+>Lorsque vous créez une visionneuse d’images, Adobe recommande les bonnes pratiques suivantes et les limites appliquées.
+>
+>* Nombre de ressources en double par visionneuse d’images
+   >   * Bonne pratique : 20
+   >   * Limite appliquée : 20
+> * Nombre maximal de pages par visionneuse d’images
+   >   * Bonne pratique : 1000
+   >   * Limite étendue : 1000
+
+
 **Pour créer une visionneuse d’images:**
 
 1. Effectuez l’une des opérations suivantes :
 
-   * **Sélectionner d’abord les images**  : dans le panneau de navigation, sélectionnez les images de votre visionneuse d’images, accédez à  **[!UICONTROL Créer]**  >  **[!UICONTROL Visionneuses d’images]**.
+   * **Sélectionner les images en premier** - Dans le panneau de navigation, sélectionnez les images de votre visionneuse d’images, accédez à **[!UICONTROL Build]** > **[!UICONTROL Visionneuses d’images]**.
 
-   * **Démarrez à partir de l’écran Visionneuse d’images**  - Accédez à  **[!UICONTROL Créer]**  >  **[!UICONTROL Visionneuses d’images]**. L’écran Visionneuse d’images s’affiche. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser les images de la visionneuse sur l’écran Visionneuse d’images.
+   * **Démarrage à partir de l’écran Visionneuse d’images** - Accédez à **[!UICONTROL Build]** > **[!UICONTROL Visionneuses d’images]**. L’écran Visionneuse d’images s’affiche. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser les images de la visionneuse sur l’écran Visionneuse d’images.
 
 1. Pour changer l’ordre des images, faites-les glisser vers leur nouvel emplacement.
 1. Près de l’angle inférieur droit de la page, vérifiez que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
-1. Sélectionnez **[!UICONTROL Enregistrer]**, sélectionnez un dossier pour stocker votre visionneuse d’images, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
+1. Sélectionner **[!UICONTROL Enregistrer]**, sélectionnez un dossier pour le stockage de la visionneuse d’images, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
 1. Pour afficher votre visionneuse d’images dans la visionneuse, sélectionnez **[!UICONTROL Aperçu]** dans l’écran Visionneuse d’images. Vous pouvez sélectionner des miniatures d’échantillon dans la visionneuse d’images pour voir comment elles se comportent.
 
 ## Modification d’une visionneuse d’images {#editing-an-image-set}
 
-Que vous modifiiez un jeu publié ou non publié, l’option **[!UICONTROL Publier après l’enregistrement]** affecte le jeu et les membres de la façon suivante :
+Si vous modifiez un jeu publié ou non publié, la variable **[!UICONTROL Publier après l’enregistrement]** L’option affecte les membres de l’ensemble et de l’ensemble comme suit :
 
-| Visionneuse déjà publiée ? | **[!UICONTROL l’option Publier après l’]** enregistrement est sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| Visionneuse déjà publiée ? | **[!UICONTROL Publier après l’enregistrement]** sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- | --- |
 | Oui | Oui | Publié | Publié |
 | Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
@@ -68,7 +80,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
    * Pour réorganiser des images, faites glisser l’image de votre choix vers sa nouvelle position.
 
 1. Lorsque vous avez terminé de modifier la visionneuse, près de l’angle inférieur droit de la page, assurez-vous que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
-1. Sélectionnez **[!UICONTROL Enregistrer]**, sélectionnez un dossier de stockage pour votre visionneuse, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
+1. Sélectionner **[!UICONTROL Enregistrer]**, sélectionnez un dossier de stockage pour la visionneuse, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
 ## Suppression d’une visionneuse d’images {#deleting-an-image-set}
 

@@ -2,21 +2,21 @@
 cloud: Experience Cloud
 product: adobe dynamic media classic
 audience: end-user
-user-guide-title: Guide d’Adobe Dynamic Media Classic
+user-guide-title: Guide d’Adobe Dynamic Media Classic
 breadcrumb-title: Guide de Dynamic Media Classic
-user-guide-description: En savoir plus sur l’utilisation d’Adobe Dynamic Media Classic
+user-guide-description: En savoir plus sur l’utilisation dʼAdobe Dynamic Media Classic
 index: y
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 30%
+source-wordcount: '787'
+ht-degree: 31%
 
 ---
 
 
-# Guide d’Adobe Dynamic Media Classic {#using}
+# Guide d’Adobe Dynamic Media Classic {#using}
 
-+ [Guide d’Adobe Dynamic Media Classic](home.md)
++ [Guide d’Adobe Dynamic Media Classic](home.md)
 + [Tutoriel sur les bonnes pratiques de la classe Dynamic Media Adobe](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [NOUVELLE expérience de connexion à Adobe Dynamic Media Classic désormais disponible](new-ui-2020.md)
 + [Archivage de la newsletter Dynamic Media Adobe par Experience League](dynamic-media-newsletter.md)
@@ -38,7 +38,7 @@ ht-degree: 30%
    + [Navigation - Notions élémentaires](navigation-basics.md)
    + [Configuration - Notions élémentaires](setup-basics.md)
    + [Média enrichi](rich-media.md)
-+ Configuration de {#setup}
++ Configuration {#setup}
    + [Configuration personnelle](personal-setup.md)
    + [Configuration de l’application](application-setup.md)
    + [Configuration de la publication](publish-setup.md)
@@ -59,6 +59,7 @@ ht-degree: 30%
    + [À propos du chargement et de la publication de ressources](about-asset-upload-publish.md)
    + [Téléchargement de fichiers](uploading-files.md)
    + [Publication de fichiers](publishing-files.md)
+   + [Bonnes pratiques et limites appliquées par Dynamic Media sur les types de ressources](best-practices-enforced-limits.md)
    + [Test des ressources avant de les rendre publiques](testing-assets-making-them-public.md)
    + [Vérification des fichiers de tâche](checking-job-files.md)
 + Gestion des fichiers {#managing-assets}
@@ -109,7 +110,7 @@ ht-degree: 30%
    + [Affichage des visionneuses d’images](viewing-image-sets.md)
    + [Automatisation de la génération de visionneuse d’images](automated-image-set-generation.md)
    + [Liaison d’une visionneuse d’images à une page web](linking-image-set-web-page.md)
-+ Séries d’échantillons {#swatch-sets}
++ Série d’échantillons {#swatch-sets}
    + [Démarrage rapide : Séries d’échantillons](quick-start-swatch-sets.md)
    + [Inclusion de cibles de zoom et de zones cliquables dans les séries d’échantillons](including-zoom-targets-image-maps-swatch-sets.md)
    + [Préparation du chargement de ressources de série d’échantillons](preparing-swatch-set-assets-upload.md)
