@@ -10,10 +10,10 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 37%
+source-wordcount: '704'
+ht-degree: 36%
 
 ---
 
@@ -26,6 +26,8 @@ Lorsque vous chargez un PDF pour l’extraction de page, Adobe applique la limit
 | Type de limite de PDF | Limite implémentée | Modifications apportées à la limite du 31 décembre 2022 |
 | --- | --- | --- |
 | Nombre maximum de pages qu’un PDF doit prendre en compte pour l’extraction | 5000 (pour les nouveaux chargements) | 100 |
+
+Voir aussi [Limites de Dynamic Media](/help/limitations.md).
 
 ## Options de téléchargement des fichiers PDF {#pdf-upload-options}
 

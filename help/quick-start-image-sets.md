@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '680'
 ht-degree: 21%
 
 ---
@@ -31,6 +31,8 @@ Lorsque vous créez une visionneuse d’images, Adobe recommande les bonnes prat
 | --- | --- | --- | --- |
 | Nombre de ressources en double par ensemble | Aucun doublon | 100 | 20 |
 | Nombre maximal d’images par visionneuse | 5 à 10 images par visionneuse | 1 000 |
+
+Voir aussi [Limites de Dynamic Media](/help/limitations.md).
 
 Le démarrage rapide des visionneuses d’images suivant est conçu pour vous aider à maîtriser rapidement les techniques de visionneuse d’images dans Adobe Dynamic Media Classic.
 

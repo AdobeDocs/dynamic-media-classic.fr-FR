@@ -10,9 +10,9 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '838'
 ht-degree: 22%
 
 ---
@@ -34,6 +34,8 @@ Lorsque vous créez une visionneuse à 360°, Adobe recommande les bonnes pratiq
 | Type de limite de visionneuse à 360° | Pratique recommandée | Limite implémentée |
 | --- | --- | --- |
 | Nombre maximal de lignes/colonnes par jeu 2D | 12 à 18 images par visionneuse | 1 000 |
+
+Voir aussi [Limites de Dynamic Media](/help/limitations.md).
 
 Ce didacticiel de mise en route pour visionneuses à 360° est conçu pour vous aider à maîtriser rapidement les techniques de visionneuse à 360° dans Adobe Dynamic Media Classic. Suivez les étapes 1 à 7. À la fin de chaque étape, vous pouvez sélectionner un lien de rubrique pour en savoir plus.
 
