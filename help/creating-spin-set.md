@@ -10,9 +10,9 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '947'
 ht-degree: 52%
 
 ---
@@ -48,15 +48,11 @@ Lorsque vous créez une visionneuse, l’option **[!UICONTROL Publish after save
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually-publishing-assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually-unpublishing-assets) (« Annulation manuelle de la publication des fichiers »).
 
->[!NOTE]
->
->Lorsque vous créez une visionneuse à 360°, Adobe recommande les bonnes pratiques suivantes, ainsi que la limite appliquée.
->
->* Nombre maximal de lignes/colonnes par visionneuse à 360° 2D
-   > 
-   >   * Bonne pratique : 1000
-   >   * Limite appliquée : 1000
+Lorsque vous créez une visionneuse à 360°, Adobe recommande les bonnes pratiques suivantes et applique la limite suivante :
 
+| Type de limite de visionneuse à 360° | Pratique recommandée | Limite implémentée |
+| --- | --- | --- |
+| Nombre maximal de lignes/colonnes par jeu 2D | 12 à 18 images par visionneuse | 1 000 |
 
 Lorsque vous enregistrez une visionneuse à 360°, vous pouvez ensuite utiliser la fonction Prévisualiser dans la page Créer : Visionneuse à 360° pour voir comment s’affiche votre visionneuse à 360° dans la visionneuse par défaut.
 

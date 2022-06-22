@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '699'
 ht-degree: 37%
 
 ---
@@ -21,14 +21,11 @@ ht-degree: 37%
 
 Les fichiers PDF (Portable Document Format) sont le plus souvent utilisés dans Adobe Dynamic Media Classic pour créer des catalogues électroniques. Lorsque vous chargez un fichier de PDF, Adobe Dynamic Media Classic pixellise les pages par défaut afin que les pages puissent être utilisées pour créer du contenu multimédia.
 
->[!NOTE]
->
->Lorsque vous chargez un PDF pour l’extraction de page, Adobe impose les bonnes pratiques suivantes et impose une limite.
->
->* Nombre maximal de pages par PDF prises en compte pour l’extraction
-   >   * Bonne pratique : 100
-   >   * Limite appliquée : 1 000 (pour actualiser les chargements)
+Lorsque vous chargez un PDF pour l’extraction de page, Adobe applique la limite suivante :
 
+| Type de limite de PDF | Limite implémentée | Modifications apportées à la limite du 31 décembre 2022 |
+| --- | --- | --- |
+| Nombre maximum de pages qu’un PDF doit prendre en compte pour l’extraction | 5000 (pour les nouveaux chargements) | 100 |
 
 ## Options de téléchargement des fichiers PDF {#pdf-upload-options}
 
