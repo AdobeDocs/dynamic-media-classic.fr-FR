@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 4%
+source-wordcount: '173'
+ht-degree: 2%
 
 ---
 
@@ -31,12 +31,12 @@ Lorsque vous créez une visionneuse à 360° ou une visionneuse d’images, ou q
 
 <!-- | **Image** - Number of Smart Crops per image | 5 | 100 |  | -->
 
-| Ressource - Type de limite | Pratique recommandée | Limite implémentée | Modifications apportées à la limite du 31 décembre 2022 |
+| Ressource - Type de limite | Pratique recommandée | Limite imposée | Modification de la limite le 31 décembre 2022 |
 | --- | --- | --- | --- |
-| **Visionneuse d’images** - Nombre de ressources en double par ensemble | Aucun doublon | 100 | 20 |
-| **Visionneuse d’images** - Nombre maximal d’images par visionneuse | 5 à 10 images par visionneuse | 1 000 |
+| **Tous les ensembles** - Nombre de ressources en double par ensemble | Aucun doublon | 20 |  |
+| **Tous les ensembles** - Nombre maximal de ressources par ensemble | 5 à 10 images par visionneuse | 1 000 |
 | **Visionneuse à 360°** - Nombre maximal de lignes/colonnes par jeu 2D | 12 à 18 images par visionneuse | 1 000 |
-| **PDF** - Nombre maximal de pages qu’un PDF doit prendre en compte pour l’extraction |  | 5000 (pour les nouveaux chargements) | 100 |
+| **PDF** - Nombre maximal de pages qu’un PDF doit prendre en compte pour l’extraction |  | 5000 (pour les nouveaux chargements) | 100 (pour tous les PDF) |
 
 <!-- See also [Dynamic Media limitations](/help/limitations.md) -->
 

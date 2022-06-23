@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '635'
 ht-degree: 59%
 
 ---
@@ -34,9 +34,9 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 Lorsque vous créez une visionneuse d’images, Adobe recommande les bonnes pratiques suivantes et applique les limites suivantes :
 
-| Type de limite de visionneuse d’images | Pratique recommandée | Limite implémentée | Modifications apportées à la limite du 31 décembre 2022 |
-| --- | --- | --- | --- |
-| Nombre de ressources en double par ensemble | Aucun doublon | 100 | 20 |
+| Type de limite | Pratique recommandée | Limite imposée |
+| --- | --- | --- |
+| Nombre de ressources en double par ensemble | Aucun doublon | 20 |
 | Nombre maximal d’images par visionneuse | 5 à 10 images par visionneuse | 1 000 |
 
 Voir aussi [Limites de Dynamic Media](/help/limitations.md).

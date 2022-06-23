@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '827'
 ht-degree: 38%
 
 ---
@@ -22,7 +22,7 @@ En règle générale, les fichiers Adobe PDF sont la source d’un catalogue él
 
 Lorsque vous chargez un PDF pour l’extraction de page, Adobe applique la limite suivante :
 
-| Type de limite de PDF | Limite implémentée | Modifications apportées à la limite du 31 décembre 2022 |
+| Type de limite de PDF | Limite imposée | Modification de la limite le 31 décembre 2022 |
 | --- | --- | --- |
 | Nombre maximum de pages qu’un PDF doit prendre en compte pour l’extraction | 5000 (pour les nouveaux chargements) | 100 |
 
