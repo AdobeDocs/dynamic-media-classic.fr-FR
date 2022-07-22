@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: a0f48ea933380ffb92a196a27d5b63c1dc8948cc
+source-git-commit: ec840640b1131a56c1261f22b7638e53dac1bce8
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '284'
 ht-degree: 2%
 
 ---
@@ -62,18 +62,18 @@ Les visionneuses Dynamic Media Adobe ne prennent pas en charge les combinaisons 
 
 * TLS (Transport Layer Security) 1.0 et 1.1
 * Les chiffrements faibles suivants dans TLS 1.2 :
-   * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
-   * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
-   * TLS_RSA_WITH_AES_256_GCM_SHA384
-   * TLS_RSA_WITH_AES_256_CBC_SHA256
-   * TLS_RSA_WITH_AES_256_CBC_SHA
-   * TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
-   * TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
-   * TLS_RSA_WITH_AES_128_GCM_SHA256
-   * TLS_RSA_WITH_AES_128_CBC_SHA256
-   * TLS_RSA_WITH_AES_128_CBC_SHA
-   * TLS_RSA_WITH_CAMELLIA_256_CBC_SHA
-   * TLS_RSA_WITH_CAMELLIA_128_CBC_SHA
-   * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
-   * TLS_RSA_WITH_SDES_EDE_CBC_SHA
+   * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384`
+   * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA`
+   * `TLS_RSA_WITH_AES_256_GCM_SHA384`
+   * `TLS_RSA_WITH_AES_256_CBC_SHA256`
+   * `TLS_RSA_WITH_AES_256_CBC_SHA`
+   * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256`
+   * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`
+   * `TLS_RSA_WITH_AES_128_GCM_SHA256`
+   * `TLS_RSA_WITH_AES_128_CBC_SHA256`
+   * `TLS_RSA_WITH_AES_128_CBC_SHA`
+   * `TLS_RSA_WITH_CAMELLIA_256_CBC_SHA`
+   * `TLS_RSA_WITH_CAMELLIA_128_CBC_SHA`
+   * `TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA`
+   * `TLS_RSA_WITH_SDES_EDE_CBC_SHA`
 
