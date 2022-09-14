@@ -2,7 +2,7 @@
 title: Configuration des paramètres d’image prédéfinis
 description: Découvrez comment configurer des paramètres d’image prédéfinis dans Adobe Dynamic Media Classic.
 uuid: 90530948-dee9-41bd-b39e-684140446abc
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
@@ -10,10 +10,10 @@ discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 feature: Dynamic Media Classic,Image Presets
 role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '659'
+ht-degree: 50%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Semblable à une macro, un paramètre d’image prédéfini est un ensemble prédéfini de commandes de dimensionnement et de formatage enregistrées sous un nom. Pour comprendre le fonctionnement des paramètres d’image prédéfinis, supposons que votre site web exige que chaque image de produit apparaisse à deux tailles différentes : 500 x 500 pixels et 150 x 150 pixels. Vous créez deux paramètres d’image prédéfinis, l’un nommé « Agrandissement » pour afficher des images de 500 x 500 pixels et l’autre nommé « Miniature » pour afficher des images de 150 x 150 pixels. Pour diffuser des images aux dimensions &quot;Agrandir&quot; et &quot;Miniature&quot;, un serveur d’images Dynamic Media recherche la définition du paramètre prédéfini d’image agrandie et du paramètre prédéfini d’image miniature. Ensuite, le serveur génère en mode dynamique une image dont la taille et le format correspondent à chaque type de paramètre prédéfini.
 
-Adobe Dynamic Media Classic s’accompagne de plusieurs paramètres d’image prédéfinis de &quot;bonne pratique&quot; qui sont déjà configurés pour que vous puissiez les utiliser. Les administrateurs peuvent également créer des paramètres d’image prédéfinis. Vous pouvez créer un paramètre d’image prédéfini entièrement nouveau ou exploiter un paramètre existant et enregistrer votre création sous un nouveau nom.
+Adobe Dynamic Media Classic est fourni avec plusieurs paramètres d’image prédéfinis de &quot;bonne pratique&quot; qui sont déjà configurés pour que vous puissiez les utiliser. Les administrateurs peuvent également créer des paramètres d’image prédéfinis. Vous pouvez créer un paramètre d’image prédéfini entièrement nouveau ou exploiter un paramètre existant et enregistrer votre création sous un nouveau nom.
 
 Les images de taille réduite, lorsqu’elles sont diffusées dynamiquement à partir d’un serveur, peuvent perdre en netteté et en détail. C’est la raison pour laquelle chaque paramètre d’image prédéfini contient des commandes de formatage permettant d’optimiser l’image lorsqu’elle est diffusée avec une taille particulière. Ces commandes garantissent une image nette et claire au moment de la diffusion vers le site Web ou l’application.
 
@@ -37,22 +37,22 @@ Si vous avez le statut d’administrateur, vous pouvez créer vos propres param�
 
 1. Effectuez l’une des opérations suivantes :
 
-   * **Créer un paramètre d’image prédéfini**  : sélectionnez  **[!UICONTROL Ajouter]**.
-   * **Modifier un paramètre d’image prédéfini**  : accédez au paramètre d’image prédéfini qui ressemble le plus à celui que vous souhaitez créer, puis sélectionnez  **[!UICONTROL Modifier]**.
+   * **Création d’un paramètre d’image prédéfini** - Sélectionner **[!UICONTROL Ajouter]**.
+   * **Modification d’un paramètre d’image prédéfini** - Accédez au paramètre d’image prédéfini qui ressemble le plus à celui que vous souhaitez créer, puis sélectionnez **[!UICONTROL Modifier]**.
 
 1. Entrez le nom du paramètre.
 1. Complétez les champs Largeur et Hauteur en pixels. Ces mesures déterminent la taille à laquelle les images sont diffusées.
 1. Renseignez l’écran Ajouter un paramètre prédéfini ou Modifier le paramètre prédéfini. Pour plus de détails, voir [Options des paramètres d’image prédéfinis](application-setup.md#image_preset_options).
 
-   Adobe Dynamic Media Classic recommande les choix d’options &quot;bonnes pratiques&quot; suivants pour commencer :
+   Adobe Dynamic Media Classic recommande les options &quot;bonnes pratiques&quot; suivantes pour commencer :
 
-   * **[!UICONTROL Format]**  : choisissez JPEG ou un autre format qui répond à vos besoins. Tous les navigateurs web prennent en charge le format d’image JPEG ; celui-ci offre un bon équilibre entre taille de fichier réduite et qualité des images. Toutefois, les images au format JPEG utilisent un modèle de compression avec perte qui peut introduire des artefacts d’image indésirables si le paramètre de compression est trop faible. Pour cette raison, Adobe Dynamic Media Classic recommande de définir la qualité de compression (sur le curseur) sur 75. Ce paramètre offre un bon équilibre entre la qualité d’image et la taille de fichier réduite.
+   * **[!UICONTROL Format]** - Sélectionnez JPEG ou un autre format qui répond à vos besoins. Tous les navigateurs web prennent en charge le format d’image JPEG ; celui-ci offre un bon équilibre entre taille de fichier réduite et qualité des images. Toutefois, les images au format JPEG utilisent un modèle de compression avec perte qui peut introduire des artefacts d’image indésirables si le paramètre de compression est trop faible. Pour cette raison, Adobe Dynamic Media Classic recommande de définir la qualité de compression (sur le curseur) sur 75. Ce paramètre offre un bon équilibre entre la qualité d’image et la taille de fichier réduite.
 
-   * **[!UICONTROL Accentuation]**  : ne sélectionnez pas l’accentuation (ce filtre d’accentuation offre moins de contrôle que les paramètres de  **[!UICONTROL masquage]** flou).
+   * **[!UICONTROL Accentuation]** - Ne sélectionnez pas l’accentuation (ce filtre d’accentuation offre moins de contrôle que **[!UICONTROL Accentuation]** ).
 
-   * **[!UICONTROL Mode Rééchantillonnage]**  : choisissez  **[!UICONTROL Bicubique]**.
+   * **[!UICONTROL Mode de rééchantillonnage]** - Choose **[!UICONTROL Bicubique]**.
 
-   * **[!UICONTROL Masquage flou]**  (USM) : renseignez les paramètres suivants :
+   * **[!UICONTROL Accentuation]** (USM) - Saisissez les paramètres suivants :
 
    | Type de paramètre prédéfini | Taille | Quantité | Rayon | Seuil |
    | --- | --- | --- | --- | --- |
@@ -61,15 +61,15 @@ Si vous avez le statut d’administrateur, vous pouvez créer vos propres param�
    | Image principale | 350 x 350 | 1 | 1 | 6 |
    | Agrandissement | 500 x 500 | 1,2 | 1,2 | 5 |
 
-1. Sélectionnez **[!UICONTROL Enregistrer]**.
+1. Sélectionner **[!UICONTROL Enregistrer]**.
 
-Les &quot;bonnes pratiques&quot; d’Adobe Dynamic Media Classic pour la création de paramètres d’image prédéfinis répertoriés ici sont des recommandations générales ; l’accentuation est hautement subjective. Ces paramètres sont basés sur une image originale de 2 000 x 2 000 ; il se peut que les paramètres relatifs à des images originales plus grandes ou plus petites soient différents. Si vous souhaitez ajuster les paramètres Masquage flou, Adobe Dynamic Media Classic recommande les plages suivantes :
+Les options &quot;bonnes pratiques&quot; d’Adobe Dynamic Media Classic pour la création de paramètres d’image prédéfinis répertoriés ici sont des recommandations générales ; l’accentuation est hautement subjective. Ces paramètres de &quot;bonne pratique&quot; étaient basés sur une image Principale de 2 000 x 2 000 ; les paramètres des fichiers Principaux plus volumineux ou plus petits peuvent être différents. Si vous souhaitez ajuster les paramètres Masquage flou, Adobe Dynamic Media Classic recommande les plages suivantes :
 
-* **[!UICONTROL Quantité]**  : entre 0,8 et 1,5.
+* **[!UICONTROL Quantité]** - Entre 0,8 et 1,5.
 
-* **[!UICONTROL Rayon]**  - Entre 0,6 et 2.
+* **[!UICONTROL Rayon]** - Entre 0,6 et 2.
 
-* **[!UICONTROL Seuil]**  : de 1 à 6.
+* **[!UICONTROL Seuil]** - De 1 à 6.
 
 Pour supprimer un paramètre d’image prédéfini, sélectionnez-le dans l’écran Paramètres d’image prédéfinis, puis sélectionnez **[!UICONTROL Supprimer]**.
 

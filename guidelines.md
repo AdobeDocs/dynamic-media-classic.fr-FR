@@ -1,15 +1,15 @@
 ---
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 5%
+source-wordcount: '687'
+ht-degree: 0%
 
 ---
-# Instructions relatives à la contribution à la documentation d’Adobe Dynamic Media Classic
+# Instructions relatives à la contribution à la documentation Adobe Dynamic Media Classic
 
-## Philosophie de la documentation d’Adobe Dynamic Media Classic
+## Philosophie de la documentation Adobe Dynamic Media Classic
 
-Nous savons que les utilisateurs d’Adobe Dynamic Media Classic travaillent dans des environnements très concurrentiels, afin de créer des expériences numériques qui les distingueront de leurs concurrents. Par conséquent, il est essentiel que, lorsque Adobe fournit de nouveaux outils avancés, ces outils soient complétés par une documentation précise et claire pour permettre au client d’exploiter immédiatement son investissement Dynamic Media Classic Adobe et maximiser le ROI.
+Nous savons que les utilisateurs d’Adobe Dynamic Media Classic travaillent dans des environnements très concurrentiels, afin de créer des expériences numériques qui les distinguent de leurs concurrents. Par conséquent, il est essentiel que, lorsque Adobe fournit de nouveaux outils avancés, ces outils soient complétés par une documentation précise et claire. Cela permet au client d’utiliser immédiatement son investissement Adobe Dynamic Media Classic et d’optimiser le retour sur investissement.
 
 L’objectif de cette documentation est de mettre la documentation à jour entre les mains des utilisateurs dès que possible. Par conséquent, nous donnons la priorité à une documentation précise et utilisable et nous nous efforçons de la mettre à jour et de l’améliorer continuellement.
 
@@ -29,23 +29,23 @@ La documentation couvre les cas d’utilisation standard. Les cas d’utilisatio
 
 ### En règle générale, nous ne documentons pas les bogues ni leurs solutions.
 
-La documentation couvre les cas d’utilisation standard. Pour cette raison, les bogues, leurs effets et leurs solutions ne sont généralement pas documentés.
+La documentation couvre les cas d’utilisation standard. Pour cette raison, les bogues, les effets causés par les bogues et les solutions aux bogues ne sont pas documentés.
 
 Les exceptions à cette règle s’appliquent aux notes de mise à jour qui répertorient les problèmes connus ainsi que les solutions possibles qui ont été approuvées par la gestion des produits.
 
 ### Les contributions à la documentation ne sont pas destinées à répondre à des questions techniques.
 
-Toutes les idées susceptibles d’améliorer la documentation sont les bienvenues sous forme de contributions. Toutefois, les commentaires, les problèmes et les demandes d’extraction sont destinés uniquement aux *contributions*. Elles ne sont pas destinées à être utilisées pour répondre à vos questions sur l’utilisation d’Adobe Dynamic Media Classic, mettre en oeuvre votre projet ou résoudre des problèmes techniques.
+Toutes les idées susceptibles d’améliorer la documentation sont les bienvenues sous forme de contributions. Toutefois, les commentaires, les problèmes et les demandes d’extraction sont destinés à *contributions* uniquement. Elles ne sont pas destinées à répondre à vos questions sur l’utilisation d’Adobe Dynamic Media Classic, la mise en oeuvre de votre projet ou la résolution de problèmes techniques.
 
-Toute question relative à l’utilisation d’Adobe Dynamic Media Classic ou à la résolution d’erreurs techniques doit être soumise au [Portail d’assistance aux entreprises Experience Cloud](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html) ou posée à la [communauté des Experience Cloud](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
+Toute question relative à l’utilisation d’Adobe Dynamic Media Classic ou à la résolution d’erreurs techniques doit être soumise au moyen de la variable [Portail d’assistance aux entreprises Experience Cloud](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) ou discutés dans la section [Communauté des Experience Cloud](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
-***Les contributions à la documentation ne remplacent pas*** Carrières client Adobe et toute contribution de ce type visant à obtenir des réponses à des questions d’assistance sera refusée.
+***Les contributions à la documentation ne remplacent pas l’assistance clientèle Adobe.*** et toute contribution de ce type visant à obtenir des réponses aux questions d’assistance est refusée.
 
 ### Les contributions doivent clairement référencer les pages de documentation concernées.
 
-Si vous créez un problème pour suggérer des améliorations à la documentation, vous devez inclure des liens vers les pages concernées. Si vous créez un problème en cliquant sur le lien **Modifier cette page** sur une page de documentation, celui-ci est automatiquement créé avec un lien vers la page.
+Si vous créez un problème pour suggérer des améliorations à la documentation, vous devez inclure des liens vers les pages concernées. Si vous créez un problème en utilisant la variable **Modifier cette page** sur une page de documentation, le problème est automatiquement créé avec un lien vers la page.
 
-Cela ne s’applique pas aux requêtes d’extraction, car les requêtes d’extraction par nature référencent la ou les pages concernées.
+Cela ne s’applique pas aux requêtes d’extraction, car elles font référence aux pages concernées.
 
 ## Instructions relatives à la documentation
 
@@ -61,11 +61,11 @@ Suivez ces instructions pour simplifier la révision de votre contribution et, p
 * Faites en sorte que les phrases soient aussi simples que possible.
 * Gardez le langage clair et concis.
 
-N’oubliez pas que les lecteurs de la documentation sont internationaux et ne peuvent pas être des locuteurs anglais natifs ou bilingues. Évitez les expressions familières et gardez la langue aussi claire et simple que possible.
+N’oubliez pas que les lecteurs de la documentation sont internationaux. On ne peut pas s&#39;attendre à ce qu&#39;ils parlent anglais couramment ou natif. Évitez les expressions familières et gardez la langue aussi claire et simple que possible.
 
-#### Suivez le guide de style Microsoft
+#### Suivez le guide de style Microsoft®
 
-[Le guide de style Microsoft ](https://docs.microsoft.com/en-us/style-guide/welcome/) est gratuit et concerne la documentation logicielle. Il s’applique à la documentation Dynamic Media Classic d’Adobe, dans la mesure du possible.
+[Le guide de style de Microsoft®](https://docs.microsoft.com/en-us/style-guide/welcome/) est un guide de style de documentation gratuit qui se concentre sur la documentation logicielle et la documentation Adobe Dynamic Media Classic suit ce guide dans la mesure du possible.
 
 ### Formatage
 

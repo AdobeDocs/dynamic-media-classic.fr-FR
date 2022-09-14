@@ -2,7 +2,7 @@
 title: Liaison d’une visionneuse de supports variés à une page Web
 description: Découvrez comment lier une visionneuse de médias mixtes à une page web dans Adobe Dynamic Media Classic.
 uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
@@ -10,7 +10,7 @@ discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 50%
@@ -27,18 +27,18 @@ Après avoir publié une visionneuse de supports variés, vous pouvez obtenir so
 1. Dans le panneau Bibliothèque de fichiers sur la gauche, accédez au dossier Fichiers qui contient la visionneuse de supports dont vous voulez copier le code incorporé.
 1. Au-dessus du panneau de navigation des fichiers, sur la partie droite de la barre d’outils, exécutez l’une des opérations suivantes :
 
-   * Cliquez sur **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des fichiers, cliquez deux fois sur un fichier pour l’ouvrir dans le mode Affichage des détails. Dans le panneau URL et code intégré à droite, sélectionnez **[!UICONTROL Copier l’URL]** à droite de la visionneuse de votre choix.
+   * Cliquez sur **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des fichiers, cliquez deux fois sur un fichier pour l’ouvrir dans le mode Affichage des détails. Dans le panneau URL et code intégré à droite, sélectionnez **[!UICONTROL Copier l’URL]** à droite de la visionneuse que vous souhaitez.
    * Cliquez sur **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des ressources, sélectionnez une seule ressource, puis sous l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
-      Dans la page Liste des visionneuses, dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
+      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
 
    * Cliquez sur **[!UICONTROL Affichage par liste]**. Dans le panneau de navigation des ressources, sélectionnez une seule ressource, puis, à droite de l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
-      Dans la page Liste des visionneuses, dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
+      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
 
    * Cliquez sur **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Affichage par liste]** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
-      Dans la page Liste des visionneuses, dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
+      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
 
 ## Ajout d’URL de visionneuse de supports variés à une page Web {#add-mixed-media-set-urls-to-your-web-page}
 
@@ -54,18 +54,18 @@ L’utilisation de la fonction Code incorporé permet de vérifier le code de la
 1. Dans le panneau Bibliothèque de fichiers sur la gauche, accédez au dossier Fichiers qui contient la visionneuse de supports mixtes dont vous voulez copier le code incorporé.
 1. Au-dessus du panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
 
-   * Cliquez sur **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des fichiers, cliquez deux fois sur un fichier pour l’ouvrir dans le mode Affichage des détails. Dans le panneau URL et code intégré à droite, sélectionnez **[!UICONTROL Code incorporé]** à droite de la visionneuse de votre choix.
+   * Cliquez sur **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des fichiers, cliquez deux fois sur un fichier pour l’ouvrir dans le mode Affichage des détails. Dans le panneau URL et code intégré à droite, sélectionnez **[!UICONTROL Code incorporé]** à droite de la visionneuse que vous souhaitez.
    * Cliquez sur **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des ressources, sélectionnez une seule ressource, puis sous l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
-      Dans la page Liste des visionneuses, dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
+      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 
    * Cliquez sur **[!UICONTROL Affichage par liste]**. Dans le panneau de navigation des ressources, sélectionnez une seule ressource, puis, à droite de l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
-      Dans la page Liste des visionneuses, dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
+      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 
    * Cliquez sur **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Affichage par liste]** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
-      Dans la page Liste des visionneuses, dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
+      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 
 1. Dans la boîte de dialogue Code incorporé, sélectionnez **[!UICONTROL Copier dans le Presse-papiers]**.
 

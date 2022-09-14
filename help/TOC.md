@@ -6,7 +6,7 @@ user-guide-title: Guide d’Adobe Dynamic Media Classic
 breadcrumb-title: Guide de Dynamic Media Classic
 user-guide-description: En savoir plus sur l’utilisation dʼAdobe Dynamic Media Classic
 index: y
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 31%
@@ -79,8 +79,8 @@ ht-degree: 31%
    + [Organisation de votre travail avec des projets](organizing-projects.md)
 + Dimensionnement des images {#image-sizing}
    + [Démarrage rapide : Dimensionnement des images](quick-start-image-sizing.md)
-   + [Chargement des images originales](uploading-master-images.md)
-   + [Publication des images originales](publishing-master-images.md)
+   + [Chargement d’images Principales](uploading-master-images.md)
+   + [Publier des images Principales](publishing-master-images.md)
    + [Configuration des paramètres d’image prédéfinis](setting-image-presets.md)
    + [Liaison d’URL à une application web](linking-urls-web-application.md)
 + Zoom {#zoom}
@@ -166,7 +166,7 @@ ht-degree: 31%
    + [Supprimer un fichier téléchargé](deleting-uploaded-asset.md)
    + [Obtenir des informations sur l’utilisation du disque](getting-disk-usage-information.md)
    + [Chargement d’une ressource d’image pixellisée](uploading-image-asset-or-vector.md)
-+ Fichiers originaux {#master-files}
++ Principaux fichiers {#master-files}
    + [Recommandations pour optimiser la qualité des images](best-practices-optimizing-quality-images.md)
    + [Modification des images](editing-images.md)
    + [Création de zones cliquables](creating-image-maps.md)

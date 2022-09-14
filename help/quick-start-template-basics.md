@@ -1,8 +1,8 @@
 ---
-title: '"Démarrage rapide : Concepts de base des modèles"'
+title: "Démarrage rapide\_: Concepts de base des modèles"
 description: Présentation et démarrage rapide des concepts de base des modèles pour vous aider à démarrer rapidement dans Adobe Dynamic Media Classic.
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
@@ -10,7 +10,7 @@ discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 28%
@@ -25,7 +25,7 @@ Un modèle peut contenir n’importe quel nombre de calques d’image et de text
 
 La page Paramètres vous permet de convertir n’importe quel aspect d’un modèle en paramètre adressable. Ainsi, vous pouvez sélectionner l’image superposée ou la valeur du texte à utiliser dans votre modèle. Les paramètres sont transmis avec la chaîne URL, ce qui vous permet de modifier n’importe quel paramètre afin de personnaliser dynamiquement l’image de réponse générée à partir du serveur d’images.
 
-Voir également la [vidéo de formation sur les concepts de base](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
+Voir aussi [Concepts de base des modèles](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vidéo de formation.
 
 Ce didacticiel de mise en route est conçu pour vous aider à maîtriser rapidement les opérations liées aux concepts de base des modèles.
 
@@ -33,29 +33,29 @@ Ce didacticiel de mise en route est conçu pour vous aider à maîtriser rapidem
 
 Commencez par télécharger le fichier PSD ou le fichier d’image de votre modèle. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichier image en plus du PSD, mais les images TIFF sans perte et PNG sont recommandées pour les modèles, car elles permettent une transparence.
 
-Si vous utilisez un fichier de PSD pour créer votre modèle, sélectionnez **[!UICONTROL Créer un modèle]** dans la boîte de dialogue **[!UICONTROL Télécharger les options de tâche]** lorsque vous chargez le fichier de PSD. Choisissez également une option **[!UICONTROL Affectation de nom de calque]** pour qu’Adobe Dynamic Media Classic sache comment nommer les calques de PSD lorsqu’ils sont chargés dans Adobe Dynamic Media Classic.
+Si vous utilisez un fichier de PSD pour créer votre modèle, sélectionnez **[!UICONTROL Créer un modèle]** sur le **[!UICONTROL Télécharger les options de la tâche]** lorsque vous chargez le fichier de PSD. Sélectionnez également une **[!UICONTROL Nom de calque]** pour qu’Adobe Dynamic Media Classic sache comment nommer les calques de PSD lorsqu’ils sont chargés dans Adobe Dynamic Media Classic.
 
 Si vous utilisez des fichiers d’images, vous pouvez recadrer les images et créer également un masque à partir des chemins de tracé dans les images au cours du téléchargement.
 
-Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger un fichier de PSD ou d’autres fichiers image de votre ordinateur vers un dossier sur Adobe Dynamic Media Classic. Voir [Chargement de fichiers de modèle](uploading-template-files.md#uploading_template_files).
+Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger un fichier de PSD ou d’autres fichiers image de votre ordinateur vers un dossier sur Adobe Dynamic Media Classic. Voir [Chargement des fichiers de modèle](uploading-template-files.md#uploading_template_files).
 
 ## 2. Créer un modèle
 
-Pour créer un modèle à partir d’un fichier de PSD, sélectionnez **[!UICONTROL Créer un modèle]** lorsque vous chargez le fichier. Pour créer un modèle à partir d’images, dans la barre de navigation globale, accédez à **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**, saisissez une mesure de largeur et de hauteur pour la zone de travail. Près du coin supérieur droit de la page, sélectionnez **[!UICONTROL Designer]** ou **[!UICONTROL Développeur]**, puis faites glisser les images sur la page Modèle. Vous pouvez également sélectionner les images *avant* d’accéder à **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. La page Modèle contient des outils pour :
+Pour créer un modèle à partir d’un fichier de PSD, sélectionnez **[!UICONTROL Créer un modèle]** lorsque vous chargez le fichier. Pour créer un modèle à partir d’images, dans la barre de navigation globale, accédez à **[!UICONTROL Build]** > **[!UICONTROL Concepts de base des modèles]**, saisissez une mesure de largeur et de hauteur pour la zone de travail. Dans le coin supérieur droit de la page, sélectionnez l’une des options suivantes : **[!UICONTROL Designer]** ou **[!UICONTROL Développeur]**, puis faites glisser les images sur la page Modèle . Vous pouvez également sélectionner les images. *before* vous accédez à **[!UICONTROL Build]** > **[!UICONTROL Concepts de base des modèles]**. La page Modèle contient des outils pour :
 
 * Ajout de calques d’images Pour ajouter un calque, faites glisser une image sur la page Modèle.
-* Ajout de calques de texte Sélectionnez l’icône **[!UICONTROL Outil Texte]** . Faites glisser le pointeur pour créer une zone pour le calque de texte ; mettez ensuite le texte en forme à l’aide des outils de la page Texte .
+* Ajout de calques de texte Sélectionnez la **[!UICONTROL Outil Texte]** icône . Faites glisser le pointeur pour créer une zone pour le calque de texte ; mettez ensuite le texte en forme à l’aide des outils de la page Texte .
 * Modification de la taille et de la position des calques
 * Modification de l’ordre des calques
 * Application d’effets d’ombre et d’éclat aux calques d’image et de texte 
 
-Voir [Création d’un modèle](creating-template.md#creating_a_template).
+Voir [Créer un modèle](creating-template.md#creating_a_template).
 
 ## 3. Création de paramètres de modèle
 
 L’étape suivante consiste à paramétrer les propriétés sur les calques pour déterminer les propriétés de calque à inclure dans la chaîne URL. Les paramètres permettent de manipuler les modèles avec une souplesse optimale. Après avoir transformé une propriété de calque en paramètre, vous pouvez le modifier dynamiquement.
 
-Pour paramétrer un calque, ouvrez le modèle dans la page Modèle, puis sélectionnez **[!UICONTROL Paramètres]** en regard d’un nom de calque. Sur la page Paramètres , sélectionnez l’option en regard de chaque paramètre à ajouter. Voir [Création de paramètres de modèle](creating-template-parameters.md#creating_template_parameters).
+Pour paramétrer un calque, ouvrez le modèle dans la page Modèle, puis sélectionnez **[!UICONTROL Paramètres]** en regard d’un nom de calque. Sur la page Paramètres , sélectionnez l’option en regard de chaque paramètre à ajouter. Voir [Créer des paramètres de modèle](creating-template-parameters.md#creating_template_parameters).
 
 ## 4. Publier des modèles
 
@@ -63,10 +63,10 @@ Lorsque vous publiez votre modèle, il est placé sur les serveurs d’images Dy
 
 Assurez-vous de publier toutes les images associées à votre modèle.
 
-Pour publier un modèle, marquez-le pour publication puis, sur la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**. Sélectionnez ensuite **[!UICONTROL Envoyer la publication]**. Voir [Publier des modèles](publishing-templates.md#publishing_templates).
+Pour publier un modèle, marquez-le pour publication puis, sur la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**. Sélectionnez **[!UICONTROL Envoyer la publication]**. Voir [Publication de modèles](publishing-templates.md#publishing_templates).
 
 ## 5. Associer un modèle à une page web
 
 Dynamic Media Classic crée des URL pour les modèles et les active lorsque vous publiez des modèles sur les serveurs d’images Dynamic Media. Vous pouvez copier ces chaînes URL à partir de la page Aperçu du modèle .
 
-Sélectionnez votre modèle dans le panneau de navigation, puis sélectionnez **[!UICONTROL Aperçu]** pour ouvrir la page Aperçu du modèle. Choisissez un paramètre d’image prédéfini pour la diffusion de votre modèle, puis sélectionnez **[!UICONTROL Copier l’URL]**. Après avoir copié l’URL à partir de la page Aperçu, vous pouvez l’utiliser sur votre site web ou dans votre application. Voir [Liaison d’un modèle à une page Web](linking-template-web-page.md#linking_a_template_to_a_web_page).
+Sélectionnez votre modèle dans le panneau de navigation, puis sélectionnez **[!UICONTROL Aperçu]** pour ouvrir la page Aperçu du modèle . Sélectionnez un paramètre d’image prédéfini pour la diffusion de votre modèle, puis cliquez sur **[!UICONTROL Copier l’URL]**. Après avoir copié l’URL à partir de la page Aperçu, vous pouvez l’utiliser sur votre site web ou dans votre application. Voir [Liaison d’un modèle à une page Web](linking-template-web-page.md#linking_a_template_to_a_web_page).

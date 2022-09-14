@@ -2,7 +2,7 @@
 title: Polices
 description: Découvrez comment utiliser les polices dans Adobe Dynamic Media Classic.
 uuid: bddec9c2-8530-4bbd-8db7-1562a347e482
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
@@ -10,7 +10,7 @@ discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 feature: Dynamic Media Classic
 role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 28%
@@ -19,7 +19,7 @@ ht-degree: 28%
 
 # Polices{#fonts}
 
-Parfois, Adobe Dynamic Media Classic nécessite de charger un fichier de police pour saisir ou effectuer le rendu du texte dans une police donnée. Par exemple, pour composer le texte d’un modèle de calque dans une police donnée, téléchargez le fichier de polices. Pour afficher la numérotation des pages de la visionneuse de catalogue électronique dans une police spécifique, téléchargez le fichier de polices.
+Il arrive qu’Adobe Dynamic Media Classic vous demande de charger un fichier de police pour saisir ou effectuer le rendu du texte dans une police donnée. Par exemple, pour composer le texte d’un modèle de calque dans une police donnée, téléchargez le fichier de polices. Pour afficher la numérotation des pages de la visionneuse de catalogue électronique dans une police spécifique, téléchargez le fichier de polices.
 
 Adobe Dynamic Media Classic prend en charge les types de police suivants :
 
@@ -29,7 +29,7 @@ Adobe Dynamic Media Classic prend en charge les types de police suivants :
 * Polices OpenType/PostScript
 * PhotoFonts
 
-Une fois le fichier de police chargé, vous pouvez modifier son identifiant Dynamic Media Classic Adobe, son nom et les informations de type dans l’écran Modifier les informations.
+Une fois le fichier de police chargé, vous pouvez modifier son Adobe Dynamic Media Classic ID, le nom de la police et les informations de type dans l’écran Modifier les informations.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Une fois le fichier de police chargé, vous pouvez modifier son identifiant Dyna
 
 ## Chargement des fichiers de polices {#uploading-font-files}
 
-Téléchargez les fichiers de polices en procédant de la même façon que pour le téléchargement d’autres fichiers. Vous pouvez stocker les fichiers de polices dans n’importe quel dossier Dynamic Media Classic Adobe. (voir [Téléchargement de fichiers](uploading-files.md#uploading_your_files)).
+Téléchargez les fichiers de polices en procédant de la même façon que pour le téléchargement d’autres fichiers. Vous pouvez stocker les fichiers de polices dans n’importe quel dossier Adobe Dynamic Media Classic. (voir [Téléchargement de fichiers](uploading-files.md#uploading_your_files)).
 
 ## Modifier les informations du fichier de polices {#editing-font-file-information}
 
@@ -45,24 +45,24 @@ Vous pouvez modifier le nom d’identifiant d’une police et ses informations d
 
 Dans le panneau de navigation, sélectionnez le fichier de police à modifier dans la vue Détails, puis choisissez Fichier > Modifier les informations. L’écran Editer les informations apparaît. Choisissez les options suivantes, puis sélectionnez **[!UICONTROL Envoyer]**.
 
-* **[!UICONTROL Nom de la police]**  : ce nom identifie la police lors de sa publication.
+* **[!UICONTROL Nom de la police]** - Ce nom identifie la police lors de sa publication.
 
-* **[!UICONTROL Nom PostScript]**  : il s’agit du nom PostScript complet de la police. Il indique généralement la graisse ou le style.
+* **[!UICONTROL Nom PostScript]** - Il s’agit du nom PostScript complet de la police. Il indique généralement la graisse ou le style.
 
-* **[!UICONTROL Nom RTF]**  : ce nom apparaît dans un menu contextuel de l’éditeur RTF où sont créées les calques de texte de modèle.
+* **[!UICONTROL Nom RTF]** - Ce nom apparaît dans un menu contextuel de l’éditeur RTF où sont créées les calques de texte de modèle.
 
-* **[!UICONTROL Nom de famille de polices]**  : ce nom répertorie le nom de la police sans indicateur de style, de poids ou de type de police.
+* **[!UICONTROL Nom de famille de polices]** - Ce nom répertorie le nom de la police sans indicateur de style, de poids ou de type de police.
 
-* **[!UICONTROL Style de police]**  : les options sont les suivantes : clair, gras, italique et gras-italique.
+* **[!UICONTROL Style de police]** - Les options disponibles sont les suivantes : brut, gras, italique et gras-italique.
 
-* **[!UICONTROL Type de police]**  : les options sont TrueType et Adobe Type 1. Si vous renommez ces polices, vous pouvez l’indiquer.
+* **[!UICONTROL Type de police]** - Les options sont TrueType et Adobe Type 1. Si vous renommez ces polices, vous pouvez l’indiquer.
 
-* **[!UICONTROL Abréviation]**  du type de police : les options sont les suivantes :
+* **[!UICONTROL Abréviation du type de police]** - Les options sont les suivantes :
 
-   * **[!UICONTROL TTF]**  : fichiers de police TrueType utilisés pour le rendu PDF/PostScript et la diffusion d’images.
+   * **[!UICONTROL TTF]** - Fichiers de police TrueType utilisés pour le rendu PDF/PostScript et la diffusion d’images.
 
-   * **[!UICONTROL AFM]**  : fichiers de police Adobe PostScript contenant des informations sur les mesures de police de l’Adobe et utilisés pour la diffusion d’images.
+   * **[!UICONTROL AFM]** - Fichiers de police Adobe PostScript contenant des informations sur les mesures de police de l’Adobe et utilisés pour la diffusion d’images.
 
-   * **[!UICONTROL PFM]**  : fichiers de polices Adobe PostScript contenant des informations de mesure de polices binaires.
+   * **[!UICONTROL PFM]** - Fichiers de polices Adobe PostScript contenant des informations de mesure de polices binaires.
 
-   * **[!UICONTROL PFB]**  : fichiers de polices Adobe PostScript contenant des informations de contour de police binaires et utilisés pour le rendu PDF/PostScript et la diffusion d’images.
+   * **[!UICONTROL PFB]** - Fichiers de polices Adobe PostScript contenant des informations de contour de police binaires et utilisés pour le rendu PDF/PostScript et la diffusion d’images.

@@ -2,7 +2,7 @@
 title: Création d’un catalogue électronique
 description: Découvrez comment créer un catalogue électronique dans Adobe Dynamic Media Classic.
 uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
@@ -10,7 +10,7 @@ discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 57%
@@ -38,34 +38,34 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Utilisez l’une des méthodes suivantes pour commencer à créer votre catalogue électronique :
 
-   * **Sélectionnez d’abord les fichiers**  : dans le panneau de navigation, sélectionnez les fichiers, puis accédez à  **[!UICONTROL Créer]**  >  **[!UICONTROL Catalogues électroniques]**.
+   * **Sélectionner les fichiers en premier** - Dans le panneau de navigation, sélectionnez les fichiers, puis accédez à **[!UICONTROL Build]** > **[!UICONTROL Catalogues électroniques]**.
 
-   * **Démarrez à partir de l’écran**  Catalogue électronique : accédez à  **[!UICONTROL Créer]**  >  **[!UICONTROL Catalogues électroniques]**. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser son contenu vers l’onglet Ordre des pages de la page Catalogue électronique.
+   * **Démarrage à partir de l’écran Catalogue électronique** - Accédez à **[!UICONTROL Build]** > **[!UICONTROL Catalogues électroniques]**. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser son contenu vers l’onglet Ordre des pages de la page Catalogue électronique.
 
       >[!NOTE]
       >
       >pour visualiser les éléments de la bibliothèque de fichiers par nom plutôt que par miniature, sélectionnez l’option Nom pour l’affichage par défaut de la bibliothèque de fichiers dans l’écran Configuration personnelle.
 
-1. Sélectionnez la disposition globale de votre catalogue électronique. Sélectionnez **[!UICONTROL 1 haut]** pour les pages simples, **[!UICONTROL 2 haut]** pour les planches à deux pages ou **[!UICONTROL Personnalisé]** pour les planches de pages de plus de deux pages. Dans la boîte de dialogue **[!UICONTROL Modifier la mise en page du catalogue électronique]**, sélectionnez les options **[!UICONTROL Toutes les diffusions]** et sélectionnez **[!UICONTROL OK]**.
-1. Vous pouvez éventuellement modifier la mise en page de pages individuelles ou de planches en les sélectionnant, puis en sélectionnant le bouton **[!UICONTROL 1 Haut]**, **[!UICONTROL 2 Haut]** ou **[!UICONTROL Personnalisé]**. Dans la boîte de dialogue **[!UICONTROL Modifier la mise en page du catalogue électronique]**, sélectionnez les options **[!UICONTROL Diffusions sélectionnées]** et sélectionnez **[!UICONTROL OK]**.
+1. Sélectionnez la disposition globale de votre catalogue électronique. Sélectionner **[!UICONTROL 1]** pour les pages simples, **[!UICONTROL 2 en haut]** pour les planches à deux pages, ou **[!UICONTROL Personnalisé]** pour les planches de plus de deux pages. Dans le **[!UICONTROL Modification de la disposition du catalogue électronique]** , sélectionnez **[!UICONTROL Toutes les diffusions]** options et sélectionnez **[!UICONTROL OK]**.
+1. Si vous le souhaitez, vous pouvez modifier la mise en page de pages individuelles ou de planches en les sélectionnant, puis en choisissant **[!UICONTROL 1]**, **[!UICONTROL 2 en haut]** ou **[!UICONTROL Personnalisé]** bouton . Dans le **[!UICONTROL Modification de la disposition du catalogue électronique]** , sélectionnez **[!UICONTROL Diffusions sélectionnées]** options et sélectionnez **[!UICONTROL OK]**.
 1. Réorganisez les pages selon vos besoins en utilisant l’une des méthodes suivantes :
 
-   * **Glissement**  : faites glisser une page ou une page vers un nouvel emplacement. La barre verticale indique le nouvel emplacement de la page.
+   * **Glissement** - Faites glisser une page ou une propagation de page vers un nouvel emplacement. La barre verticale indique le nouvel emplacement de la page.
 
-   * **Bouton Déplacer vers**  : sélectionnez une page ou une étendue de page, sélectionnez  **[!UICONTROL Déplacer vers]**, puis choisissez la page du menu devant laquelle vous souhaitez que votre page apparaisse.
+   * **Bouton Déplacer vers** - Sélectionnez une page ou une étendue de page, puis **[!UICONTROL Déplacer vers]**, puis sélectionnez la page du menu qui doit apparaître au-dessus de votre page.
 
-   * **Séquence #**  : en mode Liste, saisissez les numéros de page dans les champs Séquence # .
+   * **Numéro de séquence** - En mode Liste, saisissez les numéros de page dans les champs Séquence # .
 
 1. Une fois terminé, près de l’angle inférieur droit de la page, vérifiez que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
-1. Sélectionnez **[!UICONTROL Enregistrer]**.
+1. Sélectionner **[!UICONTROL Enregistrer]**.
 1. Dans la boîte de dialogue Enregistrer, sélectionnez le dossier dans lequel conserver le catalogue électronique. Dans le champ Nom de fichier, saisissez le nom de la visionneuse à 360°.
-1. Sélectionnez **[!UICONTROL Enregistrer]**.
+1. Sélectionner **[!UICONTROL Enregistrer]**.
 
    Après l’avoir enregistré, vous pouvez prévisualiser votre catalogue électronique en sélectionnant **[!UICONTROL Aperçu]**.
 
 ## Modification d’un catalogue électronique {#editing-an-ecatalog}
 
-Que vous modifiiez un jeu publié ou non publié, l’option **[!UICONTROL Publier après l’enregistrement]** affecte le jeu et les membres de la façon suivante :
+Si vous modifiez un jeu publié ou non publié, la variable **[!UICONTROL Publier après l’enregistrement]** L’option affecte les membres de l’ensemble et de l’ensemble comme suit :
 
 | Visionneuse déjà publiée ? | L’option « Publish after save » (« Publier après l’enregistrement ») est-elle sélectionnée avant l’enregistrement de votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- | --- |
@@ -78,10 +78,10 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 **Pour modifier un catalogue électronique:**
 
-1. Sélectionnez le bouton de survol **[!UICONTROL Modifier]** du catalogue électronique.
+1. Sélectionnez le survol du catalogue électronique. **[!UICONTROL Modifier]** bouton .
 1. Apportez les modifications de votre choix.
 1. Une fois les modifications terminées, près de l’angle inférieur droit de la page, vérifiez que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
-1. Sélectionnez **[!UICONTROL Enregistrer]**, sélectionnez un dossier de stockage, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
+1. Sélectionner **[!UICONTROL Enregistrer]**, sélectionnez un dossier de stockage, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
 ## Suppression d’un catalogue électronique {#deleting-an-ecatalog}
 
@@ -102,7 +102,7 @@ Vous pouvez créer une table des matières personnalisée pour votre catalogue �
 
 >[!NOTE]
 >
->Pour restaurer les titres des pages par défaut, dans l’onglet **[!UICONTROL Classer les pages]**, sélectionnez **[!UICONTROL Étiquettes de table des matières]**, puis sélectionnez **[!UICONTROL Restaurer les valeurs par défaut (toutes)]**.
+>Pour restaurer les titres de page par défaut, sur la page **[!UICONTROL Pages de commande]** onglet, sélectionnez **[!UICONTROL Étiquettes de table des matières]**, puis sélectionnez **[!UICONTROL Restaurer les valeurs par défaut (toutes)]**.
 
 ### Saisie manuelle des noms de pages {#manually-entering-page-names}
 
@@ -112,11 +112,11 @@ Pour entrer manuellement les noms de page un par un, activez l’onglet Ordre de
 
 Il est recommandé d’utiliser la méthode d’importation des noms de page si le catalogue électronique contient de nombreuses pages. Vous pouvez importer les noms à partir d’un fichier délimité par des tabulations ou d’un fichier XML.
 
-Le libellé de la table des matières est stocké dans le champ Données utilisateur d’une image. formater ces données sous la forme d’une liste de `name=<value>` ` pairs separated by two question marks “??” `. Par exemple, pour définir une étiquette d’un champ de table des matières appelé `tocEN`, définissez le champ Données utilisateur de l’image sur :
+Le libellé de la table des matières est stocké dans le champ Données utilisateur d’une image. formater ces données en tant que liste `name=<value>` ` pairs separated by two question marks “??” `. Par exemple, pour définir une étiquette d’un champ de table des matières appelé `tocEN`, définissez le champ Données utilisateur de l’image sur :
 
 `tocEN=&lt;EN_page_label>`
 
-Pour définir des libellés distincts pour les champs de table des matières nommés `tocEN` et `tocFR` :
+Pour définir des libellés distincts pour les champs de table des matières nommés `tocEN` et `tocFR`:
 
 `tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label>`
 
@@ -134,4 +134,4 @@ Pour importer le champ Données utilisateur dans un fichier XML, ajoutez l’at
 </ips>
 ```
 
-Pour importer les noms de page à partir d’un fichier XML ou délimité par des tabulations, cliquez sur le bouton **[!UICONTROL Étiquettes de table des matières]** et sélectionnez **[!UICONTROL Importer]**. Dans la boîte de dialogue Télécharger les métadonnées, sélectionnez **[!UICONTROL Parcourir]**, puis importez le fichier CSV (Mac uniquement) ou XML qui associe chaque page à un nom de page.
+Pour importer les noms de page à partir d’un fichier XML ou délimité par des tabulations, sélectionnez la variable **[!UICONTROL Étiquettes de table des matières]** et sélectionnez **[!UICONTROL Importer]**. Dans la boîte de dialogue Télécharger les métadonnées, sélectionnez **[!UICONTROL Parcourir]**, puis importez le fichier CSV (Mac uniquement) ou XML qui associe chaque page à un nom de page.

@@ -2,7 +2,7 @@
 title: Travail en mode Détails
 description: Découvrez comment travailler en mode Détails dans Adobe Dynamic Media Classic.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
@@ -10,16 +10,16 @@ discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 25%
+source-wordcount: '617'
+ht-degree: 21%
 
 ---
 
 # Travail en mode Détails{#working-in-detail-view}
 
-Vous pouvez utiliser et en savoir plus sur une ressource en l’ouvrant dans l’affichage des détails. En mode d’affichage des détails, la taille, les attributs, les dérivés et les métadonnées des ressources s’affichent. Vous obtenez également des indications sur la publication ou non du fichier, la date de sa publication et l’URL du fichier publié. En fonction du type de fichier, vous pouvez le prévisualiser selon différentes tailles, effectuer un zoom avant et exécuter une accentuation, un recadrage ou d’autres opérations de mise en forme.
+Vous pouvez utiliser et en savoir plus sur une ressource en l’ouvrant dans l’affichage des détails. En mode d’affichage des détails, la taille, les attributs, les dérivés et les métadonnées des ressources s’affichent. Vous pouvez également déterminer si et quand la ressource a été publiée et obtenir l’URL des ressources publiées. En fonction du type de fichier, vous pouvez le prévisualiser selon différentes tailles, effectuer un zoom avant et exécuter une accentuation, un recadrage ou d’autres opérations de mise en forme.
 
 <!-- 
 
@@ -31,8 +31,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
  -->
 
-![Affichage des détails ](/help/assets/image_0.img.png)
-*avec le panneau Bibliothèque de ressources masqué de l’affichage sur le côté gauche.*
+![Affichage des détails](/help/assets/image_0.img.png)
+*Affichage des détails avec le panneau Bibliothèque de ressources masqué de la vue sur le côté gauche.*
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ Pour examiner de plus près, prévisualiser ou travailler sur une ressource, vou
 
 1. Dans le panneau de navigation, effectuez l’une des opérations suivantes :
 
-   * Sélectionnez le fichier. Près du coin supérieur droit de Dynamic Media Classic Adobe, sélectionnez l’icône **[!UICONTROL Affichage des détails]** .
+   * Sélectionnez le fichier. Dans le coin supérieur droit d’Adobe Dynamic Media Classic, sélectionnez la variable **[!UICONTROL Affichage des détails]** icône .
    * Cliquez deux fois sur le fichier.
    * Sélectionnez la ressource, puis accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Détails]**.
 
 >[!NOTE]
 >
->Vous pouvez passer d’une ressource à une autre dans le même dossier en mode Affichage des détails en sélectionnant **[!UICONTROL Ressource précédente]** ou **[!UICONTROL Ressource suivante]**. Ces boutons se trouvent dans le coin supérieur droit de la vue Détails.
+>Vous pouvez passer d’une ressource à une autre dans le même dossier en mode d’affichage des détails en sélectionnant **[!UICONTROL Ressource précédente]** ou **[!UICONTROL Ressource suivante]**. Ces boutons se trouvent dans le coin supérieur droit de la vue Détails.
 
 ## Obtention d’informations dans la vue Détails {#getting-information-in-detail-view}
 
@@ -62,15 +62,15 @@ Vous pouvez obtenir une URL de ressource en mode Affichage des détails ; toutef
 
 Le mode Affichage des détails propose des outils pour travailler avec la ressource que vous avez ouverte. Les outils disponibles dépendent du type de ressource que vous utilisez, mais l’affichage des détails offre toujours les fonctions suivantes :
 
-* **éléments à publier**  : sélectionnez l’option  **** Publication à gauche du nom ou accédez à  **[!UICONTROL Fichier]**  >  ****  **[!UICONTROL Fichier de publication]**  >  **[!UICONTROL Annuler la publication]**.
+* **éléments pour publication** - Sélectionnez la variable **[!UICONTROL Publier]** à gauche du nom ou accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Publier]** ou **[!UICONTROL Fichier]** > **[!UICONTROL Annuler la publication]**.
 
-* **Renommer la ressource**  : sélectionnez le nom et saisissez un nouveau nom.
+* **Renommer la ressource** - Sélectionnez le nom et saisissez un nouveau nom.
 
-* **Modifier et ajouter des métadonnées**  : sélectionnez le panneau Métadonnées et modifiez-le selon vos besoins. Voir [Affichage, ajout et exportation des métadonnées](/help/viewing-adding-exporting-metadata.md).
+* **Modification et ajout de métadonnées** - Sélectionnez le panneau Métadonnées et modifiez-le selon vos besoins. Voir [Affichage, ajout et exportation de métadonnées](/help/viewing-adding-exporting-metadata.md).
 
-* **Modifier et ajouter des mots-clés**  : sélectionnez des mots-clés et ajoutez ou supprimez-les selon vos besoins. (voir [Ajout ou modification de mots-clés](/help/viewing-adding-exporting-metadata.md)).
+* **Modifier et ajouter des mots-clés** - Sélectionnez Mots-clés et ajoutez ou supprimez-les selon vos besoins. (voir [Ajout ou modification de mots-clés](/help/viewing-adding-exporting-metadata.md)).
 
-* **Supprimer la ressource**  - Accédez à  **[!UICONTROL Fichier]**  >  **[!UICONTROL Supprimer]**.
+* **Suppression de la ressource** - Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer]**.
 
 Pour les fichiers discrets (images, visionneuses d’images et polices, par exemple), vous pouvez afficher l’historique de publication et de modification, ainsi que vérifier les détails de la tâche, en mode Affichage des détails.
 
@@ -78,8 +78,8 @@ Ce tableau indique quelles autres options sont disponibles avec différents type
 
 | Type de fichier | Edition/Modification | Prévisualisation |
 | --- | --- | --- |
-| Images | Ajout de zones cliquables<br>Ajout de <br><br><br>cibles de zoomCropSharpenCreate vues ajustées | Oui : zoom et paramètres d’image prédéfinis |
-| Images de meuble et de garnitures de fenêtre | Non | Miniature |
+| Images | Ajout de zones cliquables<br>Ajout de cibles de zoom<br>Recadrer<br>Accentuer<br>Créer des vues ajustées | Oui : zoom et paramètres d’image prédéfinis |
+| Images de Cabinet et de fenêtre | Non | Miniature |
 | Catalogues électroniques | Edition | Oui<br>Le panneau Informations est également disponible |
 | Polices | Edition des informations de polices | Non |
 | Fichiers FXG | Edition | Oui |
@@ -93,7 +93,7 @@ Ce tableau indique quelles autres options sont disponibles avec différents type
 | Fichiers SVG | Non | Non |
 | Modèles | Edition | Oui |
 | Vidéos | Non | Oui |
-| Vignettes et rendus de vignette | Non | L’image s’affiche<br>Vous pouvez visualiser le contenu et la structure des éléments du rendu de la vignette au format XML. |
+| Vignettes et rendus de vignette | Non | L’image s’affiche<br>Vous pouvez visualiser le contenu et la structure des éléments rendables de la vignette au format XML. |
 | Fichiers XML | Non | Le contenu est affiché. |
 | Fichiers ZIP | Non | Le contenu n’est pas affiché |
 

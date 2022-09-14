@@ -2,7 +2,7 @@
 title: Création et activation de paramètres d’image prédéfinis
 description: Découvrez comment créer et activer des paramètres d’image prédéfinis dans Adobe Dynamic Media Classic.
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,10 +10,10 @@ discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 feature: Dynamic Media Classic,Collaboration,Image Presets,Asset Management
 role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 78%
+ht-degree: 72%
 
 ---
 
@@ -31,7 +31,7 @@ Les restrictions suivantes s’appliquent lorsque vous exportez des fichiers d�
 
 >[!NOTE]
 >
->ces restrictions s’appliquent uniquement à l’exportation de fichiers d’image dérivés, et non à celle de fichiers maître.
+>Ces restrictions s’appliquent uniquement à l’exportation de ressources d’image dérivées, et non à l’exportation de fichiers Principaux.
 
 Pour plus d’informations sur la création d’un paramètre d’image prédéfini, voir [Paramètres d’image prédéfinis](application-setup.md#image_presets).
 

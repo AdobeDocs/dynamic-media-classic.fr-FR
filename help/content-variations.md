@@ -2,7 +2,7 @@
 title: Gestion des variations de contenu
 description: Découvrez comment gérer les variations de contenu dans Adobe Dynamic Media Classic.
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
@@ -10,7 +10,7 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 55%
@@ -27,7 +27,7 @@ Les URL universelles sont utilisées pour afficher la variation de modèle qui s
 
 Vous pouvez utiliser n’importe quelle URL prédéfinie d’image à partir de la liste. Les URL prédéfinies d’image sont similaires aux URL universelles. Il peut y avoir plusieurs URL prédéfinies d’image.
 
-1. Accédez à **[!UICONTROL Build]** > **[!UICONTROL Template Sets]** (Jeux de modèles).
+1. Accédez à **[!UICONTROL Build]** > **[!UICONTROL Jeux de modèles]**.
 1. Dans le créateur, sélectionnez un modèle, puis sélectionnez **[!UICONTROL Ajouter/Aperçu]**.
 1. Modifiez les propriétés du modèle et sélectionnez **[!UICONTROL Enregistrer sous]** pour créer une autre version.
 1. Saisissez un nom, puis sélectionnez **[!UICONTROL Enregistrer]**.

@@ -1,17 +1,17 @@
 ---
 title: Publication de fichiers
-description: '"Découvrez comment publier vos ressources sur les serveurs d’images Dynamic Media. Vous pouvez publier des ressources ponctuellement ou organiser Adobe Dynamic Media Classic pour les publier selon une planification récurrente. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL d’Adobe Dynamic Media Classic et les ajouter à votre site web ou à votre application."'
-contentOwner: admin
+description: "Découvrez comment publier vos ressources sur les serveurs d’images Dynamic Media. Vous pouvez publier des ressources ponctuellement ou organiser Adobe Dynamic Media Classic pour les publier selon une planification récurrente. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL d’Adobe Dynamic Media Classic et les ajouter à votre site web ou à votre application."
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: f0e6d634587500877dbcd9e56bcfca105a6e6b9b
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 48%
+source-wordcount: '1729'
+ht-degree: 45%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe Dynamic Media Classic effectue le suivi des tâches de publication sur la 
 
 >[!NOTE]
 >
->les fichiers que vous republiez (vous les avez publiés auparavant) ne s’affichent pas immédiatement sur votre site Web en raison du mécanisme de mise en mémoire cache Web activé sur le réseau de diffusion de contenu (CDN) (voir [Fichiers republiés et délais CDN](publishing-files.md#republished_assets_and_cdn_delays)).
+>Les ressources que vous republiez (vous les avez publiées auparavant) n’apparaissent pas immédiatement sur votre site web en raison du mécanisme de mise en cache web sur le réseau de diffusion de contenu (CDN). (voir [Fichiers republiés et délais CDN](publishing-files.md#republished_assets_and_cdn_delays)).
 
 ### Création d’une tâche de publication unique {#creating-a-one-time-publish-job}
 

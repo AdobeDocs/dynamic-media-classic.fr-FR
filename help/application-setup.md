@@ -1,17 +1,17 @@
 ---
 title: Configuration de l’application
 description: Découvrez comment configurer et configurer la zone Application d’Adobe Dynamic Media Classic. La zone Application vous permet de saisir les paramètres généraux, de créer des paramètres prédéfinis d’image, de visionneuse et de codage vidéo, de définir les visionneuses et métadonnées par défaut, les paramètres de publication et les paramètres d’optimisation pour les moteurs de recherche vidéo. Vous pouvez également utiliser la zone pour configurer des paramètres prédéfinis d’ensemble par lot afin d’automatiser la génération de visionneuses à 360° en 2D.
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 121081e90b68357f7602924cd6ced0c0256b378f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '11303'
-ht-degree: 42%
+source-wordcount: '11299'
+ht-degree: 40%
 
 ---
 
@@ -33,7 +33,7 @@ Lors de la création du compte, Adobe Dynamic Media Classic fournit automatiquem
 
 Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-* **[!UICONTROL Nom du serveur publié]** - Ce serveur est le serveur CDN (Content Delivery Network) en direct utilisé dans tous les appels d’URL générés par le système et spécifiques à votre compte. Ne modifiez pas le nom de ce serveur, sauf si un technicien du support Adobe Dynamic Media Classic vous demande de le faire.
+* **[!UICONTROL Nom du serveur publié]** - Ce serveur est le serveur CDN en direct (Content Delivery Network) utilisé dans tous les appels d’URL générés par le système spécifiques à votre compte. Ne modifiez pas le nom de ce serveur, sauf si un technicien du support Adobe Dynamic Media Classic vous demande de le faire.
 
 * **[!UICONTROL Nom du serveur d’origine]** - Ce serveur est utilisé uniquement pour les tests d’assurance qualité. Ne modifiez pas le nom de ce serveur, sauf si un technicien du support Adobe Dynamic Media Classic vous a demandé de le faire.
 
@@ -85,11 +85,11 @@ Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md
 
 * **[!UICONTROL Afficher les vidéos codées]** - Désactivé par défaut.
 
-   Pour rechercher rapidement des vidéos dans Adobe Dynamic Media Classic sans avoir à parcourir de nombreux dérivés codés de la même vidéo, laissez cette option désélectionnée (par défaut). Seule la miniature de la vidéo Principal (la vidéo source que vous avez téléchargée et utilisée pour créer les dérivés) et la miniature de la visionneuse de vidéos adaptative &quot;parente&quot; (qui contient les dérivés &quot;enfants&quot; de la visionneuse de vidéos codées) s’affichent.
+   Pour rechercher rapidement des vidéos dans Adobe Dynamic Media Classic sans avoir à parcourir de nombreux dérivés codés de la même vidéo, laissez cette option désélectionnée (par défaut). Seule la miniature vidéo Principal (la vidéo source que vous avez téléchargée et utilisée pour créer les dérivés) et la miniature de la visionneuse de vidéos adaptative &quot;parente&quot; (qui contient les dérivés &quot;enfants&quot; de la visionneuse de vidéos codées) s’affichent.
 
-   Il est toujours possible d’accéder à des vidéos codées individuelles à partir de la vidéo originale ou de la visionneuse de vidéos adaptatives. Pour ce faire, double-cliquez sur l’image miniature de la vidéo pour passer en mode Affichage des détails. Sélectionnez **[!UICONTROL Vidéos codées]** dans le panneau de droite afin que vous puissiez accéder à toutes les vidéos &quot;enfants&quot;.
+   Vous pouvez toutefois accéder à des vidéos codées individuelles à partir de la vidéo Principal ou de la visionneuse de vidéos adaptative. Pour ce faire, double-cliquez sur l’image miniature de la vidéo pour passer en mode Affichage des détails. Sélectionnez **[!UICONTROL Vidéos codées]** dans le panneau de droite afin que vous puissiez accéder à toutes les vidéos &quot;enfants&quot;.
 
-   Vous pouvez également accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Retraiter]** pour créer d’autres vidéos &quot;enfants&quot; codées directement à partir d’une visionneuse de vidéos adaptative. Adobe Dynamic Media Classic recherche automatiquement la vidéo de Principal &quot;parent&quot; de la visionneuse de vidéos adaptative et l’utilise comme vidéo source pour le transcodage. Cependant, lorsque vous enregistrez les nouvelles vidéos codées individuelles, elles ne sont pas visibles lors d’une recherche ou d’une navigation. Elles restent néanmoins accessibles à partir de l’onglet Vidéos codées dans la vue Affichage des détails.
+   Vous pouvez également accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Retraiter]** pour créer d’autres vidéos &quot;enfants&quot; codées directement à partir d’une visionneuse de vidéos adaptative. Adobe Dynamic Media Classic recherche automatiquement la vidéo Principal &quot;parent&quot; de la visionneuse de vidéos adaptative et l’utilise comme vidéo source pour le transcodage. Cependant, lorsque vous enregistrez les nouvelles vidéos codées individuelles, elles ne sont pas visibles lors d’une recherche ou d’une navigation. Elles restent néanmoins accessibles à partir de l’onglet Vidéos codées dans la vue Affichage des détails.
 
    Voir [Chargement et transcodage de vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -131,7 +131,7 @@ Voir aussi [Options de tâche de téléchargement par défaut](https://s7d5.scen
 
 ### Editeur de zone cliquable, vers l’application
 
-* **[!UICONTROL HREF de mappage d’images par défaut]** - Définit l’URL par défaut utilisée pour la colonne HREF dans le mappage des images. Il s’agit de l’URL par défaut qui s’affiche lors de la création de zones cliquables.
+* **[!UICONTROL HREF de mappage d’images par défaut]** - Définit l’URL par défaut utilisée pour la colonne HREF dans le mappage des images. Cette URL est l’URL par défaut qui s’affiche lors de la création de zones cliquables.
 
 * **[!UICONTROL Modèle de mappage d’image par défaut]** - Définit le code JavaScript par défaut du modèle HREF dans le mappage des images. Vous pouvez définir ici le code personnalisé à exécuter chaque fois que vous sélectionnez une zone cliquable.
 
@@ -145,7 +145,7 @@ Adobe Dynamic Media Classic ne permet pas que deux fichiers portent le même nom
 
 Si vous avez précédemment téléchargé des images, puis modifié les fichiers d’origine (ou les avez remplacés), l’option Écraser sélectionnée indique comment Adobe Dynamic Media Classic remplace les images. Aucune donnée sur l’image ne change, mais la nouvelle image remplace l’ancienne. Si le dossier contient également des images qui ne se trouvent pas déjà dans Adobe Dynamic Media Classic, ces images sont ajoutées.
 
-Utilisez cette option si les images que vous avez téléchargées ont été modifiées d’une façon ou d’une autre (retouchées, par exemple), mais que la référence à l’image reste inchangée. L’écrasement se révèle particulièrement utile lorsque des fichiers Adobe® PDF sont téléchargés puis extraits. Pour affiner la manière dont Adobe Dynamic Media Classic *rips* Pour l’image, ajustez les options de profil de couleur ICC dans la boîte de dialogue Télécharger , puis effectuez un nouveau chargement à l’aide de la fonction Remplacer .
+Utilisez cette option si les images que vous avez téléchargées ont changé d’une manière ou d’une autre (l’image a été modifiée), mais que la référence à l’image reste la même. L’écrasement se révèle particulièrement utile lorsque des fichiers Adobe® PDF sont téléchargés puis extraits. Pour affiner la manière dont Adobe Dynamic Media Classic *rips* Pour l’image, ajustez les options de profil de couleur ICC dans la boîte de dialogue Télécharger , puis effectuez un nouveau chargement à l’aide de la fonction Remplacer .
 
 Les Adobe Dynamic Media Classic ID utilisés pour accéder aux images à partir des serveurs de production sont dérivés des noms de fichier image. L’utilisation de caractères majuscules et minuscules dans le nom de fichier est importante, tant pour le remplacement de fichiers existants que pour les Adobe Dynamic Media Classic ID utilisés pour accéder à l’image. Assurez-vous que l’utilisation de caractères majuscules et minuscules dans les noms de fichier est correcte avant de les transférer dans Adobe Dynamic Media Classic afin d’éviter que les Adobe Dynamic Media Classic ID ne diffèrent que par le cas d’une même image.
 
@@ -153,7 +153,7 @@ Si vous désactivez cette option, toutes les images dont les noms sont identique
 
 ## Paramètres d’image prédéfinis {#image-presets}
 
-L’écran Paramètres d’image prédéfinis sert à créer et à modifier les paramètres d’image prédéfinis. Les paramètres d’image prédéfinis permettent à Adobe Dynamic Media Classic de diffuser des images dynamiquement à des tailles différentes à partir d’une même image maître. Chaque paramètre d’image prédéfini forme un ensemble prédéfini de commandes de dimensionnement et de formatage permettant d’afficher les images. Lorsque vous créez un paramètre d’image prédéfini, vous sélectionnez une taille pour la diffusion de l’image. Vous pouvez également sélectionner des commandes de formatage afin d’optimiser l’aspect de l’image lors de sa diffusion.
+L’écran Paramètres d’image prédéfinis sert à créer et à modifier les paramètres d’image prédéfinis. Les paramètres d’image prédéfinis permettent à Adobe Dynamic Media Classic de diffuser des images dynamiquement à des tailles différentes à partir d’une même image Principale. Chaque paramètre d’image prédéfini forme un ensemble prédéfini de commandes de dimensionnement et de formatage permettant d’afficher les images. Lorsque vous créez un paramètre d’image prédéfini, vous sélectionnez une taille pour la diffusion de l’image. Vous pouvez également sélectionner des commandes de formatage afin d’optimiser l’aspect de l’image lors de sa diffusion.
 
 Les administrateurs peuvent créer des paramètres prédéfinis pour l’exportation de fichiers. Les utilisateurs peuvent choisir un paramètre prédéfini lorsqu’ils exportent des images, qui reformate également les images selon les spécifications définies par l’administrateur.
 
@@ -249,7 +249,7 @@ Les écrans Ajouter un paramètre prédéfini et Modifier le paramètre prédéf
 
 * **[!UICONTROL Modificateurs d’URL]** - Si vous préférez spécifier les modificateurs d’URL qui définissent votre paramètre d’image prédéfini, plutôt que les paramètres, saisissez les modificateurs ici.
 
-* **[!UICONTROL Exemple d’URL d’image]** - Répertorie la chaîne URL &quot;brute&quot; utilisée par le serveur d’images Dynamic Media pour diffuser des images avec le paramètre d’image prédéfini que vous ajoutez ou modifiez. Cette chaîne URL code tous les paramètres de format que vous sélectionnez sur l’écran Ajouter un paramètre prédéfini ou Modifier le paramètre prédéfini.
+* **[!UICONTROL Exemple d’URL d’image]** - Répertorie la chaîne URL &quot;brute&quot; utilisée par le serveur d’images Dynamic Media pour diffuser des images avec le paramètre d’image prédéfini que vous ajoutez ou modifiez. Cette chaîne URL code tous les paramètres de format que vous sélectionnez dans l’écran Ajouter un paramètre prédéfini ou Modifier le paramètre prédéfini .
 
 ### Modification, suppression ou désactivation d’un paramètre d’image prédéfini {#editing-removing-or-deactivating-an-image-preset}
 
@@ -262,7 +262,7 @@ Les écrans Ajouter un paramètre prédéfini et Modifier le paramètre prédéf
 
 ## Activation ou désactivation des paramètres prédéfinis de vidéo adaptative {#activating-or-deactivating-adaptive-video-presets}
 
-Adobe Dynamic Media Classic propose des paramètres prédéfinis de codage de vidéo adaptative. Il s’agit d’une liste type de paramètres prédéfinis qui associe dans un seul groupe les paramètres prédéfinis de vidéo adaptative 16:9 et les paramètres prédéfinis de vidéo adaptative 4:3. Ces paramètres prédéfinis représentent les paramètres de codage les plus courants et sont optimisés pour la lecture sur périphériques mobiles, tablettes cibles et ordinateurs.
+Adobe Dynamic Media Classic propose des paramètres prédéfinis de codage de vidéo adaptative. Il s’agit d’une Principale liste de paramètres prédéfinis qui combine en un seul groupe les paramètres prédéfinis de vidéo adaptative 16:9 et les paramètres prédéfinis de vidéo adaptative 4:3. Ces paramètres prédéfinis représentent les paramètres de codage les plus courants et sont optimisés pour la lecture sur périphériques mobiles, tablettes cibles et ordinateurs.
 
 Seuls les paramètres prédéfinis de codage de « vidéo adaptative » sont activés par défaut. Vous pouvez les désactiver, si vous le souhaitez. Les paramètres prédéfinis de vidéo adaptative inactifs n’apparaissent pas sous forme d’option sélectionnable dans la section eVideo de la boîte de dialogue Télécharger les options de la tâche.
 
@@ -310,7 +310,7 @@ Pour sélectionner un paramètre prédéfini de codage, dans le coin inférieur 
       * Sélectionnez un paramètre prédéfini de codage en fonction de la taille de résolution et de la bande passante avec lesquelles vous prévoyez de lire la vidéo.
       * Vous pouvez sélectionner Codage vidéo adaptatif et un ou plusieurs paramètres prédéfinis de codage par vidéo. Par exemple, vous pouvez coder un fichier pour les ordinateurs de bureau et pour les périphériques mobiles dans le cadre d’une seule tâche de téléchargement.
 
-Après avoir sélectionné **[!UICONTROL Démarrer le téléchargement]**, le fichier vidéo original est chargé et les fichiers codés sont générés à partir du fichier original.
+Après avoir sélectionné **[!UICONTROL Démarrer le téléchargement]**, le fichier vidéo Principal d’origine est chargé et les fichiers codés sont générés à partir du fichier Principal.
 
 ### A propos des options de codage prédéfinies {#about-encoding-preset-options}
 
@@ -344,7 +344,7 @@ Un paramètre prédéfini de codage qui fonctionne avec n’importe quelle propo
 
 ### Paramètres prédéfinis de codage de vidéo adaptative (16:9 ou 4:3) {#adaptive-video-encoding-or-video-presets}
 
-Ces paramètres prédéfinis de codage de vidéo adaptative combinent une série de paramètres prédéfinis de codage individuels qui sont automatiquement sélectionnés en fonction des proportions de la vidéo que vous transférez. Si, par exemple, vous téléchargez une vidéo 4:3, elle est automatiquement codée à l’aide des cinq paramètres prédéfinis 4:3 trouvés dans la liste des paramètres prédéfinis originaux dans l’option **Codage de vidéo adaptative (16:9 ou 4:3)**.
+Ces paramètres prédéfinis de codage de vidéo adaptative combinent une série de paramètres prédéfinis de codage individuels qui sont automatiquement sélectionnés en fonction des proportions de la vidéo que vous transférez. Par exemple, si vous téléchargez une vidéo 4:3, elle est automatiquement codée à l’aide des cinq paramètres prédéfinis 4:3 figurant dans la Principale liste de paramètres prédéfinis de la variable **Codage vidéo adaptatif (16:9 ou 4:3)** .
 
 Pour plus d’informations sur les options de codage, voir [A propos des options de codage prédéfinies](application-setup.md#about_encoding_preset_options).
 
@@ -444,7 +444,7 @@ Selon la visionneuse, vous pouvez ajouter des fonctions communautaires. Ces fonc
 
 Voir aussi [Exemples de bibliothèques de références de visionneuses Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
-### Prise en charge des visionneuses pour les pages Web adaptées {#viewer-support-for-responsive-designed-web-pages}
+### Prise en charge des visionneuses pour les pages web réactives {#viewer-support-for-responsive-designed-web-pages}
 
 Différentes pages Web ont différents besoins. Il arrive que vous souhaitiez une page web qui fournit un lien qui ouvre la visionneuse HTML5 dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer la visionneuse HTML5 directement sur la page d’hébergement. Dans ce dernier cas, la page web a probablement une disposition statique. Il est également &quot;réactif&quot; et s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, les visionneuses HTML5 fournies avec Adobe Dynamic Media Classic prennent en charge les pages web statiques et les pages web adaptées.
 
@@ -462,7 +462,7 @@ Les administrateurs peuvent créer et personnaliser les types de paramètres pr�
 
 * **[!UICONTROL Visionneuse à 360°]** - Fournit plusieurs vues d’une image afin que les utilisateurs puissent faire pivoter l’objet pour l’examiner sous différents angles.
 
-* **Visionneuse vidéo** : affiche les vidéos en utilisant les dimensions de résolution du fichier source ou une taille personnalisée. Adobe Dynamic Media Classic est fourni avec de nombreux paramètres prédéfinis de visionneuse pour la lecture de vidéos. Si vous êtes administrateur, vous pouvez créer des paramètres prédéfinis personnalisés de visionneuse de vidéos. Il existe plus d’une douzaine de paramètres distincts pour la configuration de la visionneuse de vidéos. Vous pouvez configurer la taille, la couleur de premier plan et d’arrière-plan, les commandes vidéo et audio, la barre de progression, l’habillage de l’interface utilisateur, les fonctions sociales et l’aide.
+* **Visionneuse vidéo** : affiche les vidéos en utilisant les dimensions de résolution du fichier source ou une taille personnalisée. Adobe Dynamic Media Classic est fourni avec de nombreux paramètres prédéfinis de visionneuse pour la lecture de vidéos. Si vous êtes administrateur, vous pouvez créer des paramètres prédéfinis personnalisés de visionneuse de vidéos. Il existe plus de 12 paramètres différents pour la configuration de la visionneuse vidéo. Vous pouvez configurer la taille, la couleur de premier plan et d’arrière-plan, les commandes vidéo et audio, la barre de progression, l’habillage de l’interface utilisateur, les fonctions sociales et l’aide.
 
 * **[!UICONTROL Visionneuses de zoom]** - Offre trois types de visionneuse de zoom :
 
@@ -525,7 +525,7 @@ Voir [Notes de mise à jour des références des visionneuses Adobe](https://exp
 
 Adobe Dynamic Media Classic prend en charge la lecture vidéo mobile pour la vidéo MP4 H.264.
 
-* Vous trouverez les appareils BlackBerry® qui prennent en charge ce format vidéo à l’adresse suivante : [Formats vidéo pris en charge sur BlackBerry®](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
+* Vous trouverez les appareils BlackBerry® qui prennent en charge ce format vidéo à l’adresse suivante : [Formats vidéo pris en charge sur BlackBerry®](https://developers.blackberry.com/us/en)
 * Vous trouverez également les périphériques Windows® qui prennent en charge ce format vidéo à l’adresse suivante : [Formats vidéo pris en charge sur Windows® Phone](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
 
 |  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ | Smartphone BlackBerry® | Windows® Phone |
@@ -629,7 +629,7 @@ Voir aussi [Paramètres prédéfinis de la visionneuse](https://s7d5.scene7.com/
 
 Vous pouvez exporter un paramètre prédéfini de visionneuse HTML5 existant à utiliser comme base pour créer un paramètre prédéfini de visionneuse HTML5. Cette méthode est pratique car elle vous évite d’avoir à créer une visionneuse depuis le début. En effet, il vous suffit d’exporter un paramètre prédéfini présentant des caractéristiques et un comportement semblables à ce que vous recherchez, puis de l’utiliser comme point de départ pour vos modifications.
 
-Tous les fichiers CSS de paramètres prédéfinis de visionneuse par défaut dans Adobe Dynamic Media Classic utilisent des chemins de traitement d’images relatives pointant vers des ressources sur `Scene7SharedAssets`. Par exemple, voici un chemin relatif à une ressource image dans un fichier CSS de paramètre prédéfini de visionneuse sur
+Tous les fichiers CSS de paramètres prédéfinis de visionneuse par défaut dans Adobe Dynamic Media Classic utilisent des chemins de service d’images relatifs qui pointent vers des ressources sur `Scene7SharedAssets`. Par exemple, voici un chemin relatif à une ressource image dans un fichier CSS de paramètre prédéfini de visionneuse sur
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
@@ -789,7 +789,7 @@ Créez un paramètre prédéfini de métadonnées pour chaque ensemble de valeur
    * Pour créer un paramètre prédéfini, sélectionnez **[!UICONTROL Ajouter]**. Dans le champ de texte Nom du modèle de métadonnées , saisissez le nom du paramètre prédéfini. Sélectionner **[!UICONTROL Vues des métadonnées]**, puis sélectionnez une vue dans la liste déroulante (voir [Vues des métadonnées](application-setup.md#metadata_views)).
    * Pour modifier un paramètre prédéfini existant, sélectionnez le paramètre prédéfini dans la liste Paramètres prédéfinis des métadonnées , puis sélectionnez **[!UICONTROL Modifier]**.
 
-1. Développez les en-têtes que vous souhaitez inclure dans le paramètre prédéfini et entrez les valeurs dans les différents champs que vous souhaitez inclure dans le paramètre prédéfini.
+1. Développez les en-têtes que vous souhaitez inclure dans le paramètre prédéfini et saisissez des valeurs dans les différents champs que vous souhaitez inclure dans le paramètre prédéfini.
 1. Sélectionner **[!UICONTROL Enregistrer]**.
 
    Les catégories et les champs sélectionnés pour le paramètre prédéfini sont visibles dans le panneau de prévisualisation.
@@ -949,7 +949,7 @@ Utilisez le type d’ensemble par lot **Visionneuse à 360° multi-axe** pour c
 
 Voir aussi [Création d’un paramètre prédéfini d’ensemble par lot](application-setup.md#creating_a_batch_set_preset).
 
-Il n’existe aucune limite minimale ou maximale quant au nombre de lignes ou de colonnes nécessaires dans la visionneuse à 360° multi-axe.
+Il n’existe pas de nombre maximal ou minimal de lignes ou de colonnes que vous devez avoir dans une visionneuse à 360° multi-axe.
 
 Par exemple, supposons que vous souhaitiez créer une visionneuse à 360° multi-axe nommée *spin-2dspin*. Vous disposez d’un ensemble d’images de la visionneuse à 360° qui contient trois lignes, avec 12 images par ligne. Les images sont nommées comme suit :
 
@@ -1009,7 +1009,7 @@ Lorsque la visionneuse à 360° est téléchargée et publiée, vous activez le 
 
    >[!NOTE]
    >
-   >Si la combinaison d’expressions régulières de ligne et de colonne ne peut pas déterminer la position de la ressource dans le tableau de la visionneuse à 360° multidimensionnelle, cette ressource n’est pas ajoutée à la visionneuse et une erreur est consignée.
+   >Si la combinaison d’expressions régulières dans les lignes et les colonnes ne peut pas déterminer la position de la ressource dans le tableau de la visionneuse à 360° multidimensionnelle, cette ressource n’est pas ajoutée à l’ensemble et une erreur est consignée.
 
 1. Dans Options de création et d’affectation de nom de l’ensemble, indiquez le suffixe ou le préfixe du nom de base que vous avez défini dans la convention d’affectation de nom. Définissez également l’emplacement de création de la visionneuse d’images dans la structure de dossiers Adobe Dynamic Media Classic.
 

@@ -1,16 +1,16 @@
 ---
 title: Limites de Dynamic Media
-description: 'Découvrez les bonnes pratiques et les limites appliquées lorsque vous créez une visionneuse d’images ou à 360° ou chargez un PDF. Découvrez également les combinaisons de navigateur web et de système d’exploitation non prises en charge pour les visionneuses Dynamic Media. '
-contentOwner: admin
+description: Découvrez les bonnes pratiques et les limites appliquées lorsque vous créez une visionneuse d’images ou à 360° ou chargez un PDF. Découvrez également les combinaisons de navigateur web et de système d’exploitation non prises en charge pour les visionneuses Dynamic Media.
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: ec840640b1131a56c1261f22b7638e53dac1bce8
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ Les visionneuses Dynamic Media Adobe ne prennent pas en charge les combinaisons 
 * Safari 8 + iOS 8.4
 * Safari 8 + OS X 10.10 Yosemite
 
-## Fin de la prise en charge de TLS 1.0 et 1.1 {#tls}
+## Fin de la prise en charge de Transport Layer Security 1.0 et 1.1 {#tls}
 
 <!-- CQDOC-19433 -->
 

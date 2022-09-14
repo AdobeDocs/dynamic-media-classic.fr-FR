@@ -2,7 +2,7 @@
 title: Création d’une visionneuse à 360°
 description: Découvrez comment créer une visionneuse à 360° dans Adobe Dynamic Media Classic.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
@@ -10,10 +10,10 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 52%
+ht-degree: 48%
 
 ---
 
@@ -27,13 +27,13 @@ Pour créer une visionneuse panoramique efficace, assurez-vous que les clichés 
 
 ## Instructions pour prendre des clichés d’images de la visionneuse à 360° {#guidelines-for-shooting-spin-set-images}
 
-En règle générale, plus le nombre d’images de la visionneuse est élevé, meilleure est la qualité de l’effet de rotation de l’objet. Cependant, un nombre élevé d’images dans la visionneuse augmente la durée de chargement des images. Adobe Dynamic Media Classic recommande les instructions suivantes pour le tournage d’images à utiliser dans les visionneuses à 360° :
+En règle générale, plus vous avez d’images dans une visionneuse à 360°, plus l’effet de rotation d’images est important. Cependant, un nombre élevé d’images dans la visionneuse augmente la durée de chargement des images. Adobe Dynamic Media Classic recommande les instructions suivantes pour le tournage d’images à utiliser dans les visionneuses à 360° :
 
 * Utilisez au minimum 8 à 12 images dans une visionneuse à 360° unidimensionnelle et 16 à 24 images dans une visionneuse à 360° bidimensionnelle.
 * Utilisez un format d’image sans perte (formats TIFF et PNG recommandés). 
 * Masquez toutes les images pour faire apparaître l’objet sur un fond blanc ou fortement contrasté. Ajoutez éventuellement des ombres.
 * Assurez-vous que les détails du produit sont bien éclairés et que leur mise au point est nette.
-* Prenez des clichés de vêtements de prêt-à-porter avec un mannequin ou un modèle. Souvent, le mannequin est masqué (à l’aide d’un mannequin en verre) ou un mannequin stylisé est présenté dans l’image. Vous pouvez créer une visionneuse sur un modèle vivant en définissant le nombre d’angles. Marquez chaque angle avec du ruban adhésif sur le sol afin que vous puissiez guider le modèle pour qu’il marche et regarde dans la direction de chaque prise de vue.
+* Prenez des clichés de vêtements de prêt-à-porter avec un mannequin ou un modèle. Souvent, le mannequin est masqué (à l’aide d’un mannequin en verre) ou un mannequin stylisé est présenté dans l’image. Vous pouvez créer une visionneuse à 360° de modèle en définissant le nombre d’angles. Marquez chaque angle avec du ruban adhésif sur le sol afin que vous puissiez guider le modèle pour qu’il marche et regarde dans la direction de chaque prise de vue.
 
 ## Création d’une visionneuse à 360° {#create}
 

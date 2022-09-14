@@ -1,8 +1,8 @@
 ---
-title: 'Configuration - Notions élémentaires '
+title: Configuration - Notions élémentaires
 description: Découvrez comment utiliser l’écran Configuration pour saisir vos paramètres personnels dans Adobe Dynamic Media Classic. Si vous êtes administrateur, vous pouvez configurer les paramètres de votre entreprise.
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
@@ -10,7 +10,7 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 17%
@@ -23,14 +23,14 @@ Utilisez la page Configuration d’Adobe Dynamic Media Classic pour saisir vos p
 
 Les paramètres disponibles sur cette page dépendent de votre statut d’utilisateur ou d’administrateur :
 
-* Les utilisateurs peuvent uniquement accéder à **[!UICONTROL Configuration personnelle]** et aux comptes des entreprises dont ils sont membres ; ils ne peuvent pas effectuer de tâches administratives.
-* Les administrateurs peuvent accéder à **[!UICONTROL Configuration personnelle]** et afficher et administrer leurs propres comptes de société. Ils ont également la possibilité d’administrer toutes les fonctions de configuration de l’application, ainsi que l’ensemble des fonctions d’administration, y compris l’ajout d’administrateurs et d’utilisateurs.
+* Les utilisateurs ne peuvent accéder qu’à **[!UICONTROL Configuration personnelle]** et les comptes des entreprises dont ils sont membres ; ils ne peuvent pas effectuer de tâches administratives.
+* Les administrateurs peuvent accéder à **[!UICONTROL Configuration personnelle]** et consulter et administrer leurs propres comptes d’entreprise. Ils ont également la possibilité d’administrer toutes les fonctions de configuration de l’application, ainsi que l’ensemble des fonctions d’administration, y compris l’ajout d’administrateurs et d’utilisateurs.
 
-Les administrateurs peuvent également configurer des paramètres d’image prédéfinis et des paramètres de visionneuse prédéfinis sur la page **[!UICONTROL Configuration]** :
+Les administrateurs peuvent également configurer des paramètres d’image prédéfinis et des paramètres de visionneuse prédéfinis dans la **[!UICONTROL Configuration]** page :
 
-* **Paramètres d’image prédéfinis**  : les paramètres d’image prédéfinis sont des formats enregistrés permettant d’afficher des images Principales dans différents formats et tailles.
+* **Paramètres d’image prédéfinis** - Les paramètres d’image prédéfinis sont des formats enregistrés permettant d’afficher des images Principales dans différents formats et tailles.
 
-* **Paramètres prédéfinis de la visionneuse**  : les paramètres prédéfinis de la visionneuse déterminent la manière dont vous voyez votre contenu multimédia enrichi dans une visionneuse.
+* **Paramètres prédéfinis de la visionneuse** - Les paramètres prédéfinis de la visionneuse déterminent la manière dont vous visualisez votre contenu multimédia lorsque vous le visualisez dans une visionneuse.
 
 >[!MORELIKETHIS]
 >

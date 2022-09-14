@@ -1,8 +1,8 @@
 ---
-title: '"Démarrage rapide : Media Portal"'
+title: "Démarrage rapide : Media Portal"
 description: Présentation et démarrage rapide de Media Portal pour vous aider à maîtriser rapidement les techniques et l’administration de Media Portal dans Adobe Dynamic Media Classic.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,10 +10,10 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 53%
+ht-degree: 50%
 
 ---
 
@@ -49,7 +49,7 @@ Voir [Création et gestion des groupes Media Portal](creating-media-portal-group
 
 Lorsque vous ajoutez un utilisateur, vous lui attribuez un rôle (utilisateur, contributeur ou contributeur-utilisateur). Vous affectez également l’utilisateur à un ou plusieurs groupes. Pour accélérer la procédure d’ajout, vous pouvez télécharger une liste d’utilisateurs enregistrée dans un fichier au format CSV. Les nouveaux utilisateurs reçoivent un message électronique de bienvenue accompagné d’instructions de connexion au portail multimédia.
 
-Voir [Ajout et gestion des utilisateurs du portail multimédia](adding-media-portal-users.md#adding_and_managing_media_portal_users).
+Voir [Ajout et gestion des utilisateurs de Media Portal](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## 4. Gestion des comptes FTP
 
@@ -65,7 +65,7 @@ Voir [Rôles utilisateur du portail multimédia](media-portal-user-roles.md#medi
 
 ## 5. Configuration des options d’exportation
 
-Lors de l’exportation de fichiers, les utilisateurs du portail multimédia ont la possibilité de reformater les fichiers en vue d’exporter les fichiers originaux, sous réserve d’y être autorisés par vous (l’administrateur). En effet, en tant qu’administrateur, c’est à vous de décider du mode d’exportation des fichiers par les utilisateurs.
+Les utilisateurs de Media Portal, lorsqu’ils exportent des fichiers, peuvent reformater les fichiers et exporter les fichiers Principaux d’origine — si vous leur accordez l’autorisation de le faire. En effet, en tant qu’administrateur, c’est à vous de décider du mode d’exportation des fichiers par les utilisateurs.
 
 Voir [Définition des options d’exportation disponibles pour les utilisateurs de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
@@ -73,7 +73,7 @@ Voir [Définition des options d’exportation disponibles pour les utilisateurs 
 
 Un paramètre d’image prédéfini désigne un ensemble de paramètres préétablis qui permettent de modifier la taille, la qualité d’image, le format, la résolution et d’autres attributs de l’apparence d’une image au moment de l’exportation. Les paramètres d’image prédéfinis peuvent servir à contrôler le type de reformatage des images lors de leur exportation.
 
-Voir [Création et activation des paramètres d’image prédéfinis](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
+Voir [Création et activation de paramètres d’image prédéfinis](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## 7. Création de paramètres prédéfinis des métadonnées et de champs de métadonnées définis par l’utilisateur
 

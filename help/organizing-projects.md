@@ -2,7 +2,7 @@
 title: Organisation de votre travail avec des projets
 description: Découvrez comment organiser votre travail avec des projets dans Adobe Dynamic Media Classic.
 uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
@@ -10,10 +10,10 @@ discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '483'
+ht-degree: 31%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez créer un projet lorsque vous téléchargez des fichiers ou créer d
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic recommande d’organiser les ressources avec des métadonnées plutôt que des projets. Voir [Affichage, ajout et exportation des métadonnées](viewing-adding-exporting-metadata.md).
+>Adobe Dynamic Media Classic recommande d’organiser les ressources avec des métadonnées plutôt que des projets. Voir [Affichage, ajout et exportation de métadonnées](viewing-adding-exporting-metadata.md).
 
 >[!NOTE]
 >
@@ -35,11 +35,11 @@ Vous pouvez créer un projet lorsque vous téléchargez des fichiers ou créer d
 
 ## Création d’un dossier Projet {#creating-a-project-folder}
 
-Vous pouvez créer un dossier de projet commençant par la bibliothèque de ressources ou lorsque vous chargez des fichiers vers Adobe Dynamic Media Classic :
+Vous pouvez créer un dossier Projet commençant par la bibliothèque de ressources ou lorsque vous chargez des fichiers vers Adobe Dynamic Media Classic :
 
-* **Dans la bibliothèque**  de ressources : faites défiler l’écran jusqu’au bas de la bibliothèque de ressources jusqu’à la section Projets, puis sélectionnez  **[!UICONTROL Ajouter un projet]**. Saisissez le nom du projet.
+* **Dans la bibliothèque de ressources** - Faites défiler l’écran jusqu’au bas de la bibliothèque de ressources jusqu’à la section Projets , puis sélectionnez **[!UICONTROL Ajouter un projet]**. Saisissez le nom du projet.
 
-* **Lors du téléchargement de fichiers**  : dans l’écran Télécharger, accédez à  **[!UICONTROL Ajouter au projet]**  >  **[!UICONTROL Créer un projet]**. Saisissez le nom du projet.
+* **Lors du téléchargement de fichiers** - Dans l’écran Télécharger , accédez à **[!UICONTROL Ajouter au projet]** > **[!UICONTROL Créer un projet]**. Saisissez le nom du projet.
 
 >[!NOTE]
 >
@@ -49,16 +49,16 @@ Vous pouvez créer un dossier de projet commençant par la bibliothèque de ress
 
 Pour afficher, supprimer et renommer un dossier Projet, effectuez l’une des opérations suivantes :
 
-* **Parcourir le contenu**  : sélectionnez le nom du dossier dans la bibliothèque de ressources. Les fichiers associés s’affichent dans le panneau de navigation.
+* **Parcourir le contenu** - Sélectionnez le nom du dossier dans la bibliothèque de ressources. Les fichiers associés s’affichent dans le panneau de navigation.
 
-* **Suppression de dossiers**  de projet : sélectionnez le dossier Projet, puis  **[!UICONTROL Supprimer le projet]**. La suppression de ressources d’un dossier de projet ne les supprime pas d’Adobe Dynamic Media Classic ; les ressources restent dans les dossiers d’origine dans lesquels elles sont stockées.
+* **Suppression de dossiers de projet** - Sélectionnez le dossier Projet , puis cliquez sur **[!UICONTROL Supprimer le projet]**. La suppression de ressources d’un dossier de projet ne les supprime pas d’Adobe Dynamic Media Classic ; les ressources restent dans les dossiers d’origine dans lesquels elles sont stockées.
 
-* **Changement du nom des dossiers**  du projet : double-cliquez sur le nom du dossier dans le panneau Ressources, puis saisissez un nouveau nom.
+* **Changement du nom des dossiers de projet** - Double-cliquez sur le nom du dossier dans le panneau Ressources, puis saisissez un nouveau nom.
 
 ## Ajout de ressources à un dossier de projet {#adding-assets-to-a-project-folder}
 
 Vous pouvez ajouter des images à un dossier Projet depuis le panneau de navigation ou lorsque vous chargez des fichiers vers Adobe Dynamic Media Classic :
 
-* **Dans le panneau de navigation**  : sélectionnez les ressources et faites-les glisser vers un dossier Projet. Vous pouvez également accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Ajouter au projet]**. Sélectionnez un nom de dossier de projet dans la boîte de dialogue Sélectionner un projet, puis sélectionnez **[!UICONTROL Envoyer]**.
+* **Dans le panneau de navigation** - Sélectionnez les ressources et faites-les glisser vers un dossier Projet . Vous pouvez également accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Ajouter au projet]**. Sélectionnez un nom de dossier de projet dans la boîte de dialogue Sélectionner un projet, puis sélectionnez **[!UICONTROL Envoyer]**.
 
-* **Lors du téléchargement de fichiers**  : dans la page Télécharger, sélectionnez  **[!UICONTROL Options de tâche]**. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Projets]**, puis sélectionnez un nom de projet.
+* **Lors du téléchargement de fichiers** - Dans la page Télécharger, sélectionnez **[!UICONTROL Options de tâche]**. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Projets]**, puis sélectionnez un nom de projet.

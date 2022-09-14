@@ -2,7 +2,7 @@
 title: Configuration des paramètres prédéfinis de la visionneuse à 360°
 description: Découvrez comment configurer des paramètres prédéfinis de visionneuse à 360° dans Adobe Dynamic Media Classic.
 uuid: e095f989-f3df-46ea-be62-812922805dc0
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
@@ -10,10 +10,10 @@ discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
 feature: Dynamic Media Classic,Viewers,Spin Sets,Viewer Presets
 role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '239'
+ht-degree: 23%
 
 ---
 
@@ -27,16 +27,16 @@ Les paramètres prédéfinis de la visionneuse à 360° définissent le style, l
 1. Effectuez l’une des opérations suivantes :
 
    * Pour créer un paramètre prédéfini, sélectionnez **[!UICONTROL Ajouter]**, puis, dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plateforme, puis sélectionnez **[!UICONTROL Visionneuse à 360°]**.
-   * Pour modifier un paramètre prédéfini de visionneuse à 360° existant, sélectionnez-le, puis sélectionnez **[!UICONTROL Modifier]**.
+   * Pour modifier un paramètre prédéfini de visionneuse à 360° existant, sélectionnez-le, puis choisissez **[!UICONTROL Modifier]**.
 
 1. Sur la page Configurer la visionneuse, saisissez un nom dans la zone Nom du paramètre prédéfini pour le paramètre prédéfini de visionneuse à 360°.
-1. Spécifiez les autres options voulues. Pour afficher la description d’une option, cliquez sur l’icône **[!UICONTROL Conseil d’information]** en regard de l’option.
+1. Spécifiez les autres options voulues. Pour afficher une description d’une option, sélectionnez l’option **[!UICONTROL Conseil d’informations]** en regard de l’option .
 
    La page Aperçu affiche la visionneuse au fur et à mesure que vous mettez à jour et modifiez les paramètres.
 
-1. Sélectionnez **[!UICONTROL Enregistrer]**.
+1. Sélectionner **[!UICONTROL Enregistrer]**.
 
-Sélectionnez **[!UICONTROL Définir la valeur par défaut]** pour que le paramètre prédéfini de visionneuse à 360° que vous avez créé soit la valeur par défaut de l’entreprise pour l’affichage des visionneuses à 360°.
+Sélectionner **[!UICONTROL Rendre par défaut]** pour définir le paramètre prédéfini de visionneuse à 360°, vous avez créé la valeur par défaut de l’entreprise pour l’affichage des visionneuses à 360°.
 
 Voir [Configuration des visionneuses par défaut](application-setup.md#configuring_default_viewers).
 

@@ -2,17 +2,17 @@
 title: Chargement des fichiers du PDF
 description: Découvrez comment charger les fichiers de PDF associés à un catalogue électronique dans Adobe Dynamic Media Classic.
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 7c1dfa7382b6eaf746fe7f0ac426472180c0c70c
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 38%
+source-wordcount: '831'
+ht-degree: 36%
 
 ---
 
@@ -44,7 +44,7 @@ Préparez les fichiers de votre PDF avant de les transférer vers Adobe Dynamic 
 
 Pour obtenir des informations détaillées sur les différentes méthodes de téléchargement, voir [Téléchargement de fichiers](uploading-files.md#uploading_your_files).
 
-Sélectionnez les fichiers à télécharger, puis sélectionnez ces options PDF *recommandées* :
+Sélectionnez les fichiers à charger, puis sélectionnez-les. *bonne pratique* Options de PDF :
 
 * **Options de recadrage** - Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Options de recadrage]**. Si les pages du PDF contiennent des marques de recadrage, des marques d’enregistrement ou d’autres marques, dans la variable **[!UICONTROL Recadrer]** liste déroulante, choisissez **[!UICONTROL Manuel]**. Indiquez les valeurs de recadrage (en nombre de pixels) à partir des bords supérieur, droit, inférieur et gauche des pages. Les marques de recadrage sont souvent définies sur une marge d’un demi-pouce. Supposons que vous choisissiez **[!UICONTROL 150]** (recommandé) en tant que résolution en pixels par pouce, et saisissez 75, 75, 75, 75 dans les zones de texte Haut, Droite, Bas et Gauche. Dans ce cas, elle recadre un demi-pouce des marges (à 150 ppp, la moitié de 1 équivaut à 75 pixels).
 

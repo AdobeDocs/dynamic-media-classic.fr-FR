@@ -2,7 +2,7 @@
 title: Bonne pratique pour utiliser la visionneuse de vidéos HTML5
 description: Découvrez les bonnes pratiques relatives à l’utilisation de la visionneuse de vidéos HTML5.
 uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
@@ -10,7 +10,7 @@ discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 11%
@@ -31,9 +31,9 @@ En combinant en un seul lecteur les fonctionnalités suivantes :
 
 Vous étendez la portée de votre contenu multimédia aux utilisateurs de bureau et mobiles. Vous garantissez également une expérience vidéo rationalisée.
 
-Voir aussi [À propos des visionneuses HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses Adobe.
+Voir aussi [A propos des visionneuses HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses Adobe.
 
-Voir également la [vidéo de formation Paramètres prédéfinis de la visionneuse](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
+Voir aussi [Paramètres prédéfinis de la visionneuse](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) vidéo de formation.
 
 ## Lecture vidéo sur les ordinateurs de bureau et les appareils mobiles à l’aide de la visionneuse vidéo Adobe Dynamic Media Classic {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 

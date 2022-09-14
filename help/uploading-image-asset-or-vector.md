@@ -1,13 +1,13 @@
 ---
 title: Chargement d’une ressource d’image pixellisée
 description: Découvrez comment télécharger une ressource d’image pixellisée dans Adobe Dynamic Media Classic
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 67%
@@ -20,11 +20,11 @@ Avant de transférer un fichier d’image, vous devez d’abord demander une cl�
 
 >[!IMPORTANT]
 >
->La prise en charge des ressources vectorielles UGC nouvelles ou existantes dans Adobe Dynamic Media Classic s’est terminée le 30 septembre 2021.
+>La prise en charge de ressources vectorielles UGC nouvelles ou existantes dans Adobe Dynamic Media Classic s’est terminée le 30 septembre 2021.
 
 ## Demande d’une clé de secret partagé {#requesting-a-shared-secret-key}
 
-Demandez une *clé de secret partagé* par [à l’aide du Admin Console pour créer un cas de support.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Dans votre cas de prise en charge, demandez une clé de secret partagé.
+Demander une *clé secrète partagée* par [utilisation du Admin Console pour créer un cas d’assistance.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Dans votre cas de prise en charge, demandez une clé de secret partagé.
 
 Dans le message électronique, indiquez le nom d’entreprise que vous voulez utiliser pour transférer les fichiers d’image. Une fois que vous avez reçu la clé d’Adobe Dynamic Media Classic, enregistrez-la localement pour une utilisation ultérieure.
 
@@ -35,7 +35,7 @@ Le *jeton de téléchargement* garantit que personne d’autre que vous n’util
 Le jeton de téléchargement est une chaîne numérique uniquement disponible pendant une durée limitée. Utilisez les URL suivantes, en substituant votre clé de secret partagé, afin que vous puissiez récupérer le jeton de chargement.
 
 * Image pixellisée
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`Dans cet exemple, la clé de secret partagé est  `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`Dans cet exemple, la clé de secret partagé est `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
@@ -86,7 +86,7 @@ Vous pouvez utiliser les champs suivants dans l’URL de requête pour récupér
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
 **Méthodes HTTP autorisées :**
-`GET` et  `POST`
+`GET` et `POST`
 
 Vous pouvez maintenant transférer un fichier d’image.
 
@@ -100,11 +100,11 @@ Après avoir récupéré un jeton de téléchargement valide pendant une durée 
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-Les champs `upload_token` et `company_name` sont obligatoires.
+Le `upload_token` et `company_name` sont obligatoires.
 
 Voir [Récupération du jeton de chargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Voir [Récupération d’une clé de secret partagé](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+Voir [Récupération d’une clé secrète partagée](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 Vous pouvez également envoyer d’autres valeurs facultatives comme chaînes de requête d’URL, comme dans cet exemple :
 
@@ -112,7 +112,7 @@ Vous pouvez également envoyer d’autres valeurs facultatives comme chaînes de
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-Le paramètre `file_limit` spécifie la limite de taille de fichier en octets. Le paramètre `file_exts` spécifie les extensions de nom de fichier admises pour le téléchargement. Ces deux valeurs sont facultatives.
+Le `file_limit` spécifie la limite de taille de fichier en octets. Le paramètre `file_exts` spécifie les extensions de nom de fichier admises pour le téléchargement. Ces deux valeurs sont facultatives.
 
 Une limite globale est définie dans l’application pour la taille limite des fichiers et les extensions de nom de fichier autorisées. Si le contenu de votre requête se trouve dans les limites globales, celle-ci est satisfaite. Les limites globales sont les suivantes :
 
@@ -129,14 +129,14 @@ Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier
 * Liste des extensions de nom de fichier.
 * Permet de conserver le profil colorimétrique et le nom de fichier associés à la ressource.
 * Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les méthodes Coin, Tolérance et Remplir.
-Voir Masquer l’arrière-plan dans [Options d’optimisation de l’image à l’adresse ](image-editing-options-upload.md#image-editing-options-at-upload) de téléchargement.
+Voir Masquage de l’arrière-plan dans [Options d’optimisation des images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nom du fichier à télécharger.
 
-Vous pouvez afficher le code source HTML associé au formulaire ci-dessus en sélectionnant [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Vous pouvez afficher le code source du HTML associé au formulaire ci-dessus en sélectionnant [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Dans Firefox, cliquez avec le bouton droit dans la fenêtre du navigateur, puis sélectionnez **[!UICONTROL Afficher la source de la page]**. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **[!UICONTROL Envoyer]**.
+Dans Firefox, cliquez avec le bouton droit dans la fenêtre du navigateur, puis sélectionnez **[!UICONTROL Afficher la source de page]**. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **[!UICONTROL Envoyer]**.
 
-Pour afficher la réponse XML dans Internet Explorer, accédez à **[!UICONTROL Vue]** > **[!UICONTROL Source]**. Pour afficher la réponse XML dans Firefox, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Outils de navigateur]** > **[!UICONTROL Outils de développement web]**. Firefox est recommandé pour afficher les réponses XML.
+Pour afficher la réponse XML dans Internet Explorer, accédez à **[!UICONTROL Affichage]** > **[!UICONTROL Source]**. Pour afficher la réponse XML dans Firefox, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Outils de navigateur]** > **[!UICONTROL Outils de développement web]**. Firefox est recommandé pour afficher les réponses XML.
 
 Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi :
 

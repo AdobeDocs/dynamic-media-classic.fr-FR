@@ -2,7 +2,7 @@
 title: Publication de modèles
 description: Découvrez comment publier des modèles à partir d’Adobe Dynamic Media Classic.
 uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
@@ -10,7 +10,7 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 13%
@@ -27,11 +27,11 @@ Lorsque vous publiez votre modèle, il est placé sur les serveurs d’images Dy
 
 ## Marquage de modèles  pour publication {#marking-templates-for-publish}
 
-Les modèles et tous leurs fichiers de prise en charge doivent être marqués pour publication pour être placés sur les serveurs Dynamic Media Image Server. Vous pouvez marquer ces éléments pour publication dans le panneau de navigation en sélectionnant l’icône **[!UICONTROL Marquer pour publication]** .
+Les modèles et tous leurs fichiers de prise en charge doivent être marqués pour publication pour être placés sur les serveurs Dynamic Media Image Server. Vous pouvez marquer ces éléments pour publication dans le panneau de navigation en sélectionnant l’option **[!UICONTROL Marquer pour publication]** icône .
 
 ## Publier votre modèle {#publishing-your-template}
 
-Pour publier des modèles sur les serveurs d’images Dynamic Media, dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**, puis sélectionnez une option **[!UICONTROL Lorsque]**. Vous pouvez éventuellement saisir un nom pour la tâche de publication. Sélectionnez **[!UICONTROL Envoyer la publication]**.
+Pour publier des modèles sur les serveurs d’images Dynamic Media, dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**, puis sélectionnez une **[!UICONTROL When]** . Vous pouvez éventuellement saisir un nom pour la tâche de publication. Sélectionner **[!UICONTROL Envoyer la publication]**.
 
 >[!MORELIKETHIS]
 >

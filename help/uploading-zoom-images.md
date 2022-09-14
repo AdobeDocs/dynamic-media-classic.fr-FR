@@ -2,7 +2,7 @@
 title: Télécharger des images de zoom
 description: Découvrez comment télécharger des images de zoom dans Adobe Dynamic Media Classic.
 uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
@@ -10,9 +10,9 @@ discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '221'
 ht-degree: 21%
 
 ---
@@ -23,17 +23,17 @@ Les images de zoom doivent présenter un grand nombre de pixels Un nombre élev�
 
 Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour commencer à charger des images.
 
-Pour obtenir des instructions détaillées sur la mise en ligne des images, voir [Chargement de fichiers](uploading-files.md#uploading_files).
+Pour obtenir des instructions détaillées sur la mise en ligne d’images, reportez-vous à la section [Chargement de fichiers](uploading-files.md#uploading_files).
 
 **Préparez vos images pour un zoom :**
 
-Pour tirer le meilleur parti des fonctionnalités de zoom Adobe Dynamic Media Classic, préparez vos fichiers d’image de zoom avant de les télécharger :
+Pour tirer le meilleur parti des fonctions de zoom d’Adobe Dynamic Media Classic, préparez vos fichiers image de zoom avant de les télécharger :
 
-* **Taille d’image**  : Adobe Dynamic Media Classic recommande d’utiliser des fichiers d’image d’au moins 2 000 pixels pour la taille la plus longue. ce afin d’obtenir des images clairement visibles lors de l’exécution d’un zoom.
+* **Taille de l’image** - Adobe Dynamic Media Classic recommande d’utiliser des fichiers image dont la taille est, au minimum, de 2 000 pixels pour la plus grande taille. ce afin d’obtenir des images clairement visibles lors de l’exécution d’un zoom.
 
-* **Formats**  de fichier : Adobe Dynamic Media Classic prend en charge tous les formats de fichier image standard, notamment TIFF, BMP, JPEG, PSD, GIF et EPS. Il est recommandé de privilégier les formats d’image sans perte, à savoir TIFF et PNG. Si vous utilisez une image JPEG, utilisez les paramètres de qualité supérieure.
+* **Formats de fichier** - Adobe Dynamic Media Classic prend en charge tous les formats de fichier image standard, y compris TIFF, BMP, JPEG, PSD, GIF et EPS. Il est recommandé de privilégier les formats d’image sans perte, à savoir TIFF et PNG. Si vous utilisez une image de JPEG, utilisez les paramètres de qualité supérieure.
 
-* **Espace colorimétrique**  : RVB est l’espace colorimétrique pour les présentations d’images web ; Les images CMJN sont automatiquement converties en RVB lorsque vous les chargez. Il est recommandé de télécharger des images CMJN dotées d’un profil de couleurs ICC incorporé pour la conversion en mode RVB (voir aussi Profils ICC).
+* **Espace colorimétrique** - RGB est l’espace colorimétrique des présentations d’images web ; Les images CMJN sont automatiquement converties en RGB lorsque vous les chargez. Il est recommandé de télécharger des images CMJN dotées d’un profil de couleurs ICC incorporé pour la conversion en mode RVB (voir aussi Profils ICC).
 
 >[!MORELIKETHIS]
 >

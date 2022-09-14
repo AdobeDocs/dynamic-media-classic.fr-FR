@@ -2,7 +2,7 @@
 title: Exportation de ressources à partir d’Adobe Dynamic Media Classic
 description: Découvrez comment exporter des ressources à partir d’Adobe Dynamic Media Classic.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
@@ -10,10 +10,10 @@ discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 52%
+source-wordcount: '432'
+ht-degree: 51%
 
 ---
 
@@ -30,25 +30,25 @@ Adobe Dynamic Media Classic conserve un enregistrement des tâches d’exportati
 1. Sélectionnez les ressources à exporter, puis accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Exporter]**.
 1. Dans la fenêtre Exporter les fichiers sélectionnés, cliquez sur **[!UICONTROL Options d’image]**, puis spécifiez une ou plusieurs options parmi les suivantes (les administrateurs déterminent quelles options sont disponibles pour les utilisateurs) :
 
-   * **[!UICONTROL Paramètres prédéfinis]**  : (Facultatif) choisissez un paramètre d’image prédéfini pour formater la ressource lorsque vous l’exportez. Si vous choisissez un paramètre d’image prédéfini, les autres options de formatage ne sont pas disponibles, car le fichier adopte les formats définis par ce paramètre d’image prédéfini.
+   * **[!UICONTROL Paramètres prédéfinis]** - Vous pouvez éventuellement choisir un paramètre d’image prédéfini pour formater la ressource lorsque vous l’exportez. Si vous choisissez un paramètre d’image prédéfini, les autres options de formatage ne sont pas disponibles, car le fichier adopte les formats définis par ce paramètre d’image prédéfini.
 
-   * **[!UICONTROL Conversion]**  : convertissez le fichier de ressource ou l’image d’origine.
+   * **[!UICONTROL Conversion]** - Convertissez le fichier de ressource ou l’image d’origine.
 
-   * **[!UICONTROL Taille]**  : vous pouvez sélectionner une taille standard. Vous pouvez également sélectionner **[!UICONTROL Autre]** dans la liste déroulante **[!UICONTROL Taille]**, choisir l’unité de mesure souhaitée, puis spécifier la largeur et la hauteur.
+   * **[!UICONTROL Taille]** - Vous pouvez sélectionner une taille standard. Vous pouvez également sélectionner **[!UICONTROL Autre]** de la **[!UICONTROL Taille]** , choisissez l’unité de mesure souhaitée, puis définissez la largeur et la hauteur.
 
       Voir aussi [Définition des options d’exportation disponibles pour les utilisateurs de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **[!UICONTROL Format]**  : choisissez un format d’image.
+   * **[!UICONTROL Format]** - Choisissez un format d’image.
 
-   * **[!UICONTROL Couleur]**  : choisissez RVB, CMJN ou Gris.
+   * **[!UICONTROL Couleur]** - Choisissez RGB, CMJN ou Gris.
 
-   * **[!UICONTROL Résolution]**  : 72 ppp, 150 ppp ou 300 ppp.
+   * **[!UICONTROL Résolution]** - Choisissez 72 ppp, 150 ppp ou 300 ppp.
 
-   * **[!UICONTROL Nom de la tâche]**  : vous pouvez attribuer un nom à la tâche à exporter.
+   * **[!UICONTROL Nom de la tâche]** - Vous pouvez attribuer un nom de tâche à l’exportation.
 
-   * **[!UICONTROL Envoyer un courrier électronique à]**  : si vous avez l’intention d’envoyer les ressources par courrier électronique, vous pouvez éventuellement saisir une adresse électronique. Le message e-mail indique l’URL à laquelle le destinataire peut accéder pour télécharger les fichiers.
+   * **[!UICONTROL Envoyer un courrier électronique à]** - Vous pouvez éventuellement saisir une adresse électronique si vous envisagez d’envoyer les ressources par courrier électronique. Le message e-mail indique l’URL à laquelle le destinataire peut accéder pour télécharger les fichiers.
 
-1. Sélectionnez **[!UICONTROL Exporter]**.
+1. Sélectionner **[!UICONTROL Exporter]**.
 
 Trois actions d’exportation de base sont prises en charge :
 
@@ -62,7 +62,7 @@ Il est impossible d’exporter les types de fichier suivants Tous les autres gé
 * Visionneuses de rendus
 * Visionneuses à 360°
 * Visionneuses de supports
-* Visionneuses à débit binaire multiple
+* Visionneuses à débit multiple
 * Catalogues électroniques
 
 Par ailleurs, les modèles ne peuvent être exportés en tant que « fichier d’origine ».

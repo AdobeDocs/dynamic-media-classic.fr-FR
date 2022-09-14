@@ -2,17 +2,17 @@
 title: Téléchargement de fichiers
 description: Découvrez comment charger des fichiers dans Adobe Dynamic Media Classic.
 uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3929'
+ht-degree: 31%
 
 ---
 
@@ -78,7 +78,7 @@ Pour obtenir des résultats optimaux avec le programme Adobe Dynamic Media Class
 | Polices | Chargement des polices TrueType, Type1 (Windows® uniquement), OpenType® et PhotoFonts. |
 | Images | Images et fichiers d’images superposées. |
 | Visionneuses d’images et séries d’échantillons | Ensemble d’images associées pouvant être affichées dans une visionneuse. |
-| Profils ICC | Profil de couleur pouvant être utilisé pour convertir une image téléchargée depuis son espace colorimétrique source dans un autre espace colorimétrique. |
+| Profils ICC | Profil colorimétrique que vous pouvez utiliser pour convertir une image téléchargée depuis son espace colorimétrique source en un autre espace colorimétrique. |
 | Vignettes | Images créées avec le programme de création d’images et les fichiers associés. |
 | Fichiers de contenu | Fichiers de contenu Adobe InDesign, Illustrator ou Photoshop. |
 | Fichiers FXG | Format de fichiers graphiques à résolution indépendante permettant de créer des modèles personnalisables en vue d’une sortie pour impression, Web, courrier électronique, ordinateur et appareils mobiles. |
@@ -101,7 +101,7 @@ Les types de fichier suivants peuvent être publiés :
 * Fichiers audio
 * CSS
 * JavaScript (lorsque l’entreprise est configurée avec son propre domaine)
-* Vidéo originale
+* Vidéo Principale
 * PDF (lorsque le PDF est marqué pour publication après le chargement, afin d’éviter la diffusion de tous les PDF pour le processus de catalogue électronique/PDF existant)
 * Vidéo PrX
 * SVG
@@ -114,14 +114,14 @@ Adobe Dynamic Media Classic ne permet pas de générer une URL d’aperçu de co
 
 Etant donné que l’extension est ôtée du nom du fichier durant le processus de téléchargement, le système ne permet pas que des fichiers présentent le même nom racine. Dans le système Adobe Dynamic Media Classic, le nom de fichier de la ressource moins l’extension devient l’identifiant de la ressource. C’est la raison pour laquelle deux fichiers ne peuvent pas avoir le même nom.
 
-Veillez à ce que tous les utilisateurs de votre entreprise se familiarisent avec les règles de dénomination de fichiers suivantes :
+Assurez-vous que tous les utilisateurs de votre entreprise comprennent les règles suivantes pour nommer les fichiers :
 
 * Les ID de fichier présentant exactement le même nom ne sont pas autorisés dans le système.
 * Les noms d’ID de ressource sont sensibles à la casse.
 * Il est recommandé de s’assurer que les ID de fichier ne contiennent pas d’espace (par exemple, veste noire.tif et veste bleue.jpg). Adobe Dynamic Media Classic code les espaces vides dans les noms de ressources à l’aide de noms de ressources pour créer des chaînes d’URL. Ces codes ASCII sont difficiles à lire, ce qui rend également plus difficile la lecture de ces chaînes.
 * Les caractères spécifiques aux langues sont autorisés dans les noms de fichier, à l’exception des caractères suivants :
 
-   \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; { } %
+   \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
 
    Si un nom de fichier contient un ou plusieurs de ces caractères, ceux-ci sont supprimés du nom du fichier au moment du téléchargement.
 
@@ -275,7 +275,7 @@ Voir [Utilisation des paramètres prédéfinis de codage vidéo](uploading-encod
 
 Lorsque vous transférez des éléments par FTP, vous pouvez planifier une tâche ultérieure qui commencera une fois le transfert terminé. Si d’autres tâches sont planifiées pour commencer, la tâche que vous planifiez ici est mise en file d’attente après elles.
 
-La nouvelle tâche envoie une notification à l’adresse spécifiée par vos soins de manière à déclencher ce code à cet emplacement. Cette tâche de publication consécutive reprend le nom de la tâche de téléchargement, mais ajoute *Pub_* devant le nom.
+La nouvelle tâche envoie une notification à l’adresse que vous spécifiez afin que le code à cet emplacement puisse être déclenché. Cette tâche de publication consécutive reprend le nom de la tâche de téléchargement, mais ajoute *Pub_* devant le nom.
 
 **Enchaînement d’une tâche de téléchargement et d’une autre tâche:**
 

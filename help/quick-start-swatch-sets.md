@@ -1,8 +1,8 @@
 ---
-title: '"Démarrage rapide : Séries d’échantillons"'
+title: "Démarrage rapide\_: Séries d’échantillons"
 description: Introduction et démarrage rapide de la série d’échantillons pour vous aider à démarrer rapidement dans Adobe Dynamic Media Classic.
 uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
@@ -10,7 +10,7 @@ discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 25%
@@ -27,17 +27,17 @@ Ce didacticiel de mise en route Série d’échantillons est conçu pour vous ai
 
 Commencez par télécharger les fichiers d’images et d’échantillons pour les séries d’échantillons.
 
-Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour charger des fichiers depuis votre ordinateur vers un dossier sur Adobe Dynamic Media Classic. Voir [Préparation du chargement de ressources de série d’échantillons](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) et [Chargement de vos fichiers](uploading-files.md#uploading-your-files).
+Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour charger des fichiers depuis votre ordinateur vers un dossier sur Adobe Dynamic Media Classic. Voir [Préparation du chargement de ressources de série d’échantillons](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) et [Chargement des fichiers](uploading-files.md#uploading-your-files).
 
 ## 2. Création d’une série d’échantillons
 
-Pour créer une série d’échantillons, dans la barre de navigation globale, accédez à **[!UICONTROL Build]** > **[!UICONTROL Série d’échantillons]**. Sur la page Série d’échantillons , faites glisser des images et des échantillons de couleurs sur la page. Voir [Création d’une série d’échantillons](creating-swatch-set.md#creating-a-swatch-set).
+Pour créer une série d’échantillons, dans la barre de navigation globale, accédez à **[!UICONTROL Build]** > **[!UICONTROL Séries d’échantillons]**. Sur la page Série d’échantillons , faites glisser des images et des échantillons de couleurs sur la page. Voir [Création d’une série d’échantillons](creating-swatch-set.md#creating-a-swatch-set).
 
 ## 3. Configuration des paramètres prédéfinis de la visionneuse d’échantillons
 
 Les administrateurs peuvent créer ou modifier les paramètres prédéfinis de la visionneuse d’images. Adobe Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse par défaut pour chaque type de média enrichi. Utilisez les paramètres prédéfinis Visionneuse de zoom : Personnalisée > Visionneuses d’images / Nuances pour visualiser vos séries d’échantillons.
 
-Voir [Création et modification de paramètres de visionneuse prédéfinis](application-setup.md#adding-and-editing-viewer-presets).
+Voir [Création et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding-and-editing-viewer-presets).
 
 ## 4. Prévisualisation d’une série d’échantillons
 
@@ -49,9 +49,9 @@ Voir [Aperçu d’une ressource](previewing-asset.md#previewing-an-asset).
 
 La publication d’une série d’échantillons la place sur les serveurs Adobe Dynamic Media Classic et active la chaîne URL.
 
-Sélectionnez l’icône **[!UICONTROL Marquer pour publication]** à gauche de son nom dans le panneau de navigation. Sélectionnez ensuite **[!UICONTROL Publier]**. Sur la page Publier, sélectionnez **[!UICONTROL Envoyer la publication]**.
+Sélectionnez la **[!UICONTROL Marquer pour publication]** à gauche de son nom dans le panneau de navigation. Sélectionnez ensuite **[!UICONTROL Publier]**. Sur la page Publier, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
-Voir [Publier les fichiers](publishing-files.md#publishing-files).
+Voir [Publication de fichiers](publishing-files.md#publishing-files).
 
 ## 6. Associer une série d’échantillons à une page web
 

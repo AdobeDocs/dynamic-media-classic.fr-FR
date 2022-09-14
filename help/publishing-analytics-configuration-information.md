@@ -2,7 +2,7 @@
 title: Publication des informations de configuration Adobe Analytics
 description: Découvrez comment publier des informations de configuration Adobe Analytics à partir d’Adobe Dynamic Media Classic.
 uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
@@ -10,7 +10,7 @@ discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 21%
@@ -19,7 +19,7 @@ ht-degree: 21%
 
 # Publication des informations de configuration Adobe Analytics{#publishing-adobe-analytics-configuration-information}
 
-Publiez vos visionneuses Dynamic Media Classic Adobe afin que les informations sur la configuration des rapports Adobe Analytics soient envoyées aux serveurs Dynamic Media Classic Adobe. Ces informations sont incorporées aux visionneuses. La publication est nécessaire afin que les informations contenues dans les visionneuses soient disponibles sur les serveurs Dynamic Media Classic Adobe. C’est à partir de là qu’elles peuvent être transmises à Adobe Analytics lorsque des utilisateurs effectuent une action au niveau des visionneuses.
+Publiez vos visionneuses Adobe Dynamic Media Classic afin que les informations sur la configuration des rapports Adobe Analytics soient envoyées aux serveurs Adobe Dynamic Media Classic. Ces informations sont incorporées aux visionneuses. La publication est nécessaire afin que les informations contenues dans les visionneuses soient disponibles sur les serveurs Adobe Dynamic Media Classic. C’est à partir de là qu’elles peuvent être transmises à Adobe Analytics lorsque des utilisateurs effectuent une action au niveau des visionneuses.
 
 >[!NOTE]
 >

@@ -2,7 +2,7 @@
 title: Utilisation de PDF
 description: Découvrez comment utiliser des PDF dans Adobe Dynamic Media Classic.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '710'
 ht-degree: 36%
 
 ---
@@ -95,4 +95,4 @@ Vous pouvez supprimer manuellement les repères d’impression sur les côtés d
 1. Dans le menu Recadrer, sélectionnez **[!UICONTROL Manuel]**.
 1. Entrez les valeurs en pixels dans les zones de texte pour les bords supérieur, droit, inférieur et gauche de manière à recadrer à partir du haut, du bas et des côtés des pages.
 
-La proportion de la page rognée dépend du paramètre de résolution px/pouce (pixels par pouce) que vous spécifiez pour le fichier PDF. Par exemple, si vous saisissez 150 (valeur par défaut) comme paramètre de résolution PX/Inch et que vous recadrez 75 pixels des côtés des pages, un demi-pouce est rogné ; à 150 pixels par pouce, 75 pixels égale un demi-pouce.
+La proportion de la page rognée dépend du paramètre de résolution px/pouce (pixels par pouce) que vous spécifiez pour le fichier PDF. Supposons, par exemple, que vous saisissiez 150 (valeur par défaut) comme paramètre de résolution PX/Inch. Ensuite, vous recadrez 75 pixels à partir des côtés des pages. Dans ce cas, 0,5 po est recadré. À 150 pixels par pouce, 75 pixels égale un demi-pouce.
