@@ -10,16 +10,16 @@ discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: fab1f618-5370-4049-b6e0-69264afa933c
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 5ed38982f3a8a2912a11530589212a024fda798c
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 20%
+source-wordcount: '72'
+ht-degree: 0%
 
 ---
 
 # Exportation de vidéos source et codées{#exporting-source-and-encoded-videos}
 
-Dans le panneau de navigation, les vidéos sources sont intitulées « Vidéos originales ». Les vidéos encodées sont intitulées « Vidéos ». Vous pouvez exporter des vidéos sources et des vidéos Principales. Pour exporter des fichiers vidéo, sélectionnez-les dans le panneau Parcourir et accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Exporter]**.
+Dans le panneau Parcourir , les vidéos sources sont étiquetées. *Vidéo Principal*. Les vidéos codées sont étiquetées *Vidéo*. Vous pouvez exporter des vidéos et des vidéos Principales. Pour exporter des fichiers vidéo, sélectionnez-les dans le panneau Parcourir et accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Exporter]**.
 
 Voir [Exportation de ressources à partir d’Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 
