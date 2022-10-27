@@ -1,16 +1,16 @@
 ---
 title: Limites de Dynamic Media
-description: Découvrez les bonnes pratiques et les limites appliquées lorsque vous créez une visionneuse d’images ou à 360° ou chargez un PDF. Découvrez également les combinaisons de navigateur web et de système d’exploitation non prises en charge pour les visionneuses Dynamic Media.
+description: Découvrez les bonnes pratiques et les limites appliquées lorsque vous créez une visionneuse d’images ou à 360° ou chargez un PDF. Découvrez également les combinaisons de navigateur web et de système d’exploitation non prises en charge pour Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
+feature: Dynamic Media Classic,Asset Management,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
+source-git-commit: 09f105e47eddee81fc9612282a4ef305e9ccb105
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '281'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Les sections suivantes décrivent les limites dans Dynamic Media.
 Cette rubrique comprend les sections suivantes :
 
 * [Bonnes pratiques et limites appliquées par Dynamic Media sur les types de ressources](#best-practice-enforced-limits)
-* [Combinaisons de navigateur web et de système d’exploitation non prises en charge pour les visionneuses Dynamic Media](#unsupported-browser-os)
+* [Combinaisons de navigateur web et de système d’exploitation non prises en charge pour Dynamic Media](#unsupported-browser-os)
 
 ## Bonnes pratiques et limites appliquées par Dynamic Media sur les types de ressources {#best-practice-enforced-limits}
 
@@ -38,11 +38,11 @@ Lorsque vous créez une visionneuse à 360° ou une visionneuse d’images, ou q
 
 <!-- See also [Dynamic Media limitations](/help/assets/limitations.md). -->
 
-## Combinaisons de navigateur web et de système d’exploitation non prises en charge pour les visionneuses Dynamic Media {#unsupported-browser-os}
+## Combinaisons de navigateur web et de système d’exploitation non prises en charge pour Dynamic Media {#unsupported-browser-os}
 
 <!-- CQDOC-19433 -->
 
-Les visionneuses Dynamic Media Adobe ne prennent pas en charge les combinaisons de navigateur web et de système d’exploitation suivantes.
+Adobe Dynamic Media ne prend pas en charge les combinaisons de navigateur web et de système d’exploitation suivantes.
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
@@ -58,7 +58,7 @@ Les visionneuses Dynamic Media Adobe ne prennent pas en charge les combinaisons 
 
 <!-- CQDOC-19433 -->
 
-À compter du 30 septembre 2022, les visionneuses Dynamic Media Adobe ne prendront plus en charge les éléments suivants :
+À compter du 30 septembre 2022, Adobe Dynamic Media cessera de prendre en charge les éléments suivants :
 
 * TLS (Transport Layer Security) 1.0 et 1.1
 * Les chiffrements faibles suivants dans TLS 1.2 :
