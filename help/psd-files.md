@@ -10,9 +10,9 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: dc1ec666b208cec8fffe836d64ed501f6ccf4e7b
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1003'
 ht-degree: 26%
 
 ---
@@ -34,12 +34,12 @@ Les options suivantes sont disponibles au cours du téléchargement des fichiers
 * **Options de recadrage** - Situé sous **[!UICONTROL Options de recadrage]**. Sélectionner **[!UICONTROL Rogner]** pour recadrer automatiquement l’espace blanc des bords d’un fichier de PSD ; select **[!UICONTROL Manuel]** pour recadrer les côtés du fichier de PSD :
 
    * **[!UICONTROL Rogner]** - Sélectionnez la variable **[!UICONTROL Rogner en fonction de]** et choisissez **[!UICONTROL Couleur]** ou **[!UICONTROL Transparence]**.
+   Si vous choisissez l’option **[!UICONTROL Couleur]** , sélectionnez le menu Coin et choisissez l’angle du PSD avec la couleur qui représente le mieux l’espace blanc que vous souhaitez recadrer.
 
-      Si vous choisissez l’option **[!UICONTROL Couleur]** , sélectionnez le menu Coin et choisissez l’angle du PSD avec la couleur qui représente le mieux l’espace blanc que vous souhaitez recadrer.
-
-      Faites glisser le curseur pour définir une valeur de tolérance comprise entre 0 et 1. Pour effectuer le rognage en fonction de la couleur, indiquez la valeur 0 pour rogner les pixels seulement s’ils correspondent exactement à la couleur que vous avez sélectionnée dans l’angle du fichier PSD. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs. Pour effectuer un rognage en fonction de la transparence, spécifiez 0 pour rogner les pixels uniquement s’ils sont transparents. Les valeurs plus proches de 1 permettent une plus grande transparence.
+   Faites glisser le curseur pour définir une valeur de tolérance comprise entre 0 et 1. Pour effectuer le rognage en fonction de la couleur, indiquez la valeur 0 pour rogner les pixels seulement s’ils correspondent exactement à la couleur que vous avez sélectionnée dans l’angle du fichier PSD. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs. Pour effectuer un rognage en fonction de la transparence, spécifiez 0 pour rogner les pixels uniquement s’ils sont transparents. Les valeurs plus proches de 1 permettent une plus grande transparence.
 
    * **[!UICONTROL Manuel]** - Saisissez le nombre de pixels à recadrer d’un côté ou de chaque côté de l’image. La proportion de l’image qui est rognée dépend du paramètre ppp (pixels par pouce) défini dans le fichier d’image. Par exemple, si l’image affiche 150 ppp et que vous entrez 75 dans les zones de texte Haut, Droite, Bas et Gauche, 0,5 po. est recadré de chaque côté de l’image.
+
 
 * **Options de profil colorimétrique** - Situé sous **[!UICONTROL Options de profil colorimétrique]**.
 
@@ -72,6 +72,10 @@ Les options suivantes sont disponibles au cours du téléchargement des fichiers
 ## Affichage et modification des calques dans un fichier de PSD {#viewing-and-editing-layers-in-a-psd-file}
 
 Si vous avez sélectionné l’option Conserver les calques lors du chargement de votre PSD, Adobe Dynamic Media Classic a extrait les calques individuels en ressources. Vous pouvez afficher et modifier les calques de ressources appartenant à un fichier de PSD en ouvrant le fichier dans le panneau de navigation de la vue Détails.
+
+>[!NOTE]
+>
+>Adobe Dynamic Media Classic prend en charge jusqu’à cinq niveaux dans un groupe de calques imbriqués.
 
 1. Double-cliquez sur le fichier de PSD complet dans le panneau de navigation. Le fichier s’ouvre dans la vue Détails.
 
