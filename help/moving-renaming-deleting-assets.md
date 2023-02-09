@@ -10,10 +10,10 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 13d9199e0613c7b1eb664ffee859a79dd3f9faca
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 33%
+source-wordcount: '618'
+ht-degree: 0%
 
 ---
 
@@ -25,6 +25,8 @@ Vous pouvez déplacer, renommer et supprimer des fichiers à partir du panneau d
 
 Vous pouvez déplacer des fichiers dans d’autres dossiers du panneau de navigation.
 
+**Pour déplacer des ressources :**
+
 1. Pour ce faire, sélectionnez le ou les fichiers dans le panneau de navigation, puis utilisez l’une des méthodes suivantes :
 
    * Affichez le dossier vers lequel vous souhaitez déplacer les ressources dans la bibliothèque de ressources et faites-le glisser vers le dossier.
@@ -32,12 +34,10 @@ Vous pouvez déplacer des fichiers dans d’autres dossiers du panneau de naviga
 
 ## Attribution d’un nouveau nom à un fichier {#rename-assets}
 
-1. Sélectionnez le fichier dans le panneau de navigation, puis utilisez l’une des méthodes suivantes :
+1. Sélectionnez la ressource dans le panneau de navigation, puis effectuez l’une des opérations suivantes :
 
    * Sélectionnez le nom, saisissez un nouveau nom, puis appuyez sur **[!UICONTROL Entrée]** ou sélectionnez l’option en dehors du nom.
-   * Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Renommer]**. Le nom du fichier est mis en surbrillance. Saisissez un nouveau nom et appuyez sur **[!UICONTROL Entrée]**.
-
-Veillez à ne pas saisir le nom d’une ressource Adobe Dynamic Media Classic existante.
+   * Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Renommer]**. Le nom du fichier est mis en surbrillance. Saisissez un nouveau nom et appuyez sur **[!UICONTROL Entrée]**. Veillez à ne pas saisir le nom d’une ressource Adobe Dynamic Media Classic existante.
 
 ## Suppression de fichiers {#delete-assets}
 
@@ -45,9 +45,13 @@ Vous pouvez supprimer des ressources sélectionnées dans le panneau de navigati
 
 Lorsque vous supprimez un fichier, tous les fichiers dérivés de ce fichier sont supprimés en même temps. Par exemple, la suppression d’une image pour laquelle vous avez créé des cibles de zoom entraîne la suppression simultanée des cibles de zoom.
 
->[!NOTE]
+les cibles de zoom, les attributs d’image et les entrées d’historique sont supprimés définitivement lorsque vous supprimez les fichiers d’où ils proviennent. Ils ne sont pas déplacés simultanément avec le fichier vers le dossier Corbeille ; ils ne peuvent pas non plus être restaurés depuis la Corbeille.
+
+>[!IMPORTANT]
 >
->les cibles de zoom, les attributs d’image et les entrées d’historique sont supprimés définitivement lorsque vous supprimez les fichiers d’où ils proviennent. Ils ne sont pas déplacés simultanément avec le fichier vers le dossier Corbeille ; ils ne peuvent pas non plus être restaurés depuis la Corbeille.
+>La suppression en bloc est une opération intensive. Veillez à exécuter les suppressions en bloc de manière séquentielle plutôt que comme des opérations de suppression lourdes simultanées. Adobe recommande de limiter les opérations de suppression à 5 000 suppressions de ressources ou moins par heure. Un nombre supérieur à 5 000 par heure peut entraîner une limitation de débit.
+
+**Pour supprimer des ressources :**
 
 1. Utilisez l’une des méthodes suivantes :
 
@@ -56,9 +60,7 @@ Lorsque vous supprimez un fichier, tous les fichiers dérivés de ce fichier son
 
       La suppression d’un dossier supprime le dossier, toutes les ressources qu’il contient, ainsi que toutes les ressources qu’il contient.
 
->[!NOTE]
->
->Adobe Dynamic Media Classic recommande de remplacer les fichiers de ressources plutôt que de les supprimer si la raison pour laquelle vous supprimez un fichier de ressources est de le remplacer par un autre portant le même nom.
+Adobe Dynamic Media Classic recommande de remplacer les fichiers de ressources plutôt que de les supprimer si la raison pour laquelle vous supprimez un fichier de ressources est de le remplacer par un autre portant le même nom.
 
 ## Suppression de plusieurs fichiers à l’aide d’un fichier texte {#delete-multiple-assets-with-a-text-file}
 
