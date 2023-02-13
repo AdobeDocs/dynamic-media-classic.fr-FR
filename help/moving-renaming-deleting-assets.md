@@ -10,10 +10,10 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 13d9199e0613c7b1eb664ffee859a79dd3f9faca
+source-git-commit: 741e31e64125a2dfe3f801480837ffbaf81767aa
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 
@@ -34,7 +34,7 @@ Vous pouvez déplacer des fichiers dans d’autres dossiers du panneau de naviga
 
 ## Attribution d’un nouveau nom à un fichier {#rename-assets}
 
-1. Sélectionnez la ressource dans le panneau de navigation, puis effectuez l’une des opérations suivantes :
+1. Sélectionnez le fichier dans le panneau de navigation, puis utilisez l’une des méthodes suivantes :
 
    * Sélectionnez le nom, saisissez un nouveau nom, puis appuyez sur **[!UICONTROL Entrée]** ou sélectionnez l’option en dehors du nom.
    * Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Renommer]**. Le nom du fichier est mis en surbrillance. Saisissez un nouveau nom et appuyez sur **[!UICONTROL Entrée]**. Veillez à ne pas saisir le nom d’une ressource Adobe Dynamic Media Classic existante.
@@ -49,7 +49,7 @@ les cibles de zoom, les attributs d’image et les entrées d’historique sont 
 
 >[!IMPORTANT]
 >
->La suppression en bloc est une opération intensive. Veillez à exécuter les suppressions en bloc de manière séquentielle plutôt que comme des opérations de suppression lourdes simultanées. Adobe recommande de limiter les opérations de suppression à 5 000 suppressions de ressources ou moins par heure. Un nombre supérieur à 5 000 par heure peut entraîner une limitation de débit.
+>La suppression en bloc est une opération intensive. Veillez à exécuter les suppressions en bloc de manière séquentielle plutôt que comme des opérations de suppression lourdes simultanées. Adobe recommande de limiter les opérations de suppression à 5 000 suppressions de ressources ou moins par heure. Tout nombre supérieur à 5 000 par heure peut entraîner une limitation de débit.
 
 **Pour supprimer des ressources :**
 
