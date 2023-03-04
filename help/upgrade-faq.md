@@ -3,9 +3,9 @@ title: FAQ sur la mise à niveau
 description: Questions fréquentes (FAQ) lors de la mise à niveau à partir de [!DNL Adobe Dynamic Media Classic] application de bureau vers [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] Ressources.
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 25e4f0d893c5963b648d75f65d099bca09e0f72f
+source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Actuel [!DNL Dynamic Media Classic] (anciennement Scene7) les clients qui ont é
 +++
 
 +++**Comment lancer le processus de mise à niveau ?**
-Contactez votre représentant du CSM (Customer Service Management) d’Adobe ou [email s7support@adobe.com](mailto:s7support@adobe.com) avec l’objet `[!DNL Dynamic Media] Upgrade Program`.
+Contactez votre représentant de l’équipe chargée du compte d’Adobe ou [email s7support@adobe.com](mailto:s7support@adobe.com) avec l’objet `[!DNL Dynamic Media] Upgrade Program`.
 
 +++
 
@@ -90,7 +90,7 @@ Le délai de mise à niveau varie en fonction de plusieurs facteurs, notamment :
 +++
 
 +++**Y a-t-il une différence entre les coûts de licence ?**
-Contactez votre représentant du CSM Adobe pour plus d’informations sur les tarifs.
+Consultez le représentant de votre équipe de compte d’Adobe pour plus d’informations sur les tarifs.
 
 +++
 
@@ -195,7 +195,7 @@ Adobe effectue une validation automatisée sur toutes les ressources qui sont d�
 +++
 
 +++**Existe-t-il un contrat SLA pour [!DNL Dynamic Media]?**
-Oui. Pour plus d’informations, contactez votre représentant CSM d’Adobe.
+Oui. Pour plus d’informations, contactez votre représentant de l’équipe chargée du compte d’Adobe.
 
 +++
 
@@ -228,7 +228,7 @@ Voir aussi [Comparaison des fonctionnalités](/help/upgrade-feature-comparison.m
 ## Services de conseil
 
 +++**Puis-je terminer le processus de mise à niveau tout seul ?**
-Non. Collaborez avec votre représentant Adobe et AGS pour réaliser votre mise à niveau.
+Non. Contactez votre représentant d’Adobe et AGS pour réaliser votre mise à niveau.
 
 +++
 
@@ -251,7 +251,7 @@ Téléphone : 1-800-898-9743 (US) | +44 (0)20 35641782 (Royaume-Uni) | +81-3-674
 +++**Où puis-je en apprendre davantage sur les options de formation payante ?**
 Voir [Adobe des services de formation numérique](https://learning.adobe.com).
 
-Pour une formation personnalisée ou individuelle, veuillez contacter votre représentant CSM Adobe.
+Pour une formation personnalisée ou individuelle, contactez votre représentant de l’équipe chargée du compte d’Adobe.
 
 +++
 

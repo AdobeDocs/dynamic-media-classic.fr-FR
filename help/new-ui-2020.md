@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Aucun SKU ou changement de licence n’est nécessaire pour utiliser la nouvelle
 +++
 
 +++**_Comment les mises à niveau de l’appli de bureau Adobe Dynamic Media Classic sont-elles activées ?_**
-Après la publication de l’appli de bureau Adobe Dynamic Media Classic le 30 juin 2020, si Adobe publie une nouvelle version, les clients doivent télécharger la nouvelle version et l’installer comme d’habitude (remplacer l’application existante dans **[!UICONTROL Applications]**). Vous êtes informé de la nouvelle version via votre CSM (Customer Success Manager) et un mécanisme de notification de mise à niveau in-app qui avertit les utilisateurs d’une mise à niveau.
+Après la publication de l’appli de bureau Adobe Dynamic Media Classic le 30 juin 2020, si Adobe publie une nouvelle version, les clients doivent télécharger la nouvelle version et l’installer comme d’habitude (remplacer l’application existante dans **[!UICONTROL Applications]**). Vous êtes informé de la nouvelle version par l’intermédiaire de votre équipe de compte d’Adobe et d’un mécanisme de notification de mise à niveau in-app qui avertit les utilisateurs d’une mise à niveau.
 +++
 
 +++**_Comment obtenir de l’aide pour tout problème lié à l’appli de bureau Adobe Dynamic Media Classic ?_**
