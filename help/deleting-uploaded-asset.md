@@ -1,5 +1,5 @@
 ---
-title: Supprimer un fichier téléchargé
+title: Suppression d’une ressource d’image pixellisée chargée
 description: Découvrez comment supprimer une ressource chargée dans Adobe Dynamic Media Classic.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 71%
+source-wordcount: '133'
+ht-degree: 51%
 
 ---
 
@@ -53,6 +53,10 @@ Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pou
 <!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
+>
+>À compter du 1er mai 2023, les ressources de pixellisation UGC dans Dynamic Media Classic seront disponibles jusqu’à 60 jours à compter de la date de chargement. Au bout de 60 jours, les ressources seront supprimées.
+
+>[!NOTE]
 >
 >La prise en charge des ressources d’image vectorielle UGC nouvelles ou existantes dans Adobe Dynamic Media Classic s’est terminée le 30 septembre 2021.
 

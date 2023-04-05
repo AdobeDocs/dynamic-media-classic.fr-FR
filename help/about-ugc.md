@@ -9,21 +9,26 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 48%
+source-wordcount: '168'
+ht-degree: 35%
 
 ---
 
 # Contenu généré par l’utilisateur dans Adobe Dynamic Media Classic {#about-user-generated-content}
 
-L’utilisation du contenu généré par l’utilisateur consiste à charger des ressources vers un référentiel de stockage Dynamic Media Classic dédié Adobe et à effectuer les opérations associées.
+L’utilisation du contenu généré par l’utilisateur consiste à charger des ressources vers un référentiel de stockage Adobe Dynamic Media Classic dédié et à effectuer les opérations associées.
 
-Le contenu généré par l’utilisateur prend en charge les formats de fichiers image pixellisés BMP, GIF, JPG, PNG, PSD, TIFF.
-<!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
+Le contenu généré par l’utilisateur prend en charge les formats de fichier image pixellisée BMP, GIF, JPG, PNG, PSD, TIFF.
 
 >[!IMPORTANT]
+>
+>À compter du 1er mai 2023, les ressources de pixellisation UGC dans Dynamic Media Classic seront disponibles jusqu’à 60 jours à compter de la date de chargement. Au bout de 60 jours, les ressources seront supprimées.
+
+<!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
+
+>[!NOTE]
 >
 >La prise en charge des ressources d’image vectorielle UGC nouvelles ou existantes dans Adobe Dynamic Media Classic s’est terminée le 30 septembre 2021.
 
@@ -34,4 +39,4 @@ Après avoir récupéré une clé de secret partagé et le jeton de télécharge
 * Télécharger un fichier.
 * Obtenez les métadonnées du fichier d’image.
 * Supprimer un fichier téléchargé.
-* Obtenir des informations sur l’utilisation de l’espace disque par l’entreprise.
+* Obtenez des informations sur l’utilisation de l’espace disque par une entreprise.
