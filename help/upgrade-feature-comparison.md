@@ -3,13 +3,13 @@ title: Comparaison des fonctionnalités
 description: Tableau de comparaison des fonctionnalités entre [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Ressources et [!DNL Adobe Dynamic Media Classic] application de bureau.
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 1b18fbc086fb6296aef8674d8471dd5b15a845c7
+exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
+source-git-commit: fa69e9df791597462db1bad9204c40896ea74020
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '157'
 ht-degree: 3%
 
 ---
-
 
 # Comparaison des fonctionnalités
 
@@ -38,8 +38,8 @@ Un tableau comparatif des fonctionnalités entre [!DNL Dynamic Media] in [!DNL A
 | Codage vidéo | ✓ | ✓ |
 | Accessibilité de la visionneuse | ✓ | ✓ |
 | Intégration de la visionneuse à Analytics | ✓ | ✓ |
-| Modèles 1:1 | - | ✓ |
-| Configurateur visuel<br>(personnalisation du produit) | - | ✓ |
+| Modèles 1:1 | ✓<br>*Groupe de médias personnalisés* | ✓ |
+| Configurateur visuel<br>(personnalisation du produit) | ✓<br>*Groupe de médias personnalisés* | ✓ |
 | 3D - Experience Manager Sites<br>Composant WCM | ✓ | - |
 | 3D - Visionneuse d’expérience interactive | ✓ | - |
 | 3D - Publication de fichiers AR/VR et 3D de base | ✓ | - |
