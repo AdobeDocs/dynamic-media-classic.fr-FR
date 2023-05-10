@@ -4,7 +4,7 @@ description: Tableau de comparaison des fonctionnalités entre [!DNL Dynamic Med
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
-source-git-commit: 39dabb64c1c14422bf0dff234c01e6daad8ab0b5
+source-git-commit: 56efe781a1f4366f0c9d726332fd6633f50abc99
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 3%
@@ -29,7 +29,7 @@ Un tableau comparatif des fonctionnalités entre [!DNL Dynamic Media] in [!DNL A
 | Visionneuses interactives | ✓ | ✓ |
 | Fichiers de manifeste | ✓ | ✓ |
 | Media Portal | ✓<br>*Connu sous le nom de &quot;Brand Portal&quot;* | ✓ |
-| Feuilles de règle | ✓ | ✓ |
+| Jeux de règles | ✓ | ✓ |
 | Aperçu sécurisé | ✓ | ✓ |
 | Visionneuses (image, à 360°, supports variés) | ✓<br>*Pas de rotation multi-axe* | ✓ |
 | Imagerie dynamique | ✓ | ✓ |
