@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 43e0c03b535d30ffed13e1e389935e34563baa9e
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '2036'
 ht-degree: 1%
@@ -44,7 +44,7 @@ La notification de mise à niveau dans l’application de bureau Adobe Dynamic M
 
 ## Correctifs de la dernière version (20.22.1) {#release-jan2022}
 
-* Modification des images **[!UICONTROL Enregistrer]** Les boutons n’étaient pas fonctionnels.
+* Modifier l’image **[!UICONTROL Enregistrer]** Les boutons n’étaient pas fonctionnels.
 * Dans les éditeurs de visionneuse, la variable **[!UICONTROL Fermer]**, **[!UICONTROL Enregistrer]**, et **[!UICONTROL Enregistrer sous]** les boutons deviennent désactivés après avoir fait défiler les ressources dans la **[!UICONTROL Ajouter des ressources]** du panneau.
 * **[!UICONTROL Play]** ne fonctionnait pas dans la vue Détails de la vidéo.
 * Impossible de saisir `d` et `e` in **[!UICONTROL Nom d’utilisateur]** et **[!UICONTROL Mot de passe]** lors de l’exécution de macOS Monterey.
@@ -89,7 +89,7 @@ La notification de mise à niveau dans l’application de bureau Adobe Dynamic M
 Voir aussi:
 
 * [Télécharger et installer en mode silencieux la dernière application de bureau Adobe Dynamic Media Classic sur Mac](#install-silent-mac-dmc-app)
-* [Téléchargez et installez en mode silencieux la dernière application de bureau Adobe Dynamic Media Classic sous Windows®](#install-silent-windows-dmc-app)
+* [Télécharger et installer en mode silencieux la dernière application de bureau Adobe Dynamic Media Classic sous Windows](#install-silent-windows-dmc-app)
 
 1. Désinstallez toutes les anciennes versions de l’appli de bureau Adobe Dynamic Media Classic de votre système.
 
@@ -108,7 +108,7 @@ Voir aussi:
 <!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
 <!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+        * [Windows&reg; (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
 
 <!--    * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
         * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
@@ -147,8 +147,8 @@ Voir aussi:
 
 Voir aussi:
 
-* [Téléchargez et installez la dernière appli de bureau Adobe Dynamic Media Classic sur Mac ou Windows®](#installation-dmc-app)
-* [Téléchargez et installez en mode silencieux la dernière application de bureau Adobe Dynamic Media Classic sous Windows®](#install-silent-windows-dmc-app)
+* [Télécharger et installer la dernière appli de bureau Adobe Dynamic Media Classic sur Mac ou Windows](#installation-dmc-app)
+* [Télécharger et installer en mode silencieux la dernière application de bureau Adobe Dynamic Media Classic sous Windows](#install-silent-windows-dmc-app)
 
 Pour télécharger et *silence* installez la dernière version de l’appli de bureau Adobe Dynamic Media Classic sur macOS :
 
@@ -189,7 +189,7 @@ La commande que vous utilisez est pour une installation silencieuse MSI de base.
 
 Voir aussi:
 
-* [Téléchargez et installez la dernière appli de bureau Adobe Dynamic Media Classic sur Mac ou Windows®](#installation-dmc-app)
+* [Télécharger et installer la dernière appli de bureau Adobe Dynamic Media Classic sur Mac ou Windows](#installation-dmc-app)
 
 * [Télécharger et installer en mode silencieux la dernière application de bureau Adobe Dynamic Media Classic sur macOS](#install-silent-mac-dmc-app)
 

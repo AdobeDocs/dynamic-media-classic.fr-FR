@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 45%
+source-wordcount: '1730'
+ht-degree: 37%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe Dynamic Media Classic effectue le suivi des tâches de publication sur la 
 
 Créez une tâche de publication unique en sélectionnant l’option **[!UICONTROL Unique]** sur la page Publier .
 
-Si vous souhaitez que la tâche de publication se produise ultérieurement, sélectionnez dans la page Publier . **[!UICONTROL Unique]**, puis sélectionnez **[!UICONTROL Planifier ultérieurement]** menu déroulant. Utilisez le calendrier et le curseur de l’heure pour sélectionner un jour et une heure pour exécuter la tâche de publication.
+Si vous souhaitez que la tâche de publication se produise ultérieurement, sélectionnez dans la page Publier . **[!UICONTROL Unique]**, puis sélectionnez **[!UICONTROL Planifier ultérieurement]** déroulant. Utilisez le calendrier et le curseur de l’heure pour sélectionner un jour et une heure pour exécuter la tâche de publication.
 
 ### Création d’une tâche de publication récurrente {#creating-a-recurring-publish-job}
 
@@ -104,15 +104,15 @@ Voir [Utilisation d’une tâche de téléchargement ou de publication comme dé
 
 Vous pouvez annuler une tâche de publication en cours. Par ailleurs, si vous êtes administrateur, vous pouvez annuler une tâche de publication en cours à partir de la page des tâches de l’entreprise.
 
-Pour annuler une tâche de publication, accédez à la page Tâches et sélectionnez **[!UICONTROL Annuler]**. Dans l’onglet Planifiée de la page Tâches, vous pouvez interrompre ou reprendre une tâche en décochant/cochant la case située dans la colonne Actif de la tâche.
+Pour annuler une tâche de publication, accédez à la page Tâches et sélectionnez **[!UICONTROL Annuler]**. Dans l’onglet Planifié de la page Tâches, vous pouvez suspendre ou reprendre une tâche en désélectionnant ou en cochant la case dans la colonne Principale de la tâche.
 
 >[!NOTE]
 >
->après avoir annulé une tâche de publication, son état devient « Arrêt en cours » tant qu’elle n’a pas atteint un point où elle peut s’arrêter en toute sécurité. L’arrêt d’une tâche de publication peut prendre un certain temps si la récupération des données dans la base de données est en cours.
+>Une fois la tâche de publication annulée, son état passe à &quot;arrêt&quot; jusqu’à ce que la tâche atteigne un point où elle peut s’arrêter en toute sécurité. L’arrêt d’une tâche de publication peut prendre un certain temps si la récupération des données dans la base de données est en cours.
 
 ## Publication manuelle de ressources {#manually-publishing-assets}
 
-Vous pouvez publier des fichiers individuels manuellement au lieu de créer une tâche de publication. Lorsque vous publiez des visionneuses, comme une visionneuse d’images ou de vidéos adaptative, la visionneuse (ou « parent ») et tous les membres (ou « enfants ») dans cette visionneuse sont publiés.
+Vous pouvez publier des fichiers individuels manuellement au lieu de créer une tâche de publication. Lorsque vous publiez des visionneuses, telles qu’une visionneuse d’images ou de vidéos adaptatives, la visionneuse (ou &quot;parent&quot;) et tous les membres (ou &quot;enfants&quot;) de cette visionneuse sont publiés.
 
 Les ressources non publiées sont indiquées dans l’interface utilisateur par une icône grise et ronde avec une barre oblique (état non publié), à gauche du nom de la ressource. Une fois le fichier publié, l’icône devient verte et une coche blanche s’affiche en son centre (état publié).
 
@@ -128,9 +128,9 @@ Les ressources non publiées sont indiquées dans l’interface utilisateur par 
 
 ## Annulation manuelle de la publication des ressources {#manually-unpublishing-assets}
 
-Vous pouvez annuler manuellement la publication de fichiers individuels. Lorsque vous annulez la publication de visionneuses, comme une visionneuse de série d’échantillons ou un catalogue électronique, la visionneuse (ou « parent ») passe à l’état non publié. Toutefois, les membres (ou « enfants ») de cette visionneuse ne sont pas affectés : ils conservent en fait leur état existant publié ou non publié.
+Vous pouvez annuler manuellement la publication de fichiers individuels. Lorsque vous annulez la publication d’ensembles, tels qu’une série d’échantillons ou un catalogue électronique, la série (ou &quot;parent&quot;) passe à l’état non publié. Toutefois, les membres (ou &quot;enfants&quot;) de cet ensemble ne sont pas affectés ; au lieu de cela, ils conservent chacun leur état publié ou non publié.
 
-Les fichiers publiés sont indiqués dans l’interface utilisateur par une icône ronde et verte avec une coche blanche affichée en son centre (état publié), à gauche du nom du fichier. Une fois la publication d’une ressource annulée, l’icône devient grise avec une barre oblique (état non publié),
+Les ressources publiées sont indiquées dans l’interface utilisateur par une icône ronde et verte avec une coche blanche au centre (état publié), à gauche du nom de la ressource. Une fois la publication d’une ressource annulée, l’icône devient grise avec une barre oblique (état non publié),
 
 **Pour annuler manuellement la publication de fichiers:**
 

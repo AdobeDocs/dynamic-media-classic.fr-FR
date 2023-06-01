@@ -9,10 +9,10 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '3967'
-ht-degree: 56%
+ht-degree: 54%
 
 ---
 
@@ -23,14 +23,14 @@ Pour créer des visionneuses de vidéos ou adaptables uniques à diffuser sur le
 * **MP4** - Adobe Dynamic Media Classic recommande le format MP4 comme format de fichier vidéo préféré. Utilisez le format de fichiers MP4 pour effectuer les opérations suivantes :
 
    * Diffusion en flux continu dynamique HTTP sur les ordinateurs de bureau.
-   * Diffusion en continu HTTP (protocole de diffusion d’Apple).
+   * HTTP Live Streaming (protocole de diffusion en continu Apple).
    * Diffusion vidéo progressive sur des appareils mobiles Android™, BlackBerry® et Windows®
 
    Adobe Dynamic Media Classic propose deux processus pour charger des fichiers vidéo :
 
 * **Vidéos précodées** - Vous téléchargez des fichiers MP4 directement vers Adobe Dynamic Media Classic. En procédant ainsi, les fichiers ne sont pas codés au moment où vous les téléchargez. Les fichiers sont précodés en vue de la diffusion sur l’ordinateur de bureau et sur des périphériques mobiles.
 
-* **Vidéos source Principal** - Téléchargez des fichiers vidéo source Principaux et, au moment du téléchargement, codez ces fichiers dans des fichiers MP4. Les vidéos codées sont intitulées « Vidéos » dans le panneau de navigation. Adobe Dynamic Media Classic prend en charge le codage de fichiers vidéo dans de nombreux formats.
+* **Vidéos source Principal** - Téléchargez des fichiers vidéo source Principaux et, au moment du téléchargement, codez ces fichiers dans des fichiers MP4. Les vidéos codées sont intitulées &quot;Vidéo&quot; dans le panneau Parcourir . Adobe Dynamic Media Classic prend en charge le codage de fichiers vidéo dans de nombreux formats.
 
    * Assurez-vous que les Principaux fichiers vidéo sources que vous souhaitez coder sont pris en charge.
 
@@ -145,7 +145,7 @@ Le tableau suivant décrit la taille recommandée, les proportions et le débit 
 
 ### Obtention des métadonnées d’un fichier {#obtaining-a-file-s-metadata}
 
-Vous pouvez obtenir les métadonnées d’un fichier en affichant ses métadonnées dans Adobe Dynamic Media Classic, à l’aide d’un outil de modification vidéo ou d’une application conçue pour obtenir des métadonnées. Voici les instructions d’utilisation de MediaInfo, une application tierce permettant d’extraire les métadonnées d’un fichier vidéo :
+Vous pouvez obtenir les métadonnées d’un fichier en affichant ses métadonnées dans Adobe Dynamic Media Classic, à l’aide d’un outil de modification vidéo ou d’une application conçue pour obtenir des métadonnées. Vous trouverez ci-dessous des instructions sur l’utilisation de MediaInfo, une application tierce, pour obtenir les métadonnées d’un fichier vidéo :
 
 1. Accédez à cette page web : [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
 1. Sélectionnez et téléchargez le programme d’installation pour la version interface graphique utilisateur, puis suivez les instructions d’installation.
@@ -178,7 +178,7 @@ Le *débit de données* (également appelé *débit binaire*) est la quantité d
 >
 >du fait que tous les codecs utilisent la compression avec perte, le débit de données est le facteur le plus important de la qualité vidéo. Quand vous utilisez la compression avec perte, plus vous compressez la vidéo, plus la qualité de l’image se dégrade. Toutes les autres caractéristiques étant égales (résolution, taux de rafraîchissement et codec), plus le débit de données est faible, moins la qualité du fichier compressé est bonne.
 
-Lorsque vous choisissez un paramètre prédéfini de codage vidéo, pensez à tenir compte de la vitesse de connexion de l’utilisateur final cible. Choisissez un paramètre prédéfini avec un débit de données correspondant à 80 % de cette vitesse. Par exemple, si la vitesse de connexion de l’utilisateur final est de 1 000 Kb/s, le meilleur paramètre prédéfini est celui qui comprend un débit vidéo de 800 Kb/s.
+Lorsque vous choisissez un paramètre prédéfini de codage vidéo, pensez à tenir compte de la vitesse de connexion de l’utilisateur final cible. Choisissez un paramètre prédéfini avec un débit de données correspondant à 80 % de cette vitesse. Par exemple, si la vitesse de connexion de l’utilisateur final est de 1 000 Kbit/s, le meilleur paramètre prédéfini est celui avec un débit de données vidéo de 800 Kbit/s.
 
 Ce tableau décrit le débit de données de vitesses de connexion courantes.
 
@@ -191,7 +191,7 @@ Ce tableau décrit le débit de données de vitesses de connexion courantes.
 
 ### Résolution {#resolution}
 
-La *résolution* décrit la hauteur et la largeur d’un fichier vidéo, exprimée en pixels. La plupart des vidéos sources sont stockées à une résolution élevée (par exemple, 1 920 x 1 080). A des fins de diffusion en flux continu, la vidéo source est compressée à une résolution inférieure (640 x 480, voire moins).
+*Résolution* décrit la hauteur et la largeur d’un fichier vidéo, en pixels. La plupart des vidéos sources sont stockées à une résolution élevée (par exemple, 1 920 x 1 080). A des fins de diffusion en flux continu, la vidéo source est compressée à une résolution inférieure (640 x 480, voire moins).
 
 La résolution et le débit de données sont deux facteurs étroitement liés qui déterminent la qualité de la vidéo. Pour maintenir la même qualité vidéo, plus le nombre de pixels (c’est-à-dire la résolution) est élevé dans un fichier vidéo, plus le débit de données doit l’être également. Par exemple, considérez le nombre de pixels par image dans un fichier vidéo d’une résolution de 320 x 240 pixels et dans un fichier vidéo d’une résolution de 640 x 480 pixels :
 
@@ -277,7 +277,7 @@ Pour les ressources vidéo que vous chargez et codez dans Adobe Dynamic Media Cl
 **MP4 H.264** Utilisez des fichiers MP4 pour les opérations suivantes :
 
 * Diffusion en flux continu dynamique HTTP sur les ordinateurs de bureau.
-* HLS (HTTP Live Streaming, protocole de diffusion en continu d’Apple).
+* HLS (HTTP Live Streaming, protocole de diffusion en continu Apple).
 * Diffusion vidéo progressive sur des appareils mobiles Android™, BlackBerry® et Windows®.
 
 Tout autre format vidéo et codec est traité comme une &quot;vidéo Principal&quot;. Ce mode de classification des fichiers signifie que la vidéo est un fichier vidéo source non prévu pour la lecture vidéo sur des périphériques de bureau ou des périphériques mobiles. Par exemple, vous ne pouvez pas prévisualiser ces types de vidéos dans Adobe Dynamic Media Classic. Vous ne pouvez pas non plus copier des URL et du code intégré destinés aux lecteurs vidéo, aux sites web, et ainsi de suite.
@@ -353,7 +353,7 @@ Adobe Dynamic Media Classic a défini des limites maximales sur le débit de don
    | Description | Décrivez le paramètre vidéo prédéfini. Ce que vous saisissez apparaît sous forme d’info-bulle lorsque vous placez le pointeur sur le nom du paramètre prédéfini dans la boîte de dialogue Télécharger les options de la tâche dans laquelle les utilisateurs choisissent les options de transcodage. |
    | Périphérique de lecture | Choisissez le périphérique sur lequel il est prévu que la vidéo soit lue. Les options disponibles sont Ordinateur (ordinateurs de bureau), Mobile (iPhone, iPad, Android™) ; ou Tablette (iPad uniquement). Ce paramètre détermine automatiquement le codec audio et vidéo approprié utilisé pendant le codage. |
    | Débit de la cible | Entrez la vitesse de connexion Internet moyenne (en kilobits par seconde) de l’utilisateur final cible. Vous pouvez saisir le débit ou faire glisser le curseur pour le saisir. Le spectre de vitesse de connexion de l’utilisateur répertorie les vitesses attendues pour les connexions haut débit, DSL, mobiles et à ligne commutée. Ce paramètre détermine automatiquement le débit combiné de données audio et vidéo, autrement dit, la quantité de données qu’il est nécessaire de coder pour produire une seule seconde de lecture vidéo. Plus le débit binaire est élevé, meilleure est la qualité de la vidéo produite. Cependant, un débit de données trop élevé se traduit par des fichiers de taille très importante, ce qui peut altérer l’expérience de visionnage pour les utilisateurs qui ne disposent pas d’une connexion avec une bande passante aussi large. Il est préférable d’essayer d’équilibrer ces deux facteurs afin d’offrir une expérience de lecture vidéo de qualité, qui convienne également aux utilisateurs qui ne disposent pas d’une bande passante aussi large. |
-   | Format | Le format fait référence au rapport de la largeur de la vidéo à sa hauteur. Les deux premières proportions répertoriées ci-dessous sont souvent utilisées pour afficher la vidéo horizontalement :<ul><li> 4:3, utilisé pour la diffusion de la quasi-totalité des contenus télévisés de définition standard.</li><li>16:9 - Utilisé pour presque tout le contenu et les films grand écran sur la télévision haute définition (HDTV).</li><li>Auto-scale (« Redimensionnement automatique ») : (valeur par défaut) un paramètre prédéfini de codage unique qui fonctionne avec n’importe quelle proportion pour créer des vidéos pour une diffusion sur téléphone, tablette et ordinateur de bureau. Les vidéos source transférées qui sont codées à l’aide de ce paramètre prédéfini sont définies avec une hauteur fixe. Toutefois, la largeur est automatiquement mise à l’échelle pour conserver les proportions de la vidéo (rapport largeur/hauteur).</li><li>Custom (« Personnaliser ») : option utilisée lorsque vous souhaitez définir une taille de vidéo non standard.</li><li>Les proportions que vous choisissez déterminent les paramètres de largeur et de hauteur pour la résolution ; la valeur de largeur et de hauteur est automatiquement mise à l’échelle selon les proportions appropriées.</li></ul> |
+   | Format | Le format fait référence au rapport de la largeur de la vidéo à sa hauteur. Les deux premières proportions répertoriées ci-dessous sont souvent utilisées pour afficher la vidéo horizontalement :<ul><li> 4:3, utilisé pour la diffusion de la quasi-totalité des contenus télévisés de définition standard.</li><li>16:9 - Utilisé pour presque tout le contenu et les films grand écran sur la télévision haute définition (HDTV).</li><li>Auto-scale (« Redimensionnement automatique ») : (valeur par défaut) un paramètre prédéfini de codage unique qui fonctionne avec n’importe quelle proportion pour créer des vidéos pour une diffusion sur téléphone, tablette et ordinateur de bureau. Les vidéos source transférées qui sont codées à l’aide de ce paramètre prédéfini sont définies avec une hauteur fixe. Toutefois, la largeur est automatiquement mise à l’échelle afin de préserver les proportions de la vidéo (rapport largeur/hauteur).</li><li>Custom (« Personnaliser ») : option utilisée lorsque vous souhaitez définir une taille de vidéo non standard.</li><li>Les proportions que vous choisissez déterminent les paramètres de largeur et de hauteur pour la résolution ; la valeur de largeur et de hauteur est automatiquement mise à l’échelle selon les proportions appropriées.</li></ul> |
    | Taille de résolution | La taille de résolution, exprimée en nombre de pixels de large par le nombre de pixels de haut, détermine la taille. Saisissez une valeur de largeur et de hauteur en pixels ou faites glisser le curseur pour saisir ces valeurs. Le spectre des résolutions répertorie les tailles de résolution les plus utilisées. Les valeurs de largeur et de hauteur correspondent automatiquement aux proportions que vous avez sélectionnées. Par exemple, si vous sélectionnez le format 4:3 et entrez 400 pour la largeur, 300 est automatiquement entré pour la hauteur. Si vous sélectionnez Auto-scale(« Redimensionnement automatique ») pour le paramètre de proportion, la valeur de la largeur pour la taille de résolution est automatiquement définie sur Auto. Sélectionner **[!UICONTROL Aperçu]** vous pouvez donc ouvrir une fenêtre de navigateur et y voir vos choix de résolution. |
    | Encoder un suffixe de fichier | Entrez un suffixe. Ce suffixe est ajouté au fichier vidéo encodé résultant. Vous pouvez entrer un trait d’union et un trait de soulignement dans le nom, mais les espaces et les caractères spéciaux ne sont pas autorisés. |
    | Autres paramètres | Adobe Dynamic Media Classic détermine automatiquement tous les autres paramètres de codage, conformément aux bonnes pratiques en matière de codage. |

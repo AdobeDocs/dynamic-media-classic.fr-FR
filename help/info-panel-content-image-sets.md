@@ -10,9 +10,9 @@ discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '768'
 ht-degree: 51%
 
 ---
@@ -34,10 +34,10 @@ Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pou
 **Pour configurer un modèle de réponse pour les visionneuses d’images :**
 
 1. Double-cliquez sur la visionneuse d’images pour l’ouvrir en mode Affichage des détails.
-1. Sélectionnez **[!UICONTROL Configuration du panneau d’informations]**.
+1. Sélectionner **[!UICONTROL Configuration du panneau d’informations]**.
 1. Dans la liste déroulante Modèle de réponse, procédez de l’une des façons suivantes :
 
-   * Pour utiliser la réponse par défaut, sélectionnez **[!UICONTROL Default]**. Le code XML de la conception du modèle s’affiche, grisé, dans la zone de texte Modèle utilisateur.
+   * Pour utiliser la réponse par défaut, sélectionnez **[!UICONTROL Par défaut]**. Le code XML de la conception du modèle s’affiche, grisé, dans la zone de texte Modèle utilisateur.
    * Pour créer votre propre modèle de réponse, sélectionnez **[!UICONTROL Personnalisé]**. Dans la zone de texte Modèle utilisateur, entrez la définition du modèle XML. Vous pouvez utiliser le modèle par défaut qui est déjà défini dans la zone de texte comme base pour votre propre réponse.
 
 1. (Facultatif) Dans la zone Réponse par défaut, saisissez le texte que vous souhaitez afficher si Adobe Dynamic Media Classic rencontre une erreur lors de la récupération des informations pour une zone cliquable. Par exemple, si le système reçoit un nom d’entreprise et un nom de visionneuse d’image, mais pas d’identificateur de survol, ce message est affiché à l’intention de l’utilisateur.
@@ -46,8 +46,8 @@ Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pou
    * Optez pour une valeur faible si de nombreuses mises à jour des données sont effectuées quotidiennement.
    * Optez pour une valeur élevée si les données sont relativement stables et ne nécessitent pas de mises à jour fréquentes. La valeur par défaut est de 10 heures.
 
-1. Sélectionnez **[!UICONTROL Télécharger]** pour charger le contenu du panneau d’informations, en fonction des valeurs rollover_key, dans s7info.
-1. Dans la boîte de dialogue S7Info Upload (Chargement S7Info), accédez au fichier que vous souhaitez utiliser, puis sélectionnez **[!UICONTROL Télécharger]**.
+1. Sélectionner **[!UICONTROL Télécharger]** pour charger le contenu du panneau d’informations, en fonction des valeurs rollover_key, dans s7info.
+1. Dans la boîte de dialogue S7Info Upload, accédez au fichier que vous souhaitez utiliser, puis sélectionnez **[!UICONTROL Télécharger]**.
 
    Les formats de fichiers pris en charge sont des fichiers délimités par des tabulations avec codage UTF-16 et des fichiers CSV avec codage ASCII. Pour les fichiers CSV, les caractères non ASCII doivent être encodés au format HTML.
 
@@ -66,7 +66,7 @@ Lorsque vous effectuez la mise en forme du contenu source, n’oubliez pas les p
 ### Importation de contenu CSV dans les visionneuses d’images à partir d’un emplacement hébergé en externe {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Double-cliquez sur la visionneuse d’images pour l’ouvrir en mode Affichage des détails.
-1. Sélectionnez **[!UICONTROL InfoPanel Datafeed]**.
+1. Sélectionner **[!UICONTROL Flux de données InfoPanel]**.
 1. Dans le champ de l’emplacement du fichier CSV hébergé en externe (HTTP), entrez l’URL du fichier CSV.
 1. (Facultatif) Dans les champs Mise à jour du planning , indiquez l’heure de mise à jour du contenu, puis sélectionnez **[!UICONTROL Ajouter]**.
 

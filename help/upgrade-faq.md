@@ -3,13 +3,13 @@ title: FAQ sur la mise à niveau
 description: Questions fréquentes (FAQ) lors de la mise à niveau à partir de [!DNL Adobe Dynamic Media Classic] application de bureau vers [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] Ressources.
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
+exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
-
 
 # Questions fréquentes sur la mise à niveau à partir de [!DNL Dynamic Media Classic] to [!DNL Dynamic Media]
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 * Gestion des ressources numériques d’entreprise avec prise en charge robuste des métadonnées, recherche dynamique, Lightbox et collections, contrôle de version et partage sécurisé de ressources pour une utilisation par les fournisseurs, les partenaires et les franchisés Workflows de révision et d’approbation pour le travail dans les ressources de processus.
 * Facilité d’adoption et d’utilisation avec la nouvelle interface utilisateur.
 * Créez des expériences Shoppable/Interactive Media à l’aide d’images et de vidéos qui génèrent des conversions et enrichissent l’engagement et la satisfaction des utilisateurs.
-* Combinez les ressources de campagne avec les informations sur les produits pour rationaliser les clics vers le panier.
+* Rationalisez le clic sur le panier en combinant les ressources de campagne aux informations sur les produits.
 * Créez, ajustez, attribuez une marque et déployez facilement des visionneuses interactives à l’aide du concepteur de visionneuses WYSIWYG.
 * Diffuser des médias enrichis optimisés vers [!DNL Experience Cloud] solutions.
 * Intégration avec [!DNL Experience Cloud] pour les analyses avancées des ressources, le ciblage et la réutilisation des ressources sur plusieurs points de contact marketing. Ces points de contact sont les suivants : [!DNL Adobe Campaign] pour l&#39;email, [!DNL Adobe Social] pour les canaux sociaux, et [!DNL Experience Manager] Sites pour les applications web et mobiles réactives.
@@ -43,7 +43,7 @@ Oui, [!DNL Dynamic Media] utilise le réseau de diffusion de premier niveau robu
 
 * Meilleur fournisseur de médias riches vers la vente au détail Internet 1000, neuf ans d’affilée.
 * 24/7/265 prise en charge, 99,95 % des contrats de niveau de service (SLA).
-* Une infrastructure éprouvée desservant plus de 800 clients dans le monde entier, 3,5 pétaoctets de trafic par mois et plus de 500 millions d’actifs en gestion, soit une croissance de 60 % du trafic d’une année à l’autre.
+* Infrastructure éprouvée desservant plus de 800 clients dans le monde, 3,5 Po de trafic par mois et plus de 500 millions d’actifs en gestion, croissance de 60 % du trafic d’une année à l’autre.
 
 +++
 
@@ -175,7 +175,7 @@ L’Adobe continue d’apporter son soutien et d’assurer sa maintenance [!DNL 
 +++
 
 +++**Quelle quantité de stockage est fournie [!DNL Dynamic Media]?**
-60 gigaoctets de stockage sont inclus. Vous pouvez acheter un stockage supplémentaire en blocs de 250 Go. Consultez les détails de votre contrat pour obtenir votre allocation de stockage actuelle.
+Un stockage de 60 Go est inclus. Vous pouvez acheter un stockage supplémentaire en blocs de 250 Go. Pour obtenir votre allocation de stockage actuelle, vérifiez les détails de votre contrat.
 
 +++
 
@@ -204,8 +204,8 @@ Oui. Vous pouvez utiliser votre propre réseau de diffusion de contenu avec [!DN
 
 +++
 
-+++**Does [!DNL Dynamic Media] ai-je besoin de mettre à niveau les fonctionnalités ? Fonctionnalités disponibles avec [!DNL Dynamic Media] on [!DNL Experience Manager] Ressources ?**
-Voir [Comparaison des fonctionnalités](/help/upgrade-feature-comparison.md) pour en savoir plus.
++++**Does [!DNL Dynamic Media] les fonctionnalités que je dois mettre à niveau ? Fonctionnalités disponibles avec [!DNL Dynamic Media] on [!DNL Experience Manager] Ressources ?**
+Voir [Comparaison des fonctionnalités](/help/upgrade-feature-comparison.md) page.
 
 +++
 
@@ -216,7 +216,7 @@ Les clients qui ont besoin des éléments suivants peuvent continuer à avoir ac
 * Modèles d&#39;image.
 * Catalogues électroniques.
 
-Voir aussi [Comparaison des fonctionnalités](/help/upgrade-feature-comparison.md) pour en savoir plus.
+Voir aussi [Comparaison des fonctionnalités](/help/upgrade-feature-comparison.md) page.
 
 +++
 
@@ -228,7 +228,7 @@ Voir aussi [Comparaison des fonctionnalités](/help/upgrade-feature-comparison.m
 ## Services de conseil
 
 +++**Puis-je terminer le processus de mise à niveau tout seul ?**
-Non. Contactez votre représentant d’Adobe et AGS pour réaliser votre mise à niveau.
+Non. Collaborez avec votre représentant Adobe et AGS pour réaliser votre mise à niveau.
 
 +++
 
