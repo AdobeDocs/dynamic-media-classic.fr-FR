@@ -4,9 +4,9 @@ description: Mettre à niveau à partir de [!DNL Adobe Dynamic Media Classic] to
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ La nouvelle [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] s’appuie s
 | Création aisée | Créez, personnalisez et lancez rapidement des expériences riches sans avoir besoin d’aide technique. |
 | Interface intuitive | Modifiez les visionneuses d’images et les lecteurs vidéo avec une interface WYSIWYG (What You See It What You Get) facile à utiliser. |
 | Média Shoppable | Créez des images, des vidéos et des carrousels Shoppable avec des zones réactives d’image et des liens cliquables. |
-| Réseau de diffusion de contenu évolutif (Content Delivery Network) | Accédez au réseau de diffusion de contenu le plus performant avec une échelle et des performances éprouvées pour répondre à n’importe quelle demande. |
+| Réseau de diffusion de contenu évolutif | Accédez au réseau de diffusion de contenu (CDN) le meilleur de sa catégorie avec une échelle et des performances éprouvées pour répondre à toutes les demandes. |
 | Dynamic Imaging | En utilisant un fichier Principal, générez et publiez automatiquement des versions illimitées, changez de taille, de format, de résolution, de recadrage ou d’effet. |
 | Vidéo dynamique | La vidéo en taille réelle est dimensionnée automatiquement pour tous les écrans et diffusée de manière adaptative afin d’offrir une expérience utilisateur cohérente et de qualité. |
 | Personnalisation | Créer et publier facilement [!DNL Dynamic Media] expériences interactives, telles que les configurateurs de produits, les bannières personnalisées et les e-mails. |
@@ -54,4 +54,4 @@ La nouvelle [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] s’appuie s
 * Meilleure performance dans le rapport Plateforme vidéo en ligne de 2016.
 * Meilleur fournisseur de médias riches vers la vente au détail Internet 1000, neuf ans d’affilée.
 * Prise en charge 24/7/265, 99,95 % des contrats de niveau de service, Adobe Professional Services.
-* Une infrastructure éprouvée desservant plus de 800 clients dans le monde entier, un trafic de 3,5 pétaoctets par mois et plus de 500 millions d’actifs en gestion, soit une croissance de 60 % du trafic d’une année à l’autre.
+* Une infrastructure éprouvée desservant plus de 800 clients dans le monde entier, 3,5 pétaoctets de trafic par mois et plus de 500 millions d’actifs en gestion, soit une croissance de 60 % du trafic d’une année à l’autre.

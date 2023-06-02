@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
 source-wordcount: '1808'
 ht-degree: 25%
@@ -21,7 +21,7 @@ Adobe Dynamic Media Classic Video est une solution de bout en bout qui facilite 
 
 Par exemple, sur un périphérique mobile iOS, il détecte une bande passante telle que 3G, 4G ou une connexion Wi-Fi, puis sélectionne automatiquement la vidéo codée selon le débit correspondant parmi ceux disponibles dans la visionneuse de vidéos adaptative. La vidéo est diffusée en continu sur les ordinateurs, les appareils mobiles ou les tablettes.
 
-En outre, la qualité de la vidéo est automatiquement adaptée en temps réel selon les conditions réseau sur le bureau ou l’appareil mobile. En outre, si un client passe en mode Plein écran sur un bureau, la visionneuse de vidéos adaptative répond en utilisant une meilleure résolution, améliorant ainsi l’expérience de visionnage du client. L’utilisation de visionneuses de vidéos adaptatives vous permet de lire le mieux possible la vidéo Adobe Dynamic Media Classic sur plusieurs écrans et appareils.
+En outre, la qualité de la vidéo est automatiquement adaptée en temps réel selon les conditions réseau sur le bureau ou l’appareil mobile. En outre, si un client passe en mode plein écran sur un bureau, la visionneuse de vidéos adaptative répond en utilisant une meilleure résolution, améliorant ainsi l’expérience de visionnage du client. L’utilisation de visionneuses de vidéos adaptatives vous permet de lire le mieux possible la vidéo Adobe Dynamic Media Classic sur plusieurs écrans et appareils.
 
 La logique appliquée par un lecteur vidéo pour déterminer quelles sont les vidéos codées à lire ou à sélectionner en cours de lecture repose sur l’algorithme suivant :
 
@@ -31,7 +31,7 @@ La logique appliquée par un lecteur vidéo pour déterminer quelles sont les vi
    1. Le lecteur sélectionne la bande passante la plus élevée en dessous ou égale à la bande passante estimée.
    1. Le lecteur ne prend en compte que 80 % de la bande passante disponible. Cependant, s’il change, il est plus prudent à seulement 70 % pour éviter de surestimer et de devoir immédiatement revenir en arrière.
 
-Consultez la logique de l’algorithme à l’adresse [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) pour obtenir des informations techniques à son sujet.
+Voir la logique de l’algorithme à l’adresse [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) pour obtenir des informations techniques à son sujet.
 
 Pour la gestion des visionneuses de vidéos adaptatives et de vidéos uniques, Adobe Dynamic Media Classic prend en charge les éléments suivants :
 
@@ -66,7 +66,7 @@ Lorsqu’une visionneuse de vidéos adaptative est générée, elle comprend des
 
    Vous trouverez les périphériques Windows® qui prennent en charge ce format vidéo à l’adresse suivante :
 
-   Voir [Formats vidéo pris en charge sur Windows® Phone](https://learn.microsoft.com/en-us/).
+   Voir [Formats vidéo pris en charge sur Windows® Phone](https://docs.microsoft.com/en-us/).
 
 * Lisez la vidéo à l’aide des paramètres prédéfinis de la visionneuse Adobe Dynamic Media Classic, notamment :
 

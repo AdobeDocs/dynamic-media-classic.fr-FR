@@ -10,10 +10,10 @@ discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 7%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 Adobe Dynamic Media Classic offre de nombreux outils pour créer des effets multimédias enrichis. Ces outils sont disponibles en cliquant sur le survol **[!UICONTROL Modifier]** et dans le panneau de navigation de la vue Détails. Dans Adobe Dynamic Media Classic, vous pouvez effectuer les tâches d’édition d’images suivantes :
 
-* **Création de zones cliquables** - Pour créer une zone cliquable, sélectionnez la commande Image ou **[!UICONTROL Zone cliquable]** bouton . Une zone cliquable est une zone réactive sur une image, une page de catalogue électronique ou une image dans une visionneuse à 360° qui affiche un panneau avec le texte de survol. Les utilisateurs peuvent sélectionner une zone cliquable, par exemple pour lancer une nouvelle page web. Voir [Création de zones cliquables](/help/creating-image-maps.md).
+* **Création de zones cliquables** - Pour créer une zone cliquable, sélectionnez la commande Image ou **[!UICONTROL Zone cliquable]** bouton . Une zone cliquable est une zone réactive figurant sur une image, une page de catalogue électronique ou une image dans une visionneuse à 360°, qui affiche un panneau avec un texte de survol. Les utilisateurs peuvent sélectionner une zone cliquable, par exemple pour lancer une nouvelle page web. Voir [Création de zones cliquables](/help/creating-image-maps.md).
 
 * **Création de cibles de zoom** - Pour créer des cibles de miniatures, sélectionnez la commande Cibles de zoom ou la fonction **[!UICONTROL Cibles de zoom]** bouton . Les utilisateurs peuvent sélectionner une cible de miniature dans la visionneuse de zoom pour effectuer un zoom directement sur une partie spécifique d’une image. Voir [Création de cibles de zoom pour un zoom guidé](/help/creating-zoom-targets-guided-zoom.md).
 

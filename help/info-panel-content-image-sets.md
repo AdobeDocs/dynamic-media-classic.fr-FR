@@ -10,9 +10,9 @@ discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '767'
 ht-degree: 51%
 
 ---
@@ -66,7 +66,7 @@ Lorsque vous effectuez la mise en forme du contenu source, n’oubliez pas les p
 ### Importation de contenu CSV dans les visionneuses d’images à partir d’un emplacement hébergé en externe {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Double-cliquez sur la visionneuse d’images pour l’ouvrir en mode Affichage des détails.
-1. Sélectionner **[!UICONTROL Flux de données InfoPanel]**.
+1. Sélectionner **[!UICONTROL Source de données InfoPanel]**.
 1. Dans le champ de l’emplacement du fichier CSV hébergé en externe (HTTP), entrez l’URL du fichier CSV.
 1. (Facultatif) Dans les champs Mise à jour du planning , indiquez l’heure de mise à jour du contenu, puis sélectionnez **[!UICONTROL Ajouter]**.
 
