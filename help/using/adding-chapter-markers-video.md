@@ -10,7 +10,9 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 37%
@@ -77,14 +79,14 @@ Voir [WebVTT : Format de suivi de texte vidéo web](https://w3c.github.io/webvtt
 
    * Pour une expérience de visionneuse de vidéos contextuelle, sélectionnez **[!UICONTROL Copier l’URL]** à l’extrême droite du nom.
 
-      Ajoutez l’URL copiée de la vidéo avec la syntaxe suivante afin de l’associer à l’URL copiée dans votre fichier de sous-titres :
+     Ajoutez l’URL copiée de la vidéo avec la syntaxe suivante afin de l’associer à l’URL copiée dans votre fichier de sous-titres :
 
-      `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
+     `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
    * Pour une expérience de visionneuse de vidéos intégrée, sélectionnez **[!UICONTROL Code incorporé]** à l’extrême droite du nom.
 
-      Dans la boîte de dialogue Code incorporé, sélectionnez **[!UICONTROL Copier dans le Presse-papiers]**.
+     Dans la boîte de dialogue Code incorporé, sélectionnez **[!UICONTROL Copier dans le Presse-papiers]**.
 
-      Pour le HTML5 `Universal_HTML5_Video` visionneuse, ajoutez le code intégré copié avec ce qui suit :
+     Pour le HTML5 `Universal_HTML5_Video` visionneuse, ajoutez le code intégré copié avec ce qui suit :
 
-      `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
+     `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`

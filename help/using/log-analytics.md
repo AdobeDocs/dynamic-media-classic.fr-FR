@@ -10,7 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 1%
@@ -75,7 +77,6 @@ Commencez par intégrer Dynamic Media Classic à Adobe Analytics OAuth. L’int�
 >* Une nouvelle variable de suivi est introduite dans un rapport et vous souhaitez lier une variable de visionneuse spécifique dans l’interface utilisateur de Dynamic Media Classic à cette nouvelle variable Analytics.
 >
 
-
 1. Dans le coin supérieur droit de l’application de bureau Adobe Dynamic Media Classic, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]**.
 1. Dans le panneau de gauche, sous **[!UICONTROL Configuration de l’application]**, sélectionnez **[!UICONTROL Adobe Analytics]**.
 1. Sur le **[!UICONTROL Configuration Adobe Analytics]** page, sélectionnez **[!UICONTROL Connexion Adobe Analytics]**.
@@ -105,4 +106,3 @@ Commencez par intégrer Dynamic Media Classic à Adobe Analytics OAuth. L’int�
 >[!MORELIKETHIS]
 >
 >* [Configuration des rapports Adobe Analytics](configuring-analytics-reports.md#configuring_adobe_analytics_reports)
-

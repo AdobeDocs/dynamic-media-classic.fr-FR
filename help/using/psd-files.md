@@ -10,7 +10,9 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 26%
@@ -34,12 +36,12 @@ Les options suivantes sont disponibles au cours du téléchargement des fichiers
 * **Options de recadrage** - Situé sous **[!UICONTROL Options de recadrage]**. Sélectionner **[!UICONTROL Rogner]** pour recadrer automatiquement l’espace blanc des bords d’un fichier de PSD ; select **[!UICONTROL Manuel]** pour recadrer les côtés du fichier de PSD :
 
    * **[!UICONTROL Rogner]** - Sélectionnez la variable **[!UICONTROL Rogner en fonction de]** et choisissez **[!UICONTROL Couleur]** ou **[!UICONTROL Transparence]**.
-   Si vous choisissez l’option **[!UICONTROL Couleur]** , sélectionnez le menu Coin et choisissez l’angle du PSD avec la couleur qui représente le mieux l’espace blanc que vous souhaitez recadrer.
 
-   Faites glisser le curseur pour définir une valeur de tolérance comprise entre 0 et 1. Pour effectuer le rognage en fonction de la couleur, indiquez la valeur 0 pour rogner les pixels seulement s’ils correspondent exactement à la couleur que vous avez sélectionnée dans l’angle du fichier PSD. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs. Pour effectuer un rognage en fonction de la transparence, spécifiez 0 pour rogner les pixels uniquement s’ils sont transparents. Les valeurs plus proches de 1 permettent une plus grande transparence.
+  Si vous choisissez l’option **[!UICONTROL Couleur]** , sélectionnez le menu Coin et choisissez l’angle du PSD avec la couleur qui représente le mieux l’espace blanc que vous souhaitez recadrer.
+
+  Faites glisser le curseur pour définir une valeur de tolérance comprise entre 0 et 1. Pour effectuer le rognage en fonction de la couleur, indiquez la valeur 0 pour rogner les pixels seulement s’ils correspondent exactement à la couleur que vous avez sélectionnée dans l’angle du fichier PSD. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs. Pour effectuer un rognage en fonction de la transparence, spécifiez 0 pour rogner les pixels uniquement s’ils sont transparents. Les valeurs plus proches de 1 permettent une plus grande transparence.
 
    * **[!UICONTROL Manuel]** - Saisissez le nombre de pixels à recadrer d’un côté ou de chaque côté de l’image. La proportion de l’image qui est rognée dépend du paramètre ppp (pixels par pouce) défini dans le fichier d’image. Par exemple, si l’image affiche 150 ppp et que vous entrez 75 dans les zones de texte Haut, Droite, Bas et Gauche, 0,5 po. est recadré de chaque côté de l’image.
-
 
 * **Options de profil colorimétrique** - Situé sous **[!UICONTROL Options de profil colorimétrique]**.
 
@@ -66,8 +68,8 @@ Les options suivantes sont disponibles au cours du téléchargement des fichiers
       * **[!UICONTROL Photoshop et numéro de calque]** - Nomme les images en fonction de leur numéro de calque dans le fichier de PSD, en ignorant les noms de calque d’origine. Le nom des images est composé du nom de fichier Photoshop et d’un numéro de calque. Par exemple, le deuxième calque d’un fichier appelé `Spring Ad.psd` est nommé `Spring Ad_2` même s’il ne portait pas de nom par défaut dans Photoshop.
 
       * **[!UICONTROL Photoshop et nom du calque]** - Nomme les images après le fichier de PSD suivi du nom ou du numéro de calque. Le numéro de calque est utilisé si le nom des calques dans le fichier PSD est un nom de calque Photoshop par défaut. Par exemple, un calque nommé `Price Tag` dans un fichier de PSD nommé `SpringAd` est nommé `Spring Ad_Price Tag`. Un calque portant le nom par défaut Calque 2 est appelé `Spring Ad_2`.
-   * **[!UICONTROL Ancre]** - Indiquez le mode d’ancrage des images dans les modèles générés à partir de la composition superposée produite à partir du fichier de PSD. Par défaut, l’ancrage est au centre. Un ancrage au centre permet aux images de remplacement de remplir de manière optimale le même espace, quelles que soient les proportions de l’image de remplacement. Les images qui remplacent cette image et qui présentent un aspect différent occupent le même espace lorsque le modèle est référencé et le paramètre de substitution utilisé. Changez de paramètre si votre application nécessite le remplacement d’images pour occuper l’espace alloué dans le modèle.
 
+   * **[!UICONTROL Ancre]** - Indiquez le mode d’ancrage des images dans les modèles générés à partir de la composition superposée produite à partir du fichier de PSD. Par défaut, l’ancrage est au centre. Un ancrage au centre permet aux images de remplacement de remplir de manière optimale le même espace, quelles que soient les proportions de l’image de remplacement. Les images qui remplacent cette image et qui présentent un aspect différent occupent le même espace lorsque le modèle est référencé et le paramètre de substitution utilisé. Changez de paramètre si votre application nécessite le remplacement d’images pour occuper l’espace alloué dans le modèle.
 
 ## Affichage et modification des calques dans un fichier de PSD {#viewing-and-editing-layers-in-a-psd-file}
 

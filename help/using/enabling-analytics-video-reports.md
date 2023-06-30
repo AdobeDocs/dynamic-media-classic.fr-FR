@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Development, Integrations
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 12%
@@ -23,11 +25,11 @@ Grâce aux rapports vidéo basés sur la pulsation Adobe Analytics, vous ne deve
 
 * L’intégration des rapports vidéo Adobe Analytics avec Adobe Dynamic Media Classic prend en charge les variables de solution, mais pas les variables personnalisées.
 
-   Voir [Paramètres audio et vidéo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) pour plus d’informations sur les variables de solution et les variables personnalisées.
+  Voir [Paramètres audio et vidéo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) pour plus d’informations sur les variables de solution et les variables personnalisées.
 
 * Les segments prêts à l’emploi d’incréments d’une minute sont pris en charge. Toutefois, les rapports de segments personnalisés, comme les jalons définis par l’utilisateur d’après des incréments temporels, les jalons de pourcentage ou les jalons de décalage, ne sont pas pris en charge.
 
-   Pour plus d’informations sur les exigences et la configuration de la diffusion en continu, voir [Mesurer les médias en flux continu dans Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+  Pour plus d’informations sur les exigences et la configuration de la diffusion en continu, voir [Mesurer les médias en flux continu dans Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 * Pour plus d’informations sur les variables personnalisées et de solution, voir [Activation des rapports multimédia](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en#media-reports).
 

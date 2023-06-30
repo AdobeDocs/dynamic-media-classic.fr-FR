@@ -10,7 +10,9 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 34%
@@ -61,15 +63,15 @@ Voir aussi [Incorporation de la visionneuse de vidéos dans une page web](deploy
    * Sélectionner **[!UICONTROL Affichage de la grille]** ou **[!UICONTROL Mode Liste]**. Dans le panneau de navigation des fichiers, cliquez deux fois sur la miniature vidéo d’un fichier pour l’ouvrir en mode Affichage des détails. Dans le panneau URL et code intégré à droite, sous Diffusion en flux continu HTTP, sélectionnez **[!UICONTROL Copier l’URL]** à droite de la visionneuse que vous souhaitez. Il est recommandé de copier l’URL associée à la variable `Universal_HTML5_Video` visionneuse.
    * Sélectionner **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des ressources, sélectionnez une seule ressource, puis sous l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
-      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**. Il est recommandé de copier l’URL associée à la variable `Universal_HTML5_Video` visionneuse.
+     Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**. Il est recommandé de copier l’URL associée à la variable `Universal_HTML5_Video` visionneuse.
 
    * Sélectionner **[!UICONTROL Mode Liste]**. Dans le panneau de navigation des ressources, sélectionnez une seule ressource, puis, à droite de l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
-      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**. Il est recommandé de copier l’URL associée à la variable `Universal_HTML5_Video` visionneuse.
+     Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**. Il est recommandé de copier l’URL associée à la variable `Universal_HTML5_Video` visionneuse.
 
    * Sélectionner **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
-      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**. Il est recommandé de copier l’URL associée à la variable `Universal_HTML5_Video` visionneuse.
+     Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**. Il est recommandé de copier l’URL associée à la variable `Universal_HTML5_Video` visionneuse.
 
 1. Collez l’URL de vidéo HTML5 sur vos sites Web et mobile.
 
@@ -88,15 +90,15 @@ Voir aussi [Liaison d’une URL de vidéo à un site mobile ou à un site web](d
    * Sélectionner **[!UICONTROL Affichage de la grille]** ou **[!UICONTROL Mode Liste]**. Dans le panneau de navigation des fichiers, cliquez deux fois sur la miniature vidéo d’un fichier pour l’ouvrir en mode Affichage des détails. Dans le panneau URL et code intégré à droite, sous Diffusion en flux continu HTTP, sélectionnez **[!UICONTROL Code incorporé]** à droite de la visionneuse que vous souhaitez. Pour une bonne pratique, sélectionnez **[!UICONTROL Code incorporé]** qui est associé à la variable `Universal_HTML5_Video` visionneuse.
    * Sélectionner **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des ressources, sélectionnez une seule ressource, puis sous l’image de miniature vidéo, sélectionnez **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
-      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**. Pour une bonne pratique, sélectionnez **[!UICONTROL Code incorporé]** qui est associé à la variable `Universal_HTML5_Video` visionneuse.
+     Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**. Pour une bonne pratique, sélectionnez **[!UICONTROL Code incorporé]** qui est associé à la variable `Universal_HTML5_Video` visionneuse.
 
    * Sélectionner **[!UICONTROL Mode Liste]**. Dans le panneau de navigation des ressources, sélectionnez une seule ressource, puis, à droite de l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
-      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**. Pour une bonne pratique, sélectionnez **[!UICONTROL Code incorporé]** qui est associé à la variable `Universal_HTML5_Video` visionneuse.
+     Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**. Pour une bonne pratique, sélectionnez **[!UICONTROL Code incorporé]** qui est associé à la variable `Universal_HTML5_Video` visionneuse.
 
    * Sélectionner **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
-      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**. Pour une bonne pratique, sélectionnez **[!UICONTROL Code incorporé]** qui est associé à la variable `Universal_HTML5_Video` visionneuse.
+     Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**. Pour une bonne pratique, sélectionnez **[!UICONTROL Code incorporé]** qui est associé à la variable `Universal_HTML5_Video` visionneuse.
 
 1. Dans la boîte de dialogue Code incorporé, sélectionnez **[!UICONTROL Copier dans le Presse-papiers]**.
 
@@ -119,15 +121,15 @@ Si vous n’utilisez pas le lecteur vidéo Adobe Dynamic Media Classic HTML5, ma
 
 * Remplacer `"S7 video thumbnail URL"` avec l’URL de la miniature de la vidéo, qui est l’image de miniature de la vidéo qu’un utilisateur voit avant de lire la vidéo.
 
-   Voir [Obtention des URL des miniatures vidéo](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
+  Voir [Obtention des URL des miniatures vidéo](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
 * Remplacer `"S7 OGG video asset URL (no player)"` avec l’URL progressive de la vidéo pour la vidéo OGG.
 
-   Voir [Liaison d’une URL de vidéo à un site mobile ou à un site web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  Voir [Liaison d’une URL de vidéo à un site mobile ou à un site web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 * Remplacer `"S7 MP4 mobile progressive video asset URL (no player)"` avec l’URL progressive mobile de la vidéo.
 
-   Voir [Liaison d’une URL de vidéo à un site mobile ou à un site web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  Voir [Liaison d’une URL de vidéo à un site mobile ou à un site web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 ## Déploiement d’une vidéo à l’aide d’un lecteur vidéo tiers {#deploying-video-using-a-third-party-video-player}
 
@@ -140,28 +142,28 @@ Si vous utilisez un lecteur vidéo tiers ou un lecteur vidéo personnalisé au l
 
 * Pour générer une URL de vidéo en flux continu HLS direct (à débit multiple)
 
-   Sur le **[!UICONTROL Paramètres généraux de l’application]** , dans la **[!UICONTROL Serveurs]** , dans la variable **[!UICONTROL Nom du serveur publié]** champ de texte, construisez l’URL directe. Utilisez la syntaxe suivante : `server/is/content/company/folder/filename.m3u8`
+  Sur le **[!UICONTROL Paramètres généraux de l’application]** , dans la **[!UICONTROL Serveurs]** , dans la variable **[!UICONTROL Nom du serveur publié]** champ de texte, construisez l’URL directe. Utilisez la syntaxe suivante : `server/is/content/company/folder/filename.m3u8`
 
-   Supposons, par exemple, que le nom du serveur publié soit `https://s7d9.scene7.com/.` En utilisant la syntaxe de l’étape 2, l’URL directe peut se présenter comme suit :
-   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
+  Supposons, par exemple, que le nom du serveur publié soit `https://s7d9.scene7.com/.` En utilisant la syntaxe de l’étape 2, l’URL directe peut se présenter comme suit :
+  `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * Pour générer une URL de vidéo en flux continu HLS direct (débit unique)
 
-   Sur le **[!UICONTROL Paramètres généraux de l’application]** , dans la **[!UICONTROL Serveurs]** , dans la variable **[!UICONTROL Nom du serveur de diffusion en continu HLS]** champ de texte, construisez l’URL directe à l’aide de la syntaxe suivante :
+  Sur le **[!UICONTROL Paramètres généraux de l’application]** , dans la **[!UICONTROL Serveurs]** , dans la variable **[!UICONTROL Nom du serveur de diffusion en continu HLS]** champ de texte, construisez l’URL directe à l’aide de la syntaxe suivante :
 
-   `server/company/folder/filename.ext.m3u8`
+  `server/company/folder/filename.ext.m3u8`
 
-   Supposons, par exemple, que le nom du serveur de diffusion HLS soit `https://s7mbrstream.scene7.com/hls-vod/`. En utilisant la syntaxe de l’étape 2, l’URL directe peut se présenter comme suit :
-   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
+  Supposons, par exemple, que le nom du serveur de diffusion HLS soit `https://s7mbrstream.scene7.com/hls-vod/`. En utilisant la syntaxe de l’étape 2, l’URL directe peut se présenter comme suit :
+  `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * Génération d’une URL de vidéo progressive directe
 
-   Sur la page **[!UICONTROL Paramètres généraux de l’application]**, dans le groupe **[!UICONTROL Serveurs]**, dans le champ **[!UICONTROL Nom du serveur de vidéo progressive]**, générez l’URL eVideo directe selon la syntaxe suivante :
+  Sur la page **[!UICONTROL Paramètres généraux de l’application]**, dans le groupe **[!UICONTROL Serveurs]**, dans le champ **[!UICONTROL Nom du serveur de vidéo progressive]**, générez l’URL eVideo directe selon la syntaxe suivante :
 
-   `server/company/folder/filename`
+  `server/company/folder/filename`
 
-   Supposons, par exemple, que le nom du serveur de vidéo progressive soit `https://s7d9.scene7.com/is/content/`. En utilisant la syntaxe de l’étape 2, l’URL directe peut se présenter comme suit :
-   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
+  Supposons, par exemple, que le nom du serveur de vidéo progressive soit `https://s7d9.scene7.com/is/content/`. En utilisant la syntaxe de l’étape 2, l’URL directe peut se présenter comme suit :
+  `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## Utilisation des miniatures vidéo {#working-with-video-thumbnails}
 

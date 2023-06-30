@@ -10,7 +10,9 @@ discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 19%
@@ -113,11 +115,11 @@ Pour localiser des ressources en filtrant avec leurs valeurs de métadonnées, p
 
    * **Sélection d’un champ de métadonnées** - Sélectionnez le nom du champ dans le menu de filtrage.
 
-      >[!NOTE]
-      >
-      >seuls les noms des champs de métadonnées contenus dans la vue de métadonnées par défaut s’affichent dans le menu de filtrage. 
+     >[!NOTE]
+     >
+     >seuls les noms des champs de métadonnées contenus dans la vue de métadonnées par défaut s’affichent dans le menu de filtrage. 
 
-      Voir [Vues des métadonnées](application-setup.md#metadata_views).
+     Voir [Vues des métadonnées](application-setup.md#metadata_views).
 
    * **Ajout d’un champ de métadonnées** - Sélectionner **[!UICONTROL Ajouter un panneau]**. Une fois que le panneau s’affiche dans le volet Filtres , sélectionnez ses **[!UICONTROL Champ]** et choisissez le nom d&#39;un champ de métadonnées dans le menu de filtrage.
 
@@ -127,7 +129,6 @@ Pour localiser des ressources en filtrant avec leurs valeurs de métadonnées, p
 
    * toutes les valeurs de métadonnées saisies dans le champ,
    * pour chaque valeur de métadonnées, le nombre de fichiers portant cette valeur.
-
 
 1. Répétez l’étape 2 autant de fois que nécessaire pour répertorier tous les champs de métadonnées pour l’opération de filtre sur les panneaux.
 1. Dans chaque panneau, sélectionnez une valeur de métadonnées à filtrer Vous ne pouvez pas sélectionner plusieurs valeurs de métadonnées dans chaque panneau.
@@ -172,4 +173,3 @@ Sélectionner **[!UICONTROL Publier maintenant]** pour démarrer la tâche. Un m
 >
 >* [Navigation - Notions élémentaires](navigation-basics.md#navigation_basics)
 >* [Affichage, ajout et exportation de métadonnées](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
-

@@ -10,7 +10,9 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 37%
@@ -94,7 +96,7 @@ Voir [Vues des métadonnées](application-setup.md#metadata_views).
    * Pour enregistrer vos paramètres sans générer de fichier XML, sélectionnez **[!UICONTROL Enregistrer]**.
    * Pour enregistrer et générer le fichier, sélectionnez **[!UICONTROL Enregistrer et générer]**.
 
-      Le fichier XML est généré et enregistré dans le journal de la tâche. Les fichiers de plan de site vidéo (plan de site-vidéo) et de flux Media RSS (mRSS) sont enregistrés dans le dossier racine de votre entreprise.
+     Le fichier XML est généré et enregistré dans le journal de la tâche. Les fichiers de plan de site vidéo (plan de site-vidéo) et de flux Media RSS (mRSS) sont enregistrés dans le dossier racine de votre entreprise.
 
 >[!NOTE]
 >

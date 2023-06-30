@@ -10,7 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 25%
@@ -83,11 +85,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL Afficher la taille du fichier]** : affiche la taille de fichier d’une ressource lorsque vous la parcourez.
 * **[!UICONTROL Inclure les champs définis par les utilisateurs dans la recherche]** - Pour améliorer les performances système de la plupart des recherches de métadonnées que vous exécutez, désélectionnez (par défaut).
 
-   Si l’inclusion de champs définis par les utilisateurs est bénéfique pour la plupart de vos recherches de métadonnées, activez-la en sélectionnant cette option. Vous pouvez également utiliser Recherche avancée afin d’effectuer des recherches mieux orientées et plus rapides qu’avec l’inclusion de tous les champs définis par les utilisateurs.
+  Si l’inclusion de champs définis par les utilisateurs est bénéfique pour la plupart de vos recherches de métadonnées, activez-la en sélectionnant cette option. Vous pouvez également utiliser Recherche avancée afin d’effectuer des recherches mieux orientées et plus rapides qu’avec l’inclusion de tous les champs définis par les utilisateurs.
 
-   Voir [Recherche avancée](searching-assets.md#conducting_an_advanced_search).
+  Voir [Recherche avancée](searching-assets.md#conducting_an_advanced_search).
 
-   Voir aussi [Champs définis par l’utilisateur](application-setup.md#user_defined_fields).
+  Voir aussi [Champs définis par l’utilisateur](application-setup.md#user_defined_fields).
 
 * **[!UICONTROL Type de recherche de base]** - Vous pouvez effectuer une sélection parmi deux options : **[!UICONTROL Contient]** recherche la valeur spécifiée dans la chaîne complète ; **[!UICONTROL StartsWith]** recherche à partir du début de la chaîne et renvoie les résultats plus rapidement que **[!UICONTROL Contient]**. L’une des options remplace la valeur par défaut définie dans **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux de l’application]** par l’administrateur.
 * **[!UICONTROL Afficher les commentaires de commande]** - Sélectionnez cette option pour activer l’affichage des requêtes de commande sur le serveur. désélectionnez cette option pour la désactiver.

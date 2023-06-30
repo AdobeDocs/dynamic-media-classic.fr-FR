@@ -7,7 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 32%
@@ -56,18 +58,18 @@ Voir [Diffuser du contenu statique (hors image)](https://experienceleague.adobe.
 
    * Pour une expérience de visionneuse de vidéos contextuelle, sélectionnez **[!UICONTROL Copier l’URL]** à l’extrême droite du nom.
 
-      Ajoutez l’URL copiée de la vidéo avec la syntaxe suivante afin de l’associer à l’URL copiée dans votre fichier de sous-titres :
+     Ajoutez l’URL copiée de la vidéo avec la syntaxe suivante afin de l’associer à l’URL copiée dans votre fichier de sous-titres :
 
-      `&caption=<full Copy URL path to the caption file .vtt>,1`
+     `&caption=<full Copy URL path to the caption file .vtt>,1`
 
-      Notez que `,1` à la fin du chemin d’accès à l’URL de la légende. Immédiatement après l’extension de nom de fichier VTT dans le chemin d’accès, vous pouvez éventuellement activer ou désactiver le bouton de sous-titres dans la barre de lecteur vidéo en définissant sur `1` ou `0`, respectivement.
+     Notez que `,1` à la fin du chemin d’accès à l’URL de la légende. Immédiatement après l’extension de nom de fichier VTT dans le chemin d’accès, vous pouvez éventuellement activer ou désactiver le bouton de sous-titres dans la barre de lecteur vidéo en définissant sur `1` ou `0`, respectivement.
 
    * Pour une expérience de visionneuse de vidéos intégrée, sélectionnez **[!UICONTROL Code incorporé]** à l’extrême droite du nom.
 
-      Dans la boîte de dialogue Code incorporé, sélectionnez **[!UICONTROL Copier dans le Presse-papiers]**.
+     Dans la boîte de dialogue Code incorporé, sélectionnez **[!UICONTROL Copier dans le Presse-papiers]**.
 
-      Pour le HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`ou `Universal_HTML5_MixedMedia_light` visionneuses, ajoutez le code intégré copié avec ce qui suit :
+     Pour le HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`ou `Universal_HTML5_MixedMedia_light` visionneuses, ajoutez le code intégré copié avec ce qui suit :
 
-      `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
+     `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
 
-      Notez que `,1` à la fin du chemin de l’URL. Immédiatement après l’extension de nom de fichier VTT dans le chemin d’URL, vous pouvez éventuellement activer ou désactiver le bouton de légende sur la barre de lecteur vidéo en définissant sur `1` ou `0`, respectivement.
+     Notez que `,1` à la fin du chemin de l’URL. Immédiatement après l’extension de nom de fichier VTT dans le chemin d’URL, vous pouvez éventuellement activer ou désactiver le bouton de légende sur la barre de lecteur vidéo en définissant sur `1` ou `0`, respectivement.

@@ -10,7 +10,9 @@ discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Beginner
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 25%
@@ -59,7 +61,7 @@ Les boutons de zoom apparaissent. Vous pouvez alors vérifier l’aspect des ima
 
 ## 5. Publier les images de zoom
 
-Lorsque vous publiez vos images de zoom, elles sont placées sur les serveurs d’images Dynamic Media afin qu’elles puissent être diffusées sur votre site web et dans votre application. Dans le cadre du processus de publication, Adobe Dynamic Media Classic active les chaînes URL. Ces chaînes URL appellent des images de zoom des serveurs d’images Dynamic Media vers votre site web ou application.
+Lorsque vous publiez vos images de zoom, elles sont placées sur les serveurs d’images Dynamic Media afin qu’elles puissent être diffusées sur votre site web et dans votre application. Dans le cadre du processus de publication, Adobe Dynamic Media Classic active les chaînes URL. Ces chaînes URL appellent des images de zoom des serveurs d’images Dynamic Media vers votre site web ou votre application.
 
 Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**. Dans la boîte de dialogue Publier, sélectionnez **[!UICONTROL Envoyer la publication]**. (voir [Publication des images de zoom](publishing-zoom-images.md#publishing_zoom_images)).
 

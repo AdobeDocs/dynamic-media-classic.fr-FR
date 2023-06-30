@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 45%
@@ -122,7 +124,7 @@ Les ressources non publiées sont indiquées dans l’interface utilisateur par 
 
    * En mode Affichage de la grille, Affichage par liste ou Affichage des détails, utilisez les méthodes standard de sélection des fichiers pour sélectionner un ou plusieurs fichiers non publiés.
 
-      Dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Publier]**.
+     Dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Publier]**.
 
    * En mode Grille, Liste ou Détails, sélectionnez l’icône grise ronde avec une barre oblique, à gauche du nom de la ressource.
 
@@ -138,7 +140,7 @@ Les fichiers publiés sont indiqués dans l’interface utilisateur par une icô
 
    * En mode Grille, Liste ou Détails, sélectionnez une ou plusieurs ressources publiées.
 
-      Dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Annuler la publication]**.
+     Dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Annuler la publication]**.
 
    * En mode Grille, Liste ou Détails, sélectionnez l’icône en forme de coche ronde et verte située à gauche du nom de la ressource.
 
@@ -162,4 +164,3 @@ Pour vider le cache, dans la barre de navigation globale, accédez à **[!UICONT
 >
 >* [Vérification des fichiers de tâche](checking-job-files.md)
 >* [Modification, suppression, pause et reprise de tâches récurrentes](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
-

@@ -9,7 +9,9 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Collaboration, Content Management
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 61%
@@ -34,9 +36,9 @@ Voir aussi [Exportation de ressources à partir d’Adobe Dynamic Media Classic]
 
    * **Activer la conversion définie par l’utilisateur** : lorsque cette option est sélectionnée, les utilisateurs peuvent choisir d’autres options parmi les options **[!UICONTROL Taille]** liste déroulante dans la fenêtre Exporter les ressources sélectionnées . Les utilisateurs peuvent ensuite choisir une unité de mesure, pixels ou centimètres, puis spécifier la largeur et la hauteur souhaitée. Lors de l’exportation ou du téléchargement de ces fichiers, les fichiers image sont reformatés.
 
-      Lorsque vous choisissez **[!UICONTROL pixels]** dans la liste déroulante **[!UICONTROL Taille]**, la largeur x hauteur de l’image obtenue ne doit pas dépasser 100 millions de pixels. Cette taille équivaut à 10 000 x 10 000 pixels pour une image carrée ou à environ 8 000 x 12 000 pixels pour une image 2x3. Cette limitation de taille ne s’applique pas si vous exportez des images Principales d’origine.
+     Lorsque vous choisissez **[!UICONTROL pixels]** dans la liste déroulante **[!UICONTROL Taille]**, la largeur x hauteur de l’image obtenue ne doit pas dépasser 100 millions de pixels. Cette taille équivaut à 10 000 x 10 000 pixels pour une image carrée ou à environ 8 000 x 12 000 pixels pour une image 2x3. Cette limitation de taille ne s’applique pas si vous exportez des images Principales d’origine.
 
-      Désélectionnez cette option si vous souhaitez que les utilisateurs téléchargent les fichiers sans les reformater pendant le téléchargement.
+     Désélectionnez cette option si vous souhaitez que les utilisateurs téléchargent les fichiers sans les reformater pendant le téléchargement.
 
    * **Activer Exporter l’original** - Permet d’exporter des images Principales originales. Dans le **[!UICONTROL Exportation des ressources sélectionnées]** , les utilisateurs peuvent ouvrir le panneau **[!UICONTROL Conversion]** menu déroulant et choisissez **[!UICONTROL Exporter l’original]** pour exporter les fichiers originaux. Désélectionnez cette option si vous souhaitez forcer les utilisateurs à choisir un paramètre d’image prédéfini ou des options de conversion lorsqu’ils exportent des images.
 
@@ -44,4 +46,3 @@ Voir aussi [Exportation de ressources à partir d’Adobe Dynamic Media Classic]
 >
 >* [Paramètres d’image prédéfinis](application-setup.md#image_presets)
 >* [Choix des autorisations d’accès de paramètres d’image prédéfinis pour un groupe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
-

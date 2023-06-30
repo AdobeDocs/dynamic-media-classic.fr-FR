@@ -10,7 +10,9 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 28%
@@ -72,14 +74,14 @@ Voir aussi [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/h
 1. Ajoutez ou modifiez un paramètre prédéfini de visionneuse pour l’affichage vidéo :
 
    * **Ajouter** - Sélectionner **[!UICONTROL Ajouter]** dans la barre d’outils. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plateforme et une visionneuse dans les listes déroulantes respectives, puis sélectionnez **[!UICONTROL Ajouter]**.
+
    Voir aussi [Ajout et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
 
    * **Ajouter en commençant par un paramètre prédéfini de visionneuse existant** - Dans le tableau, sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis sélectionnez **[!UICONTROL Modifier]** dans la barre d’outils.
+
    Après avoir reconfiguré la visionneuse de vidéos, sélectionnez **[!UICONTROL Enregistrer sous]** pour enregistrer le paramètre prédéfini à l’aide d’un nom différent dans le champ de texte Nom du paramètre prédéfini .
 
    * **Modifier** - Sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis cliquez sur **[!UICONTROL Modifier]**.
-
-
 
 1. Sur la page Configurer la visionneuse, dans le champ Nom du paramètre prédéfini, saisissez ou modifiez le nom du paramètre prédéfini.
 1. Définissez les options restantes si vous le souhaitez.
@@ -95,4 +97,3 @@ Voir aussi [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/h
 >
 >* [Meilleures pratiques en matière de codage de vidéo](uploading-encoding-videos.md#best_practices_for_video_encoding)
 >* [Utilisation des paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets)
-

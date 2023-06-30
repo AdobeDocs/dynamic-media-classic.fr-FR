@@ -10,7 +10,9 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 31%
@@ -58,7 +60,7 @@ les cibles de zoom, les attributs d’image et les entrées d’historique sont 
    * Pour supprimer une ou plusieurs ressources, sélectionnez-les dans le panneau de navigation, puis appuyez sur **[!UICONTROL Supprimer]** ou accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer]**.
    * Pour supprimer un dossier, sélectionnez-le dans la bibliothèque de ressources, puis sélectionnez **[!UICONTROL Supprimer le dossier]**.
 
-      La suppression d’un dossier supprime le dossier, toutes les ressources qu’il contient, ainsi que toutes les ressources qu’il contient.
+     La suppression d’un dossier supprime le dossier, toutes les ressources qu’il contient, ainsi que toutes les ressources qu’il contient.
 
 Adobe Dynamic Media Classic recommande de remplacer les fichiers de ressources plutôt que de les supprimer si la raison pour laquelle vous supprimez un fichier de ressources est de le remplacer par un autre portant le même nom.
 
@@ -81,4 +83,3 @@ Lorsque vous supprimez des ressources avec un fichier texte, si un Adobe Dynamic
 >* [Sélection de ressources dans le panneau de navigation](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
 >* [Préparation du chargement des ressources et des dossiers](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
 >* [Restauration des ressources à partir du dossier Corbeille](trash-folder.md#restoring_assets_from_the_trash_folder)
-

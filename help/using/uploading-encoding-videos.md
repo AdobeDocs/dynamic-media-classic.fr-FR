@@ -9,7 +9,9 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3967'
 ht-degree: 56%
@@ -26,7 +28,7 @@ Pour créer des visionneuses de vidéos ou adaptables uniques à diffuser sur le
    * Diffusion en continu HTTP (protocole de diffusion d’Apple).
    * Diffusion vidéo progressive sur des appareils mobiles Android™, BlackBerry® et Windows®
 
-   Adobe Dynamic Media Classic propose deux processus pour charger des fichiers vidéo :
+  Adobe Dynamic Media Classic propose deux processus pour charger des fichiers vidéo :
 
 * **Vidéos précodées** - Vous téléchargez des fichiers MP4 directement vers Adobe Dynamic Media Classic. En procédant ainsi, les fichiers ne sont pas codés au moment où vous les téléchargez. Les fichiers sont précodés en vue de la diffusion sur l’ordinateur de bureau et sur des périphériques mobiles.
 
@@ -34,13 +36,13 @@ Pour créer des visionneuses de vidéos ou adaptables uniques à diffuser sur le
 
    * Assurez-vous que les Principaux fichiers vidéo sources que vous souhaitez coder sont pris en charge.
 
-      Voir [Types de fichiers vidéo pris en charge pour le codage](uploading-encoding-videos.md#supported-video-file-types-for-encoding).
+     Voir [Types de fichiers vidéo pris en charge pour le codage](uploading-encoding-videos.md#supported-video-file-types-for-encoding).
 
    * Choisissez un paramètre prédéfini de codage vidéo.
 
-      Voir [Paramètres vidéo prédéfinis pour le codage des fichiers vidéo](application-setup.md#video-presets-for-encoding-video-files).
+     Voir [Paramètres vidéo prédéfinis pour le codage des fichiers vidéo](application-setup.md#video-presets-for-encoding-video-files).
 
-      Voir [Meilleures pratiques en matière de codage vidéo](uploading-encoding-videos.md#best-practices-for-video-encoding).
+     Voir [Meilleures pratiques en matière de codage vidéo](uploading-encoding-videos.md#best-practices-for-video-encoding).
 
 Adobe Dynamic Media Classic génère également des miniatures vidéo. Vous pouvez en savoir plus sur les miniatures de vidéos, l’obtention de leurs URL et la modification des images de l’affiche.
 
@@ -98,28 +100,28 @@ Le tableau suivant répertorie les types de fichiers vidéo (avec les codecs vid
 
 * **Codecs vidéo** - Un codec vidéo décrit l’algorithme par lequel une vidéo est codée. Un lecteur vidéo décode la vidéo en fonction de son codec, puis affiche une série d’images, ou cadres, à l’écran. Les codecs limitent la quantité d’informations que les fichiers vidéo ont besoin de stocker pour lire la vidéo. Les fichiers vidéo n’ont ainsi pas besoin de stocker les informations de chaque cadre, mais seulement les différences entre un cadre et le suivant. Comme la plupart des vidéos changent peu d’une image à l’autre, les codecs permettent des taux de compression élevés, ce qui se traduit par des tailles de fichiers plus petites.
 
-   | Format de fichier vidéo | Codecs vidéo |
-   | --- | --- |
-   | 3GP | H.263, H.264 |
-   | Audio Video Interleave (AVI) | DivX, DV |
-   | M2P | MPEG-2 PS |
-   | M2T | MPEG-2 TS |
-   | M2TS | MPEG-2 TS |
-   | M2V | MPEG-2 ES |
-   | M4V | H.264 |
-   | MOV | DV, DVCPro 50, H.261, H.263, H.264, Sorenson Video 1 |
-   | MP4 | H.264/MPEG-4 AVC |
-   | MPEG | MPEG-2 SS |
-   | MPG | MPEG-2 SS |
-   | MTS | MPEG-2 |
-   | ProRes | APCN, APCS, APCO, APCH, AP4H |
-   | TS | DVCPro 50 |
-   | VOB | MPEG-2 |
-   | WMV/ASF | VC-1, Windows® Media Video 7, Windows® Media Video 8 |
+  | Format de fichier vidéo | Codecs vidéo |
+  | --- | --- |
+  | 3GP | H.263, H.264 |
+  | Audio Video Interleave (AVI) | DivX, DV |
+  | M2P | MPEG-2 PS |
+  | M2T | MPEG-2 TS |
+  | M2TS | MPEG-2 TS |
+  | M2V | MPEG-2 ES |
+  | M4V | H.264 |
+  | MOV | DV, DVCPro 50, H.261, H.263, H.264, Sorenson Video 1 |
+  | MP4 | H.264/MPEG-4 AVC |
+  | MPEG | MPEG-2 SS |
+  | MPG | MPEG-2 SS |
+  | MTS | MPEG-2 |
+  | ProRes | APCN, APCS, APCO, APCH, AP4H |
+  | TS | DVCPro 50 |
+  | VOB | MPEG-2 |
+  | WMV/ASF | VC-1, Windows® Media Video 7, Windows® Media Video 8 |
 
-   >[!NOTE]
-   >
-   >l’écran Tâches vous alerte si vous téléchargez et tentez de coder un fichier vidéo, mais que celui-ci est rejeté car il contient un codec ou un conteneur de fichiers incompatible. Pour plus d’informations, voir [Vérification des fichiers de tâche](checking-job-files.md).
+  >[!NOTE]
+  >
+  >l’écran Tâches vous alerte si vous téléchargez et tentez de coder un fichier vidéo, mais que celui-ci est rejeté car il contient un codec ou un conteneur de fichiers incompatible. Pour plus d’informations, voir [Vérification des fichiers de tâche](checking-job-files.md).
 
 ## Meilleures pratiques en matière de codage de vidéo {#best-practices-for-video-encoding}
 
@@ -316,9 +318,9 @@ Les paramètres vidéo prédéfinis activés sont répertoriés dans la boîte d
    * Pour activer un paramètre vidéo prédéfini, sur la page Paramètres prédéfinis, sous la colonne Actif, cochez la case en regard du nom du paramètre prédéfini.
    * Pour désactiver un paramètre vidéo prédéfini, décochez la case en regard des paramètres vidéo prédéfinis que vous souhaitez rendre inactifs.
 
-      >[!NOTE]
-      >
-      >Les paramètres vidéo prédéfinis inactifs ne sont pas répertoriés dans la boîte de dialogue Télécharger les options de la tâche.
+     >[!NOTE]
+     >
+     >Les paramètres vidéo prédéfinis inactifs ne sont pas répertoriés dans la boîte de dialogue Télécharger les options de la tâche.
 
 1. Dans le coin inférieur droit de la page, sélectionnez **[!UICONTROL Fermer]**.
 
@@ -341,7 +343,7 @@ Adobe Dynamic Media Classic a défini des limites maximales sur le débit de don
    * Dans la barre d’outils Paramètres vidéo prédéfinis, sélectionnez **[!UICONTROL Ajouter]** vous pouvez ajouter un paramètre vidéo prédéfini.
    * Sélectionnez un paramètre vidéo prédéfini. Dans la barre d’outils, sélectionnez **[!UICONTROL Modifier]**.
 
-      Vous ne pouvez pas modifier les paramètres prédéfinis Adobe Dynamic Media Classic ; vous pouvez uniquement créer un paramètre prédéfini à partir d’un paramètre existant en choisissant **[!UICONTROL Enregistrer sous]**.
+     Vous ne pouvez pas modifier les paramètres prédéfinis Adobe Dynamic Media Classic ; vous pouvez uniquement créer un paramètre prédéfini à partir d’un paramètre existant en choisissant **[!UICONTROL Enregistrer sous]**.
 
 1. Dans la page Ajout d’un paramètre vidéo prédéfini ou Modification d’un paramètre vidéo prédéfini, définissez les options Paramètres vidéo prédéfinis dont vous avez besoin.
 
@@ -379,4 +381,3 @@ Les administrateurs peuvent supprimer des paramètres vidéo prédéfinis person
 >* [Chargement et codage de vidéos](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [Utilisation des paramètres prédéfinis de visionneuse de vidéos](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
 >* [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vidéo de formation
-

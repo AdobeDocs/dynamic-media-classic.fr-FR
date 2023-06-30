@@ -10,7 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 36%
@@ -81,12 +83,12 @@ Dans le menu Espace colorimétrique, choisissez un espace pour le fichier PDF. 
       * **[!UICONTROL Couleur]** - Choisissez l’option Couleur . Sélectionnez ensuite le **[!UICONTROL Coin]** et choisissez l’angle du PDF avec la couleur qui représente le mieux l’espace blanc que vous souhaitez recadrer.
 
       * **[!UICONTROL Transparence]** - Sélectionnez l’option Transparence .
+
    * **[!UICONTROL Tolérance]** - Faites glisser le curseur pour spécifier une tolérance comprise entre 0 et 1.
 
    * **[!UICONTROL Rognage en fonction de la couleur]** - Indiquez 0 pour rogner les pixels uniquement s’ils correspondent exactement à la couleur sélectionnée dans le coin du PDF. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs.
 
    * **[!UICONTROL Rognage en fonction de la transparence]** - Indiquez 0 pour rogner les pixels uniquement s’ils sont transparents ; Les valeurs plus proches de 1 permettent une plus grande transparence.
-
 
 ## Recadrage à partir des côtés des pages de PDF {#cropping-from-the-sides-of-pdf-pages}
 

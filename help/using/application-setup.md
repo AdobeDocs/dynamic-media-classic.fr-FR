@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Administration
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '11299'
 ht-degree: 40%
@@ -55,25 +57,25 @@ Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md
 
 * **[!UICONTROL Modèle d’invalidation du réseau CDN]** - Indique le modèle utilisé pour invalider le cache CDN (réseau de diffusion de contenu).
 
-   Supposons, par exemple, que vous saisissiez une URL d’image (comprenant des paramètres d’image prédéfinis ou des modificateurs) faisant référence à `<ID>`, au lieu d’un ID d’image spécifique comme dans l’exemple suivant :
+  Supposons, par exemple, que vous saisissiez une URL d’image (comprenant des paramètres d’image prédéfinis ou des modificateurs) faisant référence à `<ID>`, au lieu d’un ID d’image spécifique comme dans l’exemple suivant :
 
-   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
+  `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-   Si le modèle contient uniquement `<ID>`, puis Adobe Dynamic Media Classic renseigne la variable `https://<server>/is/image`où `<server>` est le nom du serveur de publication défini dans les paramètres généraux.
+  Si le modèle contient uniquement `<ID>`, puis Adobe Dynamic Media Classic renseigne la variable `https://<server>/is/image`où `<server>` est le nom du serveur de publication défini dans les paramètres généraux.
 
-   Définition du modèle d’invalidation du réseau de diffusion de contenu, sélectionnez une image nommée Backpack_B, puis accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Invalider le réseau de diffusion de contenu]** génère l’URL suivante dans l’interface d’invalidation du réseau CDN :
+  Définition du modèle d’invalidation du réseau de diffusion de contenu, sélectionnez une image nommée Backpack_B, puis accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Invalider le réseau de diffusion de contenu]** génère l’URL suivante dans l’interface d’invalidation du réseau CDN :
 
-   `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
+  `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-   Dans la zone de liste URL, sélectionnez **[!UICONTROL Continuer]** pour effacer le cache de cet appel d’URL d’image spécifique. Vous pouvez également ajouter des URL en les saisissant ou en les collant dans la zone de liste URL ; vous n’avez pas besoin de définir le modèle au préalable.
+  Dans la zone de liste URL, sélectionnez **[!UICONTROL Continuer]** pour effacer le cache de cet appel d’URL d’image spécifique. Vous pouvez également ajouter des URL en les saisissant ou en les collant dans la zone de liste URL ; vous n’avez pas besoin de définir le modèle au préalable.
 
-   Après avoir sélectionné votre modèle d’invalidation du réseau de diffusion de contenu et effectué une requête d’invalidation du réseau de diffusion de contenu, un indicateur s’affiche dans l’interface utilisateur. Vous obtenez une estimation du temps nécessaire pour effacer le cache.
+  Après avoir sélectionné votre modèle d’invalidation du réseau de diffusion de contenu et effectué une requête d’invalidation du réseau de diffusion de contenu, un indicateur s’affiche dans l’interface utilisateur. Vous obtenez une estimation du temps nécessaire pour effacer le cache.
 
-   De même, si plusieurs images sont sélectionnées dans Adobe Dynamic Media Classic lorsque vous accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Invalider le réseau de diffusion de contenu]**, chaque image est référencée dans l’URL du modèle enregistrée. Par conséquent, vous pouvez définir un modèle d’invalidation CDN référençant chaque URL référencée sur votre site Web (comme les détails du produit et les résultats de recherche). Puis, lorsque vous sélectionnez une ou plusieurs images pour invalidation à partir de la mémoire cache, les URL sont renseignées automatiquement dans l’interface.
+  De même, si plusieurs images sont sélectionnées dans Adobe Dynamic Media Classic lorsque vous accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Invalider le réseau de diffusion de contenu]**, chaque image est référencée dans l’URL du modèle enregistrée. Par conséquent, vous pouvez définir un modèle d’invalidation CDN référençant chaque URL référencée sur votre site Web (comme les détails du produit et les résultats de recherche). Puis, lorsque vous sélectionnez une ou plusieurs images pour invalidation à partir de la mémoire cache, les URL sont renseignées automatiquement dans l’interface.
 
-   Voir [Mise en cache du contenu](dmc-platform-overview.md#content_caching).
+  Voir [Mise en cache du contenu](dmc-platform-overview.md#content_caching).
 
-   Voir [Fichiers republiés et délais CDN](publishing-files.md#republished_assets_and_cdn_delays).
+  Voir [Fichiers republiés et délais CDN](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Parcourir
 
@@ -85,21 +87,21 @@ Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md
 
 * **[!UICONTROL Afficher les vidéos codées]** - Désactivé par défaut.
 
-   Pour rechercher rapidement des vidéos dans Adobe Dynamic Media Classic sans avoir à parcourir de nombreux dérivés codés de la même vidéo, laissez cette option désélectionnée (par défaut). Seule la miniature vidéo Principal (la vidéo source que vous avez téléchargée et utilisée pour créer les dérivés) et la miniature de la visionneuse de vidéos adaptative &quot;parente&quot; (qui contient les dérivés &quot;enfants&quot; de la visionneuse de vidéos codées) s’affichent.
+  Pour rechercher rapidement des vidéos dans Adobe Dynamic Media Classic sans avoir à parcourir de nombreux dérivés codés de la même vidéo, laissez cette option désélectionnée (par défaut). Seule la miniature vidéo Principal (la vidéo source que vous avez téléchargée et utilisée pour créer les dérivés) et la miniature de la visionneuse de vidéos adaptative &quot;parente&quot; (qui contient les dérivés &quot;enfants&quot; de la visionneuse de vidéos codées) s’affichent.
 
-   Vous pouvez toutefois accéder à des vidéos codées individuelles à partir de la vidéo Principal ou de la visionneuse de vidéos adaptative. Pour ce faire, double-cliquez sur l’image miniature de la vidéo pour passer en mode Affichage des détails. Sélectionnez **[!UICONTROL Vidéos codées]** dans le panneau de droite afin que vous puissiez accéder à toutes les vidéos &quot;enfants&quot;.
+  Vous pouvez toutefois accéder à des vidéos codées individuelles à partir de la vidéo Principal ou de la visionneuse de vidéos adaptative. Pour ce faire, double-cliquez sur l’image miniature de la vidéo pour passer en mode Affichage des détails. Sélectionnez **[!UICONTROL Vidéos codées]** dans le panneau de droite afin que vous puissiez accéder à toutes les vidéos &quot;enfants&quot;.
 
-   Vous pouvez également accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Retraiter]** pour créer d’autres vidéos &quot;enfants&quot; codées directement à partir d’une visionneuse de vidéos adaptative. Adobe Dynamic Media Classic recherche automatiquement la vidéo Principal &quot;parent&quot; de la visionneuse de vidéos adaptative et l’utilise comme vidéo source pour le transcodage. Cependant, lorsque vous enregistrez les nouvelles vidéos codées individuelles, elles ne sont pas visibles lors d’une recherche ou d’une navigation. Elles restent néanmoins accessibles à partir de l’onglet Vidéos codées dans la vue Affichage des détails.
+  Vous pouvez également accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Retraiter]** pour créer d’autres vidéos &quot;enfants&quot; codées directement à partir d’une visionneuse de vidéos adaptative. Adobe Dynamic Media Classic recherche automatiquement la vidéo Principal &quot;parent&quot; de la visionneuse de vidéos adaptative et l’utilise comme vidéo source pour le transcodage. Cependant, lorsque vous enregistrez les nouvelles vidéos codées individuelles, elles ne sont pas visibles lors d’une recherche ou d’une navigation. Elles restent néanmoins accessibles à partir de l’onglet Vidéos codées dans la vue Affichage des détails.
 
-   Voir [Chargement et transcodage de vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos).
+  Voir [Chargement et transcodage de vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
-   Pour continuer à accéder à toutes les vidéos codées dérivées lors d’une recherche ou d’une navigation, sélectionnez **[!UICONTROL Afficher les vidéos codées]**.
+  Pour continuer à accéder à toutes les vidéos codées dérivées lors d’une recherche ou d’une navigation, sélectionnez **[!UICONTROL Afficher les vidéos codées]**.
 
-   Certaines actions du menu Créer ne fonctionnent qu’avec des vidéos individuelles. C’est la raison pour laquelle il est nécessaire d’afficher toutes les vidéos codées dérivées pouvant être sélectionnées, quelle que soit la façon dont vous définissez le paramètre **[!UICONTROL Afficher les vidéos codées]**. Actions de création qui remplacent la variable **[!UICONTROL Afficher les vidéos codées]** inclusion de paramètre **[!UICONTROL Visionneuses de vidéos adaptatives]**, et **[!UICONTROL Catalogues électroniques]**.
+  Certaines actions du menu Créer ne fonctionnent qu’avec des vidéos individuelles. C’est la raison pour laquelle il est nécessaire d’afficher toutes les vidéos codées dérivées pouvant être sélectionnées, quelle que soit la façon dont vous définissez le paramètre **[!UICONTROL Afficher les vidéos codées]**. Actions de création qui remplacent la variable **[!UICONTROL Afficher les vidéos codées]** inclusion de paramètre **[!UICONTROL Visionneuses de vidéos adaptatives]**, et **[!UICONTROL Catalogues électroniques]**.
 
-   >[!NOTE]
-   >
-   >Si vous n’avez pas utilisé Adobe Dynamic Media Classic pour charger et coder vos ressources vidéo, Adobe Dynamic Media Classic affiche toutes vos vidéos codées individuelles, même si cette option est désélectionnée.
+  >[!NOTE]
+  >
+  >Si vous n’avez pas utilisé Adobe Dynamic Media Classic pour charger et coder vos ressources vidéo, Adobe Dynamic Media Classic affiche toutes vos vidéos codées individuelles, même si cette option est désélectionnée.
 
 * **[!UICONTROL Bouton Afficher l’actualisation des sous-dossiers]** - Active ou désactive l’affichage du bouton d’actualisation des sous-dossiers.
 
@@ -198,22 +200,22 @@ Les écrans Ajouter un paramètre prédéfini et Modifier le paramètre prédéf
       * **[!UICONTROL Nombre de couleurs]** - Faites glisser le curseur pour entrer 2 à 255.
 
       * **[!UICONTROL Liste de couleurs]** - Entrez une liste séparée par des virgules. Par exemple, pour le blanc, le gris et le noir, entrez `000000,888888,ffffff`.
+
    * Options JPEG
 
       * **[!UICONTROL Qualité]** - Contrôle le niveau de compression du JPEG. Ce paramètre affecte à la fois la taille du fichier et la qualité de l’image. L’échelle de qualité du JPEG est de 1 à 100.
 
       * **[!UICONTROL Activer le sous-échantillonnage de la chrominance JPG]** - Comme l’oeil est moins sensible aux informations colorimétriques à haute fréquence qu’à la luminance à haute fréquence, les images JPEG divisent les informations d’image en composantes de luminance et de couleur. Lorsqu’une image JPEG est compressée, la composante de luminance conserve sa pleine résolution, tandis que les composantes de couleur sont sous-échantillonnées par interpolation, c’est-à-dire le calcul de la moyenne de groupes de pixels. La réduction de résolution (sous-échantillonnage) réduit de moitié ou d’un tiers le volume de données, quasiment sans nuire à la qualité perceptible par l’œil humain. La réduction de résolution ne s’applique pas aux images en niveaux de gris. Cette technique réduit le niveau de compression nécessaire pour les images présentant un contraste élevé (par exemple, les images contenant du texte superposé).
+
    * Options PDF et TIFF
 
       * **[!UICONTROL Compression]** - Sélectionnez un algorithme de compression.
-
-
 
 * **[!UICONTROL Espace colorimétrique]** - Sélectionnez un espace colorimétrique.
 
 * **[!UICONTROL Accentuation]** - Sélectionnez l’option Activer l’accentuation simple pour appliquer un filtre d’accentuation de base à l’image à l’issue des opérations de mise à l’échelle. L’accentuation peut compenser le flou produit lors de l’affichage d’une image à une taille différente. 
 
-   Pour plus d’informations sur l’accentuation, les modes de rééchantillonnage et le masquage flou, voir [Accentuer une image](sharpening-image.md#sharpening_an_image). Voir aussi [Accentuation](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) vidéo de formation.
+  Pour plus d’informations sur l’accentuation, les modes de rééchantillonnage et le masquage flou, voir [Accentuer une image](sharpening-image.md#sharpening_an_image). Voir aussi [Accentuation](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) vidéo de formation.
 
 * **[!UICONTROL Mode de rééchantillonnage]** - Sélectionnez une option Mode Rééchantillonnage . Les options suivantes permettent d’accentuer l’image lorsque sa résolution est réduite :
 
@@ -239,7 +241,7 @@ Les écrans Ajouter un paramètre prédéfini et Modifier le paramètre prédéf
 
 * **[!UICONTROL Profil colorimétrique de sortie]** - Sélectionner **[!UICONTROL Utiliser la valeur par défaut]** ou l’un des profils de couleurs ICC disponibles dans Adobe Dynamic Media Classic.
 
-   (voir aussi [Profils ICC](icc-profiles.md#icc_profiles)).
+  (voir aussi [Profils ICC](icc-profiles.md#icc_profiles)).
 
 * **[!UICONTROL Intention de rendu]** - Sélectionnez une option si vous souhaitez remplacer l’intention de rendu par défaut du profil colorimétrique. Utilisez cette option lorsque l’un des profils ICC par défaut est l’espace colorimétrique cible d’une conversion de couleurs. Ou, un périphérique de sortie (imprimante ou moniteur) est caractérisé par ce profil, et l’intention de rendu spécifiée est valide pour ce profil.
 
@@ -292,19 +294,19 @@ Pour sélectionner un paramètre prédéfini de codage, dans le coin inférieur 
 
    * **[!UICONTROL Vidéo adaptative]** - Paramètre prédéfini de codage unique qui fonctionne avec n’importe quel format pour créer des vidéos pour une diffusion sur mobile, tablette et bureau. Les vidéos source transférées qui sont codées avec ce paramètre prédéfini sont définies avec une hauteur fixe. Toutefois, la largeur est automatiquement mise à l’échelle pour conserver les proportions de la vidéo.
 
-      Cette souplesse que procure la fonctionnalité de « redimensionnement automatique » est également disponible par défaut lorsque vous créez votre propre paramètre prédéfini de codage de vidéo personnalisé.
+     Cette souplesse que procure la fonctionnalité de « redimensionnement automatique » est également disponible par défaut lorsque vous créez votre propre paramètre prédéfini de codage de vidéo personnalisé.
 
-      Voir [Ajout ou modification d’un paramètre prédéfini de codage vidéo](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
+     Voir [Ajout ou modification d’un paramètre prédéfini de codage vidéo](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
 
    * **[!UICONTROL Codage vidéo adaptatif (16:9 ou 4:3)]** - Créez des vidéos aux proportions 16:9 et 4:3 pour une diffusion sur les ordinateurs de bureau, les appareils mobiles (iPhone, iPad, Android™) et les tablettes (iPad, Android™). Toutes optimisées avec la résolution et le débit qui correspondent le mieux à la vitesse de connexion de la visionneuse.
 
-      Voir [Paramètres prédéfinis de codage de vidéo adaptative (16:9 ou 4:3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
+     Voir [Paramètres prédéfinis de codage de vidéo adaptative (16:9 ou 4:3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
 
    * **[!UICONTROL Paramètres prédéfinis de codage uniques]**
 
-      >[!NOTE]
-      >
-      >Pour diffuser une vidéo sur iPad, vous pouvez sélectionner un paramètre prédéfini de codage mobile ou un paramètre prédéfini de codage tablette. Les paramètres prédéfinis Tablette sont spécialement conçus pour l’iPad, généralement avec une meilleure résolution et une qualité supérieure pour tirer parti de l’écran plus large et de la connexion à bande passante plus puissante. Afin de diffuser des fichiers vidéo codés avec un paramètre prédéfini Tablette, vous devez inclure un code de détection de périphérique sur votre site ou application mobile. Ce code bascule entre une expérience vidéo iPhone ou iPad, selon le périphérique de lecture. Le choix d’un paramètre prédéfini Mobile pour la diffusion de fichiers vidéo sur l’iPad représente un flux de travail plus simple, car vous pouvez utiliser le même fichier vidéo pour les iPhones et les iPads. En revanche, la qualité est normalisée sur la résolution iPhone, qui est inférieure.
+     >[!NOTE]
+     >
+     >Pour diffuser une vidéo sur iPad, vous pouvez sélectionner un paramètre prédéfini de codage mobile ou un paramètre prédéfini de codage tablette. Les paramètres prédéfinis Tablette sont spécialement conçus pour l’iPad, généralement avec une meilleure résolution et une qualité supérieure pour tirer parti de l’écran plus large et de la connexion à bande passante plus puissante. Afin de diffuser des fichiers vidéo codés avec un paramètre prédéfini Tablette, vous devez inclure un code de détection de périphérique sur votre site ou application mobile. Ce code bascule entre une expérience vidéo iPhone ou iPad, selon le périphérique de lecture. Le choix d’un paramètre prédéfini Mobile pour la diffusion de fichiers vidéo sur l’iPad représente un flux de travail plus simple, car vous pouvez utiliser le même fichier vidéo pour les iPhones et les iPads. En revanche, la qualité est normalisée sur la résolution iPhone, qui est inférieure.
 
       * Sous le groupe Paramètres prédéfinis de codage, dans la liste déroulante Trier les paramètres prédéfinis de codage, sélectionnez Nom ou Taille pour trier les paramètres prédéfinis par nom ou taille de résolution.
       * Sélectionnez un paramètre prédéfini de codage en fonction de la taille de résolution et de la bande passante avec lesquelles vous prévoyez de lire la vidéo.
@@ -558,29 +560,29 @@ L’écran Paramètres prédéfinis de la visionneuse propose des outils permett
 
 * **Ajout d’un paramètre prédéfini** - Sélectionner **[!UICONTROL Ajouter]** et effectuez des choix dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse .
 
-       Voir [Ajout et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
-   
+      Voir [Ajout et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
+  
 * **Modification d’un paramètre prédéfini** - Sélectionnez un paramètre prédéfini, puis cliquez sur **[!UICONTROL Modifier]**.
 
-       Voir [Ajout et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
-   
+      Voir [Ajout et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
+  
 * **Suppression d’un paramètre prédéfini** - Sélectionnez un paramètre prédéfini, puis cliquez sur **[!UICONTROL Supprimer]**.
 
 * **Exportation d’un paramètre prédéfini** - Sélectionnez un paramètre prédéfini de visionneuse HTML5, puis cliquez sur **[!UICONTROL Exporter]** pour télécharger l’habillage de la visionneuse afin que vous puissiez l’utiliser comme base pour créer et ajouter un autre paramètre prédéfini de visionneuse.
 
-       Voir [Exportation d’un paramètre prédéfini de visionneuse HTML5](application-setup.md#export_an_html5_viewer_preset).
-   
+      Voir [Exportation d’un paramètre prédéfini de visionneuse HTML5](application-setup.md#export_an_html5_viewer_preset).
+  
 * **Filtrage de la liste Paramètres prédéfinis de la visionneuse** - Utilisez ces outils pour filtrer la liste :
 
-       * Ouvrez la liste déroulante **Principal/Inactif** et sélectionnez une option pour afficher les paramètres prédéfinis principaux, les paramètres prédéfinis inactifs ou tous les paramètres prédéfinis.
-       * Ouvrez la liste déroulante **Visionneuse** et sélectionnez une option pour afficher uniquement les visionneuses d’un certain type. Sélectionner **[!UICONTROL Toutes les visionneuses]** pour afficher toutes les visionneuses.
-   
+      * Ouvrez la liste déroulante **Principal/Inactif** et sélectionnez une option pour afficher les paramètres prédéfinis principaux, les paramètres prédéfinis inactifs ou tous les paramètres prédéfinis.
+      * Ouvrez la liste déroulante **Visionneuse** et sélectionnez une option pour afficher uniquement les visionneuses d’un certain type. Sélectionner **[!UICONTROL Toutes les visionneuses]** pour afficher toutes les visionneuses.
+  
 * **Tri des paramètres prédéfinis** - Sélectionnez un en-tête de colonne (**[!UICONTROL Principal]**, **[!UICONTROL Type]**, **[!UICONTROL Paramètre prédéfini]** ou **[!UICONTROL Plateforme]**) pour trier la liste sur une colonne. Sélectionnez un en-tête de colonne une seconde fois pour trier la liste par ordre décroissant (ou croissant).
 
 * **Activation et désactivation des paramètres prédéfinis** - Sélectionnez un paramètre prédéfini, puis sélectionnez sa Principale option pour l’activer ou le désactiver.
 
-       Voir [Activation ou désactivation des paramètres prédéfinis de visionneuse](application-setup.md#activating_or_deactivating_viewer_presets).
-   
+      Voir [Activation ou désactivation des paramètres prédéfinis de visionneuse](application-setup.md#activating_or_deactivating_viewer_presets).
+  
 >[!NOTE]
 >
 >Sélectionner **[!UICONTROL Aperçu]** sur le côté droit de la page Paramètres prédéfinis de la visionneuse afin que vous puissiez voir à quoi ressemble une ressource dans le paramètre prédéfini de la visionneuse que vous avez sélectionné. Pour afficher une autre ressource, sélectionnez **[!UICONTROL Parcourir]** sur la page Paramètres visionneuse et sélectionnez une autre ressource dans la boîte de dialogue Sélectionner l’aperçu de la ressource .
@@ -603,12 +605,12 @@ Voir aussi [Paramètres prédéfinis de la visionneuse](https://s7d5.scene7.com/
 
    * **Ajouter** - Dans la barre d’outils, sélectionnez **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, sélectionnez une plateforme, puis un type de ressource de média enrichi.
 
-          Sélectionner **[!UICONTROL Enregistrer sous]** lorsque vous avez terminé de créer le paramètre prédéfini de visionneuse.
-      
+         Sélectionner **[!UICONTROL Enregistrer sous]** lorsque vous avez terminé de créer le paramètre prédéfini de visionneuse.
+     
    * **Ajouter en commençant par un paramètre prédéfini de visionneuse existant** - Dans le tableau, sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis sélectionnez **[!UICONTROL Modifier]** dans la barre d’outils.
 
-          Après avoir reconfiguré la visionneuse de vidéos, sélectionnez **[!UICONTROL Enregistrer sous]** pour enregistrer le paramètre prédéfini à l’aide d’un nom différent dans le champ de texte Nom du paramètre prédéfini .
-      
+         Après avoir reconfiguré la visionneuse de vidéos, sélectionnez **[!UICONTROL Enregistrer sous]** pour enregistrer le paramètre prédéfini à l’aide d’un nom différent dans le champ de texte Nom du paramètre prédéfini .
+     
    * **Modifier** - Sélectionnez un paramètre prédéfini de visionneuse existant, puis cliquez sur **[!UICONTROL Modifier]**.
 
 1. Dans l’écran Configurer la visionneuse, dans le champ Nom du paramètre prédéfini, saisissez ou modifiez le nom du paramètre prédéfini.
@@ -696,9 +698,11 @@ L’URL est copiée dans le Presse-papiers. Vous pouvez l’utiliser, selon vos 
    Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
 
    * Sélectionner **[!UICONTROL Mode Liste]**. Dans le panneau de navigation des ressources, sélectionnez une seule ressource, puis, à droite de l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+
    Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
 
    * Sélectionner **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+
    Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
 
 ### Copie du code incorporé d’un paramètre prédéfini de visionneuse {#copying-the-embed-code-of-a-viewer-preset}
@@ -718,9 +722,11 @@ Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
    Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 
    * Sélectionner **[!UICONTROL Mode Liste]**. Dans le panneau de navigation des ressources, sélectionnez une seule ressource, puis, à droite de l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+
    Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 
    * Sélectionner **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+
    Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 
 1. Dans la boîte de dialogue Code incorporé, sélectionnez **[!UICONTROL Copier dans le Presse-papiers]**.
@@ -848,9 +854,9 @@ Pour utiliser efficacement les champs de métadonnées définis par l’utilisat
 
    * **[!UICONTROL S’applique à]** - Vous pouvez éventuellement sélectionner un type de ressource si vous souhaitez que le champ de métadonnées s’applique uniquement à un type spécifique de ressource.
 
-      >[!NOTE]
-      >
-      >Sélectionnez une **[!UICONTROL S’applique à]** , car vous ne pouvez pas modifier la variable **[!UICONTROL S’applique à]** après avoir créé un champ défini par l’utilisateur. Adobe Dynamic Media Classic vous permet de modifier le nom, le type et la valeur par défaut d’un champ défini par l’utilisateur, mais pas la variable **[!UICONTROL S’applique à]** . *
+     >[!NOTE]
+     >
+     >Sélectionnez une **[!UICONTROL S’applique à]** , car vous ne pouvez pas modifier la variable **[!UICONTROL S’applique à]** après avoir créé un champ défini par l’utilisateur. Adobe Dynamic Media Classic vous permet de modifier le nom, le type et la valeur par défaut d’un champ défini par l’utilisateur, mais pas la variable **[!UICONTROL S’applique à]** . *
 
 1. Sélectionner **[!UICONTROL Enregistrer]** une fois le champ de métadonnées créé.
 
@@ -1024,4 +1030,3 @@ Lorsque la visionneuse à 360° est chargée et publiée, vous activez le nom de
 >* [Configuration des paramètres d’image prédéfinis](setting-image-presets.md#setting_up_image_presets)
 >* [Affichage, ajout et exportation de métadonnées](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 >* [Vérification des fichiers de tâche](checking-job-files.md#checking_job_files)
-

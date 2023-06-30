@@ -10,7 +10,9 @@ discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1231'
 ht-degree: 27%
@@ -70,8 +72,8 @@ Le tableau suivant décrit les événements de visionneuse que vous pouvez ajout
 | PERMUTATION | **X** (catalogue électronique, fenêtre déroulante, visionneuse à 360°, vidéo, zoom) | Lorsqu’un utilisateur sélectionne une autre miniature pour afficher une autre image. |
 | OBJET | **X** (catalogue électronique) | Lorsqu’un utilisateur place le pointeur sur une zone cliquable afin d’afficher le texte de survol associé, et ce, dans une visionneuse prenant en charge les zones cliquables comportant du texte de survol. |
 | HREF | **X** (catalogue électronique) | Dans les visionneuses prenant en charge les zones cliquables, lorsqu’un utilisateur sélectionne une URL dans une zone cliquable. |
-| CIBLE |  | Dans les visionneuses de zoom ciblées, lorsqu’un utilisateur sélectionne une cible de zoom pour effectuer un zoom sur une partie d’une image. |
-| RECHERCHE |  | Lorsqu’un utilisateur effectue une recherche textuelle dans des catalogues électroniques. |
+| CIBLE | | Dans les visionneuses de zoom ciblées, lorsqu’un utilisateur sélectionne une cible de zoom pour effectuer un zoom sur une partie d’une image. |
+| RECHERCHE | | Lorsqu’un utilisateur effectue une recherche textuelle dans des catalogues électroniques. |
 | LECTURE | **X** (vidéo) | Dans les visionneuses de vidéos, lorsqu’un utilisateur sélectionne Lecture pour commencer la lecture d’une vidéo.<br><br>**Remarque :** Si vous utilisez des rapports vidéo basés sur la pulsation Adobe Analytics, vous n’avez pas besoin de mapper de variables à cet événement de visionneuse lorsque vous configurez Adobe Analytics dans Adobe Dynamic Media Classic. Video Heartbeat fonctionne avec les visionneuses Adobe Dynamic Media Classic HTML5 Video et MixedMedia prêtes à l’emploi. Le lecteur vidéo génère des données de suivi à afficher dans les rapports vidéo d’Adobe Analytics. Voir [Activation des rapports vidéo Adobe Analytics](enabling-analytics-video-reports.md). |
 | PAUSE | **X** (vidéo) | Dans les visionneuses de vidéos, lorsqu’un utilisateur sélectionne **[!UICONTROL Pause]** pour figer une vidéo.<br><br>**Remarque :** Si vous utilisez des rapports vidéo basés sur la pulsation Adobe Analytics, vous n’avez pas besoin de mapper de variables à cet événement de visionneuse lorsque vous configurez Adobe Analytics dans Adobe Dynamic Media Classic. Video Heartbeat fonctionne avec les visionneuses Adobe Dynamic Media Classic HTML5 Video et MixedMedia prêtes à l’emploi. Le lecteur vidéo génère des données de suivi à afficher dans les rapports vidéo d’Adobe Analytics. Voir [Activation des rapports vidéo Adobe Analytics](enabling-analytics-video-reports.md). |
 | ARRET | **X** (vidéo) | Dans les visionneuses de vidéos, lorsqu’un utilisateur sélectionne **[!UICONTROL Arrêter]** pour arrêter la lecture d’une vidéo.<br><br>**Remarque :** Si vous utilisez des rapports vidéo basés sur la pulsation Adobe Analytics, vous n’avez pas besoin de mapper de variables à cet événement de visionneuse lorsque vous configurez Adobe Analytics dans Adobe Dynamic Media Classic. Video Heartbeat fonctionne avec les visionneuses Adobe Dynamic Media Classic HTML5 Video et MixedMedia prêtes à l’emploi. Le lecteur vidéo génère des données de suivi à afficher dans les rapports vidéo d’Adobe Analytics. Voir [Activation des rapports vidéo Adobe Analytics](enabling-analytics-video-reports.md). |

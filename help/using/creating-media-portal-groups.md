@@ -10,7 +10,9 @@ discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 56%
@@ -62,12 +64,12 @@ Si vous n’accordez pas spécifiquement l’autorisation à un groupe à une re
 
    | Tâche | Lecture | Ecriture | Suppression |
    | --- | --- | --- | --- |
-   | Parcourir dossiers et fichiers | X |  |  |
-   | Modifier des fichiers (recadrage, accentuation, modification) |  | X |  |
-   | Modifier les noms de fichiers |  | X |  |
-   | Déplacer des fichiers vers des dossiers différents |  | X |  |
-   | Renommer des fichiers |  | X |  |
-   | Supprimer des fichiers |  |  | X |
+   | Parcourir dossiers et fichiers | X | | |
+   | Modifier des fichiers (recadrage, accentuation, modification) | | X | |
+   | Modifier les noms de fichiers | | X | |
+   | Déplacer des fichiers vers des dossiers différents | | X | |
+   | Renommer des fichiers | | X | |
+   | Supprimer des fichiers | | | X |
 
 1. Sélectionner **[!UICONTROL Fermer]**.
 

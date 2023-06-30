@@ -9,7 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 36%
@@ -38,7 +40,7 @@ Préparez les fichiers de votre PDF avant de les transférer vers Adobe Dynamic 
 * Si vous souhaitez que les utilisateurs puissent effectuer des recherches par mot-clé dans votre catalogue électronique, déterminez si vos fichiers PDF sont aplatis. Il est impossible d’extraire des mots de recherche dans des fichiers PDF aplatis. Pour savoir si un fichier PDF est aplati, essayez de sélectionner le texte qu’il contient. Si vous ne pouvez pas sélectionner de texte, le PDF est aplati et les visiteurs ne peuvent pas effectuer de recherche par mot-clé dans votre catalogue électronique.
 * Les fichiers PDF étant destinés à l’impression, ils contiennent le plus souvent des images CMJN. Par défaut, Adobe Dynamic Media Classic peut détecter intelligemment ces images CMJN et les convertir à l’aide d’un profil colorimétrique CMJN interne. Vous pouvez cependant utiliser un profil de couleurs personnalisé pour convertir les images CMJN.
 
-   Voir [Profils ICC (International Color Consortium)](icc-profiles.md#icc_profiles).
+  Voir [Profils ICC (International Color Consortium)](icc-profiles.md#icc_profiles).
 
 ## Options recommandées pour le téléchargement des fichiers PDF {#best-practice-pdf-upload-options}
 
@@ -58,7 +60,7 @@ Sélectionnez les fichiers à charger, puis sélectionnez-les. *bonne pratique* 
 
 * **Espace colorimétrique** - Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Options de PDF]**. Dans la liste déroulante Espace colorimétrique, choisissez **[!UICONTROL Détecter automatiquement]**. En règle générale, les fichiers PDF destinés à l’impression sont créés dans l’espace colorimétrique CMJN, tandis que ceux conçus pour le Web le sont dans l’espace RVB. Si un fichier PDF utilise les deux espaces colorimétriques, vous pouvez opter pour l’utilisation de l’un de ces espaces en choisissant l’option Forcer comme RVB ou Forcer comme CMJN. Les fichiers PDF utilisent les deux espaces de couleurs lorsqu’ils contiennent des graphiques CMJN et des images RVB, par exemple. Si vous avez téléchargé un profil ICC, son nom s’affiche dans le menu Espace colorimétrique, où vous pouvez le sélectionner à votre convenance.
 
-   Voir [Profils ICC (International Color Consortium)](/help/using/icc-profiles.md).
+  Voir [Profils ICC (International Color Consortium)](/help/using/icc-profiles.md).
 
 * **Options de profil colorimétrique** - Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Options de profil colorimétrique]**, puis sélectionnez une option de profil de couleurs :
 

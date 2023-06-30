@@ -7,7 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Content Management
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '2405'
 ht-degree: 43%
@@ -48,12 +50,12 @@ Modifiez ces paramètres uniquement avec l’aide d’un agent de support Adobe 
 
 * **[!UICONTROL Prise en charge de la localisation]*** - Ces paramètres vous permettent de gérer plusieurs attributs de paramètres régionaux. Il permet également de définir une chaîne de carte de paramètres régionaux pour définir les langues à prendre en charge pour les info-bulles dans les visionneuses.
 
-   Par exemple, si votre entreprise est une société multinationale qui vend dans différents pays, chaque pays peut avoir sa propre visionneuse correspondant aux paramètres régionaux. Pour accomplir cette fonctionnalité, vous spécifiez une chaîne de carte de paramètres régionaux. Vous modifiez ensuite le texte d’info-bulle dans le paramètre prédéfini d’une visionneuse en ajoutant les chaînes de texte traduites pour la langue souhaitée.
+  Par exemple, si votre entreprise est une société multinationale qui vend dans différents pays, chaque pays peut avoir sa propre visionneuse correspondant aux paramètres régionaux. Pour accomplir cette fonctionnalité, vous spécifiez une chaîne de carte de paramètres régionaux. Vous modifiez ensuite le texte d’info-bulle dans le paramètre prédéfini d’une visionneuse en ajoutant les chaînes de texte traduites pour la langue souhaitée.
 
-   >[!NOTE]
-   > Pour configurer les options de prise en charge de la localisation, [utilisez le Admin Console pour créer un cas d’assistance.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Dans votre cas d’assistance, demandez de l’aide sur la configuration.
+  >[!NOTE]
+  > Pour configurer les options de prise en charge de la localisation, [utilisez le Admin Console pour créer un cas d’assistance.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Dans votre cas d’assistance, demandez de l’aide sur la configuration.
 
-   Pour plus d’informations sur la configuration de l’**[!UICONTROL Aide à la localisation]**, voir [Considérations à prendre en compte lors de la configuration de la localisation des fichiers](publish-setup.md#considerations_when_setting_up_localization_of_assets).
+  Pour plus d’informations sur la configuration de l’**[!UICONTROL Aide à la localisation]**, voir [Considérations à prendre en compte lors de la configuration de la localisation des fichiers](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
 ### Considérations à prendre en compte lors de la configuration de la localisation des fichiers {#considerations-when-setting-up-localization-of-assets}
 

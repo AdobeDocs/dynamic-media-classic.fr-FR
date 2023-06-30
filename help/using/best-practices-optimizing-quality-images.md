@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 49%
@@ -75,13 +77,13 @@ Vous pouvez utiliser deux méthodes d’accentuation des images :
       * `amount` (0 à 5, force de l’effet.)
       * `radius` (0 à 250, largeur des &quot;lignes d’accentuation&quot; tracées autour de l’objet accentué, mesurées en pixels.)
 
-         Gardez à l’esprit que les paramètres `radius` et `amount` travaille les uns contre les autres. Réduction `radius` peuvent être compensées en augmentant `amount`. `Radius` permet un contrôle plus précis, car une valeur inférieure accentue uniquement les pixels de contour, tandis qu’une valeur supérieure accentue une bande plus large de pixels.
+        Gardez à l’esprit que les paramètres `radius` et `amount` travaille les uns contre les autres. Réduction `radius` peuvent être compensées en augmentant `amount`. `Radius` permet un contrôle plus précis, car une valeur inférieure accentue uniquement les pixels de contour, tandis qu’une valeur supérieure accentue une bande plus large de pixels.
 
       * `threshold` (0 à 255, sensibilité de l’effet.)
 
-         Ce paramètre définit l’écart recherché entre les pixels accentués et la zone environnante avant qu’ils ne soient considérés comme des pixels de contour et ne soient accentués par le filtre. Le seuil permet d’éviter de trop accentuer les zones avec des couleurs similaires, comme des tons chair. Par exemple, une valeur de seuil de 12 ignore les légères variations de luminosité de la peau, afin de ne pas ajouter de bruit, tout en ajoutant un contraste sur les bords dans les zones contrastées, comme la zone où les cils rencontrent la peau.
+        Ce paramètre définit l’écart recherché entre les pixels accentués et la zone environnante avant qu’ils ne soient considérés comme des pixels de contour et ne soient accentués par le filtre. Le seuil permet d’éviter de trop accentuer les zones avec des couleurs similaires, comme des tons chair. Par exemple, une valeur de seuil de 12 ignore les légères variations de luminosité de la peau, afin de ne pas ajouter de bruit, tout en ajoutant un contraste sur les bords dans les zones contrastées, comme la zone où les cils rencontrent la peau.
 
-         Pour plus d’informations sur la définition de ces trois paramètres, y compris les bonnes pratiques à utiliser avec le filtre, voir [Accentuer les images dans Adobe Dynamic Media Classic et sur le serveur d’images](/help/using/assets/s7_sharpening_images.pdf).
+        Pour plus d’informations sur la définition de ces trois paramètres, y compris les bonnes pratiques à utiliser avec le filtre, voir [Accentuer les images dans Adobe Dynamic Media Classic et sur le serveur d’images](/help/using/assets/s7_sharpening_images.pdf).
 
       * Adobe Dynamic Media Classic vous permet également de contrôler un quatrième paramètre : monochrome ( `0,1`). Ce paramètre détermine si le masquage flou est appliqué séparément à chaque composante de couleur en utilisant la valeur `0` ou à la luminosité/intensité de l’image en utilisant la valeur `1`.
 

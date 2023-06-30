@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Beginner
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1808'
 ht-degree: 25%
@@ -49,24 +51,24 @@ Lorsqu’une visionneuse de vidéos adaptative est générée, elle comprend des
 
 * Sous-titrage des vidéos dans les visionneuses Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark et Universal_HTML5_MixedMedia_light et navigation des chapitres vidéo dans les visionneuses Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark et Universal_HTML5_MixedMedia_light.
 
-   Voir [Ajout de sous-titres à une vidéo](adding-captions-video.md).
+  Voir [Ajout de sous-titres à une vidéo](adding-captions-video.md).
 
-   Voir [Ajout de marqueurs de chapitre à la vidéo](adding-chapter-markers-video.md).
+  Voir [Ajout de marqueurs de chapitre à la vidéo](adding-chapter-markers-video.md).
 
 * Organiser, parcourir et effectuer des recherches dans la vidéo avec une prise en charge complète des métadonnées pour une gestion efficace des fichiers vidéo.
 * Diffusez des visionneuses de vidéos adaptatives sur le web et sur les ordinateurs de bureau et les appareils mobiles, y compris le téléphone iPhone, iPad, Android™, BlackBerry® et Windows®.
 
-   La diffusion en continu de vidéo adaptative est prise en charge sur différentes plateformes iOS.
+  La diffusion en continu de vidéo adaptative est prise en charge sur différentes plateformes iOS.
 
-   Découvrez la dernière prise en charge dans la section [Guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+  Découvrez la dernière prise en charge dans la section [Guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
-   Adobe Dynamic Media Classic prend en charge la lecture vidéo mobile pour la vidéo MP4 H.264. Vous trouverez les appareils BlackBerry® qui prennent en charge ce format vidéo sur le site web suivant :
+  Adobe Dynamic Media Classic prend en charge la lecture vidéo mobile pour la vidéo MP4 H.264. Vous trouverez les appareils BlackBerry® qui prennent en charge ce format vidéo sur le site web suivant :
 
-   Voir [Formats vidéo pris en charge sur BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
+  Voir [Formats vidéo pris en charge sur BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
-   Vous trouverez les périphériques Windows® qui prennent en charge ce format vidéo à l’adresse suivante :
+  Vous trouverez les périphériques Windows® qui prennent en charge ce format vidéo à l’adresse suivante :
 
-   Voir [Formats vidéo pris en charge sur Windows® Phone](https://docs.microsoft.com/en-us/).
+  Voir [Formats vidéo pris en charge sur Windows® Phone](https://docs.microsoft.com/en-us/).
 
 * Lisez la vidéo à l’aide des paramètres prédéfinis de la visionneuse Adobe Dynamic Media Classic, notamment :
 
@@ -96,9 +98,9 @@ Téléchargez et générez des visionneuses de vidéos adaptatives en suivant l�
 * **Chargement de vidéos précodées** - Si vos vidéos ont déjà été codées en dehors d’Adobe Dynamic Media Classic, dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour parcourir et charger des fichiers vidéo MP4 directement dans Adobe Dynamic Media Classic. Ensuite, accédez à **[!UICONTROL Build]** > **[!UICONTROL Visionneuses de vidéos adaptatives]**. Accédez aux fichiers vidéo requis. Faites glisser les fichiers vidéo de votre choix dans le tableau Visionneuse de vidéos adaptative, puis enregistrez la visionneuse.
 * **Chargement de vidéos Principales** - Si les vidéos ne sont pas codées, sélectionnez dans la barre de navigation globale. **[!UICONTROL Télécharger]** pour charger des fichiers source vidéo Principaux (non-MP4). Adobe Dynamic Media Classic les code pour vous dans des fichiers MP4. Dans le **[!UICONTROL Télécharger les options de la tâche]** , sous **[!UICONTROL Options eVideo]**, sélectionnez **[!UICONTROL Vidéo adaptative]**.
 
-   Cette option conseillée permet de créer une visionneuse de vidéos adaptative qui applique automatiquement à la vidéo les paramètres de codage prédéfinis corrects, qu’il s’agisse d’un format 16:9 ou 4:3, en fonction des dimensions de la vidéo téléchargée. Lorsque vous envoyez votre tâche de téléchargement, une visionneuse de vidéos adaptative est automatiquement créée, qui comprend trois paramètres de codage vidéo dans les proportions correctes.
+  Cette option conseillée permet de créer une visionneuse de vidéos adaptative qui applique automatiquement à la vidéo les paramètres de codage prédéfinis corrects, qu’il s’agisse d’un format 16:9 ou 4:3, en fonction des dimensions de la vidéo téléchargée. Lorsque vous envoyez votre tâche de téléchargement, une visionneuse de vidéos adaptative est automatiquement créée, qui comprend trois paramètres de codage vidéo dans les proportions correctes.
 
-   Ou, dans le même **[!UICONTROL Options de tâche]** , sous **[!UICONTROL Options eVideo]**, développer **[!UICONTROL Paramètres prédéfinis de codage uniques]**. Sélectionner les paramètres prédéfinis de codage vidéo individuels que vous souhaitez utiliser **Bureau**, **Mobile (iPhone, iPad, Android™)**, et **Tablette (iPad, Android™)** pour créer les fichiers MP4.
+  Ou, dans le même **[!UICONTROL Options de tâche]** , sous **[!UICONTROL Options eVideo]**, développer **[!UICONTROL Paramètres prédéfinis de codage uniques]**. Sélectionner les paramètres prédéfinis de codage vidéo individuels que vous souhaitez utiliser **Bureau**, **Mobile (iPhone, iPad, Android™)**, et **Tablette (iPad, Android™)** pour créer les fichiers MP4.
 
 * Vous pouvez également retraiter une vidéo Principale à l’aide du **[!UICONTROL Retraiter]** fonction . Les vidéos récemment codées sont ajoutées à la visionneuse de vidéos adaptative existante.
 
@@ -134,27 +136,26 @@ Pour intégrer la vidéo sur votre site Web, procédez de l’une des manières 
 
 * Affichez la vidéo dans sa propre fenêtre contextuelle ou modale, auquel cas utilisez la fonction **[!UICONTROL Copier l’URL]** fonction .
 
-   Pour obtenir l’URL d’une vidéo, en mode Grille ou Liste, sélectionnez la vidéo dans le panneau de navigation. Sélectionner **[!UICONTROL Aperçu]**, puis sélectionnez **[!UICONTROL Copier l’URL]** à droite de `Universal_HTML5_Viewer`.
+  Pour obtenir l’URL d’une vidéo, en mode Grille ou Liste, sélectionnez la vidéo dans le panneau de navigation. Sélectionner **[!UICONTROL Aperçu]**, puis sélectionnez **[!UICONTROL Copier l’URL]** à droite de `Universal_HTML5_Viewer`.
 
-   Lorsque vous sélectionnez **[!UICONTROL Copier l’URL]**, l’URL est copiée dans le Presse-papiers. Placez ce code dans le code HTML de votre site Web, site mobile ou application.
+  Lorsque vous sélectionnez **[!UICONTROL Copier l’URL]**, l’URL est copiée dans le Presse-papiers. Placez ce code dans le code HTML de votre site Web, site mobile ou application.
 
-   >[!NOTE]
-   >
-   >les URL sont activées uniquement après que vous ayez publié la vidéo ou la visionneuse de vidéos adaptative.
+  >[!NOTE]
+  >
+  >les URL sont activées uniquement après que vous ayez publié la vidéo ou la visionneuse de vidéos adaptative.
 
 * Affichez la vidéo incorporée dans la page web, auquel cas utilisez la fonction **[!UICONTROL Code incorporé]** fonction .
 
-   Pour obtenir le code intégré d’une vidéo, en mode Grille ou Liste, sélectionnez la vidéo dans le panneau de navigation. Accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**. Dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]** à droite de `Universal_HTML5_Video`. Il n’est pas possible de modifier le code.
+  Pour obtenir le code intégré d’une vidéo, en mode Grille ou Liste, sélectionnez la vidéo dans le panneau de navigation. Accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**. Dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]** à droite de `Universal_HTML5_Video`. Il n’est pas possible de modifier le code.
 
-   Sélectionner **[!UICONTROL Fermer]** et collez le code incorporé dans vos pages web.
+  Sélectionner **[!UICONTROL Fermer]** et collez le code incorporé dans vos pages web.
 
-   >[!NOTE]
-   >
-   >le code intégré est activé uniquement après que vous ayez publié la vidéo ou la visionneuse de vidéos adaptative.
+  >[!NOTE]
+  >
+  >le code intégré est activé uniquement après que vous ayez publié la vidéo ou la visionneuse de vidéos adaptative.
 
 Voir [Déployer une vidéo sur vos sites web et vos sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 >[!MORELIKETHIS]
 >
 >* [Meilleures pratiques en matière de codage de vidéo](uploading-encoding-videos.md#best_practices_for_video_encoding)
-

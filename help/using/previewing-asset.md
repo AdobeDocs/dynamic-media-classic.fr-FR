@@ -10,7 +10,9 @@ discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 feature: Dynamic Media Classic,Asset Management,Viewers
 role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 36%
@@ -68,13 +70,13 @@ Pour une plate-forme de visionneuse donnée, la fenêtre Liste des visionneuses 
 
    * Dans la fenêtre Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]** pour une visionneuse et un type de plate-forme sélectionnés.
 
-      Lorsque vous sélectionnez **[!UICONTROL Copier l’URL]**, son URL associée est automatiquement copiée dans le Presse-papiers.
+     Lorsque vous sélectionnez **[!UICONTROL Copier l’URL]**, son URL associée est automatiquement copiée dans le Presse-papiers.
 
    * Dans la fenêtre Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 
-      Lorsque vous sélectionnez **[!UICONTROL Code incorporé]**, la fenêtre Code incorporé s’ouvre, dans laquelle vous pouvez consulter le code de la visionneuse. Vous ne pouvez pas modifier le code dans cette fenêtre. Vous pouvez également copier le code dans le Presse-papiers ; vous pouvez ainsi le coller dans vos pages Web.
+     Lorsque vous sélectionnez **[!UICONTROL Code incorporé]**, la fenêtre Code incorporé s’ouvre, dans laquelle vous pouvez consulter le code de la visionneuse. Vous ne pouvez pas modifier le code dans cette fenêtre. Vous pouvez également copier le code dans le Presse-papiers ; vous pouvez ainsi le coller dans vos pages Web.
 
-      Fermez l’aperçu affiché.
+     Fermez l’aperçu affiché.
 
 1. Dans le coin inférieur droit de la fenêtre Liste des visionneuses, sélectionnez **[!UICONTROL Fermer]** pour revenir à l’écran Ressources.
 

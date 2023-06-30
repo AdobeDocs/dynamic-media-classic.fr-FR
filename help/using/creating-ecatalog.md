@@ -10,7 +10,9 @@ discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 56%
@@ -42,9 +44,9 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
    * **Démarrage à partir de l’écran Catalogue électronique** - Accédez à **[!UICONTROL Build]** > **[!UICONTROL Catalogues électroniques]**. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser son contenu vers l’onglet Ordre des pages de la page Catalogue électronique.
 
-      >[!NOTE]
-      >
-      >pour visualiser les éléments de la bibliothèque de fichiers par nom plutôt que par miniature, sélectionnez l’option Nom pour l’affichage par défaut de la bibliothèque de fichiers dans l’écran Configuration personnelle.
+     >[!NOTE]
+     >
+     >pour visualiser les éléments de la bibliothèque de fichiers par nom plutôt que par miniature, sélectionnez l’option Nom pour l’affichage par défaut de la bibliothèque de fichiers dans l’écran Configuration personnelle.
 
 1. Sélectionnez la disposition globale de votre catalogue électronique. Sélectionner **[!UICONTROL 1]** pour les pages simples, **[!UICONTROL 2 en haut]** pour les planches à deux pages, ou **[!UICONTROL Personnalisé]** pour les planches de plus de deux pages. Dans le **[!UICONTROL Modification de la disposition du catalogue électronique]** , sélectionnez **[!UICONTROL Toutes les diffusions]** options et sélectionnez **[!UICONTROL OK]**.
 1. Si vous le souhaitez, vous pouvez modifier la mise en page de pages individuelles ou de planches en les sélectionnant, puis en choisissant **[!UICONTROL 1]**, **[!UICONTROL 2 en haut]** ou **[!UICONTROL Personnalisé]** bouton . Dans le **[!UICONTROL Modification de la disposition du catalogue électronique]** , sélectionnez **[!UICONTROL Diffusions sélectionnées]** options et sélectionnez **[!UICONTROL OK]**.

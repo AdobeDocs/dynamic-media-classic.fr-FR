@@ -10,7 +10,9 @@ discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 65%
@@ -37,12 +39,12 @@ Ce tableau décrit les tâches que les utilisateurs peuvent effectuer selon le r
 | Parcourir les métadonnées | X | X | X |
 | Prévisualiser les fichiers | X | X | X |
 | Rechercher des fichiers | X | X | X |
-| Chargement de fichiers dans Adobe Dynamic Media Classic |  | X | X |
-| Modifier et importer les métadonnées de fichiers |  | X | X |
-| Créer, renommer et supprimer des dossiers |  | X | X |
-| Exporter les métadonnées de fichiers | X |  | X |
-| Renommer des fichiers |  | X | X |
-| Déplacer des fichiers vers des dossiers différents |  | X | X |
-| Renommer des fichiers |  | X | X |
-| Supprimer des fichiers |  | X | X |
-| Exporter (télécharger) des fichiers depuis Adobe Dynamic Media Classic | X |  | X |
+| Chargement de fichiers dans Adobe Dynamic Media Classic | | X | X |
+| Modifier et importer les métadonnées de fichiers | | X | X |
+| Créer, renommer et supprimer des dossiers | | X | X |
+| Exporter les métadonnées de fichiers | X | | X |
+| Renommer des fichiers | | X | X |
+| Déplacer des fichiers vers des dossiers différents | | X | X |
+| Renommer des fichiers | | X | X |
+| Supprimer des fichiers | | X | X |
+| Exporter (télécharger) des fichiers depuis Adobe Dynamic Media Classic | X | | X |

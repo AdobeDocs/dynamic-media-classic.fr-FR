@@ -10,7 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '2430'
 ht-degree: 50%
@@ -152,9 +154,9 @@ Par défaut, le modèle d’URL comprend un gestionnaire JavaScript Adobe Dynami
 
 * `loadProductPW` - Affiche l’URL cible spécifiée dans la colonne URL de la fenêtre parente (la page d’où la page active a été ouverte). La fenêtre active reste ouverte, mais la fenêtre parent change pour afficher l’URL cible.
 
-   >[!NOTE]
-   >
-   >Le code `loadProductPW` ne prend pas en charge les visionneuses DHTML et HTML5.
+  >[!NOTE]
+  >
+  >Le code `loadProductPW` ne prend pas en charge les visionneuses DHTML et HTML5.
 
 ### Création d’un modèle d’URL {#creating-a-url-template}
 

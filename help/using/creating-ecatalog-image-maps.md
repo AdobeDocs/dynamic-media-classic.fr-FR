@@ -10,7 +10,9 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 40%
@@ -34,7 +36,7 @@ Vous dessinez les zones cliquables des catalogues sur l’onglet Pages de zones 
 
    * **map polygonal** - Sélectionnez l’outil Zone cliquable polygonal, puis sélectionnez autant de fois que nécessaire autour du périmètre de l’image. Lorsque vous sélectionnez cette option, Adobe Dynamic Media Classic trace les bordures de la zone cliquable.
 
-      Après avoir dessiné une zone cliquable, Adobe Dynamic Media Classic lui attribue un nom dans la liste Zone cliquable. Pour former le nom, Adobe Dynamic Media Classic ajoute un numéro de séquence au nom de la page de catalogue électronique sur laquelle vous travaillez.
+     Après avoir dessiné une zone cliquable, Adobe Dynamic Media Classic lui attribue un nom dans la liste Zone cliquable. Pour former le nom, Adobe Dynamic Media Classic ajoute un numéro de séquence au nom de la page de catalogue électronique sur laquelle vous travaillez.
 
 1. (Facultatif) Dans la liste Zone cliquable, dans la variable [!UICONTROL Nom] , vous pouvez saisir un nouveau nom pour la zone cliquable. N’insérez pas d’espaces dans le nom que vous saisissez.
 1. Les visiteurs peuvent ouvrir une nouvelle page web lorsqu’ils sélectionnent la zone cliquable. Dans le panneau de la liste des zones cliquables, saisissez l’URL de la page Web dans la colonne URL.
@@ -77,23 +79,23 @@ En commençant par l’onglet Pages de zones de l’écran Catalogue électroniq
 
 * **Ajuster la position** - Sélectionnez l’outil Panoramique et déplacez le pointeur près de la bordure de la carte, mais pas dessus. Lorsque le pointeur prend la forme d’une flèche à quatre pointes, faites glisser la zone de l’image entière vers un nouvel emplacement.
 
-   Voir [Ajuster la position, la forme et la taille des zones cliquables](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+  Voir [Ajuster la position, la forme et la taille des zones cliquables](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **Modifier la forme et la taille** - Pour redimensionner une zone cliquable rectangulaire, sélectionnez l’outil Panoramique . Puis déplacez le pointeur au-dessus d’une ligne de bordure ou d’un coin, et lorsque vous voyez apparaître l’icône en forme de flèche à deux pointes, faites glisser. Pour redimensionner une zone cliquable polygonale, faites glisser une poignée de sélection carrée. Pour créer une poignée de sélection, sélectionnez la bordure de la zone cliquable et faites glisser.
 
-   Voir [Ajuster la position, la forme et la taille des zones cliquables](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+  Voir [Ajuster la position, la forme et la taille des zones cliquables](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **Suppression de zones cliquables** - Sélectionnez l’outil Panoramique , sélectionnez la zone cliquable à sélectionner, puis sélectionnez **[!UICONTROL Supprimer]**.
 
-   Pour supprimer toutes les zones cliquables d’un catalogue électronique, sélectionnez la variable **[!UICONTROL Pages de commande]** puis sélectionnez **[!UICONTROL Effacer les mappages]**.
+  Pour supprimer toutes les zones cliquables d’un catalogue électronique, sélectionnez la variable **[!UICONTROL Pages de commande]** puis sélectionnez **[!UICONTROL Effacer les mappages]**.
 
 * **Gestion des zones cliquables se chevauchant** - Faites glisser le curseur pour modifier l’ordre des zones cliquables dans la liste Zone cliquable.
 
-   Voir [Gestion des zones cliquables se chevauchant](creating-image-maps.md#handling_overlapping_image_maps).
+  Voir [Gestion des zones cliquables se chevauchant](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **Copie de zones cliquables vers d’autres pages** - Sélectionner **[!UICONTROL Copier les mappages vers]** (Assurez-vous que vous vous trouvez dans l’onglet Pages de mappage ). Dans l’écran Sélectionner les images , sélectionnez la ou les pages sur lesquelles vous souhaitez copier les zones cliquables, puis sélectionnez **[!UICONTROL Sélectionner]**.
 
-   Voir [Copier des zones cliquables dans d’autres images](creating-image-maps.md#copying_image_maps).
+  Voir [Copier des zones cliquables dans d’autres images](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >

@@ -9,7 +9,9 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3929'
 ht-degree: 31%
@@ -121,9 +123,9 @@ Assurez-vous que tous les utilisateurs de votre entreprise comprennent les règl
 * Il est recommandé de s’assurer que les ID de fichier ne contiennent pas d’espace (par exemple, veste noire.tif et veste bleue.jpg). Adobe Dynamic Media Classic code les espaces vides dans les noms de ressources à l’aide de noms de ressources pour créer des chaînes d’URL. Ces codes ASCII sont difficiles à lire, ce qui rend également plus difficile la lecture de ces chaînes.
 * Les caractères spécifiques aux langues sont autorisés dans les noms de fichier, à l’exception des caractères suivants :
 
-   \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
+  \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
 
-   Si un nom de fichier contient un ou plusieurs de ces caractères, ceux-ci sont supprimés du nom du fichier au moment du téléchargement.
+  Si un nom de fichier contient un ou plusieurs de ces caractères, ceux-ci sont supprimés du nom du fichier au moment du téléchargement.
 
 En règle générale, un nom de fichier de ressource peut être identique à son numéro d’élément, à la référence du produit ou à un autre nom, comme dans l’exemple suivant :
 
@@ -208,7 +210,7 @@ Lors du téléchargement de fichiers, vous pouvez choisir parmi les options suiv
 
 * **TÂCHE** - Sélectionner **[!UICONTROL TÂCHE]** pour sélectionner les options qui affectent l’ensemble de la tâche de téléchargement.
 
-   Vous pouvez également choisir *default* options de téléchargement de tâches à l’aide du **[!UICONTROL Options de téléchargement par défaut]** dans Paramètres généraux. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Options de téléchargement par défaut]**, puis définissez les options par défaut de votre choix.
+  Vous pouvez également choisir *default* options de téléchargement de tâches à l’aide du **[!UICONTROL Options de téléchargement par défaut]** dans Paramètres généraux. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Options de téléchargement par défaut]**, puis définissez les options par défaut de votre choix.
 
    * **[!UICONTROL When]** - Cette option n’est disponible que si vous avez sélectionné l’option **[!UICONTROL VIA FTP]** .
       * **[!UICONTROL Unique]** - Spécifiez une tâche de téléchargement qui s’exécute une fois. Les options disponibles sont les suivantes :
@@ -219,6 +221,7 @@ Lors du téléchargement de fichiers, vous pouvez choisir parmi les options suiv
          * **[!UICONTROL Hebdomadaire]** - Sélectionnez un jour spécifique de la semaine et l’heure d’exécution de la tâche.
          * **[!UICONTROL Mensuel]** - Sélectionnez un jour spécifique du mois ou de la semaine, y compris l’heure de début, que vous souhaitez que la tâche s’exécute.
          * **[!UICONTROL Personnalisé]** - Personnalisez un intervalle de temps de tâche de téléchargement ou de publication selon vos propres spécifications. Voir [Création d’un intervalle de temps de tâche de téléchargement ou de publication personnalisé](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+
    * **[!UICONTROL Publier après le téléchargement]** - Disponible si vous avez sélectionné l’une des options suivantes : **[!UICONTROL À PARTIR DU BUREAU]** ou le **[!UICONTROL VIA FTP]** . Sélectionnez cette option pour publier automatiquement les fichiers que vous téléchargez. Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Cette option est également disponible sur la page de téléchargement.
 
    * **[!UICONTROL Écraser dans un dossier, même nom de fichier, extension indépendante]** - Disponible si vous avez sélectionné l’une des options suivantes : **[!UICONTROL À PARTIR DU BUREAU]** ou le **[!UICONTROL VIA FTP]** . Permet de remplacer des fichiers existants portant le même nom que les fichiers que vous téléchargez. Cette option est également disponible sur la page de téléchargement. Le nom de cette option peut être différent, en fonction des paramètres définis dans **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Téléchargement vers l’application]** > **[!UICONTROL Remplacer les images]**.
@@ -230,7 +233,6 @@ Sélectionnez cette option si vous souhaitez extraire automatiquement tous les f
 Permet de télécharger les sous-dossiers du dossier que vous avez l’intention de télécharger. Les noms du dossier et de ses sous-dossiers que vous chargez sont automatiquement renseignés dans Adobe Dynamic Media Classic.
 
    * **[!UICONTROL Traitement des fichiers de métadonnées]** - Disponible uniquement si vous avez sélectionné l’une des options suivantes : **[!UICONTROL VIA FTP]** . Sélectionnez cette option si vous souhaitez télécharger un fichier XML ou délimité par des tabulations pour ajouter des métadonnées à plusieurs fichiers. Voir [Importer des métadonnées (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
-
 
 * **Options de recadrage** - Pour recadrer automatiquement les pixels d’espace blanc d’une image, ouvrez le **[!UICONTROL Recadrer]** menu, sélectionnez **[!UICONTROL Manuel]**, puis saisissez des mesures en pixels dans les champs de texte Haut, Droite, Bas et Gauche pour effectuer un recadrage à partir des côtés. Vous pouvez également sélectionner **[!UICONTROL Rogner]** dans le menu Recadrer et sélectionnez les options suivantes :
 
@@ -303,4 +305,3 @@ La nouvelle tâche envoie une notification à l’adresse que vous spécifiez af
 >* [Utilisation des dossiers de ressources](asset-folders.md#working_with_asset_folders)
 >* [Gestion des tâches de chargement et de publication récurrentes](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
 >* [Utilisation d’une tâche de téléchargement ou de publication comme déclencheur](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
-

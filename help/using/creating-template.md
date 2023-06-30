@@ -10,7 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Experienced
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3469'
 ht-degree: 44%
@@ -103,9 +105,9 @@ Utilisez ces outils dans l’écran Modèle pour créer des modèles :
 
 * **[!UICONTROL Éditeur de texte v4.3 et Éditeur de texte v4.2]** - Vous pouvez choisir d’utiliser le dernier éditeur de texte, l’éditeur de texte v4.3, ou l’éditeur de texte précédent, l’éditeur de texte v4.2. Lors de la création de modèles, l’éditeur de texte v4.3 est sélectionné par défaut. Pour la modification d’anciens modèles, l’Editeur de texte v4.2 est sélectionné par défaut. L’Editeur de texte v4.3 ne prend pas en charge le renvoi à la ligne. Par conséquent, pour modifier d’anciens modèles utilisant le renvoi à la ligne et y rester fidèle, utilisez l’Editeur de texte v4.2. Si votre ancien modèle n’utilise pas de retour automatique à la ligne, vous pouvez choisir l’éditeur de texte v4.3 pour profiter des nombreuses nouvelles fonctionnalités qu’il propose. Par exemple, Augmentez les marges, Réduisez les marges, Définissez le texte en majuscules et Copiez le texte dans la zone appropriée.
 
-   >[!NOTE]
-   >
-   >La suppression de l’éditeur de texte v4.2 est prévue comme option dans Adobe Dynamic Media Classic. Il est donc recommandé d’utiliser la version 4.3 de l’éditeur de texte dans la mesure du possible. Le **[!UICONTROL Retour à la ligne]** sera intégrée dans une prochaine version de l’éditeur de texte.
+  >[!NOTE]
+  >
+  >La suppression de l’éditeur de texte v4.2 est prévue comme option dans Adobe Dynamic Media Classic. Il est donc recommandé d’utiliser la version 4.3 de l’éditeur de texte dans la mesure du possible. Le **[!UICONTROL Retour à la ligne]** sera intégrée dans une prochaine version de l’éditeur de texte.
 
 * **[!UICONTROL Designer et développeur]** - Sélectionnez l’option qui décrit le mieux votre rôle.
 
