@@ -1,39 +1,37 @@
 ---
-title: "Démarrage rapide : Catalogues électroniques"
+title: "Démarrage rapide : catalogues électroniques"
 description: Introduction aux catalogues électroniques et démarrage rapide pour vous aider à maîtriser rapidement les techniques de catalogue électronique dans Adobe Dynamic Media Classic.
-uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 35%
+source-wordcount: '1560'
+ht-degree: 34%
 
 ---
 
-# Démarrage rapide : Catalogues électroniques{#quick-start-ecatalogs}
+# Démarrage rapide : catalogues électroniques{#quick-start-ecatalogs}
 
 Un catalogue électronique est une version en ligne numérique de documents imprimés, tels qu’un catalogue, une brochure, un dépliant, un guide de produits ou un prospectus. Un catalogue électronique s’affiche dans une visionneuse de catalogue électronique sur un site Web. Cette visionneuse simule le processus de lecture de documents imprimés.
 
 Visionnez également les vidéos de formation suivantes :
 
-* [Démarrage rapide 1 : Catalogues électroniques](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
-* [Démarrage rapide 2 : Catalogues électroniques](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
+* [Démarrage rapide 1 : catalogues électroniques](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
+* [Démarrage rapide 2 : catalogues électroniques](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
 
 Selon les paramètres que vous choisissez pour votre catalogue électronique, la visionneuse peut vous permettre d’effectuer les opérations suivantes :
 
 * Recherchez un mot-clé ou des mots-clés dans le catalogue. Les résultats de la recherche s’affichent sous la forme d’une liste de miniatures dans un panneau de recherche sur le côté gauche du catalogue. Chaque miniature cliquable représente une étendue de catalogue où le terme de recherche mis en surbrillance a été trouvé.
 
-* Partagez le catalogue au moyen des médias sociaux ; télécharger le catalogue pour l’afficher hors ligne ; activez l’option Favoris pour marquer les éléments auxquels vous souhaitez revenir rapidement ou pour imprimer le catalogue.
-* Naviguez dans le catalogue à l’aide de la table des matières ou de la vue Grille de page ; en avant ou en arrière en cliquant sur le bord central d’une page.
+* Partagez le catalogue par le biais des médias sociaux ; téléchargez le catalogue pour l’afficher hors ligne ; activez Favoris pour marquer les éléments auxquels vous souhaitez revenir rapidement ou imprimez le catalogue.
+* Accédez au catalogue à l’aide de la table des matières ou de la vue Grille de page ; en avant ou en arrière en cliquant sur le bord central d’une page.
 * effectuer un zoom avant, un zoom arrière ou un panoramique pour examiner des articles figurant sur une page ;
 * Déplacez le pointeur au-dessus d’une zone de page (appelée zone cliquable) afin d’afficher une fenêtre contextuelle contenant des informations sur un élément.
 * Sélectionnez une zone de page afin d’ouvrir une nouvelle page web contenant plus d’informations sur un élément.
@@ -52,13 +50,13 @@ Lorsque vous créez un catalogue électronique, vous agencez les pages ou les pl
 >
 >Si vous êtes un utilisateur en mode Dynamic Media - Scene7 et que vous souhaitez utiliser des catalogues électroniques, modifiez la variable `pdfbrochure` dans CRXDE Lite. Pour ce faire, dans Adobe Experience Manager, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Général]** > **[!UICONTROL CRXDE Lite]**. Dans l’arborescence de navigation du panneau de gauche, accédez à `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
->Dans le volet inférieur droit, dans **[!UICONTROL Propriétés]** , sélectionnez la variable `jobParam` ligne. Définissez la valeur de `pdfbrochure` de `false` to `true`. Comme dans `pdfbrochure=true`
+>Dans le volet inférieur droit, dans **[!UICONTROL Propriétés]** , sélectionnez l’onglet `jobParam` ligne. Définissez la valeur de `pdfbrochure` de `false` to `true`. Comme dans `pdfbrochure=true`
 >
 >Dans le coin supérieur gauche de la page du CRXDE Lite, sélectionnez **[!UICONTROL Enregistrer tout]**.
 >
 >Vous pouvez désormais créer des catalogues électroniques dans Adobe Dynamic Media Classic.
 
-Cette section de démarrage rapide est conçue pour vous aider à maîtriser rapidement les opérations liées aux catalogues électroniques. Suivez les étapes 1 à 7. Après chaque étape, il existe une référence croisée à un en-tête de rubrique où vous trouverez plus d’informations.
+Cette section de démarrage rapide est conçue pour vous aider à maîtriser rapidement les opérations liées aux catalogues électroniques. Suivez les étapes 1 à 7. Après chaque étape, il existe une référence croisée à un en-tête de rubrique dans lequel vous trouverez plus d’informations.
 
 ## 1. Télécharger les fichiers du PDF
 
@@ -74,13 +72,13 @@ Voir [Chargement des fichiers du PDF](uploading-pdf-files.md#uploading_the_pdf_f
 
 Créez votre catalogue électronique en sélectionnant des fichiers de PDF ou d’image dans le panneau de navigation. Sélectionner **[!UICONTROL Build]**, puis choisissez **[!UICONTROL Catalogues électroniques]**.
 
-Sur la page Catalogue électronique, sur la page **[!UICONTROL Pages de commande]** , sélectionnez une option Disposition : **[!UICONTROL 1]**, **[!UICONTROL 2 en haut]** ou **[!UICONTROL Personnalisé]**. Vous pouvez réorganiser les pages ou les planches en les faisant glisser ou, dans le cas de catalogues électroniques volumineux, en choisissant un nom de page dans le menu Déplacer vers.
+Sur la page Catalogue électronique, sur la page **[!UICONTROL Pages de commande]** , sélectionnez une option Disposition : **[!UICONTROL 1 haut]**, **[!UICONTROL 2 en haut]**, ou **[!UICONTROL Personnalisé]**. Vous pouvez réorganiser les pages ou les planches en les faisant glisser ou, dans le cas de catalogues électroniques volumineux, en choisissant un nom de page dans le menu Déplacer vers.
 
 Pour ajouter des pages, sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser les fichiers PDF ou d’images dans l’écran Ordre des pages. Au lieu des numéros de page par défaut, vous pouvez indiquer des noms de page personnalisés ou importer de nombreux noms de page.
 
 Sélectionner **[!UICONTROL Enregistrer]**, saisissez un nom pour votre catalogue électronique, choisissez un dossier Adobe Dynamic Media Classic pour le stocker, puis sélectionnez **[!UICONTROL Enregistrer]**. Chaque fois que vous modifiez l’ordre des pages ou le catalogue électronique, enregistrez vos modifications en cliquant sur **[!UICONTROL Enregistrer]**.
 
-Voir [Création d’un catalogue électronique](creating-ecatalog.md).
+Voir [Créer un catalogue électronique](creating-ecatalog.md).
 
 ## 3. Création de zones cliquables
 
@@ -100,7 +98,7 @@ Voir [Gestion du contenu du panneau Informations dans les catalogues électroniq
 
 ## 4. Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique
 
-Les utilisateurs finaux consultent votre catalogue dans la visionneuse de catalogue électronique. Si vous êtes un administrateur, vous avez la possibilité de configurer cette visionneuse. Vous pouvez modifier la couleur de son contour et sélectionner un nouvel habillage pour définir la marque de votre catalogue électronique. Adobe Dynamic Media Classic est fourni avec plusieurs paramètres prédéfinis de visionneuse de catalogue électronique &quot;recommandés&quot;. Vous pouvez choisir l’un de ces paramètres prédéfinis pour l’affichage de vos catalogues électroniques. Vous pouvez également créer vous-même un paramètre prédéfini pour la visionneuse de catalogue électronique si vous êtes administrateur.
+Les utilisateurs finaux consultent votre catalogue dans la visionneuse de catalogue électronique. Si vous êtes un administrateur, vous avez la possibilité de configurer cette visionneuse. Vous pouvez modifier la couleur de son contour et sélectionner un nouvel &quot;habillage&quot; pour personnaliser votre catalogue électronique. Adobe Dynamic Media Classic est fourni avec plusieurs paramètres prédéfinis de visionneuse de catalogue électronique &quot;recommandés&quot;. Vous pouvez choisir l’un de ces paramètres prédéfinis pour l’affichage de vos catalogues électroniques. Vous pouvez également créer vous-même un paramètre prédéfini pour la visionneuse de catalogue électronique si vous êtes administrateur.
 
 Pour créer un paramètre prédéfini de visionneuse de catalogue électronique, dans la barre de navigation globale, sélectionnez **[!UICONTROL Configuration]**, puis choisissez **[!UICONTROL Paramètres prédéfinis de la visionneuse]**. Sélectionner **[!UICONTROL Ajouter]**, choisissez une plateforme, puis sélectionnez **[!UICONTROL Catalogue électronique]** > **[!UICONTROL Visionneuse]**.
 
@@ -126,7 +124,7 @@ Voir [Publication de catalogues électroniques et de PDF associés](publishing-e
 
 ## 7. Associer un catalogue électronique à une page web
 
-Adobe Dynamic Media Classic active la chaîne d’légende URL nécessaire à l’affichage de votre catalogue électronique lorsque vous le publiez sur les serveurs d’images Dynamic Media. Vous pouvez copier cette chaîne d’URL à partir de l’écran de prévisualisation et du panneau de navigation (dans le mode Affichage des détails) en sélectionnant les URL dans le panneau. Une fois copiée, la chaîne URL peut être utilisée sur vos sites Web et dans vos applications.
+Adobe Dynamic Media Classic active la chaîne d’légende d’URL nécessaire à l’affichage de votre catalogue électronique lorsque vous le publiez sur les serveurs d’images Dynamic Media. Vous pouvez copier cette chaîne d’URL à partir de l’écran de prévisualisation et du panneau de navigation (dans le mode Affichage des détails) en sélectionnant les URL dans le panneau. Une fois copiée, la chaîne URL peut être utilisée sur vos sites Web et dans vos applications.
 
 Travaillez de concert avec votre équipe informatique pour décider de l’emplacement du lien vers le catalogue électronique au sein de votre page Web. Lorsque les utilisateurs sélectionnent le lien, la visionneuse de catalogue électronique s’affiche et ils peuvent parcourir votre catalogue électronique.
 

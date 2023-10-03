@@ -12,7 +12,7 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 52%
@@ -45,27 +45,27 @@ Voir aussi [Création d’un alias pour une image](adjusting-image.md#creating_a
 
      Dans la liste déroulante, sélectionnez **[!UICONTROL Remplacer l’original]**, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-   * Pour enregistrer l’image en tant que nouvelle image maître, sélectionnez **[!UICONTROL Enregistrer sous]**.
+   * Pour enregistrer l’image en tant que nouvelle image principale, sélectionnez **[!UICONTROL Enregistrer sous]**.
 
      Dans la liste déroulante, sélectionnez **[!UICONTROL Enregistrer en tant que nouvelle image originale]**.
-Dans le **[!UICONTROL Nom du dossier]** , sélectionnez le dossier dans lequel vous souhaitez enregistrer la nouvelle image Principale.
+Dans le **[!UICONTROL Nom du dossier]** , sélectionnez le dossier dans lequel vous souhaitez enregistrer la nouvelle image principale.
 Sélectionner **[!UICONTROL Enregistrer]**.
 
-   * Pour enregistrer l’image comme une autre vue de la Principale image. créez un alias pour cette image. Sélectionner **[!UICONTROL Enregistrer sous]**.
+   * Pour enregistrer l’image comme une autre vue de l’image principale. créez un alias pour cette image. Sélectionner **[!UICONTROL Enregistrer sous]**.
 
      Dans le **[!UICONTROL Enregistrer sous]** dans la liste déroulante, sélectionnez **[!UICONTROL Enregistrer comme une autre vue du gabarit]**.
-Dans le **[!UICONTROL Nom du dossier]** , sélectionnez le dossier dans lequel vous souhaitez enregistrer la nouvelle image Principale.
+Dans le **[!UICONTROL Nom du dossier]** , sélectionnez le dossier dans lequel vous souhaitez enregistrer la nouvelle image principale.
 Sélectionner **[!UICONTROL Enregistrer]**.
 
 ## Création d’un alias pour une image {#creating-an-alias-for-an-image}
 
-Une fois une image ajustée, vous pouvez l’enregistrer en tant qu’autre vue de la Principale image. Pour ce faire, créez un alias de l’image en utilisant la fonction **[!UICONTROL Enregistrer une vue supplémentaire de l’image originale]**.
+Lorsque vous avez ajusté une image, vous pouvez l’enregistrer en tant qu’autre vue de l’image principale. Pour ce faire, créez un alias de l’image en utilisant la fonction **[!UICONTROL Enregistrer une vue supplémentaire de l’image originale]**.
 
 **Pour créer un alias pour une image :**
 
 1. En mode d’affichage Grille ou Liste, en mode **[!UICONTROL Modifier]** , sélectionnez la liste déroulante en regard d’une image pour laquelle vous souhaitez créer un alias. **[!UICONTROL Ajuster]**.
 1. Dans le coin inférieur droit de la page, sélectionnez **[!UICONTROL Enregistrer sous]**.
-1. Dans le **[!UICONTROL Enregistrer sous]** dans la liste déroulante, sélectionnez **[!UICONTROL Enregistrer en tant que vue supplémentaire du gabarit]**.
+1. Dans le **[!UICONTROL Enregistrer sous]** dans la liste déroulante, sélectionnez **[!UICONTROL Enregistrer comme vue supplémentaire du gabarit]**.
 1. Dans la zone de liste **[!UICONTROL Nom de dossier]**, sélectionnez le dossier où enregistrer l’alias de l’image.
 1. Dans le champ **[!UICONTROL Nom de fichier]**, entrez le nom à utiliser pour l’alias.
 1. Sélectionner **[!UICONTROL Enregistrer]**.

@@ -1,17 +1,16 @@
 ---
-source-git-commit: 2e36fc555c7e16406e68d289a97be72b87be8036
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
-# Documentation de l’Adobe Dynamic Media Classic
+# Documentation Adobe Dynamic Media Classic
 
-Il s’agit du référentiel de la documentation de l’Adobe Dynamic Media Classic.
+Il s’agit du référentiel pour la documentation Adobe Dynamic Media Classic.
 
 Vos contributions à la documentation sont les bienvenues. Consultez les ressources suivantes :
 
-* [contribution.md](contributing.md) Pour obtenir un aperçu de la manière de contribuer à la documentation.
-* [guidelines.md](guidelines.md) Pour un aperçu de ce qui est prévu dans les contributions et comment composer vos contributions documentaires.
-* [code-of-Conduct.md](code-of-conduct.md) Pour un aperçu des normes de comportement auxquelles nous nous attendons en contribuant à ce projet de documentation.
+* [contributing.md](contributing.md) Pour une présentation de la contribution à la documentation.
+* [guidelines.md](guidelines.md) Pour obtenir un aperçu de ce qui est attendu dans les contributions et comment composer vos contributions à la documentation.
+* [code-of-conduct.md](code-of-conduct.md) Pour obtenir un aperçu des normes de comportement auxquelles Adobe s’attend lorsque vous contribuez à ce projet de documentation.

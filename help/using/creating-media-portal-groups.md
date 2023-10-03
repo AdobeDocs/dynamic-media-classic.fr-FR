@@ -12,16 +12,16 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 56%
+ht-degree: 54%
 
 ---
 
 # Création et gestion des groupes Media Portal{#creating-and-managing-media-portal-groups}
 
-Les *groupes* sont conçus pour vous aider à administrer les utilisateurs du portail multimédia. Pour accéder à un fichier, un utilisateur doit appartenir au minimum à un groupe autorisé à accéder à ce fichier. Lorsque vous ajoutez un utilisateur, vous l’affectez à un ou plusieurs groupes. Ce faisant, vous lui accordez un accès aux dossiers attribués au groupe auquel il appartient. Vous pouvez également choisir les paramètres d’image prédéfinis qui sont disponibles pour un groupe.
+Les *groupes* sont conçus pour vous aider à administrer les utilisateurs du portail multimédia. Pour accéder à un fichier, un utilisateur doit appartenir au minimum à un groupe autorisé à accéder à ce fichier. Lorsque vous ajoutez un utilisateur, vous l’affectez à un ou plusieurs groupes. Ce faisant, vous accordez à l’utilisateur l’accès aux dossiers auxquels le groupe a été affecté. Vous pouvez également choisir les paramètres d’image prédéfinis qui sont disponibles pour un groupe.
 
 ## Utilisation de groupes pour restreindre l’accès aux dossiers, aux ressources et aux paramètres d’image prédéfinis {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
 
@@ -39,7 +39,7 @@ Si vous n’accordez pas spécifiquement l’autorisation à un groupe à une re
 1. Sélectionner **[!UICONTROL Ajouter]**.
 1. Dans la boîte de dialogue Ajouter un groupe, saisissez le nom du groupe dans la zone Nom du groupe, puis sélectionnez **[!UICONTROL Ajouter un groupe]**.
 1. Le cas échéant, vous pouvez cocher les cases situées en regard des noms des utilisateurs à ajouter au nouveau groupe.
-1. Si vous souhaitez définir les autorisations d’accès maintenant, sélectionnez l’option **[!UICONTROL Autorisations d’accès aux ressources]** puis spécifiez les options de votre choix.
+1. Si vous souhaitez définir les autorisations d’accès maintenant, sélectionnez l’option **[!UICONTROL Autorisations d’accès aux ressources]** , puis spécifiez les options de votre choix.
 
    Voir [Définition des autorisations d’accès aux fichiers pour un groupe](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 

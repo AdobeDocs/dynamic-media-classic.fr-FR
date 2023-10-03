@@ -12,10 +12,10 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 28%
+source-wordcount: '880'
+ht-degree: 21%
 
 ---
 
@@ -36,8 +36,8 @@ Voir [Ajout et modification de paramètres prédéfinis de visionneuse](applicat
    * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, sélectionnez **[!UICONTROL Aperçu]**.
    * Dans la fenêtre Fichiers, sélectionnez un fichier. Dans la barre d’outils, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Aperçu]**.
 
-1. (Facultatif) Dans la liste déroulante située en bas de la fenêtre Prévisualiser, sélectionnez le codage d’URL à appliquer à l’URL du fichier au moment de la copie.
-1. Sélectionnez la **[!UICONTROL Aperçu]** pour pouvoir passer en revue la ressource dans la visionneuse sélectionnée.
+1. (Facultatif) Dans la liste déroulante située en bas de la fenêtre Aperçu, sélectionnez le codage d’URL à appliquer à l’URL de la ressource lorsqu’elle est copiée.
+1. Sélectionnez la variable **[!UICONTROL Aperçu]** pour pouvoir passer en revue la ressource dans la visionneuse sélectionnée.
 1. Fermez la visionneuse affichée.
 1. Sélectionner **[!UICONTROL Fermer]** pour revenir à l’écran Ressources.
 
@@ -47,7 +47,7 @@ Voir [Ajout et modification de paramètres prédéfinis de visionneuse](applicat
 
 ## Utilisation des paramètres prédéfinis de visionneuse de vidéos {#working-with-video-viewer-presets}
 
-Les vidéos sont regardées dans la visionneuse vidéo. Le comportement de la visionneuse de vidéos, son aspect et le fonctionnement de ses commandes de lecture dépendent du paramètre prédéfini de visionneuse que vous choisissez pour lire la vidéo. Vous choisissez un paramètre prédéfini de la visionneuse sur l’écran de prévisualisation. Après avoir choisi un paramètre prédéfini, vous pouvez obtenir l’URL ou le code intégré permettant de lire la vidéo avec le paramètre prédéfini de visionneuse que vous avez choisi.
+Les vidéos sont regardées dans la visionneuse vidéo. Le comportement de la visionneuse de vidéos, son aspect et le fonctionnement de ses commandes de lecture dépendent du paramètre prédéfini de visionneuse que vous choisissez pour lire la vidéo. Vous choisissez un paramètre prédéfini de la visionneuse sur l’écran de prévisualisation. Après avoir choisi un paramètre prédéfini, vous pouvez obtenir l’URL, ou le code intégré, permettant de lire la vidéo à l’aide du paramètre prédéfini de visionneuse que vous avez choisi.
 
 Adobe Dynamic Media Classic est fourni avec de nombreux paramètres prédéfinis de visionneuse pour la lecture de vidéos. Si vous êtes administrateur, vous pouvez créer des paramètres prédéfinis de visionneuse personnalisés. Il existe plus de 12 paramètres différents pour la configuration de la visionneuse vidéo. Vous pouvez configurer la taille, la couleur, les commandes vidéo et audio, la barre de progression, l’habillage de l’interface utilisateur et les fonctionnalités de réseau social.
 
@@ -55,11 +55,11 @@ Voir [Prévisualisation de vidéos dans une visionneuse de vidéos](previewing-v
 
 Voir aussi [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vidéo de formation.
 
-### Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos {#adding-or-editing-a-video-viewer-preset}
+### Ajouter ou modifier un paramètre prédéfini de visionneuse de vidéos {#adding-or-editing-a-video-viewer-preset}
 
 La fonction Paramètres prédéfinis de la visionneuse vous permet d’afficher les divers types de visionneuse et leurs paramètres prédéfinis. Vous pouvez également ajouter et modifier vos propres paramètres prédéfinis de visionneuse personnalisés ou modifier les paramètres prédéfinis de visionneuse existants fournis avec Adobe Dynamic Media Classic.
 
-Dans Paramètres prédéfinis de la visionneuse, vous pouvez activer, filtrer, trier et prévisualiser les paramètres prédéfinis de la visionneuse.
+Dans Paramètres visionneuse, vous pouvez activer, filtrer, trier et prévisualiser les paramètres prédéfinis de la visionneuse.
 
 Voir [Paramètres prédéfinis de la visionneuse](application-setup.md#viewer_presets).
 

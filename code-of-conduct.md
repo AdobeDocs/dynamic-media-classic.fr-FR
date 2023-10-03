@@ -1,15 +1,15 @@
 ---
-source-git-commit: c168511f3fe08a6f0262da758e45117af4bda029
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 # Code de conduite Adobe
 
-## Notre engagement
+## Engagement de l&#39;Adobe
 
-Afin de favoriser un environnement ouvert et accueillant, nous, contributeurs et responsables, nous nous engageons à faire de la participation à notre projet et à notre communauté une expérience sans harcèlement pour tous. Cette conduite est vraie, indépendamment des éléments suivants :
+Afin de favoriser un environnement ouvert et accueillant, les contributeurs et les responsables s&#39;engagent à faire de la participation au projet et à la communauté de l&#39;Adobe une expérience sans harcèlement pour tous. Cette conduite est vraie, indépendamment des éléments suivants :
 
 * âge
 * taille du corps
@@ -23,7 +23,7 @@ Afin de favoriser un environnement ouvert et accueillant, nous, contributeurs et
 * religion
 * identité et orientation sexuelles
 
-## Nos normes
+## Normes de l’Adobe
 
 Voici quelques exemples de comportements qui contribuent à la création d’un environnement positif :
 
@@ -41,7 +41,7 @@ Voici quelques exemples de comportements inacceptables de la part des participan
 * Publier des informations privées d’autres utilisateurs, telles qu’une adresse physique ou électronique, sans autorisation explicite
 * Autres comportements pouvant raisonnablement être considérés comme inappropriés dans un milieu professionnel
 
-## Nos responsabilités
+## Responsabilités de l’Adobe
 
 Les responsables du projet sont chargés de clarifier les normes de comportement acceptable et sont censés prendre des mesures correctives appropriées et justes en réponse à tout cas de comportement inacceptable.
 
@@ -50,9 +50,9 @@ Les responsables du projet ont le droit et la responsabilité d’
 * supprimer ou modifier
 * ou rejeter les commentaires, les validations, le code, les modifications wiki, les problèmes et autres contributions
 
-qui ne sont pas conformes à ce code de conduite. Ou, interdire temporairement ou définitivement tout contributeur pour d&#39;autres comportements qu&#39;il considère inappropriés, menaçants, offensants ou nuisibles.
+Non aligné sur ce code de conduite. Ou, interdire temporairement ou définitivement tout contributeur pour d&#39;autres comportements qu&#39;il considère inappropriés, menaçants, offensants ou nuisibles.
 
-## Etendue
+## Portée
 
 Ce code de conduite s’applique à la fois aux espaces du projet et aux espaces publics lorsqu’une personne représente le projet ou sa communauté. Parmi les exemples de représentation d’un projet ou d’une communauté, citons l’utilisation d’une adresse électronique officielle du projet, la publication via un compte de médias sociaux officiel ou le fait d’agir en tant que représentant désigné lors d’un événement en ligne ou hors ligne. La représentation d’un projet peut être définie plus précisément et clarifiée par les responsables du projet.
 
@@ -64,4 +64,4 @@ Les responsables du projet qui ne respectent pas ou n’appliquent pas de bonne 
 
 ## Attribution
 
-Ce code de conduite est adapté à partir de la variable [Convention du contributeur](https://www.contributor-covenant.org/), version 1.4, disponible à l’adresse [https://www.contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/version/1/4/).
+Ce code de conduite est adapté à partir de la [Convention du contributeur](https://www.contributor-covenant.org/), version 1.4, disponible à l’adresse [https://www.contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/version/1/4/).

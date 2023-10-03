@@ -1,5 +1,5 @@
 ---
-title: "Démarrage rapide : Vidéo dans Adobe Dynamic Media Classic"
+title: "Démarrage rapide : vidéo dans Adobe Dynamic Media Classic"
 description: Introduction et démarrage rapide de la vidéo Adobe Dynamic Media Classic pour vous aider à démarrer rapidement.
 contentOwner: Rick Brough
 content-type: reference
@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 25%
+source-wordcount: '1817'
+ht-degree: 26%
 
 ---
 
@@ -23,21 +23,21 @@ Adobe Dynamic Media Classic Video est une solution de bout en bout qui facilite 
 
 Par exemple, sur un périphérique mobile iOS, il détecte une bande passante telle que 3G, 4G ou une connexion Wi-Fi, puis sélectionne automatiquement la vidéo codée selon le débit correspondant parmi ceux disponibles dans la visionneuse de vidéos adaptative. La vidéo est diffusée en continu sur les ordinateurs, les appareils mobiles ou les tablettes.
 
-En outre, la qualité de la vidéo est automatiquement adaptée en temps réel selon les conditions réseau sur le bureau ou l’appareil mobile. En outre, si un client passe en mode plein écran sur un bureau, la visionneuse de vidéos adaptative répond en utilisant une meilleure résolution, améliorant ainsi l’expérience de visionnage du client. L’utilisation de visionneuses de vidéos adaptatives vous permet de lire le mieux possible la vidéo Adobe Dynamic Media Classic sur plusieurs écrans et appareils.
+En outre, la qualité de la vidéo est automatiquement adaptée en temps réel selon les conditions réseau sur le bureau ou l’appareil mobile. En outre, si un client passe en mode Plein écran sur un bureau, la visionneuse de vidéos adaptative répond en utilisant une meilleure résolution, améliorant ainsi l’expérience de visionnage du client. L’utilisation de visionneuses de vidéos adaptatives vous permet de lire le mieux possible la vidéo Adobe Dynamic Media Classic sur plusieurs écrans et appareils.
 
 La logique appliquée par un lecteur vidéo pour déterminer quelles sont les vidéos codées à lire ou à sélectionner en cours de lecture repose sur l’algorithme suivant :
 
-1. Le lecteur vidéo charge le fragment vidéo initial en fonction du débit le plus proche de la valeur définie pour le &quot;débit initial&quot; dans le lecteur lui-même.
+1. Le lecteur vidéo charge le fragment vidéo initial en fonction du débit le plus proche de la valeur définie pour le &quot;débit initial&quot; dans le lecteur.
 1. Le lecteur vidéo bascule sur les modifications apportées à la vitesse de bande passante à l’aide des critères suivants :
 
    1. Le lecteur sélectionne la bande passante la plus élevée en dessous ou égale à la bande passante estimée.
-   1. Le lecteur ne prend en compte que 80 % de la bande passante disponible. Cependant, s’il change, il est plus prudent à seulement 70 % pour éviter de surestimer et de devoir immédiatement revenir en arrière.
+   1. Le lecteur ne prend en compte que 80 % de la bande passante disponible. Toutefois, s’il passe à la hausse, il est plus prudent à seulement 70 % pour éviter toute surestimation et devoir immédiatement revenir en arrière.
 
-Voir la logique de l’algorithme à l’adresse [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) pour obtenir des informations techniques à son sujet.
+Consultez la logique de l’algorithme à l’adresse [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) pour obtenir des informations techniques à son sujet.
 
-Pour la gestion des visionneuses de vidéos adaptatives et de vidéos uniques, Adobe Dynamic Media Classic prend en charge les éléments suivants :
+Pour la gestion des vidéos uniques et des visionneuses de vidéos adaptatives, Adobe Dynamic Media Classic prend en charge les éléments suivants :
 
-* Téléchargement de vidéos à partir de nombreux formats vidéo et audio pris en charge et codage vidéo au format MP4 H.264 pour lecture sur plusieurs écrans. Vous pouvez utiliser des paramètres prédéfinis de vidéo adaptative Adobe Dynamic Media Classic prédéfinis, des paramètres prédéfinis de codage vidéo unique ou personnaliser votre propre codage pour contrôler la qualité et la taille de la vidéo.
+* Téléchargement de vidéos en différents formats vidéo et audio pris en charge et codage vidéo au format MP4 H.264 pour la lecture sur plusieurs écrans. Vous pouvez utiliser des paramètres prédéfinis de vidéo adaptative Adobe Dynamic Media Classic prédéfinis, des paramètres prédéfinis de codage vidéo unique ou personnaliser votre propre codage pour contrôler la qualité et la taille de la vidéo.
 
 Voir [Activation ou désactivation des paramètres prédéfinis de vidéo adaptative](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
@@ -47,7 +47,7 @@ Lorsqu’une visionneuse de vidéos adaptative est générée, elle comprend des
 
 >[!NOTE]
 >
->Les vidéos Principales/sources et toute autre vidéo au format source sont *not* ajouté à une visionneuse de vidéos adaptative.
+>Les vidéos Principal/source et toute autre vidéo au format source sont *not* ajouté à une visionneuse de vidéos adaptative.
 
 * Sous-titrage des vidéos dans les visionneuses Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark et Universal_HTML5_MixedMedia_light et navigation des chapitres vidéo dans les visionneuses Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark et Universal_HTML5_MixedMedia_light.
 
@@ -68,7 +68,7 @@ Lorsqu’une visionneuse de vidéos adaptative est générée, elle comprend des
 
   Vous trouverez les périphériques Windows® qui prennent en charge ce format vidéo à l’adresse suivante :
 
-  Voir [Formats vidéo pris en charge sur Windows® Phone](https://docs.microsoft.com/en-us/).
+  Voir [Formats vidéo pris en charge sur Windows® Phone](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs).
 
 * Lisez la vidéo à l’aide des paramètres prédéfinis de la visionneuse Adobe Dynamic Media Classic, notamment :
 
@@ -89,20 +89,20 @@ Consultez les vidéos de formation suivantes :
 
 **Démarrage rapide**
 
-La description suivante du workflow étape par étape est conçue pour vous aider à démarrer rapidement avec les visionneuses de vidéos adaptatives dans Adobe Dynamic Media Classic. Après chaque étape, il existe une référence croisée à un en-tête de rubrique où vous trouverez plus d’informations.
+La description suivante du workflow étape par étape est conçue pour vous aider à démarrer rapidement avec les visionneuses de vidéos adaptatives dans Adobe Dynamic Media Classic. Après chaque étape, il existe une référence croisée à un en-tête de rubrique dans lequel vous trouverez plus d’informations.
 
 ## 1. Chargement et codage de vidéos
 
 Téléchargez et générez des visionneuses de vidéos adaptatives en suivant l’un des deux scénarios ci-après :
 
 * **Chargement de vidéos précodées** - Si vos vidéos ont déjà été codées en dehors d’Adobe Dynamic Media Classic, dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour parcourir et charger des fichiers vidéo MP4 directement dans Adobe Dynamic Media Classic. Ensuite, accédez à **[!UICONTROL Build]** > **[!UICONTROL Visionneuses de vidéos adaptatives]**. Accédez aux fichiers vidéo requis. Faites glisser les fichiers vidéo de votre choix dans le tableau Visionneuse de vidéos adaptative, puis enregistrez la visionneuse.
-* **Chargement de vidéos Principales** - Si les vidéos ne sont pas codées, sélectionnez dans la barre de navigation globale. **[!UICONTROL Télécharger]** pour charger des fichiers source vidéo Principaux (non-MP4). Adobe Dynamic Media Classic les code pour vous dans des fichiers MP4. Dans le **[!UICONTROL Télécharger les options de la tâche]** , sous **[!UICONTROL Options eVideo]**, sélectionnez **[!UICONTROL Vidéo adaptative]**.
+* **Chargement de vidéos issues de sources originales** - Si les vidéos ne sont pas codées, sélectionnez dans la barre de navigation globale. **[!UICONTROL Télécharger]** pour charger des fichiers source vidéo principaux (non-MP4). Adobe Dynamic Media Classic les code pour vous dans des fichiers MP4. Dans le **[!UICONTROL Télécharger les options de la tâche]** , sous **[!UICONTROL Options vidéo]**, sélectionnez **[!UICONTROL Vidéo adaptative]**.
 
   Cette option conseillée permet de créer une visionneuse de vidéos adaptative qui applique automatiquement à la vidéo les paramètres de codage prédéfinis corrects, qu’il s’agisse d’un format 16:9 ou 4:3, en fonction des dimensions de la vidéo téléchargée. Lorsque vous envoyez votre tâche de téléchargement, une visionneuse de vidéos adaptative est automatiquement créée, qui comprend trois paramètres de codage vidéo dans les proportions correctes.
 
-  Ou, dans le même **[!UICONTROL Options de tâche]** , sous **[!UICONTROL Options eVideo]**, développer **[!UICONTROL Paramètres prédéfinis de codage uniques]**. Sélectionner les paramètres prédéfinis de codage vidéo individuels que vous souhaitez utiliser **Bureau**, **Mobile (iPhone, iPad, Android™)**, et **Tablette (iPad, Android™)** pour créer les fichiers MP4.
+  Ou, dans le même **[!UICONTROL Options de tâche]** , sous **[!UICONTROL Options vidéo]**, développer **[!UICONTROL Paramètres prédéfinis de codage uniques]**. Sélectionner les paramètres prédéfinis de codage vidéo individuels que vous souhaitez utiliser **Bureau**, **Mobile (iPhone, iPad, Android™)**, et **Tablette (iPad, Android™)** pour créer les fichiers MP4.
 
-* Vous pouvez également retraiter une vidéo Principale à l’aide du **[!UICONTROL Retraiter]** fonction . Les vidéos récemment codées sont ajoutées à la visionneuse de vidéos adaptative existante.
+* Vous pouvez également retraiter une vidéo principale à l’aide de la fonction **[!UICONTROL Retraiter]** fonction . Les vidéos récemment codées sont ajoutées à la visionneuse de vidéos adaptative existante.
 
 Voir [Chargement et codage de vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -148,7 +148,7 @@ Pour intégrer la vidéo sur votre site Web, procédez de l’une des manières 
 
   Pour obtenir le code intégré d’une vidéo, en mode Grille ou Liste, sélectionnez la vidéo dans le panneau de navigation. Accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**. Dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]** à droite de `Universal_HTML5_Video`. Il n’est pas possible de modifier le code.
 
-  Sélectionner **[!UICONTROL Fermer]** et collez le code incorporé dans vos pages web.
+  Sélectionner **[!UICONTROL Fermer]** et collez le code incorporé dans une ou plusieurs de vos pages web.
 
   >[!NOTE]
   >

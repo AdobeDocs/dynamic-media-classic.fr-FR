@@ -12,7 +12,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '2261'
 ht-degree: 45%
@@ -21,11 +21,11 @@ ht-degree: 45%
 
 # Affichage, ajout et exportation de métadonnées{#viewing-adding-and-exporting-metadata}
 
-Vous pouvez stocker des informations spécifiques aux fichiers que vous utilisez dans Adobe Dynamic Media Classic ; cette information s’appelle *metadata*. Vous pouvez utiliser des métadonnées dans Adobe Dynamic Media Classic pour organiser, rechercher, filtrer et trier vos ressources.
+Vous pouvez stocker des informations spécifiques aux fichiers que vous utilisez dans Adobe Dynamic Media Classic ; ces informations sont appelées *metadata*. Vous pouvez utiliser des métadonnées dans Adobe Dynamic Media Classic pour organiser, rechercher, filtrer et trier vos ressources.
 
 Les métadonnées s’affichent en mode Affichage des détails avec les informations générées par Adobe Dynamic Media Classic, telles que la date de création du fichier, la date de publication et les mots-clés. Pour afficher les métadonnées, ouvrez la ressource en mode Affichage des détails, puis sélectionnez le panneau Métadonnées. Vous pouvez saisir et modifier des métadonnées en mode Affichage des détails.
 
-Certaines métadonnées sont intégrées directement dans un fichier. Si un fichier contient ces métadonnées, Adobe Dynamic Media Classic les télécharge automatiquement avec le fichier . Vous pouvez incorporer des métadonnées dans des ressources source dans Adobe Photoshop, InDesign, Illustrator et d’autres applications. Adobe Dynamic Media Classic reconnaît ces métadonnées. Vous pouvez également ajouter des métadonnées à des fichiers individuels dans le panneau Métadonnées en mode Affichage des détails. Pour assurer la cohérence entre fichiers, les administrateurs créent des modèles de métadonnées qui fournissent les champs de métadonnées à remplir.
+Certaines métadonnées sont intégrées directement dans un fichier. Si un fichier contient ces métadonnées, Adobe Dynamic Media Classic les télécharge automatiquement avec le fichier . Vous pouvez incorporer des métadonnées dans des ressources source dans Adobe Photoshop, InDesign, Illustrator et d’autres applications ; Adobe Dynamic Media Classic reconnaît ces métadonnées. Vous pouvez également ajouter des métadonnées à des fichiers individuels dans le panneau Métadonnées en mode Affichage des détails. Pour assurer la cohérence entre fichiers, les administrateurs créent des modèles de métadonnées qui fournissent les champs de métadonnées à remplir.
 
 Pour plus d’informations sur les métadonnées incorporées, voir [Plateforme de métadonnées extensible](https://www.adobe.com/products/xmp.html).
 
@@ -86,7 +86,7 @@ Au lieu de saisir manuellement les métadonnées fichier par fichier, vous pouve
 >Vous pouvez créer un modèle de saisie des métadonnées afin qu’elles puissent être correctement importées dans Adobe Dynamic Media Classic. Une fois le modèle défini, vous pouvez y entrer les métadonnées 
 >(voir [Création d’un modèle de saisie des métadonnées à télécharger](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)).
 
-Vous trouverez plus d’informations sur les propriétés normalisées à l’adresse [Adobe XMP Centre de développement](https://www.adobe.com/devnet/xmp.html).
+Pour plus d’informations sur les propriétés normalisées, voir [Adobe XMP Centre de développement](https://www.adobe.com/devnet/xmp.html).
 
 1. Dans le panneau de navigation, sélectionnez les images auxquelles vous souhaitez ajouter des métadonnées à partir du fichier délimité par des tabulations ou du fichier XML.
 1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Importation de métadonnées]**.
@@ -99,11 +99,11 @@ Vous trouverez plus d’informations sur les propriétés normalisées à l’ad
 
 Gardez cela à l’esprit lors de l’identification des différents types de métadonnées à importer :
 
-* Les champs définis par l’utilisateur sont identifiés par leur nom tel qu’ils ont été créés dans **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Métadonnées]** > **[!UICONTROL Champs définis par l’utilisateur]**. Utilisez la fonctionnalité Générer un fichier pour obtenir une liste de tous les champs définis par l’utilisateur au format d’importation correct.
+* Les champs définis par l’utilisateur sont identifiés par leur nom tel qu’ils ont été créés dans **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Métadonnées]** > **[!UICONTROL Champs définis par les utilisateurs]**. Utilisez la fonctionnalité Générer un fichier pour obtenir une liste de tous les champs définis par l’utilisateur au format d’importation correct.
 * Les propriétés des métadonnées XMP doivent avoir le préfixe XMP associé avant le nom (property-). Le symbole deux-points sépare le préfixe du nom. Le préfixe XMP se trouve dans **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Métadonnées]** > **[!UICONTROL Schéma de métadonnées]** éditeur. Les noms techniques se trouvent dans la documentation du schéma XMP associé. Les noms des propriétés XMP n’apparaissent pas dans la fonction Générer un fichier .
 * Les propriétés de schéma des métadonnées doivent avoir le préfixe associé avant le nom (property-). Le symbole deux-points sépare le préfixe du nom. Le préfixe et les noms de propriété sont définis dans l’Editeur de schéma de métadonnées. Les noms des propriétés du schéma de métadonnées n’apparaissent pas dans la fonction Générer le fichier .
 
-Par exemple : La propriété XMP des mots-clés est le schéma XMP &quot;Dublin Core&quot; avec le préfixe . `dc` et `subject` est le nom de l’XMP technique. Le préfixe et le nom du XMP technique sont combinés dans la variable `dc:subject` nom complet de la propriété. Au format d&#39;import des métadonnées XML, `dc.subject` doit être le nom de la propriété. Dans le format d’importation délimité par des tabulations, il doit s’agir de l’en-tête de colonne.
+Par exemple : la propriété XMP pour les mots-clés est le schéma XMP &quot;Dublin Core&quot; avec le préfixe `dc` et `subject` est le nom de l’XMP technique. Le préfixe et le nom du XMP technique sont combinés dans la variable `dc:subject` nom complet de la propriété. Au format d&#39;import des métadonnées XML, `dc.subject` doit être le nom de la propriété. Dans le format d’importation délimité par des tabulations, il doit s’agir de l’en-tête de colonne.
 
 ### Importation de mots-clés
 
@@ -133,7 +133,7 @@ Vous pouvez importer des métadonnées pour plusieurs fichiers en saisissant les
 
 Vérifiez que les données contenues dans le fichier délimité par des tabulations ou le fichier XML sont enregistrées au bon format. Sur la première ligne, saisissez le champ de l’identifiant, suivi du nom des champs de métadonnées à modifier. Sur chaque ligne suivante, saisissez l’identifiant d’un fichier suivi des valeurs de métadonnées. Les champs qui ne font pas partie du fichier délimité par des tabulations ou du fichier XML ne sont pas modifiés.
 
-Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]**. Pour importer les métadonnées, sur la page Télécharger , sélectionnez le **[!UICONTROL Via FTP]** , puis sélectionnez **[!UICONTROL Options de tâche]**. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Tâche]**, puis sélectionnez **[!UICONTROL Traitement des fichiers de métadonnées]** .
+Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]**. Pour importer les métadonnées, sur la page Télécharger , sélectionnez l’option **[!UICONTROL Via FTP]** , puis sélectionnez **[!UICONTROL Options de tâche]**. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Tâche]**, puis sélectionnez **[!UICONTROL Traitement des fichiers de métadonnées]** .
 
 ## Attribution d’un nouveau nom aux ID par lots à l’aide de métadonnées {#batch-rename-ids-using-metadata}
 
@@ -157,7 +157,7 @@ Adobe Dynamic Media Classic propose une commande pour créer un modèle d’enre
 1. Sélectionnez des ressources d’image avec les champs de métadonnées que vous souhaitez pour votre modèle.
 1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Importation de métadonnées]**.
 1. Pour le **[!UICONTROL Type de propriété de ressource]**, sélectionnez **[!UICONTROL Image]**.
-1. Dans la **[!UICONTROL Générer un fichier]** liste déroulante, choisissez **[!UICONTROL Modèle délimité par des tabulations]**, **[!UICONTROL Métadonnées XML de la ressource]** ou **[!UICONTROL DTD XML]**.
+1. Dans la **[!UICONTROL Générer un fichier]** liste déroulante, choisissez **[!UICONTROL Modèle délimité par des tabulations]**, **[!UICONTROL Métadonnées XML de la ressource]**, ou **[!UICONTROL DTD XML]**.
 1. Sélectionner **[!UICONTROL Générer]**.
 1. Dans la boîte de dialogue qui s’affiche, copiez les données. Elles vous serviront à créer le modèle.
 
@@ -173,7 +173,7 @@ Vous pouvez utiliser l’Editeur de schéma de métadonnées pour exécuter les 
 
 | Action | Description |
 | --- | --- |
-| Ajouter | Ajoute une propriété au schéma. Une boîte de dialogue modale collecte les informations suivantes : ID, libellé, structure et type de données. |
+| Ajouter | Ajoute une propriété au schéma. Une boîte de dialogue modale collecte les informations : ID, Libellé, Structure et Type de données. |
 | Ajouter une valeur de choix | Ajoute un nouveau choix sélectionnable à une propriété avec la structure Choix ouvert ou Choix fermé. Toutes les valeurs de choix présentent le même type. Sélectionnez la propriété elle-même pour activer le bouton. |
 | Edition | Modifiez l’étiquette d’une propriété ou d’une valeur de choix. Vous pouvez uniquement modifier l’étiquette. L’ID et les informations de type sont immuables. |
 | Déplacer vers le haut / Déplacer vers le bas | L’ordre du schéma est reflété dans l’interface utilisateur. Pour modifier l’ordre, sélectionnez une propriété ou une valeur de choix et déplacez-la avec les boutons. Le glisser-déposer n’est actuellement pas pris en charge. |

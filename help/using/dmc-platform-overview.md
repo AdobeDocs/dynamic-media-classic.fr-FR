@@ -12,7 +12,7 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 17%
@@ -35,17 +35,17 @@ Les étapes clés du workflow Adobe Dynamic Media Classic sont les suivantes :
 
 * **Publier et administrer** - Publiez les ressources sur le réseau Adobe Dynamic Media Classic SaaS. Surveillez l’état des ressources lorsqu’elles sont publiées. Gérez les droits des utilisateurs et maintenez la sécurité.
 
-* **Serve** - Diffuser du contenu multimédia depuis le réseau Adobe Dynamic Media Classic SaaS vers des pages web, des applications et des appareils mobiles ; les médias sont optimisés en termes de performances et sont fournis avec la mise en cache CDN. Adobe Dynamic Media Classic fournit une URL pour chaque ressource. Une fois le fichier publié, l’URL s’active.
+* **Serve** - Diffusez du contenu multimédia depuis le réseau SaaS Adobe Dynamic Media Classic vers des pages web, des applications et des appareils mobiles ; les médias sont optimisés en termes de performances et sont fournis avec la mise en cache du réseau de diffusion de contenu. Adobe Dynamic Media Classic fournit une URL pour chaque ressource. Une fois le fichier publié, l’URL s’active.
 
 ![Processus du processus Adobe Dynamic Media Classic](/help/using/assets/gs_workflow.png)
 
-## Images Principales uniques et appels d’URL uniques {#single-master-images-and-single-url-calls}
+## Images primaires uniques et appels d’URL uniques {#single-master-images-and-single-url-calls}
 
-Adobe Dynamic Media Classic est fondamentalement différent des autres systèmes, car vous pouvez utiliser Adobe Dynamic Media Classic pour diffuser dynamiquement des médias à partir de ressources Principales uniques et d’appels URL.
+Adobe Dynamic Media Classic est fondamentalement différent des autres systèmes, car vous pouvez utiliser Adobe Dynamic Media Classic pour diffuser dynamiquement des médias à partir de ressources primaires uniques et d’appels d’URL.
 
-Les chaînes d’URL que vous générez avec Adobe Dynamic Media Classic incluent des instructions qui indiquent au serveur comment afficher la ressource lorsqu’elle est diffusée. Par exemple, une même image Principale peut être diffusée dans des tailles, des formats, des poids, des couleurs et des vues de zoom différents. Dans le cadre de la création et de la publication de ressources multimédias avec Adobe Dynamic Media Classic, vous configurez visuellement les effets. Ce faisant, vous créez les appels d’URL qui indiquent correctement au serveur comment présenter votre Principal actif aux applications.
+Les chaînes d’URL que vous générez avec Adobe Dynamic Media Classic incluent des instructions qui indiquent au serveur comment afficher la ressource lorsqu’elle est diffusée. Par exemple, une même image principale peut être diffusée dans des tailles, des formats, des poids, des couleurs et des vues de zoom différents. Dans le cadre de la création et de la publication de ressources multimédias avec Adobe Dynamic Media Classic, vous configurez visuellement les effets. Ce faisant, vous créez les appels d’URL qui indiquent correctement au serveur comment présenter votre ressource principale aux applications.
 
-![Adobe Dynamic Media Classic peut fournir la même image Principale à différents supports, dans des formats et des tailles différents.](/help/using/assets/gs_dynamic_publishing.png)
+![Adobe Dynamic Media Classic peut fournir la même image principale à différents supports, dans des formats et des tailles différents.](/help/using/assets/gs_dynamic_publishing.png)
 *Adobe Dynamic Media Classic s’assure que des expériences de qualité cohérentes sont diffusées sur n’importe quel écran, quelle que soit la taille ou la bande passante.*
 
 ## Mise en cache du contenu {#content-caching}
