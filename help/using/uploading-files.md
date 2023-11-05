@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3929'
+source-wordcount: '3928'
 ht-degree: 31%
 
 ---
@@ -73,11 +73,11 @@ Pour obtenir des résultats optimaux avec le programme Adobe Dynamic Media Class
 | Type de fichier | Description/Recommandations |
 | --- | --- |
 | Audio | Les formats de fichiers audio entrants incluent AAC, HE-AAC, AC3, WAV, WMA, AIFF et MP3. Vous pouvez transcoder du contenu audio aux formats suivants : MP3, AAC et HE-AAC. |
-| Images (pour le dimensionnement des images, le zoom, les visionneuses d’images, les visionneuses à 360°) | Les images doivent mesurer au moins 2 000 pixels à la plus grande taille ; les tailles d’image standard sont comprises entre 1 500 et 2 500 pixels pour la plus grande taille. Les formats d’image sans perte, notamment TIFF et PNG, sont recommandés. Avec une image JPEG, utilisez les paramètres de qualité les plus élevés. Les fichiers de GIF animés sont gérés comme tout autre contenu statique. |
+| Images (pour le dimensionnement des images, le zoom, les visionneuses d’images, les visionneuses à 360°) | Les images doivent mesurer au moins 2 000 pixels à la taille la plus longue ; les tailles d’image standard sont comprises entre 1 500 et 2 500 pixels à la taille la plus longue. Les formats d’image sans perte, notamment TIFF et PNG, sont recommandés. Avec une image JPEG, utilisez les paramètres de qualité les plus élevés. Les fichiers de GIF animés sont gérés comme tout autre contenu statique. |
 | Catalogues électroniques | Utilisez des fichiers PDF haute résolution créés dans Adobe Acrobat ou une application de Creative Suite d’Adobe enregistrée en tant que &quot;presready&quot;. Les fichiers PDF incluent l’ensemble des polices, images, masques et éléments graphiques référencés nécessaires, au format de page unique, de planche en double page ou de plusieurs pages. Organisez les pages en nommant les fichiers selon un ordre alphanumérique. Placez tous les fichiers PDF du catalogue électronique dans un dossier unique en vue de faciliter le téléchargement. Vous pouvez sélectionner des options de recadrage lors du téléchargement afin de supprimer la zone de rognage des fichiers PDF, notamment les traits de coupe, les repères de montage ou les gammes de couleurs. La plupart des fichiers PDF « bon à tirer » sont caractérisés par l’espace colorimétrique CMJN ; il est donc important d’obtenir le profil colorimétrique ICC CMJN utilisé avec vos fichiers PDF. |
 | Modèles | Image superposée ou disposition pouvant inclure du texte, des images et des calques. Les calques d’image, les chaînes de texte et les attributs, comme la couleur et la taille, peuvent être paramétrés de manière à pouvoir personnaliser les données variables. Pour les modèles, les exigences sont les mêmes que pour les autres images. Préparez vos images dans Photoshop ou un autre éditeur d’images. Enregistrez chaque image sous forme de fichier transparent aplati au format TIFF ou PNG. Assurez-vous que la résolution de l’image est adaptée à l’utilisation qui en sera faite. Les images pour impression sont de 300 ppp. |
 | Vidéos | Adobe Dynamic Media Classic prend en charge les fichiers vidéo enregistrés aux formats OGV et MP4. Vous pouvez transcoder des fichiers vers le format MP4 lors du téléchargement. Voir [Formats de fichiers pris en charge](#supported-static-file-formats). |
-| Polices | Chargement des polices TrueType, Type1 (Windows® uniquement), OpenType® et PhotoFonts. |
+| Polices | Uploaded TrueType, `Type1` (Windows® uniquement), polices OpenType® et polices PhotoFonts. |
 | Images | Images et fichiers d’images superposées. |
 | Visionneuses d’images et séries d’échantillons | Ensemble d’images associées pouvant être affichées dans une visionneuse. |
 | Profils ICC | Profil colorimétrique que vous pouvez utiliser pour convertir une image téléchargée depuis son espace colorimétrique source en un autre espace colorimétrique. |
@@ -103,7 +103,7 @@ Les types de fichier suivants peuvent être publiés :
 * Fichiers audio
 * CSS
 * JavaScript (lorsque l’entreprise est configurée avec son propre domaine)
-* Vidéo Principale
+* Vidéo Principal
 * PDF (lorsque le PDF est marqué pour publication après le chargement, afin d’éviter la diffusion de tous les PDF pour le processus de catalogue électronique/PDF existant)
 * Vidéo PrX
 * SVG
@@ -166,7 +166,7 @@ L’application de bureau Adobe Dynamic Media Classic vous permet de télécharg
 1. Dans l’application de bureau Adobe Dynamic Media Classic, dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]**.
 1. Sur la page Télécharger , sélectionnez le **[!UICONTROL À partir du bureau]** .
 1. Sur le côté gauche de la page Télécharger, dans la variable **[!UICONTROL Sélection de fichiers à télécharger]** zone, sélectionnez **[!UICONTROL Parcourir]** pour sélectionner les fichiers ou les dossiers à charger, puis sélectionnez **[!UICONTROL Ouvrir]**.
-1. Sur le côté droit de la page Télécharger, dans la variable **Choisir la destination du dossier** , accédez à un dossier de destination dans lequel vous souhaitez ajouter les fichiers ou dossiers chargés.
+1. Sur le côté droit de la page Télécharger, dans la variable **Choisir la destination du dossier** , accédez à un dossier de destination dans lequel vous souhaitez que les fichiers ou dossiers chargés soient ajoutés.
 1. (Facultatif) Près du bas de la page Télécharger, dans le champ de texte Nom de la tâche , saisissez le nouveau nom de la tâche de téléchargement. Vous pouvez également utiliser le nom généré par le système par défaut fourni par Adobe Dynamic Media Classic. La tâche en question, ainsi que les autres tâches de téléchargement et de publication, sont enregistrées sur la page Tâches, sur laquelle vous pouvez vérifier l’état des tâches (voir [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)).
 1. (Facultatif) Dans la partie inférieure de la page Télécharger, sélectionnez **[!UICONTROL Publier après le téléchargement]** si vous souhaitez publier automatiquement les ressources que vous chargez.
 Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
@@ -192,7 +192,7 @@ Pour afficher la progression du chargement, sélectionnez **[!UICONTROL Tâches]
 Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
 1. (Facultatif) Dans la partie inférieure de la page Télécharger, sélectionnez **[!UICONTROL Écraser dans un dossier, même nom de fichier, extension indépendante]** si vous souhaitez que les fichiers que vous téléchargez remplacent les fichiers existants portant le même nom. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
 Le nom de cette option peut être différent, en fonction des paramètres définis dans **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Téléchargement vers l’application]** > **[!UICONTROL Remplacer les images]**.
-1. Facultatif ; disponible uniquement si vous avez cliqué sur l’objet **[!UICONTROL VIA FTP]** . Près du bas de la page Télécharger, sélectionnez **[!UICONTROL Décompresser les fichiers Zip ou Tar lors du téléchargement]** si vous souhaitez extraire automatiquement tous les fichiers de votre fichier ZIP ou TAR chargé. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
+1. Facultatif ; disponible uniquement si vous avez cliqué sur le bouton **[!UICONTROL VIA FTP]** . Près du bas de la page Télécharger, sélectionnez **[!UICONTROL Décompresser les fichiers Zip ou Tar lors du téléchargement]** si vous souhaitez extraire automatiquement tous les fichiers de votre fichier ZIP ou TAR chargé. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
 1. Dans le coin inférieur droit de la page Télécharger, sélectionnez **[!UICONTROL Options de tâche]**, puis spécifiez les options de votre choix.
 
    Voir [Options de téléchargement](uploading-files.md#upload_options).
@@ -206,7 +206,7 @@ Pour annuler une tâche de téléchargement en cours, cliquez sur **[!UICONTROL 
 
 ## Boîte de dialogue Télécharger les options de la tâche {#upload-options}
 
-Lors du téléchargement de fichiers, vous pouvez choisir parmi les options suivantes dans la boîte de dialogue Télécharger les options de la tâche :
+Lors du téléchargement de fichiers, vous pouvez choisir l’une des options suivantes dans la boîte de dialogue Télécharger les options de la tâche :
 
 * **TÂCHE** - Sélectionner **[!UICONTROL TÂCHE]** pour sélectionner les options qui affectent l’ensemble de la tâche de téléchargement.
 
@@ -217,7 +217,7 @@ Lors du téléchargement de fichiers, vous pouvez choisir parmi les options suiv
          * **[!UICONTROL Maintenant]** : exécute la tâche de téléchargement immédiatement après avoir sélectionné **[!UICONTROL Enregistrer]** dans la boîte de dialogue Télécharger les options de la tâche, puis sélectionnez **[!UICONTROL Envoyer le téléchargement]** sur la page Télécharger .
          * **[!UICONTROL Planifier ultérieurement]** - Sélectionnez l’année, le mois, le jour et l’heure (par incréments de 15 minutes) que vous souhaitez que la tâche de téléchargement s’exécute.
       * **[!UICONTROL Récurrente]** - Spécifiez une tâche de téléchargement qui s’exécute tous les jours, toutes les semaines ou tous les mois. Vous pouvez également personnaliser la tâche de chargement selon vos propres spécifications.
-         * **[!UICONTROL Quotidien]** - Définissez l’heure à laquelle vous souhaitez que la tâche s’exécute tous les jours. Si vous souhaitez que la tâche ne s’exécute que du lundi au vendredi, sélectionnez **[!UICONTROL Jours ouvrables uniquement]**.
+         * **[!UICONTROL Qualité]** - Définissez l’heure à laquelle vous souhaitez que la tâche s’exécute tous les jours. Si vous souhaitez que la tâche ne s’exécute que du lundi au vendredi, sélectionnez **[!UICONTROL Jours ouvrables uniquement]**.
          * **[!UICONTROL Hebdomadaire]** - Sélectionnez un jour spécifique de la semaine et l’heure d’exécution de la tâche.
          * **[!UICONTROL Mensuel]** - Sélectionnez un jour spécifique du mois ou de la semaine, y compris l’heure de début, que vous souhaitez que la tâche s’exécute.
          * **[!UICONTROL Personnalisé]** - Personnalisez un intervalle de temps de tâche de téléchargement ou de publication selon vos propres spécifications. Voir [Création d’un intervalle de temps de tâche de téléchargement ou de publication personnalisé](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
@@ -232,22 +232,22 @@ Sélectionnez cette option si vous souhaitez extraire automatiquement tous les f
    * **[!UICONTROL Inclure les sous-dossiers]** - Disponible uniquement si vous avez sélectionné la variable **[!UICONTROL VIA FTP]** .
 Permet de télécharger les sous-dossiers du dossier que vous avez l’intention de télécharger. Les noms du dossier et de ses sous-dossiers que vous chargez sont automatiquement renseignés dans Adobe Dynamic Media Classic.
 
-   * **[!UICONTROL Traitement des fichiers de métadonnées]** - Disponible uniquement si vous avez sélectionné l’une des options suivantes : **[!UICONTROL VIA FTP]** . Sélectionnez cette option si vous souhaitez télécharger un fichier XML ou délimité par des tabulations pour ajouter des métadonnées à plusieurs fichiers. Voir [Importer des métadonnées (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
+   * **[!UICONTROL Traitement des fichiers de métadonnées]** - Disponible uniquement si vous avez sélectionné l’une des options **[!UICONTROL VIA FTP]** . Sélectionnez cette option si vous souhaitez télécharger un fichier XML ou délimité par des tabulations pour ajouter des métadonnées à plusieurs fichiers. Voir [Importer des métadonnées (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 * **Options de recadrage** - Pour recadrer automatiquement les pixels d’espace blanc d’une image, ouvrez le **[!UICONTROL Recadrer]** menu, sélectionnez **[!UICONTROL Manuel]**, puis saisissez des mesures en pixels dans les champs de texte Haut, Droite, Bas et Gauche pour effectuer un recadrage à partir des côtés. Vous pouvez également sélectionner **[!UICONTROL Rogner]** dans le menu Recadrer et sélectionnez les options suivantes :
 
    * **[!UICONTROL Rogner en fonction de]** - Choisissez si vous souhaitez recadrer en fonction de la couleur ou de la transparence :
       * **[!UICONTROL Couleur]** - Choisissez l’option Couleur . Sélectionnez ensuite le menu Coin, puis choisissez l’angle de l’image présentant la couleur qui correspond le mieux à l’espace blanc à rogner.
-Rognage en fonction de la couleur : Indiquez 0 pour rogner uniquement les pixels qui correspondent exactement à la couleur sélectionnée dans le coin de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs.
+Rognage en fonction de la couleur : indiquez 0 pour rogner uniquement les pixels qui correspondent exactement à la couleur sélectionnée dans le coin de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs.
       * **[!UICONTROL Transparence]** - Sélectionnez la variable **[!UICONTROL Transparence]** .
-Rognage en fonction de la transparence : Spécifiez 0 pour rogner les pixels uniquement s’ils sont transparents ; Les valeurs plus proches de 1 permettent une plus grande transparence.
+Rognage en fonction de la transparence : indiquez 0 pour rogner les pixels seulement s’ils sont transparents ; les nombres plus proches de 1 permettent une plus grande transparence.
       * **[!UICONTROL Tolérance]** - Faites glisser le curseur pour spécifier une tolérance comprise entre 0 et 1.
 
 * **Options de profil colorimétrique** - Choisissez une conversion de couleurs lorsque vous créez des fichiers optimisés utilisés pour la diffusion dynamique Adobe Dynamic Media Classic :
 
-   * **[!UICONTROL Conservation des couleurs par défaut]** - Conserve les couleurs de l’image source chaque fois que les images contiennent des informations sur l’espace colorimétrique ; il n’existe aucune conversion de couleur. Pour la plupart des images aujourd’hui, un profil colorimétrique approprié est déjà inclus. Toutefois, si une image source CMJN ne contient pas de profil colorimétrique intégré, les couleurs sont converties dans l’espace colorimétrique sRVB (rouge vert bleu standard). sRVB est l’espace colorimétrique recommandé pour l’affichage d’images sur les pages Web.
-   * **[!UICONTROL Conserver l’espace colorimétrique original]** - Conserve les couleurs d’origine sans conversion de couleur au moment de l’ingestion dans Adobe Dynamic Media Classic. Pour les images sans profil de couleur incorporé, toute conversion de couleur requise pour traiter les demandes d’image est effectuée à l’aide des profils de couleur par défaut configurés dans les paramètres de publication. Ces profils de couleurs ne correspondent pas toujours à la couleur des fichiers créés avec cette option. Par conséquent, vous avez intérêt à utiliser l’option de conservation des couleurs par défaut.
-   * **[!UICONTROL Personnalisé à partir de]** > **[!UICONTROL À]** - Ouvre les menus pour vous permettre de choisir un **[!UICONTROL Convertir à partir de]** et **[!UICONTROL Convertir en]** espace colorimétrique. Cette option avancée remplace toutes les informations de couleur incorporées dans le fichier source. Sélectionnez cette option uniquement lorsque toutes les images que vous envoyez contiennent des données de profil colorimétrique incorrectes ou manquantes.
+   * **[!UICONTROL Conservation des couleurs par défaut]** : conserve les couleurs de l’image source chaque fois que les images contiennent des informations sur l’espace colorimétrique ; il n’y a aucune conversion de couleurs. Pour la plupart des images aujourd’hui, un profil colorimétrique approprié est déjà inclus. Toutefois, si une image source CMJN ne contient pas de profil colorimétrique intégré, les couleurs sont converties dans l’espace colorimétrique sRVB (rouge vert bleu standard). sRVB est l’espace colorimétrique recommandé pour l’affichage d’images sur les pages Web.
+   * **[!UICONTROL Conserver l’espace colorimétrique original]** - Conserve les couleurs d’origine sans conversion de couleur au moment de l’ingestion dans Adobe Dynamic Media Classic. Pour les images sans profil colorimétrique incorporé, toute conversion de couleur requise pour traiter les demandes de l’image est effectuée à l’aide des profils colorimétriques par défaut configurés dans les paramètres de publication. Ces profils de couleurs ne correspondent pas toujours à la couleur des fichiers créés avec cette option. Par conséquent, vous avez intérêt à utiliser l’option de conservation des couleurs par défaut.
+   * **[!UICONTROL Personnalisé depuis]** > **[!UICONTROL À]** - Ouvre les menus pour vous permettre de choisir un **[!UICONTROL Convertir depuis]** et **[!UICONTROL Convertir en]** espace colorimétrique. Cette option avancée remplace toutes les informations de couleur incorporées dans le fichier source. Sélectionnez cette option uniquement lorsque toutes les images que vous envoyez contiennent des données de profil colorimétrique incorrectes ou manquantes.
 
 * **Options de modification des images** - Vous pouvez conserver les masques &lt;> d’écrêtage dans les images et choisir un profil colorimétrique.
 Voir [Options d’optimisation des images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
@@ -269,7 +269,7 @@ Voir [Utilisation des paramètres prédéfinis de codage vidéo](uploading-encod
 
 * **Métadonnées supplémentaires** - Entrez des mots-clés qui décrivent les fichiers que vous avez l’intention de charger. Séparez les mots clés-par des virgules. Les mots-clés facilitent les recherches portant sur les fichiers Voir [Réaliser une recherche avancée](searching-assets.md#conducting_an_advanced_search). Voir aussi [Téléchargement de mots-clés](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) vidéo de formation.
 
-* **Paramètres prédéfinis d’ensemble par lot** - Si vous souhaitez créer une visionneuse d’images, une visionneuse à 360° ou une série d’échantillons à partir des fichiers transférés, sélectionnez la variable **[!UICONTROL Principal]** pour le paramètre prédéfini que vous souhaitez utiliser. Rien ne vous empêche de sélectionner plusieurs paramètres prédéfinis. Vous créez les paramètres prédéfinis sur la page Configuration de l’application/Paramètres prédéfinis d’ensemble par lot (voir [Paramètres prédéfinis d’ensemble par lot](application-setup.md#batch_set_presets)).
+* **Paramètres prédéfinis d’ensemble par lot** - Si vous souhaitez créer une visionneuse d’images, une visionneuse à 360° ou une série d’échantillons à partir des fichiers transférés, sélectionnez la variable **[!UICONTROL Actif]** pour le paramètre prédéfini que vous souhaitez utiliser. Rien ne vous empêche de sélectionner plusieurs paramètres prédéfinis. Vous créez les paramètres prédéfinis sur la page Configuration de l’application/Paramètres prédéfinis d’ensemble par lot (voir [Paramètres prédéfinis d’ensemble par lot](application-setup.md#batch_set_presets)).
 
 * **Avancé** - Voir [Suivre un chargement avec une autre tâche](uploading-files.md#follow-an-upload-with-another-job).
 

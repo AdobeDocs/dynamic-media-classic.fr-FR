@@ -1,27 +1,25 @@
 ---
 title: Liaison d’une visionneuse d’images à une page web
 description: Découvrez comment lier une visionneuse d’images à une page web dans Adobe Dynamic Media Classic.
-uuid: 8153a228-b2ec-4bc2-8996-266113a83df5
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 42%
+source-wordcount: '692'
+ht-degree: 38%
 
 ---
 
 # Liaison d’une visionneuse d’images à une page web{#linking-an-image-set-to-a-web-page}
 
-Après avoir publié une visionneuse d’images, vous pouvez copier son URL ou son code incorporé afin de l’utiliser dans votre site Web ou application. Ensuite, vous pouvez déployer l’URL ou coller le code incorporé de manière appropriée pour que les utilisateurs puissent voir la visionneuse d’images sur votre site Web ou dans votre application.
+Une fois que vous avez publié une visionneuse d’images, vous pouvez copier l’URL associée ou son code intégré en vue de l’utiliser dans votre site web ou dans votre application. Ensuite, vous pouvez déployer l’URL ou coller le code incorporé de manière appropriée pour que les utilisateurs puissent voir la visionneuse d’images sur votre site Web ou dans votre application.
 
 >[!NOTE]
 >
@@ -42,7 +40,7 @@ Après avoir publié une visionneuse d’images, vous pouvez copier son URL ou s
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
 
-   * Sélectionner **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Sélectionner **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]**, ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
 
@@ -71,7 +69,7 @@ L’utilisation de la fonction Code incorporé permet de vérifier le code de la
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 
-   * Sélectionner **[!UICONTROL Affichage de la grille]**, **Mode Liste** ou **Affichage des détails**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Sélectionner **[!UICONTROL Affichage de la grille]**, **Mode Liste**, ou **Affichage des détails**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 

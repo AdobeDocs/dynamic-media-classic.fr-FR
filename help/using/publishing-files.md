@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 45%
+source-wordcount: '1732'
+ht-degree: 37%
 
 ---
 
@@ -55,7 +55,7 @@ Créez une tâche de publication pour publier les ressources que vous avez charg
 1. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**.
 1. Dans la boîte de dialogue Publier, choisissez s’il s’agit d’une tâche de publication ponctuelle ou périodique
 
-   Voir [Création d’une tâche de publication unique](publishing-files.md#creating_a_one_time_publish_job) et [Création d’une tâche de publication récurrente](publishing-files.md#creating_a_recurring_publish_job).
+   Voir [Création d’une tâche de publication unique](publishing-files.md#creating_a_one_time_publish_job) et [Créer une tâche de publication récurrente](publishing-files.md#creating_a_recurring_publish_job).
 
 1. Entrez un nom de tâche.
 1. (Facultatif) Affichez les options avancées, puis choisissez parmi elles 
@@ -72,15 +72,15 @@ Adobe Dynamic Media Classic effectue le suivi des tâches de publication sur la 
 
 ### Création d’une tâche de publication unique {#creating-a-one-time-publish-job}
 
-Créez une tâche de publication unique en sélectionnant l’option **[!UICONTROL Unique]** sur la page Publier .
+Créez une tâche de publication unique en sélectionnant le **[!UICONTROL Unique]** sur la page Publier .
 
-Si vous souhaitez que la tâche de publication se produise ultérieurement, sélectionnez dans la page Publier . **[!UICONTROL Unique]**, puis sélectionnez **[!UICONTROL Planifier ultérieurement]** menu déroulant. Utilisez le calendrier et le curseur de l’heure pour sélectionner un jour et une heure pour exécuter la tâche de publication.
+Si vous souhaitez que la tâche de publication se produise ultérieurement, sélectionnez dans la page Publier . **[!UICONTROL Unique]**, puis sélectionnez **[!UICONTROL Planifier ultérieurement]** dans la liste déroulante. Utilisez le calendrier et le curseur de l’heure pour sélectionner un jour et une heure pour exécuter la tâche de publication.
 
-### Création d’une tâche de publication récurrente {#creating-a-recurring-publish-job}
+### Créer une tâche de publication récurrente {#creating-a-recurring-publish-job}
 
 Créez une tâche de publication récurrente en sélectionnant **[!UICONTROL Récurrente]** sur la page Publier .
 
-Choisissez ensuite l’option Répéter de **[!UICONTROL Quotidien]**, **[!UICONTROL Hebdomadaire]**, **[!UICONTROL Mensuel]** ou **[!UICONTROL Personnalisé]**, puis indiquez quand la tâche de publication doit se répéter. Adobe Dynamic Media Classic présente des outils de calendrier pour la planification de la tâche de publication récurrente. Vous pouvez sélectionner **[!UICONTROL Personnalisé]** et saisissez une règle dans le champ Texte de la règle pour décrire un intervalle de tâche personnalisé.
+Choisissez ensuite l’option Répéter de **[!UICONTROL Qualité]**, **[!UICONTROL Hebdomadaire]**, **[!UICONTROL Mensuel]**, ou **[!UICONTROL Personnalisé]**, puis indiquez quand la tâche de publication doit se répéter. Adobe Dynamic Media Classic présente des outils de calendrier pour la planification de la tâche de publication récurrente. Vous pouvez sélectionner **[!UICONTROL Personnalisé]** et saisissez une règle dans le champ Texte de la règle pour décrire un intervalle de tâche personnalisé.
 
 Voir [Création d’un intervalle de temps de tâche de téléchargement ou de publication personnalisé](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
@@ -96,7 +96,7 @@ Vous pouvez afficher les options avancées sur la page de publication et en choi
 
 * **[!UICONTROL Publier]** - Par défaut, Adobe Dynamic Media Classic publie uniquement les nouvelles ressources qui n’ont pas été publiées avant (option Nouveau depuis la dernière publication ). Vous pouvez toutefois sélectionner **[!UICONTROL Publication complète]** pour publier également les ressources qui ont été mises à jour ou modifiées depuis leur dernière publication. Sélectionner **[!UICONTROL Complet avec données de recherche]** si vous publiez un catalogue électronique et souhaitez que les lecteurs puissent y effectuer des recherches par mot-clé.
 
-* **[!UICONTROL Exécuter la tâche en tant que]** - Sélectionnez un nom d’utilisateur dans la liste. Vous pouvez trier les tâches par nom d’utilisateur sur la page Tâches. En choisissant un nom, vous associez une tâche de publication à un utilisateur.
+* **[!UICONTROL Exécuter la tâche comme]** - Sélectionnez un nom d’utilisateur dans la liste. Vous pouvez trier les tâches par nom d’utilisateur sur la page Tâches. En choisissant un nom, vous associez une tâche de publication à un utilisateur.
 
 **[!UICONTROL Notification HTTP]** - Entrez une URL pour déclencher les tâches de publication suivantes.
 
@@ -106,15 +106,15 @@ Voir [Utilisation d’une tâche de téléchargement ou de publication comme dé
 
 Vous pouvez annuler une tâche de publication en cours. Par ailleurs, si vous êtes administrateur, vous pouvez annuler une tâche de publication en cours à partir de la page des tâches de l’entreprise.
 
-Pour annuler une tâche de publication, accédez à la page Tâches et sélectionnez **[!UICONTROL Annuler]**. Dans l’onglet Planifiée de la page Tâches, vous pouvez interrompre ou reprendre une tâche en décochant/cochant la case située dans la colonne Actif de la tâche.
+Pour annuler une tâche de publication, accédez à la page Tâches et sélectionnez **[!UICONTROL Annuler]**. Dans l’onglet Planifié de la page Tâches, vous pouvez suspendre ou reprendre une tâche en désélectionnant ou en cochant la case dans la colonne Actif de la tâche.
 
 >[!NOTE]
 >
->après avoir annulé une tâche de publication, son état devient « Arrêt en cours » tant qu’elle n’a pas atteint un point où elle peut s’arrêter en toute sécurité. L’arrêt d’une tâche de publication peut prendre un certain temps si la récupération des données dans la base de données est en cours.
+>Une fois la tâche de publication annulée, son état passe à &quot;arrêt&quot; jusqu’à ce que la tâche atteigne un point où elle peut s’arrêter en toute sécurité. L’arrêt d’une tâche de publication peut prendre un certain temps si la récupération des données dans la base de données est en cours.
 
 ## Publication manuelle de ressources {#manually-publishing-assets}
 
-Vous pouvez publier des fichiers individuels manuellement au lieu de créer une tâche de publication. Lorsque vous publiez des visionneuses, comme une visionneuse d’images ou de vidéos adaptative, la visionneuse (ou « parent ») et tous les membres (ou « enfants ») dans cette visionneuse sont publiés.
+Vous pouvez publier des fichiers individuels manuellement au lieu de créer une tâche de publication. Lorsque vous publiez des visionneuses, telles qu’une visionneuse d’images ou de vidéos adaptatives, la visionneuse (ou &quot;parent&quot;) et tous les membres (ou &quot;enfants&quot;) de cette visionneuse sont publiés.
 
 Les ressources non publiées sont indiquées dans l’interface utilisateur par une icône grise et ronde avec une barre oblique (état non publié), à gauche du nom de la ressource. Une fois le fichier publié, l’icône devient verte et une coche blanche s’affiche en son centre (état publié).
 
@@ -130,9 +130,9 @@ Les ressources non publiées sont indiquées dans l’interface utilisateur par 
 
 ## Annulation manuelle de la publication des ressources {#manually-unpublishing-assets}
 
-Vous pouvez annuler manuellement la publication de fichiers individuels. Lorsque vous annulez la publication de visionneuses, comme une visionneuse de série d’échantillons ou un catalogue électronique, la visionneuse (ou « parent ») passe à l’état non publié. Toutefois, les membres (ou « enfants ») de cette visionneuse ne sont pas affectés : ils conservent en fait leur état existant publié ou non publié.
+Vous pouvez annuler manuellement la publication de fichiers individuels. Lorsque vous annulez la publication d’ensembles, tels qu’une série d’échantillons ou un catalogue électronique, la série (ou &quot;parent&quot;) passe à l’état non publié. Cependant, les membres (ou &quot;enfants&quot;) de cet ensemble ne sont pas affectés ; au lieu de cela, ils conservent chacun leur état publié ou non publié existant.
 
-Les fichiers publiés sont indiqués dans l’interface utilisateur par une icône ronde et verte avec une coche blanche affichée en son centre (état publié), à gauche du nom du fichier. Une fois la publication d’une ressource annulée, l’icône devient grise avec une barre oblique (état non publié),
+Les ressources publiées sont indiquées dans l’interface utilisateur par une icône ronde et verte avec une coche blanche au centre (état publié), à gauche du nom de la ressource. Une fois la publication d’une ressource annulée, l’icône devient grise avec une barre oblique (état non publié),
 
 **Pour annuler manuellement la publication de fichiers:**
 
@@ -140,7 +140,7 @@ Les fichiers publiés sont indiqués dans l’interface utilisateur par une icô
 
    * En mode Grille, Liste ou Détails, sélectionnez une ou plusieurs ressources publiées.
 
-     Dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Annuler la publication]**.
+     Dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Dépublier]**.
 
    * En mode Grille, Liste ou Détails, sélectionnez l’icône en forme de coche ronde et verte située à gauche du nom de la ressource.
 
@@ -163,4 +163,4 @@ Pour vider le cache, dans la barre de navigation globale, accédez à **[!UICONT
 >[!MORELIKETHIS]
 >
 >* [Vérification des fichiers de tâche](checking-job-files.md)
->* [Modification, suppression, pause et reprise de tâches récurrentes](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
+>* [Modification, suppression, mise en pause et reprise de tâches récurrentes](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)

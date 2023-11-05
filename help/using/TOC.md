@@ -6,9 +6,9 @@ user-guide-title: Guide Adobe Dynamic Media Classic
 breadcrumb-title: Guide Dynamic Media Classic
 user-guide-description: En savoir plus sur l’utilisation d’Adobe Dynamic Media Classic
 index: y
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '800'
 ht-degree: 26%
 
 ---
@@ -23,18 +23,18 @@ ht-degree: 26%
    + [Liste de contrôle de l’état de préparation](upgrade-readiness.md)
 + [Guide Adobe Dynamic Media Classic](home.md)
 + [Tutoriel sur les bonnes pratiques d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NOUVELLE expérience de connexion à Adobe Dynamic Media Classic désormais disponible](new-ui-2020.md)
++ [NOUVELLE connexion Adobe Dynamic Media Classic désormais disponible](new-ui-2020.md)
 + [Archivage de la newsletter Dynamic Media Adobe par Experience League](dynamic-media-newsletter.md)
 + Présentation d’Adobe Dynamic Media Classic {#intro}
    + [Application de bureau Adobe Dynamic Media Classic - Maintenant disponible](dynamic-media-classic-desktop-app.md)
-   + [À propos de l’aide d’Adobe Dynamic Media Classic](introduction.md)
+   + [À propos de l’aide Adobe Dynamic Media Classic](introduction.md)
    + [Ressources du développeur](developer-resources.md)
    + [Nouveautés](whats-new.md)
    + [Configuration requise pour l’appli de bureau Adobe Dynamic Media Classic](system-requirements.md)
    + [Assistance](support.md)
    + [Aide pour Adobe Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Services de formation Adobe](training-services.md)
-   + [Ressources d’apprentissage les plus consultées](popular-resources.md)
+   + [Ressources d’apprentissage les plus populaires](popular-resources.md)
    + [Vidéos de formation](training-videos.md)
 + Démarrage rapide {#getting-started}
    + [Présentation du programme Adobe Dynamic Media Classic](dmc-platform-overview.md)
@@ -42,7 +42,7 @@ ht-degree: 26%
    + [Connexion et déconnexion](signing-out.md)
    + [Navigation - Notions élémentaires](navigation-basics.md)
    + [Configuration - Notions élémentaires](setup-basics.md)
-   + [Média enrichi](rich-media.md)
+   + [Média riche](rich-media.md)
 + Configuration {#setup}
    + [Configuration personnelle](personal-setup.md)
    + [Configuration de l’application](application-setup.md)
@@ -84,8 +84,8 @@ ht-degree: 26%
    + [Organisation de votre travail avec des projets](organizing-projects.md)
 + Dimensionnement des images {#image-sizing}
    + [Démarrage rapide : Dimensionnement des images](quick-start-image-sizing.md)
-   + [Chargement d’images Principales](uploading-master-images.md)
-   + [Publier des images Principales](publishing-master-images.md)
+   + [Chargement des images principales](uploading-master-images.md)
+   + [Publication des images principales](publishing-master-images.md)
    + [Configuration des paramètres d’image prédéfinis](setting-image-presets.md)
    + [Liaison d’URL à une application web](linking-urls-web-application.md)
 + Zoom {#zoom}
@@ -97,9 +97,9 @@ ht-degree: 26%
    + [Publication des images de zoom](publishing-zoom-images.md)
    + [Liaison des visionneuses de zoom à des pages web](linking-zoom-viewers-web-pages.md)
 + Catalogues électroniques {#ecatalogs}
-   + [Démarrage rapide : Catalogues électroniques](quick-start-ecatalog.md)
+   + [Démarrage rapide : catalogues électroniques](quick-start-ecatalog.md)
    + [Chargement des fichiers du PDF](uploading-pdf-files.md)
-   + [Création d’un catalogue électronique](creating-ecatalog.md)
+   + [Créer un catalogue électronique](creating-ecatalog.md)
    + [Création de zones cliquables de catalogue électronique](creating-ecatalog-image-maps.md)
    + [Gestion du contenu du panneau Informations dans les catalogues électroniques](info-panel-content-ecatalog.md)
    + [Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique](setting-ecatalog-viewer-presets.md)
@@ -153,7 +153,7 @@ ht-degree: 26%
    + [Publication d’une visionneuse de médias mixtes](publishing-mixed-media-set.md)
    + [Liaison d’une visionneuse de supports variés à une page Web](linking-mixed-media-set-web.md)
 + Kit d’instrumentation Adobe Analytics {#analytics-kit}
-   + [Démarrage rapide : Intégration d’Adobe Dynamic Media Classic à Adobe Analytics](quick-start-integrating-dmc-analytics.md)
+   + [Démarrage rapide : intégration d’Adobe Dynamic Media Classic à Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Connexion à Adobe Analytics](log-analytics.md)
    + [Configuration des rapports Adobe Analytics](configuring-analytics-reports.md)
    + [Instrumentation d’une visionneuse avec le kit d’instrumentation Adobe Analytics](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -162,16 +162,16 @@ ht-degree: 26%
    + [Activation des rapports vidéo Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publication des informations de configuration Adobe Analytics](publishing-analytics-configuration-information.md)
 + Intégration d’Adobe Target Standard/Premium {#target-classic}
-   + [Démarrage rapide : Intégration d’Adobe Target Standard/Premium](quick-start-target-integration.md)
+   + [Démarrage rapide : intégration Adobe Target Standard/Premium](quick-start-target-integration.md)
    + [Intégration d’Adobe Dynamic Media Classic à Adobe Target Standard/Premium](integrating-dmc-with-target.md)
-   + [Créer un ensemble d’offres](creating-offer-set.md)
+   + [Création d’un jeu d’offres](creating-offer-set.md)
    + [Jeux d’offres push vers Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + Contenu généré par l’utilisateur {#user-generated-content}
    + [A propos du contenu généré par l’utilisateur](about-ugc.md)
    + [Supprimer un fichier téléchargé](deleting-uploaded-asset.md)
    + [Obtenir des informations sur l’utilisation du disque](getting-disk-usage-information.md)
-   + [Chargement d’une ressource d’image pixellisée](uploading-image-asset-or-vector.md)
-+ Principaux fichiers {#master-files}
+   + [Chargement d’une ressource image pixellisée](uploading-image-asset-or-vector.md)
++ Fichiers de Principal {#master-files}
    + [Recommandations pour optimiser la qualité des images](best-practices-optimizing-quality-images.md)
    + [Modification des images](editing-images.md)
    + [Création de zones cliquables](creating-image-maps.md)

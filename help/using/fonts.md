@@ -12,10 +12,10 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 28%
+source-wordcount: '426'
+ht-degree: 23%
 
 ---
 
@@ -35,7 +35,7 @@ Une fois le fichier de police chargé, vous pouvez modifier son Adobe Dynamic Me
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic recommande de charger tous les styles de police (gras, italique, gras/italique et normal) si vous prévoyez d’utiliser des polices dans les calques de modèle. Adobe Dynamic Media Classic a besoin de ces styles de police pour traiter les demandes. Il est également recommandé de télécharger tous les fichiers PostScript/Adobe Type 1 associés à une police dans la mesure où certaines polices contiennent des informations de crénage détaillées.
+>Adobe Dynamic Media Classic recommande de charger tous les styles de police (gras, italique, gras/italique et normal) si vous prévoyez d’utiliser des polices dans les calques de modèle. Adobe Dynamic Media Classic a besoin de ces styles de police pour traiter les demandes. Tout télécharger `PostScript/Adobe Type1` les fichiers associés à une police sont également recommandés, car certaines de ces polices contiennent des informations détaillées sur le crénage.
 
 ## Chargement des fichiers de polices {#uploading-font-files}
 

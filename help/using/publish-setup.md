@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 43%
+source-wordcount: '2408'
+ht-degree: 42%
 
 ---
 
@@ -22,7 +22,7 @@ Les paramètres de la page Configuration de la publication déterminent la mani�
 
 Les administrateurs peuvent modifier les paramètres par défaut sur les pages Image Server, Image Renderer et Vignette afin de définir les paramètres par défaut de diffusion des ressources à partir des serveurs.
 
-Pour ouvrir les pages Configuration de la publication , accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]**.
+Pour ouvrir les pages de la configuration de la publication, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]**.
 
 >[!NOTE]
 >
@@ -48,9 +48,9 @@ Modifiez ces paramètres uniquement avec l’aide d’un agent de support Adobe 
 
 * **[!UICONTROL Attributs de compatibilité]** - Ce paramètre permet aux paragraphes de début et de fin des calques de texte d’être traités tels qu’ils l’étaient dans la version 3.6 à des fins de compatibilité descendante.
 
-* **[!UICONTROL Prise en charge de la localisation]*** - Ces paramètres vous permettent de gérer plusieurs attributs de paramètres régionaux. Il permet également de définir une chaîne de carte de paramètres régionaux pour définir les langues à prendre en charge pour les info-bulles dans les visionneuses.
+* **[!UICONTROL Aide à la localisation]*** - Ces paramètres vous permettent de gérer plusieurs attributs de paramètres régionaux. Il permet également de définir une chaîne de carte de paramètres régionaux pour définir les langues à prendre en charge pour les info-bulles dans les visionneuses.
 
-  Par exemple, si votre entreprise est une société multinationale qui vend dans différents pays, chaque pays peut avoir sa propre visionneuse correspondant aux paramètres régionaux. Pour accomplir cette fonctionnalité, vous spécifiez une chaîne de carte de paramètres régionaux. Vous modifiez ensuite le texte d’info-bulle dans le paramètre prédéfini d’une visionneuse en ajoutant les chaînes de texte traduites pour la langue souhaitée.
+  Par exemple, si votre entreprise est une société multinationale qui vend dans différents pays, chaque pays peut avoir sa propre visionneuse correspondant aux paramètres régionaux. Pour accomplir cette fonctionnalité, vous spécifiez une chaîne de carte de paramètres régionaux. Vous modifiez ensuite le texte de l’info-bulle dans le paramètre prédéfini d’une visionneuse en ajoutant les chaînes de texte traduites pour la langue souhaitée.
 
   >[!NOTE]
   > Pour configurer les options de prise en charge de la localisation, [utilisez le Admin Console pour créer un cas d’assistance.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Dans votre cas d’assistance, demandez de l’aide sur la configuration.
@@ -63,7 +63,7 @@ Modifiez ces paramètres uniquement avec l’aide d’un agent de support Adobe 
 >
 >Si vous souhaitez configurer les options de prise en charge de la localisation dans Adobe Dynamic Media Classic, telles que le champ Carte des paramètres régionaux, [utilisez le Admin Console pour créer un cas d’assistance.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Dans votre cas d’assistance, demandez de l’aide sur la configuration.
 
-Une méthode courante d’utilisation d’Adobe Dynamic Media Classic consiste à gérer l’imagerie du produit sur les sites web d’e-commerce. Les sociétés internationales doivent gérer le fait que l’aspect des fichiers pour des produits similaires diffère d’un pays à l’autre. Généralement, les différences concernent quelques parties du média global. Résoudre de telles différences en copiant toutes les ressources pour chacun des pays et en réécrivant uniquement les différences est un énorme effort et contredit la métaphore unique des ressources Principales. De telles différences de fichiers peuvent impliquer, en raison des vidéos spécifiques aux pays avec différentes pistes audio, des différences importantes bien que très subtiles des câbles d’alimentation utilisés avec le produit. Adobe Dynamic Media Classic utilise un mécanisme de recherche de base. Vous définissez l’ordre des suffixes des fichiers analysés par le serveur d’images, en commençant par les paramètres régionaux requis.
+Une méthode courante d’utilisation d’Adobe Dynamic Media Classic consiste à gérer l’imagerie du produit sur les sites web d’e-commerce. Les sociétés internationales doivent gérer le fait que l’aspect des fichiers pour des produits similaires diffère d’un pays à l’autre. Généralement, les différences concernent quelques parties du média global. Résoudre de telles différences en copiant toutes les ressources pour chacun des pays et en remplaçant uniquement les différences est un énorme effort et contredit la métaphore de la ressource principale unique. De telles différences de fichiers peuvent impliquer, en raison des vidéos spécifiques aux pays avec différentes pistes audio, des différences importantes bien que très subtiles des câbles d’alimentation utilisés avec le produit. Adobe Dynamic Media Classic utilise un mécanisme de recherche de base. Vous définissez l’ordre des suffixes des fichiers analysés par le serveur d’images, en commençant par les paramètres régionaux requis.
 
 #### Méthode de localisation des fichiers
 
@@ -71,9 +71,9 @@ Les paramètres régionaux pour une demande de diffusion d’image IS (Image Se
 
 `locale=`
 
-Cette commande accepte une chaîne d’ID de paramètres régionaux (locId) non sensible à la casse. L’ID de paramètres régionaux est généralement une chaîne de 2 à 6 caractères composée de lettres et de signes « _ ».
+Cette commande accepte une chaîne d’ID de paramètres régionaux (locId) non sensible à la casse. L’ID de paramètre régional est généralement une chaîne de 2 à 6 caractères composée de lettres et de &quot;_&quot;.
 
-IS prend en charge les chaînes ASCII imprimables arbitraires. Le `locale=` La commande a une portée globale, ce qui signifie qu’elle est appliquée à l’ensemble de la requête, y compris toutes les requêtes IS et IR imbriquées, les modèles référencés et les calques d’image. Plusieurs paramètres régionaux par demande (par exemple un paramètre régional différent pour chaque calque) ne sont pas pris en charge. Toutefois, il est possible d’autoriser les remplacements explicites dans les demandes imbriquées.
+IS prend en charge les chaînes ASCII imprimables arbitraires. La variable `locale=` La commande a une portée globale, ce qui signifie qu’elle est appliquée à l’ensemble de la requête, y compris toutes les requêtes IS et IR imbriquées, les modèles référencés et les calques d’image. Plusieurs paramètres régionaux par demande (par exemple un paramètre régional différent pour chaque calque) ne sont pas pris en charge. Toutefois, il est possible d’autoriser les remplacements explicites dans les demandes imbriquées.
 
 If `locale=` n’est pas spécifié, `attribute::DefaultLocale` est transmis aux moteurs de traduction. Une validation d’entrée limitée est appliquée au `locale=` . Vide `locale=` sont autorisées. Parce que `locale=` a une portée mondiale, `attribute::DefaultLocale` est fourni par le catalogue principal pour l’ensemble de la requête.
 
@@ -93,7 +93,7 @@ Avantages de l’utilisation de `locale=` et `attribute::DefaultLocale` incluez 
 
 | Application | Scénario |
 | --- | --- |
-| Localisation de la visionneuse | Une fois les catalogues de contenu statique mis en œuvre, la localisation est entièrement contrôlée avec le paramètre locale=, qui est annexé à toutes les demandes envoyées à IS. Il peut exister des variantes spécifiques aux paramètres régionaux pour les enregistrements de configuration, habillages, écrans de démarrage, etc. Le contenu approprié est fourni par IS sans que la visionneuse doive savoir quel contenu est localisé et quels sont ses ID. |
+| Localisation du lecteur | Une fois les catalogues de contenu statique mis en œuvre, la localisation est entièrement contrôlée avec le paramètre locale=, qui est annexé à toutes les demandes envoyées à IS. Il peut exister des variantes spécifiques aux paramètres régionaux pour les enregistrements de configuration, habillages, écrans de démarrage, etc. Le contenu approprié est fourni par IS sans que la visionneuse doive savoir quel contenu est localisé et quels sont ses ID. |
 | Images et vidéo | Les entreprises multinationales ont généralement recours à un contenu à la fois générique et spécifique à un paramètre régional. Grâce à ce mécanisme, une référence à une image ou à une vidéo peut être générique, tandis qu’IS diffuse le contenu spécifique à un paramètre régional, s’il existe. |
 | Visionneuses d’images et de médias | La visionneuse d’images entière peut être différente pour certains paramètres régionaux (par exemple, lorsqu’un catalogue électronique est différent), avec la traduction d’un jeu d’images générique à un jeu d’images spécifique à un paramètre régional géré par la visionneuse. Plus généralement, les identifiants individuels d’un ensemble générique peuvent faire référence à des contenus localisés. Par exemple, la plupart des photos d’un appareil peuvent être identiques dans toutes les langues, à l’exception de la photo du Panneau de Contrôle. IS traduit automatiquement les ID, si bien qu’il n’est pas nécessaire de générer des visionneuses d’images spécifiques aux paramètres régionaux. |
 
@@ -109,7 +109,7 @@ Avec la localisation, une URL de serveur d’images ajoute la variable `locale=`
 
 `https://server/is/image/company/image?locale=de_DE`
 
-À réception de l’appel http du serveur d’images, la variable `locale=` est analysé par l’intermédiaire de la fonction `localeMap` champ trouvé dans **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]** > **[!UICONTROL Serveur d’images]** > **[!UICONTROL Prise en charge de la localisation]** groupe.
+À réception de l’appel http du serveur d’images, la variable `locale=` est analysé par l’intermédiaire de la fonction `localeMap` champ trouvé dans **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]** > **[!UICONTROL Serveur d’images]** > **[!UICONTROL Aide à la localisation]** groupe.
 
 Le champ de carte de paramètres régionaux contient une liste des entrées séparées à l’aide du symbole de barre verticale (|).
 
@@ -125,7 +125,7 @@ L’application d’une valeur de suffixe ou de remplacement dépend du paramèt
 
 | URL | ID de localeMap | Résultat |
 | --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Aucun paramètre GlobalLocale n’est défini. Le paramètre régional de_DE est trié par rapport à la première entrée dans `localeMap`. La première valeur _DE correspondante est ajoutée sous forme de suffixe au fichier image_DE et est recherchée sur le serveur d’images. Si elle est trouvée sur le serveur, elle est renvoyée. Dans le cas contraire, la seconde valeur “” est utilisée comme suffixe et l’image elle-même est renvoyée. |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Aucun paramètre GlobalLocale n’est défini. Le paramètre régional de_DE est trié par rapport à la première entrée dans `localeMap`. La première valeur _DE correspondante est ajoutée sous forme de suffixe au fichier image_DE et est recherchée sur le serveur d’images. Si elle est trouvée sur le serveur, elle est renvoyée. Dans le cas contraire, la seconde valeur &quot;&quot; est utilisée comme suffixe, ce qui entraîne le renvoi de l’image elle-même. |
 
 **Exemple de remplacement:**
 
@@ -202,7 +202,7 @@ Pour cet exemple, supposons que vous souhaitiez prendre en charge les collection
 
 Certaines conventions de dénomination d’image ne prennent pas en charge les ID d’image génériques. Les ID génériques issus de la demande doivent être mappés à l’ID spécifié dans le catalogue. Cependant, il existe des cas où l’identifiant spécifique exact n’est pas connu.
 
-En utilisant le premier exemple comme base, les images pour toutes les langues peuvent avoir les suffixes `_1`, `_2`ou `_3`. Les images spécifiques aux paramètres régionaux français peuvent avoir les suffixes `_22` ou `_23` suffixe. Et les images spécifiques aux paramètres régionaux allemands peuvent avoir les suffixes `_470` ou `_480`.
+En utilisant le premier exemple comme base, les images pour toutes les langues peuvent avoir les suffixes `_1`, `_2`, ou `_3`. Les images spécifiques aux paramètres régionaux français peuvent avoir les suffixes `_22` ou `_23` suffixe. Et les images spécifiques aux paramètres régionaux allemands peuvent avoir les suffixes `_470` ou `_480`.
 
 `attribute::LocaleMap=,_1,_2,_3|fr,_22,_23,_1,_2,_3|de,_470,_480,_1,_2,_3|de_at,_470,_480,_1,_2,_3|de_de,_470,_480,_1,_2,_3`
 

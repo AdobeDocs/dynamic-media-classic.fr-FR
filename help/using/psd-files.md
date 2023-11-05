@@ -12,10 +12,10 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 26%
+source-wordcount: '1005'
+ht-degree: 25%
 
 ---
 
@@ -33,13 +33,13 @@ Les options de téléchargement de fichiers de PSD se trouvent sous Options Phot
 
 Les options suivantes sont disponibles au cours du téléchargement des fichiers PSD :
 
-* **Options de recadrage** - Situé sous **[!UICONTROL Options de recadrage]**. Sélectionner **[!UICONTROL Rogner]** pour recadrer automatiquement l’espace blanc des bords d’un fichier de PSD ; select **[!UICONTROL Manuel]** pour recadrer les côtés du fichier de PSD :
+* **Options de recadrage** - Situé sous **[!UICONTROL Options de recadrage]**. Sélectionner **[!UICONTROL Rogner]** pour recadrer automatiquement l’espace blanc des bords d’un fichier de PSD ; sélectionnez **[!UICONTROL Manuel]** pour recadrer les côtés du fichier de PSD :
 
    * **[!UICONTROL Rogner]** - Sélectionnez la variable **[!UICONTROL Rogner en fonction de]** et choisissez **[!UICONTROL Couleur]** ou **[!UICONTROL Transparence]**.
 
   Si vous choisissez l’option **[!UICONTROL Couleur]** , sélectionnez le menu Coin et choisissez l’angle du PSD avec la couleur qui représente le mieux l’espace blanc que vous souhaitez recadrer.
 
-  Faites glisser le curseur pour définir une valeur de tolérance comprise entre 0 et 1. Pour effectuer le rognage en fonction de la couleur, indiquez la valeur 0 pour rogner les pixels seulement s’ils correspondent exactement à la couleur que vous avez sélectionnée dans l’angle du fichier PSD. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs. Pour effectuer un rognage en fonction de la transparence, spécifiez 0 pour rogner les pixels uniquement s’ils sont transparents. Les valeurs plus proches de 1 permettent une plus grande transparence.
+  Faites glisser le curseur pour définir une valeur de tolérance comprise entre 0 et 1. Pour effectuer le rognage en fonction de la couleur, indiquez la valeur 0 pour rogner les pixels seulement s’ils correspondent exactement à la couleur que vous avez sélectionnée dans l’angle du fichier PSD. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs. Pour effectuer un rognage en fonction de la transparence, indiquez 0 pour rogner les pixels seulement s’ils sont transparents ; les nombres plus proches de 1 permettent une plus grande transparence.
 
    * **[!UICONTROL Manuel]** - Saisissez le nombre de pixels à recadrer d’un côté ou de chaque côté de l’image. La proportion de l’image qui est rognée dépend du paramètre ppp (pixels par pouce) défini dans le fichier d’image. Par exemple, si l’image affiche 150 ppp et que vous entrez 75 dans les zones de texte Haut, Droite, Bas et Gauche, 0,5 po. est recadré de chaque côté de l’image.
 
@@ -49,7 +49,7 @@ Les options suivantes sont disponibles au cours du téléchargement des fichiers
 
    * **[!UICONTROL Conserver l’espace colorimétrique original]** - Conserve l’espace colorimétrique d’origine de l’image.
 
-   * **[!UICONTROL Personnalisé à partir de]** > **[!UICONTROL À]** - Ouvre les menus pour vous permettre de choisir un espace colorimétrique Convertir à partir de et Convertir en . Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez chargé dans Adobe Dynamic Media Classic. (voir [Profils ICC](/help/using/icc-profiles.md)).
+   * **[!UICONTROL Personnalisé depuis]** > **[!UICONTROL À]** - Ouvre les menus pour vous permettre de choisir un espace colorimétrique Convertir à partir de et Convertir en . Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez chargé dans Adobe Dynamic Media Classic. (voir [Profils ICC](/help/using/icc-profiles.md)).
 
 * **Options Photoshop**
 
@@ -88,12 +88,12 @@ Si vous avez sélectionné l’option Conserver les calques lors du chargement d
 1. Sélectionner **[!UICONTROL Calques]**. Le panneau Calques affiche tous les calques sous la forme d’images distinctes.
 1. Double-cliquez sur un calque et effectuez l’une des opérations suivantes :
 
-   * Pour créer une zone cliquable sur le calque, sélectionnez **[!UICONTROL Zone cliquable]** icône . (Voir [Création de zones cliquables](creating-image-maps.md#creating_image_maps).)
-   * Pour créer des cibles de zoom sur le calque, sélectionnez **[!UICONTROL Cibles de zoom]** icône . (Voir [Création de cibles de zoom pour un zoom guidé](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
-   * Pour recadrer le calque, sélectionnez **[!UICONTROL Recadrer]** icône . (Voir [Recadrage d’une image](cropping-image.md#cropping_an_image).)
+   * Pour créer une zone cliquable sur le calque, sélectionnez **[!UICONTROL Zone cliquable]** Icône (Voir [Création de zones cliquables](creating-image-maps.md#creating_image_maps).)
+   * Pour créer des cibles de zoom sur le calque, sélectionnez **[!UICONTROL Cibles de zoom]** Icône (Voir [Création de cibles de zoom pour un zoom guidé](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
+   * Pour recadrer le calque, sélectionnez **[!UICONTROL Recadrer]** Icône (Voir [Recadrage d’une image](cropping-image.md#cropping_an_image).)
    * Pour accentuer le calque, sélectionnez **[!UICONTROL Accentuer]**. (Voir [Accentuer une image](sharpening-image.md#sharpening_an_image).)
    * Pour ajuster le calque, sélectionnez **[!UICONTROL Ajuster]**. (Voir [Réglage d’une image](adjusting-image.md#adjusting_an_image).)
 
 1. Sélectionner **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer sous]**.
 1. Pour afficher ou modifier un autre calque, sélectionnez une flèche au bas de l’aperçu du calque.
-1. Pour quitter le mode Détails du calque, sélectionnez l’option **[!UICONTROL Affichage de la grille]** icône .
+1. Pour quitter le mode Détails du calque, sélectionnez l’option **[!UICONTROL Affichage de la grille]** Icône

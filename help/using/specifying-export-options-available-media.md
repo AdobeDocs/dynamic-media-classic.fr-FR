@@ -11,10 +11,10 @@ role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 61%
+source-wordcount: '378'
+ht-degree: 51%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 61%
 
 Sous réserve que l’administrateur les y autorise, les utilisateurs du portail multimédia peuvent reformater des images lors de leur exportation. Par exemple, il est possible de modifier la taille et le format du fichier, ainsi que la qualité de l’image. Le reformatage automatique des images au cours de l’exportation évite d’avoir à effectuer cette opération séparément, ce qui permet de gagner du temps. De plus, les administrateurs peuvent créer un paramètre prédéfini, c’est-à-dire une sélection préétablie de paramètres de format d’image. Vous pouvez ainsi utiliser un paramètre prédéfini lors de l’exportation d’images afin de les reformater selon les spécifications de l’entreprise.
 
-Les deux restrictions suivantes s’appliquent si vous exportez des ressources d’image par le biais d’une conversion définie par l’utilisateur ou si vous exportez des images Principales d’origine :
+Les deux restrictions suivantes s’appliquent si vous exportez des ressources d’image par le biais d’une conversion définie par l’utilisateur ou si vous exportez des images principales d’origine :
 
 * La taille du fichier d’exportation zip compressé ne doit pas dépasser 1 Go pour la tâche d’exportation.
 * Une tâche d’exportation peut contenir un maximum de 500 fichiers.
@@ -36,11 +36,11 @@ Voir aussi [Exportation de ressources à partir d’Adobe Dynamic Media Classic]
 
    * **Activer la conversion définie par l’utilisateur** : lorsque cette option est sélectionnée, les utilisateurs peuvent choisir d’autres options parmi les options **[!UICONTROL Taille]** liste déroulante dans la fenêtre Exporter les ressources sélectionnées . Les utilisateurs peuvent ensuite choisir une unité de mesure, pixels ou centimètres, puis spécifier la largeur et la hauteur souhaitée. Lors de l’exportation ou du téléchargement de ces fichiers, les fichiers image sont reformatés.
 
-     Lorsque vous choisissez **[!UICONTROL pixels]** dans la liste déroulante **[!UICONTROL Taille]**, la largeur x hauteur de l’image obtenue ne doit pas dépasser 100 millions de pixels. Cette taille équivaut à 10 000 x 10 000 pixels pour une image carrée ou à environ 8 000 x 12 000 pixels pour une image 2x3. Cette limitation de taille ne s’applique pas si vous exportez des images Principales d’origine.
+     When **[!UICONTROL pixels]** sont sélectionnées à partir de la **[!UICONTROL Taille]** , la largeur d’image obtenue × hauteur ne peut pas dépasser 100 millions de pixels. Cette taille équivaut à 10 000 × 10 000 pixels pour une image carrée, soit environ 8 000 × 12 000 pixels pour une image de rapport 2x3. Cette limitation de taille ne s’applique pas si vous exportez des images primaires d’origine.
 
      Désélectionnez cette option si vous souhaitez que les utilisateurs téléchargent les fichiers sans les reformater pendant le téléchargement.
 
-   * **Activer Exporter l’original** - Permet d’exporter des images Principales originales. Dans le **[!UICONTROL Exportation des ressources sélectionnées]** , les utilisateurs peuvent ouvrir le panneau **[!UICONTROL Conversion]** menu déroulant et choisissez **[!UICONTROL Exporter l’original]** pour exporter les fichiers originaux. Désélectionnez cette option si vous souhaitez forcer les utilisateurs à choisir un paramètre d’image prédéfini ou des options de conversion lorsqu’ils exportent des images.
+   * **Activer Exporter l’original** - Permet d’exporter les images originales. Dans le **[!UICONTROL Exportation des ressources sélectionnées]** , les utilisateurs peuvent ouvrir le panneau **[!UICONTROL Conversion]** menu déroulant et choisissez **[!UICONTROL Exporter l’original]** pour exporter les fichiers originaux. Désélectionnez cette option si vous souhaitez forcer les utilisateurs à choisir un paramètre d’image prédéfini ou des options de conversion lorsqu’ils exportent des images.
 
 >[!MORELIKETHIS]
 >

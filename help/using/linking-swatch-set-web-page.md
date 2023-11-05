@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 42%
+source-wordcount: '700'
+ht-degree: 40%
 
 ---
 
 # Lier une série d’échantillons à une page web{#linking-a-swatch-set-to-a-web-page}
 
-Après avoir publié une série d’échantillons, vous pouvez utiliser son URL ou son code incorporé dans votre site Web ou application. Ensuite, vous pouvez déployer l’URL ou le code incorporé de manière appropriée pour que les utilisateurs puissent afficher la série d’échantillons sur votre site Web ou dans votre application.
+Après avoir publié une série d’échantillons, vous pouvez utiliser l’URL ou le code intégré qui lui est associé dans votre site web ou application. Ensuite, vous pouvez déployer l’URL ou le code incorporé de manière appropriée pour que les utilisateurs puissent afficher la série d’échantillons sur votre site Web ou dans votre application.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Après avoir publié une série d’échantillons, vous pouvez utiliser son URL 
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
 
-   * Sélectionner **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Sélectionner **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]**, ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
 
@@ -69,7 +69,7 @@ La fonction Code incorporé permet de vérifier le code de la série d’échant
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 
-   * Sélectionner **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Sélectionner **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]**, ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 

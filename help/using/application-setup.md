@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '11297'
+source-wordcount: '11288'
 ht-degree: 38%
 
 ---
@@ -23,7 +23,7 @@ Vous pouvez utiliser les pages Configuration de l’application pour saisir les 
 
 >[!NOTE]
 >
->Seuls les administrateurs d’Adobe Dynamic Media Classic peuvent modifier les paramètres des pages dans Configuration de l’application.
+>Seuls les administrateurs Adobe Dynamic Media Classic peuvent modifier les paramètres dans Configuration de l’application.
 
 ## Paramètres généraux {#general-settings}
 
@@ -131,13 +131,13 @@ Voir aussi [Options de tâche de téléchargement par défaut](https://s7d5.scen
 
 * **[!UICONTROL Options de téléchargement par défaut]** - Ouvre la boîte de dialogue Télécharger les options de la tâche, dans laquelle vous pouvez spécifier les options de téléchargement par défaut. Pour plus d’informations sur ces options, voir [Options de téléchargement](/help/using/uploading-files.md#upload_options).
 
-### Editeur de zone cliquable, vers l’application
+### Éditeur de zone cliquable (vers application)
 
 * **[!UICONTROL HREF de mappage d’images par défaut]** - Définit l’URL par défaut utilisée pour la colonne HREF dans le mappage des images. Cette URL est l’URL par défaut qui s’affiche lors de la création de zones cliquables.
 
 * **[!UICONTROL Modèle de mappage d’image par défaut]** - Définit le code JavaScript par défaut du modèle HREF dans le mappage des images. Vous pouvez définir ici le code personnalisé à exécuter chaque fois que vous sélectionnez une zone cliquable.
 
-### Autres paramètres, vers l’application
+### Autres paramètres (vers application)
 
 * **[!UICONTROL Nettoyage de la corbeille des avertissements]** - Les ressources de la corbeille sont automatiquement supprimées dans les sept jours. Sélectionnez &quot;Envoyer des emails avant que les éléments de la corbeille ne soient automatiquement supprimés&quot; si vous souhaitez que les notifications soient envoyées aux administrateurs de l’entreprise lorsque les ressources qui se trouvent dans la corbeille sont à quatre jours de la suppression définitive. Voir [Gestion du dossier Corbeille](/help/using/trash-folder.md).
 
@@ -223,7 +223,7 @@ Les écrans Ajouter un paramètre prédéfini et Modifier le paramètre prédéf
 
 * **[!UICONTROL Bicubique]** : accroît l’utilisation du processeur sur le serveur d’images, mais produit des images plus nettes avec des artefacts de crénelage plus discrets.
 
-* **[!UICONTROL Sharp2]** - Peut produire des résultats légèrement plus nets que l’option Bicubique, mais avec un coût processeur encore plus élevé sur le serveur d’images.
+* **[!UICONTROL `Sharp 2`]** - Cette méthode peut produire des images légèrement plus nettes que celles obtenues avec l’option Bicubique, en sollicitant toutefois davantage le processeur du serveur Image Server.
 
 * **[!UICONTROL Tri-linéaire]** : utilise des résolutions plus élevées et plus basses, le cas échéant ; recommandé uniquement lorsque le crénelage est un problème. Elle réduit la taille du fichier JPEG en raison des données à haute fréquence réduites.
 
@@ -308,7 +308,7 @@ Pour sélectionner un paramètre prédéfini de codage, dans le coin inférieur 
      >
      >Pour diffuser une vidéo sur iPad, vous pouvez sélectionner un paramètre prédéfini de codage mobile ou un paramètre prédéfini de codage tablette. Les paramètres prédéfinis Tablette sont spécialement conçus pour l’iPad, généralement avec une meilleure résolution et une qualité supérieure pour tirer parti de l’écran plus large et de la connexion à bande passante plus puissante. Afin de diffuser des fichiers vidéo codés avec un paramètre prédéfini Tablette, vous devez inclure un code de détection de périphérique sur votre site ou application mobile. Ce code bascule entre une expérience vidéo iPhone ou iPad, selon le périphérique de lecture. Le choix d’un paramètre prédéfini Mobile pour la diffusion de fichiers vidéo sur l’iPad représente un flux de travail plus simple, car vous pouvez utiliser le même fichier vidéo pour les iPhones et les iPads. En revanche, la qualité est normalisée sur la résolution iPhone, qui est inférieure.
 
-      * Sous le groupe Paramètres prédéfinis de codage, dans la liste déroulante Trier les paramètres prédéfinis de codage, sélectionnez Nom ou Taille pour trier les paramètres prédéfinis par nom ou taille de résolution.
+      * Sous le groupe Paramètres prédéfinis de codage , dans la liste déroulante Trier les paramètres prédéfinis de codage, sélectionnez Nom ou Taille pour trier les paramètres prédéfinis par nom ou taille de résolution.
       * Sélectionnez un paramètre prédéfini de codage en fonction de la taille de résolution et de la bande passante avec lesquelles vous prévoyez de lire la vidéo.
       * Vous pouvez sélectionner Codage vidéo adaptatif et un ou plusieurs paramètres prédéfinis de codage par vidéo. Par exemple, vous pouvez coder un fichier pour les ordinateurs de bureau et pour les périphériques mobiles dans le cadre d’une seule tâche de téléchargement.
 
@@ -340,9 +340,9 @@ Un paramètre prédéfini de codage qui fonctionne avec n’importe quelle propo
 
 |  | Nom du paramètre prédéfini de codage/Texte de l’info-bulle | Suffixe de fichier codé | Débit de données vidéo (Kb/s) | Largeur/hauteur (pixels) | Nombre d’images par seconde (i/s) | Débit audio (Kbit/s) | Recommandations |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Automatique x 360, 800 Kbits/s | _Mobile_Autox360p_800K | 800 | Autox360 | Identique à la source | 64 | Mobile (iPhone, iPad, Android™) |
-| 2 | Automatique x 480, 1 400 Kbits/s | _Tablet_Autox480p_1400K | 1400 | Autox480 | Identique à la source | 96 | Pour les tablettes (iPad, Android™) |
-| 3 | Automatique x 720, 2 600 Kbits/s | _Desktop_Autox720p_2600K | 2600 | Autox720 | Identique à la source | 128 | Pour ordinateur de bureau |
+| 1 | Auto × 360, 800 Kbit/s | _Mobile_Auto×360p_800K | 800 | Auto×360 | Identique à la source | 64 | Mobile (iPhone, iPad, Android™) |
+| 2 | Auto × 480, 1 400 Kbit/s | _Tablet_Auto×480p_1400K | 1400 | Auto×480 | Identique à la source | 96 | Pour les tablettes (iPad, Android™) |
+| 3 | Auto × 720, 2 600 Kbit/s | _Desktop_Auto×720p_2600K | 2600 | Auto×720 | Identique à la source | 128 | Pour ordinateur de bureau |
 
 ### Paramètres prédéfinis de codage de vidéo adaptative (16:9 ou 4:3) {#adaptive-video-encoding-or-video-presets}
 
@@ -635,7 +635,7 @@ Tous les fichiers CSS de paramètres prédéfinis de visionneuse par défaut dan
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
-Cependant, si vous hébergez des fichiers CSS de visionneuse sur votre propre site, vous devez résoudre ces chemins d’image relatifs en utilisant un chemin d’accès explicite au serveur d’images dans votre propre environnement. Par exemple, si vous deviez mettre à jour le chemin relatif au-dessus d’un chemin explicite, il peut ressembler à ce qui suit, où `https://s7d1.scene7.com` est le chemin d’accès direct à votre serveur d’images : `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Cependant, si vous hébergez des fichiers CSS de visionneuse sur votre propre site, vous devez résoudre ces chemins d’image relatifs en utilisant un chemin d’accès explicite au serveur d’images dans votre propre environnement. Par exemple, si vous avez mis à jour le chemin relatif ci-dessus vers un chemin explicite, il peut ressembler à ce qui suit : `https://s7d1.scene7.com` est le chemin d’accès direct à votre serveur d’images : `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **Pour exporter un paramètre prédéfini de visionneuse HTML5 :**
 
@@ -926,7 +926,7 @@ Vous pouvez utiliser la méthode de champ de formulaire pour définir un paramè
 
 Voir aussi [Création d’un paramètre prédéfini d’ensemble par lot pour la génération automatique d’une visionneuse à 360° en 2D](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set).
 
-Voir aussi [Visionneuses à 360° 2D](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) vidéo de formation.
+Voir aussi [Jeu de rotation 2D](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) vidéo de formation.
 
 **Création d’un paramètre prédéfini d’ensemble par lot:**
 

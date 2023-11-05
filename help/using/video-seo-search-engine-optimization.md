@@ -12,10 +12,10 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '1037'
-ht-degree: 37%
+ht-degree: 35%
 
 ---
 
@@ -33,7 +33,7 @@ L’optimisation pour les moteurs de recherche vidéo Adobe Dynamic Media Classi
 >
 >Google prend en charge à la fois le plan de site vidéo et le protocole de flux mRSS pour envoyer des informations aux moteurs de recherche.
 
-Adobe Dynamic Media Classic peut générer des plans de site vidéo et des flux mRSS à partir de métadonnées stockées avec chaque vidéo. Lorsque vous créez des plans de site vidéo et des flux mRSS, vous choisissez les champs de métadonnées à partir des fichiers vidéo à inclure. Ainsi, vous décrivez vos vidéos aux moteurs de recherche pour qu’ils puissent plus facilement rediriger le trafic vers les vidéos de votre site Web.
+Adobe Dynamic Media Classic peut générer des plans de site vidéo et des flux mRSS à partir de métadonnées stockées avec chaque vidéo. Lorsque vous créez des plans de site vidéo et des flux mRSS, vous choisissez les champs de métadonnées à partir des fichiers vidéo à inclure. Ainsi, vous décrivez vos vidéos aux moteurs de recherche pour qu’ils puissent plus facilement rediriger le trafic vers les vidéos de votre site Web..
 
 >[!NOTE]
 >
@@ -57,17 +57,17 @@ Après avoir choisi les paramètres, sélectionnez **[!UICONTROL Enregistrer]** 
 
 Sur le **[!UICONTROL Mode de génération]** , choisissez un mode de rapport :
 
-* **Plan du site vidéo** - Création d’un plan de site vidéo.
+* **Plan du site vidéo** - Créer un plan de site vidéo.
 
 * **Flux mRSS** - Créez un flux Media RSS (mRSS).
 
-* **Les** - Créez les deux types de fichiers XML.
+* **Les deux** - Créez les deux types de fichiers XML.
 
 * **Off** - Pour arrêter de générer des plans de site vidéo et des flux Media RSS (mRSS), sélectionnez cette option.
 
 Sur le **[!UICONTROL Mode automatique/manuel]** , choisissez de générer automatiquement ou manuellement la liste déroulante :
 
-* **Mode automatique** - Adobe Dynamic Media Classic génère automatiquement un plan de site vidéo, un flux Media RSS (mRSS), ou les deux, chaque jour. Sélectionnez la **[!UICONTROL Marquer pour publication]** pour marquer automatiquement pour publication le fichier XML généré par Adobe Dynamic Media Classic.
+* **Mode automatique** - Adobe Dynamic Media Classic génère automatiquement un plan de site vidéo, un flux Media RSS (mRSS), ou les deux, chaque jour. Sélectionnez la variable **[!UICONTROL Marquer pour publication]** pour marquer automatiquement pour publication le fichier XML généré par Adobe Dynamic Media Classic.
 
    * **Marquer pour publication** Marque pour publication le fichier XML généré.
 
@@ -109,7 +109,7 @@ Les fichiers de plan de site vidéo et de flux Media RSS (mRSS) sont stockés da
 * `https://{publish-server}/is/content/{companyname}/mrss-feed.xml`
 * `https://{publish-server}/is/content/{companyname}/video-sitemap.xml`
 
-Copiez l’une de ces URL dans les outils de l’administrateur Web du moteur de recherche pour envoyer votre fichier de plan de site vidéo ou de flux Media RSS (mRSS) aux moteurs de recherche.
+Copiez l’une de ces URL dans les outils webmaster du moteur de recherche pour envoyer votre fichier de plan de site vidéo ou de flux Media RSS (mRSS) aux moteurs de recherche.
 
 ## Affichage des rapports d’optimisation du référencement vidéo {#viewing-video-seo-reports}
 

@@ -1,27 +1,25 @@
 ---
 title: Liaison d’une visionneuse de supports variés à une page Web
 description: Découvrez comment lier une visionneuse de médias mixtes à une page web dans Adobe Dynamic Media Classic.
-uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 50%
+source-wordcount: '653'
+ht-degree: 47%
 
 ---
 
 # Liaison d’une visionneuse de supports variés à une page Web{#linking-a-mixed-media-set-to-a-web-page}
 
-Après avoir publié une visionneuse de supports variés, vous pouvez obtenir son URL afin de l’utiliser sur votre site Web ou dans votre application. Vous pouvez ensuite déployer l’URL, selon le cas, pour que les utilisateurs puissent accéder à la visionneuse de supports variés sur votre site Web ou dans votre application.
+Après avoir publié une visionneuse de médias mixtes, vous pouvez obtenir l’URL associée à utiliser sur votre site web ou dans votre application. Vous pouvez ensuite déployer l’URL, selon le cas, pour que les utilisateurs puissent accéder à la visionneuse de supports variés sur votre site Web ou dans votre application.
 
 ## Obtention d’une URL de visionneuse de supports variés {#obtain-a-mixed-media-set-url}
 

@@ -12,10 +12,10 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '2274'
-ht-degree: 39%
+source-wordcount: '2267'
+ht-degree: 38%
 
 ---
 
@@ -60,7 +60,7 @@ Le tableau suivant présente les options d’accentuation du serveur Image Serv
 | Nom | Protocole d’URL | Valeurs | Exemple |
 | --- | --- | --- | --- |
 | Accentuation simple | `op_sharpen` | `0` ou `1` | `op_sharpen=1` |
-| Mode de ré-échantillonnage | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: sélectionne l’interpolation binaire standard. Méthode de rééchantillonnage la plus rapide ; certains artefacts de crénelage sont souvent visibles.<br>`bicub`: sélectionne l’interpolation bicubique. Bien qu’elle sollicite davantage le processeur que bilin, cette méthode produit des images plus nettes avec des artefacts de crénelage plus discrets.<br><br>`sharp2`: sélectionne une fonction Lanczos Windows® modifiée comme algorithme d’interpolation. Peut produire des résultats légèrement plus nets que le bi-cube à un coût CPU plus élevé.<br><br>`trilin` : sélectionne une interpolation trilinéaire modifiée qui utilise les deux résolutions supérieure et inférieure lorsqu’elles sont disponibles. Méthode recommandée si le crénelage devient problématique. Elle réduit la taille des fichiers JPEG en raison des données à haute fréquence réduites. | `resMode=sharp2` |
+| Mode de ré-échantillonnage | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: sélectionne l’interpolation binaire standard. Méthode de rééchantillonnage la plus rapide ; certains artefacts de crénelage sont souvent visibles.<br>`bicub`: sélectionne l’interpolation bicubique. Bien qu’elle sollicite davantage le processeur que `bilin`, cette méthode produit des images plus nettes avec des artefacts de crénelage plus discrets.<br><br>`sharp2`: sélectionne une fonction Lanczos Windows® modifiée comme algorithme d’interpolation. Peut produire des résultats légèrement plus nets que le bi-cube à un coût CPU plus élevé.<br><br>`trilin` : sélectionne une interpolation trilinéaire modifiée qui utilise les deux résolutions supérieure et inférieure lorsqu’elles sont disponibles. Méthode recommandée si le crénelage devient problématique. Elle réduit la taille des fichiers JPEG en raison des données à haute fréquence réduites. | `resMode=sharp2` |
 | Masquage flou | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: facteur de force du filtre (réel 0...5)<br><br>`radius`: rayon du noyau du filtre en pixels (réel 0...250) <br><br>`threshold`: niveau seuil de filtrage (int 0...255)<br><br>`monochrome`: défini sur `0` pour masquer séparément chaque composant de couleur, définissez sur `1` pour masquer la luminosité de l’image (intensité) | `op_usm=1,1,10,0` |
 
 Sélectionnez la variable **[!UICONTROL Accentuation]** et choisissez une option :
@@ -79,7 +79,7 @@ Sélectionnez ces options afin d’affiner l’accentuation à l’aide du masqu
 
 La valeur appropriée du rayon dépend de la taille de l’image. Une valeur faible n’accentue que les pixels de contour. Une valeur élevée accentue une marge de pixels plus large. 
 
-Par exemple, pour obtenir un effet d’accentuation similaire pour une image de 2 000 x 2 000 pixels et une image de 500 x 500 pixels, vous pouvez définir une valeur de rayon de deux pixels sur l’image de 2 000 x 2 000 pixels. Ensuite, définissez une valeur de rayon d’un pixel pour l’image de 500 x 500 pixels (définissez une valeur plus élevée pour une image contenant plus de pixels).
+Par exemple, pour obtenir un effet d’accentuation similaire pour une image de 2 000 × 2 000 pixels et une image de 500 × 500 pixels, vous pouvez définir une valeur de rayon de deux pixels sur l’image de 2 000 × 2 000 pixels. Définissez ensuite une valeur de rayon d’un pixel sur l’image de 500 × 500 pixels (une valeur plus grande pour une image contenant plus de pixels).
 
 * **Seuil** - Détermine la plage de contraste à ignorer lorsque le filtre de masquage flou est appliqué. Cette option définit l’écart recherché entre les pixels et la zone environnante avant qu’ils ne soient considérés comme des pixels de contour et ne soient accentués. 
 
@@ -99,7 +99,7 @@ Sélectionnez la variable **[!UICONTROL Rééchantillonnage]** et choisissez une
 
 * **[!UICONTROL Bicubique]** : accroît l’utilisation du processeur sur le serveur d’images, mais produit des images plus nettes avec des artefacts de crénelage plus discrets.
 
-* **[!UICONTROL Accentuer 2]** : produit des résultats légèrement plus nets que **[!UICONTROL Bicubique]**, mais à un coût processeur encore plus élevé sur le serveur d’images.
+* **[!UICONTROL `Sharpen2`]** : produit des résultats légèrement plus nets que **[!UICONTROL Bicubique]**, mais à un coût processeur encore plus élevé sur le serveur d’images.
 
 * **[!UICONTROL Trilinéaire]** : utilise des résolutions plus élevées et plus basses si elles sont disponibles ; recommandé uniquement lorsque le crénelage est un problème. Elle réduit la taille du fichier JPEG en raison des données à haute fréquence réduites.
 
@@ -128,7 +128,7 @@ Les options de qualité JPG contrôlent le niveau de compression JPG :
 
 Sans paramètre d’image prédéfini ou de protocole d’accentuation spécifique au serveur Image Server en plus de la chaîne de l’URL, votre image n’est pas accentuée lorsque sa résolution est réduite. Cependant, si cette absence d’accentuation se produit, vous pouvez définir des valeurs d’accentuation par défaut, puis n’importe quelle image a toujours une certaine accentuation.
 
-Pour définir les options d’accentuation par défaut de votre entreprise, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]** > **[!UICONTROL Serveur d’images]**. Si vous définissez le mode Rééchantillonnage par défaut sur **[!UICONTROL Sharp2]**, l’image est toujours accentuée lors du sous-échantillonnage.
+Pour définir les options d’accentuation par défaut de votre entreprise, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]** > **[!UICONTROL Serveur d’images]**. Si vous définissez le mode Rééchantillonnage par défaut sur **[!UICONTROL `Sharp2`]**, l’image est toujours accentuée lors du sous-échantillonnage.
 
 **Ajout de l’accentuation aux paramètres prédéfinis de la visionneuse**
 

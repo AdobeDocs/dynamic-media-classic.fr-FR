@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Voir [Application de bureau Adobe Dynamic Media Classic](/help/using/dynamic-med
 
 ## _Dernière révision 30 juin 2020_
 
-Les utilisateurs d’Adobe Dynamic Media Classic ont désormais accès à une nouvelle expérience de connexion qui ne repose plus sur la technologie de Flash d’Adobe dans le navigateur.
+Les utilisateurs d’Adobe Dynamic Media Classic ont désormais accès à une nouvelle connexion qui ne repose plus sur la technologie de Flash d’Adobe dans le navigateur.
 
 ## Questions fréquentes
 
@@ -31,7 +31,7 @@ Adobe Flash Player était un module externe de navigateur Web qui permettait aux
 +++
 
 +++**_Comment accéder à la nouvelle appli de bureau ?_**
-La nouvelle appli de bureau est disponible sous la forme d’une `.dmg` programme d’installation pour macOS ou en tant que `.exe` programme d’installation pour Windows®.
+La nouvelle appli de bureau est disponible sous la forme d’une `.dmg` programme d’installation pour macOS ou en tant que `.exe` pour Windows®.
 
 Voir [Application de bureau Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md) pour examiner la configuration système requise, téléchargez et installez la nouvelle application, puis connectez-vous.
 +++
@@ -39,11 +39,11 @@ Voir [Application de bureau Adobe Dynamic Media Classic](/help/using/dynamic-med
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
 
 +++**_Comment fonctionne la nouvelle appli de bureau ?_**
-Une fois que vous avez téléchargé, installé et lancé l’appli de bureau, une expérience de connexion actualisée s’affiche. En saisissant votre nom d’utilisateur et votre mot de passe, puis en sélectionnant le serveur approprié en fonction de votre région, vous pouvez vous connecter à Adobe Dynamic Media Classic. L’expérience globale est la même que la version de navigateur web à laquelle vous êtes habitué. Depuis l’appli de bureau, vous pouvez accéder aux environnements de production et d’évaluation Adobe Dynamic Media Classic. Vous pouvez également accéder à Media Portal si vous disposez des informations d’identification nécessaires à cette fonctionnalité.
+Une fois que vous avez téléchargé, installé et lancé l’appli de bureau, une nouvelle connexion s’affiche. En saisissant votre nom d’utilisateur et votre mot de passe, puis en sélectionnant le serveur approprié en fonction de votre région, vous pouvez vous connecter à Adobe Dynamic Media Classic. L’expérience globale est la même que la version de navigateur web à laquelle vous êtes habitué. Depuis l’appli de bureau, vous pouvez accéder aux environnements de production et d’évaluation Adobe Dynamic Media Classic. Vous pouvez également accéder à Media Portal si vous disposez des informations d’identification nécessaires à cette fonctionnalité.
 
 >[!IMPORTANT]
 >
->Une seule instance de l’appli de bureau peut être installée. *et* principal à la fois sur un ordinateur donné. Cependant, il n’existe aucune restriction quant au nombre d’installations que vous pouvez avoir sur plusieurs ordinateurs.
+>Une seule instance de l’appli de bureau peut être installée. *et* actif à la fois sur un ordinateur donné. Cependant, il n’existe aucune restriction quant au nombre d’installations que vous pouvez avoir sur plusieurs ordinateurs.
 
 +++
 
@@ -68,7 +68,7 @@ Adobe s’engage à s’assurer que ses produits répondent aux exigences de sé
 +++
 
 +++**_Mon entreprise ne me permet pas d&#39;installer des logiciels et des applications sur mon ordinateur. Comment me recommander l’accès à la nouvelle appli de bureau ?_**
-Certaines sociétés ne vous permettent pas de télécharger et d’installer des logiciels et des applications sur votre système sans approbation. Dans de tels cas, demandez tôt à vos équipes informatiques d’accéder à la nouvelle appli de bureau Adobe Dynamic Media Classic. N’oubliez pas qu’après le 31 décembre 2020, la version du navigateur sera obsolète. Il est important d’éviter d’attendre la dernière minute pour télécharger la nouvelle appli de bureau.
+Certaines sociétés ne vous permettent pas de télécharger et d’installer des logiciels et des applications sur votre système sans approbation. Dans ce cas, demandez à votre équipe informatique d’obtenir plus tôt l’autorisation d’accéder à la nouvelle appli de bureau Adobe Dynamic Media Classic. N’oubliez pas qu’après le 31 décembre 2020, la version du navigateur sera obsolète. Il est important d’éviter d’attendre la dernière minute pour télécharger la nouvelle appli de bureau.
 +++
 
 +++**_Plusieurs instances de la nouvelle appli de bureau peuvent-elles être ouvertes en même temps ?_**
@@ -76,7 +76,7 @@ Non, la technologie AIR sur laquelle la nouvelle application de bureau Adobe Dyn
 +++
 
 +++**_Existe-t-il des restrictions quant au nombre de fichiers pouvant être transférés vers Adobe Dynamic Media Classic par le biais d’un ordinateur local ?_**
-Lorsque vous utilisez la nouvelle appli de bureau Adobe Dynamic Media Classic sous Windows®, vous pouvez charger un maximum de 150 fichiers à la fois à l’aide de la fonction **[!UICONTROL Télécharger]** de la boîte de dialogue Cette limitation a déjà été corrigée avant fin 2020. Il y a *non* restrictions de chargement sur la plateforme macOS.
+Lorsque vous utilisez la nouvelle appli de bureau Adobe Dynamic Media Classic sous Windows®, vous pouvez charger un maximum de 150 fichiers à la fois à l’aide de la fonction **[!UICONTROL Télécharger]** de la boîte de dialogue Cette limitation a déjà été corrigée avant la fin de 2020. Il y a *non* restrictions de chargement sur la plateforme macOS.
 +++
 
 +++**_La nouvelle appli de bureau Adobe Dynamic Media Classic requiert-elle un nouveau SKU ? Y a-t-il un coût de licence impliqué ?_**
@@ -102,7 +102,7 @@ Adobe Dynamic Media Classic est une solution puissante et riche en fonctionnalit
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic), and the complementary audit program. -->
 
 +++**_Je souhaite en savoir plus sur la mise à niveau vers Adobe Dynamic Media avec Adobe Experience Manager Assets. Où puis-je trouver plus d’informations ?_**
-Pour en savoir plus sur les avantages de la mise à niveau vers la nouvelle génération de la création, de la publication et de la diffusion dynamique de médias riches, consultez la page [Adobe du portail Dynamic Media pour la mise à niveau](https://exploreadobe.com/dynamic-media-upgrade/).
+Pour en savoir plus sur les avantages de la mise à niveau vers la nouvelle génération de la création, de la publication et de la diffusion dynamique de médias riches, consultez la page [Adobe du portail Dynamic Media pour la mise à niveau](/help/using/upgrade.md).
 +++
 
 >[!MORELIKETHIS]

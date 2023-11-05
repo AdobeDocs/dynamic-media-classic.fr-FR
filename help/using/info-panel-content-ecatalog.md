@@ -1,21 +1,19 @@
 ---
 title: Gestion du contenu du panneau Informations dans les catalogues électroniques
 description: Découvrez comment gérer le contenu du panneau d’informations dans les catalogues électroniques d’Adobe Dynamic Media Classic.
-uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 59%
+ht-degree: 57%
 
 ---
 
@@ -41,7 +39,7 @@ Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pou
 >Voir [Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
 
 1. Double-cliquez sur votre catalogue électronique pour l’ouvrir en mode Affichage des détails.
-1. Sélectionnez la **[!UICONTROL Configuration du panneau d’informations]** du panneau.
+1. Sélectionnez la variable **[!UICONTROL Configuration du panneau d’informations]** du panneau.
 1. Sélectionnez un modèle de réponse :
 
    * Sélectionnez un paramètre prédéfini dans le menu Modèle de réponse. Le code XML de la conception du modèle s’affiche dans le champ Modèle utilisateur.
@@ -51,7 +49,7 @@ Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pou
 1. Dans le champ Réponse TTL, entrez le nombre d’heures d’attente avant la mise en cache des données :
 
    * Optez pour une valeur faible si de nombreuses mises à jour des données sont effectuées quotidiennement.
-   * Optez pour une valeur élevée si les données sont relativement stables et ne nécessitent pas de mises à jour fréquentes. La valeur par défaut est de 10 heures.
+   * Définissez un nombre plus élevé si les données sont relativement stables et ne nécessitent pas de mises à jour fréquentes toute la journée. La valeur par défaut est de 10 heures.
 
 1. Sélectionner **[!UICONTROL Publier]**.
 
@@ -68,7 +66,7 @@ Lorsque vous effectuez la mise en forme du contenu source, n’oubliez pas les p
 ### Importation de contenu CSV dans des catalogues électroniques à partir d’un emplacement hébergé en externe {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Double-cliquez sur le catalogue électronique pour l’ouvrir en mode Affichage des détails.
-1. Sélectionnez la **[!UICONTROL Source de données InfoPanel]** du panneau.
+1. Sélectionnez la variable **[!UICONTROL Source de données InfoPanel]** du panneau.
 1. Dans la zone Emplacement du fichier CSV hébergé en externe (HTTP), saisissez l’URL associée au fichier CSV. Vous pouvez coller l’URL dans ce champ ou la saisir directement.
 1. (Facultatif) Spécifiez une heure pour mettre à jour le contenu à l’aide des menus Planifier la mise à jour et sélectionnez **[!UICONTROL Ajouter]**. Vous pouvez sélectionner plusieurs heures. Chaque heure de mise à jour apparaît dans la zone Mettre à jour les durées. (Pour supprimer une heure, sélectionnez-la et sélectionnez **[!UICONTROL Supprimer]**.)
 1. (Facultatif) Sélectionnez **[!UICONTROL Exécuter la mise à jour maintenant]** pour mettre immédiatement à jour le contenu.
@@ -86,7 +84,7 @@ Last Modified Date:
  -->
 
 1. Double-cliquez sur le catalogue électronique pour l’ouvrir en mode Affichage des détails.
-1. Sélectionnez la **[!UICONTROL Configuration du panneau d’informations]** du panneau.
+1. Sélectionnez la variable **[!UICONTROL Configuration du panneau d’informations]** du panneau.
 1. Sélectionner **[!UICONTROL Chargement Du Contenu S7Info]**.
 1. Sélectionner **[!UICONTROL Parcourir]**, sélectionnez le fichier TXT délimité par des tabulations, le fichier CSV ou le fichier SSV que vous souhaitez utiliser, puis sélectionnez **[!UICONTROL Ouvrir]**.
 1. Sélectionner **[!UICONTROL Télécharger]**.
@@ -97,8 +95,8 @@ Adobe Dynamic Media Classic vous envoie un message électronique vous informant 
 
 L’écran Pages de zones vous permet de visualiser, en un tournemain, le texte du panneau d’informations pour les zones cliquables sur une page spécifique de votre catalogue électronique.
 
-1. Sélectionnez le survol du catalogue. **[!UICONTROL Modifier]** bouton .
+1. Sélectionner le survol du catalogue **[!UICONTROL Modifier]** bouton .
 1. Sélectionner **[!UICONTROL Pages de mappage]**.
-1. Dans la partie supérieure du tableau sur le côté droit de l’écran, choisissez **[!UICONTROL Panneau Informations]** dans le menu Afficher.
+1. Dans la partie supérieure du tableau sur le côté droit de l’écran, choisissez **[!UICONTROL Panneau Infos]** dans le menu Afficher.
 
    Le texte de survol apparaît en regard de chaque zone cliquable contenant le texte du panneau d’informations.

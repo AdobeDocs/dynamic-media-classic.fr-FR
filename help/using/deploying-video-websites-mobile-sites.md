@@ -1,21 +1,19 @@
 ---
 title: Déployer de la vidéo sur vos sites Web et sites mobiles
 description: Découvrez comment déployer des vidéos sur vos sites web et sites mobiles à partir d’Adobe Dynamic Media Classic.
-uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 34%
+source-wordcount: '1708'
+ht-degree: 33%
 
 ---
 
@@ -48,7 +46,7 @@ Une fois les vidéos publiées, Adobe Dynamic Media Classic active les chaînes 
 
 ## Liaison d’une URL de vidéo à un site mobile ou à un site web {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
-Après avoir publié une vidéo, vous pouvez obtenir son URL en vue de l’utiliser sur un site Web, un site mobile ou dans une application de bureau. Utilisez l’URL de la vidéo lorsque vous souhaitez afficher la vidéo dans une fenêtre contextuelle ou modale au haut de la page Web.
+Lorsque vous publiez une vidéo, vous pouvez obtenir l’URL associée à utiliser sur votre site web, votre site mobile ou votre application de bureau. Utilisez l’URL de la vidéo lorsque vous souhaitez afficher la vidéo dans une fenêtre contextuelle ou modale au haut de la page Web.
 
 Lorsqu’un client sélectionne le lien, son appareil, sa bande passante et sa taille d’écran sont automatiquement détectés. S’il s’agit d’un ordinateur, la vidéo adéquate s’affiche dans une visionneuse prédéfinie ; dans le cas d’un smartphone ou d’une tablette, elle s’affiche dans le lecteur vidéo natif du périphérique en question.
 
@@ -56,7 +54,7 @@ Voir aussi [Incorporation de la visionneuse de vidéos dans une page web](deploy
 
 **Liaison d’une URL de vidéo à un site Web ou à un site mobile:**
 
-1. Dans le panneau de navigation des ressources, dans la **[!UICONTROL Afficher]** liste déroulante, sélectionnez **[!UICONTROL Vidéo]** ou **[!UICONTROL Visionneuse de vidéos adaptative]**.
+1. Dans le panneau de navigation des ressources, dans la **[!UICONTROL Afficher]** liste déroulante, sélectionnez **[!UICONTROL Vidéo]**, ou **[!UICONTROL Visionneuse de vidéos adaptative]**.
 1. Dans le panneau Bibliothèque de fichiers sur la gauche, accédez au dossier Fichiers qui contient la vidéo ou la vidéo adaptative que vous souhaitez lier.
 1. Au-dessus du panneau de navigation dans les fichiers, à droite de la barre d’outils, effectuez l’une des opérations suivantes :
 
@@ -69,7 +67,7 @@ Voir aussi [Incorporation de la visionneuse de vidéos dans une page web](deploy
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**. Il est recommandé de copier l’URL associée à la variable `Universal_HTML5_Video` visionneuse.
 
-   * Sélectionner **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Sélectionner **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]**, ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**. Il est recommandé de copier l’URL associée à la variable `Universal_HTML5_Video` visionneuse.
 
@@ -83,7 +81,7 @@ Voir aussi [Liaison d’une URL de vidéo à un site mobile ou à un site web](d
 
 **Incorporation de la visionneuse de vidéos sur une page Web:**
 
-1. Dans la liste déroulante Afficher du panneau de navigation des ressources, sélectionnez **[!UICONTROL Vidéo]** ou **[!UICONTROL Visionneuse de vidéos adaptative]**.
+1. Dans la liste déroulante Afficher du panneau de navigation des ressources, sélectionnez **[!UICONTROL Vidéo]**, ou **[!UICONTROL Visionneuse de vidéos adaptative]**.
 1. Dans le panneau Bibliothèque de fichiers sur la gauche, accédez au dossier Fichiers qui contient la vidéo ou la visionneuse de vidéos adaptative dont vous voulez copier le code intégré.
 1. Au-dessus du panneau de navigation dans les fichiers, à droite de la barre d’outils, effectuez l’une des opérations suivantes :
 
@@ -96,7 +94,7 @@ Voir aussi [Liaison d’une URL de vidéo à un site mobile ou à un site web](d
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**. Pour une bonne pratique, sélectionnez **[!UICONTROL Code incorporé]** qui est associé à la variable `Universal_HTML5_Video` visionneuse.
 
-   * Sélectionner **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Sélectionner **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]**, ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**. Pour une bonne pratique, sélectionnez **[!UICONTROL Code incorporé]** qui est associé à la variable `Universal_HTML5_Video` visionneuse.
 
@@ -119,11 +117,11 @@ Si vous n’utilisez pas le lecteur vidéo Adobe Dynamic Media Classic HTML5, ma
 </video>
 ```
 
-* Remplacer `"S7 video thumbnail URL"` avec l’URL de la miniature de la vidéo, qui est l’image de miniature de la vidéo qu’un utilisateur voit avant de lire la vidéo.
+* Remplacer `"S7 video thumbnail URL"` avec l’URL de miniature de la vidéo, qui est l’image miniature de la vidéo qu’un utilisateur voit avant de lire la vidéo.
 
   Voir [Obtention des URL des miniatures vidéo](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
-* Remplacer `"S7 OGG video asset URL (no player)"` avec l’URL progressive de la vidéo pour la vidéo OGG.
+* Remplacer `"S7 OGG video asset URL (no player)"` avec l’URL progressive de la vidéo OGG.
 
   Voir [Liaison d’une URL de vidéo à un site mobile ou à un site web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
@@ -142,14 +140,14 @@ Si vous utilisez un lecteur vidéo tiers ou un lecteur vidéo personnalisé au l
 
 * Pour générer une URL de vidéo en flux continu HLS direct (à débit multiple)
 
-  Sur le **[!UICONTROL Paramètres généraux de l’application]** , dans la **[!UICONTROL Serveurs]** , dans la variable **[!UICONTROL Nom du serveur publié]** champ de texte, construisez l’URL directe. Utilisez la syntaxe suivante : `server/is/content/company/folder/filename.m3u8`
+  Sur le **[!UICONTROL Paramètres généraux de l’application]** , dans la variable **[!UICONTROL Serveurs]** , dans la variable **[!UICONTROL Nom du serveur publié]** champ de texte, construisez l’URL directe. Utilisez la syntaxe suivante : `server/is/content/company/folder/filename.m3u8`
 
   Supposons, par exemple, que le nom du serveur publié soit `https://s7d9.scene7.com/.` En utilisant la syntaxe de l’étape 2, l’URL directe peut se présenter comme suit :
   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * Pour générer une URL de vidéo en flux continu HLS direct (débit unique)
 
-  Sur le **[!UICONTROL Paramètres généraux de l’application]** , dans la **[!UICONTROL Serveurs]** , dans la variable **[!UICONTROL Nom du serveur de diffusion en continu HLS]** champ de texte, construisez l’URL directe à l’aide de la syntaxe suivante :
+  Sur le **[!UICONTROL Paramètres généraux de l’application]** , dans la variable **[!UICONTROL Serveurs]** , dans la variable **[!UICONTROL Nom du serveur de diffusion HLS]** champ de texte, construisez l’URL directe à l’aide de la syntaxe suivante :
 
   `server/company/folder/filename.ext.m3u8`
 
@@ -173,13 +171,13 @@ Les miniatures sont générées en fonction de la première image hétérogène 
 
 ### Obtention des URL des miniatures vidéo {#obtaining-video-thumbnail-urls}
 
-Adobe Dynamic Media Classic génère automatiquement des miniatures vidéo pendant le processus de téléchargement. Les miniatures apparaissent dans le panneau Parcourir en mode Liste et Grille.
+Adobe Dynamic Media Classic génère automatiquement des miniatures vidéo pendant le processus de téléchargement. Les miniatures s’affichent dans le panneau Parcourir en mode Liste et Grille.
 
 Pour générer des URL de miniatures vidéo, effectuez une opération de publication.
 
 Voir [Publier la vidéo](deploying-video-websites-mobile-sites.md#publishing_video).
 
-Une fois la publication terminée, vous pouvez obtenir des URL de miniatures vidéo en mode Affichage des détails dans le panneau URL et Code intégré. Sélectionner **[!UICONTROL Copier l’URL]** à droite de la miniature vidéo pour pouvoir copier son URL.
+Une fois la publication terminée, vous pouvez obtenir des URL de miniatures vidéo en mode Affichage des détails dans le panneau URL et Code intégré. Sélectionner **[!UICONTROL Copier l’URL]** à droite de la miniature vidéo afin que vous puissiez copier l’URL qui lui est associée.
 
 ### Modification des images d’affiche dans les visionneuses de vidéos {#modifying-poster-frames-in-video-viewers}
 
@@ -187,7 +185,7 @@ Le *cadre d’affiche* est la première image qui apparaît dans les visionneuse
 
 Vous pouvez appliquer des modificateurs d’image au cadre d’affiche. Vous pouvez, par exemple, rogner le cadre d’affiche ou le rendre transparent. Pour modifier le cadre d’affiche, ouvrez l’écran de configuration de la visionneuse de vidéos et saisissez les modificateurs dans la section Poster Image Modifiers (Modificateurs de l’image d’affiche). 
 
-Voir [Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
+Voir [Ajouter ou modifier un paramètre prédéfini de visionneuse de vidéos](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 Voir [Guide de diffusion d’images](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home.html?lang=en#image-serving-api).
 

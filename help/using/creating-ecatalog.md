@@ -1,5 +1,5 @@
 ---
-title: Création d’un catalogue électronique
+title: Créer un catalogue électronique
 description: Découvrez comment créer un catalogue électronique dans Adobe Dynamic Media Classic.
 uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: Rick Brough
@@ -12,10 +12,10 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 56%
+source-wordcount: '969'
+ht-degree: 51%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 56%
 
 Dans le cadre de la création d’un catalogue électronique, il convient de définir l’ordre des pages et leur disposition, puis de les lier en traçant des zones cliquables et en saisissant des données de lien hypertexte et de survol. Accessoirement, vous pouvez personnaliser la table des matières afin que les utilisateurs puissent voir le nom des pages plutôt que leur numéro dans la visionneuse de catalogue électronique.
 
-## Création d’un catalogue électronique {#create}
+## Créer un catalogue électronique {#create}
 
 Vous pouvez inclure des fichiers image et PDF dans votre catalogue électronique.
 
 Lorsque vous créez un catalogue électronique, l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») affecte la visionneuse et ses membres comme suit :
 
-| L’option « Publish after save » (« Publier après l’enregistrement ») est-elle sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| Option &quot;Publier après l’enregistrement&quot; sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- |
 | Oui | Publié | Publié |
 | Non | Non publié | Les membres de la visionneuse conservent leur état publié ou non publié. |
@@ -40,7 +40,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Utilisez l’une des méthodes suivantes pour commencer à créer votre catalogue électronique :
 
-   * **Sélectionner les fichiers en premier** - Dans le panneau de navigation, sélectionnez les fichiers, puis accédez à **[!UICONTROL Build]** > **[!UICONTROL Catalogues électroniques]**.
+   * **Sélectionner d’abord les fichiers** - Dans le panneau de navigation, sélectionnez les fichiers, puis accédez à **[!UICONTROL Build]** > **[!UICONTROL Catalogues électroniques]**.
 
    * **Démarrage à partir de l’écran Catalogue électronique** - Accédez à **[!UICONTROL Build]** > **[!UICONTROL Catalogues électroniques]**. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser son contenu vers l’onglet Ordre des pages de la page Catalogue électronique.
 
@@ -48,8 +48,8 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
      >
      >pour visualiser les éléments de la bibliothèque de fichiers par nom plutôt que par miniature, sélectionnez l’option Nom pour l’affichage par défaut de la bibliothèque de fichiers dans l’écran Configuration personnelle.
 
-1. Sélectionnez la disposition globale de votre catalogue électronique. Sélectionner **[!UICONTROL 1]** pour les pages simples, **[!UICONTROL 2 en haut]** pour les planches à deux pages, ou **[!UICONTROL Personnalisé]** pour les planches de plus de deux pages. Dans le **[!UICONTROL Modification de la disposition du catalogue électronique]** , sélectionnez **[!UICONTROL Toutes les diffusions]** options et sélectionnez **[!UICONTROL OK]**.
-1. Si vous le souhaitez, vous pouvez modifier la mise en page de pages individuelles ou de planches en les sélectionnant, puis en choisissant **[!UICONTROL 1]**, **[!UICONTROL 2 en haut]** ou **[!UICONTROL Personnalisé]** bouton . Dans le **[!UICONTROL Modification de la disposition du catalogue électronique]** , sélectionnez **[!UICONTROL Diffusions sélectionnées]** options et sélectionnez **[!UICONTROL OK]**.
+1. Sélectionnez la disposition globale de votre catalogue électronique. Sélectionner **[!UICONTROL 1 haut]** pour les pages simples, **[!UICONTROL 2 en haut]** pour les planches à deux pages, ou **[!UICONTROL Personnalisé]** pour les planches de plus de deux pages. Dans le **[!UICONTROL Modification de la disposition du catalogue électronique]** , sélectionnez **[!UICONTROL Toutes les étendues]** options et sélectionnez **[!UICONTROL OK]**.
+1. Si vous le souhaitez, vous pouvez modifier la mise en page de pages individuelles ou de planches en les sélectionnant, puis en choisissant **[!UICONTROL 1 haut]**, **[!UICONTROL 2 en haut]**, ou **[!UICONTROL Personnalisé]** bouton . Dans le **[!UICONTROL Modification de la disposition du catalogue électronique]** , sélectionnez **[!UICONTROL Diffusions sélectionnées]** options et sélectionnez **[!UICONTROL OK]**.
 1. Réorganisez les pages selon vos besoins en utilisant l’une des méthodes suivantes :
 
    * **Glissement** - Faites glisser une page ou une propagation de page vers un nouvel emplacement. La barre verticale indique le nouvel emplacement de la page.
@@ -63,13 +63,13 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Dans la boîte de dialogue Enregistrer, sélectionnez le dossier dans lequel conserver le catalogue électronique. Dans le champ Nom de fichier, saisissez le nom de la visionneuse à 360°.
 1. Sélectionner **[!UICONTROL Enregistrer]**.
 
-   Après l’avoir enregistré, vous pouvez prévisualiser votre catalogue électronique en sélectionnant **[!UICONTROL Aperçu]**.
+   Vous pouvez prévisualiser votre catalogue électronique en sélectionnant **[!UICONTROL Aperçu]**.
 
-## Modification d’un catalogue électronique {#editing-an-ecatalog}
+## Modifier un catalogue électronique {#editing-an-ecatalog}
 
-Si vous modifiez un jeu publié ou non publié, la variable **[!UICONTROL Publier après l’enregistrement]** L’option affecte les membres de l’ensemble et de l’ensemble comme suit :
+Si vous modifiez un jeu publié ou non publié, la variable **[!UICONTROL Publier après enregistrement]** L’option affecte les membres de l’ensemble et de l’ensemble comme suit :
 
-| Visionneuse déjà publiée ? | L’option « Publish after save » (« Publier après l’enregistrement ») est-elle sélectionnée avant l’enregistrement de votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| Visionneuse déjà publiée ? | L’option &quot;Publier après l’enregistrement&quot; est sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- | --- |
 | Oui | Oui | Publié | Publié |
 | Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
@@ -80,14 +80,14 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 **Pour modifier un catalogue électronique:**
 
-1. Sélectionnez le survol du catalogue électronique. **[!UICONTROL Modifier]** bouton .
+1. Sélectionner le survol du catalogue électronique **[!UICONTROL Modifier]** bouton .
 1. Apportez les modifications de votre choix.
 1. Une fois les modifications terminées, près de l’angle inférieur droit de la page, vérifiez que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
 1. Sélectionner **[!UICONTROL Enregistrer]**, sélectionnez un dossier de stockage, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-## Suppression d’un catalogue électronique {#deleting-an-ecatalog}
+## Supprimer un catalogue électronique {#deleting-an-ecatalog}
 
-Lorsque vous supprimez une visionneuse, celle-ci est placée dans la corbeille. Toutefois, les membres (ou « enfants ») de cette visionneuse ne sont pas affectés : ils conservent en fait leur état existant publié ou non publié.
+Lorsque vous supprimez une visionneuse, celle-ci est placée dans la corbeille. Cependant, les membres (ou &quot;enfants&quot;) de cet ensemble ne sont pas affectés ; au lieu de cela, ils conservent chacun leur état publié ou non publié existant.
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
@@ -114,7 +114,7 @@ Pour entrer manuellement les noms de page un par un, activez l’onglet Ordre de
 
 Il est recommandé d’utiliser la méthode d’importation des noms de page si le catalogue électronique contient de nombreuses pages. Vous pouvez importer les noms à partir d’un fichier délimité par des tabulations ou d’un fichier XML.
 
-Le libellé de la table des matières est stocké dans le champ Données utilisateur d’une image. formater ces données en tant que liste `name=<value>` ` pairs separated by two question marks “??” `. Par exemple, pour définir une étiquette d’un champ de table des matières appelé `tocEN`, définissez le champ Données utilisateur de l’image sur :
+Le libellé de la table des matières est stocké dans le champ Données utilisateur d’une image. Formatez ces données en tant que liste de `name=<value>` ` pairs separated by two question marks "??" `. Par exemple, pour définir un libellé pour un champ de table des matières nommé `tocEN`, définissez les Données utilisateur de l’image sur :
 
 `tocEN=&lt;EN_page_label>`
 

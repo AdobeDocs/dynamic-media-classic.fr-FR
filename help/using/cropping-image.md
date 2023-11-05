@@ -1,20 +1,18 @@
 ---
 title: Recadrage d’une image
 description: Découvrez comment recadrer une image dans Adobe Dynamic Media Classic.
-uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '549'
 ht-degree: 35%
 
 ---
@@ -33,10 +31,10 @@ Vous pouvez recadrer une image afin d’en supprimer les bords blancs ou de ne g
 
 Vous pouvez éliminer les pixels transparents ou de couleur qui apparaissent au bord d’une image.
 
-1. Pour recadrer une image, sélectionnez son survol **[!UICONTROL Modifier]** puis sélectionnez **[!UICONTROL Recadrer]** ou l’afficher dans le panneau de navigation de la vue Détails, puis sélectionnez l’option **[!UICONTROL Recadrer]** bouton .
+1. Pour recadrer une image, sélectionnez son survol **[!UICONTROL Modifier]** puis cliquez sur **[!UICONTROL Recadrer]** ou l’afficher dans le panneau de navigation de la vue Détails, puis sélectionnez l’option **[!UICONTROL Recadrer]** bouton .
 1. Sur la page Éditeur de recadrage , effectuez l’une des opérations suivantes :
 
-   * Pour rogner les pixels de couleur, accédez à **[!UICONTROL Rogner]** > **[!UICONTROL Couleur]**. Dans le **[!UICONTROL Recadrage automatique par couleur]** , sélectionnez **[!UICONTROL Coin]** et choisissez un coin avec la couleur d’arrière-plan que vous souhaitez recadrer. Puis saisissez un **[!UICONTROL Tolérance]** de 0 à 1. La valeur 0 permet de rogner les pixels uniquement s’ils correspondent exactement à la couleur sélectionnée dans l’angle de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs. Sélectionner **[!UICONTROL Recadrer]**.
+   * Pour rogner les pixels de couleur, accédez à **[!UICONTROL Rogner]** > **[!UICONTROL Couleur]**. Dans le **[!UICONTROL Recadrage automatique par couleur]** , sélectionnez **[!UICONTROL Coin]** et choisissez un coin avec la couleur d’arrière-plan à recadrer. Ensuite, saisissez un **[!UICONTROL Tolérance]** de 0 à 1. La valeur 0 permet de rogner les pixels uniquement s’ils correspondent exactement à la couleur sélectionnée dans l’angle de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs. Sélectionner **[!UICONTROL Recadrer]**.
    * Pour rogner les pixels transparents, accédez à **[!UICONTROL Rogner]** > **[!UICONTROL Transparent]**. Dans le **[!UICONTROL Recadrage automatique par transparence]** , saisissez un paramètre de tolérance compris entre 0 et 1. Le paramètre 0 rogne les pixels uniquement s’ils sont transparents. Les valeurs plus proches de 1 permettent une plus grande transparence. Sélectionner **[!UICONTROL Recadrer]**.
 
 1. Sélectionner **[!UICONTROL Enregistrer]**.

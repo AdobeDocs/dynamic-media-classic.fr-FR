@@ -12,10 +12,10 @@ role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 72%
+source-wordcount: '255'
+ht-degree: 60%
 
 ---
 
@@ -27,13 +27,13 @@ Les administrateurs du portail multimédia peuvent créer des paramètres d’im
 
 Les restrictions suivantes s’appliquent lorsque vous exportez des fichiers d’image :
 
-* La largeur x hauteur doit être inférieure ou égale à 100 Mo par image. Par exemple, l’image ne doit pas dépasser 10 K x 10 K, ou toute variation de rapport telle que 8 K x 12 K.
+* La largeur × hauteur doit être inférieure ou égale à 100 Mo par image. Par exemple, l’image ne peut pas dépasser 10 K × 10 K, ou toute variation d’aspect ci-dessous, telle que 8 K × 12 K.
 * La taille totale du fichier par tâche d’exportation ne peut pas dépasser 1 Go.
 * Il peut y avoir un maximum de 500 fichiers par tâche d’exportation.
 
 >[!NOTE]
 >
->Ces restrictions s’appliquent uniquement à l’exportation de ressources d’image dérivées, et non à l’exportation de fichiers Principaux.
+>Ces restrictions s’appliquent uniquement à l’exportation de ressources d’image dérivées, et non à l’exportation de fichiers principaux.
 
 Pour plus d’informations sur la création d’un paramètre d’image prédéfini, voir [Paramètres d’image prédéfinis](application-setup.md#image_presets).
 

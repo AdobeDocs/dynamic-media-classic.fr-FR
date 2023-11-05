@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Oui, [!DNL Dynamic Media] utilise le réseau de diffusion de premier niveau robu
 
 * Meilleur fournisseur de médias riches vers la vente au détail Internet 1000, neuf ans d’affilée.
 * 24/7/265 prise en charge, 99,95 % des contrats de niveau de service (SLA).
-* Infrastructure éprouvée desservant plus de 800 clients dans le monde entier, un trafic de 3,5 pétaoctets par mois et plus de 500 millions d’actifs en gestion, une croissance de 60 % du trafic d’une année à l’autre.
+* Infrastructure éprouvée desservant plus de 800 clients dans le monde entier, 3,5 Po de trafic par mois et plus de 500 millions d’actifs en gestion, croissance de 60 % du trafic d’une année à l’autre.
 
 +++
 

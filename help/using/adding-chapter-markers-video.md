@@ -1,33 +1,31 @@
 ---
 title: Ajout de marqueurs de chapitre à la vidéo
 description: Découvrez comment ajouter des marqueurs de chapitre à une vidéo dans Adobe Dynamic Media Classic.
-uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 37%
+source-wordcount: '628'
+ht-degree: 33%
 
 ---
 
 # Ajout de marqueurs de chapitre à la vidéo {#adding-chapter-markers-to-video}
 
-Vous pouvez rendre vos vidéos de forme longue plus faciles à regarder et à parcourir en ajoutant des marques de chapitre aux vidéos uniques ou aux visionneuses de vidéos adaptatives. Lorsqu’un utilisateur lit la vidéo, il peut sélectionner les marqueurs de chapitre dans la chronologie de la vidéo (également appelée défilement vidéo). Cela leur permet de naviguer facilement jusqu’à leur point ciblé ou d’accéder immédiatement à un nouveau contenu, à des démonstrations, à des tutoriels, etc.
+Vous pouvez faciliter la lecture et la navigation de vos vidéos longues en ajoutant des marqueurs de chapitre aux vidéos uniques ou aux visionneuses de vidéos adaptatives. Lorsqu’un utilisateur lit la vidéo, il peut sélectionner les marqueurs de chapitre dans la chronologie de la vidéo (également appelée défilement vidéo). Cela leur permet de naviguer facilement jusqu’à leur point ciblé ou d’accéder immédiatement à un nouveau contenu, à des démonstrations, à des tutoriels, etc.
 
 >[!NOTE]
 >
 >Le lecteur vidéo utilisé doit prendre en charge l’utilisation des marques de chapitre.
 
-Voir [Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) si vous souhaitez configurer les points de repère de navigation par chapitre et le texte contextuel du titre du chapitre pour la variable `Universal_HTML5_Video` visionneuse (HTML5).
+Voir [Ajouter ou modifier un paramètre prédéfini de visionneuse de vidéos](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) si vous souhaitez configurer les points de repère de navigation par chapitre et le texte contextuel du titre du chapitre pour la variable `Universal_HTML5_Video` visionneuse (HTML5).
 
 Voir aussi [Ajout et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -55,7 +53,7 @@ Dans l’exemple ci-dessus, `Chapter 1` est l’identifiant de repère et est fa
 
 Puisque vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fichier de chapitre que vous créez est conforme à la norme WebVTT (Web Video Text Tracks). L’extension de nom de fichier de chapitre est .VTT. D’autres informations sont disponibles sur la norme de sous-titrage WebVTT.
 
-Voir [WebVTT : Format de suivi de texte vidéo web](https://w3c.github.io/webvtt/).
+Voir [WebVTT : The Web Video Text Tracks Format](https://w3c.github.io/webvtt/).
 
 **Pour ajouter des marques de chapitre à la vidéo:**
 
@@ -89,4 +87,4 @@ Voir [WebVTT : Format de suivi de texte vidéo web](https://w3c.github.io/webvtt
 
      Pour le HTML5 `Universal_HTML5_Video` visionneuse, ajoutez le code intégré copié avec ce qui suit :
 
-     `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
+     `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

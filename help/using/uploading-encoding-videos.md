@@ -11,10 +11,10 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3962'
-ht-degree: 52%
+source-wordcount: '3951'
+ht-degree: 49%
 
 ---
 
@@ -170,7 +170,7 @@ Ce tableau décrit la façon dont les résultats de la formule se traduisent en 
 | 1.78 | 16:9 |
 | 0.56 | 9:16 |
 
-Par exemple, une vidéo de 1 440 largeur x 1 080 hauteur a un rapport d’aspect de 1440/1080, soit 1,33. Dans ce cas, vous choisissez un paramètre prédéfini de codage vidéo avec un format 4:3 pour coder le fichier vidéo.
+Par exemple, une vidéo dont la largeur est de 1 440 × hauteur de 1 080 a un rapport d’aspect de 1440/1080, soit 1,33. Dans ce cas, vous choisissez un paramètre prédéfini de codage vidéo avec un format 4:3 pour coder le fichier vidéo.
 
 ### Débit {#data-rate}
 
@@ -193,16 +193,16 @@ Ce tableau décrit le débit de données de vitesses de connexion courantes.
 
 ### Résolution {#resolution}
 
-*Résolution* décrit la hauteur et la largeur d’un fichier vidéo, en pixels. La plupart des vidéos sources sont stockées à une résolution élevée (par exemple, 1 920 x 1 080). A des fins de diffusion en flux continu, la vidéo source est compressée à une résolution inférieure (640 x 480, voire moins).
+*Résolution* décrit la hauteur et la largeur d’un fichier vidéo, en pixels. La plupart des vidéos sources sont stockées à une résolution élevée (par exemple, 1920 × 1080). Pour la diffusion en continu, la vidéo source est compressée à une résolution inférieure (640 × 480 ou moins).
 
-La résolution et le débit de données sont deux facteurs étroitement liés qui déterminent la qualité de la vidéo. Pour maintenir la même qualité vidéo, plus le nombre de pixels (c’est-à-dire la résolution) est élevé dans un fichier vidéo, plus le débit de données doit l’être également. Par exemple, considérez le nombre de pixels par image dans un fichier vidéo d’une résolution de 320 x 240 pixels et dans un fichier vidéo d’une résolution de 640 x 480 pixels :
+La résolution et le débit de données sont deux facteurs étroitement liés qui déterminent la qualité de la vidéo. Pour maintenir la même qualité vidéo, plus le nombre de pixels (c’est-à-dire la résolution) est élevé dans un fichier vidéo, plus le débit de données doit l’être également. Prenons l’exemple du nombre de pixels par image dans un fichier vidéo de résolution de 320 × 240 et d’une résolution de 640 × 480 :
 
 | Résolution | Pixels par image |
 | --- | --- |
-| 320 x 240 | 76 800 |
-| 640 x 480 | 307 200 |
+| 320 × 240 | 76 800 |
+| 640 × 480 | 307 200 |
 
-Le fichier de 640 x 480 possède quatre fois plus de pixels par image. Pour atteindre le même débit de données avec ces deux résolutions, vous appliquez une compression de 4 au fichier d’une résolution de 640 x 480 pixels, ce qui peut réduire la qualité de la vidéo. Par conséquent, un débit de données vidéo de 250 Kb/s produit un affichage de haute qualité à une résolution de 320 x 240 pixels, mais pas à une résolution de 640 x 480 pixels.
+Le fichier 640 × 480 a quatre fois plus de pixels par image. Pour obtenir le même débit de données pour ces deux exemples de résolution, vous appliquez quatre fois la compression au fichier 640 × 480, ce qui peut réduire la qualité de la vidéo. Par conséquent, un débit de données vidéo de 250 Kbit/s produit un affichage de haute qualité à une résolution de 320 × 240, mais pas à une résolution de 640 × 480.
 
 >[!NOTE]
 >
@@ -238,14 +238,14 @@ Pour ce faire, il suffit de diviser la largeur de la source par la largeur codé
 
 Si le résultat est un nombre entier, cela signifie que la mise à l’échelle de la vidéo est parfaite. Si le résultat n’est pas un nombre entier, la qualité vidéo s’en ressentira en raison de la présence d’artefacts vidéo (pixels résiduels). Cet effet est plus visible lorsque la vidéo contient du texte.
 
-Supposons, par exemple, que la résolution de votre vidéo source soit équivalente à 1920 x 1080 pixels. Dans le tableau ci-après, les trois vidéos codées indiquent les paramètres de codage optimaux à appliquer.
+Par exemple, supposons que la vidéo source soit 1 920 × 1 080. Dans le tableau ci-après, les trois vidéos codées indiquent les paramètres de codage optimaux à appliquer.
 
-| Type de vidéo | Largeur x Hauteur | Rapport de largeur | Rapport de hauteur |
+| Type de vidéo | Largeur × Hauteur | Rapport de largeur | Rapport de hauteur |
 | --- | --- | --- | --- |
-| Source | 1 920 x 1 080 | 1 | 1 |
-| Codée | 960 x 540 | 2 | 2 |
-| Codée | 640 x 360 | 3 | 3 |
-| Codée | 480 x 270 | 4 | 4 |
+| Source | 1920 × 1080 | 1 | 1 |
+| Codée | 960 × 540 | 2 | 2 |
+| Codée | 640 × 360 | 3 | 3 |
+| Codée | 480 × 270 | 4 | 4 |
 
 ### Format de fichier vidéo codé {#encoded-video-file-format}
 
