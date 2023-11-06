@@ -10,10 +10,10 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 38%
+source-wordcount: '694'
+ht-degree: 35%
 
 ---
 
@@ -46,7 +46,7 @@ Une fois que vous avez publié une visionneuse d’images, vous pouvez copier l�
 
 ## Ajout d’URL de visionneuse d’images à une page Web {#adding-image-set-urls-to-your-web-page}
 
-La méthode la plus courante pour déployer les visionneuses d’images consiste à insérer un lien (par le biais d’une icône de navigation) dans votre page Web. Lorsque vous cliquez dessus, le lien lance une page dynamique (JSP) qui affiche la visionneuse d’images dans une fenêtre de zoom contextuelle. Le lien de zoom affiche une fenêtre contextuelle contenant l’affichage agrandi proprement dit.
+La méthode la plus courante pour déployer une visionneuse d’images consiste à placer un lien (au moyen d’une icône de navigation) sur votre page web. Lorsque cette option est sélectionnée, le lien lance une page dynamique (JSP) qui affiche la visionneuse d’images dans une fenêtre de zoom contextuelle. Le lien de zoom affiche une fenêtre contextuelle contenant l’affichage agrandi proprement dit.
 
 Pour plus d’informations et d’exemples de code, voir [Incorporer la visionneuse de zoom HTML5 dans le guide de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 

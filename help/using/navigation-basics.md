@@ -12,16 +12,16 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '713'
 ht-degree: 16%
 
 ---
 
 # Navigation - Notions élémentaires{#navigation-basics}
 
-L’écran Adobe Dynamic Media Classic comprend trois zones principales : Barre de navigation globale, Bibliothèque de ressources, onglet Filtres de ressources, panneau de navigation/création et panier de médias (Media Portal uniquement).
+L’écran Adobe Dynamic Media Classic comprend trois zones principales : la barre de navigation globale, la bibliothèque de ressources, l’onglet Filtres de ressources, le panneau de navigation/de création et le panier de médias (Media Portal uniquement).
 
 ![Principes de navigation](/help/using/assets/gs_navigation_basics_popup_popup.png)
 *Zones Adobe Dynamic Media Classic principales*
@@ -33,9 +33,9 @@ La barre de navigation globale, située dans la partie supérieure de l’écran
 
 * **[!UICONTROL Sélectionner une entreprise]** - Sélectionnez la société à laquelle vous souhaitez accéder dans le menu. Ce bouton n’est pas disponible si vous travaillez avec une seule société.
 
-* **[!UICONTROL Télécharger]** - Ouvre l’écran Télécharger afin que vous puissiez charger des fichiers depuis votre ordinateur ou votre réseau vers Adobe Dynamic Media Classic. Vous pouvez télécharger des fichiers à partir du bureau ou par FTP (File Transfer Protocol) Voir [Chargement de fichiers](/help/using/uploading-files.md).
+* **[!UICONTROL Télécharger]** - Ouvre l’écran Télécharger afin que vous puissiez charger des fichiers depuis votre ordinateur ou votre réseau vers Adobe Dynamic Media Classic. Vous pouvez télécharger des fichiers à partir du bureau ou par FTP (File Transfer Protocol). Voir [Chargement de fichiers](/help/using/uploading-files.md).
 
-* **[!UICONTROL Build]** - Sélectionnez une tâche Créer dans le menu. Le panneau de création qui s’ouvre vous permet de créer un type de fichier.
+* **[!UICONTROL Build]** - Sélectionnez une tâche de création dans le menu. Le panneau de création qui s’ouvre vous permet de créer un type de fichier.
 
 * **[!UICONTROL Publier]** - Ouvre l’écran de publication afin que vous puissiez publier des ressources multimédias enrichies sur les serveurs d’images Dynamic Media et le reste de l’infrastructure SAAS Adobe Dynamic Media Classic.
 
@@ -50,26 +50,26 @@ La barre de navigation globale, située dans la partie supérieure de l’écran
    * **[!UICONTROL Aide Sur Cette Rubrique]** - Ouvre le système d’aide sur une page contenant des informations sur la tâche en cours.
    * **[!UICONTROL Tutoriel vidéo]** - Accède à des vidéos sur des rubriques spécifiques qui vous montrent comment commencer à utiliser chaque workflow de publication de contenu multimédia.
    * **[!UICONTROL Rubriques d’aide]** - Ouvre le système d’aide sur la page d’introduction. Vous pouvez effectuer une sélection dans la table des matières pour trouver et afficher différentes rubriques.
-   * **[!UICONTROL A propos]** - Indique la version d’Adobe Dynamic Media Classic en cours d’exécution.
+   * **[!UICONTROL A propos]** - Indique la version d’Adobe Dynamic Media Classic que vous exécutez.
    * **[!UICONTROL Assistance]** - Vous indique comment obtenir une assistance technique d’Adobe Dynamic Media Classic.
 
-* **[!UICONTROL Se déconnecter]** - Quitte Adobe Dynamic Media Classic.
+* **[!UICONTROL Se déconnecter]** : quitte Adobe Dynamic Media Classic.
 
 ## Bibliothèque de fichiers {#asset-library}
 
 Utilisez la bibliothèque de fichiers pour organiser vos fichiers. A cette fin, vous pouvez créer des dossiers et des sous-dossiers.
 
-La partie supérieure du panneau Bibliothèque de ressources contient des commandes permettant de localiser les ressources. Vous pouvez rechercher des fichiers et appliquer des filtres visant à localiser des fichiers précis. Sélectionnez la **[!UICONTROL Corbeille]** au bas de la bibliothèque de ressources si vous souhaitez examiner les ressources que vous avez supprimées.
+La partie supérieure du panneau Bibliothèque de ressources contient des commandes permettant de localiser les ressources. Vous pouvez rechercher des fichiers et appliquer des filtres visant à localiser des fichiers précis. Sélectionnez la variable **[!UICONTROL Corbeille]** au bas de la bibliothèque de ressources si vous souhaitez examiner les ressources que vous avez supprimées.
 
 >[!NOTE]
 >
->Vous pouvez sélectionner **[!UICONTROL Bibliothèque de ressources]** pour ouvrir ou fermer la bibliothèque de ressources et avoir plus d’espace pour travailler à l’écran. Sélectionnez la **[!UICONTROL Développer]**/**[!UICONTROL Réduire]** pour développer ou fermer le panneau. Ces commandes se trouvent sur le côté gauche du panneau.
+>Vous pouvez sélectionner **[!UICONTROL Bibliothèque de ressources]** pour ouvrir ou fermer la bibliothèque de ressources et avoir plus d’espace pour travailler à l’écran. Sélectionnez la variable **[!UICONTROL Développer]**/**[!UICONTROL Réduire]** pour développer ou fermer le panneau. Ces commandes se trouvent sur le côté gauche du panneau.
 
 ## Panneau de navigation/Panneau de création {#browse-panel-build-panel}
 
 Le panneau de navigation/de création est l’emplacement où se concentre votre travail. Les fonctions disponibles dans ce panneau varient selon que vous êtes en mode Parcourir ou en mode Créer .
 
-* **[!UICONTROL Mode Parcourir]** - Pour afficher et utiliser le contenu d’un dossier dans le panneau de navigation, sélectionnez un dossier dans la bibliothèque de ressources. Ce panneau offre les **[!UICONTROL Fichier]**, **[!UICONTROL Aperçu]**, **[!UICONTROL Tout sélectionner]**, **[!UICONTROL Sélectionner Aucun]**, et **[!UICONTROL Tri]** pour utiliser des ressources. Vous pouvez également afficher les ressources de différentes manières en déplaçant le curseur ou en sélectionnant **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]** ou **[!UICONTROL Affichage des détails]**. Sélection **[!UICONTROL Affichage des détails]** ou double-cliquez sur une ressource pour l’ouvrir dans le mode Affichage des détails, où vous pouvez effectuer des opérations sur des fichiers dépendants d’une ressource.
+* **[!UICONTROL Mode Parcourir]** - Pour afficher et utiliser le contenu d’un dossier dans le panneau de navigation, sélectionnez un dossier dans la bibliothèque de ressources. Ce panneau offre les **[!UICONTROL Fichier]**, **[!UICONTROL Aperçu]**, **[!UICONTROL Tout sélectionner]**, **[!UICONTROL Sélectionner Aucun]**, et **[!UICONTROL Tri]** menus pour l’utilisation des ressources. Vous pouvez également afficher les ressources de différentes manières en déplaçant le curseur ou en sélectionnant **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]**, ou **[!UICONTROL Affichage des détails]**. Sélection **[!UICONTROL Affichage des détails]** ou double-cliquez sur une ressource pour l’ouvrir dans le mode Affichage des détails, où vous pouvez effectuer des opérations sur des fichiers dépendants d’une ressource.
 
 * **[!UICONTROL Mode de création]** - Sélectionner **[!UICONTROL Build]**, puis choisissez une option afin de pouvoir commencer à créer un catalogue électronique, une visionneuse d’images, une visionneuse à 360° ou l’un des autres éléments disponibles dans le menu Créer . La page Créer s’ouvre. Vous pouvez sélectionner les fichiers à utiliser avant ou après l’entrée en mode de création.
 

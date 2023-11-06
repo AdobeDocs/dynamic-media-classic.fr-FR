@@ -11,10 +11,10 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '3928'
-ht-degree: 31%
+source-wordcount: '3934'
+ht-degree: 30%
 
 ---
 
@@ -138,7 +138,7 @@ En règle générale, un nom de fichier de ressource peut être identique à son
 
 Organisez et structurez les dossiers et les sous-dossiers de votre contenu dans Adobe Dynamic Media Classic avant de télécharger votre contenu vers le système. Cette procédure présente deux principaux avantages :
 
-* Lorsque vous transférez votre contenu vers Adobe Dynamic Media Classic par FTP, vous pouvez indiquer au système de répliquer la structure de dossiers lors du transfert. Ainsi, votre contenu est organisé dans les mêmes dossiers et sous-dossiers dans Adobe Dynamic Media Classic que sur votre ordinateur ou votre réseau. (Pour répliquer la structure de dossiers dans Adobe Dynamic Media Classic, sélectionnez l’option Inclure les sous-dossiers lorsque vous chargez des ressources via FTP.)
+* Lorsque vous transférez votre contenu vers Adobe Dynamic Media Classic par FTP, vous pouvez indiquer au système de répliquer la structure de dossiers lors du transfert. Ainsi, votre contenu est organisé dans les mêmes dossiers et sous-dossiers dans Adobe Dynamic Media Classic que sur votre ordinateur ou votre réseau. (Pour répliquer la structure de dossiers dans Adobe Dynamic Media Classic, sélectionnez l’option Inclure les sous-dossiers lorsque vous chargez des ressources par FTP.)
 * La réorganisation des dossiers au sein du système, une fois les fichiers téléchargés, s’avère beaucoup plus difficile que le démarrage avec une structure de dossiers soigneusement étudiée.
 
 L’approche et la structure de nommage de dossiers que vous choisissez pour stocker votre contenu dans Adobe Dynamic Media Classic dépendent des besoins de votre entreprise. Voici quelques exemples de structure de dossiers :
@@ -153,7 +153,7 @@ L’approche et la structure de nommage de dossiers que vous choisissez pour sto
 
 ## A propos du téléchargement de fichiers {#uploading-your-files}
 
-Vous pouvez télécharger des fichiers à partir du bureau ou des dossiers complets par FTP (File Transfer Protocol). Si vous souhaitez charger plus de 100 Mo de fichiers ou charger des dossiers et des sous-dossiers entiers, sélectionnez l’option **VIA FTP** .
+Vous pouvez télécharger des fichiers individuels à partir du bureau ou des dossiers par FTP. Si vous souhaitez charger plus de 100 Mo de fichiers ou charger des dossiers et des sous-dossiers entiers, sélectionnez l’option **VIA FTP** .
 
 Adobe Dynamic Media Classic vous envoie un e-mail pour confirmer le début et la fin de votre tâche de téléchargement et vous informer des problèmes éventuels.
 
@@ -192,7 +192,7 @@ Pour afficher la progression du chargement, sélectionnez **[!UICONTROL Tâches]
 Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
 1. (Facultatif) Dans la partie inférieure de la page Télécharger, sélectionnez **[!UICONTROL Écraser dans un dossier, même nom de fichier, extension indépendante]** si vous souhaitez que les fichiers que vous téléchargez remplacent les fichiers existants portant le même nom. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
 Le nom de cette option peut être différent, en fonction des paramètres définis dans **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Téléchargement vers l’application]** > **[!UICONTROL Remplacer les images]**.
-1. Facultatif ; disponible uniquement si vous avez cliqué sur le bouton **[!UICONTROL VIA FTP]** . Près du bas de la page Télécharger, sélectionnez **[!UICONTROL Décompresser les fichiers Zip ou Tar lors du téléchargement]** si vous souhaitez extraire automatiquement tous les fichiers de votre fichier ZIP ou TAR chargé. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
+1. Facultatif ; disponible uniquement si vous avez sélectionné l’option **[!UICONTROL VIA FTP]** . Près du bas de la page Télécharger, sélectionnez **[!UICONTROL Décompresser les fichiers Zip ou Tar lors du téléchargement]** si vous souhaitez extraire automatiquement tous les fichiers de votre fichier ZIP ou TAR chargé. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
 1. Dans le coin inférieur droit de la page Télécharger, sélectionnez **[!UICONTROL Options de tâche]**, puis spécifiez les options de votre choix.
 
    Voir [Options de téléchargement](uploading-files.md#upload_options).

@@ -12,10 +12,10 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 19%
+source-wordcount: '1510'
+ht-degree: 17%
 
 ---
 
@@ -41,7 +41,7 @@ Pour trier le contenu d’un dossier ou des résultats de recherche qui apparais
 
 Vous pouvez également choisir **[!UICONTROL ascendant]** ou **[!UICONTROL Descendant]** pour trier les ressources par ordre croissant ou décroissant selon les critères de votre choix.
 
-En mode Affichage par liste, vous pouvez trier les fichiers en cliquant sur le nom d’une colonne.
+En mode Liste, vous pouvez trier en sélectionnant un nom de colonne.
 
 ## Recherche simple {#conducting-a-simple-search}
 
@@ -49,7 +49,7 @@ Utilisez le champ Rechercher de la bibliothèque de ressources pour effectuer de
 
 1. Dans la bibliothèque de ressources, dans la variable **[!UICONTROL Dossiers]** , sélectionnez le dossier à rechercher dans un dossier particulier et ses sous-dossiers.
 1. À gauche du champ Rechercher de la bibliothèque de ressources, sélectionnez la variable **[!UICONTROL Loupe]** pour ouvrir la liste déroulante.
-1. Dans la liste déroulante, sélectionnez une option qui décrit l’étendue de la recherche. Vous pouvez choisir **[!UICONTROL Dans tous les fichiers et dossiers]**, **[!UICONTROL Dans le dossier sélectionné]** ou **[!UICONTROL Dans les dossiers et sous-dossiers sélectionnés]**.
+1. Dans la liste déroulante, sélectionnez une option qui décrit l’étendue de la recherche. Vous pouvez choisir **[!UICONTROL Dans tous les fichiers et dossiers]**, **[!UICONTROL Dans le dossier sélectionné]**, ou **[!UICONTROL Dans les dossiers et sous-dossiers sélectionnés]**.
 1. Dans le champ Rechercher , saisissez un terme à rechercher.
 1. À droite du champ Rechercher , sélectionnez **[!UICONTROL Aller]** ou appuyez sur **[!UICONTROL Entrée]**.
 
@@ -67,21 +67,21 @@ Spécifiez l’un des critères suivants dans votre recherche avancée :
 
 * **Filtrage par type de ressource** - Limitez votre recherche à un type de ressource uniquement en choisissant un type de ressource dans le menu .
 
-* **Fichiers et dossiers** - Sélectionnez l’emplacement de recherche : **[!UICONTROL Dans tous les fichiers et dossiers]**, **[!UICONTROL Dans le dossier sélectionné]** ou **[!UICONTROL Dans les dossiers et sous-dossiers sélectionnés]**.
+* **Fichiers et dossiers** - Sélectionnez l’emplacement de recherche : **[!UICONTROL Dans tous les fichiers et dossiers]**, **[!UICONTROL Dans le dossier sélectionné]**, ou **[!UICONTROL Dans les dossiers et sous-dossiers sélectionnés]**.
 
-* **Tous les états de publication** - Recherchez les fichiers marqués pour publication, non marqués pour publication ou tous les fichiers.
+* **Tous les états de publication** - Recherchez les fichiers marqués comme prêts à être publiés, qui ne sont pas marqués comme prêts à être publiés ou tous les fichiers.
 
 * **Conditions** - Si vous spécifiez des critères de métadonnées pour la recherche, indiquez si la recherche doit répondre à toutes les conditions (recherche ALL) ou à toute condition (recherche OR).
 
 * **Critères de recherche** - Créez un ou plusieurs champs de recherche pour la recherche de métadonnées. Pour créer des champs de recherche :
 
-   1. Dans la recherche avancée, sous **[!UICONTROL Critères de recherche]** et à gauche de la **[!UICONTROL Ajouter un champ]** ), sélectionnez l’icône de flèche en forme de triangle vers le bas pour ouvrir la liste déroulante. Sélectionnez une vue de métadonnées. Vous pouvez choisir **[!UICONTROL Toutes les propriétés avec des valeurs]**, **[!UICONTROL Affichage réduit]**, **[!UICONTROL IPTC]**, **[!UICONTROL Champs de publication du serveur de métadonnées]** ou **[!UICONTROL XMP]**.
-   1. Sélectionnez la **[!UICONTROL Ajouter un champ]** et choisissez un nom de champ.
-   1. Choisissez une **[!UICONTROL Contient]** option : **[!UICONTROL Contient]**, **[!UICONTROL Ne contient pas]**, **[!UICONTROL Commence par]**, **[!UICONTROL Se termine par]** ou **[!UICONTROL Est égal à]**.
+   1. Dans la recherche avancée, sous **[!UICONTROL Critères de recherche]** et à gauche de la **[!UICONTROL Ajouter un champ]** ), sélectionnez l’icône de flèche en forme de triangle vers le bas pour ouvrir la liste déroulante. Sélectionnez une vue de métadonnées. Vous pouvez choisir **[!UICONTROL Toutes les propriétés avec des valeurs]**, **[!UICONTROL Affichage réduit]**, **[!UICONTROL IPTC]**, **[!UICONTROL Champs de publication du serveur de métadonnées]**, ou **[!UICONTROL XMP]**.
+   1. Sélectionnez la variable **[!UICONTROL Ajouter un champ]** et choisissez un nom de champ.
+   1. Choisissez une **[!UICONTROL Contient]** option : **[!UICONTROL Contient]**, **[!UICONTROL Ne contient pas]**, **[!UICONTROL Commence par]**, **[!UICONTROL Se termine par]**, ou **[!UICONTROL Est égal à]**.
    1. Pour les champs numériques, choisissez une valeur ou entrez une plage de dates personnalisée.
    1. (Facultatif) Répétez les étapes 1 à 4 pour créer d’autres champs de recherche.
 
-Sélectionnez la **[!UICONTROL Supprimer le champ de recherche]** icône (cercle avec &quot;X&quot; à l’intérieur) afin que le champ de recherche soit supprimé.
+Sélectionnez la variable **[!UICONTROL Supprimer le champ de recherche]** icône (cercle avec &quot;X&quot; à l’intérieur) afin que le champ de recherche soit supprimé.
 
 Dans le coin inférieur droit du panneau Recherche avancée, sélectionnez **[!UICONTROL Rechercher]** pour lancer votre recherche. Les résultats de la recherche s’affichent dans le panneau de navigation à droite. Vous pouvez modifier n’importe quelle condition de recherche et sélectionner **[!UICONTROL Rechercher]** pour relancer la recherche.
 
@@ -89,7 +89,7 @@ Sélectionner **[!UICONTROL Effacer]** si vous souhaitez effacer les critères d
 
 ## Filtrage des fichiers à l’aide de métadonnées {#filter-assets-using-metadata}
 
-Vous pouvez filtrer les fichiers dans l’onglet Filtres de la bibliothèque de fichiers. Pour ce faire, vous pouvez utiliser les métadonnées comme critères de filtre. Après avoir choisi un champ de métadonnées sur lequel vous souhaitez filtrer les données, l’onglet Filtres répertorie toutes les valeurs de métadonnées saisies dans le champ que vous avez choisi. Il indique également le nombre de ressources auxquelles chaque valeur a été affectée. Par exemple, dans une opération de filtrage sur la variable **[!UICONTROL Créateur]** le champ de métadonnées, **[!UICONTROL Filtres]** répertorie tous les noms qui ont été saisis dans la variable **[!UICONTROL Créateur]** champ de métadonnées pour différentes ressources. Il répertorie également pour chaque nom, le nombre de ressources auxquelles le nom est affecté. Sélectionnez ensuite une valeur de métadonnées pour afficher toutes les ressources auxquelles cette valeur a été affectée. Dans l’exemple, vous sélectionnez la variable `Prairie Cat` valeur de métadonnées pour afficher toutes les ressources dont le nom `Prairie Cat` a été saisi dans la variable **[!UICONTROL Créateur]** champ de métadonnées. Le filtrage par métadonnées peut porter sur plusieurs critères de filtre.
+Vous pouvez filtrer les fichiers dans l’onglet Filtres de la bibliothèque de fichiers. Pour ce faire, vous pouvez utiliser les métadonnées comme critères de filtre. Après avoir choisi un champ de métadonnées sur lequel vous souhaitez filtrer les données, l’onglet Filtres répertorie toutes les valeurs de métadonnées saisies dans le champ que vous avez choisi. Il indique également le nombre de ressources auxquelles chaque valeur a été affectée. Par exemple, dans une opération de filtrage sur la variable **[!UICONTROL Créateur]** le champ de métadonnées, **[!UICONTROL Filtres]** répertorie tous les noms qui ont été saisis dans la variable **[!UICONTROL Créateur]** champ de métadonnées pour différentes ressources. Il répertorie également pour chaque nom, le nombre de ressources auxquelles le nom est affecté. Sélectionnez ensuite une valeur de métadonnées pour afficher toutes les ressources auxquelles cette valeur a été affectée. Dans l’exemple, vous sélectionnez l’option `Prairie Cat` valeur de métadonnées pour afficher toutes les ressources dont le nom `Prairie Cat` a été saisi dans la variable **[!UICONTROL Créateur]** champ de métadonnées. Le filtrage par métadonnées peut porter sur plusieurs critères de filtre.
 
 Vous pouvez enregistrer les opérations de filtrage pour les exécuter plusieurs fois.
 
@@ -107,7 +107,7 @@ Pour localiser des ressources en filtrant avec leurs valeurs de métadonnées, p
 
    Les critères de votre opération de filtrage précédente apparaissent dans le panneau Filtres. Chaque volet du panneau Filtres représente un champ de métadonnées. Utilisez les volets du panneau pour choisir les champs de métadonnées, et dans chaque champ, choisissez une valeur de métadonnées à utiliser pour l’opération de filtrage.
 
-   Pour exécuter une opération de filtrage que vous avez créée et enregistrée, sélectionnez **[!UICONTROL Sélectionner un paramètre prédéfini]**, puis sélectionnez le nom de l’opération dans le menu.
+   Pour exécuter une opération de filtrage créée et enregistrée, sélectionnez **[!UICONTROL Sélectionner un paramètre prédéfini]**, puis sélectionnez le nom de l’opération dans le menu.
 
    Voir [Enregistrement, répétition et suppression des opérations de filtre](searching-assets.md#saving_repeating_and_deleting_filter_operations).
 
@@ -139,13 +139,13 @@ Pour localiser des ressources en filtrant avec leurs valeurs de métadonnées, p
    >
    >Pour supprimer temporairement un champ de l’opération de filtrage, sélectionnez **[!UICONTROL Tout désélectionner]**. Cette option se trouve en haut de chaque panneau, au-dessus des valeurs de métadonnées.
 
-1. (Facultatif) Pour enregistrer l’opération de filtrage et pouvoir l’exécuter ultérieurement, sélectionnez **[!UICONTROL Sélectionner un paramètre prédéfini]** > **[!UICONTROL Enregistrer actuel en tant que nouveaux paramètres prédéfinis]**, puis saisissez un nom dans le champ **[!UICONTROL Enregistrer]** de la boîte de dialogue
+1. (Facultatif) Pour enregistrer l’opération de filtrage et pouvoir l’exécuter ultérieurement, sélectionnez **[!UICONTROL Sélectionner un paramètre prédéfini]** > **[!UICONTROL Enregistrer actuel comme nouveaux paramètres prédéfinis]**, puis saisissez un nom dans le champ **[!UICONTROL Enregistrer]** de la boîte de dialogue
 
 ### Enregistrement, répétition et suppression des opérations de filtre {#saving-repeating-and-deleting-filter-operations}
 
 Suivez ces instructions dans l’onglet Filtres afin de pouvoir enregistrer, répéter et supprimer des opérations de filtrage :
 
-* **Enregistrer une opération de filtrage** - Accédez à **[!UICONTROL Sélectionner un paramètre prédéfini]** > **[!UICONTROL Enregistrer actuel en tant que nouveaux paramètres prédéfinis]**, puis saisissez un nom dans le champ **[!UICONTROL Enregistrer]** de la boîte de dialogue
+* **Enregistrer une opération de filtrage** - Accédez à **[!UICONTROL Sélectionner un paramètre prédéfini]** > **[!UICONTROL Enregistrer actuel comme nouveaux paramètres prédéfinis]**, puis saisissez un nom dans le champ **[!UICONTROL Enregistrer]** de la boîte de dialogue
 
 * **Répéter une opération de filtrage** - Choose **[!UICONTROL Sélectionner un paramètre prédéfini]** et choisissez le nom d&#39;une opération de filtrage dans le menu. Le menu répertorie les opérations de filtrage que vous avez enregistrées.
 
@@ -153,7 +153,7 @@ Suivez ces instructions dans l’onglet Filtres afin de pouvoir enregistrer, ré
 
 ## Utilisation du serveur de métadonnées {#using-the-metadata-server}
 
-Le serveur de métadonnées est une API publique qui permet de rechercher des fichiers par métadonnées, via des requêtes HTTP.
+Le serveur de métadonnées est une API publique que vous pouvez utiliser pour rechercher des ressources par métadonnées au moyen de requêtes http.
 
 Pour configurer le serveur de métadonnées, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]** > **[!UICONTROL Serveur de métadonnées]**.
 

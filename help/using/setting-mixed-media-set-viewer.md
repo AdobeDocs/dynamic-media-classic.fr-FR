@@ -12,10 +12,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 44%
+ht-degree: 40%
 
 ---
 
@@ -54,13 +54,13 @@ Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la commun
 
 1. Pour ajouter des fonctionnalités de la communauté (Incorporation, Lien et Visite) à la visionneuse, spécifiez les options pour chacun des éléments suivants :
 
-   * **Email** - Sélectionner **[!UICONTROL Activé]** pour activer un bouton Courrier électronique dans la visionneuse. Lorsque les utilisateurs cliquent sur le bouton Courrier électronique lors de l’affichage de la visionneuse, un courrier électronique contenant le lien vers la visionneuse s’ouvre.
+   * **Email** - Sélectionner **[!UICONTROL Activé]** pour activer un bouton Email dans la visionneuse. Lorsque les utilisateurs cliquent sur le bouton Courrier électronique lors de l’affichage de la visionneuse, un courrier électronique contenant le lien vers la visionneuse s’ouvre.
 
    * **Incorporer** - Sélectionner **[!UICONTROL En direct]**. Dans la zone Etiquette de bouton d’intégration, tapez le nom de bouton d’intégration que vous souhaitez afficher dans la visionneuse. Si vous le souhaitez, sélectionnez **[!UICONTROL Parcourir]** pour localiser et sélectionner un habillage personnalisé pour le bouton.
 
    * **Lien** - Sélectionner **[!UICONTROL En direct]**. Dans la zone Libellé du bouton de lien , saisissez le nom que vous souhaitez afficher dans la visionneuse pour le bouton Lien . Si vous le souhaitez, sélectionnez **[!UICONTROL Parcourir]** pour localiser et sélectionner un habillage personnalisé pour le bouton.
 
-   * **Visite** - Sélectionner **[!UICONTROL En direct]**. Dans la zone Libellé du bouton de visite , saisissez le nom que vous souhaitez afficher dans la visionneuse pour le bouton Visite . Dans la boîte de dialogue URL de visite, tapez l’URL du site Web auquel vous souhaitez accéder d’un clic par le biais du lien.
+   * **Visite** - Sélectionner **[!UICONTROL En direct]**. Dans la zone Libellé du bouton de visite , saisissez le nom que vous souhaitez afficher dans la visionneuse pour le bouton Visite . Dans la zone URL de visite, saisissez l’URL du site Web que vous souhaitez ouvrir lorsque le lien est sélectionné.
 
 1. Spécifiez les autres options voulues. Pour afficher la description d’une option, cliquez sur l’icône d’info-bulle en regard de l’option.
 

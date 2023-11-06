@@ -1,5 +1,5 @@
 ---
-title: "Démarrage rapide : Intégration d’Adobe Dynamic Media Classic et d’Adobe Analytics"
+title: "Quick Start : Integrate Adobe Dynamic Media Classic and Adobe Analytics"
 description: Cette section présente et explique comment intégrer Adobe Dynamic Media Classic et Adobe Analytics pour vous aider à démarrer rapidement.
 contentOwner: Rick Brough
 content-type: reference
@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 27%
@@ -21,7 +21,7 @@ ht-degree: 27%
 
 Produit incontournable du secteur, Adobe Analytics dote les marketeurs d’une plateforme centralisée où mesurer, analyser et optimiser les données intégrées de toutes les initiatives en ligne à travers plusieurs canaux marketing.
 
-Après l’intégration d’Adobe Analytics à Adobe Dynamic Media Classic, vous pouvez obtenir sur votre site web des rapports sur le comportement des visiteurs de sites web utilisant des visionneuses Adobe Dynamic Media Classic. Par exemple, lorsqu’un visiteur du site web clique sur une cible de zoom dans une visionneuse de zoom Adobe Dynamic Media Classic, Adobe Analytics enregistre cette action. Les rapports Adobe Analytics peuvent recueillir des informations cumulatives sur l’activité des utilisateurs dans les visionneuses Adobe Dynamic Media Classic.
+Après l’intégration d’Adobe Analytics à Adobe Dynamic Media Classic, vous pouvez obtenir sur votre site web des rapports sur le comportement des visiteurs de sites web utilisant des visionneuses Adobe Dynamic Media Classic. Par exemple, lorsqu’un visiteur d’un site web sélectionne une cible de zoom dans une visionneuse de zoom Adobe Dynamic Media Classic, Adobe Analytics enregistre cette action. Les rapports Adobe Analytics peuvent recueillir des informations cumulatives sur l’activité des utilisateurs dans les visionneuses Adobe Dynamic Media Classic.
 
 En utilisant les rapports Adobe Analytics, vous obtenez des données précises sur l’activité des internautes sur votre site Web. Vous pouvez déterminer les présentations de produits qui génèrent des conversions et celles qui n’attirent pas l’intérêt des clients.
 

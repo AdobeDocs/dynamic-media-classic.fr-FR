@@ -1,5 +1,5 @@
 ---
-title: Chargement d’une ressource d’image pixellisée
+title: Chargement d’une ressource image pixellisée
 description: Découvrez comment télécharger une ressource d’image pixellisée dans Adobe Dynamic Media Classic
 contentOwner: Rick Brough
 content-type: reference
@@ -9,20 +9,20 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 66%
+ht-degree: 64%
 
 ---
 
-# Chargement d’une ressource d’image pixellisée {#uploading-an-image-asset-or-a-vector-asset}
+# Chargement d’une ressource image pixellisée {#uploading-an-image-asset-or-a-vector-asset}
 
 Avant de transférer un fichier d’image, vous devez d’abord demander une clé de secret partagé. Cette clé vous permet de récupérer un jeton de téléchargement. Vous pouvez ensuite utiliser le jeton de chargement pour charger des ressources d’image pixellisée.
 
 >[!IMPORTANT]
 >
->À compter du 1er mai 2023, les ressources UGC dans Dynamic Media pourront être utilisées pendant 60 jours à compter de la date de chargement. Au bout de 60 jours, les ressources seront supprimées.
+>À compter du 1er mai 2023, les ressources UGC dans Dynamic Media pourront être utilisées pendant 60 jours à compter de la date de téléchargement. Au bout de 60 jours, les ressources seront supprimées.
 
 >[!NOTE]
 >
@@ -96,9 +96,9 @@ Vous pouvez utiliser les champs suivants dans l’URL de requête pour récupér
 
 Vous pouvez maintenant transférer un fichier d’image.
 
-Voir [Chargement d’une ressource image](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+Voir [Chargement d’une ressource d’image](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Chargement d’une ressource d’image pixellisée {#uploading-an-image-asset}
+## Chargement d’une ressource image pixellisée {#uploading-an-image-asset}
 
 Après avoir récupéré un jeton de téléchargement valide pendant une durée limitée, vous pouvez télécharger un fichier d’image. Vous téléchargez le fichier en tant que publication de formulaire ou publication en plusieurs parties tout en envoyant le reste des valeurs en tant que chaîne de requête d’URL, comme dans cet exemple :
 
@@ -106,7 +106,7 @@ Après avoir récupéré un jeton de téléchargement valide pendant une durée 
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-Le `upload_token` et `company_name` sont obligatoires.
+La variable `upload_token` et `company_name` sont obligatoires.
 
 Voir [Récupération du jeton de chargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
@@ -118,7 +118,7 @@ Vous pouvez également envoyer d’autres valeurs facultatives comme chaînes de
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-Le `file_limit` spécifie la limite de taille de fichier en octets. Le paramètre `file_exts` spécifie les extensions de nom de fichier admises pour le téléchargement. Ces deux valeurs sont facultatives.
+La variable `file_limit` spécifie la limite de taille de fichier en octets. Le paramètre `file_exts` spécifie les extensions de nom de fichier admises pour le téléchargement. Ces deux valeurs sont facultatives.
 
 Une limite globale est définie dans l’application pour la taille limite des fichiers et les extensions de nom de fichier autorisées. Si le contenu de votre requête se trouve dans les limites globales, celle-ci est satisfaite. Les limites globales sont les suivantes :
 
@@ -140,7 +140,7 @@ Voir Masquage de l’arrière-plan dans [Options d’optimisation des images lor
 
 Vous pouvez afficher le code source du HTML associé au formulaire ci-dessus en sélectionnant [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Dans Firefox, cliquez avec le bouton droit dans la fenêtre du navigateur, puis sélectionnez **[!UICONTROL Afficher la source de page]**. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST qui sont exécutées lorsque l’utilisateur clique sur **[!UICONTROL Envoyer]**.
+Dans Firefox, cliquez avec le bouton droit dans la fenêtre du navigateur, puis sélectionnez **[!UICONTROL Afficher la source de page]**. Le code affiche la chaîne de requête URL correspondante et la méthode du POST qui sont exécutées lorsque l’utilisateur sélectionne **[!UICONTROL Envoyer]**.
 
 Pour afficher la réponse XML dans Internet Explorer, accédez à **[!UICONTROL Affichage]** > **[!UICONTROL Source]**. Pour afficher la réponse XML dans Firefox, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Outils de navigateur]** > **[!UICONTROL Outils de développement web]**. Firefox est recommandé pour afficher les réponses XML.
 

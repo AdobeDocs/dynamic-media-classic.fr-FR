@@ -12,20 +12,20 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '845'
 ht-degree: 37%
 
 ---
 
 # Liaison d’URL à une application web{#linking-urls-to-your-web-application}
 
-Vos sites web et applications accèdent au contenu du serveur d’images Dynamic Media par le biais de chaînes URL. Après la publication d’une image, Adobe Dynamic Media Classic active une chaîne URL qui référence le paramètre d’image prédéfini sur les serveurs d’images Dynamic Media. Vous pouvez coller ces URL dans un navigateur Web pour procéder à des essais.
+Vos sites web et applications accèdent au contenu du serveur d’images Dynamic Media au moyen de chaînes URL. Après la publication d’une image, Adobe Dynamic Media Classic active une chaîne URL qui référence le paramètre d’image prédéfini sur les serveurs d’images Dynamic Media. Vous pouvez coller ces URL dans un navigateur Web pour procéder à des essais.
 
 Pour placer ces chaînes URL dans vos pages et applications web, copiez-les depuis Adobe Dynamic Media Classic. Pour obtenir une chaîne URL générée avec un paramètre d’image prédéfini, accédez à l’écran Aperçu ou au panneau de navigation (dans la vue Détails).
 
-## Obtention d’une URL de paramètre d’image prédéfini {#obtaining-an-image-preset-url}
+## Obtenir une URL de paramètre d’image prédéfini {#obtaining-an-image-preset-url}
 
 Vous pouvez obtenir une chaîne URL générée par un paramètre d’image prédéfini à partir de l’écran Prévisualisation ou Affichage des détails. Une fois l’URL copiée, elle est stockée dans le Presse-papiers ; vous pouvez ainsi la coller si nécessaire.
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 34%
+source-wordcount: '1562'
+ht-degree: 33%
 
 ---
 
@@ -31,7 +31,7 @@ Selon les paramètres que vous choisissez pour votre catalogue électronique, la
 * Recherchez un mot-clé ou des mots-clés dans le catalogue. Les résultats de la recherche s’affichent sous la forme d’une liste de miniatures dans un panneau de recherche sur le côté gauche du catalogue. Chaque miniature cliquable représente une étendue de catalogue où le terme de recherche mis en surbrillance a été trouvé.
 
 * Partagez le catalogue par le biais des médias sociaux ; téléchargez le catalogue pour l’afficher hors ligne ; activez Favoris pour marquer les éléments auxquels vous souhaitez revenir rapidement ou imprimez le catalogue.
-* Accédez au catalogue à l’aide de la table des matières ou de la vue Grille de page ; en avant ou en arrière en cliquant sur le bord central d’une page.
+* Naviguez dans le catalogue à l’aide de la table des matières ou de la vue Grille de page ; en sélectionnant le bord central d’une page.
 * effectuer un zoom avant, un zoom arrière ou un panoramique pour examiner des articles figurant sur une page ;
 * Déplacez le pointeur au-dessus d’une zone de page (appelée zone cliquable) afin d’afficher une fenêtre contextuelle contenant des informations sur un élément.
 * Sélectionnez une zone de page afin d’ouvrir une nouvelle page web contenant plus d’informations sur un élément.
@@ -62,7 +62,7 @@ Cette section de démarrage rapide est conçue pour vous aider à maîtriser rap
 
 En règle générale, un catalogue électronique est créé à partir de fichiers Adobe PDF. Les fichiers PDF étant destinés à l’impression, ils contiennent le plus souvent des images CMJN. Adobe Dynamic Media Classic détecte ces images et les convertit à l’aide d’un profil colorimétrique CMJN standard. Cependant, vous devez charger et utiliser un profil colorimétrique personnalisé.
 
-Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour commencer à charger des fichiers ou des images de PDF pour votre catalogue électronique. Vous pouvez télécharger des fichiers depuis votre bureau ou via FTP, cette dernière méthode étant recommandée si les fichiers sont nombreux ou de taille supérieure à 100 Mo.
+Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour commencer à charger des fichiers ou des images de PDF pour votre catalogue électronique. Vous pouvez transférer des fichiers depuis votre bureau ou par FTP. Il est conseillé d’opter pour le FTP si vous chargez de nombreux fichiers ou fichiers de plus de 100 Mo.
 
 La section Options PDF de l’écran de téléchargement contient des options qui permettent de télécharger des fichiers PDF présentant l’espace colorimétrique adéquat et la résolution voulue. Une résolution de 150 pixels par pouce est recommandée. L’option Générer automatiquement un catalogue permet de créer un catalogue lors du téléchargement d’un fichier PDF.
 
@@ -76,7 +76,7 @@ Sur la page Catalogue électronique, sur la page **[!UICONTROL Pages de commande
 
 Pour ajouter des pages, sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser les fichiers PDF ou d’images dans l’écran Ordre des pages. Au lieu des numéros de page par défaut, vous pouvez indiquer des noms de page personnalisés ou importer de nombreux noms de page.
 
-Sélectionner **[!UICONTROL Enregistrer]**, saisissez un nom pour votre catalogue électronique, choisissez un dossier Adobe Dynamic Media Classic pour le stocker, puis sélectionnez **[!UICONTROL Enregistrer]**. Chaque fois que vous modifiez l’ordre des pages ou le catalogue électronique, enregistrez vos modifications en cliquant sur **[!UICONTROL Enregistrer]**.
+Sélectionner **[!UICONTROL Enregistrer]**, saisissez un nom pour votre catalogue électronique, choisissez un dossier Adobe Dynamic Media Classic pour le stocker, puis sélectionnez **[!UICONTROL Enregistrer]**. Chaque fois que vous modifiez l’ordre des pages ou le catalogue électronique, enregistrez vos modifications en sélectionnant **[!UICONTROL Enregistrer]**.
 
 Voir [Créer un catalogue électronique](creating-ecatalog.md).
 

@@ -12,10 +12,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 23%
+ht-degree: 21%
 
 ---
 
@@ -25,7 +25,7 @@ Une visionneuse à 360° simule la rotation d’un objet afin de l’examiner. E
 
 ![Images d’une visionneuse à 360°.](/help/using/assets/spin_set.png)
 
-Les visionneuses à 360° acceptent également les zones cliquables. Une zone cliquable est une partie sur une image dans la visionneuse à 360° qui affiche un panneau de survol avec un texte. Une action est déclenchée lorsque l’utilisateur clique sur une zone cliquable. Par exemple, une page Web affiche des informations détaillées sur un produit. Pour mettre en évidence une zone cliquable dans une visionneuse à 360°, un contour s’affiche autour de la zone cliquable lorsque l’utilisateur la survole avec le pointeur de la souris.
+Les visionneuses à 360° acceptent également les zones cliquables. Une zone cliquable est une partie sur une image dans la visionneuse à 360° qui affiche un panneau de survol avec un texte. Lorsque l’utilisateur sélectionne une zone cliquable, une action d’une sorte ou d’une autre est déclenchée. Par exemple, une page Web affiche des informations détaillées sur un produit. Pour mettre en évidence une zone cliquable dans une visionneuse à 360°, un contour s’affiche autour de la zone cliquable lorsque l’utilisateur la survole avec le pointeur de la souris.
 
 Voir [Création de zones cliquables](creating-image-maps.md).
 

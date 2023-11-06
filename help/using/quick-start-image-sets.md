@@ -12,16 +12,16 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 21%
+ht-degree: 18%
 
 ---
 
 # Démarrage rapide : Visionneuses d’images{#quick-start-image-sets}
 
-Les visionneuses d’images Adobe Dynamic Media Classic offrent aux utilisateurs une expérience de visionnage intégrée. La visionneuse d’images dynamique vous permet d’afficher différentes vues d’un objet d’un simple clic sur une image miniature. Les visionneuses d’images vous permettent de présenter d’autres vues haute résolution d’un élément.
+Les visionneuses d’images Adobe Dynamic Media Classic offrent aux utilisateurs une expérience de visionnage intégrée. Dans la visionneuse d’images dynamique, les utilisateurs peuvent afficher différentes vues d’un élément en sélectionnant une miniature. Les visionneuses d’images vous permettent de présenter d’autres vues haute résolution d’un élément.
 
 Les outils de zoom de la visionneuse d’images sont pratiques pour examiner les images de plus près. Si vous le souhaitez, vous pouvez intégrer des cibles de zoom guidé et des zones cliquables dans votre visionneuse d’images. Les visionneuses d’images garantissent une visualisation concertée et privée.
 
@@ -38,9 +38,9 @@ Voir aussi [Limites de Dynamic Media](/help/using/limitations.md).
 
 Le démarrage rapide des visionneuses d’images suivant est conçu pour vous aider à maîtriser rapidement les techniques de visionneuse d’images dans Adobe Dynamic Media Classic.
 
-## 1. Chargez les images Principales pour plusieurs vues et échantillons
+## 1. Chargez les images principales pour plusieurs vues et échantillons
 
-Commencez par télécharger les images pour les visionneuses d’images. Comme les utilisateurs peuvent zoomer sur les images dans la visionneuse d’images, veillez à en tenir compte lors du choix des images. Assurez-vous que la taille des images est d’au moins 2 000 pixels. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichier image, mais les formats TIFF, PNG et EPS sans perte sont recommandés.
+Commencez par télécharger les images pour les visionneuses d’images. Comme les utilisateurs peuvent zoomer sur les images dans la visionneuse d’images, veillez à tenir compte de cette fonctionnalité lors du choix des images. Assurez-vous que la taille des images est d’au moins 2 000 pixels. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichier image, mais les formats TIFF, PNG et EPS sans perte sont recommandés.
 
 Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour charger des fichiers depuis votre ordinateur vers un dossier sur Adobe Dynamic Media Classic.
 

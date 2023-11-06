@@ -12,16 +12,16 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 25%
+ht-degree: 18%
 
 ---
 
 # Démarrage rapide : Séries d’échantillons{#quick-start-swatch-sets}
 
-Les séries d’échantillons Adobe Dynamic Media Classic offrent aux utilisateurs une expérience de visionnage intégrée. La visionneuse de série d’échantillons dynamique permet aux utilisateurs d’afficher un objet rendu dans une couleur, un matériau, une texture, un fini ou un tissu différent en cliquant simplement sur une miniature.
+Les séries d’échantillons Adobe Dynamic Media Classic offrent aux utilisateurs une expérience de visionnage intégrée. Dans la visionneuse d’échantillons dynamique, les utilisateurs peuvent voir un élément rendu dans une couleur, un matériau, une texture, une finition ou un tissu différent en sélectionnant simplement une miniature.
 
 Ce didacticiel de mise en route Série d’échantillons est conçu pour vous aider à maîtriser rapidement les techniques relatives aux séries d’échantillons dans Adobe Dynamic Media Classic.
 
@@ -51,7 +51,7 @@ Voir [Aperçu d’une ressource](previewing-asset.md#previewing-an-asset).
 
 La publication d’une série d’échantillons la place sur les serveurs Adobe Dynamic Media Classic et active la chaîne URL.
 
-Sélectionnez la **[!UICONTROL Marquer pour publication]** à gauche de son nom dans le panneau de navigation. Sélectionnez ensuite **[!UICONTROL Publier]**. Sur la page Publier, sélectionnez **[!UICONTROL Envoyer la publication]**.
+Sélectionnez la variable **[!UICONTROL Marquer pour publication]** à gauche de son nom dans le panneau de navigation. Sélectionnez ensuite **[!UICONTROL Publier]**. Sur la page Publier, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
 Voir [Publication de fichiers](publishing-files.md#publishing-files).
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 47%
+ht-degree: 43%
 
 ---
 
@@ -42,7 +42,7 @@ Après avoir publié une visionneuse de médias mixtes, vous pouvez obtenir l’
 
 ## Ajout d’URL de visionneuse de supports variés à une page Web {#add-mixed-media-set-urls-to-your-web-page}
 
-La méthode la plus courante pour déployer une visionneuse de médias mixtes consiste à placer un lien (au moyen d’une icône de navigation) sur votre page web. Lorsque vous cliquez dessus, le lien lance une page dynamique (ASP ou JSP) affichant la visionneuse de supports variés dans la visionneuse appropriée.
+La méthode la plus courante pour déployer une visionneuse de médias mixtes consiste à placer un lien (au moyen d’une icône de navigation) sur votre page web. Lorsque cette option est sélectionnée, le lien lance une page dynamique (ASP ou JSP) qui affiche la visionneuse de médias mixtes dans la visionneuse de médias mixtes.
 
 ## Copiez le code incorporé d’une visionneuse de médias mixtes. {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
