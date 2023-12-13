@@ -9,10 +9,10 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 32%
+source-wordcount: '719'
+ht-degree: 31%
 
 ---
 
@@ -40,13 +40,13 @@ Adobe Dynamic Media Classic peut convertir les fichiers de sous-titres au format
 
 Voir [Diffuser du contenu statique (hors image)](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api) dans le *Aide de l’API Adobe Image Serving* pour plus d’informations sur l’utilisation de la fonction JSON dans une URL.
 
-**Ajout de sous-titres aux vidéos:**
+**Pour ajouter des sous-titres à une vidéo :**
 
 1. À l’aide d’une application tierce en dehors d’Adobe Dynamic Media Classic, créez votre fichier de sous-titres vidéo en fonction du type de visionneuse que vous utilisez.
 
    | Type de visionneuse | Fichier de sous-titrage |
    |--- |--- |
-   | HTML5 | Si vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fichier de sous-titrage que vous créez est conforme à la norme WebVTT (Web Video Text Tracks). Le fichier de sous-titrage a l’extension .vtt. D’autres informations sont disponibles sur la norme de sous-titrage WebVTT.<br><br>[Voir WebVTT](https://w3c.github.io/webvtt/): format de suivi de texte vidéo web. <br><br>Il existe des outils et des services gratuits et gratuits que vous pouvez utiliser pour créer des fichiers de sous-titres en dehors d’Adobe Dynamic Media Classic. Par exemple, pour créer un fichier de sous-titres vidéo simple sans style, vous pouvez utiliser l’outil de création et de modification de sous-titres en ligne gratuit suivant : <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Pour de meilleurs résultats, utilisez l’outil dans Internet Explorer 9 ou version ultérieure, Google Chrome ou Safari. <br><br>Dans l’outil, dans la variable <b>Saisie de l’URL du fichier vidéo</b> , collez l’URL de votre fichier vidéo, puis sélectionnez <b>Chargement</b>. <br><br>Par exemple, si vous utilisez une URL Adobe Dynamic Media Classic pour votre fichier vidéo, double-cliquez sur une ressource vidéo individuelle (et non sur une visionneuse de vidéos adaptative ou une vidéo de Principal) pour l’ouvrir dans la vue Détails. Dans le panneau droit de la vue Détails, développez la liste URL et code intégré. Ensuite, sous le groupe Mobile , à droite de Mobile (progressif), sélectionnez <b>Copier l’URL</b>. Ce processus vous donne l’URL vers le fichier vidéo que vous pouvez ensuite coller dans le <b>Saisie de l’URL du fichier vidéo</b> champ . Internet Explorer, Chrome ou Safari peuvent ensuite lire la vidéo en mode natif. Suivez maintenant les instructions à l’écran du site pour créer et enregistrer votre fichier WebVTT. Une fois que vous avez terminé, copiez le contenu du fichier de sous-titres et collez-le dans un éditeur de texte brut, puis enregistrez-le avec l’extension de nom de fichier VTT. <br><br><b>Remarque :</b> Pour une prise en charge globale des sous-titres vidéo dans des langues autres que l’anglais, la norme WebVTT exige que vous créiez des fichiers .vtt et des appels distincts pour chaque langue que vous souhaitez prendre en charge. <br><br>En règle générale, vous attribuez au fichier VTT de sous-titrage le même nom que le fichier vidéo et vous lui ajoutez le mot captions. En procédant ainsi, vous pouvez automatiser aisément la génération des URL de vidéo en utilisant le système de gestion de contenu Web existant. |
+   | HTML5 | Si vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fichier de sous-titrage que vous créez est conforme à la norme WebVTT (Web Video Text Tracks). Le fichier de sous-titrage a l’extension .vtt. D’autres informations sont disponibles sur la norme de sous-titrage WebVTT.<br><br>[Voir WebVTT](https://w3c.github.io/webvtt/): format de suivi de texte vidéo web. <br><br>De nombreux sites web offrent des outils et des services gratuits et gratuits que vous pouvez utiliser pour créer des fichiers de sous-titres WebVTT en dehors d’Adobe Dynamic Media Classic. <br><br>Suivez les instructions à l’écran d’un site pour créer et enregistrer votre fichier WebVTT. Une fois que vous avez terminé, copiez le contenu du fichier de sous-titres et collez-le dans un éditeur de texte brut, puis enregistrez-le avec l’extension de nom de fichier VTT. <br><br><b>Remarque :</b> Pour une prise en charge globale des sous-titres vidéo dans des langues autres que l’anglais, la norme WebVTT exige que vous créiez des fichiers .vtt et des appels distincts pour chaque langue que vous souhaitez prendre en charge. <br><br>En règle générale, vous attribuez au fichier de sous-titres VTT le même nom que le fichier vidéo et lui ajoutez des sous-titres. En procédant ainsi, vous pouvez automatiser aisément la génération des URL de vidéo en utilisant le système de gestion de contenu Web existant. |
 
 1. Dans Adobe Dynamic Media Classic, téléchargez votre fichier de sous-titres WebVTT, DFXP ou SMPTE XML.
 
