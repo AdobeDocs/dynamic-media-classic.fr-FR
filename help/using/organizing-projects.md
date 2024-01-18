@@ -12,10 +12,10 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 31%
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 31%
 
 Les projets constituent un autre moyen d’organiser des fichiers indépendamment des dossiers dans lesquels ils sont stockés. Un fichier peut être placé seulement dans un dossier, mais il peut être copié dans plusieurs dossiers Projet à des fins d’organisation.
 
-Après avoir créé un dossier Projet, vous pouvez y placer des fichiers. Toutefois, les ressources d’un projet sont en fait des pointeurs vers le dossier de la bibliothèque de ressources dans lequel les ressources sont stockées. Vous pouvez placer un fichier dans plusieurs projets. Par exemple, vous pouvez placer une image de chemisier à la fois dans les dossiers de projet « Chemisiers » et « Collection automne ».
+Après avoir créé un dossier Projet, vous pouvez y placer des fichiers. Toutefois, les ressources d’un projet sont en fait des pointeurs vers le dossier de la bibliothèque de ressources dans lequel les ressources sont stockées. Vous pouvez placer un fichier dans plusieurs projets. Par exemple, une image de chemise peut être placée dans les dossiers de projet &quot;Blouse&quot; et &quot;Fall Collection&quot;.
 
 Vous pouvez créer un projet lorsque vous téléchargez des fichiers ou créer des projets dans le panneau Bibliothèque de fichiers.
 
@@ -33,7 +33,7 @@ Vous pouvez créer un projet lorsque vous téléchargez des fichiers ou créer d
 
 >[!NOTE]
 >
->l’organisation des fichiers en projets est réservée aux utilisateurs dont l’administrateur a configuré leur profil en conséquence. Si aucune section de dossier Projets ne s’affiche en bas de la bibliothèque de fichiers, c’est que vous ne bénéficiez pas de cette méthode d’organisation (voir [Paramètres généraux de l’application](application-setup.md#general-settings)).
+>l’organisation des fichiers en projets est réservée aux utilisateurs dont l’administrateur a configuré leur profil en conséquence. Si vous ne voyez pas de section de dossier Projets au bas de la bibliothèque de ressources, cette méthode d’organisation des ressources n’est pas disponible. (voir [Paramètres généraux de l’application](application-setup.md#general-settings)).
 
 ## Création d’un dossier Projet {#creating-a-project-folder}
 
@@ -45,7 +45,7 @@ Vous pouvez créer un dossier Projet commençant par la bibliothèque de ressour
 
 >[!NOTE]
 >
->La zone Projets de la bibliothèque de ressources est une liste de dossiers à un seul niveau ; il n’autorise pas les sous-dossiers.
+>La zone Projets de la bibliothèque de ressources est une liste de dossiers à un seul niveau ; elle n’autorise pas les sous-dossiers.
 
 ## Utilisation de dossiers de projet {#working-with-project-folders}
 
@@ -61,6 +61,6 @@ Pour afficher, supprimer et renommer un dossier Projet, effectuez l’une des op
 
 Vous pouvez ajouter des images à un dossier Projet depuis le panneau de navigation ou lorsque vous chargez des fichiers vers Adobe Dynamic Media Classic :
 
-* **Dans le panneau de navigation** - Sélectionnez les ressources et faites-les glisser vers un dossier Projet . Vous pouvez également accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Ajouter au projet]**. Sélectionnez un nom de dossier de projet dans la boîte de dialogue Sélectionner un projet, puis sélectionnez **[!UICONTROL Envoyer]**.
+* **Dans le panneau de navigation**, sélectionnez les ressources et faites-les glisser vers un dossier Projet . Vous pouvez également accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Ajouter au projet]**. Sélectionnez un nom de dossier de projet dans la boîte de dialogue Sélectionner un projet, puis sélectionnez **[!UICONTROL Envoyer]**.
 
 * **Lors du téléchargement de fichiers** - Dans la page Télécharger, sélectionnez **[!UICONTROL Options de tâche]**. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Projets]**, puis sélectionnez un nom de projet.

@@ -12,10 +12,10 @@ role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 26%
+source-wordcount: '120'
+ht-degree: 10%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 26%
 
 Pour optimiser l’utilisation de l’appli de bureau Adobe Dynamic Media Classic, assurez-vous que votre système respecte la configuration requise et les suggestions suivantes :
 
-* Processeur Microsoft® Windows® 7 ou plus récent ou macOS X 10.10 ou plus récent Macintosh Intel® requis.
+* Processeur Microsoft® Windows® 7 ou plus récent ou macOS X 10.10 ou plus récent Intel® Mac requis.
 * 3 Go de RAM ou plus requis (4 Go ou plus suggérés).
 * Moniteur couleur.
-* Carte vidéo prenant en charge les couleurs vraies à une résolution de 1280 x 1024 pixels ou plus.
-* Navigateur compatible JAVA.
+* Carte vidéo prenant en charge la couleur vraie à une résolution de 1 280 x 1 024 ou supérieure.
+* Navigateur compatible Java.
 * Navigateurs pris en charge par Windows : Internet Explorer 9.0 (ou version ultérieure) ; Firefox 23 (ou version ultérieure).
-* Navigateurs pris en charge par Macintosh : Safari 6.0 (ou version ultérieure) ; Firefox™ 23 (ou version ultérieure).
+* Navigateurs pris en charge par Mac : Safari 6.0 ou version ultérieure, Firefox™ 23 ou version ultérieure.
 
 >[!MORELIKETHIS]
 >

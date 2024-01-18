@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 1%
+source-wordcount: '1981'
+ht-degree: 0%
 
 ---
 
@@ -67,9 +67,9 @@ La notification de mise à niveau dans l’application de bureau Adobe Dynamic M
 ## Correctifs de la version 20.21.2 {#minor-release}
 
 * Limites connues en 20.21.1 : la variable **[!UICONTROL Serveur]** La liste déroulante de l’écran de connexion était vide.
-* Dans **[!UICONTROL Télécharger les options de la tâche]**, valeur par défaut du nommage de calque sous **[!UICONTROL Options Photoshop]**, est maintenant **[!UICONTROL Photoshop et nom de calque]**. Les calques du fichier PSD sont téléchargés comme images distinctes.
+* Dans **[!UICONTROL Télécharger les options de la tâche]**, valeur par défaut du nommage de calque sous **[!UICONTROL Options Photoshop]**, est maintenant **[!UICONTROL Photoshop et nom de calque]**. Les calques du fichier de PSD sont téléchargés en tant qu’images distinctes.
    * La valeur par défaut précédente de **[!UICONTROL Nom du calque]**, nommé les images en fonction de leur nom de calque ou de leur numéro de calque dans le fichier de PSD. Le numéro de calque a été utilisé si les noms de calque dans le fichier de PSD étaient des noms de calque Photoshop par défaut.
-   * La nouvelle valeur par défaut de **[!UICONTROL Photoshop et nom de calque]**, nomme les images après le fichier de PSD suivi du nom du calque ou du numéro du calque. Le numéro de calque est utilisé si le nom des calques dans le fichier PSD est un nom de calque Photoshop par défaut.
+   * La nouvelle valeur par défaut de **[!UICONTROL Photoshop et nom de calque]**, nomme les images après le fichier de PSD suivi du nom du calque ou du numéro du calque. Le numéro de calque est utilisé si les noms de calque dans le fichier de PSD sont des noms de calque Photoshop par défaut.
    * Étant donné que les images de calque dans Adobe Dynamic Media Classic portent désormais des noms uniques, aucune mise à jour du PSD ou des modèles existants ne sera effectuée (ce qui est le cas des noms de calque partagés dans les fichiers de PSD d’origine).
 * Miniatures des ressources endommagées.
 
@@ -88,7 +88,7 @@ La notification de mise à niveau dans l’application de bureau Adobe Dynamic M
 
 ## Téléchargez et installez la dernière appli de bureau Adobe Dynamic Media Classic sur macOS ou Windows® {#installation-dmc-app}
 
-Voir aussi:
+Voir aussi :
 
 * [Télécharger et installer en mode silencieux la dernière application de bureau Adobe Dynamic Media Classic sur Mac](#install-silent-mac-dmc-app)
 * [Télécharger et installer en mode silencieux la dernière application de bureau Adobe Dynamic Media Classic sous Windows](#install-silent-windows-dmc-app)
@@ -147,7 +147,7 @@ Voir aussi:
 
 ## Téléchargement et *silence* installation de la dernière appli de bureau Adobe Dynamic Media Classic sur macOS {#install-silent-mac-dmc-app}
 
-Voir aussi:
+Voir aussi :
 
 * [Télécharger et installer la dernière appli de bureau Adobe Dynamic Media Classic sur Mac ou Windows](#installation-dmc-app)
 * [Télécharger et installer en mode silencieux la dernière application de bureau Adobe Dynamic Media Classic sous Windows](#install-silent-windows-dmc-app)
@@ -189,7 +189,7 @@ Pour télécharger et *silence* installez la dernière version de l’appli de b
 
 La commande que vous utilisez est pour une installation silencieuse MSI de base. Cependant, le programme d’installation de l’appli de bureau Adobe Dynamic Media Classic est un programme d’installation MSI InstallScript créé à l’aide de InstallShield. Lorsque vous exécutez le programme d’installation en mode d’enregistrement, toute interaction utilisateur est enregistrée dans un fichier de réponse. Ce fichier de réponse est ensuite utilisé pour une installation silencieuse, comme décrit dans la section [Exécution des installations en mode silencieux](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
-Voir aussi:
+Voir aussi :
 
 * [Télécharger et installer la dernière appli de bureau Adobe Dynamic Media Classic sur Mac ou Windows](#installation-dmc-app)
 
@@ -250,7 +250,7 @@ Outre l’effacement de l’image et du cache des ressources à l’aide de l’
 1. Selon votre système d’exploitation, accédez aux éléments suivants :
 
    * MACOS : `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
-   * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+   * Windows® : `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Limites connues dans Adobe Dynamic Media Classic 20.21.1
 
@@ -273,7 +273,7 @@ Outre l’effacement de l’image et du cache des ressources à l’aide de l’
 
 **_Je ne parviens pas à voir le panneau Panier multimédia sur la page d’entrée d’Adobe Dynamic Media Classic._**<br>Dans Adobe Dynamic Media Classic, appuyez sur**[!UICONTROL Configuration > Configuration personnelle ]**. Dans la section Navigateur , assurez-vous que**[!UICONTROL Afficher les fonctionnalités MediaPortal ]**est sélectionné (coché). Appuyer**[!UICONTROL Enregistrer > Fermer ]**.
 
-**_L’état de publication (indicateur vert) d’une ressource n’est pas correctement reflété._**<br>Dans l’interface utilisateur du navigateur, une nouvelle connexion à l’interface utilisateur était nécessaire pour afficher l’état de publication correct des ressources. Dans l’appli de bureau, Adobe a introduit une**[!UICONTROL Actualiser ]**dans la barre d’outils, à droite de la**[!UICONTROL Sélectionner Aucun ]**bouton . Appuyez sur le bouton**[!UICONTROL Actualiser ]**pour afficher l’état le plus récent de toutes les ressources sur la page donnée. Aucune nouvelle connexion n’est requise, comme avec l’interface utilisateur du navigateur.
+**_L’état de publication (indicateur vert) d’une ressource n’est pas correctement reflété._**<br>Dans l’interface utilisateur du navigateur, une nouvelle connexion à l’interface utilisateur était nécessaire pour afficher l’état de publication correct des ressources. Dans l’appli de bureau, Adobe a introduit une**[!UICONTROL Actualiser ]**dans la barre d’outils, à droite de la**[!UICONTROL Sélectionner Aucun ]**bouton . Appuyez sur le bouton**[!UICONTROL Actualiser ]**pour afficher l’état le plus récent de toutes les ressources sur la page donnée. Aucune connexion n’est requise, comme avec l’interface utilisateur du navigateur.
 
 ![Icône Actualiser](/help/using/assets/refresh-icon1.png)
 *Icône Actualiser*

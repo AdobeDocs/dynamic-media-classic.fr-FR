@@ -12,7 +12,7 @@ role: User
 exl-id: 23d6727b-0b48-4dac-be9f-f284d8d10de1
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 25%
@@ -22,5 +22,5 @@ ht-degree: 25%
 # Impression de ressources{#printing-assets}
 
 1. Dans le panneau de navigation, sélectionnez le ou les fichiers à imprimer.
-1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Imprimer]** ou appuyez sur `Ctrl+P` (Windows®) ou `Command+P` (Macintosh).
-1. Dans la boîte de dialogue Imprimer, sélectionnez le nombre de copies à imprimer, puis cliquez sur **[!UICONTROL Imprimer]**.
+1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Imprimer]** ou appuyez sur `Ctrl+P` (Windows®) ou `Command+P` (Mac).
+1. Dans la boîte de dialogue Imprimer, choisissez combien de copies imprimer, puis cliquez sur **[!UICONTROL Imprimer]**.

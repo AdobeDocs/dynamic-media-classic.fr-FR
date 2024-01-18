@@ -10,24 +10,24 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 49%
+source-wordcount: '1601'
+ht-degree: 45%
 
 ---
 
 # Recommandations pour optimiser la qualité des images{#best-practices-for-optimizing-the-quality-of-your-images}
 
-L’optimisation de la qualité des images peut prendre un certain temps, car de nombreux facteurs entrent en jeu pour obtenir des résultats de rendu acceptables. Les résultats sont partiellement subjectifs car chaque individu perçoit différemment la qualité des images. La clé réside dans une mise en application structurée.
+L’optimisation de la qualité des images peut prendre beaucoup de temps. De nombreux facteurs contribuent à rendre des résultats acceptables. Les résultats sont partiellement subjectifs car chaque individu perçoit différemment la qualité des images. La clé réside dans une mise en application structurée.
 
 Adobe Dynamic Media Classic comprend plus de 100 commandes de service d’images pour l’optimisation et le réglage des images et des résultats de rendu. Les conseils suivants vous aideront à simplifier le processus et à obtenir rapidement de bons résultats en utilisant quelques commandes essentielles et en appliquant les pratiques recommandées.
 
-Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
 
 >[!TIP]
 >
->Testez et découvrez les avantages des modificateurs d’image Dynamic Media et de l’imagerie dynamique à l’aide de Dynamic Media. [_Instantané_](https://snapshot.scene7.com/).
+>Testez et découvrez les avantages des modificateurs d’image Dynamic Media et de l’imagerie dynamique à l’aide de Dynamic Media [_Instantané_](https://snapshot.scene7.com/).
 >
 > L’instantané est un outil de démonstration visuel, conçu pour illustrer la puissance de Dynamic Media pour une diffusion d’images optimisée et dynamique. Testez des images de test ou des URL Dynamic Media afin d’observer visuellement la sortie de divers modificateurs d’image Dynamic Media et d’optimiser l’imagerie dynamique pour les éléments suivants :
 >* Taille de fichier (avec diffusion WebP et AVIF)
@@ -46,7 +46,7 @@ Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/docs/experien
 * Généralement, le format JPG compresse les images photographiques avec une plus grande fidélité que les images de synthèse avec des bords nets et un fort contraste.
 * Si vos images contiennent de la transparence, utilisez le format PNG car JPG ne prend pas en charge la transparence.
 
-Pour le format des images, il est recommandé de commencer par le paramètre le plus courant, à savoir `&fmt=JPG`.
+La bonne pratique pour le format d’image consiste à commencer par le paramètre le plus courant. `&fmt=JPG`.
 
 ## Recommandations relatives à la taille des images {#best-practices-for-image-size}
 
@@ -70,14 +70,14 @@ Avec Adobe Dynamic Media Classic, vous pouvez accentuer les images lors de l’i
 Vous pouvez utiliser deux méthodes d’accentuation des images :
 
 * Accentuation simple ( `&op_sharpen`) : à l’instar du filtre d’accentuation utilisé dans Photoshop, l’accentuation simple applique une accentuation de base à l’affichage final de l’image à la suite d’un redimensionnement dynamique. Toutefois, cette méthode n’est pas configurable par l’utilisateur. La bonne pratique consiste à ne pas utiliser `&op_sharpen` sauf si nécessaire.
-* Masquage flou ( `&op_USM`) : le masquage flou est un filtre standard du secteur pour l’accentuation. Il est recommandé d’accentuer les images avec le masquage flou en suivant les conseils ci-dessous. Le masquage flou permet de contrôler les trois paramètres suivants :
+* Masquage flou ( `&op_USM`) : le masquage flou est un filtre standard de l’industrie pour l’accentuation. Il est recommandé d’accentuer les images avec le masquage flou en suivant les conseils ci-dessous. Le masquage flou permet de contrôler les trois paramètres suivants :
 
    * `&op_sharpen=amount,radius,threshold`
 
       * `amount` (0 à 5, force de l’effet.)
       * `radius` (0 à 250, largeur des &quot;lignes d’accentuation&quot; tracées autour de l’objet accentué, mesurées en pixels.)
 
-        Gardez à l’esprit que les paramètres `radius` et `amount` travaille les uns contre les autres. Réduction `radius` peuvent être compensées en augmentant `amount`. `Radius` permet un contrôle plus précis, car une valeur inférieure accentue uniquement les pixels de contour, tandis qu’une valeur supérieure accentue une bande plus large de pixels.
+        N’oubliez pas que les paramètres `radius` et `amount` travaille les uns contre les autres. Réduction `radius` peuvent être compensées en augmentant `amount`. `Radius` permet un contrôle plus précis, car une valeur inférieure accentue uniquement les pixels de contour, tandis qu’une valeur supérieure accentue une bande plus large de pixels.
 
       * `threshold` (0 à 255, sensibilité de l’effet.)
 
@@ -85,7 +85,7 @@ Vous pouvez utiliser deux méthodes d’accentuation des images :
 
         Pour plus d’informations sur la définition de ces trois paramètres, y compris les bonnes pratiques à utiliser avec le filtre, voir [Accentuer les images dans Adobe Dynamic Media Classic et sur le serveur d’images](/help/using/assets/s7_sharpening_images.pdf).
 
-      * Adobe Dynamic Media Classic vous permet également de contrôler un quatrième paramètre : monochrome ( `0,1`). Ce paramètre détermine si le masquage flou est appliqué séparément à chaque composante de couleur en utilisant la valeur `0` ou à la luminosité/intensité de l’image en utilisant la valeur `1`.
+      * Adobe Dynamic Media Classic vous permet également de contrôler un quatrième paramètre : monochrome ( `0,1`). Ce paramètre détermine si le masquage flou est appliqué séparément à chaque composant de couleur à l’aide de la valeur `0` ou à la luminosité/intensité de l’image à l’aide de la valeur `1`.
 
 En règle générale, il est recommandé de commencer par le paramètre de rayon du masquage flou. Voici les paramètres de rayon que vous pouvez utiliser en premier :
 
@@ -104,21 +104,21 @@ Laissez le paramètre monochrome sur 0.
 * Pour optimiser la qualité, ne définissez pas ce paramètre sur 100. La différence entre un paramètre de 90, 95 ou 100 est presque imperceptible, mais 100 augmente inutilement la taille du fichier image. Par conséquent, pour optimiser la qualité, mais éviter que les fichiers image deviennent trop volumineux, définissez la variable `qlt=` à 90 ou 95.
 * Pour optimiser pour une petite taille de fichier image tout en conservant la qualité de l’image à un niveau acceptable, définissez la variable `qlt=` à 80. Les valeurs inférieures à 70-75 se traduisent par une dégradation notable de la qualité d’image.
 * Pour rester dans la moyenne, il est recommandé de définir la variable `qlt=` à 85 pour rester au milieu.
-* Utilisation de l’indicateur de chrominance dans `qlt=`
+* Utilisation du drapeau chromatique dans `qlt=`
 
-   * Le `qlt=` comporte un second paramètre qui permet d’activer le sous-échantillonnage chromatique RGB à l’aide de la valeur normale. `,0` (par défaut) ou la désactiver à l’aide de la valeur `,1`.
-   * Pour rester simple, commencez par désactiver la réduction de résolution chromatique RVB ( `,1`). Ce paramètre produit généralement une image de meilleure qualité, en particulier pour les images de synthèse contenant beaucoup de contours nets et un fort contraste.
+   * La variable `qlt=` comporte un second paramètre qui permet d’activer le sous-échantillonnage chromatique RGB à l’aide de la valeur normale. `,0` (par défaut) ou la désactiver à l’aide de la valeur `,1`.
+   * Pour rester simple, commencez par désactiver le sous-échantillonnage chromatique RGB ( `,1`). Ce paramètre produit généralement une image de meilleure qualité, en particulier pour les images de synthèse contenant beaucoup de contours nets et un fort contraste.
 
-Pour la compression JPG, il est recommandé d’utiliser `&qlt=85,0`.
+La bonne pratique pour la compression des JPG consiste à utiliser `&qlt=85,0`.
 
 ## Recommandations relatives au dimensionnement JPEG (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
 Le paramètre `jpegSize` est utile si vous souhaitez garantir qu’une image ne dépasse pas une certaine taille pour être diffusée sur des appareils dont la mémoire est limitée.
 
 * Ce paramètre est défini en kilo-octets ( `jpegSize=<size_in_kilobytes>`). Il définit la taille maximale autorisée pour la distribution des images.
-* `&jpegSize=` interagit avec le paramètre de compression du JPG `&qlt=`. Si la réponse du JPG avec le paramètre de compression du JPG spécifié ( `&qlt=`) ne dépasse pas le nombre de `jpegSize` , l’image est renvoyée avec la valeur `&qlt=` comme défini. Sinon, `&qlt=` est graduellement diminué jusqu’à ce que l’image s’adapte à la taille maximale autorisée ou jusqu’à ce que le système détermine qu’elle ne peut pas s’adapter et renvoie une erreur.
+* `&jpegSize=` interagit avec le paramètre de compression du JPG `&qlt=`. Si la réponse du JPG avec le paramètre de compression du JPG spécifié ( `&qlt=`) ne dépasse pas le nombre de `jpegSize` , l’image est renvoyée avec `&qlt=` comme défini. Sinon, `&qlt=` est graduellement diminué jusqu’à ce que l’image s’adapte à la taille maximale autorisée ou jusqu’à ce que le système détermine qu’elle ne peut pas s’adapter et renvoie une erreur.
 
-La bonne pratique consiste à définir `&jpegSize=` et ajoutez le paramètre `&qlt=` si vous diffusez des images de JPG vers des appareils dont la mémoire est limitée.
+Pour respecter les bonnes pratiques, définissez `&jpegSize=` et ajoutez le paramètre `&qlt=` si vous diffusez des images de JPG vers des appareils dont la mémoire est limitée.
 
 ## Résumé des recommandations {#best-practices-summary}
 

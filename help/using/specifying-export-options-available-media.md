@@ -11,10 +11,10 @@ role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 51%
+source-wordcount: '385'
+ht-degree: 41%
 
 ---
 
@@ -29,12 +29,12 @@ Les deux restrictions suivantes s’appliquent si vous exportez des ressources d
 
 Voir aussi [Exportation de ressources à partir d’Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
-**Pour définir les options d’exportation disponibles pour les utilisateurs du portail multimédia:**
+**Pour spécifier les options d’exportation disponibles pour les utilisateurs de Media Portal :**
 
 1. Dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres d’image prédéfinis]**.
 1. Dans la fenêtre Paramètres d’image prédéfinis, sélectionnez l’une des options suivantes :
 
-   * **Activer la conversion définie par l’utilisateur** : lorsque cette option est sélectionnée, les utilisateurs peuvent choisir d’autres options parmi les options **[!UICONTROL Taille]** liste déroulante dans la fenêtre Exporter les ressources sélectionnées . Les utilisateurs peuvent ensuite choisir une unité de mesure, pixels ou centimètres, puis spécifier la largeur et la hauteur souhaitée. Lors de l’exportation ou du téléchargement de ces fichiers, les fichiers image sont reformatés.
+   * **Activer la conversion définie par l’utilisateur** : lorsque cette option est sélectionnée, les utilisateurs peuvent choisir d’autres options parmi les options **[!UICONTROL Taille]** liste déroulante dans la fenêtre Exporter les ressources sélectionnées . Les utilisateurs peuvent ensuite choisir une unité de mesure, comme les pixels ou les centimètres, puis spécifier la largeur et la hauteur souhaitées. Lors de l’exportation ou du téléchargement de ces fichiers, les fichiers image sont reformatés.
 
      When **[!UICONTROL pixels]** sont sélectionnées à partir de la **[!UICONTROL Taille]** , la largeur d’image obtenue × hauteur ne peut pas dépasser 100 millions de pixels. Cette taille équivaut à 10 000 × 10 000 pixels pour une image carrée, soit environ 8 000 × 12 000 pixels pour une image de rapport 2x3. Cette limitation de taille ne s’applique pas si vous exportez des images primaires d’origine.
 
@@ -45,4 +45,4 @@ Voir aussi [Exportation de ressources à partir d’Adobe Dynamic Media Classic]
 >[!MORELIKETHIS]
 >
 >* [Paramètres d’image prédéfinis](application-setup.md#image_presets)
->* [Choix des autorisations d’accès de paramètres d’image prédéfinis pour un groupe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [Sélection des autorisations d’accès des paramètres d’image prédéfinis pour un groupe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)

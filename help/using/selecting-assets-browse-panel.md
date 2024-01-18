@@ -12,7 +12,7 @@ role: User
 exl-id: eb8afc39-7784-4e32-80b6-2b87f3e0acff
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 18%
@@ -25,7 +25,7 @@ Sélectionnez une ressource dans le panneau de navigation afin de pouvoir l’ut
 
 * **Une seule ressource** - Sélectionnez la ressource (un double-clic l’ouvre dans l’affichage des détails).
 
-* **Plusieurs ressources** - Ctrl+clic (Windows®) ou Commande+clic (Macintosh) sur les ressources pour sélectionner les ressources à différents emplacements du panneau de navigation. Tout en maintenant la touche Maj enfoncée, cliquez (cliquez sur un fichier, puis cliquez sur un autre fichier avec la touche Maj enfoncée) sur des fichiers adjacents pour les sélectionner.
+* **Plusieurs ressources** - Ctrl+clic (Windows®) ou Commande+clic (Mac) pour sélectionner des ressources à différents emplacements du panneau de navigation. Tout en maintenant la touche Maj enfoncée, cliquez (cliquez sur un fichier, puis cliquez sur un autre fichier avec la touche Maj enfoncée) sur des fichiers adjacents pour les sélectionner.
 
 * **Toutes les ressources du panneau de navigation** - Accédez à **[!UICONTROL Sélectionner]** > **[!UICONTROL Tous]**.
 

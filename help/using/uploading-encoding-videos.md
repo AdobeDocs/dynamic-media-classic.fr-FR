@@ -1,20 +1,18 @@
 ---
 title: Chargement et codage de vidéos
 description: Découvrez comment charger et coder des vidéos dans Adobe Dynamic Media Classic.
-uuid: 9a7d6513-b10c-40b0-aebb-18a795c2b8d1
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '3951'
-ht-degree: 49%
+source-wordcount: '3986'
+ht-degree: 46%
 
 ---
 
@@ -48,11 +46,11 @@ Adobe Dynamic Media Classic génère également des miniatures vidéo. Vous pouv
 
 Voir [Utilisation des miniatures vidéo](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
 
-**Pour télécharger et coder des vidéos:**
+**Pour charger et coder des vidéos :**
 
 Effectuez l’une des opérations suivantes.
 
-*Si les vidéos sont déjà codées*
+*Si vos vidéos sont déjà codées*
 
 1. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]**.
 1. Sur la page Télécharger, sélectionnez **[!UICONTROL À partir du bureau]** .
@@ -82,7 +80,7 @@ Voir [Paramètres prédéfinis de codage de vidéo pour ordinateur de bureau](ap
 1. Dans Adobe Dynamic Media Classic, dans le panneau Parcourir , accédez à la vidéo et sélectionnez-la.
 1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Retraiter]**.
 1. Dans la boîte de dialogue Retraiter les ressources, développez **[!UICONTROL Options vidéo]**, puis effectuez l’une des opérations suivantes :
-   * Il est conseillé d’utiliser la méthode suivante. Sélectionnez **Vidéo adaptative**.
+   * La bonne pratique consiste à utiliser la méthode suivante. Sélectionner **Vidéo adaptative**.
 Voir [Vidéo adaptative (par défaut)](application-setup.md#adaptive-video-default).
    * Facultatif. Si vous souhaitez utiliser des paramètres de codage individuels, développez **[!UICONTROL Paramètres prédéfinis de codage uniques]**, puis sélectionnez les options de codage souhaitées pour Bureau, Mobile et Tablette.
 Voir [Paramètres prédéfinis de codage de vidéo pour ordinateur de bureau](application-setup.md#desktop-video-encoding-presets), [Paramètres prédéfinis de codage vidéo pour périphérique mobile](application-setup.md#mobile-video-encoding-presets), [Paramètres prédéfinis de codage vidéo pour tablette](application-setup.md#tablet-video-encoding-presets).
@@ -110,7 +108,7 @@ Le tableau suivant répertorie les types de fichiers vidéo (avec les codecs vid
   | M2V | MPEG-2 ES |
   | M4V | H.264 |
   | MOV | DV, DVCPro 50, H.261, H.263, H.264, Sorenson Video 1 |
-  | MP4 | H.264/MPEG-4 AVC |
+  | MP4 | H.264 / MPEG-4 AVC |
   | MPEG | MPEG-2 SS |
   | MPG | MPEG-2 SS |
   | MTS | MPEG-2 |
@@ -174,7 +172,7 @@ Par exemple, une vidéo dont la largeur est de 1 440 × hauteur de 1 080 a un ra
 
 ### Débit {#data-rate}
 
-Le *débit de données* (également appelé *débit binaire*) est la quantité de données qu’il est nécessaire de coder pour constituer une seconde de lecture vidéo. Le débit de données est mesuré en kilobits par seconde (Kbits/s).
+La variable *débit de données* (également appelé *débit*) correspond à la quantité de données codées pour constituer une seule seconde de lecture vidéo. Le débit de données est mesuré en kilobits par seconde (Kbits/s).
 
 >[!NOTE]
 >
@@ -188,7 +186,7 @@ Ce tableau décrit le débit de données de vitesses de connexion courantes.
 | --- | --- |
 | 256 | Connexion commutée. |
 | 800 | Connexion mobile standard. Pour cette connexion, visez un débit de données de l’ordre de 400 Kb/s, jusqu’à 800 Kb/s pour les expériences 3G. |
-| 2 000 | Connexion haut débit standard de bureau. Pour cette connexion, visez un débit de données de 800 à 2 000 Kbit/s, la plupart des cibles étant en moyenne de 1 200 à 1 500 Kbit/s. |
+| 2 000 | Connexion haut débit standard de bureau. Pour cette connexion, visez un débit de données de l’ordre de 800 à 2 000 Kb/s, bien qu’un débit de 1 200 à 1 500 Kb/s convienne à la plupart des cibles. |
 | 5000 | Connexion haut débit standard. Il est déconseillé de coder dans cette fourchette supérieure, car la diffusion de la vidéo à cette vitesse n’est pas possible pour la plupart des consommateurs. |
 
 ### Résolution {#resolution}
@@ -292,7 +290,7 @@ Vous pouvez affiner la liste en choisissant le filtrage Les deux, Actif ou Inact
 
 Vous pouvez également les filtrer en fonction d’une option de périphérique de lecture afin de restreindre la liste aux paramètres vidéo prédéfinis conçus pour la lecture de vidéos sur tous les appareils, sur les ordinateurs de bureau, les appareils mobiles ou les tablettes.
 
-**Filtrage de la liste des paramètres prédéfinis de codage vidéo:**
+**Pour filtrer la liste des paramètres prédéfinis de codage vidéo :**
 
 1. Dans Adobe Dynamic Media Classic, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres vidéo prédéfinis]** > **[!UICONTROL Paramètres prédéfinis de vidéo adaptative]** ou **[!UICONTROL Paramètres prédéfinis de codage uniques]**.
 
@@ -334,7 +332,7 @@ Adobe Dynamic Media Classic a défini des limites maximales sur le débit de don
 * Pour la lecture mobile, les limites sont les suivantes : (Largeur/16) &#42; (Hauteur/16) &lt; 660 ; débit cible &lt; 4 000.
 * Pour la lecture sur tablette, les limites sont les suivantes : (Largeur/16) &#42; (Hauteur/16) &lt; 3 600.
 
-**Ajout ou modification d’un paramètre prédéfini de codage vidéo:**
+**Pour ajouter ou modifier un paramètre prédéfini de codage vidéo :**
 
 1. Dans Adobe Dynamic Media Classic, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres vidéo prédéfinis]**.
 1. Sélectionner **[!UICONTROL Paramètres prédéfinis de codage uniques]**.
@@ -355,8 +353,8 @@ Adobe Dynamic Media Classic a défini des limites maximales sur le débit de don
    | Description | Décrivez le paramètre vidéo prédéfini. Ce que vous saisissez apparaît sous forme d’info-bulle lorsque vous placez le pointeur sur le nom du paramètre prédéfini dans la boîte de dialogue Télécharger les options de la tâche dans laquelle les utilisateurs choisissent les options de transcodage. |
    | Périphérique de lecture | Choisissez le périphérique sur lequel il est prévu que la vidéo soit lue. Les options disponibles sont Ordinateur (ordinateurs de bureau), Mobile (iPhone, iPad, Android™) ou Tablette (iPad uniquement). Ce paramètre détermine automatiquement le codec audio et vidéo approprié utilisé pendant le codage. |
    | Débit de la cible | Entrez la vitesse de connexion Internet moyenne (en kilobits par seconde) de l’utilisateur final cible. Vous pouvez saisir le débit ou faire glisser le curseur pour le saisir. Le spectre de vitesse de connexion de l’utilisateur répertorie les vitesses attendues pour les connexions haut débit, DSL, mobiles et à ligne commutée. Ce paramètre détermine automatiquement le débit combiné de données audio et vidéo, autrement dit, la quantité de données qu’il est nécessaire de coder pour produire une seule seconde de lecture vidéo. Plus le débit binaire est élevé, meilleure est la qualité de la vidéo produite. Cependant, un débit de données trop élevé se traduit par des fichiers de taille très importante, ce qui peut altérer l’expérience de visionnage pour les utilisateurs qui ne disposent pas d’une connexion avec une bande passante aussi large. Il est préférable d’essayer d’équilibrer ces deux facteurs afin d’offrir une expérience de lecture vidéo de qualité, qui convienne également aux utilisateurs qui ne disposent pas d’une bande passante aussi large. |
-   | Format | Le format fait référence au rapport de la largeur de la vidéo à sa hauteur. Les deux premières proportions répertoriées ci-dessous sont souvent utilisées pour afficher la vidéo horizontalement :<ul><li> 4:3, utilisé pour la diffusion de la quasi-totalité des contenus télévisés de définition standard.</li><li>16:9 - Utilisé pour presque tout le contenu et les films grand écran sur la télévision haute définition (HDTV).</li><li>Mise à l’échelle automatique : (valeur par défaut) paramètre prédéfini de codage unique qui fonctionne avec n’importe quel format pour créer des vidéos à diffuser sur mobile, tablette et ordinateur de bureau. Les vidéos source transférées qui sont codées à l’aide de ce paramètre prédéfini sont définies avec une hauteur fixe. Toutefois, la largeur est automatiquement mise à l’échelle afin de préserver les proportions de la vidéo (rapport largeur/hauteur).</li><li>Custom (« Personnaliser ») : option utilisée lorsque vous souhaitez définir une taille de vidéo non standard.</li><li>Les proportions que vous choisissez déterminent les paramètres de largeur et de hauteur pour la résolution ; la valeur de largeur et de hauteur est automatiquement mise à l’échelle selon les proportions appropriées.</li></ul> |
-   | Taille de résolution | La taille de résolution, exprimée en nombre de pixels de large par le nombre de pixels de haut, détermine la taille. Saisissez une valeur de largeur et de hauteur en pixels ou faites glisser le curseur pour saisir ces valeurs. Le spectre des résolutions répertorie les tailles de résolution les plus utilisées. Les valeurs de largeur et de hauteur correspondent automatiquement aux proportions que vous avez sélectionnées. Par exemple, si vous sélectionnez le format 4:3 et entrez 400 pour la largeur, 300 est automatiquement entré pour la hauteur. Si vous sélectionnez Auto-scale(« Redimensionnement automatique ») pour le paramètre de proportion, la valeur de la largeur pour la taille de résolution est automatiquement définie sur Auto. Sélectionner **[!UICONTROL Aperçu]** vous pouvez donc ouvrir une fenêtre de navigateur et y voir vos choix de résolution. |
+   | Format | Le format fait référence au rapport de la largeur de la vidéo à sa hauteur. Les deux premières proportions répertoriées ci-dessous sont souvent utilisées pour afficher la vidéo horizontalement :<ul><li> 4:3, utilisé pour la diffusion de la quasi-totalité des contenus télévisés de définition standard.</li><li>16:9 - Utilisé pour presque tout le contenu et les films grand écran sur la télévision haute définition (HDTV).</li><li>Mise à l’échelle automatique : (valeur par défaut) paramètre prédéfini de codage unique qui fonctionne avec n’importe quel format pour créer des vidéos à diffuser sur mobile, tablette et ordinateur de bureau. Les vidéos source transférées qui sont codées à l’aide de ce paramètre prédéfini sont définies avec une hauteur fixe. Toutefois, la largeur est automatiquement mise à l’échelle afin de préserver les proportions de la vidéo (rapport largeur/hauteur).</li><li>Custom (« Personnaliser ») : option utilisée lorsque vous souhaitez définir une taille de vidéo non standard.</li><li>Les proportions que vous choisissez déterminent les paramètres de largeur et de hauteur pour la taille de résolution ; la largeur et la hauteur sont automatiquement mises à l’échelle selon les proportions appropriées.</li></ul> |
+   | Taille de résolution | La taille de résolution, exprimée en nombre de pixels de large par le nombre de pixels de haut, détermine la taille. Saisissez une largeur et une hauteur en pixels ou faites glisser le curseur pour entrer ces valeurs. Le spectre des résolutions répertorie les tailles de résolution les plus utilisées. Les valeurs de largeur et de hauteur correspondent automatiquement aux proportions que vous avez sélectionnées. Par exemple, si vous sélectionnez 4:3 comme format et saisissez 400 pour la largeur, 300 est automatiquement renseigné pour la hauteur. Si vous avez sélectionné Mise à l’échelle automatique pour le paramètre Format, la valeur Largeur de la résolution est automatiquement définie sur Auto. Sélectionner **[!UICONTROL Aperçu]** vous pouvez donc ouvrir une fenêtre de navigateur et y voir vos choix de résolution. |
    | Encoder un suffixe de fichier | Entrez un suffixe. Ce suffixe est ajouté au fichier vidéo encodé résultant. Vous pouvez entrer un trait d’union et un trait de soulignement dans le nom, mais les espaces et les caractères spéciaux ne sont pas autorisés. |
    | Autres paramètres | Adobe Dynamic Media Classic détermine automatiquement tous les autres paramètres de codage, conformément aux bonnes pratiques en matière de codage. |
 

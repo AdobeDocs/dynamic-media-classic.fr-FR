@@ -12,10 +12,10 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 52%
+source-wordcount: '569'
+ht-degree: 43%
 
 ---
 
@@ -29,13 +29,13 @@ Voir aussi [Création d’un alias pour une image](adjusting-image.md#creating_a
 
 1. Sélectionnez le bouton de survol Modifier de l’image et choisissez Ajuster. Dans le panneau de navigation, double-cliquez sur l’image pour l’ouvrir dans la vue Détails.
 1. Sélectionnez une taille et un paramètre prédéfini d’image (dans la partie inférieure de la fenêtre).
-1. Utilisez les commandes situées sur le côté droit de la fenêtre Editeur de modification pour régler l’image :
+1. Utilisez les commandes situées à droite de la `Adjust Editor` pour que vous puissiez ajuster l’image :
 
    * Utilisez les options de retournement (Retourner) pour faire pivoter une image sur le plan horizontal ou vertical. 
    * Utilisez le curseur de rotation (Pivoter) pour faire pivoter l’image. Vous pouvez saisir des valeurs dans le champ Pivoter pour appliquer une rotation à une image. Les valeurs positives appliquent une rotation horaire et les valeurs négatives, une rotation antihoraire.
    * Utilisez le curseur Estomper ou la zone correspondante pour rendre une image floue. Plus la valeur est élevée, plus l’image devient floue.
    * Utilisez les options Contraste, Luminosité, Saturation, Teinte et Equilibre des couleurs pour régler la couleur et la luminosité. Ces effets sont cumulatifs. Par exemple, les modifications apportées aux paramètres Magenta/Vert s’ajoutent aux modifications des paramètres Teinte.
-   * Utilisez les options Coloriser pour coloriser une image tout en conservant ses zones foncées et ses zones claires. Les modifications effectuées à l’aide des options Coloriser sont également cumulatives. Dans le menu Luminosité, choisissez **[!UICONTROL Aucune compensation]** vous désactivez donc la compensation automatique de la luminosité. Définissez la valeur de contraste sur 0 pour conserver la plage de contraste de l’image originale, ou spécifiez une plage de contraste avec une valeur supérieure à 0. Une valeur égale à 100 produit le contraste maximum. Les valeurs types se situent entre 30 et 70.
+   * Utilisez la variable `Colorize` options de coloration d’une image tout en préservant les ombres et les surbrillances. Les modifications effectuées à l’aide des options Coloriser sont également cumulatives. Dans le menu Luminosité, choisissez **[!UICONTROL Aucune compensation]** vous désactivez donc la compensation automatique de la luminosité. Définissez la valeur de contraste sur 0 pour conserver la plage de contraste de l’image originale, ou spécifiez une plage de contraste avec une valeur supérieure à 0. Une valeur égale à 100 produit le contraste maximum. Les valeurs habituelles sont comprises entre 30 et 70.
 
 1. Une fois le réglage de l’image terminé, procédez de l’une des manières suivantes :
 
@@ -47,25 +47,25 @@ Voir aussi [Création d’un alias pour une image](adjusting-image.md#creating_a
 
    * Pour enregistrer l’image en tant que nouvelle image principale, sélectionnez **[!UICONTROL Enregistrer sous]**.
 
-     Dans la liste déroulante, sélectionnez **[!UICONTROL Enregistrer en tant que nouvelle image originale]**.
+     Dans la liste déroulante, sélectionnez **[!UICONTROL Enregistrer en tant que nouvelle instance principale]**.
 Dans le **[!UICONTROL Nom du dossier]** , sélectionnez le dossier dans lequel vous souhaitez enregistrer la nouvelle image principale.
 Sélectionner **[!UICONTROL Enregistrer]**.
 
    * Pour enregistrer l’image comme une autre vue de l’image principale. créez un alias pour cette image. Sélectionner **[!UICONTROL Enregistrer sous]**.
 
-     Dans le **[!UICONTROL Enregistrer sous]** dans la liste déroulante, sélectionnez **[!UICONTROL Enregistrer comme une autre vue du gabarit]**.
+     Dans la liste déroulante du **[!UICONTROL Enregistrer sous]** boîte de dialogue, sélectionnez **[!UICONTROL Enregistrer comme une autre vue de l’instance principale]**.
 Dans le **[!UICONTROL Nom du dossier]** , sélectionnez le dossier dans lequel vous souhaitez enregistrer la nouvelle image principale.
 Sélectionner **[!UICONTROL Enregistrer]**.
 
 ## Création d’un alias pour une image {#creating-an-alias-for-an-image}
 
-Lorsque vous avez ajusté une image, vous pouvez l’enregistrer en tant qu’autre vue de l’image principale. Pour ce faire, créez un alias de l’image en utilisant la fonction **[!UICONTROL Enregistrer une vue supplémentaire de l’image originale]**.
+Lorsque vous avez ajusté une image, vous pouvez l’enregistrer en tant qu’autre vue de l’image principale. Pour ce faire, vous pouvez créer un alias pour l’image à l’aide du **[!UICONTROL Enregistrer en tant que vue supplémentaire de l’instance principale]** fonction .
 
 **Pour créer un alias pour une image :**
 
 1. En mode d’affichage Grille ou Liste, en mode **[!UICONTROL Modifier]** , sélectionnez la liste déroulante en regard d’une image pour laquelle vous souhaitez créer un alias. **[!UICONTROL Ajuster]**.
 1. Dans le coin inférieur droit de la page, sélectionnez **[!UICONTROL Enregistrer sous]**.
-1. Dans le **[!UICONTROL Enregistrer sous]** dans la liste déroulante, sélectionnez **[!UICONTROL Enregistrer comme vue supplémentaire du gabarit]**.
+1. Dans la liste déroulante du **[!UICONTROL Enregistrer sous]** boîte de dialogue, sélectionnez **[!UICONTROL Enregistrer en tant que vue supplémentaire de l’instance principale]**.
 1. Dans la zone de liste **[!UICONTROL Nom de dossier]**, sélectionnez le dossier où enregistrer l’alias de l’image.
 1. Dans le champ **[!UICONTROL Nom de fichier]**, entrez le nom à utiliser pour l’alias.
 1. Sélectionner **[!UICONTROL Enregistrer]**.

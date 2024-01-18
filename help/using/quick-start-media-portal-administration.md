@@ -12,18 +12,18 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 50%
+source-wordcount: '721'
+ht-degree: 56%
 
 ---
 
-# Démarrage rapide :  du portail multimédia{#quick-start-media-portal}
+# Démarrage rapide : Media Portal{#quick-start-media-portal}
 
 Media Portal permet aux entreprises d’acquérir, de contrôler et de distribuer facilement des ressources approuvées à des partenaires et canaux externes, ainsi qu’aux utilisateurs internes d’une entreprise. Cet environnement &quot;libre-service&quot; basé sur un navigateur fournit aux utilisateurs de Media Portal des &quot;vues&quot; contrôlées par l’administrateur dans les ressources Adobe Dynamic Media Classic afin de faciliter l’accès, la navigation, la recherche, la prévisualisation et l’exportation des ressources dans des formats approuvés par l’entreprise.
 
-En tant qu’administrateur, vous contrôlez la manière dont les utilisateurs visualisent, ouvrent et utilisent les fichiers disponibles dans le portail multimédia. Vous pouvez par ailleurs personnaliser l’interface du portail multimédia en fonction de votre site Web et de votre marque. Vous pouvez spécifier la police, la couleur de la police, la taille de la police et incorporer des éléments de marque tels que des logos dans l’interface de Media Portal.
+En tant qu’administrateur, vous contrôlez la manière dont les utilisateurs visualisent, ouvrent et utilisent les fichiers disponibles dans le portail multimédia. Vous pouvez par ailleurs personnaliser l’interface du portail multimédia en fonction de votre site Web et de votre marque. Vous pouvez spécifier la police, la couleur de police, la taille de police et incorporer des éléments de marque tels que des logos dans l’interface de Media Portal.
 
 Consultez les vidéos de formation suivantes :
 
@@ -33,7 +33,7 @@ Consultez les vidéos de formation suivantes :
 
 * [Visite de Media Portal 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
-Le didacticiel de mise en route suivant est conçu pour vous aider à maîtriser rapidement les opérations liées à l’administration de Media Portal. À la fin de chaque étape, sélectionnez le lien de la rubrique pour en savoir plus.
+Le didacticiel de mise en route suivant est conçu pour vous aider à maîtriser rapidement l’administration de Media Portal. À la fin de chaque étape, sélectionnez le lien de la rubrique pour en savoir plus.
 
 ## 1. Compréhension des rôles utilisateur du portail multimédia
 
@@ -61,19 +61,19 @@ Voir [Gestion des comptes FTP](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >
->seuls les administrateurs du portail multimédia peuvent gérer ces comptes FTP. En outre, seuls les utilisateurs affectés du rôle de Contributeur-utilisateur Media Portal ou Contributeur Media Portal peuvent télécharger des fichiers.
+>Seuls les administrateurs du portail multimédia peuvent administrer ces comptes FTP. En outre, seuls les utilisateurs affectés du rôle de Contributeur-utilisateur Media Portal ou Contributeur Media Portal peuvent télécharger des fichiers.
 
 Voir [Rôles utilisateur du portail multimédia](media-portal-user-roles.md#media_portal_user_roles).
 
 ## 5. Configuration des options d’exportation
 
-Les utilisateurs de Media Portal, lorsqu’ils exportent des fichiers, peuvent reformater les fichiers et exporter les fichiers Principaux d’origine — si vous leur accordez l’autorisation de le faire. En effet, en tant qu’administrateur, c’est à vous de décider du mode d’exportation des fichiers par les utilisateurs.
+Les utilisateurs de Media Portal, lorsqu’ils exportent des fichiers, peuvent reformater les fichiers et exporter les fichiers primaires d’origine — si vous leur accordez l’autorisation de le faire. En effet, en tant qu’administrateur, c’est à vous de décider du mode d’exportation des fichiers par les utilisateurs.
 
 Voir [Définition des options d’exportation disponibles pour les utilisateurs de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
 ## 6. Création de paramètres d’image prédéfinis
 
-Un paramètre d’image prédéfini désigne un ensemble de paramètres préétablis qui permettent de modifier la taille, la qualité d’image, le format, la résolution et d’autres attributs de l’apparence d’une image au moment de l’exportation. Les paramètres d’image prédéfinis peuvent servir à contrôler le type de reformatage des images lors de leur exportation.
+Un paramètre d’image prédéfini est un ensemble de paramètres prédéfinis qui modifient la taille, la qualité, le format, la résolution et d’autres aspects de l’apparence d’une image lorsqu’elle est exportée. Les paramètres d’image prédéfinis peuvent servir à contrôler le type de reformatage des images lors de leur exportation.
 
 Voir [Création et activation de paramètres d’image prédéfinis](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
@@ -85,6 +85,6 @@ Voir [Optimisation de l’utilisation des métadonnées](making-efficient-metada
 
 ## 8. Personnalisation de la page Media Portal
 
-Les paramètres de style Media Portal vous permettent de personnaliser la page Media Portal avec le logo et les couleurs de votre entreprise. Utilisez les paramètres de style pour placer la marque de votre entreprise sur Media Portal.
+Les paramètres de style Media Portal vous permettent de personnaliser la page Media Portal à l’aide du logo et des couleurs de votre société. Utilisez les paramètres de style pour placer la marque de votre entreprise sur Media Portal.
 
 Voir [Personnalisation de la page Media Portal](customizing-media-portal-screen.md#customizing_the_media_portal_screen).

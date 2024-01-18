@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -56,4 +56,4 @@ La nouvelle [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] s’appuie s
 * Meilleure performance dans le rapport Plateforme vidéo en ligne de 2016.
 * Meilleur fournisseur de médias riches vers la vente au détail Internet 1000, neuf ans d’affilée.
 * Prise en charge 24/7/265, 99,95 % des contrats de niveau de service, Adobe Professional Services.
-* Infrastructure éprouvée desservant plus de 800 clients dans le monde entier, 3,5 Po de trafic par mois et plus de 500 millions d’actifs en gestion, croissance de 60 % du trafic d’une année à l’autre.
+* Infrastructure éprouvée desservant plus de 800 clients dans le monde entier, 3,5 pétaoctets de trafic par mois et plus de 500 millions d’actifs en gestion, croissance de 60 % du trafic d’une année à l’autre.

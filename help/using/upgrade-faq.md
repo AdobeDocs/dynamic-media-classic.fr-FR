@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1563'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Oui, [!DNL Dynamic Media] utilise le réseau de diffusion de premier niveau robu
 
 * Meilleur fournisseur de médias riches vers la vente au détail Internet 1000, neuf ans d’affilée.
 * 24/7/265 prise en charge, 99,95 % des contrats de niveau de service (SLA).
-* Infrastructure éprouvée desservant plus de 800 clients dans le monde entier, 3,5 Po de trafic par mois et plus de 500 millions d’actifs en gestion, croissance de 60 % du trafic d’une année à l’autre.
+* Une infrastructure éprouvée desservant plus de 800 clients dans le monde entier, 3,5 pétaoctets de trafic par mois et plus de 500 millions d’actifs en gestion, soit une croissance de 60 % du trafic d’une année à l’autre.
 
 +++
 
@@ -113,7 +113,7 @@ Vous pouvez effectuer une mise à niveau lorsque vous êtes prêt à tirer parti
 
 +++
 
-+++**Puis-je continuer à utiliser [!DNL Dynamic Media Classic] (anciennement Adobe Scene7) après avoir effectué la mise à niveau vers [!DNL Dynamic Media]?**
++++**Puis-je encore utiliser [!DNL Dynamic Media Classic] (anciennement Adobe Scene7) après avoir effectué la mise à niveau vers [!DNL Dynamic Media]?**
 Après avoir effectué la mise à niveau vers [!DNL Dynamic Media], vous ne devez utiliser Dynamic Media que pour les images et les vidéos. Vous pouvez continuer à utiliser [!DNL Dynamic Media Classic] uniquement pour les fonctionnalités qui ne sont pas encore disponibles dans [!DNL Dynamic Media] y compris les éléments suivants :
 
 * Configurateur visuel (auteur d’images, rendu d’images).

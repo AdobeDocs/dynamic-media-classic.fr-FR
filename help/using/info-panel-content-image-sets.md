@@ -1,20 +1,18 @@
 ---
 title: Gestion du contenu du panneau Informations dans les visionneuses d’images
-description: Découvrez comment gérer le contenu du panneau d’informations dans les visionneuses d’images d’Adobe Dynamic Media Classic.
-uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
+description: Découvrez comment gérer le contenu du panneau Informations dans les visionneuses d’images d’Adobe Dynamic Media Classic.
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 content-type: reference
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 51%
 
 ---
@@ -26,7 +24,7 @@ Outre l’utilisation de texte de zone cliquable pour vos survols dans les visio
 Vous pouvez gérer la configuration et les données de votre panneau d’informations à l’aide des fonctionnalités suivantes d’Adobe Dynamic Media Classic :
 
 * Le panneau Configuration du panneau d’informations vous permet de définir le modèle utilisé pour afficher le texte du panneau, une réponse par défaut aux erreurs, ainsi que la période de mise en cache (en heures) des informations. Par ailleurs, vous pouvez préciser si la visionneuse d’image est automatiquement publiée.
-* Le panneau Source de données du panneau d’informations vous permet de spécifier un fichier CSV contenant le texte que vous souhaitez afficher dans le texte de survol du panneau d’informations et de planifier les heures de mise à jour des informations.
+* Le panneau Flux de données du panneau Informations vous permet de spécifier un fichier CSV contenant le texte que vous souhaitez afficher dans le texte de survol du panneau d’informations, ainsi que de planifier les heures de mise à jour des informations.
 * La boîte de dialogue Importer les métadonnées vous permet d’importer un fichier TXT délimité par des tabulations contenant les informations sur le texte de survol. Vous pouvez utiliser cette option TXT ou le panneau de flux de données du panneau d’informations avec l’option de fichier CSV pour votre texte de survol.
 
 ## Configuration d’un modèle de réponse pour les visionneuses d’images {#set-up-a-response-template-for-image-sets}
@@ -68,7 +66,7 @@ Lorsque vous effectuez la mise en forme du contenu source, n’oubliez pas les p
 ### Importation de contenu CSV dans les visionneuses d’images à partir d’un emplacement hébergé en externe {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Double-cliquez sur la visionneuse d’images pour l’ouvrir en mode Affichage des détails.
-1. Sélectionner **[!UICONTROL Source de données InfoPanel]**.
+1. Sélectionner **[!UICONTROL Flux de données InfoPanel]**.
 1. Dans le champ de l’emplacement du fichier CSV hébergé en externe (HTTP), entrez l’URL du fichier CSV.
 1. (Facultatif) Dans les champs Mise à jour du planning , indiquez l’heure de mise à jour du contenu, puis sélectionnez **[!UICONTROL Ajouter]**.
 

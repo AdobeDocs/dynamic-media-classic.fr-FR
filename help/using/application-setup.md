@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '11288'
-ht-degree: 38%
+source-wordcount: '10991'
+ht-degree: 37%
 
 ---
 
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic ne permet pas que deux fichiers portent le même nom
 
 Si vous avez précédemment téléchargé des images, puis modifié les fichiers d’origine (ou les avez remplacés), l’option Écraser sélectionnée indique comment Adobe Dynamic Media Classic remplace les images. Aucune donnée sur l’image ne change, mais la nouvelle image remplace l’ancienne. Si le dossier contient également des images qui ne se trouvent pas déjà dans Adobe Dynamic Media Classic, ces images sont ajoutées.
 
-Utilisez cette option si les images que vous avez téléchargées ont changé d’une manière ou d’une autre (l’image a été modifiée), mais que la référence à l’image reste la même. L’écrasement se révèle particulièrement utile lorsque des fichiers Adobe® PDF sont téléchargés puis extraits. Pour affiner la manière dont Adobe Dynamic Media Classic est *rips* Pour l’image, ajustez les options de profil de couleur ICC dans la boîte de dialogue Télécharger , puis effectuez un nouveau chargement à l’aide de la fonction Remplacer .
+Utilisez cette option si les images que vous avez téléchargées ont changé d’une manière ou d’une autre (l’image a été modifiée), mais que la référence à l’image reste la même. Le remplacement s’avère également utile lors du chargement et de l’extraction de PDF d’Adobe®. Pour affiner la manière dont Adobe Dynamic Media Classic est *rips* Pour l’image, ajustez les options de profil de couleur ICC dans la boîte de dialogue Télécharger , puis effectuez un nouveau chargement à l’aide de la fonction Remplacer .
 
 Les Adobe Dynamic Media Classic ID utilisés pour accéder aux images à partir des serveurs de production sont dérivés des noms de fichier image. L’utilisation de caractères majuscules et minuscules dans le nom de fichier est importante, tant pour le remplacement de fichiers existants que pour les Adobe Dynamic Media Classic ID utilisés pour accéder à l’image. Assurez-vous que l’utilisation de caractères majuscules et minuscules dans les noms de fichier est correcte avant de les transférer dans Adobe Dynamic Media Classic afin d’éviter que les Adobe Dynamic Media Classic ID ne diffèrent que par le cas d’une même image.
 
@@ -161,7 +161,7 @@ Les administrateurs peuvent créer des paramètres prédéfinis pour l’exporta
 
 Pour ouvrir l’écran Paramètre d’image prédéfini, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres d’image prédéfinis]**.
 
-Voir [Imagerie dynamique](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+Voir [Imagerie dynamique](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
 
 ### Création et modification des paramètres d’image prédéfinis {#creating-and-editing-image-presets}
 
@@ -193,17 +193,17 @@ Les écrans Ajouter un paramètre prédéfini et Modifier le paramètre prédéf
 
    * Options Quantification de couleurs GIF
 
-      * **[!UICONTROL Type]** - Sélectionnez Adaptatif (valeur par défaut), Web ou Macintosh. Si vous sélectionnez **[!UICONTROL GIF avec Alpha]**, l’option Macintosh n’est pas disponible.
+      * **[!UICONTROL Type]** - Sélectionnez Adaptatif (valeur par défaut), Web ou Mac. Si vous sélectionnez **[!UICONTROL GIF avec Alpha]**, l’option Mac n’est pas disponible.
 
       * **[!UICONTROL Dither]** - Sélectionnez Diffus ou Désactivé.
 
       * **[!UICONTROL Nombre de couleurs]** - Faites glisser le curseur pour entrer 2 à 255.
 
-      * **[!UICONTROL Liste de couleurs]** - Entrez une liste séparée par des virgules. Par exemple, pour le blanc, le gris et le noir, entrez `000000,888888,ffffff`.
+      * **[!UICONTROL Liste de couleurs]** - Entrez une liste séparée par des virgules. Par exemple, pour blanc, gris et noir, saisissez `000000,888888,ffffff`.
 
    * Options JPEG
 
-      * **[!UICONTROL Qualité]** - Contrôle le niveau de compression du JPEG. Ce paramètre affecte à la fois la taille du fichier et la qualité de l’image. L’échelle de qualité du JPEG est de 1 à 100.
+      * **[!UICONTROL Qualité]** - Contrôle le niveau de compression du JPEG. Ce paramètre affecte à la fois la taille du fichier et la qualité de l’image. L’échelle de qualité JPEG s’étend de 1 à 100.
 
       * **[!UICONTROL Activer le sous-échantillonnage de la chrominance JPG]** - Comme l’oeil est moins sensible aux informations colorimétriques à haute fréquence qu’à la luminance à haute fréquence, les images JPEG divisent les informations d’image en composantes de luminance et de couleur. Lorsqu’une image JPEG est compressée, la composante de luminance conserve sa pleine résolution, tandis que les composantes de couleur sont sous-échantillonnées par interpolation, c’est-à-dire le calcul de la moyenne de groupes de pixels. Le sous-échantillonnage réduit le volume des données d’un demi-tiers ou d’un tiers, sans pratiquement avoir d’incidence sur la qualité perçue. La réduction de résolution ne s’applique pas aux images en niveaux de gris. Cette technique réduit le niveau de compression nécessaire pour les images présentant un contraste élevé (par exemple, les images contenant du texte superposé).
 
@@ -223,7 +223,7 @@ Les écrans Ajouter un paramètre prédéfini et Modifier le paramètre prédéf
 
 * **[!UICONTROL Bicubique]** : accroît l’utilisation du processeur sur le serveur d’images, mais produit des images plus nettes avec des artefacts de crénelage plus discrets.
 
-* **[!UICONTROL `Sharp 2`]** - Cette méthode peut produire des images légèrement plus nettes que celles obtenues avec l’option Bicubique, en sollicitant toutefois davantage le processeur du serveur Image Server.
+* **[!UICONTROL `Sharp 2`]** - Peut produire des résultats légèrement plus nets que l’option Bicubique, mais avec un coût processeur encore plus élevé sur le serveur d’images.
 
 * **[!UICONTROL Tri-linéaire]** : utilise des résolutions plus élevées et plus basses, le cas échéant ; recommandé uniquement lorsque le crénelage est un problème. Elle réduit la taille du fichier JPEG en raison des données à haute fréquence réduites.
 
@@ -272,7 +272,7 @@ Voir [Chargement et codage de vidéos](uploading-encoding-videos.md#uploading_an
 
 Voir aussi [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vidéo de formation.
 
-**Activation ou désactivation des paramètres prédéfinis de vidéo adaptative:**
+**Pour activer ou désactiver les paramètres prédéfinis de vidéo adaptative :**
 
 1. Dans le coin supérieur droit d’Adobe Dynamic Media Classic, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres vidéo prédéfinis]** > **[!UICONTROL Paramètres prédéfinis de vidéo adaptative]**.
 1. Sur la page Paramètres prédéfinis de vidéo adaptative, décochez la case située en regard du nom d’un paramètre prédéfini à supprimer de la liste Options eVideo figurant dans la boîte de dialogue Télécharger les options de la tâche.
@@ -336,11 +336,11 @@ Le tableau suivant répertorie les meilleures pratiques recommandées pour la s�
 
 Un paramètre prédéfini de codage qui fonctionne avec n’importe quelle proportion pour permettre la création de vidéos pour une diffusion sur téléphone, tablette et ordinateur de bureau Les vidéos source téléchargées qui sont codées à l’aide de ce paramètre prédéfini (valeur par défaut et recommandée) sont définies sur une hauteur fixe, tandis que la largeur est automatiquement mise à l’échelle afin de préserver les proportions de la vidéo.
 
-**Vidéo adaptative (valeur par défaut)**
+**Vidéo adaptative (par défaut)**
 
 |  | Nom du paramètre prédéfini de codage/Texte de l’info-bulle | Suffixe de fichier codé | Débit de données vidéo (Kb/s) | Largeur/hauteur (pixels) | Nombre d’images par seconde (i/s) | Débit audio (Kbit/s) | Recommandations |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Auto × 360, 800 Kbit/s | _Mobile_Auto×360p_800K | 800 | Auto×360 | Identique à la source | 64 | Mobile (iPhone, iPad, Android™) |
+| 1 | Auto × 360, 800 Kbit/s | _Mobile_Auto×360p_800K | 800 | Auto×360 | Identique à la source | 64 | Pour mobile (iPhone, iPad, Android™) |
 | 2 | Auto × 480, 1 400 Kbit/s | _Tablet_Auto×480p_1400K | 1400 | Auto×480 | Identique à la source | 96 | Pour les tablettes (iPad, Android™) |
 | 3 | Auto × 720, 2 600 Kbit/s | _Desktop_Auto×720p_2600K | 2600 | Auto×720 | Identique à la source | 128 | Pour ordinateur de bureau |
 
@@ -350,7 +350,7 @@ Ces paramètres prédéfinis de codage de vidéo adaptative combinent une série
 
 Pour plus d’informations sur les options de codage, voir [A propos des options de codage prédéfinies](application-setup.md#about_encoding_preset_options).
 
-**Paramètres prédéfinis de codage de vidéo adaptative (16:9 ou 4:3)**
+**Paramètres prédéfinis de codage vidéo adaptatif (16:9 ou 4:3)**
 
 |  | Nom du paramètre prédéfini de codage/Texte de l’info-bulle | Vitesse de connexion cible (Kbit/s) | Suffixe de fichier codé | Débit de données vidéo (Kb/s) | Largeur/hauteur (pixels) | Nombre d’images par seconde (i/s) | Débit audio (Kbit/s) | Recommandations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -358,10 +358,10 @@ Pour plus d’informations sur les options de codage, voir [A propos des options
 | 2 | `4:3, 384x288px, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Identique à la source | 64 | Faible résolution, 3G |
 | 3 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Identique à la source | 64 | Résolution moyenne, 3G |
 | 4 | `4:3, 384x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Mobile_384x288 _600 | 600 | 384 x 288 | Identique à la source | 64 | Résolution moyenne, 3G |
-| 5 | `16:9, 640x360, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x360_800K | 800 | 640 x 360 | Identique à la source | 80 | Résolution moyenne, Wi-Fi |
-| 6 | `4:3, 640x480, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x480_800K | 800 | 640 x 480 | Identique à la source | 80 | Résolution moyenne, Wi-Fi |
-| 7 | `16:9, 768x432, Tablet (iPad, Android&trade;), (1200 Kbps)` | 1,5 Mbit/s | _iPad_768x432_1200K | 1 200 | 768 x 432 | Identique à la source | 96 | Haute résolution, Wi-Fi |
-| 8 | `4:3, 768x576, Tablet (iPad, Android&trade;), (1200 Kbps)` | 1,5 Mbit/s | _iPad_768x576_1200K | 1 200 | 768 x 576 | Identique à la source | 96 | Haute résolution, Wi-Fi |
+| 5 | `16:9, 640x360, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x360_800K | 800 | 640 x 360 | Identique à la source | 80 | Résolution moyenne, WiFi |
+| 6 | `4:3, 640x480, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x480_800K | 800 | 640 x 480 | Identique à la source | 80 | Résolution moyenne, WiFi |
+| 7 | `16:9, 768x432, Tablet (iPad, Android&trade;), (1200 Kbps)` | 1,5 Mbit/s | _iPad_768x432_1200K | 1 200 | 768 x 432 | Identique à la source | 96 | Haute résolution, WiFi |
+| 8 | `4:3, 768x576, Tablet (iPad, Android&trade;), (1200 Kbps)` | 1,5 Mbit/s | _iPad_768x576_1200K | 1 200 | 768 x 576 | Identique à la source | 96 | Haute résolution, WiFi |
 | 9 | `16:9, 1280x720, Desktop, (2000 Kbps)` | 3 Mbits/s | _1280X720_2000K | 2 000 | 1280 x 720 | Identique à la source | 128 | Haute définition, Grand écran |
 | 10 | `4:3, 1280x960, Desktop, (2000 Kbps)` | 3 Mbits/s | _1280X 960_2000K | 2 000 Kbits/s | 1280x960 | Identique à la source | 128 | Haute définition |
 
@@ -371,7 +371,7 @@ Il s’agit des paramètres prédéfinis de codage pour les formats vidéo MP4 e
 
 Pour plus d’informations sur les options de codage prédéfinies, voir [A propos des options de codage prédéfinies](application-setup.md#about_encoding_preset_options).
 
-**H264 Main 3.2 - Audio AAC, Extension de fichier MP4**
+**H264 Main 3.2 - Audio AAC, extension de fichier MP4**
 
 |  | Nom du paramètre prédéfini de codage/Texte de l’info-bulle | Vitesse de connexion cible (Kbit/s) | Suffixe de fichier codé | Débit de données vidéo (Kb/s) | Largeur/hauteur (pixels) | Nombre d’images par seconde (i/s) | Débit audio (Kbit/s) | Recommandations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -391,8 +391,8 @@ Pour plus d’informations sur les options de codage prédéfinies, voir [A prop
 | 1 | 16:9, 480 x 270 (400 Kbits/s, OGG | 500 | _OGG_480x270_400K | 400 | 480 x 270 | Identique à la source | 64 | Résolution grand écran faible |
 | 2 | 16:9, 640 x 360 (800 Kbits/s), OGG | 900 | _OGG_640x360_800K | 800 | 640 x 360 | Identique à la source | 80 | Résolution grand écran moyenne |
 | 3 | 16:9, 800 x 450 (1 200 Kbits/s), OGG | 1,5 Mbit/s | _OGG_800x450_1200K | 1 200 | 800 x 450 | Identique à la source | 96 | Moyenne à haute résolution |
-| 4 | 16:9, 1280 x 720 (2 000 Kbits/s), OGG | 3 Mbits/s | _OGG_1280x720_2000K | 2 000 | 1280 x 720 | Identique à la source | 128 | Haute définition, Grand écran |
-| 5 | 4:3, 320 x 240 (400 kb/s), OGG | 500 | _OGG_320X240_400K | 400 | 320 x 240 | Identique à la source | 64 | Basse résolution |
+| 4 | 16:9, 1 280 x 720 (2 000 Kbit/s), OGG | 3 Mbits/s | _OGG_1280x720_2000K | 2 000 | 1280 x 720 | Identique à la source | 128 | Haute définition, Grand écran |
+| 5 | 4:3, 320 x 240 (400 Kbits/s), OGG | 500 | _OGG_320X240_400K | 400 | 320 x 240 | Identique à la source | 64 | Basse résolution |
 | 6 | 4:3, 480 x 360 (800 Kbits/s), OGG | 900 | _OGG_480x360_800K | 800 | 480 x 360 | Identique à la source | 80 | Résolution moyenne |
 | 7 | 4:3, 640 x 480 (1 200 Kbits/s), OGG | 1,5 Mbit/s | _OGG_640x480_1200K | 1 200 | 640 x 480 | Identique à la source | 96 | Moyenne à haute résolution |
 | 8 | 4:3, 1 280 x 960 (2 000 Kbits/s), OGG | 3 Mbits/s | _OGG_1280x960_2000K | 2 000 | 1280 x 960 | Identique à la source | 128 | Haute définition |
@@ -403,7 +403,7 @@ Identique au débit source. Paramètres prédéfinis de codage vidéo pour les a
 
 Pour plus d’informations sur les options de codage prédéfinies, voir [A propos des options de codage prédéfinies](application-setup.md#about_encoding_preset_options).
 
-**H264 Baseline 2.1 - Audio AAC, Extension de fichier MP4**
+**H264 Baseline 2.1 - Audio AAC, extension de fichier MP4**
 
 |  | Nom du paramètre prédéfini de codage/Texte de l’info-bulle | Vitesse de connexion cible (Kbit/s) | Suffixe de fichier codé | Débit vidéo (Kbit/s) | Hauteur/largeur en pixels | Nombre d’images par seconde (i/s) | Débit audio (Kbit/s) | Recommandations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -426,7 +426,7 @@ Pour plus d’informations sur les options de codage prédéfinies, voir [A prop
 
 Un *paramètre prédéfini de visionneuse* est un ensemble de paramètres qui déterminent comment les utilisateurs voient les fichiers de média enrichi sur leur écran d’ordinateur et périphériques mobiles. En tant qu’administrateur, vous pouvez créer des paramètres de visionneuse prédéfinis. Des paramètres sont disponibles pour un ensemble d’options de configuration de la visionneuse. Vous pouvez, par exemple, modifier la taille d’affichage de la visionneuse, le comportement du zoom, les modes de couleurs, les bordures et les polices.
 
-Pour respecter les bonnes pratiques, utilisez les visionneuses de vidéos Adobe Dynamic Media Classic HTML5. Les paramètres prédéfinis utilisés dans des visionneuses de vidéos HTML5 sont des lecteurs vidéo fiables.
+Pour respecter les bonnes pratiques, utilisez les visionneuses de vidéos Adobe Dynamic Media Classic HTML5. Les paramètres prédéfinis utilisés dans les visionneuses vidéo HTML5 sont des lecteurs vidéo fiables.
 
 En combinant dans un seul lecteur les éléments suivants :
 
@@ -499,14 +499,14 @@ Voir [Notes de mise à jour des références des visionneuses Adobe](https://exp
 
 |  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
-| Visionneuses d’images |  |  |  |  |  |  |
+| Visionneuses de visionneuses d’images |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
 
 |  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
-| Visionneuses d’échantillons |  |  |  |  |  |  |
+| Visionneuses de séries d’échantillons |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_light | HTML5 | X | X | X | X | X |
@@ -519,7 +519,7 @@ Voir [Notes de mise à jour des références des visionneuses Adobe](https://exp
 
 |  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
-| Visionneuses à 360° |  |  |  |  |  |  |
+| Visionneuses à 360° |  |  |  |  |  |  |
 | Universal_HTML5_SpinSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SpinSet_light | HTML5 | X | X | X | X | X |
 
@@ -532,7 +532,7 @@ Adobe Dynamic Media Classic prend en charge la lecture vidéo mobile pour la vid
 
 |  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ | Smartphone BlackBerry® | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| Universal_HTML5_Video (inclut la prise en charge du sous-titrage codé.) Reportez-vous à la section [Meilleure pratique : Utilisation de la visionneuse de vidéos HTML5 universelle.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video (inclut la prise en charge du sous-titrage codé.) Voir [Bonne pratique : utilisation de la visionneuse de vidéos HTML5 universelle.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
 | Universal_HTML5_Video_social(comprend la prise en charge du sous-titrage et des médias sociaux fermés.) | HTML5 | X | X | X | X | X | X | X |
 
 |  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ |
@@ -547,7 +547,7 @@ Le tableau suivant identifie les gestes pris en charge par les visionneuses mobi
 
 |  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
-| Visionneuses d’images |  |  |  |  |  |  |
+| Visionneuses de visionneuses d’images |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
@@ -595,7 +595,7 @@ Voir [Exportation d’un paramètre prédéfini de visionneuse HTML5](applicatio
 
 Voir aussi [Paramètres prédéfinis de la visionneuse](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) vidéo de formation.
 
-**Ajout et modification de paramètres prédéfinis de visionneuse:**
+**Pour ajouter et modifier des paramètres prédéfinis de visionneuse :**
 
 1. Dans le coin supérieur droit d’Adobe Dynamic Media Classic, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 
@@ -676,7 +676,7 @@ Pour créer une URL permettant d’afficher les ressources, les utilisateurs ouv
 
 A moins que vous ne désactiviez les Paramètres prédéfinis de la visionneuse sur l’écran Paramètres prédéfinis de la visionneuse, la liste déroulante Paramètres prédéfinis de la boîte de dialogue Prévisualisation peut très vite être remplie. 
 
-**Activation ou désactivation des paramètres prédéfinis de visionneuse:**
+**Pour activer ou désactiver les paramètres de visionneuse prédéfinis :**
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 1. Sur la page Paramètres visionneuse, sélectionnez ou désélectionnez **[!UICONTROL Actif]** pour activer ou désactiver les paramètres de visionneuse prédéfinis.
@@ -687,7 +687,7 @@ Après avoir publié un fichier, vous pouvez copier une URL pour afficher le fic
 
 L’URL est copiée dans le Presse-papiers. Vous pouvez l’utiliser, selon vos besoins, dans le code HTML de votre page Web, de votre périphérique mobile ou de votre application.
 
-**Copie de l’URL d’un paramètre prédéfini de visionneuse:**
+**Pour copier l’URL d’un paramètre prédéfini de visionneuse :**
 
 1. Sélectionnez le fichier dans le panneau de navigation.
 1. Au-dessus du panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
@@ -711,7 +711,7 @@ La fonction Code incorporé permet de vérifier le code du paramètre prédéfin
 
 Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
-**Copie du code incorporé d’un paramètre prédéfini de visionneuse:**
+**Pour copier le code incorporé d’un paramètre prédéfini de visionneuse :**
 
 1. Sélectionnez le fichier dans le panneau de navigation des fichiers.
 1. Au-dessus du panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
@@ -744,7 +744,7 @@ Vous pouvez utiliser les visionneuses par défaut pour configurer la visionneuse
 * SwatchSet
 * Visionneuse de supports
 
-**Pour configurer les visionneuses par défaut:**
+**Pour configurer les visionneuses par défaut :**
 
 1. Dans la liste déroulante Configuration , sélectionnez **[!UICONTROL Configuration de l’application]**.
 1. Dans la fenêtre Configuration , dans le volet de gauche, accédez à **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Visionneuses]**
@@ -928,7 +928,7 @@ Voir aussi [Création d’un paramètre prédéfini d’ensemble par lot pour la
 
 Voir aussi [Jeu de rotation 2D](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) vidéo de formation.
 
-**Création d’un paramètre prédéfini d’ensemble par lot:**
+**Pour créer un paramètre prédéfini d’ensemble par lot :**
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres prédéfinis d’ensemble par lot]** > **[!UICONTROL Paramètre prédéfini d’ensemble par lot]**. La vue par défaut est la vue **[!UICONTROL Afficher le formulaire]**, comme défini dans le coin supérieur droit de la page Détails.
 1. Dans le panneau Liste des paramètres prédéfinis, sélectionnez **[!UICONTROL Ajouter]** pour activer les champs de définition dans le panneau Détails situé dans la partie droite de la page.
@@ -973,9 +973,9 @@ Avec ces informations, votre recette de type d’ensemble par lot peut être cr�
 
 ![Image de recette d’ensemble par lot](assets/se_batch_set_recipe.png)
 
-Le regroupement de la partie du nom de ressource partagée de la visionneuse à 360° est ajouté au champ Correspondance (comme mis en surbrillance). La partie variable du nom de ressource contenant la ligne et la colonne est ajoutée aux champs Ligne et Colonne, respectivement.
+Le regroupement de la partie du nom de ressource partagée de la visionneuse à 360° est ajouté au champ Correspondance (comme mis en surbrillance). La partie variable du nom de ressource contenant la ligne et la colonne est ajoutée respectivement aux champs Ligne et Colonne .
 
-Lorsque la visionneuse à 360° est chargée et publiée, vous activez le nom de la recette de la visionneuse 2D à 360° répertoriée sous **[!UICONTROL Paramètres prédéfinis d’ensemble par lot]** dans la boîte de dialogue Télécharger les options de la tâche.
+Lorsque la visionneuse à 360° est téléchargée et publiée, vous activez le nom de la recette de la visionneuse à 360° en 2D répertoriée sous **[!UICONTROL Paramètres prédéfinis d’ensemble par lot]** dans la boîte de dialogue Télécharger les options de la tâche.
 
 **Pour créer un paramètre prédéfini d’ensemble par lot pour la génération automatique d’une visionneuse à 360° en 2D :**
 

@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 64%
+source-wordcount: '1008'
+ht-degree: 55%
 
 ---
 
@@ -80,7 +80,7 @@ Vous pouvez utiliser les champs suivants dans l’URL de requête pour récupér
 | Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
 | --- | --- | --- |
 | op | Obligatoire | get_uploadtoken |
-| shared_secret | Obligatoire | La clé de secret partagé de l’entreprise qui procède au téléchargement. |
+| shared_secret | Obligatoire | Clé secrète partagée de l’entreprise qui effectue le téléchargement. |
 | expires | Facultatif | Durée de validité (en secondes) du jeton de téléchargement. Valeur par défaut : 300 secondes. |
 
 **Exemple d’URL d’image pixellisée :**
@@ -118,7 +118,7 @@ Vous pouvez également envoyer d’autres valeurs facultatives comme chaînes de
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-La variable `file_limit` spécifie la limite de taille de fichier en octets. Le paramètre `file_exts` spécifie les extensions de nom de fichier admises pour le téléchargement. Ces deux valeurs sont facultatives.
+La variable `file_limit` spécifie la limite de taille de fichier en octets. La variable `file_exts` spécifie les extensions de nom de fichier autorisées pour le téléchargement. Ces deux valeurs sont facultatives.
 
 Une limite globale est définie dans l’application pour la taille limite des fichiers et les extensions de nom de fichier autorisées. Si le contenu de votre requête se trouve dans les limites globales, celle-ci est satisfaite. Les limites globales sont les suivantes :
 
@@ -129,14 +129,14 @@ Une limite globale est définie dans l’application pour la taille limite des f
 
 Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier. L’utilisateur est invité à entrer les informations suivantes :
 
-* Nom de l’entreprise.
-* Jeton de téléchargement.
-* Taille limite de fichier.
+* Nom de la société.
+* Jeton de chargement.
+* Limite de taille de fichier.
 * Liste des extensions de nom de fichier.
 * Permet de conserver le profil colorimétrique et le nom de fichier associés à la ressource.
 * Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les méthodes Coin, Tolérance et Remplir.
 Voir Masquage de l’arrière-plan dans [Options d’optimisation des images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
-* Nom du fichier à télécharger.
+* Nom du fichier à charger.
 
 Vous pouvez afficher le code source du HTML associé au formulaire ci-dessus en sélectionnant [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
@@ -170,7 +170,7 @@ Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi�
 >
 >le fichier téléchargé (JPG, GIF, etc.) est converti au format PTIFF et un lien direct vers ce fichier PTIFF est envoyé dans la réponse.
 
-Ce fichier est semblable à n’importe quelle autre ressource ImageServing ; vous pouvez lui appliquer des requêtes de traitement. Par exemple, l’URL suivante demande un fichier étiré à la largeur et à la hauteur spécifiées.
+Ce fichier est semblable à n’importe quelle autre ressource ImageServing ; vous pouvez lui appliquer des requêtes de traitement. Par exemple, l’URL suivante demande une ressource étirée sur la largeur et la hauteur spécifiées.
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
@@ -185,8 +185,8 @@ Envoyez le fichier à télécharger en tant que publication de formulaire ou en 
 | `company_name` | Obligatoire | Nom de l’entreprise qui réalise le téléchargement. |
 | `file_limit` | Facultatif | Taille limite du fichier (en octets). |
 | `file_exts` | Facultatif | Liste des extensions de fichiers d’image autorisées. |
-| `preserve_colorprofile` | Facultatif | Conservation de tout profil de couleur incorporé avec conversion du fichier téléchargé au format PTIFF. Les valeurs possibles sont vrai ou faux. La valeur par défaut est faux. |
-| `preserve_filename` | Facultatif | Conservation du nom du fichier téléchargé. Les valeurs possibles sont vrai ou faux. La valeur par défaut est faux. |
+| `preserve_colorprofile` | Facultatif | Conservation de tout profil de couleur incorporé avec conversion du fichier téléchargé au format PTIFF. Les valeurs possibles sont vrai ou faux. Faux par défaut. |
+| `preserve_filename` | Facultatif | Conservation du nom du fichier téléchargé. Les valeurs possibles sont vrai ou faux. Faux par défaut. |
 
 >[!NOTE]
 >
@@ -202,7 +202,7 @@ POST
 
 ### Obtention des métadonnées de ressource pour les images {#getting-asset-metadata-for-images}
 
-Vous pouvez utiliser `image_info` pour récupérer les métadonnées d’un fichier que vous avez téléchargé, comme indiqué dans l’exemple suivant :
+Vous pouvez utiliser `image_info` pour récupérer les métadonnées d’une ressource que vous avez chargée, comme illustré dans l’exemple suivant :
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
@@ -237,7 +237,7 @@ Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pou
 | Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
 | --- | --- | --- |
 | `op` | Obligatoire | image_info |
-| `shared_secret` | Obligatoire | La clé de secret partagé de l’entreprise. |
+| `shared_secret` | Obligatoire | Clé secrète partagée pour la société. |
 | `image_name` | Obligatoire | Nom de l’image. |
 
 **Exemple d’URL :**

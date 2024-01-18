@@ -12,10 +12,10 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 23%
+source-wordcount: '1620'
+ht-degree: 24%
 
 ---
 
@@ -43,7 +43,7 @@ Sur l’onglet Historique de la page Tâches, les tâches sont répertoriées se
 
 * **[!UICONTROL Total]** - Nombre de fichiers transférés.
 
-* **[!UICONTROL W (warnings)]** - Nombre d’avertissements dans la tâche (le cas échéant). Les avertissements indiquent des problèmes associés à la tâche qui sont sans effet sur son exécution globale. Ces avertissements peuvent généralement être ignorés parce qu’ils sont signalés dans des fichiers masqués. Par exemple : `.DS_store` Les fichiers (Macintosh) et les fichiers Thumbs.db (Windows®) contiennent des informations sur l’affichage des fichiers image aux utilisateurs. Les entrées d’avertissement concernant ces fichiers peuvent toutefois être ignorées, car elles ne concernent pas la manière dont ces fichiers sont utilisés dans Adobe Dynamic Media Classic. Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les avertissements la concernant.
+* **[!UICONTROL W (warnings)]** - Nombre d’avertissements dans la tâche (le cas échéant). Les avertissements indiquent des problèmes associés à la tâche qui sont sans effet sur son exécution globale. Ces avertissements peuvent généralement être ignorés parce qu’ils sont signalés dans des fichiers masqués. Par exemple : `.DS_store` Les fichiers (Mac) et les fichiers Thumbs.db (Windows®) contiennent des informations sur l’affichage des fichiers image aux utilisateurs. Les entrées d’avertissement concernant ces fichiers peuvent toutefois être ignorées, car elles ne concernent pas la manière dont ces fichiers sont utilisés dans Adobe Dynamic Media Classic. Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les avertissements la concernant.
 
 * **[!UICONTROL E (Erreurs)]** - Répertorie le nombre d’erreurs dans la tâche (le cas échéant). Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les erreurs la concernant.
 
@@ -119,11 +119,11 @@ Ce tableau indique les incréments temporels, leurs valeurs autorisées et les c
 
 | Incréments temporels | Valeurs autorisées | Commentaires | Caractères génériques pris en charge |
 |--- |--- |--- |--- |
-| Secondes | 0 à 59 |  | `, - * /` |
+| Secondes | 0-59 |  | `, - * /` |
 | Minutes | 0-59 |  | `, - * /` |
-| Heures | 0 à 23 | Notez l’utilisation d’une horloge à cycle de 24 heures. | `, - * /` |
+| Heures | 0-23 | Notez l’utilisation d’une horloge à cycle de 24 heures. | `, - * /` |
 | Jour du mois | 1-31 | Vous ne pouvez pas spécifier de valeur numérique pour &quot;jour du mois&quot; et &quot;jour de la semaine&quot;. L’un de ces champs doit utiliser une `?` caractère générique. | `, - * / ? L C` |
-| Mois | 1er-12 ou 1er janvier, février, mars, avril, mai, juin, juillet, août, septembre, septembre, octobre, novembre, décembre | Les valeurs sont sensibles à la casse. | `, - * /` |
+| Mois | 1-12 ou jan, fév, mar, avr, mai, jun, jul, aoû, sep, oct, nov, déc | Les valeurs sont sensibles à la casse. | `, - * /` |
 | Jour de la semaine | Lun, Mar, Mer, Jeu, Ven, Sam, Dim | Les valeurs sont sensibles à la casse. Vous ne pouvez pas spécifier de valeur numérique pour &quot;jour du mois&quot; et &quot;jour de la semaine&quot;. L’un de ces champs doit utiliser une `?` caractère générique. | `, - * / ? L C #` |
 | Année (facultatif) | Vide ou 1970-2099 |  | `, - * /` |
 

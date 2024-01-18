@@ -12,10 +12,10 @@ role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '3468'
-ht-degree: 44%
+source-wordcount: '3420'
+ht-degree: 41%
 
 ---
 
@@ -50,7 +50,7 @@ Vous pouvez créer un modèle à partir d’un modèle existant. Ouvrez le modè
 
    * **Démarrage à partir de l’écran Modèle** - Accédez à **[!UICONTROL Build]** > **[!UICONTROL Concepts de base des modèles]**. Sélectionnez Concepteur ou Développeur.
 
-1. Dans la boîte de dialogue Saisir la taille de la zone de travail, entrez la largeur et la hauteur de votre modèle.
+1. Dans la boîte de dialogue Saisir la taille de la zone de travail, saisissez les mesures de largeur et de hauteur de votre modèle.
 1. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser le fichier PSD ou les images de votre modèle sur l’écran correspondant.
 1. Une fois terminé, près de l’angle inférieur droit de la page, vérifiez que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
 1. Sélectionner **[!UICONTROL Enregistrer]**.
@@ -80,11 +80,11 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 ## Suppression d’un modèle {#deleting-a-template}
 
-Lorsque vous supprimez une visionneuse de modèles, celle-ci est placée dans la corbeille. Toutefois, les membres (ou « enfants ») de cette visionneuse ne sont pas affectés : ils conservent en fait leur état existant publié ou non publié.
+Lorsque vous supprimez une visionneuse de modèles, celle-ci est placée dans la corbeille. Cependant, les membres (ou &quot;enfants&quot;) de cet ensemble ne sont pas affectés ; au lieu de cela, ils conservent chacun leur état publié ou non publié existant.
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
-**Pour supprimer un modèle:**
+**Pour supprimer un modèle :**
 
 1. En mode Affichage de la grille, Affichage par liste ou Affichage des détails, sélectionnez un ou plusieurs modèles.
 1. Dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer]** > **[!UICONTROL Supprimer]**.
@@ -103,7 +103,7 @@ Utilisez ces outils dans l’écran Modèle pour créer des modèles :
 
 * **[!UICONTROL Résumé des paramètres]** Ouvre l’écran Résumé des paramètres. Vous pouvez voir le nom de tous les calques d’un modèle, et sur chaque calque, le nom des paramètres qui ont été activés.
 
-* **[!UICONTROL Éditeur de texte v4.3 et Éditeur de texte v4.2]** - Vous pouvez choisir d’utiliser la dernière version et la version la plus complète de l’éditeur de texte, l’éditeur de texte v4.3, ou l’ancien éditeur de texte, l’éditeur de texte v4.2. Lors de la création de modèles, l’éditeur de texte v4.3 est sélectionné par défaut. Pour la modification d’anciens modèles, l’Editeur de texte v4.2 est sélectionné par défaut. L’Editeur de texte v4.3 ne prend pas en charge le renvoi à la ligne. Par conséquent, pour modifier d’anciens modèles utilisant le renvoi à la ligne et y rester fidèle, utilisez l’Editeur de texte v4.2. Si votre ancien modèle n’utilise pas de retour automatique à la ligne, vous pouvez choisir l’éditeur de texte v4.3 pour profiter des nombreuses nouvelles fonctionnalités qu’il propose. Par exemple, Augmentez les marges, Réduisez les marges, Définissez le texte en majuscules et Copiez le texte dans la zone appropriée.
+* **[!UICONTROL Éditeur de texte v4.3 et Éditeur de texte v4.2]** - Vous pouvez choisir d’utiliser la dernière version et la version la plus complète de l’éditeur de texte, l’éditeur de texte v4.3, ou l’ancien éditeur de texte, l’éditeur de texte v4.2. Lors de la création de modèles, l’éditeur de texte v4.3 est sélectionné par défaut. Pour la modification d’anciens modèles, l’Editeur de texte v4.2 est sélectionné par défaut. L’éditeur de texte v4.3 ne prend actuellement pas en charge le retour automatique à la ligne. Par conséquent, lors de la modification d’anciens modèles qui utilisent le retour automatique à la ligne, utilisez l’éditeur de texte v4.2 pour préserver la fidélité du modèle. Si votre ancien modèle n’utilise pas de retour automatique à la ligne, vous pouvez choisir l’éditeur de texte v4.3 pour profiter des nombreuses nouvelles fonctionnalités qu’il propose. Par exemple, Augmentez les marges, Réduisez les marges, Définissez le texte en majuscules et Copiez le texte dans la zone appropriée.
 
   >[!NOTE]
   >
@@ -146,7 +146,7 @@ Pour mettre en forme le texte dans un calque de texte, procédez comme suit :
 1. Dans la zone de texte de l’éditeur de texte, sélectionnez le texte à mettre en forme. Vous pouvez sélectionner tout le texte, des parties du texte ou des caractères individuels.
 1. Spécifiez l’une des options de formatage suivantes, puis sélectionnez **[!UICONTROL Appliquer]**.
 
-   * **[!UICONTROL Police]** - Sélectionnez une police dans le menu Police. Si une police souhaitée n’apparaît pas dans le menu, vous pouvez la charger dans Adobe Dynamic Media Classic. (voir Polices).
+   * **[!UICONTROL Police]** - Sélectionnez une police dans le menu Police. Si une police souhaitée n’apparaît pas dans le menu, vous pouvez la charger dans Adobe Dynamic Media Classic. Voir Polices.
 
    * **[!UICONTROL Taille de police]** - Choisissez une taille de police dans le menu, saisissez une taille spécifique dans la zone ou sélectionnez l’option **[!UICONTROL Monter]** ou **[!UICONTROL Descendre]** flèches permettant d&#39;augmenter ou de réduire la taille de deux points.
 
@@ -164,7 +164,7 @@ Pour mettre en forme le texte dans un calque de texte, procédez comme suit :
 
    * **[!UICONTROL Interligne]** : saisissez ou sélectionnez une valeur numérique en fonction de laquelle ajuster l’espace entre les lignes.
 
-   * **[!UICONTROL Décalage vertical]** : saisissez ou sélectionnez une valeur numérique par laquelle déplacer un caractère sélectionné vers le haut ou vers le bas par rapport à la ligne de base du texte environnant. Cette option est particulièrement utile lorsque vous composez des fractions manuellement ou que vous modifiez la position des images texte.
+   * **[!UICONTROL Décalage vertical]** : saisissez ou sélectionnez une valeur numérique par laquelle déplacer un caractère sélectionné vers le haut ou vers le bas par rapport à la ligne de base du texte environnant. Cette option est particulièrement utile lorsque vous définissez des fractions manuellement ou que vous ajustez la position des graphiques intégrés.
 
 >[!NOTE]
 >
@@ -248,7 +248,7 @@ Les calques doivent être suffisamment petits pour tenir dans la zone de travail
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic recommande de créer un paramètre d’image prédéfini de la taille exacte de votre modèle. Travailler avec un paramètre d’image prédéfini et un modèle de taille identique permet de définir correctement la taille de sortie finale et les options d’accentuation du modèle. Une fois que vous avez créé ce paramètre d’image prédéfini, vous pouvez le sélectionner dans le menu Appliquer le paramètre prédéfini de l’écran Prévisualisation du modèle. L’écran montre l’image telle qu’elle sera diffusée depuis le serveur Voir [Configuration des paramètres d’image prédéfinis](setting-image-presets.md#setting_up_image_presets).
+>Adobe Dynamic Media Classic recommande de créer un paramètre d’image prédéfini de la taille exacte de votre modèle. Travailler avec un paramètre d’image prédéfini et un modèle de taille identique permet de définir correctement la taille de sortie finale et les options d’accentuation du modèle. Après avoir créé ce paramètre d’image prédéfini, vous pouvez le choisir dans le menu Appliquer le paramètre prédéfini de l’écran Aperçu du modèle. L’écran montre l’image telle qu’elle sera diffusée depuis le serveur Voir [Configuration des paramètres d’image prédéfinis](setting-image-presets.md#setting_up_image_presets).
 
 * **Modification de la taille d’un calque** - Pour modifier la taille d’un calque ou de la zone de travail, sélectionnez le calque ou la zone de travail dans la liste Calques et utilisez l’une des techniques suivantes :
 

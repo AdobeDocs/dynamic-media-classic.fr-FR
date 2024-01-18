@@ -12,9 +12,9 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: '2198'
 ht-degree: 38%
 
 ---
@@ -45,7 +45,7 @@ Voir [Bonnes pratiques relatives à l’accentuation des images dans Adobe Dynam
 
 Voir aussi [Accentuation](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) vidéo de formation.
 
-**Pour accentuer une image:**
+**Pour accentuer une image :**
 
 Pour accentuer une image, sélectionnez son survol **[!UICONTROL Modifier]** et choisissez **[!UICONTROL Accentuer]** ou ouvrez-la dans le panneau de navigation de la vue Détails, puis sélectionnez **[!UICONTROL Accentuer]**. La page Éditeur d’accentuation s’ouvre avec des commandes d’accentuation. Choisissez des commandes, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
@@ -60,16 +60,16 @@ Le tableau suivant présente les options d’accentuation du serveur Image Serv
 | Nom | Protocole d’URL | Valeurs | Exemple |
 | --- | --- | --- | --- |
 | Accentuation simple | `op_sharpen` | `0` ou `1` | `op_sharpen=1` |
-| Mode de ré-échantillonnage | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: sélectionne l’interpolation binaire standard. Méthode de rééchantillonnage la plus rapide ; certains artefacts de crénelage sont souvent visibles.<br>`bicub`: sélectionne l’interpolation bicubique. Bien qu’elle sollicite davantage le processeur que `bilin`, cette méthode produit des images plus nettes avec des artefacts de crénelage plus discrets.<br><br>`sharp2`: sélectionne une fonction Lanczos Windows® modifiée comme algorithme d’interpolation. Peut produire des résultats légèrement plus nets que le bi-cube à un coût CPU plus élevé.<br><br>`trilin` : sélectionne une interpolation trilinéaire modifiée qui utilise les deux résolutions supérieure et inférieure lorsqu’elles sont disponibles. Méthode recommandée si le crénelage devient problématique. Elle réduit la taille des fichiers JPEG en raison des données à haute fréquence réduites. | `resMode=sharp2` |
+| Mode de ré-échantillonnage | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: sélectionne l’interpolation binaire standard. Méthode de rééchantillonnage la plus rapide ; certains artefacts de crénelage sont souvent visibles.<br>`bicub`: sélectionne l’interpolation bicubique. Plus gourmande en processeur que `bilin`, mais produit des images plus nettes avec des artefacts de crénelage plus discrets.<br><br>`sharp2`: sélectionne une fonction Lanczos Windows® modifiée comme algorithme d’interpolation. Peut produire des résultats légèrement plus nets que le bi-cube à un coût CPU plus élevé.<br><br>`trilin`: sélectionne une interpolation trilinéaire modifiée, qui, si elle est disponible, utilise des résolutions supérieure et inférieure. Méthode recommandée si le crénelage devient problématique. Elle réduit la taille des fichiers JPEG en raison des données à haute fréquence réduites. | `resMode=sharp2` |
 | Masquage flou | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: facteur de force du filtre (réel 0...5)<br><br>`radius`: rayon du noyau du filtre en pixels (réel 0...250) <br><br>`threshold`: niveau seuil de filtrage (int 0...255)<br><br>`monochrome`: défini sur `0` pour masquer séparément chaque composant de couleur, définissez sur `1` pour masquer la luminosité de l’image (intensité) | `op_usm=1,1,10,0` |
 
 Sélectionnez la variable **[!UICONTROL Accentuation]** et choisissez une option :
 
 * **Aucun** - Désactive l’accentuation.
 
-* **Accentuer** : exécute une simple transmission d’accentuation sur le fichier après son redimensionnement. Il est similaire au filtre &quot;Accentuer&quot; dans Adobe Photoshop et prend en charge tous les paramètres utilisateur. Normalement, vous utiliseriez ce filtre ou **[!UICONTROL Accentuation]**, mais pas les deux. Cette méthode n’est pas recommandée comme meilleure pratique, mais elle permet de compenser le flou. (URL: `op_sharpen`)
+* **Accentuer** : exécute une simple transmission d’accentuation sur le fichier après son redimensionnement. Il est similaire au filtre &quot;Accentuer&quot; dans Adobe Photoshop et prend en charge tous les paramètres utilisateur. Normalement, vous utiliseriez ce filtre ou **[!UICONTROL Accentuation]**, mais pas les deux. Cette méthode n’est pas recommandée comme meilleure pratique, mais elle permet de compenser le flou. (URL : `op_sharpen`)
 
-* **Accentuation** - Permet d’affiner l’effet d’un filtre d’accentuation sur l’image finale à résolution réduite. Vous pouvez contrôler l’intensité de l’effet, son rayon (mesuré en pixels) et un seuil de contraste qui est ignoré. Cet effet utilise les mêmes options que le filtre &quot;Masquage flou&quot; de Photoshop. (URL: `op_usm`)
+* **Accentuation** - Permet d’affiner l’effet d’un filtre d’accentuation sur l’image finale à résolution réduite. Vous pouvez contrôler l’intensité de l’effet, son rayon (mesuré en pixels) et un seuil de contraste qui est ignoré. Cet effet utilise les mêmes options que le filtre &quot;Masquage flou&quot; de Photoshop. (URL : `op_usm`)
 
 Sélectionnez ces options afin d’affiner l’accentuation à l’aide du masquage flou :
 
@@ -89,7 +89,7 @@ Par exemple, supposons que vous ayez une photo du visage de quelqu&#39;un. Le ma
 
 * **Appliquer à** - Choose **[!UICONTROL Chaque couleur]** si vous souhaitez appliquer l’accentuation séparément à chaque composant de couleur, choisissez **[!UICONTROL Luminosité]** si vous souhaitez appliquer l’accentuation aux zones de luminosité de l’image.
 
-**Ré-échantillonnage**
+**Rééchantillonnage**
 
 Sélectionnez la variable **[!UICONTROL Rééchantillonnage]** et choisissez une option. Les options suivantes permettent d’accentuer l’image lorsque sa résolution est réduite :
 
@@ -114,13 +114,13 @@ Les paramètres d’image prédéfinis peuvent être modifiés et mis à jour à
 
 Si vous utilisez un paramètre prédéfini pour chaque image dans une catégorie de taille, tout administrateur d’entreprise peut mettre à jour ce paramètre d’image prédéfini, republier et affecter toutes les images qui utilisent ce format, sans aucune modification du code du site Web. En règle générale, utilisez un paramètre d’image prédéfini par taille unique sur votre site. Pour ajouter un paramètre d’image prédéfini, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres de l’application]** > **[!UICONTROL Paramètres d’image prédéfinis]**. Sélectionnez **[!UICONTROL Ajouter]** ou sélectionnez **[!UICONTROL Modifier]** pour modifier un paramètre prédéfini existant. Le seul champ obligatoire est le nom du paramètre prédéfini lui-même. Cependant, il est préférable d’inclure un certain niveau d’accentuation dans chaque paramètre prédéfini.
 
-**Qualité JPG**
+**Qualité du JPG**
 
 Les options de qualité JPG contrôlent le niveau de compression JPG :
 
 * **Qualité du JPG** - Sélectionnez cette option si vous souhaitez contrôler les niveaux de compression et le sous-échantillonnage de chrominance.
 
-* **Curseur** - Détermine le niveau de compression du JPG. Ce paramètre affecte à la fois la taille du fichier et la qualité de l’image. L’échelle de qualité du JPG est de 1 à 100.
+* **Curseur** - Détermine le niveau de compression du JPG. Ce paramètre affecte à la fois la taille du fichier et la qualité de l’image. L’échelle de la qualité JPG s’étend de 1 à 100.
 
 * **Activer le sous-échantillonnage de la chrominance JPG** - Comme l’oeil est moins sensible aux informations colorimétriques à haute fréquence qu’à la luminance à haute fréquence, les images JPEG divisent les informations d’image en composantes de luminance et de couleur. Lorsqu’une image JPEG est compressée, la composante de luminance conserve sa pleine résolution, tandis que les composantes de couleur sont sous-échantillonnées par interpolation, c’est-à-dire le calcul de la moyenne de groupes de pixels. Le sous-échantillonnage réduit le volume des données d’un demi-tiers ou d’un tiers, sans pratiquement avoir d’incidence sur la qualité perçue. La réduction de résolution ne s’applique pas aux images en niveaux de gris. Cette technique réduit le niveau de compression nécessaire pour les images présentant un contraste élevé (par exemple, les images contenant du texte superposé).
 
@@ -128,7 +128,7 @@ Les options de qualité JPG contrôlent le niveau de compression JPG :
 
 Sans paramètre d’image prédéfini ou de protocole d’accentuation spécifique au serveur Image Server en plus de la chaîne de l’URL, votre image n’est pas accentuée lorsque sa résolution est réduite. Cependant, si cette absence d’accentuation se produit, vous pouvez définir des valeurs d’accentuation par défaut, puis n’importe quelle image a toujours une certaine accentuation.
 
-Pour définir les options d’accentuation par défaut de votre entreprise, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]** > **[!UICONTROL Serveur d’images]**. Si vous définissez le mode Rééchantillonnage par défaut sur **[!UICONTROL `Sharp2`]**, l’image est toujours accentuée lors du sous-échantillonnage.
+Pour définir les options d’accentuation par défaut de votre entreprise, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]** > **[!UICONTROL Serveur d’images]**. Si vous définissez le mode Rééchantillonnage par défaut sur **`Sharp2`**, l’image est toujours accentuée lors du sous-échantillonnage.
 
 **Ajout de l’accentuation aux paramètres prédéfinis de la visionneuse**
 
@@ -140,7 +140,7 @@ Voir [Paramètres prédéfinis de la visionneuse](https://s7d5.scene7.com/s7view
 
 Les options des modificateurs se trouvent dans la section des paramètres principaux de tous les paramètres prédéfinis de visionneuse de zoom personnalisés, du catalogue électronique et de rotation. En ajoutant les commandes d’accentuation de l’URL à la boîte de dialogue des modificateurs, vous ajoutez l’accentuation chaque fois que cette visionneuse est appelée avec ce paramètre prédéfini de visionneuse.
 
-Pour appeler le paramètre prédéfini de la visionneuse, utilisez la méthode `config=` sur l’URL de la visionneuse. Voici un exemple de l’appel d’une visionneuse d’images (chaussures) avec un paramètre prédéfini de la visionneuse (`FantasticoZoom2022`):
+Pour appeler le paramètre prédéfini de la visionneuse, utilisez la méthode `config=` sur l’URL de la visionneuse. Voici un exemple d’appel d’une visionneuse d’images (chaussures) avec un paramètre prédéfini de visionneuse (`FantasticoZoom2022`) :
 
 `https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=S7train/FantasticoZoom2022`
 

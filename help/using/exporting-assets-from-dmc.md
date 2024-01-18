@@ -1,6 +1,6 @@
 ---
 title: Exportation de ressources à partir d’Adobe Dynamic Media Classic
-description: Découvrez comment exporter des ressources à partir d’Adobe Dynamic Media Classic.
+description: Découvrez comment exporter des ressources d’Adobe Dynamic Media Classic.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: Rick Brough
 content-type: reference
@@ -12,10 +12,10 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 51%
+source-wordcount: '437'
+ht-degree: 48%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Dynamic Media Classic conserve un enregistrement des tâches d’exportati
 
    * **[!UICONTROL Conversion]** - Convertissez le fichier de ressource ou l’image d’origine.
 
-   * **[!UICONTROL Taille]** - Vous pouvez sélectionner une taille standard. Vous pouvez également sélectionner **[!UICONTROL Autre]** de la **[!UICONTROL Taille]** , choisissez l’unité de mesure souhaitée, puis définissez la largeur et la hauteur.
+   * **[!UICONTROL Taille]** - Vous pouvez sélectionner une taille standard. Vous pouvez également sélectionner **[!UICONTROL Autre]** de la **[!UICONTROL Taille]** , choisissez l’unité de mesure souhaitée, puis indiquez la largeur et la hauteur.
 
      Voir aussi [Définition des options d’exportation disponibles pour les utilisateurs de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
@@ -46,9 +46,9 @@ Adobe Dynamic Media Classic conserve un enregistrement des tâches d’exportati
 
    * **[!UICONTROL Résolution]** - Choisissez 72 ppp, 150 ppp ou 300 ppp.
 
-   * **[!UICONTROL Nom de la tâche]** - Vous pouvez attribuer un nom de tâche à l’exportation.
+   * **[!UICONTROL Job Name]** - Vous pouvez attribuer un nom de tâche à l’exportation.
 
-   * **[!UICONTROL Envoyer un courrier électronique à]** - Vous pouvez éventuellement saisir une adresse électronique si vous envisagez d’envoyer les ressources par courrier électronique. Le message e-mail indique l’URL à laquelle le destinataire peut accéder pour télécharger les fichiers.
+   * **[!UICONTROL Envoyer un courrier électronique à]** - Vous pouvez éventuellement saisir une adresse électronique si vous souhaitez envoyer les ressources par courrier électronique. Le message e-mail indique l’URL à laquelle le destinataire peut accéder pour télécharger les fichiers.
 
 1. Sélectionner **[!UICONTROL Exporter]**.
 
@@ -67,7 +67,7 @@ Il est impossible d’exporter les types de fichier suivants Tous les autres gé
 * Visionneuses à débit multiple
 * Catalogues électroniques
 
-Par ailleurs, les modèles ne peuvent être exportés en tant que « fichier d’origine ».
+En outre, les modèles ne peuvent pas être exportés en tant que &quot;fichier d’origine&quot;.
 
 Pour exporter les types de fichier suivants, utilisez la conversion :
 
@@ -75,7 +75,7 @@ Pour exporter les types de fichier suivants, utilisez la conversion :
 * Modèles
 * Images modifiées
 * PDF (génère des pages converties)
-* Postscript®
+* PostScript®
 
 Le chargement de nombreux types de fichier divers dans l’outil d’exportation entraîne les comportements suivants :
 

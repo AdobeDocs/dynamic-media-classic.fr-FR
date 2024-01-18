@@ -6,10 +6,10 @@ user-guide-title: Guide Adobe Dynamic Media Classic
 breadcrumb-title: Guide Dynamic Media Classic
 user-guide-description: En savoir plus sur l’utilisation d’Adobe Dynamic Media Classic
 index: y
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 26%
+source-wordcount: '795'
+ht-degree: 20%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 26%
    + [Services de formation Adobe](training-services.md)
    + [Ressources d’apprentissage les plus populaires](popular-resources.md)
    + [Vidéos de formation](training-videos.md)
-+ Démarrage rapide {#getting-started}
++ Prise en main {#getting-started}
    + [Présentation du programme Adobe Dynamic Media Classic](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Connexion et déconnexion](signing-out.md)
@@ -51,23 +51,23 @@ ht-degree: 26%
    + [Configuration de l’administration](administration-setup.md)
 + Media Portal {#media-portal}
    + [Configuration requise pour Media Portal dans Adobe Dynamic Media Classic](system-requirements-media-portal.md)
-   + [Démarrage rapide :  du portail multimédia](quick-start-media-portal-administration.md)
+   + [Démarrage rapide : Media Portal](quick-start-media-portal-administration.md)
    + [Rôles utilisateur du portail multimédia](media-portal-user-roles.md)
    + [Création et gestion des groupes Media Portal](creating-media-portal-groups.md)
    + [Ajout et gestion des utilisateurs de Media Portal](adding-media-portal-users.md)
-   + [Gestion des comptes FTP](ftp-accounts.md)
+   + [Gestion des comptes FTP](ftp-accounts.md)
    + [Définition d’options d’exportation disponibles pour les utilisateurs de Media Portal](specifying-export-options-available-media.md)
    + [Création et activation de paramètres d’image prédéfinis](creating-enabling-image-presets.md)
    + [Utilisation plus efficace des métadonnées](making-efficient-metadata.md)
-   + [Personnalisation de l’écran du portail multimédia](customizing-media-portal-screen.md)
-+ Téléchargement et publication de fichiers {#upload-publish}
+   + [Personnalisation de l’écran Media Portal](customizing-media-portal-screen.md)
++ Chargement et publication de ressources {#upload-publish}
    + [À propos du chargement et de la publication de ressources](about-asset-upload-publish.md)
    + [Téléchargement de fichiers](uploading-files.md)
    + [Publication de fichiers](publishing-files.md)
    + [Limites de Dynamic Media](limitations.md)
    + [Test des ressources avant de les rendre publiques](testing-assets-making-them-public.md)
    + [Vérification des fichiers de tâche](checking-job-files.md)
-+ Gestion des fichiers {#managing-assets}
++ Gestion des ressources {#managing-assets}
    + [À propos de la gestion des ressources](about-managing-assets.md)
    + [Utilisation des dossiers de ressources](asset-folders.md)
    + [Affichage des ressources dans le panneau Parcourir](viewing-assets-browse-panel.md)
@@ -115,14 +115,14 @@ ht-degree: 26%
    + [Affichage des visionneuses d’images](viewing-image-sets.md)
    + [Automatisation de la génération de visionneuse d’images](automated-image-set-generation.md)
    + [Liaison d’une visionneuse d’images à une page web](linking-image-set-web-page.md)
-+ Série d’échantillons {#swatch-sets}
++ Séries d’échantillons {#swatch-sets}
    + [Démarrage rapide : Séries d’échantillons](quick-start-swatch-sets.md)
    + [Inclusion de cibles de zoom et de zones cliquables dans les séries d’échantillons](including-zoom-targets-image-maps-swatch-sets.md)
    + [Préparation du chargement de ressources de série d’échantillons](preparing-swatch-set-assets-upload.md)
    + [Création de la série d’échantillons](creating-swatch-set.md)
    + [Afficher les séries d’échantillons](viewing-swatch-sets.md)
    + [Lier une série d’échantillons à une page web](linking-swatch-set-web-page.md)
-+ Visionneuses à 360°{#spin-sets}
++ Visionneuses à 360° {#spin-sets}
    + [Démarrage rapide : Visionneuses à 360°](quick-start-spin-sets.md)
    + [Création d’une visionneuse à 360°](creating-spin-set.md)
    + [Aperçu d’une visionneuse à 360°](previewing-spin-set.md)
@@ -158,7 +158,7 @@ ht-degree: 26%
    + [Configuration des rapports Adobe Analytics](configuring-analytics-reports.md)
    + [Instrumentation d’une visionneuse avec le kit d’instrumentation Adobe Analytics](instrumenting-viewer-using-analytics-instrumentation.md)
    + [Désactivation du suivi Adobe Analytics](disabling-analytics-tracking.md)
-   + [Test de l’intégration d’Adobe Analytics en affichant un rapport ](testing-integration-viewing-analytics-report.md)
+   + [Tester l’intégration en affichant un rapport Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Activation des rapports vidéo Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publication des informations de configuration Adobe Analytics](publishing-analytics-configuration-information.md)
 + Intégration d’Adobe Target Standard/Premium {#target-classic}

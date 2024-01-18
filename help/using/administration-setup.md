@@ -11,9 +11,9 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1970'
 ht-degree: 33%
 
 ---
@@ -36,7 +36,7 @@ Adobe Dynamic Media Classic prend en charge plusieurs rôles utilisateur. Ces r�
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Adobe Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
-**Utilisateur Adobe Dynamic Media Classic** peuvent accéder aux entreprises auxquelles elles ont été affectées ; ne peuvent pas effectuer de tâches administratives.
+**Utilisateur Adobe Dynamic Media Classic** Peuvent accéder aux entreprises auxquelles elles ont été assignées ; ne peuvent effectuer aucune tâche administrative.
 
 **Administrateur de société Adobe Dynamic Media Classic** Peuvent visualiser et administrer uniquement leurs propres entreprises. Il peut également remplir toutes les fonctions d’administration, notamment l’ajout d’administrateurs et d’utilisateurs. Un administrateur d’entreprise peut ajouter un utilisateur aux comptes administrateur d’entreprise DMC. (Ce rôle est le rôle utilisateur par défaut.)
 
@@ -50,7 +50,7 @@ Une fois que vous avez ajouté un utilisateur, Adobe Dynamic Media Classic lui e
 
    >[!NOTE]
    >
-   >Le caractère apostrophe (`‘`) n’est pas autorisé dans les adresses électroniques.
+   >Le caractère apostrophe (`'`) n’est pas autorisé dans les adresses électroniques.
 
 1. Pour attribuer un rôle à l’utilisateur, sélectionnez une option Rôle .
 
@@ -58,7 +58,7 @@ Une fois que vous avez ajouté un utilisateur, Adobe Dynamic Media Classic lui e
 
 1. Pour ajouter un utilisateur à une société, sélectionnez son nom.
 1. Si vous souhaitez ajouter l’utilisateur à un groupe (si vous ajoutez un utilisateur ou un contributeur Media Portal), sélectionnez **[!UICONTROL Suivant]** et ajoutez l’utilisateur.
-1. Sélectionner **[!UICONTROL Enregistrer]** pour terminer la configuration de l’utilisateur.
+1. Sélectionner **[!UICONTROL Enregistrer]** pour terminer la configuration utilisateur.
 
    Après l’enregistrement, une invite demande si vous souhaitez ajouter un utilisateur à une autre société. Sélectionner **[!UICONTROL Ajouter]** si vous souhaitez ajouter l’utilisateur à une société.
 
@@ -84,7 +84,7 @@ Vous pouvez supprimer des utilisateurs d’Adobe Dynamic Media Classic en les re
 Les utilisateurs désactivés n’ont plus le droit d’accéder au compte indiqué en haut du menu Sélectionner le compte auquel accéder.
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de l’administration]** > **[!UICONTROL Administration des utilisateurs]**.
-1. Dans la liste des utilisateurs, sélectionnez ou désélectionnez l’option **[!UICONTROL Principal]** en regard du nom de l’utilisateur.
+1. Dans la liste des utilisateurs, sélectionnez ou désélectionnez l’option **[!UICONTROL Actif]** en regard du nom de l’utilisateur.
 
 ### Modification des informations de l’utilisateur {#editing-user-information}
 
@@ -94,7 +94,7 @@ Les informations sur l’utilisateur que vous pouvez modifier dépendent de votr
 1. Sélectionnez un utilisateur dans la liste, puis sélectionnez **[!UICONTROL Modifier]**.
 1. Sélectionnez l’entrée dans le tableau qui indique la société pour laquelle vous essayez de modifier les autorisations ou l’accès, puis sélectionnez **[!UICONTROL Gérer l’entreprise]**.
 1. Sélectionnez le rôle de l’utilisateur.
-1. Si vous souhaitez modifier l’appartenance au groupe de l’utilisateur (si vous modifiez ou ajoutez un utilisateur ou contributeur Media Portal), sélectionnez **[!UICONTROL Suivant]** et modifiez l’appartenance au groupe.
+1. Si vous souhaitez modifier l’appartenance au groupe de l’utilisateur (si vous modifiez ou ajoutez un utilisateur ou un contributeur Media Portal), sélectionnez **[!UICONTROL Suivant]** et modifiez l’appartenance au groupe.
 1. Sélectionner **[!UICONTROL Enregistrer]**.
 
 ### Filtrage et tri de la liste des utilisateurs {#filtering-and-sorting-the-user-list}
@@ -107,7 +107,7 @@ Vous pouvez utiliser les techniques de filtrage par liste d’utilisateurs suiva
 
 * **Filtrage par rôle d’utilisateur** - Sélectionnez la variable **[!UICONTROL Par rôle d’utilisateur]** et choisissez une option pour limiter la liste aux utilisateurs ou aux administrateurs de différents types.
 
-* **Filtrer par nom de champ** - Sélectionner **[!UICONTROL Activer le filtre par champ]**. Sélectionnez ensuite le **[!UICONTROL Par nom de champ]** , choisissez une colonne pour filtrer la liste, sélectionnez le menu Filtrer les caractères et choisissez une lettre. La liste est filtrée sur l’une des colonnes par la lettre que vous avez choisie. Pour afficher la liste complète, désélectionnez l’option **[!UICONTROL Activer le filtre par champ]** .
+* **Filtrer par nom de champ** - Sélectionner **[!UICONTROL Activer le filtre par champ]**. Sélectionnez ensuite le **[!UICONTROL Par nom de champ]** , choisissez une colonne pour filtrer la liste, sélectionnez le menu Filtrer les caractères et choisissez une lettre. La liste est filtrée sur l’une des colonnes par la lettre choisie. Pour afficher la liste complète, désélectionnez l’option **[!UICONTROL Activer le filtre par champ]** .
 
 * **Filtrage des utilisateurs non valides** - Désélectionner **[!UICONTROL Inclure non valide]**. Les résultats de la recherche affichent uniquement les utilisateurs présents dans le système. Les utilisateurs non valides ont été supprimés du système et des comptes que vous administrez.
 
@@ -140,12 +140,12 @@ You can link an Adobe IMS user identity to an Adobe Dynamic Media Classic IPS us
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
 
-      Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
+      Replace "N" in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
  -->
 
 ## Bande passante et stockage {#bandwidth-storage}
 
-Les administrateurs d’Adobe Dynamic Media Classic peuvent générer des rapports de bande passante, de stockage et d’autres types pour les entreprises qu’ils gèrent. Ces rapports sont disponibles sur la page Bande passante et stockage .
+Les administrateurs Adobe Dynamic Media Classic peuvent générer des rapports de bande passante, de stockage et d’autres types pour les entreprises qu’ils gèrent. Ces rapports sont disponibles sur la page Bande passante et stockage .
 
 Pour ouvrir cette page, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration personnelle]**. Développer **[!UICONTROL Configuration de l’administration]**, puis sélectionnez **[!UICONTROL Bande passante et stockage]**.
 
@@ -170,7 +170,7 @@ Le rapport Contenu de l’image fournit des informations sur les requêtes pour 
 
 * **Masquer la requête** - Demandes d’images renvoyant des masques en niveaux de gris.
 
-* **Demande de mosaïque de visionneuse** - Demandes d’image chargées par une visionneuse.
+* **Requête de mosaïque de visionneuse** - Demandes d’image chargées par une visionneuse.
 
 * **Requête D’Objet Vnt** - Demandes de rendu d’image qui renvoient une image avec des objets spécifiés dans les vignettes demandées.
 
@@ -178,7 +178,7 @@ Le rapport Contenu de l’image fournit des informations sur les requêtes pour 
 
 >[!NOTE]
 >
->le rapport Diffusion de vidéo en flux continu s’applique uniquement aux vidéos diffusées en flux continu. Il ne rend nullement compte des vidéos en cours de visionnage.
+>le rapport Diffusion de vidéo en flux continu s’applique uniquement aux vidéos diffusées en flux continu. Il ne suit pas l’affichage des vidéos progressives.
 
 ### Générer un rapport {#generating-a-report}
 
@@ -186,7 +186,7 @@ Pour générer un rapport de bande passante, stockage, contenu de l’image, dom
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration personnelle]**.
 1. Développez Configuration de l’administration, puis sélectionnez **[!UICONTROL Bande passante et stockage]**.
-1. Sélectionnez un onglet : **[!UICONTROL Bande passante]**, **[!UICONTROL Stockage]**, **[!UICONTROL Contenu de l’image]**, **[!UICONTROL Domaine]**, **[!UICONTROL Diffusion en continu de vidéos]** ou **[!UICONTROL Contenu vidéo]**.
+1. Sélectionnez un onglet : **[!UICONTROL Bande passante]**, **[!UICONTROL Stockage]**, **[!UICONTROL Contenu de l’image]**, **[!UICONTROL Domaine]**, **[!UICONTROL Diffusion en continu de vidéos]**, ou **[!UICONTROL Contenu vidéo]**.
 
    Voir [Types de rapports](administration-setup.md#types_of_reports).
 
@@ -194,9 +194,9 @@ Pour générer un rapport de bande passante, stockage, contenu de l’image, dom
 
 Après avoir généré un rapport sur la page Bande passante et stockage, vous pouvez choisir des options pour l’affichage des informations. Vous pouvez choisir le mode de présentation des informations, afficher les informations dans un tableau ou une grille de données et indiquer une période pour la capture des informations. En mode Affichage des données, vous pouvez également trier les informations et réorganiser les colonnes.
 
-* **Affichage des données dans un graphique ou une grille de données** - Sélectionner **[!UICONTROL Affichage du graphique]** pour afficher les données dans un graphique ; select **[!UICONTROL Vue des données]** pour afficher les données dans une grille de données.
+* **Affichage des données dans un graphique ou une grille de données** - Sélectionner **[!UICONTROL Affichage du graphique]** pour afficher les données dans un graphique ; sélectionnez **[!UICONTROL Vue des données]** pour afficher les données dans une grille de données.
 
-* **Choisissez un type de présentation de rapport** - Dans le menu Type de rapport, sélectionnez **[!UICONTROL Résumé]**, **[!UICONTROL Quotidien]** ou **[!UICONTROL Mensuel]** pour organiser les données sous forme de résumé, par jour ou par mois. Tous les rapports ne proposent pas cette option.
+* **Choisissez un type de présentation de rapport** - Dans le menu Type de rapport, sélectionnez **[!UICONTROL Résumé]**, **[!UICONTROL Qualité]**, ou **[!UICONTROL Mensuel]** pour organiser les données sous forme de résumé, par jour ou par mois. Tous les rapports ne proposent pas cette option.
 
 * **Définition d’une période** - Choisissez des options pour définir une période pour votre rapport, puis sélectionnez **[!UICONTROL Mettre à jour]** après avoir défini une période :
 
@@ -212,7 +212,7 @@ Après avoir généré un rapport sur la page Bande passante et stockage, vous p
 
 Après avoir généré un rapport, vous pouvez exporter ses données pour une utilisation dans des feuilles de calcul et d’autres applications. Vous pouvez également imprimer des rapports.
 
-* **Exporter les données de rapport** - Dans la vue Données, triez et organisez les données selon vos besoins. Ouvrez ensuite le **[!UICONTROL Exporter]** et choisissez un format : **[!UICONTROL Délimité par tabulation]**, **[!UICONTROL Séparée par une virgule]** ou **[!UICONTROL HTML formaté]**. Les données sont copiées dans le Presse-papiers au format que vous choisissez. Vous pouvez à présent coller les données dans une feuille de calcul ou une application.
+* **Exporter les données de rapport** - Dans la vue Données, triez et organisez les données selon vos besoins. Ouvrez ensuite le **[!UICONTROL Exporter]** et choisissez un format : **[!UICONTROL Délimité par tabulation]**, **[!UICONTROL Séparée par une virgule]**, ou **[!UICONTROL HTML formaté]**. Les données sont copiées dans le Presse-papiers au format que vous choisissez. Vous pouvez à présent coller les données dans une feuille de calcul ou une application.
 
 * **Imprimer un rapport** - Sélectionner **[!UICONTROL Imprimer]**, choisissez les options de votre choix dans la boîte de dialogue Imprimer, puis sélectionnez **[!UICONTROL OK]**.
 

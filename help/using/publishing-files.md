@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 37%
+source-wordcount: '1726'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 37%
 
 Vous publiez vos ressources sur les serveurs d’images Dynamic Media. Vous pouvez publier des ressources ponctuellement ou organiser Adobe Dynamic Media Classic pour les publier selon une planification récurrente. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL d’Adobe Dynamic Media Classic et les ajouter à votre site web ou à votre application.
 
-Adobe Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos sur HTTP/2. En d’autres termes, une URL publiée ou un code incorporé pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cette ressource publiée est ensuite diffusée au moyen du protocole HTTP/2. Cette méthode de remise améliore la communication entre les navigateurs et les serveurs, ce qui permet de bénéficier de meilleurs temps de réponse et de chargement de toutes vos ressources Adobe Dynamic Media Classic. Voir [FAQ sur la diffusion de contenu HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Adobe Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos sur HTTP/2. En d’autres termes, une URL publiée ou un code incorporé pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cette ressource publiée est ensuite diffusée au moyen du protocole HTTP/2. Cette méthode de remise améliore la communication entre les navigateurs et les serveurs, ce qui permet de bénéficier de meilleurs temps de réponse et de chargement de toutes vos ressources Adobe Dynamic Media Classic. Voir [FAQ sur la diffusion de contenu HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html).
 
 ## Publication après le téléchargement {#publish-after-uploading}
 
@@ -42,7 +42,7 @@ Certains fichiers « enfants » sont systématiquement marqués pour publicati
 | Visionneuses d’images | Images dans la visionneuse. |
 | Série d’échantillons | Echantillons dans la visionneuse. |
 | Visionneuses à 360° | Images dans la visionneuse. |
-| Modèles | Images, pages et fichiers de modèle. |
+| Modèles | Fichiers de modèle, pages et images. |
 
 Les images dérivées sont automatiquement marquées pour publication lorsque leurs images parentes sont publiées. Les images dérivées incluent les images que vous avez modifiées avec des options d’édition d’image. Vous pouvez voir ces images dérivées dans la vue Détails sous Créé et dérivés.
 
@@ -50,7 +50,7 @@ Les images dérivées sont automatiquement marquées pour publication lorsque le
 
 Créez une tâche de publication pour publier les ressources que vous avez chargées sur les serveurs Adobe Dynamic Media Classic, mais que vous ne souhaitez pas encore publier automatiquement. Vous pouvez effectuer une tâche de publication ponctuelle ou planifier la réexécution régulière des tâches. Adobe Dynamic Media Classic propose des options de publication avancées pour la publication sur des serveurs spécifiques et des options pour la republication de ressources qui ont déjà été publiées.
 
-**Création d’une tâche de publication:**
+**Pour créer une tâche de publication :**
 
 1. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**.
 1. Dans la boîte de dialogue Publier, choisissez s’il s’agit d’une tâche de publication ponctuelle ou périodique
@@ -118,7 +118,7 @@ Vous pouvez publier des fichiers individuels manuellement au lieu de créer une 
 
 Les ressources non publiées sont indiquées dans l’interface utilisateur par une icône grise et ronde avec une barre oblique (état non publié), à gauche du nom de la ressource. Une fois le fichier publié, l’icône devient verte et une coche blanche s’affiche en son centre (état publié).
 
-**Pour publier manuellement des fichiers:**
+**Pour publier manuellement des ressources :**
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -134,7 +134,7 @@ Vous pouvez annuler manuellement la publication de fichiers individuels. Lorsque
 
 Les ressources publiées sont indiquées dans l’interface utilisateur par une icône ronde et verte avec une coche blanche au centre (état publié), à gauche du nom de la ressource. Une fois la publication d’une ressource annulée, l’icône devient grise avec une barre oblique (état non publié),
 
-**Pour annuler manuellement la publication de fichiers:**
+**Pour annuler manuellement la publication de ressources :**
 
 1. Effectuez l’une des opérations suivantes :
 
