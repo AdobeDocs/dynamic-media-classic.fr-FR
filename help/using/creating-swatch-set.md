@@ -12,10 +12,10 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 67%
+ht-degree: 58%
 
 ---
 
@@ -29,14 +29,14 @@ Par exemple, si vous souhaitez présenter des casquettes avec des visières de c
 
 Lorsque vous créez une visionneuse, l’option **Publish after save** (« Publier après l’enregistrement ») affecte la visionneuse et ses membres comme suit :
 
-| **[!UICONTROL Publier après l’enregistrement]** l’option sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| **[!UICONTROL Publier après enregistrement]** l’option sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- |
 | Oui | Publié | publié |
 | Non | Non publié | Les membres de la visionneuse conservent leur état publié ou non publié. |
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
-**Pour créer une série d’échantillons:**
+**Pour créer une série d’échantillons :**
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -55,23 +55,23 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 ## Modification d’une série d’échantillons {#editing-a-swatch-set}
 
-Si vous modifiez un jeu publié ou non publié, la variable **[!UICONTROL Publier après l’enregistrement]** L’option affecte les membres de l’ensemble et de l’ensemble comme suit :
+Si vous modifiez un jeu publié ou non publié, la variable **[!UICONTROL Publier après enregistrement]** L’option affecte les membres de l’ensemble et de l’ensemble comme suit :
 
 | Visionneuse déjà publiée ? | **[!UICONTROL Publier après]** option d’enregistrement sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
-|--- |--- |--- |--- |
-| Oui | Oui | Publié | Publié |
+|--- | --- | --- | --- |
+| Oui | Oui | Publié | Publié. |
 | Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
-| Non | Oui | Publié | Publié |
+| Non | Oui | Publié | Publié. |
 | Non | Non | Non publié | Les membres de la visionneuse existants, ainsi que tout nouveau membre de la visionneuse que vous ajoutez lors de votre modification conservent leur état publié ou non publié. |
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
-**Pour modifier une série d’échantillons:**
+**Pour modifier une série d’échantillons :**
 
 1. En mode d’affichage Grille, accédez à un SwatchSet, puis sous l’image, sélectionnez **[!UICONTROL Modifier]**.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Pour ajouter une image (publiée ou non publiée), faites-la glisser d’un dossier du panneau d’ajout des fichiers sur la page **[!UICONTROL des vues]** de la série d’échantillons.
+   * Pour ajouter une image (publiée ou non publiée), faites-la glisser d’un dossier de la section Ajouter des ressources sur la série d’échantillons **[!UICONTROL Vues]** page.
    * Pour supprimer une image, sélectionnez-la, puis sélectionnez **[!UICONTROL Supprimer]** dans la barre d’outils.
    * Pour réorganiser des images, faites glisser l’image de votre choix vers sa nouvelle position.
 
@@ -80,11 +80,11 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 ## Suppression d’une série d’échantillons {#deleting-a-swatch-set}
 
-Lorsque vous supprimez une visionneuse, celle-ci est placée dans la corbeille. Toutefois, les membres (ou « enfants ») de cette visionneuse ne sont pas affectés : ils conservent en fait leur état existant publié ou non publié.
+Lorsque vous supprimez une visionneuse, celle-ci est placée dans la corbeille. Cependant, les membres (ou &quot;enfants&quot;) de cet ensemble ne sont pas affectés ; au lieu de cela, ils conservent chacun leur état publié ou non publié existant.
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
-**Pour supprimer une série d’échantillons:**
+**Pour supprimer une série d’échantillons :**
 
 1. En mode Grille, Liste ou Détails, sélectionnez une série d’échantillons ou plus.
 1. Dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer]** > **[!UICONTROL Supprimer]**.

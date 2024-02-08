@@ -12,10 +12,10 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 51%
+source-wordcount: '975'
+ht-degree: 44%
 
 ---
 
@@ -36,7 +36,7 @@ Lorsque vous créez un catalogue électronique, l’option **[!UICONTROL Publish
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
-**Pour créer un catalogue électronique:**
+**Pour créer un catalogue électronique :**
 
 1. Utilisez l’une des méthodes suivantes pour commencer à créer votre catalogue électronique :
 
@@ -78,7 +78,7 @@ Si vous modifiez un jeu publié ou non publié, la variable **[!UICONTROL Publie
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
-**Pour modifier un catalogue électronique:**
+**Pour modifier un catalogue électronique :**
 
 1. Sélectionner le survol du catalogue électronique **[!UICONTROL Modifier]** bouton .
 1. Apportez les modifications de votre choix.
@@ -91,7 +91,7 @@ Lorsque vous supprimez une visionneuse, celle-ci est placée dans la corbeille. 
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
-**Pour supprimer un catalogue électronique:**
+**Pour supprimer un catalogue électronique :**
 
 1. En mode Affichage de la grille, Affichage par liste ou Affichage des détails, sélectionnez un ou plusieurs catalogues électroniques.
 1. Dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer]** > **[!UICONTROL Supprimer]**.
@@ -100,7 +100,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 Adobe Dynamic Media Classic fournit les numéros de page par défaut dans votre catalogue électronique, sous l’onglet Ordre des pages de l’écran Catalogue électronique. Pour utiliser des noms de page personnalisés, libre à vous de modifier les étiquettes de page qui composent la table des matières. Il est recommandé de renommer les pages de couverture recto (avant) et verso (arrière). Par exemple, la page de couverture frontale peut lire &quot;Couverture&quot; au lieu de &quot;Page 0-1&quot;.
 
-Vous pouvez créer une table des matières personnalisée pour votre catalogue électronique, manuellement ou en important le nom des pages à partir d’un fichier CSV (Mac uniquement) ou XML.
+Vous pouvez créer une table des matières personnalisée pour votre catalogue électronique manuellement ou en important les noms de page à partir d’un fichier CSV (Mac uniquement) ou XML.
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Pour importer le champ Données utilisateur dans un fichier délimité par des t
 | --- | --- |
 | `<image_IPS_ID>` | `tocEN=<EN_page_label>??tocFR=<FR_page_label>` |
 
-Pour importer le champ Données utilisateur dans un fichier XML, ajoutez l’attribut `vc_userdata`:
+Pour importer le champ User Data dans un fichier XML, incluez l’attribut `vc_userdata`:
 
 ```as3
 <ips> 

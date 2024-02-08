@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Certaines sociétés ne vous permettent pas de télécharger et d’installer de
 +++
 
 +++**_Plusieurs instances de la nouvelle appli de bureau peuvent-elles être ouvertes en même temps ?_**
-Non, la technologie AIR sur laquelle la nouvelle application de bureau Adobe Dynamic Media Classic est créée empêche l’utilisateur d’ouvrir plusieurs instances de l’application à la fois.
+Non. La technologie AIR sur laquelle la nouvelle application de bureau Adobe Dynamic Media Classic est créée empêche l’utilisateur d’ouvrir plusieurs instances de l’application à la fois.
 +++
 
 +++**_Existe-t-il des restrictions quant au nombre de fichiers pouvant être transférés vers Adobe Dynamic Media Classic par le biais d’un ordinateur local ?_**
@@ -80,7 +80,7 @@ Lorsque vous utilisez la nouvelle appli de bureau Adobe Dynamic Media Classic so
 +++
 
 +++**_La nouvelle appli de bureau Adobe Dynamic Media Classic requiert-elle un nouveau SKU ? Y a-t-il un coût de licence impliqué ?_**
-Aucun SKU ou changement de licence n’est nécessaire pour utiliser la nouvelle appli de bureau Adobe Dynamic Media Classic.
+Non aux deux questions. Aucun SKU ou changement de licence n’est nécessaire pour utiliser la nouvelle appli de bureau Adobe Dynamic Media Classic.
 +++
 
 +++**_Comment les mises à niveau de l’appli de bureau Adobe Dynamic Media Classic sont-elles activées ?_**

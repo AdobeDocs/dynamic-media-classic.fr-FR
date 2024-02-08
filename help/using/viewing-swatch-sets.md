@@ -12,10 +12,10 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 25%
+ht-degree: 17%
 
 ---
 
@@ -36,7 +36,7 @@ Vous pouvez créer et personnaliser des paramètres prédéfinis de la visionneu
    * Pour modifier un paramètre prédéfini de visionneuse d’échantillons, sélectionnez-le, puis choisissez **[!UICONTROL Modifier]**.
 
 1. Sur la page Configurer la visionneuse, dans le champ de texte Nom du paramètre prédéfini, saisissez le nom du paramètre prédéfini de visionneuse de séries d’échantillons.
-1. Sélectionnez des options dans l’écran Configurer la visionneuse.
+1. Sélectionnez des options sur la page Configurer la visionneuse .
 
    Pour afficher une description d’une option, sélectionnez l’option **[!UICONTROL Conseil d’informations]** à droite de l’option.
 
@@ -52,11 +52,11 @@ Vous pouvez utiliser l’aperçu pour afficher une ressource sur un type de visi
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient la série d’échantillons à prévisualiser à l’aide d’une visionneuse.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Dans le coin supérieur droit de la fenêtre Adobe Dynamic Media Classic, sélectionnez l’option **[!UICONTROL Mode Liste]** icône . Dans la fenêtre Ressource , placez le pointeur de la souris sur une ressource, puis sélectionnez **[!UICONTROL Aperçu]** (et non la liste déroulante Aperçu ).
-   * Dans le coin supérieur droit de la fenêtre Adobe Dynamic Media Classic, sélectionnez l’option **[!UICONTROL Affichage de la grille]** icône . Dans la fenêtre Ressource, dans une fenêtre de miniature de ressource, sélectionnez **[!UICONTROL Aperçu]** (et non la liste déroulante Aperçu ).
-   * Dans le coin supérieur droit de la fenêtre Adobe Dynamic Media Classic, sélectionnez l’option **[!UICONTROL Affichage des détails]** icône . Dans la même barre d’outils, sélectionnez **[!UICONTROL Aperçu]** (et non la liste déroulante Aperçu ).
+   * Dans le coin supérieur droit de la fenêtre Adobe Dynamic Media Classic, sélectionnez l’option **[!UICONTROL Mode Liste]** Icône Dans la fenêtre Ressource , passez la souris sur une ressource, puis sélectionnez **[!UICONTROL Aperçu]** (et non la liste déroulante Aperçu ).
+   * Dans le coin supérieur droit de la fenêtre Adobe Dynamic Media Classic, sélectionnez l’option **[!UICONTROL Affichage de la grille]** Icône Dans la fenêtre Ressource, dans une fenêtre de miniature de ressource, sélectionnez **[!UICONTROL Aperçu]** (et non la liste déroulante Aperçu ).
+   * Dans le coin supérieur droit de la fenêtre Adobe Dynamic Media Classic, sélectionnez l’option **[!UICONTROL Affichage des détails]** Icône Dans la même barre d’outils, sélectionnez **[!UICONTROL Aperçu]** (et non la liste déroulante Aperçu ).
 
-1. (Facultatif) Dans la liste déroulante située en bas de la fenêtre Prévisualiser, sélectionnez le codage d’URL à appliquer à l’URL du fichier au moment de la copie.
+1. (Facultatif) Dans la liste déroulante située en bas de la fenêtre Aperçu, sélectionnez le codage d’URL à appliquer à l’URL de la ressource lorsqu’elle est copiée.
 1. Pour prévisualiser la ressource dans la visionneuse sélectionnée, sélectionnez un lien de visionneuse.
 
    Lorsque vous sélectionnez un lien de visionneuse, l’URL qui lui est associée est automatiquement copiée dans le Presse-papiers.

@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3877'
 ht-degree: 27%
 
 ---
@@ -123,7 +123,7 @@ Assurez-vous que tous les utilisateurs de votre entreprise comprennent les règl
 * Il est recommandé de s’assurer que les ID de fichier ne contiennent pas d’espace (par exemple, veste noire.tif et veste bleue.jpg). Adobe Dynamic Media Classic code les espaces vides dans les noms de ressources à l’aide de noms de ressources pour créer des chaînes d’URL. Ces codes ASCII sont difficiles à lire, ce qui rend également plus difficile la lecture de ces chaînes.
 * Les caractères spécifiques aux langues sont autorisés dans les noms de fichier, à l’exception des caractères suivants :
 
-  \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
+  `\ ; / ? : @ & = + $ , &#42; " &lt; > | ' { } %`
 
   Si un nom de fichier contient un ou plusieurs de ces caractères, ceux-ci sont supprimés du nom du fichier au moment du téléchargement.
 

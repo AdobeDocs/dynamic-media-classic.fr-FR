@@ -12,9 +12,9 @@ role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '303'
 ht-degree: 20%
 
 ---
@@ -33,7 +33,7 @@ Pour toutes les visionneuses HTML5, ajoutez le code JavaScript suivant au conten
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-Où `Adobe Dynamic Media Classic Company ID` est définie sur le nom de la société Adobe Dynamic Media Classic. Et `&preset` est facultatif, sauf si le nom du paramètre prédéfini de l’entreprise n’est pas `companypreset`. Dans ce cas, cela pourrait être le cas : `companypreset-1, companypreset-2`, etc. Le plus grand nombre correspond à une nouvelle instance du paramètre prédéfini. Pour déterminer le nom de valeur prédéfini de l’entreprise approprié, sélectionnez **[!UICONTROL Copier l’URL]** , puis observez le `preset=`pour rechercher le nom du paramètre prédéfini de l’entreprise.
+Où `Adobe Dynamic Media Classic Company ID` est définie sur le nom de la société Adobe Dynamic Media Classic. Et `&preset` est facultatif, sauf si le nom du paramètre prédéfini de l’entreprise n’est pas `companypreset`. Dans de tels cas, cela pourrait être le cas : `companypreset-1, companypreset-2`, etc. Le plus grand nombre correspond à une nouvelle instance du paramètre prédéfini. Pour déterminer le nom de valeur prédéfini de l’entreprise approprié, sélectionnez **[!UICONTROL Copier l’URL]**, puis observez le `preset=`pour rechercher le nom du paramètre prédéfini de l’entreprise.
 
 Continuez en ajoutant une fonction qui transmet l’événement de visionneuse au code de suivi Adobe Analytics.
 

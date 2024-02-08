@@ -10,7 +10,7 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '10991'
 ht-degree: 37%
@@ -613,7 +613,7 @@ Voir aussi [Paramètres prédéfinis de la visionneuse](https://s7d5.scene7.com/
      
    * **Modifier** - Sélectionnez un paramètre prédéfini de visionneuse existant, puis cliquez sur **[!UICONTROL Modifier]**.
 
-1. Dans l’écran Configurer la visionneuse, dans le champ Nom du paramètre prédéfini, saisissez ou modifiez le nom du paramètre prédéfini.
+1. Sur la page Configurer la visionneuse, dans le champ Nom du paramètre prédéfini, saisissez ou modifiez le nom du paramètre prédéfini.
 1. Définissez les options restantes si vous le souhaitez.
 
    >[!NOTE]

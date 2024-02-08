@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '2408'
-ht-degree: 42%
+source-wordcount: '2389'
+ht-degree: 34%
 
 ---
 
@@ -65,7 +65,7 @@ Modifiez ces paramètres uniquement avec l’aide d’un agent de support Adobe 
 
 Une méthode courante d’utilisation d’Adobe Dynamic Media Classic consiste à gérer l’imagerie du produit sur les sites web d’e-commerce. Les sociétés internationales doivent gérer le fait que l’aspect des fichiers pour des produits similaires diffère d’un pays à l’autre. Généralement, les différences concernent quelques parties du média global. Résoudre de telles différences en copiant toutes les ressources pour chacun des pays et en remplaçant uniquement les différences est un énorme effort et contredit la métaphore de la ressource principale unique. De telles différences de fichiers peuvent impliquer, en raison des vidéos spécifiques aux pays avec différentes pistes audio, des différences importantes bien que très subtiles des câbles d’alimentation utilisés avec le produit. Adobe Dynamic Media Classic utilise un mécanisme de recherche de base. Vous définissez l’ordre des suffixes des fichiers analysés par le serveur d’images, en commençant par les paramètres régionaux requis.
 
-#### Méthode de localisation des fichiers
+#### Comment les ressources sont localisées
 
 Les paramètres régionaux pour une demande de diffusion d’image IS (Image Serving) est identifié avec la commande de rendu d’image IS/IR (Image Rendering) suivante :
 
@@ -82,7 +82,7 @@ Avantages de l’utilisation de `locale=` et `attribute::DefaultLocale` incluez 
 * Partage du contenu pour plusieurs paramètres régionaux.
 * Accès à un contenu spécifique à un paramètre régional à l’aide des ID génériques.
 * Flexibilité par rapport aux conventions d’affection de nom et à la gestion du contenu spécifique à un paramètre régional, par exemple préfixe/suffixe des paramètres régionaux ou contenu spécifique à un paramètre régional dans un catalogue distinct.
-* Prise en charge de l’accès pour les versions spécifiques à un paramètre régional.
+* Prise en charge de l’accès aux versions spécifiques aux paramètres régionaux.
 * Les objets agrégés, tels que les visionneuses d’images, peuvent parfois contenir des références génériques à des contenus potentiellement spécifiques à des paramètres régionaux.
 * Prend en charge tous les contenus gérés par des catalogues qui doivent être localisés, y compris les images, les visionneuses d’images, les vignettes, les matériaux et les enregistrements de configuration de la visionneuse.
 * Réduction des modifications de la base de données IPS et des mécanismes de manifeste IS.
@@ -93,7 +93,7 @@ Avantages de l’utilisation de `locale=` et `attribute::DefaultLocale` incluez 
 
 | Application | Scénario |
 | --- | --- |
-| Localisation du lecteur | Une fois les catalogues de contenu statique mis en œuvre, la localisation est entièrement contrôlée avec le paramètre locale=, qui est annexé à toutes les demandes envoyées à IS. Il peut exister des variantes spécifiques aux paramètres régionaux pour les enregistrements de configuration, habillages, écrans de démarrage, etc. Le contenu approprié est fourni par IS sans que la visionneuse doive savoir quel contenu est localisé et quels sont ses ID. |
+| Localisation du lecteur | Une fois les catalogues de contenu statique mis en oeuvre, la localisation est entièrement contrôlée avec le paramètre locale= , ajouté à toutes les requêtes effectuées sur IS. Il peut exister des variantes spécifiques aux paramètres régionaux pour les enregistrements de configuration, habillages, écrans de démarrage, etc. Le contenu approprié est fourni par IS sans que la visionneuse doive savoir quel contenu est localisé et quels sont ses ID. |
 | Images et vidéo | Les entreprises multinationales ont généralement recours à un contenu à la fois générique et spécifique à un paramètre régional. Grâce à ce mécanisme, une référence à une image ou à une vidéo peut être générique, tandis qu’IS diffuse le contenu spécifique à un paramètre régional, s’il existe. |
 | Visionneuses d’images et de médias | La visionneuse d’images entière peut être différente pour certains paramètres régionaux (par exemple, lorsqu’un catalogue électronique est différent), avec la traduction d’un jeu d’images générique à un jeu d’images spécifique à un paramètre régional géré par la visionneuse. Plus généralement, les identifiants individuels d’un ensemble générique peuvent faire référence à des contenus localisés. Par exemple, la plupart des photos d’un appareil peuvent être identiques dans toutes les langues, à l’exception de la photo du Panneau de Contrôle. IS traduit automatiquement les ID, si bien qu’il n’est pas nécessaire de générer des visionneuses d’images spécifiques aux paramètres régionaux. |
 
@@ -121,17 +121,17 @@ L’application d’une valeur de suffixe ou de remplacement dépend du paramèt
 >
 >Le paramètre Global Locale n’est possible que lorsque vous le définissez via l’API, et non dans l’interface Adobe Dynamic Media Classic.
 
-**Exemple de suffixe:**
+**Exemple de suffixe :**
 
 | URL | ID de localeMap | Résultat |
 | --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Aucun paramètre GlobalLocale n’est défini. Le paramètre régional de_DE est trié par rapport à la première entrée dans `localeMap`. La première valeur _DE correspondante est ajoutée sous forme de suffixe au fichier image_DE et est recherchée sur le serveur d’images. Si elle est trouvée sur le serveur, elle est renvoyée. Dans le cas contraire, la seconde valeur &quot;&quot; est utilisée comme suffixe, ce qui entraîne le renvoi de l’image elle-même. |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Aucun paramètre GlobalLocale n’est défini. Le paramètre de paramètre régional de_DE est associé à la première entrée dans la variable `localeMap`. La première valeur correspondante _DE est ajoutée en tant que suffixe à la ressource image_DE et une tentative de recherche est effectuée sur le serveur d’images. Si elle est trouvée sur le serveur, elle est renvoyée. Dans le cas contraire, la seconde valeur &quot;&quot; est utilisée comme suffixe, ce qui entraîne le renvoi de l’image elle-même. |
 
-**Exemple de remplacement:**
+**Exemple de remplacement :**
 
 | URL | `GlobalLocale` et `localeMap` ID | Résultat |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | Dans l’exemple de remplacement ci-dessus, GlobalLocale est défini sur main. Le paramètre régional de_DE est trié par rapport à la première entrée dans `localeMap`. La sous-chaîne GlobalLocale est trouvée et remplacée par la première valeur correspondante. `de` dans le `localeMap`: `image-de-01`. Si elle est trouvée sur le serveur d’images, elle est renvoyée. Dans le cas contraire, la seconde valeur est remplacée, ce qui donne `image-main-01`. |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | Dans l’exemple de remplacement ci-dessus, GlobalLocale est défini sur main. Le paramètre de paramètre régional de_DE est associé à la première entrée dans la variable `localeMap`. La sous-chaîne GlobalLocale est trouvée et remplacée par la première valeur correspondante. `de` dans le `localeMap`: `image-de-01`. Si elle est trouvée sur le serveur d’images, elle est renvoyée. Si ce n’est pas le cas, la seconde valeur est remplacée, ce qui entraîne `image-main-01`. |
 
 Si aucun paramètre régional n’est défini dans l’URL, le serveur d’images prend l’attribut DefaultLocale, s’il est défini, et l’applique à l’URL.
 
@@ -147,9 +147,9 @@ Supposons que vous deviez prendre en charge les paramètres régionaux suivants�
 
 `en, en_us, en_uk, de, de_at, de_de, fr`
 
-Vous mappez ces paramètres régionaux avec les suffixes. `_E`, `_G`, et `_F`, pour l’anglais, l’allemand et le français, respectivement. Pour tous les exemples, l’ID de l’image d’entrée générique est `myImg`.
+Vous mappez ces paramètres régionaux avec les suffixes. `_E`, `_G`, et `_F`, pour l’anglais, l’allemand et le français, respectivement. Pour tous les exemples, l’ID d’image d’entrée générique est `myImg`.
 
-##### Comportement standard de recherche de localeMap
+##### Comportement standard pour rechercher la carte locale
 
 Les ID de paramètres régionaux sont associés à leurs suffixes correspondants. Si aucun ID spécifique aux paramètres régionaux n’est trouvé dans le catalogue, l’ID générique est testée. Observez les valeurs locSuffix vides qui correspondent à l’ID générique.
 
@@ -157,12 +157,12 @@ Les ID de paramètres régionaux sont associés à leurs suffixes correspondants
 
 | locale= | ID de sortie à rechercher |
 | --- | --- |
-| en,en_us, en_uk | myImg_E,myImg |
-| de,de_de,de_at | myImg_D,myImg |
-| fr | myImg_F,myImg |
+| en, en_us, en_uk | myImg_E, myImg |
+| de, de_de, de_at | myImg_D, myImg |
+| fr | myImg_F, myImg |
 | Tous les autres | - |
 
-##### Recherche de localeMap lorsque les paramètres régionaux sont inconnus
+##### Recherche de localeMap lorsque le paramètre régional est inconnu
 
 Vous pouvez associer les paramètres régionaux inconnus aux ID spécifiques ou génériques. Dans cet exemple, vous pouvez mapper des paramètres régionaux inconnus aux identifiants anglais ou, s’ils n’existent pas, aux identifiants génériques.
 
@@ -170,9 +170,9 @@ Vous pouvez associer les paramètres régionaux inconnus aux ID spécifiques ou 
 
 | locale= | ID de sortie à rechercher |
 | --- | --- |
-| de,de_de,de_at | myImg_D,myImg |
-| fr | myImg_F,myImg |
-| Tous les autres | myImg_E,myImg |
+| de, de_de, de_at | myImg_D, myImg |
+| fr | myImg_F, myImg |
+| Tous les autres | myImg_E, myImg |
 
 Vous pouvez également avoir un locSuffix dédié, tel que U, uniquement pour les paramètres régionaux inconnus, et forcer l’image par défaut si aucun paramètre n’est défini. `_U` existe, comme dans :
 
@@ -212,7 +212,7 @@ En utilisant le premier exemple comme base, les images pour toutes les langues p
 | de, de_at, de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
 | Tous les autres | myImg_1, myImg_2, myImg_3 |
 
-##### Considérations importantes lors de la mise en œuvre de l’aide à la localisation
+##### Remarques importantes concernant la mise en oeuvre de la prise en charge de la localisation
 
 * La localisation se limite aux appels de fichier basés sur l’ID et ne peut pas être utilisée pour les appels de fichier basés sur le chemin d’accès. Par conséquent, lors de l’appel de vidéos avec des paramètres régionaux, celles-ci doivent être appelées en tant que company/assetID et non comme chemin d’accès complet à la vidéo. Vous ne pouvez pas utiliser rtmp avec la localisation, car cette méthode est réservée aux appels vidéo basés sur un chemin d’accès.
 * Vous ne pouvez pas utiliser une visionneuse de supports variés contenant une seule vidéo lorsque localeMap est actif ; sinon, l’appel au contenu de la visionneuse échoue. Pour contourner ce problème, vous pouvez ajouter une seule vidéo à une visionneuse de vidéos adaptative. Ensuite, ajoutez la visionneuse de vidéos adaptative à une visionneuse de supports variés.

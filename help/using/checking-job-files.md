@@ -12,7 +12,7 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 24%
@@ -131,7 +131,7 @@ Ce tableau indique les incréments temporels, leurs valeurs autorisées et les c
 Ce tableau indique les caractères génériques qui sont autorisés dans la zone Règle et explique comment les utiliser :
 
 | Caractère générique | Nom | Description |
-|--- |--- |--- |
+| --- | --- | --- |
 | `*` | Astérisque | Toutes les valeurs (par exemple, &quot;toutes les minutes&quot;). |
 | `?` | Point d’interrogation | Aucune valeur spécifique (par exemple, &quot;toute minute au cours de l’heure spécifiée&quot;). |
 | `,` | Virgule | Autres valeurs (par exemple, &quot;Lundi et mercredi&quot;). |
@@ -139,7 +139,7 @@ Ce tableau indique les caractères génériques qui sont autorisés dans la zone
 | `/` | Barre oblique | Incréments (par exemple, toutes les 15 minutes). |
 | `L` | Lettre L majuscule | Dernier &quot;jour du mois&quot; ou &quot;jour de la semaine&quot; (disponible uniquement pour ces champs). Par exemple, si le mois est janvier, une valeur L pour le champ &quot;jour du mois&quot; programme la tâche pour le 31 janvier. Pour le champ &quot;jour de la semaine&quot;, vous pouvez saisir ce caractère seul pour planifier la tâche le samedi. Vous pouvez l’utiliser avec un nombre (par exemple, `6L`) pour indiquer le dernier vendredi du mois. Ne spécifiez pas `L` avec la virgule ou les caractères génériques de trait d’union. |
 | `#` | Carré | &quot;Nième&quot; jour du mois en semaine (disponible uniquement pour le champ &quot;jour de la semaine&quot;). Par exemple : `6#3` dans le champ &quot;jour de la semaine&quot;, indiquez le troisième vendredi du mois. La variable `6` indique &quot;vendredi&quot; (le sixième jour de la semaine) et la variable `3` indique la troisième occurrence du mois. |
-| `C` | # lettre C majuscule | Premier calendrier &quot;jour du mois&quot; ou &quot;jour de la semaine&quot; (disponible uniquement pour ces champs). Par exemple, la spécification d’une valeur de `1C` pour &quot;jour du mois&quot;, planifie le premier jour du calendrier qui survient le ou après le cinquième jour. Pour le champ &quot;jour de la semaine&quot;, la spécification `1C` planifie le premier jour du calendrier qui survient le dimanche ou après le dimanche |
+| `C` | # lettre C majuscule | Premier calendrier &quot;jour du mois&quot; ou &quot;jour de la semaine&quot; (disponible uniquement pour ces champs). Par exemple, la spécification d’une valeur de `1C` pour &quot;jour du mois&quot;, planifie le premier jour du calendrier qui survient le ou après le cinquième jour. Pour le champ &quot;jour de la semaine&quot;, la spécification `1C` planifie le premier jour du calendrier qui se produit le ou après le dimanche. |
 
 Cette liste donne des exemples de définition d’intervalle dans la zone Règle :
 
