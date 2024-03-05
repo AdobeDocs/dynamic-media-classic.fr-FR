@@ -10,10 +10,10 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: e2d60d18784c31c9973276960c935464ee4fd843
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 2%
+source-wordcount: '348'
+ht-degree: 1%
 
 ---
 
@@ -37,6 +37,8 @@ Lorsque vous créez une visionneuse à 360° ou une visionneuse d’images, ou q
 | **Tous les ensembles** - Nombre maximal de ressources par ensemble | 5 à 10 images par visionneuse | 1 000 |
 | **Visionneuse à 360°** - Nombre maximal de lignes/colonnes par jeu 2D | 12 à 18 images par visionneuse | 1 000 |
 | **PDF** - Nombre maximal de pages qu’un PDF doit prendre en compte pour l’extraction |  | 100 (pour tous les PDF) |
+
+‡ La bonne pratique consiste à ne pas avoir de ressources en double dans un ensemble. La limite est de 20 doublons pour une seule ressource. Si vous ajoutez un autre doublon pour cette ressource (dans cet ensemble), la requête renvoie une erreur ou ignore le doublon.
 
 <!-- See also [Dynamic Media limitations](/help/using/assets/limitations.md). -->
 

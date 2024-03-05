@@ -1,21 +1,19 @@
 ---
-title: "Démarrage rapide\_: Visionneuses d’images"
+title: "Démarrage rapide : Visionneuses d’images"
 description: Présentation et démarrage rapide des visionneuses d’images pour vous aider à maîtriser rapidement les techniques de visionneuse d’images dans Adobe Dynamic Media Classic.
-uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 18%
+source-wordcount: '666'
+ht-degree: 14%
 
 ---
 
@@ -33,6 +31,8 @@ Lorsque vous créez une visionneuse d’images, Adobe recommande les bonnes prat
 | --- | --- | --- |
 | Nombre de ressources en double par ensemble | Aucun doublon | 20 |
 | Nombre maximal d’images par visionneuse | 5 à 10 images par visionneuse | 1 000 |
+
+‡ La bonne pratique consiste à ne pas avoir de ressources en double dans un ensemble. La limite est de 20 doublons pour une seule ressource. Si vous ajoutez un autre doublon pour cette ressource (dans cet ensemble), la requête renvoie une erreur ou ignore le doublon.
 
 Voir aussi [Limites de Dynamic Media](/help/using/limitations.md).
 
@@ -76,7 +76,7 @@ La publication d’une visionneuse d’images la place sur les serveurs Adobe Dy
 
 >[!NOTE]
 >
->Cette étape n’est pas nécessaire si vous avez sélectionné **[!UICONTROL Publish after save]**(« Publier après l’enregistrement ») (valeur par défaut) au moment de la création et de l’enregistrement de la visionneuse d’images.
+>Cette étape n’est pas nécessaire si vous avez sélectionné **[!UICONTROL Publier après enregistrement]** (par défaut) au moment de la création et de l’enregistrement de la visionneuse d’images.
 
 Sélectionner **[!UICONTROL Marquer pour publication]** à gauche de son nom dans le panneau de navigation. Sélectionnez ensuite **[!UICONTROL Publier]**. Sur la page Publier, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
