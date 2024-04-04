@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2389'
-ht-degree: 34%
+source-wordcount: '2387'
+ht-degree: 33%
 
 ---
 
@@ -123,15 +123,15 @@ L’application d’une valeur de suffixe ou de remplacement dépend du paramèt
 
 **Exemple de suffixe :**
 
-| URL | ID de localeMap | Résultat |
-| --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Aucun paramètre GlobalLocale n’est défini. Le paramètre de paramètre régional de_DE est associé à la première entrée dans la variable `localeMap`. La première valeur correspondante _DE est ajoutée en tant que suffixe à la ressource image_DE et une tentative de recherche est effectuée sur le serveur d’images. Si elle est trouvée sur le serveur, elle est renvoyée. Dans le cas contraire, la seconde valeur &quot;&quot; est utilisée comme suffixe, ce qui entraîne le renvoi de l’image elle-même. |
+| URL | ID de localeMap | Résultat | Remarques |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,` | `fr_FR,_FR,` | Aucun paramètre GlobalLocale n’est défini. Le paramètre de paramètre régional de_DE est associé à la première entrée dans la variable `localeMap`. La première valeur correspondante _DE est ajoutée en tant que suffixe à la ressource image_DE et une tentative de recherche est effectuée sur le serveur d’images. S’il est trouvé sur le serveur, il est renvoyé. Dans le cas contraire, la seconde valeur &quot;&quot; est utilisée comme suffixe, ce qui entraîne le renvoi de l’image elle-même. |
 
 **Exemple de remplacement :**
 
-| URL | `GlobalLocale` et `localeMap` ID | Résultat |
-|--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | Dans l’exemple de remplacement ci-dessus, GlobalLocale est défini sur main. Le paramètre de paramètre régional de_DE est associé à la première entrée dans la variable `localeMap`. La sous-chaîne GlobalLocale est trouvée et remplacée par la première valeur correspondante. `de` dans le `localeMap`: `image-de-01`. Si elle est trouvée sur le serveur d’images, elle est renvoyée. Si ce n’est pas le cas, la seconde valeur est remplacée, ce qui entraîne `image-main-01`. |
+| URL | `GlobalLocale` et `localeMap` ID | Résultat | Remarques |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | Dans l’exemple de remplacement ci-dessus, GlobalLocale est défini sur main. Le paramètre de paramètre régional de_DE est associé à la première entrée dans la variable `localeMap`. La sous-chaîne GlobalLocale est trouvée et remplacée par la première valeur correspondante. `de` dans le `localeMap`: `image-de-01`. S’il est trouvé sur le serveur d’images, il est renvoyé. Si ce n’est pas le cas, la seconde valeur est remplacée, ce qui entraîne `image-main-01`. |
 
 Si aucun paramètre régional n’est défini dans l’URL, le serveur d’images prend l’attribut DefaultLocale, s’il est défini, et l’applique à l’URL.
 

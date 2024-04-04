@@ -1,35 +1,33 @@
 ---
 title: Publication de modèles
 description: Découvrez comment publier des modèles à partir d’Adobe Dynamic Media Classic.
-uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
 topic: Content Management
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
 # Publication de modèles{#publishing-templates}
 
-Lorsque vous publiez votre modèle, il est placé sur les serveurs d’images Dynamic Media, où il est disponible pour votre site web et votre application. Pendant le processus de publication, Adobe Dynamic Media Classic active les URL dont vous avez besoin pour votre site web et votre application.
+Lorsque vous publiez votre modèle, il est placé sur les serveurs d’images Dynamic Media, où il est disponible pour votre site web et votre application. Pendant le processus de publication, Adobe Dynamic Media Classic active les URL nécessaires à votre site web et à votre application.
 
 >[!NOTE]
 >
 >pour utiliser votre modèle, publiez tout le contenu qui a servi à le créer, y compris les polices et les images. Si vous n’incluez pas tous les fichiers requis, un message d’erreur s’affiche lors de la publication.
 
-## Marquage de modèles  pour publication {#marking-templates-for-publish}
+## Marquage de modèles pour publication {#marking-templates-for-publish}
 
-Les modèles et tous leurs fichiers de prise en charge doivent être marqués pour publication pour être placés sur les serveurs Dynamic Media Image Server. Vous pouvez marquer ces éléments pour publication dans le panneau de navigation en sélectionnant l’option **[!UICONTROL Marquer pour publication]** icône .
+Les modèles et tous leurs fichiers de prise en charge doivent être marqués pour publication pour être placés sur les serveurs Dynamic Media Image Server. Vous pouvez marquer ces éléments pour publication dans le panneau de navigation en sélectionnant l’option **[!UICONTROL Marquer pour publication]** Icône
 
 ## Publier votre modèle {#publishing-your-template}
 

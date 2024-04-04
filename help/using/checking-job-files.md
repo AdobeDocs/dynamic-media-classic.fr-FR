@@ -1,20 +1,18 @@
 ---
 title: Vérification des fichiers de tâche
 description: Découvrez comment vérifier les fichiers de tâche dans Adobe Dynamic Media Classic.
-uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1619'
 ht-degree: 24%
 
 ---
@@ -89,7 +87,7 @@ Sélectionnez le bouton Tâches dans la barre de navigation globale, puis, sur l
 
 >[!NOTE]
 >
->Vous pouvez filtrer la liste des tâches sur la page **[!UICONTROL Planifié]** avec l’onglet **[!UICONTROL Type de tâche]** et **[!UICONTROL Afficher]** menus. Sélectionnez un type de tâche afin de limiter la liste aux tâches d’un type spécifique. Sélectionnez une **[!UICONTROL Afficher]** si vous souhaitez afficher les tâches que vous avez créées ou créées par toutes les personnes de votre entreprise.
+>Vous pouvez filtrer la liste des tâches sur la page **[!UICONTROL Planifié]** avec l’onglet **[!UICONTROL Type de tâche]** et **[!UICONTROL Afficher]** menus. Sélectionnez un type de tâche afin de limiter la liste aux tâches d’un type spécifique. Sélectionnez une **[!UICONTROL Afficher]** pour afficher les tâches que vous avez créées ou créées par toutes les personnes de votre entreprise.
 
 ### Modification, suppression, mise en pause et reprise de tâches récurrentes {#editing-deleting-pausing-and-resuming-recurring-jobs}
 

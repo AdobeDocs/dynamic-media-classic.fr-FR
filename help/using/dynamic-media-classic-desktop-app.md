@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Cette nouvelle application est désormais disponible pour Windows® et macOS.
 >
 >Adobe vous recommande d’installer la nouvelle appli de bureau Adobe Dynamic Media Classic d’ici au 1er octobre 2020. Cela vous assurera une transition en douceur avant que le Flash Player Adobe ne soit abandonné le 31 décembre 2020. Après cette date, vous ne pourrez plus vous connecter à la version de navigateur de l’interface utilisateur d’Adobe Dynamic Media Classic, appelée Adobe Dynamic Media Classic dans le produit.
 
-Consultez la FAQ pour [Nouvelle connexion à Adobe Dynamic Media Classic désormais disponible.](/help/using/new-ui-2020.md)
+Consultez la FAQ pour [Nouvelle connexion Adobe Dynamic Media Classic désormais disponible.](/help/using/new-ui-2020.md)
 
 ## Configuration requise pour l’appli de bureau Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
@@ -46,7 +46,7 @@ La notification de mise à niveau dans l’application de bureau Adobe Dynamic M
 
 ## Correctifs de la dernière version (20.22.1) {#release-jan2022}
 
-* Modification des images **[!UICONTROL Enregistrer]** Les boutons n’étaient pas fonctionnels.
+* Lors de la modification d’une image, la variable **[!UICONTROL Enregistrer]** Les boutons n’étaient pas fonctionnels.
 * Dans les éditeurs de jeu, la variable **[!UICONTROL Fermer]**, **[!UICONTROL Enregistrer]**, et **[!UICONTROL Enregistrer sous]** les boutons deviennent désactivés après avoir fait défiler les ressources dans la **[!UICONTROL Ajouter des ressources]** du panneau.
 * **[!UICONTROL Play]** ne fonctionnait pas dans la vue Détails de la vidéo.
 * Impossible d’entrer `d` et `e` in **[!UICONTROL Nom d’utilisateur]** et **[!UICONTROL Password]** lors de l’exécution de macOS Monterey.
@@ -233,7 +233,7 @@ Pour télécharger et *silence* installez la dernière version de l’appli de b
 
 ## Présentation vidéo lors de l’utilisation de l’application de bureau Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
-Regardez une [Présentation vidéo sur l’utilisation de l’application de bureau Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (Durée : 2 minutes 36 secondes).
+Regardez une [Présentation vidéo sur l’utilisation de l’application de bureau Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Durée : 2 minutes 36 secondes).
 
 ## Effacement du cache des images et du cache des ressources sur votre ordinateur à l’aide de l’appli de bureau {#clear-cache}
 

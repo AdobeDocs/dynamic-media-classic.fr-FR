@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 33%
+source-wordcount: '1702'
+ht-degree: 30%
 
 ---
 
@@ -33,11 +33,11 @@ Vous pouvez utiliser deux méthodes différentes pour publier une vidéo :
 
 * **Publier des vidéos automatiquement et instantanément lors du téléchargement** - Dans le cadre du processus de chargement de vidéo, Adobe Dynamic Media Classic peut publier automatiquement les vidéos lorsqu’elles sont chargées et codées. Cette capacité de publication instantanée signifie qu’il n’est pas nécessaire de publier les vidéos séparément après coup.
 
-* **Publication d’une vidéo manuellement après le transfert** - Si vous ne souhaitez pas publier les vidéos immédiatement, vous pouvez les publier manuellement à tout moment.
+* **Publier la vidéo manuellement après le transfert** - Si vous ne souhaitez pas publier les vidéos immédiatement, vous pouvez à tout moment les publier manuellement.
 
 Une fois les vidéos publiées, Adobe Dynamic Media Classic active les chaînes URL de votre code d’application ou de votre page de HTML.
 
-**Publication d’une vidéo:**
+**Pour publier une vidéo :**
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -52,7 +52,7 @@ Lorsqu’un client sélectionne le lien, son appareil, sa bande passante et sa t
 
 Voir aussi [Incorporation de la visionneuse de vidéos dans une page web](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page).
 
-**Liaison d’une URL de vidéo à un site Web ou à un site mobile:**
+**Pour lier une URL de vidéo à un site mobile ou à un site web :**
 
 1. Dans le panneau de navigation des ressources, dans la **[!UICONTROL Afficher]** liste déroulante, sélectionnez **[!UICONTROL Vidéo]**, ou **[!UICONTROL Visionneuse de vidéos adaptative]**.
 1. Dans le panneau Bibliothèque de fichiers sur la gauche, accédez au dossier Fichiers qui contient la vidéo ou la vidéo adaptative que vous souhaitez lier.
@@ -79,7 +79,7 @@ Utilisez la fonction Intégrer le code lorsque vous souhaitez lire la vidéo inc
 
 Voir aussi [Liaison d’une URL de vidéo à un site mobile ou à un site web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-**Incorporation de la visionneuse de vidéos sur une page Web:**
+**Pour incorporer la visionneuse de vidéos dans une page web :**
 
 1. Dans la liste déroulante Afficher du panneau de navigation des ressources, sélectionnez **[!UICONTROL Vidéo]**, ou **[!UICONTROL Visionneuse de vidéos adaptative]**.
 1. Dans le panneau Bibliothèque de fichiers sur la gauche, accédez au dossier Fichiers qui contient la vidéo ou la visionneuse de vidéos adaptative dont vous voulez copier le code intégré.
@@ -133,7 +133,7 @@ Si vous n’utilisez pas le lecteur vidéo Adobe Dynamic Media Classic HTML5, ma
 
 Si vous utilisez un lecteur vidéo tiers ou un lecteur vidéo personnalisé au lieu d’une visionneuse de vidéos Dynamic Media Classic, vous obtenez l’URL de vidéo directe qui fonctionne pour la diffusion en continu à débit multiple HLS ou le téléchargement progressif.
 
-**Déploiement d’une vidéo à l’aide d’un lecteur vidéo tiers:**
+**Pour déployer une vidéo à l’aide d’un lecteur vidéo tiers :**
 
 1. Dans Adobe Dynamic Media Classic, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux]**.
 1. Selon le type d’URL à utiliser, effectuez l’une des opérations suivantes :
@@ -187,7 +187,7 @@ Vous pouvez appliquer des modificateurs d’image au cadre d’affiche. Vous pou
 
 Voir [Ajouter ou modifier un paramètre prédéfini de visionneuse de vidéos](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Voir [Guide de diffusion d’images](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home.html?lang=en#image-serving-api).
+Voir [Guide de diffusion d’images](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 Vous pouvez également modifier des miniatures vidéo en ajoutant des modificateurs aux URL de miniature vidéo.
 

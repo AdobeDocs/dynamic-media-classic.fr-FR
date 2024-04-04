@@ -1,19 +1,17 @@
 ---
 title: Téléchargement de fichiers
 description: Découvrez comment charger des fichiers dans Adobe Dynamic Media Classic.
-uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '3877'
+source-wordcount: '3869'
 ht-degree: 27%
 
 ---
@@ -104,7 +102,7 @@ Les types de fichier suivants peuvent être publiés :
 * CSS
 * JavaScript (lorsque l’entreprise est configurée avec son propre domaine)
 * Vidéo Principal
-* PDF (lorsque le PDF est marqué pour publication après le chargement, afin d’éviter la diffusion de tous les PDF pour le processus de catalogue électronique/PDF existant)
+* PDF (lorsque le PDF est marqué pour publication après le chargement, afin d’éviter la diffusion de tous les PDF pour le processus eCatalog/PDF existant)
 * Vidéo PrX
 * SVG
 * XML
@@ -166,8 +164,8 @@ L’application de bureau Adobe Dynamic Media Classic vous permet de télécharg
 1. Dans l’application de bureau Adobe Dynamic Media Classic, dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]**.
 1. Sur la page Télécharger , sélectionnez le **[!UICONTROL À partir du bureau]** .
 1. Sur le côté gauche de la page Télécharger, dans la variable **[!UICONTROL Sélection de fichiers à télécharger]** zone, sélectionnez **[!UICONTROL Parcourir]** pour sélectionner les fichiers ou les dossiers à charger, puis sélectionnez **[!UICONTROL Ouvrir]**.
-1. Sur le côté droit de la page Télécharger, dans la variable **Choisir la destination du dossier** , accédez à un dossier de destination dans lequel vous souhaitez que les fichiers ou dossiers chargés soient ajoutés.
-1. (Facultatif) Près du bas de la page Télécharger, dans le champ de texte Nom de la tâche , saisissez le nouveau nom de la tâche de téléchargement. Vous pouvez également utiliser le nom généré par le système par défaut fourni par Adobe Dynamic Media Classic. La tâche ainsi que les autres tâches de chargement et de publication sont enregistrées sur la page Tâches, où vous pouvez vérifier l’état des tâches. (voir [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)).
+1. Sur le côté droit de la page Télécharger, dans la **Destination du dossier** , accédez à un dossier de destination dans lequel vous souhaitez que les fichiers ou dossiers chargés soient ajoutés.
+1. (Facultatif) Près du bas de la page Télécharger, dans le champ de texte Nom de la tâche , saisissez le nouveau nom de la tâche de téléchargement. Vous pouvez également utiliser le nom généré par le système par défaut fourni par Adobe Dynamic Media Classic. Les tâches de téléchargement et de publication sont enregistrées sur la page Tâches, où vous pouvez vérifier l’état des tâches. (voir [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)).
 1. (Facultatif) Dans la partie inférieure de la page Télécharger, sélectionnez **[!UICONTROL Publier après le téléchargement]** si vous souhaitez publier automatiquement les ressources que vous chargez.
 Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
 1. (Facultatif) Dans la partie inférieure de la page Télécharger, sélectionnez **[!UICONTROL Écraser dans un dossier, même nom de fichier, extension indépendante]** si vous souhaitez que les fichiers que vous téléchargez remplacent les fichiers existants portant le même nom. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
@@ -186,8 +184,8 @@ Pour afficher la progression du chargement, sélectionnez **[!UICONTROL Tâches]
 1. Dans Adobe Dynamic Media Classic, dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]**.
 1. Sur la page Télécharger , sélectionnez le **[!UICONTROL VIA FTP]** .
 1. Sur le côté gauche de la page Télécharger, dans la variable **[!UICONTROL Choisir le dossier FTP à télécharger]** , choisissez un dossier FTP à partir duquel télécharger les fichiers.
-1. Sur le côté droit de la page Télécharger, dans la variable **[!UICONTROL Choisir la destination du dossier Dynamic Media Adobe]** , choisissez un dossier de destination dans Adobe Dynamic Media Classic.
-1. (Facultatif) Près du bas de la page Télécharger, dans le champ de texte Nom de la tâche , saisissez le nouveau nom de la tâche de téléchargement. Vous pouvez également utiliser le nom généré par le système par défaut fourni par Adobe Dynamic Media Classic. La tâche ainsi que les autres tâches de chargement et de publication sont enregistrées sur la page Tâches, où vous pouvez vérifier l’état des tâches.
+1. Sur le côté droit de la page Télécharger, dans la **[!UICONTROL Destination du dossier Dynamic Media Adobe]** , choisissez un dossier de destination dans Adobe Dynamic Media Classic.
+1. (Facultatif) Près du bas de la page Télécharger, dans le champ de texte Nom de la tâche , saisissez le nouveau nom de la tâche de téléchargement. Vous pouvez également utiliser le nom généré par le système par défaut fourni par Adobe Dynamic Media Classic. Les tâches de téléchargement et de publication sont enregistrées sur la page Tâches, où vous pouvez vérifier l’état des tâches.
 (voir [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)).
 1. (Facultatif) Dans la partie inférieure de la page Télécharger, sélectionnez **[!UICONTROL Publier après le téléchargement]** si vous souhaitez publier automatiquement les ressources que vous chargez.
 Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
@@ -248,7 +246,7 @@ Rognage en fonction de la transparence : indiquez 0 pour rogner les pixels seule
 * **Options de profil colorimétrique** - Choisissez une conversion de couleurs lorsque vous créez des fichiers optimisés utilisés pour la diffusion dynamique Adobe Dynamic Media Classic :
 
    * **[!UICONTROL Conservation des couleurs par défaut]** : conserve les couleurs de l’image source chaque fois que les images contiennent des informations sur l’espace colorimétrique ; il n’y a aucune conversion de couleurs. Pour la plupart des images aujourd’hui, un profil colorimétrique approprié est déjà inclus. Toutefois, si une image source CMJN ne contient pas de profil colorimétrique intégré, les couleurs sont converties dans l’espace colorimétrique sRVB (rouge vert bleu standard). sRVB est l’espace colorimétrique recommandé pour l’affichage d’images sur les pages Web.
-   * **[!UICONTROL Conserver l’espace colorimétrique original]** - Conserve les couleurs d’origine sans conversion de couleur au moment de l’ingestion dans Adobe Dynamic Media Classic. Pour les images sans profil colorimétrique incorporé, toute conversion de couleur requise pour traiter les demandes de l’image est effectuée à l’aide des profils colorimétriques par défaut configurés dans les paramètres de publication. Ces profils de couleurs ne correspondent pas toujours à la couleur des fichiers créés avec cette option. Par conséquent, vous avez intérêt à utiliser l’option de conservation des couleurs par défaut.
+   * **[!UICONTROL Conserver l’espace colorimétrique original]** - Conserve les couleurs d’origine sans conversion de couleur au moment de l’ingestion dans Adobe Dynamic Media Classic. Pour les images sans profil colorimétrique incorporé, toute conversion de couleur requise pour traiter les demandes de l’image est effectuée à l’aide des profils colorimétriques par défaut configurés dans les paramètres de publication. Ces profils de couleurs ne correspondent pas toujours aux couleurs des fichiers créés avec cette option. Par conséquent, vous avez intérêt à utiliser l’option de conservation des couleurs par défaut.
    * **[!UICONTROL Personnalisé depuis]** > **[!UICONTROL À]** - Ouvre les menus pour vous permettre de choisir un **[!UICONTROL Convertir depuis]** et **[!UICONTROL Convertir en]** espace colorimétrique. Cette option avancée remplace toutes les informations de couleur incorporées dans le fichier source. Sélectionnez cette option uniquement lorsque toutes les images que vous envoyez contiennent des données de profil colorimétrique incorrectes ou manquantes.
 
 * **Options de modification des images** - Vous pouvez conserver les masques &lt;> d’écrêtage dans les images et choisir un profil colorimétrique.
@@ -269,8 +267,9 @@ Voir [Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-
 * **Options EVIDEO** - Vous pouvez transcoder un fichier vidéo en sélectionnant un paramètre vidéo prédéfini.
 Voir [Utilisation des paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **Métadonnées supplémentaires** - Entrez des mots-clés qui décrivent les fichiers que vous avez l’intention de charger. Séparez les mots clés-par des virgules. Les mots-clés facilitent la recherche de ressources.
-Voir [Réaliser une recherche avancée](searching-assets.md#conducting_an_advanced_search). Voir aussi [Téléchargement de mots-clés](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) vidéo de formation.
+* **Plus de métadonnées** - Entrez des mots-clés qui décrivent les fichiers que vous avez l’intention de charger. Séparez les mots clés-par des virgules. Les mots-clés facilitent la recherche de ressources.
+Voir [Réaliser une recherche avancée](searching-assets.md#conducting_an_advanced_search).
+Voir aussi [Téléchargement de mots-clés](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) vidéo de formation.
 
 * **Paramètres prédéfinis d’ensemble par lot** - Si vous souhaitez créer une visionneuse d’images, une visionneuse à 360° ou une série d’échantillons à partir des fichiers transférés, sélectionnez la variable **[!UICONTROL Actif]** pour le paramètre prédéfini que vous souhaitez utiliser. Rien ne vous empêche de sélectionner plusieurs paramètres prédéfinis. Vous créez les paramètres prédéfinis sur la page Configuration de l’application/Paramètres prédéfinis d’ensemble par lot .
 (voir [Paramètres prédéfinis d’ensemble par lot](application-setup.md#batch_set_presets)).
@@ -279,7 +278,7 @@ Voir [Réaliser une recherche avancée](searching-assets.md#conducting_an_advanc
 
 ## Enchaînement d’une tâche de téléchargement et d’une autre tâche {#follow-an-upload-with-another-job}
 
-Lorsque vous transférez des éléments par FTP, vous pouvez planifier une tâche ultérieure qui commencera une fois le transfert terminé. Si d’autres tâches sont planifiées pour commencer, la tâche que vous planifiez ici est mise en file d’attente après elles.
+Lorsque vous transférez des éléments par FTP, vous pouvez planifier une tâche ultérieure qui commencera une fois le transfert terminé. Si d’autres tâches sont planifiées pour commencer, les tâches que vous programmez ici sont mises en file d’attente après elles.
 
 La nouvelle tâche envoie une notification à l’adresse que vous spécifiez afin que le code à cet emplacement puisse être déclenché. Cette tâche de publication consécutive reprend le nom de la tâche de téléchargement, mais ajoute *Pub_* devant le nom.
 

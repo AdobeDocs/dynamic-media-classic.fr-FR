@@ -1,6 +1,6 @@
 ---
 title: Configuration de l’application
-description: Découvrez comment configurer la zone Application d’Adobe Dynamic Media Classic. La zone Application vous permet de saisir des paramètres généraux, de créer des paramètres prédéfinis d’image, de visionneuse et de codage vidéo, de définir les visionneuses et métadonnées par défaut, les paramètres de publication et les paramètres d’optimisation pour les moteurs de recherche vidéo. Vous pouvez également utiliser la zone pour configurer des paramètres prédéfinis d’ensemble par lot afin d’automatiser la génération de visionneuses à 360° en 2D.
+description: Découvrez comment configurer la zone Application d’Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '10991'
-ht-degree: 37%
+source-wordcount: '10947'
+ht-degree: 36%
 
 ---
 
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic ne permet pas que deux fichiers portent le même nom
 
 Si vous avez précédemment téléchargé des images, puis modifié les fichiers d’origine (ou les avez remplacés), l’option Écraser sélectionnée indique comment Adobe Dynamic Media Classic remplace les images. Aucune donnée sur l’image ne change, mais la nouvelle image remplace l’ancienne. Si le dossier contient également des images qui ne se trouvent pas déjà dans Adobe Dynamic Media Classic, ces images sont ajoutées.
 
-Utilisez cette option si les images que vous avez téléchargées ont changé d’une manière ou d’une autre (l’image a été modifiée), mais que la référence à l’image reste la même. Le remplacement s’avère également utile lors du chargement et de l’extraction de PDF d’Adobe®. Pour affiner la manière dont Adobe Dynamic Media Classic est *rips* Pour l’image, ajustez les options de profil de couleur ICC dans la boîte de dialogue Télécharger , puis effectuez un nouveau chargement à l’aide de la fonction Remplacer .
+Utilisez cette option si les images que vous avez téléchargées ont changé d’une manière ou d’une autre (l’image a été modifiée), mais que la référence à l’image reste la même. Le remplacement s’avère également utile lors du chargement et de l’extraction de PDF d’Adobe®. Pour affiner la manière dont Adobe Dynamic Media Classic est *rips* Pour l’image, ajustez les options de profil de couleur ICC dans la boîte de dialogue Télécharger , puis effectuez un nouveau chargement à l’aide de la fonction de remplacement.
 
 Les Adobe Dynamic Media Classic ID utilisés pour accéder aux images à partir des serveurs de production sont dérivés des noms de fichier image. L’utilisation de caractères majuscules et minuscules dans le nom de fichier est importante, tant pour le remplacement de fichiers existants que pour les Adobe Dynamic Media Classic ID utilisés pour accéder à l’image. Assurez-vous que l’utilisation de caractères majuscules et minuscules dans les noms de fichier est correcte avant de les transférer dans Adobe Dynamic Media Classic afin d’éviter que les Adobe Dynamic Media Classic ID ne diffèrent que par le cas d’une même image.
 
@@ -161,7 +161,7 @@ Les administrateurs peuvent créer des paramètres prédéfinis pour l’exporta
 
 Pour ouvrir l’écran Paramètre d’image prédéfini, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres d’image prédéfinis]**.
 
-Voir [Imagerie dynamique](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
+Voir [Imagerie dynamique](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Création et modification des paramètres d’image prédéfinis {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ En combinant dans un seul lecteur les éléments suivants :
 
 Vous étendez la portée de votre contenu multimédia aux utilisateurs de bureau, de tablette et de mobile, et garantissez une expérience vidéo rationalisée.
 
-Voir [A propos des visionneuses HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses Adobe.
+Voir [A propos des visionneuses HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses Adobe.
 
 Voir [Matrice de compatibilité des paramètres prédéfinis de la visionneuse Adobe Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Voir aussi [Exemples de bibliothèques de références de visionneuses Adobe](ht
 
 Différentes pages Web ont différents besoins. Il arrive que vous souhaitiez une page web qui fournit un lien qui ouvre la visionneuse HTML5 dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer la visionneuse HTML5 directement sur la page d’hébergement. Dans ce dernier cas, la page web a probablement une disposition statique. Il est également &quot;réactif&quot; et s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, les visionneuses HTML5 fournies avec Adobe Dynamic Media Classic prennent en charge les pages web statiques et les pages web adaptées.
 
-Pour plus d’informations sur l’intégration de visionneuses réactives à vos pages web, voir [À propos de la bibliothèque d’images réactives](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api), [Utilisation de la bibliothèque d’images réactives](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api), et [Référence de commande - Attributs de commande](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library).
+Pour plus d’informations sur l’intégration de visionneuses réactives à vos pages web, voir [À propos de la bibliothèque d’images réactives](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Utilisation de la bibliothèque d’images réactives](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api), et [Référence de commande - Attributs de commande](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Types de paramètres prédéfinis de visionneuse {#viewer-preset-types}
 
@@ -486,7 +486,7 @@ Voir aussi [Exemples de bibliothèques de références de visionneuses Adobe](ht
 
 Pour en savoir plus sur les versions de navigateur Web et de système d’exploitation prises en charge pour les visionneuses, consultez les notes de mise à jour des visionneuses.
 
-Voir [Notes de mise à jour des références des visionneuses Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+Voir [Notes de mise à jour des références des visionneuses Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -613,7 +613,7 @@ Voir aussi [Paramètres prédéfinis de la visionneuse](https://s7d5.scene7.com/
      
    * **Modifier** - Sélectionnez un paramètre prédéfini de visionneuse existant, puis cliquez sur **[!UICONTROL Modifier]**.
 
-1. Sur la page Configurer la visionneuse, dans le champ Nom du paramètre prédéfini, saisissez ou modifiez le nom du paramètre prédéfini.
+1. Dans la page Configuration de la visionneuse, dans le champ Nom du paramètre prédéfini, saisissez ou modifiez le nom du paramètre prédéfini.
 1. Définissez les options restantes si vous le souhaitez.
 
    >[!NOTE]
@@ -732,7 +732,7 @@ Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 1. Dans la boîte de dialogue Code incorporé, sélectionnez **[!UICONTROL Copier dans le Presse-papiers]**.
 1. Sélectionner **[!UICONTROL Fermer]**.
 
-## Configuration des visionneuses par défaut {#configuring-default-viewers}
+## Configuration des visionneuses par défaut {#configure-default-viewers}
 
 Vous pouvez utiliser les visionneuses par défaut pour configurer la visionneuse par défaut associée à une ressource lorsque vous utilisez l’aperçu dans Adobe Dynamic Media Classic. Vous pouvez configurer l’expérience de prévisualisation par défaut pour les types de fichier suivants :
 
@@ -812,7 +812,7 @@ Créez un paramètre prédéfini de métadonnées pour chaque ensemble de valeur
 
 Un administrateur de portail multimédia ou un administrateur d’entreprise peut créer des champs de métadonnées définis par l’utilisateur personnalisés. Les champs personnalisés peuvent vous aider à organiser les ressources dans Adobe Dynamic Media Classic. Vous pouvez marquer les champs comme étant actifs, si nécessaire. Lorsqu’ils sont activés, les noms de ces champs de métadonnées personnalisés s’affichent dans le panneau Métadonnées de la vue Détails. Les utilisateurs peuvent renseigner les champs de métadonnées définies par les utilisateurs pour décrire les fichiers. Ils peuvent également définir un champ de métadonnées utilisateur comme critère de recherche.
 
-Pour utiliser efficacement les champs de métadonnées définis par l’utilisateur, retardez l’heure d’activation d’un fichier pour un lancement ou une vente spécifique. Vous définissez un champ &quot;activation&quot;, en fonction du type *Date*. Ensuite, à l’aide de la fonction **[!UICONTROL Métadonnées]** dans l’affichage des détails ou **[!UICONTROL Fichier]** > **[!UICONTROL Modifier les infos]**, vous pouvez spécifier le moment où la ressource est activée. Adobe Dynamic Media Classic vérifie l’état de publication d’une ressource et l’historique de publication. S’il ne se trouve pas dans l’heure d’activation, l’état de publication s’affiche comme &quot;Non publié&quot;.
+Pour utiliser efficacement les champs de métadonnées définis par l’utilisateur, retardez l’heure d’activation d’un fichier pour un lancement ou une vente spécifique. Vous définissez un champ &quot;activation&quot;, en fonction du type *Date*. Ensuite, à l’aide de la fonction **[!UICONTROL Métadonnées]** dans l’affichage des détails ou **[!UICONTROL Fichier]** > **[!UICONTROL Modifier les infos]**, vous pouvez spécifier le moment où la ressource est activée. Adobe Dynamic Media Classic vérifie l’état publié d’une ressource et l’historique de publication. S’il ne se trouve pas dans l’heure d’activation, l’état de publication s’affiche comme &quot;Non publié&quot;.
 
 >[!NOTE]
 >
@@ -914,7 +914,7 @@ La configuration d’une convention d’affectation de nom par défaut n’est p
 
 Vous pouvez également utiliser l’affichage du code sans champ de formulaire. Dans cet affichage, vous créez vos définitions de convention d’affectation de nom entièrement à l’aide d’expressions régulières.
 
-Deux éléments sont disponibles pour la définition : Correspondance et Nom de base. Ces champs vous permettent de définir tous les éléments de la convention d’affectation de nom et d’identifier la partie de la convention utilisée pour nommer la visionneuse dans laquelle ils se trouvent. La convention de dénomination individuelle d’une entreprise peut utiliser une ou plusieurs lignes de définition pour chacun de ces éléments. Vous pouvez utiliser autant de lignes que vous le souhaitez pour votre définition unique et les regrouper dans des éléments distincts, par exemple pour l’image principale, l’élément Couleur, l’élément d’affichage secondaire et l’élément Echantillon.
+Deux éléments sont disponibles pour la définition : Correspondance et Nom de base. Ces champs sont tous les éléments que vous avez définis pour une convention d’affectation de nom et qui identifient la partie de la convention utilisée pour nommer l’ensemble dans lequel ils sont contenus. La convention de dénomination individuelle d’une entreprise peut utiliser une ou plusieurs lignes de définition pour chacun de ces éléments. Vous pouvez utiliser autant de lignes que vous le souhaitez pour votre définition unique et les regrouper dans des éléments distincts, par exemple pour l’image principale, l’élément Couleur, l’élément d’affichage secondaire et l’élément Echantillon.
 
 ### Création d’un paramètre prédéfini d’ensemble par lot {#creating-a-batch-set-preset}
 

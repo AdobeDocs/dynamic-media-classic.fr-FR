@@ -1,21 +1,19 @@
 ---
 title: Partage des modifications de ressources avec des pairs en temps réel
 description: Découvrez comment partager des modifications de ressources avec des pairs en temps réel dans Adobe Dynamic Media Classic.
-uuid: 13fa4f6e-66bf-4682-96a9-0e7040706f53
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 feature: Dynamic Media Classic,Asset Management,Collaboration
 role: Admin,User
 exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 44%
+ht-degree: 26%
 
 ---
 
@@ -32,8 +30,8 @@ Avec plusieurs copies d’Adobe Dynamic Media Classic s’exécutant sur plusieu
 
 Une fois qu’une modification a été apportée au client d’origine, tous les clients pairs connectés à la même société sont mis à jour avec la modification. Les modifications sont appliquées aux pairs sans aucune notification, sauf si un pair modifie un fichier édité dans un éditeur d’images ou une zone de création.
 
-Lorsque vous vous connectez, vous êtes invité à autoriser ou à refuser les mises à jour des pairs. Vous pouvez « mémoriser » votre choix afin que la question ne vous soit plus posée par la suite. Pour annuler votre choix, supprimez le site concerné dans le panneau Mise en réseau coopérative.
+Lorsque vous vous êtes connecté, vous étiez invité à autoriser ou à refuser les mises à jour des pairs. Vous pouvez « mémoriser » votre choix afin que la question ne vous soit plus posée par la suite. Pour annuler votre choix, supprimez le site concerné dans le panneau Mise en réseau coopérative.
 
-Si vous éditez un fichier modifié par un pair, vous êtes invité à intégrer la modification dans la zone de création ou l’éditeur. Si vous choisissez **[!UICONTROL Oui]**, puis le créateur ou l’éditeur ignore toutes les modifications apportées à la ressource et importe la ressource mise à jour. Si vous choisissez **[!UICONTROL Non]**, la ressource reste inchangée dans le créateur ou l’éditeur et toutes les modifications que vous avez apportées sont conservées au cours de cette session.
+Si vous modifiez une ressource modifiée par un pair, vous êtes invité à l’assimiler dans le créateur ou l’éditeur. Si vous choisissez **[!UICONTROL Oui]**, puis le créateur ou l’éditeur ignore toutes les modifications apportées à la ressource et importe la ressource mise à jour. Si vous choisissez **[!UICONTROL Non]**, la ressource reste inchangée dans le créateur ou l’éditeur et toutes les modifications que vous avez apportées sont conservées au cours de cette session.
 
-Au moment d’enregistrer le fichier, vous êtes informé qu’il existe une nouvelle version et êtes invité à remplacer cette version par la vôtre.
+Lorsque vous avez enregistré la ressource, vous avez été informé de l’existence d’une version plus récente et vous avez été invité à la remplacer par vos modifications.

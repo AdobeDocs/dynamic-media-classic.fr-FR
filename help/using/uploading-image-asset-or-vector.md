@@ -1,6 +1,6 @@
 ---
 title: Chargement d’une ressource image pixellisée
-description: Découvrez comment télécharger une ressource d’image pixellisée dans Adobe Dynamic Media Classic
+description: Découvrez comment télécharger une ressource d’image pixellisée dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 55%
+source-wordcount: '1010'
+ht-degree: 53%
 
 ---
 
@@ -120,7 +120,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 La variable `file_limit` spécifie la limite de taille de fichier en octets. La variable `file_exts` spécifie les extensions de nom de fichier autorisées pour le téléchargement. Ces deux valeurs sont facultatives.
 
-Une limite globale est définie dans l’application pour la taille limite des fichiers et les extensions de nom de fichier autorisées. Si le contenu de votre requête se trouve dans les limites globales, celle-ci est satisfaite. Les limites globales sont les suivantes :
+Une limite globale est définie dans l’application pour la taille limite des fichiers et les extensions de nom de fichier autorisées. Si ce que vous avez envoyé dans la demande est un sous-ensemble des limites globales, elle est respectée. Les limites globales sont les suivantes :
 
 | Limite globale | Valeur |
 | --- | --- |
@@ -140,7 +140,7 @@ Voir Masquage de l’arrière-plan dans [Options d’optimisation des images lor
 
 Vous pouvez afficher le code source du HTML associé au formulaire ci-dessus en sélectionnant [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Dans Firefox, cliquez avec le bouton droit dans la fenêtre du navigateur, puis sélectionnez **[!UICONTROL Afficher la source de page]**. Le code affiche la chaîne de requête URL correspondante et la méthode du POST qui sont exécutées lorsque l’utilisateur sélectionne **[!UICONTROL Envoyer]**.
+Dans Firefox, cliquez avec le bouton droit dans la fenêtre du navigateur, puis sélectionnez **[!UICONTROL Afficher la source de page]**. Le code affiche la chaîne de requête d’URL correspondante et la méthode du POST qui est exécutée lorsque l’utilisateur sélectionne **[!UICONTROL Envoyer]**.
 
 Pour afficher la réponse XML dans Internet Explorer, accédez à **[!UICONTROL Affichage]** > **[!UICONTROL Source]**. Pour afficher la réponse XML dans Firefox, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Outils de navigateur]** > **[!UICONTROL Outils de développement web]**. Firefox est recommandé pour afficher les réponses XML.
 

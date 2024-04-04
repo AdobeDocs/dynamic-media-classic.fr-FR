@@ -1,27 +1,25 @@
 ---
 title: Création de zones cliquables
 description: Découvrez comment créer des zones cliquables dans Adobe Dynamic Media Classic.
-uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2430'
-ht-degree: 50%
+source-wordcount: '2434'
+ht-degree: 41%
 
 ---
 
 # Création de zones cliquables {#creating-image-maps}
 
-Une zone cliquable est une partie d’une image, d’une page de catalogue électronique ou d’une image dans une visionneuse à 360°, qui affiche un panneau de survol avec du texte. Lorsque l’utilisateur sélectionne une zone cliquable, une action d’une sorte ou d’une autre est déclenchée. Par exemple, une page Web affiche des informations détaillées sur un produit. Un contour s’affiche autour d’une zone cliquable lorsque l’utilisateur déplace le pointeur dessus.
+Une zone cliquable est une zone d’une image, d’une page de catalogue électronique ou d’une image dans une visionneuse à 360° qui affiche un panneau de survol avec du texte. Lorsque l’utilisateur sélectionne une zone cliquable, une action d’une sorte ou d’une autre est déclenchée. Par exemple, une page Web affiche des informations détaillées sur un produit. Un contour s’affiche autour d’une zone cliquable lorsque l’utilisateur déplace le pointeur dessus.
 
 Outre la possibilité de créer des zones cliquables dans Adobe Dynamic Media Classic, vous pouvez également créer des zones cliquables lors de la conception d’un catalogue dans Adobe Acrobat ou Adobe InDesign.
 
@@ -41,14 +39,14 @@ Lorsque vous créez des zones cliquables, vous pouvez effectuer l’une des opé
 1. Effectuez l’une des opérations suivantes :
 
    * Si vous utilisez une image en mode Grille ou Liste, sélectionnez dans la liste déroulante Modifier **[!UICONTROL Zone cliquable]**. Vous pouvez également l’ouvrir dans la vue Détails, puis sélectionner **[!UICONTROL Zone cliquable]** au-dessus de l’image.
-   * Si vous utilisez une visionneuse à 360° en mode Grille ou Liste, sélectionnez **[!UICONTROL Modifier]**. Vous pouvez également l’ouvrir dans la vue Détails, puis sélectionner **[!UICONTROL Modifier]**. Sélectionnez une ressource image, puis sélectionnez **[!UICONTROL Zone cliquable]**.
-   * Si vous utilisez un catalogue électronique, en mode Grille, Liste et Détails, sélectionnez **[!UICONTROL Modifier]**. Sélectionnez la **[!UICONTROL Pages de mappage]** .
+   * Si vous utilisez une visionneuse à 360° en mode Affichage de la grille ou Affichage par liste, sélectionnez **[!UICONTROL Modifier]**. Vous pouvez également l’ouvrir dans la vue Détails, puis sélectionner **[!UICONTROL Modifier]**. Sélectionnez une ressource image, puis sélectionnez **[!UICONTROL Zone cliquable]**.
+   * Si vous utilisez un catalogue électronique, en mode Grille, Liste et Détails, sélectionnez **[!UICONTROL Modifier]**. Sélectionnez la variable **[!UICONTROL Pages de mappage]** .
 
    ![Image cliquable](assets/ma_image_map.png)
 
 1. Tracez une zone cliquable rectangulaire ou polygonale (avec de nombreux côtés) :
 
-   * **Carte rectangulaire** - Sélectionnez l’outil de zone cliquable Rectangle et faites glisser sur la page pour créer le rectangle. Pour ajouter un point à une carte rectangulaire (pour le transformer en map polygone), appuyez sur Ctrl, puis placez l’outil d’insertion à l’emplacement souhaité et sélectionnez.
+   * **Mappage rectangulaire** - Sélectionnez l’outil de zone cliquable Rectangle et faites glisser sur la page pour créer le rectangle. Pour ajouter un point à une carte rectangulaire (pour le transformer en map polygone), appuyez sur Ctrl, puis placez l’outil d’insertion à l’emplacement souhaité et sélectionnez.
 
    * **map polygonal** - Sélectionnez l’outil de zone cliquable polygonal et sélectionnez des points sur le périmètre de la zone de l’image que vous souhaitez encadrer. A l’aide du curseur de densité du polygone, modulez la densité du point. La densité initiale est conservée si vous sélectionnez d’autres zones. En revanche, si vous ajoutez, supprimez ou modifiez un point du polygone, la densité initiale est perdue et le curseur revient à la valeur maximale.
 
@@ -58,11 +56,11 @@ Lorsque vous créez des zones cliquables, vous pouvez effectuer l’une des opé
 
 1. Si vous souhaitez que les utilisateurs ouvrent une nouvelle page web lorsqu’ils sélectionnent la zone cliquable, saisissez l’URL dans la liste Zone cliquable.
 
-   Voir [Utilisation d’un modèle pour définir du code JavaScript et des URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
+   Voir [pour saisir du code JavaScript et des URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
-1. Pour qu’un texte de survol s’affiche lorsque les utilisateurs déplacent le pointeur sur la zone cliquable, saisissez le texte dans la liste Zone cliquable. Dans la liste Zone cliquable, sélectionnez la variable **[!UICONTROL Afficher]** et sélectionnez **[!UICONTROL Texte de survol]**. Saisissez ensuite le texte que vous souhaitez que les utilisateurs voient à l’écran. Vous pouvez rédiger le texte dans une application de traitement de texte et le copier dans le champ Texte de survol.
+1. Pour qu’un texte de survol s’affiche lorsque les utilisateurs déplacent le pointeur sur la zone cliquable, saisissez le texte dans la liste Zone cliquable. Dans la liste Zone cliquable, sélectionnez la variable **[!UICONTROL Afficher]** et sélectionnez **[!UICONTROL Texte de survol]**. Saisissez ensuite le texte que les utilisateurs doivent afficher à l’écran. Vous pouvez rédiger le texte dans une application de traitement de texte et le copier dans le champ Texte de survol.
 
-1. Si vous souhaitez qu’une autre action se déclenche lorsque les utilisateurs déplacent la souris sur une zone cliquable, définissez l’action. Dans le **[!UICONTROL Afficher]** liste déroulante, sélectionnez **[!UICONTROL Autres actions]**. Spécifiez les attributs de l’action. (Accédez à **[!UICONTROL Afficher]** > **[!UICONTROL Les]** pour créer du texte de survol et une action pour une zone cliquable.)
+1. Si vous souhaitez qu’une autre action se déclenche lorsque les utilisateurs déplacent la souris sur une zone cliquable, définissez l’action. Dans le **[!UICONTROL Afficher]** liste déroulante, sélectionnez **[!UICONTROL Autres actions]**. Spécifiez les attributs de l’action. (Accédez à **[!UICONTROL Afficher]** > **[!UICONTROL Les deux]** pour créer du texte de survol et une action pour une zone cliquable.)
 
    Voir [Définition d’autres actions pour les zones cliquables](creating-image-maps.md#defining_other_actions_for_image_maps).
 
@@ -76,7 +74,7 @@ Lorsque vous créez des zones cliquables, vous pouvez effectuer l’une des opé
 
 ### Ajuster la position, la forme et la taille des zones cliquables {#adjusting-the-position-shape-and-size-of-image-maps}
 
-Pour modifier la position, la forme et la taille d’une zone cliquable, cliquez sur le bouton Zone cliquable. Sélectionnez ensuite le **[!UICONTROL Panoramique]** et suivez ces instructions :
+Pour modifier la position, la forme et la taille d’une zone cliquable, cliquez sur le bouton Zone cliquable . Sélectionnez ensuite le **[!UICONTROL Panoramique]** et suivez ces instructions :
 
 * **Modifier la position** - Déplacez le pointeur près de la bordure de la zone cliquable, mais pas dessus. Lorsque le pointeur prend la forme d’une flèche à quatre pointes, faites glisser la zone à l’emplacement voulu.
 
@@ -98,12 +96,12 @@ Si votre image (ou page de catalogue électronique) comprend plusieurs zones cli
 
 Plutôt que de saisir les données de zone cliquable sur chacune des pages, vous avez la possibilité d’importer les données de l’ensemble de votre image, visionneuse à 360° ou catalogue électronique dans l’écran Résumé de zone cliquable. Vous importez les données de zone cliquable sous la forme d’un fichier délimité par des tabulations ou d’un fichier DTD XML. Les champs du fichier doivent être dans l’ordre indiqué sur l’écran de résumé de zone cliquable : Nom, Etiquettes de table des matières, Zones, URL, Texte de survol, Autres actions et Chaînes de recherche. Vous évitez ainsi d’avoir à saisir les données dans la liste de zones cliquables au fur et à mesure que vous créez ces dernières.
 
-**Pour importer des données de zone cliquable:**
+**Pour importer des données de zone cliquable :**
 
 1. Aller à la page d’édition des zones cliquables (pour des images ou des images dans des visionneuses à 360°) ou l’onglet Pages de zones de l’écran d’édition du catalogue électronique.
 1. Sélectionner **[!UICONTROL Importation de métadonnées]**.
 1. Dans la boîte de dialogue Télécharger les métadonnées , sélectionnez Image ou Zone cliquable pour télécharger les métadonnées à partir du type de propriété de ressource souhaité.
-1. Dans la liste déroulante Générer un fichier, sélectionnez le type de fichier que vous souhaitez créer.
+1. Dans le `Generate File` , sélectionnez le type de fichier à créer.
 1. (Facultatif) Sélectionnez **[!UICONTROL Générer]** pour prévisualiser les données obtenues en fonction du type de fichier que vous souhaitez créer. Sélectionner **[!UICONTROL Fermer]** pour revenir à la boîte de dialogue Télécharger les métadonnées .
 1. Naviguez jusqu’au fichier que vous souhaitez télécharger. Dans le champ de texte Nom de fichier, spécifiez le nom du fichier généré.
 1. (Facultatif) Dans le champ Nom de la tâche, spécifiez un nom pour la tâche de téléchargement des métadonnées.
@@ -115,7 +113,7 @@ Vous pouvez copier des zones cliquables d’une image (ou d’une page de catalo
 
 Par exemple, copier des zones cliquables dans un catalogue électronique permet de copier facilement toutes les zones cliquables entre les versions de langue étrangère du même catalogue électronique. Pour obtenir de meilleurs résultats, il est préférable d’effectuer une copie entre des catalogues électroniques ayant le même nombre de pages et les mêmes images. Si le catalogue électronique dans lequel vous copiez déjà contient des zones cliquables, ces zones cliquables sont supprimées lors de la copie.
 
-**Pour copier des zones cliquables:**
+**Pour copier des zones cliquables :**
 
 1. Aller à la page d’édition des zones cliquables (pour des images ou des images dans des visionneuses à 360°) ou l’onglet Pages de zones de l’écran d’édition du catalogue électronique.
 1. Sélectionner **[!UICONTROL Copier les mappages vers]**.
@@ -136,32 +134,32 @@ Vous pouvez définir un modèle d’URL (également appelé modèle Href) pour 
 
 ### A propos des modèles d’URL {#about-url-templates}
 
-Avec un modèle d’URL, le contenu de la colonne URL dans la liste Zone cliquable est remplacé par le double signe dollar ($$) dans le modèle :
+Le modèle d’URL fonctionne en remplaçant le contenu de la colonne URL de la liste Zone cliquable par les signes représentant un double dollar (&#39;$$&#39;) dans le modèle :
 
 ```as3
-Javascript:loadProduct(‘$$’);void(0);
+Javascript:loadProduct('$$');void(0);
 ```
 
 Vous placez toutes les valeurs qui ne changent pas entre les zones cliquables dans le modèle d’URL. N’ajoutez que les valeurs variables dans la colonne URL de la liste Zone cliquable. Par exemple :
 
-* Modèle d’URL - `javascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
+* Modèle d’URL - `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
 * Valeur d’URL - `product.htm`
-* URL réelle générée - `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
+* URL réelle générée - `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
 Par défaut, le modèle d’URL comprend un gestionnaire JavaScript Adobe Dynamic Media Classic propriétaire appelé `loadProduct` qui ouvre une nouvelle fenêtre avec la destination de l’URL. Cependant, vous pouvez utiliser n’importe quel code JavaScript pour remplacer ce gestionnaire JavaScript ou utiliser l’un des gestionnaires Adobe Dynamic Media Classic suivants :
 
-* `loadProductCW` - Affiche l’URL cible spécifiée dans la colonne URL de la fenêtre active. Ce code est réservé principalement aux catalogues électroniques intégrés dans une page d’un site Web.
+* `loadProductCW` : affiche la cible d’URL spécifiée dans la colonne URL de la fenêtre active. Ce code est réservé principalement aux catalogues électroniques intégrés dans une page d’un site Web.
 
-* `loadProductPW` - Affiche l’URL cible spécifiée dans la colonne URL de la fenêtre parente (la page d’où la page active a été ouverte). La fenêtre active reste ouverte, mais la fenêtre parent change pour afficher l’URL cible.
+* `loadProductPW` : affiche la cible de l’URL spécifiée dans la colonne URL de la fenêtre parente (la page qui a ouvert la page active). La fenêtre active reste ouverte, mais la fenêtre parent change pour afficher l’URL cible.
 
   >[!NOTE]
   >
-  >Le code `loadProductPW` ne prend pas en charge les visionneuses DHTML et HTML5.
+  >Le gestionnaire `loadProductPW` ne prend pas en charge les visionneuses DHTML et HTML5.
 
 ### Création d’un modèle d’URL {#creating-a-url-template}
 
 1. Sur l’écran Editeur de zone cliquable (images ou visionneuses à 360°) ou l’onglet Pages de zones de l’écran Catalogue électronique (catalogues électroniques), cliquez sur Modifier en regard de l’option Modèle d’URL. La boîte de dialogue Modifier le modèle de zone apparaît.
-1. Entrez le code JavaScript et l’URL complète (en remplaçant la partie variable par le double signe dollar [$$]). Vous pouvez coller le code en cliquant avec le bouton droit de la souris et en choisissant **[!UICONTROL Coller]**.
+1. Entrez le code JavaScript et l’URL complète (avec la partie variable remplacée par des signes dollar). [$$]). Vous pouvez coller le code en cliquant avec le bouton droit de la souris et en choisissant **[!UICONTROL Coller]**.
 1. Sélectionner **[!UICONTROL Enregistrer]**.
 
 ### Gestion des modèles d’URL {#handling-url-templates}
@@ -176,19 +174,19 @@ La page Editeur de zone cliquable (images et visionneuses à 360°) et l’ongle
 
 Vous pouvez sélectionner la variable **[!UICONTROL Afficher]** et choisissez **[!UICONTROL Autres actions]** pour déclencher des actions autres que le texte de survol et les lancements de pages web. Lorsque l’utilisateur amène le pointeur sur une zone cliquable, vous pouvez initier une action. Ces actions sont des attributs définis pour les zones cliquables côté client conformément aux spécifications HTML du consortium WWW (World Wide Web). Elles comptent notamment :
 
-* **`accesskey`** - Déclenche une action lorsque l’utilisateur appuie sur la touche spécifiée du clavier.
+* **`accesskey`** : déclenche une action lorsque l’utilisateur appuie sur une touche désignée du clavier.
 
-* **`onfocus`** - Déclenche un événement lorsque la zone cliquable devient active grâce au curseur, à une tabulation ou à une touche d’accès. Par exemple, vous pouvez lancer une page Web lorsque la zone cliquable devient active et la refermer lorsqu’elle ne l’est plus.
+* **`onfocus`** - Déclenche un événement lorsque la zone cliquable est sélectionnée (par le curseur, par tabulation ou en appuyant sur une touche d’accès). Par exemple, vous pouvez lancer une page Web lorsque la zone cliquable devient active et la refermer lorsqu’elle ne l’est plus.
 
-* **`onblur`** - Déclenche un événement lorsque la zone cliquable n’est plus active, grâce au curseur ou à la tabulation.
+* **`onblur`** - Déclenche un événement lorsque la zone cliquable n’est plus sélectionnée, que ce soit par le curseur ou par la tabulation.
 
-**Pour définir d’autres actions pour les zones cliquables:**
+**Pour définir d’autres actions pour les zones cliquables :**
 
 1. Sur l’écran de l’éditeur de cartes (images et visionneuses à 360°) ou de l’onglet Pages de cartes de l’écran Catalogue électronique (catalogues électroniques), sélectionnez l’option **[!UICONTROL Afficher]** et sélectionnez **[!UICONTROL Autres actions]**.
 1. Selon la syntaxe conforme aux spécifications HTML du consortium WWW (World Wide Web), ajoutez les attributs pris en charge dans la colonne Autres actions de la liste Zone cliquable.
 1. Sélectionner **[!UICONTROL Enregistrer]**.
 
-Sélectionnez la **[!UICONTROL Afficher]** et sélectionnez **[!UICONTROL Les]** si vous souhaitez qu’une zone cliquable comporte un texte de survol et une action.
+Sélectionnez la variable **[!UICONTROL Afficher]** et sélectionnez **[!UICONTROL Les deux]** si vous souhaitez qu’une zone cliquable comporte un texte de survol et une action.
 
 ## Création de zones cliquables dans Adobe Acrobat ou Adobe InDesign {#creating-image-maps-in-adobe-acrobat-or-adobe-indesign}
 
@@ -219,7 +217,7 @@ Pour plus d’informations, voir Aide d’Adobe InDesign ou Aide d’Adobe Acrob
 ### Création de zones cliquables dans Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
 
 1. Dans Adobe Acrobat, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Modification avancée]** > **[!UICONTROL Outil Lien]**.
-1. Faites glisser la souris pour créer la zone cliquable.
+1. Faites glisser le curseur pour créer la zone cliquable.
 1. Dans la zone Créer un lien , sélectionnez **[!UICONTROL Lien personnalisé]**, puis sélectionnez **[!UICONTROL Suivant]**.
 
 >[!NOTE]

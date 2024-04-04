@@ -1,6 +1,6 @@
 ---
 title: "Quick Start : Integrate Adobe Dynamic Media Classic and Adobe Analytics"
-description: Cette section présente et explique comment intégrer Adobe Dynamic Media Classic et Adobe Analytics pour vous aider à démarrer rapidement.
+description: Présentation et démarrage rapide sur la manière d’intégrer Adobe Dynamic Media Classic et Adobe Analytics.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 26%
+source-wordcount: '682'
+ht-degree: 24%
 
 ---
 
@@ -25,7 +25,7 @@ Après l’intégration d’Adobe Analytics à Adobe Dynamic Media Classic, vous
 
 En utilisant les rapports Adobe Analytics, vous obtenez des données précises sur l’activité des internautes sur votre site Web. Vous pouvez déterminer les présentations de produits qui génèrent des conversions et celles qui n’attirent pas l’intérêt des clients.
 
-Voir aussi [Mesure vidéo dans Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+Voir aussi [Mesure vidéo dans Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Voir [Configuration des rapports Adobe Analytics](configuring-analytics-reports.
 
 ## 3. Publiez vos visionneuses Adobe Dynamic Media Classic
 
-Publiez vos visionneuses Adobe Dynamic Media Classic afin que les visionneuses (avec le code permettant de suivre l’activité des utilisateurs dans les rapports Adobe Analytics) soient chargées sur les serveurs Adobe Dynamic Media Classic. Après la publication, ces informations sont incluses aux visionneuses et peuvent être utilisées dans le cadre des analyses d’Adobe Analytics.
+Publiez vos visionneuses Adobe Dynamic Media Classic afin que les visionneuses (avec le code permettant de suivre l’activité des utilisateurs dans les rapports Adobe Analytics) soient chargées sur les serveurs Adobe Dynamic Media Classic. Après la publication, ces informations sont incluses dans les visionneuses et peuvent être utilisées pour l’analyse par Adobe Analytics.
 
 Voir [Publication des informations de configuration](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 

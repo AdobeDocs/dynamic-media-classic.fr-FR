@@ -10,30 +10,30 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 6%
+source-wordcount: '219'
+ht-degree: 7%
 
 ---
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Connexion à Adobe Dynamic Media Classic {#dmc-sign-in}
+# Connexion à Adobe Dynamic Media Classic {#dmc-signin}
 
 Assurez-vous que vous disposez des éléments suivants avant d’utiliser l’application de bureau Adobe Dynamic Media Classic :
 
 * **Nom d’utilisateur** - Vous utilisez votre adresse électronique comme nom de connexion.
 
-* **Mot de passe** - Vous obtenez votre mot de passe temporaire dans un e-mail de bienvenue d’Adobe Dynamic Media Classic ou de votre administrateur Adobe Dynamic Media Classic. Lors de votre première connexion, vous êtes invité à modifier ce mot de passe temporaire.
+* **Password** - Vous obtenez votre mot de passe temporaire dans un e-mail de bienvenue d’Adobe Dynamic Media Classic ou de votre administrateur Adobe Dynamic Media Classic. Lors de votre première connexion, vous êtes invité à modifier ce mot de passe temporaire.
 
 1. Ouvrez l’application de bureau Adobe Dynamic Media Classic.
 
    ![Connexion Adobe Dynamic Media Classic](/help/using/assets/dmclassic-login1.png)
 
 1. Dans le **[!UICONTROL Nom d’utilisateur]** , saisissez votre adresse électronique.
-1. Dans le **[!UICONTROL Mot de passe]** , saisissez le mot de passe.
-1. Dans le **[!UICONTROL Serveur]** , sélectionnez un serveur.
+1. Dans le **[!UICONTROL Password]** , saisissez le mot de passe.
+1. Dans le **[!UICONTROL Serveur]** sélectionnez un serveur dans la liste déroulante.
 Utilisez le mappage suivant pour sélectionner l’environnement de production à utiliser.
 
    | URL du navigateur | Nom du serveur d’applications de bureau |

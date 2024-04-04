@@ -1,21 +1,19 @@
 ---
 title: Recherche de ressources Dynamic Media Classic
 description: Découvrez comment rechercher des ressources dans Adobe Dynamic Media Classic.
-uuid: 058209bc-bac4-4d5c-8261-e242a543beaf
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 17%
+source-wordcount: '1511'
+ht-degree: 18%
 
 ---
 
@@ -69,7 +67,7 @@ Spécifiez l’un des critères suivants dans votre recherche avancée :
 
 * **Fichiers et dossiers** - Sélectionnez l’emplacement de recherche : **[!UICONTROL Dans tous les fichiers et dossiers]**, **[!UICONTROL Dans le dossier sélectionné]**, ou **[!UICONTROL Dans les dossiers et sous-dossiers sélectionnés]**.
 
-* **Tous les états de publication** - Recherchez les fichiers marqués comme prêts à être publiés, qui ne sont pas marqués comme prêts à être publiés ou tous les fichiers.
+* **Tous les états de publication** - Recherchez les fichiers marqués comme prêts pour la publication, qui ne sont pas marqués comme prêts pour la publication ou tous les fichiers.
 
 * **Conditions** - Si vous spécifiez des critères de métadonnées pour la recherche, indiquez si la recherche doit répondre à toutes les conditions (recherche ALL) ou à toute condition (recherche OR).
 
@@ -79,9 +77,9 @@ Spécifiez l’un des critères suivants dans votre recherche avancée :
    1. Sélectionnez la variable **[!UICONTROL Ajouter un champ]** et choisissez un nom de champ.
    1. Choisissez une **[!UICONTROL Contient]** option : **[!UICONTROL Contient]**, **[!UICONTROL Ne contient pas]**, **[!UICONTROL Commence par]**, **[!UICONTROL Se termine par]**, ou **[!UICONTROL Est égal à]**.
    1. Pour les champs numériques, choisissez une valeur ou entrez une plage de dates personnalisée.
-   1. (Facultatif) Répétez les étapes 1 à 4 pour créer d’autres champs de recherche.
+   1. (Facultatif) Recommencez les étapes 1 à 4 pour créer d’autres champs de recherche.
 
-Sélectionnez la variable **[!UICONTROL Supprimer le champ de recherche]** icône (cercle avec &quot;X&quot; à l’intérieur) afin que le champ de recherche soit supprimé.
+Sélectionnez la variable **[!UICONTROL Supprimer un champ de recherche]** icône (cercle avec &quot;X&quot; à l’intérieur) afin que le champ de recherche soit supprimé.
 
 Dans le coin inférieur droit du panneau Recherche avancée, sélectionnez **[!UICONTROL Rechercher]** pour lancer votre recherche. Les résultats de la recherche s’affichent dans le panneau de navigation à droite. Vous pouvez modifier n’importe quelle condition de recherche et sélectionner **[!UICONTROL Rechercher]** pour relancer la recherche.
 
@@ -89,7 +87,7 @@ Sélectionner **[!UICONTROL Effacer]** si vous souhaitez effacer les critères d
 
 ## Filtrage des fichiers à l’aide de métadonnées {#filter-assets-using-metadata}
 
-Vous pouvez filtrer les fichiers dans l’onglet Filtres de la bibliothèque de fichiers. Pour ce faire, vous pouvez utiliser les métadonnées comme critères de filtre. Après avoir choisi un champ de métadonnées sur lequel vous souhaitez filtrer les données, l’onglet Filtres répertorie toutes les valeurs de métadonnées saisies dans le champ que vous avez choisi. Il indique également le nombre de ressources auxquelles chaque valeur a été affectée. Par exemple, dans une opération de filtrage sur la variable **[!UICONTROL Créateur]** le champ de métadonnées, **[!UICONTROL Filtres]** répertorie tous les noms qui ont été saisis dans la variable **[!UICONTROL Créateur]** champ de métadonnées pour différentes ressources. Il répertorie également pour chaque nom, le nombre de ressources auxquelles le nom est affecté. Sélectionnez ensuite une valeur de métadonnées pour afficher toutes les ressources auxquelles cette valeur a été affectée. Dans l’exemple, vous sélectionnez l’option `Prairie Cat` valeur de métadonnées pour afficher toutes les ressources dont le nom `Prairie Cat` a été saisi dans la variable **[!UICONTROL Créateur]** champ de métadonnées. Le filtrage par métadonnées peut porter sur plusieurs critères de filtre.
+Vous pouvez filtrer les fichiers dans l’onglet Filtres de la bibliothèque de fichiers. Pour ce faire, vous pouvez utiliser les métadonnées comme critères de filtre. Après avoir choisi un champ de métadonnées sur lequel filtrer les données, l’onglet Filtres répertorie toutes les valeurs de métadonnées saisies dans le champ que vous avez choisi. Il indique également le nombre de ressources auxquelles chaque valeur a été affectée. Par exemple, dans une opération de filtrage sur la variable **[!UICONTROL Créateur]** le champ de métadonnées, **[!UICONTROL Filtres]** répertorie tous les noms qui ont été saisis dans la variable **[!UICONTROL Créateur]** champ de métadonnées pour différentes ressources. Il répertorie également pour chaque nom, le nombre de ressources auxquelles le nom est affecté. Sélectionnez ensuite une valeur de métadonnées pour afficher toutes les ressources auxquelles cette valeur a été affectée. Dans l’exemple, vous sélectionnez l’option `Prairie Cat` valeur de métadonnées pour afficher toutes les ressources dont le nom `Prairie Cat` a été saisi dans la variable **[!UICONTROL Créateur]** champ de métadonnées. Le filtrage par métadonnées peut porter sur plusieurs critères de filtre.
 
 Vous pouvez enregistrer les opérations de filtrage pour les exécuter plusieurs fois.
 
@@ -171,5 +169,5 @@ Sélectionner **[!UICONTROL Publier maintenant]** pour démarrer la tâche. Un m
 
 >[!MORELIKETHIS]
 >
->* [Navigation - Notions élémentaires](navigation-basics.md#navigation_basics)
+>* [Principes de navigation](navigation-basics.md#navigation_basics)
 >* [Affichage, ajout et exportation de métadonnées](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)

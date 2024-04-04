@@ -10,10 +10,10 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 33%
+source-wordcount: '683'
+ht-degree: 31%
 
 ---
 
@@ -46,15 +46,15 @@ Après avoir publié une série d’échantillons, vous pouvez utiliser l’URL 
 
 ## Ajout d’URL de série d’échantillons à une page web {#adding-swatch-set-urls-to-your-web-page}
 
-La méthode la plus courante pour déployer des séries d’échantillons consiste à placer un lien (au moyen d’une icône de navigation) sur votre page web. Lorsqu’il est sélectionné, le lien lance une page dynamique (ASP ou JSP) qui affiche la série d’échantillons dans une fenêtre de zoom contextuelle. Le lien de zoom affiche une fenêtre contextuelle contenant l’affichage agrandi proprement dit.
+La méthode la plus courante pour déployer des séries d’échantillons consiste à placer un lien (au moyen d’une icône de navigation) sur votre page web. Lorsqu’il est sélectionné, le lien lance une page dynamique (ASP ou JSP) qui affiche la série d’échantillons dans une fenêtre de zoom contextuelle. Le lien de zoom ouvre une fenêtre contextuelle qui contient la fonction de zoom réelle.
 
-Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le guide de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le guide de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copie du code incorporé d’une visionneuse d’échantillons {#copying-the-embed-code-of-a-swatch-set-viewer}
 
 La fonction Code incorporé permet de vérifier le code de la série d’échantillons sélectionnée. Vous pouvez aussi copier le code dans le Presse-papiers afin de la coller dans vos pages Web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
-**Copie du code incorporé d’une visionneuse de série d’échantillons:**
+**Pour copier le code incorporé d’une visionneuse d’échantillons :**
 
 1. Dans la liste déroulante Afficher du panneau de navigation des ressources, sélectionnez **[!UICONTROL Série d’échantillons]**.
 1. Dans le panneau Bibliothèque de fichiers sur la gauche, accédez au dossier Fichiers qui contient la série d’échantillons dont vous voulez copier le code incorporé.

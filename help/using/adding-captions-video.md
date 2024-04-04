@@ -9,14 +9,14 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
+source-git-commit: a607488b6a1dd51ef7cc8c885db5a87f4f792aaa
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 31%
+source-wordcount: '716'
+ht-degree: 27%
 
 ---
 
-# Ajout de sous-titres à une vidéo {#adding-captions-to-video}
+# Ajout de sous-titres à une vidéo {#add-captions-to-video}
 
 Vous pouvez étendre la portée de vos vidéos aux marchés mondiaux en ajoutant des sous-titres aux vidéos ou aux visionneuses de vidéos adaptatives. En ajoutant des sous-titres vous évitez d’avoir à réenregistrer le son ou de recourir à des locuteurs natifs pour réenregistrer l’audio dans chacune des langues. La vidéo est lue dans la langue dans laquelle elle a été enregistrée. Les sous-titres en langue étrangère s’affichent pour que les personnes parlant d’autres langues puissent néanmoins comprendre la partie audio.
 
@@ -38,7 +38,7 @@ Voir aussi [Ajout et modification de paramètres prédéfinis de visionneuse](ap
 
 Adobe Dynamic Media Classic peut convertir les fichiers de sous-titres au format JSON (JavaScript Object Notation). Cette conversion signifie que vous pouvez intégrer le texte JSON dans une page Web comme transcription masquée mais complète de la vidéo. Les moteurs de recherche peuvent ensuite analyser et indexer le contenu pour faciliter la découverte des vidéos et donner aux clients plus de détails sur le contenu vidéo.
 
-Voir [Diffuser du contenu statique (hors image)](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api) dans le *Aide de l’API Adobe Image Serving* pour plus d’informations sur l’utilisation de la fonction JSON dans une URL.
+Voir [Diffuser du contenu statique (hors image)](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) dans le *Aide de l’API Adobe Image Serving* pour plus d’informations sur l’utilisation de la fonction JSON dans une URL.
 
 **Pour ajouter des sous-titres à une vidéo :**
 
@@ -52,7 +52,7 @@ Voir [Diffuser du contenu statique (hors image)](https://experienceleague.adobe.
 
    Voir [Chargement de fichiers](uploading-files.md#uploading_files).
 
-1. Dans le panneau Bibliothèque de fichiers situé sur le côté gauche, accédez au dossier de fichiers qui contient le fichier vidéo à associer au fichier de sous-titrage que vous avez téléchargé.
+1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources qui contient le fichier vidéo à associer au fichier de sous-titres que vous avez chargé.
 1. Dans le panneau de navigation des ressources, sélectionnez une seule ressource vidéo, puis sous l’image de miniature de la ressource, sélectionnez **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 1. Dans le tableau Liste des visionneuses , recherchez la visionneuse HTML5 nommée **Univeral_HTML5_Video**, **Universal_HTML5_MixedMedia_dark**, ou **Universal_HTML5_MixedMedia_light**, puis effectuez l’une des opérations suivantes :
 

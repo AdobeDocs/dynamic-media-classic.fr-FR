@@ -1,25 +1,23 @@
 ---
-title: Créer un ensemble d’offres
+title: Création d’un jeu d’offres
 description: Découvrez comment créer un ensemble d’offres dans Adobe Dynamic Media Classic.
-uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
-discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 35%
+source-wordcount: '1227'
+ht-degree: 33%
 
 ---
 
-# Créer un ensemble d’offres {#creating-an-offer-set}
+# Création d’un jeu d’offres {#creating-an-offer-set}
 
 Vous pouvez créer un des types suivants de visionneuses d’offres :
 
@@ -27,7 +25,7 @@ Vous pouvez créer un des types suivants de visionneuses d’offres :
 * Modèle paramétré
 * Image
 
-Pour les modèles, sélectionnez **[!UICONTROL Ajouter et prévisualiser]**, puis définissez les paramètres de votre choix. Les autres types de jeux d’offres n’incluent pas de paramètres, mais vous pouvez toujours les personnaliser en sélectionnant **[!UICONTROL Aperçu]** et de modifier les paramètres prédéfinis disponibles.
+Pour les modèles, sélectionnez **[!UICONTROL Ajouter et prévisualiser]**, puis définissez les paramètres de votre choix. D’autres types de visionneuses d’offres n’incluent pas de paramètres, mais vous pouvez toujours les personnaliser en sélectionnant **[!UICONTROL Aperçu]** et de modifier les paramètres prédéfinis disponibles.
 
 Adobe Dynamic Media Classic propose des outils d’édition et de création de visionneuses d’offres.
 
@@ -51,7 +49,7 @@ Voir aussi [Concepts de base des modèles](https://s7d5.scene7.com/s7viewers/htm
 
 Lorsque vous créez une visionneuse d’offres, l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») affecte la visionneuse et ses membres comme suit :
 
-| **[!UICONTROL Publier après l’enregistrement]** l’option sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| **[!UICONTROL Publier après enregistrement]** l’option sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- |
 | Oui | Publié | Publié |
 | Non | Non publié | Les membres de la visionneuse conservent leur état publié ou non publié. |
@@ -80,18 +78,18 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 Avant de fermer la page du jeu d’offres Test&amp;Target, vous devez envoyer le jeu d’offres vers Adobe Target Standard/Premium. Voir [Envoyer les ensembles d’offres à Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
-## Création d’une visionneuse d’offres avec des images ou des vidéos {#creating-an-offer-set-with-images-or-videos}
+## Créer une visionneuse d’offres avec des images ou des vidéos {#creating-an-offer-set-with-images-or-videos}
 
 Lorsque vous créez une visionneuse d’offres, l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») affecte la visionneuse et ses membres comme suit :
 
-| **[!UICONTROL Publier après l’enregistrement]** l’option sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| **[!UICONTROL Publier après enregistrement]** l’option sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- |
 | Oui | Publié | Publié |
 | Non | Non publié | Les membres de la visionneuse conservent leur état publié ou non publié. |
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
-**Pour créer une visionneuse d’offres avec des images ou des vidéos:**
+**Pour créer une visionneuse d’offres avec des images ou des vidéos :**
 
 1. Assemblez des images ou des vidéos pour la visionneuse d’offres. Commencez dans l’écran Visionneuse d’offres Test&amp;Target ou en mode Grille ou Liste, puis utilisez l’une des méthodes suivantes :
 
@@ -106,16 +104,16 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
    Sélectionner **[!UICONTROL Enregistrer]** pour enregistrer vos modifications dans l’offre d’image ou de vidéo. Sélectionnez **[!UICONTROL Fermer]** pour revenir à la page du jeu d’offres Test&amp;Target.
 
-1. Une fois que vous avez créé des offres pour la visionneuse d’offres et choisi Paramètres d’image prédéfinis pour différentes images, assurez-vous que **[!UICONTROL Publier après l’enregistrement]** est sélectionné (par défaut).
+1. Une fois que vous avez créé des offres pour la visionneuse d’offres et choisi Paramètres d’image prédéfinis pour différentes images, assurez-vous que **[!UICONTROL Publier après enregistrement]** est sélectionné (par défaut).
 1. Sélectionner **[!UICONTROL Enregistrer]** et saisissez le nom de la visionneuse d’offres, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
 Avant de fermer la page du jeu d’offres Test&amp;Target, vous devez envoyer le jeu d’offres vers Adobe Target Standard/Premium. Voir [Envoyer les ensembles d’offres à Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Modifier un jeu d’offres {#editing-an-offer-set}
 
-Si vous modifiez un jeu publié ou non publié, la variable **[!UICONTROL Publier après l’enregistrement]** L’option affecte les membres de l’ensemble et de l’ensemble comme suit :
+Si vous modifiez un jeu publié ou non publié, la variable **[!UICONTROL Publier après enregistrement]** L’option affecte les membres de l’ensemble et de l’ensemble comme suit :
 
-| Visionneuse déjà publiée ? | **[!UICONTROL Publier après l’enregistrement]** sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| Visionneuse déjà publiée ? | **[!UICONTROL Publier après enregistrement]** sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- | --- |
 | Oui | Oui | Publié | Publié |
 | Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
@@ -129,7 +127,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Pour modifier un ensemble d’offres, affichez-le en mode Affichage de la grille ou Affichage de la liste, puis sélectionnez son **[!UICONTROL Modifier]** bouton de survol.
 1. Sur la page du jeu d’offres Test&amp;Target, effectuez l’une des opérations suivantes :
 
-   * **Supprimer une offre** - Sélectionnez l’offre, puis cliquez sur **[!UICONTROL Supprimer]** pour supprimer une offre de la visionneuse.
+   * **Supprimer une offre** - Sélectionnez l’offre, puis cliquez sur **[!UICONTROL Supprimer]** pour supprimer une offre du jeu.
    * **Ajouter une offre** - La manière dont vous ajoutez une offre dépend du type de jeu d’offres utilisé :
       * **Modèles** - Sélectionner **[!UICONTROL Ajouter et prévisualiser]**, puis sur la page Ajouter et prévisualiser des offres , créez une autre offre.
       * **Images et vidéos** - Faites glisser une image ou une vidéo sur la page de la visionneuse d’offres Test&amp;Target.
@@ -138,12 +136,12 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
    >
    >il n’est pas possible de supprimer une visionneuse d’offres associée à une campagne. Pour supprimer un ensemble d’offres associé à une campagne, connectez-vous à Adobe Target Standard/Premium et supprimez d’abord les associations de campagne. Même après dissociation d’une campagne, la ressource ne peut être supprimée que d’Adobe Dynamic Media Classic, ce qui nécessite une connexion à Adobe Target Standard/Premium, et non d’Adobe Target Standard/Premium.
 
-1. Lorsque vous avez terminé les modifications, près du coin inférieur droit de la page, assurez-vous que **[!UICONTROL Publier après l’enregistrement]** est sélectionné (par défaut).
+1. Lorsque vous avez terminé les modifications, près du coin inférieur droit de la page, assurez-vous que **[!UICONTROL Publier après enregistrement]** est sélectionné (par défaut).
 1. Sélectionner **[!UICONTROL Enregistrer]**, sélectionnez un dossier de stockage, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-## Supprimer un ensemble d’offres {#deleting-an-offer-set}
+## Supprimer un ensemble d’offres {#delet-an-offer-set}
 
-Lorsque vous supprimez une visionneuse d’offres, celle-ci est placée dans la corbeille. Toutefois, les membres (ou « enfants ») de cette visionneuse ne sont pas affectés : ils conservent en fait leur état existant publié ou non publié.
+Lorsque vous supprimez une visionneuse d’offres, celle-ci est placée dans la corbeille. Cependant, les membres (ou &quot;enfants&quot;) de cet ensemble ne sont pas affectés ; au lieu de cela, ils conservent chacun leur état publié ou non publié existant.
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 

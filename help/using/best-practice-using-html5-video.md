@@ -1,21 +1,19 @@
 ---
 title: Bonne pratique pour utiliser la visionneuse de vidéos HTML5
 description: Découvrez les bonnes pratiques relatives à l’utilisation de la visionneuse de vidéos HTML5.
-uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 11%
+source-wordcount: '432'
+ht-degree: 9%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 11%
 
 Les paramètres prédéfinis de la visionneuse de vidéos Adobe Dynamic Media Classic HTML5 sont des lecteurs vidéo fiables. Du côté de la conception du lecteur, vous pouvez créer l’ensemble des fonctionnalités du lecteur vidéo à l’aide d’outils de développement web standard. Vous pouvez, par exemple, concevoir les boutons, les commandes et les affiches personnalisées en arrière-plan au moyen du code HTML5 et CSS afin de mieux cibler les utilisateurs avec un aspect personnalisé.
 
-En ce qui concerne la lecture, la visionneuse, détecte automatiquement les fonctionnalités vidéo du navigateur. Il diffuse ensuite la vidéo à l’aide de HLS (HTTP Live Streaming), également appelé diffusion en continu de vidéo adaptative. Ou, si cette méthode de diffusion n’est pas présente, HTML5 progressif est utilisé à la place.
+Du côté lecture de la visionneuse, elle détecte automatiquement les fonctionnalités vidéo du navigateur. Il diffuse ensuite la vidéo à l’aide de HLS (HTTP Live Streaming), également appelé diffusion en continu de vidéo adaptative. Ou, si cette méthode de diffusion n’est pas présente, HTML5 progressif est utilisé à la place.
 
 En combinant en un seul lecteur les fonctionnalités suivantes :
 
@@ -33,7 +31,7 @@ En combinant en un seul lecteur les fonctionnalités suivantes :
 
 Vous étendez la portée de votre contenu multimédia aux utilisateurs de bureau et mobiles. Vous garantissez également une expérience vidéo rationalisée.
 
-Voir aussi [A propos des visionneuses HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses Adobe.
+Voir aussi [A propos des visionneuses HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses Adobe.
 
 Voir aussi [Paramètres prédéfinis de la visionneuse](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) vidéo de formation.
 
@@ -50,7 +48,7 @@ Le tableau suivant décrit le périphérique, le navigateur et la méthode de le
 | Bureau | Internet Explorer 9 et 10 | Téléchargement progressif. |
 | Bureau | Internet Explorer 11+ | Diffusion vidéo HLS en continu. |
 | Bureau | Firefox 23-44 | Téléchargement progressif. |
-| Bureau | Firefox 45 ou une version ultérieure | Diffusion vidéo HLS en continu. |
+| Bureau | Firefox 45 ou version ultérieure | Diffusion vidéo HLS en continu. |
 | Bureau | Chrome | Diffusion vidéo HLS en continu. |
 | Bureau | Safari (Mac) | Diffusion vidéo HLS en continu. |
 | Dispositif portable | Chrome (Android™ 6 ou version antérieure) | Téléchargement progressif. |

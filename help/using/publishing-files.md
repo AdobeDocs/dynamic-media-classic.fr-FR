@@ -1,6 +1,6 @@
 ---
 title: Publication de fichiers
-description: "Découvrez comment publier vos ressources sur les serveurs d’images Dynamic Media. Vous pouvez publier des ressources ponctuellement ou organiser Adobe Dynamic Media Classic pour les publier selon une planification récurrente. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL d’Adobe Dynamic Media Classic et les ajouter à votre site web ou à votre application."
+description: Découvrez comment publier vos ressources sur les serveurs d’images Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 36%
+source-wordcount: '1672'
+ht-degree: 30%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 36%
 
 Vous publiez vos ressources sur les serveurs d’images Dynamic Media. Vous pouvez publier des ressources ponctuellement ou organiser Adobe Dynamic Media Classic pour les publier selon une planification récurrente. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL d’Adobe Dynamic Media Classic et les ajouter à votre site web ou à votre application.
 
-Adobe Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos sur HTTP/2. En d’autres termes, une URL publiée ou un code incorporé pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cette ressource publiée est ensuite diffusée au moyen du protocole HTTP/2. Cette méthode de remise améliore la communication entre les navigateurs et les serveurs, ce qui permet de bénéficier de meilleurs temps de réponse et de chargement de toutes vos ressources Adobe Dynamic Media Classic. Voir [FAQ sur la diffusion de contenu HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html).
+Adobe Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos sur HTTP/2. En d’autres termes, une URL publiée ou un code incorporé pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cette ressource publiée est ensuite diffusée au moyen du protocole HTTP/2. Cette méthode de remise améliore la communication entre les navigateurs et les serveurs, ce qui permet de bénéficier de meilleurs temps de réponse et de chargement de toutes vos ressources Adobe Dynamic Media Classic. Voir [FAQ sur la diffusion de contenu HTTP2](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Publication après le téléchargement {#publish-after-uploading}
 
@@ -29,13 +29,13 @@ Fichiers dans un état publié ou non publié. Par défaut, toutes les ressource
 
 Pour plus d’informations, voir [PDF Instant Publish Notice](/help/using/assets/rendering-instant-publish-notification.pdf).
 
-Pour marquer des fichiers pour publication, utilisez les techniques suivantes :
+Utilisez ces techniques pour marquer les ressources à des fins de publication :
 
 * **[!UICONTROL Publier après le téléchargement]** - Sur la page Télécharger, près du bas, sélectionnez **[!UICONTROL Publier après le téléchargement]**. La valeur par défaut est un état sélectionné.
 
 * **[!UICONTROL Publier après le téléchargement]** - Dans la boîte de dialogue Options de tâche, sélectionnez **[!UICONTROL Publier après le téléchargement]**. La valeur par défaut est un état sélectionné.
 
-Certains fichiers « enfants » sont systématiquement marqués pour publication lorsque leurs parents le sont. Ce tableau dresse la liste des fichiers enfants automatiquement marqués pour publication.
+Certains fichiers « enfants » sont systématiquement marqués pour publication lorsque leurs parents le sont. Ce tableau répertorie les ressources enfants qui sont automatiquement marquées pour publication.
 
 | Elément (groupe) parent | Eléments (membre) enfants |
 | --- | --- |
@@ -44,16 +44,16 @@ Certains fichiers « enfants » sont systématiquement marqués pour publicati
 | Visionneuses à 360° | Images dans la visionneuse. |
 | Modèles | Fichiers de modèle, pages et images. |
 
-Les images dérivées sont automatiquement marquées pour publication lorsque leurs images parentes sont publiées. Les images dérivées incluent les images que vous avez modifiées avec des options d’édition d’image. Vous pouvez voir ces images dérivées dans la vue Détails sous Créé et dérivés.
+Les images dérivées sont également automatiquement marquées pour publication lorsque leurs images parentes sont en cours de publication. Les images dérivées incluent les images que vous avez modifiées avec des options d’édition d’image. Vous pouvez voir ces images dérivées dans la vue Détails sous Créé et dérivés.
 
 ## Création d’une tâche de publication {#creating-a-publish-job}
 
-Créez une tâche de publication pour publier les ressources que vous avez chargées sur les serveurs Adobe Dynamic Media Classic, mais que vous ne souhaitez pas encore publier automatiquement. Vous pouvez effectuer une tâche de publication ponctuelle ou planifier la réexécution régulière des tâches. Adobe Dynamic Media Classic propose des options de publication avancées pour la publication sur des serveurs spécifiques et des options pour la republication de ressources qui ont déjà été publiées.
+Créez une tâche de publication pour publier les ressources que vous avez chargées sur les serveurs Adobe Dynamic Media Classic, mais que vous ne souhaitez pas encore publier automatiquement. Vous pouvez effectuer une tâche de publication ponctuelle ou planifier la récurrence régulière des tâches. Adobe Dynamic Media Classic propose des options de publication avancées pour la publication sur des serveurs spécifiques et des options pour la republication de ressources qui ont déjà été publiées.
 
 **Pour créer une tâche de publication :**
 
 1. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**.
-1. Dans la boîte de dialogue Publier, choisissez s’il s’agit d’une tâche de publication ponctuelle ou périodique
+1. Dans la boîte de dialogue Publication, choisissez si vous souhaitez une tâche de publication ponctuelle ou récurrente.
 
    Voir [Création d’une tâche de publication unique](publishing-files.md#creating_a_one_time_publish_job) et [Créer une tâche de publication récurrente](publishing-files.md#creating_a_recurring_publish_job).
 
@@ -68,17 +68,17 @@ Adobe Dynamic Media Classic effectue le suivi des tâches de publication sur la 
 
 >[!NOTE]
 >
->Les ressources que vous republiez (vous les avez publiées auparavant) n’apparaissent pas immédiatement sur votre site web en raison du mécanisme de mise en cache web sur le réseau de diffusion de contenu (CDN). (voir [Fichiers republiés et délais CDN](publishing-files.md#republished_assets_and_cdn_delays)).
+>Les ressources que vous avez republiées (vous les avez déjà publiées) n’apparaissent pas immédiatement sur votre site web en raison du mécanisme de mise en cache web sur le réseau de diffusion de contenu (CDN). (voir [Fichiers republiés et délais CDN](publishing-files.md#republished_assets_and_cdn_delays)).
 
 ### Création d’une tâche de publication unique {#creating-a-one-time-publish-job}
 
-Créez une tâche de publication unique en sélectionnant le **[!UICONTROL Unique]** sur la page Publier .
+Créez une tâche de publication unique en sélectionnant l’option **[!UICONTROL Unique]** sur la page Publication.
 
-Si vous souhaitez que la tâche de publication se produise ultérieurement, sélectionnez dans la page Publier . **[!UICONTROL Unique]**, puis sélectionnez **[!UICONTROL Planifier ultérieurement]** dans la liste déroulante. Utilisez le calendrier et le curseur de l’heure pour sélectionner un jour et une heure pour exécuter la tâche de publication.
+Si vous souhaitez que la tâche de publication se produise ultérieurement, dans la page Publication, sélectionnez **[!UICONTROL Unique]**. Dans la liste déroulante, sélectionnez **[!UICONTROL Planifier ultérieurement]**. Utilisez le calendrier et le curseur de l’heure pour sélectionner un jour et une heure pour exécuter la tâche de publication.
 
 ### Créer une tâche de publication récurrente {#creating-a-recurring-publish-job}
 
-Créez une tâche de publication récurrente en sélectionnant **[!UICONTROL Récurrente]** sur la page Publier .
+Créez une tâche de publication récurrente en sélectionnant **[!UICONTROL Récurrente]** sur la page Publication.
 
 Choisissez ensuite l’option Répéter de **[!UICONTROL Qualité]**, **[!UICONTROL Hebdomadaire]**, **[!UICONTROL Mensuel]**, ou **[!UICONTROL Personnalisé]**, puis indiquez quand la tâche de publication doit se répéter. Adobe Dynamic Media Classic présente des outils de calendrier pour la planification de la tâche de publication récurrente. Vous pouvez sélectionner **[!UICONTROL Personnalisé]** et saisissez une règle dans le champ Texte de la règle pour décrire un intervalle de tâche personnalisé.
 
@@ -90,7 +90,7 @@ Voir [Création d’un intervalle de temps de tâche de téléchargement ou de p
 
 ### Options de publication avancées {#advanced-publish-options}
 
-Vous pouvez afficher les options avancées sur la page de publication et en choisir certaines pour gérer une tâche de publication :
+Vous pouvez afficher les options avancées sur la page Publication et choisir les options suivantes pour gérer une tâche de publication :
 
 * **[!UICONTROL Publier sur]** - Pour publier des ressources uniquement sur un serveur spécifique, choisissez un type de serveur.
 
@@ -110,7 +110,7 @@ Pour annuler une tâche de publication, accédez à la page Tâches et sélectio
 
 >[!NOTE]
 >
->Une fois la tâche de publication annulée, son état passe à &quot;arrêt&quot; jusqu’à ce que la tâche atteigne un point où elle peut s’arrêter en toute sécurité. L’arrêt d’une tâche de publication peut prendre un certain temps si la récupération des données dans la base de données est en cours.
+>Une fois la tâche de publication annulée, son état passe à &quot;arrêt&quot; jusqu’à ce que la tâche atteigne un point où elle peut s’arrêter en toute sécurité. L’arrêt d’une tâche de publication peut prendre un certain temps si la tâche est en train d’obtenir des données de la base de données.
 
 ## Publication manuelle de ressources {#manually-publishing-assets}
 

@@ -6,9 +6,9 @@ user-guide-title: Guide Adobe Dynamic Media Classic
 breadcrumb-title: Guide Dynamic Media Classic
 user-guide-description: En savoir plus sur l’utilisation d’Adobe Dynamic Media Classic
 index: y
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '796'
 ht-degree: 20%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 20%
    + [Comparaison des listes de fonctionnalités](upgrade-feature-comparison.md)
    + [Liste de contrôle de l’état de préparation](upgrade-readiness.md)
 + [Guide Adobe Dynamic Media Classic](home.md)
-+ [Tutoriel sur les bonnes pratiques d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NOUVELLE connexion Adobe Dynamic Media Classic désormais disponible](new-ui-2020.md)
++ [Tutoriel sur les bonnes pratiques d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [NOUVELLE ouverture de session Adobe Dynamic Media Classic désormais disponible](new-ui-2020.md)
 + [Archivage de la newsletter Dynamic Media Adobe par Experience League](dynamic-media-newsletter.md)
 + Présentation d’Adobe Dynamic Media Classic {#intro}
    + [Application de bureau Adobe Dynamic Media Classic - Maintenant disponible](dynamic-media-classic-desktop-app.md)
@@ -182,7 +182,7 @@ ht-degree: 20%
    + [Utilisation de PDF](pdfs.md)
    + [Utilisation de fichiers de PSD](psd-files.md)
    + [Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md)
-   + [Utilisation de fichiers de vignette, de vitrine et d’armoire](vignette-window-covering-cabinet-files.md)
+   + [Utilisation de vignettes, de recouvrements de fenêtre et de fichiers de cabinet](vignette-window-covering-cabinet-files.md)
 + Fichiers de support {#support-files}
    + [Polices](fonts.md)
    + [Fichiers XML](xml-files.md)
