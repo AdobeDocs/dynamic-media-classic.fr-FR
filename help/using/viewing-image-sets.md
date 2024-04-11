@@ -1,21 +1,19 @@
 ---
 title: Affichage des visionneuses d’images
 description: Découvrez comment afficher les visionneuses d’images dans Adobe Dynamic Media Classic.
-uuid: bb5b0fee-abc0-4236-ac43-09edb9bb3651
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 27%
+source-wordcount: '489'
+ht-degree: 22%
 
 ---
 
@@ -32,12 +30,12 @@ Vous pouvez créer et personnaliser des paramètres prédéfinis de la visionneu
 1. Dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 1. Créez ou modifiez un paramètre prédéfini de visionneuse sur la page Paramètres prédéfinis de la visionneuse en effectuant l’une des opérations suivantes :
 
-   * **Créer** - Sélectionner **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, dans la liste déroulante Visionneuse, choisissez **[!UICONTROL Visionneuse de zoom]**, puis sélectionnez **[!UICONTROL Ajouter]**. Vous pouvez également créer un paramètre prédéfini de visionneuse de zoom à partir d’un paramètre existant. Affichez le nom du paramètre prédéfini, sélectionnez-le, puis sélectionnez **[!UICONTROL Modifier]**. Sur la page Configurer la visionneuse , saisissez un nouveau nom pour le paramètre prédéfini.
+   * **Créer** - Sélectionner **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, dans la liste déroulante Visionneuse, choisissez **[!UICONTROL Visionneuse de zoom]**, puis sélectionnez **[!UICONTROL Ajouter]**. Vous pouvez également créer un paramètre prédéfini de visionneuse de zoom à partir d’un paramètre existant. Affichez le nom du paramètre prédéfini, sélectionnez-le, puis sélectionnez **[!UICONTROL Modifier]**. Sur le `Configure Viewer` , saisissez un nouveau nom pour le paramètre prédéfini.
 
    * **Modifier** : affiche le nom d’un paramètre prédéfini, le sélectionne, puis sélectionnez **[!UICONTROL Modifier]**.
 
-1. Sur la page Configurer la visionneuse, dans le champ de texte Nom du paramètre prédéfini, saisissez le nom du paramètre prédéfini de visionneuse de séries d’échantillons.
-1. Sélectionnez des options sur la page Configurer la visionneuse .
+1. Sur le `Configure Viewer` dans le champ de texte Nom du paramètre prédéfini , saisissez le nom du paramètre prédéfini de visionneuse d’échantillons.
+1. Choisissez les options de la `Configure Viewer` page.
 
    Pour afficher une description d’une option, sélectionnez l’option **[!UICONTROL Conseil d’informations]** à droite de l’option.
 
@@ -53,11 +51,11 @@ Vous pouvez utiliser l’aperçu pour afficher une ressource sur un type de visi
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, parcourez les dossiers de fichiers pour sélectionner la visionneuse d’images à prévisualiser.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Dans le coin supérieur droit de la fenêtre Adobe Dynamic Media Classic, sélectionnez l’option **[!UICONTROL Mode Liste]** icône . Dans la fenêtre Ressource , placez le pointeur de la souris sur une ressource, puis sélectionnez **[!UICONTROL Aperçu]** (et non la liste déroulante Aperçu ).
-   * Dans le coin supérieur droit de la fenêtre Adobe Dynamic Media Classic, sélectionnez l’option **[!UICONTROL Affichage de la grille]** icône . Dans la fenêtre Ressource, dans une fenêtre de miniature de ressource, sélectionnez **[!UICONTROL Aperçu]** (et non la liste déroulante Aperçu ).
-   * Dans le coin supérieur droit de la fenêtre Adobe Dynamic Media Classic, sélectionnez l’option **[!UICONTROL Affichage des détails]** icône . Dans la même barre d’outils, sélectionnez **[!UICONTROL Aperçu]** (et non la liste déroulante Aperçu ).
+   * Dans le coin supérieur droit de la fenêtre Adobe Dynamic Media Classic, sélectionnez l’option **[!UICONTROL Mode Liste]** Icône Dans la fenêtre Ressource , passez la souris sur une ressource, puis sélectionnez **[!UICONTROL Aperçu]** (et non la liste déroulante Aperçu ).
+   * Dans le coin supérieur droit de la fenêtre Adobe Dynamic Media Classic, sélectionnez l’option **[!UICONTROL Affichage de la grille]** Icône Dans la fenêtre Ressource, dans une fenêtre de miniature de ressource, sélectionnez **[!UICONTROL Aperçu]** (et non la liste déroulante Aperçu ).
+   * Dans le coin supérieur droit de la fenêtre Adobe Dynamic Media Classic, sélectionnez l’option **[!UICONTROL Affichage des détails]** Icône Dans la même barre d’outils, sélectionnez **[!UICONTROL Aperçu]** (et non la liste déroulante Aperçu ).
 
-1. (Facultatif) Dans la liste déroulante située en bas de la fenêtre Prévisualiser, sélectionnez le codage d’URL à appliquer à l’URL du fichier au moment de la copie.
+1. (Facultatif) Dans la liste déroulante située en bas de la fenêtre Aperçu, sélectionnez le codage d’URL à appliquer à l’URL de la ressource lorsqu’elle est copiée.
 1. Pour prévisualiser la ressource dans la visionneuse sélectionnée, sélectionnez un lien de visionneuse.
 
    Lorsque vous sélectionnez un lien de visionneuse, l’URL qui lui est associée est automatiquement copiée dans le Presse-papiers.

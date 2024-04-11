@@ -1,19 +1,17 @@
 ---
 title: Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique
 description: Découvrez comment configurer des paramètres prédéfinis de visionneuse de catalogue électronique dans Adobe Dynamic Media Classic.
-uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '482'
 ht-degree: 25%
 
 ---
@@ -35,8 +33,8 @@ Pour créer un paramètre prédéfini de visionneuse de catalogue électronique 
 
    * **Modification d’un paramètre prédéfini de visionneuse de catalogue électronique** - Sélectionnez un paramètre prédéfini de visionneuse de catalogue électronique, puis cliquez sur **[!UICONTROL Modifier]**. Sélectionner **[!UICONTROL Enregistrer sous]** une fois le paramètre prédéfini créé.
 
-1. Sur la page Configurer la visionneuse , saisissez un nom pour votre paramètre prédéfini de visionneuse de catalogue électronique.
-1. Sur la page Configurer la visionneuse , définissez les options de votre choix.
+1. Sur le `Configure Viewer` , saisissez un nom pour votre paramètre prédéfini de visionneuse de catalogue électronique.
+1. Sur le `Configure Viewer` , définissez les options de votre choix.
 
    sélectionnez l’option **[!UICONTROL Conseil d’informations]** en regard de l’option si vous souhaitez lire sa description.
 
@@ -57,7 +55,7 @@ Pour créer un paramètre prédéfini de visionneuse de catalogue électronique 
 >Pour utiliser ce modèle de réponse au lieu du modèle défini dans le catalogue électronique, ajoutez `fmt=1` à la fin de l’URL du serveur d’informations. Par exemple : `https://.../$3$/$4$/$1$/?FMT=1`.
 
 1. Sélectionner **[!UICONTROL Enregistrer]**.
-1. Sélectionner **[!UICONTROL Par défaut]** si vous souhaitez que le paramètre prédéfini de visionneuse de catalogue électronique que vous avez créé soit celui qui est utilisé pour afficher les catalogues électroniques sur votre page web.
+1. Sélectionner **[!UICONTROL Par défaut]** afin que le paramètre prédéfini de visionneuse de catalogue électronique que vous avez créé soit celui utilisé pour afficher les catalogues électroniques sur votre page web.
 
 Pour supprimer un paramètre prédéfini de visionneuse de catalogue électronique, sélectionnez-le dans l’écran Paramètres prédéfinis de la visionneuse, puis sélectionnez **[!UICONTROL Supprimer]**.
 

@@ -12,10 +12,10 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 17%
+source-wordcount: '454'
+ht-degree: 18%
 
 ---
 
@@ -35,8 +35,8 @@ Vous pouvez créer et personnaliser des paramètres prédéfinis de la visionneu
    * Pour créer un paramètre prédéfini, sélectionnez **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, dans la liste déroulante Visionneuse, choisissez **[!UICONTROL Visionneuse de série d’échantillons]**, puis sélectionnez **[!UICONTROL Ajouter]**.
    * Pour modifier un paramètre prédéfini de visionneuse d’échantillons, sélectionnez-le, puis choisissez **[!UICONTROL Modifier]**.
 
-1. Sur la page Configurer la visionneuse, dans le champ de texte Nom du paramètre prédéfini, saisissez le nom du paramètre prédéfini de visionneuse de séries d’échantillons.
-1. Sélectionnez des options sur la page Configurer la visionneuse .
+1. Sur le `Configure Viewer` dans le champ de texte Nom du paramètre prédéfini , saisissez le nom du paramètre prédéfini de visionneuse d’échantillons.
+1. Sélectionnez les options de la variable `Configure Viewer` page.
 
    Pour afficher une description d’une option, sélectionnez l’option **[!UICONTROL Conseil d’informations]** à droite de l’option.
 

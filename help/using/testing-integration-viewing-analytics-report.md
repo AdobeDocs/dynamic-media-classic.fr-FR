@@ -1,27 +1,25 @@
 ---
-title: Test de l’intégration d’Adobe Analytics en affichant un rapport
+title: Tester l’intégration en affichant un rapport Adobe Analytics
 description: Découvrez comment tester l’intégration dans Adobe Dynamic Media Classic en affichant un rapport Adobe Analytics.
-uuid: 937375e0-6dea-4baa-a2b0-4f3e461c9ee2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 15%
+ht-degree: 5%
 
 ---
 
-# Test de l’intégration d’Adobe Analytics en affichant un rapport {#testing-the-integration-by-viewing-an-adobe-analytics-report}
+# Tester l’intégration en affichant un rapport Adobe Analytics{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-Après avoir créé les variables nécessaires dans Adobe Analytics, les avoir liées aux événements Adobe Dynamic Media Classic et avoir suivi les étapes de mise en oeuvre nécessaires, vous pouvez tester la configuration. Vous pouvez tester et vérifier que les données sont capturées, dans Adobe Analytics même. Si la configuration fonctionne ici, aucune autre étape n’est nécessaire. En supposant que vous ayez suivi les étapes ci-dessus et lié vos données d’événement Adobe Dynamic Media Classic à une ou plusieurs variables de trafic personnalisées, suivez ce processus pour tester vos données dans Adobe Analytics.
+Après avoir créé les variables nécessaires dans Adobe Analytics, les avoir liées aux événements Adobe Dynamic Media Classic et avoir suivi les étapes de mise en oeuvre nécessaires, vous pouvez tester la configuration. Vous pouvez tester et vérifier que les données sont capturées dans Adobe Analytics. Si la configuration fonctionne ici, aucune autre étape n’est nécessaire. En supposant que vous ayez suivi les étapes ci-dessus et lié vos données d’événement Adobe Dynamic Media Classic à une ou plusieurs variables de trafic personnalisées, suivez ce processus pour tester vos données dans Adobe Analytics.
 
 **Pour tester l’intégration en affichant un rapport Adobe Analytics :**
 
@@ -39,4 +37,4 @@ Après avoir créé les variables nécessaires dans Adobe Analytics, les avoir l
 >
 >Toutes les données de la visionneuse Adobe Dynamic Media Classic sont affichées et consignées dans les rapports Trafic personnalisé ou Conversion personnalisée d’Adobe Analytics.
 
-Pour plus d’informations, voir [Tutorials Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).
+Pour plus d’informations, voir [Tutorials Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).

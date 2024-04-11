@@ -1,21 +1,19 @@
 ---
 title: Publication des informations de configuration Adobe Analytics
 description: Découvrez comment publier des informations de configuration Adobe Analytics à partir d’Adobe Dynamic Media Classic.
-uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 21%
+source-wordcount: '151'
+ht-degree: 19%
 
 ---
 
@@ -31,7 +29,7 @@ Voir [Connexion à Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
 Voir [Configuration des rapports Adobe Analytics](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
-**Publication des informations de configuration:**
+**Pour publier les informations de configuration :**
 
 1. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**.
-1. Dans la boîte de dialogue Publier, sélectionnez **[!UICONTROL Envoyer la publication]**.
+1. Dans le **[!UICONTROL `Publish`]** boîte de dialogue, sélectionnez **[!UICONTROL Envoyer la publication]**.

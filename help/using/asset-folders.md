@@ -1,27 +1,25 @@
 ---
 title: Utilisation des dossiers de ressources
 description: Découvrez comment utiliser des dossiers de ressources dans Adobe Dynamic Media Classic.
-uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '449'
 ht-degree: 39%
 
 ---
 
 # Utilisation des dossiers de ressources{#working-with-asset-folders}
 
-Les ressources de fichier dans Adobe Dynamic Media Classic sont conservées dans des dossiers. lesquels sont classés par ordre alphabétique dans le panneau Bibliothèque de fichiers. Avant de charger des fichiers depuis votre ordinateur ou votre réseau vers Adobe Dynamic Media Classic, vous êtes invité à nommer un dossier pour le stockage des fichiers. Créez ces dossiers avant de télécharger des fichiers.
+Les ressources de fichier dans Adobe Dynamic Media Classic sont conservées dans des dossiers. lesquels sont classés par ordre alphabétique dans le panneau Bibliothèque de fichiers. Avant de charger des fichiers depuis votre ordinateur ou votre réseau vers Adobe Dynamic Media Classic, vous devez nommer un dossier pour le stockage des fichiers. Créez ces dossiers avant de télécharger des fichiers.
 
 Veillez à établir une structure et une organisation de dossiers pour stocker vos fichiers sur Adobe Dynamic Media Classic avant de charger les fichiers.
 
@@ -41,10 +39,10 @@ La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de
 >
 >Vous pouvez masquer ou afficher la bibliothèque de ressources en sélectionnant **[!UICONTROL Développer]** ou **[!UICONTROL Réduire]** contrôle à gauche. Réduisez le panneau Bibliothèque de fichiers pour optimiser l’espace réservé au panneau de navigation.
 
-## Création de dossiers {#creating-folders}
+## Création de dossiers
 
 1. Dans la bibliothèque de fichiers, sélectionnez le dossier dans lequel vous souhaitez créer un sous-dossier.
-1. Sélectionnez la variable **[!UICONTROL Ajouter un dossier]** bouton . Cette icône se trouve en haut de la liste des dossiers.
+1. Sélectionnez la variable **[!UICONTROL `Add Folder`]** bouton . Cette icône se trouve en haut de la liste des dossiers.
 1. Donnez un nom descriptif au nouveau dossier ou sous-dossier dans le champ situé en regard de l’icône de dossier.
 
    >[!NOTE]
@@ -55,7 +53,7 @@ La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de
 
 Sélectionnez un dossier et utilisez les techniques suivantes pour le supprimer ou le renommer :
 
-* **Supprimer** - Sélectionnez la variable **[!UICONTROL Supprimer le dossier]** bouton . Les fichiers d’un dossier supprimé sont placés dans le dossier Corbeille. Vous pouvez les y récupérer.
+* **Supprimer** - Sélectionnez la variable **[!UICONTROL `Remove Folder`]** bouton . Les fichiers d’un dossier supprimé sont placés dans le dossier Corbeille. Vous pouvez les y récupérer.
 
 * **Renommer** - Double-cliquez sur le nom et saisissez un nouveau nom.
 

@@ -10,16 +10,16 @@ role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 51%
+ht-degree: 45%
 
 ---
 
 # Gestion du contenu du panneau Informations dans les visionneuses d’images{#managing-info-panel-content-in-image-sets}
 
-Outre l’utilisation de texte de zone cliquable pour vos survols dans les visionneuses d’images, vous pouvez utiliser un panneau d’informations pour ajouter de plus grandes quantités de texte de survol, y compris des liens. Vous pouvez également gérer le panneau d’informations en utilisant la mise en cache temporisée et en planifiant des mises à jour du contenu.
+Outre l’utilisation de texte de zone cliquable pour vos survols dans les visionneuses d’images, vous pouvez utiliser un panneau d’informations pour ajouter de plus grandes quantités de texte de survol, y compris des liens. Vous pouvez également gérer le panneau d’informations à l’aide de la mise en cache temporelle et de la planification des mises à jour du contenu.
 
 Vous pouvez gérer la configuration et les données de votre panneau d’informations à l’aide des fonctionnalités suivantes d’Adobe Dynamic Media Classic :
 
@@ -46,7 +46,7 @@ Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pou
    * Optez pour une valeur faible si de nombreuses mises à jour des données sont effectuées quotidiennement.
    * Optez pour une valeur élevée si les données sont relativement stables et ne nécessitent pas de mises à jour fréquentes. La valeur par défaut est de 10 heures.
 
-1. Sélectionner **[!UICONTROL Télécharger]** pour charger le contenu du panneau d’informations, en fonction des valeurs rollover_key, dans s7info.
+1. Sélectionner **[!UICONTROL Télécharger]** pour charger le contenu du panneau d’informations, en fonction de la valeur rollover_key, dans s7info.
 1. Dans la boîte de dialogue S7Info Upload, accédez au fichier que vous souhaitez utiliser, puis sélectionnez **[!UICONTROL Télécharger]**.
 
    Les formats de fichiers pris en charge sont des fichiers délimités par des tabulations avec codage UTF-16 et des fichiers CSV avec codage ASCII. Pour les fichiers CSV, les caractères non ASCII doivent être encodés au format HTML.
@@ -55,7 +55,7 @@ Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pou
 
 ## Importation du contenu source pour le panneau Informations dans les visionneuses d’images {#import-source-content-for-the-info-panel-in-image-sets}
 
-Vous pouvez utiliser un fichier CSV (valeurs séparées par des virgules) avec un encodage ASCII (les caractères non ASCII doivent être encodés au format HTML) ou un fichier délimité par des tabulations pour le texte source d’un panneau d’informations, pour une visionneuse d’image. Les fichiers délimités par des tabulations doivent utiliser l’encodage UTF-16 (Unicode). La méthode d’importation utilisée dépend du type de fichier.
+Vous pouvez utiliser un fichier CSV (valeurs séparées par des virgules) avec codage ASCII (les caractères non ASCII doivent être codés en HTML) ou un fichier délimité par des tabulations pour le texte source d’un panneau d’informations pour une visionneuse d’images. Les fichiers délimités par des tabulations doivent utiliser l’encodage UTF-16 (Unicode). La méthode d’importation utilisée dépend du type de fichier.
 
 Lorsque vous effectuez la mise en forme du contenu source, n’oubliez pas les points suivants :
 
@@ -68,7 +68,7 @@ Lorsque vous effectuez la mise en forme du contenu source, n’oubliez pas les p
 1. Double-cliquez sur la visionneuse d’images pour l’ouvrir en mode Affichage des détails.
 1. Sélectionner **[!UICONTROL Flux de données InfoPanel]**.
 1. Dans le champ de l’emplacement du fichier CSV hébergé en externe (HTTP), entrez l’URL du fichier CSV.
-1. (Facultatif) Dans les champs Mise à jour du planning , indiquez l’heure de mise à jour du contenu, puis sélectionnez **[!UICONTROL Ajouter]**.
+1. (Facultatif) Dans le champ Mise à jour du planning , indiquez l’heure de mise à jour du contenu, puis sélectionnez **[!UICONTROL Ajouter]**.
 
    Vous pouvez sélectionner plusieurs heures. Chaque heure de mise à jour apparaît dans la zone Mettre à jour les durées. Pour supprimer une heure planifiée, sélectionnez-la, puis sélectionnez **[!UICONTROL Supprimer]**.
 

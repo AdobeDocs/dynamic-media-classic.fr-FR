@@ -1,26 +1,24 @@
 ---
 title: Suppression d’une ressource d’image pixellisée chargée
 description: Découvrez comment supprimer une ressource chargée dans Adobe Dynamic Media Classic.
-uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 52%
+source-wordcount: '136'
+ht-degree: 33%
 
 ---
 
 # Supprimer un fichier téléchargé{#deleting-an-uploaded-asset}
 
-Vous pouvez utiliser le paramètre `delete` dans ce format pour supprimer un fichier :
+Vous pouvez utiliser la variable `delete` dans ce format pour supprimer une ressource :
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
@@ -49,14 +47,14 @@ Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pou
 | Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
 | --- | --- | --- |
 | `op` | Obligatoire | supprimer |
-| `shared_secret` | Obligatoire | La clé de secret partagé de l’entreprise. |
-| `image_name` | Obligatoire | Nom du fichier à supprimer. |
+| `shared_secret` | Obligatoire | Clé qui est un secret partagé pour la société. |
+| `image_name` | Obligatoire | Nom de la ressource à supprimer. |
 
 <!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
 >
->À compter du 1er mai 2023, les ressources UGC dans Dynamic Media pourront être utilisées pendant 60 jours à compter de la date de chargement. Au bout de 60 jours, les ressources seront supprimées.
+>À compter du 1er mai 2023, les ressources UGC dans Dynamic Media pourront être utilisées pendant 60 jours à compter de la date de téléchargement. Au bout de 60 jours, les ressources seront supprimées.
 
 >[!NOTE]
 >

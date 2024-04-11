@@ -1,21 +1,19 @@
 ---
-title: "Démarrage rapide\_: Séries d’échantillons"
+title: "Démarrage rapide : séries d’échantillons"
 description: Introduction et démarrage rapide de la série d’échantillons pour vous aider à démarrer rapidement dans Adobe Dynamic Media Classic.
-uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
-discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 18%
+source-wordcount: '404'
+ht-degree: 17%
 
 ---
 
@@ -51,7 +49,7 @@ Voir [Aperçu d’une ressource](previewing-asset.md#previewing-an-asset).
 
 La publication d’une série d’échantillons la place sur les serveurs Adobe Dynamic Media Classic et active la chaîne URL.
 
-Sélectionnez la variable **[!UICONTROL Marquer pour publication]** à gauche de son nom dans le panneau de navigation. Sélectionnez ensuite **[!UICONTROL Publier]**. Sur la page Publier, sélectionnez **[!UICONTROL Envoyer la publication]**.
+Sélectionnez la variable **[!UICONTROL Marquer pour publication]** à gauche de son nom dans le panneau de navigation. Sélectionnez **[!UICONTROL Publier]**. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
 Voir [Publication de fichiers](publishing-files.md#publishing-files).
 

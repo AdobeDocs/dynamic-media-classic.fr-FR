@@ -1,20 +1,18 @@
 ---
 title: Travail en mode Détails
 description: Découvrez comment travailler en mode Détails dans Adobe Dynamic Media Classic.
-uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '617'
 ht-degree: 20%
 
 ---
@@ -56,15 +54,15 @@ Pour examiner de plus près, prévisualiser ou travailler sur une ressource, vou
 
 ## Obtention d’informations dans la vue Détails {#getting-information-in-detail-view}
 
-L’affichage des détails fournit des informations sur une ressource ou un fichier. Il affiche ces informations sur un élément : son dossier de stockage, son nom de fichier, la date de téléchargement de l’élément dans Adobe Dynamic Media Classic et son historique de publication. Vous pouvez également afficher et modifier des métadonnées et ajouter des mots-clés pour une ressource dans le mode Affichage des détails.
+L’affichage des détails fournit des informations sur une ressource ou un fichier. Ces informations s’affichent sur un élément : son dossier de stockage, son nom de fichier, la date de téléchargement de l’élément dans Adobe Dynamic Media Classic et son historique de publication. Vous pouvez également afficher et modifier des métadonnées et ajouter des mots-clés pour une ressource dans le mode Affichage des détails.
 
-Vous pouvez obtenir une URL de ressource en mode Affichage des détails ; toutefois, l’URL n’est pas active tant que vous n’avez pas publié la ressource. Pour les images, la vue Détails fournit également une liste de ressources et de métadonnées de création et dérivées, telles que les cibles de zoom et les visionneuses d’images.
+Vous pouvez obtenir une URL de ressource en mode Affichage des détails ; toutefois, l’URL n’est pas active tant que vous n’avez pas publié la ressource. Pour les images, la vue Détails fournit également une liste de ressources et de métadonnées créées et dérivées, telles que les cibles de zoom et les visionneuses d’images.
 
 ## Utilisation de ressources dans l’affichage des détails {#working-with-assets-in-detail-view}
 
 Le mode Affichage des détails propose des outils pour travailler avec la ressource que vous avez ouverte. Les outils disponibles dépendent du type de ressource que vous utilisez, mais l’affichage des détails offre toujours les fonctions suivantes :
 
-* **éléments pour publication** - Sélectionnez la variable **[!UICONTROL Publier]** à gauche du nom ou accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Publier]** ou **[!UICONTROL Fichier]** > **[!UICONTROL Dépublier]**.
+* **éléments pour publication** - Sélectionnez la variable **[!UICONTROL `Publish`]** à gauche du nom ou accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Publier]** ou **[!UICONTROL Fichier]** > **[!UICONTROL Dépublier]**.
 
 * **Renommer la ressource** - Sélectionnez le nom et saisissez un nouveau nom.
 
