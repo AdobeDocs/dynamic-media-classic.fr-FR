@@ -1,27 +1,25 @@
 ---
-title: "Démarrage rapide : Visionneuse de médias mixtes"
+title: "Démarrage rapide : visionneuse de médias mixtes"
 description: Présentation et démarrage rapide des visionneuses de médias mixtes pour vous aider à démarrer rapidement dans Adobe Dynamic Media Classic.
-uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 34%
+source-wordcount: '656'
+ht-degree: 33%
 
 ---
 
 # Démarrage rapide : Visionneuses de supports variés{#quick-start-mixed-media-sets}
 
-Les visionneuses de supports variés offrent aux utilisateurs une expérience de visualisation intégrée. Les visionneuses de supports variés peuvent contenir des images, des visionneuses d’images, des séries d’échantillons, des visionneuses à 360° et des vidéos. Les utilisateurs peuvent sélectionner différents onglets dans la visionneuse de supports variés pour afficher les éléments dans les différentes visionneuses. Si aucun onglet n’est sélectionné, tous les fichiers s’affichent dans la ligne d’échantillons.
+Les visionneuses de médias mixtes offrent aux utilisateurs une expérience de visionnage intégrée. Les visionneuses de supports variés peuvent contenir des images, des visionneuses d’images, des séries d’échantillons, des visionneuses à 360° et des vidéos. Les utilisateurs peuvent sélectionner différents onglets dans la visionneuse de supports variés pour afficher les éléments dans les différentes visionneuses. Si aucun onglet n’est sélectionné, tous les fichiers s’affichent dans la ligne d’échantillons.
 
 Les paramètres prédéfinis de visionneuse de supports variés incluent des options de la communauté permettant aux utilisateurs finals d’incorporer du code, de copier des URL et de créer des liens vers le site Web principal. Les utilisateurs peuvent utiliser ces options pour partager des informations de produits sur leur site Web personnel ou sur des sites de réseaux sociaux.
 
@@ -59,7 +57,7 @@ Voir aussi [Paramètres prédéfinis de la visionneuse](https://s7d5.scene7.com/
 
 ## 5. Aperçu d’une visionneuse de médias mixtes
 
-Sélectionnez le de la visionneuse de supports variés. **[!UICONTROL Aperçu]** bouton . Vous pouvez sélectionner les icônes de miniature et d’échantillon pour examiner votre visionneuse de médias mixtes dans la visionneuse de médias mixtes. Différentes visionneuses sont disponibles dans les menus Paramètres prédéfinis.
+Sélectionnez la visionneuse de supports variés **[!UICONTROL Aperçu]** bouton . Vous pouvez sélectionner les icônes de miniature et d’échantillon pour examiner votre visionneuse de médias mixtes dans la visionneuse de médias mixtes. Différentes visionneuses sont disponibles dans les menus Paramètres prédéfinis.
 
 Voir [Aperçu d’une ressource](previewing-asset.md#previewing-an-asset).
 
@@ -67,7 +65,7 @@ Voir [Aperçu d’une ressource](previewing-asset.md#previewing-an-asset).
 
 La publication d’une visionneuse de médias mixtes la place sur les serveurs Adobe Dynamic Media Classic et active la chaîne URL.
 
-Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisez le **serveur de vidéo** pour publier les vidéos réelles que vous avez marquées pour publication Et vous utilisez **Serveur d’images** pour publier des ressources connexes, telles que des miniatures vidéo, et définir des informations pour toute visionneuse de vidéos adaptative.
+Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisation **Serveur vidéo** pour publier les vidéos réelles que vous avez marquées pour publication. Et vous utilisez **Serveur d’images** pour publier des ressources connexes, telles que des miniatures vidéo, et définir des informations pour toute visionneuse de vidéos adaptative.
 
 Voir [Publication d’une visionneuse de médias mixtes](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 

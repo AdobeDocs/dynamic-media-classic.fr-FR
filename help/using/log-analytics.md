@@ -5,15 +5,14 @@ contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -48,9 +47,9 @@ Commencez par intégrer Dynamic Media Classic à Adobe Analytics OAuth. L’int�
 
    ![Ajout d’une API](assets/analytics-oauth2.png)
 
-1. Sur le **[!UICONTROL Configuration de l’API]** page, sélectionnez **[!UICONTROL AUTHENTIFICATION DES UTILISATEURS OAuth]**.
+1. Sur le **[!UICONTROL `Configure API`]** page, sélectionnez **[!UICONTROL AUTHENTIFICATION DES UTILISATEURS OAuth]**.
 1. Dans le coin inférieur droit de la page, sélectionnez **[!UICONTROL Suivant]**.
-1. Sur le **[!UICONTROL Configuration de l’API]** page, sélectionnez **[!UICONTROL OAUTH 2.0 Web]**.
+1. Sur le **[!UICONTROL `Configure API`]** page, sélectionnez **[!UICONTROL OAUTH 2.0 Web]**.
 1. Dans le **[!UICONTROL URI de redirection par défaut]** , saisissez le chemin d’accès suivant tel qu’affiché :
 
    `https://exploreadobe.com/dynamic-media-upgrade/`
@@ -69,7 +68,7 @@ Commencez par intégrer Dynamic Media Classic à Adobe Analytics OAuth. L’int�
 
 >[!NOTE]
 >
->Après la configuration initiale d’Adobe Analytics dans Dynamic Media Classic, vous devez rétablir la configuration uniquement dans les cas suivants :
+>Après la configuration initiale d’Adobe Analytics dans Dynamic Media Classic, la seule fois où vous devez rétablir la configuration est dans les cas suivants :
 >
 >* Un nouveau rapport est ajouté dans Analytics et l’utilisateur souhaite commencer à envoyer des données à ce nouveau rapport.
 >* Le serveur de suivi est mis à jour dans Adobe Analytics.

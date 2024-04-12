@@ -1,7 +1,7 @@
 ---
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -58,4 +58,4 @@ L’Adobe accueille favorablement toute contribution. Les contributions sont exa
 
 ## Informations supplémentaires
 
-Voir [Guide du contributeur de documents d’Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) pour plus d’informations sur l’utilisation de la plateforme de création GitHub.
+Voir [Guide du contributeur de documents d’Adobe](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) pour plus d’informations sur l’utilisation de la plateforme de création GitHub.

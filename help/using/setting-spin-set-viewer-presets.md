@@ -1,21 +1,19 @@
 ---
 title: Configuration des paramètres prédéfinis de la visionneuse à 360°
 description: Découvrez comment configurer des paramètres prédéfinis de visionneuse à 360° dans Adobe Dynamic Media Classic.
-uuid: e095f989-f3df-46ea-be62-812922805dc0
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
-discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
 feature: Dynamic Media Classic,Viewers,Spin Sets,Viewer Presets
 role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 23%
+source-wordcount: '237'
+ht-degree: 24%
 
 ---
 
@@ -31,7 +29,7 @@ Les paramètres prédéfinis de la visionneuse à 360° définissent le style, l
    * Pour créer un paramètre prédéfini, sélectionnez **[!UICONTROL Ajouter]**, puis, dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plateforme, puis sélectionnez **[!UICONTROL Visionneuse à 360°]**.
    * Pour modifier un paramètre prédéfini de visionneuse à 360° existant, sélectionnez-le, puis choisissez **[!UICONTROL Modifier]**.
 
-1. Sur la page Configurer la visionneuse, saisissez un nom dans la zone Nom du paramètre prédéfini pour le paramètre prédéfini de visionneuse à 360°.
+1. Sur le `Configure Viewer` , saisissez un nom dans la zone Nom du paramètre prédéfini pour le paramètre prédéfini de visionneuse à 360°.
 1. Spécifiez les autres options voulues. Pour afficher une description d’une option, sélectionnez l’option **[!UICONTROL Conseil d’informations]** en regard de l’option .
 
    La page Aperçu affiche la visionneuse au fur et à mesure que vous mettez à jour et modifiez les paramètres.

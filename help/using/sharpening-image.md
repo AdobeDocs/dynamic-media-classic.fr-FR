@@ -1,21 +1,19 @@
 ---
 title: Accentuation d’une image
 description: Découvrez comment accentuer une image dans Adobe Dynamic Media Classic.
-uuid: d86af74a-89c5-4f2b-96ba-f2e7da600bca
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 38%
+source-wordcount: '2199'
+ht-degree: 35%
 
 ---
 
@@ -99,7 +97,7 @@ Sélectionnez la variable **[!UICONTROL Rééchantillonnage]** et choisissez une
 
 * **[!UICONTROL Bicubique]** : accroît l’utilisation du processeur sur le serveur d’images, mais produit des images plus nettes avec des artefacts de crénelage plus discrets.
 
-* **[!UICONTROL `Sharpen2`]** : produit des résultats légèrement plus nets que **[!UICONTROL Bicubique]**, mais à un coût processeur encore plus élevé sur le serveur d’images.
+* **[!UICONTROL `Sharpen 2`]** : produit des résultats légèrement plus nets que **[!UICONTROL Bicubique]**, mais à un coût processeur encore plus élevé sur le serveur d’images.
 
 * **[!UICONTROL Trilinéaire]** : utilise des résolutions plus élevées et plus basses si elles sont disponibles ; recommandé uniquement lorsque le crénelage est un problème. Elle réduit la taille du fichier JPEG en raison des données à haute fréquence réduites.
 
@@ -126,13 +124,13 @@ Les options de qualité JPG contrôlent le niveau de compression JPG :
 
 **Définition des options d’accentuation à l’échelle de l’entreprise**
 
-Sans paramètre d’image prédéfini ou de protocole d’accentuation spécifique au serveur Image Server en plus de la chaîne de l’URL, votre image n’est pas accentuée lorsque sa résolution est réduite. Cependant, si cette absence d’accentuation se produit, vous pouvez définir des valeurs d’accentuation par défaut, puis n’importe quelle image a toujours une certaine accentuation.
+Si vous n’avez pas utilisé de paramètre d’image prédéfini ou transmis des protocoles d’accentuation spécifiques au serveur d’images le long de la chaîne URL, votre image n’est pas accentuée lorsqu’elle est sous-échantillonnée. Cependant, si cette absence d’accentuation se produit, vous pouvez définir des valeurs d’accentuation par défaut afin de vous assurer que toute image présente toujours une certaine accentuation.
 
 Pour définir les options d’accentuation par défaut de votre entreprise, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]** > **[!UICONTROL Serveur d’images]**. Si vous définissez le mode Rééchantillonnage par défaut sur **`Sharp2`**, l’image est toujours accentuée lors du sous-échantillonnage.
 
 **Ajout de l’accentuation aux paramètres prédéfinis de la visionneuse**
 
-Sauf si vous ajoutez des modificateurs d’accentuation de l’image aux paramètres prédéfinis, la petite image de chargement initial peut paraître floue car sa résolution est réduite sans accentuation pour s’ajuster à la fenêtre de la visionneuse.
+À moins que vous n’ajoutiez des modificateurs d’accentuation à l’image prédéfinie, la petite image de chargement initial peut sembler douce, car elle est sous-échantillonnée pour s’adapter à la fenêtre de la visionneuse sans être accentuée.
 
 Les paramètres prédéfinis de la visionneuse (tels que les paramètres d’image prédéfinis) vous permettent de centraliser de nombreuses options à un seul emplacement, y compris le choix de l’habillage et les options de la visionneuse (comme un bouton Imprimer ou le contrôle de la vitesse de l’animation du zoom). Les paramètres de visionneuse prédéfinis se trouvent dans la même section que les paramètres d’image prédéfinis, sous **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres de l’application]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 

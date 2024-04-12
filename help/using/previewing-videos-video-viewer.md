@@ -1,20 +1,18 @@
 ---
 title: Prévisualisation de vidéos dans une visionneuse de vidéos
 description: Découvrez comment prévisualiser des vidéos dans une visionneuse de vidéos.
-uuid: 7ab4e805-6e5d-461b-bd99-5e09b9ced950
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '773'
 ht-degree: 21%
 
 ---
@@ -25,7 +23,7 @@ Dans la visionneuse de vidéos, vous pouvez prévisualiser une vidéo et découv
 
 Voir [Ajout et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
 
-**Prévisualisation des vidéos dans une visionneuse de vidéos:**
+**Pour prévisualiser des vidéos dans une visionneuse de vidéos :**
 
 1. Dans la liste déroulante Afficher du panneau Bibliothèque de ressources situé à gauche, sélectionnez **[!UICONTROL Vidéo]** (vidéos codées une seule fois) ou **[!UICONTROL Visionneuse de vidéos adaptative]**. Lorsque le paramètre prédéfini de codage de vidéo adaptative est utilisé, il génère un ensemble de vidéos codées à débit multiple.
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez aux dossiers de fichiers pour sélectionner la vidéo à prévisualiser.
@@ -65,7 +63,7 @@ Voir [Paramètres prédéfinis de la visionneuse](application-setup.md#viewer_pr
 
 Voir aussi [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vidéo de formation.
 
-**Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos:**
+**Pour ajouter ou modifier un paramètre prédéfini de visionneuse de vidéos :**
 
 1. Dans le coin supérieur droit d’Adobe Dynamic Media Classic, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 
@@ -83,7 +81,7 @@ Voir aussi [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/h
 
    * **Modifier** - Sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis cliquez sur **[!UICONTROL Modifier]**.
 
-1. Sur la page Configurer la visionneuse, dans le champ Nom du paramètre prédéfini, saisissez ou modifiez le nom du paramètre prédéfini.
+1. Dans le `Configure Viewer` , dans le champ Nom du paramètre prédéfini , saisissez ou modifiez le nom du paramètre prédéfini.
 1. Définissez les options restantes si vous le souhaitez.
 
    Pour afficher la description d’une option, sélectionnez son icône d’info-bulle.

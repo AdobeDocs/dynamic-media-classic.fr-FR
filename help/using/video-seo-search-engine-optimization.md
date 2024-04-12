@@ -1,21 +1,19 @@
 ---
 title: Optimisation du référencement de la vidéo
 description: Découvrez comment configurer les paramètres d’optimisation du référencement des vidéos dans Adobe Dynamic Media Classic.
-uuid: bac2c6a9-8466-4b8f-b835-6cb0b4168513
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 35%
+source-wordcount: '1019'
+ht-degree: 30%
 
 ---
 
@@ -33,7 +31,7 @@ L’optimisation pour les moteurs de recherche vidéo Adobe Dynamic Media Classi
 >
 >Google prend en charge à la fois le plan de site vidéo et le protocole de flux mRSS pour envoyer des informations aux moteurs de recherche.
 
-Adobe Dynamic Media Classic peut générer des plans de site vidéo et des flux mRSS à partir de métadonnées stockées avec chaque vidéo. Lorsque vous créez des plans de site vidéo et des flux mRSS, vous choisissez les champs de métadonnées à partir des fichiers vidéo à inclure. Ainsi, vous décrivez vos vidéos aux moteurs de recherche pour qu’ils puissent plus facilement rediriger le trafic vers les vidéos de votre site Web..
+Adobe Dynamic Media Classic peut générer des plans de site vidéo et des flux mRSS à partir de métadonnées stockées avec chaque vidéo. Lorsque vous créez des plans de site vidéo et des flux mRSS, vous choisissez les champs de métadonnées à partir des fichiers vidéo à inclure. Ainsi, vous décrivez vos vidéos aux moteurs de recherche afin qu’ils puissent rediriger plus précisément le trafic vers les vidéos de votre site web.
 
 >[!NOTE]
 >
@@ -43,9 +41,9 @@ Adobe Dynamic Media Classic crée des rapports sur les plans de site vidéo et l
 
 >[!NOTE]
 >
->Pour les plans de site vidéo et les flux mRSS, Adobe Dynamic Media Classic capture uniquement les métadonnées des vidéos marquées pour publication. Les vidéos marquées pour la publication incluent leurs métadonnées dans les plans de site vidéo et les flux mRSS.
+>Pour les plans de site vidéo et les flux mRSS, Adobe Dynamic Media Classic capture uniquement les métadonnées des vidéos marquées pour publication. Marquez des vidéos pour publication afin d’inclure leurs métadonnées dans les plans de site vidéo et les flux mRSS.
 
-## Sélection des paramètres d’optimisation du référencement vidéo {#choosing-video-seo-settings}
+## Sélection des paramètres d’optimisation du référencement vidéo
 
 Sélectionnez les paramètres d’optimisation du référencement vidéo pour les plans de site vidéo et les flux mRSS dans le **[!UICONTROL Paramètres d’optimisation du moteur de recherche vidéo]** page. Pour ouvrir cette page, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL SEO vidéo]** > **[!UICONTROL Paramètres]**.
 
@@ -83,7 +81,7 @@ Sur le **[!UICONTROL Mode automatique/manuel]** , choisissez de générer automa
 
 La zone Paramètres de génération répertorie les champs de saisie du plan de site vidéo, du flux mRSS ou des deux, ainsi que les noms des champs de métadonnées dans le panneau Métadonnées. Utilisez la zone Paramètres généraux pour mapper les champs d’entrée aux champs de métadonnées. Ce faisant, vous indiquez à Adobe Dynamic Media Classic où obtenir des métadonnées pour le plan de site vidéo et/ou le flux mRSS.
 
-1. Dans le menu Vues des métadonnées, choisissez un affichage de métadonnées. Après avoir choisi un affichage, les noms des champs de métadonnées apparaissent dans le panneau Métadonnées.
+1. Dans le menu Vues des métadonnées, choisissez un affichage de métadonnées. Après avoir choisi une vue, les noms des champs de métadonnées s’affichent dans le panneau Métadonnées.
 Voir [Vues des métadonnées](application-setup.md#metadata_views).
 1. Faites glisser les noms de champ de métadonnées du panneau Métadonnées dans les champs de saisie Page de destination, Titre, Description, Balises et Catégorie. Les champs Page de destination, Titre et Description sont obligatoires.
 

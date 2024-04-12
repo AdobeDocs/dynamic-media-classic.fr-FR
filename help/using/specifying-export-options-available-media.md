@@ -1,20 +1,18 @@
 ---
 title: Définition d’options d’exportation disponibles pour les utilisateurs de Media Portal
 description: Découvrez comment spécifier les options d’exportation disponibles pour les utilisateurs de Media Portal dans Adobe Dynamic Media Classic.
-uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 41%
+source-wordcount: '383'
+ht-degree: 37%
 
 ---
 
@@ -38,7 +36,7 @@ Voir aussi [Exportation de ressources à partir d’Adobe Dynamic Media Classic]
 
      When **[!UICONTROL pixels]** sont sélectionnées à partir de la **[!UICONTROL Taille]** , la largeur d’image obtenue × hauteur ne peut pas dépasser 100 millions de pixels. Cette taille équivaut à 10 000 × 10 000 pixels pour une image carrée, soit environ 8 000 × 12 000 pixels pour une image de rapport 2x3. Cette limitation de taille ne s’applique pas si vous exportez des images primaires d’origine.
 
-     Désélectionnez cette option si vous souhaitez que les utilisateurs téléchargent les fichiers sans les reformater pendant le téléchargement.
+     Désélectionnez cette option pour que les utilisateurs téléchargent les fichiers sans les reformater au fur et à mesure de leur téléchargement.
 
    * **Activer Exporter l’original** - Permet d’exporter les images originales. Dans le **[!UICONTROL Exportation des ressources sélectionnées]** , les utilisateurs peuvent ouvrir le panneau **[!UICONTROL Conversion]** menu déroulant et choisissez **[!UICONTROL Exporter l’original]** pour exporter les fichiers originaux. Désélectionnez cette option si vous souhaitez forcer les utilisateurs à choisir un paramètre d’image prédéfini ou des options de conversion lorsqu’ils exportent des images.
 

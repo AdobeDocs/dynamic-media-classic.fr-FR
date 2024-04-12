@@ -1,21 +1,19 @@
 ---
 title: Création de cibles de zoom pour un zoom guidé
 description: Découvrez comment créer des cibles de zoom pour un zoom guidé dans Adobe Dynamic Media Classic.
-uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 41%
+source-wordcount: '730'
+ht-degree: 42%
 
 ---
 
@@ -55,7 +53,7 @@ Pour créer une cible de zoom, ouvrez la page Éditeur de cible de zoom et proc�
 
 1. Pick **[!UICONTROL Sélectionner la cible]** (flèche), puis sélectionnez la cible de zoom que vous avez créée et ajustez la taille et la position de la cible.
 
-   * **Redimensionner** - Déplacez le pointeur sur un coin de la cible de zoom et faites-le glisser pour agrandir ou rétrécir la cible.
+   * **Redimensionner** - Déplacez le pointeur sur un coin de la cible de zoom et faites-le glisser pour agrandir ou réduire la cible.
 
    * **Position** - Déplacez le pointeur sur la cible de zoom et faites-la glisser vers un autre emplacement.
 
@@ -72,7 +70,7 @@ Pour créer une cible de zoom, ouvrez la page Éditeur de cible de zoom et proc�
 
 >[!NOTE]
 >
->Pour voir à quoi ressemblent vos cibles de zoom dans une visionneuse de zoom, sélectionnez l’option **[!UICONTROL Aperçu]** dans l’écran de l’éditeur de cible de zoom, puis choisissez une visionneuse de zoom dans l’écran de prévisualisation. Pour plus d’informations sur cet écran, voir [Aperçu des images avec différentes visionneuses de zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+>Pour afficher les cibles de zoom dans une visionneuse de zoom, sélectionnez la variable **[!UICONTROL Aperçu]** dans l’écran de l’éditeur de cible de zoom, puis choisissez une visionneuse de zoom dans l’écran de prévisualisation. Pour plus d’informations sur cet écran, voir [Aperçu des images avec différentes visionneuses de zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ### Modification des cibles de zoom {#editing-zoom-targets}
 
@@ -92,4 +90,4 @@ Vous pouvez copier des cibles de zoom d’une image à une autre. Copiez des cib
 
 1. Ouvrez l’image avec les cibles de zoom que vous souhaitez copier dans l’écran de l’éditeur de cible de zoom.
 1. Sélectionner **[!UICONTROL Copie De Cibles Dans]**.
-1. Dans la boîte de dialogue Sélectionner des images, sélectionnez une image, puis choisissez **[!UICONTROL Sélectionner]**.
+1. Dans la boîte de dialogue Sélectionner les images , sélectionnez une image, puis choisissez **[!UICONTROL Sélectionner]**.

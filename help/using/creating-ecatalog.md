@@ -1,20 +1,18 @@
 ---
 title: Créer un catalogue électronique
 description: Découvrez comment créer un catalogue électronique dans Adobe Dynamic Media Classic.
-uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '976'
 ht-degree: 44%
 
 ---
@@ -56,7 +54,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
    * **Bouton Déplacer vers** - Sélectionnez une page ou une étendue de page, puis **[!UICONTROL Déplacer vers]**, puis sélectionnez la page du menu qui doit apparaître au-dessus de votre page.
 
-   * **Numéro de séquence** - En mode Liste, saisissez les numéros de page dans les champs Séquence # .
+   * **Numéro de séquence** - En mode Liste, saisissez les numéros de page dans les champs de la séquence #.
 
 1. Une fois terminé, près de l’angle inférieur droit de la page, vérifiez que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
 1. Sélectionner **[!UICONTROL Enregistrer]**.
@@ -85,7 +83,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Une fois les modifications terminées, près de l’angle inférieur droit de la page, vérifiez que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
 1. Sélectionner **[!UICONTROL Enregistrer]**, sélectionnez un dossier de stockage, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-## Supprimer un catalogue électronique {#deleting-an-ecatalog}
+## Supprimer un catalogue électronique
 
 Lorsque vous supprimez une visionneuse, celle-ci est placée dans la corbeille. Cependant, les membres (ou &quot;enfants&quot;) de cet ensemble ne sont pas affectés ; au lieu de cela, ils conservent chacun leur état publié ou non publié existant.
 

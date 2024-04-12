@@ -10,16 +10,16 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 55%
+source-wordcount: '871'
+ht-degree: 53%
 
 ---
 
 # Gestion du contenu du panneau Informations dans les catalogues électroniques{#managing-info-panel-content-in-ecatalogs}
 
-Outre l’utilisation de texte de zone cliquable pour vos survols dans les catalogues électroniques, vous pouvez utiliser un panneau d’informations pour ajouter de plus grandes quantités de texte de survol, y compris des liens. Vous pouvez également gérer le panneau d’informations en utilisant la mise en cache temporisée et en planifiant des mises à jour du contenu.
+Outre l’utilisation de texte de zone cliquable pour vos survols dans les catalogues électroniques, vous pouvez utiliser un panneau d’informations pour ajouter de plus grandes quantités de texte de survol, y compris des liens. Vous pouvez également gérer le panneau d’informations en utilisant la mise en cache programmée et en planifiant les mises à jour du contenu.
 
 Vous pouvez gérer la configuration et les données de votre panneau d’informations à l’aide des fonctionnalités suivantes d’Adobe Dynamic Media Classic :
 
@@ -68,7 +68,7 @@ Lorsque vous effectuez la mise en forme du contenu source, n’oubliez pas les p
 1. Double-cliquez sur le catalogue électronique pour l’ouvrir en mode Affichage des détails.
 1. Sélectionnez la variable **[!UICONTROL Flux de données InfoPanel]** du panneau.
 1. Dans la zone Emplacement du fichier CSV hébergé en externe (HTTP), saisissez l’URL associée au fichier CSV. Vous pouvez coller l’URL dans ce champ ou la saisir directement.
-1. (Facultatif) Spécifiez une heure pour mettre à jour le contenu à l’aide des menus Planifier la mise à jour et sélectionnez **[!UICONTROL Ajouter]**. Vous pouvez sélectionner plusieurs heures. Chaque heure de mise à jour apparaît dans la zone Mettre à jour les durées. (Pour supprimer une heure, sélectionnez-la et sélectionnez **[!UICONTROL Supprimer]**.)
+1. (Facultatif) Spécifiez une heure pour mettre à jour le contenu à l’aide du menu Planifier la mise à jour et sélectionnez **[!UICONTROL Ajouter]**. Vous pouvez sélectionner plusieurs heures. Chaque heure de mise à jour apparaît dans la zone Mettre à jour les durées. (Pour supprimer une heure, sélectionnez-la et sélectionnez **[!UICONTROL Supprimer]**.)
 1. (Facultatif) Sélectionnez **[!UICONTROL Exécuter la mise à jour maintenant]** pour mettre immédiatement à jour le contenu.
 
 ### Importation d’un fichier CSV ou délimité par des tabulations {#import-a-tab-delimited-or-csv-file}

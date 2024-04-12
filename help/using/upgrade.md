@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 0%
@@ -31,7 +31,7 @@ La nouvelle [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] s’appuie s
 | Dynamic Imaging | En utilisant un seul fichier principal, générez et publiez automatiquement des versions illimitées, en modifiant la taille, le format, la résolution, le recadrage ou l’effet. |
 | Vidéo dynamique | La vidéo en taille réelle est dimensionnée automatiquement pour tous les écrans et diffusée de manière adaptative afin d’offrir une expérience utilisateur cohérente et de qualité. |
 | Personnalisation | Créer et publier facilement [!DNL Dynamic Media] expériences interactives, telles que les configurateurs de produits, les bannières personnalisées et les e-mails. |
-| Expériences interactives | Ajoutez des zones réactives interactives et liez les détails du produit dans les campagnes, la vidéo, les classeurs et autres médias. |
+| Expériences interactives | Ajoutez des zones réactives interactives et liez les détails du produit dans des campagnes, des vidéos, des classeurs et d’autres médias. |
 
 ## Principaux avantages et capacités de [!DNL Dynamic Media]
 

@@ -1,25 +1,23 @@
 ---
 title: Création d’un modèle
 description: Découvrez comment créer un modèle dans Adobe Dynamic Media Classic.
-uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '3420'
+source-wordcount: '3418'
 ht-degree: 41%
 
 ---
 
-# Création d’un modèle {#creating-a-template}
+# Création d’un modèle
 
 Pour créer un modèle, accédez à **[!UICONTROL Build]** > **[!UICONTROL Concepts de base des modèles]**. Sélectionnez Concepteur ou Développeur. Sur cette page, vous pouvez ajouter des calques d’image et de texte. Vous pouvez également réorganiser les calques, modifier la taille et la position des calques et appliquer des effets d’ombre et d’éclat aux images et au texte.
 
@@ -78,7 +76,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Une fois les modifications terminées, près de l’angle inférieur droit de la page, vérifiez que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
 1. Sélectionner **[!UICONTROL Enregistrer]**, sélectionnez un dossier de stockage, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-## Suppression d’un modèle {#deleting-a-template}
+## Suppression d’un modèle
 
 Lorsque vous supprimez une visionneuse de modèles, celle-ci est placée dans la corbeille. Cependant, les membres (ou &quot;enfants&quot;) de cet ensemble ne sont pas affectés ; au lieu de cela, ils conservent chacun leur état publié ou non publié existant.
 
@@ -278,7 +276,7 @@ Vous pouvez masquer un calque ou un effet de calque en cliquant sur l’icône r
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&hide=1&effect=-1&.effect=Drop Shadow&blendmode`
 
-### Déterminer la couleur de fond, l’opacité et le mode de fusion {#determining-the-background-color-opacity-and-blend-mode}
+### Déterminer la couleur de fond, l’opacité et le mode de fusion
 
 Pour choisir une couleur d’arrière-plan, une opacité et un mode de fusion pour un calque ou la zone de travail, sélectionnez le calque ou la zone de travail, puis utilisez les techniques suivantes :
 
@@ -299,7 +297,7 @@ Une fois que vous avez appliqué un effet d’ombre ou d’éclat, vous pouvez r
 ### Application d’un effet d’ombre ou d’éclat à un calque {#applying-a-shadow-or-glow-effect-to-a-layer}
 
 1. Sélectionnez un calque dans la liste Calques.
-1. Sélectionnez le menu Ajouter un effet, puis choisissez une option :
+1. Sélectionnez la variable **[!UICONTROL `Add Effect`]** et choisissez une option :
 
    * **[!UICONTROL Ombre portée]** : applique une ombre au bas et à droite du calque.
 

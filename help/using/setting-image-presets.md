@@ -1,27 +1,25 @@
 ---
 title: Configuration des paramètres d’image prédéfinis
 description: Découvrez comment configurer des paramètres d’image prédéfinis dans Adobe Dynamic Media Classic.
-uuid: 90530948-dee9-41bd-b39e-684140446abc
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
-discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 feature: Dynamic Media Classic,Image Presets
 role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 47%
+source-wordcount: '673'
+ht-degree: 37%
 
 ---
 
 # Configuration des paramètres d’image prédéfinis{#setting-up-image-presets}
 
-Semblable à une macro, un paramètre d’image prédéfini est un ensemble prédéfini de commandes de dimensionnement et de formatage enregistrées sous un nom. Pour comprendre le fonctionnement des paramètres d’image prédéfinis, supposons que votre site web nécessite l’affichage de chaque image d’un produit selon deux tailles différentes : 500 × 500 pixels et 150 × 150 pixels. Vous créez deux paramètres d’image prédéfinis, l’un appelé &quot;Agrandir&quot; pour afficher des images à 500 x 500 pixels et l’autre appelé &quot;Miniature&quot; pour afficher des images à 150 × 150 pixels. Pour diffuser des images aux dimensions &quot;Agrandir&quot; et &quot;Miniature&quot;, un serveur d’images Dynamic Media recherche la définition du paramètre prédéfini d’image agrandie et du paramètre prédéfini d’image miniature. Ensuite, le serveur génère en mode dynamique une image dont la taille et le format correspondent à chaque type de paramètre prédéfini.
+Semblable à une macro, un paramètre d’image prédéfini est un ensemble prédéfini de commandes de dimensionnement et de formatage enregistrées sous un nom. Pour comprendre le fonctionnement des paramètres d’image prédéfinis, supposons que votre site web nécessite l’affichage de chaque image d’un produit selon deux tailles différentes : 500 × 500 pixels et 150 × 150 pixels. Vous créez deux paramètres d’image prédéfinis, l’un appelé &quot;Agrandir&quot; pour afficher des images à 500 x 500 pixels et l’autre appelé &quot;Miniature&quot; pour afficher des images à 150 × 150 pixels. Pour diffuser des images aux dimensions &quot;Agrandir&quot; et &quot;Miniature&quot;, un serveur d’images Dynamic Media recherche la définition des paramètres prédéfinis &quot;Agrandir l’image&quot; et &quot;Miniature prédéfinie&quot;. Ensuite, le serveur génère en mode dynamique une image dont la taille et le format correspondent à chaque type de paramètre prédéfini.
 
 Adobe Dynamic Media Classic est fourni avec plusieurs paramètres d’image prédéfinis de &quot;bonne pratique&quot; qui sont déjà configurés pour que vous puissiez les utiliser. Les administrateurs peuvent également créer des paramètres d’image prédéfinis. Vous pouvez créer un paramètre d’image prédéfini entièrement nouveau ou exploiter un paramètre existant et enregistrer votre création sous un nouveau nom.
 
@@ -31,7 +29,7 @@ Les images de taille réduite, lorsqu’elles sont diffusées dynamiquement à p
 
 Si vous avez le statut d’administrateur, vous pouvez créer vos propres paramètres d’image prédéfinis. Vous pouvez créer des paramètres d’image prédéfinis ou commencer avec un paramètre d’image prédéfini par défaut fourni par Adobe Dynamic Media Classic, le modifier et l’enregistrer sous un nouveau nom.
 
-**Pour créer un paramètre d’image prédéfini:**
+**Pour créer un paramètre d’image prédéfini :**
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres d’image prédéfinis]**.
 
@@ -48,7 +46,7 @@ Si vous avez le statut d’administrateur, vous pouvez créer vos propres param�
 
    Adobe Dynamic Media Classic recommande les options &quot;bonnes pratiques&quot; suivantes pour commencer :
 
-   * **[!UICONTROL Format]** - Sélectionnez JPEG ou un autre format qui répond à vos besoins. Tous les navigateurs Web prennent en charge le format d’image JPEG ; il offre un bon compromis entre la taille de fichier réduite et la qualité de l’image. Toutefois, les images au  JPEG utilisent un type de compression avec perte, lequel est susceptible d’introduire des artefacts d’image indésirables si le paramètre de compression est trop faible. Pour cette raison, Adobe Dynamic Media Classic recommande de définir la qualité de compression (sur le curseur) sur 75. Ce paramètre offre un bon compromis entre qualité d’image et taille de fichier réduite.
+   * **[!UICONTROL Format]** - Sélectionnez JPEG ou un autre format qui répond à vos besoins. Tous les navigateurs web prennent en charge le format d’image du JPEG ; il offre un bon équilibre entre les petites tailles de fichiers et la qualité d’image. Cependant, les images JPEG utilisent un modèle de compression avec perte qui peut introduire des artefacts d’image indésirables si le paramètre de compression est trop faible. Pour cette raison, Adobe Dynamic Media Classic recommande de définir la qualité de compression (sur le curseur) sur 75. Ce paramètre offre un bon compromis entre qualité d’image et taille de fichier réduite.
 
    * **[!UICONTROL Accentuation]** - Ne sélectionnez pas l’accentuation (ce filtre d’accentuation offre moins de contrôle que **[!UICONTROL Accentuation]** ).
 
@@ -77,6 +75,6 @@ Pour supprimer un paramètre d’image prédéfini, sélectionnez-le dans l’é
 
 >[!MORELIKETHIS]
 >
->* [Création et modification des paramètres d’image prédéfinis](application-setup.md#creating_and_editing_image_presets)
+>* [Création et modification de paramètres d’image prédéfinis](application-setup.md#creating_and_editing_image_presets)
 >* [Options des paramètres d’image prédéfinis](application-setup.md#image_preset_options)
 >* [Prévisualiser une ressource d’image en fonction de son paramètre d’image prédéfini](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)

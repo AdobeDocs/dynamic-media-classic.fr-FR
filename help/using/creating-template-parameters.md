@@ -1,21 +1,19 @@
 ---
 title: Création de paramètres de modèle
 description: Découvrez comment créer des paramètres de modèle dans Adobe Dynamic Media Classic.
-uuid: d17168a8-4776-4761-b022-8258d5997604
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
 topic: Development
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 54%
+source-wordcount: '792'
+ht-degree: 47%
 
 ---
 
@@ -31,11 +29,11 @@ Vous pouvez vous référer à un même paramètre plusieurs fois. Pour chaque co
 
 Voir aussi [Concepts de base des modèles](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vidéo de formation.
 
-## Paramétrage d’un calque {#parameterizing-a-layer}
+## Paramétrer un calque {#parameterizing-a-layer}
 
 Pour créer des paramètres de modèle pour chacun des calques de votre modèle, procédez comme suit :
 
-1. Dans la liste Calques, sélectionnez le bouton Paramètres  situé en regard du nom du calque pour lequel vous souhaitez créer des paramètres. L’écran Paramètres apparaît. Il affiche la liste des noms de tous les paramètres du calque, leur valeur et leur type.
+1. Dans la liste Calques, sélectionnez le bouton Paramètres situé en regard du nom du calque pour lequel vous souhaitez créer des paramètres. L’écran Paramètres apparaît. Il répertorie le nom de chaque paramètre sur le calque, sa valeur et son type.
 1. Sélectionnez l’option Activé en regard du nom de chaque paramètre à inclure dans l’image du modèle.
 1. Sélectionner **[!UICONTROL Fermer]** pour quitter l’écran Paramètres .
 
@@ -43,15 +41,15 @@ Pour créer des paramètres de modèle pour chacun des calques de votre modèle,
 >
 >Vous pouvez renommer les paramètres dans l’écran Paramètres. Un paramètre renommé est plus facile à identifier dans les chaînes URL et à utiliser comme valeur de base de données. Pour renommer un paramètre, sélectionnez ses **[!UICONTROL Activé]** , sélectionnez son nom, puis saisissez un nouveau nom dans le champ Nom .
 
-Pour afficher la liste des paramètres que vous avez créés pour votre modèle, cliquez sur le bouton Résumé des paramètres dans l’écran Modèle. L’écran Résumé des paramètres apparaît. Il répertorie le nom de tous les calques et, si vous avez créé des paramètres pour un calque, le nom et la valeur de ces paramètres.
+Pour afficher la liste des paramètres que vous avez créés pour votre modèle, cliquez sur le bouton Résumé des paramètres dans l’écran Modèle. Dans l’écran Résumé des paramètres, le nom de chaque calque est répertorié et si vous avez créé des paramètres pour un calque, les noms et valeurs des paramètres.
 
 ## Création de paramètres de texte dynamique {#creating-dynamic-text-parameters}
 
 Pour les calques de texte, vous pouvez également faire de la chaîne de texte un champ dynamique lié à une valeur de base de données. Procédez comme suit :
 
-1. Dans l’écran Modèle, sélectionnez le bouton Paramètres  situé en regard du nom du calque de texte pour lequel vous souhaitez créer des paramètres de texte dynamiques. La page Paramètres s’ouvre.
-1. Sélectionnez la **[!UICONTROL Activé]** en regard du nom de l’attribut text (textAttr).
-1. Sélectionnez la **[!UICONTROL Texte]** dans l’écran Paramètres .
+1. Sur l’écran Modèle, sélectionnez le bouton Paramètres situé en regard du nom de la couche de texte pour laquelle vous souhaitez créer des paramètres de texte dynamique. La page Paramètres s’ouvre.
+1. Sélectionnez la variable **[!UICONTROL Activé]** en regard du nom de l’attribut text (textAttr).
+1. Sélectionnez la variable **[!UICONTROL Texte]** dans l’écran Paramètres .
 1. Sélectionner **[!UICONTROL Ajouter un paramètre]**. Un nom de paramètre par défaut s’affiche. Pour remplacer ce nom, sélectionnez-le, puis saisissez un autre nom. La chaîne de texte courante devient le nouveau nom du paramètre.
 1. Sélectionner **[!UICONTROL Fermer]** pour fermer la page Paramètres .
 

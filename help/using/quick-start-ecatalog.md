@@ -10,16 +10,16 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 33%
+source-wordcount: '1470'
+ht-degree: 32%
 
 ---
 
 # Démarrage rapide : catalogues électroniques{#quick-start-ecatalogs}
 
-Un catalogue électronique est une version en ligne numérique de documents imprimés, tels qu’un catalogue, une brochure, un dépliant, un guide de produits ou un prospectus. Un catalogue électronique s’affiche dans une visionneuse de catalogue électronique sur un site Web. Cette visionneuse simule le processus de lecture de documents imprimés.
+Un catalogue électronique est une version en ligne numérique de documents imprimés, tels qu’un catalogue, une brochure, un dépliant, un guide de produits ou un prospectus. Un catalogue électronique s’affiche dans une visionneuse de catalogue électronique sur un site Web. Cette visionneuse simule l’expérience de lecture de documents imprimés.
 
 Visionnez également les vidéos de formation suivantes :
 
@@ -64,7 +64,7 @@ En règle générale, un catalogue électronique est créé à partir de fichier
 
 Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour commencer à charger des fichiers ou des images de PDF pour votre catalogue électronique. Vous pouvez transférer des fichiers depuis votre bureau ou par FTP. Il est conseillé d’opter pour le FTP si vous chargez de nombreux fichiers ou fichiers de plus de 100 Mo.
 
-La section Options PDF de l’écran de téléchargement contient des options qui permettent de télécharger des fichiers PDF présentant l’espace colorimétrique adéquat et la résolution voulue. Une résolution de 150 pixels par pouce est recommandée. L’option Générer automatiquement un catalogue permet de créer un catalogue lors du téléchargement d’un fichier PDF.
+La section Options PDF de l’écran de téléchargement contient des options qui permettent de télécharger des fichiers PDF présentant l’espace colorimétrique adéquat et la résolution voulue. Une résolution de 150 pixels par pouce est recommandée. Vous pouvez sélectionner l’option **[!UICONTROL Génération automatique du catalogue électronique]** pour créer un catalogue électronique lorsque vous chargez un fichier de PDF.
 
 Voir [Chargement des fichiers du PDF](uploading-pdf-files.md#uploading_the_pdf_files).
 
@@ -84,7 +84,7 @@ Voir [Créer un catalogue électronique](creating-ecatalog.md).
 
 Les zones cliquables ajoutent un autre aspect aux pages de catalogue électronique. Une zone cliquable correspond à une zone de la page permettant d’afficher d’autres informations sur un article. Lorsque les utilisateurs placent le pointeur sur une zone cliquable, une description de l’article en question s’affiche. La sélection d’une zone cliquable a pour effet d’activer une référence externe qui permet d’ouvrir une nouvelle page Web contenant des informations supplémentaires sur un article.
 
-Pour créer une zone cliquable, ouvrez l’écran Catalogue électronique. Ensuite, accédez au **[!UICONTROL Pages de mappage]** de l’écran Catalogue électronique, et encadrez la carte à l’aide de l’outil de zone cliquable Rectangle ou zone cliquable polygone. Vous pouvez ajuster la position et la taille d’une zone cliquable en faisant glisser ses bordures à l’aide de l’outil Panoramique.
+Pour créer une zone cliquable, ouvrez l’écran Catalogue électronique. Ensuite, accédez au **[!UICONTROL Pages de mappage]** de l’écran Catalogue électronique, et encadrez la carte à l’aide de l’outil de zone cliquable Rectangle ou zone cliquable polygone. Vous pouvez ajuster la position et la taille des zones cliquables en faisant glisser les bordures des zones à l’aide de l’outil Panoramique .
 
 Après avoir encadré la zone cliquable, saisissez l’adresse URL à laquelle vous souhaitez accéder lorsque vous sélectionnez la zone cliquable. Vous pouvez également indiquer le texte de survol qui s’affiche lorsque le pointeur se trouve sur la zone cliquable.
 
@@ -118,7 +118,7 @@ Voir [Aperçu des catalogues électroniques dans la visionneuse de catalogue él
 
 La publication de votre catalogue électronique et du PDF associé le place sur les serveurs d’images Dynamic Media afin qu’il puisse être diffusé sur votre site web et dans votre application. Dans le cadre du processus de publication, Adobe Dynamic Media Classic active la chaîne URL de votre catalogue électronique. Utilisez cette URL pour appeler le catalogue électronique à partir des serveurs d’images Dynamic Media vers votre site web ou votre application.
 
-Après avoir marqué votre catalogue électronique et votre PDF pour publication dans le panneau de navigation, cliquez sur le bouton Publier de la barre de navigation globale pour lancer une publication. Dans l’écran Publier, sélectionnez **[!UICONTROL Envoyer la publication]**.
+Après avoir marqué votre catalogue électronique et votre PDF pour publication dans le panneau de navigation, cliquez sur le bouton Publier de la barre de navigation globale pour lancer une publication. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
 Voir [Publication de catalogues électroniques et de PDF associés](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 

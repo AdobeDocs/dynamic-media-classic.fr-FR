@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 33%
+source-wordcount: '1437'
+ht-degree: 30%
 
 ---
 
@@ -60,7 +60,7 @@ Lorsqu’une visionneuse de vidéos adaptative est générée, elle comprend des
 
   La diffusion en continu de vidéo adaptative est prise en charge sur différentes plateformes iOS.
 
-  Découvrez la dernière prise en charge dans la section [Guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+  Découvrez la dernière prise en charge dans la section [Guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic prend en charge la lecture vidéo mobile pour la vidéo MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -98,11 +98,11 @@ Téléchargez et générez des visionneuses de vidéos adaptatives en suivant l�
 * **Chargement de vidéos précodées** - Si vos vidéos ont déjà été codées en dehors d’Adobe Dynamic Media Classic, dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour parcourir et charger des fichiers vidéo MP4 directement dans Adobe Dynamic Media Classic. Ensuite, accédez à **[!UICONTROL Build]** > **[!UICONTROL Visionneuses de vidéos adaptatives]**. Accédez aux fichiers vidéo requis. Faites glisser les fichiers vidéo de votre choix dans le tableau Visionneuse de vidéos adaptative, puis enregistrez la visionneuse.
 * **Chargement de vidéos issues de sources originales** - Si les vidéos ne sont pas codées, sélectionnez dans la barre de navigation globale. **[!UICONTROL Télécharger]** pour charger des fichiers source vidéo principaux (non-MP4). Adobe Dynamic Media Classic les code pour vous dans des fichiers MP4. Dans le **[!UICONTROL Télécharger les options de la tâche]** , sous **[!UICONTROL Options vidéo]**, sélectionnez **[!UICONTROL Vidéo adaptative]**.
 
-  Cette option conseillée permet de créer une visionneuse de vidéos adaptative qui applique automatiquement à la vidéo les paramètres de codage prédéfinis corrects, qu’il s’agisse d’un format 16:9 ou 4:3, en fonction des dimensions de la vidéo téléchargée. Lorsque vous envoyez votre tâche de téléchargement, une visionneuse de vidéos adaptative est automatiquement créée, qui comprend trois paramètres de codage vidéo dans les proportions correctes.
+  Avec cette option préférée, vous pouvez créer des visionneuses de vidéos adaptatives qui appliquent automatiquement le paramètre prédéfini de codage approprié à la vidéo, qu’elle soit de 16:9 ou de 4:3, pour qu’elle corresponde aux dimensions de la vidéo que vous avez téléchargée. Lorsque vous envoyez votre tâche de téléchargement, une visionneuse de vidéos adaptative est automatiquement créée, qui comprend trois paramètres de codage vidéo dans les proportions correctes.
 
   Ou, dans le même **[!UICONTROL Options de tâche]** , sous **[!UICONTROL Options vidéo]**, développer **[!UICONTROL Paramètres prédéfinis de codage uniques]**. Sélectionner les paramètres prédéfinis de codage vidéo individuels que vous souhaitez utiliser **Bureau**, **Mobile (iPhone, iPad, Android™)**, et **Tablette (iPad, Android™)** pour créer les fichiers MP4.
 
-* Vous pouvez également retraiter une vidéo principale à l’aide de la fonction **[!UICONTROL Retraiter]** fonction . Les vidéos récemment codées sont ajoutées à la visionneuse de vidéos adaptative existante.
+* Vous pouvez également retraiter une vidéo principale à l’aide de la fonction **[!UICONTROL Retraitement]** fonction . Les vidéos récemment codées sont ajoutées à la visionneuse de vidéos adaptative existante.
 
 Voir [Chargement et codage de vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 

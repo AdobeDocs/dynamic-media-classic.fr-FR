@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 33%
+source-wordcount: '623'
+ht-degree: 28%
 
 ---
 
@@ -55,7 +55,7 @@ Puisque vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fic
 
 Voir [WebVTT : The Web Video Text Tracks Format](https://w3c.github.io/webvtt/).
 
-**Pour ajouter des marques de chapitre à la vidéo:**
+**Pour ajouter des marqueurs de chapitre à la vidéo :**
 
 1. Créez votre fichier de chapitres vidéo à l’aide d’un simple éditeur de texte en dehors d’Adobe Dynamic Media Classic.
 
@@ -71,7 +71,7 @@ Voir [WebVTT : The Web Video Text Tracks Format](https://w3c.github.io/webvtt/).
 
    Voir [Chargement de fichiers](uploading-files.md#uploading_files).
 
-1. Dans le panneau Bibliothèque de fichiers situé sur le côté gauche, accédez au dossier de fichiers qui contient le fichier vidéo à associer au fichier de chapitre que vous avez transféré.
+1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources qui contient le fichier vidéo à associer au fichier de chapitres que vous avez chargé.
 1. Dans le panneau de navigation des ressources, sélectionnez une seule ressource vidéo, puis sous l’image de miniature de la ressource, sélectionnez **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 1. Dans le tableau Liste des visionneuses, recherchez la visionneuse HTML5 nommée **Univeral_HTML5_Video**, puis effectuez l’une des opérations suivantes :
 

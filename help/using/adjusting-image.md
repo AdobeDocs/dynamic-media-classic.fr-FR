@@ -1,18 +1,16 @@
 ---
 title: Modification d’une image
 description: Découvrez comment ajuster une image dans Adobe Dynamic Media Classic.
-uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 43%
@@ -59,13 +57,13 @@ Sélectionner **[!UICONTROL Enregistrer]**.
 
 ## Création d’un alias pour une image {#creating-an-alias-for-an-image}
 
-Lorsque vous avez ajusté une image, vous pouvez l’enregistrer en tant qu’autre vue de l’image principale. Pour ce faire, vous pouvez créer un alias pour l’image à l’aide du **[!UICONTROL Enregistrer en tant que vue supplémentaire de l’instance principale]** fonction .
+Lorsque vous avez ajusté une image, vous pouvez l’enregistrer en tant qu’autre vue de l’image principale. Pour ce faire, vous pouvez créer un alias pour l’image à l’aide du **[!UICONTROL Enregistrer comme une autre vue de l’instance principale]** fonction .
 
 **Pour créer un alias pour une image :**
 
 1. En mode d’affichage Grille ou Liste, en mode **[!UICONTROL Modifier]** , sélectionnez la liste déroulante en regard d’une image pour laquelle vous souhaitez créer un alias. **[!UICONTROL Ajuster]**.
 1. Dans le coin inférieur droit de la page, sélectionnez **[!UICONTROL Enregistrer sous]**.
-1. Dans la liste déroulante du **[!UICONTROL Enregistrer sous]** boîte de dialogue, sélectionnez **[!UICONTROL Enregistrer en tant que vue supplémentaire de l’instance principale]**.
+1. Dans la liste déroulante du **[!UICONTROL Enregistrer sous]** boîte de dialogue, sélectionnez **[!UICONTROL Enregistrer comme une autre vue de l’instance principale]**.
 1. Dans la zone de liste **[!UICONTROL Nom de dossier]**, sélectionnez le dossier où enregistrer l’alias de l’image.
 1. Dans le champ **[!UICONTROL Nom de fichier]**, entrez le nom à utiliser pour l’alias.
 1. Sélectionner **[!UICONTROL Enregistrer]**.

@@ -1,20 +1,18 @@
 ---
 title: Présentation du programme Adobe Dynamic Media Classic
 description: Une vue d’ensemble du programme Adobe Dynamic Media Classic et de l’ensemble de son processus de workflow.
-uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '474'
 ht-degree: 17%
 
 ---
@@ -29,7 +27,7 @@ Voir aussi [Présentation de Platform](https://s7d5.scene7.com/s7viewers/html5/V
 
 Les étapes clés du workflow Adobe Dynamic Media Classic sont les suivantes :
 
-* **Chargement et gestion de vos ressources** - Chargez vos ressources multimédia dans Adobe Dynamic Media Classic. Vous pouvez organiser, explorer et rechercher des fichiers sur le système. Vous pouvez également appliquer des métadonnées aux fichiers.
+* **Chargement et gestion de vos ressources** - Chargez vos ressources multimédia dans Adobe Dynamic Media Classic. Vous pouvez organiser, explorer et rechercher des fichiers sur le système. Vous pouvez également appliquer des métadonnées aux ressources.
 
 * **Créer un contenu multimédia** - Créez différentes configurations de vos ressources, telles que les catalogues électroniques, les visionneuses d’images, les visionneuses à 360°, les séries d’échantillons, les visionneuses de médias mixtes, les modèles de base et les modèles FXG.
 
@@ -43,7 +41,7 @@ Les étapes clés du workflow Adobe Dynamic Media Classic sont les suivantes :
 
 Adobe Dynamic Media Classic est fondamentalement différent des autres systèmes, car vous pouvez utiliser Adobe Dynamic Media Classic pour diffuser dynamiquement des médias à partir de ressources primaires uniques et d’appels d’URL.
 
-Les chaînes d’URL que vous générez avec Adobe Dynamic Media Classic incluent des instructions qui indiquent au serveur comment afficher la ressource lorsqu’elle est diffusée. Par exemple, une même image principale peut être diffusée dans des tailles, des formats, des poids, des couleurs et des vues de zoom différents. Dans le cadre de la création et de la publication de ressources multimédias avec Adobe Dynamic Media Classic, vous configurez visuellement les effets. Ce faisant, vous créez les appels d’URL qui indiquent correctement au serveur comment présenter votre ressource principale aux applications.
+Les chaînes d’URL que vous avez générées avec Adobe Dynamic Media Classic incluent des instructions qui indiquent au serveur comment afficher la ressource lorsqu’elle est diffusée. Par exemple, une même image principale peut être diffusée dans des tailles, des formats, des poids, des couleurs et des vues de zoom différents. Dans le cadre de la création et de la publication de ressources multimédias avec Adobe Dynamic Media Classic, vous configurez visuellement les effets. Ce faisant, vous créez les appels d’URL qui indiquent correctement au serveur comment présenter votre ressource principale aux applications.
 
 ![Adobe Dynamic Media Classic peut fournir la même image principale à différents supports, dans des formats et des tailles différents.](/help/using/assets/gs_dynamic_publishing.png)
 *Adobe Dynamic Media Classic s’assure que des expériences de qualité cohérentes sont diffusées sur n’importe quel écran, quelle que soit la taille ou la bande passante.*

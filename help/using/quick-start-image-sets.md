@@ -10,7 +10,7 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 14%
@@ -78,7 +78,7 @@ La publication d’une visionneuse d’images la place sur les serveurs Adobe Dy
 >
 >Cette étape n’est pas nécessaire si vous avez sélectionné **[!UICONTROL Publier après enregistrement]** (par défaut) au moment de la création et de l’enregistrement de la visionneuse d’images.
 
-Sélectionner **[!UICONTROL Marquer pour publication]** à gauche de son nom dans le panneau de navigation. Sélectionnez ensuite **[!UICONTROL Publier]**. Sur la page Publier, sélectionnez **[!UICONTROL Envoyer la publication]**.
+Sélectionner **[!UICONTROL Marquer pour publication]** à gauche de son nom dans le panneau de navigation. Sélectionnez **[!UICONTROL Publier]**. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
 Voir [Publication de fichiers](publishing-files.md#publishing-files).
 

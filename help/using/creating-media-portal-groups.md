@@ -1,21 +1,19 @@
 ---
 title: Création et gestion des groupes Media Portal
 description: Découvrez comment créer et gérer des groupes Media Portal dans Adobe Dynamic Media Classic.
-uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 54%
+ht-degree: 52%
 
 ---
 
@@ -27,7 +25,7 @@ Les *groupes* sont conçus pour vous aider à administrer les utilisateurs du po
 
 Pour accorder des autorisations d’accès à différents niveaux, vous créez des groupes. Pour chaque groupe, vous définissez des autorisations d’accès en lecture, en écriture et en suppression à des dossiers et à leur contenu. Vous déterminez également les paramètres d’image prédéfinis qui sont disponibles pour le groupe. Vous affectez ensuite les utilisateurs à des groupes. Un utilisateur peut appartenir à plusieurs groupes. Le concept de groupe vous offre la possibilité de donner accès à un nombre limité de contenus par rapport au contenu total.
 
-Si vous n’accordez pas spécifiquement l’autorisation à un groupe à une ressource ou à un dossier, cette ressource ou ce dossier hérite des autorisations que vous avez attribuées à son dossier parent (le dossier situé au-dessus dans la hiérarchie de dossiers). Pour vous assurer que tous les dossiers enfants d’un dossier particulier héritent d’autorisations identiques, accordez les autorisations au dossier parent.
+Si vous n’accordez pas spécifiquement l’autorisation de groupe à une ressource ou à un dossier, cette ressource ou ce dossier hérite des autorisations que vous avez attribuées à son dossier parent (le dossier situé au-dessus dans la hiérarchie de dossiers). Pour vous assurer que tous les dossiers enfants d’un dossier particulier héritent d’autorisations identiques, accordez les autorisations au dossier parent.
 
 >[!NOTE]
 >
@@ -75,9 +73,9 @@ Si vous n’accordez pas spécifiquement l’autorisation à un groupe à une re
 
 >[!NOTE]
 >
->les droits d’accès sont établis lorsque vous sélectionnez une zone de texte. Lorsque vous accordez des droits sur un dossier, ses sous-dossiers ainsi que tous les fichiers qu’il contient obtiennent les mêmes droits que le dossier parent. Toutefois, vous pouvez définir des droits différents pour des sous-dossiers et des fichiers individuels.
+>les droits d’accès sont établis lorsque vous sélectionnez une zone de texte. Lorsque vous attribuez des droits à un dossier, ses sous-dossiers et tous les fichiers qu’il contient se voient attribuer les mêmes droits que le dossier parent. Toutefois, vous pouvez définir des droits différents pour des sous-dossiers et des fichiers individuels.
 
-## Choix des autorisations d’accès de paramètres d’image prédéfinis pour un groupe {#choosing-image-preset-access-permissions-for-a-group}
+## Choix des autorisations d’accès de paramètres d’image prédéfinis pour un groupe
 
 Choisissez les autorisations d’accès de paramètres d’image prédéfinis si vous souhaitez indiquer quels paramètres d’image prédéfinis sont disponibles pour les membres du groupes lorsqu’ils exportent des fichiers avec le portail multimédia.
 

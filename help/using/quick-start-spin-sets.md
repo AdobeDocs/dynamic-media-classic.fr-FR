@@ -1,21 +1,19 @@
 ---
 title: "Démarrage rapide : Visionneuses à 360°"
 description: Présentation et démarrage rapide de la visionneuse à 360° pour vous aider à démarrer rapidement dans Adobe Dynamic Media Classic.
-uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
-discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 21%
+source-wordcount: '801'
+ht-degree: 25%
 
 ---
 
@@ -43,7 +41,7 @@ Ce didacticiel de mise en route pour visionneuses à 360° est conçu pour vous 
 
 ## 1. Créer et télécharger les images
 
-Au minimum, vous avez besoin de 8 à 12 prises de vue d’un élément pour une visionneuse à 360° unidimensionnelle et de 16 à 24 prises de vue d’une visionneuse à 360° bidimensionnelle. Les prises de vue doivent être réalisées à intervalles réguliers pour donner l’impression que l’objet est en rotation et retourné. Par exemple, si une visionneuse à 30° (360/12) unidimensionnelle comprend 12 prises, faites pivoter l’élément pour chaque prise.
+Au minimum, vous avez besoin de 8 à 12 prises de vue d’un élément pour pouvoir utiliser une visionneuse à 360° unidimensionnelle et de 16 à 24 prises de vue pour pouvoir utiliser une visionneuse à 360° bidimensionnelle. Les prises de vue doivent être réalisées à intervalles réguliers pour donner l’impression que l’objet est en rotation et retourné. Par exemple, si une visionneuse à 30° (360/12) unidimensionnelle comprend 12 prises, faites pivoter l’élément pour chaque prise.
 
 Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger des images à 360° depuis votre ordinateur ou votre réseau vers Adobe Dynamic Media Classic.
 
@@ -65,7 +63,7 @@ Voir [Modification d’une visionneuse à 360°](creating-spin-set.md#editing-a-
 
 Les administrateurs peuvent créer des paramètres prédéfinis de visionneuse à 360°. Ces paramètres définissent son aspect. Pour configurer un nouveau paramètre prédéfini de visionneuse à 360°, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 
-Sur la page Paramètres visionneuse, sélectionnez **[!UICONTROL Ajouter]**, puis sélectionnez **[!UICONTROL Visionneuse à 360°]** dans la liste déroulante, puis sélectionnez **[!UICONTROL Ajouter]**. Sélectionnez des options dans la page Configurer la visionneuse, puis cliquez sur **[!UICONTROL Enregistrer]**.
+Sur la page Paramètres visionneuse, sélectionnez **[!UICONTROL Ajouter]**, puis sélectionnez **[!UICONTROL Visionneuse à 360°]** dans la liste déroulante, puis sélectionnez **[!UICONTROL Ajouter]**. Choisissez les options de la `Configure Viewer` page, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
 Voir [Configuration de paramètres prédéfinis de visionneuse à 360°](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
@@ -79,7 +77,7 @@ Voir [Aperçu d’une visionneuse à 360°](previewing-spin-set.md#previewing-a-
 
 La publication d’une visionneuse à 360° la place sur les serveurs Adobe Dynamic Media Classic afin qu’elle puisse être diffusée dynamiquement sur votre site web ou dans votre application. Elle active également la chaîne URL qui appelle la visionneuse à 360° depuis les serveurs Dynamic Media Image vers votre site web ou votre application.
 
-Pour publier une visionneuse à 360°, marquez-la pour publication en sélectionnant le **[!UICONTROL Marquer pour publication]** en regard de son nom dans le panneau de navigation. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]** pour lancer une publication. Dans l’écran Publier, sélectionnez **[!UICONTROL Envoyer la publication]**.
+Pour publier une visionneuse à 360°, marquez-la pour publication en sélectionnant le **[!UICONTROL Marquer pour publication]** en regard de son nom dans le panneau de navigation. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]** pour lancer une publication. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
 Voir [Publication d’une visionneuse à 360°](publishing-spin-set.md#publishing-a-spin-set).
 

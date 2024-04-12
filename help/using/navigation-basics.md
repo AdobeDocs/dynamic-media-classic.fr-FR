@@ -1,20 +1,18 @@
 ---
 title: Navigation - Notions élémentaires
 description: Découvrez comment naviguer dans l’interface utilisateur d’Adobe Dynamic Media Classic.
-uuid: ee143695-e42d-479d-b907-fe61ef6cfc0f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 feature: Dynamic Media Classic
 role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '656'
 ht-degree: 16%
 
 ---
@@ -33,11 +31,11 @@ La barre de navigation globale, située dans la partie supérieure de l’écran
 
 * **[!UICONTROL Sélectionner une entreprise]** - Sélectionnez la société à laquelle vous souhaitez accéder dans le menu. Ce bouton n’est pas disponible si vous travaillez avec une seule société.
 
-* **[!UICONTROL Télécharger]** - Ouvre l’écran Télécharger afin que vous puissiez charger des fichiers depuis votre ordinateur ou votre réseau vers Adobe Dynamic Media Classic. Vous pouvez télécharger des fichiers à partir du bureau ou par FTP (File Transfer Protocol). Voir [Chargement de fichiers](/help/using/uploading-files.md).
+* **[!UICONTROL Télécharger]** - Ouvre l’écran Télécharger afin que vous puissiez charger des fichiers depuis votre ordinateur ou votre réseau vers Adobe Dynamic Media Classic. Vous pouvez télécharger des fichiers à partir de votre bureau ou par FTP. Voir [Chargement de fichiers](/help/using/uploading-files.md).
 
 * **[!UICONTROL Build]** - Sélectionnez une tâche de création dans le menu. Le panneau de création qui s’ouvre vous permet de créer un type de fichier.
 
-* **[!UICONTROL Publier]** - Ouvre l’écran de publication afin que vous puissiez publier des ressources multimédias enrichies sur les serveurs d’images Dynamic Media et le reste de l’infrastructure SAAS Adobe Dynamic Media Classic.
+* **[!UICONTROL Publier]** - Ouvre l’écran Publication afin que vous puissiez publier des ressources multimédias enrichies sur les serveurs d’images Dynamic Media et le reste de l’infrastructure SAAS Adobe Dynamic Media Classic.
 
 * **[!UICONTROL Tâches]** - Ouvre l’écran Tâches afin que vous puissiez examiner les enregistrements des tâches de téléchargement et de publication.
 
@@ -59,7 +57,7 @@ La barre de navigation globale, située dans la partie supérieure de l’écran
 
 Utilisez la bibliothèque de fichiers pour organiser vos fichiers. A cette fin, vous pouvez créer des dossiers et des sous-dossiers.
 
-La partie supérieure du panneau Bibliothèque de ressources contient des commandes permettant de localiser les ressources. Vous pouvez rechercher des fichiers et appliquer des filtres visant à localiser des fichiers précis. Sélectionnez la variable **[!UICONTROL Corbeille]** au bas de la bibliothèque de ressources si vous souhaitez examiner les ressources que vous avez supprimées.
+La partie supérieure du panneau Bibliothèque de ressources contient des commandes permettant de localiser les ressources. Vous pouvez rechercher des fichiers et appliquer des filtres visant à localiser des fichiers précis. Pour examiner les ressources que vous avez supprimées, sélectionnez l’option **[!UICONTROL Corbeille]** au bas de la bibliothèque de ressources.
 
 >[!NOTE]
 >

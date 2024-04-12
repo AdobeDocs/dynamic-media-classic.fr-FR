@@ -1,21 +1,19 @@
 ---
 title: Utilisation de PDF
 description: Découvrez comment utiliser des PDF dans Adobe Dynamic Media Classic.
-uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 36%
+source-wordcount: '723'
+ht-degree: 29%
 
 ---
 
@@ -33,7 +31,7 @@ Voir aussi [Limites de Dynamic Media](/help/using/limitations.md).
 
 ## Options de téléchargement des fichiers PDF {#pdf-upload-options}
 
-Lorsque vous téléchargez un fichier PDF, vous pouvez le formater de différentes manières. Vous pouvez recadrer les pages, extraire des mots de recherche, spécifier une résolution en pixels par pouce et choisir un espace colorimétrique. Les fichiers PDF contiennent souvent une marge de rognage, des traits de coupe, des repères de montage et autres repères d’impression. Vous pouvez éliminer ces marques sur les côtés des pages lorsque vous téléchargez un fichier PDF.
+Lorsque vous téléchargez un fichier PDF, vous pouvez le formater de différentes manières. Vous pouvez recadrer les pages, extraire des mots de recherche, spécifier une résolution en pixels par pouce et choisir un espace colorimétrique. Les fichiers de PDF contiennent souvent une marge de rognage, des marques de recadrage, des marques d’enregistrement et d’autres marques d’imprimante. Vous pouvez éliminer ces marques sur les côtés des pages lorsque vous téléchargez un fichier PDF.
 
 Les options de téléchargement de fichiers de PDF sont disponibles sur la page Télécharger sous les options du PDF.
 
@@ -51,7 +49,7 @@ Les options de téléchargement de fichiers de PDF sont disponibles sur la page 
 
 Détermine le paramètre de résolution, qui définit le nombre de pixels affichés par pouce dans le fichier PDF. La valeur par défaut est de 150.
 
-### Espace colorimétrique options
+### Options d’espace colorimétrique
 
 Dans le menu Espace colorimétrique, choisissez un espace pour le fichier PDF. La plupart des fichiers PDF contiennent des images en couleurs RVB et CMJN. L’espace colorimétrique RVB est préférable pour un affichage à l’écran.
 
@@ -65,11 +63,11 @@ Dans le menu Espace colorimétrique, choisissez un espace pour le fichier PDF. 
 
 ### Options Profil de couleurs
 
-* **[!UICONTROL Convertir en sRVB]** - Convertit en sRVB (Standard Red Green Blue). sRVB est l’espace colorimétrique recommandé pour l’affichage d’images sur les pages Web.
+* **[!UICONTROL Convertir en sRVB]** - Convertit en sRVB (Standard Red Green Blue). sRVB est l’espace colorimétrique recommandé pour l’affichage des images sur une page web.
 
 * **[!UICONTROL Conserver l’espace colorimétrique original]** - Conserve l’espace colorimétrique d’origine.
 
-* **[!UICONTROL Personnalisé à partir de]** > **[!UICONTROL À]** - Ouvre les menus pour vous permettre de choisir un espace colorimétrique Convertir à partir de et Convertir en . Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez chargé dans Adobe Dynamic Media Classic.
+* **[!UICONTROL Personnalisé depuis]** > **[!UICONTROL À]** - Ouvre les menus pour vous permettre de choisir un espace colorimétrique Convertir à partir de et Convertir en . Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez chargé dans Adobe Dynamic Media Classic.
 
 (voir aussi [Profils ICC](/help/using/icc-profiles.md#icc_profiles)).
 
@@ -88,11 +86,11 @@ Dans le menu Espace colorimétrique, choisissez un espace pour le fichier PDF. 
 
    * **[!UICONTROL Rognage en fonction de la couleur]** - Indiquez 0 pour rogner les pixels uniquement s’ils correspondent exactement à la couleur sélectionnée dans le coin du PDF. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs.
 
-   * **[!UICONTROL Rognage en fonction de la transparence]** - Indiquez 0 pour rogner les pixels uniquement s’ils sont transparents ; Les valeurs plus proches de 1 permettent une plus grande transparence.
+   * **[!UICONTROL Rognage en fonction de la transparence]** - Indiquez 0 pour rogner les pixels seulement s’ils sont transparents ; les nombres plus proches de 1 permettent une plus grande transparence.
 
 ## Recadrage à partir des côtés des pages de PDF {#cropping-from-the-sides-of-pdf-pages}
 
-Vous pouvez supprimer manuellement les repères d’impression sur les côtés des pages d’un fichier PDF au moment du téléchargement.
+Vous pouvez supprimer manuellement les repères d’impression des côtés des pages d’un fichier de PDF au fur et à mesure de son chargement.
 
 1. Dans le menu Recadrer, sélectionnez **[!UICONTROL Manuel]**.
 1. Entrez les valeurs en pixels dans les zones de texte pour les bords supérieur, droit, inférieur et gauche de manière à recadrer à partir du haut, du bas et des côtés des pages.

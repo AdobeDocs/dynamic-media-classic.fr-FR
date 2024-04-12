@@ -1,41 +1,39 @@
 ---
-title: "Démarrage rapide : Intégration d’Adobe Target Standard/Premium"
+title: "Démarrage rapide : intégration Adobe Target Standard/Premium"
 description: Présentation et démarrage rapide d’Adobe Target Standard/Premium pour vous aider à maîtriser rapidement les techniques d’intégration d’Adobe Target Standard/Premium dans Adobe Dynamic Media Classic.
-uuid: d8f79fbf-8be1-44fa-8058-3508060fcd70
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
-discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 4745ace5-7825-468e-8a82-bfbbcf1b0440
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 7%
+source-wordcount: '511'
+ht-degree: 8%
 
 ---
 
-# Démarrage rapide : Intégration d’Adobe Target Standard/Premium{#quick-start-target-integration}
+# Démarrage rapide : intégration Adobe Target Standard/Premium{#quick-start-target-integration}
 
 Adobe Target Standard/Premium offre un contrôle direct entre les mains des marketeurs pour exécuter rapidement et continuellement plusieurs tests A/B et multivariés, mesurer l’efficacité et accroître la pertinence du contenu en ligne par le biais de la segmentation, du ciblage et d’Automated Personalization.
 
 Adobe Dynamic Media Classic vous permet de créer des offres et des ensembles d’offres pour les campagnes Adobe Target Standard/Premium. Par exemple, vous pouvez créer un ensemble d’offres avec trois variantes d’une même ressource de média enrichi. Vous pouvez ensuite demander à Adobe Target Standard/Premium de déterminer quelle ressource offre un meilleur effet élévateur de conversion. Vous pouvez créer des offres et des visionneuses d’offres à partir d’un modèle de base ou d’images individuelles. Une fois que la visionneuse d’offres a été envoyée ou enregistrée dans Adobe Target Standard/Premium, où les offres sont associées à des mbox et à des expériences, Adobe Target Standard/Premium peut exécuter des campagnes. Ces campagnes déterminent la variante d’un site web qui sera la plus performante pour les clics publicitaires et les conversions.
 
-Pour une plus grande personnalisation du contenu Adobe Dynamic Media Classic dynamique, utilisez les offres de HTML Adobe Target Standard/Premium . Voir [Documentation du produit Adobe Target Standard/Premium](https://experienceleague.adobe.com/docs/target.html) pour plus d’informations.
+Pour une plus grande personnalisation du contenu Adobe Dynamic Media Classic dynamique, utilisez les offres de HTML Adobe Target Standard/Premium . Voir [Documentation du produit Adobe Target Standard/Premium](https://experienceleague.adobe.com/en/docs/target) pour plus d’informations.
 
 >[!NOTE]
 >
 >Un compte Adobe Target Standard/Premium valide est requis pour utiliser Adobe Target Standard/Premium avec Adobe Dynamic Media Classic.
 
-Ce didacticiel de mise en route est conçu pour vous aider à maîtriser rapidement les opérations liées aux ensembles d’offres de HTML Adobe Target Standard/Premium. Suivez les étapes 1 à 3. Après chaque étape, il existe une référence croisée à un en-tête de rubrique où vous trouverez plus d’informations.
+Ce didacticiel de mise en route est conçu pour vous aider à maîtriser rapidement les opérations liées aux ensembles d’offres de HTML Adobe Target Standard/Premium. Suivez les étapes 1 à 3. Après chaque étape, il existe une référence croisée à un en-tête de rubrique dans lequel vous trouverez plus d’informations.
 
 ## 1. Saisissez votre URL Adobe Target Standard/Premium dans la page Paramètres généraux de l’application.
 
-Adobe Dynamic Media Classic a besoin de votre URL Adobe Target Standard/Premium pour s’intégrer à Adobe Target Standard/Premium. Copiez la partie de votre URL Adobe Target Standard/Premium jusqu’à et incluez `.com`, puis saisissez-la dans Adobe Dynamic Media Classic. **[!UICONTROL Paramètres généraux de l’application]** , dans la **[!UICONTROL Serveurs]** groupe, **[!UICONTROL Nom du serveur Test&amp;Target]** Champ de texte. Voir [Intégration d’Adobe Dynamic Media Classic à Adobe Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
+Adobe Dynamic Media Classic a besoin de votre URL Adobe Target Standard/Premium pour s’intégrer à Adobe Target Standard/Premium. Copiez la partie de votre URL Adobe Target Standard/Premium jusqu’à et incluez `.com`, puis saisissez-la dans Adobe Dynamic Media Classic. **[!UICONTROL Paramètres généraux de l’application]** , dans la variable **[!UICONTROL Serveurs]** groupe, **[!UICONTROL Nom du serveur Test&amp;Target]** Champ de texte. Voir [Intégration d’Adobe Dynamic Media Classic à Adobe Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
 
 ## 2. Créez la visionneuse d’offres
 
@@ -47,7 +45,7 @@ Pour créer une offre avec des images, faites glisser les images sur la page de 
 
 Enregistrez la visionneuse d’offres après l’avoir créée.
 
-Voir [Créer un ensemble d’offres](creating-offer-set.md#creating_an_offer_set).
+Voir [Création d’un jeu d’offres](creating-offer-set.md#creating_an_offer_set).
 
 ## 3. Envoyez la visionneuse d’offres à Adobe Target Standard/Premium.
 

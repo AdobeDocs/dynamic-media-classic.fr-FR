@@ -10,7 +10,7 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 45%
@@ -23,7 +23,7 @@ L’optimisation de la qualité des images peut prendre beaucoup de temps. De no
 
 Adobe Dynamic Media Classic comprend plus de 100 commandes de service d’images pour l’optimisation et le réglage des images et des résultats de rendu. Les conseils suivants vous aideront à simplifier le processus et à obtenir rapidement de bons résultats en utilisant quelques commandes essentielles et en appliquant les pratiques recommandées.
 
-Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
+Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 >[!TIP]
 >
@@ -34,7 +34,7 @@ Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/docs/experien
 >* Bande passante réseau
 >* RGPD (rapport des pixels de l’appareil)
 >
->Pour savoir à quel point il est facile d’utiliser Snapshot, lisez la [Vidéo de formation instantanée](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minutes et 17 secondes).
+>Pour savoir à quel point il est facile d’utiliser Snapshot, lisez la [Vidéo de formation instantanée](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutes et 17 secondes).
 
 
 ## Recommandations relatives au format d’image (&amp;fmt=) {#best-practices-for-image-format-fmt}

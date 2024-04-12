@@ -1,21 +1,19 @@
 ---
 title: Configuration personnelle
 description: Tous les utilisateurs peuvent modifier les paramètres de l’écran Configuration personnelle d’Adobe Dynamic Media Classic.
-uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 25%
+source-wordcount: '827'
+ht-degree: 23%
 
 ---
 
@@ -25,7 +23,7 @@ Tous les utilisateurs peuvent modifier les paramètres de l’écran Configurati
 
 >[!NOTE]
 >
->L’écran Configuration personnelle répertorie le rôle utilisateur que vous avez dans Adobe Dynamic Media Classic : Administrateur d’entreprise, administrateur ou utilisateur.
+>L’écran Configuration personnelle répertorie le rôle utilisateur que vous avez dans Adobe Dynamic Media Classic : Administrateur d’entreprise, Administrateur ou Utilisateur.
 
 Les paramètres de l’écran Configuration personnelle contrôlent le comportement par défaut du panneau de navigation, le mode de réception des e-mails et la configuration des mots de passe. N’oubliez pas de sélectionner **[!UICONTROL Enregistrer]** après avoir modifié ces paramètres.
 
@@ -40,15 +38,15 @@ Identifie le nom de compte, le nom, le nom d’utilisateur (adresse électroniqu
 
 Outre l’effacement de l’image et du cache des ressources à l’aide de l’appli de bureau, vous pouvez effacer manuellement le cache directement à partir du système de fichiers. Selon votre système d’exploitation, accédez aux éléments suivants :
 
-* macOS : `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
-* Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+* MACOS : `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
+* Windows® : `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Creative Suite Extension
 
 **Pour installer l’extension Adobe Dynamic Media Creative Suite :**
 
 1. Dans Adobe Dynamic Media Classic, dans la barre d’outils, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration personnelle]**, sous Extension du Creative Suite, sélectionnez **[!UICONTROL Télécharger maintenant]** pour télécharger le `s7csxs.zxp` fichier .
-1. Sélectionnez la **[!UICONTROL Installation]** et **[!UICONTROL Configuration requise]** liens pour plus d’informations sur l’extension.
+1. Sélectionnez la variable **[!UICONTROL Installation]** et **[!UICONTROL Configuration requise]** liens pour plus d’informations sur l’extension.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
 
@@ -66,9 +64,9 @@ Outre l’effacement de l’image et du cache des ressources à l’aide de l’
 
 |If you are running|Do this|
 |--- |--- |
-|Adobe Illustrator 18 in Adobe Creative Cloud 2014|<ul><li>From the root of the unzipped folder, select CC-2014 > mac64.</li><li>Select libraries > flame, and then copy the `aflame.framework` folder to Adobe Illustrator package contents folder. For example, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (To open Adobe Illustrator’s package contents folder, right-select on the Adobe illustrator CC 2014 icon and select Show Package Contents from context menu).</li><li>Return to the same libraries folder, select `flamingo`, and then copy the `aflamingo.framework` folder to the same Adobe Illustrator package contents folder that you used in the previous step.</li><li>Return to the mac64 folder that you selected in step 1, and then copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
-|Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, select CC > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
-|Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, select 6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul>|
+|Adobe Illustrator 18 in Adobe Creative Cloud 2014|<ul><li>From the root of the unzipped folder, select CC-2014 > mac64.</li><li>Select libraries > flame, and then copy the `aflame.framework` folder to Adobe Illustrator package contents folder. For example, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (To open Adobe Illustrator's package contents folder, right-select on the Adobe illustrator CC 2014 icon and select Show Package Contents from context menu).</li><li>Return to the same libraries folder, select `flamingo`, and then copy the `aflamingo.framework` folder to the same Adobe Illustrator package contents folder that you used in the previous step.</li><li>Return to the mac64 folder that you selected in step 1, and then copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
+|Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, select CC > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
+|Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, select 6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul>|
 
 The plug-in is now available for you to use in Adobe Illustrator. -->
 
@@ -80,7 +78,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL Emplacement de navigation par défaut]** - Permet de définir l’emplacement de navigation sur la valeur par défaut, le dernier dossier parcouru ou sur un emplacement spécifique vers lequel vous accédez et que vous identifiez. Vous pouvez également définir l’emplacement de navigation pour trier les fichiers et les dossiers dans l’ordre ascendant ou descendant.
 * **[!UICONTROL Mode Parcourir par défaut]** : détermine si le mode Affichage de la grille ou Affichage de la liste est le mode par défaut qui s’affiche lorsque vous ouvrez le panneau Parcourir pour la première fois.
 * **[!UICONTROL Affichage de l’écran de démarrage]** - Détermine si vous voyez des écrans de démarrage, y compris l’écran de bienvenue.
-* **[!UICONTROL Afficher les info-bulles]** - Détermine si les info-bulles s’affichent lorsque vous placez le pointeur sur des boutons, des menus et des liens de navigation. Les info-bulles décrivent les éléments de l’interface utilisateur à l’écran.
+* **[!UICONTROL Afficher les info-bulles]** - Détermine si les info-bulles apparaissent lorsque vous placez le pointeur sur des boutons, des menus et des liens de navigation. Les info-bulles décrivent les éléments de l’interface utilisateur à l’écran.
 * **[!UICONTROL Arrière-plan du tableau de bord]** : affiche un calque de damier derrière les images, ce qui vous permet de voir facilement les zones transparentes d’une image comportant un canal alpha.
 * **[!UICONTROL Afficher la taille du fichier]** : affiche la taille de fichier d’une ressource lorsque vous la parcourez.
 * **[!UICONTROL Inclure les champs définis par les utilisateurs dans la recherche]** - Pour améliorer les performances système de la plupart des recherches de métadonnées que vous exécutez, désélectionnez (par défaut).
@@ -92,7 +90,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
   Voir aussi [Champs définis par l’utilisateur](application-setup.md#user_defined_fields).
 
 * **[!UICONTROL Type de recherche de base]** - Vous pouvez effectuer une sélection parmi deux options : **[!UICONTROL Contient]** recherche la valeur spécifiée dans la chaîne complète ; **[!UICONTROL StartsWith]** recherche à partir du début de la chaîne et renvoie les résultats plus rapidement que **[!UICONTROL Contient]**. L’une des options remplace la valeur par défaut définie dans **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux de l’application]** par l’administrateur.
-* **[!UICONTROL Afficher les commentaires de commande]** - Sélectionnez cette option pour activer l’affichage des requêtes de commande sur le serveur. désélectionnez cette option pour la désactiver.
+* **[!UICONTROL Afficher les commentaires de commande]** - Sélectionnez cette option pour activer l’affichage des requêtes de commande sur le serveur. Désélectionnez cette option pour la désactiver.
 * **[!UICONTROL Afficher la boîte de dialogue pendant l’exportation]** - Sélectionnez cette option pour afficher une boîte de dialogue contextuelle lors d’une exportation. Si vous désélectionnez (désactivez) cette option, vous pouvez toujours accéder à la page Tâches pour récupérer les résultats de votre exportation.
 
 ## E-mail
@@ -115,4 +113,4 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
    * Contient au moins un nombre.
    * contenir au moins l’un des caractères spéciaux suivants : `# $ & - _ : { }`
 * **[!UICONTROL Renommer le mot de passe]** - Saisissez à nouveau le nouveau mot de passe pour confirmer que vous le saisissez correctement.
-* **[!UICONTROL Expiration du mot de passe]** - Détermine si votre mot de passe expire après 72 jours en tant que mesure de sécurité. Si vous sélectionnez Oui, vous serez invité à créer un nouveau mot de passe passé ce délai.
+* **[!UICONTROL Expiration du mot de passe]** - Détermine si votre mot de passe expire après 72 jours en tant que mesure de sécurité. Si vous avez sélectionné Oui, vous êtes invité à créer un mot de passe au bout de 72 jours.

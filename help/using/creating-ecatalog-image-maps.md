@@ -1,21 +1,19 @@
 ---
 title: Création de zones cliquables de catalogue électronique
 description: Découvrez comment créer des zones cliquables de catalogue électronique dans Adobe Dynamic Media Classic.
-uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 40%
+source-wordcount: '1491'
+ht-degree: 36%
 
 ---
 
@@ -27,12 +25,12 @@ Une zone cliquable est une zone d’une page de catalogue électronique que vous
 
 Vous dessinez les zones cliquables des catalogues sur l’onglet Pages de zones de l’écran Catalogue électronique. Cet écran contient une section Zone cliquable dans laquelle les pages du catalogue électronique sont affichées, ainsi qu’une liste des zones cliquables, à droite. Au fur et à mesure que vous tracez les zones cliquables, leur nom est ajouté à cette liste.
 
-1. Sélectionnez le survol du catalogue électronique. **[!UICONTROL Modifier]** bouton .
+1. Sélectionner le survol du catalogue électronique **[!UICONTROL Modifier]** bouton .
 1. Sélectionner **[!UICONTROL Pages de mappage]**.
 1. Sur le côté gauche de l’écran Pages de zones, sélectionnez la page souhaitée.
 1. Dans la section Zone cliquable, tracez une zone rectangulaire ou polygonale (à plusieurs côtés) :
 
-   * **Carte rectangulaire** - Sélectionnez l’outil de zone cliquable Rectangle et faites glisser sur la page pour créer le rectangle.
+   * **Mappage rectangulaire** - Sélectionnez l’outil de zone cliquable Rectangle et faites glisser sur la page pour créer le rectangle.
 
    * **map polygonal** - Sélectionnez l’outil Zone cliquable polygonal, puis sélectionnez autant de fois que nécessaire autour du périmètre de l’image. Lorsque vous sélectionnez cette option, Adobe Dynamic Media Classic trace les bordures de la zone cliquable.
 
@@ -53,15 +51,15 @@ Voir [Utiliser un modèle pour saisir du code JavaScript et des URL](creating-im
 1. Sélectionner **[!UICONTROL Enregistrer]**.
 1. (Facultatif) Sélectionnez **[!UICONTROL Aperçu]** pour afficher le catalogue électronique avec le paramètre prédéfini de visionneuse de catalogue électronique par défaut.
 
-Pour supprimer une zone cliquable, sélectionnez son nom dans la liste Zone cliquable, puis sélectionnez **[!UICONTROL Supprimer]**. Pour désactiver temporairement une zone cliquable sur une page sans supprimer la zone cliquable, désélectionnez l’option Oui de la zone cliquable dans le panneau de la liste des zones cliquables.
+Pour supprimer une zone cliquable, sélectionnez son nom dans la liste Zone cliquable, puis sélectionnez **[!UICONTROL Supprimer]**. Pour désactiver temporairement une zone cliquable sur une page sans supprimer la zone cliquable, désélectionnez l’option Activé de la zone cliquable dans le panneau Liste des zones cliquables .
 
 ## Incorporation de médias riches dans un catalogue électronique {#embedding-rich-media-in-an-ecatalog}
 
-Vous pouvez utiliser l’option Média enrichis du catalogue électronique pour ajouter des vidéos de format MP4 ou des visionneuses à 360° aux zones cliquables que vous avez ajoutées dans un catalogue électronique. Lorsqu’un utilisateur sélectionne la zone cliquable dans le catalogue électronique, la visionneuse à 360° ou la vidéo associée s’affiche. Cette fonctionnalité est particulièrement utile si vous souhaitez que les clients puissent voir un élément en cours d’utilisation ou le voir sous d’autres angles et perspectives.
+Vous pouvez utiliser l’option Média enrichi du catalogue électronique pour ajouter des vidéos au format MP4 ou des visionneuses à 360° aux zones cliquables que vous avez ajoutées à un catalogue électronique. Lorsqu’un utilisateur sélectionne la zone cliquable dans le catalogue électronique, la visionneuse à 360° ou la vidéo associée s’affiche. Cette fonctionnalité est particulièrement utile si vous souhaitez que les clients puissent voir un élément en cours d’utilisation ou le voir sous d’autres angles et perspectives.
 
 Vous pouvez également, si vous le souhaitez, afficher du texte d’info-bulle lorsque les clients déplacent leur pointeur sur votre zone cliquable afin de savoir ce qu’ils sélectionnent.
 
-**Intégration de médias enrichis dans un catalogue électronique:**
+**Pour incorporer des médias riches dans un catalogue électronique :**
 
 1. Tracez une zone cliquable dans un catalogue électronique.
 
@@ -114,7 +112,7 @@ Pour afficher l’écran Résumé des cartes, dans l’onglet Pages de carte de 
    L’écran Résumé de zone cliquable indique le nombre de zones cliquables, d’URL, de descriptions de texte de survol et autres actions définies dans votre catalogue électronique.
 
 1. En cas d’erreur lors du survol, sélectionnez l’erreur dans la variable **[!UICONTROL Erreur Rollover_Key]** pour voir ce qui doit changer dans votre feuille de calcul pour corriger l’erreur. Vous pouvez sélectionner et copier le texte contenu dans ce message et le coller dans la feuille de calcul.
-1. Sélectionner **[!UICONTROL Aperçu]** vous pouvez ainsi examiner une page dans la visionneuse de catalogue électronique ; sélectionnez le X pour fermer l’écran Résumé et revenir à l’écran Pages de mappage , ou sélectionnez **[!UICONTROL Fermer]** pour revenir à Parcourir.
+1. Sélectionner **[!UICONTROL Aperçu]** vous pouvez ainsi examiner une page dans la visionneuse de catalogue électronique. Sélectionnez le X pour fermer l’écran Résumé et revenir à l’écran Pages de mappage, ou sélectionnez **[!UICONTROL Fermer]** pour revenir à Parcourir.
 
 ### Importation des données de zone cliquable {#import-image-map-data}
 

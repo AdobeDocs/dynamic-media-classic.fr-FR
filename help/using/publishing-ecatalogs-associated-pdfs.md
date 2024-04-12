@@ -10,10 +10,10 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -33,7 +33,7 @@ La publication place votre catalogue électronique et votre PDF sur les serveurs
 
    Si vous configurez vos catalogues électroniques de manière à permettre aux utilisateurs d’effectuer des recherches par mot-clé, assurez-vous que les mots-clés sont publiés. Dans la boîte de dialogue Publication, sélectionnez **[!UICONTROL Avancé]**. Dans la **[!UICONTROL Publier]** menu déroulant, sélectionnez **[!UICONTROL Complet avec données de recherche]**. Cette option est sélectionnée par défaut.
 
-1. Cliquez sur **[!UICONTROL Lancer public.]**
+1. Sélectionner **[!UICONTROL Envoyer la publication]**.
 
 >[!MORELIKETHIS]
 >
