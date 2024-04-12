@@ -1,21 +1,19 @@
 ---
 title: Profils ICC (International Color Consortium)
 description: Découvrez les profils ICC dans Adobe Dynamic Media Classic.
-uuid: 708ff2ad-9a47-4e3e-b643-5b19648f726b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
-discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 feature: Dynamic Media Classic
 role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 54%
+ht-degree: 50%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 54%
 
 Un profil ICC (International Color Consortium) est un fichier qui décrit le mode de conversion approprié des fichiers d’images entre deux espaces colorimétriques. Les profils ICC permettent d’obtenir les couleurs appropriées pour vos images. Ainsi, pour afficher correctement les images destinées à l’impression sur un écran d’ordinateur, vous pouvez utiliser un profil ICC. Ce profil convertit l’image dans un espace colorimétrique différent et s’assure que les couleurs s’affichent correctement à l’écran.
 
-Dans Adobe Dynamic Media Classic, vous pouvez choisir un profil ICC pour convertir les images dans un autre espace colorimétrique lorsque vous chargez les images. Tous les profils ICC Photoshop standard sont disponibles par défaut sur Adobe Dynamic Media Classic. Pour afficher le nom des profils colorimétriques sur l’écran de téléchargement, sélectionnez le menu Profil de couleurs. Ensuite, choisissez la commande Personnaliser de > à, puis sélectionnez un nom de profil ICC dans les menus Convertir à partir de et Convertir en 
+Dans Adobe Dynamic Media Classic, vous pouvez choisir un profil ICC pour convertir les images dans un autre espace colorimétrique lorsque vous chargez les images. Tous les profils ICC Photoshop standard sont disponibles par défaut sur Adobe Dynamic Media Classic. Pour afficher le nom des profils colorimétriques sur l’écran de téléchargement, sélectionnez le menu Profil de couleurs. Sélectionnez ensuite Personnaliser de > à, puis choisissez un nom de profil ICC dans les menus Converti de et Converti en .
 
 Voir [Options de modification d’image lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
 
@@ -41,7 +39,7 @@ Pour examiner un profil ICC, sélectionnez-le dans le panneau de navigation et a
 
 * **[!UICONTROL Classe de profil]** - L’ICC (International Color Consortium) définit chaque classe pour couvrir un type d’application. Par exemple, les profils d’entrée s’appliquent aux périphériques tels que les appareils photo numériques et les numériseurs, tandis que les profils de sortie s’appliquent aux imprimantes.
 
-* **[!UICONTROL Type d’espace colorimétrique]** - Ce nombre est l’espace colorimétrique &quot;d’entrée&quot; du profil, tel que défini par l’ICC. Le type d’espace colorimétrique définit le nombre de composantes de l’espace colorimétrique et l’interprétation de ces composantes. Par exemple, RVB est un espace colorimétrique avec trois composantes : le rouge, le vert et le bleu. Le type d’espace colorimétrique ne définit pas les caractéristiques chromatiques particulières de l’espace (par exemple, la chromaticité des couleurs primaires).
+* **[!UICONTROL Type d’espace colorimtrique]** - Ce nombre est l’espace colorimétrique &quot;d’entrée&quot; du profil, tel que défini par l’ICC. Le type d’espace colorimétrique définit le nombre de composantes de l’espace colorimétrique et l’interprétation de ces composantes. Par exemple, RVB est un espace colorimétrique avec trois composantes : le rouge, le vert et le bleu. Le type d’espace colorimétrique ne définit pas les caractéristiques chromatiques particulières de l’espace (par exemple, la chromaticité des couleurs primaires).
 
 * **[!UICONTROL Type PCS]** - Ce type PCS est l’espace colorimétrique &quot;output&quot; du profil, son espace de connexion au profil. Par exemple, un profil colorimétrique peut convertir l’espace RVB en espace PCS, qui peut ensuite le convertir en espace CMJN.
 

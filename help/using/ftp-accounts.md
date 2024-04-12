@@ -1,27 +1,25 @@
 ---
-title: Gestion des comptes FTP
+title: Gestion des comptes FTP
 description: Découvrez comment gérer des comptes FTP dans Adobe Dynamic Media Classic.
-uuid: c9410f44-14bf-4f55-a199-f0f0de459219
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 95c7d403-7206-4158-b8ad-6091b24b5077
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 63%
+ht-degree: 52%
 
 ---
 
-# Gestion des comptes FTP{#managing-ftp-accounts}
+# Gestion des comptes FTP{#managing-ftp-accounts}
 
-Seuls les administrateurs du portail multimédia peuvent administrer et gérer les comptes FTP. En outre, seuls les utilisateurs affectés du rôle de *Contributeur-Utilisateur Media Portal* ou *Contributeur Media Portal* peuvent télécharger des fichiers numériques.
+Seuls les administrateurs du portail multimédia peuvent administrer et gérer les comptes FTP. En outre, seuls les utilisateurs dotés du rôle *Contributeur-Utilisateur du portail multimédia* ou *Contributeur au portail multimédia* peut télécharger des ressources numériques.
 
 Rappelez-vous que vous pouvez activer ou désactiver les utilisateurs existants du portail multimédia dans la page d’administration utilisateur de la configuration de l’administration.
 
@@ -30,7 +28,7 @@ Voir [Activation ou désactivation d’utilisateurs](administration-setup.md#act
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Media Portal]** > **[!UICONTROL Comptes FTP]**.
 1. Sur la page d’ajout de compte FTP, sélectionnez un utilisateur dans la liste déroulante Nom d’utilisateur des comptes FTP.
 
-   Si un utilisateur n’est pas répertorié, vous devez l’ajouter en tant qu’administrateur du portail multimédia, qu’utilisateur du portail multimédia ou qu’utilisateur du portail multimédia via la configuration de l’administration. Après avoir ajouté l’utilisateur avec le rôle approprié, le nom d’utilisateur est disponible dans la liste déroulante.
+   Si un utilisateur n’est pas répertorié, vous devez l’ajouter en tant qu’administrateur du portail multimédia, qu’utilisateur du portail multimédia ou qu’utilisateur du portail multimédia par le biais de la configuration de l’administration. Après avoir ajouté l’utilisateur avec le rôle approprié, le nom d’utilisateur est disponible dans la liste déroulante.
 
    Voir [Ajout d’un utilisateur Media Portal](adding-media-portal-users.md#adding_a_media_portal_user).
 
@@ -41,7 +39,7 @@ Voir [Activation ou désactivation d’utilisateurs](administration-setup.md#act
 
    Voir [Chargement de fichiers](uploading-files.md#uploading_files).
 
-## Suppression d’un compte FTP existant {#deleting-an-existing-ftp-account}
+## Supprimer un compte FTP existant {#deleting-an-existing-ftp-account}
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Media Portal]** > **[!UICONTROL Comptes FTP]**.
 1. Sur la page d’ajout de compte FTP, sélectionnez dans la table des comptes existants le compte FTP à supprimer.

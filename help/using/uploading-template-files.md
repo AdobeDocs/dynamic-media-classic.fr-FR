@@ -1,27 +1,25 @@
 ---
 title: Chargement des fichiers de modèle
 description: Découvrez comment charger des fichiers de modèle dans Adobe Dynamic Media Classic.
-uuid: e19979b5-3f41-49c5-99aa-107ede3be98c
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 topic: Content Management
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 38%
+ht-degree: 32%
 
 ---
 
 # Chargement des fichiers de modèle{#uploading-template-files}
 
-Transférez les fichiers dont vous avez besoin pour votre modèle dans Adobe Dynamic Media Classic avant de commencer à créer le modèle. Vous pouvez créer des modèles à partir d’un fichier Adobe® Photoshop® PSD ou d’un fichier d’image. Les images TIFF et PNG sont recommandées en raison de leur prise en charge de la transparence.
+Transférez les fichiers dont vous avez besoin pour votre modèle dans Adobe Dynamic Media Classic avant de commencer à créer le modèle. Vous pouvez créer des modèles à partir d’un PSD Adobe® Photoshop® ou d’un fichier image. Les images TIFF et PNG sont recommandées en raison de leur prise en charge de la transparence.
 
 >[!NOTE]
 >

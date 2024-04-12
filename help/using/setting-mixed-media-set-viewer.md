@@ -1,27 +1,25 @@
 ---
 title: Configuration d’un paramètre prédéfini de visionneuse de médias mixtes
 description: Découvrez comment configurer un paramètre prédéfini de visionneuse de médias mixtes dans Adobe Dynamic Media Classic.
-uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 40%
+source-wordcount: '614'
+ht-degree: 36%
 
 ---
 
 # Configuration d’un paramètre prédéfini de visionneuse de médias mixtes{#setting-up-a-mixed-media-set-viewer-preset}
 
-Les paramètres prédéfinis de visionneuse de supports variés définissent le style, le comportement et l’aspect de votre visionneuse principale. Lorsque vous configurez un paramètre prédéfini, vous pouvez indiquer les autres visionneuses qui doivent apparaître dans la visionneuse de supports variés. Par exemple, si vous avez inclus une visionneuse d’images dans la visionneuse de supports variés, spécifiez un paramètre prédéfini de visionneuse d’images pour la visionneuse de supports variés.
+Les paramètres prédéfinis de visionneuse de supports variés définissent le style, le comportement et l’aspect de votre visionneuse principale. Lorsque vous configurez un paramètre prédéfini, vous pouvez indiquer les autres visionneuses qui doivent apparaître dans la visionneuse de supports variés. Par exemple, si vous avez inclus une visionneuse d’images dans votre visionneuse de médias mixtes, spécifiez un paramètre prédéfini de visionneuse d’images pour la visionneuse de médias mixtes.
 
 Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la communauté dans la visionneuse de supports variés. La fonctionnalité Incorporation ajoute un lien vers la visionneuse qui permet aux utilisateurs de copier le code requis pour afficher la visionneuse sur une page externe (par exemple, un blog, un site Web ou un site de réseau social). La fonctionnalité Lien fournit l’URL vers la visionneuse permettant aux utilisateurs de revenir à la visionneuse. La fonctionnalité Visite fournit un lien vers le site Web de votre choix.
 

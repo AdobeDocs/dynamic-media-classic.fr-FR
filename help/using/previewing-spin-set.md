@@ -1,18 +1,16 @@
 ---
 title: Aperçu d’une visionneuse à 360°
 description: Découvrez comment prévisualiser une visionneuse à 360° dans Adobe Dynamic Media Classic.
-uuid: 5b9d4c37-a4ec-40c5-8f14-da875d71226e
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
-discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 36%
@@ -33,7 +31,7 @@ Voir [Aperçu d’une ressource](previewing-asset.md#previewing_an_asset).
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient la visionneuse à 360° à prévisualiser.
 1. Effectuez l’une des opérations suivantes :
 
-   * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage de la grille]**. Dans la fenêtre Ressource, sous l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage de la grille]**. Dans la fenêtre Ressource, sous la miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
    * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Mode Liste]**. Dans la fenêtre Ressource , sélectionnez une ressource, puis, à droite de l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
    * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
