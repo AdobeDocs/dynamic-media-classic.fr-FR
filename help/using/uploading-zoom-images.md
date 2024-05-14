@@ -10,10 +10,10 @@ role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 18%
+source-wordcount: '224'
+ht-degree: 16%
 
 ---
 
@@ -29,11 +29,11 @@ Pour obtenir des instructions détaillées sur la mise en ligne d’images, voir
 
 Pour tirer le meilleur parti des fonctions de zoom d’Adobe Dynamic Media Classic, préparez vos fichiers image de zoom avant de les télécharger :
 
-* **Taille de l’image** - Adobe Dynamic Media Classic recommande d’utiliser des fichiers image d’une taille minimale de 2 000 pixels pour la plus grande taille. ce afin d’obtenir des images clairement visibles lors de l’exécution d’un zoom.
+* **Taille de l’image**: Adobe Dynamic Media Classic recommande d’utiliser des fichiers image dont la taille est, au minimum, de 2 000 pixels pour la plus grande taille. ce afin d’obtenir des images clairement visibles lors de l’exécution d’un zoom.
 
-* **Formats de fichier** - Adobe Dynamic Media Classic prend en charge tous les formats de fichier image standard, y compris TIFF, BMP, JPEG, PSD, GIF et EPS. Il est recommandé de privilégier les formats d’image sans perte, à savoir TIFF et PNG. Si vous utilisez une image de JPEG, utilisez les paramètres de qualité supérieure.
+* **Formats de fichier**: Adobe Dynamic Media Classic prend en charge tous les formats de fichier image standard. Les formats incluent TIFF, BMP, JPEG, PSD, GIF et EPS. Les formats d’image sans perte (TIFF et PNG) sont recommandés. Si vous utilisez une image de JPEG, utilisez les paramètres de qualité supérieure.
 
-* **Emplacement des couleurs** - RGB est l’espace colorimétrique des présentations d’images web ; les images CMJN sont automatiquement converties en RGB lorsque vous les chargez. Il est recommandé de télécharger des images CMJN dotées d’un profil de couleurs ICC incorporé pour la conversion en mode RVB Voir aussi Profils ICC.
+* **Emplacement des couleurs**: RGB est l’espace colorimétrique des présentations d’images web ; les images CMJN sont automatiquement converties en RGB lorsque vous les chargez. Il est recommandé de télécharger des images CMJN dotées d’un profil de couleurs ICC incorporé pour la conversion en mode RVB Voir aussi Profils ICC.
 
 >[!MORELIKETHIS]
 >

@@ -10,10 +10,10 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 14%
+source-wordcount: '670'
+ht-degree: 13%
 
 ---
 
@@ -60,7 +60,7 @@ Voir aussi [Inclusion de cibles de zoom et de zones cliquables dans les visionne
 
 Les administrateurs peuvent créer ou modifier les paramètres prédéfinis de la visionneuse d’images. Adobe Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse par défaut pour chaque type de média enrichi. Utilisez la visionneuse de zoom : **[!UICONTROL Personnalisé]** > **[!UICONTROL Images]** ou **[!UICONTROL Visionneuses d’images]**/**[!UICONTROL Vues multiples]** paramètres prédéfinis pour afficher vos visionneuses d’images.
 
-L’ajout et la modification des paramètres prédéfinis de visionneuse s’effectuent à partir de l’écran Configuration de l’application.
+Vous pouvez ajouter ou modifier des paramètres prédéfinis de visionneuse à partir de l’écran Configuration de l’application .
 
 Voir [Création et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -86,6 +86,6 @@ Voir [Publication de fichiers](publishing-files.md#publishing-files).
 
 Adobe Dynamic Media Classic crée des appels URL pour les visionneuses d’images et les active après leur publication. Vous pouvez copier ces chaînes URL depuis l’écran de prévisualisation.
 
-Sélectionnez la visionneuse d’images, puis cliquez sur **[!UICONTROL Aperçu]**. Sélectionnez maintenant un paramètre prédéfini de visionneuse d’images, puis cliquez sur **[!UICONTROL Copier l’URL]**.
+Sélectionnez la visionneuse d’images, puis cliquez sur **[!UICONTROL Aperçu]**. Sélectionnez maintenant un paramètre prédéfini de visionneuse d’images, puis cliquez sur le bouton **[!UICONTROL Copier l’URL]** bouton .
 
-Voir [Liaison d’une visionneuse d’images à une page web](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
+Voir [Lier la visionneuse d’images à une page Web](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).

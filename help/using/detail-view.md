@@ -10,16 +10,16 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '621'
 ht-degree: 20%
 
 ---
 
 # Travail en mode Détails{#working-in-detail-view}
 
-Vous pouvez utiliser et en savoir plus sur une ressource en l’ouvrant dans l’affichage des détails. En mode d’affichage des détails, la taille, les attributs, les dérivés et les métadonnées des ressources s’affichent. Vous pouvez également déterminer si et quand la ressource a été publiée et obtenir l’URL des ressources publiées. En fonction du type de fichier, vous pouvez le prévisualiser selon différentes tailles, effectuer un zoom avant et exécuter une accentuation, un recadrage ou d’autres opérations de mise en forme.
+Vous pouvez utiliser et en savoir plus sur une ressource en l’ouvrant dans l’affichage des détails. En mode d’affichage des détails, la taille, les attributs, les dérivés et les métadonnées des ressources s’affichent. Vous pouvez également déterminer si et quand la ressource a été publiée et si vous pouvez obtenir l’URL des ressources publiées. En fonction du type de fichier, vous pouvez le prévisualiser selon différentes tailles, effectuer un zoom avant et exécuter une accentuation, un recadrage ou d’autres opérations de mise en forme.
 
 <!-- 
 
@@ -40,17 +40,17 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## Ouverture d’une ressource dans l’affichage des détails {#open-an-asset-in-detail-view}
 
-Pour examiner de plus près, prévisualiser ou travailler sur une ressource, vous pouvez l’afficher dans la vue Détails.
+Vous pouvez afficher une ressource dans la vue Détails afin de pouvoir l’examiner de plus près, la prévisualiser ou l’utiliser.
 
 1. Dans le panneau de navigation, effectuez l’une des opérations suivantes :
 
-   * Sélectionnez la ressource. Dans le coin supérieur droit d’Adobe Dynamic Media Classic, sélectionnez la variable **[!UICONTROL Affichage des détails]** icône .
+   * Sélectionnez la ressource. Dans le coin supérieur droit d’Adobe Dynamic Media Classic, sélectionnez la variable **[!UICONTROL Affichage des détails]** Icône
    * Cliquez deux fois sur le fichier.
    * Sélectionnez la ressource, puis accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Détails]**.
 
 >[!NOTE]
 >
->Vous pouvez passer d’une ressource à une autre dans le même dossier en mode d’affichage des détails en sélectionnant **[!UICONTROL Ressource précédente]** ou **[!UICONTROL Ressource suivante]**. Ces boutons se trouvent dans le coin supérieur droit de la vue Détails.
+>Vous pouvez passer d’une ressource à une autre dans le même dossier en mode Affichage des détails. Cliquez simplement sur **[!UICONTROL Ressource précédente]** ou **[!UICONTROL Ressource suivante]**. Ces boutons se trouvent dans le coin supérieur droit de la vue Détails.
 
 ## Obtention d’informations dans la vue Détails {#getting-information-in-detail-view}
 
@@ -62,15 +62,15 @@ Vous pouvez obtenir une URL de ressource en mode Affichage des détails ; toutef
 
 Le mode Affichage des détails propose des outils pour travailler avec la ressource que vous avez ouverte. Les outils disponibles dépendent du type de ressource que vous utilisez, mais l’affichage des détails offre toujours les fonctions suivantes :
 
-* **éléments pour publication** - Sélectionnez la variable **[!UICONTROL `Publish`]** à gauche du nom ou accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Publier]** ou **[!UICONTROL Fichier]** > **[!UICONTROL Dépublier]**.
+* **éléments pour publication**: sélectionnez la variable **[!UICONTROL `Publish`]** à gauche du nom ou accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Publier]** ou **[!UICONTROL Fichier]** > **[!UICONTROL Dépublier]**.
 
-* **Renommer la ressource** - Sélectionnez le nom et saisissez un nouveau nom.
+* **Renommer la ressource**: sélectionnez le nom et saisissez un nouveau nom.
 
-* **Modification et ajout de métadonnées** - Sélectionnez le panneau Métadonnées et modifiez-le selon vos besoins. Voir [Affichage, ajout et exportation de métadonnées](/help/using/viewing-adding-exporting-metadata.md).
+* **Modification et ajout de métadonnées**: sélectionnez le panneau Métadonnées et modifiez-le selon vos besoins. Voir [Affichage, ajout et exportation de métadonnées](/help/using/viewing-adding-exporting-metadata.md).
 
-* **Modifier et ajouter des mots-clés** - Sélectionnez Mots-clés et ajoutez ou supprimez-les selon vos besoins. (voir [Ajout ou modification de mots-clés](/help/using/viewing-adding-exporting-metadata.md)).
+* **Modifier et ajouter des mots-clés**: sélectionnez Mots-clés et ajoutez ou supprimez-les selon vos besoins. (voir [Ajout ou modification de mots-clés](/help/using/viewing-adding-exporting-metadata.md)).
 
-* **Suppression de la ressource** - Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer]**.
+* **Suppression de la ressource**: accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer]**.
 
 Pour les fichiers discrets (images, visionneuses d’images et polices, par exemple), vous pouvez afficher l’historique de publication et de modification, ainsi que vérifier les détails de la tâche, en mode Affichage des détails.
 
@@ -93,7 +93,7 @@ Ce tableau indique quelles autres options sont disponibles avec différents type
 | Fichiers SVG | Non | Non |
 | Modèles | Edition | Oui |
 | Vidéos | Non | Oui |
-| Vignettes et rendus de vignette | Non | L’image s’affiche<br>Vous pouvez visualiser le contenu et la structure des éléments rendables de la vignette au format XML. |
+| Vignettes et rendus de vignette | Non | L’image est affichée.<br>Vous pouvez visualiser le contenu et la structure des éléments rendables de la vignette au format XML. |
 | Fichiers XML | Non | Le contenu est affiché. |
 | Fichiers ZIP | Non | Contenu non affiché |
 

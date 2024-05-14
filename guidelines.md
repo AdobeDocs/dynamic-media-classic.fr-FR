@@ -1,7 +1,7 @@
 ---
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 Adobe sait que les utilisateurs d’Adobe Dynamic Media Classic travaillent dans des environnements très concurrentiels, afin de créer des expériences numériques qui les distinguent de leurs concurrents. Par conséquent, il est essentiel que, lorsque Adobe fournit de nouveaux outils avancés, ces outils soient complétés par une documentation précise et claire. Cela permet au client d’utiliser immédiatement son investissement Adobe Dynamic Media Classic et d’optimiser le retour sur investissement.
 
-L’objectif de cette documentation est de mettre la documentation à jour entre les mains des utilisateurs dès que possible. Par conséquent, Adobe donne la priorité à une documentation précise et utilisable, et s’efforce de la mettre à jour et de l’améliorer continuellement.
+L’objectif de cette documentation est de mettre la documentation à jour entre les mains des utilisateurs dès que possible. Par conséquent, Adobe donne la priorité à une documentation précise et utilisable, et met constamment à jour et l’améliore.
 
 ## Contributions à la documentation
 
@@ -19,21 +19,21 @@ Afin d’améliorer continuellement la documentation, toute la communauté des u
 
 ## Normes de la documentation
 
-Bien qu’Adobe accueille favorablement les contributions à sa documentation, toute contribution à la documentation, sous la forme d’une demande d’extraction ou d’un problème, doit être conforme aux normes de contribution et de documentation d’Adobe.
+Bien qu’Adobe accueille favorablement les contributions à sa documentation, toute contribution à la documentation dans une demande d’extraction ou un problème doit être conforme aux normes de contribution et de documentation d’Adobe.
 
 Les contributions qui ne satisfont pas à ces normes peuvent être rejetées.
 
-### Adobe de documents : cas d’utilisation standard.
+### Les cas d’utilisation standard sont les documents Adobes
 
 La documentation couvre les cas d’utilisation standard. Les cas d’utilisation au-delà de la portée de l’installation et de l’utilisation standard du produit ne font pas partie de la documentation.
 
-### Adobe ne documente généralement pas les bogues ni leurs solutions.
+### Adobe ne documente généralement pas les bogues ni leurs solutions
 
 La documentation couvre les cas d’utilisation standard. Pour cette raison, les bogues, les effets causés par les bogues et les solutions aux bogues ne sont pas documentés.
 
-Les exceptions à cette règle s’appliquent aux notes de mise à jour qui répertorient les problèmes connus ainsi que les solutions possibles qui ont été approuvées par la gestion des produits.
+Les exceptions à cette règle s’appliquent aux notes de mise à jour où les problèmes connus peuvent être répertoriés avec les solutions possibles approuvées par la Gestion des produits.
 
-### Les contributions à la documentation ne sont pas destinées à répondre à des questions techniques.
+### Les contributions à la documentation ne sont pas destinées à répondre aux questions techniques
 
 Toutes les idées susceptibles d’améliorer la documentation sont les bienvenues sous forme de contributions. Toutefois, les commentaires, les problèmes et les demandes d’extraction sont destinés à *contributions* uniquement. Elles ne sont pas destinées à répondre à vos questions sur l’utilisation d’Adobe Dynamic Media Classic, la mise en oeuvre de votre projet ou la résolution de problèmes techniques.
 
@@ -41,11 +41,11 @@ Toute question relative à l’utilisation d’Adobe Dynamic Media Classic ou à
 
 ***Les contributions à la documentation ne remplacent pas l’assistance clientèle Adobe.*** et toute contribution de ce type visant à obtenir des réponses à des questions d’assistance est refusée.
 
-### Les contributions doivent clairement référencer les pages de documentation concernées.
+### Les contributions doivent clairement référencer les pages de documentation concernées
 
 Si vous créez un problème pour suggérer des améliorations à la documentation, vous devez inclure des liens vers les pages concernées. Si vous créez un problème en utilisant la variable **Modifier cette page** sur une page de documentation, le problème est automatiquement créé avec un lien vers la page.
 
-Cela ne s’applique pas aux requêtes d’extraction, car elles font référence aux pages concernées.
+Ce workflow ne s’applique pas aux requêtes d’extraction, car elles font référence aux pages concernées.
 
 ## Instructions relatives à la documentation
 

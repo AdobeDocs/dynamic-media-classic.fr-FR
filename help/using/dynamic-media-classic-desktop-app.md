@@ -10,14 +10,14 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1993'
 ht-degree: 0%
 
 ---
 
-# Maintenant disponible : application de bureau Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
+# Disponible maintenant : application de bureau Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
 
 Les utilisateurs d’Adobe Dynamic Media Classic ont désormais accès à une nouvelle expérience de l’appli de bureau qui ne repose plus sur la technologie de Flash d’Adobe dans le navigateur.
 
@@ -48,17 +48,17 @@ La notification de mise à niveau dans l’application de bureau Adobe Dynamic M
 
 * Lors de la modification d’une image, la variable **[!UICONTROL Enregistrer]** Les boutons n’étaient pas fonctionnels.
 * Dans les éditeurs de jeu, la variable **[!UICONTROL Fermer]**, **[!UICONTROL Enregistrer]**, et **[!UICONTROL Enregistrer sous]** les boutons deviennent désactivés après avoir fait défiler les ressources dans la **[!UICONTROL Ajouter des ressources]** du panneau.
-* **[!UICONTROL Play]** ne fonctionnait pas dans la vue Détails de la vidéo.
+* La variable **[!UICONTROL Play]** ne fonctionnait pas dans la vue Détails de la vidéo.
 * Impossible d’entrer `d` et `e` in **[!UICONTROL Nom d’utilisateur]** et **[!UICONTROL Password]** lors de l’exécution de macOS Monterey.
 * Déplacement des API d’analyse restantes vers la version 2.0.
 
 ## Correctifs de la version 20.21.3 {#release-sept2021}
 
 * Vignettes endommagées pour les ressources affichées après une période d’inactivité sur l’appli de bureau.
-* L’appli de bureau cesse de répondre, généralement après les opérations Set .
+* L’appli de bureau cesse de répondre, généralement après les opérations de définition.
 * Activation automatique de l’obscurcissement et du mode de verrouillage des demandes sous **[!UICONTROL Test de la diffusion d’images]**.
 
-  Voir [Test du service Secure Testing](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+  Voir [Service Secure Testing](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
 
 * Mise à jour du mécanisme d’authentification avec Adobe Analytics. Convient aux nouvelles intégrations ou si certaines variables Analytics doivent être mises à jour dans l’appli de bureau Dynamic Media Classic.
 
@@ -67,7 +67,7 @@ La notification de mise à niveau dans l’application de bureau Adobe Dynamic M
 ## Correctifs de la version 20.21.2 {#minor-release}
 
 * Limites connues en 20.21.1 : la variable **[!UICONTROL Serveur]** La liste déroulante de l’écran de connexion était vide.
-* Dans **[!UICONTROL Télécharger les options de la tâche]**, valeur par défaut du nommage de calque sous **[!UICONTROL Options Photoshop]**, est maintenant **[!UICONTROL Photoshop et nom de calque]**. Les calques du fichier de PSD sont téléchargés en tant qu’images distinctes.
+* Dans **[!UICONTROL Télécharger les options de la tâche]**, la valeur par défaut Nom de calque sous **[!UICONTROL Options Photoshop]**, est maintenant **[!UICONTROL Photoshop et nom de calque]**. Les calques du fichier de PSD sont téléchargés en tant qu’images distinctes.
    * La valeur par défaut précédente de **[!UICONTROL Nom du calque]**, nommé les images en fonction de leur nom de calque ou de leur numéro de calque dans le fichier de PSD. Le numéro de calque a été utilisé si les noms de calque dans le fichier de PSD étaient des noms de calque Photoshop par défaut.
    * La nouvelle valeur par défaut de **[!UICONTROL Photoshop et nom de calque]**, nomme les images après le fichier de PSD suivi du nom du calque ou du numéro du calque. Le numéro de calque est utilisé si les noms de calque dans le fichier de PSD sont des noms de calque Photoshop par défaut.
    * Étant donné que les images de calque dans Adobe Dynamic Media Classic portent désormais des noms uniques, aucune mise à jour du PSD ou des modèles existants ne sera effectuée (ce qui est le cas des noms de calque partagés dans les fichiers de PSD d’origine).
@@ -90,8 +90,8 @@ La notification de mise à niveau dans l’application de bureau Adobe Dynamic M
 
 Voir aussi :
 
-* [Télécharger et installer en mode silencieux la dernière application de bureau Adobe Dynamic Media Classic sur Mac](#install-silent-mac-dmc-app)
-* [Télécharger et installer en mode silencieux la dernière application de bureau Adobe Dynamic Media Classic sous Windows](#install-silent-windows-dmc-app)
+* [Télécharger et installer en arrière-plan la dernière application de bureau Adobe Dynamic Media Classic sur Mac](#install-silent-mac-dmc-app)
+* [Télécharger et installer en arrière-plan la dernière appli de bureau Adobe Dynamic Media Classic sous Windows](#install-silent-windows-dmc-app)
 
 1. Désinstallez toutes les anciennes versions de l’appli de bureau Adobe Dynamic Media Classic de votre système.
 
@@ -145,14 +145,14 @@ Voir aussi :
 
 1. Après vous être connecté, notez l’expérience familière de l’interface utilisateur du navigateur. Vous pouvez continuer votre activité Adobe Dynamic Media Classic quotidienne comme vous le faites habituellement sur l’appli de bureau .
 
-## Téléchargement et *silence* installation de la dernière appli de bureau Adobe Dynamic Media Classic sur macOS {#install-silent-mac-dmc-app}
+## Téléchargement et *silencieusement* installation de la dernière appli de bureau Adobe Dynamic Media Classic sur macOS {#install-silent-mac-dmc-app}
 
 Voir aussi :
 
 * [Télécharger et installer la dernière appli de bureau Adobe Dynamic Media Classic sur Mac ou Windows](#installation-dmc-app)
-* [Télécharger et installer en mode silencieux la dernière application de bureau Adobe Dynamic Media Classic sous Windows](#install-silent-windows-dmc-app)
+* [Télécharger et installer en arrière-plan la dernière appli de bureau Adobe Dynamic Media Classic sous Windows](#install-silent-windows-dmc-app)
 
-Pour télécharger et *silence* installez la dernière version de l’appli de bureau Adobe Dynamic Media Classic sur macOS :
+Pour télécharger et *silencieusement* installez la dernière version de l’appli de bureau Adobe Dynamic Media Classic sur macOS :
 
 1. Désinstallez toutes les anciennes versions de l’appli de bureau Adobe Dynamic Media Classic de votre système.
 
@@ -185,7 +185,7 @@ Pour télécharger et *silence* installez la dernière version de l’appli de b
    | Production EMEA (Europe, Moyen-Orient et Afrique) | https://s7sps3.scene7.com/ |
    | Production APAC (Asie-Pacifique) | https://s7sps5.scene7.com/ |
 
-## Téléchargement et *silence* installation de la dernière appli de bureau Adobe Dynamic Media Classic sous Windows® {#install-silent-windows-dmc-app}
+## Téléchargement et *silencieusement* installation de la dernière appli de bureau Adobe Dynamic Media Classic sous Windows® {#install-silent-windows-dmc-app}
 
 La commande que vous utilisez est pour une installation silencieuse MSI de base. Cependant, le programme d’installation de l’appli de bureau Adobe Dynamic Media Classic est un programme d’installation MSI InstallScript créé à l’aide de InstallShield. Lorsque vous exécutez le programme d’installation en mode d’enregistrement, toute interaction utilisateur est enregistrée dans un fichier de réponse. Ce fichier de réponse est ensuite utilisé pour une installation silencieuse, comme décrit dans la section [Exécution des installations en mode silencieux](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
@@ -193,9 +193,9 @@ Voir aussi :
 
 * [Télécharger et installer la dernière appli de bureau Adobe Dynamic Media Classic sur Mac ou Windows](#installation-dmc-app)
 
-* [Télécharger et installer en mode silencieux la dernière application de bureau Adobe Dynamic Media Classic sur macOS](#install-silent-mac-dmc-app)
+* [Télécharger et installer en arrière-plan la dernière application de bureau Adobe Dynamic Media Classic sur macOS](#install-silent-mac-dmc-app)
 
-Pour télécharger et *silence* installez la dernière version de l’appli de bureau Adobe Dynamic Media Classic sous Windows® :
+Pour télécharger et *silencieusement* installez la dernière version de l’appli de bureau Adobe Dynamic Media Classic sous Windows® :
 
 1. Désinstallez toutes les anciennes versions de l’appli de bureau Adobe Dynamic Media Classic de votre système.
 
@@ -258,7 +258,7 @@ Outre l’effacement de l’image et du cache des ressources à l’aide de l’
 
 ## Limites connues dans Adobe Dynamic Media Classic 20.20.1 (corrigées dans 20.20.2)
 
-**_S’applique uniquement à Windows® : y a-t-il une limitation du nombre de fichiers pouvant être chargés via l’interface utilisateur de l’appli de bureau ?_**<br>Oui, vous pouvez charger un maximum de 150 fichiers à la fois au moyen de l’interface utilisateur de l’appli de bureau.
+**_S’applique uniquement à Windows® : y a-t-il une limitation du nombre de fichiers pouvant être chargés via l’interface utilisateur de l’appli de bureau ?_**<br>Oui, un maximum de 150 fichiers peuvent être chargés à la fois à l’aide de l’interface utilisateur de l’appli de bureau .
 
 **_S’applique à Windows® et macOS. Comment puis-je passer d’une entreprise à l’autre ?_**<br>Pour passer d’une entreprise à l’autre, procédez comme suit :
 

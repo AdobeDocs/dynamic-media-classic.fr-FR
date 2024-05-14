@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ La nouvelle [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] s’appuie s
 
 ## Principaux avantages et capacités de [!DNL Dynamic Media]
 
-[!DNL Dynamic Media] est l’évolution naturelle de [!DNL Dynamic Media Classic] et propose des ensembles d’outils de création, de publication et de diffusion multimédias riches, notamment une diffusion haut de gamme avec une interface innovante centrée sur l’utilisateur, favorisant ainsi des workflows réels modernes.
+[!DNL Dynamic Media] est l’évolution naturelle de [!DNL Dynamic Media Classic]. Il propose des ensembles d’outils de création, de publication et de diffusion de médias riches. Elle comprend également une diffusion haut de gamme avec une interface innovante centrée sur l’utilisateur, favorisant des workflows modernes dans le monde réel.
 
 * Expérience et intégration en toute transparence et unifiée avec [!DNL Adobe Experience Manager]: configurer et diffuser dynamiquement du contenu enrichi à partir d’un seul magasin, d’une seule source ;
 * Nouvelle expérience utilisateur axée sur le marketeur pour une création et une diffusion aisées de contenu multimédia
@@ -52,7 +52,7 @@ La nouvelle [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] s’appuie s
 
 ## Pourquoi Adobe ?
 
-* Déplacement positif le plus important dans le rapport Forrester WAVE sur les ressources numériques.
+* Le plus grand acteur positif du rapport Forrester WAVE sur les ressources numériques.
 * Meilleure performance dans le rapport Plateforme vidéo en ligne de 2016.
 * Meilleur fournisseur de médias riches vers la vente au détail Internet 1000, neuf ans d’affilée.
 * Prise en charge 24/7/265, 99,95 % des contrats de niveau de service, Adobe Professional Services.

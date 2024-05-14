@@ -1,5 +1,5 @@
 ---
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -54,7 +54,8 @@ Non aligné sur ce code de conduite. Ou, interdire temporairement ou définitive
 
 ## Portée
 
-Ce code de conduite s’applique à la fois aux espaces du projet et aux espaces publics lorsqu’une personne représente le projet ou sa communauté. Parmi les exemples de représentation d’un projet ou d’une communauté, citons l’utilisation d’une adresse électronique officielle du projet ou la publication par le biais d’un compte de médias sociaux officiel. Cela inclut également le fait d’agir en tant que représentant désigné lors d’un événement en ligne ou hors ligne. La représentation d’un projet peut être définie plus précisément et clarifiée par les responsables du projet.
+Ce code de conduite s’applique à la fois aux espaces du projet et aux espaces publics lorsqu’une personne représente le projet ou sa communauté.
+Parmi les exemples de représentation d’un projet ou d’une communauté, citons l’utilisation d’une adresse électronique officielle du projet ou la publication par le biais d’un compte de médias sociaux officiel. Cela inclut également le fait d’agir en tant que représentant désigné lors d’un événement en ligne ou hors ligne. Les responsables du projet peuvent définir et clarifier davantage la représentation d’un projet.
 
 ## Application
 

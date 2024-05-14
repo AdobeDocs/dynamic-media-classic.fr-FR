@@ -5,9 +5,9 @@ type: Documentation
 feature-set: Experience Manager Assets
 git-repo: https://github.com/AdobeDocs/dynamic-media-classic.fr-FR
 recommendations: noDisplay
-source-git-commit: 4e5487742ac1dcbf7db5ba3568fdf7784664e25b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ Le fichier metadata.md comprend des métadonnées au niveau du référentiel qui
 |--- |--- |
 | solution-title | Utilisé dans l’en-tête de l’article comme lien |
 | solution-hub-url | Ouvre la page hub |
-| solution-icon | Affiche l’icône de solution en regard du titre de la solution. Pas encore implémenté |
+| solution-icon | Affiche une icône de solution en regard du titre de la solution. Pas encore implémenté |
 | getting-started-url | Lien vers la page de prise en main |
 | tutorials-url | Lien vers des tutoriels vidéo : tutoriels ou tutoriels KT |
-| mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail droit. la valeur par défaut est 2 |
+| mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail de droite. la valeur par défaut est 2 |
 | git-repo | Spécifie l’emplacement du référentiel principal pour une utilisation interne. |

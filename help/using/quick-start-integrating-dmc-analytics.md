@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 24%
+source-wordcount: '689'
+ht-degree: 21%
 
 ---
 
@@ -31,13 +31,13 @@ Voir aussi [Mesure vidéo dans Adobe Analytics](https://experienceleague.adobe.c
 >
 >Un compte Adobe Analytics valide est nécessaire pour intégrer Analytics à Adobe Dynamic Media Classic et générer des rapports Analytics.
 
-Cette section de démarrage rapide est conçue pour vous familiariser rapidement avec le kit d’instrumentation d’Adobe Analytics. 
+Ce didacticiel de mise en route est conçu pour vous aider à démarrer rapidement avec le kit d’instrumentation Adobe Analytics.
 
-## 1. Connectez-vous à Adobe Analytics au moyen d’Adobe Dynamic Media Classic et téléchargez les variables de rapports Adobe Analytics.
+## 1. Connectez-vous à Adobe Analytics par le biais d’Adobe Dynamic Media Classic et téléchargez les variables de rapports Adobe Analytics.
 
 >[!NOTE]
 >
->Avant de pouvoir configurer des rapports Adobe Analytics et de faire correspondre des variables de rapports Adobe Analytics à des événements Adobe Dynamic Media Classic, vérifiez que vous êtes ajouté en tant que membre du groupe Accès aux services Web dans Adobe Analytics. Les membres de ce groupe peuvent accéder à tous les rapports des suites de rapports spécifiées par le biais de l’API des services Web de l’Experience Cloud, quels que soient les autorisations définies dans l’interface. Pour ajouter un membre au groupe, dans Adobe Analytics, accédez à **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Modification de groupes]**.
+>Vérifiez que vous êtes ajouté en tant que membre du groupe Accès aux services web dans Adobe Analytics. Effectuez cette vérification avant de configurer les rapports Adobe Analytics. Avant de faire correspondre des variables de rapports Adobe Analytics à des événements Adobe Dynamic Media Classic. Les membres de ce groupe peuvent accéder à tous les rapports des suites de rapports spécifiées. Vous pouvez le faire à l’aide de l’API des services Web de l’Experience Cloud, quelles que soient les autorisations définies dans l’interface. Pour ajouter un membre au groupe, dans Adobe Analytics, accédez à **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Modification de groupes]**.
 
 Une fois que vous avez vérifié que vous êtes membre du groupe Accès aux services web , dans Adobe Dynamic Media Classic, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Adobe Analytics]**. Sur la page Configuration d’Adobe Analytics, sélectionnez **[!UICONTROL Connexion Adobe Analytics]**.
 
@@ -54,17 +54,17 @@ Sur la page Configuration d’Adobe Analytics, spécifiez les informations souha
 
 La configuration d’Adobe Analytics propose également des outils pour activer, modifier et supprimer des événements de visionneuse.
 
-Après avoir sélectionné **[!UICONTROL Enregistrer]** sur la page de configuration d’Adobe Analytics, le code de suivi personnalisé permettant de mesurer l’activité des utilisateurs est inséré dans les visionneuses Adobe Dynamic Media Classic. Cette fonctionnalité vous permet d’assurer le suivi de l’activité des utilisateurs dans les rapports Adobe Analytics.
+Après avoir sélectionné **[!UICONTROL Enregistrer]** sur la page Configuration d’Adobe Analytics , un code de suivi personnalisé pour mesurer l’activité des utilisateurs est inséré dans les visionneuses Adobe Dynamic Media Classic. Cette fonctionnalité vous permet d’assurer le suivi de l’activité des utilisateurs dans les rapports Adobe Analytics.
 
 Voir [Configuration des rapports Adobe Analytics](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
 ## 3. Publiez vos visionneuses Adobe Dynamic Media Classic
 
-Publiez vos visionneuses Adobe Dynamic Media Classic afin que les visionneuses (avec le code permettant de suivre l’activité des utilisateurs dans les rapports Adobe Analytics) soient chargées sur les serveurs Adobe Dynamic Media Classic. Après la publication, ces informations sont incluses dans les visionneuses et peuvent être utilisées pour l’analyse par Adobe Analytics.
+Publiez vos visionneuses Adobe Dynamic Media Classic afin que les visionneuses (avec le code permettant de suivre l’activité des utilisateurs dans les rapports Adobe Analytics) soient chargées sur les serveurs Adobe Dynamic Media Classic. Après la publication, ces informations sont incluses dans les visionneuses. Utilisez-le pour une analyse par Adobe Analytics.
 
 Voir [Publication des informations de configuration](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
-## 4. Placez les visionneuses Adobe Dynamic Media Classic dans votre site web
+## 4. Placez les visionneuses Adobe Dynamic Media Classic sur votre site web
 
 Placez les visionneuses Adobe Dynamic Media Classic avec le code de suivi Adobe Analytics sur votre site web.
 

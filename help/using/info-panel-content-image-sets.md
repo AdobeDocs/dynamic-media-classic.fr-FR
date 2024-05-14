@@ -10,22 +10,22 @@ role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 45%
+source-wordcount: '777'
+ht-degree: 34%
 
 ---
 
 # Gestion du contenu du panneau Informations dans les visionneuses d’images{#managing-info-panel-content-in-image-sets}
 
-Outre l’utilisation de texte de zone cliquable pour vos survols dans les visionneuses d’images, vous pouvez utiliser un panneau d’informations pour ajouter de plus grandes quantités de texte de survol, y compris des liens. Vous pouvez également gérer le panneau d’informations à l’aide de la mise en cache temporelle et de la planification des mises à jour du contenu.
+En plus d’utiliser du texte de zone cliquable pour vos survols dans les visionneuses d’images, vous pouvez utiliser un panneau d’informations pour ajouter de plus grandes quantités de texte de survol, y compris des liens. Vous pouvez également gérer le panneau d’informations à l’aide de la mise en cache temporelle et de la planification des mises à jour du contenu.
 
 Vous pouvez gérer la configuration et les données de votre panneau d’informations à l’aide des fonctionnalités suivantes d’Adobe Dynamic Media Classic :
 
-* Le panneau Configuration du panneau d’informations vous permet de définir le modèle utilisé pour afficher le texte du panneau, une réponse par défaut aux erreurs, ainsi que la période de mise en cache (en heures) des informations. Par ailleurs, vous pouvez préciser si la visionneuse d’image est automatiquement publiée.
-* Le panneau Flux de données du panneau Informations vous permet de spécifier un fichier CSV contenant le texte que vous souhaitez afficher dans le texte de survol du panneau d’informations, ainsi que de planifier les heures de mise à jour des informations.
-* La boîte de dialogue Importer les métadonnées vous permet d’importer un fichier TXT délimité par des tabulations contenant les informations sur le texte de survol. Vous pouvez utiliser cette option TXT ou le panneau de flux de données du panneau d’informations avec l’option de fichier CSV pour votre texte de survol.
+* Le panneau Configuration du panneau Informations vous permet de spécifier le modèle utilisé pour afficher le texte du panneau Informations, une réponse par défaut aux erreurs et le nombre d’heures pendant lesquelles les informations sont mises en cache. Par ailleurs, vous pouvez préciser si la visionneuse d’image est automatiquement publiée.
+* Le panneau Flux de données du panneau Informations vous permet de spécifier un fichier CSV contenant le texte que vous souhaitez afficher dans le texte de survol du panneau Informations, ainsi que de planifier les heures de mise à jour des informations.
+* La boîte de dialogue Importer les métadonnées vous permet d’importer un fichier TXT délimité par des tabulations contenant les informations de texte de survol. Vous pouvez utiliser cette option TXT ou le panneau de flux de données du panneau d’informations avec l’option de fichier CSV pour votre texte de survol.
 
 ## Configuration d’un modèle de réponse pour les visionneuses d’images {#set-up-a-response-template-for-image-sets}
 
@@ -40,7 +40,7 @@ Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pou
    * Pour utiliser la réponse par défaut, sélectionnez **[!UICONTROL Par défaut]**. Le code XML de la conception du modèle s’affiche, grisé, dans la zone de texte Modèle utilisateur.
    * Pour créer votre propre modèle de réponse, sélectionnez **[!UICONTROL Personnalisé]**. Dans la zone de texte Modèle utilisateur, entrez la définition du modèle XML. Vous pouvez utiliser le modèle par défaut qui est déjà défini dans la zone de texte comme base pour votre propre réponse.
 
-1. (Facultatif) Dans la zone Réponse par défaut, saisissez le texte que vous souhaitez afficher si Adobe Dynamic Media Classic rencontre une erreur lors de la récupération des informations pour une zone cliquable. Par exemple, si le système reçoit un nom d’entreprise et un nom de visionneuse d’image, mais pas d’identificateur de survol, ce message est affiché à l’intention de l’utilisateur.
+1. (Facultatif) Dans la zone Réponse par défaut, saisissez le texte que vous souhaitez afficher si Adobe Dynamic Media Classic rencontre une erreur lors de la récupération des informations d’une zone cliquable. Par exemple, si le système reçoit un nom d’entreprise et un nom de visionneuse d’image, mais pas d’identificateur de survol, ce message est affiché à l’intention de l’utilisateur.
 1. Dans le champ Réponse TTL, entrez le nombre d’heures d’attente avant la mise en cache des données.
 
    * Optez pour une valeur faible si de nombreuses mises à jour des données sont effectuées quotidiennement.
@@ -55,7 +55,7 @@ Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pou
 
 ## Importation du contenu source pour le panneau Informations dans les visionneuses d’images {#import-source-content-for-the-info-panel-in-image-sets}
 
-Vous pouvez utiliser un fichier CSV (valeurs séparées par des virgules) avec codage ASCII (les caractères non ASCII doivent être codés en HTML) ou un fichier délimité par des tabulations pour le texte source d’un panneau d’informations pour une visionneuse d’images. Les fichiers délimités par des tabulations doivent utiliser l’encodage UTF-16 (Unicode). La méthode d’importation utilisée dépend du type de fichier.
+Vous pouvez utiliser un fichier CSV (valeur séparée par des virgules) avec codage ASCII (les caractères non ASCII doivent être codés en HTML) ou un fichier délimité par des tabulations pour le texte source d’un panneau d’informations pour une visionneuse d’images. Les fichiers délimités par des tabulations doivent utiliser l’encodage UTF-16 (Unicode). Vous pouvez importer les différents types de fichiers à l’aide de différentes méthodes.
 
 Lorsque vous effectuez la mise en forme du contenu source, n’oubliez pas les points suivants :
 
@@ -72,4 +72,4 @@ Lorsque vous effectuez la mise en forme du contenu source, n’oubliez pas les p
 
    Vous pouvez sélectionner plusieurs heures. Chaque heure de mise à jour apparaît dans la zone Mettre à jour les durées. Pour supprimer une heure planifiée, sélectionnez-la, puis sélectionnez **[!UICONTROL Supprimer]**.
 
-1. (Facultatif) Sélectionnez **[!UICONTROL Exécuter la mise à jour]** pour mettre immédiatement à jour le contenu.
+1. (Facultatif) Sélectionnez **[!UICONTROL Exécuter la mise à jour]** afin que vous puissiez mettre à jour immédiatement le contenu.

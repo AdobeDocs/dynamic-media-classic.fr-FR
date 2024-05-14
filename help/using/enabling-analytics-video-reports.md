@@ -10,16 +10,16 @@ role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
 topic: Development, Integrations
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 5%
+source-wordcount: '221'
+ht-degree: 0%
 
 ---
 
 # Activation des rapports vidéo Adobe Analytics{#enabling-adobe-analytics-video-reports}
 
-Grâce aux rapports vidéo basés sur la pulsation Adobe Analytics, vous ne devez plus activer les quatre événements de visionneuse de vidéos (Lecture, Pause, Arrêter, Jalon) lorsque vous configurez Adobe Analytics dans Adobe Dynamic Media Classic. La pulsation vidéo fonctionne avec les visionneuses vidéo et de médias mixtes Adobe Dynamic Media Classic HTML5 prêtes à l’emploi. Le lecteur vidéo génère des données de suivi à afficher dans les rapports vidéo d’Adobe Analytics.
+Grâce aux rapports vidéo basés sur la pulsation Adobe Analytics, vous ne devez plus activer les quatre événements de visionneuse de vidéos (Lecture, Pause, Arrêter, Jalon) lorsque vous configurez Adobe Analytics dans Adobe Dynamic Media Classic. La pulsation vidéo fonctionne avec les visionneuses vidéo et de médias mixtes Adobe Dynamic Media Classic HTML5 prêtes à l’emploi. Le lecteur vidéo génère des données de suivi à afficher dans les rapports vidéo Adobe Analytics.
 
 * Pour une introduction à la diffusion en continu de médias et à la &quot;mesure de pulsation&quot;, voir [À propos d’Adobe Analytics pour les médias en streaming](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
@@ -35,4 +35,4 @@ Grâce aux rapports vidéo basés sur la pulsation Adobe Analytics, vous ne deve
 
 >[!NOTE]
 >
->Si votre solution sous licence d’Adobe Analytics n’inclut pas Video Heartbeat, vous devez continuer à utiliser les étapes décrites dans ce chapitre pour affecter des variables Adobe Analytics aux événements et variables de visionneuse Adobe Dynamic Media Classic.
+>Si votre solution sous licence d’Adobe Analytics n’inclut pas Video Heartbeat, continuez à utiliser les étapes décrites dans ce chapitre pour affecter des variables Adobe Analytics aux événements et variables de visionneuse Adobe Dynamic Media Classic.
