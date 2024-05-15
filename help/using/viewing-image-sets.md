@@ -10,16 +10,16 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 22%
+source-wordcount: '491'
+ht-degree: 19%
 
 ---
 
 # Affichage des visionneuses d’images{#viewing-image-sets}
 
-Vous pouvez visualiser vos visionneuses d’images dans la fenêtre de prévisualisation à l’aide de vos paramètres prédéfinis disponibles. Utilisez une visionneuse de zoom : un paramètre prédéfini et personnalisé pour les visionneuses d’images.
+Vous pouvez visualiser vos visionneuses d’images dans la fenêtre de prévisualisation à l’aide de vos paramètres prédéfinis disponibles. Vous pouvez utiliser une visionneuse de zoom : paramètre prédéfini de visionneuse personnalisé pour les visionneuses d’images.
 
 Adobe Dynamic Media Classic est fourni avec les paramètres prédéfinis de visionneuse par défaut. Les administrateurs peuvent créer ou modifier les paramètres prédéfinis de la visionneuse.
 
@@ -45,7 +45,7 @@ Vous pouvez créer et personnaliser des paramètres prédéfinis de la visionneu
 
 ## Prévisualisation de ressources de visionneuse d’images dans une visionneuse {#previewing-image-set-assets-in-a-viewer}
 
-Vous pouvez utiliser l’aperçu pour afficher une ressource sur un type de visionneuse particulier, tel que HTML5. Notez que la fonction de prévisualisation ne contient pas toutes les plates-formes, selon le type de fichier et la visionneuse sélectionnés.
+Vous pouvez utiliser l’aperçu pour voir comment une ressource apparaît dans un type de visionneuse particulier, tel que HTML5. Notez que la fonction de prévisualisation ne contient pas toutes les plates-formes, selon le type de fichier et la visionneuse sélectionnés.
 
 1. Dans le panneau Bibliothèque de ressources sur le côté gauche, dans **[!UICONTROL Afficher]** liste déroulante, choisissez **[!UICONTROL Visionneuse d’images]**.
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, parcourez les dossiers de fichiers pour sélectionner la visionneuse d’images à prévisualiser.

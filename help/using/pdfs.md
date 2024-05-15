@@ -10,10 +10,10 @@ role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 29%
+source-wordcount: '726'
+ht-degree: 26%
 
 ---
 
@@ -39,7 +39,7 @@ Les options de téléchargement de fichiers de PDF sont disponibles sur la page 
 
 **[!UICONTROL Pixelliser]** - (Par défaut) Pixellise les pages du fichier du PDF et convertit les graphiques vectoriels en images bitmap. Pour créer un catalogue électronique, sélectionnez cette option.
 
-**[!UICONTROL Extraction de mots de recherche]** - Extrait les mots du fichier du PDF afin que le fichier puisse être recherché par mot-clé dans une visionneuse de catalogue électronique.
+**[!UICONTROL Extraction de mots de recherche]** - Extrait les mots du fichier du PDF afin que les mots-clés du fichier puissent être recherchés dans une visionneuse de catalogue électronique.
 
 **[!UICONTROL Extraction de liens]** - Extrait les liens des fichiers du PDF et les convertit en zones cliquables utilisées dans une visionneuse de catalogue électronique.
 
@@ -73,7 +73,9 @@ Dans le menu Espace colorimétrique, choisissez un espace pour le fichier PDF. 
 
 ## Recadrer l’espace blanc d’un fichier de PDF {#cropping-white-space-from-a-pdf-file}
 
-1. Pour supprimer automatiquement les pixels d’espace blanc d’un fichier PDF au moment du téléchargement, sélectionnez le menu Recadrer, puis choisissez Rogner.
+Vous pouvez recadrer automatiquement les pixels d’espace blanc d’un fichier de PDF au fur et à mesure de son téléchargement.
+
+1. Sélectionnez le menu Recadrer et choisissez Rogner.
 1. Spécifiez les options suivantes :
 
    * **[!UICONTROL Rogner en fonction de]** - Choisissez si vous souhaitez recadrer en fonction de la couleur ou de la transparence :

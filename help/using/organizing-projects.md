@@ -10,9 +10,9 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '482'
 ht-degree: 22%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 22%
 
 Les projets constituent un autre moyen d’organiser des fichiers indépendamment des dossiers dans lesquels ils sont stockés. Un fichier peut être placé seulement dans un dossier, mais il peut être copié dans plusieurs dossiers Projet à des fins d’organisation.
 
-Après avoir créé un dossier Projet, vous pouvez y placer des fichiers. Toutefois, les ressources d’un projet sont en fait des pointeurs vers le dossier de la bibliothèque de ressources dans lequel les ressources sont stockées. Vous pouvez placer un fichier dans plusieurs projets. Par exemple, une image de chemise peut être placée dans les dossiers de projet &quot;Blouse&quot; et &quot;Fall Collection&quot;.
+Après avoir créé un dossier Projet, vous pouvez y placer des fichiers. Les ressources d’un projet sont en fait des pointeurs vers le dossier Bibliothèque de ressources dans lequel les ressources sont stockées. Vous pouvez placer un fichier dans plusieurs projets. Par exemple, une image de chemise peut être placée dans les dossiers de projet &quot;Blouse&quot; et &quot;Fall Collection&quot;.
 
 Vous pouvez créer un projet lorsque vous téléchargez des fichiers ou créer des projets dans le panneau Bibliothèque de fichiers.
 
@@ -39,7 +39,7 @@ Vous pouvez créer un dossier Projet commençant par la bibliothèque de ressour
 
 * **Dans la bibliothèque de ressources** - Faites défiler l’écran jusqu’au bas de la bibliothèque de ressources jusqu’à la section Projets , puis sélectionnez **[!UICONTROL Ajouter un projet]**. Saisissez le nom du projet.
 
-* **Lors du téléchargement de fichiers** - Dans l’écran Télécharger , accédez à **[!UICONTROL Ajouter au projet]** > **[!UICONTROL Créer un projet]**. Saisissez le nom du projet.
+* **Lors du téléchargement de fichiers** - Dans l’écran Télécharger, accédez à **[!UICONTROL Ajouter au projet]** > **[!UICONTROL Créer un projet]**. Saisissez le nom du projet.
 
 >[!NOTE]
 >
@@ -61,4 +61,4 @@ Vous pouvez ajouter des images à un dossier Projet depuis le panneau de navigat
 
 * **Dans le panneau de navigation**, sélectionnez les ressources et faites-les glisser vers un dossier Projet . Vous pouvez également accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Ajouter au projet]**. Sélectionnez un nom de dossier de projet dans la boîte de dialogue Sélectionner un projet, puis sélectionnez **[!UICONTROL Envoyer]**.
 
-* **Lors du téléchargement de fichiers** - Dans la page Télécharger, sélectionnez **[!UICONTROL Options de tâche]**. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Projets]**, puis sélectionnez un nom de projet.
+* **Lors du téléchargement de fichiers** - Sur la page Télécharger, sélectionnez **[!UICONTROL Options de tâche]**. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Projets]**, puis sélectionnez un nom de projet.

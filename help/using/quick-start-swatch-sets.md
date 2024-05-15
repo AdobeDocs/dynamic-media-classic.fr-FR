@@ -10,9 +10,9 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '402'
 ht-degree: 17%
 
 ---
@@ -41,7 +41,7 @@ Voir [Création et modification de paramètres prédéfinis de visionneuse](appl
 
 ## 4. Prévisualisation d’une série d’échantillons
 
-Sélectionnez la série d’échantillons dans le panneau de navigation, puis sélectionnez **[!UICONTROL Aperçu]**. Votre série d’échantillons apparaît dans cette page. Sélectionnez les icônes de miniature et d’échantillon afin d’examiner votre série d’échantillons dans la visionneuse sélectionnée. Différentes visionneuses sont disponibles dans le menu Paramètres prédéfinis.
+Sélectionnez la série d’échantillons dans le panneau de navigation, puis sélectionnez **[!UICONTROL Aperçu]**. La série d’échantillons s’affiche sur cette page. Sélectionnez les icônes de miniature et d’échantillon afin d’examiner votre série d’échantillons dans la visionneuse sélectionnée. Différentes visionneuses sont disponibles dans le menu Paramètres prédéfinis.
 
 Voir [Aperçu d’une ressource](previewing-asset.md#previewing-an-asset).
 
@@ -57,4 +57,4 @@ Voir [Publication de fichiers](publishing-files.md#publishing-files).
 
 Adobe Dynamic Media Classic crée des appels URL pour les séries d’échantillons et les active après leur publication. Vous pouvez copier ces URL à partir de la page Aperçu .
 
-Sélectionnez la série d’échantillons, puis sélectionnez le bouton Prévisualiser. La page Aperçu s’ouvre. Sélectionnez un paramètre prédéfini de visionneuse de série d’échantillons, puis cliquez sur le bouton Copier l’URL Voir [Lier une série d’échantillons à une page web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
+Sélectionnez la série d’échantillons, puis sélectionnez le bouton Prévisualiser. La page Aperçu s’ouvre. Sélectionnez un paramètre prédéfini de visionneuse de série d’échantillons, puis cliquez sur le bouton Copier l’URL Voir [Lier des séries d’échantillons aux pages web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).

@@ -10,10 +10,10 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 33%
+ht-degree: 23%
 
 ---
 
@@ -33,9 +33,9 @@ Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]*
 
 Voir [Chargement des fichiers](uploading-files.md#uploading-your-files).
 
-## 2. Création de visionneuses de médias à utiliser dans la visionneuse de médias mixtes
+## 2. Créez une visionneuse de médias à utiliser dans la visionneuse de médias mixtes.
 
-Vous pouvez ajouter des images, des visionneuses d’images, des séries d’échantillons, des visionneuses à 360° et des vidéos à votre visionneuse de supports variés. Préparez les visionneuses de supports avant de les ajouter à la visionneuse de supports variés.
+Vous pouvez ajouter des images, des visionneuses d’images, des séries d’échantillons, des visionneuses à 360° et des vidéos à votre visionneuse de médias mixtes. Préparez les visionneuses de médias avant de les ajouter à la visionneuse de médias mixtes.
 
 Voir [Création d’une visionneuse d’images](creating-image-set.md#creating-an-image-set), [Création d’une série d’échantillons](creating-swatch-set.md#creating-a-swatch-set), et [Création d’une visionneuse à 360°](creating-spin-set.md#creating-a-spin-set).
 
@@ -45,11 +45,11 @@ Dans la barre de navigation globale, accédez à **[!UICONTROL Build]** > **[!UI
 
 Voir [Création d’une visionneuse de médias mixtes](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
-## 4. Configuration des paramètres prédéfinis de la visionneuse de supports variés
+## 4. Configuration des paramètres prédéfinis de la visionneuse de médias mixtes
 
-Adobe Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse par défaut pour les visionneuses de médias mixtes. Les administrateurs peuvent créer ou modifier ces paramètres prédéfinis.
+Adobe Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse par défaut pour les visionneuses de médias mixtes. Les administrateurs peuvent créer ou modifier des paramètres prédéfinis de visionneuse de médias mixtes.
 
-Lors de la configuration d’un paramètre prédéfini de visionneuse de médias mixtes, ajoutez les paramètres prédéfinis de visionneuse pour toutes les autres ressources de votre visionneuse. Par exemple, si votre visionneuse de supports variés contient des vidéos, ajoutez un paramètre prédéfini de visionneuse de vidéos à celui de la visionneuse de supports variés. Vous pouvez également ajouter une bande sonore à la visionneuse. Cette bande sonore est lue lorsque la visionneuse est ouverte mais pas lorsqu’une vidéo est active.
+Lors de la configuration d’un paramètre prédéfini de visionneuse de médias mixtes, ajoutez les paramètres prédéfinis de visionneuse pour toutes les autres ressources de votre visionneuse. Par exemple, si votre visionneuse de médias mixtes contient des vidéos, ajoutez un paramètre prédéfini de visionneuse de médias mixtes. Vous pouvez également ajouter une bande sonore à la visionneuse. Cette bande sonore est lue lorsque la visionneuse est ouverte mais pas lorsqu’une vidéo est active.
 
 Voir [Configuration d’un paramètre prédéfini de visionneuse de médias mixtes](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) et [Création et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -73,4 +73,4 @@ Voir [Publication d’une visionneuse de médias mixtes](publishing-mixed-media-
 
 Adobe Dynamic Media Classic active les appels URL pour les visionneuses de médias mixtes une fois que vous les avez publiées. Vous pouvez copier ces URL à partir de la page Aperçu .
 
-Sélectionnez la visionneuse de médias mixtes, puis sélectionnez **[!UICONTROL Aperçu]**. Dans la page Aperçu, sélectionnez un paramètre prédéfini de visionneuse de médias mixtes, puis sélectionnez **[!UICONTROL Copier l’URL]**. (voir [Liaison d’une visionneuse de supports variés à une page Web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)).
+Sélectionnez la visionneuse de médias mixtes, puis sélectionnez **[!UICONTROL Aperçu]**. Dans la page Aperçu, sélectionnez un paramètre prédéfini de visionneuse de médias mixtes, puis sélectionnez le paramètre **[!UICONTROL Copier l’URL]**. Voir [Lier des visionneuses de médias mixtes à des pages Web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).

@@ -9,7 +9,7 @@ role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 topic: Development, Integrations
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 20%
@@ -18,7 +18,7 @@ ht-degree: 20%
 
 # Ressources du développeur {#developer-resources}
 
-Les guides de référence sur les visionneuses, le serveur d’images et le rendu d’images, ainsi que le système de production d’images, décrivent les protocoles http pour ces modules de serveur. Les développeurs de sites web qui souhaitent personnaliser davantage et utiliser Adobe Dynamic Media Classic rich media pour un site web ou une application personnalisée peuvent utiliser ces guides. Il est supposé que l’utilisateur connaît l’appli de bureau Dynamic Media Classic, les normes et conventions générales du protocole http et la terminologie de base de l’imagerie.
+Les guides de référence sur les visionneuses, le serveur d’images et le rendu d’images, ainsi que le système de production d’images, décrivent les protocoles http pour ces modules de serveur. Les développeurs de sites web qui souhaitent personnaliser davantage et utiliser des médias enrichis Adobe Dynamic Media Classic pour un site web ou une application personnalisée peuvent utiliser ces guides. Il est supposé que l’utilisateur connaît l’appli de bureau Dynamic Media Classic, les normes et conventions générales du protocole http et la terminologie de base de l’imagerie.
 
 Voir aussi [Ressources pour les développeurs Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 

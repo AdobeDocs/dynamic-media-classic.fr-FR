@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Voir [Application de bureau Adobe Dynamic Media Classic](/help/using/dynamic-med
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
 
 +++**_Comment fonctionne la nouvelle appli de bureau ?_**
-Une fois que vous avez téléchargé, installé et lancé l’appli de bureau, une nouvelle connexion s’affiche. En saisissant votre nom d’utilisateur et votre mot de passe, puis en sélectionnant le serveur approprié en fonction de votre région, vous pouvez vous connecter à Adobe Dynamic Media Classic. L’expérience globale est la même que la version de navigateur web à laquelle vous êtes habitué. Depuis l’appli de bureau, vous pouvez accéder aux environnements de production et d’évaluation Adobe Dynamic Media Classic. Vous pouvez également accéder à Media Portal si vous disposez des informations d’identification nécessaires à cette fonctionnalité.
+Une fois que vous avez téléchargé, installé et lancé l’appli de bureau, une nouvelle connexion s’affiche. En saisissant votre nom d’utilisateur et votre mot de passe, puis en sélectionnant le serveur approprié en fonction de votre région, vous pouvez vous connecter à Adobe Dynamic Media Classic. L’expérience globale est la même que la version de navigateur Web à laquelle vous êtes habitué. Depuis l’appli de bureau, vous pouvez accéder aux environnements de production et d’évaluation Adobe Dynamic Media Classic. Vous pouvez également accéder à Media Portal si vous disposez des informations d’identification nécessaires à cette fonctionnalité.
 
 >[!IMPORTANT]
 >
@@ -84,7 +84,7 @@ Non aux deux questions. Aucun SKU ou changement de licence n’est nécessaire p
 +++
 
 +++**_Comment les mises à niveau de l’appli de bureau Adobe Dynamic Media Classic sont-elles activées ?_**
-Après la publication de l’appli de bureau Adobe Dynamic Media Classic le 30 juin 2020, si Adobe publie une nouvelle version, les clients doivent télécharger la nouvelle version et l’installer comme d’habitude (remplacer l’application existante dans **[!UICONTROL Applications]**). Vous êtes informé de la nouvelle version par l’intermédiaire de votre équipe de compte d’Adobe et d’un mécanisme de notification de mise à niveau in-app qui avertit les utilisateurs d’une mise à niveau.
+Après la publication de l’appli de bureau Adobe Dynamic Media Classic le 30 juin 2020, si Adobe publie une nouvelle version, les clients doivent télécharger et installer la nouvelle version (remplacer l’application existante dans **[!UICONTROL Applications]**). Vous êtes informé de la nouvelle version par l’intermédiaire de votre équipe de compte d’Adobe et d’un mécanisme de notification de mise à niveau in-app qui avertit les utilisateurs d’une mise à niveau.
 +++
 
 +++**_Comment obtenir de l’aide pour tout problème lié à l’appli de bureau Adobe Dynamic Media Classic ?_**

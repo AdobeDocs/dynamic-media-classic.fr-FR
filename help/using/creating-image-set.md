@@ -10,9 +10,9 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '672'
 ht-degree: 46%
 
 ---
@@ -25,7 +25,7 @@ Pour créer une visionneuse d’images avec des vues multiples, vos images doive
 
 Lorsque vous créez une visionneuse, l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») affecte la visionneuse et ses membres comme suit :
 
-| **[!UICONTROL Publier après enregistrement]** l’option sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| **[!UICONTROL `Publish after save`]** l’option sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- |
 | Oui | Publié | Publié |
 | Non | Non publié | Les membres de la visionneuse conservent leur état publié ou non publié. |
@@ -39,7 +39,7 @@ Lorsque vous créez une visionneuse d’images, Adobe recommande les bonnes prat
 | Nombre de ressources en double par ensemble | Aucun doublon | 20 |
 | Nombre maximal d’images par visionneuse | 5 à 10 images par visionneuse | 1 000 |
 
-‡ La bonne pratique consiste à ne pas avoir de ressources en double dans un ensemble. La limite est de 20 doublons pour une seule ressource. Si vous ajoutez un autre doublon pour cette ressource (dans cet ensemble), la requête renvoie une erreur ou ignore le doublon.
+‡ La bonne pratique consiste à ne pas avoir de ressources en double dans un ensemble. La limite est de 20 doublons pour une seule ressource. Si, dans l’ensemble, vous ajoutez un autre doublon pour cette ressource, la requête renvoie une erreur ou ignore le doublon.
 
 Voir aussi [Limites de Dynamic Media](/help/using/limitations.md).
 
@@ -60,7 +60,7 @@ Voir aussi [Limites de Dynamic Media](/help/using/limitations.md).
 
 Si vous modifiez un jeu publié ou non publié, la variable **[!UICONTROL Publier après enregistrement]** L’option affecte les membres de l’ensemble et de l’ensemble comme suit :
 
-| Visionneuse déjà publiée ? | **[!UICONTROL Publier après enregistrement]** sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| Visionneuse déjà publiée ? | **[!UICONTROL `Publish after save`]** sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- | --- |
 | Oui | Oui | Publié | Publié |
 | Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |

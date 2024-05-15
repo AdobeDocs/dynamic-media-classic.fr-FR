@@ -1,7 +1,7 @@
 ---
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Les problèmes vous permettent de décrire facilement vos idées d’améliorati
 
 ### Création d’une requête d’extraction {#create-a-pull-request}
 
-Si vous rencontrez un problème et savez exactement comment le résoudre, envisagez de créer une requête d’extraction. Les demandes d’extraction vous permettent d’apporter vos propres modifications à la documentation, avant examen pour inclusion par un membre de l’équipe de documentation. Pour apporter les modifications suggérées et créer la requête d’extraction, sélectionnez **[!UICONTROL Modifier cette page]** en haut à droite du panneau de navigation sur n’importe quelle page.
+Si vous rencontrez un problème et savez exactement comment le résoudre, envisagez de créer une requête d’extraction. Les demandes d’extraction vous permettent d’apporter vos propres modifications à la documentation et un membre de l’équipe de documentation la consulte pour l’inclure. Pour apporter les modifications suggérées et créer la requête d’extraction, sélectionnez **[!UICONTROL Modifier cette page]** en haut à droite du panneau de navigation sur n’importe quelle page.
 
-Toutes les demandes d’extraction doivent être accompagnées d’un [contrat de licence du contributeur ou CLA](https://opensource.adobe.com/cla.html). Ce workflow donne à l’Adobe l’autorisation de redistribuer vos contributions dans le cadre du projet. Vous n’envoyez un CLA d’Adobe qu’une seule fois. Par conséquent, si vous en avez déjà envoyé un, vous êtes défini.
+Une signature [contrat de licence du contributeur ou CLA](https://opensource.adobe.com/cla.html) doit accompagner toutes les requêtes de tirage. Ce workflow donne à l’Adobe l’autorisation de redistribuer vos contributions dans le cadre du projet. Vous ne pouvez envoyer un CLA d’Adobe qu’une seule fois. Par conséquent, si vous en avez déjà envoyé un, vous êtes défini.
 
 ### Présentation vidéo rapide
 

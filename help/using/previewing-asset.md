@@ -10,10 +10,10 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 19%
+source-wordcount: '1008'
+ht-degree: 17%
 
 ---
 
@@ -43,7 +43,7 @@ Voir aussi [Exemples de bibliothèques de références de visionneuses Adobe](ht
 
 ## Prévisualiser une ressource en fonction du type de plate-forme de la visionneuse {#previewing-an-asset-based-on-viewer-platform-type}
 
-La fonction Liste des visionneuses vous permet d’avoir une idée du rendu d’un fichier sur telle ou telle plateforme de visionneuse, HTML5 par exemple. Notez que la fonction Liste des visionneuses ne contient pas toutes les plates-formes selon le type de fichier et la visionneuse sélectionnés.
+Vous pouvez utiliser Liste des visionneuses pour prévisualiser l’affichage d’une ressource sur un type particulier de plate-forme de visionneuse, tel que HTML5. Notez que la fonction Liste des visionneuses ne contient pas toutes les plates-formes selon le type de fichier et la visionneuse sélectionnés.
 
 Vous pouvez également utiliser Liste des visionneuses pour copier l’URL d’une visionneuse ou afficher et copier le code de la visionneuse à incorporer dans vos pages web.
 
@@ -63,7 +63,7 @@ Pour une plate-forme de visionneuse donnée, la fenêtre Liste des visionneuses 
 
    Fermez l’aperçu affiché.
 
-1. (Facultatif) Dans la fenêtre Liste des visionneuses, dans la liste déroulante Codage de l’URL pour la génération de l’URL copiée située en bas, sélectionnez le codage de l’URL à appliquer à l’URL de la ressource lorsqu’elle est copiée.
+1. (Facultatif) Dans la fenêtre Liste des visionneuses, dans la liste déroulante Codage de l’URL pour la génération de l’URL située en bas, sélectionnez Codage de l’URL. Ce codage est appliqué à l’URL de la ressource lorsqu’elle est copiée.
 1. (Facultatif) Utilisez l’une des méthodes suivantes :
 
    * Dans la fenêtre Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]** pour une visionneuse et un type de plate-forme sélectionnés.
@@ -82,7 +82,7 @@ Pour une plate-forme de visionneuse donnée, la fenêtre Liste des visionneuses 
 
 Vous pouvez prévisualiser un fichier d’image en fonction de son paramètre d’image prédéfini afin d’avoir une idée du rendu de l’image lorsqu’elle sera dynamiquement diffusée dans votre site Web ou votre application, à des tailles différentes.
 
-Un paramètre d’image prédéfini est un ensemble de paramètres prédéfinis qui modifient la taille, la qualité, le format, la résolution et d’autres aspects de l’apparence d’une image lorsqu’elle est exportée.
+Un paramètre d’image prédéfini est un ensemble de paramètres prédéfinis. Ces paramètres modifient la taille, la qualité de l’image, le format, la résolution et d’autres aspects de l’apparence d’une image lors de son exportation.
 
 Voir [Configuration des paramètres d’image prédéfinis](setting-image-presets.md#setting_up_image_presets).
 
@@ -98,7 +98,8 @@ Voir [Création et activation de paramètres d’image prédéfinis](creating-en
    * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des paramètres d’image prédéfinis]**.
 
 1. Dans la fenêtre Liste des paramètres prédéfinis de l’image, sélectionnez, dans le tableau, le nom du type de paramètre prédéfini dont vous souhaitez prévisualiser le fichier d’image en ligne, dans le volet droit.
-1. (Facultatif) Dans la fenêtre Liste des paramètres d’image prédéfinis, dans la variable **[!UICONTROL Codage d’URL pour la génération d’URL de copie]** dans la liste déroulante au bas de l’écran, sélectionnez le codage d’URL à appliquer à l’URL de la ressource d’image lorsqu’elle est copiée.
+1. (Facultatif) Dans la fenêtre Liste des paramètres d’image prédéfinis, dans la variable **[!UICONTROL Codage d’URL pour la génération d’URL de copie]** Liste déroulante au bas de la page.
+1. Sélectionnez l’option Codage de l’URL à appliquer à l’URL de la ressource image lorsqu’elle est copiée.
 1. (Facultatif) Dans la fenêtre Liste des paramètres d’image prédéfinis, dans la zone supérieure droite du volet d’aperçu, sélectionnez **[!UICONTROL Copier l’URL]** pour le type de paramètre prédéfini sélectionné.
 
    Lorsque vous sélectionnez **[!UICONTROL Copier l’URL]**, son URL associée est automatiquement copiée dans le Presse-papiers.

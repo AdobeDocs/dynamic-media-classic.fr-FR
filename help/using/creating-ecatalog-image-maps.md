@@ -10,10 +10,10 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 36%
+source-wordcount: '1494'
+ht-degree: 31%
 
 ---
 
@@ -23,7 +23,7 @@ Une zone cliquable est une zone d’une page de catalogue électronique que vous
 
 ## Dessin de zones cliquables de catalogue électronique {#drawing-ecatalog-image-maps}
 
-Vous dessinez les zones cliquables des catalogues sur l’onglet Pages de zones de l’écran Catalogue électronique. Cet écran contient une section Zone cliquable dans laquelle les pages du catalogue électronique sont affichées, ainsi qu’une liste des zones cliquables, à droite. Au fur et à mesure que vous tracez les zones cliquables, leur nom est ajouté à cette liste.
+Vous dessinez les zones cliquables des catalogues sur l’onglet Pages de zones de l’écran Catalogue électronique. Cet écran contient une section Zone cliquable dans laquelle les pages du catalogue électronique sont affichées, ainsi qu’une liste des zones cliquables, à droite. Lorsque vous créez des zones cliquables, leurs noms sont indiqués dans la liste Zone cliquable.
 
 1. Sélectionner le survol du catalogue électronique **[!UICONTROL Modifier]** bouton .
 1. Sélectionner **[!UICONTROL Pages de mappage]**.
@@ -51,7 +51,7 @@ Voir [Utiliser un modèle pour saisir du code JavaScript et des URL](creating-im
 1. Sélectionner **[!UICONTROL Enregistrer]**.
 1. (Facultatif) Sélectionnez **[!UICONTROL Aperçu]** pour afficher le catalogue électronique avec le paramètre prédéfini de visionneuse de catalogue électronique par défaut.
 
-Pour supprimer une zone cliquable, sélectionnez son nom dans la liste Zone cliquable, puis sélectionnez **[!UICONTROL Supprimer]**. Pour désactiver temporairement une zone cliquable sur une page sans supprimer la zone cliquable, désélectionnez l’option Activé de la zone cliquable dans le panneau Liste des zones cliquables .
+Pour supprimer une zone cliquable, sélectionnez son nom dans la liste Zone cliquable, puis sélectionnez **[!UICONTROL Supprimer]**. Vous pouvez temporairement désactiver une zone cliquable sur une page sans supprimer la zone cliquable. Sélectionnez l’option Zone cliquable activée dans le panneau de liste Zone cliquable .
 
 ## Incorporation de médias riches dans un catalogue électronique {#embedding-rich-media-in-an-ecatalog}
 
@@ -75,7 +75,7 @@ Vous pouvez également, si vous le souhaitez, afficher du texte d’info-bulle l
 
 En commençant par l’onglet Pages de zones de l’écran Catalogue électronique, utilisez ces techniques pour éditer les zones cliquables d’un catalogue électronique :
 
-* **Ajuster la position** - Sélectionnez l’outil Panoramique et déplacez le pointeur près de la bordure de la carte, mais pas dessus. Lorsque le pointeur prend la forme d’une flèche à quatre pointes, faites glisser la zone de l’image entière vers un nouvel emplacement.
+* **Ajuster la position** - Sélectionnez l’outil Panoramique et déplacez le pointeur près de la bordure de la carte, mais pas dessus. Lorsque le pointeur affiche une flèche à quatre pointes, faites glisser la zone cliquable entière vers un nouvel emplacement.
 
   Voir [Ajuster la position, la forme et la taille des zones cliquables](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
@@ -97,7 +97,7 @@ En commençant par l’onglet Pages de zones de l’écran Catalogue électroniq
 
 >[!NOTE]
 >
->Outre la copie de zones cliquables sur différentes pages dans un catalogue électronique, vous pouvez copier toutes les zones cliquables d’un catalogue électronique dans un autre catalogue électronique. Voir [Copie de zones cliquables entre des catalogues électroniques](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
+>Lorsque vous copiez des zones cliquables dans différentes pages d’un catalogue électronique, vous pouvez copier toutes les zones cliquables d’un catalogue électronique dans un autre catalogue électronique. Voir [Copie de zones cliquables parmi d’autres catalogues électroniques](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
 
 ## Vérification et importation de données de zone cliquable {#reviewing-and-importing-image-map-data}
 
@@ -109,14 +109,14 @@ Pour afficher l’écran Résumé des cartes, dans l’onglet Pages de carte de 
 
 1. Dans l’écran Pages de mappage, sélectionnez **[!UICONTROL Résumé]**.
 
-   L’écran Résumé de zone cliquable indique le nombre de zones cliquables, d’URL, de descriptions de texte de survol et autres actions définies dans votre catalogue électronique.
+   L’écran Résumé des cartes affiche le nombre de zones cliquables, d’URL, de descriptions de texte de survol et d’autres actions figurant dans votre catalogue électronique.
 
 1. En cas d’erreur lors du survol, sélectionnez l’erreur dans la variable **[!UICONTROL Erreur Rollover_Key]** pour voir ce qui doit changer dans votre feuille de calcul pour corriger l’erreur. Vous pouvez sélectionner et copier le texte contenu dans ce message et le coller dans la feuille de calcul.
-1. Sélectionner **[!UICONTROL Aperçu]** vous pouvez ainsi examiner une page dans la visionneuse de catalogue électronique. Sélectionnez le X pour fermer l’écran Résumé et revenir à l’écran Pages de mappage, ou sélectionnez **[!UICONTROL Fermer]** pour revenir à Parcourir.
+1. Sélectionner **[!UICONTROL Aperçu]** vous pouvez donc examiner une page dans la visionneuse de catalogue électronique. Sélectionnez le X pour fermer l’écran Résumé et revenir à l’écran Pages de mappage ou sélectionnez **[!UICONTROL Fermer]** pour revenir à Parcourir.
 
 ### Importation des données de zone cliquable {#import-image-map-data}
 
-Plutôt que de saisir les données de zone cliquable sur chacune des pages, vous avez la possibilité d’importer les données de l’ensemble de votre catalogue électronique dans l’écran de résumé de zone cliquable. Vous importez les données de zone cliquable sous la forme d’un fichier délimité par des tabulations ou d’un fichier DTD XML. Les champs du fichier doivent être dans l’ordre indiqué sur l’écran de résumé de zone cliquable : Nom, Etiquettes de table des matières, Zones, URL, Texte de survol, Autres actions et Chaînes de recherche. Vous évitez ainsi d’avoir à saisir les données dans la liste de zones cliquables au fur et à mesure que vous créez ces dernières.
+Plutôt que de saisir les données de zone cliquable sur chacune des pages, vous avez la possibilité d’importer les données de l’ensemble de votre catalogue électronique dans l’écran de résumé de zone cliquable. Vous importez les données de zone cliquable sous la forme d’un fichier délimité par des tabulations ou d’un fichier DTD XML. Les champs du fichier doivent être dans l’ordre indiqué sur l’écran de résumé de zone cliquable : Nom, Etiquettes de table des matières, Zones, URL, Texte de survol, Autres actions et Chaînes de recherche. L’importation de données de zone cliquable vous évite d’avoir à entrer les données dans la liste des zones cliquables lors de la création de chaque zone cliquable.
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ Depuis l’écran de résumé de zone cliquable, procédez comme suit pour impor
 1. Dans le champ Nom de la tâche, saisissez le nom du fichier (en veillant à bien indiquer l’extension).
 1. Sélectionner **[!UICONTROL Télécharger]**.
 
-## Copie de zones cliquables entre des catalogues électroniques {#copying-image-maps-between-ecatalogs}
+## Copie de zones cliquables parmi d’autres catalogues électroniques {#copying-image-maps-between-ecatalogs}
 
 Vous pouvez copier toutes les zones cliquables d’un catalogue électronique dans un autre catalogue électronique. Il s’agit d’une méthode pratique de copie de zones cliquables entre les traductions en langues étrangères du même catalogue électronique. Pour que la copie soit réussie, Adobe Dynamic Media Classic recommande de copier entre des catalogues électroniques avec le même nombre de pages et les mêmes images.
 
@@ -143,4 +143,4 @@ Pour copier toutes les zones cliquables d’un catalogue électronique dans un a
 1. Dans l’onglet Ordre des pages, sélectionnez **[!UICONTROL Copier des mappages]**.
 1. Dans la boîte de dialogue Select Asset, sélectionnez le catalogue électronique dans lequel vous souhaitez copier les zones cliquables, puis sélectionnez **[!UICONTROL Sélectionner]**.
 
-Adobe Dynamic Media Classic affiche un message d’avertissement si le catalogue électronique cible (le catalogue électronique dans lequel vous copiez les zones cliquables) comporte un nombre différent de pages ou d’images d’une taille différente. Sélectionner **[!UICONTROL Continuer]** pour copier les zones cliquables malgré l’avertissement.
+Adobe Dynamic Media Classic affiche un message d’avertissement si le catalogue électronique cible à partir duquel vous copiez des zones cliquables comporte un nombre différent de pages ou d’images d’une taille différente. Sélectionner **[!UICONTROL Continuer]** pour copier les zones cliquables malgré l’avertissement.

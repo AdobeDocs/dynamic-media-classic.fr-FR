@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 56%
+source-wordcount: '725'
+ht-degree: 47%
 
 ---
 
@@ -27,15 +27,15 @@ Consultez les vidéos de formation suivantes :
 
 * [Présentation de Media Portal](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
 
-* [Visite de Media Portal 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+* [Media Portal Tour 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
 
-* [Visite de Media Portal 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+* [Media Portal Tour 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
 Le didacticiel de mise en route suivant est conçu pour vous aider à maîtriser rapidement l’administration de Media Portal. À la fin de chaque étape, sélectionnez le lien de la rubrique pour en savoir plus.
 
 ## 1. Compréhension des rôles utilisateur du portail multimédia
 
-Les utilisateurs du portail multimédia se rangent dans trois catégories : utilisateur, contributeur et contributeur-utilisateur. Chaque rôle permet d’effectuer un ensemble de tâches précis. Par exemple, un contributeur est habilité à renommer et à supprimer des fichiers et des dossiers, contrairement à un simple utilisateur. Familiarisez-vous avec ces rôles afin de pouvoir, lors de la création des rôles, bien comprendre les responsabilités que vous octroyez à chacun d’entre eux.
+Les utilisateurs du portail multimédia se répartissent en trois rôles : utilisateur, contributeur et contributeur-utilisateur. Chaque rôle permet d’effectuer un ensemble de tâches précis. Par exemple, un contributeur est habilité à renommer et à supprimer des fichiers et des dossiers, contrairement à un simple utilisateur. Familiarisez-vous avec ces rôles afin de pouvoir, lors de la création des rôles, bien comprendre les responsabilités que vous octroyez à chacun d’entre eux.
 
 Voir [Rôles utilisateur du portail multimédia](media-portal-user-roles.md#media_portal_user_roles).
 
@@ -47,13 +47,13 @@ Voir [Création et gestion des groupes Media Portal](creating-media-portal-group
 
 ## 3. Ajout des utilisateurs
 
-Lorsque vous ajoutez un utilisateur, vous lui attribuez un rôle (utilisateur, contributeur ou contributeur-utilisateur). Vous affectez également l’utilisateur à un ou plusieurs groupes. Pour accélérer la procédure d’ajout, vous pouvez télécharger une liste d’utilisateurs enregistrée dans un fichier au format CSV. Les nouveaux utilisateurs reçoivent un message électronique de bienvenue accompagné d’instructions de connexion au portail multimédia.
+Lorsque vous ajoutez un utilisateur, vous lui attribuez un rôle (utilisateur, contributeur ou contributeur-utilisateur). Vous pouvez également affecter l’utilisateur à un ou plusieurs groupes. Pour accélérer la procédure d’ajout, vous pouvez télécharger une liste d’utilisateurs enregistrée dans un fichier au format CSV. Les nouveaux utilisateurs reçoivent un message électronique de bienvenue accompagné d’instructions de connexion au portail multimédia.
 
 Voir [Ajout et gestion des utilisateurs de Media Portal](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## 4. Gestion des comptes FTP
 
-Vous pouvez avoir des comptes FTP distincts associés à Media Portal et mappés à un dossier spécifique dans votre compte Adobe Dynamic Media Classic. Ce type de fonctionnalité signifie que vous pouvez autoriser les utilisateurs à télécharger des fichiers numériques sur votre compte en utilisant des comptes FTP distincts.
+Vous pouvez avoir des comptes FTP distincts associés à Media Portal. Ils peuvent être mappés à un dossier spécifique dans votre compte Adobe Dynamic Media Classic. Ce type de fonctionnalité signifie que vous pouvez autoriser les utilisateurs à télécharger des fichiers numériques sur votre compte en utilisant des comptes FTP distincts.
 
 Voir [Gestion des comptes FTP](ftp-accounts.md#managing_ftp_accounts).
 
@@ -71,13 +71,13 @@ Voir [Définition des options d’exportation disponibles pour les utilisateurs 
 
 ## 6. Création de paramètres d’image prédéfinis
 
-Un paramètre d’image prédéfini est un ensemble de paramètres prédéfinis qui modifient la taille, la qualité, le format, la résolution et d’autres aspects de l’apparence d’une image lorsqu’elle est exportée. Les paramètres d’image prédéfinis peuvent servir à contrôler le type de reformatage des images lors de leur exportation.
+Un paramètre d’image prédéfini est un ensemble de paramètres prédéfinis. Ces paramètres peuvent modifier la taille, la qualité de l’image, le format, la résolution et d’autres aspects de l’apparence d’une image lors de son export. Les paramètres d’image prédéfinis peuvent servir à contrôler le type de reformatage des images lors de leur exportation.
 
 Voir [Création et activation de paramètres d’image prédéfinis](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## 7. Création de paramètres prédéfinis des métadonnées et de champs de métadonnées définis par l’utilisateur
 
-Les métadonnées permettent de décrire et d’identifier un fichier ; elles servent à rechercher et à organiser les fichiers. Les paramètres prédéfinis de métadonnées permettent de vous assurer que les métadonnées sont spécifiées correctement et que les champs de métadonnées obligatoires sont bien remplis. Un paramètre prédéfini de métadonnées est un ensemble préétabli d’entrées de métadonnées. Vous pouvez également créer des champs de métadonnées qui décrivent de manière unique les fichiers que vous utilisez.
+Les métadonnées décrivent et identifient un fichier. Il est utilisé pour rechercher et organiser des ressources. Vous pouvez créer des paramètres prédéfinis de métadonnées afin de vous assurer que vous saisissez correctement les métadonnées et que tous les champs de métadonnées nécessitant des données sont remplis. Un paramètre prédéfini de métadonnées est un ensemble préétabli d’entrées de métadonnées. Vous pouvez également créer des champs de métadonnées qui décrivent de manière unique les fichiers que vous utilisez.
 
 Voir [Optimisation de l’utilisation des métadonnées](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 

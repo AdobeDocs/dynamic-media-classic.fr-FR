@@ -10,10 +10,10 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 48%
+ht-degree: 40%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Dynamic Media Classic conserve un enregistrement des tâches d’exportati
 
    * **[!UICONTROL Job Name]** - Vous pouvez attribuer un nom de tâche à l’exportation.
 
-   * **[!UICONTROL Envoyer un courrier électronique à]** - Vous pouvez éventuellement saisir une adresse électronique si vous souhaitez envoyer les ressources par courrier électronique. Le message e-mail indique l’URL à laquelle le destinataire peut accéder pour télécharger les fichiers.
+   * **[!UICONTROL Envoyer un courrier électronique à]** : facultatif. Entrez une adresse électronique si vous souhaitez envoyer les ressources par courrier électronique. Le message e-mail indique l’URL à laquelle le destinataire peut accéder pour télécharger les fichiers.
 
 1. Sélectionner **[!UICONTROL Exporter]**.
 
@@ -77,5 +77,5 @@ Pour exporter les types de fichier suivants, utilisez la conversion :
 
 Le chargement de nombreux types de fichier divers dans l’outil d’exportation entraîne les comportements suivants :
 
-* Tous les types de fichier qu’il est impossible d’exporter sont supprimés de la liste avant que la tâche soit soumise.
-* Si une conversion est demandée, tous les types de fichier pouvant être convertis le sont, et tous les autres sont exportés en tant que fichier d’origine.
+* Tous les types de ressources qui ne peuvent pas être exportés sont supprimés de la liste avant l’envoi de la tâche.
+* Si une conversion est demandée, tous les types qui peuvent être convertis sont et tous les autres sont exportés en tant qu’original.
