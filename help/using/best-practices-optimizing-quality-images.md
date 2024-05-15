@@ -10,10 +10,10 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1601'
-ht-degree: 45%
+source-wordcount: '1604'
+ht-degree: 40%
 
 ---
 
@@ -29,7 +29,8 @@ Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/en/docs/exper
 >
 >Testez et découvrez les avantages des modificateurs d’image Dynamic Media et de l’imagerie dynamique à l’aide de Dynamic Media [_Instantané_](https://snapshot.scene7.com/).
 >
-> L’instantané est un outil de démonstration visuel, conçu pour illustrer la puissance de Dynamic Media pour une diffusion d’images optimisée et dynamique. Testez des images de test ou des URL Dynamic Media afin d’observer visuellement la sortie de divers modificateurs d’image Dynamic Media et d’optimiser l’imagerie dynamique pour les éléments suivants :
+> L’instantané est un outil de démonstration visuel, conçu pour illustrer la puissance de Dynamic Media pour une diffusion d’images optimisée et dynamique. Testez des images de test ou des URL Dynamic Media afin d’observer visuellement la sortie de divers modificateurs d’image Dynamic Media et des optimisations de l’imagerie dynamique pour les éléments suivants :
+>
 >* Taille de fichier (avec diffusion WebP et AVIF)
 >* Bande passante réseau
 >* RGPD (rapport des pixels de l’appareil)
@@ -69,7 +70,7 @@ Avec Adobe Dynamic Media Classic, vous pouvez accentuer les images lors de l’i
 
 Vous pouvez utiliser deux méthodes d’accentuation des images :
 
-* Accentuation simple ( `&op_sharpen`) : à l’instar du filtre d’accentuation utilisé dans Photoshop, l’accentuation simple applique une accentuation de base à l’affichage final de l’image à la suite d’un redimensionnement dynamique. Toutefois, cette méthode n’est pas configurable par l’utilisateur. La bonne pratique consiste à ne pas utiliser `&op_sharpen` sauf si nécessaire.
+* Accentuation simple ( `&op_sharpen`) : à l’instar du filtre d’accentuation utilisé dans Photoshop, l’accentuation simple applique une accentuation de base à l’affichage final de l’image à la suite d’un redimensionnement dynamique. Toutefois, cette méthode n’est pas configurable par l’utilisateur. La bonne pratique consiste à éviter l’utilisation de `&op_sharpen` sauf si nécessaire.
 * Masquage flou ( `&op_USM`) : le masquage flou est un filtre standard de l’industrie pour l’accentuation. Il est recommandé d’accentuer les images avec le masquage flou en suivant les conseils ci-dessous. Le masquage flou permet de contrôler les trois paramètres suivants :
 
    * `&op_sharpen=amount,radius,threshold`
@@ -81,7 +82,7 @@ Vous pouvez utiliser deux méthodes d’accentuation des images :
 
       * `threshold` (0 à 255, sensibilité de l’effet.)
 
-        Ce paramètre définit l’écart recherché entre les pixels accentués et la zone environnante avant qu’ils ne soient considérés comme des pixels de contour et ne soient accentués par le filtre. Le seuil permet d’éviter de trop accentuer les zones avec des couleurs similaires, comme des tons chair. Par exemple, une valeur de seuil de 12 ignore les légères variations de luminosité de la peau, afin de ne pas ajouter de bruit, tout en ajoutant un contraste sur les bords dans les zones contrastées, comme la zone où les cils rencontrent la peau.
+        Ce paramètre définit l’écart recherché entre les pixels accentués et la zone environnante avant qu’ils ne soient considérés comme des pixels de contour et ne soient accentués par le filtre. Le seuil permet d’éviter de trop accentuer les zones avec des couleurs similaires, comme des tons chair. Par exemple, une valeur de seuil de 12 ignore les légères variations de la luminosité de la peau pour éviter d’ajouter du &quot;bruit&quot;, tout en ajoutant un contraste sur les bords dans les zones à fort contraste, comme l’endroit où les cils rencontrent la peau.
 
         Pour plus d’informations sur la définition de ces trois paramètres, y compris les bonnes pratiques à utiliser avec le filtre, voir [Accentuer les images dans Adobe Dynamic Media Classic et sur le serveur d’images](/help/using/assets/s7_sharpening_images.pdf).
 
@@ -98,10 +99,10 @@ Augmentez graduellement la valeur entre 1,75 et 4. Si l’accentuation ne corres
 
 Laissez le paramètre monochrome sur 0.
 
-## Recommandations relatives à la compression JPEG (&amp;qlt=) {#best-practices-for-jpeg-compression-qlt}
+## Bonnes pratiques relatives à la compression des JPEG (`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
 
 * Ce paramètre contrôle la qualité du codage JPG. Une valeur élevée produit une image de meilleure qualité mais un fichier plus gros ; en revanche, une valeur faible désigne une image de qualité inférieure mais un fichier plus petit. Ce paramètre est compris entre 0 et 100.
-* Pour optimiser la qualité, ne définissez pas ce paramètre sur 100. La différence entre un paramètre de 90, 95 ou 100 est presque imperceptible, mais 100 augmente inutilement la taille du fichier image. Par conséquent, pour optimiser la qualité, mais éviter que les fichiers image deviennent trop volumineux, définissez la variable `qlt=` à 90 ou 95.
+* Pour optimiser la qualité, ne définissez pas ce paramètre sur 100. La différence entre un paramètre de 90, 95 et 100 est presque imperceptible. Pourtant, 100 augmente inutilement la taille du fichier image. Par conséquent, pour optimiser la qualité, mais éviter que les fichiers image deviennent trop volumineux, définissez la variable `qlt=` à 90 ou 95.
 * Pour optimiser pour une petite taille de fichier image tout en conservant la qualité de l’image à un niveau acceptable, définissez la variable `qlt=` à 80. Les valeurs inférieures à 70-75 se traduisent par une dégradation notable de la qualité d’image.
 * Pour rester dans la moyenne, il est recommandé de définir la variable `qlt=` à 85 pour rester au milieu.
 * Utilisation du drapeau chromatique dans `qlt=`
@@ -116,13 +117,13 @@ La bonne pratique pour la compression des JPG consiste à utiliser `&qlt=85,0`.
 Le paramètre `jpegSize` est utile si vous souhaitez garantir qu’une image ne dépasse pas une certaine taille pour être diffusée sur des appareils dont la mémoire est limitée.
 
 * Ce paramètre est défini en kilo-octets ( `jpegSize=<size_in_kilobytes>`). Il définit la taille maximale autorisée pour la distribution des images.
-* `&jpegSize=` interagit avec le paramètre de compression du JPG `&qlt=`. Si la réponse du JPG avec le paramètre de compression du JPG spécifié ( `&qlt=`) ne dépasse pas le nombre de `jpegSize` , l’image est renvoyée avec `&qlt=` comme défini. Sinon, `&qlt=` est graduellement diminué jusqu’à ce que l’image s’adapte à la taille maximale autorisée ou jusqu’à ce que le système détermine qu’elle ne peut pas s’adapter et renvoie une erreur.
+* `&jpegSize=` interagit avec le paramètre de compression du JPG `&qlt=`. Si la réponse du JPG avec le paramètre de compression du JPG spécifié ( `&qlt=`) ne dépasse pas le nombre de `jpegSize` , l’image est renvoyée avec `&qlt=` comme défini. Sinon, `&qlt=` est graduellement diminué jusqu’à ce que l’image s’adapte à la taille maximale autorisée. Ou, jusqu’à ce que le système détermine qu’il ne peut pas s’adapter et renvoie une erreur.
 
 Pour respecter les bonnes pratiques, définissez `&jpegSize=` et ajoutez le paramètre `&qlt=` si vous diffusez des images de JPG vers des appareils dont la mémoire est limitée.
 
 ## Résumé des recommandations {#best-practices-summary}
 
-En règle générale, pour obtenir une image de qualité élevée mais un fichier de petite taille, commencez par la combinaison de paramètres suivante :
+Pour obtenir une image de qualité élevée et un fichier de petite taille, il est recommandé de commencer par la combinaison de paramètres suivante :
 
 `fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0`
 

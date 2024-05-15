@@ -10,10 +10,10 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 24%
+source-wordcount: '1022'
+ht-degree: 22%
 
 ---
 
@@ -31,7 +31,7 @@ Les options de téléchargement de fichiers de PSD se trouvent sous Options Phot
 
 Les options suivantes sont disponibles au cours du téléchargement des fichiers PSD :
 
-* **Options de recadrage** - Situé sous **[!UICONTROL Options de recadrage]**. Sélectionner **[!UICONTROL Rogner]** pour recadrer automatiquement l’espace blanc des bords d’un fichier de PSD ; sélectionnez **[!UICONTROL Manuel]** pour recadrer les côtés du fichier de PSD :
+* **Options de recadrage** - Situé sous **[!UICONTROL Options de recadrage]**. Sélectionner **[!UICONTROL Rogner]** vous pouvez ainsi recadrer automatiquement l’espace blanc à partir des bords d’un fichier de PSD. Sélectionner **[!UICONTROL Manuel]** pour recadrer les côtés du fichier de PSD :
 
    * **[!UICONTROL Rogner]** - Sélectionnez la variable **[!UICONTROL Rogner en fonction de]** et choisissez **[!UICONTROL Couleur]** ou **[!UICONTROL Transparence]**.
 
@@ -39,7 +39,7 @@ Les options suivantes sont disponibles au cours du téléchargement des fichiers
 
   Faites glisser le curseur pour définir une valeur de tolérance comprise entre 0 et 1. Pour effectuer le rognage en fonction de la couleur, indiquez la valeur 0 pour rogner les pixels seulement s’ils correspondent exactement à la couleur que vous avez sélectionnée dans l’angle du fichier PSD. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs. Pour effectuer un rognage en fonction de la transparence, indiquez 0 pour rogner les pixels seulement s’ils sont transparents ; les nombres plus proches de 1 permettent une plus grande transparence.
 
-   * **[!UICONTROL Manuel]** - Saisissez le nombre de pixels à recadrer d’un côté ou de chaque côté de l’image. La proportion de l’image qui est rognée dépend du paramètre ppp (pixels par pouce) défini dans le fichier d’image. Par exemple, si l’image affiche 150 ppp et que vous entrez 75 dans les zones de texte Haut, Droite, Bas et Gauche, 0,5 po. est recadré de chaque côté de l’image.
+   * **[!UICONTROL Manuel]** - Saisissez le nombre de pixels à recadrer d’un côté ou de chaque côté de l’image. La proportion de l’image qui est rognée dépend du paramètre ppp (pixels par pouce) défini dans le fichier d’image. Supposons, par exemple, que l’image affiche 150 ppp. Ensuite, saisissez 75 dans les zones de texte Haut, Droite, Bas et Gauche. Chaque côté de l’image est recadré, 0,5 pouces.
 
 * **Options de profil colorimétrique** - Situé sous **[!UICONTROL Options de profil colorimétrique]**.
 
@@ -67,7 +67,7 @@ Les options suivantes sont disponibles au cours du téléchargement des fichiers
 
       * **[!UICONTROL Photoshop et nom du calque]** - Nomme les images après le fichier de PSD suivi du nom ou du numéro de calque. Le numéro de calque est utilisé si le nom des calques dans le fichier PSD est un nom de calque Photoshop par défaut. Par exemple, un calque nommé `Price Tag` dans un fichier de PSD nommé `SpringAd` est nommé `Spring Ad_Price Tag`. Un calque portant le nom par défaut Calque 2 est appelé `Spring Ad_2`.
 
-   * **[!UICONTROL Ancre]** - Indiquez le mode d’ancrage des images dans les modèles générés à partir de la composition superposée produite à partir du fichier de PSD. Par défaut, l’ancrage est au centre. Un ancrage au centre permet aux images de remplacement de remplir de manière optimale le même espace, quelles que soient les proportions de l’image de remplacement. Les images qui remplacent cette image et qui présentent un aspect différent occupent le même espace lorsque le modèle est référencé et le paramètre de substitution utilisé. Changez de paramètre si votre application nécessite le remplacement d’images pour occuper l’espace alloué dans le modèle.
+   * **[!UICONTROL Ancre]** - Indiquez le mode d’ancrage des images dans les modèles générés à partir de la composition superposée produite à partir du fichier de PSD. Par défaut, l’ancrage est au centre. Une ancre centrale permet aux images de remplacement de remplir le mieux le même espace, quel que soit le rapport L/H de l’image de remplacement. Les images qui remplacent cette image et qui présentent un aspect différent occupent le même espace lorsque le modèle est référencé et le paramètre de substitution utilisé. Changez de paramètre si votre application nécessite le remplacement d’images pour occuper l’espace alloué dans le modèle.
 
 ## Affichage et modification des calques dans un fichier de PSD {#viewing-and-editing-layers-in-a-psd-file}
 
@@ -86,9 +86,9 @@ Si vous avez sélectionné l’option **[!UICONTROL Conserver les calques]** lor
 1. Sélectionner **[!UICONTROL Calques]**. Le panneau Calques affiche tous les calques sous la forme d’images distinctes.
 1. Double-cliquez sur un calque et effectuez l’une des opérations suivantes :
 
-   * Pour créer une zone cliquable sur le calque, sélectionnez **[!UICONTROL Zone cliquable]** Icône (Voir [Création de zones cliquables](creating-image-maps.md#creating_image_maps).)
-   * Pour créer des cibles de zoom sur le calque, sélectionnez **[!UICONTROL Cibles de zoom]** Icône (Voir [Création de cibles de zoom pour un zoom guidé](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
-   * Pour recadrer le calque, sélectionnez **[!UICONTROL Recadrer]** Icône (Voir [Recadrage d’une image](cropping-image.md#cropping_an_image).)
+   * Pour créer une zone cliquable sur le calque, sélectionnez l’option **[!UICONTROL Zone cliquable]** Icône (Voir [Création de zones cliquables](creating-image-maps.md#creating_image_maps).)
+   * Pour créer des cibles de zoom sur le calque, sélectionnez l’option **[!UICONTROL Cibles de zoom]** Icône (Voir [Création de cibles de zoom pour un zoom guidé](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
+   * Pour recadrer le calque, sélectionnez l’option **[!UICONTROL Recadrer]** Icône (Voir [Recadrage d’une image](cropping-image.md#cropping_an_image).)
    * Pour accentuer le calque, sélectionnez **[!UICONTROL Accentuer]**. (Voir [Accentuer une image](sharpening-image.md#sharpening_an_image).)
    * Pour ajuster le calque, sélectionnez **[!UICONTROL Ajuster]**. (Voir [Réglage d’une image](adjusting-image.md#adjusting_an_image).)
 

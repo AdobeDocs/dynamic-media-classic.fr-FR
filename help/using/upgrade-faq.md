@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,16 @@ ht-degree: 0%
 +++**Quels sont les principaux avantages de la mise à niveau vers [!DNL Dynamic Media]?**
 
 * Collaboration et synchronisation de fichiers partagés avec [!DNL Adobe Creative Cloud] applications.
-* Gestion des ressources numériques d’entreprise avec prise en charge robuste des métadonnées, recherche dynamique, Lightbox et collections, contrôle de version et partage sécurisé de ressources pour une utilisation par les fournisseurs, les partenaires et les franchisés Workflows de révision et d’approbation pour le travail dans les ressources de processus.
+* Gestion des ressources numériques d’entreprise avec :
+   * prise en charge des métadonnées robuste
+   * recherche dynamique
+   * Lightbox et collections
+   * contrôle de version
+   * partage sécurisé de ressources pour une utilisation par des fournisseurs, des partenaires et des franchisés
+* Workflows de révision et d’approbation pour le travail dans les ressources de processus.
 * Facilité d’adoption et d’utilisation avec la nouvelle interface utilisateur.
 * Créez des expériences Shoppable/Interactive Media à l’aide d’images et de vidéos qui génèrent des conversions et enrichissent l’engagement et la satisfaction des utilisateurs.
-* Combinez les ressources de campagne avec les informations sur les produits afin de rationaliser les clics vers le panier.
+* Combinez les ressources de campagne avec les informations sur les produits afin de rationaliser le clic sur le panier.
 * Créez, ajustez, attribuez une marque et déployez facilement des visionneuses interactives à l’aide du concepteur de visionneuses WYSIWYG.
 * Diffuser des médias enrichis optimisés vers [!DNL Experience Cloud] solutions.
 * Intégration avec [!DNL Experience Cloud] pour les analyses avancées des ressources, le ciblage et la réutilisation des ressources sur plusieurs points de contact marketing. Ces points de contact sont les suivants : [!DNL Adobe Campaign] pour l&#39;email, [!DNL Adobe Social] pour les canaux sociaux, et [!DNL Experience Manager] Sites pour les applications web et mobiles réactives.
@@ -57,7 +63,7 @@ Adobe a remplacé le nom d’Adobe Scene7 par [!DNL Dynamic Media Classic].
 ## Processus et outils de mise à niveau
 
 +++**Qui est éligible au programme de mise à niveau ?**
-Actuel [!DNL Dynamic Media Classic] (anciennement Scene7) les clients qui ont également [!DNL Experience Manager].
+Clients qui disposent actuellement de [!DNL Dynamic Media Classic] (anciennement Scene7) et ont également [!DNL Experience Manager].
 
 +++
 
@@ -67,7 +73,7 @@ Contactez votre représentant de l’équipe chargée du compte d’Adobe ou [em
 +++
 
 +++**Comment le processus de mise à niveau est-il géré ?**
-La mise à niveau est gérée par AGS (Adobe Global Services) et traitée comme un projet de service. Adobe ne permet de migrer que les ressources. Le client, AGS ou Partner sont responsables de tous les autres aspects et étapes de mise à niveau. En résumé, un plan de mise à niveau contient les éléments suivants :
+AGS (Adobe Global Services) gère la mise à niveau et la traite comme un projet de service. Adobe ne permet de migrer que les ressources. Le client, AGS ou Partner sont responsables de tous les autres aspects et étapes de mise à niveau. En résumé, un plan de mise à niveau contient les éléments suivants :
 
 * Configuration de comptes d’entreprise/d’utilisateur.
 * Réplication des ressources depuis [!DNL Dynamic Media Classic] (anciennement Scene7) pour la variable [!DNL Dynamic Media] du composant [!DNL Experience Manager] Ressources (fournies par Adobe via un outil de mise à niveau automatisé).
@@ -107,7 +113,7 @@ Non. La variable [liste de contrôle de préparation](/help/using/upgrade-readin
 +++
 
 +++**Dois-je effectuer la mise à niveau ?**
-Non. L’Adobe continue d’apporter son soutien et d’assurer sa maintenance [!DNL Dynamic Media Classic] (correctifs de bogues demandés par le client, correctifs de sécurité, évolutivité de la plateforme et fiabilité), maintenant et à l’avenir.
+Non. Adobe prend entièrement en charge et gère [!DNL Dynamic Media Classic] (correctifs de bogues demandés par le client, correctifs de sécurité, évolutivité de la plateforme et fiabilité), maintenant et à l’avenir.
 
 Vous pouvez effectuer une mise à niveau lorsque vous êtes prêt à tirer parti des nouvelles fonctionnalités offertes par [!DNL Dynamic Media].
 
@@ -123,7 +129,7 @@ Après avoir effectué la mise à niveau vers [!DNL Dynamic Media], vous ne deve
 +++
 
 +++**Quels outils Adobe fournit-il pour automatiser le processus de mise à niveau ?**
-Pour le lancement initial du programme de mise à niveau, Adobe fournit des outils pour déplacer automatiquement les ressources depuis [!DNL Dynamic Media Classic] to [!DNL Dynamic Media] in [!DNL Experience Manager] Ressources.
+Pour le lancement initial du programme de mise à niveau, Adobe fournit des outils qui permettent de déplacer automatiquement les ressources depuis [!DNL Dynamic Media Classic] to [!DNL Dynamic Media] in [!DNL Experience Manager] Ressources.
 
 +++
 
@@ -133,12 +139,12 @@ Oui. Vous pouvez continuer à utiliser la variable [!DNL Dynamic Media Classic] 
 +++
 
 +++**Dois-je mettre à jour mes URL de production ?**
-Non. Adobe continue à utiliser la variable [!DNL Dynamic Media Classic] l’infrastructure de publication et de diffusion telle quelle dans la [!DNL Dynamic Media] solution. L’avantage de cette approche est que vous n’avez pas à modifier d’URL de production sur vos pages web, ce qui réduit les risques et les efforts de migration vers [!DNL Dynamic Media].
+Non. Adobe continue à utiliser la variable [!DNL Dynamic Media Classic] l’infrastructure de publication et de diffusion telle quelle dans la [!DNL Dynamic Media] solution. L’avantage de cette approche est que vous n’avez pas à modifier d’URL de production sur vos pages web, ce qui minimise les risques et les efforts de migration vers [!DNL Dynamic Media].
 
 +++
 
 +++**Vais-je devoir réécrire les intégrations d’API et d’autres scripts d’automatisation ?**
-Non. Adobe continue à utiliser la variable [!DNL Dynamic Media Classic] l’infrastructure de publication et de diffusion telle quelle dans la [!DNL Dynamic Media] solution. En outre, toutes les ressources sont répliquées vers [!DNL Dynamic Media Classic]. L’avantage de cette approche est que vous n’avez pas à réécrire des intégrations basées sur des API ou des scripts d’automatisation, ce qui réduit les risques et les efforts de migration vers [!DNL Dynamic Media].
+Non. Adobe continue à utiliser la variable [!DNL Dynamic Media Classic] l’infrastructure de publication et de diffusion telle quelle dans la [!DNL Dynamic Media] solution. En outre, toutes les ressources sont répliquées vers [!DNL Dynamic Media Classic]. L’avantage de cette approche est que vous n’avez pas à réécrire des intégrations basées sur des API ou des scripts d’automatisation, ce qui minimise les risques et les efforts de migration vers [!DNL Dynamic Media].
 
 +++
 
@@ -172,7 +178,7 @@ Oui. Adobe possède des centres de données en Amérique du Nord, en Europe et e
 +++
 
 +++**Durée [!DNL Dynamic Media Classic] existera-t-il en tant que produit autonome ?**
-L’Adobe continue d’apporter son soutien et d’assurer sa maintenance [!DNL Dynamic Media Classic] (correctifs de bogues demandés par le client, correctifs de sécurité, évolutivité de la plateforme et fiabilité), maintenant et à l’avenir.
+Adobe prend entièrement en charge et gère [!DNL Dynamic Media Classic] (correctifs de bogues demandés par le client, correctifs de sécurité, évolutivité de la plateforme et fiabilité), maintenant et à l’avenir.
 
 +++
 
@@ -182,7 +188,12 @@ Dynamic Media est livré avec 60 Go de stockage. Vous pouvez acheter un stockage
 +++
 
 +++**Mesure utilisée [!DNL Dynamic Media] utilisation ?**
-Pages vues par mois (PVM). Page vue correspond à une vue unique d’un email ou d’une page web d’un site Internet. Il comprend également les vues d’écran de l’application, les états d’écran de l’application, les pages web mobiles et les pages de réseau social. Pages vues se produit chaque fois qu’une page web est chargée ou actualisée, qu’une application est chargée ou que le contenu est rendu ou affiché par le biais d’un email ouvert ou consulté.
+Pages vues par mois (PVM). Page vue désigne une vue unique d’un courrier électronique ou d’une page web d’un site Internet. Il comprend également les vues d’écran de l’application, les états d’écran de l’application, les pages web mobiles et les pages de réseau social. Pages vues :
+
+* A chaque chargement ou actualisation d’une page web
+* Lorsqu’une application est chargée
+* Lors du rendu du contenu
+* Affiché par le biais d’un email ouvert ou consulté
 
 +++
 

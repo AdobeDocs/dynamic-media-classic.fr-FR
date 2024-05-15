@@ -10,10 +10,10 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1511'
-ht-degree: 18%
+source-wordcount: '1513'
+ht-degree: 17%
 
 ---
 
@@ -31,11 +31,11 @@ Pour afficher uniquement les fichiers d’un certain type au fur et à mesure de
 
 >[!NOTE]
 >
->Si le panneau Bibliothèque de ressources ne s’affiche pas sur le côté gauche, sélectionnez la flèche du triangle droit sur le côté gauche, à mi-chemin de la fenêtre Adobe Dynamic Media Classic, pour ouvrir la bibliothèque de ressources.)
+>Si le panneau Bibliothèque de ressources ne s’affiche pas sur le côté gauche, cliquez sur la flèche du triangle droit sur le côté gauche, à mi-chemin de la fenêtre Dynamic Media Classic, pour ouvrir la bibliothèque de ressources.
 
 ## Tri des fichiers dans le panneau de navigation {#sorting-files-in-the-browse-panel}
 
-Pour trier le contenu d’un dossier ou des résultats de recherche qui apparaissent dans le panneau de navigation sur le côté droit, dans la barre de navigation globale, sélectionnez **[!UICONTROL Tri]**, puis sélectionnez une option. Les options disponibles sont les suivantes : **[!UICONTROL Nom]**, **[!UICONTROL Taille (Ko)]**, **[!UICONTROL Type]**, **[!UICONTROL Date de création]**, et **[!UICONTROL Dernière modification]**.
+Vous pouvez trier le contenu d’un dossier ou les résultats de recherche qui apparaissent dans le panneau de navigation sur le côté droit. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Tri]**, puis sélectionnez une option. Les options disponibles sont les suivantes : **[!UICONTROL Nom]**, **[!UICONTROL Taille (Ko)]**, **[!UICONTROL Type]**, **[!UICONTROL Date de création]**, et **[!UICONTROL Dernière modification]**.
 
 Vous pouvez également choisir **[!UICONTROL ascendant]** ou **[!UICONTROL Descendant]** pour trier les ressources par ordre croissant ou décroissant selon les critères de votre choix.
 
@@ -63,7 +63,7 @@ Dans la bibliothèque de ressources, directement sous le champ Rechercher , sél
 
 Spécifiez l’un des critères suivants dans votre recherche avancée :
 
-* **Filtrage par type de ressource** - Limitez votre recherche à un type de ressource uniquement en choisissant un type de ressource dans le menu .
+* **Filtrage par type de ressource** - Limitez votre recherche à un seul type de ressource. Sélectionnez un type de ressource dans le menu.
 
 * **Fichiers et dossiers** - Sélectionnez l’emplacement de recherche : **[!UICONTROL Dans tous les fichiers et dossiers]**, **[!UICONTROL Dans le dossier sélectionné]**, ou **[!UICONTROL Dans les dossiers et sous-dossiers sélectionnés]**.
 
@@ -87,7 +87,7 @@ Sélectionner **[!UICONTROL Effacer]** si vous souhaitez effacer les critères d
 
 ## Filtrage des fichiers à l’aide de métadonnées {#filter-assets-using-metadata}
 
-Vous pouvez filtrer les fichiers dans l’onglet Filtres de la bibliothèque de fichiers. Pour ce faire, vous pouvez utiliser les métadonnées comme critères de filtre. Après avoir choisi un champ de métadonnées sur lequel filtrer les données, l’onglet Filtres répertorie toutes les valeurs de métadonnées saisies dans le champ que vous avez choisi. Il indique également le nombre de ressources auxquelles chaque valeur a été affectée. Par exemple, dans une opération de filtrage sur la variable **[!UICONTROL Créateur]** le champ de métadonnées, **[!UICONTROL Filtres]** répertorie tous les noms qui ont été saisis dans la variable **[!UICONTROL Créateur]** champ de métadonnées pour différentes ressources. Il répertorie également pour chaque nom, le nombre de ressources auxquelles le nom est affecté. Sélectionnez ensuite une valeur de métadonnées pour afficher toutes les ressources auxquelles cette valeur a été affectée. Dans l’exemple, vous sélectionnez l’option `Prairie Cat` valeur de métadonnées pour afficher toutes les ressources dont le nom `Prairie Cat` a été saisi dans la variable **[!UICONTROL Créateur]** champ de métadonnées. Le filtrage par métadonnées peut porter sur plusieurs critères de filtre.
+Vous pouvez filtrer les fichiers dans l’onglet Filtres de la bibliothèque de fichiers. Pour ce faire, vous pouvez utiliser les métadonnées comme critères de filtre. Après avoir choisi un champ de métadonnées sur lequel filtrer les données, l’onglet Filtres répertorie toutes les valeurs de métadonnées saisies dans le champ que vous avez choisi. Il indique également le nombre de ressources auxquelles chaque valeur a été affectée. Par exemple, dans une opération de filtrage sur la variable **[!UICONTROL Créateur]** le champ de métadonnées, **[!UICONTROL Filtres]** répertorie tous les noms qui ont été saisis dans la variable **[!UICONTROL Créateur]** champ de métadonnées pour différentes ressources. Il répertorie également pour chaque nom, le nombre de ressources affectées au nom. Sélectionnez ensuite une valeur de métadonnées pour afficher toutes les ressources auxquelles cette valeur a été affectée. Dans l’exemple, vous sélectionnez l’option `Prairie Cat` valeur de métadonnées pour afficher toutes les ressources dont le nom `Prairie Cat` a été saisi dans la variable **[!UICONTROL Créateur]** champ de métadonnées. Le filtrage par métadonnées peut porter sur plusieurs critères de filtre.
 
 Vous pouvez enregistrer les opérations de filtrage pour les exécuter plusieurs fois.
 
@@ -109,7 +109,7 @@ Pour localiser des ressources en filtrant avec leurs valeurs de métadonnées, p
 
    Voir [Enregistrement, répétition et suppression des opérations de filtre](searching-assets.md#saving_repeating_and_deleting_filter_operations).
 
-1. Sélectionner **[!UICONTROL Champ]** dans un panneau, suivez ces instructions pour afficher le menu de filtrage et construire l’opération de filtrage :
+1. Cliquez sur **[!UICONTROL Champ]** dans un panneau, suivez ces instructions pour afficher le menu de filtrage et construire l’opération de filtrage :
 
    * **Sélection d’un champ de métadonnées** - Sélectionnez le nom du champ dans le menu de filtrage.
 
@@ -125,17 +125,17 @@ Pour localiser des ressources en filtrant avec leurs valeurs de métadonnées, p
 
    Lorsque vous choisissez un champ de métadonnées, son panneau répertorie les éléments suivants :
 
-   * toutes les valeurs de métadonnées saisies dans le champ,
+   * Toutes les valeurs de métadonnées sont renseignées dans le champ .
    * pour chaque valeur de métadonnées, le nombre de fichiers portant cette valeur.
 
 1. Répétez l’étape 2 autant de fois que nécessaire pour répertorier tous les champs de métadonnées pour l’opération de filtre sur les panneaux.
 1. Dans chaque panneau, sélectionnez une valeur de métadonnées à filtrer Vous ne pouvez pas sélectionner plusieurs valeurs de métadonnées dans chaque panneau.
 
-   Les ressources qui correspondent à toutes les valeurs que vous avez sélectionnées apparaissent dans le panneau Parcourir.
+   Les ressources qui correspondent à toutes les valeurs que vous avez sélectionnées apparaissent dans le panneau de navigation.
 
    >[!NOTE]
    >
-   >Pour supprimer temporairement un champ de l’opération de filtrage, sélectionnez **[!UICONTROL Tout désélectionner]**. Cette option se trouve en haut de chaque panneau, au-dessus des valeurs de métadonnées.
+   >Supprimer temporairement un champ de l’opération de filtrage en cliquant sur **[!UICONTROL Tout désélectionner]**. Cette option se trouve en haut de chaque panneau, au-dessus des valeurs de métadonnées.
 
 1. (Facultatif) Pour enregistrer l’opération de filtrage et pouvoir l’exécuter ultérieurement, sélectionnez **[!UICONTROL Sélectionner un paramètre prédéfini]** > **[!UICONTROL Enregistrer actuel comme nouveaux paramètres prédéfinis]**, puis saisissez un nom dans le champ **[!UICONTROL Enregistrer]** de la boîte de dialogue
 

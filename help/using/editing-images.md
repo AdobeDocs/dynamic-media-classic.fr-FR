@@ -10,9 +10,9 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '316'
 ht-degree: 7%
 
 ---
@@ -23,11 +23,11 @@ Adobe Dynamic Media Classic offre de nombreux outils pour créer des effets mult
 
 * **Création de zones cliquables** - Pour créer une zone cliquable, sélectionnez la commande Image ou **[!UICONTROL Zone cliquable]** bouton . Une zone cliquable est une zone réactive sur une image, une page de catalogue électronique ou une image dans une visionneuse à 360° qui affiche un panneau avec le texte de survol. Les utilisateurs peuvent sélectionner une zone cliquable, par exemple pour lancer une nouvelle page web. Voir [Création de zones cliquables](/help/using/creating-image-maps.md).
 
-* **Création de cibles de zoom** - Pour créer des cibles de miniatures, sélectionnez la commande Cibles de zoom ou la fonction **[!UICONTROL Cibles de zoom]** bouton . Les utilisateurs peuvent sélectionner une cible de miniature dans la visionneuse de zoom pour effectuer un zoom directement sur une partie spécifique d’une image. Voir [Création de cibles de zoom pour un zoom guidé](/help/using/creating-zoom-targets-guided-zoom.md).
+* **Création de cibles de zoom** - Pour créer des cibles de miniature, vous pouvez sélectionner la commande Cibles de zoom ou la fonction **[!UICONTROL Cibles de zoom]** bouton . Les utilisateurs peuvent sélectionner une cible de miniature dans la visionneuse de zoom pour effectuer un zoom directement sur une partie spécifique d’une image. Voir [Création de cibles de zoom pour un zoom guidé](/help/using/creating-zoom-targets-guided-zoom.md).
 
 * **Recadrage d’une image** - Pour recadrer une image, sélectionnez la commande Recadrer ou le **[!UICONTROL Recadrer]** bouton . Voir [Recadrage d’une image](/help/using/cropping-image.md).
 
-* **Accentuer une image** - Pour accentuer une image et rendre ses contours moins flous et plus distincts, sélectionnez la commande Accentuer ou le **[!UICONTROL Accentuer]** bouton . Voir [Accentuer une image](/help/using/sharpening-image.md).
+* **Accentuer une image** - Rendez les contours d’une image moins flous en sélectionnant la commande Accentuer ou le **[!UICONTROL Accentuer]** bouton . Voir [Accentuer une image](/help/using/sharpening-image.md).
 
 * **Réglage d’une image** - Sélectionnez la variable `Adjust` ou la fonction **[!UICONTROL Ajuster]** pour retourner, faire pivoter, flouer, colorer ou modifier l’équilibre des couleurs d’une image. Voir [Réglage d’une image](/help/using/adjusting-image.md).
 

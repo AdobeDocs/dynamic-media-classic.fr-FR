@@ -10,9 +10,9 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '667'
 ht-degree: 37%
 
 ---
@@ -65,11 +65,11 @@ Si vous avez le statut d’administrateur, vous pouvez créer vos propres param�
 
 Les options &quot;bonnes pratiques&quot; d’Adobe Dynamic Media Classic pour la création de paramètres d’image prédéfinis répertoriés ici sont des recommandations générales ; l’accentuation est hautement subjective. Ces paramètres de &quot;bonne pratique&quot; étaient basés sur une image principale de 2 000 × 2 000 ; les paramètres des fichiers principaux plus grands ou plus petits peuvent être différents. Si vous souhaitez ajuster les paramètres Masquage flou, Adobe Dynamic Media Classic recommande les plages suivantes :
 
-* **[!UICONTROL Quantité]** - Entre 0,8 et 1,5.
+* **[!UICONTROL Quantité]** - Entre `.8` et `1.5`.
 
-* **[!UICONTROL Rayon]** - Entre 0,6 et 2.
+* **[!UICONTROL Rayon]** - Entre `.6` et `2`.
 
-* **[!UICONTROL Seuil]** - De 1 à 6.
+* **[!UICONTROL Seuil]** - De `1` through `6`.
 
 Pour supprimer un paramètre d’image prédéfini, sélectionnez-le dans l’écran Paramètres d’image prédéfinis, puis sélectionnez **[!UICONTROL Supprimer]**.
 

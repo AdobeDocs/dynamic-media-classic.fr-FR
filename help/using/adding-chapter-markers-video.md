@@ -10,9 +10,9 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 28%
 
 ---
@@ -51,17 +51,17 @@ Cost-efficient access to rapidly evolving technology.
 
 Dans l’exemple ci-dessus, `Chapter 1` est l’identifiant de repère et est facultatif. L’heure de repère de `00:00:000 --> 01:04:364` spécifie l’heure de début et l’heure de fin du chapitre, en 00:00:Format 000. Les trois derniers chiffres sont les millisecondes et peuvent être laissés sur 000, selon vos préférences. Le titre du chapitre de `The bicycle store behind it all` est la description réelle du contenu du chapitre. L’identifiant de repère, l’heure de repère de départ et le titre du chapitre apparaissent tous dans une fenêtre contextuelle du lecteur vidéo lorsque le pointeur est placé sur un point de repère visuel dans la chronologie de la vidéo.
 
-Puisque vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fichier de chapitre que vous créez est conforme à la norme WebVTT (Web Video Text Tracks). L’extension de nom de fichier de chapitre est .VTT. D’autres informations sont disponibles sur la norme de sous-titrage WebVTT.
+Puisque vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fichier de chapitre que vous créez est conforme à la norme WebVTT (Web Video Text Tracks). L’extension de nom de fichier de chapitre est `.VTT`. D’autres informations sont disponibles sur la norme de sous-titrage WebVTT.
 
 Voir [WebVTT : The Web Video Text Tracks Format](https://w3c.github.io/webvtt/).
 
-**Pour ajouter des marqueurs de chapitre à la vidéo :**
+**Pour ajouter des marqueurs de chapitre à une vidéo :**
 
 1. Créez votre fichier de chapitres vidéo à l’aide d’un simple éditeur de texte en dehors d’Adobe Dynamic Media Classic.
 
    >[!NOTE]
    >
-   >Pour une prise en charge globale des chapitres vidéo dans des langues autres que l’anglais, la norme WebVTT exige que vous créiez des fichiers .vtt et des appels distincts pour chaque langue que vous souhaitez prendre en charge.
+   >Pour une prise en charge globale des chapitres vidéo dans des langues autres que l’anglais, la norme WebVTT exige que vous créiez des `.VTT` fichiers et appels pour chaque langue que vous souhaitez prendre en charge.
 
 1. Enregistrez le fichier VTT en codage UTF8 afin d’éviter tout problème de rendu des caractères dans le texte du titre du chapitre.
 
