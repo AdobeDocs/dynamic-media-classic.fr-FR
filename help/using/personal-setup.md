@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 23%
@@ -33,8 +33,8 @@ Identifie le nom de compte, le nom, le nom d’utilisateur (adresse électroniqu
 
 ## Bureau
 
-* **Effacer le cache d’images** - Supprime tous les fichiers image Dynamic Media mis en cache Adobe de votre ordinateur.
-* **Effacer le cache des ressources** - Supprime tous les fichiers de ressources mis en cache par Adobe Dynamic Media de votre ordinateur.
+* **Effacer le cache d’images**: supprime de votre ordinateur tous les fichiers image mis en cache par Adobe Dynamic Media.
+* **Effacer le cache des ressources**: supprime tous les fichiers de ressources mis en cache par Adobe Dynamic Media de votre ordinateur.
 
 Outre l’effacement de l’image et du cache des ressources à l’aide de l’appli de bureau, vous pouvez effacer manuellement le cache directement à partir du système de fichiers. Selon votre système d’exploitation, accédez aux éléments suivants :
 
@@ -72,16 +72,16 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Navigateur
 
-* **[!UICONTROL Taille de la miniature]** - Détermine la taille par défaut des images miniatures en mode Grille dans le panneau de navigation.
-* **[!UICONTROL Mode Bibliothèque de ressources par défaut]** - Détermine si les ressources de la bibliothèque de ressources pour les jeux de versions apparaissent sous la forme de miniatures ou par nom. Si vous travaillez avec un grand nombre de fichiers dans la bibliothèque, vous pouvez les afficher par nom. Par exemple, si vous créez un catalogue électronique volumineux avec de nombreux fichiers PDF, vous pouvez afficher les fichiers par nom pour que la liste soit plus courte.
-* **[!UICONTROL Ordre de tri de la navigation par défaut]** - Détermine l’ordre d’affichage des ressources par défaut dans le panneau de navigation. Choisissez un critère de tri dans le menu, et optez pour un ordre croissant ou décroissant.
-* **[!UICONTROL Emplacement de navigation par défaut]** - Permet de définir l’emplacement de navigation sur la valeur par défaut, le dernier dossier parcouru ou sur un emplacement spécifique vers lequel vous accédez et que vous identifiez. Vous pouvez également définir l’emplacement de navigation pour trier les fichiers et les dossiers dans l’ordre ascendant ou descendant.
-* **[!UICONTROL Mode Parcourir par défaut]** : détermine si le mode Affichage de la grille ou Affichage de la liste est le mode par défaut qui s’affiche lorsque vous ouvrez le panneau Parcourir pour la première fois.
-* **[!UICONTROL Affichage de l’écran de démarrage]** - Détermine si vous voyez des écrans de démarrage, y compris l’écran de bienvenue.
-* **[!UICONTROL Afficher les info-bulles]** - Détermine si les info-bulles apparaissent lorsque vous placez le pointeur sur des boutons, des menus et des liens de navigation. Les info-bulles décrivent les éléments de l’interface utilisateur à l’écran.
-* **[!UICONTROL Arrière-plan du tableau de bord]** : affiche un calque de damier derrière les images, ce qui vous permet de voir facilement les zones transparentes d’une image comportant un canal alpha.
-* **[!UICONTROL Afficher la taille du fichier]** : affiche la taille de fichier d’une ressource lorsque vous la parcourez.
-* **[!UICONTROL Inclure les champs définis par les utilisateurs dans la recherche]** - Pour améliorer les performances système de la plupart des recherches de métadonnées que vous exécutez, désélectionnez (par défaut).
+* **[!UICONTROL Taille de la miniature]**: détermine la taille par défaut des images miniatures en mode Grille dans le panneau de navigation.
+* **[!UICONTROL Mode Bibliothèque de ressources par défaut]**: détermine si les ressources de la bibliothèque de ressources pour les ensembles de versions apparaissent sous la forme de miniatures ou par nom. Si vous travaillez avec un grand nombre de fichiers dans la bibliothèque, vous pouvez les afficher par nom. Par exemple, si vous créez un catalogue électronique volumineux avec de nombreux fichiers PDF, vous pouvez afficher les fichiers par nom pour que la liste soit plus courte.
+* **[!UICONTROL Ordre de tri de la navigation par défaut]**: détermine l’ordre d’affichage des ressources par défaut dans le panneau de navigation. Choisissez un critère de tri dans le menu, et optez pour un ordre croissant ou décroissant.
+* **[!UICONTROL Emplacement de navigation par défaut]**: permet de définir l’emplacement de navigation sur la valeur par défaut, le dernier dossier parcouru ou sur un emplacement spécifique que vous accédez à et identifiez. Vous pouvez également définir l’emplacement de navigation pour trier les fichiers et les dossiers dans l’ordre ascendant ou descendant.
+* **[!UICONTROL Mode Parcourir par défaut]**: détermine si le mode Affichage de la grille ou Affichage de la liste est le mode par défaut qui s’affiche lorsque vous ouvrez le panneau Parcourir pour la première fois.
+* **[!UICONTROL Affichage de l’écran de démarrage]**: détermine si vous voyez des écrans de démarrage, y compris l’écran de bienvenue.
+* **[!UICONTROL Afficher les info-bulles]**: détermine si les info-bulles s’affichent lorsque vous placez le pointeur sur les boutons, les menus et les liens de navigation. Les info-bulles décrivent les éléments de l’interface utilisateur à l’écran.
+* **[!UICONTROL Arrière-plan du tableau de bord]**: affiche un calque de damier derrière les images, ce qui vous permet de voir facilement les zones transparentes d’une image comportant un canal alpha.
+* **[!UICONTROL Afficher la taille du fichier]**: affiche la taille de fichier d’une ressource en cours de navigation.
+* **[!UICONTROL Inclure les champs définis par les utilisateurs dans la recherche]**: pour améliorer les performances système de la plupart des recherches de métadonnées que vous exécutez, désélectionnez (par défaut).
 
   Si l’inclusion de champs définis par les utilisateurs est bénéfique pour la plupart de vos recherches de métadonnées, activez-la en sélectionnant cette option. Vous pouvez également utiliser Recherche avancée afin d’effectuer des recherches mieux orientées et plus rapides qu’avec l’inclusion de tous les champs définis par les utilisateurs.
 
@@ -89,28 +89,28 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
   Voir aussi [Champs définis par l’utilisateur](application-setup.md#user_defined_fields).
 
-* **[!UICONTROL Type de recherche de base]** - Vous pouvez effectuer une sélection parmi deux options : **[!UICONTROL Contient]** recherche la valeur spécifiée dans la chaîne complète ; **[!UICONTROL StartsWith]** recherche à partir du début de la chaîne et renvoie les résultats plus rapidement que **[!UICONTROL Contient]**. L’une des options remplace la valeur par défaut définie dans **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux de l’application]** par l’administrateur.
-* **[!UICONTROL Afficher les commentaires de commande]** - Sélectionnez cette option pour activer l’affichage des requêtes de commande sur le serveur. Désélectionnez cette option pour la désactiver.
-* **[!UICONTROL Afficher la boîte de dialogue pendant l’exportation]** - Sélectionnez cette option pour afficher une boîte de dialogue contextuelle lors d’une exportation. Si vous désélectionnez (désactivez) cette option, vous pouvez toujours accéder à la page Tâches pour récupérer les résultats de votre exportation.
+* **[!UICONTROL Type de recherche de base]**: vous pouvez effectuer une sélection parmi deux options : **[!UICONTROL Contient]** recherche la valeur spécifiée dans la chaîne complète ; **[!UICONTROL StartsWith]** recherche à partir du début de la chaîne et renvoie les résultats plus rapidement que **[!UICONTROL Contient]**. L’une des options remplace la valeur par défaut définie dans **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux de l’application]** par l’administrateur.
+* **[!UICONTROL Afficher les commentaires de commande]**: sélectionnez cette option pour activer l’affichage des requêtes de commande sur le serveur. Désélectionnez cette option pour la désactiver.
+* **[!UICONTROL Afficher la boîte de dialogue pendant l’exportation]**: sélectionnez cette option pour afficher une boîte de dialogue contextuelle lors d’une exportation. Si vous désélectionnez (désactivez) cette option, vous pouvez toujours accéder à la page Tâches pour récupérer les résultats de votre exportation.
 
 ## E-mail
 
-* **[!UICONTROL Options de messagerie]** - Choisissez la manière dont vous souhaitez qu’Adobe Dynamic Media Classic vous informe par e-mail lorsque les tâches de téléchargement et de publication sont terminées. Vous pouvez recevoir des avis de fin de travaux uniquement si des avertissements ou des erreurs se sont produits.
-* **[!UICONTROL Portée de l’email]** - Détermine si vous recevez tous les e-mails de tâche pour votre entreprise ou uniquement des e-mails concernant les tâches de téléchargement et de publication que vous lancez.
-* **[!UICONTROL Types d’email]** - Détermine si vous êtes informé lorsque les tâches de chargement et de publication sont terminées.
+* **[!UICONTROL Options de messagerie]**: choisissez la manière dont Adobe Dynamic Media Classic doit vous informer par e-mail lorsque les tâches de téléchargement et de publication sont terminées. Vous pouvez recevoir des avis de fin de travaux uniquement si des avertissements ou des erreurs se sont produits.
+* **[!UICONTROL Portée de l’email]**: détermine si vous recevez tous les e-mails de tâche pour votre entreprise ou uniquement les e-mails concernant les tâches de téléchargement et de publication que vous lancez.
+* **[!UICONTROL Types d’email]**: détermine si vous êtes informé lorsque les tâches de chargement et de publication sont terminées.
 
 ## Langue
 
-* **[!UICONTROL Langue préférée]** - Détermine la langue que vous souhaitez utiliser pour l’interface.
+* **[!UICONTROL Langue préférée]**: détermine la langue que vous souhaitez utiliser pour l’interface.
 
 ## Mot de passe
 
-* **[!UICONTROL Mot de passe actuel]** - Saisissez le mot de passe de votre mot de passe actuel.
-* **[!UICONTROL Nouveau mot de passe]** - Saisissez un nouveau mot de passe valide. Votre mot de passe doit répondre aux exigences suivantes :
+* **[!UICONTROL Mot de passe actuel]**: saisissez le mot de passe de votre mot de passe actuel.
+* **[!UICONTROL Nouveau mot de passe]**: saisissez un nouveau mot de passe valide. Votre mot de passe doit répondre aux exigences suivantes :
    * Comporter entre 8 et 25 caractères.
    * Contient au moins une lettre minuscule.
    * Contient au moins une lettre majuscule.
    * Contient au moins un nombre.
-   * contenir au moins l’un des caractères spéciaux suivants : `# $ & - _ : { }`
-* **[!UICONTROL Renommer le mot de passe]** - Saisissez à nouveau le nouveau mot de passe pour confirmer que vous le saisissez correctement.
-* **[!UICONTROL Expiration du mot de passe]** - Détermine si votre mot de passe expire après 72 jours en tant que mesure de sécurité. Si vous avez sélectionné Oui, vous êtes invité à créer un mot de passe au bout de 72 jours.
+   * contenir au moins l’un des caractères spéciaux suivants : `# $ &: _ : { }`
+* **[!UICONTROL Renommer le mot de passe]**: saisissez à nouveau le nouveau mot de passe pour confirmer que vous le saisissez correctement.
+* **[!UICONTROL Expiration du mot de passe]**: détermine si votre mot de passe expire après 72 jours en tant que mesure de sécurité. Si vous avez sélectionné Oui, vous êtes invité à créer un mot de passe au bout de 72 jours.

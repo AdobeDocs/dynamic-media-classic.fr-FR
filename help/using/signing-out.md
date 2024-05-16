@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 7%
@@ -23,9 +23,9 @@ ht-degree: 7%
 
 Assurez-vous que vous disposez des éléments suivants avant d’utiliser l’application de bureau Adobe Dynamic Media Classic :
 
-* **Nom d’utilisateur** - Vous utilisez votre adresse électronique comme nom de connexion.
+* **Nom d’utilisateur**: utilisez votre adresse électronique comme nom de connexion.
 
-* **Password** - Vous obtenez votre mot de passe temporaire dans un e-mail de bienvenue d’Adobe Dynamic Media Classic ou de votre administrateur Adobe Dynamic Media Classic. Lors de votre première connexion, vous êtes invité à modifier ce mot de passe temporaire.
+* **Password**: vous obtenez votre mot de passe temporaire dans un e-mail de bienvenue d’Adobe Dynamic Media Classic ou de votre administrateur Adobe Dynamic Media Classic. Lors de votre première connexion, vous êtes invité à modifier ce mot de passe temporaire.
 
 1. Ouvrez l’application de bureau Adobe Dynamic Media Classic.
 

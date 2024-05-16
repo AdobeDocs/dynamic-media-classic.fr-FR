@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1702'
-ht-degree: 30%
+ht-degree: 26%
 
 ---
 
@@ -31,9 +31,9 @@ La publication d’une vidéo permet aux serveurs Adobe Dynamic Media Classic de
 
 Vous pouvez utiliser deux méthodes différentes pour publier une vidéo :
 
-* **Publier des vidéos automatiquement et instantanément lors du téléchargement** - Dans le cadre du processus de chargement de vidéo, Adobe Dynamic Media Classic peut publier automatiquement les vidéos lorsqu’elles sont chargées et codées. Cette capacité de publication instantanée signifie qu’il n’est pas nécessaire de publier les vidéos séparément après coup.
+* **Publier des vidéos automatiquement et instantanément lors du téléchargement**: dans le cadre du processus de chargement des vidéos, Adobe Dynamic Media Classic peut publier automatiquement les vidéos lorsqu’elles sont chargées et codées. Cette capacité de publication instantanée signifie qu’il n’est pas nécessaire de publier les vidéos séparément après coup.
 
-* **Publier la vidéo manuellement après le transfert** - Si vous ne souhaitez pas publier les vidéos immédiatement, vous pouvez à tout moment les publier manuellement.
+* **Publier la vidéo manuellement après le transfert**: si vous ne souhaitez pas publier les vidéos immédiatement, vous pouvez à tout moment les publier manuellement.
 
 Une fois les vidéos publiées, Adobe Dynamic Media Classic active les chaînes URL de votre code d’application ou de votre page de HTML.
 
@@ -46,7 +46,7 @@ Une fois les vidéos publiées, Adobe Dynamic Media Classic active les chaînes 
 
 ## Liaison d’une URL de vidéo à un site mobile ou à un site web {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
-Lorsque vous publiez une vidéo, vous pouvez obtenir l’URL associée à utiliser sur votre site web, votre site mobile ou votre application de bureau. Utilisez l’URL de la vidéo lorsque vous souhaitez afficher la vidéo dans une fenêtre contextuelle ou modale au haut de la page Web.
+Lorsque vous publiez une vidéo, vous pouvez obtenir l’URL associée à utiliser sur votre site web, votre site mobile ou votre application de bureau. Utilisez l’URL de la vidéo lorsque vous souhaitez afficher la vidéo dans une fenêtre contextuelle ou modale au-dessus de la page Web.
 
 Lorsqu’un client sélectionne le lien, son appareil, sa bande passante et sa taille d’écran sont automatiquement détectés. S’il s’agit d’un ordinateur, la vidéo adéquate s’affiche dans une visionneuse prédéfinie ; dans le cas d’un smartphone ou d’une tablette, elle s’affiche dans le lecteur vidéo natif du périphérique en question.
 
@@ -75,11 +75,11 @@ Voir aussi [Incorporation de la visionneuse de vidéos dans une page web](deploy
 
 ## Incorporation de la visionneuse de vidéos dans une page web {#embedding-the-video-viewer-on-a-web-page}
 
-Utilisez la fonction Intégrer le code lorsque vous souhaitez lire la vidéo incorporée sur une page Web. Vous copiez le code intégré dans le Presse-papiers afin de pouvoir le coller dans vos pages Web. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code intégré.
+Utilisez la fonction Intégrer le code lorsque vous souhaitez lire la vidéo incorporée dans la page Web. Vous copiez le code incorporé dans le Presse-papiers afin de le coller dans vos pages Web. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
 Voir aussi [Liaison d’une URL de vidéo à un site mobile ou à un site web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-**Pour incorporer la visionneuse de vidéos dans une page web :**
+**Pour incorporer la visionneuse de vidéos dans une page Web :**
 
 1. Dans la liste déroulante Afficher du panneau de navigation des ressources, sélectionnez **[!UICONTROL Vidéo]**, ou **[!UICONTROL Visionneuse de vidéos adaptative]**.
 1. Dans le panneau Bibliothèque de fichiers sur la gauche, accédez au dossier Fichiers qui contient la vidéo ou la visionneuse de vidéos adaptative dont vous voulez copier le code intégré.
@@ -103,7 +103,7 @@ Voir aussi [Liaison d’une URL de vidéo à un site mobile ou à un site web](d
    Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
 1. select **[!UICONTROL Fermer]**.
-1. Collez le code intégré dans vos pages Web.
+1. Collez le code incorporé dans vos pages Web.
 
 ### Mise en oeuvre du code intégré pour l’utilisation de la vidéo HTML5 avec des ressources vidéo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
@@ -185,7 +185,7 @@ Le *cadre d’affiche* est la première image qui apparaît dans les visionneuse
 
 Vous pouvez appliquer des modificateurs d’image au cadre d’affiche. Vous pouvez, par exemple, rogner le cadre d’affiche ou le rendre transparent. Pour modifier le cadre d’affiche, ouvrez l’écran de configuration de la visionneuse de vidéos et saisissez les modificateurs dans la section Poster Image Modifiers (Modificateurs de l’image d’affiche). 
 
-Voir [Ajouter ou modifier un paramètre prédéfini de visionneuse de vidéos](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
+Voir [Ajout ou modification d’un paramètre prédéfini de visionneuse vidéo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 Voir [Guide de diffusion d’images](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 

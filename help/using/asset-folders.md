@@ -10,10 +10,10 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 39%
+ht-degree: 34%
 
 ---
 
@@ -27,13 +27,13 @@ Veillez à établir une structure et une organisation de dossiers pour stocker v
 
 La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de dossiers. Lorsque vous sélectionnez un dossier dans la bibliothèque de fichiers, son contenu s’affiche dans le panneau de navigation. Pour localiser des dossiers dans l’arborescence de dossiers, utilisez les techniques suivantes :
 
-* **Afficher les sous-dossiers** - Sélectionnez la variable **[!UICONTROL Développer le dossier]** pour afficher les sous-dossiers dans un dossier. Cette icône se trouve à gauche des noms de dossiers.
+* **Afficher les sous-dossiers**: sélectionnez la variable **[!UICONTROL Développer le dossier]** pour afficher les sous-dossiers dans un dossier. Cette icône se trouve à gauche des noms de dossiers.
 
-* **Déplacer un dossier** - Vous pouvez déplacer un dossier en le faisant glisser et en le déposant à son nouvel emplacement, ou en sélectionnant **[!UICONTROL Fichier]** > **[!UICONTROL Déplacer le dossier]**.
+* **Déplacer un dossier**: vous pouvez déplacer un dossier en le faisant glisser et en le déposant à son nouvel emplacement, ou en sélectionnant **[!UICONTROL Fichier]** > **[!UICONTROL Déplacer le dossier]**.
 
-* **Masquer les dossiers** - Sélectionnez la variable **[!UICONTROL Réduire le dossier]** si vous souhaitez réduire les sous-dossiers afin de les masquer. Cette icône se trouve à gauche des noms de dossiers.
+* **Masquer les dossiers**: sélectionnez la variable **[!UICONTROL Réduire le dossier]** si vous souhaitez réduire les sous-dossiers afin de les masquer. Cette icône se trouve à gauche des noms de dossiers.
 
-* **Ouvrir un dossier** - Sélectionnez un dossier si vous souhaitez afficher son contenu dans le panneau de navigation.
+* **Ouvrir un dossier**: sélectionnez un dossier si vous souhaitez afficher son contenu dans le panneau de navigation.
 
 >[!TIP]
 >
@@ -43,7 +43,7 @@ La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de
 
 1. Dans la bibliothèque de fichiers, sélectionnez le dossier dans lequel vous souhaitez créer un sous-dossier.
 1. Sélectionnez la variable **[!UICONTROL `Add Folder`]** bouton . Cette icône se trouve en haut de la liste des dossiers.
-1. Donnez un nom descriptif au nouveau dossier ou sous-dossier dans le champ situé en regard de l’icône de dossier.
+1. Saisissez un nom explicite pour votre nouveau dossier ou sous-dossier. Saisissez-le dans le champ en regard de l’icône de dossier.
 
    >[!NOTE]
    >
@@ -53,9 +53,9 @@ La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de
 
 Sélectionnez un dossier et utilisez les techniques suivantes pour le supprimer ou le renommer :
 
-* **Supprimer** - Sélectionnez la variable **[!UICONTROL `Remove Folder`]** bouton . Les fichiers d’un dossier supprimé sont placés dans le dossier Corbeille. Vous pouvez les y récupérer.
+* **Supprimer**: sélectionnez la variable **[!UICONTROL `Remove Folder`]** bouton . Les fichiers d’un dossier supprimé sont placés dans le dossier Corbeille. Vous pouvez les y récupérer.
 
-* **Renommer** - Double-cliquez sur le nom et saisissez un nouveau nom.
+* **Renommer**: double-cliquez sur le nom et saisissez un nouveau nom.
 
 >[!NOTE]
 >

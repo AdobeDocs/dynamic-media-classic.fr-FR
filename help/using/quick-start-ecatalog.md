@@ -10,16 +10,16 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 32%
+ht-degree: 26%
 
 ---
 
 # Démarrage rapide : catalogues électroniques{#quick-start-ecatalogs}
 
-Un catalogue électronique est une version en ligne numérique de documents imprimés, tels qu’un catalogue, une brochure, un dépliant, un guide de produits ou un prospectus. Un catalogue électronique s’affiche dans une visionneuse de catalogue électronique sur un site Web. Cette visionneuse simule l’expérience de lecture de documents imprimés.
+Un catalogue électronique est une version numérique Web d’un document imprimé (un catalogue, une brochure, un prospectus, un manuel de produit ou une circulaire publicitaire, par exemple). Un catalogue électronique s’affiche dans une visionneuse de catalogue électronique sur un site Web. Cette visionneuse simule l’expérience de lecture de documents imprimés.
 
 Visionnez également les vidéos de formation suivantes :
 
@@ -34,9 +34,9 @@ Selon les paramètres que vous choisissez pour votre catalogue électronique, la
 * Naviguez dans le catalogue à l’aide de la table des matières ou de la vue Grille de page ; en sélectionnant le bord central d’une page.
 * effectuer un zoom avant, un zoom arrière ou un panoramique pour examiner des articles figurant sur une page ;
 * Déplacez le pointeur au-dessus d’une zone de page (appelée zone cliquable) afin d’afficher une fenêtre contextuelle contenant des informations sur un élément.
-* Sélectionnez une zone de page afin d’ouvrir une nouvelle page web contenant plus d’informations sur un élément.
+* Sélectionnez une zone de page afin d’ouvrir une nouvelle page Web contenant plus d’informations sur un élément.
 * rédiger un pense-bête et l’associer à une page du catalogue électronique ;
-* Appuyez sur les icônes de zone cliquable si vous souhaitez lancer des pages web associées ou des panneaux d’informations contextuelles.
+* Appuyez sur les icônes de zone cliquable si vous souhaitez lancer des pages Web associées ou des panneaux d’informations contextuelles.
 * utiliser les interactions de mouvement, y compris le zoom pincé et le feuilletage des pages ;
 * effectuer des recherches par mot-clé.
 
@@ -44,11 +44,11 @@ Selon les paramètres que vous choisissez pour votre catalogue électronique, la
 
 Pour créer un catalogue électronique, vous utilisez généralement des fichiers de PDF haute résolution créés dans Adobe Acrobat ou dans un autre programme d’impression, mais vous pouvez également créer un catalogue électronique à partir de fichiers image.
 
-Lorsque vous créez un catalogue électronique, vous agencez les pages ou les planches dans l’ordre de votre choix. Vous pouvez également indiquer si vous souhaitez obtenir des pages simples, des planches en double page ou des planches de plusieurs pages. Vous pouvez créer des zones cliquables pour les zones de page, de sorte que les visiteurs puissent, par exemple, sélectionner une zone de la page et ouvrir une nouvelle page sur votre site web. Vous pouvez gérer le texte de survol qui s’affiche à l’aide des paramètres du panneau d’informations dans l’écran Catalogue électronique. Vous disposez également de plus de 100 options de configuration différentes pour configurer la visionneuse de catalogue électronique à votre convenance. Vous pouvez ainsi adapter les fonctionnalités et l’aspect de votre visionneuse en fonction de votre clientèle.
+Lorsque vous créez un catalogue électronique, vous agencez les pages ou les planches dans l’ordre de votre choix. Vous pouvez également indiquer si vous souhaitez obtenir des pages simples, des planches en double page ou des planches de plusieurs pages. Vous pouvez créer des zones cliquables pour les zones de page, de sorte que les visiteurs puissent, par exemple, sélectionner une zone de la page et ouvrir une nouvelle page sur votre site Web. Vous pouvez gérer le texte de survol qui s’affiche à l’aide des paramètres du panneau d’informations dans l’écran Catalogue électronique. Vous disposez également de plus de 100 options de configuration différentes pour configurer la visionneuse de catalogue électronique à votre convenance. Vous pouvez ainsi adapter les fonctionnalités et l’aspect de votre visionneuse en fonction de votre clientèle.
 
 >[!NOTE]
 >
->Si vous êtes un utilisateur en mode Dynamic Media - Scene7 et que vous souhaitez utiliser des catalogues électroniques, modifiez la variable `pdfbrochure` dans CRXDE Lite. Pour ce faire, dans Adobe Experience Manager, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Général]** > **[!UICONTROL CRXDE Lite]**. Dans l’arborescence de navigation du panneau de gauche, accédez à `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Si vous êtes un utilisateur du mode Dynamic Media : Scene7 et souhaitez utiliser des catalogues électroniques, modifiez la variable `pdfbrochure` dans CRXDE Lite. Pour ce faire, dans Adobe Experience Manager, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Général]** > **[!UICONTROL CRXDE Lite]**. Dans l’arborescence de navigation du panneau de gauche, accédez à `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
 >Dans le volet inférieur droit, dans **[!UICONTROL Propriétés]** , sélectionnez l’onglet `jobParam` ligne. Définissez la valeur de `pdfbrochure` de `false` to `true`. Comme dans `pdfbrochure=true`
 >
@@ -82,7 +82,7 @@ Voir [Créer un catalogue électronique](creating-ecatalog.md).
 
 ## 3. Création de zones cliquables
 
-Les zones cliquables ajoutent un autre aspect aux pages de catalogue électronique. Une zone cliquable correspond à une zone de la page permettant d’afficher d’autres informations sur un article. Lorsque les utilisateurs placent le pointeur sur une zone cliquable, une description de l’article en question s’affiche. La sélection d’une zone cliquable a pour effet d’activer une référence externe qui permet d’ouvrir une nouvelle page Web contenant des informations supplémentaires sur un article.
+Les zones cliquables ajoutent un autre aspect aux pages de catalogue électronique. Une zone cliquable correspond à une zone de la page permettant d’afficher d’autres informations sur un article. Lorsque les utilisateurs placent le pointeur sur une zone cliquable, une description de l’article en question s’affiche. Cliquer sur une zone cliquable active une référence externe qui ouvre une nouvelle page Web dans laquelle vous pouvez en savoir plus sur un élément.
 
 Pour créer une zone cliquable, ouvrez l’écran Catalogue électronique. Ensuite, accédez au **[!UICONTROL Pages de mappage]** de l’écran Catalogue électronique, et encadrez la carte à l’aide de l’outil de zone cliquable Rectangle ou zone cliquable polygone. Vous pouvez ajuster la position et la taille des zones cliquables en faisant glisser les bordures des zones à l’aide de l’outil Panoramique .
 
@@ -116,16 +116,16 @@ Voir [Aperçu des catalogues électroniques dans la visionneuse de catalogue él
 
 ## 6. Publier le catalogue électronique et les PDF associés
 
-La publication de votre catalogue électronique et du PDF associé le place sur les serveurs d’images Dynamic Media afin qu’il puisse être diffusé sur votre site web et dans votre application. Dans le cadre du processus de publication, Adobe Dynamic Media Classic active la chaîne URL de votre catalogue électronique. Utilisez cette URL pour appeler le catalogue électronique à partir des serveurs d’images Dynamic Media vers votre site web ou votre application.
+La publication de votre catalogue électronique et du PDF associé le place sur les serveurs d’images Dynamic Media afin qu’il puisse être diffusé sur votre site Web et dans votre application. Dans le cadre du processus de publication, Adobe Dynamic Media Classic active la chaîne URL de votre catalogue électronique. Utilisez cette URL pour appeler le catalogue électronique à partir des serveurs d’images Dynamic Media vers votre site web ou votre application.
 
 Après avoir marqué votre catalogue électronique et votre PDF pour publication dans le panneau de navigation, cliquez sur le bouton Publier de la barre de navigation globale pour lancer une publication. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
 Voir [Publication de catalogues électroniques et de PDF associés](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
-## 7. Associer un catalogue électronique à une page web
+## 7. Associer un catalogue électronique à une page Web
 
-Adobe Dynamic Media Classic active la chaîne d’légende d’URL nécessaire à l’affichage de votre catalogue électronique lorsque vous le publiez sur les serveurs d’images Dynamic Media. Vous pouvez copier cette chaîne d’URL à partir de l’écran de prévisualisation et du panneau de navigation (dans le mode Affichage des détails) en sélectionnant les URL dans le panneau. Une fois copiée, la chaîne URL peut être utilisée sur vos sites Web et dans vos applications.
+Adobe Dynamic Media Classic active la chaîne d’légende d’URL nécessaire à l’affichage de votre catalogue électronique lorsque vous le publiez sur les serveurs d’images Dynamic Media. Vous pouvez copier cette chaîne d’URL à partir de l’écran de prévisualisation et du panneau de navigation (dans le mode Affichage des détails) en sélectionnant les URL dans le panneau. Une fois la chaîne d’URL copiée, elle est disponible sur vos sites Web et applications.
 
-Travaillez de concert avec votre équipe informatique pour décider de l’emplacement du lien vers le catalogue électronique au sein de votre page Web. Lorsque les utilisateurs sélectionnent le lien, la visionneuse de catalogue électronique s’affiche et ils peuvent parcourir votre catalogue électronique.
+Contactez votre équipe informatique pour placer le lien vers le catalogue électronique au bon endroit dans votre page web. Lorsque les utilisateurs sélectionnent le lien, la visionneuse de catalogue électronique s’affiche et ils peuvent parcourir votre catalogue électronique.
 
-Voir [Liaison d’un catalogue électronique à une page web](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).
+Voir [Lier un catalogue électronique à une page Web](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).

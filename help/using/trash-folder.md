@@ -10,7 +10,7 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 30%
@@ -53,9 +53,9 @@ Lorsque vous supprimez des fichiers du dossier Corbeille, sachez qu’ils sont 
 
 Pour supprimer définitivement des ressources du dossier Corbeille, sélectionnez la **[!UICONTROL Corbeille]** Icône Sur la page du dossier Corbeille, effectuez l’une des opérations suivantes :
 
-* **Suppression de ressources individuelles** - Sélectionnez les ressources à supprimer définitivement, puis accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Vide De La Corbeille]**.
+* **Suppression de ressources individuelles**: sélectionnez les ressources à supprimer définitivement, puis accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Vide De La Corbeille]**.
 
-* **Suppression de toutes les ressources** - Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Corbeille vide]**.
+* **Suppression de toutes les ressources**: accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Corbeille vide]**.
 
 >[!MORELIKETHIS]
 >

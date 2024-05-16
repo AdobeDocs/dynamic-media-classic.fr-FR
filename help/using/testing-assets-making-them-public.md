@@ -10,10 +10,10 @@ role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 23%
+source-wordcount: '1061'
+ht-degree: 19%
 
 ---
 
@@ -26,8 +26,8 @@ Avec Secure Testing, vous pouvez prévisualiser la version intermédiaire du sit
 Si vous le souhaitez, créez un environnement d’évaluation plutôt que de rendre les ressources publiques disponibles pour les raisons suivantes :
 
 * Aperçu des sites Web avant lancement public (site Web intermédiaire).
-* Servir les fichiers qui nécessitent un accès restreint, tels que les catalogues électroniques qui affichent des prix dans une application Web B2B.
-* Utiliser des fichiers se trouvant derrière un pare-feu dans le cadre du système de gestion des informations sur le produit, d’une application de service d’assistance à la clientèle, d’un site de formation, etc.
+* Servez les ressources qui nécessitent un accès restreint, telles que les catalogues électroniques qui affichent les prix dans une application web B2B.
+* Utilisez des ressources derrière un pare-feu dans le cadre d’un système de gestion des informations sur les produits, d’une application de service client, d’un site de formation, etc.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Avec le test sécurisé, Adobe Dynamic Media Classic établit un serveur d’ima
 
 L’emplacement de la requête d’origine devant être confirmé, le trafic du service Secure Testing n’est pas acheminé via un réseau de distribution de contenu tel que le trafic du serveur d’images Dynamic Media public. Les demandes au service Secure Testing présentent une latence légèrement plus élevée que les serveurs d’images Dynamic Media publics.
 
-Les fichiers non publiés sont immédiatement disponibles à partir des services Secure Testing, sans avoir besoin d’être publiés. Ainsi, vous pouvez exécuter un aperçu avant que les ressources ne soient publiées sur leur serveur d’images public.
+Les fichiers non publiés sont immédiatement disponibles à partir des services Secure Testing, sans avoir besoin d’être publiés. Ainsi, vous pouvez exécuter un aperçu avant que les ressources ne soient publiées sur le serveur d’images destiné au public.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Last Modified Date:
 
 * Images.
 * Vignettes (demandes de seveur Render Server).
-* Requêtes de serveur de rendu (prises en charge, mais doivent être demandées explicitement par le client).
+* Requêtes de serveur de rendu (prises en charge, mais le client doit la demander explicitement).
 * Visionneuses, dont visionneuses d’images, catalogue électronique, visionneuses de rendu et de supports.
 * Visionneuses de médias riches Adobe Dynamic Media Classic standard.
 * Pages JSP Adobe Dynamic Media Classic OnDemand.
@@ -84,11 +84,11 @@ Les types de fichiers suivants et les fonctionnalités suivantes ne sont actuell
 
 ## Test du service Secure Testing {#testing-the-secure-testing-service}
 
-Testez le service Secure Testing pour vous assurer qu’il fonctionne comme prévu.
+Testez le service Secure Testing afin de vous assurer qu’il fonctionne comme prévu.
 
 <!-- >[!NOTE]
 >
->*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]*** - If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
 
 ### Préparation de votre compte
 

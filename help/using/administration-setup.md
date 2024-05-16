@@ -9,10 +9,10 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1971'
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 
@@ -101,15 +101,15 @@ Vous pouvez filtrer et trier la liste des utilisateurs afin de localiser les uti
 
 Vous pouvez utiliser les techniques de filtrage par liste d’utilisateurs suivantes :
 
-* **Filtrage par groupe** - Sélectionnez la variable **[!UICONTROL Par groupe]** et choisissez une option pour limiter la liste aux utilisateurs d’un groupe.
+* **Filtrage par groupe**: sélectionnez la variable **[!UICONTROL Par groupe]** et choisissez une option pour limiter la liste aux utilisateurs d’un groupe.
 
-* **Filtrage par rôle d’utilisateur** - Sélectionnez la variable **[!UICONTROL Par rôle d’utilisateur]** et choisissez une option pour limiter la liste aux utilisateurs ou aux administrateurs de différents types.
+* **Filtrage par rôle d’utilisateur**: sélectionnez la variable **[!UICONTROL Par rôle d’utilisateur]** et choisissez une option pour limiter la liste aux utilisateurs ou aux administrateurs de différents types.
 
-* **Filtrer par nom de champ** - Sélectionner **[!UICONTROL Activer le filtre par champ]**. Sélectionnez ensuite le **[!UICONTROL Par nom de champ]** , choisissez une colonne pour filtrer la liste, sélectionnez le menu Filtrer les caractères et choisissez une lettre. La liste est filtrée sur l’une des colonnes par la lettre choisie. Pour afficher la liste complète, désélectionnez l’option **[!UICONTROL Activer le filtre par champ]** .
+* **Filtrer par nom de champ**: sélectionnez **[!UICONTROL Activer le filtre par champ]**. Sélectionnez ensuite le **[!UICONTROL Par nom de champ]** , choisissez une colonne pour filtrer la liste, sélectionnez le menu Filtrer les caractères et choisissez une lettre. La liste est filtrée sur l’une des colonnes par la lettre choisie. Pour afficher la liste complète, désélectionnez l’option **[!UICONTROL Activer le filtre par champ]** .
 
-* **Filtrage des utilisateurs non valides** - Désélectionner **[!UICONTROL Inclure non valide]**. Les résultats de la recherche affichent uniquement les utilisateurs présents dans le système. Les utilisateurs non valides ont été supprimés du système et des comptes que vous administrez.
+* **Filtrage des utilisateurs non valides**: désélectionner **[!UICONTROL Inclure non valide]**. Les résultats de la recherche affichent uniquement les utilisateurs présents dans le système. Les utilisateurs non valides ont été supprimés du système et des comptes que vous administrez.
 
-* **Tri par en-tête de colonne** - Sélectionnez un en-tête pour trier tous les utilisateurs selon leur état, par ordre alphabétique de prénom, nom ou adresse électronique, par rôle d’utilisateur ou par statut valide/non valide.
+* **Tri par en-tête de colonne**: sélectionnez un en-tête pour trier tous les utilisateurs selon leur état, par ordre alphabétique de prénom, nom ou adresse électronique, par rôle d’utilisateur ou par statut valide/non valide.
 
 Si les utilisateurs sont trop nombreux, vous pouvez limiter la taille de la liste en sélectionnant le menu Taille liste max., puis en choisissant une valeur.
 
@@ -162,17 +162,17 @@ Le tableau suivant décrit les rapports que vous pouvez générer à partir de l
 
 Le rapport Contenu de l’image fournit des informations sur les requêtes pour les types d’image suivants :
 
-* **Demande d’image** - Demandes d’images.
+* **Demande d’image**: demandes d’images.
 
-* **Demande de miniature** - Demandes d’échantillon ou d’images de remplacement dans les visionneuses.
+* **Demande de miniature**: demandes d’échantillon ou d’images de remplacement dans les visionneuses.
 
-* **Masquer la requête** - Demandes d’images renvoyant des masques en niveaux de gris.
+* **Masquer la requête**: demandes aux images renvoyant des masques en niveaux de gris.
 
-* **Requête de mosaïque de visionneuse** - Demandes d’image chargées par une visionneuse.
+* **Requête de mosaïque de visionneuse**: demandes d’image chargées par une visionneuse.
 
-* **Requête D’Objet Vnt** - Demandes de rendu d’image qui renvoient une image avec des objets spécifiés dans les vignettes demandées.
+* **Requête D’Objet Vnt**: demandes de rendu d’image qui renvoient une image avec des objets spécifiés dans les vignettes demandées.
 
-* **Requête Infos Vnt** - Demandes de rendu d’image qui renvoient des informations relatives aux vignettes demandées.
+* **Requête Infos Vnt**: demandes de rendu d’image qui renvoient des informations relatives aux vignettes demandées.
 
 >[!NOTE]
 >
@@ -192,27 +192,27 @@ Pour générer un rapport de bande passante, stockage, contenu de l’image, dom
 
 Après avoir généré un rapport sur la page Bande passante et stockage, vous pouvez choisir des options pour l’affichage des informations. Vous pouvez choisir le mode de présentation des informations, afficher les informations dans un tableau ou une grille de données et indiquer une période pour la capture des informations. En mode Affichage des données, vous pouvez également trier les informations et réorganiser les colonnes.
 
-* **Affichage des données dans un graphique ou une grille de données** - Sélectionner **[!UICONTROL Affichage du graphique]** pour afficher les données dans un graphique ; sélectionnez **[!UICONTROL Vue des données]** pour afficher les données dans une grille de données.
+* **Affichage des données dans un graphique ou une grille de données**: sélectionnez **[!UICONTROL Affichage du graphique]** pour afficher les données dans un graphique ; sélectionnez **[!UICONTROL Vue des données]** pour afficher les données dans une grille de données.
 
-* **Choisissez un type de présentation de rapport** - Dans le menu Type de rapport, sélectionnez **[!UICONTROL Résumé]**, **[!UICONTROL Qualité]**, ou **[!UICONTROL Mensuel]** pour organiser les données sous forme de résumé, par jour ou par mois. Tous les rapports ne proposent pas cette option.
+* **Choisissez un type de présentation de rapport**: dans le menu Type de rapport, sélectionnez **[!UICONTROL Résumé]**, **[!UICONTROL Qualité]**, ou **[!UICONTROL Mensuel]** pour organiser les données sous forme de résumé, par jour ou par mois. Tous les rapports ne proposent pas cette option.
 
-* **Définition d’une période** - Choisissez des options pour définir une période pour votre rapport, puis sélectionnez **[!UICONTROL Mettre à jour]** après avoir défini une période :
+* **Définition d’une période**: choisissez des options pour définir une période pour votre rapport, puis sélectionnez **[!UICONTROL Mettre à jour]** après avoir défini une période :
 
-* **Période prédéfinie** - Dans le menu Rapport prédéfini , sélectionnez une option. Par exemple, choisissez Le mois dernier pour capturer les données du mois précédent.
+* **Période prédéfinie**: dans le menu Rapport prédéfini , sélectionnez une option. Par exemple, choisissez Le mois dernier pour capturer les données du mois précédent.
 
-* **Période personnalisée** - Dans le menu Rapport prédéfini, sélectionnez **[!UICONTROL Personnalisé]**. Sélectionnez ensuite une date sur la page **[!UICONTROL Mois de début]** (ou **[!UICONTROL Date de début]**) et une date dans le menu Nombre de mois (ou Nombre ou Jours) . Pour les rapports de domaine ou de contenu vidéo, vous pouvez choisir une date de début et une date de fin spécifiques pour la capture des informations du rapport.
+* **Période personnalisée**: dans le menu Rapport prédéfini, sélectionnez **[!UICONTROL Personnalisé]**. Sélectionnez ensuite une date sur la page **[!UICONTROL Mois de début]** (ou **[!UICONTROL Date de début]**) et une date dans le menu Nombre de mois (ou Nombre ou Jours) . Pour les rapports de domaine ou de contenu vidéo, vous pouvez choisir une date de début et une date de fin spécifiques pour la capture des informations du rapport.
 
-* **Tri des données (vue Données uniquement)** - Pour trier les informations sur une colonne, sélectionnez l’en-tête de la colonne. Sélectionnez à nouveau pour trier dans l’ordre décroissant.
+* **Tri des données (vue Données uniquement)**: pour trier les informations sur une colonne, sélectionnez l’en-tête de la colonne. Sélectionnez à nouveau pour trier dans l’ordre décroissant.
 
-* **Réorganiser les colonnes (vue Données uniquement)** - Pour déplacer une colonne vers un autre emplacement de la grille de données, faites glisser son en-tête.
+* **Réorganiser les colonnes (vue Données uniquement)**: pour déplacer une colonne vers un autre emplacement de la grille de données, faites glisser son en-tête.
 
 ### Exporter et imprimer des rapports {#exporting-and-printing-reports}
 
 Après avoir généré un rapport, vous pouvez exporter ses données pour une utilisation dans des feuilles de calcul et d’autres applications. Vous pouvez également imprimer des rapports.
 
-* **Exporter les données de rapport** - Dans la vue Données, triez et organisez les données selon vos besoins. Ouvrez ensuite le **[!UICONTROL Exporter]** et choisissez un format : **[!UICONTROL Délimité par tabulation]**, **[!UICONTROL Séparée par une virgule]**, ou **[!UICONTROL HTML formaté]**. Les données sont copiées dans le Presse-papiers au format que vous choisissez. Vous pouvez à présent coller les données dans une feuille de calcul ou une application.
+* **Exporter les données de rapport**: dans la vue Données, triez et organisez les données selon vos besoins. Ouvrez ensuite le **[!UICONTROL Exporter]** et choisissez un format : **[!UICONTROL Délimité par tabulation]**, **[!UICONTROL Séparée par une virgule]**, ou **[!UICONTROL HTML formaté]**. Les données sont copiées dans le Presse-papiers au format que vous choisissez. Vous pouvez à présent coller les données dans une feuille de calcul ou une application.
 
-* **Imprimer un rapport** - Sélectionner **[!UICONTROL Imprimer]**, choisissez les options de votre choix dans la boîte de dialogue Imprimer, puis sélectionnez **[!UICONTROL OK]**.
+* **Imprimer un rapport**: sélectionnez **[!UICONTROL Imprimer]**, choisissez les options de votre choix dans la boîte de dialogue Imprimer, puis sélectionnez **[!UICONTROL OK]**.
 
 ## Erreurs d’image {#image-errors}
 
@@ -224,22 +224,22 @@ Les administrateurs Adobe Dynamic Media Classic peuvent générer des rapports d
 
    * Pour trier les erreurs selon les informations d’en-tête, sélectionnez un en-tête. Par défaut, les erreurs sont triées par nombre d’occurrences, du plus élevé au moins élevé.
    * Placez le curseur sur le champ Réponse d’une erreur pour afficher le message d’erreur correspondant.
-   * Pour afficher le lien vers l’image ou la page web du référent, placez le curseur sur le champ URL ou le champ Référent .
+   * Pour afficher le lien vers l’image ou la page Web du référent, placez le curseur sur le champ URL ou le champ Référent .
    * Pour copier le lien vers l’image, sélectionnez **[!UICONTROL URL de copie d’URL]**. Vous pouvez coller ce lien dans un navigateur pour accéder à l’image et étudier l’erreur.
-   * Pour copier le lien vers la page web du référent, sélectionnez **[!UICONTROL URL de copie de référent]**.
+   * Pour copier le lien vers la page Web du référent, sélectionnez **[!UICONTROL URL de copie de référent]**.
 
 Les erreurs affichées concernent la société à laquelle vous êtes actuellement connecté. Les informations suivantes sont indiquées pour chaque erreur :
 
-* **ID d’image** - Identifiant de l’image offensante.
+* **ID d’image**: identifiant de l’image offensante.
 
-* **Heure** - La période de la première fois où l’erreur a été signalée à la dernière fois où l’erreur a été signalée, au cours des dernières 24 heures.
+* **Heure**: période de la première fois où l’erreur a été signalée à la dernière fois où l’erreur a été signalée, au cours des dernières 24 heures.
 
-* **Count** - Nombre d’erreurs signalées sur l’image.
+* **Count**: nombre d’erreurs signalées sur l’image.
 
-* **Réponse** - Message d’erreur spécifique. Les erreurs sont soit 4xx soit 5xx.
+* **Réponse**: message d’erreur spécifique. Les erreurs sont soit 4xx soit 5xx.
 
-* **URL** - Répertorie l’URL de l’image sur Adobe Dynamic Media Classic.
+* **URL**: répertorie l’URL de l’image sur Adobe Dynamic Media Classic.
 
-* **Référent** : indique l’URL du site web d’où provient la requête initiale. Le référant peut être n’importe quel site Web contenant un lien vers l’image.
+* **Référent**: indique l’URL du site Web d’où provient la requête initiale. Le référent peut être n’importe quel site Web ayant un lien vers l’image.
 
 Les colonnes URL et Référent disposent de boutons Copier l’URL qui permettent de simplifier les tests.

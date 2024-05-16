@@ -10,7 +10,7 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 44%
@@ -38,9 +38,9 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Utilisez l’une des méthodes suivantes pour commencer à créer votre catalogue électronique :
 
-   * **Sélectionner d’abord les fichiers** - Dans le panneau de navigation, sélectionnez les fichiers, puis accédez à **[!UICONTROL Build]** > **[!UICONTROL Catalogues électroniques]**.
+   * **Sélectionner d’abord les fichiers**: dans le panneau de navigation, sélectionnez les fichiers, puis accédez à **[!UICONTROL Build]** > **[!UICONTROL Catalogues électroniques]**.
 
-   * **Démarrage à partir de l’écran Catalogue électronique** - Accédez à **[!UICONTROL Build]** > **[!UICONTROL Catalogues électroniques]**. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser son contenu vers l’onglet Ordre des pages de la page Catalogue électronique.
+   * **Démarrage à partir de l’écran Catalogue électronique**: accédez à **[!UICONTROL Build]** > **[!UICONTROL Catalogues électroniques]**. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser son contenu vers l’onglet Ordre des pages de la page Catalogue électronique.
 
      >[!NOTE]
      >
@@ -50,11 +50,11 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Si vous le souhaitez, vous pouvez modifier la mise en page de pages individuelles ou de planches en les sélectionnant, puis en choisissant **[!UICONTROL 1 haut]**, **[!UICONTROL 2 en haut]**, ou **[!UICONTROL Personnalisé]** bouton . Dans le **[!UICONTROL Modification de la disposition du catalogue électronique]** , sélectionnez **[!UICONTROL Diffusions sélectionnées]** options et sélectionnez **[!UICONTROL OK]**.
 1. Réorganisez les pages selon vos besoins en utilisant l’une des méthodes suivantes :
 
-   * **Glissement** - Faites glisser une page ou une propagation de page vers un nouvel emplacement. La barre verticale indique le nouvel emplacement de la page.
+   * **Glissement**: faites glisser une page ou une page vers un nouvel emplacement. La barre verticale indique le nouvel emplacement de la page.
 
-   * **Bouton Déplacer vers** - Sélectionnez une page ou une étendue de page, puis **[!UICONTROL Déplacer vers]**, puis sélectionnez la page du menu qui doit apparaître au-dessus de votre page.
+   * **Bouton Déplacer vers**: sélectionnez une page ou une étendue de page, puis **[!UICONTROL Déplacer vers]**, puis sélectionnez la page du menu qui doit apparaître au-dessus de votre page.
 
-   * **Numéro de séquence** - En mode Liste, saisissez les numéros de page dans les champs de la séquence #.
+   * **Numéro de séquence**: en mode Liste, saisissez les numéros de page dans les champs de la séquence #.
 
 1. Une fois terminé, près de l’angle inférieur droit de la page, vérifiez que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
 1. Sélectionner **[!UICONTROL Enregistrer]**.

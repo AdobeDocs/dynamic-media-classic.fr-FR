@@ -9,10 +9,10 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 23%
+ht-degree: 17%
 
 ---
 
@@ -32,11 +32,11 @@ Pour configurer l’effet Légende et modifier le menu Légende lui-même, y com
 * `Universal_HTML5_MixedMedia_dark` observateur
 * `Universal_HTML5_MixedMedia_light` observateur
 
-Voir [Ajouter ou modifier un paramètre prédéfini de visionneuse de vidéos](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
+Voir [Ajout ou modification d’un paramètre prédéfini de visionneuse vidéo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 Voir aussi [Ajout et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
 
-Adobe Dynamic Media Classic peut convertir les fichiers de sous-titres au format JSON (JavaScript Object Notation). Cette conversion signifie que vous pouvez intégrer le texte JSON dans une page Web comme transcription masquée mais complète de la vidéo. Les moteurs de recherche peuvent ensuite analyser et indexer le contenu pour faciliter la découverte des vidéos et donner aux clients plus de détails sur le contenu vidéo.
+Adobe Dynamic Media Classic peut convertir les fichiers de sous-titres au format JSON (JavaScript Object Notation). Cette conversion signifie que vous pouvez incorporer le texte JSON dans une page web en tant que transcription masquée mais complète de la vidéo. Les moteurs de recherche peuvent ensuite analyser et indexer le contenu pour faciliter la découverte des vidéos et donner aux clients plus de détails sur le contenu vidéo.
 
 Voir [Diffuser du contenu statique (hors image)](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) dans pour plus d’informations sur l’utilisation de la fonction JSON dans une URL.
 
@@ -46,7 +46,7 @@ Voir [Diffuser du contenu statique (hors image)](https://experienceleague.adobe.
 
    | Type de visionneuse | Fichier de sous-titrage |
    |--- |--- |
-   | HTML5 | Si vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fichier de sous-titrage que vous créez est conforme à la norme WebVTT (Web Video Text Tracks). L’extension de nom de fichier de sous-titrage est `.VTT`. D’autres informations sont disponibles sur la norme de sous-titrage WebVTT.<br><br>[Voir WebVTT](https://w3c.github.io/webvtt/): format de suivi de texte vidéo web. <br><br>De nombreux sites web offrent des outils et des services gratuits et gratuits que vous pouvez utiliser pour créer des fichiers de sous-titres WebVTT. <br><br>Suivez les instructions à l’écran d’un site pour créer et enregistrer votre fichier WebVTT. Une fois que vous avez terminé, copiez le contenu du fichier de sous-titres et collez-le dans un éditeur de texte brut, puis enregistrez-le avec l’extension de nom de fichier VTT. <br><br><b>Remarque :</b> Pour une prise en charge globale des sous-titres vidéo dans des langues autres que l’anglais, la norme WebVTT exige que vous créiez des `.VTT` fichiers et appels pour chaque langue que vous souhaitez prendre en charge. <br><br>En règle générale, vous attribuez au fichier de sous-titres VTT le même nom que le fichier vidéo et lui ajoutez des sous-titres. En procédant ainsi, vous pouvez automatiser aisément la génération des URL de vidéo en utilisant le système de gestion de contenu Web existant. |
+   | HTML5 | Si vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fichier de sous-titrage que vous créez est conforme à la norme WebVTT (Web Video Text Tracks). L’extension de nom de fichier de sous-titrage est `.VTT`. D’autres informations sont disponibles sur la norme de sous-titrage WebVTT.<br><br>[Voir WebVTT](https://w3c.github.io/webvtt/): format de suivi de texte vidéo web. <br><br>De nombreux sites web offrent des outils et des services gratuits et gratuits que vous pouvez utiliser pour créer des fichiers de sous-titres WebVTT. <br><br>Suivez les instructions à l’écran d’un site pour créer et enregistrer votre fichier WebVTT. Une fois que vous avez terminé, copiez le contenu du fichier de sous-titres et collez-le dans un éditeur de texte brut, puis enregistrez-le avec l’extension de nom de fichier VTT. <br><br><b>Remarque :</b> Pour une prise en charge globale des sous-titres vidéo dans des langues autres que l’anglais, la norme WebVTT exige que vous créiez des `.VTT` fichiers et appels pour chaque langue que vous souhaitez prendre en charge. <br><br>En règle générale, vous attribuez au fichier de sous-titres VTT le même nom que le fichier vidéo et lui ajoutez des sous-titres. Ce faisant, il peut vous aider à automatiser la génération des URL vidéo à l&#39;aide de votre système de gestion de contenu web existant. |
 
 1. Dans Adobe Dynamic Media Classic, téléchargez votre fichier de sous-titres WebVTT, DFXP ou SMPTE XML.
 

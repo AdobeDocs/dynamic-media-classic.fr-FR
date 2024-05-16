@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -28,9 +28,9 @@ Les paramètres disponibles sur cette page dépendent de votre statut d’utilis
 
 Les administrateurs peuvent également configurer des paramètres d’image prédéfinis et des paramètres de visionneuse prédéfinis dans la **[!UICONTROL Configuration]** page :
 
-* **Paramètres d’image prédéfinis** - Les paramètres d’image prédéfinis sont des formats enregistrés permettant d’afficher les images principales dans différents formats et tailles.
+* **Paramètres d’image prédéfinis**: les paramètres d’image prédéfinis sont des formats enregistrés permettant d’afficher des images principales dans différents formats et tailles.
 
-* **Paramètres prédéfinis de la visionneuse** - Les paramètres prédéfinis de la visionneuse déterminent la manière dont vous voyez votre contenu multimédia lorsqu’il apparaît dans une visionneuse.
+* **Paramètres prédéfinis de la visionneuse**: les paramètres prédéfinis de la visionneuse déterminent le mode d’affichage de votre contenu multimédia lorsque vous le visualisez dans une visionneuse.
 
 >[!MORELIKETHIS]
 >

@@ -10,7 +10,7 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 21%
@@ -41,7 +41,7 @@ Voir [Ajout et modification de paramètres prédéfinis de visionneuse](applicat
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic fournit une méthode pratique pour prévisualiser une vidéo MP4 sur le bureau. Utilisez cette méthode pour prévisualiser du contenu mobile sur le Bureau sans le tester concrètement sur des périphériques mobiles. Notez toutefois que ce qui est affiché dans l’aperçu de bureau n’indique pas de manière réaliste à quoi ressemble la lecture sur l’appareil mobile. Pour prévisualiser l’aspect et la lecture d’une vidéo sur un appareil mobile, accédez à l’écran Prévisualisation , puis sélectionnez **[!UICONTROL Copier l’URL]**, puis saisissez cette URL dans le navigateur web d’un appareil mobile. Pour plus d’informations, voir [Déployer une vidéo sur vos sites web et vos sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic fournit une méthode pratique pour prévisualiser une vidéo MP4 sur le bureau. Utilisez cette méthode pour prévisualiser du contenu mobile sur le Bureau sans le tester concrètement sur des périphériques mobiles. Notez toutefois que ce qui est affiché dans l’aperçu de bureau n’indique pas de manière réaliste à quoi ressemble la lecture sur l’appareil mobile. Pour prévisualiser l’aspect et la lecture d’une vidéo sur un appareil mobile, accédez à l’écran Prévisualisation , puis sélectionnez **[!UICONTROL Copier l’URL]**, puis saisissez cette URL dans le navigateur Web d’un appareil mobile. Pour plus d’informations, voir [Déployer une vidéo sur vos sites web et vos sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Utilisation des paramètres prédéfinis de visionneuse de vidéos {#working-with-video-viewer-presets}
 
@@ -53,7 +53,7 @@ Voir [Prévisualisation de vidéos dans une visionneuse de vidéos](previewing-v
 
 Voir aussi [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vidéo de formation.
 
-### Ajouter ou modifier un paramètre prédéfini de visionneuse de vidéos {#adding-or-editing-a-video-viewer-preset}
+### Ajout ou modification d’un paramètre prédéfini de visionneuse vidéo {#adding-or-editing-a-video-viewer-preset}
 
 La fonction Paramètres prédéfinis de la visionneuse vous permet d’afficher les divers types de visionneuse et leurs paramètres prédéfinis. Vous pouvez également ajouter et modifier vos propres paramètres prédéfinis de visionneuse personnalisés ou modifier les paramètres prédéfinis de visionneuse existants fournis avec Adobe Dynamic Media Classic.
 
@@ -71,15 +71,15 @@ Voir aussi [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/h
 
 1. Ajoutez ou modifiez un paramètre prédéfini de visionneuse pour l’affichage vidéo :
 
-   * **Ajouter** - Sélectionner **[!UICONTROL Ajouter]** dans la barre d’outils. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plateforme et une visionneuse dans les listes déroulantes respectives, puis sélectionnez **[!UICONTROL Ajouter]**.
+   * **Ajouter**: sélectionnez **[!UICONTROL Ajouter]** dans la barre d’outils. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plateforme et une visionneuse dans les listes déroulantes respectives, puis sélectionnez **[!UICONTROL Ajouter]**.
 
    Voir aussi [Ajout et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
 
-   * **Ajouter en commençant par un paramètre prédéfini de visionneuse existant** - Dans le tableau, sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis sélectionnez **[!UICONTROL Modifier]** dans la barre d’outils.
+   * **Ajouter en commençant par un paramètre prédéfini de visionneuse existant**: dans le tableau, sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis sélectionnez **[!UICONTROL Modifier]** dans la barre d’outils.
 
    Après avoir reconfiguré la visionneuse de vidéos, sélectionnez **[!UICONTROL Enregistrer sous]** pour enregistrer le paramètre prédéfini à l’aide d’un nom différent dans le champ de texte Nom du paramètre prédéfini .
 
-   * **Modifier** - Sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis cliquez sur **[!UICONTROL Modifier]**.
+   * **Modifier**: sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis cliquez sur **[!UICONTROL Modifier]**.
 
 1. Dans le `Configure Viewer` , dans le champ Nom du paramètre prédéfini , saisissez ou modifiez le nom du paramètre prédéfini.
 1. Définissez les options restantes si vous le souhaitez.

@@ -10,23 +10,23 @@ role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '2444'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
 # Création de zones cliquables {#creating-image-maps}
 
-Une zone cliquable est une zone d’une image, d’une page de catalogue électronique ou d’une image dans une visionneuse à 360° qui affiche un panneau de survol avec du texte. Lorsque l’utilisateur sélectionne une zone cliquable, une action d’une sorte ou d’une autre est déclenchée. Par exemple, une page Web affiche des informations détaillées sur un produit. Un contour s’affiche autour d’une zone cliquable lorsque l’utilisateur déplace le pointeur dessus.
+Une zone cliquable est une zone d’une image, d’une page de catalogue électronique ou d’une image dans une visionneuse à 360° qui affiche un panneau de survol avec du texte. Lorsque l’utilisateur sélectionne une zone cliquable, une action d’une sorte ou d’une autre est déclenchée. Par exemple, une page Web est lancée afin que l’utilisateur puisse en savoir plus sur un produit. Un contour s’affiche autour d’une zone cliquable lorsque l’utilisateur déplace le pointeur dessus.
 
 Outre la possibilité de créer des zones cliquables dans Adobe Dynamic Media Classic, vous pouvez également créer des zones cliquables lors de la conception d’un catalogue dans Adobe Acrobat ou Adobe InDesign.
 
 Lorsque vous créez des zones cliquables, vous pouvez effectuer l’une des opérations suivantes :
 
 * Saisir un texte de survol.
-* Entrer du code JavaScript et des URL pour lancer des pages Web.
+* Saisissez le code JavaScript et les URL permettant de lancer les pages Web.
 * Créer des modèles d’URL pour les zones cliquables.
 * Copier des zones cliquables dans d’autres images, pages de catalogue électronique ou images dans une visionneuse à 360°.
 * Exporter des zones cliquables au format CSV ou XML.
@@ -54,7 +54,7 @@ Lorsque vous créez des zones cliquables, vous pouvez effectuer l’une des opé
 
    Pour créer le nom, Adobe Dynamic Media Classic ajoute un numéro séquentiel au nom de l’image ou de la page de catalogue électronique que vous utilisez. Vous pouvez indiquer le nom de votre choix.
 
-1. Si vous souhaitez que les utilisateurs ouvrent une nouvelle page web lorsqu’ils sélectionnent la zone cliquable, saisissez l’URL dans la liste Zone cliquable.
+1. Si vous souhaitez que les utilisateurs ouvrent une nouvelle page Web lorsqu’ils sélectionnent la zone cliquable, saisissez l’URL dans la liste Zone cliquable.
 
    Voir [pour saisir du code JavaScript et des URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
@@ -147,9 +147,9 @@ Javascript:loadProduct('$$');void(0);
 
 Vous placez toutes les valeurs qui ne changent pas entre les zones cliquables dans le modèle d’URL. N’ajoutez que les valeurs variables dans la colonne URL de la liste Zone cliquable. Par exemple :
 
-* Modèle d’URL - `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
-* Valeur d’URL - `product.htm`
-* URL réelle générée - `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
+* Modèle d’URL : `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
+* Valeur d’URL : `product.htm`
+* URL réelle générée : `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
 Par défaut, le modèle d’URL comprend un gestionnaire JavaScript Adobe Dynamic Media Classic propriétaire appelé `loadProduct` qui ouvre une nouvelle fenêtre avec la destination de l’URL. Cependant, vous pouvez utiliser n’importe quel code JavaScript pour remplacer ce gestionnaire JavaScript ou utiliser l’un des gestionnaires Adobe Dynamic Media Classic suivants :
 
@@ -177,11 +177,11 @@ La page Editeur de zone cliquable (images et visionneuses à 360°) et l’ongle
 
 ## Définition d’autres actions pour les zones cliquables {#defining-other-actions-for-image-maps}
 
-Vous pouvez sélectionner la variable **[!UICONTROL Afficher]** et choisissez **[!UICONTROL Autres actions]** pour déclencher des actions autres que le texte de survol et les lancements de pages web. Lorsque l’utilisateur amène le pointeur sur une zone cliquable, vous pouvez initier une action. Ces actions sont des attributs définis pour les zones cliquables côté client conformément aux spécifications HTML du consortium WWW (World Wide Web). Elles comptent notamment :
+Vous pouvez sélectionner la variable **[!UICONTROL Afficher]** et choisissez **[!UICONTROL Autres actions]** pour déclencher des actions autres que le texte de survol et les lancements de pages Web. Lorsque l’utilisateur amène le pointeur sur une zone cliquable, vous pouvez initier une action. Ces actions sont des attributs définis pour les zones cliquables côté client conformément aux spécifications HTML du consortium WWW (World Wide Web). Elles comptent notamment :
 
 * **`accesskey`**: déclenche une action lorsque l’utilisateur appuie sur une touche désignée du clavier.
 
-* **`onfocus`**: déclenche un événement lorsque la zone cliquable reçoit le focus (par le curseur, par tabulation ou en appuyant sur une touche d’accès). Par exemple, vous pouvez lancer une page Web lorsque la zone cliquable devient active et la refermer lorsqu’elle ne l’est plus.
+* **`onfocus`**: déclenche un événement lorsque la zone cliquable reçoit le focus (par le curseur, par tabulation ou en appuyant sur une touche d’accès). Par exemple, vous pouvez lancer une page Web lorsque la zone cliquable est sélectionnée et la fermer lorsque la zone cliquable n’est plus active.
 
 * **`onblur`**: déclenche un événement lorsque la zone cliquable n’est plus sélectionnée, que ce soit par le curseur ou par la tabulation.
 

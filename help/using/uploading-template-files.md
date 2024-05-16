@@ -10,7 +10,7 @@ role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 topic: Content Management
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 32%
@@ -23,7 +23,7 @@ Transférez les fichiers dont vous avez besoin pour votre modèle dans Adobe Dyn
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic recommande d’utiliser des images de TIFF ou de PSD transparentes dans vos modèles à la taille exacte à laquelle vous souhaitez les afficher sur votre site web. Lorsque vous publiez le modèle, appelez l’image avec un paramètre d’image prédéfini qui soit de la même taille. Si vous prenez soin de définir correctement la taille, il sera inutile de redimensionner (rééchantillonner) le modèle par rapport à la taille à laquelle il a été créé.
+>Adobe Dynamic Media Classic recommande d’utiliser des images de TIFF ou de PSD transparentes dans vos modèles à la taille exacte que vous souhaitez afficher sur votre site Web. Lorsque vous publiez le modèle, appelez l’image avec un paramètre d’image prédéfini qui soit de la même taille. Si vous prenez soin de définir correctement la taille, il sera inutile de redimensionner (rééchantillonner) le modèle par rapport à la taille à laquelle il a été créé.
 
 Les modèles peuvent être créés à partir de fichiers Adobe Photoshop PSD ou de fichiers d’images. 
 

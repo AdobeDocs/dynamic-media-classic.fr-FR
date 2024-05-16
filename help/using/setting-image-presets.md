@@ -10,10 +10,10 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 37%
+ht-degree: 34%
 
 ---
 
@@ -23,7 +23,7 @@ Semblable à une macro, un paramètre d’image prédéfini est un ensemble pré
 
 Adobe Dynamic Media Classic est fourni avec plusieurs paramètres d’image prédéfinis de &quot;bonne pratique&quot; qui sont déjà configurés pour que vous puissiez les utiliser. Les administrateurs peuvent également créer des paramètres d’image prédéfinis. Vous pouvez créer un paramètre d’image prédéfini entièrement nouveau ou exploiter un paramètre existant et enregistrer votre création sous un nouveau nom.
 
-Les images de taille réduite, lorsqu’elles sont diffusées dynamiquement à partir d’un serveur, peuvent perdre en netteté et en détail. C’est la raison pour laquelle chaque paramètre d’image prédéfini contient des commandes de formatage permettant d’optimiser l’image lorsqu’elle est diffusée avec une taille particulière. Ces commandes garantissent une image nette et claire au moment de la diffusion vers le site Web ou l’application.
+Les images de taille réduite, lorsqu’elles sont diffusées dynamiquement à partir d’un serveur, peuvent perdre en netteté et en détail. C’est la raison pour laquelle chaque paramètre d’image prédéfini contient des commandes de formatage permettant d’optimiser l’image lorsqu’elle est diffusée avec une taille particulière. Ces commandes garantissent que vos images sont nettes et claires lorsqu’elles sont diffusées sur votre site Web ou dans votre application.
 
 ## Créer un paramètre d’image prédéfini {#creating-an-image-preset}
 
@@ -37,8 +37,8 @@ Si vous avez le statut d’administrateur, vous pouvez créer vos propres param�
 
 1. Effectuez l’une des opérations suivantes :
 
-   * **Créer un paramètre d’image prédéfini** - Sélectionner **[!UICONTROL Ajouter]**.
-   * **Modifier un paramètre d’image prédéfini** - Accédez au paramètre d’image prédéfini qui ressemble le plus à celui que vous souhaitez créer, puis sélectionnez **[!UICONTROL Modifier]**.
+   * **Créer un paramètre d’image prédéfini**: sélectionnez **[!UICONTROL Ajouter]**.
+   * **Modifier un paramètre d’image prédéfini**: accédez au paramètre d’image prédéfini qui ressemble le plus à celui que vous souhaitez créer, puis sélectionnez **[!UICONTROL Modifier]**.
 
 1. Entrez le nom du paramètre.
 1. Complétez les champs Largeur et Hauteur en pixels. Ces mesures déterminent la taille à laquelle les images sont diffusées.
@@ -46,13 +46,13 @@ Si vous avez le statut d’administrateur, vous pouvez créer vos propres param�
 
    Adobe Dynamic Media Classic recommande les options &quot;bonnes pratiques&quot; suivantes pour commencer :
 
-   * **[!UICONTROL Format]** - Sélectionnez JPEG ou un autre format qui répond à vos besoins. Tous les navigateurs web prennent en charge le format d’image du JPEG ; il offre un bon équilibre entre les petites tailles de fichiers et la qualité d’image. Cependant, les images JPEG utilisent un modèle de compression avec perte qui peut introduire des artefacts d’image indésirables si le paramètre de compression est trop faible. Pour cette raison, Adobe Dynamic Media Classic recommande de définir la qualité de compression (sur le curseur) sur 75. Ce paramètre offre un bon compromis entre qualité d’image et taille de fichier réduite.
+   * **[!UICONTROL Format]**: sélectionnez JPEG ou un autre format qui répond à vos besoins. Tous les navigateurs Web prennent en charge le format d’image du JPEG ; il offre un bon équilibre entre les petites tailles de fichiers et la qualité des images. Cependant, les images JPEG utilisent un modèle de compression avec perte qui peut introduire des artefacts d’image indésirables si le paramètre de compression est trop faible. Pour cette raison, Adobe Dynamic Media Classic recommande de définir la qualité de compression (sur le curseur) sur 75. Ce paramètre offre un bon compromis entre qualité d’image et taille de fichier réduite.
 
-   * **[!UICONTROL Accentuation]** - Ne sélectionnez pas l’accentuation (ce filtre d’accentuation offre moins de contrôle que **[!UICONTROL Accentuation]** ).
+   * **[!UICONTROL Accentuation]**: ne sélectionnez pas l’accentuation (ce filtre d’accentuation offre moins de contrôle que **[!UICONTROL Accentuation]** ).
 
-   * **[!UICONTROL Mode de rééchantillonnage]** - Choose **[!UICONTROL Bicubique]**.
+   * **[!UICONTROL Mode de rééchantillonnage]**: Choose **[!UICONTROL Bicubique]**.
 
-   * **[!UICONTROL Accentuation]** (USM) - Saisissez les paramètres suivants :
+   * **[!UICONTROL Accentuation]** (USM) : renseignez les paramètres suivants :
 
    | Type de paramètre prédéfini | Taille | Quantité | Rayon | Seuil |
    | --- | --- | --- | --- | --- |
@@ -65,11 +65,11 @@ Si vous avez le statut d’administrateur, vous pouvez créer vos propres param�
 
 Les options &quot;bonnes pratiques&quot; d’Adobe Dynamic Media Classic pour la création de paramètres d’image prédéfinis répertoriés ici sont des recommandations générales ; l’accentuation est hautement subjective. Ces paramètres de &quot;bonne pratique&quot; étaient basés sur une image principale de 2 000 × 2 000 ; les paramètres des fichiers principaux plus grands ou plus petits peuvent être différents. Si vous souhaitez ajuster les paramètres Masquage flou, Adobe Dynamic Media Classic recommande les plages suivantes :
 
-* **[!UICONTROL Quantité]** - Entre `.8` et `1.5`.
+* **[!UICONTROL Quantité]**: entre `.8` et `1.5`.
 
-* **[!UICONTROL Rayon]** - Entre `.6` et `2`.
+* **[!UICONTROL Rayon]**: entre `.6` et `2`.
 
-* **[!UICONTROL Seuil]** - De `1` through `6`.
+* **[!UICONTROL Seuil]**: de `1` through `6`.
 
 Pour supprimer un paramètre d’image prédéfini, sélectionnez-le dans l’écran Paramètres d’image prédéfinis, puis sélectionnez **[!UICONTROL Supprimer]**.
 

@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1227'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
@@ -37,13 +37,13 @@ Adobe Dynamic Media Classic propose des outils d’édition et de création de v
 
 Créez une visionneuse d’offres à partir des types suivants :
 
-* **Images** - Vous pouvez assembler des images pour une visionneuse d’offres. Chaque image comprend une offre différente dans la visionneuse.
+* **Images**: vous pouvez assembler des images pour une visionneuse d’offres. Chaque image comprend une offre différente dans la visionneuse.
 
-* **Modèle d’image** - Vous pouvez paramétrer des modèles d’image dans Adobe Dynamic Media Classic avec le **[!UICONTROL Build]** > Concepts de base des modèles, commande. A travers les paramètres, les composants du modèle (le texte des cadres textuels, les différentes images) peuvent être modifiés et personnalisés. Pour une visionneuse d’offres, vous pouvez utiliser les paramètres de modèles afin de créer des variantes de la même image dans votre visionneuse d’offres, par exemple. Pour plus d’informations sur la création et le paramétrage des modèles d’image, voir [Créer des paramètres de modèle](creating-template-parameters.md#creating_template_parameters).
+* **Modèle d’image**: vous pouvez paramétrer des modèles d’image dans Adobe Dynamic Media Classic avec le **[!UICONTROL Build]** > Concepts de base des modèles, commande. A travers les paramètres, les composants du modèle (le texte des cadres textuels, les différentes images) peuvent être modifiés et personnalisés. Pour une visionneuse d’offres, vous pouvez utiliser les paramètres de modèles afin de créer des variantes de la même image dans votre visionneuse d’offres, par exemple. Pour plus d’informations sur la création et le paramétrage des modèles d’image, voir [Créer des paramètres de modèle](creating-template-parameters.md#creating_template_parameters).
 
 Voir aussi [Concepts de base des modèles](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vidéo de formation.
 
-* **Vidéo** - Vous pouvez assembler une vidéo pour une visionneuse d’offres. Chaque vidéo est une offre différente dans la visionneuse.
+* **Vidéo**: vous pouvez assembler une vidéo pour une visionneuse d’offres. Chaque vidéo est une offre différente dans la visionneuse.
 
 ## Créer un ensemble d’offres avec un modèle paramétré {#creating-an-offer-set-with-a-parameterized-template}
 
@@ -67,7 +67,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
    Dans la partie gauche de cette page, les paramètres du modèle ainsi que leurs valeurs sont répertoriés.
 
-1. Modifiez les valeurs de paramètres pour créer l’offre. Par exemple, entrez du texte différent dans un champ de texte, modifiez la taille d’un calque, remplacez une image par une autre ou choisissez un autre paramètre prédéfini de visionneuse.
+1. Modifiez les valeurs de paramètres pour créer l’offre. Par exemple, saisissez un texte différent dans un champ de texte, modifiez la taille d’un calque, changez d’image ou choisissez un autre paramètre prédéfini de visionneuse.
 1. Sélectionner **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer sous**]** pour enregistrer l’offre dans le cadre du jeu d’offres.
 
    La page Jeu d’offres Test&amp;Target répertorie les offres que vous avez créées.
@@ -93,9 +93,9 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Assemblez des images ou des vidéos pour la visionneuse d’offres. Commencez dans l’écran Visionneuse d’offres Test&amp;Target ou en mode Grille ou Liste, puis utilisez l’une des méthodes suivantes :
 
-   * **Écran Jeu d’offres Test&amp;Target** - Accédez à **[!UICONTROL Build]** > **[!UICONTROL Jeu d’offres Test&amp;Target]**. Faites glisser les images ou les vidéos sur l’écran. Pour créer des vidéos ou des images de tailles diverses, faites glisser plusieurs copies de l’image ou de la vidéo et définissez chaque taille séparément.
+   * **Écran Jeu d’offres Test&amp;Target**: accédez à **[!UICONTROL Build]** > **[!UICONTROL Jeu d’offres Test&amp;Target]**. Faites glisser les images ou les vidéos sur l’écran. Pour créer des vidéos ou des images de tailles diverses, faites glisser plusieurs copies de l’image ou de la vidéo et définissez chaque taille séparément.
 
-   * **Mode Grille ou Mode Liste** - Sélectionnez les images ou les vidéos, puis accédez à **[!UICONTROL Build]** > **[!UICONTROL Jeu d’offres Test&amp;Target]**.
+   * **Mode Grille ou Mode Liste**: sélectionnez les images ou les vidéos, puis accédez à **[!UICONTROL Build]** > **[!UICONTROL Jeu d’offres Test&amp;Target]**.
 
 1. Vous pouvez également sélectionner une image ou une vidéo et sélectionner **[!UICONTROL Aperçu]**. Sur la page Aperçu des offres , vous pouvez modifier la taille et l’aspect de l’image ou de la vidéo que vous avez sélectionnée. Vous pouvez également modifier toutes les images ou vidéos de la visionneuse d’offres.
 
@@ -127,10 +127,10 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Pour modifier un ensemble d’offres, affichez-le en mode Affichage de la grille ou Affichage de la liste, puis sélectionnez son **[!UICONTROL Modifier]** bouton de survol.
 1. Sur la page du jeu d’offres Test&amp;Target, effectuez l’une des opérations suivantes :
 
-   * **Supprimer une offre** - Sélectionnez l’offre, puis cliquez sur **[!UICONTROL Supprimer]** pour supprimer une offre du jeu.
-   * **Ajouter une offre** - La manière dont vous ajoutez une offre dépend du type de jeu d’offres utilisé :
-      * **Modèles** - Sélectionner **[!UICONTROL Ajouter et prévisualiser]**, puis sur la page Ajouter et prévisualiser des offres , créez une autre offre.
-      * **Images et vidéos** - Faites glisser une image ou une vidéo sur la page de la visionneuse d’offres Test&amp;Target.
+   * **Supprimer une offre**: sélectionnez l’offre, puis **[!UICONTROL Supprimer]** pour supprimer une offre du jeu.
+   * **Ajouter une offre**: la manière dont vous ajoutez une offre dépend du type de jeu d’offres utilisé :
+      * **Modèles**: sélectionnez **[!UICONTROL Ajouter et prévisualiser]**, puis sur la page Ajouter et prévisualiser des offres , créez une autre offre.
+      * **Images et vidéos**: faites glisser une image ou une vidéo sur la page de la visionneuse d’offres Test&amp;Target.
 
    >[!NOTE]
    >

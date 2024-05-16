@@ -10,7 +10,7 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 23%
@@ -45,24 +45,24 @@ Vous pouvez modifier le nom d’identifiant d’une police et ses informations d
 
 Dans le panneau de navigation, sélectionnez le fichier de police à modifier dans la vue Détails, puis choisissez Fichier > Modifier les informations. L’écran Editer les informations apparaît. Choisissez les options suivantes, puis sélectionnez **[!UICONTROL Envoyer]**.
 
-* **[!UICONTROL Nom de la police]** - Ce nom identifie la police lors de sa publication.
+* **[!UICONTROL Nom de la police]**: ce nom identifie la police lors de sa publication.
 
-* **[!UICONTROL Nom PostScript]** - Il s’agit du nom PostScript complet de la police. Il indique généralement la graisse ou le style.
+* **[!UICONTROL Nom PostScript]**: il s’agit du nom PostScript complet de la police. Il indique généralement la graisse ou le style.
 
-* **[!UICONTROL Nom RTF]** - Ce nom apparaît dans un menu contextuel de l’éditeur RTF où sont créées les calques de texte de modèle.
+* **[!UICONTROL Nom RTF]**: ce nom apparaît dans un menu contextuel de l’éditeur RTF où sont créées les calques de texte de modèle.
 
-* **[!UICONTROL Nom de famille de polices]** - Ce nom répertorie le nom de la police sans indicateur de style, de poids ou de type de police.
+* **[!UICONTROL Nom de famille de polices]**: ce nom répertorie le nom de la police sans indicateur de style, de poids ou de type de police.
 
-* **[!UICONTROL Style de police]** - Les options disponibles sont les suivantes : brut, gras, italique et gras-italique.
+* **[!UICONTROL Style de police]**: les options sont les suivantes : brut, gras, italique et gras-italique.
 
-* **[!UICONTROL Type de police]** - Les options sont TrueType et Adobe Type 1. Si vous renommez ces polices, vous pouvez l’indiquer.
+* **[!UICONTROL Type de police]**: les options sont TrueType et Adobe Type 1. Si vous renommez ces polices, vous pouvez l’indiquer.
 
-* **[!UICONTROL Abréviation du type de police]** - Les options sont les suivantes :
+* **[!UICONTROL Abréviation du type de police]**: les options sont les suivantes :
 
-   * **[!UICONTROL TTF]** - Fichiers de police TrueType utilisés pour le rendu PDF/PostScript et la diffusion d’images.
+   * **[!UICONTROL TTF]**: fichiers de police TrueType utilisés pour le rendu PDF/PostScript et la diffusion d’images.
 
-   * **[!UICONTROL AFM]** - Fichiers de police Adobe PostScript contenant des informations sur les mesures de police de l’Adobe et utilisés pour la diffusion d’images.
+   * **[!UICONTROL AFM]**: fichiers de police Adobe PostScript contenant des informations sur les mesures de police de l’Adobe et utilisés pour la diffusion d’images.
 
-   * **[!UICONTROL PFM]** - Fichiers de polices Adobe PostScript contenant des informations de mesure de polices binaires.
+   * **[!UICONTROL PFM]**: fichiers de polices Adobe PostScript contenant des informations de mesure de polices binaires.
 
-   * **[!UICONTROL PFB]** - Fichiers de polices Adobe PostScript contenant des informations de contour de police binaires et utilisés pour le rendu PDF/PostScript et la diffusion d’images.
+   * **[!UICONTROL PFB]**: fichiers de polices Adobe PostScript contenant des informations de contour de police binaires et utilisés pour le rendu PDF/PostScript et la diffusion d’images.

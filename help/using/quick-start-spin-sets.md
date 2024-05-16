@@ -10,10 +10,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -23,7 +23,7 @@ Une visionneuse à 360° simule la rotation d’un objet afin de l’examiner. E
 
 ![Images d’une visionneuse à 360°.](/help/using/assets/spin_set.png)
 
-Les visionneuses à 360° acceptent également les zones cliquables. Une zone cliquable est une partie sur une image dans la visionneuse à 360° qui affiche un panneau de survol avec un texte. Lorsque l’utilisateur sélectionne une zone cliquable, une action d’une sorte ou d’une autre est déclenchée. Par exemple, une page Web affiche des informations détaillées sur un produit. Pour mettre en évidence une zone cliquable dans une visionneuse à 360°, un contour s’affiche autour de la zone cliquable lorsque l’utilisateur la survole avec le pointeur de la souris.
+Les visionneuses à 360° acceptent également les zones cliquables. Une zone cliquable est une partie sur une image dans la visionneuse à 360° qui affiche un panneau de survol avec un texte. Lorsque l’utilisateur sélectionne une zone cliquable, une action d’une sorte ou d’une autre est déclenchée. Par exemple, une page Web est lancée afin que l’utilisateur puisse en savoir plus sur un produit. Pour mettre en évidence une zone cliquable dans une visionneuse à 360°, un contour s’affiche autour de la zone cliquable lorsque l’utilisateur la survole avec le pointeur de la souris.
 
 Voir [Création de zones cliquables](creating-image-maps.md).
 
@@ -75,7 +75,7 @@ Voir [Aperçu d’une visionneuse à 360°](previewing-spin-set.md#previewing-a-
 
 ## 6. Publication d’une visionneuse à 360°
 
-La publication d’une visionneuse à 360° la place sur les serveurs Adobe Dynamic Media Classic afin qu’elle puisse être diffusée dynamiquement sur votre site web ou dans votre application. Elle active également la chaîne URL qui appelle la visionneuse à 360° depuis les serveurs Dynamic Media Image vers votre site web ou votre application.
+Lorsque vous publiez une visionneuse à 360°, elle est placée sur les serveurs Adobe Dynamic Media Classic afin d’être diffusée dynamiquement sur votre site Web ou dans votre application. Elle active également la chaîne URL qui appelle la visionneuse à 360° depuis les serveurs d’images Dynamic Media vers votre site web ou votre application.
 
 Pour publier une visionneuse à 360°, marquez-la pour publication en sélectionnant le **[!UICONTROL Marquer pour publication]** en regard de son nom dans le panneau de navigation. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]** pour lancer une publication. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
 

@@ -1,5 +1,5 @@
 ---
-title: Liaison d’une visionneuse d’images à une page web
+title: Liaison d’une visionneuse d’images à une page Web
 description: Découvrez comment lier une visionneuse d’images à une page web dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -10,16 +10,16 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 33%
+ht-degree: 24%
 
 ---
 
-# Liaison d’une visionneuse d’images à une page web{#linking-an-image-set-to-a-web-page}
+# Liaison d’une visionneuse d’images à une page Web{#linking-an-image-set-to-a-web-page}
 
-Une fois que vous avez publié une visionneuse d’images, vous pouvez copier l’URL associée ou son code intégré en vue de l’utiliser dans votre site web ou dans votre application. Ensuite, vous pouvez déployer l’URL ou coller le code incorporé de manière appropriée pour que les utilisateurs puissent voir la visionneuse d’images sur votre site Web ou dans votre application.
+Une fois que vous avez publié une visionneuse d’images, vous pouvez copier l’URL associée ou son code intégré en vue de l’utiliser dans votre site web ou dans votre application. Vous pouvez ensuite déployer l’URL ou coller le code incorporé si nécessaire afin que les utilisateurs puissent afficher la visionneuse d’images sur votre site Web ou dans votre application.
 
 >[!NOTE]
 >
@@ -44,15 +44,15 @@ Une fois que vous avez publié une visionneuse d’images, vous pouvez copier l�
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
 
-## Ajout d’URL de visionneuse d’images à une page Web {#adding-image-set-urls-to-your-web-page}
+## Ajout d’URL de visionneuse d’images à une page web {#adding-image-set-urls-to-your-web-page}
 
-La méthode la plus courante pour déployer une visionneuse d’images consiste à placer un lien (au moyen d’une icône de navigation) sur votre page web. Lorsque cette option est sélectionnée, le lien lance une page dynamique (JSP) qui affiche la visionneuse d’images dans une fenêtre de zoom contextuelle. Le lien de zoom ouvre une fenêtre contextuelle qui contient la fonction de zoom réelle.
+La méthode la plus courante pour déployer une visionneuse d’images consiste à placer un lien (au moyen d’une icône de navigation) sur votre page Web. Lorsque cette option est sélectionnée, le lien lance une page dynamique (JSP) qui affiche la visionneuse d’images dans une fenêtre de zoom contextuelle. Le lien de zoom ouvre une fenêtre contextuelle qui contient la fonction de zoom réelle.
 
 Pour plus d’informations et d’exemples de code, voir [Incorporer la visionneuse de zoom HTML5 dans le guide de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copie du code incorporé d’une visionneuse d’images {#copying-the-embed-code-of-an-image-set-viewer}
 
-L’utilisation de la fonction Code incorporé permet de vérifier le code de la visionneuse d’images sélectionnée. Vous pouvez aussi copier le code dans le Presse-papiers afin de le coller dans vos pages Web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
+L’utilisation de la fonction Code incorporé permet de vérifier le code de la visionneuse d’images sélectionnée. Vous pouvez également copier le code dans le Presse-papiers afin de le coller dans vos pages web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
 **Pour copier le code incorporé d’une visionneuse d’images :**
 

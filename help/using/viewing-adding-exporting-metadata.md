@@ -10,7 +10,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 36%
@@ -31,11 +31,11 @@ Pour plus d’informations sur les métadonnées incorporées, voir [Plateforme 
 
 Pour afficher les métadonnées d’une ressource, ouvrez-la dans l’affichage des détails, puis appuyez sur le panneau Métadonnées. Pour sélectionner un ensemble de champs de métadonnées, choisissez une option dans le menu Affichage des métadonnées . Adobe Dynamic Media Classic propose les vues de métadonnées suivantes :
 
-* **Affichage réduit** - Une liste de valeurs de base.
+* **Affichage réduit**: une liste de valeurs de base.
 
-* **IPTC** - Valeurs définies par le Conseil international des télécommunications de la presse.
+* **IPTC**: valeurs définies par le Conseil international des télécommunications de la presse.
 
-* **XMP** - Valeurs définies par le programme de métadonnées extensible.
+* **XMP**: valeurs définies par le programme de métadonnées extensible.
 
 Les administrateurs peuvent créer des vues de métadonnées Ces vues s’affichent également dans le menu Vues des métadonnées .
 
@@ -185,13 +185,13 @@ Le système génère automatiquement un schéma personnalisé pour les champs d�
 
 L’éditeur de schéma de métadonnées offre un moyen graphique d’ajouter ou de modifier un schéma d’entreprise personnalisé dans Adobe Dynamic Media Classic. Un préfixe, un espace de noms et une liste de propriétés définissent un schéma.
 
-* **[!UICONTROL Nom]** - Nom d’interface utilisateur du schéma. Utilisé pour identifier les propriétés dans les Vues des métadonnées et dans la Recherche avancée. Similaire aux sections XMP telles que Basic, IPTC, PDF.
+* **[!UICONTROL Nom]**: nom d’interface utilisateur du schéma. Utilisé pour identifier les propriétés dans les Vues des métadonnées et dans la Recherche avancée. Similaire aux sections XMP telles que Basic, IPTC, PDF.
 
-* **[!UICONTROL Préfixe]** - Identifiant unique technique du schéma. Limité aux lettres a-z et A-Z. Le préfixe n’est pas visible dans l’interface utilisateur d’Adobe Dynamic Media Classic, mais il est utilisé lorsque les métadonnées d’une ressource sont stockées dans le bloc XMP et dans la base de données. Le préfixe identifie de manière unique les champs de métadonnées dans les requêtes de recherche de métadonnées sur le serveur de métadonnées ou l’importation.
+* **[!UICONTROL Préfixe]**: identifiant unique technique du schéma. Limité aux lettres a-z et A-Z. Le préfixe n’est pas visible dans l’interface utilisateur d’Adobe Dynamic Media Classic, mais il est utilisé lorsque les métadonnées d’une ressource sont stockées dans le bloc XMP et dans la base de données. Le préfixe identifie de manière unique les champs de métadonnées dans les requêtes de recherche de métadonnées sur le serveur de métadonnées ou l’importation.
 
-* **[!UICONTROL Espace de noms]** - Identifiant unique technique du schéma, généralement une URL dans le formulaire. `https://your.company.com/name/version/`. Consultez la liste des schémas standard pour obtenir des exemples. L’espace de noms n’est pas visible dans l’interface utilisateur d’Adobe Dynamic Media Classic, mais est utilisé pour stocker les métadonnées dans le bloc XMP.
+* **[!UICONTROL Espace de noms]**: identifiant unique technique du schéma, généralement une URL dans le formulaire. `https://your.company.com/name/version/`. Consultez la liste des schémas standard pour obtenir des exemples. L’espace de noms n’est pas visible dans l’interface utilisateur d’Adobe Dynamic Media Classic, mais est utilisé pour stocker les métadonnées dans le bloc XMP.
 
-* **[!UICONTROL Description]** - Description de forme libre du schéma.
+* **[!UICONTROL Description]**: description de forme libre du schéma.
 
 >[!NOTE]
 >

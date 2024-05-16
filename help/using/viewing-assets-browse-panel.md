@@ -10,7 +10,7 @@ role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 17%
@@ -21,11 +21,11 @@ ht-degree: 17%
 
 Vous pouvez modifier l’affichage des fichiers dans le panneau de navigation en sélectionnant un bouton d’affichage :
 
-* **Affichage de la grille** - Dans le coin supérieur droit de l’écran Adobe Dynamic Media Classic, sélectionnez **[!UICONTROL Affichage de la grille]** pour afficher les ressources sous forme de miniatures dans une grille. En mode d’affichage Grille, vous pouvez faire glisser le curseur Miniature pour modifier la taille des images miniatures.
+* **Affichage de la grille**: dans le coin supérieur droit de l’écran Adobe Dynamic Media Classic, sélectionnez la variable **[!UICONTROL Affichage de la grille]** pour afficher les ressources sous forme de miniatures dans une grille. En mode d’affichage Grille, vous pouvez faire glisser le curseur Miniature pour modifier la taille des images miniatures.
 
-* **Mode Liste** - Dans le coin supérieur droit de l’écran Adobe Dynamic Media Classic, sélectionnez **[!UICONTROL Mode Liste]** pour afficher les ressources dans une liste. La liste vous indique le nom, le type, la date de création et la date de la dernière modification de chaque fichier. Selon le type de ressource avec lequel vous travaillez, vous obtenez également d’autres informations. Par exemple, vous pouvez voir les dimensions et la taille de fichier d’une image.
+* **Mode Liste**: dans le coin supérieur droit de l’écran Adobe Dynamic Media Classic, sélectionnez la variable **[!UICONTROL Mode Liste]** pour afficher les ressources dans une liste. La liste vous indique le nom, le type, la date de création et la date de la dernière modification de chaque fichier. Selon le type de ressource avec lequel vous travaillez, vous obtenez également d’autres informations. Par exemple, vous pouvez voir les dimensions et la taille de fichier d’une image.
 
-* **Affichage des détails** - Sélectionnez une ressource. Dans le coin supérieur droit de l’écran Adobe Dynamic Media Classic, sélectionnez l’option **[!UICONTROL Affichage des détails]** pour examiner la ressource dans la vue Détails. Vous pouvez également double-cliquer sur une ressource ou la sélectionner et accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Détails]** pour l’afficher dans la vue Détails. Si l’administrateur a spécifié les préférences Afficher l’URL, les URL s’affichent pour toutes les ressources dans le mode Affichage des détails ; toutefois, les URL ne sont actives qu’après la publication de la ressource.
+* **Affichage des détails**: sélectionnez une ressource. Dans le coin supérieur droit de l’écran Adobe Dynamic Media Classic, sélectionnez l’option **[!UICONTROL Affichage des détails]** pour examiner la ressource dans la vue Détails. Vous pouvez également double-cliquer sur une ressource ou la sélectionner et accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Détails]** pour l’afficher dans la vue Détails. Si l’administrateur a spécifié les préférences Afficher l’URL, les URL s’affichent pour toutes les ressources dans le mode Affichage des détails ; toutefois, les URL ne sont actives qu’après la publication de la ressource.
 
 >[!TIP]
 >

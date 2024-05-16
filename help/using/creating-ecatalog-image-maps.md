@@ -10,16 +10,16 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 31%
+ht-degree: 28%
 
 ---
 
 # Création de zones cliquables de catalogue électronique{#creating-ecatalog-image-maps}
 
-Une zone cliquable est une zone d’une page de catalogue électronique que vous pouvez parcourir avec la souris ou sélectionner pour déclencher des actions de différents types. Lorsque vous déplacez le pointeur sur une zone cliquable, par exemple, une description de texte de survol d’un élément s’affiche. Lorsque vous sélectionnez une zone cliquable, une autre action est lancée. Par exemple, vous pouvez ouvrir une page Web pour que les utilisateurs qui la consultent puissent en savoir plus sur un élément ou l’acheter, ou vous pouvez lancer une vidéo pour afficher un élément en cours d’utilisation.
+Une zone cliquable est une zone d’une page de catalogue électronique que vous pouvez parcourir avec la souris ou sélectionner pour déclencher des actions de différents types. Lorsque vous déplacez le pointeur sur une zone cliquable, par exemple, une description de texte de survol d’un élément s’affiche. Lorsque vous sélectionnez une zone cliquable, une autre action est lancée. Par exemple, vous pouvez ouvrir une page Web afin que les visiteurs puissent en savoir plus sur un article ou l’acheter, ou vous pouvez lancer une vidéo pour afficher un article en cours d’utilisation.
 
 ## Dessin de zones cliquables de catalogue électronique {#drawing-ecatalog-image-maps}
 
@@ -30,14 +30,14 @@ Vous dessinez les zones cliquables des catalogues sur l’onglet Pages de zones 
 1. Sur le côté gauche de l’écran Pages de zones, sélectionnez la page souhaitée.
 1. Dans la section Zone cliquable, tracez une zone rectangulaire ou polygonale (à plusieurs côtés) :
 
-   * **Mappage rectangulaire** - Sélectionnez l’outil de zone cliquable Rectangle et faites glisser sur la page pour créer le rectangle.
+   * **Mappage rectangulaire**: sélectionnez l’outil de zone cliquable de rectangle et faites glisser sur la page pour créer le rectangle.
 
-   * **map polygonal** - Sélectionnez l’outil Zone cliquable polygonal, puis sélectionnez autant de fois que nécessaire autour du périmètre de l’image. Lorsque vous sélectionnez cette option, Adobe Dynamic Media Classic trace les bordures de la zone cliquable.
+   * **map polygonal**: sélectionnez l’outil Zone cliquable polygonal, puis sélectionnez autant de fois que nécessaire autour du périmètre de l’image. Lorsque vous sélectionnez cette option, Adobe Dynamic Media Classic trace les bordures de la zone cliquable.
 
      Après avoir dessiné une zone cliquable, Adobe Dynamic Media Classic lui attribue un nom dans la liste Zone cliquable. Pour former le nom, Adobe Dynamic Media Classic ajoute un numéro de séquence au nom de la page de catalogue électronique sur laquelle vous travaillez.
 
 1. (Facultatif) Dans la liste Zone cliquable, dans la variable [!UICONTROL Nom] , vous pouvez saisir un nouveau nom pour la zone cliquable. N’insérez pas d’espaces dans le nom que vous saisissez.
-1. Les visiteurs peuvent ouvrir une nouvelle page web lorsqu’ils sélectionnent la zone cliquable. Dans le panneau de la liste des zones cliquables, saisissez l’URL de la page Web dans la colonne URL.
+1. Les utilisateurs peuvent ouvrir une nouvelle page Web lorsqu’ils sélectionnent la zone cliquable. Dans le panneau de la liste Zone cliquable, saisissez l’URL de la page Web dans la colonne URL.
 
    Pour faciliter la saisie des URL (modèles Href), sélectionnez **[!UICONTROL Modifier]** et saisissez un modèle.
 
@@ -75,23 +75,23 @@ Vous pouvez également, si vous le souhaitez, afficher du texte d’info-bulle l
 
 En commençant par l’onglet Pages de zones de l’écran Catalogue électronique, utilisez ces techniques pour éditer les zones cliquables d’un catalogue électronique :
 
-* **Ajuster la position** - Sélectionnez l’outil Panoramique et déplacez le pointeur près de la bordure de la carte, mais pas dessus. Lorsque le pointeur affiche une flèche à quatre pointes, faites glisser la zone cliquable entière vers un nouvel emplacement.
+* **Ajuster la position**: sélectionnez l’outil Panoramique et déplacez le pointeur près de la bordure de la carte, mais pas dessus. Lorsque le pointeur affiche une flèche à quatre pointes, faites glisser la zone cliquable entière vers un nouvel emplacement.
 
   Voir [Ajuster la position, la forme et la taille des zones cliquables](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Modifier la forme et la taille** - Pour redimensionner une zone cliquable rectangulaire, sélectionnez l’outil Panoramique . Puis déplacez le pointeur au-dessus d’une ligne de bordure ou d’un coin, et lorsque vous voyez apparaître l’icône en forme de flèche à deux pointes, faites glisser. Pour redimensionner une zone cliquable polygonale, faites glisser une poignée de sélection carrée. Pour créer une poignée de sélection, sélectionnez la bordure de la zone cliquable et faites glisser.
+* **Modifier la forme et la taille**: pour redimensionner une zone cliquable rectangulaire, sélectionnez l’outil Panoramique . Puis déplacez le pointeur au-dessus d’une ligne de bordure ou d’un coin, et lorsque vous voyez apparaître l’icône en forme de flèche à deux pointes, faites glisser. Pour redimensionner une zone cliquable polygonale, faites glisser une poignée de sélection carrée. Pour créer une poignée de sélection, sélectionnez la bordure de la zone cliquable et faites glisser.
 
   Voir [Ajuster la position, la forme et la taille des zones cliquables](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Suppression de zones cliquables** - Sélectionnez l’outil Panoramique , sélectionnez la zone cliquable à sélectionner, puis sélectionnez **[!UICONTROL Supprimer]**.
+* **Suppression de zones cliquables**: sélectionnez l’outil Panoramique , sélectionnez la zone cliquable à sélectionner, puis sélectionnez **[!UICONTROL Supprimer]**.
 
   Pour supprimer toutes les zones cliquables d’un catalogue électronique, sélectionnez la variable **[!UICONTROL Pages de commande]** puis sélectionnez **[!UICONTROL Effacer les mappages]**.
 
-* **Gestion des zones cliquables se chevauchant** - Faites glisser le curseur pour modifier l’ordre des zones cliquables dans la liste Zone cliquable.
+* **Gestion des zones cliquables se chevauchant**: faites glisser le curseur pour modifier l’ordre des zones cliquables dans la liste Zone cliquable.
 
   Voir [Gestion des zones cliquables se chevauchant](creating-image-maps.md#handling_overlapping_image_maps).
 
-* **Copie de zones cliquables vers d’autres pages** - Sélectionner **[!UICONTROL Copier les mappages vers]** (Assurez-vous que vous vous trouvez dans l’onglet Pages de mappage ). Dans l’écran Sélectionner les images , sélectionnez la ou les pages sur lesquelles vous souhaitez copier les zones cliquables, puis sélectionnez **[!UICONTROL Sélectionner]**.
+* **Copie de zones cliquables vers d’autres pages**: sélectionnez **[!UICONTROL Copier les mappages vers]** (Assurez-vous que vous vous trouvez dans l’onglet Pages de mappage ). Dans l’écran Sélectionner les images , sélectionnez la ou les pages sur lesquelles vous souhaitez copier les zones cliquables, puis sélectionnez **[!UICONTROL Sélectionner]**.
 
   Voir [Copier des zones cliquables dans d’autres images](creating-image-maps.md#copying_image_maps).
 

@@ -10,16 +10,16 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 33%
+ht-degree: 30%
 
 ---
 
 # Liaison d’une visionneuse à 360° à une page web{#linking-a-spin-set-to-a-web-page}
 
-Les sites Web et les applications accèdent au contenu du serveur d’images Dynamic Media, y compris aux visionneuses à 360°, au moyen de chaînes d’URL ou de code incorporé. Ces chaînes URL sont activées au cours du processus de publication. Pour placer la chaîne d’URL ou le code intégré de votre visionneuse à 360° dans vos pages et applications web, copiez-la depuis Adobe Dynamic Media Classic.
+Les sites Web et les applications accèdent au contenu du serveur d’images Dynamic Media, y compris aux visionneuses à 360°, au moyen de chaînes d’URL ou de code incorporé. Ces chaînes URL sont activées au cours du processus de publication. Pour placer la chaîne d’URL ou le code incorporé de la visionneuse à 360° dans vos pages et applications web, copiez-la depuis Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Dans cet exemple de syntaxe d’URL (le lien n’est pas actif), notez un numér
 
 ## Copie du code incorporé d’une visionneuse à 360° {#copying-the-embed-code-of-a-spin-set-viewer}
 
-La fonction Code incorporé permet de vérifier le code de la visionneuse à 360° sélectionnée. Vous pouvez aussi copier le code dans le Presse-papiers afin de le coller dans vos pages Web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
+La fonction Code incorporé permet de vérifier le code de la visionneuse à 360° sélectionnée. Vous pouvez également copier le code dans le Presse-papiers afin de le coller dans vos pages web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
 **Pour copier le code incorporé d’une visionneuse à 360° :**
 

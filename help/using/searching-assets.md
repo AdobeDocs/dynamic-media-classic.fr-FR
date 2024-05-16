@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 17%
@@ -63,15 +63,15 @@ Dans la bibliothèque de ressources, directement sous le champ Rechercher , sél
 
 Spécifiez l’un des critères suivants dans votre recherche avancée :
 
-* **Filtrage par type de ressource** - Limitez votre recherche à un seul type de ressource. Sélectionnez un type de ressource dans le menu.
+* **Filtrage par type de ressource**: limitez votre recherche à un seul type de ressource. Sélectionnez un type de ressource dans le menu.
 
-* **Fichiers et dossiers** - Sélectionnez l’emplacement de recherche : **[!UICONTROL Dans tous les fichiers et dossiers]**, **[!UICONTROL Dans le dossier sélectionné]**, ou **[!UICONTROL Dans les dossiers et sous-dossiers sélectionnés]**.
+* **Fichiers et dossiers**: choisissez l’emplacement de recherche : **[!UICONTROL Dans tous les fichiers et dossiers]**, **[!UICONTROL Dans le dossier sélectionné]**, ou **[!UICONTROL Dans les dossiers et sous-dossiers sélectionnés]**.
 
-* **Tous les états de publication** - Recherchez les fichiers marqués comme prêts pour la publication, qui ne sont pas marqués comme prêts pour la publication ou tous les fichiers.
+* **Tous les états de publication**: recherchez les fichiers marqués comme prêts pour la publication, qui ne sont pas marqués comme prêts pour la publication ou tous les fichiers.
 
-* **Conditions** - Si vous spécifiez des critères de métadonnées pour la recherche, indiquez si la recherche doit répondre à toutes les conditions (recherche ALL) ou à toute condition (recherche OR).
+* **Conditions**: si vous spécifiez des critères de métadonnées pour la recherche, indiquez si la recherche doit répondre à toutes les conditions (recherche ALL) ou à toute condition (recherche OR).
 
-* **Critères de recherche** - Créez un ou plusieurs champs de recherche pour la recherche de métadonnées. Pour créer des champs de recherche :
+* **Critères de recherche**: créez un ou plusieurs champs de recherche pour la recherche de métadonnées. Pour créer des champs de recherche :
 
    1. Dans la recherche avancée, sous **[!UICONTROL Critères de recherche]** et à gauche de la **[!UICONTROL Ajouter un champ]** ), sélectionnez l’icône de flèche en forme de triangle vers le bas pour ouvrir la liste déroulante. Sélectionnez une vue de métadonnées. Vous pouvez choisir **[!UICONTROL Toutes les propriétés avec des valeurs]**, **[!UICONTROL Affichage réduit]**, **[!UICONTROL IPTC]**, **[!UICONTROL Champs de publication du serveur de métadonnées]**, ou **[!UICONTROL XMP]**.
    1. Sélectionnez la variable **[!UICONTROL Ajouter un champ]** et choisissez un nom de champ.
@@ -111,7 +111,7 @@ Pour localiser des ressources en filtrant avec leurs valeurs de métadonnées, p
 
 1. Cliquez sur **[!UICONTROL Champ]** dans un panneau, suivez ces instructions pour afficher le menu de filtrage et construire l’opération de filtrage :
 
-   * **Sélection d’un champ de métadonnées** - Sélectionnez le nom du champ dans le menu de filtrage.
+   * **Sélection d’un champ de métadonnées**: sélectionnez le nom du champ dans le menu de filtrage.
 
      >[!NOTE]
      >
@@ -119,9 +119,9 @@ Pour localiser des ressources en filtrant avec leurs valeurs de métadonnées, p
 
      Voir [Vues des métadonnées](application-setup.md#metadata_views).
 
-   * **Ajout d’un champ de métadonnées** - Sélectionner **[!UICONTROL Ajouter un panneau]**. Une fois que le panneau s’affiche dans le volet Filtres , sélectionnez ses **[!UICONTROL Champ]** et choisissez le nom d&#39;un champ de métadonnées dans le menu de filtrage.
+   * **Ajout d’un champ de métadonnées**: sélectionnez **[!UICONTROL Ajouter un panneau]**. Une fois que le panneau s’affiche dans le volet Filtres , sélectionnez ses **[!UICONTROL Champ]** et choisissez le nom d&#39;un champ de métadonnées dans le menu de filtrage.
 
-   * **Suppression d’un champ de métadonnées** - Sélectionner **[!UICONTROL Supprimer ce panneau]** dans le menu de filtrage.
+   * **Suppression d’un champ de métadonnées**: sélectionnez **[!UICONTROL Supprimer ce panneau]** dans le menu de filtrage.
 
    Lorsque vous choisissez un champ de métadonnées, son panneau répertorie les éléments suivants :
 
@@ -143,11 +143,11 @@ Pour localiser des ressources en filtrant avec leurs valeurs de métadonnées, p
 
 Suivez ces instructions dans l’onglet Filtres afin de pouvoir enregistrer, répéter et supprimer des opérations de filtrage :
 
-* **Enregistrer une opération de filtrage** - Accédez à **[!UICONTROL Sélectionner un paramètre prédéfini]** > **[!UICONTROL Enregistrer actuel comme nouveaux paramètres prédéfinis]**, puis saisissez un nom dans le champ **[!UICONTROL Enregistrer]** de la boîte de dialogue
+* **Enregistrer une opération de filtrage**: accédez à **[!UICONTROL Sélectionner un paramètre prédéfini]** > **[!UICONTROL Enregistrer actuel comme nouveaux paramètres prédéfinis]**, puis saisissez un nom dans le champ **[!UICONTROL Enregistrer]** de la boîte de dialogue
 
-* **Répéter une opération de filtrage** - Choose **[!UICONTROL Sélectionner un paramètre prédéfini]** et choisissez le nom d&#39;une opération de filtrage dans le menu. Le menu répertorie les opérations de filtrage que vous avez enregistrées.
+* **Répéter une opération de filtrage**: Choose **[!UICONTROL Sélectionner un paramètre prédéfini]** et choisissez le nom d&#39;une opération de filtrage dans le menu. Le menu répertorie les opérations de filtrage que vous avez enregistrées.
 
-* **Suppression d’une opération de filtrage à partir du menu Sélectionner un paramètre prédéfini** - Exécutez l’opération de filtrage. Ensuite, accédez à **[!UICONTROL Sélectionner un paramètre prédéfini]** > **[!UICONTROL Supprimer le paramètre prédéfini]** sur le menu.
+* **Suppression d’une opération de filtrage à partir du menu Sélectionner un paramètre prédéfini**: exécutez l’opération de filtrage. Ensuite, accédez à **[!UICONTROL Sélectionner un paramètre prédéfini]** > **[!UICONTROL Supprimer le paramètre prédéfini]** sur le menu.
 
 ## Utilisation du serveur de métadonnées {#using-the-metadata-server}
 
@@ -157,13 +157,13 @@ Pour configurer le serveur de métadonnées, accédez à **[!UICONTROL Configura
 
 La page Publication du serveur de métadonnées vous permet de définir les options suivantes :
 
-* **[!UICONTROL Publication instantanée]** - Envoie automatiquement les modifications de métadonnées lorsqu’elles sont effectuées, y compris les nouvelles ressources, les modifications de mots-clés, etc.
+* **[!UICONTROL Publication instantanée]**: envoie automatiquement toutes les modifications de métadonnées lorsqu’elles sont effectuées, y compris les nouvelles ressources, les modifications de mots-clés, etc.
 
-* **[!UICONTROL XMP de paquets]** - Publie le XMP paquet. Ce paquet n’est pas utilisé pour la recherche, mais fournit les XMP les plus récents.
+* **[!UICONTROL XMP de paquets]**: publie le XMP de paquets. Ce paquet n’est pas utilisé pour la recherche, mais fournit les XMP les plus récents.
 
-* **[!UICONTROL Mots-clés]** - Publie vos mots-clés sur le serveur de métadonnées pour les utiliser dans les recherches.
+* **[!UICONTROL Mots-clés]**: publie vos mots-clés sur le serveur de métadonnées pour les utiliser dans les recherches.
 
-* **[!UICONTROL Champs de publication du serveur de métadonnées]** - Sélectionnez les champs à inclure dans les métadonnées. Cette option vous permet de déterminer le volume d’informations disponibles sur vos ressources pour le public. Ces champs sont également affichés dans les vues des métadonnées, mais ils peuvent uniquement être modifiés dans le serveur de métadonnées.
+* **[!UICONTROL Champs de publication du serveur de métadonnées]**: sélectionnez les champs à inclure dans les métadonnées. Cette option vous permet de déterminer le volume d’informations disponibles sur vos ressources pour le public. Ces champs sont également affichés dans les vues des métadonnées, mais ils peuvent uniquement être modifiés dans le serveur de métadonnées.
 
 Sélectionner **[!UICONTROL Publier maintenant]** pour démarrer la tâche. Un message de confirmation, vous indiquant que la tâche a démarré, apparaît.
 

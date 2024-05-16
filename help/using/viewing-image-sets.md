@@ -10,7 +10,7 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 19%
@@ -30,9 +30,9 @@ Vous pouvez créer et personnaliser des paramètres prédéfinis de la visionneu
 1. Dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 1. Créez ou modifiez un paramètre prédéfini de visionneuse sur la page Paramètres prédéfinis de la visionneuse en effectuant l’une des opérations suivantes :
 
-   * **Créer** - Sélectionner **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, dans la liste déroulante Visionneuse, choisissez **[!UICONTROL Visionneuse de zoom]**, puis sélectionnez **[!UICONTROL Ajouter]**. Vous pouvez également créer un paramètre prédéfini de visionneuse de zoom à partir d’un paramètre existant. Affichez le nom du paramètre prédéfini, sélectionnez-le, puis sélectionnez **[!UICONTROL Modifier]**. Sur le `Configure Viewer` , saisissez un nouveau nom pour le paramètre prédéfini.
+   * **Créer**: sélectionnez **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, dans la liste déroulante Visionneuse, choisissez **[!UICONTROL Visionneuse de zoom]**, puis sélectionnez **[!UICONTROL Ajouter]**. Vous pouvez également créer un paramètre prédéfini de visionneuse de zoom à partir d’un paramètre existant. Affichez le nom du paramètre prédéfini, sélectionnez-le, puis sélectionnez **[!UICONTROL Modifier]**. Sur le `Configure Viewer` , saisissez un nouveau nom pour le paramètre prédéfini.
 
-   * **Modifier** : affiche le nom d’un paramètre prédéfini, le sélectionne, puis sélectionnez **[!UICONTROL Modifier]**.
+   * **Modifier**: affichez le nom d’un paramètre prédéfini, sélectionnez-le, puis sélectionnez **[!UICONTROL Modifier]**.
 
 1. Sur le `Configure Viewer` dans le champ de texte Nom du paramètre prédéfini , saisissez le nom du paramètre prédéfini de visionneuse d’échantillons.
 1. Choisissez les options de la `Configure Viewer` page.

@@ -1,5 +1,5 @@
 ---
-title: Liaison d’URL à une application web
+title: Lier des URL à votre application web
 description: Découvrez comment lier des URL à votre application web à partir d’Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -10,18 +10,18 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
-# Liaison d’URL à une application web{#linking-urls-to-your-web-application}
+# Lier des URL à votre application web{#linking-urls-to-your-web-application}
 
-Vos sites web et applications accèdent au contenu du serveur d’images Dynamic Media au moyen de chaînes URL. Après la publication d’une image, Adobe Dynamic Media Classic active une chaîne URL qui référence le paramètre d’image prédéfini sur les serveurs d’images Dynamic Media. Vous pouvez coller ces URL dans un navigateur Web pour procéder à des essais.
+Vos sites Web et applications accèdent au contenu du serveur d’images Dynamic Media au moyen de chaînes URL. Après la publication d’une image, Adobe Dynamic Media Classic active une chaîne URL qui référence le paramètre d’image prédéfini sur les serveurs d’images Dynamic Media. Vous pouvez coller ces URL dans un navigateur Web à des fins de test.
 
-Pour placer ces chaînes URL dans vos pages et applications web, copiez-les depuis Adobe Dynamic Media Classic. Pour obtenir une chaîne URL générée avec un paramètre d’image prédéfini, accédez à l’écran Aperçu ou au panneau de navigation (dans la vue Détails).
+Pour placer ces chaînes URL dans vos pages et applications Web, copiez-les depuis Adobe Dynamic Media Classic. Pour obtenir une chaîne URL générée avec un paramètre d’image prédéfini, accédez à l’écran Aperçu ou au panneau de navigation (dans la vue Détails).
 
 ## Obtenir une URL de paramètre d’image prédéfini {#obtaining-an-image-preset-url}
 
@@ -78,9 +78,9 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 
 Dans les URL, le nom du paramètre d’image prédéfini est compris entre des signes dollar ($). Lorsqu’un serveur d’images Dynamic Media rencontre la partie Paramètre d’image prédéfini de l’URL (la variable `Large` dans ce cas), à l’aide des instructions de taille et de mise en forme définies par le paramètre d’image prédéfini &quot;Grand&quot;.
 
-## Ajout d’images dynamiques à une page web {#adding-dynamic-images-to-your-web-page}
+## Ajout d’images dynamiques à votre page web {#adding-dynamic-images-to-your-web-page}
 
-Pour ajouter des images dynamiques à votre page web, le `<IMG>` Le code de page web de votre HTML est généralement modifié à l’aide de la chaîne URL Adobe Dynamic Media Classic pour envoyer une demande aux serveurs d’images Dynamic Media. Cette chaîne produit l’image conformément aux spécifications de taille et de formatage définies par le paramètre d’image prédéfini.
+Pour ajouter des images dynamiques à votre page Web, le `<IMG>` Le code de page Web de votre HTML est généralement modifié à l’aide de la chaîne URL Adobe Dynamic Media Classic pour envoyer une demande aux serveurs d’images Dynamic Media. Cette chaîne produit l’image conformément aux spécifications de taille et de formatage définies par le paramètre d’image prédéfini.
 
 Par exemple, à la place de l’appel type pour ouvrir une image statique telle que
 

@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 36%
+ht-degree: 27%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 36%
 
 Les paramètres prédéfinis de visionneuse de supports variés définissent le style, le comportement et l’aspect de votre visionneuse principale. Lorsque vous configurez un paramètre prédéfini, vous pouvez indiquer les autres visionneuses qui doivent apparaître dans la visionneuse de supports variés. Par exemple, si vous avez inclus une visionneuse d’images dans votre visionneuse de médias mixtes, spécifiez un paramètre prédéfini de visionneuse d’images pour la visionneuse de médias mixtes.
 
-Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la communauté dans la visionneuse de supports variés. La fonctionnalité Incorporation ajoute un lien vers la visionneuse qui permet aux utilisateurs de copier le code requis pour afficher la visionneuse sur une page externe (par exemple, un blog, un site Web ou un site de réseau social). La fonctionnalité Lien fournit l’URL vers la visionneuse permettant aux utilisateurs de revenir à la visionneuse. La fonctionnalité Visite fournit un lien vers le site Web de votre choix.
+Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la communauté dans la visionneuse de supports variés. La fonction Incorporer ajoute un lien vers la visionneuse qui permet aux utilisateurs de copier le code requis pour afficher la visionneuse dans une page externe (blog, site Web ou site de réseau social, par exemple). La fonctionnalité Lien fournit l’URL vers la visionneuse permettant aux utilisateurs de revenir à la visionneuse. La fonction Visite fournit un lien vers le site Web que vous indiquez.
 
 1. Dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 1. Sur la page Paramètres visionneuse, effectuez l’une des opérations suivantes :
@@ -44,7 +44,7 @@ Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la commun
 
    Le nouveau paramètre prédéfini de visionneuse apparaît dans la liste.
 
-1. Répétez les étapes 6 à 9 pour tous les paramètres prédéfinis que vous souhaitez ajouter.
+1. Répétez les étapes 6 : 9 pour tous les paramètres prédéfinis de visionneuse que vous souhaitez ajouter.
 1. Pour modifier la liste des paramètres prédéfinis, effectuez l’une des opérations suivantes :
 
    * Pour supprimer un paramètre prédéfini de la liste, sélectionnez-le, puis sélectionnez **[!UICONTROL Supprimer]**.
@@ -52,13 +52,13 @@ Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la commun
 
 1. Pour ajouter des fonctionnalités de la communauté (Incorporation, Lien et Visite) à la visionneuse, spécifiez les options pour chacun des éléments suivants :
 
-   * **Email** - Sélectionner **[!UICONTROL Activé]** pour activer un bouton Email dans la visionneuse. Lorsque les utilisateurs cliquent sur le bouton Courrier électronique lors de l’affichage de la visionneuse, un courrier électronique contenant le lien vers la visionneuse s’ouvre.
+   * **Email**: sélectionnez **[!UICONTROL Activé]** pour activer un bouton Email dans la visionneuse. Lorsque les utilisateurs cliquent sur le bouton Courrier électronique lors de l’affichage de la visionneuse, un courrier électronique contenant le lien vers la visionneuse s’ouvre.
 
-   * **Incorporer** - Sélectionner **[!UICONTROL En direct]**. Dans la zone Etiquette de bouton d’intégration, tapez le nom de bouton d’intégration que vous souhaitez afficher dans la visionneuse. Si vous le souhaitez, sélectionnez **[!UICONTROL Parcourir]** pour localiser et sélectionner un habillage personnalisé pour le bouton.
+   * **Incorporer**: sélectionnez **[!UICONTROL En direct]**. Dans la zone Etiquette de bouton d’intégration, tapez le nom de bouton d’intégration que vous souhaitez afficher dans la visionneuse. Si vous le souhaitez, sélectionnez **[!UICONTROL Parcourir]** pour localiser et sélectionner un habillage personnalisé pour le bouton.
 
-   * **Lien** - Sélectionner **[!UICONTROL En direct]**. Dans la zone Libellé du bouton de lien , saisissez le nom que vous souhaitez afficher dans la visionneuse pour le bouton Lien . Si vous le souhaitez, sélectionnez **[!UICONTROL Parcourir]** pour localiser et sélectionner un habillage personnalisé pour le bouton.
+   * **Lien**: sélectionnez **[!UICONTROL En direct]**. Dans la zone Libellé du bouton de lien , saisissez le nom que vous souhaitez afficher dans la visionneuse pour le bouton Lien . Si vous le souhaitez, sélectionnez **[!UICONTROL Parcourir]** pour localiser et sélectionner un habillage personnalisé pour le bouton.
 
-   * **Visite** - Sélectionner **[!UICONTROL En direct]**. Dans la zone Libellé du bouton de visite , saisissez le nom que vous souhaitez afficher dans la visionneuse pour le bouton Visite . Dans la zone URL de visite, saisissez l’URL du site Web que vous souhaitez ouvrir lorsque le lien est sélectionné.
+   * **Visite**: sélectionnez **[!UICONTROL En direct]**. Dans la zone Libellé du bouton de visite , saisissez le nom que vous souhaitez afficher dans la visionneuse pour le bouton Visite . Dans la zone URL de visite, saisissez l’URL du site Web que vous souhaitez ouvrir lorsque le lien est sélectionné.
 
 1. Spécifiez les autres options voulues. Pour afficher la description d’une option, cliquez sur l’icône d’info-bulle en regard de l’option.
 

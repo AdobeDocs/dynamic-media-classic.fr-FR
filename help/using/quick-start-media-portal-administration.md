@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 47%
+ht-degree: 45%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 47%
 
 Media Portal permet aux entreprises d’acquérir, de contrôler et de distribuer facilement des ressources approuvées à des partenaires et canaux externes, ainsi qu’aux utilisateurs internes d’une entreprise. Cet environnement &quot;libre-service&quot; basé sur un navigateur fournit aux utilisateurs de Media Portal des &quot;vues&quot; contrôlées par l’administrateur dans les ressources Adobe Dynamic Media Classic afin de faciliter l’accès, la navigation, la recherche, la prévisualisation et l’exportation des ressources dans des formats approuvés par l’entreprise.
 
-En tant qu’administrateur, vous contrôlez la manière dont les utilisateurs visualisent, ouvrent et utilisent les fichiers disponibles dans le portail multimédia. Vous pouvez par ailleurs personnaliser l’interface du portail multimédia en fonction de votre site Web et de votre marque. Vous pouvez spécifier la police, la couleur de police, la taille de police et incorporer des éléments de marque tels que des logos dans l’interface de Media Portal.
+En tant qu’administrateur, vous contrôlez la manière dont les utilisateurs visualisent, ouvrent et utilisent les fichiers disponibles dans le portail multimédia. De plus, vous pouvez personnaliser l’interface de Media Portal pour qu’elle corresponde à votre site Web et à votre marque. Vous pouvez spécifier la police, la couleur de police, la taille de police et incorporer des éléments de marque tels que des logos dans l’interface de Media Portal.
 
 Consultez les vidéos de formation suivantes :
 

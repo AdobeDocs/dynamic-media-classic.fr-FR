@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 28%
+ht-degree: 24%
 
 ---
 
@@ -25,7 +25,7 @@ Vous pouvez faciliter la lecture et la navigation de vos vidéos longues en ajou
 >
 >Le lecteur vidéo utilisé doit prendre en charge l’utilisation des marques de chapitre.
 
-Voir [Ajouter ou modifier un paramètre prédéfini de visionneuse de vidéos](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) si vous souhaitez configurer les points de repère de navigation par chapitre et le texte contextuel du titre du chapitre pour la variable `Universal_HTML5_Video` visionneuse (HTML5).
+Voir [Ajout ou modification d’un paramètre prédéfini de visionneuse vidéo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) si vous souhaitez configurer les points de repère de navigation par chapitre et le texte contextuel du titre du chapitre pour la variable `Universal_HTML5_Video` visionneuse (HTML5).
 
 Voir aussi [Ajout et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -65,7 +65,7 @@ Voir [WebVTT : The Web Video Text Tracks Format](https://w3c.github.io/webvtt/).
 
 1. Enregistrez le fichier VTT en codage UTF8 afin d’éviter tout problème de rendu des caractères dans le texte du titre du chapitre.
 
-   En règle générale, vous attribuez au fichier de chapitres VTT le même nom que le fichier vidéo, puis ajoutez-le avec `chapters`. En procédant ainsi, vous pouvez automatiser aisément la génération des URL de vidéo en utilisant le système de gestion de contenu Web existant.
+   En règle générale, vous attribuez au fichier de chapitres VTT le même nom que le fichier vidéo, puis ajoutez-le avec `chapters`. Ce faisant, il peut vous aider à automatiser la génération des URL vidéo à l&#39;aide de votre système de gestion de contenu web existant.
 
 1. Dans Adobe Dynamic Media Classic, téléchargez votre fichier de chapitres WebVTT.
 

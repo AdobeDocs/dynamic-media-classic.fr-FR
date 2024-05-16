@@ -6,10 +6,10 @@ user-guide-title: Guide Adobe Dynamic Media Classic
 breadcrumb-title: Guide Dynamic Media Classic
 user-guide-description: En savoir plus sur l’utilisation d’Adobe Dynamic Media Classic
 index: y
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 20%
 + [NOUVELLE ouverture de session Adobe Dynamic Media Classic désormais disponible](new-ui-2020.md)
 + [Archivage de la newsletter Dynamic Media Adobe par Experience League](dynamic-media-newsletter.md)
 + Présentation d’Adobe Dynamic Media Classic {#intro}
-   + [Application de bureau Adobe Dynamic Media Classic - Maintenant disponible](dynamic-media-classic-desktop-app.md)
+   + [Application de bureau Adobe Dynamic Media Classic : désormais disponible](dynamic-media-classic-desktop-app.md)
    + [À propos de l’aide Adobe Dynamic Media Classic](introduction.md)
    + [Ressources du développeur](developer-resources.md)
    + [Nouveautés](whats-new.md)
@@ -87,7 +87,7 @@ ht-degree: 20%
    + [Chargement des images principales](uploading-master-images.md)
    + [Publication des images principales](publishing-master-images.md)
    + [Configuration des paramètres d’image prédéfinis](setting-image-presets.md)
-   + [Liaison d’URL à une application web](linking-urls-web-application.md)
+   + [Lier des URL à votre application web](linking-urls-web-application.md)
 + Zoom {#zoom}
    + [Démarrage rapide : Zoom](quick-start-zoom.md)
    + [Télécharger des images de zoom](uploading-zoom-images.md)
@@ -105,7 +105,7 @@ ht-degree: 20%
    + [Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique](setting-ecatalog-viewer-presets.md)
    + [Aperçu des catalogues électroniques dans la visionneuse de catalogue électronique](previewing-ecatalogs-ecatalog-viewer.md)
    + [Publication de catalogues électroniques et de PDF associés](publishing-ecatalogs-associated-pdfs.md)
-   + [Liaison d’un catalogue électronique à une page web](linking-ecatalog-web-page.md)
+   + [Lier un catalogue électronique à une page Web](linking-ecatalog-web-page.md)
 + Visionneuses d’images {#image-sets}
    + [Démarrage rapide : Visionneuses d’images](quick-start-image-sets.md)
    + [Préparation du chargement de ressources de visionneuse d’images](preparing-image-set-assets-upload.md)
@@ -114,14 +114,14 @@ ht-degree: 20%
    + [Gestion du contenu du panneau Informations dans les visionneuses d’images](info-panel-content-image-sets.md)
    + [Affichage des visionneuses d’images](viewing-image-sets.md)
    + [Automatisation de la génération de visionneuse d’images](automated-image-set-generation.md)
-   + [Liaison d’une visionneuse d’images à une page web](linking-image-set-web-page.md)
+   + [Liaison d’une visionneuse d’images à une page Web](linking-image-set-web-page.md)
 + Séries d’échantillons {#swatch-sets}
    + [Démarrage rapide : Séries d’échantillons](quick-start-swatch-sets.md)
    + [Inclusion de cibles de zoom et de zones cliquables dans les séries d’échantillons](including-zoom-targets-image-maps-swatch-sets.md)
    + [Préparation du chargement de ressources de série d’échantillons](preparing-swatch-set-assets-upload.md)
    + [Création de la série d’échantillons](creating-swatch-set.md)
    + [Afficher les séries d’échantillons](viewing-swatch-sets.md)
-   + [Lier une série d’échantillons à une page web](linking-swatch-set-web-page.md)
+   + [Associer une série d’échantillons à une page web](linking-swatch-set-web-page.md)
 + Visionneuses à 360° {#spin-sets}
    + [Démarrage rapide : Visionneuses à 360°](quick-start-spin-sets.md)
    + [Création d’une visionneuse à 360°](creating-spin-set.md)
@@ -135,7 +135,7 @@ ht-degree: 20%
    + [Création d’un modèle](creating-template.md)
    + [Création de paramètres de modèle](creating-template-parameters.md)
    + [Publication de modèles](publishing-templates.md)
-   + [Liaison d’un modèle à une page Web](linking-template-web-page.md)
+   + [Associer un modèle à une page Web](linking-template-web-page.md)
    + [Gestion des variations de contenu](content-variations.md)
 + Vidéo {#video}
    + [Démarrage rapide : Vidéo](quick-start-video.md)
@@ -151,7 +151,7 @@ ht-degree: 20%
    + [Configuration d’un paramètre prédéfini de visionneuse de médias mixtes](setting-mixed-media-set-viewer.md)
    + [Création d’une visionneuse de supports variés](creating-mixed-media-set.md)
    + [Publication d’une visionneuse de médias mixtes](publishing-mixed-media-set.md)
-   + [Liaison d’une visionneuse de supports variés à une page Web](linking-mixed-media-set-web.md)
+   + [Liaison d’une visionneuse de médias mixtes à une page web](linking-mixed-media-set-web.md)
 + Kit d’instrumentation Adobe Analytics {#analytics-kit}
    + [Démarrage rapide : intégration d’Adobe Dynamic Media Classic à Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Connexion à Adobe Analytics](log-analytics.md)

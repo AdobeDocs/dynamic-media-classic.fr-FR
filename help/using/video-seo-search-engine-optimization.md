@@ -10,7 +10,7 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 30%
@@ -23,15 +23,15 @@ L’optimisation du référencement de la vidéo consiste à améliorer le volum
 
 L’optimisation pour les moteurs de recherche vidéo Adobe Dynamic Media Classic vous permet d’appliquer des métadonnées vidéo afin de fournir aux moteurs de recherche des descriptions de vos vidéos. Adobe Dynamic Media Classic vous permet de créer des plans de site vidéo et des flux mRSS. Ces fichiers XML standard sont utilisés pour envoyer des informations vidéo aux moteurs de recherche :
 
-* **Plan du site vidéo** - Informe Google exactement où et quel contenu vidéo se trouve sur un site. Les vidéos peuvent donc faire l’objet de recherches complètes sur Google. Par exemple, un plan de site vidéo peut préciser le temps d’exécution et la catégorie. Pour plus d’informations sur les plans de site vidéo, voir [Cartes de site vidéo et alternatives de plans de site vidéo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **Plan du site vidéo**: informe Google exactement où et quel contenu vidéo se trouve sur un site. Les vidéos peuvent donc faire l’objet de recherches complètes sur Google. Par exemple, un plan de site vidéo peut préciser le temps d’exécution et la catégorie. Pour plus d’informations sur les plans de site vidéo, voir [Cartes de site vidéo et alternatives de plans de site vidéo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
-* **Flux mRSS (Media Really Simple Syndication)** - Utilisé par les éditeurs de contenu pour alimenter des fichiers multimédia dans Yahoo! Video Search. Pour plus d’informations sur les flux mRSS, voir [Cartes de site vidéo et alternatives de plans de site vidéo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **Flux mRSS (Media Really Simple Syndication)**: utilisé par les éditeurs de contenu pour alimenter des fichiers multimédia dans Yahoo! Video Search. Pour plus d’informations sur les flux mRSS, voir [Cartes de site vidéo et alternatives de plans de site vidéo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
 >[!NOTE]
 >
 >Google prend en charge à la fois le plan de site vidéo et le protocole de flux mRSS pour envoyer des informations aux moteurs de recherche.
 
-Adobe Dynamic Media Classic peut générer des plans de site vidéo et des flux mRSS à partir de métadonnées stockées avec chaque vidéo. Lorsque vous créez des plans de site vidéo et des flux mRSS, vous choisissez les champs de métadonnées à partir des fichiers vidéo à inclure. Ainsi, vous décrivez vos vidéos aux moteurs de recherche afin qu’ils puissent rediriger plus précisément le trafic vers les vidéos de votre site web.
+Adobe Dynamic Media Classic peut générer des plans de site vidéo et des flux mRSS à partir de métadonnées stockées avec chaque vidéo. Lorsque vous créez des plans de site vidéo et des flux mRSS, vous choisissez les champs de métadonnées à partir des fichiers vidéo à inclure. Ainsi, vous décrivez vos vidéos aux moteurs de recherche afin qu’ils puissent rediriger plus précisément le trafic vers les vidéos de votre site Web.
 
 >[!NOTE]
 >
@@ -55,27 +55,27 @@ Après avoir choisi les paramètres, sélectionnez **[!UICONTROL Enregistrer]** 
 
 Sur le **[!UICONTROL Mode de génération]** , choisissez un mode de rapport :
 
-* **Plan du site vidéo** - Créer un plan de site vidéo.
+* **Plan du site vidéo**: créez un plan de site vidéo.
 
-* **Flux mRSS** - Créez un flux Media RSS (mRSS).
+* **Flux mRSS**: créez un flux Media RSS (mRSS).
 
-* **Les deux** - Créez les deux types de fichiers XML.
+* **Les deux**: créez les deux types de fichiers XML.
 
-* **Off** - Pour arrêter de générer des plans de site vidéo et des flux Media RSS (mRSS), sélectionnez cette option.
+* **Off**: pour arrêter de générer des plans de site vidéo et des flux Media RSS (mRSS), sélectionnez cette option.
 
 Sur le **[!UICONTROL Mode automatique/manuel]** , choisissez de générer automatiquement ou manuellement la liste déroulante :
 
-* **Mode automatique** - Adobe Dynamic Media Classic génère automatiquement un plan de site vidéo, un flux Media RSS (mRSS), ou les deux, chaque jour. Sélectionnez la variable **[!UICONTROL Marquer pour publication]** pour marquer automatiquement pour publication le fichier XML généré par Adobe Dynamic Media Classic.
+* **Mode automatique**: Adobe Dynamic Media Classic génère automatiquement un plan de site vidéo, un flux Media RSS (mRSS), ou les deux, chaque jour. Sélectionnez la variable **[!UICONTROL Marquer pour publication]** pour marquer automatiquement pour publication le fichier XML généré par Adobe Dynamic Media Classic.
 
    * **Marquer pour publication** Marque pour publication le fichier XML généré.
 
-* **Mode manuel** - Adobe Dynamic Media Classic génère le plan de site vidéo, le flux Media RSS (mRSS), ou les deux, lorsque vous sélectionnez **[!UICONTROL Générer]** ou **[!UICONTROL Enregistrer et générer]** dans l’écran Paramètres d’optimisation de la recherche vidéo. Sélectionnez également ces options :
+* **Mode manuel**: Adobe Dynamic Media Classic génère le plan de site vidéo, le flux Media RSS (mRSS), ou les deux, lorsque vous sélectionnez **[!UICONTROL Générer]** ou **[!UICONTROL Enregistrer et générer]** dans l’écran Paramètres d’optimisation de la recherche vidéo. Sélectionnez également ces options :
 
-   * **Aucun autre paramètre** - Ne marque pas pour publication le fichier XML généré.
+   * **Aucun autre paramètre**: ne marque pas pour publication le fichier XML généré.
 
-   * **Marquer pour publication** - Marque pour publication le fichier XML généré.
+   * **Marquer pour publication**: indique pour publication le fichier XML généré.
 
-   * **Autoriser la génération partielle** - Les moteurs de recherche peuvent rejeter un fichier XML s’il ne contient pas d’informations de métadonnées complètes pour toutes les vidéos. Cette option génère le fichier XML même si les métadonnées ne sont pas disponibles pour certaines vidéos. Un avertissement est enregistré dans l’écran de rapport. Sélectionnez cette option si vous essayez d’exporter le fichier XML et complétez les informations manquantes manuellement.
+   * **Autoriser la génération partielle**: les moteurs de recherche peuvent rejeter un fichier XML s’il ne contient pas d’informations de métadonnées complètes pour toutes les vidéos. Cette option génère le fichier XML même si les métadonnées ne sont pas disponibles pour certaines vidéos. Un avertissement est enregistré dans l’écran de rapport. Sélectionnez cette option si vous essayez d’exporter le fichier XML et complétez les informations manquantes manuellement.
 
 ### Choix des paramètres de génération {#choosing-generation-settings}
 

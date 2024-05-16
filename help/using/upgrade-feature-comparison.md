@@ -6,10 +6,10 @@ role: Admin,User
 exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 3%
+source-wordcount: '218'
+ht-degree: 2%
 
 ---
 
@@ -38,18 +38,18 @@ Un tableau comparatif des fonctionnalités entre [!DNL Dynamic Media] in [!DNL A
 | Diffusion de contenu statique<br>(PDF, GIT, etc.) | ✓ | ✓ |
 | Diffusion vidéo (adaptative) | ✓ | ✓ |
 | Codage vidéo | ✓ | ✓ |
-| Accessibilité de la visionneuse | ✓ | ✓ |
+| Accessibilité du lecteur | ✓ | ✓ |
 | Intégration de la visionneuse à Analytics | ✓ | ✓ |
 | Modèles 1:1 | ✓<br>*Groupe de médias personnalisés* | ✓ |
 | Configurateur visuel<br>(personnalisation du produit) | ✓<br>*Groupe de médias personnalisés* | ✓ |
-| 3D - Experience Manager Sites<br>Composant WCM | ✓ | - |
-| 3D - Visionneuse d’expérience interactive | ✓ | - |
-| 3D - Publication de fichiers AR/VR et 3D de base | ✓ | - |
-| Carrousels | ✓ | - |
-| Shoppable/Interactive Media - Images | ✓ | - |
-| Shoppable/Interactive Media - Video | ✓ | - |
-| Recadrage intelligent - Images | ✓ | - |
-| Recadrage intelligent - Vidéo | ✓ | - |
-| Sélection de miniatures vidéo | ✓ | - |
-| Concepteur de visionneuse | ✓ | - |
-| Publication YouTube | ✓ | - |
+| 3D : Experience Manager Sites<br>Composant WCM | ✓ | : |
+| 3D : Visionneuse d’expérience interactive | ✓ | : |
+| 3D : publication de fichiers AR/VR et 3D de base | ✓ | : |
+| Carrousels | ✓ | : |
+| Média interactif/Shoppable : images | ✓ | : |
+| Shoppable/Interactive Media : vidéo | ✓ | : |
+| Recadrage intelligent : images | ✓ | : |
+| Recadrage intelligent : vidéo | ✓ | : |
+| Sélection de miniatures vidéo | ✓ | : |
+| Concepteur de visionneuse | ✓ | : |
+| Publication YouTube | ✓ | : |

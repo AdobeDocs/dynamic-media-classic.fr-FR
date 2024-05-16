@@ -10,7 +10,7 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 28%
@@ -144,11 +144,11 @@ Pour intégrer la vidéo sur votre site Web, procédez de l’une des manières 
   >
   >les URL sont activées uniquement après que vous ayez publié la vidéo ou la visionneuse de vidéos adaptative.
 
-* Affichez la vidéo incorporée dans la page web, auquel cas utilisez la fonction **[!UICONTROL Code incorporé]** fonction .
+* Affichez la vidéo incorporée dans la page Web, auquel cas utilisez la fonction **[!UICONTROL Code incorporé]** fonction .
 
   Pour obtenir le code intégré d’une vidéo, en mode Grille ou Liste, sélectionnez la vidéo dans le panneau de navigation. Accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**. Dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]** à droite de `Universal_HTML5_Video`. Il n’est pas possible de modifier le code.
 
-  Sélectionner **[!UICONTROL Fermer]** et collez le code incorporé dans une ou plusieurs de vos pages web.
+  Sélectionner **[!UICONTROL Fermer]** et collez le code incorporé dans une ou plusieurs de vos pages Web.
 
   >[!NOTE]
   >

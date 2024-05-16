@@ -10,7 +10,7 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 44%
@@ -92,13 +92,13 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually-publishing-
 1. Sélectionner le survol de la visionneuse à 360° **[!UICONTROL Modifier]** bouton .
 1. Utilisez l’une des méthodes suivantes :
 
-   * **Suppression d’images** - Sélectionnez l’image, puis cliquez sur **[!UICONTROL Supprimer]**.
+   * **Suppression d’images**: sélectionnez l’image, puis **[!UICONTROL Supprimer]**.
 
-   * **Ajouter des images** - Faites glisser l’image dans une cellule.
+   * **Ajouter des images**: faites glisser l’image dans une cellule.
 
-   * **Réorganisation des lignes (visionneuses à 360° en deux dimensions)** - Sélectionnez une zone de sélecteur de ligne (à gauche de la ligne), puis sélectionnez **[!UICONTROL Déplacer la ligne vers le bas]** ou **[!UICONTROL Déplacer la ligne vers le haut]**.
+   * **Réorganisation des lignes (visionneuses à 360° en deux dimensions)**: sélectionnez une zone de sélecteur de ligne (à gauche de la ligne), puis sélectionnez **[!UICONTROL Déplacer la ligne vers le bas]** ou **[!UICONTROL Déplacer la ligne vers le haut]**.
 
-   * **Ajout de lignes et de cellules** - Entrez un nombre dans les zones Lignes et Cellules pour déterminer le nombre de lignes et le nombre de cellules dans chaque ligne.
+   * **Ajout de lignes et de cellules**: saisissez un nombre dans les champs Lignes et Cellules pour déterminer le nombre de lignes et le nombre de cellules dans chaque ligne.
 
 1. Une fois les modifications terminées, près de l’angle inférieur droit de la page, vérifiez que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
 1. Sélectionner **[!UICONTROL Enregistrer]**, sélectionnez un dossier de stockage, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.

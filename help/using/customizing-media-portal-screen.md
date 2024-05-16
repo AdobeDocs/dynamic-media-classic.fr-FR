@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 16%
@@ -23,21 +23,21 @@ Les paramètres de style du portail multimédia vous permettent de faire appara�
 
 Pour accéder aux paramètres de style, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de Media Portal]** > **[!UICONTROL Paramètres de style]**. Veillez à sélectionner **[!UICONTROL Enregistrer]** pour enregistrer vos paramètres une fois que vous les avez créés. Vous pouvez sélectionner **[!UICONTROL Restaurer]** pour rétablir les paramètres par défaut. Au fur et à mesure de vos choix, le panneau Aperçu vous montre comment ils apparaissent.
 
-* **[!UICONTROL Logo]** - Sélectionner **[!UICONTROL Parcourir]**, puis sélectionnez un graphique dans la fenêtre Sélectionner l’image du logo .
+* **[!UICONTROL Logo]**: sélectionnez **[!UICONTROL Parcourir]**, puis sélectionnez un graphique dans la fenêtre Sélectionner l’image du logo .
 
-* **[!UICONTROL Application]** - Créez un dégradé de couleurs en effectuant des choix dans les menus des couleurs du dégradé de fond.
+* **[!UICONTROL Application]**: créez un dégradé de couleurs en effectuant des choix dans les menus des couleurs du dégradé de fond.
 
-* **[!UICONTROL Arbre]** - Choisissez une couleur de survol (la couleur qui s’affiche lorsque vous placez le pointeur sur un élément) et une couleur de sélection (la couleur qui s’affiche lorsque vous sélectionnez un élément).
+* **[!UICONTROL Arbre]**: choisissez une couleur de survol (la couleur qui s’affiche lorsque vous placez le pointeur sur un élément) et une couleur de sélection (la couleur qui s’affiche lorsque vous sélectionnez un élément).
 
-* **[!UICONTROL Accordéon]** - Choisissez les couleurs d’arrière-plan, le style de la bordure, le survol et les couleurs sélectionnées pour l’accordéon qui s’affiche sur le côté droit de l’écran en mode Détails.
+* **[!UICONTROL Accordéon]**: choisissez les couleurs d’arrière-plan, un style de bordure, ainsi que le survol et les couleurs sélectionnées pour l’accordéon qui s’affiche sur le côté droit de l’écran en mode Détails.
 
-* **[!UICONTROL En-tête d’accordéon]** - Indiquez si le texte doit être inséré dans le gras de l’en-tête de l’accordéon.
+* **[!UICONTROL En-tête d’accordéon]**: choisissez si le texte doit être inséré dans le gras de l’en-tête de l’accordéon.
 
-* **[!UICONTROL Datagrid]** - Sélectionnez les couleurs de la rangée d’en-tête dans les grilles de données.
+* **[!UICONTROL Datagrid]**: choisissez les couleurs de la rangée d’en-tête dans les grilles de données.
 
-* **[!UICONTROL Alerte]** - Sélectionnez une couleur d’arrière-plan pour les zones de message d’alerte.
+* **[!UICONTROL Alerte]**: sélectionnez une couleur d’arrière-plan pour les zones de message d’alerte.
 
-* **[!UICONTROL Barre de progression]** - Sélectionnez une couleur pour la barre qui indique la progression des chargements et des téléchargements.
+* **[!UICONTROL Barre de progression]**: choisissez une couleur pour la barre qui indique la progression des chargements et des téléchargements.
 
 Pour que les utilisateurs de Media Portal voient les paramètres de style que vous choisissez, ils doivent ajouter `?company=(company name)` à l’URL avec laquelle ils accèdent au portail multimédia. Par exemple, pour afficher les paramètres de style, les utilisateurs du portail multimédia qui accèdent à la société PortalCo à l’adresse suivante :
 

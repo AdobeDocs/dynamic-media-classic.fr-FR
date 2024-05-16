@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 23%
+source-wordcount: '183'
+ht-degree: 14%
 
 ---
 
@@ -23,13 +23,13 @@ Les services d’assistance technique sont conçus pour répondre aux besoins de
 
 | Assistance | Abonnement |
 | --- | --- |
-| Nombre de cas | Illimité. |
+| Nombre de cas | Illimitées. |
 | Vérification de l’état du système d’Adobe | [État du système Adobe Dynamic Media Classic](https://status.adobe.com/products/1175). |
 | Vous ne trouvez pas de réponse ? | [Pour obtenir de l’aide auprès de l’assistance, ouvrez un ticket](https://experienceleague.adobe.com/?support-solution=General#support). |
-| Forum de la communauté | [Forum de la communauté des Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
+| Forum communautaire | [Forum de la communauté des Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
 | Contrats de niveau de service (SLA) | [Services d’assistance / Conditions générales](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | Utilisateurs pris en charge | Jusqu’à dix utilisateurs par organisation peuvent être désignés comme des utilisateurs pris en charge, qui peuvent ouvrir des dossiers auprès de l’assistance clientèle. |
-| Vidéos de formation et d’instruction en ligne gratuites | Inclus. |
+| Vidéos de formation en ligne et de formation gratuites | Inclus. |
 | Assistance téléphonique | <ul><li>États-Unis et Canada : 1-800-497-0335 </li><li>[Numéros de téléphone pour les autres régions](https://experienceleague.adobe.com/?support-tab=home#support). </li></ul> |
 
 <!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
@@ -37,8 +37,8 @@ Les services d’assistance technique sont conçus pour répondre aux besoins de
 Lorsque vous signalez des problèmes à l’assistance technique, vous devez disposer des informations suivantes :
 
 * Nom de la société Adobe Dynamic Media Classic.
-* Vos nom, numéro de téléphone et adresse e-mail.
+* Votre nom, numéro de téléphone et adresse électronique.
 * Application, plateforme et version Adobe Dynamic Media Classic.
-* Description du problème et étapes à suivre pour le reproduire.
+* Description du problème et étapes nécessaires pour reproduire le problème.
 * Message d’erreur, le cas échéant.
 * Type et version du navigateur, le cas échéant.

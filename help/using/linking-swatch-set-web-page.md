@@ -1,5 +1,5 @@
 ---
-title: Lier une série d’échantillons à une page web
+title: Associer une série d’échantillons à une page web
 description: Découvrez comment lier une série d’échantillons à une page web dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 31%
+ht-degree: 24%
 
 ---
 
-# Lier une série d’échantillons à une page web{#linking-a-swatch-set-to-a-web-page}
+# Associer une série d’échantillons à une page web{#linking-a-swatch-set-to-a-web-page}
 
-Après avoir publié une série d’échantillons, vous pouvez utiliser l’URL ou le code intégré qui lui est associé dans votre site web ou application. Ensuite, vous pouvez déployer l’URL ou le code incorporé de manière appropriée pour que les utilisateurs puissent afficher la série d’échantillons sur votre site Web ou dans votre application.
+Après avoir publié une série d’échantillons, vous pouvez utiliser l’URL ou le code intégré qui lui est associé dans votre site Web ou application. Vous pouvez ensuite déployer l’URL ou le code incorporé si nécessaire afin que les utilisateurs puissent afficher la série d’échantillons sur votre site Web ou dans votre application.
 
 >[!NOTE]
 >
@@ -46,13 +46,13 @@ Après avoir publié une série d’échantillons, vous pouvez utiliser l’URL 
 
 ## Ajout d’URL de série d’échantillons à une page web {#adding-swatch-set-urls-to-your-web-page}
 
-La méthode la plus courante pour déployer des séries d’échantillons consiste à placer un lien (au moyen d’une icône de navigation) sur votre page web. Lorsqu’il est sélectionné, le lien lance une page dynamique (ASP ou JSP) qui affiche la série d’échantillons dans une fenêtre de zoom contextuelle. Le lien de zoom ouvre une fenêtre contextuelle qui contient la fonction de zoom réelle.
+La méthode la plus courante pour déployer des séries d’échantillons consiste à placer un lien (par le biais d’une icône de navigation) sur votre page Web. Lorsqu’il est sélectionné, le lien lance une page dynamique (ASP ou JSP) qui affiche la série d’échantillons dans une fenêtre de zoom contextuelle. Le lien de zoom ouvre une fenêtre contextuelle qui contient la fonction de zoom réelle.
 
 Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le guide de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copie du code incorporé d’une visionneuse d’échantillons {#copying-the-embed-code-of-a-swatch-set-viewer}
 
-La fonction Code incorporé permet de vérifier le code de la série d’échantillons sélectionnée. Vous pouvez aussi copier le code dans le Presse-papiers afin de la coller dans vos pages Web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
+La fonction Code incorporé permet de vérifier le code de la série d’échantillons sélectionnée. Vous pouvez également copier le code dans le Presse-papiers afin de le coller dans vos pages web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
 **Pour copier le code incorporé d’une visionneuse d’échantillons :**
 

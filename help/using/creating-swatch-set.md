@@ -10,7 +10,7 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 58%
@@ -38,9 +38,9 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Effectuez l’une des opérations suivantes :
 
-   * **Sélectionner les images en premier** - Dans le panneau de navigation, sélectionnez les images, puis accédez à **[!UICONTROL Build]** > **[!UICONTROL Séries d’échantillons]**.
+   * **Sélectionner les images en premier**: dans le panneau de navigation, sélectionnez les images, puis accédez à **[!UICONTROL Build]** > **[!UICONTROL Séries d’échantillons]**.
 
-   * **Démarrage à partir de l’écran Série d’échantillons** - Accédez à **[!UICONTROL Build]** > **[!UICONTROL Séries d’échantillons]**. Sélectionnez un dossier dans la bibliothèque des fichiers, puis faites glisser les images sur la section Vues de la page Série d’échantillons.
+   * **Démarrage à partir de l’écran Série d’échantillons**: accédez à **[!UICONTROL Build]** > **[!UICONTROL Séries d’échantillons]**. Sélectionnez un dossier dans la bibliothèque des fichiers, puis faites glisser les images sur la section Vues de la page Série d’échantillons.
 
 1. Faites glisser des nuances, des motifs ou des finis sur l’emplacement réservé Echantillons de la page Série d’échantillons.
 

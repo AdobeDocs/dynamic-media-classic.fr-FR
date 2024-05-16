@@ -10,16 +10,16 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 20%
+ht-degree: 13%
 
 ---
 
 # Publication de catalogues électroniques et de PDF associés{#publishing-ecatalogs-and-associated-pdfs}
 
-La publication place votre catalogue électronique et votre PDF sur les serveurs d’images Dynamic Media afin qu’ils puissent être mis à disposition de votre site web ou de votre application. Dans le cadre du processus de publication, Adobe Dynamic Media Classic active la chaîne URL. Vous pouvez placer cette chaîne URL dans le code HTML de votre page Web.
+La publication place votre catalogue électronique et votre PDF sur les serveurs d’images Dynamic Media afin qu’ils puissent être mis à disposition de votre site Web ou de votre application. Dans le cadre du processus de publication, Adobe Dynamic Media Classic active la chaîne URL. Vous pouvez placer cette chaîne d’URL dans le code de votre page Web de HTML.
 
 >[!NOTE]
 >

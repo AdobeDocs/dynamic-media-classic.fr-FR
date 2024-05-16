@@ -10,10 +10,10 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 21%
+ht-degree: 17%
 
 ---
 
@@ -23,7 +23,7 @@ Les concepts de base des modèles sont des fichiers d’images créés dynamique
 
 Un modèle peut contenir n’importe quel nombre de calques d’image et de texte. Vous pouvez convertir un fichier statique contenant des calques, tels qu’un fichier de PSD superposé, en modèle, puis créer des modèles dans Adobe Dynamic Media Classic. Vous pouvez créer des calques de texte dans les modèles à l’aide des polices que vous avez téléchargées dans Adobe Dynamic Media Classic. Après avoir ajouté du texte à un modèle, vous pouvez le mettre en forme en modifiant sa justification, sa police, sa taille et sa couleur.
 
-La page Paramètres vous permet de convertir n’importe quel aspect d’un modèle en paramètre adressable. Ce faisant, vous pouvez modifier l’image superposée à utiliser ou la valeur de texte à utiliser dans votre modèle. Les paramètres sont transmis avec la chaîne URL, ce qui vous permet de modifier n’importe quel paramètre afin de personnaliser dynamiquement l’image de réponse générée à partir du serveur d’images.
+La page Paramètres vous permet de convertir n’importe quel aspect d’un modèle en paramètre adressable. Ce faisant, vous pouvez modifier l’image superposée à utiliser ou la valeur de texte à utiliser dans votre modèle. Les paramètres sont transmis avec la chaîne URL, ce qui vous permet de modifier n’importe quel paramètre pour personnaliser dynamiquement l’image de réponse générée à partir du serveur d’images.
 
 Voir aussi [Concepts de base des modèles](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vidéo de formation.
 
@@ -59,14 +59,14 @@ Pour paramétrer un calque, ouvrez le modèle dans la page Modèle, puis sélect
 
 ## 4. Publier des modèles
 
-Lorsque vous publiez votre modèle, il est placé sur les serveurs d’images Dynamic Media afin de pouvoir être diffusé dynamiquement sur votre site web ou dans votre application. La publication active également l’URL pour appeler le modèle à partir des serveurs Dynamic Media Image Server vers votre site web ou votre application.
+Lorsque vous publiez votre modèle, il est placé sur les serveurs d’images Dynamic Media afin de pouvoir être diffusé dynamiquement sur votre site web ou dans votre application. La publication active également l’URL pour appeler le modèle à partir des serveurs Dynamic Media Image Server vers votre site Web ou votre application.
 
 Assurez-vous de publier toutes les images associées à votre modèle.
 
 Pour publier un modèle, marquez-le pour publication puis, sur la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**. Sélectionnez **[!UICONTROL Envoyer la publication]**. Voir [Publication de modèles](publishing-templates.md#publishing_templates).
 
-## 5. Associer un modèle à une page web
+## 5. Associer un modèle à une page Web
 
 Dynamic Media Classic crée des URL pour les modèles et les active lorsque vous publiez des modèles sur les serveurs d’images Dynamic Media. Vous pouvez copier ces chaînes URL à partir de la page Aperçu du modèle .
 
-Sélectionnez votre modèle dans le panneau de navigation, puis sélectionnez **[!UICONTROL Aperçu]** pour ouvrir la page Aperçu du modèle . Sélectionnez un paramètre d’image prédéfini pour la diffusion de votre modèle, puis cliquez sur **[!UICONTROL Copier l’URL]**. Après avoir copié l’URL à partir de la page Aperçu, vous pouvez l’utiliser sur votre site web ou dans votre application. Voir [Liaison d’un modèle à une page Web](linking-template-web-page.md#linking_a_template_to_a_web_page).
+Sélectionnez votre modèle dans le panneau de navigation, puis sélectionnez **[!UICONTROL Aperçu]** pour ouvrir la page Aperçu du modèle . Sélectionnez un paramètre d’image prédéfini pour la diffusion de votre modèle, puis cliquez sur **[!UICONTROL Copier l’URL]**. Après avoir copié l’URL à partir de la page Aperçu, vous pouvez l’utiliser dans votre site Web ou application. Voir [Associer un modèle à une page Web](linking-template-web-page.md#linking_a_template_to_a_web_page).

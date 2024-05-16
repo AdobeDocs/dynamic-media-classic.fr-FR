@@ -10,16 +10,16 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 28%
+ht-degree: 21%
 
 ---
 
 # Démarrage rapide : Zoom{#quick-start-zoom}
 
-Zoom permet d’afficher de manière interactive les détails haute résolution des images. Vous pouvez, par exemple, voir les couleurs, les options, les angles et les détails d’une image dans une visionneuse intégrée, entièrement configurable et dynamique. Cette visionneuse peut être incorporée à une page Web ou s’afficher dans une fenêtre contextuelle. Vous pouvez contrôler les images à distance et effectuer un panoramique à haute résolution afin de les examiner de plus près. La fonction de zoom permet à vos clients de bénéficier d’une expérience de visualisation plus interactive, instructive et dynamique. 
+Zoom permet d’afficher de manière interactive les détails haute résolution des images. Vous pouvez, par exemple, voir les couleurs, les options, les angles et les détails d’une image dans une visionneuse intégrée, entièrement configurable et dynamique. Cette visionneuse peut être incorporée dans une page Web ou s’afficher dans une fenêtre contextuelle. Vous pouvez contrôler les images à distance et effectuer un panoramique à haute résolution afin de les examiner de plus près. La fonction de zoom permet à vos clients de bénéficier d’une expérience de visualisation plus interactive, instructive et dynamique. 
 
 Adobe Dynamic Media Classic propose également un zoom guidé qui permet de mettre en évidence les fonctionnalités importantes d’une image. Vous pouvez par exemple créer une cible de zoom pour un logo afin d’attirer l’attention des utilisateurs sur ce dernier. Lorsque les utilisateurs sélectionnent cette cible de zoom, ils effectuent un zoom sur le logo.
 
@@ -47,7 +47,7 @@ Les paramètres prédéfinis de visionneuse de zoom déterminent le style et le 
 
 Pour créer un paramètre prédéfini de visionneuse de zoom, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**. Sur la page Paramètres visionneuse, sélectionnez **[!UICONTROL Ajouter]**, choisissez une plateforme et une visionneuse de zoom, puis sélectionnez **[!UICONTROL Ajouter]**. Sélectionnez ensuite les options de la variable `Configure Viewer` page.
 
-Offres Adobe Dynamic Media Classic **[!UICONTROL Paramètre prédéfini de la visionneuse de zoom]** qui vous permettent de sélectionner le style du bouton et l’aspect général de la visionneuse. Vous avez également la possibilité de personnaliser les paramètres de zoom pour votre site Web Voir [Configuration des paramètres prédéfinis de la visionneuse de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Offres Adobe Dynamic Media Classic **[!UICONTROL Paramètre prédéfini de la visionneuse de zoom]** qui vous permettent de sélectionner le style du bouton et l’aspect général de la visionneuse. Vous pouvez également personnaliser les paramètres de zoom de votre site Web. Voir [Configuration des paramètres prédéfinis de la visionneuse de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## 4. Prévisualisez les images à l’aide de la visionneuse de zoom.
 
@@ -55,14 +55,14 @@ Vous pouvez prévisualiser des images dans une visionneuse de zoom afin de véri
 
 Pour explorer les différents paramètres prédéfinis de la visionneuse de zoom et leur présentation, sélectionnez une image dans le panneau de navigation, puis sélectionnez **[!UICONTROL Aperçu]**. Accédez à **[!UICONTROL Paramètres prédéfinis]** > **[!UICONTROL Zoom]**, puis sélectionnez un paramètre prédéfini à l’aide du menu Zoom .
 
-Les boutons de zoom apparaissent. Vous pouvez alors vérifier l’aspect des images de zoom sur votre site Web. Sélectionnez les boutons de zoom (et les cibles de zoom) pour tester les paramètres du paramètre prédéfini de la visionneuse de zoom que vous avez choisi. Voir [Aperçu des images avec différentes visionneuses de zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+Les boutons de zoom apparaissent. Vous pouvez voir à quoi ressemblent les images de zoom sur votre site Web. Sélectionnez les boutons de zoom (et les cibles de zoom) pour tester les paramètres du paramètre prédéfini de la visionneuse de zoom que vous avez choisi. Voir [Aperçu des images avec différentes visionneuses de zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ## 5. Publication des images de zoom
 
-Lorsque vous publiez vos images de zoom, elles sont placées sur les serveurs d’images Dynamic Media afin qu’elles puissent être diffusées sur votre site web et dans votre application. Dans le cadre du processus de publication, Adobe Dynamic Media Classic active les chaînes URL. Ces chaînes URL appellent des images de zoom des serveurs d’images Dynamic Media vers votre site web ou votre application.
+Lorsque vous publiez vos images de zoom, elles sont placées sur les serveurs d’images Dynamic Media afin qu’elles puissent être diffusées sur votre site Web et dans votre application. Dans le cadre du processus de publication, Adobe Dynamic Media Classic active les chaînes URL. Ces chaînes URL appellent des images de zoom des serveurs d’images Dynamic Media vers votre site web ou application.
 
 Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**. Dans la boîte de dialogue Publication, sélectionnez **[!UICONTROL Envoyer la publication]**. (voir [Publication des images de zoom](publishing-zoom-images.md#publishing_zoom_images)).
 
 ## 6. Liaison des visionneuses de zoom à une page web
 
-Adobe Dynamic Media Classic crée les chaînes d’légende URL nécessaires pour zoomer sur les images et les active lorsque vous publiez des images sur les serveurs d’images Dynamic Media. Vous pouvez copier ces chaînes d’URL à partir du **[!UICONTROL Aperçu]** page. Une fois copiées, les chaînes URL peuvent être utilisées dans vos applications et sur vos sites Web Voir [Lier les visionneuses de zoom à une page web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).
+Adobe Dynamic Media Classic crée les chaînes d’légende URL nécessaires pour zoomer sur les images et les active lorsque vous publiez des images sur les serveurs d’images Dynamic Media. Vous pouvez copier ces chaînes d’URL à partir du **[!UICONTROL Aperçu]** page. Une fois les chaînes d’URL copiées, elles sont disponibles sur vos sites Web et dans vos applications. Voir [Lier les visionneuses de zoom à une page web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).

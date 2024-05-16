@@ -10,10 +10,10 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 40%
+ht-degree: 38%
 
 ---
 
@@ -30,30 +30,30 @@ Adobe Dynamic Media Classic conserve un enregistrement des tâches d’exportati
 1. Sélectionnez les ressources à exporter, puis accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Exporter]**.
 1. Dans la fenêtre Exporter les fichiers sélectionnés, cliquez sur **[!UICONTROL Options d’image]**, puis spécifiez une ou plusieurs options parmi les suivantes (les administrateurs déterminent quelles options sont disponibles pour les utilisateurs) :
 
-   * **[!UICONTROL Paramètres prédéfinis]** - Vous pouvez éventuellement choisir un paramètre d’image prédéfini pour formater la ressource lorsque vous l’exportez. Si vous choisissez un paramètre d’image prédéfini, les autres options de formatage ne sont pas disponibles, car le fichier adopte les formats définis par ce paramètre d’image prédéfini.
+   * **[!UICONTROL Paramètres prédéfinis]**: Si vous le souhaitez, choisissez un paramètre d’image prédéfini pour formater la ressource lorsque vous l’exportez. Si vous choisissez un paramètre d’image prédéfini, les autres options de formatage ne sont pas disponibles, car le fichier adopte les formats définis par ce paramètre d’image prédéfini.
 
-   * **[!UICONTROL Conversion]** - Convertissez le fichier de ressource ou l’image d’origine.
+   * **[!UICONTROL Conversion]**: convertit le fichier de ressource ou l’image d’origine.
 
-   * **[!UICONTROL Taille]** - Vous pouvez sélectionner une taille standard. Vous pouvez également sélectionner **[!UICONTROL Autre]** de la **[!UICONTROL Taille]** , choisissez l’unité de mesure souhaitée, puis indiquez la largeur et la hauteur.
+   * **[!UICONTROL Taille]**: vous pouvez sélectionner une taille standard. Vous pouvez également sélectionner **[!UICONTROL Autre]** de la **[!UICONTROL Taille]** , choisissez l’unité de mesure souhaitée, puis indiquez la largeur et la hauteur.
 
      Voir aussi [Définition des options d’exportation disponibles pour les utilisateurs de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **[!UICONTROL Format]** - Choisissez un format d’image.
+   * **[!UICONTROL Format]**: choisissez un format d’image.
 
-   * **[!UICONTROL Couleur]** - Choisissez RGB, CMJN ou Gris.
+   * **[!UICONTROL Couleur]**: sélectionnez RGB, CMJN ou Gris.
 
-   * **[!UICONTROL Résolution]** - Choisissez 72 ppp, 150 ppp ou 300 ppp.
+   * **[!UICONTROL Résolution]**: sélectionnez 72 ppp, 150 ppp ou 300 ppp.
 
-   * **[!UICONTROL Job Name]** - Vous pouvez attribuer un nom de tâche à l’exportation.
+   * **[!UICONTROL Job Name]**: vous pouvez attribuer un nom de tâche à l’exportation.
 
-   * **[!UICONTROL Envoyer un courrier électronique à]** : facultatif. Entrez une adresse électronique si vous souhaitez envoyer les ressources par courrier électronique. Le message e-mail indique l’URL à laquelle le destinataire peut accéder pour télécharger les fichiers.
+   * **[!UICONTROL Envoyer un courrier électronique à]**: facultatif. Entrez une adresse électronique si vous souhaitez envoyer les ressources par courrier électronique. Le message e-mail indique l’URL à laquelle le destinataire peut accéder pour télécharger les fichiers.
 
 1. Sélectionner **[!UICONTROL Exporter]**.
 
 Trois actions d’exportation de base sont prises en charge :
 
 * Fichier d’origine (exporte le fichier d’origine)
-* Conversion avec un paramètre prédéfini (utilise un paramètre prédéfini d’image pour formater le fichier)
+* Convertir à l’aide d’un paramètre prédéfini (utiliser un paramètre d’image prédéfini pour formater la ressource)
 * Conversion sans paramètre prédéfini) (utilise la boîte de dialogue d’exportation pour spécifier les modificateurs d’image)
 
 Il est impossible d’exporter les types de fichier suivants Tous les autres génèrent une exportation.

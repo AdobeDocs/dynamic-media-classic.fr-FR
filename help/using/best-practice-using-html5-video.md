@@ -10,7 +10,7 @@ role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 9%
@@ -19,7 +19,7 @@ ht-degree: 9%
 
 # Bonnes pratiques relatives à l’utilisation de la visionneuse de vidéos HTML5{#best-practice-using-the-html-video-viewer}
 
-Les paramètres prédéfinis de la visionneuse de vidéos Adobe Dynamic Media Classic HTML5 sont des lecteurs vidéo fiables. Du côté de la conception du lecteur, vous pouvez créer l’ensemble des fonctionnalités du lecteur vidéo à l’aide d’outils de développement web standard. Vous pouvez, par exemple, concevoir les boutons, les commandes et les affiches personnalisées en arrière-plan au moyen du code HTML5 et CSS afin de mieux cibler les utilisateurs avec un aspect personnalisé.
+Les paramètres prédéfinis de la visionneuse de vidéos Adobe Dynamic Media Classic HTML5 sont des lecteurs vidéo fiables. Du côté de la conception du lecteur, vous pouvez créer l’ensemble des fonctionnalités du lecteur vidéo à l’aide des outils de développement web standard. Vous pouvez, par exemple, concevoir les boutons, les commandes et les affiches personnalisées en arrière-plan au moyen du code HTML5 et CSS afin de mieux cibler les utilisateurs avec un aspect personnalisé.
 
 Du côté lecture de la visionneuse, elle détecte automatiquement les fonctionnalités vidéo du navigateur. Il diffuse ensuite la vidéo à l’aide de HLS (HTTP Live Streaming), également appelé diffusion en continu de vidéo adaptative. Ou, si cette méthode de diffusion n’est pas présente, HTML5 progressif est utilisé à la place.
 

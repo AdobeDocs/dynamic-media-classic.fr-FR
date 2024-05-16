@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 18%
@@ -59,7 +59,7 @@ Utilisez l’écran Configuration d’Adobe Analytics pour associer des événem
 
 ### Evénements de visionneuse {#viewer-events}
 
-Les événements de visionneuse décrivent les actions que les utilisateurs effectuent avec les visionneuses Dynamic Media Classic. Lorsqu’un utilisateur lance une action (sélection d’une miniature, démarrage ou arrêt d’une vidéo, par exemple), la visionneuse &quot;diffuse&quot; un événement sur la page web. Les données associées à cet événement sont également poussées.
+Les événements de visionneuse décrivent les actions que les utilisateurs effectuent avec les visionneuses Dynamic Media Classic. Lorsqu’un utilisateur lance une action (sélection d’une miniature, démarrage ou arrêt d’une vidéo, par exemple), la visionneuse &quot;diffuse&quot; un événement sur la page Web. Les données associées à cet événement sont également poussées.
 
 Le tableau suivant décrit les événements de visionneuse que vous pouvez ajouter à l’écran de configuration d’Adobe Analytics.
 
@@ -105,8 +105,8 @@ Le tableau suivant décrit les variables Adobe Dynamic Media Classic :
 
 Sur l’écran de configuration d’Adobe Analytics, vous pouvez activer, modifier et supprimer des événements de visionneuse :
 
-* **Activer** - Sélectionner **[!UICONTROL Activer]** pour activer ou **[!UICONTROL Désactiver]** pour désactiver un événement de visionneuse sélectionné.
+* **Activer**: sélectionnez **[!UICONTROL Activer]** pour activer ou **[!UICONTROL Désactiver]** pour désactiver un événement de visionneuse sélectionné.
 
-* **Modifier** - Sélectionnez un événement de visionneuse et choisissez la variable **[!UICONTROL Afficher/Modifier]** Bouton gris des variables. Dans les listes déroulantes Variable Adobe Dynamic Media Classic et Variable Adobe Analytics , sélectionnez une variable différente dans chaque liste respective. Pour plus d’informations, voir [Affectation de variables Adobe Analytics à des événements et variables de visionneuse Adobe Dynamic Media Classic](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
+* **Modifier**: sélectionnez un événement de visionneuse et choisissez la variable **[!UICONTROL Afficher/Modifier]** Bouton gris des variables. Dans les listes déroulantes Variable Adobe Dynamic Media Classic et Variable Adobe Analytics , sélectionnez une variable différente dans chaque liste respective. Pour plus d’informations, voir [Affectation de variables Adobe Analytics à des événements et variables de visionneuse Adobe Dynamic Media Classic](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
 
-* **Supprimer** - Sélectionnez un événement de visionneuse, puis le **[!UICONTROL Afficher/Modifier]** Bouton gris des variables. Sélectionner **[!UICONTROL Supprimer]**.
+* **Supprimer**: sélectionnez un événement de visionneuse, puis le **[!UICONTROL Afficher/Modifier]** Bouton gris des variables. Sélectionner **[!UICONTROL Supprimer]**.

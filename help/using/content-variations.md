@@ -10,10 +10,10 @@ role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 55%
+ht-degree: 44%
 
 ---
 
@@ -25,7 +25,7 @@ Créez une visionneuse de modèles pour gérer les variations d’un modèle. Vo
 
 Les URL universelles sont utilisées pour afficher la variation de modèle qui s’affiche sur la page, selon l’ordre dans lequel elles sont répertoriées dans le jeu. Le modèle en haut de la liste des visionneuses de modèles est toujours publié.
 
-Vous pouvez utiliser n’importe quelle URL prédéfinie d’image à partir de la liste. Les URL prédéfinies d’image sont similaires aux URL universelles. Il peut y avoir plusieurs URL prédéfinies d’image.
+Vous pouvez utiliser n’importe quelle URL de paramètre d’image prédéfini dans la liste. Les URL des paramètres d’image prédéfinis sont comme des URL universelles. Il peut y avoir plusieurs URL de paramètre d’image prédéfini.
 
 1. Accédez à **[!UICONTROL Build]** > **[!UICONTROL Jeux de modèles]**.
 1. Dans le créateur, sélectionnez un modèle, puis sélectionnez **[!UICONTROL Ajouter/Prévisualiser]**.

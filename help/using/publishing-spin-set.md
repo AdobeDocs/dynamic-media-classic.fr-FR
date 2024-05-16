@@ -10,7 +10,7 @@ role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 10%
@@ -19,7 +19,7 @@ ht-degree: 10%
 
 # Publication d’une visionneuse à 360°{#publishing-a-spin-set}
 
-Lorsque vous publiez une visionneuse à 360°, les images qu’elle contient sont placées sur les serveurs d’images Dynamic Media, où elles sont disponibles pour votre site web ou votre application. En outre, pendant le processus de publication, Adobe Dynamic Media Classic active les chaînes URL de visionneuse à 360° dont vous avez besoin pour votre site web ou votre application.
+Lorsque vous publiez une visionneuse à 360°, les images qu’elle contient sont placées sur les serveurs d’images Dynamic Media, où elles sont disponibles pour votre site Web ou votre application. En outre, pendant le processus de publication, Adobe Dynamic Media Classic active les chaînes URL de visionneuse à 360° dont vous avez besoin pour votre site web ou votre application.
 
 ## Marquage d’une visionneuse à 360° pour publication {#marking-a-spin-set-for-publish}
 

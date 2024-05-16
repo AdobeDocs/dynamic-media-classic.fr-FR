@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 65%
@@ -21,13 +21,13 @@ ht-degree: 65%
 
 Le portail multimédia propose les rôles suivants, chacun d’entre eux étant assorti de droits d’accès et d’autorisations spécifiques. Lorsque vous inscrivez un utilisateur, vous lui attribuez l’un des rôles suivants :
 
-* **[!UICONTROL Administrateur Media Portal]** - Peuvent ajouter et supprimer des administrateurs, des contributeurs et des utilisateurs. Il peut également définir des droits d’accès pour les groupes, gérer les comptes FTP, attribuer des formats (paramètres prédéfinis) de conversion approuvés par l’entreprise, envoyer des e-mails aux utilisateurs du portail multimédia et afficher des rapports sur l’utilisation du portail et le stockage.
+* **[!UICONTROL Administrateur Media Portal]**: peut ajouter et supprimer des administrateurs, des contributeurs et des utilisateurs. Il peut également définir des droits d’accès pour les groupes, gérer les comptes FTP, attribuer des formats (paramètres prédéfinis) de conversion approuvés par l’entreprise, envoyer des e-mails aux utilisateurs du portail multimédia et afficher des rapports sur l’utilisation du portail et le stockage.
 
-* **[!UICONTROL Utilisateur du portail multimédia]** - A accès aux dossiers et aux fichiers. Un utilisateur peut uniquement parcourir, prévisualiser et télécharger des fichiers. Ce rôle convient à vos partenaires de réseaux de distribution ou de services qui ont besoin d’accéder à vos fichiers d’entreprise approuvés.
+* **[!UICONTROL Utilisateur du portail multimédia]**: a accès aux dossiers et aux fichiers. Un utilisateur peut uniquement parcourir, prévisualiser et télécharger des fichiers. Ce rôle convient à vos partenaires de réseaux de distribution ou de services qui ont besoin d’accéder à vos fichiers d’entreprise approuvés.
 
-* **[!UICONTROL Contributeur au portail multimédia]** - Peut charger, prévisualiser et parcourir des fichiers et des métadonnées dans les zones pour lesquelles un administrateur a accordé des autorisations. Un contributeur n’est pas autorisé à télécharger des fichiers. Il peut modifier des métadonnées, renommer des fichiers, déplacer ces derniers d’un dossier vers un autre et en supprimer.
+* **[!UICONTROL Contributeur au portail multimédia]**: peut charger, prévisualiser et parcourir des fichiers et des métadonnées dans les zones pour lesquelles un administrateur a accordé des autorisations. Un contributeur n’est pas autorisé à télécharger des fichiers. Il peut modifier des métadonnées, renommer des fichiers, déplacer ces derniers d’un dossier vers un autre et en supprimer.
 
-* **[!UICONTROL Contributeur-Utilisateur du portail multimédia]** - A accès aux dossiers et aux fichiers. Un utilisateur contributeur peut parcourir, prévisualiser, télécharger et charger des images et des métadonnées. Les utilisateurs contributeurs peuvent modifier les noms des fichiers, déplacer les fichiers dans différents dossiers et supprimer des fichiers.
+* **[!UICONTROL Contributeur-Utilisateur du portail multimédia]**: a accès aux dossiers et aux fichiers. Un utilisateur contributeur peut parcourir, prévisualiser, télécharger et charger des images et des métadonnées. Les utilisateurs contributeurs peuvent modifier les noms des fichiers, déplacer les fichiers dans différents dossiers et supprimer des fichiers.
 
 Ce tableau décrit les tâches que les utilisateurs peuvent effectuer selon le rôle qui leur a été attribué. Les administrateurs et les contributeurs-utilisateurs sont habilités à effectuer toutes les tâches indiquées dans le tableau :
 

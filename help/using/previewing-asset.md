@@ -10,10 +10,10 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 17%
+ht-degree: 12%
 
 ---
 
@@ -45,7 +45,7 @@ Voir aussi [Exemples de bibliothèques de références de visionneuses Adobe](ht
 
 Vous pouvez utiliser Liste des visionneuses pour prévisualiser l’affichage d’une ressource sur un type particulier de plate-forme de visionneuse, tel que HTML5. Notez que la fonction Liste des visionneuses ne contient pas toutes les plates-formes selon le type de fichier et la visionneuse sélectionnés.
 
-Vous pouvez également utiliser Liste des visionneuses pour copier l’URL d’une visionneuse ou afficher et copier le code de la visionneuse à incorporer dans vos pages web.
+Vous pouvez également utiliser Liste des visionneuses pour copier l’URL d’une visionneuse ou afficher et copier le code de la visionneuse à incorporer dans vos pages Web.
 
 Pour une plate-forme de visionneuse donnée, la fenêtre Liste des visionneuses vous permet de voir visuellement quels appareils, tels que tablettes et smartphones, une visionneuse est disponible.
 
@@ -72,7 +72,7 @@ Pour une plate-forme de visionneuse donnée, la fenêtre Liste des visionneuses 
 
    * Dans la fenêtre Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 
-     Lorsque vous sélectionnez **[!UICONTROL Code incorporé]**, la fenêtre Code incorporé s’ouvre, dans laquelle vous pouvez consulter le code de la visionneuse. Vous ne pouvez pas modifier le code dans cette fenêtre. Vous pouvez également copier le code dans le Presse-papiers ; vous pouvez ainsi le coller dans vos pages Web.
+     Lorsque vous sélectionnez **[!UICONTROL Code incorporé]**, la fenêtre Code incorporé s’ouvre, dans laquelle vous pouvez consulter le code de la visionneuse. Vous ne pouvez pas modifier le code dans cette fenêtre. Vous pouvez également copier le code dans le Presse-papiers afin de le coller dans vos pages Web.
 
      Fermez l’aperçu affiché.
 
@@ -80,7 +80,7 @@ Pour une plate-forme de visionneuse donnée, la fenêtre Liste des visionneuses 
 
 ## Prévisualiser une ressource d’image en fonction de son paramètre d’image prédéfini {#previewing-an-image-asset-based-on-its-image-preset}
 
-Vous pouvez prévisualiser un fichier d’image en fonction de son paramètre d’image prédéfini afin d’avoir une idée du rendu de l’image lorsqu’elle sera dynamiquement diffusée dans votre site Web ou votre application, à des tailles différentes.
+Vous pouvez prévisualiser une ressource image en fonction de son paramètre d’image prédéfini afin de déterminer à quoi ressemble votre image lorsqu’elle est diffusée dynamiquement vers votre site web ou votre application, selon différentes tailles.
 
 Un paramètre d’image prédéfini est un ensemble de paramètres prédéfinis. Ces paramètres modifient la taille, la qualité de l’image, le format, la résolution et d’autres aspects de l’apparence d’une image lors de son exportation.
 

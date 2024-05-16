@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 86537998-b7e9-449c-83eb-6fd04533a00f
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 1%
@@ -28,5 +28,5 @@ Utilisez la liste de contrôle suivante pour vous aider à comprendre et prépar
 | **Phase 5 : configuration administrative** | Configuration des utilisateurs et des autorisations | Créez des utilisateurs et accordez les autorisations appropriées. |
 |   | Configuration des profils de codage vidéo | Créez des profils de codage vidéo. |
 |   | Configuration des paramètres prédéfinis de visionneuse | Créez des paramètres prédéfinis de visionneuse. |
-|   | Définition des paramètres d’image prédéfinis | Configurez des paramètres d’image prédéfinis. |
+|   | Définition des paramètres d’image prédéfinis | Configuration de paramètres d’image prédéfinis. |
 | **Phase 6 : validation** | Validation | Vérifiez les cas d’utilisation, les ressources, les liens et les API. |

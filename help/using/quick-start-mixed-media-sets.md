@@ -10,10 +10,10 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 23%
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 23%
 
 Les visionneuses de médias mixtes offrent aux utilisateurs une expérience de visionnage intégrée. Les visionneuses de supports variés peuvent contenir des images, des visionneuses d’images, des séries d’échantillons, des visionneuses à 360° et des vidéos. Les utilisateurs peuvent sélectionner différents onglets dans la visionneuse de supports variés pour afficher les éléments dans les différentes visionneuses. Si aucun onglet n’est sélectionné, tous les fichiers s’affichent dans la ligne d’échantillons.
 
-Les paramètres prédéfinis de visionneuse de supports variés incluent des options de la communauté permettant aux utilisateurs finals d’incorporer du code, de copier des URL et de créer des liens vers le site Web principal. Les utilisateurs peuvent utiliser ces options pour partager des informations de produits sur leur site Web personnel ou sur des sites de réseaux sociaux.
+Les paramètres prédéfinis de visionneuse de médias mixtes incluent des options de communauté permettant aux utilisateurs finaux d’incorporer du code, de copier des URL et de créer un lien vers le site web principal. Les utilisateurs peuvent utiliser ces options pour partager des informations sur les produits sur leurs sites Web personnels ou sur les réseaux sociaux.
 
 Ce didacticiel de supports variés est conçu pour vous aider à maîtriser rapidement les techniques de visionneuse de supports variés dans Adobe Dynamic Media Classic.
 
@@ -49,7 +49,7 @@ Voir [Création d’une visionneuse de médias mixtes](creating-mixed-media-set.
 
 Adobe Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse par défaut pour les visionneuses de médias mixtes. Les administrateurs peuvent créer ou modifier des paramètres prédéfinis de visionneuse de médias mixtes.
 
-Lors de la configuration d’un paramètre prédéfini de visionneuse de médias mixtes, ajoutez les paramètres prédéfinis de visionneuse pour toutes les autres ressources de votre visionneuse. Par exemple, si votre visionneuse de médias mixtes contient des vidéos, ajoutez un paramètre prédéfini de visionneuse de médias mixtes. Vous pouvez également ajouter une bande sonore à la visionneuse. Cette bande sonore est lue lorsque la visionneuse est ouverte mais pas lorsqu’une vidéo est active.
+Lors de la configuration d’un paramètre prédéfini de visionneuse de médias mixtes, ajoutez les paramètres prédéfinis de visionneuse pour toutes les autres ressources de votre visionneuse. Par exemple, si votre visionneuse de médias mixtes contient des vidéos, ajoutez un paramètre prédéfini de visionneuse de vidéos au paramètre prédéfini de visionneuse de médias mixtes. Vous pouvez également ajouter une bande sonore à la visionneuse. Cette bande sonore est lue lorsque la visionneuse est ouverte mais pas lorsqu’une vidéo est active.
 
 Voir [Configuration d’un paramètre prédéfini de visionneuse de médias mixtes](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) et [Création et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding-and-editing-viewer-presets).
 

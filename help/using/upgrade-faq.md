@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 0%
@@ -188,9 +188,9 @@ Dynamic Media est livré avec 60 Go de stockage. Vous pouvez acheter un stockage
 +++
 
 +++**Mesure utilisée [!DNL Dynamic Media] utilisation ?**
-Pages vues par mois (PVM). Page vue désigne une vue unique d’un courrier électronique ou d’une page web d’un site Internet. Il comprend également les vues d’écran de l’application, les états d’écran de l’application, les pages web mobiles et les pages de réseau social. Pages vues :
+Pages vues par mois (PVM). Page vue désigne une vue unique d’un courrier électronique ou d’une page Web d’un site Internet. Il comprend également les vues d’écran de l’application, les états d’écran de l’application, les pages Web mobiles et les pages de réseau social. Pages vues :
 
-* A chaque chargement ou actualisation d’une page web
+* A chaque chargement ou actualisation d&#39;une page Web
 * Lorsqu’une application est chargée
 * Lors du rendu du contenu
 * Affiché par le biais d’un email ouvert ou consulté

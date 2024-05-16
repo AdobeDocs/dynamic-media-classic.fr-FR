@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '1674'
-ht-degree: 27%
+ht-degree: 21%
 
 ---
 
@@ -94,7 +94,7 @@ Vous pouvez afficher les options avancées sur la page Publication et choisir le
 
 * **[!UICONTROL Publier sur]**: pour publier des ressources uniquement sur un serveur spécifique, choisissez un type de serveur.
 
-* **[!UICONTROL Publier]** - Par défaut, Adobe Dynamic Media Classic publie uniquement les nouvelles ressources qui n’ont pas été publiées avant (option Nouveau depuis la dernière publication ). Vous pouvez toutefois sélectionner **[!UICONTROL Publication complète]** vous pouvez donc également publier des ressources qui ont été mises à jour ou modifiées depuis leur dernière publication. Sélectionner **[!UICONTROL Complet avec données de recherche]** si vous publiez un catalogue électronique et souhaitez que les lecteurs puissent y effectuer des recherches par mot-clé.
+* **[!UICONTROL Publier]**: par défaut, Adobe Dynamic Media Classic publie uniquement les nouvelles ressources qui n’ont pas été publiées avant (option Nouveau depuis la dernière publication ). Vous pouvez toutefois sélectionner **[!UICONTROL Publication complète]** vous pouvez donc également publier des ressources qui ont été mises à jour ou modifiées depuis leur dernière publication. Sélectionner **[!UICONTROL Complet avec données de recherche]** si vous publiez un catalogue électronique et souhaitez que les lecteurs puissent y effectuer des recherches par mot-clé.
 
 * **[!UICONTROL Exécuter la tâche comme]**: sélectionnez un nom d’utilisateur dans la liste. Vous pouvez trier les tâches par nom d’utilisateur sur la page Tâches. En choisissant un nom, vous associez une tâche de publication à un utilisateur.
 
@@ -150,13 +150,13 @@ La dernière date de publication d’une ressource s’affiche dans l’affichag
 
 ## Fichiers republiés et délais CDN {#republished-assets-and-cdn-delays}
 
-Les ressources Adobe Dynamic Media Classic sont distribuées sur le réseau de diffusion de contenu (CDN). CDN est un système de serveurs informatiques reliés en réseau qui coopèrent de manière transparente pour diffuser des contenus, surtout des contenus multimédias volumineux, vers des utilisateurs finaux. Dans le système CDN, le contenu Web est stocké dans des caches Web sur le réseau Internet (appelé réseau cache de périphérie). Le contenu web est diffusé à partir des caches Web aux utilisateurs finaux afin de permettre des diffusions plus rapides.
+Les ressources Adobe Dynamic Media Classic sont distribuées sur le réseau de diffusion de contenu (CDN). CDN est un système de serveurs informatiques reliés en réseau qui coopèrent de manière transparente pour diffuser des contenus, surtout des contenus multimédias volumineux, vers des utilisateurs finaux. Dans le système CDN, le contenu web est stocké dans des caches Web sur Internet (appelé réseau de cache de périphérie). Le contenu web est diffusé à partir des caches Web aux utilisateurs finaux afin de permettre des diffusions plus rapides.
 
-Lors du premier téléchargement d’une page Web, les fichiers correspondants sont envoyés à un serveur cache CDN Ce serveur les stocke de sorte que, la prochaine fois qu’une personne se trouvant dans la même zone accédera à la page web, le même contenu mis en cache sera diffusé plus rapidement. Le contenu étant plus proche de l’utilisateur final, il est livré plus vite. Le système CDN accélère l’affichage des pages Web. Il réduit les besoins en bande passante sur le serveur central dans la mesure où le contenu est diffusé à partir du réseau cache de périphérie, et non pas d’un serveur central à chaque fois.
+La première fois qu’un utilisateur télécharge une page Web, les ressources sont diffusées sur un serveur de cache Web CDN. Ce serveur les stocke de sorte que, la prochaine fois qu’une personne se trouvant dans la même zone accédera à la page Web, le même contenu mis en cache sera diffusé plus rapidement. Le contenu étant plus proche de l’utilisateur final, il est livré plus vite. Le réseau de diffusion de contenu accélère l’affichage des pages Web. Il réduit les besoins en bande passante sur le serveur central dans la mesure où le contenu est diffusé à partir du réseau cache de périphérie, et non pas d’un serveur central à chaque fois.
 
-Le contenu Adobe Dynamic Media Classic récemment publié est immédiatement disponible pour l’utilisateur final et remplit rapidement le réseau de cache de périphérie. Toutefois, le contenu récemment republié, c’est-à-dire les images portant le même nom que les images précédemment publiées sur un serveur d’images, ne sont pas mises à jour sur le réseau de diffusion de contenu pendant dix heures au maximum. En fait, l’utilisateur final n’a accès qu’au contenu du cache Web sur le réseau CDN. Pour cette raison, les ressources republiées d’Adobe Dynamic Media Classic ne semblent pas être destinées aux utilisateurs finaux pendant dix heures.
+Le contenu Adobe Dynamic Media Classic récemment publié est immédiatement disponible pour l’utilisateur final et remplit rapidement le réseau de cache de périphérie. Toutefois, le contenu récemment republié, c’est-à-dire les images portant le même nom que les images précédemment publiées sur un serveur d’images, ne sont pas mises à jour sur le réseau de diffusion de contenu pendant dix heures au maximum. À la place, les utilisateurs finaux voient ce qui se trouve dans un cache Web sur le réseau CDN. Pour cette raison, les ressources republiées d’Adobe Dynamic Media Classic ne semblent pas être destinées aux utilisateurs finaux pendant dix heures.
 
-Pour mettre à disposition des fichiers récemment republiés avant ce délai de 10 heures, vous pouvez vider les caches Web sur le CDN. Ce vidage aura pour effet de supprimer l’ancien contenu des caches Web CDN et de le remplacer par les derniers fichiers publiés.
+Si vous souhaitez que vos ressources d’image nouvellement republiées soient disponibles avant le délai de dix heures, vous pouvez vider les caches web sur le réseau de diffusion de contenu. Le vidage de ces caches Web supprime l’ancien contenu des caches Web CDN et le remplace par vos dernières ressources publiées.
 
 Pour vider le cache, dans la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Invalider le réseau de diffusion de contenu]**. Tous les fichiers sélectionnés sont supprimés du cache. Si aucun fichier de publication n’est disponible ou si vous n’êtes pas l’administrateur de la société, l’option Supprimer du réseau de redéfinition de contenu est désactivée.
 

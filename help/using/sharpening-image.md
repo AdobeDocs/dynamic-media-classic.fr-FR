@@ -10,10 +10,10 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
-source-wordcount: '2199'
-ht-degree: 35%
+source-wordcount: '2207'
+ht-degree: 30%
 
 ---
 
@@ -23,7 +23,7 @@ L’accentuation est une technique de manipulation d’image qui rend plus nets 
 
 Adobe Dynamic Media Classic recommande vivement d’utiliser des paramètres d’image prédéfinis pour toutes les images. Elles garantissent une taille uniforme et l’accentuation est appliquée sur toute image appelée avec un paramètre d’image prédéfini. De plus, vous pouvez facilement modifier et modifier les paramètres d’accentuation d’un paramètre d’image prédéfini. A la prochaine publication, toutes les images appelées avec ces paramètres prédéfinis se voient appliquer les nouvelles valeurs.
 
-Adobe Dynamic Media Classic recommande également d’ajouter de l’accentuation aux paramètres prédéfinis de la visionneuse, puis d’appeler une visionneuse avec ce paramètre prédéfini. Cela garantit que les images dans vos visionneuses sont claires et attrayantes.
+Adobe Dynamic Media Classic recommande également d’ajouter de l’accentuation aux paramètres prédéfinis de la visionneuse, puis d’appeler une visionneuse avec ce paramètre prédéfini. Cela garantit que les images de vos visionneuses sont claires et attrayantes.
 
 Cependant, que vous utilisiez des paramètres d’image prédéfinis et des paramètres de visionneuse prédéfinis, ou une méthode d’accentuation, l’essentiel est que vous devez accentuer vos images. Si ce n’est pas le cas, vos images (et votre site web) peuvent sembler douces et floues.
 
@@ -45,7 +45,7 @@ Voir aussi [Accentuation](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.ht
 
 **Pour accentuer une image :**
 
-Pour accentuer une image, sélectionnez son survol **[!UICONTROL Modifier]** et choisissez **[!UICONTROL Accentuer]** ou ouvrez-la dans le panneau de navigation de la vue Détails, puis sélectionnez **[!UICONTROL Accentuer]**. La page Éditeur d’accentuation s’ouvre avec des commandes d’accentuation. Choisissez des commandes, puis sélectionnez **[!UICONTROL Enregistrer]**.
+Pour accentuer une image, sélectionnez son survol **[!UICONTROL Modifier]** et choisissez **[!UICONTROL Accentuer]** ou ouvrez-la dans le panneau de navigation de la vue Détails, puis sélectionnez **[!UICONTROL Accentuer]**. La page Éditeur d’accentuation s’ouvre avec des commandes d’accentuation. Choisissez les commandes de votre choix, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 >[!NOTE]
 >
@@ -58,50 +58,50 @@ Le tableau suivant présente les options d’accentuation du serveur Image Serv
 | Nom | Protocole d’URL | Valeurs | Exemple |
 | --- | --- | --- | --- |
 | Accentuation simple | `op_sharpen` | `0` ou `1` | `op_sharpen=1` |
-| Mode de ré-échantillonnage | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: sélectionne l’interpolation binaire standard. Méthode de rééchantillonnage la plus rapide ; certains artefacts de crénelage sont souvent visibles.<br>`bicub`: sélectionne l’interpolation bicubique. Plus gourmande en processeur que `bilin`, mais produit des images plus nettes avec des artefacts de crénelage plus discrets.<br><br>`sharp2`: sélectionne une fonction Lanczos Windows® modifiée comme algorithme d’interpolation. Peut produire des résultats légèrement plus nets que le bi-cube à un coût CPU plus élevé.<br><br>`trilin`: sélectionne une interpolation trilinéaire modifiée, qui, si elle est disponible, utilise des résolutions supérieure et inférieure. Méthode recommandée si le crénelage devient problématique. Elle réduit la taille des fichiers JPEG en raison des données à haute fréquence réduites. | `resMode=sharp2` |
+| Mode de ré-échantillonnage | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: sélectionne l’interpolation binaire standard. Méthode de rééchantillonnage la plus rapide ; certains artefacts de crénelage sont souvent visibles.<br>`bicub`: sélectionne l’interpolation bicubique. Plus gourmande en processeur que `bilin`, mais produit des images plus nettes avec des artefacts de crénelage plus discrets.<br><br>`sharp2`: sélectionne une fonction Lanczos Windows® modifiée comme algorithme d’interpolation. Elle peut produire des résultats légèrement plus nets que le bicube à un coût de processeur plus élevé.<br><br>`trilin`: sélectionne une interpolation trilinéaire modifiée, qui, si elle est disponible, utilise des résolutions supérieure et inférieure. Méthode recommandée si le crénelage devient problématique. Elle réduit la taille des fichiers JPEG en raison des données à haute fréquence réduites. | `resMode=sharp2` |
 | Masquage flou | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: facteur de force du filtre (réel 0...5)<br><br>`radius`: rayon du noyau du filtre en pixels (réel 0...250) <br><br>`threshold`: niveau seuil de filtrage (int 0...255)<br><br>`monochrome`: défini sur `0` pour masquer séparément chaque composant de couleur, définissez sur `1` pour masquer la luminosité de l’image (intensité) | `op_usm=1,1,10,0` |
 
 Sélectionnez la variable **[!UICONTROL Accentuation]** et choisissez une option :
 
-* **Aucun** - Désactive l’accentuation.
+* **Aucun**: désactive l’accentuation.
 
-* **Accentuer** : exécute une simple transmission d’accentuation sur le fichier après son redimensionnement. Il est similaire au filtre &quot;Accentuer&quot; dans Adobe Photoshop et prend en charge tous les paramètres utilisateur. Normalement, vous utiliseriez ce filtre ou **[!UICONTROL Accentuation]**, mais pas les deux. Cette méthode n’est pas recommandée comme meilleure pratique, mais elle permet de compenser le flou. (URL : `op_sharpen`)
+* **Accentuer**: exécute une simple transmission d’accentuation sur le fichier après son redimensionnement. Il est similaire au filtre &quot;Accentuer&quot; dans Adobe Photoshop et prend en charge tous les paramètres utilisateur. Normalement, vous utiliseriez ce filtre ou **[!UICONTROL Accentuation]**, mais pas les deux. Cette méthode n’est pas recommandée comme meilleure pratique, mais elle permet de compenser le flou. (URL : `op_sharpen`)
 
-* **Accentuation** - Permet d’affiner l’effet d’un filtre d’accentuation sur l’image finale à résolution réduite. Vous pouvez contrôler l’intensité de l’effet, son rayon (mesuré en pixels) et un seuil de contraste qui est ignoré. Cet effet utilise les mêmes options que le filtre &quot;Masquage flou&quot; de Photoshop. (URL : `op_usm`)
+* **Accentuation**: permet d’affiner l’effet d’un filtre d’accentuation sur l’image finale à résolution réduite. Vous pouvez contrôler l’intensité de l’effet, son rayon (mesuré en pixels) et un seuil de contraste qui est ignoré. Cet effet utilise les mêmes options que le filtre &quot;Masquage flou&quot; de Photoshop. (URL : `op_usm`)
 
 Sélectionnez ces options afin d’affiner l’accentuation à l’aide du masquage flou :
 
-* **Quantité** - Contrôle le degré de contraste appliqué aux pixels de contour. La valeur par défaut est de 0. Pour des images à haute résolution, vous pouvez l’augmenter jusqu’à 5. Imaginez la quantité comme étant l’unité de mesure de l’intensité du filtre. La variable **[!UICONTROL Quantité]** dans Adobe Dynamic Media Classic n’est pas identique au paramètre Amount dans Adobe Photoshop. Adobe Photoshop utilise un montant compris entre 1 et 500 %, tandis qu’Adobe Dynamic Media Classic le met à l’échelle de 0,0 à 5,0. (La valeur 5 est environ équivalente à 500 % dans Photoshop, 0,9 à 90 %, et ainsi de suite.)
+* **Quantité**: contrôle le degré de contraste appliqué aux pixels de contour. La valeur par défaut est de 0. Pour des images à haute résolution, vous pouvez l’augmenter jusqu’à 5. Imaginez la quantité comme étant l’unité de mesure de l’intensité du filtre. La variable **[!UICONTROL Quantité]** dans Adobe Dynamic Media Classic n’est pas identique au paramètre Amount dans Adobe Photoshop. Adobe Photoshop utilise un montant compris entre 1 et 500 %, tandis qu’Adobe Dynamic Media Classic le met à l’échelle de 0,0 à 5,0. (La valeur 5 est environ équivalente à 500 % dans Photoshop, 0,9 à 90 %, et ainsi de suite.)
 
-* **Rayon** - Détermine le nombre de pixels entourant les pixels de contour qui affectent l’accentuation. L’effet est exécuté sur tous les pixels de l’image et s’étend dans toutes les directions. 
+* **Rayon**: détermine le nombre de pixels entourant les pixels de contour qui affectent l’accentuation. L’effet est exécuté sur tous les pixels de l’image et s’étend dans toutes les directions. 
 
 La valeur appropriée du rayon dépend de la taille de l’image. Une valeur faible n’accentue que les pixels de contour. Une valeur élevée accentue une marge de pixels plus large. 
 
 Par exemple, pour obtenir un effet d’accentuation similaire pour une image de 2 000 × 2 000 pixels et une image de 500 × 500 pixels, vous pouvez définir une valeur de rayon de deux pixels sur l’image de 2 000 × 2 000 pixels. Définissez ensuite une valeur de rayon d’un pixel sur l’image de 500 × 500 pixels (une valeur plus grande pour une image contenant plus de pixels).
 
-* **Seuil** - Détermine la plage de contraste à ignorer lorsque le filtre de masquage flou est appliqué. Cette option définit l’écart recherché entre les pixels et la zone environnante avant qu’ils ne soient considérés comme des pixels de contour et ne soient accentués. 
+* **Seuil**: détermine la plage de contraste à ignorer lorsque le filtre Accentuation est appliqué. Cette option détermine la différence entre les pixels accentués et la zone environnante avant l’accentuation des pixels de contour.
 
-Le seuil utilise une valeur comprise entre 0 et 255, qui est le nombre d’étapes de luminosité dans une image en niveaux de gris. 0 = noir, 128 = 50 % gris et 255 = blanc. Par exemple, une valeur de seuil de 12 ignore les légères variations de luminosité de la peau, afin de ne pas ajouter de bruit, tout en ajoutant un contraste sur les bords dans les zones contrastées, comme la zone où les cils rencontrent la peau. 
+Le seuil utilise une valeur comprise entre 0 et 255, qui est le nombre d’étapes de luminosité dans une image en niveaux de gris. 0 = noir, 128 = 50 % gris et 255 = blanc. Par exemple, une valeur de seuil de 12 ignore les légères variations de luminosité de la peau. Cela n’ajoute pas de bruit, tout en ajoutant un contraste sur les bords dans les zones contrastées, comme l’endroit où les cils rencontrent la peau.
 
 Par exemple, supposons que vous ayez une photo du visage de quelqu&#39;un. Le masquage flou accentue les parties de l’image les plus contrastées et la peau lisse. Même la peau la plus lisse affiche des variations subtiles de ses valeurs de luminosité. Si vous n’utilisez pas une valeur de seuil, le filtre accentue ces légères variations dans les pixels de la peau, créant ainsi un effet de bruit (probablement indésirable), tout en augmentant le contraste sur les cils, ce qui améliore la netteté (probablement souhaitable). Pour l’éviter, utilisez une valeur de seuil qui indique au filtre d’ignorer les pixels qui ne modifient pas considérablement le contraste, comme la peau lisse. Pour éviter d’introduire du bruit ou des images de postérisation avec des tons chair, par exemple, essayez d’utiliser **[!UICONTROL Seuil]** entre deux et 20. Par défaut **[!UICONTROL Seuil]** La valeur 0 accentue tous les pixels de l’image.
 
-* **Appliquer à** - Choose **[!UICONTROL Chaque couleur]** si vous souhaitez appliquer l’accentuation séparément à chaque composant de couleur, choisissez **[!UICONTROL Luminosité]** si vous souhaitez appliquer l’accentuation aux zones de luminosité de l’image.
+* **Appliquer à**: Choose **[!UICONTROL Chaque couleur]** si vous souhaitez appliquer l’accentuation séparément à chaque composant de couleur, choisissez **[!UICONTROL Luminosité]** si vous souhaitez appliquer l’accentuation aux zones de luminosité de l’image.
 
 **Rééchantillonnage**
 
 Sélectionnez la variable **[!UICONTROL Rééchantillonnage]** et choisissez une option. Les options suivantes permettent d’accentuer l’image lorsque sa résolution est réduite :
 
-* **[!UICONTROL Aucun]** - Désactive le rééchantillonnage.
+* **[!UICONTROL Aucun]**: désactive le rééchantillonnage.
 
-* **[!UICONTROL Bilinéaire]** - Méthode de rééchantillonnage la plus rapide ; certains artefacts de crénelage sont visibles.
+* **[!UICONTROL Bilinéaire]**: méthode de rééchantillonnage la plus rapide ; certains artefacts de crénelage sont visibles.
 
-* **[!UICONTROL Bicubique]** : accroît l’utilisation du processeur sur le serveur d’images, mais produit des images plus nettes avec des artefacts de crénelage plus discrets.
+* **[!UICONTROL Bicubique]**: accroît l’utilisation du processeur sur le serveur d’images, mais produit des images plus nettes avec des artefacts de crénelage plus discrets.
 
-* **[!UICONTROL `Sharpen 2`]** : produit des résultats légèrement plus nets que **[!UICONTROL Bicubique]**, mais à un coût processeur encore plus élevé sur le serveur d’images.
+* **[!UICONTROL `Sharpen 2`]**: produit des résultats légèrement plus nets que **[!UICONTROL Bicubique]**, mais à un coût processeur encore plus élevé sur le serveur d’images.
 
-* **[!UICONTROL Trilinéaire]** : utilise des résolutions plus élevées et plus basses si elles sont disponibles ; recommandé uniquement lorsque le crénelage est un problème. Elle réduit la taille du fichier JPEG en raison des données à haute fréquence réduites.
+* **[!UICONTROL Trilinéaire]**: utilise des résolutions plus élevées et plus basses si elles sont disponibles ; recommandé uniquement lorsque le crénelage est un problème. Elle réduit la taille du fichier JPEG en raison des données à haute fréquence réduites.
 
-**Accentuation et paramètres d’image prédéfinis**
+**Paramètres d’image prédéfinis et accentuation**
 
 Vous pouvez incorporer les trois effets d’accentuation pour obtenir votre résultat final. Cependant, cette méthode n’est pas recommandée. Adobe Dynamic Media Classic vous recommande d’enregistrer vos effets d’accentuation dans le cadre d’un paramètre d’image prédéfini. Les paramètres d’image prédéfinis vous permettent de regrouper les modificateurs d’image les plus souvent utilisés afin de créer une image redimensionnée dynamiquement dans une petite chaîne de texte. Un paramètre d’image prédéfini contient des valeurs pour le format de fichier (généralement JPEG pour le web), le nombre de pixels et l’accentuation de l’image. Au lieu d’ajouter l’URL à chaque modificateur d’image que vous devez utiliser pour créer un type spécifique de taille d’image, créez un paramètre d’image prédéfini nommé, tel que &quot;miniature&quot;. Ensuite, configurez le paramètre prédéfini d’image miniature avec la taille, le format de fichier et les options d’accentuation appropriés. Appelez l’image à l’aide du nom du paramètre d’image prédéfini. Les paramètres d’image prédéfinis raccourcissent la longueur de l’URL globale. Ces deux URL produisent la même image de JPEG 350x350 avec accentuation :
 
@@ -110,21 +110,21 @@ Vous pouvez incorporer les trois effets d’accentuation pour obtenir votre rés
 
 Les paramètres d’image prédéfinis peuvent être modifiés et mis à jour à tout moment. Vous voyez les résultats d’une modification d’un paramètre d’image prédéfini après la publication et une fois que le cache de l’URL est effacé.
 
-Si vous utilisez un paramètre prédéfini pour chaque image dans une catégorie de taille, tout administrateur d’entreprise peut mettre à jour ce paramètre d’image prédéfini, republier et affecter toutes les images qui utilisent ce format, sans aucune modification du code du site Web. En règle générale, utilisez un paramètre d’image prédéfini par taille unique sur votre site. Pour ajouter un paramètre d’image prédéfini, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres de l’application]** > **[!UICONTROL Paramètres d’image prédéfinis]**. Sélectionnez **[!UICONTROL Ajouter]** ou sélectionnez **[!UICONTROL Modifier]** pour modifier un paramètre prédéfini existant. Le seul champ obligatoire est le nom du paramètre prédéfini lui-même. Cependant, il est préférable d’inclure un certain niveau d’accentuation dans chaque paramètre prédéfini.
+Si vous utilisez un paramètre prédéfini pour chaque image d’une catégorie de taille, tout administrateur d’entreprise peut mettre à jour la définition de ce paramètre d’image prédéfini. Ils peuvent ensuite republier et affecter chaque image utilisant ce format. Tout cela sans modifier aucun code Web. En règle générale, utilisez un paramètre d’image prédéfini par taille unique sur votre site. Pour ajouter un paramètre d’image prédéfini, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres de l’application]** > **[!UICONTROL Paramètres d’image prédéfinis]**. Sélectionnez **[!UICONTROL Ajouter]** ou sélectionnez **[!UICONTROL Modifier]** pour modifier un paramètre prédéfini existant. Le seul champ obligatoire est le nom du paramètre prédéfini lui-même. Cependant, il est préférable d’inclure un certain niveau d’accentuation dans chaque paramètre prédéfini.
 
 **Qualité du JPG**
 
 Les options de qualité JPG contrôlent le niveau de compression JPG :
 
-* **Qualité du JPG** - Sélectionnez cette option si vous souhaitez contrôler les niveaux de compression et le sous-échantillonnage de chrominance.
+* **Qualité du JPG**: sélectionnez cette option si vous souhaitez contrôler les niveaux de compression et le sous-échantillonnage de chrominance.
 
-* **Curseur** - Détermine le niveau de compression du JPG. Ce paramètre affecte à la fois la taille du fichier et la qualité de l’image. L’échelle de la qualité JPG s’étend de 1 à 100.
+* **Curseur**: détermine le niveau de compression du JPG. Ce paramètre affecte à la fois la taille du fichier et la qualité de l’image. L’échelle de la qualité JPG s’étend de 1 à 100.
 
-* **Activer le sous-échantillonnage de la chrominance JPG** - Comme l’oeil est moins sensible aux informations colorimétriques à haute fréquence qu’à la luminance à haute fréquence, les images JPEG divisent les informations d’image en composantes de luminance et de couleur. Lorsqu’une image JPEG est compressée, la composante de luminance conserve sa pleine résolution, tandis que les composantes de couleur sont sous-échantillonnées par interpolation, c’est-à-dire le calcul de la moyenne de groupes de pixels. Le sous-échantillonnage réduit le volume des données d’un demi-tiers ou d’un tiers, sans pratiquement avoir d’incidence sur la qualité perçue. La réduction de résolution ne s’applique pas aux images en niveaux de gris. Cette technique réduit le niveau de compression nécessaire pour les images présentant un contraste élevé (par exemple, les images contenant du texte superposé).
+* **Activer le sous-échantillonnage de la chrominance JPG**: comme l’oeil est moins sensible aux informations de couleur à haute fréquence qu’à la luminance à haute fréquence, les images JPEG divisent les informations d’image en composantes de luminance et de couleur. Lorsqu’une image JPEG est compressée, la composante de luminance conserve sa pleine résolution, tandis que les composantes de couleur sont sous-échantillonnées par interpolation, c’est-à-dire le calcul de la moyenne de groupes de pixels. Le sous-échantillonnage réduit le volume des données d’un demi-tiers ou d’un tiers, sans pratiquement avoir d’incidence sur la qualité perçue. La réduction de résolution ne s’applique pas aux images en niveaux de gris. Cette technique réduit le niveau de compression nécessaire pour les images présentant un contraste élevé (par exemple, les images contenant du texte superposé).
 
 **Définition des options d’accentuation à l’échelle de l’entreprise**
 
-Si vous n’avez pas utilisé de paramètre d’image prédéfini ou transmis des protocoles d’accentuation spécifiques au serveur d’images le long de la chaîne URL, votre image n’est pas accentuée lorsqu’elle est sous-échantillonnée. Cependant, si cette absence d’accentuation se produit, vous pouvez définir des valeurs d’accentuation par défaut afin de vous assurer que toute image présente toujours une certaine accentuation.
+Si vous n’avez pas utilisé de paramètre d’image prédéfini ou si vous avez transmis des protocoles d’accentuation spécifiques au serveur d’images le long de la chaîne URL, aucune accentuation de l’image ne se produit lorsque la résolution est réduite. Cependant, si cette absence d’accentuation se produit, vous pouvez définir des valeurs d’accentuation par défaut afin de vous assurer que toute image présente toujours une certaine accentuation.
 
 Pour définir les options d’accentuation par défaut de votre entreprise, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]** > **[!UICONTROL Serveur d’images]**. Si vous définissez le mode Rééchantillonnage par défaut sur **`Sharp2`**, l’image est toujours accentuée lors du sous-échantillonnage.
 
@@ -136,7 +136,7 @@ Les paramètres prédéfinis de la visionneuse (tels que les paramètres d’ima
 
 Voir [Paramètres prédéfinis de la visionneuse](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) vidéo de formation.
 
-Les options des modificateurs se trouvent dans la section des paramètres principaux de tous les paramètres prédéfinis de visionneuse de zoom personnalisés, du catalogue électronique et de rotation. En ajoutant les commandes d’accentuation de l’URL à la boîte de dialogue des modificateurs, vous ajoutez l’accentuation chaque fois que cette visionneuse est appelée avec ce paramètre prédéfini de visionneuse.
+Les options des modificateurs se trouvent dans la section des paramètres principaux de tous les paramètres prédéfinis de visionneuse de zoom personnalisés, du catalogue électronique et de rotation. En ajoutant les commandes d’accentuation d’URL à la zone Modificateurs, vous ajoutez une accentuation chaque fois que cette visionneuse est appelée avec ce paramètre prédéfini de visionneuse.
 
 Pour appeler le paramètre prédéfini de la visionneuse, utilisez la méthode `config=` sur l’URL de la visionneuse. Voici un exemple d’appel d’une visionneuse d’images (chaussures) avec un paramètre prédéfini de visionneuse (`FantasticoZoom2022`) :
 
@@ -148,4 +148,4 @@ Dans ce cas, les paramètres prédéfinis renforcent et modifient l’habillage 
 
 La dernière méthode d’accentuation, et la moins recommandée, consiste à créer des valeurs de remplacement d’accentuation pour chaque image. Cette méthode remplace l’accentuation dans un paramètre d’image prédéfini par ses propres valeurs spécifiques. Cependant, cette méthode remplace également toutes les autres méthodes d’accentuation à n’importe quelle taille. Le meilleur scénario d’utilisation de cette méthode se présente dans le cas où certaines images ne sont pas haute résolution et que les valeurs dans les paramètres d’image prédéfinis sont trop élevées pour ces petites images. Dans ce cas, une certaine accentuation de l’image est peut-être nécessaire.
 
-Dans Adobe Dynamic Media Classic, sélectionnez une image, accédez à la vue Détails (en double-cliquant ou en appuyant sur **[!UICONTROL Affichage des détails]** ), puis sélectionnez **[!UICONTROL Accentuer]**. Modifiez n’importe quel paramètre, puis sélectionnez **[!UICONTROL Enregistrer]**. Ce processus demande au serveur d’images d’utiliser ces paramètres d’accentuation plutôt que toute commande appelée dans l’URL, comme un modificateur d’accentuation ou un paramètre d’image prédéfini. Veillez à publier pour que les modifications prennent effet.
+Dans Adobe Dynamic Media Classic, sélectionnez une image, accédez à la vue Détails (en double-cliquant ou en appuyant sur la commande **[!UICONTROL Affichage des détails]** ), puis sélectionnez **[!UICONTROL Accentuer]**. Modifiez n’importe quel paramètre, puis sélectionnez **[!UICONTROL Enregistrer]**. Ce processus demande au serveur d’images d’utiliser ces paramètres d’accentuation plutôt que toute commande appelée dans l’URL, comme un modificateur d’accentuation ou un paramètre d’image prédéfini. Veillez à publier pour que les modifications prennent effet.

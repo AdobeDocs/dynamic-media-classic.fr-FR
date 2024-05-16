@@ -10,10 +10,10 @@ role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 32%
+ht-degree: 27%
 
 ---
 
@@ -32,7 +32,7 @@ Le pourcentage de zoom maximal des cibles de zoom est de 100 %. Le taux de zoom 
 | Grande | Plus petite | Taux minimal plus petit |
 | Petite | Plus grande | Taux minimal plus grand |
 
-Vous pouvez ajuster la taille de la visionneuse de zoom à celle utilisée sur votre page Web. Vous pouvez modifier ce paramètre de manière permanente en modifiant la taille de la visionneuse dans l’écran Configuration (si vous êtes administrateur). Voir [Configuration des paramètres prédéfinis de la visionneuse de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Vous pouvez modifier la taille de la visionneuse de zoom pour qu’elle corresponde à celle utilisée sur votre page Web. Vous pouvez modifier ce paramètre de manière permanente en modifiant la taille de la visionneuse dans l’écran Configuration (si vous êtes administrateur). Voir [Configuration des paramètres prédéfinis de la visionneuse de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## Création et modification de cibles de zoom {#creating-and-editing-zoom-targets}
 
@@ -53,9 +53,9 @@ Pour créer une cible de zoom, ouvrez la page Éditeur de cible de zoom et proc�
 
 1. Pick **[!UICONTROL Sélectionner la cible]** (flèche), puis sélectionnez la cible de zoom que vous avez créée et ajustez la taille et la position de la cible.
 
-   * **Redimensionner** - Déplacez le pointeur sur un coin de la cible de zoom et faites-le glisser pour agrandir ou réduire la cible.
+   * **Redimensionner**: déplacez le pointeur sur un coin de la cible de zoom et faites-le glisser pour agrandir ou réduire la cible.
 
-   * **Position** - Déplacez le pointeur sur la cible de zoom et faites-la glisser vers un autre emplacement.
+   * **Position**: déplacez le pointeur sur la cible de zoom et faites-la glisser vers un autre emplacement.
 
 1. Indiquez le nom de la cible de zoom dans le champ Nom. 
 
@@ -63,7 +63,7 @@ Pour créer une cible de zoom, ouvrez la page Éditeur de cible de zoom et proc�
    >
    >les informations que vous indiquez dans la zone Nom sont bien plus que cela. Lorsque les utilisateurs déplacent le pointeur sur la cible de zoom, ils voient ces informations. Entrez donc, dans cette zone Nom, une brève description de la cible de zoom pour que les utilisateurs sachent sur quoi ils peuvent zoomer.
 
-1. (Facultatif) Saisissez des données utilisateur dans le champ Données utilisateur. Ce champ, destiné aux concepteurs Web, permet d’ajouter des informations à la cible de zoom.
+1. (Facultatif) Saisissez des données utilisateur dans le champ Données utilisateur. Ce champ est destiné aux concepteurs de sites Web qui souhaitent ajouter des informations à la cible de zoom.
 1. Sélectionner **[!UICONTROL Enregistrer]**.
 
    Les coordonnées et le niveau de zoom de la cible de zoom sont enregistrés. Une miniature de votre cible de zoom, avec le nom que vous avez indiqué, apparaît dans le panneau situé sur la droite de l’écran.
@@ -76,13 +76,13 @@ Pour créer une cible de zoom, ouvrez la page Éditeur de cible de zoom et proc�
 
 Pour modifier les cibles de zoom, utilisez les techniques suivantes sur la page Éditeur de cible de zoom :
 
-* **Repositionnement** - Avec le bouton Sélectionner la cible (la flèche), sélectionnez la cible. Ensuite, faites glisser la cible vers un autre emplacement.
+* **Repositionnement**: à l’aide du bouton Sélectionner la cible (la flèche), sélectionnez la cible. Ensuite, faites glisser la cible vers un autre emplacement.
 
-* **Redimensionner** - Avec le bouton Sélectionner la cible (la flèche), sélectionnez la cible. Pour agrandir ou réduire la cible, déplacez le pointeur sur un coin de la cible de zoom et faites-le glisser.
+* **Redimensionner**: à l’aide du bouton Sélectionner la cible (la flèche), sélectionnez la cible. Pour agrandir ou réduire la cible, déplacez le pointeur sur un coin de la cible de zoom et faites-le glisser.
 
-* **Supprimer** - Sélectionnez la miniature de la cible sur le côté droit de l’écran. Sélectionnez **[!UICONTROL Supprimer la cible]**.
+* **Supprimer**: sélectionnez la miniature de la cible sur le côté droit de l’écran. Sélectionnez **[!UICONTROL Supprimer la cible]**.
 
-* **Renommer** - Sélectionnez la miniature de la cible sur le côté droit de l’écran. Saisissez ensuite un nom dans le champ **[!UICONTROL Nom]** Champ de texte et sélectionnez **[!UICONTROL Enregistrer]**.
+* **Renommer**: sélectionnez la miniature de la cible sur le côté droit de l’écran. Saisissez ensuite un nom dans le champ **[!UICONTROL Nom]** Champ de texte et sélectionnez **[!UICONTROL Enregistrer]**.
 
 ### Copier les cibles de zoom {#copying-zoom-targets}
 

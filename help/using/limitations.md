@@ -1,6 +1,6 @@
 ---
 title: Limites de Dynamic Media
-description: "Découvrez les bonnes pratiques et les limites appliquées lorsque vous créez une visionneuse d’images ou à 360° ou chargez un PDF. Découvrez également les combinaisons de navigateur web et de système d’exploitation non prises en charge pour Dynamic Media."
+description: "Découvrez les bonnes pratiques et les limites appliquées lorsque vous créez une visionneuse d’images ou à 360° ou chargez un PDF. Découvrez également les combinaisons de navigateur Web et de système d’exploitation non prises en charge pour Dynamic Media."
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,7 +10,7 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 1%
@@ -30,13 +30,13 @@ Cette rubrique comprend les sections suivantes :
 
 Lorsque vous créez une visionneuse à 360° ou une visionneuse d’images, ou que vous chargez des PDF pour l’extraction de page, Adobe recommande les bonnes pratiques suivantes et applique les limites suivantes :
 
-| Ressource - Type de limite | Pratique recommandée | Limite imposée |
+| Ressource : type de limite | Pratique recommandée | Limite imposée |
 | --- | --- | --- |
-| **Image** - Nombre de recadrages intelligents par image | 5 | 100 |
-| **Tous les ensembles** - Nombre de ressources en double par ensemble | Aucun doublon | 20 |
-| **Tous les ensembles** - Nombre maximal de ressources par ensemble | 5 à 10 images par visionneuse | 1 000 |
-| **Visionneuse à 360°** - Nombre maximal de lignes/colonnes par jeu 2D | 12 à 18 images par visionneuse | 1 000 |
-| **PDF** - Nombre maximal de pages qu’un PDF doit prendre en compte pour l’extraction |  | 100 (pour tous les PDF) |
+| **Image**: nombre de recadrages intelligents par image | 5 | 100 |
+| **Tous les ensembles**: nombre de ressources en double par ensemble | Aucun doublon | 20 |
+| **Tous les ensembles**: nombre maximal de ressources par ensemble | 5 à 10 images par visionneuse | 1 000 |
+| **Visionneuse à 360°**: nombre maximal de lignes/colonnes par jeu 2D | 12 à 18 images par visionneuse | 1 000 |
+| **PDF**: nombre maximal de pages qu’un PDF doit prendre en compte pour l’extraction |  | 100 (pour tous les PDF) |
 
 ‡ La bonne pratique consiste à ne pas avoir de ressources en double dans un ensemble. La limite est de 20 doublons pour une seule ressource. Si vous ajoutez un autre doublon pour cette ressource (dans cet ensemble), la requête renvoie une erreur ou ignore le doublon.
 
@@ -46,7 +46,7 @@ Lorsque vous créez une visionneuse à 360° ou une visionneuse d’images, ou q
 
 <!-- CQDOC-19433 -->
 
-Adobe Dynamic Media ne prend pas en charge les combinaisons de navigateur web et de système d’exploitation suivantes.
+Adobe Dynamic Media ne prend pas en charge les combinaisons de navigateur Web et de système d’exploitation suivantes.
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1

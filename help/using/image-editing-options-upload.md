@@ -10,10 +10,10 @@ role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1200'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -34,17 +34,17 @@ Ces options se trouvent sur la page Télécharger sous le **[!UICONTROL Options 
 
 Vous pouvez recadrer automatiquement les pixels d’espace blanc d’une image. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Options de recadrage]**. Dans le **[!UICONTROL Recadrer]** liste déroulante, choisissez **[!UICONTROL Rogner]**. Ensuite, choisissez les options suivantes :
 
-* **[!UICONTROL Rogner en fonction de]** - Dans cette liste déroulante, choisissez de recadrer en fonction de la couleur ou de la transparence :
+* **[!UICONTROL Rogner en fonction de]**: dans cette liste déroulante, choisissez de recadrer en fonction de la couleur ou de la transparence :
 
-   * **[!UICONTROL Couleur]** - Sélectionnez la variable **[!UICONTROL Couleur]** . Ensuite, à partir du **[!UICONTROL Coin]** , sélectionnez l’angle de l’image avec la couleur qui représente le mieux l’espace blanc à recadrer.
+   * **[!UICONTROL Couleur]**: sélectionnez la variable **[!UICONTROL Couleur]** . Ensuite, à partir du **[!UICONTROL Coin]** , sélectionnez l’angle de l’image avec la couleur qui représente le mieux l’espace blanc à recadrer.
 
-   * **[!UICONTROL Transparence]** - Sélectionnez l’option Transparence .
+   * **[!UICONTROL Transparence]**: sélectionnez l’option Transparence .
 
-* **[!UICONTROL Tolérance]** - Faites glisser le curseur pour spécifier une tolérance comprise entre 0 et 1 :
+* **[!UICONTROL Tolérance]**: faites glisser le curseur pour spécifier une tolérance comprise entre 0 et 1 :
 
-   * **Rognage en fonction de la couleur** - Indiquez 0 pour rogner uniquement les pixels qui correspondent exactement à la couleur sélectionnée dans le coin de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs.
+   * **Rognage en fonction de la couleur**: indiquez 0 pour rogner les pixels uniquement s’ils correspondent exactement à la couleur sélectionnée dans le coin de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs.
 
-   * **Rognage en fonction de la transparence** - Indiquez 0 pour rogner les pixels seulement s’ils sont transparents ; les nombres plus proches de 1 permettent une plus grande transparence.
+   * **Rognage en fonction de la transparence**: indiquez 0 pour rogner les pixels uniquement s’ils sont transparents ; les nombres plus proches de 1 permettent une plus grande transparence.
 
 ## Recadrage manuel à partir des côtés des images
 
@@ -54,11 +54,11 @@ Pour recadrer manuellement une image par ses côtés, sélectionnez le menu Rec
 
 Pour sélectionner un espace colorimétrique pour l’image, choisissez l’option Profil de couleurs :
 
-* **[!UICONTROL Convertir en sRVB]** - Convertit en sRVB (Standard Red Green Blue). sRVB est l’espace colorimétrique recommandé pour l’affichage d’images sur les pages Web.
+* **[!UICONTROL Convertir en sRVB]**: convertit en sRVB (rouge vert bleu standard). sRVB est l’espace colorimétrique recommandé pour l’affichage des images sur les pages Web.
 
-* **[!UICONTROL Conserver l’espace colorimétrique original]** - Conserve l’espace colorimétrique d’origine.
+* **[!UICONTROL Conserver l’espace colorimétrique original]**: conserve l’espace colorimétrique d’origine.
 
-* **[!UICONTROL Personnalisé depuis]** > **[!UICONTROL À]** - Ouvre les menus pour vous permettre de choisir un espace colorimétrique Convertir à partir de et Convertir en . Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez chargé dans Adobe Dynamic Media Classic.
+* **[!UICONTROL Personnalisé depuis]** > **[!UICONTROL À]**: ouvre les menus pour vous permettre de choisir un espace colorimétrique Convertir à partir de et Convertir en . Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez chargé dans Adobe Dynamic Media Classic.
 
 (voir [Profils ICC](icc-profiles.md#icc_profiles)).
 
@@ -93,7 +93,7 @@ Utilisez l’option Masquer l’arrière-plan pour supprimer automatiquement l�
 | --- | --- |
 | Masquer l’arrière-plan | Sélectionnez cette option pour activer la fonction et les options Masquer l’arrière-plan. |
 | Coin | Obligatoire.<br>Coin de l’image utilisé pour définir la couleur d’arrière-plan à masquer.<br>Vous pouvez choisir parmi <b>Supérieur gauche, Bas gauche, Supérieur droit ou Bas droit</b>. |
-| Méthode de remplissage | Obligatoire. <br>Contrôle la transparence des pixels à partir de l’emplacement du coin que vous définissez.<br>Vous pouvez choisir parmi les méthodes de remplissage suivantes :<br>・ <b>Remplir Flood</b> - rend transparents tous les pixels qui correspondent au coin que vous avez spécifié et auxquels vous êtes connecté.<br>・ <b>Correspondance de pixel</b> : rend transparents tous les pixels correspondants, quel que soit leur emplacement sur l’image. |
+| Méthode de remplissage | Obligatoire. <br>Contrôle la transparence des pixels à partir de l’emplacement du coin que vous définissez.<br>Vous pouvez choisir parmi les méthodes de remplissage suivantes :<br>・ <b>Remplir Flood</b>: rend transparents tous les pixels qui correspondent au coin que vous avez spécifié et auxquels vous êtes connecté.<br>・ <b>Correspondance de pixel</b>: rend transparents tous les pixels correspondants, quel que soit leur emplacement sur l’image. |
 | Tolérance | Facultatif.<br>Contrôle la quantité de variation autorisée dans la correspondance des couleurs des pixels en fonction de l’emplacement du coin que vous avez défini.<br>Utilisez une valeur de 0,0 pour faire correspondre exactement les couleurs des pixels. Vous pouvez également utiliser une valeur de 1,0 pour permettre la plus grande variation. |
 
 >[!MORELIKETHIS]

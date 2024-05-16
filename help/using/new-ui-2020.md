@@ -9,14 +9,14 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
 
 ---
 
-# Application de bureau Adobe Dynamic Media Classic - Maintenant disponible {#new-ui-2020}
+# Application de bureau Adobe Dynamic Media Classic : désormais disponible {#new-ui-2020}
 
 Voir [Application de bureau Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md) pour examiner la configuration système requise, téléchargez et installez la nouvelle application, puis connectez-vous.
 
@@ -27,7 +27,7 @@ Les utilisateurs d’Adobe Dynamic Media Classic ont désormais accès à une no
 ## Questions fréquentes
 
 +++**_Lorsque les navigateurs cesseront de prendre en charge le Flash des Adobes le 31 décembre 2020, cela aura-t-il un impact sur Adobe Dynamic Media Classic (anciennement Scene7) ?_**
-Adobe Flash Player était un module externe de navigateur Web qui permettait aux navigateurs Web d’utiliser le contenu développé sur Adobe Flash Platform. Interface utilisateur web d’Adobe Dynamic Media Classic (actuellement étiquetée) [!DNL Scene7 Publishing System] ou [!DNL SPS] dans le produit) nécessitait le Flash Player d’Adobe. Lorsque le Flash Adobe sera abandonné le 31 décembre 2020, les clients Adobe Dynamic Media Classic ne pourront plus se connecter à l’interface utilisateur web. En raison de cette modification, Adobe a fourni aux clients une appli de bureau qui remplace l’expérience du navigateur.
+Adobe Flash Player était un module externe de navigateur Web qui permettait aux navigateurs Web d’utiliser le contenu développé sur Adobe Flash Platform. Interface utilisateur Web d’Adobe Dynamic Media Classic (actuellement étiquetée) [!DNL Scene7 Publishing System] ou [!DNL SPS] dans le produit) nécessitait le Flash Player d’Adobe. Lorsque le Flash Adobe sera abandonné le 31 décembre 2020, les clients Adobe Dynamic Media Classic ne pourront plus se connecter à l’interface utilisateur Web. En raison de cette modification, Adobe a fourni aux clients une appli de bureau qui remplace l’expérience du navigateur.
 +++
 
 +++**_Comment accéder à la nouvelle appli de bureau ?_**
@@ -110,4 +110,4 @@ Pour en savoir plus sur les avantages de la mise à niveau vers la nouvelle gén
 >* [Connexion à et déconnexion de l’application de bureau Adobe Dynamic Media Classic](/help/using/signing-out.md)
 >* [Téléchargement et installation de l’appli de bureau Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md)
 
-<!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
+<!-- SAVE: OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->

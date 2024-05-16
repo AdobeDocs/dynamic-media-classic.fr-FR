@@ -10,7 +10,7 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 24%
@@ -33,25 +33,25 @@ Sélectionner **[!UICONTROL Tâches]** dans la barre de navigation globale afin 
 
 Sur l’onglet Historique de la page Tâches, les tâches sont répertoriées selon les catégories suivantes :
 
-* **[!UICONTROL Type de tâche]** - Une icône indique le type de tâche : Télécharger et Publier sont les types de tâche les plus courants.
+* **[!UICONTROL Type de tâche]**: une icône indique le type de tâche : Télécharger et Publier sont les types de tâche les plus courants.
 
-* **[!UICONTROL Job Name]** - Nom de la tâche. Le nom comprend la partie du nom saisie par l’utilisateur, ainsi que la date et l’heure.
+* **[!UICONTROL Job Name]**: nom de la tâche. Le nom comprend la partie du nom saisie par l’utilisateur, ainsi que la date et l’heure.
 
-* **[!UICONTROL Démarré]** - Lorsque la tâche a commencé.
+* **[!UICONTROL Démarré]**: date de début de la tâche.
 
-* **[!UICONTROL Total]** - Nombre de fichiers transférés.
+* **[!UICONTROL Total]**: nombre de fichiers transférés.
 
-* **[!UICONTROL W (warnings)]** - Nombre d’avertissements dans la tâche (le cas échéant). Les avertissements indiquent des problèmes associés à la tâche qui sont sans effet sur son exécution globale. Ces avertissements peuvent généralement être ignorés parce qu’ils sont signalés dans des fichiers masqués. Par exemple : `.DS_store` Les fichiers (Mac) et les fichiers Thumbs.db (Windows®) contiennent des informations sur l’affichage des fichiers image aux utilisateurs. Les entrées d’avertissement concernant ces fichiers peuvent toutefois être ignorées, car elles ne concernent pas la manière dont ces fichiers sont utilisés dans Adobe Dynamic Media Classic. Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les avertissements la concernant.
+* **[!UICONTROL W (warnings)]**: nombre d’avertissements dans la tâche (le cas échéant). Les avertissements indiquent des problèmes associés à la tâche qui sont sans effet sur son exécution globale. Ces avertissements peuvent généralement être ignorés parce qu’ils sont signalés dans des fichiers masqués. Par exemple : `.DS_store` Les fichiers (Mac) et les fichiers Thumbs.db (Windows®) contiennent des informations sur l’affichage des fichiers image aux utilisateurs. Les entrées d’avertissement concernant ces fichiers peuvent toutefois être ignorées, car elles ne concernent pas la manière dont ces fichiers sont utilisés dans Adobe Dynamic Media Classic. Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les avertissements la concernant.
 
-* **[!UICONTROL E (Erreurs)]** - Répertorie le nombre d’erreurs dans la tâche (le cas échéant). Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les erreurs la concernant.
+* **[!UICONTROL E (Erreurs)]**: répertorie le nombre d’erreurs dans la tâche (le cas échéant). Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les erreurs la concernant.
 
-* **[!UICONTROL Durée]** - Le temps nécessaire pour terminer le travail.
+* **[!UICONTROL Durée]**: temps nécessaire pour terminer la tâche.
 
-* **[!UICONTROL État]** - Affiche l’état de la tâche.
+* **[!UICONTROL État]**: affiche l’état de la tâche.
 
-* **[!UICONTROL Destination]** - Pour les tâches de chargement, le nom de l’entreprise et le dossier dans lequel les fichiers ont été chargés. Cette catégorie ne s’applique pas aux traitements de publication.
+* **[!UICONTROL Destination]**: pour les tâches de chargement, le nom de l’entreprise et le dossier dans lequel les fichiers ont été chargés. Cette catégorie ne s’applique pas aux traitements de publication.
 
-* **[!UICONTROL Envoyé par]** - Répertorie les personnes qui ont chargé les ressources.
+* **[!UICONTROL Envoyé par]**: répertorie les personnes qui ont chargé les ressources.
 
 >[!NOTE]
 >
@@ -61,13 +61,13 @@ Sur l’onglet Historique de la page Tâches, les tâches sont répertoriées se
 
 Pour trier des tâches ou modifier votre affichage sur l’onglet Historique de la page Tâches, appliquez les techniques suivantes :
 
-* **[!UICONTROL Tri]** - Sélectionnez un nom de colonne pour trier la liste selon une colonne particulière. Vous pouvez sélectionner le bouton bascule près du nom de la colonne pour trier les entrées par ordre croissant ou décroissant.
+* **[!UICONTROL Tri]**: sélectionnez un nom de colonne pour trier la liste selon une colonne particulière. Vous pouvez sélectionner le bouton bascule près du nom de la colonne pour trier les entrées par ordre croissant ou décroissant.
 
-* **[!UICONTROL Période]** - Sélectionnez la variable **[!UICONTROL Période]** et choisissez une option pour limiter la liste des tâches à la date actuelle, à la semaine précédente ou au mois précédent. Sélectionner **[!UICONTROL Période personnalisée]**, puis saisissez une période spécifique.
+* **[!UICONTROL Période]**: sélectionnez la variable **[!UICONTROL Période]** et choisissez une option pour limiter la liste des tâches à la date actuelle, à la semaine précédente ou au mois précédent. Sélectionner **[!UICONTROL Période personnalisée]**, puis saisissez une période spécifique.
 
-* **[!UICONTROL Type de tâche]** - Sélectionnez la variable **[!UICONTROL Type de tâche]** et choisissez **[!UICONTROL Publier]** ou **[!UICONTROL Télécharger]** pour limiter la liste aux tâches de publication ou aux tâches de chargement. Sélectionner **[!UICONTROL Tous]** pour afficher les deux types de tâches.
+* **[!UICONTROL Type de tâche]**: sélectionnez la variable **[!UICONTROL Type de tâche]** et choisissez **[!UICONTROL Publier]** ou **[!UICONTROL Télécharger]** pour limiter la liste aux tâches de publication ou aux tâches de chargement. Sélectionner **[!UICONTROL Tous]** pour afficher les deux types de tâches.
 
-* **[!UICONTROL Afficher]** - Accédez à **[!UICONTROL Afficher]** > **[!UICONTROL Mes tâches]** ou **[!UICONTROL Afficher]** > **[!UICONTROL Toutes les tâches]** pour restreindre la liste aux tâches commandées ou aux tâches commandées par des personnes de votre entreprise.
+* **[!UICONTROL Afficher]**: accédez à **[!UICONTROL Afficher]** > **[!UICONTROL Mes tâches]** ou **[!UICONTROL Afficher]** > **[!UICONTROL Toutes les tâches]** pour restreindre la liste aux tâches commandées ou aux tâches commandées par des personnes de votre entreprise.
 
 ## Afficher, copier ou imprimer un rapport Détails de la tâche {#viewing-copying-or-printing-a-job-details-report}
 
@@ -93,13 +93,13 @@ Sélectionnez le bouton Tâches dans la barre de navigation globale, puis, sur l
 
 Sélectionnez une tâche récurrente sur la page Tâches et suivez ces instructions si vous souhaitez la modifier ou la supprimer :
 
-* **Modifier une tâche récurrente** - Sélectionnez la variable **[!UICONTROL Modifier]** et saisissez les informations de planification dans la boîte de dialogue Modifier la tâche planifiée . Si vous souhaitez que la tâche se répète à l’intervalle de votre choix, accédez à **[!UICONTROL Répéter]** > **[!UICONTROL Personnalisé]**.
+* **Modifier une tâche récurrente**: sélectionnez la variable **[!UICONTROL Modifier]** et saisissez les informations de planification dans la boîte de dialogue Modifier la tâche planifiée . Si vous souhaitez que la tâche se répète à l’intervalle de votre choix, accédez à **[!UICONTROL Répéter]** > **[!UICONTROL Personnalisé]**.
 
 Voir [Création d’un intervalle de temps de tâche de téléchargement ou de publication personnalisé](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
-* **Suppression d’une tâche récurrente** - Sélectionnez la variable **[!UICONTROL Supprimer]** bouton .
+* **Suppression d’une tâche récurrente**: sélectionnez la variable **[!UICONTROL Supprimer]** bouton .
 
-* **Suspension (et reprise) d’une tâche récurrente** - Dans la colonne Actif, désélectionnez une case à cocher pour suspendre une tâche ; cochez une case pour reprendre une tâche en pause.
+* **Suspension (et reprise) d’une tâche récurrente**: dans la colonne Actif, désélectionnez une case à cocher pour suspendre une tâche ; cochez une case pour reprendre une tâche en pause.
 
 ### Création d’un intervalle de temps de tâche de téléchargement ou de publication personnalisé {#creating-a-custom-upload-or-publish-job-time-interval}
 
@@ -117,13 +117,13 @@ Ce tableau indique les incréments temporels, leurs valeurs autorisées et les c
 
 | Incréments temporels | Valeurs autorisées | Commentaires | Caractères génériques pris en charge |
 |--- |--- |--- |--- |
-| Secondes | 0-59 |  | `, - * /` |
-| Minutes | 0-59 |  | `, - * /` |
-| Heures | 0-23 | Notez l’utilisation d’une horloge à cycle de 24 heures. | `, - * /` |
-| Jour du mois | 1-31 | Vous ne pouvez pas spécifier de valeur numérique pour &quot;jour du mois&quot; et &quot;jour de la semaine&quot;. L’un de ces champs doit utiliser une `?` caractère générique. | `, - * / ? L C` |
-| Mois | 1-12 ou jan, fév, mar, avr, mai, jun, jul, aoû, sep, oct, nov, déc | Les valeurs sont sensibles à la casse. | `, - * /` |
-| Jour de la semaine | Lun, Mar, Mer, Jeu, Ven, Sam, Dim | Les valeurs sont sensibles à la casse. Vous ne pouvez pas spécifier de valeur numérique pour &quot;jour du mois&quot; et &quot;jour de la semaine&quot;. L’un de ces champs doit utiliser une `?` caractère générique. | `, - * / ? L C #` |
-| Année (facultatif) | Vide ou 1970-2099 |  | `, - * /` |
+| Secondes | 0-59 |  | `,: * /` |
+| Minutes | 0-59 |  | `,: * /` |
+| Heures | 0-23 | Notez l’utilisation d’une horloge à cycle de 24 heures. | `,: * /` |
+| Jour du mois | 1-31 | Vous ne pouvez pas spécifier de valeur numérique pour &quot;jour du mois&quot; et &quot;jour de la semaine&quot;. L’un de ces champs doit utiliser une `?` caractère générique. | `,: * / ? L C` |
+| Mois | 1-12 ou jan, fév, mar, avr, mai, jun, jul, aoû, sep, oct, nov, déc | Les valeurs sont sensibles à la casse. | `,: * /` |
+| Jour de la semaine | Lun, Mar, Mer, Jeu, Ven, Sam, Dim | Les valeurs sont sensibles à la casse. Vous ne pouvez pas spécifier de valeur numérique pour &quot;jour du mois&quot; et &quot;jour de la semaine&quot;. L’un de ces champs doit utiliser une `?` caractère générique. | `,: * / ? L C #` |
+| Année (facultatif) | Vide ou 1970-2099 |  | `,: * /` |
 
 
 Ce tableau indique les caractères génériques qui sont autorisés dans la zone Règle et explique comment les utiliser :

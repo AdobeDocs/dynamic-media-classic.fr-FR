@@ -9,7 +9,7 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 25%
@@ -29,9 +29,9 @@ Pour créer un paramètre prédéfini de visionneuse de catalogue électronique 
 1. Dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 1. Dans l’écran Paramètres prédéfinis de la visionneuse, créez un paramètre prédéfini de visionneuse de catalogues électroniques en partant de zéro ou d’un paramètre prédéfini existant :
 
-   * **Création d’un paramètre prédéfini de visionneuse de catalogue électronique** - Sélectionner **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plateforme, choisissez Visionneuse de catalogue électronique, puis sélectionnez **[!UICONTROL Ajouter]**.
+   * **Création d’un paramètre prédéfini de visionneuse de catalogue électronique**: sélectionnez **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plateforme, choisissez Visionneuse de catalogue électronique, puis sélectionnez **[!UICONTROL Ajouter]**.
 
-   * **Modification d’un paramètre prédéfini de visionneuse de catalogue électronique** - Sélectionnez un paramètre prédéfini de visionneuse de catalogue électronique, puis cliquez sur **[!UICONTROL Modifier]**. Sélectionner **[!UICONTROL Enregistrer sous]** une fois le paramètre prédéfini créé.
+   * **Modification d’un paramètre prédéfini de visionneuse de catalogue électronique**: sélectionnez un paramètre prédéfini de visionneuse de catalogue électronique, puis sélectionnez **[!UICONTROL Modifier]**. Sélectionner **[!UICONTROL Enregistrer sous]** une fois le paramètre prédéfini créé.
 
 1. Sur le `Configure Viewer` , saisissez un nom pour votre paramètre prédéfini de visionneuse de catalogue électronique.
 1. Sur le `Configure Viewer` , définissez les options de votre choix.
@@ -55,7 +55,7 @@ Pour créer un paramètre prédéfini de visionneuse de catalogue électronique 
 >Pour utiliser ce modèle de réponse au lieu du modèle défini dans le catalogue électronique, ajoutez `fmt=1` à la fin de l’URL du serveur d’informations. Par exemple : `https://.../$3$/$4$/$1$/?FMT=1`.
 
 1. Sélectionner **[!UICONTROL Enregistrer]**.
-1. Sélectionner **[!UICONTROL Par défaut]** afin que le paramètre prédéfini de visionneuse de catalogue électronique que vous avez créé soit celui utilisé pour afficher les catalogues électroniques sur votre page web.
+1. Sélectionner **[!UICONTROL Par défaut]** afin que le paramètre prédéfini de visionneuse de catalogue électronique que vous avez créé soit celui utilisé pour afficher les catalogues électroniques sur votre page Web.
 
 Pour supprimer un paramètre prédéfini de visionneuse de catalogue électronique, sélectionnez-le dans l’écran Paramètres prédéfinis de la visionneuse, puis sélectionnez **[!UICONTROL Supprimer]**.
 

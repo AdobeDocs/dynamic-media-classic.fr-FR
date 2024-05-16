@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: e2840200-246e-4c68-b10f-a66461f2a118
 topic: Certification
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 44%
@@ -19,7 +19,7 @@ ht-degree: 44%
 
 # Services de formation Adobe{#adobe-training-services}
 
-Dynamic Media Classic offre une formation sous la forme de formation vidéo, d’ateliers dirigés par un instructeur, de sessions web et de démonstrations.
+Dynamic Media Classic offre une formation sous la forme de formation vidéo, d’ateliers dirigés par un instructeur, de sessions Web et de démonstrations.
 
 ## Services de formation Adobe
 
