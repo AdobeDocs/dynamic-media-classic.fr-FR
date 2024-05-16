@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 24%
+ht-degree: 16%
 
 ---
 
 # Associer une série d’échantillons à une page web{#linking-a-swatch-set-to-a-web-page}
 
-Après avoir publié une série d’échantillons, vous pouvez utiliser l’URL ou le code intégré qui lui est associé dans votre site Web ou application. Vous pouvez ensuite déployer l’URL ou le code incorporé si nécessaire afin que les utilisateurs puissent afficher la série d’échantillons sur votre site Web ou dans votre application.
+Après avoir publié une série d’échantillons, vous pouvez utiliser l’URL ou le code intégré qui lui est associé sur votre site Web ou dans votre application. Vous pouvez ensuite déployer l’URL ou le code intégré si nécessaire afin que les utilisateurs puissent afficher la série d’échantillons sur votre site Web ou dans votre application.
 
 >[!NOTE]
 >
@@ -28,8 +28,8 @@ Après avoir publié une série d’échantillons, vous pouvez utiliser l’URL 
 ## Copie de l’URL d’une série d’échantillons {#copying-a-swatch-set-url}
 
 1. Dans la liste déroulante Afficher du panneau de navigation des ressources, sélectionnez **[!UICONTROL Série d’échantillons]**.
-1. Dans le panneau Bibliothèque de fichiers sur la gauche, accédez au dossier Fichiers qui contient la série d’échantillons dont vous voulez copier le code incorporé.
-1. Au-dessus du panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
+1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources qui contient la série d’échantillons dont vous souhaitez copier le code intégré.
+1. Au-dessus de panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
 
    * Sélectionner **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des fichiers, cliquez deux fois sur un fichier pour l’ouvrir dans le mode Affichage des détails. Dans le panneau URL et code intégré à droite, sélectionnez **[!UICONTROL Copier l’URL]** à droite de la visionneuse que vous souhaitez.
    * Sélectionner **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des ressources, sélectionnez une seule ressource, puis sous l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
@@ -54,11 +54,11 @@ Pour plus d’informations et d’exemples de code, voir [Incorporation de la vi
 
 La fonction Code incorporé permet de vérifier le code de la série d’échantillons sélectionnée. Vous pouvez également copier le code dans le Presse-papiers afin de le coller dans vos pages web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
-**Pour copier le code incorporé d’une visionneuse d’échantillons :**
+**Pour copier le code intégré d’une visionneuse d’échantillons :**
 
 1. Dans la liste déroulante Afficher du panneau de navigation des ressources, sélectionnez **[!UICONTROL Série d’échantillons]**.
-1. Dans le panneau Bibliothèque de fichiers sur la gauche, accédez au dossier Fichiers qui contient la série d’échantillons dont vous voulez copier le code incorporé.
-1. Au-dessus du panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
+1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources qui contient la série d’échantillons dont vous souhaitez copier le code intégré.
+1. Au-dessus de panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
 
    * Sélectionner **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des fichiers, cliquez deux fois sur un fichier pour l’ouvrir dans le mode Affichage des détails. Dans le panneau URL et code intégré à droite, sélectionnez **[!UICONTROL Code incorporé]** à droite de la visionneuse que vous souhaitez.
    * Sélectionner **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des ressources, sélectionnez une seule ressource, puis sous l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.

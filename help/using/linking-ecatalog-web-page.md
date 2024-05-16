@@ -10,10 +10,10 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 30%
+ht-degree: 23%
 
 ---
 
@@ -28,7 +28,7 @@ Vos sites Web et applications accèdent au contenu du serveur d’images Dynamic
 ## Copier une URL de catalogue électronique {#copying-an-ecatalog-url}
 
 1. Dans la liste déroulante Afficher du panneau de navigation des ressources, sélectionnez **[!UICONTROL Catalogue]**.
-1. Dans le panneau Bibliothèque de fichiers sur la gauche, accédez au dossier Fichiers qui contient le catalogue électronique dont vous voulez copier le code incorporé.
+1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources qui contient le catalogue électronique dont vous souhaitez copier le code intégré.
 1. Au-dessus de panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
 
    * Sélectionner **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des fichiers, cliquez deux fois sur un fichier pour l’ouvrir dans le mode Affichage des détails. Dans le panneau URL et code intégré à droite, sélectionnez **[!UICONTROL Copier l’URL]** à droite de la visionneuse que vous souhaitez.
@@ -50,14 +50,14 @@ La méthode la plus courante pour déployer un catalogue électronique consiste 
 
 Pour plus d’informations et d’exemples de code, voir [Incorporer la visionneuse de catalogue électronique HTML5 dans le guide de référence des visionneuses d’Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
-## Copie du code incorporé d’une visionneuse de catalogue électronique {#copying-the-embed-code-of-an-ecatalog-viewer}
+## Copie du code intégré d’une visionneuse de catalogue électronique {#copying-the-embed-code-of-an-ecatalog-viewer}
 
 L’utilisation de la fonction Code incorporé permet de vérifier le code de la visionneuse du catalogue électronique sélectionné. Vous pouvez également copier le code dans le Presse-papiers afin de le coller dans vos pages web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
-**Pour copier le code incorporé d’une visionneuse de catalogue électronique :**
+**Pour copier le code intégré d’une visionneuse de catalogue électronique :**
 
 1. Dans la liste déroulante Afficher du panneau de navigation des ressources, sélectionnez **[!UICONTROL Catalogue]**.
-1. Dans le panneau Bibliothèque de fichiers sur la gauche, accédez au dossier Fichiers qui contient le catalogue électronique dont vous voulez copier le code incorporé.
+1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources qui contient le catalogue électronique dont vous souhaitez copier le code intégré.
 1. Au-dessus de panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
 
    * Sélectionner **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des fichiers, cliquez deux fois sur un fichier pour l’ouvrir dans le mode Affichage des détails. Dans le panneau URL situé à droite, sélectionnez **[!UICONTROL Code incorporé]**.

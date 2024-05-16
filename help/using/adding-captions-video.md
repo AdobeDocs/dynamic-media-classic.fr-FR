@@ -9,7 +9,7 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 17%
@@ -68,7 +68,7 @@ Voir [Diffuser du contenu statique (hors image)](https://experienceleague.adobe.
 
      Dans la boîte de dialogue Code incorporé, sélectionnez **[!UICONTROL Copier dans le Presse-papiers]**.
 
-     Pour le HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`, ou `Universal_HTML5_MixedMedia_light` visionneuses, ajoutez le code intégré copié avec ce qui suit :
+     Pour le HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`, ou `Universal_HTML5_MixedMedia_light` pour les visionneuses, ajoutez le code intégré copié avec ce qui suit :
 
      `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1"`
 

@@ -1,6 +1,6 @@
 ---
 title: Création de la série d’échantillons
-description: Découvrez comment créer un ensemble d’échantillons dans Adobe Dynamic Media Classic.
+description: Découvrez comment créer une série d’échantillons dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 58%
+source-wordcount: '715'
+ht-degree: 49%
 
 ---
 
@@ -25,9 +25,9 @@ Par exemple, si vous souhaitez présenter des casquettes avec des visières de c
 
 ## Création de la série d’échantillons {#create}
 
-Lorsque vous créez une visionneuse, l’option **Publish after save** (« Publier après l’enregistrement ») affecte la visionneuse et ses membres comme suit :
+Lorsque vous créez un jeu, la variable **Publier après un enregistrement** L’option affecte les membres de l’ensemble et de l’ensemble comme suit :
 
-| **[!UICONTROL Publier après enregistrement]** l’option sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| **[!UICONTROL Publier après un enregistrement]** l’option sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- |
 | Oui | Publié | publié |
 | Non | Non publié | Les membres de la visionneuse conservent leur état publié ou non publié. |
@@ -47,15 +47,15 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
    Assurez-vous que l’échantillon de la couleur, du motif ou du fini que vous faites glisser sur chaque emplacement réservé correspond à celui de l’image adjacente.
 
 1. Pour changer l’ordre des images dans votre série d’échantillons, faites-les glisser vers leur nouvel emplacement.
-1. Près de l’angle inférieur droit de la page, vérifiez que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
+1. Dans le coin inférieur droit de la page, assurez-vous que **[!UICONTROL Publier après un enregistrement]** est sélectionné (par défaut).
 1. Sélectionner **[!UICONTROL Enregistrer]**, sélectionnez un dossier pour le stockage de la série d’échantillons de couleurs, saisissez un nom pour la série, puis sélectionnez **[!UICONTROL Envoyer]**.
 1. Pour afficher votre série d’échantillons dans la visionneuse, sélectionnez **[!UICONTROL Aperçu]** sur l’écran Série d’échantillons . Vous pouvez sélectionner des miniatures d’échantillon dans la visionneuse de séries d’échantillons pour voir comment elles se comportent.
 
 ## Modification d’une série d’échantillons {#editing-a-swatch-set}
 
-Si vous modifiez un jeu publié ou non publié, la variable **[!UICONTROL Publier après enregistrement]** L’option affecte les membres de l’ensemble et de l’ensemble comme suit :
+Si vous modifiez un jeu publié ou non publié, la variable **[!UICONTROL Publier après un enregistrement]** L’option affecte les membres de l’ensemble et de l’ensemble comme suit :
 
-| Visionneuse déjà publiée ? | **[!UICONTROL Publier après]** option d’enregistrement sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| Visionneuse déjà publiée ? | **[!UICONTROL Publier après un enregistrement]** option d’enregistrement sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 |--- | --- | --- | --- |
 | Oui | Oui | Publié | Publié. |
 | Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
@@ -73,7 +73,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
    * Pour supprimer une image, sélectionnez-la, puis sélectionnez **[!UICONTROL Supprimer]** dans la barre d’outils.
    * Pour réorganiser des images, faites glisser l’image de votre choix vers sa nouvelle position.
 
-1. Lorsque vous avez terminé de modifier la visionneuse, près de l’angle inférieur droit de la page, assurez-vous que l’option **[!UICONTROL Publish after save]** (« Publier après l’enregistrement ») est sélectionnée (valeur par défaut).
+1. Lorsque vous avez terminé de modifier la visionneuse, près du coin inférieur droit de la page, assurez-vous que **[!UICONTROL Publier après un enregistrement]** est sélectionné (par défaut).
 1. Sélectionner **[!UICONTROL Enregistrer]**, sélectionnez un dossier de stockage, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
 ## Suppression d’une série d’échantillons

@@ -10,10 +10,10 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 8%
+source-wordcount: '873'
+ht-degree: 6%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 8%
 
 Le dimensionnement des images fait référence à la capacité d’Adobe Dynamic Media Classic à créer plusieurs images dérivées basées sur une seule image haute résolution. Au lieu de créer manuellement plusieurs images (une miniature et une image agrandie, par exemple) pour votre site web ou votre application, vous fournissez une seule image principale. Adobe Dynamic Media Classic génère toutes les images modifiées comme vous le souhaitez. Être en mesure de diffuser des images dynamiquement à partir d’une seule image principale présente de nombreux avantages :
 
-* Vous n’êtes pas tenu de créer manuellement plusieurs copies de l’image selon différentes tailles. Vous fournissez une image principale à Adobe Dynamic Media Classic et Adobe Dynamic Media Classic génère des dérivés de différentes dimensions à partir de l’image principale.
-* Vous pouvez modifier rapidement la taille d’un type d’image sur l’ensemble de votre site Web ou de votre application. Par exemple, pour modifier toutes les images miniatures, vous pouvez modifier le paramètre d’image prédéfini &quot;miniature&quot;. Un paramètre d’image prédéfini (similaire à une macro) est un ensemble d’attributs de taille et de mise en forme. Vous pouvez modifier le paramètre d’image prédéfini &quot;miniature&quot; afin de modifier la taille de toutes les images miniatures sur votre site Web ou dans votre application.
+* Il n’est pas nécessaire de créer manuellement plusieurs copies de l’image à des tailles différentes. Vous fournissez une image principale à Adobe Dynamic Media Classic et Adobe Dynamic Media Classic génère des dérivés de différentes dimensions à partir de l’image principale.
+* Vous pouvez modifier rapidement la taille d’un type d’image sur l’ensemble de votre site Web ou de votre application. Par exemple, pour modifier toutes les images miniatures, vous pouvez modifier le paramètre d’image prédéfini &quot;miniature&quot;. Un paramètre d’image prédéfini (il est similaire à une macro) est un ensemble d’attributs de taille et de mise en forme. Vous pouvez modifier le paramètre d’image prédéfini &quot;miniature&quot; afin de modifier la taille de toutes les images miniatures sur votre site Web ou dans votre application.
 * Vous n’avez pas à gérer les fichiers principaux et tous les dérivés dans aucun de vos systèmes de gestion de contenu ou de ressources en interne ou en externe.
 
 ![Vous pouvez créer plusieurs images dérivées à une taille différente à partir du même fichier principal haute résolution.](/help/using/assets/is_derivative_sizes_popup.png)
@@ -39,7 +39,7 @@ Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]*
 
 ## 2. Configuration de paramètres d’image prédéfinis
 
-Semblable à une macro, un paramètre d’image prédéfini est un ensemble de commandes prédéfinies de taille et de formatage enregistrées sous un nom. Un paramètre d’image prédéfini détermine la taille et le formatage avec lesquels les images sont diffusées à partir des serveurs d’images Dynamic Media. Vous pouvez configurer vous-même des paramètres d’image prédéfinis si vous disposez du statut Administrateur de l’entreprise. Adobe Dynamic Media Classic est également fourni avec des paramètres d’image prédéfinis par défaut, que vous pouvez utiliser pour diffuser des images de manière dynamique.
+Semblable à une macro, un paramètre d’image prédéfini est un ensemble de commandes prédéfinies de taille et de formatage enregistrées sous un nom. Un paramètre d’image prédéfini détermine la taille et le formatage avec lesquels les images sont diffusées à partir des serveurs d’images Dynamic Media. Vous pouvez configurer vous-même des paramètres d’image prédéfinis si vous disposez du statut Administrateur de l’entreprise. Vous pouvez diffuser des images de manière dynamique à l’aide des paramètres d’image prédéfinis par défaut fournis avec Adobe Dynamic Media Classic.
 
 Pour créer un paramètre d’image prédéfini (si vous êtes administrateur), dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres d’image prédéfinis]**. Sélectionnez **[!UICONTROL Ajouter]** pour créer un paramètre d’image prédéfini, ou sélectionnez **[!UICONTROL Modifier]** pour modifier un paramètre d’image prédéfini existant.
 
@@ -66,6 +66,6 @@ Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]** pour
 
 ## 5. Lier les URL à votre application web
 
-Adobe Dynamic Media Classic crée des chaînes d’légende URL pour les images. Lorsque vous publiez des images sur les serveurs Dynamic Media Image, les URL deviennent actives. Vous pouvez copier ces chaînes d’URL à partir du panneau de navigation (dans la vue Détails) ou de l’écran de prévisualisation. Après avoir copié les chaînes URL, vous pouvez les utiliser dans votre site Web et dans vos applications. L’URL de dimensionnement des images remplace la référence à un nom d’image statique dans le code de votre page Web. L’URL fait référence à un nom d’image principal, qui est remplacé par votre base de données pour chaque nouvelle image à afficher.
+Adobe Dynamic Media Classic crée des chaînes d’légende URL pour les images. Lorsque vous publiez des images sur les serveurs Dynamic Media Image, les URL deviennent actives. Vous pouvez copier ces chaînes d’URL à partir du panneau de navigation (dans la vue Détails) ou de l’écran de prévisualisation. Après avoir copié les chaînes URL, vous pouvez les utiliser dans votre site Web et dans vos applications. L’URL de dimensionnement des images remplace la référence à un nom d’image statique dans le code de votre page Web. L’URL référence un nom d’image principal que la base de données remplace pour chaque nouvelle image à afficher.
 
 Les chaînes URL générées avec des paramètres d’image prédéfinis contiennent le nom d’un paramètre d’image prédéfini. Ce nom est encadré de signes dollar (`$`). Par exemple : `$thumbnail$` peut être le paramètre d’image prédéfini conçu pour afficher les images principales à la taille de la miniature. Voir [Lier des URL à votre application web](linking-urls-web-application.md#linking_urls_to_your_web_application).

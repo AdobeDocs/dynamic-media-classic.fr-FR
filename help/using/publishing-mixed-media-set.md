@@ -10,10 +10,10 @@ role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 17%
+source-wordcount: '262'
+ht-degree: 12%
 
 ---
 
@@ -49,7 +49,7 @@ Last Modified Date:
 1. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**.
 1. Définissez les options de planification de votre choix.
 1. (Facultatif) Dans la variable **[!UICONTROL Job Name]** , saisissez le nom de la tâche de publication.
-1. Dans les options **[!UICONTROL avancées]**, dans la liste déroulante **[!UICONTROL Publier vers]**, sélectionnez **[!UICONTROL Serveur de vidéo]**.
+1. Dans le **[!UICONTROL Avancé]** , dans la variable **[!UICONTROL Publier sur]** liste déroulante, sélectionnez **[!UICONTROL Serveur vidéo]**.
 
    Voir [Options de publication avancées](publishing-files.md#advanced_publish_options) pour plus d’options, vous pouvez définir.
 

@@ -10,10 +10,10 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 35%
+ht-degree: 31%
 
 ---
 
@@ -50,7 +50,7 @@ Vous pouvez éliminer les pixels transparents ou de couleur qui apparaissent au 
 1. Dans la fenêtre Editeur de recadrage, placez la partie de l’image que vous ne souhaitez pas recadrer dans la zone de recadrage. Ce qui apparaît dans la zone est ce qui reste après avoir sélectionné **[!UICONTROL Enregistrer]** et recadrez l’image.
 1. Pour modifier la zone de recadrage, effectuez l’une des opérations suivantes :
 
-   * Faites glisser un côté ou un angle de la zone de recadrage. Maintenez la touche Maj enfoncée lorsque vous faites glisser la souris pour modifier la taille tout en conservant le format (la forme) de la zone de recadrage.
+   * Faites glisser un côté ou un angle de la zone de recadrage. Maintenez la touche Maj enfoncée tout en faisant glisser le curseur pour modifier la taille tout en conservant les proportions (forme) de la zone de recadrage.
    * Spécifiez des valeurs en pixels dans les zones Taille.
    * Faites glisser la souris pour déplacer la zone de recadrage. Positionnez le pointeur dans les limites du cadre. Lorsque le pointeur prend la forme d’une flèche à quatre pointes, faites glisser la zone à l’emplacement voulu sur l’image.
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '1702'
-ht-degree: 26%
+ht-degree: 24%
 
 ---
 
@@ -23,7 +23,7 @@ Les sites web, les sites mobiles et les applications de bureau accèdent au cont
 
 >[!NOTE]
 >
->l’URL ou le code intégré n’est actif(ve) qu’une fois le fichier publié.
+>L’URL ou le code intégré n’est pas actif tant que vous n’avez pas publié la ressource.
 
 ## Publier de la vidéo {#publishing-video}
 
@@ -82,8 +82,8 @@ Voir aussi [Liaison d’une URL de vidéo à un site mobile ou à un site web](d
 **Pour incorporer la visionneuse de vidéos dans une page Web :**
 
 1. Dans la liste déroulante Afficher du panneau de navigation des ressources, sélectionnez **[!UICONTROL Vidéo]**, ou **[!UICONTROL Visionneuse de vidéos adaptative]**.
-1. Dans le panneau Bibliothèque de fichiers sur la gauche, accédez au dossier Fichiers qui contient la vidéo ou la visionneuse de vidéos adaptative dont vous voulez copier le code intégré.
-1. Au-dessus du panneau de navigation dans les fichiers, à droite de la barre d’outils, effectuez l’une des opérations suivantes :
+1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources qui contient la vidéo ou la visionneuse de vidéos adaptative dont vous souhaitez copier le code intégré.
+1. Au-dessus de panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
 
    * Sélectionner **[!UICONTROL Affichage de la grille]** ou **[!UICONTROL Mode Liste]**. Dans le panneau de navigation des fichiers, cliquez deux fois sur la miniature vidéo d’un fichier pour l’ouvrir en mode Affichage des détails. Dans le panneau URL et code intégré à droite, sous Diffusion en flux continu HTTP, sélectionnez **[!UICONTROL Code incorporé]** à droite de la visionneuse que vous souhaitez. Pour une bonne pratique, sélectionnez **[!UICONTROL Code incorporé]** qui est associé à la variable `Universal_HTML5_Video` visionneuse.
    * Sélectionner **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des ressources, sélectionnez une seule ressource, puis sous l’image de miniature vidéo, sélectionnez **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
@@ -103,9 +103,9 @@ Voir aussi [Liaison d’une URL de vidéo à un site mobile ou à un site web](d
    Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
 1. select **[!UICONTROL Fermer]**.
-1. Collez le code incorporé dans vos pages Web.
+1. Collez le code incorporé dans vos pages web.
 
-### Mise en oeuvre du code intégré pour l’utilisation de la vidéo HTML5 avec des ressources vidéo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
+### Mise en oeuvre du code intégré pour l’utilisation de vidéos HTML5 avec des ressources vidéo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
 Si vous n’utilisez pas le lecteur vidéo Adobe Dynamic Media Classic HTML5, mais que vous souhaitez utiliser le HTML natif5. `<video>` avec des ressources vidéo MP4, vous pouvez utiliser l’exemple de code intégré suivant :
 

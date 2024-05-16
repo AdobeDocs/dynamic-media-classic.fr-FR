@@ -10,7 +10,7 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '10945'
 ht-degree: 29%
@@ -719,7 +719,7 @@ La fonction Code incorporé permet de vérifier le code du paramètre prédéfin
 
 Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
-**Pour copier le code incorporé d’un paramètre prédéfini de visionneuse :**
+**Pour copier le code intégré d’un paramètre prédéfini de visionneuse :**
 
 1. Sélectionnez la ressource dans le panneau de navigation des ressources.
 1. Au-dessus de panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :

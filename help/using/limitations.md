@@ -10,9 +10,9 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Cette rubrique comprend les sections suivantes :
 
 ## Bonnes pratiques et limites appliquées par Dynamic Media sur les types de ressources {#best-practice-enforced-limits}
 
-Lorsque vous créez une visionneuse à 360° ou une visionneuse d’images, ou que vous chargez des PDF pour l’extraction de page, Adobe recommande les bonnes pratiques suivantes et applique les limites suivantes :
+Lorsque vous créez une visionneuse à 360° ou une visionneuse d’images, ou téléchargez des PDF pour l’extraction de page, Adobe recommande les bonnes pratiques suivantes. Adobe applique également les limites suivantes :
 
 | Ressource : type de limite | Pratique recommandée | Limite imposée |
 | --- | --- | --- |
