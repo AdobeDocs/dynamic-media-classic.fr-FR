@@ -10,16 +10,16 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 30%
+source-wordcount: '1022'
+ht-degree: 27%
 
 ---
 
 # Optimisation du référencement de la vidéo{#video-seo-search-engine-optimization}
 
-L’optimisation du référencement de la vidéo consiste à améliorer le volume de trafic vers un site Web à partir des moteurs de recherche. Les moteurs de recherche sont des outils parfaits pour collecter des informations à partir d’un contenu texte. Par contre, ils sont moins performants pour obtenir des informations sur des vidéos, sauf si ces informations leur sont fournies.
+L’optimisation du référencement de la vidéo consiste à améliorer le volume de trafic vers un site Web à partir des moteurs de recherche. Bien que les moteurs de recherche excelle dans la collecte d’informations sur le contenu textuel, ils ne peuvent pas acquérir suffisamment d’informations sur la vidéo. Cette information doit leur être fournie.
 
 L’optimisation pour les moteurs de recherche vidéo Adobe Dynamic Media Classic vous permet d’appliquer des métadonnées vidéo afin de fournir aux moteurs de recherche des descriptions de vos vidéos. Adobe Dynamic Media Classic vous permet de créer des plans de site vidéo et des flux mRSS. Ces fichiers XML standard sont utilisés pour envoyer des informations vidéo aux moteurs de recherche :
 
@@ -65,7 +65,7 @@ Sur le **[!UICONTROL Mode de génération]** , choisissez un mode de rapport :
 
 Sur le **[!UICONTROL Mode automatique/manuel]** , choisissez de générer automatiquement ou manuellement la liste déroulante :
 
-* **Mode automatique**: Adobe Dynamic Media Classic génère automatiquement un plan de site vidéo, un flux Media RSS (mRSS), ou les deux, chaque jour. Sélectionnez la variable **[!UICONTROL Marquer pour publication]** pour marquer automatiquement pour publication le fichier XML généré par Adobe Dynamic Media Classic.
+* **Mode automatique**: Adobe Dynamic Media Classic génère automatiquement un plan de site vidéo, un flux Media RSS (mRSS), ou les deux, chaque jour. Sélectionnez la variable **[!UICONTROL Marquer pour publication]** pour que vous puissiez marquer automatiquement pour publication le fichier XML généré par Adobe Dynamic Media Classic.
 
    * **Marquer pour publication** Marque pour publication le fichier XML généré.
 
@@ -79,7 +79,7 @@ Sur le **[!UICONTROL Mode automatique/manuel]** , choisissez de générer automa
 
 ### Choix des paramètres de génération {#choosing-generation-settings}
 
-La zone Paramètres de génération répertorie les champs de saisie du plan de site vidéo, du flux mRSS ou des deux, ainsi que les noms des champs de métadonnées dans le panneau Métadonnées. Utilisez la zone Paramètres généraux pour mapper les champs d’entrée aux champs de métadonnées. Ce faisant, vous indiquez à Adobe Dynamic Media Classic où obtenir des métadonnées pour le plan de site vidéo et/ou le flux mRSS.
+La zone Paramètres de génération répertorie les champs de saisie du plan de site vidéo, du flux mRSS ou des deux. Dans le panneau Métadonnées, les noms des champs de métadonnées sont répertoriés. Utilisez la zone Paramètres généraux pour mapper les champs d’entrée aux champs de métadonnées. Ce faisant, vous indiquez à Adobe Dynamic Media Classic où obtenir des métadonnées pour le plan de site vidéo et/ou le flux mRSS.
 
 1. Dans le menu Vues des métadonnées, choisissez un affichage de métadonnées. Après avoir choisi une vue, les noms des champs de métadonnées s’affichent dans le panneau Métadonnées.
 Voir [Vues des métadonnées](application-setup.md#metadata_views).

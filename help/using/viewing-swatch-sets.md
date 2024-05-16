@@ -10,16 +10,16 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 18%
+source-wordcount: '456'
+ht-degree: 15%
 
 ---
 
 # Afficher les séries d’échantillons{#viewing-swatch-sets}
 
-Vous pouvez visualiser vos séries d’échantillons dans la fenêtre de prévisualisation à l’aide de vos paramètres prédéfinis disponibles. Utilisez une visionneuse de zoom : un paramètre prédéfini et personnalisé pour les séries d’échantillons.
+Vous pouvez visualiser vos séries d’échantillons dans la fenêtre de prévisualisation à l’aide de vos paramètres prédéfinis disponibles. Vous pouvez utiliser une visionneuse de zoom : paramètre prédéfini de visionneuse personnalisé pour les séries d’échantillons.
 
 Adobe Dynamic Media Classic est fourni avec les paramètres prédéfinis de visionneuse par défaut. Les administrateurs peuvent créer ou modifier les paramètres prédéfinis de la visionneuse.
 
@@ -44,7 +44,7 @@ Vous pouvez créer et personnaliser des paramètres prédéfinis de la visionneu
 
 ## Aperçu des séries d’échantillons dans une visionneuse {#previewing-swatch-sets-in-a-viewer}
 
-Vous pouvez utiliser l’aperçu pour afficher une ressource sur un type de visionneuse particulier, tel que HTML5. Selon le type de ressource et la visionneuse associée que vous avez sélectionnés pour la prévisualisation, toutes les plateformes de type visionneuse ne sont pas disponibles dans la prévisualisation.
+Vous pouvez utiliser l’aperçu pour voir comment une ressource apparaît dans un type de visionneuse particulier, tel que HTML5. Selon le type de ressource et la visionneuse associée que vous avez sélectionnés pour la prévisualisation, toutes les plateformes de type visionneuse ne sont pas disponibles dans la prévisualisation.
 
 1. Dans le panneau Bibliothèque de ressources sur le côté gauche, dans **[!UICONTROL Afficher]** Sélectionnez un type de ressource basé sur une série d’échantillons tel que **[!UICONTROL Série d’échantillons]**.
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient la série d’échantillons à prévisualiser à l’aide d’une visionneuse.

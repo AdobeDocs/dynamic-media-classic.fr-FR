@@ -9,7 +9,7 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 25%
@@ -48,7 +48,7 @@ Pour créer un paramètre prédéfini de visionneuse de catalogue électronique 
    | `$2$` | frame | Numéro de séquence de l’image actuellement affichée dans la visionneuse d’images |
    | `$3$` | racine de l’image | Premier élément de chemin du premier objet indiqué dans la commande d’image (en principe, l’identifiant de catalogue d’images de l’entrée de catalogue indiquant la visionneuse d’images) |
 
-1. (Facultatif) Dans la variable **[!UICONTROL Paramètres du panneau Informations]**, dans la variable **[!UICONTROL Modèle de réponse]** , saisissez le texte à afficher si Adobe Dynamic Media Classic rencontre une erreur lors de la récupération des informations pour une zone cliquable. Par exemple, si le système reçoit un nom d’entreprise et un nom de catalogue électronique, mais pas d’identificateur de survol, ce message est affiché à l’intention de l’utilisateur.
+1. (Facultatif) Dans la variable **[!UICONTROL Paramètres du panneau Informations]**, dans la variable **[!UICONTROL Modèle de réponse]** , saisissez le texte à afficher si Adobe Dynamic Media Classic rencontre une erreur lors de la récupération des informations d’une zone cliquable. Par exemple, si le système reçoit un nom d’entreprise et un nom de catalogue électronique, mais pas d’identificateur de survol, ce message est affiché à l’intention de l’utilisateur.
 
 >[!NOTE]
 >

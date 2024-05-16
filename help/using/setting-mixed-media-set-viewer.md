@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 27%
+source-wordcount: '613'
+ht-degree: 22%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la commun
 1. Dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 1. Sur la page Paramètres visionneuse, effectuez l’une des opérations suivantes :
 
-   * Pour créer un paramètre prédéfini, sélectionnez **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plateforme, puis **[!UICONTROL Visionneuse de supports variés]**, puis sélectionnez **[!UICONTROL Ajouter]**.
+   * Pour créer un paramètre prédéfini, sélectionnez **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plateforme. Cliquez ensuite sur **[!UICONTROL Visionneuse de supports variés]** > **[!UICONTROL Ajouter]**.
    * Pour modifier un paramètre prédéfini de visionneuse de médias mixtes, sélectionnez-le, puis sélectionnez **[!UICONTROL Modifier]**.
 
 1. Sur la page Visionneuse de configuration, saisissez un nom dans la zone Nom du paramètre prédéfini de la visionneuse de médias mixtes.
@@ -35,10 +35,10 @@ Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la commun
 
    Par exemple, si vous ajoutez une série d’échantillons à la visionneuse de médias mixtes, saisissez `Swatch Set A`.
 
-1. Dans le menu Visionneuse, choisissez le type de fichier que vous souhaitez afficher, par exemple les séries d’échantillons.
-1. Dans le menu Paramètre prédéfini, choisissez un paramètre pour le type de fichier choisi.
+1. Dans le menu Visionneuse, sélectionnez le type de ressource à afficher, par exemple les séries d’échantillons.
+1. Dans le menu Paramètre prédéfini , sélectionnez un paramètre prédéfini pour le type de ressource sélectionné.
 
-   Par exemple, si vous ajoutez une série d’échantillons, choisissez **[!UICONTROL SwatchSet1-Colors]**.
+   Par exemple, si vous ajoutez une série d’échantillons, sélectionnez **[!UICONTROL SwatchSet1-Colors]**.
 
 1. Sélectionner **[!UICONTROL Ajouter]**.
 
@@ -48,7 +48,7 @@ Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la commun
 1. Pour modifier la liste des paramètres prédéfinis, effectuez l’une des opérations suivantes :
 
    * Pour supprimer un paramètre prédéfini de la liste, sélectionnez-le, puis sélectionnez **[!UICONTROL Supprimer]**.
-   * Pour réorganiser les paramètres prédéfinis dans la liste, sélectionnez un paramètre prédéfini, puis sélectionnez le **[!UICONTROL Monter]** ou **[!UICONTROL Descendre]** flèche.
+   * Pour réorganiser les paramètres prédéfinis dans la liste, sélectionnez-les, puis sélectionnez le bleu **[!UICONTROL Monter]** ou **[!UICONTROL Descendre]** flèche.
 
 1. Pour ajouter des fonctionnalités de la communauté (Incorporation, Lien et Visite) à la visionneuse, spécifiez les options pour chacun des éléments suivants :
 

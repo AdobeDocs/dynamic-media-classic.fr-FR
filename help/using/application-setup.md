@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '10944'
+source-wordcount: '10945'
 ht-degree: 29%
 
 ---
@@ -49,7 +49,7 @@ Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md
 
 * **[!UICONTROL Nom du serveur de vidéo progressive]**: l’URL de la variable [!DNL Adobe Dynamic Media Classic] serveur de vidéo progressive. Ce serveur fournit une vidéo progressive à l’aide du protocole HTTP.
 
-* **[!UICONTROL Afficher l’URL des ressources non publiées]**: sélectionnez cette option si vous le souhaitez. [!DNL Adobe Dynamic Media Classic] pour afficher une URL lors de la prévisualisation d’une ressource, qu’elle soit publiée ou non. Si le fichier n’est pas publié, l’URL ne fonctionne pas. Vous pouvez, cependant, utiliser l’URL à des fins de planification ou d’organisation.
+* **[!UICONTROL Afficher l’URL des ressources non publiées]**: sélectionnez cette option si vous le souhaitez [!DNL Adobe Dynamic Media Classic] pour afficher une URL lorsque vous prévisualisez une ressource, publiée ou non. Si le fichier n’est pas publié, l’URL ne fonctionne pas. Vous pouvez, cependant, utiliser l’URL à des fins de planification ou d’organisation.
 
 <!-- **Allow AIR install** Select this option to allow users to download Adobe Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
@@ -83,7 +83,7 @@ Voir aussi [Test du service Secure Testing](testing-assets-making-them-public.md
 
 * **[!UICONTROL Afficher un exemple de contenu eVideo]**: activez ou désactivez l’affichage d’un exemple de contenu eVideo.
 
-* **[!UICONTROL Afficher le contenu généré]**: dans les dossiers, affiche le contenu généré à partir d’une ressource. Par exemple, lorsqu’un fichier de PDF est pixellisé au fur et à mesure de son chargement, Adobe Dynamic Media Classic crée une image pour chaque page du PDF d’origine. Si l’option Afficher le contenu généré est sélectionnée, chaque image générée lorsque le PDF d’origine est téléchargé s’affiche. Il apparaît avec le PDF dans le dossier dans lequel le PDF a été chargé.
+* **[!UICONTROL Afficher le contenu généré]**: dans les dossiers, il affiche le contenu généré à partir d’une ressource. Par exemple, lorsqu’un fichier de PDF est pixellisé au fur et à mesure de son chargement, Adobe Dynamic Media Classic crée une image pour chaque page du PDF d’origine. Si l’option Afficher le contenu généré est sélectionnée, chaque image générée lorsque le PDF d’origine est téléchargé s’affiche. Il apparaît avec le PDF dans le dossier dans lequel le PDF a été chargé.
 
 * **[!UICONTROL Afficher les vidéos codées]**: désélectionné par défaut.
 
@@ -117,11 +117,11 @@ Voir aussi [Options des tâches de transfert](https://s7d5.scene7.com/s7viewers/
 
 * **[!UICONTROL Remplacer les images]**: Adobe Dynamic Media Classic ne permet pas que deux fichiers portent le même nom. L’Adobe Dynamic Media Classic ID de chaque élément (le nom de l’image sans l’extension de nom de fichier) doit être unique. De par cette règle, la boîte de dialogue Télécharger contient une option Ecraser. L’effet précis de cette option dépend de l’option Ecraser les images spécifiée. Ces options spécifient la manière dont les images de remplacement sont téléchargées : elles peuvent remplacer les images d’origine ou devenir des doublons. Les images en double sont renommées par &quot;-1&quot; (par exemple, chaise.tif est renommé chaise-1.tif). Ces options affectent les images téléchargées dans un dossier autre que le dossier d’origine ou les images dont l’extension est différente de celle du fichier d’origine (telle que JPG, TIF ou encore PNG) Voir [Utilisation de l’option Remplacer les images](#using-the-overwrite-images-option).
 
-   * **[!UICONTROL Remplacer dans le dossier actuel, même nom/même extension de fichier de base]**: cette option est la règle la plus stricte pour le remplacement. Elle nécessite que vous téléchargiez l’image de remplacement dans le même dossier que l’image d’origine, et qu’elle ait la même extension que le fichier d’origine. Si ces conditions ne sont pas remplies, un doublon est créé.
+   * **[!UICONTROL Remplacer dans le dossier actif, même nom ou même extension de l’image de base]**: cette option est la règle la plus stricte pour le remplacement. Elle nécessite que vous téléchargiez l’image de remplacement dans le même dossier que l’image d’origine, et qu’elle ait la même extension que le fichier d’origine. Si ces conditions ne sont pas remplies, un doublon est créé.
 
    * **[!UICONTROL Écraser dans le dossier actuel, même nom de fichier de base, extension indépendante]**: requiert que vous téléchargiez l’image de remplacement dans le même dossier que l’image d’origine, mais l’extension du nom de fichier peut être différente de celle de l’image d’origine. Par exemple, chaise.tif peut remplacer chaise.jpg.
 
-   * **[!UICONTROL Remplacer dans un dossier, même nom/même extension de fichier de base]**: nécessite que l’image de remplacement ait la même extension que l’image d’origine (par exemple, chaise.jpg doit remplacer chaise.jpg et non chaise.tif). Vous pouvez toutefois télécharger l’image de remplacement dans un dossier différent de celui de l’image d’origine. L’image mise à jour se trouve dans le nouveau dossier, et le fichier d’origine n’est plus disponible à l’emplacement d’origine.
+   * **[!UICONTROL Remplacer dans un dossier, le même nom ou la même extension de fichier de base]**: nécessite que l’image de remplacement ait la même extension que l’image d’origine. Par exemple, chaise.jpg doit remplacer chaise.jpg, et non chaise.tif). Vous pouvez toutefois télécharger l’image de remplacement dans un dossier différent de celui de l’image d’origine. L’image mise à jour se trouve dans le nouveau dossier, et le fichier d’origine n’est plus disponible à l’emplacement d’origine.
 
    * **[!UICONTROL Écraser dans un dossier, même nom de fichier, extension indépendante]**: cette option est la règle de remplacement la plus inclusive. Elle vous permet de télécharger une image de remplacement dans un dossier autre que celui de l’image d’origine, de télécharger un fichier dont l’extension est différente de celle du fichier d’origine et de remplacer le fichier d’origine. Si le fichier d’origine se trouve dans un dossier différent, l’image de remplacement est enregistrée dans le dossier où elle a été téléchargée.
 

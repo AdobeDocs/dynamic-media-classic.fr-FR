@@ -10,10 +10,10 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '2225'
-ht-degree: 36%
+ht-degree: 35%
 
 ---
 
@@ -161,11 +161,11 @@ Adobe Dynamic Media Classic propose une commande pour créer un modèle d’enre
 
 ## Utilisation des schémas de métadonnées {#working-with-metadata-schemas}
 
-Un administrateur de la société peut afficher une liste de tous les schémas disponibles. Dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Métadonnées]** > **[!UICONTROL Schéma de métadonnées]**.
+Un administrateur d’entreprise peut afficher la liste de tous les schémas disponibles. Dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Métadonnées]** > **[!UICONTROL Schéma de métadonnées]**.
 
 Au départ, la liste des schémas standard globaux tels que XMP est masquée. Elle peut être affichée en utilisant la case située au bas de la liste.
 
-L’administrateur de l’entreprise peut créer un schéma personnalisé ou modifier un schéma personnalisé existant.
+L’administrateur d’entreprise peut créer un schéma personnalisé ou modifier un schéma personnalisé existant.
 
 Vous pouvez utiliser l’Editeur de schéma de métadonnées pour exécuter les actions suivantes :
 

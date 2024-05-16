@@ -10,16 +10,16 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 43%
+source-wordcount: '571'
+ht-degree: 41%
 
 ---
 
 # Modification d’une image{#adjusting-an-image}
 
-Adobe Dynamic Media Classic propose différentes commandes pour modifier l’aspect d’une image. Vous pouvez retourner, faire pivoter, rendre flou, modifier et coloriser une image ou modifier l’équilibre de ses couleurs. Faites des essais avec ces commandes pour constater leurs effets sur l’image en cours de traitement.
+Adobe Dynamic Media Classic propose différentes commandes pour modifier l’aspect d’une image. Vous pouvez retourner, faire pivoter, flouer, modifier l’équilibre des couleurs et colorier une image. Faites des essais avec ces commandes pour constater leurs effets sur l’image en cours de traitement.
 
 Voir aussi [Création d’un alias pour une image](adjusting-image.md#creating_an_alias_for_an_image).
 

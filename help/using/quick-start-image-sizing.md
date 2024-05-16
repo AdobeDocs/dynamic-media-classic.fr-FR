@@ -10,10 +10,10 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -39,7 +39,7 @@ Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]*
 
 ## 2. Configuration de paramètres d’image prédéfinis
 
-Semblable à une macro, un paramètre d’image prédéfini est un ensemble de commandes prédéfinies de taille et de formatage enregistrées sous un nom. Un paramètre d’image prédéfini détermine la taille et le formatage avec lesquels les images sont diffusées à partir des serveurs d’images Dynamic Media. Vous pouvez définir vous-même des paramètres d’image prédéfinis si vous avez le statut d’administrateur. Adobe Dynamic Media Classic est également fourni avec des paramètres d’image prédéfinis par défaut, que vous pouvez utiliser pour diffuser des images de manière dynamique.
+Semblable à une macro, un paramètre d’image prédéfini est un ensemble de commandes prédéfinies de taille et de formatage enregistrées sous un nom. Un paramètre d’image prédéfini détermine la taille et le formatage avec lesquels les images sont diffusées à partir des serveurs d’images Dynamic Media. Vous pouvez configurer vous-même des paramètres d’image prédéfinis si vous disposez du statut Administrateur de l’entreprise. Adobe Dynamic Media Classic est également fourni avec des paramètres d’image prédéfinis par défaut, que vous pouvez utiliser pour diffuser des images de manière dynamique.
 
 Pour créer un paramètre d’image prédéfini (si vous êtes administrateur), dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres d’image prédéfinis]**. Sélectionnez **[!UICONTROL Ajouter]** pour créer un paramètre d’image prédéfini, ou sélectionnez **[!UICONTROL Modifier]** pour modifier un paramètre d’image prédéfini existant.
 

@@ -9,16 +9,16 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '3869'
-ht-degree: 27%
+source-wordcount: '3868'
+ht-degree: 25%
 
 ---
 
 # Téléchargement de fichiers{#uploading-files}
 
-Avant de charger des fichiers de ressources vers Adobe Dynamic Media Classic, assurez-vous que les fichiers de ressources sont correctement nommés et que la structure de dossiers est configurée et organisée comme vous le souhaitez. Vous pouvez transférer des fichiers depuis un site FTP fourni par Adobe Dynamic Media Classic ou directement depuis votre ordinateur ou votre réseau. Adobe Dynamic Media Classic propose des options d’optimisation des fichiers lors de leur chargement. Si vous avez installé l’application de bureau Adobe Dynamic Media Classic, vous pouvez charger des fichiers et des dossiers en les faisant glisser directement depuis votre bureau. (voir [Paramètres généraux de l’application](application-setup.md#general_settings)).
+Avant de charger des fichiers de ressources vers Adobe Dynamic Media Classic, assurez-vous que leur nom est correct. Assurez-vous également que votre structure de dossiers est configurée et organisée comme vous le souhaitez. Vous pouvez transférer des fichiers depuis un site FTP fourni par Adobe Dynamic Media Classic ou directement depuis votre ordinateur ou votre réseau. Adobe Dynamic Media Classic propose des options d’optimisation des fichiers lors de leur chargement. Si vous avez installé l’application de bureau Adobe Dynamic Media Classic, vous pouvez charger des fichiers et des dossiers en les faisant glisser directement depuis votre bureau. (voir [Paramètres généraux de l’application](application-setup.md#general_settings)).
 
 ## Préparation du chargement des ressources et des dossiers {#preparing-your-assets-and-folders-for-uploading}
 
@@ -72,7 +72,7 @@ Pour obtenir des résultats optimaux avec le programme Adobe Dynamic Media Class
 | --- | --- |
 | Audio | Les formats de fichiers audio entrants incluent AAC, HE-AAC, AC3, WAV, WMA, AIFF et MP3. Vous pouvez transcoder du contenu audio aux formats suivants : MP3, AAC et HE-AAC. |
 | Images (pour le dimensionnement des images, le zoom, les visionneuses d’images, les visionneuses à 360°) | Les images doivent mesurer au moins 2 000 pixels à la taille la plus longue ; les tailles d’image standard sont comprises entre 1 500 et 2 500 pixels à la taille la plus longue. Les formats d’image sans perte, notamment TIFF et PNG, sont recommandés. Avec une image JPEG, utilisez les paramètres de qualité les plus élevés. Les fichiers de GIF animés sont gérés comme tout autre contenu statique. |
-| Catalogues électroniques | Utilisez des fichiers PDF haute résolution créés dans Adobe Acrobat ou une application de Creative Suite d’Adobe enregistrée en tant que &quot;presready&quot;. Les fichiers PDF incluent l’ensemble des polices, images, masques et éléments graphiques référencés nécessaires, au format de page unique, de planche en double page ou de plusieurs pages. Organisez les pages en nommant les fichiers selon un ordre alphanumérique. Placez tous les fichiers PDF du catalogue électronique dans un dossier unique en vue de faciliter le téléchargement. Vous pouvez sélectionner des options de recadrage lors du téléchargement afin de supprimer la zone de rognage des fichiers PDF, notamment les traits de coupe, les repères de montage ou les gammes de couleurs. La plupart des fichiers PDF « bon à tirer » sont caractérisés par l’espace colorimétrique CMJN ; il est donc important d’obtenir le profil colorimétrique ICC CMJN utilisé avec vos fichiers PDF. |
+| Catalogues électroniques | Utilisez des fichiers PDF haute résolution créés dans Adobe Acrobat ou une application de Creative Suite d’Adobe enregistrée en tant que &quot;presready&quot;. Les PDF comprennent toutes les polices, images et masques nécessaires. Incluez également tous les éléments graphiques référencés nécessaires, sous la forme de pages simples, de planches de deux pages ou dans un format multi-page. Organisez les pages en nommant les fichiers selon un ordre alphanumérique. Placez tous les fichiers PDF du catalogue électronique dans un dossier unique en vue de faciliter le téléchargement. Vous pouvez sélectionner des options de recadrage lors du téléchargement afin de supprimer la zone de rognage des fichiers PDF, notamment les traits de coupe, les repères de montage ou les gammes de couleurs. La plupart des fichiers PDF « bon à tirer » sont caractérisés par l’espace colorimétrique CMJN ; il est donc important d’obtenir le profil colorimétrique ICC CMJN utilisé avec vos fichiers PDF. |
 | Modèles | Image superposée ou disposition pouvant inclure du texte, des images et des calques. Les calques d’image, les chaînes de texte et les attributs, comme la couleur et la taille, peuvent être paramétrés de manière à pouvoir personnaliser les données variables. Pour les modèles, les exigences sont les mêmes que pour les autres images. Préparez vos images dans Photoshop ou un autre éditeur d’images. Enregistrez chaque image sous forme de fichier transparent aplati au format TIFF ou PNG. Assurez-vous que la résolution de l’image est adaptée à l’utilisation qui en sera faite. Les images pour impression sont de 300 ppp. |
 | Vidéos | Adobe Dynamic Media Classic prend en charge les fichiers vidéo enregistrés aux formats OGV et MP4. Vous pouvez transcoder des fichiers au format MP4 lors du téléchargement. Voir [Formats de fichiers pris en charge](#supported-static-file-formats). |
 | Polices | Uploaded TrueType, `Type1` (Windows® uniquement), polices OpenType® et polices PhotoFonts. |
@@ -116,7 +116,7 @@ Etant donné que l’extension est ôtée du nom du fichier durant le processus 
 
 Assurez-vous que tous les utilisateurs de votre entreprise comprennent les règles suivantes pour nommer les fichiers :
 
-* Les ID de fichier présentant exactement le même nom ne sont pas autorisés dans le système.
+* Les identifiants de ressources portant le même nom ne sont pas autorisés dans le système.
 * Les noms d’ID de ressource sont sensibles à la casse.
 * Il est recommandé de s’assurer que les ID de fichier ne contiennent pas d’espace (par exemple, veste noire.tif et veste bleue.jpg). Adobe Dynamic Media Classic code les espaces vides dans les noms de ressources à l’aide de noms de ressources pour créer des chaînes d’URL. Ces codes ASCII sont difficiles à lire, ce qui rend également plus difficile la lecture de ces chaînes.
 * Les caractères spécifiques aux langues sont autorisés dans les noms de fichier, à l’exception des caractères suivants :
@@ -141,7 +141,7 @@ Organisez et structurez les dossiers et les sous-dossiers de votre contenu dans 
 
 L’approche et la structure de nommage de dossiers que vous choisissez pour stocker votre contenu dans Adobe Dynamic Media Classic dépendent des besoins de votre entreprise. Voici quelques exemples de structure de dossiers :
 
-**Basé sur les SKU**: les dossiers sont nommés en fonction des SKU ou des numéros d’élément. Par exemple, des dossiers distincts sont créés pour les séries de numéros 0-, 20-, 30-.
+**Basé sur les SKU**: les dossiers sont nommés en fonction des SKU ou des numéros d’élément. Par exemple, des dossiers distincts sont créés pour toutes les séries 0, 20 et 30.
 
 **Marque**: pour les fabricants disposant de plusieurs marques et les détaillants qui commercialisent d’autres marques d’autres sociétés, séparez les fichiers en dossiers de produits nommés pour différentes marques.
 
@@ -166,7 +166,7 @@ L’application de bureau Adobe Dynamic Media Classic vous permet de télécharg
 1. Sur le côté gauche de la page Télécharger, dans la variable **[!UICONTROL Sélection de fichiers à télécharger]** zone, sélectionnez **[!UICONTROL Parcourir]** pour sélectionner les fichiers ou les dossiers à charger, puis sélectionnez **[!UICONTROL Ouvrir]**.
 1. Sur le côté droit de la page Télécharger, dans la **Destination du dossier** , accédez à un dossier de destination dans lequel vous souhaitez que les fichiers ou dossiers chargés soient ajoutés.
 1. (Facultatif) Près du bas de la page Télécharger, dans le champ de texte Nom de la tâche , saisissez le nouveau nom de la tâche de téléchargement. Vous pouvez également utiliser le nom généré par le système par défaut fourni par Adobe Dynamic Media Classic. Les tâches de téléchargement et de publication sont enregistrées sur la page Tâches, où vous pouvez vérifier l’état des tâches. (voir [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)).
-1. (Facultatif) Dans la partie inférieure de la page Télécharger, sélectionnez **[!UICONTROL Publier après le téléchargement]** si vous souhaitez publier automatiquement les ressources que vous chargez.
+1. (Facultatif) Dans la partie inférieure de la page Télécharger, sélectionnez **[!UICONTROL Publier après le téléchargement]** vous pouvez ainsi publier automatiquement les ressources que vous chargez.
 Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
 1. (Facultatif) Dans la partie inférieure de la page Télécharger, sélectionnez **[!UICONTROL Écraser dans un dossier, même nom de fichier, extension indépendante]** si vous souhaitez que les fichiers que vous téléchargez remplacent les fichiers existants portant le même nom. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
 Le nom de cette option peut être différent, en fonction des paramètres définis dans **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Téléchargement vers l’application]** > **[!UICONTROL Remplacer les images]**.
@@ -176,7 +176,7 @@ Le nom de cette option peut être différent, en fonction des paramètres défin
 
 1. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Enregistrer]**.
 1. Dans le coin inférieur droit de la page Télécharger, sélectionnez **[!UICONTROL Envoyer le téléchargement]**.
-Pour afficher la progression du chargement, sélectionnez **[!UICONTROL Tâches]** dans la barre de navigation globale. Vous pouvez continuer à travailler dans Adobe Dynamic Media Classic et revenir à la page Tâches à tout moment pour passer en revue une tâche en cours. Pour annuler une tâche de téléchargement en cours, cliquez sur **[!UICONTROL Annuler]** en regard de la durée.
+Pour afficher la progression du chargement, sélectionnez **[!UICONTROL Tâches]** dans la barre de navigation globale. Vous pouvez continuer à travailler dans Adobe Dynamic Media Classic. Revenez à tout moment à la page Tâches pour consulter une tâche en cours. Pour annuler une tâche de téléchargement en cours, cliquez sur **[!UICONTROL Annuler]** en regard de la durée.
 
 ### Chargement de fichiers à l’aide de l’onglet FTP via {#upload-files-using-via-ftp}
 
@@ -187,11 +187,11 @@ Pour afficher la progression du chargement, sélectionnez **[!UICONTROL Tâches]
 1. Sur le côté droit de la page Télécharger, dans la **[!UICONTROL Destination du dossier Dynamic Media Adobe]** , choisissez un dossier de destination dans Adobe Dynamic Media Classic.
 1. (Facultatif) Près du bas de la page Télécharger, dans le champ de texte Nom de la tâche , saisissez le nouveau nom de la tâche de téléchargement. Vous pouvez également utiliser le nom généré par le système par défaut fourni par Adobe Dynamic Media Classic. Les tâches de téléchargement et de publication sont enregistrées sur la page Tâches, où vous pouvez vérifier l’état des tâches.
 (voir [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)).
-1. (Facultatif) Dans la partie inférieure de la page Télécharger, sélectionnez **[!UICONTROL Publier après le téléchargement]** si vous souhaitez publier automatiquement les ressources que vous chargez.
+1. (Facultatif) Dans la partie inférieure de la page Télécharger, sélectionnez **[!UICONTROL Publier après le téléchargement]** vous pouvez ainsi publier automatiquement les ressources que vous chargez.
 Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
 1. (Facultatif) Dans la partie inférieure de la page Télécharger, sélectionnez **[!UICONTROL Écraser dans un dossier, même nom de fichier, extension indépendante]** si vous souhaitez que les fichiers que vous téléchargez remplacent les fichiers existants portant le même nom. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
 Le nom de cette option peut être différent, en fonction des paramètres définis dans **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Téléchargement vers l’application]** > **[!UICONTROL Remplacer les images]**.
-1. Facultatif ; disponible uniquement si vous avez sélectionné l’option **[!UICONTROL VIA FTP]** . Près du bas de la page Télécharger, sélectionnez **[!UICONTROL Décompresser les fichiers Zip ou Tar lors du téléchargement]** si vous souhaitez extraire automatiquement tous les fichiers de votre fichier ZIP ou TAR chargé. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
+1. Facultatif ; disponible uniquement si vous avez sélectionné l’option **[!UICONTROL VIA FTP]** . Près du bas de la page Télécharger, sélectionnez **[!UICONTROL Décompresser les fichiers Zip ou Tar lors du téléchargement]** vous pouvez ainsi extraire automatiquement tous les fichiers à partir du fichier ZIP ou TAR transféré. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
 1. Dans le coin inférieur droit de la page Télécharger, sélectionnez **[!UICONTROL Options de tâche]**, puis spécifiez les options de votre choix.
 
    Voir [Options de téléchargement](uploading-files.md#upload_options).
@@ -199,7 +199,7 @@ Le nom de cette option peut être différent, en fonction des paramètres défin
 1. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Enregistrer]**.
 1. Dans le coin inférieur droit de la page Télécharger, sélectionnez **[!UICONTROL Envoyer le téléchargement]**.
 
-   Pour afficher la progression du chargement, dans la barre de navigation globale, sélectionnez **[!UICONTROL Tâches]**. La page Tâches présente la progression du téléchargement. Vous pouvez continuer à travailler dans Adobe Dynamic Media Classic et revenir à la page Tâches à tout moment pour passer en revue une tâche en cours.
+   Pour afficher la progression du chargement, dans la barre de navigation globale, sélectionnez **[!UICONTROL Tâches]**. La page Tâches présente la progression du téléchargement. Vous pouvez continuer à travailler dans Adobe Dynamic Media Classic. Revenez à tout moment à la page Tâches pour consulter une tâche en cours.
 
 Pour annuler une tâche de téléchargement en cours, cliquez sur **[!UICONTROL Annuler]** en regard de la durée.
 
@@ -209,7 +209,7 @@ Lors du téléchargement de fichiers, vous pouvez choisir l’une des options su
 
 * **TÂCHE**: sélectionnez **[!UICONTROL TÂCHE]** pour sélectionner les options qui affectent l’ensemble de la tâche de téléchargement.
 
-  Vous pouvez également choisir *default* options de téléchargement de tâches à l’aide du **[!UICONTROL Options de téléchargement par défaut]** dans Paramètres généraux. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Options de téléchargement par défaut]**, puis définissez les options par défaut de votre choix.
+  Vous pouvez également sélectionner la variable *default* options de téléchargement de tâches à l’aide du **[!UICONTROL Options de téléchargement par défaut]** dans Paramètres généraux. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Options de téléchargement par défaut]**, puis définissez les options par défaut de votre choix.
 
    * **[!UICONTROL When]**: cette option n’est disponible que si vous avez sélectionné l’option **[!UICONTROL VIA FTP]** .
       * **[!UICONTROL Unique]**: spécifiez une tâche de téléchargement qui s’exécute une fois. Les options disponibles sont les suivantes :
@@ -221,12 +221,12 @@ Lors du téléchargement de fichiers, vous pouvez choisir l’une des options su
          * **[!UICONTROL Mensuel]**: sélectionnez un jour spécifique du mois ou de la semaine, y compris l’heure de début, auquel vous souhaitez que la tâche s’exécute.
          * **[!UICONTROL Personnalisé]**: personnalisez un intervalle de temps de tâche de téléchargement ou de publication selon vos propres spécifications. Voir [Création d’un intervalle de temps de tâche de téléchargement ou de publication personnalisé](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
 
-   * **[!UICONTROL Publier après le téléchargement]**: disponible si vous avez sélectionné l’une des options suivantes : **[!UICONTROL À PARTIR DU BUREAU]** ou le **[!UICONTROL VIA FTP]** . Sélectionnez cette option pour publier automatiquement les fichiers que vous téléchargez. Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Cette option est également disponible sur la page de téléchargement.
+   * **[!UICONTROL Publier après le téléchargement]**: disponible si vous avez sélectionné l’une des options suivantes : **[!UICONTROL À PARTIR DU BUREAU]** ou le **[!UICONTROL VIA FTP]** . Sélectionnez cette option pour publier automatiquement les ressources que vous chargez. Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Cette option est également disponible sur la page de téléchargement.
 
    * **[!UICONTROL Écraser dans un dossier, même nom de fichier, extension indépendante]**: disponible si vous avez sélectionné l’une des options suivantes : **[!UICONTROL À PARTIR DU BUREAU]** ou le **[!UICONTROL VIA FTP]** . Permet de remplacer des fichiers existants portant le même nom que les fichiers que vous téléchargez. Cette option est également disponible sur la page de téléchargement. Le nom de cette option peut être différent, en fonction des paramètres définis dans **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Téléchargement vers l’application]** > **[!UICONTROL Remplacer les images]**.
 
    * **[!UICONTROL Décompresser les fichiers Zip ou Tar lors du téléchargement]**: disponible si vous avez sélectionné l’une des options suivantes : **[!UICONTROL À PARTIR DU BUREAU]** ou le **[!UICONTROL VIA FTP]** .
-Sélectionnez cette option si vous souhaitez extraire automatiquement tous les fichiers de votre fichier ZIP ou TAR chargé. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
+Sélectionnez cette option pour extraire automatiquement tous les fichiers de votre fichier ZIP ou TAR chargé. Cette même option est également disponible dans la boîte de dialogue Options de tâche.
 
    * **[!UICONTROL Inclure les sous-dossiers]**: disponible uniquement si vous avez sélectionné l’événement **[!UICONTROL VIA FTP]** .
 Permet de télécharger les sous-dossiers du dossier que vous avez l’intention de télécharger. Les noms du dossier et de ses sous-dossiers que vous chargez sont automatiquement renseignés dans Adobe Dynamic Media Classic.
@@ -234,7 +234,7 @@ Permet de télécharger les sous-dossiers du dossier que vous avez l’intention
    * **[!UICONTROL Traitement des fichiers de métadonnées]**: disponible uniquement si vous avez sélectionné l’une des options suivantes : **[!UICONTROL VIA FTP]** . Sélectionnez cette option si vous souhaitez charger un fichier XML ou délimité par des tabulations afin d’ajouter des métadonnées à plusieurs ressources.
 Voir [Importer des métadonnées (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
-* **Options de recadrage**: pour recadrer automatiquement les pixels d’espace blanc d’une image, ouvrez le **[!UICONTROL Recadrer]** menu, sélectionnez **[!UICONTROL Manuel]**, puis saisissez des mesures en pixels dans les champs de texte Haut, Droite, Bas et Gauche pour effectuer un recadrage à partir des côtés. Vous pouvez également sélectionner **[!UICONTROL Rogner]** dans le menu Recadrer et sélectionnez les options suivantes :
+* **Options de recadrage**: recadre automatiquement les pixels d’espace blanc d’une image. Ouvrez le **[!UICONTROL Recadrer]** menu, sélectionnez **[!UICONTROL Manuel]**, puis saisissez des mesures en pixels dans les champs de texte Haut, Droite, Bas et Gauche pour effectuer un recadrage à partir des côtés. Vous pouvez également sélectionner **[!UICONTROL Rogner]** dans le menu Recadrer et sélectionnez les options suivantes :
 
    * **[!UICONTROL Rogner en fonction de]**: choisissez si vous souhaitez recadrer en fonction de la couleur ou de la transparence :
       * **[!UICONTROL Couleur]**: choisissez l’option Couleur . Sélectionnez ensuite le menu Coin et choisissez l’angle de l’image dont la couleur représente le mieux l’espace blanc que vous souhaitez recadrer.
@@ -271,7 +271,7 @@ Voir [Utilisation des paramètres prédéfinis de codage vidéo](uploading-encod
 Voir [Réaliser une recherche avancée](searching-assets.md#conducting_an_advanced_search).
 Voir aussi [Téléchargement de mots-clés](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) vidéo de formation.
 
-* **Paramètres prédéfinis d’ensemble par lot**: si vous souhaitez créer une visionneuse d’images, une visionneuse à 360° ou une série d’échantillons à partir des fichiers transférés, sélectionnez la variable **[!UICONTROL Actif]** pour le paramètre prédéfini que vous souhaitez utiliser. Rien ne vous empêche de sélectionner plusieurs paramètres prédéfinis. Vous créez les paramètres prédéfinis sur la page Configuration de l’application/Paramètres prédéfinis d’ensemble par lot .
+* **Paramètres prédéfinis d’ensemble par lot**: pour créer une visionneuse d’images, à 360° ou d’échantillons à partir des fichiers transférés, sélectionnez la variable **[!UICONTROL Actif]** pour le paramètre prédéfini que vous souhaitez utiliser. Rien ne vous empêche de sélectionner plusieurs paramètres prédéfinis. Vous pouvez créer les paramètres prédéfinis sur la page Configuration de l’application/Paramètres prédéfinis d’ensemble par lot .
 (voir [Paramètres prédéfinis d’ensemble par lot](application-setup.md#batch_set_presets)).
 
 * **Avancé**: Voir [Suivre un chargement avec une autre tâche](uploading-files.md#follow-an-upload-with-another-job).

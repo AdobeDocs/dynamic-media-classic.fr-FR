@@ -10,9 +10,9 @@ role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '216'
 ht-degree: 36%
 
 ---
@@ -23,7 +23,7 @@ Vous pouvez utiliser des fichiers Adobe PostScript® (EPS) et Adobe® Illustrato
 
 Lorsque vous téléchargez des fichiers d’image PostScript (EPS) ou Illustrator (AI), vous pouvez les formater différemment. Vous pouvez pixelliser les fichiers, les convertir au format FXG pour le module de publication à l’aide de modèles prédéfinis, conserver l’arrière-plan transparent, choisir une résolution et sélectionner un espace colorimétrique. Les options de formatage des fichiers PostScript et Illustrator sont disponibles dans les sections Options PostScript et Options Illustrator de la boîte de dialogue Télécharger les options de la tâche. 
 
-* **[!UICONTROL Traitement]**: Choose **[!UICONTROL Pixelliser]** pour convertir des graphiques vectoriels dans le fichier au format bitmap.
+* **[!UICONTROL Traitement]**: Choose **[!UICONTROL Pixelliser]** pour convertir les graphiques vectoriels du fichier au format bitmap.
 
 * **[!UICONTROL Conserver L’Arrière-Plan Transparent Dans L’Image Rendu]**: conserve la transparence en arrière-plan du fichier.
 

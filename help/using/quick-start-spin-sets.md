@@ -10,10 +10,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 23%
+source-wordcount: '803'
+ht-degree: 21%
 
 ---
 
@@ -55,7 +55,7 @@ Voir [Création d’une visionneuse à 360°](creating-spin-set.md#creating-a-sp
 
 ## 3. Modification d’une visionneuse à 360°
 
-Pour modifier une visionneuse à 360°, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**. Sélectionnez une visionneuse, puis cliquez sur **[!UICONTROL Modifier]**. Ajoutez, supprimez des images et modifiez leur position. Vous pouvez modifier la position des lignes des visionneuses à 360° bidimensionnelles. 
+Pour modifier une visionneuse à 360°, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**. Sélectionnez une visionneuse à 360°, puis cliquez sur **[!UICONTROL Modifier]**. Ajoutez, supprimez des images et modifiez leur position. Vous pouvez modifier la position des lignes dans les visionneuses à 360° en deux dimensions.
 
 Voir [Modification d’une visionneuse à 360°](creating-spin-set.md#editing-a-spin-set).
 
@@ -85,6 +85,6 @@ Voir [Publication d’une visionneuse à 360°](publishing-spin-set.md#publishin
 
 Adobe Dynamic Media Classic crée des chaînes d’légende URL pour les visionneuses à 360° et les active une fois que vous les avez publiées. Vous pouvez copier ces URL à partir de la page Aperçu .
 
-Sélectionnez la visionneuse à 360°, puis cliquez sur **[!UICONTROL Aperçu]**. Sélectionnez un paramètre prédéfini de visionneuse à 360°. Sélectionnez **[!UICONTROL Copier l’URL]**.
+Sélectionnez la visionneuse à 360°, puis cliquez sur **[!UICONTROL Aperçu]**. Sélectionnez un paramètre prédéfini de visionneuse à 360°. Sélectionnez ensuite le **[!UICONTROL Copier l’URL]**.
 
 Voir [Liaison d’une visionneuse à 360° à une page web](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page).

@@ -10,10 +10,10 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 26%
+ht-degree: 25%
 
 ---
 
@@ -92,7 +92,7 @@ Voir [Création de zones cliquables de catalogue électronique](creating-ecatalo
 
 Voir [Utilisation de zones cliquables pour incorporer des médias riches dans un catalogue électronique](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
 
-Vous pouvez configurer et gérer le texte de zone cliquable à l’aide des paramètres du panneau d’informations de l’écran Catalogue électronique.
+Vous pouvez configurer et gérer le texte de la zone cliquable à l’aide des paramètres du panneau d’informations de l’écran Catalogue électronique.
 
 Voir [Gestion du contenu du panneau Informations dans les catalogues électroniques](/help/using/info-panel-content-ecatalog.md).
 

@@ -10,9 +10,9 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '777'
 ht-degree: 21%
 
 ---
@@ -41,9 +41,9 @@ Voir [Ajout et modification de paramètres prédéfinis de visionneuse](applicat
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic fournit une méthode pratique pour prévisualiser une vidéo MP4 sur le bureau. Utilisez cette méthode pour prévisualiser du contenu mobile sur le Bureau sans le tester concrètement sur des périphériques mobiles. Notez toutefois que ce qui est affiché dans l’aperçu de bureau n’indique pas de manière réaliste à quoi ressemble la lecture sur l’appareil mobile. Pour prévisualiser l’aspect et la lecture d’une vidéo sur un appareil mobile, accédez à l’écran Prévisualisation , puis sélectionnez **[!UICONTROL Copier l’URL]**, puis saisissez cette URL dans le navigateur Web d’un appareil mobile. Pour plus d’informations, voir [Déployer une vidéo sur vos sites web et vos sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic fournit une méthode pratique pour prévisualiser une vidéo MP4 sur le bureau. Utilisez cette méthode pour prévisualiser du contenu mobile sur le Bureau sans le tester concrètement sur des périphériques mobiles. Notez toutefois que ce qui est affiché dans l’aperçu de bureau n’indique pas de manière réaliste à quoi ressemble la lecture sur l’appareil mobile. Pour prévisualiser l’aspect et la lecture de la vidéo sur un appareil mobile, accédez à l’écran Prévisualisation . Cliquez sur **[!UICONTROL Copier l’URL]**, puis saisissez cette URL dans le navigateur Web d’un appareil mobile. Pour plus d’informations, voir [Déployer une vidéo sur vos sites web et vos sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
-## Utilisation des paramètres prédéfinis de visionneuse de vidéos {#working-with-video-viewer-presets}
+## Utilisation de paramètres prédéfinis de visionneuse vidéo {#working-with-video-viewer-presets}
 
 Les vidéos sont regardées dans la visionneuse vidéo. Le comportement de la visionneuse de vidéos, son aspect et le fonctionnement de ses commandes de lecture dépendent du paramètre prédéfini de visionneuse que vous choisissez pour lire la vidéo. Vous choisissez un paramètre prédéfini de la visionneuse sur l’écran de prévisualisation. Après avoir choisi un paramètre prédéfini, vous pouvez obtenir l’URL, ou le code intégré, permettant de lire la vidéo à l’aide du paramètre prédéfini de visionneuse que vous avez choisi.
 
@@ -67,7 +67,7 @@ Voir aussi [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/h
 
 1. Dans le coin supérieur droit d’Adobe Dynamic Media Classic, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 
-   Pour afficher uniquement les paramètres prédéfinis pour les visionneuses de vidéos, sélectionnez Visionneuse de vidéos dans la liste déroulante Visionneuses ouverte de la barre d’outils directement au-dessus du tableau.
+   Vous pouvez choisir de n’afficher que les paramètres prédéfinis pour les visionneuses vidéo. Dans la barre d’outils située directement au-dessus du tableau, sélectionnez Visionneuse de vidéos dans la liste déroulante Visionneuses ouverte .
 
 1. Ajoutez ou modifiez un paramètre prédéfini de visionneuse pour l’affichage vidéo :
 

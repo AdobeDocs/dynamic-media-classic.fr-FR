@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 86537998-b7e9-449c-83eb-6fd04533a00f
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 1%
@@ -27,6 +27,6 @@ Utilisez la liste de contrôle suivante pour vous aider à comprendre et prépar
 | **Phase 4 : mise à niveau** | Réplication des ressources | Lors de la mise à niveau, désigné [!DNL Dynamic Media Classic] Les ressources sont répliquées vers Dynamic Media. |
 | **Phase 5 : configuration administrative** | Configuration des utilisateurs et des autorisations | Créez des utilisateurs et accordez les autorisations appropriées. |
 |   | Configuration des profils de codage vidéo | Créez des profils de codage vidéo. |
-|   | Configuration des paramètres prédéfinis de visionneuse | Créez des paramètres prédéfinis de visionneuse. |
+|   | Configuration de paramètres prédéfinis de visionneuse | Création de paramètres de visionneuse prédéfinis. |
 |   | Définition des paramètres d’image prédéfinis | Configuration de paramètres d’image prédéfinis. |
 | **Phase 6 : validation** | Validation | Vérifiez les cas d’utilisation, les ressources, les liens et les API. |

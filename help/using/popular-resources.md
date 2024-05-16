@@ -7,10 +7,10 @@ role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 * [Conception pour l’optimisation mobile](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): utilisation d’Adobe Dynamic Media Classic pour une diffusion efficace de médias riches ciblés sur tous les appareils. Ce webinaire vous explique comment concevoir et diffuser des expériences d’imagerie et de visionnage vidéo efficaces sur des applications mobiles et des sites réactifs.
 * [Prise en charge de l’optimisation pour les moteurs de recherche par Adobe Dynamic Media Classic](/help/using/assets/s7_seo.pdf): les moteurs de recherche activent aujourd’hui la recherche de sites web et d’images. Adobe Dynamic Media Classic prend en charge les efforts visant à rendre les images plus conviviales pour le moteur de recherche, de sorte que plus de trafic soit dirigé vers le site web de l’utilisateur Adobe Dynamic Media Classic. Ce PDF vous donne les informations générales et les conseils de mise en oeuvre pour que cela se produise.
 * [Utiliser Adobe Dynamic Media Classic pour maximiser la conversion des fêtes](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true): ce webinaire vous explique comment configurer des processus automatisés pour obtenir du contenu à partir de dossiers de contrôle et créer automatiquement des visionneuses à 360° et des vidéos. Vous pouvez également rapidement gérer les modifications et mettre à jour les images.
-* [Bonnes pratiques pour diffuser des expériences interactives avec Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/): ce webinaire vous explique comment intégrer et exporter du contenu dans Adobe Dynamic Media Classic. Découvrez comment configurer des paramètres d’image prédéfinis pour des performances et une expérience optimales. Il présente également les paramètres prédéfinis de la visionneuse et les configurations de mise en mémoire cache.
+* [Bonnes pratiques pour diffuser des expériences interactives avec Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/): ce webinaire vous explique comment intégrer et exporter du contenu dans Adobe Dynamic Media Classic. Découvrez comment configurer des paramètres d’image prédéfinis pour des performances et une expérience optimales. Vous en apprendrez également davantage sur les paramètres prédéfinis de la visionneuse et les configurations de mise en cache.
 * [Bonnes pratiques relatives à la conception réactive](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): ce webinaire vous fournit des conseils pratiques pour améliorer votre stratégie mobile. Consultez des exemples réels de conception adaptée. Créez une ressource principale qui fonctionne sur plusieurs périphériques. Augmentez les performances mobiles en modifiant dynamiquement la résolution des images. Vous pouvez également orienter les images pour les affichages en mode portrait ou paysage. Découvrez également comment recadrer, mettre à l’échelle ou redimensionner des images de manière dynamique.
 
 ## Formation Adobe Dynamic Media Classic

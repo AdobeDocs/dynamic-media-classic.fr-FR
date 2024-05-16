@@ -9,9 +9,9 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1974'
 ht-degree: 32%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 32%
 
 # Configuration de l’administration{#administration-setup}
 
-Les écrans Configuration de l’administration permettent d’administrer les utilisateurs d’Adobe Dynamic Media Classic. Utilisez ces écrans pour permettre aux utilisateurs de travailler dans Adobe Dynamic Media Classic et de communiquer par e-mail avec les utilisateurs.
+Les écrans Configuration de l’administration permettent d’administrer les utilisateurs d’Adobe Dynamic Media Classic. Utilisez ces écrans pour permettre aux utilisateurs de travailler dans Adobe Dynamic Media Classic et de communiquer par e-mail avec d’autres utilisateurs.
 
 1. Pour accéder aux options Configuration de l’administration , accédez à **Configuration** > **Configuration personnelle** > **Configuration de l’administration**.
 
@@ -28,7 +28,7 @@ Les écrans Configuration de l’administration permettent d’administrer les u
 
 Un rôle est attribué à tous les utilisateurs d’Adobe Dynamic Media Classic afin de déterminer leurs privilèges et leurs droits d’accès aux fonctionnalités d’Adobe Dynamic Media Classic. Les administrateurs définissent les différents rôles et responsabilités pour les entreprises auxquelles ils sont affectés.
 
-En règle générale, Adobe Dynamic Media Classic configure le premier ensemble de sociétés et affecte un administrateur de société. L’administrateur de l’entreprise configure et administre ensuite les utilisateurs d’Adobe Dynamic Media Classic.
+En règle générale, Adobe Dynamic Media Classic configure le premier ensemble d’entreprises et affecte un administrateur d’entreprise. L’administrateur d’entreprise configure et administre ensuite les utilisateurs Adobe Dynamic Media Classic.
 
 Adobe Dynamic Media Classic prend en charge plusieurs rôles utilisateur. Ces rôles peuvent accéder aux entreprises configurées pour Adobe Dynamic Media Classic :
 
@@ -109,7 +109,7 @@ Vous pouvez utiliser les techniques de filtrage par liste d’utilisateurs suiva
 
 * **Filtrage des utilisateurs non valides**: désélectionner **[!UICONTROL Inclure non valide]**. Les résultats de la recherche affichent uniquement les utilisateurs présents dans le système. Les utilisateurs non valides ont été supprimés du système et des comptes que vous administrez.
 
-* **Tri par en-tête de colonne**: sélectionnez un en-tête pour trier tous les utilisateurs selon leur état, par ordre alphabétique de prénom, nom ou adresse électronique, par rôle d’utilisateur ou par statut valide/non valide.
+* **Tri par en-tête de colonne**: sélectionnez un en-tête pour trier tous les utilisateurs selon leur état, par ordre alphabétique de prénom, nom ou adresse électronique. Ou triez par rôle utilisateur ou par statut valide/non valide.
 
 Si les utilisateurs sont trop nombreux, vous pouvez limiter la taille de la liste en sélectionnant le menu Taille liste max., puis en choisissant une valeur.
 
@@ -154,7 +154,7 @@ Le tableau suivant décrit les rapports que vous pouvez générer à partir de l
 | Rapport | Informations | Utilité |
 |:--- |:--- |:--- |
 | Bande passante | Utilisation de la bande passante par entreprise | Observe l’utilisation de la bande passante par entreprise dans un intervalle de temps spécifié afin de définir des schémas de trafic. |
-| Stockage | Utilisation de l’espace de stockage | Observe la quantité de données téléchargées par une entreprise. |
+| Stockage | Utilisation de l’espace de stockage | Permet de suivre la quantité de données chargées par l’entreprise. |
 | Contenu de l’image | Nombre de demandes d’images par type | Observe le nombre de demandes et le volume pour différents types d’images. |
 | Domaine | Nombre de demandes d’URL par domaine | Observe l’utilisation des images en fonction du domaine de la demande d’image pour une entreprise spécifique. (Adobe Dynamic Media Classic peut fournir plusieurs domaines par compte. Pour plus d’informations, contactez l’assistance technique.) |
 | Diffusion de vidéo en flux continu | Utilisation de la bande passante pour la diffusion de vidéo en flux continu | Observe l’utilisation de la diffusion de vidéo en flux continu par entreprise dans un intervalle de temps spécifié afin de définir des schémas de trafic. |
@@ -170,9 +170,9 @@ Le rapport Contenu de l’image fournit des informations sur les requêtes pour 
 
 * **Requête de mosaïque de visionneuse**: demandes d’image chargées par une visionneuse.
 
-* **Requête D’Objet Vnt**: demandes de rendu d’image qui renvoient une image avec des objets spécifiés dans les vignettes demandées.
+* **Demande d’objet VNT**: demandes de rendu d’image qui renvoient une image avec des objets spécifiés dans les vignettes demandées.
 
-* **Requête Infos Vnt**: demandes de rendu d’image qui renvoient des informations relatives aux vignettes demandées.
+* **Demande d’informations VNT**: demandes de rendu d’image qui renvoient des informations relatives aux vignettes demandées.
 
 >[!NOTE]
 >
@@ -202,7 +202,7 @@ Après avoir généré un rapport sur la page Bande passante et stockage, vous p
 
 * **Période personnalisée**: dans le menu Rapport prédéfini, sélectionnez **[!UICONTROL Personnalisé]**. Sélectionnez ensuite une date sur la page **[!UICONTROL Mois de début]** (ou **[!UICONTROL Date de début]**) et une date dans le menu Nombre de mois (ou Nombre ou Jours) . Pour les rapports de domaine ou de contenu vidéo, vous pouvez choisir une date de début et une date de fin spécifiques pour la capture des informations du rapport.
 
-* **Tri des données (vue Données uniquement)**: pour trier les informations sur une colonne, sélectionnez l’en-tête de la colonne. Sélectionnez à nouveau pour trier dans l’ordre décroissant.
+* **Tri des données (vue Données uniquement)**: triez les informations dans une colonne. Sélectionnez l’en-tête de la colonne. Sélectionnez à nouveau pour trier dans l’ordre décroissant.
 
 * **Réorganiser les colonnes (vue Données uniquement)**: pour déplacer une colonne vers un autre emplacement de la grille de données, faites glisser son en-tête.
 
