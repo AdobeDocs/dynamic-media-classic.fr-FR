@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 17%
@@ -19,7 +19,7 @@ ht-degree: 17%
 
 # Recherche de ressources dans Adobe Dynamic Media Classic{#searching-assets}
 
-Pour localiser des ressources de fichier dans Adobe Dynamic Media Classic, vous pouvez afficher les ressources par type, les trier dans le panneau de navigation, lancer une recherche simple, lancer une recherche avancée et filtrer les ressources.
+Pour localiser des ressources de fichier dans Adobe Dynamic Media Classic, vous pouvez afficher les ressources par type, les trier dans le panneau Parcourir, lancer une recherche simple, lancer une recherche avancée et filtrer les ressources.
 
 >[!NOTE]
 >
@@ -33,9 +33,9 @@ Pour afficher uniquement les fichiers d’un certain type au fur et à mesure de
 >
 >Si le panneau Bibliothèque de ressources ne s’affiche pas sur le côté gauche, cliquez sur la flèche du triangle droit sur le côté gauche, à mi-chemin de la fenêtre Dynamic Media Classic, pour ouvrir la bibliothèque de ressources.
 
-## Tri des fichiers dans le panneau de navigation {#sorting-files-in-the-browse-panel}
+## Tri des fichiers dans le panneau Parcourir {#sorting-files-in-the-browse-panel}
 
-Vous pouvez trier le contenu d’un dossier ou les résultats de recherche qui apparaissent dans le panneau de navigation sur le côté droit. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Tri]**, puis sélectionnez une option. Les options disponibles sont les suivantes : **[!UICONTROL Nom]**, **[!UICONTROL Taille (Ko)]**, **[!UICONTROL Type]**, **[!UICONTROL Date de création]**, et **[!UICONTROL Dernière modification]**.
+Vous pouvez trier le contenu d’un dossier ou les résultats de recherche qui apparaissent dans le panneau Parcourir à droite. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Tri]**, puis sélectionnez une option. Les options disponibles sont les suivantes : **[!UICONTROL Nom]**, **[!UICONTROL Taille (Ko)]**, **[!UICONTROL Type]**, **[!UICONTROL Date de création]**, et **[!UICONTROL Dernière modification]**.
 
 Vous pouvez également choisir **[!UICONTROL ascendant]** ou **[!UICONTROL Descendant]** pour trier les ressources par ordre croissant ou décroissant selon les critères de votre choix.
 
@@ -51,7 +51,7 @@ Utilisez le champ Rechercher de la bibliothèque de ressources pour effectuer de
 1. Dans le champ Rechercher , saisissez un terme à rechercher.
 1. À droite du champ Rechercher , sélectionnez **[!UICONTROL Aller]** ou appuyez sur **[!UICONTROL Entrée]**.
 
-   Les résultats de votre recherche s’affichent dans le panneau de navigation à droite.
+   Les résultats de votre recherche s’affichent dans le panneau Parcourir à droite.
 
 <!-- Does not appear to be working anymore >[!NOTE]
 >
@@ -81,7 +81,7 @@ Spécifiez l’un des critères suivants dans votre recherche avancée :
 
 Sélectionnez la variable **[!UICONTROL Supprimer un champ de recherche]** icône (cercle avec &quot;X&quot; à l’intérieur) afin que le champ de recherche soit supprimé.
 
-Dans le coin inférieur droit du panneau Recherche avancée, sélectionnez **[!UICONTROL Rechercher]** pour lancer votre recherche. Les résultats de la recherche s’affichent dans le panneau de navigation à droite. Vous pouvez modifier n’importe quelle condition de recherche et sélectionner **[!UICONTROL Rechercher]** pour relancer la recherche.
+Dans le coin inférieur droit du panneau Recherche avancée, sélectionnez **[!UICONTROL Rechercher]** pour lancer votre recherche. Les résultats de la recherche s’affichent dans le panneau Parcourir à droite. Vous pouvez modifier n’importe quelle condition de recherche et sélectionner **[!UICONTROL Rechercher]** pour relancer la recherche.
 
 Sélectionner **[!UICONTROL Effacer]** si vous souhaitez effacer les critères de recherche et lancer une nouvelle recherche. Sélectionner **[!UICONTROL Fermer]** lorsque vous avez terminé la recherche pour fermer le panneau Rechercher.
 
@@ -131,7 +131,7 @@ Pour localiser des ressources en filtrant avec leurs valeurs de métadonnées, p
 1. Répétez l’étape 2 autant de fois que nécessaire pour répertorier tous les champs de métadonnées pour l’opération de filtre sur les panneaux.
 1. Dans chaque panneau, sélectionnez une valeur de métadonnées à filtrer Vous ne pouvez pas sélectionner plusieurs valeurs de métadonnées dans chaque panneau.
 
-   Les ressources qui correspondent à toutes les valeurs que vous avez sélectionnées apparaissent dans le panneau de navigation.
+   Les ressources qui correspondent à toutes les valeurs que vous avez sélectionnées apparaissent dans le panneau Parcourir.
 
    >[!NOTE]
    >

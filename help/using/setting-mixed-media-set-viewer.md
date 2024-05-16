@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -30,7 +30,7 @@ Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la commun
    * Pour modifier un paramètre prédéfini de visionneuse de médias mixtes, sélectionnez-le, puis sélectionnez **[!UICONTROL Modifier]**.
 
 1. Sur la page Visionneuse de configuration, saisissez un nom dans la zone Nom du paramètre prédéfini de la visionneuse de médias mixtes.
-1. Spécifier **[!UICONTROL Onglets]** ou **[!UICONTROL Aucun onglet]**. L’option Onglet sépare les éléments par type, par exemple, les vidéos, les échantillons et les images à 360°. Lorsque vous ne spécifiez aucun onglet, tous les éléments s’affichent sur une ligne sous la fenêtre Aperçu.
+1. Spécifier **[!UICONTROL Onglets]** ou **[!UICONTROL Aucun onglet]**. Les onglets séparent les éléments par type, tels que les vidéos, les échantillons et les visionneuses à 360°. Lorsque vous ne spécifiez aucun onglet, tous les éléments s’affichent sur une ligne sous la fenêtre Aperçu.
 1. Dans le **[!UICONTROL Nom]** , saisissez le nom de la visionneuse à ajouter.
 
    Par exemple, si vous ajoutez une série d’échantillons à la visionneuse de médias mixtes, saisissez `Swatch Set A`.

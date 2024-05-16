@@ -10,7 +10,7 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 17%
@@ -41,7 +41,7 @@ Voir [Création et modification de paramètres prédéfinis de visionneuse](appl
 
 ## 4. Prévisualisation d’une série d’échantillons
 
-Sélectionnez la série d’échantillons dans le panneau de navigation, puis sélectionnez **[!UICONTROL Aperçu]**. La série d’échantillons s’affiche sur cette page. Sélectionnez les icônes de miniature et d’échantillon afin d’examiner votre série d’échantillons dans la visionneuse sélectionnée. Différentes visionneuses sont disponibles dans le menu Paramètres prédéfinis.
+Sélectionnez la série d’échantillons dans le panneau Parcourir , puis sélectionnez **[!UICONTROL Aperçu]**. La série d’échantillons s’affiche sur cette page. Sélectionnez les icônes de miniature et d’échantillon afin d’examiner votre série d’échantillons dans la visionneuse sélectionnée. Différentes visionneuses sont disponibles dans le menu Paramètres prédéfinis.
 
 Voir [Aperçu d’une ressource](previewing-asset.md#previewing-an-asset).
 
@@ -49,7 +49,7 @@ Voir [Aperçu d’une ressource](previewing-asset.md#previewing-an-asset).
 
 La publication d’une série d’échantillons la place sur les serveurs Adobe Dynamic Media Classic et active la chaîne URL.
 
-Sélectionnez la variable **[!UICONTROL Marquer pour publication]** à gauche de son nom dans le panneau de navigation. Sélectionnez **[!UICONTROL Publier]**. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
+Sélectionnez la variable **[!UICONTROL Marquer pour publication]** à gauche de son nom dans le panneau Parcourir . Sélectionnez **[!UICONTROL Publier]**. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
 Voir [Publication de fichiers](publishing-files.md#publishing-files).
 

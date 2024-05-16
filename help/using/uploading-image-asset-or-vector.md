@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 53%
+source-wordcount: '1014'
+ht-degree: 51%
 
 ---
 
@@ -30,7 +30,7 @@ Avant de transférer un fichier d’image, vous devez d’abord demander une cl�
 
 ## Demande d’une clé de secret partagé {#requesting-a-shared-secret-key}
 
-Demander une *clé secrète partagée* par [utilisation du Admin Console pour créer un cas d’assistance.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Dans votre cas de prise en charge, demandez une clé de secret partagé.
+Demander une *clé secrète partagée* par [utilisation du Admin Console pour créer un cas d’assistance.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Dans le cas du support technique, demandez une clé de secret partagé.
 
 Dans le message électronique, indiquez le nom d’entreprise que vous voulez utiliser pour transférer les fichiers d’image. Une fois que vous avez reçu la clé d’Adobe Dynamic Media Classic, enregistrez-la localement pour une utilisation ultérieure.
 
@@ -81,7 +81,7 @@ Vous pouvez utiliser les champs suivants dans l’URL de requête pour récupér
 | --- | --- | --- |
 | op | Obligatoire | get_uploadtoken |
 | shared_secret | Obligatoire | Clé secrète partagée de l’entreprise qui effectue le téléchargement. |
-| expires | Facultatif | Durée de validité (en secondes) du jeton de téléchargement. Valeur par défaut : 300 secondes. |
+| expires | Facultatif | Durée de validité (en secondes) du jeton de téléchargement. La valeur par défaut est de 300 secondes, si elle n’est pas spécifiée. |
 
 **Exemple d’URL d’image pixellisée :**
 
@@ -134,7 +134,7 @@ Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier
 * Limite de taille de fichier.
 * Liste des extensions de nom de fichier.
 * Permet de conserver le profil colorimétrique et le nom de fichier associés à la ressource.
-* Indique s’il faut utiliser l’arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les méthodes Coin, Tolérance et Remplir.
+* Utilisation d’un arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les méthodes Coin, Tolérance et Remplir.
 Voir Masquage de l’arrière-plan dans [Options d’optimisation des images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nom du fichier à charger.
 
@@ -181,7 +181,7 @@ Envoyez le fichier à télécharger en tant que publication de formulaire ou en 
 | Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
 | --- | --- | --- |
 | `op` | Obligatoire | charger |
-| `upload_token` | Obligatoire | Jeton de téléchargement pour la clé de secret protégé associée à l’entreprise. |
+| `upload_token` | Obligatoire | Téléchargez un jeton pour la clé de secret partagé associée à l’entreprise. |
 | `company_name` | Obligatoire | Nom de l’entreprise qui réalise le téléchargement. |
 | `file_limit` | Facultatif | Taille limite du fichier (en octets). |
 | `file_exts` | Facultatif | Liste des extensions de fichiers d’image autorisées. |

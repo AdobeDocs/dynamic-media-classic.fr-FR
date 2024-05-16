@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '2207'
 ht-degree: 30%
@@ -45,7 +45,7 @@ Voir aussi [Accentuation](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.ht
 
 **Pour accentuer une image :**
 
-Pour accentuer une image, sélectionnez son survol **[!UICONTROL Modifier]** et choisissez **[!UICONTROL Accentuer]** ou ouvrez-la dans le panneau de navigation de la vue Détails, puis sélectionnez **[!UICONTROL Accentuer]**. La page Éditeur d’accentuation s’ouvre avec des commandes d’accentuation. Choisissez les commandes de votre choix, puis cliquez sur **[!UICONTROL Enregistrer]**.
+Pour accentuer une image, sélectionnez son survol **[!UICONTROL Modifier]** et choisissez **[!UICONTROL Accentuer]** ou ouvrez-la dans le panneau Parcourir de la vue Détails, puis sélectionnez **[!UICONTROL Accentuer]**. La page Éditeur d’accentuation s’ouvre avec des commandes d’accentuation. Choisissez les commandes de votre choix, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 >[!NOTE]
 >

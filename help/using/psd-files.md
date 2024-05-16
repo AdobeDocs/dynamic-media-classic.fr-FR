@@ -10,9 +10,9 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1023'
 ht-degree: 22%
 
 ---
@@ -71,13 +71,13 @@ Les options suivantes sont disponibles au cours du téléchargement des fichiers
 
 ## Affichage et modification des calques dans un fichier de PSD {#viewing-and-editing-layers-in-a-psd-file}
 
-Si vous avez sélectionné l’option **[!UICONTROL Conserver les calques]** lorsque vous avez chargé votre PSD, Adobe Dynamic Media Classic a divisé les calques individuels en ressources. Vous pouvez afficher et modifier les calques de ressources appartenant à un fichier de PSD en ouvrant le fichier dans le panneau de navigation de la vue Détails.
+Si vous avez sélectionné l’option **[!UICONTROL Conserver les calques]** lorsque vous avez chargé votre PSD, Adobe Dynamic Media Classic a divisé les calques individuels en ressources. Vous pouvez afficher et modifier les calques de ressources appartenant à un fichier de PSD en ouvrant le fichier dans le panneau Parcourir de la vue Détails.
 
 >[!NOTE]
 >
 >Adobe Dynamic Media Classic prend en charge jusqu’à cinq niveaux dans un groupe de calques imbriqués.
 
-1. Double-cliquez sur le fichier de PSD complet dans le panneau de navigation. Le fichier s’ouvre dans la vue Détails.
+1. Double-cliquez sur le fichier de PSD complet dans le panneau Parcourir . Le fichier s’ouvre dans la vue Détails.
 
    >[!NOTE]
    >

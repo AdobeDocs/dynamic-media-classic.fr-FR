@@ -10,16 +10,16 @@ role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '338'
 ht-degree: 5%
 
 ---
 
 # Tester l’intégration en affichant un rapport Adobe Analytics{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-Après avoir créé les variables nécessaires dans Adobe Analytics, les avoir liées aux événements Adobe Dynamic Media Classic et avoir suivi les étapes de mise en oeuvre nécessaires, vous pouvez tester la configuration. Vous pouvez tester et vérifier que les données sont capturées dans Adobe Analytics. Si la configuration fonctionne ici, aucune autre étape n’est nécessaire. En supposant que vous ayez suivi les étapes ci-dessus et lié vos données d’événement Adobe Dynamic Media Classic à une ou plusieurs variables de trafic personnalisées, suivez ce processus pour tester vos données dans Adobe Analytics.
+Après avoir créé les variables nécessaires dans Adobe Analytics, les avoir liées aux événements Adobe Dynamic Media Classic et avoir suivi les étapes de mise en oeuvre nécessaires, vous pouvez tester la configuration. Vous pouvez tester et vérifier que les données sont capturées dans Adobe Analytics. Si la configuration fonctionne ici, aucune autre étape n’est nécessaire. En supposant que vous ayez suivi les étapes ci-dessus et lié vos données d’événement Adobe Dynamic Media Classic à une ou plusieurs variables de trafic personnalisé, suivez ce processus pour tester vos données dans Adobe Analytics.
 
 **Pour tester l’intégration en affichant un rapport Adobe Analytics :**
 
@@ -31,7 +31,7 @@ Après avoir créé les variables nécessaires dans Adobe Analytics, les avoir l
 
    Par exemple, pour accéder à la variable **[!UICONTROL LoadAsset]** prop dans l’exemple de compte, le menu approprié est **[!UICONTROL Trafic personnalisé]** > **[!UICONTROL Trafic personnalisé 1-10]** > **[!UICONTROL LoadAsset]**. Si vous disposez de plus de dix props personnalisées, d’autres options de menu s’affichent également.
 
-1. Affichez le diagramme généré par Adobe Analytics. Ce graphique n’est généralement que les données d’une seule mesure. Si vous souhaitez également savoir avec quelle ressource ces données sont associées, obtenez les données de ressource de cet événement. Par exemple, il est souvent utile de savoir quelle vidéo est visionnée à 50 % seulement ou quelle image d’une visionneuse est populaire.
+1. Affichez le diagramme généré par Adobe Analytics. Ce graphique n’est généralement que les données d’une seule mesure. Si vous souhaitez également savoir avec quelle ressource ces données sont associées, obtenez les données de ressource de cet événement. Par exemple, il est souvent utile de savoir quelle vidéo est visionnée uniquement 50 % ou quelle image d’une visionneuse est populaire.
 
 >[!NOTE]
 >

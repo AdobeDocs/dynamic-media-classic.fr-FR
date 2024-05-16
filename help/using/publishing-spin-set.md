@@ -10,7 +10,7 @@ role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 10%
@@ -23,7 +23,7 @@ Lorsque vous publiez une visionneuse à 360°, les images qu’elle contient son
 
 ## Marquage d’une visionneuse à 360° pour publication {#marking-a-spin-set-for-publish}
 
-Marquez la visionneuse à 360° pour qu’elle soit copiée sur les serveurs d’images Adobe Dynamic Media Classic. Vous pouvez marquer votre visionneuse à 360° pour publication dans le panneau de navigation en sélectionnant **[!UICONTROL Marquer pour publication]** à gauche de son nom. Toutes les images de la visionneuse sont marquées pour la publication lorsque vous appliquez le marquage à la visionneuse à 360° elle-même.
+Marquez la visionneuse à 360° pour qu’elle soit copiée sur les serveurs d’images Adobe Dynamic Media Classic. Vous pouvez marquer votre visionneuse à 360° pour publication dans le panneau Parcourir en sélectionnant **[!UICONTROL Marquer pour publication]** à gauche de son nom. Toutes les images de la visionneuse sont marquées pour la publication lorsque vous appliquez le marquage à la visionneuse à 360° elle-même.
 
 ## Publication de la visionneuse à 360° {#publishing-the-spin-set}
 

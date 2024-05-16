@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -116,7 +116,7 @@ Voir [Utilisation des paramètres prédéfinis de codage vidéo](uploading-encod
 
 ## 2. Prévisualisation de vidéos dans une visionneuse de vidéos
 
-Pour découvrir comment une vidéo est lue pour les utilisateurs finaux sur un bureau, votre site web ou sur un appareil mobile, sélectionnez-la dans le panneau de navigation. Sélectionnez **[!UICONTROL Aperçu]**.
+Pour découvrir comment une vidéo est lue pour les utilisateurs finaux sur un bureau, votre site web ou sur un appareil mobile, sélectionnez-la dans le panneau Parcourir . Sélectionnez **[!UICONTROL Aperçu]**.
 
 Voir [Prévisualisation de vidéos dans une visionneuse de vidéos](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
@@ -136,7 +136,7 @@ Pour intégrer la vidéo sur votre site Web, procédez de l’une des manières 
 
 * Affichez la vidéo dans sa propre fenêtre contextuelle ou modale, auquel cas utilisez la fonction **[!UICONTROL Copier l’URL]** fonction .
 
-  Pour obtenir l’URL d’une vidéo, en mode Grille ou Liste, sélectionnez la vidéo dans le panneau de navigation. Sélectionner **[!UICONTROL Aperçu]**, puis sélectionnez **[!UICONTROL Copier l’URL]** à droite de `Universal_HTML5_Viewer`.
+  Pour obtenir l’URL d’une vidéo, en mode Grille ou Liste, sélectionnez-la dans le panneau Parcourir . Sélectionner **[!UICONTROL Aperçu]**, puis sélectionnez **[!UICONTROL Copier l’URL]** à droite de `Universal_HTML5_Viewer`.
 
   Lorsque vous sélectionnez **[!UICONTROL Copier l’URL]**, l’URL est copiée dans le Presse-papiers. Placez ce code dans le code HTML de votre site Web, site mobile ou application.
 
@@ -146,7 +146,7 @@ Pour intégrer la vidéo sur votre site Web, procédez de l’une des manières 
 
 * Affichez la vidéo incorporée dans la page Web, auquel cas utilisez la fonction **[!UICONTROL Code incorporé]** fonction .
 
-  Pour obtenir le code intégré d’une vidéo, en mode Grille ou Liste, sélectionnez la vidéo dans le panneau Parcourir. Accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**. Dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]** à droite de `Universal_HTML5_Video`. Il n’est pas possible de modifier le code.
+  Pour obtenir le code intégré d’une vidéo, en mode Grille ou Liste, sélectionnez la vidéo dans le panneau Parcourir . Accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**. Dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]** à droite de `Universal_HTML5_Video`. Il n’est pas possible de modifier le code.
 
   Sélectionner **[!UICONTROL Fermer]** et collez le code intégré dans une ou plusieurs de vos pages Web.
 

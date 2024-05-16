@@ -6,7 +6,7 @@ user-guide-title: Guide Adobe Dynamic Media Classic
 breadcrumb-title: Guide Dynamic Media Classic
 user-guide-description: En savoir plus sur l’utilisation d’Adobe Dynamic Media Classic
 index: y
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 18%
@@ -110,14 +110,14 @@ ht-degree: 18%
    + [Démarrage rapide : Visionneuses d’images](quick-start-image-sets.md)
    + [Préparation du chargement de ressources de visionneuse d’images](preparing-image-set-assets-upload.md)
    + [Création d’une visionneuse d’images](creating-image-set.md)
-   + [Inclusion de cibles de zoom et de zones cliquables dans les visionneuses d’images](including-zoom-targets-image-maps-image-sets.md)
+   + [Inclure les cibles de zoom et les zones cliquables dans les visionneuses d’images](including-zoom-targets-image-maps-image-sets.md)
    + [Gestion du contenu du panneau Informations dans les visionneuses d’images](info-panel-content-image-sets.md)
    + [Affichage des visionneuses d’images](viewing-image-sets.md)
    + [Automatisation de la génération de visionneuse d’images](automated-image-set-generation.md)
    + [Liaison d’une visionneuse d’images à une page Web](linking-image-set-web-page.md)
 + Séries d’échantillons {#swatch-sets}
    + [Démarrage rapide : Séries d’échantillons](quick-start-swatch-sets.md)
-   + [Inclusion de cibles de zoom et de zones cliquables dans les séries d’échantillons](including-zoom-targets-image-maps-swatch-sets.md)
+   + [Inclure les cibles de zoom et les zones cliquables dans les séries d’échantillons](including-zoom-targets-image-maps-swatch-sets.md)
    + [Préparation du chargement de ressources de série d’échantillons](preparing-swatch-set-assets-upload.md)
    + [Création de la série d’échantillons](creating-swatch-set.md)
    + [Afficher les séries d’échantillons](viewing-swatch-sets.md)

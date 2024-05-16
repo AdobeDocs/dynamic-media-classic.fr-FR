@@ -10,7 +10,7 @@ role: User
 exl-id: 6305c287-360f-48c2-b456-58be0791c7af
 topic: Administration, Content Management, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 17%
@@ -21,7 +21,7 @@ ht-degree: 17%
 
 Vos sites Web et applications accèdent au contenu du serveur d’images Dynamic Media au moyen de chaînes URL. Après avoir publié un modèle, Adobe Dynamic Media Classic active une chaîne URL qui référence le modèle sur les serveurs d’images Dynamic Media. Vous pouvez coller cette URL dans un navigateur Web à des fins de test.
 
-Pour placer des chaînes URL dans vos pages et applications Web, copiez-les depuis Adobe Dynamic Media Classic. Pour obtenir une chaîne URL de modèle générée avec un paramètre d’image prédéfini, accédez à l’écran Aperçu ou au panneau de navigation (dans la vue Détails). Ensuite, sélectionnez un paramètre d’image prédéfini, puis cliquez sur le bouton Copier l’URL.
+Pour placer des chaînes URL dans vos pages et applications Web, copiez-les depuis Adobe Dynamic Media Classic. Pour obtenir une chaîne d’URL de modèle générée avec un paramètre d’image prédéfini, accédez à l’écran Aperçu ou au panneau Parcourir (en mode Affichage des détails). Ensuite, sélectionnez un paramètre d’image prédéfini, puis cliquez sur le bouton Copier l’URL.
 
 >[!NOTE]
 >

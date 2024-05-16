@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '463'
 ht-degree: 16%
 
 ---
@@ -27,13 +27,13 @@ Adobe Dynamic Media Classic propose de nombreux outils pour créer des médias r
 * **eVideo**: diffuser des expériences vidéo de haute qualité sur plusieurs écrans, y compris des ordinateurs de bureau, des appareils mobiles et des tablettes. Utilisez des paramètres prédéfinis de codage Adobe Dynamic Media Classic prédéfinis ou personnalisez le codage pour contrôler la qualité et la taille de la vidéo. Organisez, parcourez et recherchez des vidéos avec une prise en charge complète des métadonnées pour une gestion efficace des ressources vidéo.
 Voir [Démarrage rapide : Vidéo dans Adobe Dynamic Media Classic](/help/using/quick-start-video.md).
 
-* **Zones cliquables**: diffuse dynamiquement des images à n’importe quelle taille et format sur votre site Web. Au lieu de créer manuellement de nombreuses images de tailles différentes, vous n’utilisez qu’une seule image principale. Lorsqu’Adobe Dynamic Media Classic diffuse l’image demandée, elle l’optimise pour obtenir des résultats de qualité optimale en termes de taille, format, poids, qualité et accentuation.
+* **Zones cliquables**: diffuse dynamiquement des images à n’importe quelle taille et format sur votre site Web. Au lieu de créer manuellement de nombreuses images de tailles différentes, vous ne devez utiliser qu’une seule image principale. Lorsqu’Adobe Dynamic Media Classic diffuse l’image demandée, elle l’optimise pour obtenir des résultats de qualité optimale en termes de taille, format, poids, qualité et accentuation.
 (voir [Démarrage rapide : Dimensionnement des images](/help/using/quick-start-image-sizing.md)).
 
 * **Visionneuses d’images**: proposez une expérience d’achat interactive dans laquelle les utilisateurs peuvent afficher les produits dans plusieurs vues. Vous pouvez combiner un zoom, plusieurs vues et des échantillons de couleurs pour une expérience de visionnage intégrée.
 (voir [Démarrage rapide : Visionneuses d’images](/help/using/quick-start-image-sets.md)).
 
-* **Visionneuses de médias mixtes**: proposez un mélange de visionneuses d’images, de visionneuses à 360°, d’échantillons, de cibles de zoom, de vidéos et d’audio dans une seule présentation. Vous pouvez configurer des visionneuses de supports variés avec des onglets afin d’isoler la vidéo des images. Vous pouvez également indiquer où et comment afficher les échantillons et les cibles de zoom et donner aux utilisateurs une vue multimédia complète de vos produits ou services.
+* **Visionneuses de médias mixtes**: proposez un mélange de visionneuses d’images, de visionneuses à 360°, d’échantillons, de cibles de zoom, de vidéos et d’audio dans une seule présentation. Vous pouvez configurer des visionneuses de supports variés avec des onglets afin d’isoler la vidéo des images. Vous pouvez également spécifier où et comment afficher les échantillons et les cibles de zoom et donner aux utilisateurs une vue multimédia complète de vos produits ou services.
 (voir [Démarrage rapide : Visionneuses de supports variés](/help/using/quick-start-mixed-media-sets.md)).
 
 * **Visionneuses à 360°**: séquencez les images pour les faire pivoter horizontalement. Les visionneuses à 360° permettent aux visiteurs du site web de transformer des produits et de les afficher de différents côtés. Vous pouvez créer des visionneuses à 360° unidimensionnelles et bidimensionnelles.

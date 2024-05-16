@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 38%
@@ -47,7 +47,7 @@ Voir aussi [Limites de Dynamic Media](/help/using/limitations.md).
 
 1. Effectuez l’une des opérations suivantes :
 
-   * **Sélectionner les images en premier**: dans le panneau de navigation, sélectionnez les images de votre visionneuse d’images, accédez à **[!UICONTROL Build]** > **[!UICONTROL Visionneuses d’images]**.
+   * **Sélectionner les images en premier**: dans le panneau Parcourir, sélectionnez les images de votre visionneuse d’images, accédez à **[!UICONTROL Build]** > **[!UICONTROL Visionneuses d’images]**.
 
    * **Démarrage à partir de l’écran Visionneuse d’images**: accédez à **[!UICONTROL Build]** > **[!UICONTROL Visionneuses d’images]**. L’écran Visionneuse d’images s’affiche. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser les images de la visionneuse sur l’écran Visionneuse d’images.
 

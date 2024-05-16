@@ -10,7 +10,7 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 23%
@@ -19,7 +19,7 @@ ht-degree: 23%
 
 # Liaison des visionneuses de zoom à des pages web{#linking-zoom-viewers-to-your-web-pages}
 
-Vos sites Web et applications accèdent au contenu du serveur d’images Dynamic Media au moyen de chaînes d’URL ou de code incorporé. Cet accès inclut les images principales et les cibles de zoom associées. Elle comprend également des paramètres prédéfinis de visionneuse de zoom. Ces chaînes URL sont activées au cours du processus de publication. Pour placer ces chaînes URL ou le code incorporé dans vos pages Web et applications, vous devez les copier depuis Adobe Dynamic Media Classic.
+Vos sites Web et applications accèdent au contenu du serveur d’images Dynamic Media au moyen de chaînes d’URL ou de code incorporé. Cet accès comprend les images principales et les cibles de zoom associées. Elle comprend également des paramètres prédéfinis de visionneuse de zoom. Ces chaînes URL sont activées au cours du processus de publication. Pour placer ces chaînes URL ou le code incorporé dans vos pages Web et applications, vous devez les copier depuis Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >

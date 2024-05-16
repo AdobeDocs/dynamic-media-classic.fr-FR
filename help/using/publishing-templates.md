@@ -10,7 +10,7 @@ role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
 topic: Content Management
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 11%
@@ -27,7 +27,7 @@ Lorsque vous publiez votre modèle, il est placé sur les serveurs Dynamic Media
 
 ## Marquage de modèles pour publication {#marking-templates-for-publish}
 
-Les modèles et tous leurs fichiers de prise en charge doivent être marqués pour publication pour être placés sur les serveurs Dynamic Media Image Server. Vous pouvez marquer ces éléments pour publication dans le panneau de navigation en sélectionnant l’option **[!UICONTROL Marquer pour publication]** Icône
+Les modèles et tous leurs fichiers de prise en charge doivent être marqués pour publication pour être placés sur les serveurs Dynamic Media Image Server. Vous pouvez marquer ces éléments pour publication dans le panneau Parcourir en sélectionnant **[!UICONTROL Marquer pour publication]** Icône
 
 ## Publier votre modèle {#publishing-your-template}
 

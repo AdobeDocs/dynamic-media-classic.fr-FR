@@ -10,16 +10,16 @@ role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 17%
+ht-degree: 11%
 
 ---
 
 # Affichage des ressources dans le panneau Parcourir{#viewing-assets-in-the-browse-panel}
 
-Vous pouvez modifier l’affichage des fichiers dans le panneau de navigation en sélectionnant un bouton d’affichage :
+Vous pouvez modifier l’affichage des ressources dans le panneau Parcourir en sélectionnant un bouton Afficher :
 
 * **Affichage de la grille**: dans le coin supérieur droit de l’écran Adobe Dynamic Media Classic, sélectionnez la variable **[!UICONTROL Affichage de la grille]** pour afficher les ressources sous forme de miniatures dans une grille. En mode d’affichage Grille, vous pouvez faire glisser le curseur Miniature pour modifier la taille des images miniatures.
 

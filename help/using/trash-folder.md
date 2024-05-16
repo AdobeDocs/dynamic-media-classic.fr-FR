@@ -10,10 +10,10 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 30%
+source-wordcount: '560'
+ht-degree: 28%
 
 ---
 
@@ -27,7 +27,7 @@ La suppression d’éléments du dossier Corbeille supprime définitivement les 
 
 >[!NOTE]
 >
->Les ressources qui ont été déplacées vers le dossier Corbeille sont toujours enregistrées sur Adobe Dynamic Media Classic. Si vous essayez de charger un fichier portant le même nom qu’un fichier supprimé dans le dossier Corbeille, Adobe Dynamic Media Classic traite la ressource que vous souhaitez charger comme une ressource en double. A ce titre, un numéro sera ajouté à son nom.
+>Les ressources qui ont été déplacées vers le dossier Corbeille sont toujours enregistrées sur Adobe Dynamic Media Classic. Supposons, par exemple, que vous teniez de charger un fichier portant le même nom qu’un fichier supprimé dans le dossier Corbeille. Adobe Dynamic Media Classic traite la ressource que vous souhaitez charger comme une ressource en double. Dans ce cas, un numéro est ajouté à son nom.
 
 ## A propos du dossier Corbeille {#about-the-trash-folder}
 
@@ -51,9 +51,9 @@ Pour restaurer des ressources du dossier Corbeille dans les dossiers à partir d
 
 Lorsque vous supprimez des fichiers du dossier Corbeille, sachez qu’ils sont définitivement supprimés. Les fichiers sont automatiquement supprimés du dossier Corbeille au bout de 7 jours.
 
-Pour supprimer définitivement des ressources du dossier Corbeille, sélectionnez la **[!UICONTROL Corbeille]** Icône Sur la page du dossier Corbeille, effectuez l’une des opérations suivantes :
+Vous pouvez supprimer définitivement des ressources du dossier Corbeille en sélectionnant l’option **[!UICONTROL Corbeille]** Icône Sur la page du dossier Corbeille, effectuez l’une des opérations suivantes :
 
-* **Suppression de ressources individuelles**: sélectionnez les ressources à supprimer définitivement, puis accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Vide De La Corbeille]**.
+* **Suppression de ressources individuelles**: vous pouvez supprimer définitivement des ressources. Sélectionnez les ressources souhaitées, puis cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Vide De La Corbeille]**.
 
 * **Suppression de toutes les ressources**: accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Corbeille vide]**.
 

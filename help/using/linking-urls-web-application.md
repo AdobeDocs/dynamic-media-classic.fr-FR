@@ -10,9 +10,9 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '842'
 ht-degree: 26%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 26%
 
 Vos sites Web et applications accèdent au contenu du serveur d’images Dynamic Media au moyen de chaînes URL. Après la publication d’une image, Adobe Dynamic Media Classic active une chaîne URL qui référence le paramètre d’image prédéfini sur les serveurs d’images Dynamic Media. Vous pouvez coller ces URL dans un navigateur Web à des fins de test.
 
-Pour placer ces chaînes URL dans vos pages et applications Web, copiez-les depuis Adobe Dynamic Media Classic. Pour obtenir une chaîne URL générée avec un paramètre d’image prédéfini, accédez à l’écran Aperçu ou au panneau de navigation (dans la vue Détails).
+Pour placer ces chaînes URL dans vos pages et applications Web, copiez-les depuis Adobe Dynamic Media Classic. Pour obtenir une chaîne URL générée avec un paramètre d’image prédéfini, accédez à l’écran Aperçu ou au panneau Parcourir (en mode Affichage des détails).
 
 ## Obtenir une URL de paramètre d’image prédéfini {#obtaining-an-image-preset-url}
 
@@ -40,11 +40,11 @@ Vous pouvez obtenir une chaîne URL générée par un paramètre d’image pré
    * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Mode Liste]**. Dans la fenêtre Ressource , sélectionnez une seule ressource image, puis, à droite de l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des paramètres d’image prédéfinis]**.
    * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des paramètres d’image prédéfinis]**.
 
-1. (Facultatif) Dans la liste des paramètres d’image prédéfinis, dans la liste déroulante Codage de l’URL pour la génération de l’URL copiée, sélectionnez le codage d’URL à appliquer à l’URL de la ressource d’image lorsqu’elle est copiée.
+1. (Facultatif) Dans la liste des paramètres d’image prédéfinis, dans la liste déroulante Codage de l’URL pour la génération de l’URL copiée, sélectionnez l’option Codage de l’URL à appliquer à l’URL de la ressource d’image lorsqu’elle est copiée.
 1. Dans la fenêtre Liste des paramètres d’image prédéfinis, dans la zone supérieure droite du volet d’aperçu, sélectionnez **[!UICONTROL Copier l’URL]** pour le type de paramètre prédéfini sélectionné.
 1. Dans le coin inférieur droit de la fenêtre Liste des paramètres d’image prédéfinis, sélectionnez **[!UICONTROL Fermer]** pour revenir à l’écran Ressources.
 
-### Obtention d’une URL de paramètre d’image prédéfini à partir du panneau de navigation {#obtaining-an-image-preset-url-from-the-browse-panel}
+### Obtention d’une URL de paramètre d’image prédéfini à partir du panneau Parcourir {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier Ressources qui contient la ressource d’image à prévisualiser.
 1. Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage de la grille]**. Dans la fenêtre Fichiers, sélectionnez un seul fichier d’image.
@@ -80,7 +80,7 @@ Dans les URL, le nom du paramètre d’image prédéfini est compris entre des 
 
 ## Ajout d’images dynamiques à votre page web {#adding-dynamic-images-to-your-web-page}
 
-Pour ajouter des images dynamiques à votre page Web, le `<IMG>` Le code de page Web de votre HTML est généralement modifié à l’aide de la chaîne URL Adobe Dynamic Media Classic pour envoyer une demande aux serveurs d’images Dynamic Media. Cette chaîne produit l’image conformément aux spécifications de taille et de formatage définies par le paramètre d’image prédéfini.
+Lors de l’ajout d’images dynamiques à votre page Web, la variable `<IMG>` La balise dans le code de page de votre HTML est généralement modifiée à l’aide de la chaîne URL Adobe Dynamic Media Classic pour envoyer une requête aux serveurs d’images Dynamic Media. Cette chaîne produit l’image conformément aux spécifications de taille et de formatage définies par le paramètre d’image prédéfini.
 
 Par exemple, à la place de l’appel type pour ouvrir une image statique telle que
 

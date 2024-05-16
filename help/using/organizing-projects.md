@@ -10,10 +10,10 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
@@ -49,7 +49,7 @@ Vous pouvez créer un dossier Projet commençant par la bibliothèque de ressour
 
 Pour afficher, supprimer et renommer un dossier Projet, effectuez l’une des opérations suivantes :
 
-* **Parcourir le contenu**: sélectionnez le nom du dossier dans la bibliothèque de ressources. Les fichiers associés s’affichent dans le panneau de navigation.
+* **Parcourir le contenu**: sélectionnez le nom du dossier dans la bibliothèque de ressources. Ses ressources apparaissent dans le panneau Parcourir .
 
 * **Suppression de dossiers de projet**: sélectionnez le dossier Projet , puis sélectionnez **[!UICONTROL Supprimer le projet]**. La suppression de ressources d’un dossier de projet ne les supprime pas d’Adobe Dynamic Media Classic ; les ressources restent dans les dossiers d’origine dans lesquels elles sont stockées.
 
@@ -57,8 +57,8 @@ Pour afficher, supprimer et renommer un dossier Projet, effectuez l’une des op
 
 ## Ajout de ressources à un dossier de projet {#adding-assets-to-a-project-folder}
 
-Vous pouvez ajouter des images à un dossier Projet depuis le panneau de navigation ou lorsque vous chargez des fichiers vers Adobe Dynamic Media Classic :
+Vous pouvez ajouter des images à un dossier Projet à partir du panneau Parcourir ou lorsque vous chargez des fichiers vers Adobe Dynamic Media Classic :
 
-* **Dans le panneau de navigation**, sélectionnez les ressources et faites-les glisser vers un dossier Projet . Vous pouvez également accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Ajouter au projet]**. Sélectionnez un nom de dossier de projet dans la boîte de dialogue Sélectionner un projet, puis sélectionnez **[!UICONTROL Envoyer]**.
+* **Dans le panneau Parcourir**, sélectionnez les ressources et faites-les glisser vers un dossier Projet . Vous pouvez également accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Ajouter au projet]**. Sélectionnez un nom de dossier de projet dans la boîte de dialogue Sélectionner un projet, puis sélectionnez **[!UICONTROL Envoyer]**.
 
 * **Lors du téléchargement de fichiers**: sur la page Télécharger, sélectionnez **[!UICONTROL Options de tâche]**. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Projets]**, puis sélectionnez un nom de projet.

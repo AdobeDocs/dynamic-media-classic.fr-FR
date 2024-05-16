@@ -10,7 +10,7 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 7%
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 # Modification des images{#editing-images}
 
-Adobe Dynamic Media Classic offre de nombreux outils pour créer des effets multimédias enrichis. Ces outils sont disponibles en sélectionnant le survol **[!UICONTROL Modifier]** et dans le panneau de navigation de la vue Détails. Dans Adobe Dynamic Media Classic, vous pouvez effectuer les tâches d’édition d’images suivantes :
+Adobe Dynamic Media Classic offre de nombreux outils pour créer des effets multimédias enrichis. Ces outils sont disponibles en sélectionnant le survol **[!UICONTROL Modifier]** et dans le panneau Parcourir en mode Affichage des détails. Dans Adobe Dynamic Media Classic, vous pouvez effectuer les tâches d’édition d’images suivantes :
 
 * **Création de zones cliquables**: pour créer une zone cliquable, sélectionnez la commande Image ou **[!UICONTROL Zone cliquable]** bouton . Une zone cliquable est une zone réactive sur une image, une page de catalogue électronique ou une image dans une visionneuse à 360° qui affiche un panneau avec le texte de survol. Les utilisateurs peuvent sélectionner une zone cliquable, par exemple, pour lancer une nouvelle page web. Voir [Création de zones cliquables](/help/using/creating-image-maps.md).
 

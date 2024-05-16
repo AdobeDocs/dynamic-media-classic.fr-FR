@@ -10,10 +10,10 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 34%
+ht-degree: 27%
 
 ---
 
@@ -25,7 +25,7 @@ Veillez à établir une structure et une organisation de dossiers pour stocker v
 
 ## Afficher, déplacer, masquer et ouvrir des dossiers {#displaying-moving-hiding-and-opening-folders}
 
-La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de dossiers. Lorsque vous sélectionnez un dossier dans la bibliothèque de fichiers, son contenu s’affiche dans le panneau de navigation. Pour localiser des dossiers dans l’arborescence de dossiers, utilisez les techniques suivantes :
+La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de dossiers. Lorsque vous sélectionnez un dossier dans la bibliothèque de ressources, son contenu s’affiche dans le panneau Parcourir . Pour localiser des dossiers dans l’arborescence de dossiers, utilisez les techniques suivantes :
 
 * **Afficher les sous-dossiers**: sélectionnez la variable **[!UICONTROL Développer le dossier]** pour afficher les sous-dossiers dans un dossier. Cette icône se trouve à gauche des noms de dossiers.
 
@@ -33,11 +33,11 @@ La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de
 
 * **Masquer les dossiers**: sélectionnez la variable **[!UICONTROL Réduire le dossier]** si vous souhaitez réduire les sous-dossiers afin de les masquer. Cette icône se trouve à gauche des noms de dossiers.
 
-* **Ouvrir un dossier**: sélectionnez un dossier si vous souhaitez afficher son contenu dans le panneau de navigation.
+* **Ouvrir un dossier**: sélectionnez un dossier si vous souhaitez afficher son contenu dans le panneau Parcourir.
 
 >[!TIP]
 >
->Vous pouvez masquer ou afficher la bibliothèque de ressources en sélectionnant **[!UICONTROL Développer]** ou **[!UICONTROL Réduire]** contrôle à gauche. Réduisez le panneau Bibliothèque de fichiers pour optimiser l’espace réservé au panneau de navigation.
+>Vous pouvez masquer ou afficher la bibliothèque de ressources en sélectionnant **[!UICONTROL Développer]** ou **[!UICONTROL Réduire]** contrôle à gauche. Réduire le panneau Bibliothèque de ressources lorsque vous avez besoin d’espace pour travailler dans le panneau Parcourir.
 
 ## Création de dossiers
 

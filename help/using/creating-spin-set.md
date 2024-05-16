@@ -10,10 +10,10 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 38%
+source-wordcount: '963'
+ht-degree: 32%
 
 ---
 
@@ -23,17 +23,17 @@ Pour créer une visionneuse panoramique efficace, assurez-vous que les clichés 
 
 >[!NOTE]
 >
->Les versions précédentes d’Adobe Dynamic Media Classic ne fournissaient pas de visionneuses à 360° bidimensionnelles. Si vous avez créé une visionneuse à 360° dans une version précédente d’Adobe Dynamic Media Classic, vous ne pouvez pas enregistrer votre visionneuse à 360° unidimensionnelle sans l’enregistrer au préalable sous un autre nom. Sélectionner **[!UICONTROL Enregistrer sous]** dans l’écran Visionneuse à 360° et saisissez un nouveau nom afin de pouvoir le modifier dans Adobe Dynamic Media Classic.
+>Les versions précédentes d’Adobe Dynamic Media Classic ne fournissaient pas de visionneuses à 360° bidimensionnelles. Si vous avez créé une visionneuse à 360° dans une version précédente d’Adobe Dynamic Media Classic, enregistrez-la sous un nom différent, puis vous pouvez enregistrer votre visionneuse à 360° unidimensionnelle. Sélectionner **[!UICONTROL Enregistrer sous]** dans l’écran Visionneuse à 360° et saisissez un nouveau nom afin de pouvoir le modifier dans Adobe Dynamic Media Classic.
 
 ## Instructions pour prendre des clichés d’images de la visionneuse à 360° {#guidelines-for-shooting-spin-set-images}
 
 En règle générale, plus vous avez d’images dans une visionneuse à 360°, plus l’effet de rotation d’images est important. Cependant, un nombre élevé d’images dans la visionneuse augmente la durée de chargement des images. Adobe Dynamic Media Classic recommande les instructions suivantes pour le tournage d’images à utiliser dans les visionneuses à 360° :
 
-* Au minimum, utilisez 8 à 12 images dans une visionneuse à 360° unidimensionnelle et 16 à 24 images dans une visionneuse à 360° bidimensionnelle.
+* Utilisez au minimum 8 à 12 images dans une visionneuse à 360° unidimensionnelle et 16 à 24 images dans une visionneuse à 360° bidimensionnelle.
 * Utilisez un format d’image sans perte (formats TIFF et PNG recommandés). 
 * Masquez toutes les images pour faire apparaître l’objet sur un fond blanc ou fortement contrasté. Ajoutez éventuellement des ombres.
 * Assurez-vous que les détails du produit sont bien éclairés et que leur mise au point est nette.
-* Prenez des clichés de vêtements de prêt-à-porter avec un mannequin ou un modèle. Souvent, le mannequin est masqué (à l’aide d’un mannequin en verre) ou un mannequin stylisé est présenté dans l’image. Vous pouvez créer une visionneuse à 360° de modèle en définissant le nombre d’angles. Marquez chaque angle avec du ruban adhésif sur le sol afin que vous puissiez guider le modèle pour qu’il marche et regarde dans la direction de chaque prise de vue.
+* Prenez des clichés de vêtements de prêt-à-porter avec un mannequin ou un modèle. Souvent, le mannequin est masqué (à l’aide d’un mannequin en verre) ou un mannequin stylisé est présenté dans l’image. Vous pouvez créer une visionneuse à 360° sur le modèle en définissant le nombre d’angles. Marquez chaque angle avec du ruban adhésif sur le sol afin que vous puissiez guider le modèle pour qu’il marche et regarde dans la direction de chaque prise de vue.
 
 ## Création d’une visionneuse à 360° {#create}
 
@@ -63,7 +63,7 @@ Lorsque vous enregistrez une visionneuse à 360°, vous pouvez ensuite utiliser
 1. Sur le **[!UICONTROL Build]** menu déroulant, sélectionnez **[!UICONTROL Visionneuses à 360°]**.
 1. Dans la boîte de dialogue Visionneuse à 360°, définissez le nombre de lignes et de cellules.
 
-   Pour une visionneuse à 360° unidimensionnelle, sélectionnez une seule ligne.
+   Pour créer une visionneuse à 360° unidimensionnelle, sélectionnez une seule ligne.
 
    Pour une visionneuse à 360° bidimensionnelle, sélectionnez au moins deux lignes.
 
@@ -71,7 +71,7 @@ Lorsque vous enregistrez une visionneuse à 360°, vous pouvez ensuite utiliser
 1. Faites glisser des images vers la grille de l’écran Visionneuse à 360°.
 1. Lorsque vous avez terminé, près du coin inférieur droit de la page, assurez-vous que **Publier après un enregistrement** est sélectionné (par défaut).
 1. Sélectionner **[!UICONTROL Enregistrer]**.
-1. Dans la boîte de dialogue Enregistrer, sélectionnez le dossier dans lequel conserver la visionneuse à 360°. Dans le champ Nom de fichier, saisissez le nom de la visionneuse à 360°.
+1. Dans la boîte de dialogue Enregistrer, sélectionnez un dossier pour le stockage de la visionneuse à 360°. Dans le champ Nom du fichier , saisissez le nom de la visionneuse à 360°.
 1. Sélectionner **[!UICONTROL Enregistrer]**.
 
 ## Modification d’une visionneuse à 360° {#editing-a-spin-set}

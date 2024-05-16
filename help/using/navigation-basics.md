@@ -10,16 +10,16 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 16%
+source-wordcount: '657'
+ht-degree: 15%
 
 ---
 
 # Navigation - Notions élémentaires{#navigation-basics}
 
-L’écran Adobe Dynamic Media Classic comprend trois zones principales : la barre de navigation globale, la bibliothèque de ressources, l’onglet Filtres de ressources, le panneau de navigation/de création et le panier de médias (Media Portal uniquement).
+L’écran Adobe Dynamic Media Classic comprend trois zones principales : la barre de navigation globale, la bibliothèque de ressources, l’onglet Filtres de ressources, le panneau de navigation/le panneau de création et le panier de médias (Media Portal uniquement).
 
 ![Principes de navigation](/help/using/assets/gs_navigation_basics_popup_popup.png)
 *Zones Adobe Dynamic Media Classic principales*
@@ -63,11 +63,11 @@ La partie supérieure du panneau Bibliothèque de ressources contient des comman
 >
 >Vous pouvez sélectionner **[!UICONTROL Bibliothèque de ressources]** pour ouvrir ou fermer la bibliothèque de ressources et avoir plus d’espace pour travailler à l’écran. Sélectionnez la variable **[!UICONTROL Développer]**/**[!UICONTROL Réduire]** pour développer ou fermer le panneau. Ces commandes se trouvent sur le côté gauche du panneau.
 
-## Panneau de navigation/Panneau de création {#browse-panel-build-panel}
+## Panneau Parcourir/Créer un panneau {#browse-panel-build-panel}
 
 Le panneau de navigation/de création est l’emplacement où se concentre votre travail. Les fonctions disponibles dans ce panneau varient selon que vous êtes en mode Parcourir ou en mode Créer .
 
-* **[!UICONTROL Mode Parcourir]**: pour afficher et utiliser le contenu d’un dossier dans le panneau de navigation, sélectionnez un dossier dans la bibliothèque de ressources. Ce panneau offre les **[!UICONTROL Fichier]**, **[!UICONTROL Aperçu]**, **[!UICONTROL Tout sélectionner]**, **[!UICONTROL Sélectionner Aucun]**, et **[!UICONTROL Tri]** menus pour l’utilisation des ressources. Vous pouvez également afficher les ressources de différentes manières en déplaçant le curseur ou en sélectionnant **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]**, ou **[!UICONTROL Affichage des détails]**. Sélection **[!UICONTROL Affichage des détails]** ou double-cliquez sur une ressource pour l’ouvrir dans le mode Affichage des détails, où vous pouvez effectuer des opérations sur des fichiers dépendants d’une ressource.
+* **[!UICONTROL Mode Parcourir]**: vous pouvez afficher et utiliser le contenu d’un dossier dans le panneau Parcourir . Sélectionnez un dossier dans la bibliothèque de ressources. Ce panneau offre les **[!UICONTROL Fichier]**, **[!UICONTROL Aperçu]**, **[!UICONTROL Tout sélectionner]**, **[!UICONTROL Sélectionner Aucun]**, et **[!UICONTROL Tri]** menus pour l’utilisation des ressources. Vous pouvez également afficher les ressources de différentes manières en déplaçant le curseur ou en sélectionnant **[!UICONTROL Affichage de la grille]**, **[!UICONTROL Mode Liste]**, ou **[!UICONTROL Affichage des détails]**. Sélection **[!UICONTROL Affichage des détails]** ou double-cliquez sur une ressource pour l’ouvrir dans le mode Affichage des détails, où vous pouvez effectuer des opérations sur des fichiers dépendants d’une ressource.
 
 * **[!UICONTROL Mode de création]**: sélectionnez **[!UICONTROL Build]**, puis choisissez une option afin de pouvoir commencer à créer un catalogue électronique, une visionneuse d’images, une visionneuse à 360° ou l’un des autres éléments disponibles dans le menu Créer . La page Créer s’ouvre. Vous pouvez sélectionner les fichiers à utiliser avant ou après l’entrée en mode de création.
 
@@ -76,6 +76,6 @@ Voir aussi [Principes de navigation](https://s7d5.scene7.com/s7viewers/html5/Vid
 >[!MORELIKETHIS]
 >
 >* [Gestion des ressources](about-managing-assets.md)
->* [Affichage des ressources dans le panneau de navigation](viewing-assets-browse-panel.md#viewing_assets_in_the_browse_panel)
->* [Sélection de ressources dans le panneau de navigation](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
+>* [Affichage des ressources dans le panneau Parcourir](viewing-assets-browse-panel.md#viewing_assets_in_the_browse_panel)
+>* [Sélection de ressources dans le panneau Parcourir](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
 >* [Recherche de ressources](searching-assets.md#searching_assets)

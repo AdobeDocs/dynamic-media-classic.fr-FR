@@ -10,7 +10,7 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 23%
@@ -43,7 +43,7 @@ Téléchargez les fichiers de polices en procédant de la même façon que pour 
 
 Vous pouvez modifier le nom d’identifiant d’une police et ses informations de type. La modification d’un fichier de polices peut servir à effectuer des recherches et à identifier plus facilement les polices.
 
-Dans le panneau de navigation, sélectionnez le fichier de police à modifier dans la vue Détails, puis choisissez Fichier > Modifier les informations. L’écran Editer les informations apparaît. Choisissez les options suivantes, puis sélectionnez **[!UICONTROL Envoyer]**.
+Dans le panneau Parcourir, sélectionnez le fichier de police à modifier dans la vue Détails, puis choisissez Fichier > Modifier les informations. L’écran Editer les informations apparaît. Choisissez les options suivantes, puis sélectionnez **[!UICONTROL Envoyer]**.
 
 * **[!UICONTROL Nom de la police]**: ce nom identifie la police lors de sa publication.
 

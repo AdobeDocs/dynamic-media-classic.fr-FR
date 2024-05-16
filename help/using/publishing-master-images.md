@@ -10,7 +10,7 @@ role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 6%
@@ -23,7 +23,7 @@ Lorsque vous publiez vos fichiers image, ils sont publiés sur les serveurs d’
 
 ## Marquer les images principales pour publication {#marking-master-images-for-publish}
 
-Les images de Principal doivent être marquées pour publication afin d’être copiées vers les serveurs d’images Dynamic Media. Vous pouvez marquer vos images principales pour publication dans le panneau de navigation en sélectionnant l’option **[!UICONTROL Marquer pour publication]** Icône Vous pouvez également marquer les images à des fins de publication lorsque vous les chargez dans Adobe Dynamic Media Classic.
+Les images de Principal doivent être marquées pour publication afin d’être copiées vers les serveurs d’images Dynamic Media. Vous pouvez marquer vos images principales pour publication dans le panneau Parcourir en sélectionnant l’option **[!UICONTROL Marquer pour publication]** Icône Vous pouvez également marquer les images à des fins de publication lorsque vous les chargez dans Adobe Dynamic Media Classic.
 
 ## Publier vos images principales {#publishing-your-master-images}
 

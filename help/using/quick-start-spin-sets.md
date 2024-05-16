@@ -10,7 +10,7 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 21%
@@ -69,7 +69,7 @@ Voir [Configuration de paramètres prédéfinis de visionneuse à 360°](setting
 
 ## 5. Aperçu d’une visionneuse à 360°
 
-Sélectionnez votre visionneuse à 360° dans le panneau de navigation, puis sélectionnez **[!UICONTROL Aperçu]**. Sur la page Aperçu , maintenez le bouton de la souris enfoncé et faites glisser le pointeur vers la gauche ou la droite pour &quot;faire pivoter&quot; visuellement l’élément.
+Sélectionnez votre visionneuse à 360° dans le panneau Parcourir, puis sélectionnez **[!UICONTROL Aperçu]**. Sur la page Aperçu , maintenez le bouton de la souris enfoncé et faites glisser le pointeur vers la gauche ou la droite pour &quot;faire pivoter&quot; visuellement l’élément.
 
 Voir [Aperçu d’une visionneuse à 360°](previewing-spin-set.md#previewing-a-spin-set).
 
@@ -77,7 +77,7 @@ Voir [Aperçu d’une visionneuse à 360°](previewing-spin-set.md#previewing-a-
 
 Lorsque vous publiez une visionneuse à 360°, elle est placée sur les serveurs Adobe Dynamic Media Classic afin d’être diffusée dynamiquement sur votre site Web ou dans votre application. Elle active également la chaîne URL qui appelle la visionneuse à 360° depuis les serveurs d’images Dynamic Media vers votre site web ou votre application.
 
-Pour publier une visionneuse à 360°, marquez-la pour publication en sélectionnant le **[!UICONTROL Marquer pour publication]** en regard de son nom dans le panneau de navigation. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]** pour lancer une publication. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
+Pour publier une visionneuse à 360°, marquez-la pour publication en sélectionnant le **[!UICONTROL Marquer pour publication]** en regard de son nom dans le panneau Parcourir . Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]** pour lancer une publication. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
 Voir [Publication d’une visionneuse à 360°](publishing-spin-set.md#publishing-a-spin-set).
 

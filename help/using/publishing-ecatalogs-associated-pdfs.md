@@ -10,9 +10,9 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '195'
 ht-degree: 13%
 
 ---
@@ -23,7 +23,7 @@ La publication place votre catalogue électronique et votre PDF sur les serveurs
 
 >[!NOTE]
 >
->Assurez-vous que votre catalogue électronique et votre PDF se trouvent dans le même dossier et qu’ils sont marqués pour publication dans le panneau de navigation ou la page Détails de la ressource avant de les publier.
+>Assurez-vous que votre catalogue électronique et votre PDF résident dans le même dossier. Assurez-vous également qu’elles sont marquées pour publication dans le panneau de navigation ou la page Détails de la ressource avant de les publier.
 
 **Pour publier des catalogues électroniques et des PDF associés :**
 

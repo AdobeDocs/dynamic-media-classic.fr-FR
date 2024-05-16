@@ -10,7 +10,7 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 31%
@@ -31,7 +31,7 @@ Vous pouvez recadrer une image afin d’en supprimer les bords blancs ou de ne g
 
 Vous pouvez éliminer les pixels transparents ou de couleur qui apparaissent au bord d’une image.
 
-1. Pour recadrer une image, sélectionnez son survol **[!UICONTROL Modifier]** puis cliquez sur **[!UICONTROL Recadrer]** ou l’afficher dans le panneau de navigation de la vue Détails, puis sélectionnez l’option **[!UICONTROL Recadrer]** bouton .
+1. Pour recadrer une image, sélectionnez son survol **[!UICONTROL Modifier]** puis cliquez sur **[!UICONTROL Recadrer]** ou l’afficher dans le panneau Parcourir de la vue Détails, puis sélectionnez l’option **[!UICONTROL Recadrer]** bouton .
 1. Sur la page Éditeur de recadrage , effectuez l’une des opérations suivantes :
 
    * Pour rogner les pixels de couleur, accédez à **[!UICONTROL Rogner]** > **[!UICONTROL Couleur]**. Dans le **[!UICONTROL Recadrage automatique par couleur]** , sélectionnez **[!UICONTROL Coin]** et choisissez un coin avec la couleur d’arrière-plan à recadrer. Ensuite, saisissez un **[!UICONTROL Tolérance]** de 0 à 1. La valeur 0 permet de rogner les pixels uniquement s’ils correspondent exactement à la couleur sélectionnée dans l’angle de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs. Sélectionner **[!UICONTROL Recadrer]**.
@@ -45,7 +45,7 @@ Vous pouvez éliminer les pixels transparents ou de couleur qui apparaissent au 
 
 ## Sélection d’une zone à recadrer {#select-an-area-to-crop}
 
-1. Pour recadrer une image, sélectionnez son survol **[!UICONTROL Modifier]** et choisissez **[!UICONTROL Recadrer]** ou l’afficher dans le panneau de navigation de la vue Détails, puis sélectionnez **[!UICONTROL Recadrer]**.
+1. Pour recadrer une image, sélectionnez son survol **[!UICONTROL Modifier]** et choisissez **[!UICONTROL Recadrer]** ou l’afficher dans le panneau Parcourir de la vue Détails, puis sélectionnez **[!UICONTROL Recadrer]**.
 
 1. Dans la fenêtre Editeur de recadrage, placez la partie de l’image que vous ne souhaitez pas recadrer dans la zone de recadrage. Ce qui apparaît dans la zone est ce qui reste après avoir sélectionné **[!UICONTROL Enregistrer]** et recadrez l’image.
 1. Pour modifier la zone de recadrage, effectuez l’une des opérations suivantes :

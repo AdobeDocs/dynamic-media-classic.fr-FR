@@ -10,7 +10,7 @@ role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 27%
@@ -39,7 +39,7 @@ Vous pouvez modifier la taille de la visionneuse de zoom pour qu’elle correspo
 Créez et modifiez des cibles de zoom dans l’écran Éditeur de cible de zoom . Pour ouvrir cet écran, sélectionnez une image et procédez de l’une des façons suivantes :
 
 * Sélectionner le survol **[!UICONTROL Modifier]** et choisissez Cibles de zoom.
-* Dans le panneau de navigation, affichez l’image dans **[!UICONTROL Affichage des détails]**, puis sélectionnez **[!UICONTROL Cibles de zoom]**.
+* Dans le panneau Parcourir , affichez l’image dans **[!UICONTROL Affichage des détails]**, puis sélectionnez **[!UICONTROL Cibles de zoom]**.
 
 Dans l’écran de l’éditeur de cible de zoom, sélectionnez la variable **[!UICONTROL Sélectionner la cible]** pour sélectionner une cible avant de modifier sa taille ou sa position. Pour créer une cible de zoom sur l’image, sélectionnez **[!UICONTROL Ajout de cibles]** (rectangle). La page Éditeur de cible de zoom propose également des outils pour supprimer, copier et nommer les cibles de zoom.
 

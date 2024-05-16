@@ -10,10 +10,10 @@ role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 43%
+ht-degree: 40%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 43%
 
 Les paramètres prédéfinis de la visionneuse de zoom déterminent le style, le comportement et l’aspect de vos visionneuses de zoom. Adobe Dynamic Media Classic offre de nombreuses options pour personnaliser et habiller les visionneuses. Adobe Dynamic Media Classic est fourni avec les paramètres prédéfinis de visionneuse de zoom personnalisés, de base (rapide) et en sortie déroulante par défaut. Si vous êtes administrateur, vous pouvez créer des paramètres prédéfinis de visionneuse de zoom de l’entreprise ou modifier un paramètre prédéfini par défaut et l’enregistrer sous un nouveau nom.
 
-Toutes les visionneuses de zoom comportent des boutons permettant d’effectuer un zoom avant, un zoom arrière et un panoramique mais aussi de rétablir l’état initial de l’image après le zoom. L’aspect de ces boutons et l’affichage de la fenêtre elle-même dépendent de vos paramètres prédéfinis de visionneuse de zoom. Vous pouvez configurer un paramètre prédéfini de visionneuse de zoom avec des couleurs, des bordures, des polices et des paramètres d’image différents. Dans le cas d’une visionneuse de zoom guidé, vous pouvez également choisir l’emplacement des cibles de zoom. Les cibles de zoom correspondent aux miniatures sur lesquelles les utilisateurs cliquent pour effectuer un zoom sur les zones que vous définissez.
+Toutes les visionneuses de zoom comportent des boutons permettant d’effectuer un zoom avant, un zoom arrière et un panoramique mais aussi de rétablir l’état initial de l’image après le zoom. L’aspect de ces boutons et l’affichage de la fenêtre elle-même dépendent de vos paramètres prédéfinis de visionneuse de zoom. Vous pouvez configurer un paramètre prédéfini de visionneuse de zoom avec des couleurs, des bordures, des polices et des paramètres d’image différents. Lors de la configuration d’une visionneuse de zoom guidée, vous pouvez également choisir l’emplacement des cibles de zoom. Les cibles de zoom correspondent aux miniatures sur lesquelles les utilisateurs cliquent pour effectuer un zoom sur les zones que vous définissez.
 
 ## A propos des paramètres prédéfinis de la visionneuse de zoom {#about-zoom-viewer-presets}
 

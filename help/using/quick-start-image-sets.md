@@ -10,10 +10,10 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 Les visionneuses d’images Adobe Dynamic Media Classic offrent aux utilisateurs une expérience de visionnage intégrée. Dans la visionneuse d’images dynamique, les utilisateurs peuvent afficher différentes vues d’un élément en sélectionnant une miniature. Les visionneuses d’images vous permettent de présenter d’autres vues haute résolution d’un élément.
 
-Les outils de zoom de la visionneuse d’images sont pratiques pour examiner les images de plus près. Si vous le souhaitez, vous pouvez intégrer des cibles de zoom guidé et des zones cliquables dans votre visionneuse d’images. Les visionneuses d’images garantissent une visualisation concertée et privée.
+Les outils de zoom de la visionneuse d’images sont pratiques pour examiner les images de plus près. Si vous le souhaitez, vous pouvez intégrer des cibles de zoom guidées et des zones cliquables à votre visionneuse d’images. Les visionneuses d’images garantissent une visualisation concertée et privée.
 
 Voir [Visionneuses d’images et à 360° : Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) vidéo de formation.
 
@@ -54,7 +54,7 @@ Pour créer une visionneuse d’images, dans la barre de navigation globale, sé
 
 Voir [Création d’une visionneuse d’images](creating-image-set.md#creating-an-image-set).
 
-Voir aussi [Inclusion de cibles de zoom et de zones cliquables dans les visionneuses d’images](/help/using/including-zoom-targets-image-maps-image-sets.md)
+Voir aussi [Inclure les cibles de zoom et les zones cliquables dans les visionneuses d’images](/help/using/including-zoom-targets-image-maps-image-sets.md)
 
 ## 3. Préparez les paramètres prédéfinis de la visionneuse d’images, si nécessaire
 
@@ -66,7 +66,7 @@ Voir [Création et modification de paramètres prédéfinis de visionneuse](appl
 
 ## 4. Prévisualisation d’une visionneuse d’images
 
-Sélectionnez la visionneuse d’images dans le panneau de navigation, puis sélectionnez **[!UICONTROL Aperçu]**. Dans la page Aperçu , sélectionnez les icônes de miniature pour examiner votre visionneuse d’images dans la visionneuse sélectionnée. Différentes visionneuses sont disponibles dans le menu Paramètres prédéfinis.
+Sélectionnez la visionneuse d’images dans le panneau Parcourir , puis sélectionnez **[!UICONTROL Aperçu]**. Dans la page Aperçu , sélectionnez les icônes de miniature pour examiner votre visionneuse d’images dans la visionneuse sélectionnée. Différentes visionneuses sont disponibles dans le menu Paramètres prédéfinis.
 
 Voir [Aperçu d’une ressource](previewing-asset.md#previewing-an-asset).
 
@@ -78,7 +78,7 @@ La publication d’une visionneuse d’images la place sur les serveurs Adobe Dy
 >
 >Cette étape n’est pas nécessaire si vous avez sélectionné **[!UICONTROL Publier après un enregistrement]** (par défaut) au moment de la création et de l’enregistrement de la visionneuse d’images.
 
-Sélectionner **[!UICONTROL Marquer pour publication]** à gauche de son nom dans le panneau de navigation. Sélectionnez **[!UICONTROL Publier]**. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
+Sélectionner **[!UICONTROL Marquer pour publication]** à gauche de son nom dans le panneau Parcourir . Sélectionnez **[!UICONTROL Publier]**. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
 Voir [Publication de fichiers](publishing-files.md#publishing-files).
 

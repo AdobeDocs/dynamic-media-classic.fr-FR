@@ -10,7 +10,7 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 49%
@@ -38,7 +38,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Effectuez l’une des opérations suivantes :
 
-   * **Sélectionner les images en premier**: dans le panneau de navigation, sélectionnez les images, puis accédez à **[!UICONTROL Build]** > **[!UICONTROL Séries d’échantillons]**.
+   * **Sélectionner les images en premier**: dans le panneau Parcourir, sélectionnez les images, puis accédez à **[!UICONTROL Build]** > **[!UICONTROL Séries d’échantillons]**.
 
    * **Démarrage à partir de l’écran Série d’échantillons**: accédez à **[!UICONTROL Build]** > **[!UICONTROL Séries d’échantillons]**. Sélectionnez un dossier dans la bibliothèque des fichiers, puis faites glisser les images sur la section Vues de la page Série d’échantillons.
 

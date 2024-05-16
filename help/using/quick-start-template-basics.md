@@ -10,7 +10,7 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 17%
@@ -69,4 +69,4 @@ Pour publier un modèle, marquez-le pour publication puis, sur la barre de navig
 
 Dynamic Media Classic crée des URL pour les modèles et les active lorsque vous publiez des modèles sur les serveurs d’images Dynamic Media. Vous pouvez copier ces chaînes URL à partir de la page Aperçu du modèle .
 
-Sélectionnez votre modèle dans le panneau de navigation, puis sélectionnez **[!UICONTROL Aperçu]** pour ouvrir la page Aperçu du modèle . Sélectionnez un paramètre d’image prédéfini pour la diffusion de votre modèle, puis cliquez sur le bouton **[!UICONTROL Copier l’URL]** bouton . Après avoir copié l’URL à partir de la page Aperçu, vous pouvez l’utiliser dans votre site Web ou application. Voir [Associer un modèle à une page Web](linking-template-web-page.md#linking_a_template_to_a_web_page).
+Sélectionnez votre modèle dans le panneau Parcourir, puis sélectionnez **[!UICONTROL Aperçu]** pour ouvrir la page Aperçu du modèle . Sélectionnez un paramètre d’image prédéfini pour la diffusion de votre modèle, puis cliquez sur le bouton **[!UICONTROL Copier l’URL]** bouton . Après avoir copié l’URL à partir de la page Aperçu, vous pouvez l’utiliser dans votre site Web ou application. Voir [Associer un modèle à une page Web](linking-template-web-page.md#linking_a_template_to_a_web_page).

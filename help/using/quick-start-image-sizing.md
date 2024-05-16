@@ -10,7 +10,7 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 6%
@@ -66,6 +66,6 @@ Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]** pour
 
 ## 5. Lier les URL à votre application web
 
-Adobe Dynamic Media Classic crée des chaînes d’légende URL pour les images. Lorsque vous publiez des images sur les serveurs Dynamic Media Image, les URL deviennent actives. Vous pouvez copier ces chaînes d’URL à partir du panneau de navigation (dans la vue Détails) ou de l’écran de prévisualisation. Après avoir copié les chaînes URL, vous pouvez les utiliser dans votre site Web et dans vos applications. L’URL de dimensionnement des images remplace la référence à un nom d’image statique dans le code de votre page Web. L’URL référence un nom d’image principal que la base de données remplace pour chaque nouvelle image à afficher.
+Adobe Dynamic Media Classic crée des chaînes d’légende URL pour les images. Lorsque vous publiez des images sur les serveurs Dynamic Media Image, les URL deviennent actives. Vous pouvez copier ces chaînes URL à partir du panneau Parcourir (dans la vue Détails) ou de l’écran de prévisualisation. Après avoir copié les chaînes URL, vous pouvez les utiliser dans votre site Web et dans vos applications. L’URL de dimensionnement des images remplace la référence à un nom d’image statique dans le code de votre page Web. L’URL référence un nom d’image principal que la base de données remplace pour chaque nouvelle image à afficher.
 
 Les chaînes URL générées avec des paramètres d’image prédéfinis contiennent le nom d’un paramètre d’image prédéfini. Ce nom est encadré de signes dollar (`$`). Par exemple : `$thumbnail$` peut être le paramètre d’image prédéfini conçu pour afficher les images principales à la taille de la miniature. Voir [Lier des URL à votre application web](linking-urls-web-application.md#linking_urls_to_your_web_application).

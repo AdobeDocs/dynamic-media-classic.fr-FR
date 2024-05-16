@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 52%
+source-wordcount: '841'
+ht-degree: 49%
 
 ---
 
@@ -41,7 +41,7 @@ Si vous n’accordez pas spécifiquement l’autorisation de groupe à une resso
 
    Voir [Définition des autorisations d’accès aux fichiers pour un groupe](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 
-1. Si vous souhaitez choisir les paramètres d’image prédéfinis qui sont disponibles pour le groupe, sélectionnez la variable **[!UICONTROL Autorisations d’accès aux paramètres d’image prédéfinis]** et sélectionnez Paramètres d’image prédéfinis que le groupe peut utiliser.
+1. Vous pouvez choisir les paramètres d’image prédéfinis disponibles pour le groupe. Cliquez simplement sur le bouton **[!UICONTROL Autorisations d’accès aux paramètres d’image prédéfinis]** et sélectionnez Paramètres d’image prédéfinis que le groupe peut utiliser.
 
    Voir [Choix des autorisations d’accès de paramètres d’image prédéfinis pour un groupe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
 
@@ -56,7 +56,7 @@ Si vous n’accordez pas spécifiquement l’autorisation de groupe à une resso
    * Pour modifier les autorisations d’un groupe, sélectionnez-le, puis choisissez **[!UICONTROL Modifier]**.
 
 1. Dans la boîte de dialogue Ajouter un groupe ou Modifier le groupe , sélectionnez le **[!UICONTROL Autorisations d’accès aux ressources]** . Dans la partie droite de l’onglet, des cases permettent de définir les autorisations en lecture, en écriture et en suppression sur les dossiers et les fichiers. Vous pouvez développer et réduire les dossiers et sous-dossiers dans le volet gauche.
-1. Pour attribuer des droits sur des dossiers ou des fichiers individuels, sélectionnez le dossier dans le volet gauche. Le contenu du dossier s’affiche dans le volet droit. Attribuez ensuite des droits au groupe en cochant les cases des dossiers ou fichiers correspondants dans le volet droit.
+1. Pour attribuer des droits sur des dossiers ou des fichiers individuels, sélectionnez le dossier dans le volet gauche. Le contenu du dossier s’affiche dans le volet droit. Attribuez ensuite des droits au groupe en cochant les cases correspondant aux fichiers correspondants. Vous pouvez également sélectionner les dossiers dans le volet de droite.
 
    Ce tableau présente la correspondance entre différentes tâches et les autorisations de lecture, d’écriture et de suppression associées.
 
@@ -98,6 +98,6 @@ Voir aussi [Définition des options d’exportation disponibles pour les utilisa
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de Media Portal]** > **[!UICONTROL Groupes]**.
 1. Sur la page de liste des groupes, sélectionnez un groupe et modifiez ou supprimez-le.
 
-   **Modification d’un groupe**: sélectionnez **[!UICONTROL Modifier]**, puis sélectionnez des options dans la boîte de dialogue Modifier le groupe .
+   **Modification d’un groupe**: sélectionnez **[!UICONTROL Modifier]**, puis sélectionnez les options de la boîte de dialogue Modifier le groupe .
 
    **Suppression d’un groupe**: sélectionnez **[!UICONTROL Supprimer]**.

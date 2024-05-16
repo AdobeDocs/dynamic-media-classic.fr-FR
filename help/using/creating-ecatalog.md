@@ -10,16 +10,16 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 38%
+source-wordcount: '984'
+ht-degree: 30%
 
 ---
 
 # Création d’un catalogue électronique {#creating-an-ecatalog}
 
-Dans le cadre de la création d’un catalogue électronique, il convient de définir l’ordre des pages et leur disposition, puis de les lier en traçant des zones cliquables et en saisissant des données de lien hypertexte et de survol. Accessoirement, vous pouvez personnaliser la table des matières afin que les utilisateurs puissent voir le nom des pages plutôt que leur numéro dans la visionneuse de catalogue électronique.
+La création d’un catalogue électronique implique de classer les pages, de choisir la mise en page et de lier les pages en dessinant des zones cliquables. Elle requiert également la saisie de données de lien de survol et hypertexte. Accessoirement, vous pouvez personnaliser la table des matières afin que les utilisateurs puissent voir le nom des pages plutôt que leur numéro dans la visionneuse de catalogue électronique.
 
 ## Créer un catalogue électronique {#create}
 
@@ -38,9 +38,9 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Utilisez l’une des méthodes suivantes pour commencer à créer votre catalogue électronique :
 
-   * **Sélectionner d’abord les fichiers**: dans le panneau de navigation, sélectionnez les fichiers, puis accédez à **[!UICONTROL Build]** > **[!UICONTROL Catalogues électroniques]**.
+   * **Sélectionner d’abord les fichiers**: dans le panneau Parcourir , sélectionnez les fichiers, puis accédez à **[!UICONTROL Build]** > **[!UICONTROL Catalogues électroniques]**.
 
-   * **Démarrage à partir de l’écran Catalogue électronique**: accédez à **[!UICONTROL Build]** > **[!UICONTROL Catalogues électroniques]**. Sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser son contenu vers l’onglet Ordre des pages de la page Catalogue électronique.
+   * **Démarrage à partir de l’écran Catalogue électronique**: accédez à **[!UICONTROL Build]** > **[!UICONTROL Catalogues électroniques]**. Sélectionnez un dossier dans la bibliothèque de ressources. Faites glisser des fichiers du dossier vers l’onglet Ordre des pages de la page Catalogue électronique.
 
      >[!NOTE]
      >
@@ -58,7 +58,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Lorsque vous avez terminé, près du coin inférieur droit de la page, assurez-vous que **[!UICONTROL Publier après un enregistrement]** est sélectionné (par défaut).
 1. Sélectionner **[!UICONTROL Enregistrer]**.
-1. Dans la boîte de dialogue Enregistrer, sélectionnez le dossier dans lequel conserver le catalogue électronique. Dans le champ Nom de fichier, saisissez le nom de la visionneuse à 360°.
+1. Dans la boîte de dialogue Enregistrer, sélectionnez le dossier dans lequel conserver le catalogue électronique. Dans le champ Nom du fichier , saisissez le nom de la visionneuse à 360°.
 1. Sélectionner **[!UICONTROL Enregistrer]**.
 
    Vous pouvez prévisualiser votre catalogue électronique en sélectionnant **[!UICONTROL Aperçu]**.
@@ -98,7 +98,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 Adobe Dynamic Media Classic fournit les numéros de page par défaut dans votre catalogue électronique, sous l’onglet Ordre des pages de l’écran Catalogue électronique. Pour utiliser des noms de page personnalisés, libre à vous de modifier les étiquettes de page qui composent la table des matières. Il est recommandé de renommer les pages de couverture recto (avant) et verso (arrière). Par exemple, la page de couverture frontale peut lire &quot;Couverture&quot; au lieu de &quot;Page 0-1&quot;.
 
-Vous pouvez créer une table des matières personnalisée pour votre catalogue électronique manuellement ou en important les noms de page à partir d’un fichier CSV (Mac uniquement) ou XML.
+Vous pouvez créer manuellement une table des matières personnalisée pour votre catalogue électronique. Vous pouvez également importer les noms de page à partir d’un fichier CSV (Mac uniquement) ou XML.
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Vous pouvez créer une table des matières personnalisée pour votre catalogue �
 
 ### Saisie manuelle des noms de pages {#manually-entering-page-names}
 
-Pour entrer manuellement les noms de page un par un, activez l’onglet Ordre des pages de l’écran Catalogue électronique. Ensuite, dans le champ du numéro de page, saisissez le nom de chaque page que vous souhaitez nommer.
+Saisissez manuellement les noms de page un par un en accédant à l’onglet Ordre des pages de l’écran Catalogue électronique. Ensuite, dans le champ du numéro de page, saisissez le nom de chaque page que vous souhaitez nommer.
 
 ### Importer les noms de page {#importing-page-names}
 

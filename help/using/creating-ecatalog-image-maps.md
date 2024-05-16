@@ -10,10 +10,10 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 28%
+ht-degree: 26%
 
 ---
 
@@ -66,7 +66,7 @@ Vous pouvez également, si vous le souhaitez, afficher du texte d’info-bulle l
    Voir [Dessin de zones cliquables de catalogue électronique](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
 1. Dans la liste déroulante Afficher , sélectionnez **[!UICONTROL Média enrichi]**.
-1. Dans le panneau d’ajout de fichiers sur la gauche, accédez à un dossier contenant le fichier de la visionneuse à 360° ou de vidéo (format MP4) à intégrer.
+1. Dans le panneau Ajouter des ressources à gauche, accédez à un dossier contenant la visionneuse à 360° ou la ressource vidéo (format MP4) à incorporer.
 1. Faites glisser le fichier sur la zone cliquable.
 1. (Facultatif) Dans le panneau de la liste Zone cliquable, sous **[!UICONTROL Info-bulle]** en-tête de colonne, saisissez le texte que les visiteurs doivent voir à l’écran lorsqu’ils déplacent leur pointeur sur la zone cliquable.
 1. Sélectionner **[!UICONTROL Enregistrer]**.

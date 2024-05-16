@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 24%
+source-wordcount: '1703'
+ht-degree: 23%
 
 ---
 
@@ -42,7 +42,7 @@ Une fois les vidéos publiées, Adobe Dynamic Media Classic active les chaînes 
 1. Effectuez l’une des opérations suivantes :
 
    * Pour publier des vidéos automatiquement et instantanément lors du téléchargement, sur la page Télécharger, sélectionnez **[!UICONTROL Publier après le téléchargement]**. Vous avez terminé ; il ne reste plus aucune étape à exécuter.
-   * Pour publier des vidéos manuellement après le chargement, dans le panneau de navigation, sélectionnez les vidéos, puis, dans la barre de navigation globale, sélectionnez **Publier**.
+   * Pour publier des vidéos manuellement après le chargement, dans le panneau Parcourir , sélectionnez les vidéos, puis, dans la barre de navigation globale, sélectionnez **Publier**.
 
 ## Liaison d’une URL de vidéo à un site mobile ou à un site web {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
@@ -107,7 +107,7 @@ Voir aussi [Liaison d’une URL de vidéo à un site mobile ou à un site web](d
 
 ### Mise en oeuvre du code intégré pour l’utilisation de vidéos HTML5 avec des ressources vidéo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Si vous n’utilisez pas le lecteur vidéo Adobe Dynamic Media Classic HTML5, mais que vous souhaitez utiliser le HTML natif5. `<video>` avec des ressources vidéo MP4, vous pouvez utiliser l’exemple de code intégré suivant :
+Vous pouvez ne pas utiliser le lecteur vidéo Adobe Dynamic Media Classic HTML5. Si vous souhaitez utiliser le HTML natif5 `<video>` avec des ressources vidéo MP4, vous pouvez utiliser l’exemple de code intégré suivant :
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -131,7 +131,7 @@ Si vous n’utilisez pas le lecteur vidéo Adobe Dynamic Media Classic HTML5, ma
 
 ## Déploiement d’une vidéo à l’aide d’un lecteur vidéo tiers {#deploying-video-using-a-third-party-video-player}
 
-Si vous utilisez un lecteur vidéo tiers ou un lecteur vidéo personnalisé au lieu d’une visionneuse de vidéos Dynamic Media Classic, vous obtenez l’URL de vidéo directe qui fonctionne pour la diffusion en continu à débit multiple HLS ou le téléchargement progressif.
+Si vous utilisez des lecteurs vidéo tiers ou un lecteur vidéo personnalisé au lieu d’une visionneuse de vidéos Dynamic Media Classic, vous obtenez l’URL de vidéo directe qui fonctionne pour la diffusion en continu à débit multiple HLS ou le téléchargement progressif.
 
 **Pour déployer une vidéo à l’aide d’un lecteur vidéo tiers :**
 

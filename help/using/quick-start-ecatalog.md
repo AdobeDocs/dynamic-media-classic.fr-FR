@@ -10,7 +10,7 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 25%
@@ -70,7 +70,7 @@ Voir [Chargement des fichiers du PDF](uploading-pdf-files.md#uploading_the_pdf_f
 
 ## 2. Création d’un catalogue électronique
 
-Créez votre catalogue électronique en sélectionnant des fichiers de PDF ou d’image dans le panneau de navigation. Sélectionner **[!UICONTROL Build]**, puis choisissez **[!UICONTROL Catalogues électroniques]**.
+Créez votre catalogue électronique en sélectionnant des fichiers de PDF ou d’image dans le panneau Parcourir . Sélectionner **[!UICONTROL Build]**, puis choisissez **[!UICONTROL Catalogues électroniques]**.
 
 Sur la page Catalogue électronique, sur la page **[!UICONTROL Pages de commande]** , sélectionnez une option Disposition : **[!UICONTROL 1 haut]**, **[!UICONTROL 2 en haut]**, ou **[!UICONTROL Personnalisé]**. Vous pouvez réorganiser les pages ou les planches en les faisant glisser ou, dans le cas de catalogues électroniques volumineux, en choisissant un nom de page dans le menu Déplacer vers.
 
@@ -108,7 +108,7 @@ Voir [Configuration des paramètres prédéfinis de la visionneuse de catalogue 
 
 Les paramètres prédéfinis de visionneuse de catalogue électronique déterminent le style et le comportement de vos visionneuses de catalogue électronique.
 
-Pour découvrir comment les paramètres prédéfinis de la visionneuse de catalogue électronique affichent votre catalogue électronique, sélectionnez votre catalogue électronique dans le panneau de navigation, puis sélectionnez **[!UICONTROL Aperçu]**. L’écran de prévisualisation s’ouvre dans la visionneuse par défaut.
+Pour découvrir comment les paramètres prédéfinis de la visionneuse de catalogue électronique affichent votre catalogue électronique, sélectionnez votre catalogue électronique dans le panneau Parcourir, puis sélectionnez **[!UICONTROL Aperçu]**. L’écran de prévisualisation s’ouvre dans la visionneuse par défaut.
 
 Observez l’orientation des pages, la palette de couleurs, l’aspect des commandes permettant de changer de page et la manière dont les pages s’affichent lorsque vous les feuilletez.
 
@@ -118,13 +118,13 @@ Voir [Aperçu des catalogues électroniques dans la visionneuse de catalogue él
 
 La publication de votre catalogue électronique et du PDF associé le place sur les serveurs d’images Dynamic Media afin qu’il puisse être diffusé sur votre site Web et dans votre application. Dans le cadre du processus de publication, Adobe Dynamic Media Classic active la chaîne URL de votre catalogue électronique. Utilisez cette URL pour appeler le catalogue électronique à partir des serveurs d’images Dynamic Media vers votre site web ou votre application.
 
-Après avoir marqué votre catalogue électronique et votre PDF pour publication dans le panneau de navigation, cliquez sur le bouton Publier de la barre de navigation globale pour lancer une publication. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
+Après avoir marqué votre catalogue électronique et votre PDF pour publication dans le panneau Parcourir , cliquez sur le bouton Publier de la barre de navigation globale pour lancer une publication. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
 Voir [Publication de catalogues électroniques et de PDF associés](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
 ## 7. Associer un catalogue électronique à une page Web
 
-Adobe Dynamic Media Classic active la chaîne d’légende d’URL nécessaire à l’affichage de votre catalogue électronique lorsque vous le publiez sur les serveurs d’images Dynamic Media. Vous pouvez copier cette chaîne d’URL à partir de l’écran de prévisualisation et du panneau de navigation (dans le mode Affichage des détails) en sélectionnant les URL dans le panneau. Une fois la chaîne d’URL copiée, elle est disponible sur vos sites Web et applications.
+Adobe Dynamic Media Classic active la chaîne d’légende d’URL nécessaire à l’affichage de votre catalogue électronique lorsque vous le publiez sur les serveurs d’images Dynamic Media. Vous pouvez copier cette chaîne d’URL à partir de l’écran de prévisualisation et du panneau Parcourir (dans le mode Affichage des détails) en sélectionnant les URL dans le panneau. Une fois la chaîne d’URL copiée, elle est disponible sur vos sites Web et applications.
 
 Contactez votre équipe informatique pour placer le lien vers le catalogue électronique au bon endroit dans votre page web. Lorsque les utilisateurs sélectionnent le lien, la visionneuse de catalogue électronique s’affiche et ils peuvent parcourir votre catalogue électronique.
 

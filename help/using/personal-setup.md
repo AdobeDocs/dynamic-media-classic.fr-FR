@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 23%
+source-wordcount: '830'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ Tous les utilisateurs peuvent modifier les paramètres de l’écran Configurati
 >
 >L’écran Configuration personnelle répertorie le rôle utilisateur que vous avez dans Adobe Dynamic Media Classic : Administrateur d’entreprise, Administrateur ou Utilisateur.
 
-Les paramètres de l’écran Configuration personnelle contrôlent le comportement par défaut du panneau de navigation, le mode de réception des e-mails et la configuration des mots de passe. N’oubliez pas de sélectionner **[!UICONTROL Enregistrer]** après avoir modifié ces paramètres.
+Les paramètres de configuration personnelle contrôlent le comportement par défaut du panneau Parcourir, la manière dont vous recevez des e-mails et des paramètres de mot de passe. N’oubliez pas de sélectionner **[!UICONTROL Enregistrer]** après avoir modifié ces paramètres.
 
 ## Informations sur mon compte
 
@@ -72,9 +72,9 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Navigateur
 
-* **[!UICONTROL Taille de la miniature]**: détermine la taille par défaut des images miniatures en mode Grille dans le panneau de navigation.
+* **[!UICONTROL Taille de la miniature]**: détermine la taille par défaut des images miniatures en mode Grille dans le panneau Parcourir.
 * **[!UICONTROL Mode Bibliothèque de ressources par défaut]**: détermine si les ressources de la bibliothèque de ressources pour les ensembles de versions apparaissent sous la forme de miniatures ou par nom. Si vous travaillez avec un grand nombre de fichiers dans la bibliothèque, vous pouvez les afficher par nom. Par exemple, si vous créez un catalogue électronique volumineux avec de nombreux fichiers PDF, vous pouvez afficher les fichiers par nom pour que la liste soit plus courte.
-* **[!UICONTROL Ordre de tri de la navigation par défaut]**: détermine l’ordre d’affichage des ressources par défaut dans le panneau de navigation. Choisissez un critère de tri dans le menu, et optez pour un ordre croissant ou décroissant.
+* **[!UICONTROL Ordre de tri de la navigation par défaut]**: détermine l’ordre d’affichage des ressources par défaut dans le panneau Parcourir. Choisissez un critère de tri dans le menu, et optez pour un ordre croissant ou décroissant.
 * **[!UICONTROL Emplacement de navigation par défaut]**: permet de définir l’emplacement de navigation sur la valeur par défaut, le dernier dossier parcouru ou sur un emplacement spécifique que vous accédez à et identifiez. Vous pouvez également définir l’emplacement de navigation pour trier les fichiers et les dossiers dans l’ordre ascendant ou descendant.
 * **[!UICONTROL Mode Parcourir par défaut]**: détermine si le mode Affichage de la grille ou Affichage de la liste est le mode par défaut qui s’affiche lorsque vous ouvrez le panneau Parcourir pour la première fois.
 * **[!UICONTROL Affichage de l’écran de démarrage]**: détermine si vous voyez des écrans de démarrage, y compris l’écran de bienvenue.
@@ -83,7 +83,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL Afficher la taille du fichier]**: affiche la taille de fichier d’une ressource en cours de navigation.
 * **[!UICONTROL Inclure les champs définis par les utilisateurs dans la recherche]**: pour améliorer les performances système de la plupart des recherches de métadonnées que vous exécutez, désélectionnez (par défaut).
 
-  Si l’inclusion de champs définis par les utilisateurs est bénéfique pour la plupart de vos recherches de métadonnées, activez-la en sélectionnant cette option. Vous pouvez également utiliser Recherche avancée afin d’effectuer des recherches mieux orientées et plus rapides qu’avec l’inclusion de tous les champs définis par les utilisateurs.
+  Si l’inclusion de champs définis par les utilisateurs est bénéfique pour la plupart de vos recherches de métadonnées, activez-la en sélectionnant cette option. Vous pouvez également utiliser la fonction de recherche avancée afin d’offrir une expérience de recherche plus ciblée et plus rapide que l’inclusion de champs définis par l’utilisateur.
 
   Voir [Recherche avancée](searching-assets.md#conducting_an_advanced_search).
 
@@ -107,7 +107,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 * **[!UICONTROL Mot de passe actuel]**: saisissez le mot de passe de votre mot de passe actuel.
 * **[!UICONTROL Nouveau mot de passe]**: saisissez un nouveau mot de passe valide. Votre mot de passe doit répondre aux exigences suivantes :
-   * Comporter entre 8 et 25 caractères.
+   * Elle doit comporter entre 8 et 25 caractères.
    * Contient au moins une lettre minuscule.
    * Contient au moins une lettre majuscule.
    * Contient au moins un nombre.

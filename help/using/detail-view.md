@@ -10,7 +10,7 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 20%
@@ -42,7 +42,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 Vous pouvez afficher une ressource dans la vue Détails afin de pouvoir l’examiner de plus près, la prévisualiser ou l’utiliser.
 
-1. Dans le panneau de navigation, effectuez l’une des opérations suivantes :
+1. Dans le panneau Parcourir , effectuez l’une des opérations suivantes :
 
    * Sélectionnez la ressource. Dans le coin supérieur droit d’Adobe Dynamic Media Classic, sélectionnez la variable **[!UICONTROL Affichage des détails]** Icône
    * Cliquez deux fois sur le fichier.

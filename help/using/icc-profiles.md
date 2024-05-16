@@ -10,7 +10,7 @@ role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 41%
@@ -25,7 +25,7 @@ Dans Adobe Dynamic Media Classic, vous pouvez choisir un profil ICC pour convert
 
 Voir [Options de modification d’image lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
 
-Outre l’utilisation des profils ICC par défaut, vous pouvez charger d’autres profils ICC dans Adobe Dynamic Media Classic et les rendre disponibles pour la conversion de l’espace colorimétrique. Passez en mode Affichage des détails dans le panneau de navigation pour examiner la classe de profil, le type d’espace colorimétrique et le type PCS d’un profil ICC.
+Outre l’utilisation des profils ICC par défaut, vous pouvez charger d’autres profils ICC dans Adobe Dynamic Media Classic et les rendre disponibles pour la conversion de l’espace colorimétrique. Passez en mode Affichage des détails dans le panneau Parcourir pour examiner la classe de profil, le type d’espace colorimétrique et le type PCS d’un profil ICC.
 
 ## Chargement de profils ICC {#uploading-icc-profiles}
 
@@ -35,7 +35,7 @@ Voir [Chargement des fichiers](uploading-files.md#uploading_your_files).
 
 ## Examiner un profil ICC {#examining-an-icc-profile}
 
-Pour examiner un profil ICC, sélectionnez-le dans le panneau de navigation et affichez-le dans la vue Détails. La vue Détails fournit ces informations sur les profils ICC :
+Pour examiner un profil ICC, sélectionnez-le dans le panneau Parcourir et affichez-le dans la vue Détails. La vue Détails fournit ces informations sur les profils ICC :
 
 * **[!UICONTROL Classe de profil]**: l’ICC (International Color Consortium) définit chaque classe pour couvrir un type d’application. Par exemple, les profils d’entrée s’appliquent aux périphériques tels que les appareils photo numériques et les numériseurs, tandis que les profils de sortie s’appliquent aux imprimantes.
 

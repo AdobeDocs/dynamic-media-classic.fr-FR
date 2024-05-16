@@ -10,10 +10,10 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 21%
+ht-degree: 19%
 
 ---
 
@@ -37,9 +37,9 @@ Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]*
 
 ## 2. Création de cibles de zoom pour un zoom guidé
 
-Les cibles de zoom vous permettent de mettre en valeur des sections particulières d’une image. Vous pouvez, par exemple, attirer l’attention des utilisateurs sur les sections d’une image qui la caractérisent ou la distinguent. Les cibles de zoom s’affichent sous la forme de miniatures, à côté de l’image, dans la fenêtre de la visionneuse de zoom. La sélection d’une de ces miniatures de cible de zoom permet d’effectuer un zoom automatique sur la section de l’image que vous définissez.
+Les cibles de zoom vous permettent de mettre en valeur des sections particulières d’une image. Vous pouvez, par exemple, attirer l’attention des utilisateurs sur les sections d’une image qui la caractérisent ou la distinguent. Dans la fenêtre Visionneuse de zoom , les cibles de zoom s’affichent sous la forme d’images miniatures sur le côté de l’image. La sélection d’une de ces miniatures de cible de zoom permet d’effectuer un zoom automatique sur la section de l’image que vous définissez.
 
-Pour créer une cible de zoom, sélectionnez **[!UICONTROL Modifier]** et sélectionnez Cibles de zoom ou ouvrez une image dans le panneau de navigation de la vue Détails, puis sélectionnez **[!UICONTROL Cibles de zoom]**. Utilisez ensuite les outils de zoom de la page Éditeur de cible de zoom pour isoler une partie de l’image en tant que cible. Voir [Création de cibles de zoom pour un zoom guidé](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
+Pour créer une cible de zoom, sélectionnez **[!UICONTROL Modifier]** et sélectionnez Cibles de zoom ou ouvrez une image dans le panneau Parcourir de la vue Détails, puis sélectionnez **[!UICONTROL Cibles de zoom]**. Utilisez ensuite les outils de zoom de la page Éditeur de cible de zoom pour isoler une partie de l’image en tant que cible. Voir [Création de cibles de zoom pour un zoom guidé](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
 
 ## 3. Configuration des paramètres prédéfinis de la visionneuse de zoom
 
@@ -53,9 +53,9 @@ Offres Adobe Dynamic Media Classic **[!UICONTROL Paramètre prédéfini de la vi
 
 Vous pouvez prévisualiser des images dans une visionneuse de zoom afin de vérifier le résultat obtenu lorsque vous effectuez un zoom sur les images.
 
-Pour explorer les différents paramètres prédéfinis de la visionneuse de zoom et leur présentation, sélectionnez une image dans le panneau de navigation, puis sélectionnez **[!UICONTROL Aperçu]**. Accédez à **[!UICONTROL Paramètres prédéfinis]** > **[!UICONTROL Zoom]**, puis sélectionnez un paramètre prédéfini à l’aide du menu Zoom .
+Pour explorer les différents paramètres prédéfinis de la visionneuse de zoom et leur présentation, sélectionnez une image dans le panneau Parcourir et sélectionnez **[!UICONTROL Aperçu]**. Accédez à **[!UICONTROL Paramètres prédéfinis]** > **[!UICONTROL Zoom]**, puis sélectionnez un paramètre prédéfini à l’aide du menu Zoom .
 
-Les boutons de zoom apparaissent. Vous pouvez voir à quoi ressemblent les images de zoom sur votre site Web. Sélectionnez les boutons de zoom (et les cibles de zoom) pour tester les paramètres du paramètre prédéfini de la visionneuse de zoom que vous avez choisi. Voir [Aperçu des images avec différentes visionneuses de zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+Les boutons de zoom apparaissent. Vous pouvez voir à quoi ressemblent les images de zoom sur votre site Web. Sélectionnez les boutons de zoom (et les cibles de zoom) afin de pouvoir tester les paramètres du paramètre prédéfini de la visionneuse de zoom que vous avez choisi. Voir [Aperçu des images avec différentes visionneuses de zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ## 5. Publication des images de zoom
 

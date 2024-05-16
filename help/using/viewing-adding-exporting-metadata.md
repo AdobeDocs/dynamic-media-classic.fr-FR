@@ -10,10 +10,10 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '2225'
-ht-degree: 35%
+ht-degree: 34%
 
 ---
 
@@ -86,7 +86,7 @@ Au lieu de saisir manuellement les métadonnées fichier par fichier, vous pouve
 
 Vous trouverez plus d’informations sur les propriétés normalisées à l’adresse [Adobe XMP Centre de développement](https://www.adobe.com/devnet/xmp.html).
 
-1. Dans le panneau de navigation, sélectionnez les images auxquelles vous souhaitez ajouter des métadonnées à partir du fichier délimité par des tabulations ou du fichier XML.
+1. Dans le panneau Parcourir , sélectionnez les images auxquelles vous souhaitez ajouter des métadonnées à partir du fichier XML ou délimité par des tabulations.
 1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Importation de métadonnées]**.
 1. Dans le **[!UICONTROL Chargement des métadonnées]** boîte de dialogue, sélectionnez **[!UICONTROL Parcourir]**.
 1. Dans la boîte de dialogue **[!UICONTROL Sélectionnez les fichiers à télécharger]**, sélectionnez le fichier XML ou délimité par des tabulations contenant les métadonnées.
@@ -135,7 +135,7 @@ Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]*
 
 ## Attribution d’un nouveau nom aux ID par lots à l’aide de métadonnées {#batch-rename-ids-using-metadata}
 
-Les métadonnées importées depuis un fichier délimité par des tabulations ou un fichier XML vous permettent de renommer les Adobe Dynamic Media Classic ID. Les métadonnées importées sont appliquées uniquement aux images spécifiées dans le fichier de métadonnées. Peu importe que les images soient sélectionnées dans le panneau de navigation.
+Les métadonnées importées depuis un fichier délimité par des tabulations ou un fichier XML vous permettent de renommer les Adobe Dynamic Media Classic ID. Les métadonnées importées sont appliquées uniquement aux images spécifiées dans le fichier de métadonnées. Le fait que les images soient sélectionnées dans le panneau Parcourir importe peu.
 
 Pour renommer l’Adobe Dynamic Media Classic ID d’une image, ajoutez une colonne intitulée *newipsid* dans le fichier délimité par des tabulations ou ajoutez un champ appelé `new_vc_objectname` aux données XML.
 
