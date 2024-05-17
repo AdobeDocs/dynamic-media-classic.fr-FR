@@ -10,16 +10,16 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 24%
+source-wordcount: '1622'
+ht-degree: 23%
 
 ---
 
 # Vérification des fichiers de tâche{#checking-job-files}
 
-Pour surveiller les chargements de fichiers vers Adobe Dynamic Media Classic et les fichiers que vous publiez sur les serveurs Adobe Dynamic Media Classic, Adobe Dynamic Media Classic propose la page Tâches. Vous pouvez consulter des tâches de téléchargement et de publication sur la page Tâches, y vérifier l’état des tâches et annuler des publications. Vous pouvez également planifier des tâches de téléchargement et de publication.
+Pour surveiller les chargements de fichiers vers Adobe Dynamic Media Classic et les fichiers que vous publiez sur les serveurs Adobe Dynamic Media Classic, Adobe Dynamic Media Classic propose la page Tâches. Vous pouvez consulter, charger et publier des tâches sur la page Tâches, vérifier l’état des tâches et annuler des tâches de publication à partir de cette page. Vous pouvez également planifier des tâches de téléchargement et de publication.
 
 Lorsque vous téléchargez des fichiers, une icône rotative apparaît en regard du menu Tâches, indiquant qu’une tâche est en cours, ainsi que le nombre de fichiers en cours. Vous pouvez sélectionner l’icône pour afficher plus d’informations sur la tâche active.
 
@@ -49,7 +49,7 @@ Sur l’onglet Historique de la page Tâches, les tâches sont répertoriées se
 
 * **[!UICONTROL État]**: affiche l’état de la tâche.
 
-* **[!UICONTROL Destination]**: pour les tâches de chargement, le nom de l’entreprise et le dossier dans lequel les fichiers ont été chargés. Cette catégorie ne s’applique pas aux traitements de publication.
+* **[!UICONTROL Destination]**: pour les tâches de transfert, la destination est le nom de l’entreprise et le dossier vers lequel les fichiers ont été chargés. Cette catégorie ne s’applique pas aux traitements de publication.
 
 * **[!UICONTROL Envoyé par]**: répertorie les personnes qui ont chargé les ressources.
 

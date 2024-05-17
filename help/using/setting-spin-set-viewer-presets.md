@@ -10,7 +10,7 @@ role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 24%
@@ -27,7 +27,7 @@ Les paramètres prédéfinis de la visionneuse à 360° définissent le style, l
 1. Effectuez l’une des opérations suivantes :
 
    * Pour créer un paramètre prédéfini, sélectionnez **[!UICONTROL Ajouter]**, puis, dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plateforme, puis sélectionnez **[!UICONTROL Visionneuse à 360°]**.
-   * Pour modifier un paramètre prédéfini de visionneuse à 360° existant, sélectionnez-le, puis choisissez **[!UICONTROL Modifier]**.
+   * Pour modifier un paramètre prédéfini de visionneuse à 360° existant, sélectionnez le paramètre prédéfini, puis sélectionnez **[!UICONTROL Modifier]**.
 
 1. Sur le `Configure Viewer` , saisissez un nom dans la zone Nom du paramètre prédéfini pour le paramètre prédéfini de visionneuse à 360°.
 1. Spécifiez les autres options voulues. Pour afficher une description d’une option, sélectionnez l’option **[!UICONTROL Conseil d’informations]** en regard de l’option .

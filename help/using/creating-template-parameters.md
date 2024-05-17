@@ -10,16 +10,16 @@ role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
 topic: Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 00591bdbe721035e25d3dea245a2110f978d19aa
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 47%
+source-wordcount: '791'
+ht-degree: 45%
 
 ---
 
 # Création de paramètres de modèle{#creating-template-parameters}
 
-Les paramètres permettent d’utiliser les modèles avec une extrême souplesse. Ils offrent la possibilité de personnaliser dynamiquement une image de modèle. Vous pouvez déterminer les calques de texte et d’image à inclure dans le modèle et, dans chacun des calques, les paramètres à afficher. Par exemple, pour attirer l’attention sur un produit qui est en vente, vous pouvez créer un calque de texte À la vente . Ultérieurement, vous pourrez supprimer ce calque tout en conservant le reste de l’image de modèle simplement en supprimant le paramètre Promotions.
+Les paramètres vous permettent d’utiliser des modèles avec une flexibilité maximale. Ils vous permettent de personnaliser dynamiquement une image de modèle. Vous pouvez déterminer les calques de texte et d’image à inclure dans le modèle et, dans chacun des calques, les paramètres à afficher. Par exemple, pour attirer l’attention sur un produit qui est en vente, vous pouvez créer un calque de texte À la vente . Ultérieurement, vous pourrez supprimer ce calque tout en conservant le reste de l’image de modèle simplement en supprimant le paramètre Promotions.
 
 Lorsque vous créez des paramètres de modèle, vous spécifiez en fait les parties du modèle à appeler dans une chaîne URL. Une URL créée avec des paramètres expose ces éléments dans la chaîne URL. Avec les paramètres exposés, vous pouvez créer des résultats personnalisés en vous basant sur le mode de création dynamique de l’image de modèle à partir du serveur Image Server. Ainsi, vous pouvez modifier un modèle dynamiquement puisque vous pouvez appeler la totalité ou une partie de ses paramètres dans une URL.
 
@@ -59,4 +59,4 @@ Pour que le nom du paramètre utilise une valeur de base de données, ajoutez la
 ?$_2(parameter name)=(database value)
 ```
 
-Le nom du paramètre est remplacé par des noms dans un champ de base de données ou du code Java™ indiquant, par exemple, le prix actuel d’un article ou le nom d’un client.
+Les noms d’un champ de base de données ou du code Java™ remplacent les noms des paramètres. Cette fonctionnalité indique, par exemple, le prix actuel d’un article ou d’un nom de client.

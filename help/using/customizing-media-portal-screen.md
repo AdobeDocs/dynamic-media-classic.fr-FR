@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 00591bdbe721035e25d3dea245a2110f978d19aa
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 16%
+source-wordcount: '327'
+ht-degree: 17%
 
 ---
 
@@ -27,7 +27,7 @@ Pour accéder aux paramètres de style, accédez à **[!UICONTROL Configuration]
 
 * **[!UICONTROL Application]**: créez un dégradé de couleurs en effectuant des choix dans les menus des couleurs du dégradé de fond.
 
-* **[!UICONTROL Arbre]**: choisissez une couleur de survol (la couleur qui s’affiche lorsque vous placez le pointeur sur un élément) et une couleur de sélection (la couleur qui s’affiche lorsque vous sélectionnez un élément).
+* **[!UICONTROL Arbre]**: choisissez une couleur de survol et une couleur de sélection.
 
 * **[!UICONTROL Accordéon]**: choisissez les couleurs d’arrière-plan, un style de bordure, ainsi que le survol et les couleurs sélectionnées pour l’accordéon qui s’affiche sur le côté droit de l’écran en mode Détails.
 
