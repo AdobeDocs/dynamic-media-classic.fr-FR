@@ -9,7 +9,7 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: b34520c31ca7d46a0753bf0900070743110e6fc4
+source-git-commit: 3f71adedf54832c4e7c4c46d4103d609a2fd9634
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 0%
@@ -125,7 +125,6 @@ Les légendes ajoutées sont prises en charge avec les formats WebVTT et Adobe V
 1. Accédez à la ressource vidéo chargée à laquelle vous souhaitez ajouter plusieurs sous-titres et pistes audio.
 1. En mode de sélection des ressources, en mode Liste ou Carte, sélectionnez la ressource vidéo.
 1. Dans la barre d’outils, sélectionnez l’icône Propriétés (un cercle avec un &quot;i&quot; à l’intérieur).
-<!-- ![Selected video asset with checkmark over video thumbnail image and View Properties highlighted on the toolbar.](/help/assets/dynamic-media/assets/msma-selectedasset-propertiesbutton.png)*Selected video asset in Card view.* -->
 1. Sur la page Propriétés de la vidéo, sélectionnez la variable **[!UICONTROL Sous-titres et suivi audio]** .
 
    >[!TIP]
@@ -135,8 +134,6 @@ Les légendes ajoutées sont prises en charge avec les formats WebVTT et Adobe V
    >* Ou, la vidéo doit être retraitée par Dynamic Media. Dans ce cas, voir [Retraiter des ressources Dynamic Media dans un dossier].
    >
    >Une fois l’une des tâches ci-dessus terminée, revenez à ces étapes.
-
-   <!-- ![Captions and Audio Tracks tab on the Properties page.](/help/assets/dynamic-media/assets/msma-audiotracks2.png)*Captions and Audio Tracks tab on the video's Properties page.* -->
 
 1. Pour ajouter une ou plusieurs pistes audio à une vidéo, procédez comme suit :
    1. Sélectionner **[!UICONTROL Chargement de suivi audio]**.
@@ -165,7 +162,6 @@ Les légendes ajoutées sont prises en charge avec les formats WebVTT et Adobe V
    | **Option 2** | Je veux que l’IA génère mes fichiers de sous-titres en plusieurs langues.<br>Voir **Option 2** à l’étape 8 ci-dessous. |
    | **Option 3** | Le texte d’un fichier de légende (.vtt) doit être corrigé, rechargé pour remplacer l’ancien fichier .vtt, puis le fichier corrigé doit être traduit par AI.<br>Voir **Option 3** à l’étape 8 ci-dessous. |
 
-
 +++**Option 1 :** *J&#39;ai mes propres fichiers de sous-titres préexistants dans les langues que je veux utiliser.*
 
    1. Dans le coin supérieur droit de la page, cliquez sur **[!UICONTROL Créer une légende]** > **[!UICONTROL Chargement de fichiers]**.
@@ -189,7 +185,6 @@ Les légendes ajoutées sont prises en charge avec les formats WebVTT et Adobe V
 
    1. Si vous avez sélectionné **[!UICONTROL Enregistrer et fermer]** à l’étape précédente au lieu de sélectionner **[!UICONTROL Enregistrer]**, vous pouvez toujours afficher l’état du traitement des fichiers chargés. Voir [Afficher l’état de cycle de vie des fichiers de sous-titres et de suivi audio chargés].
    1. Passez à l’étape 9.
-
 +++
 
 +++**Option 2 :** *Je veux que l’IA génère mes fichiers de sous-titres en plusieurs langues.*
@@ -218,7 +213,6 @@ Les légendes ajoutées sont prises en charge avec les formats WebVTT et Adobe V
 
       Vous pouvez modifier ou modifier ultérieurement certaines métadonnées de légende, si nécessaire. Lorsque la vidéo est publiée, ces détails de métadonnées sont répercutés sur les URL publiques dans les vidéos publiées.
    1. Passez à l’étape 9.
-
 +++
 
 +++**Option 3 :** *Le texte d’un fichier de légende (.vtt) doit être corrigé, rechargé pour remplacer l’ancien fichier .vtt, puis le fichier corrigé doit être traduit par AI.*
@@ -248,7 +242,6 @@ Les légendes ajoutées sont prises en charge avec les formats WebVTT et Adobe V
       Vous pouvez modifier ou modifier ultérieurement certaines métadonnées de légende, si nécessaire. Lorsque la vidéo est publiée, ces détails de métadonnées sont répercutés sur les URL publiques dans les vidéos publiées.
 
    1. Passez à l’étape 9.
-
 +++
 
 1. (Facultatif) Prévisualisez la vidéo avant de la publier pour vous assurer que les sous-titres et le son fonctionnent comme prévu. Voir [Prévisualiser une vidéo comportant plusieurs sous-titres et pistes audio].
