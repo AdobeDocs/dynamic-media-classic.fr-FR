@@ -23,7 +23,7 @@ Pour créer une visionneuse panoramique efficace, assurez-vous que les clichés 
 
 >[!NOTE]
 >
->Les versions précédentes d’Adobe Dynamic Media Classic ne fournissaient pas de visionneuses à 360° bidimensionnelles. Si vous avez créé une visionneuse à 360° dans une version précédente d’Adobe Dynamic Media Classic, enregistrez-la sous un nom différent, puis vous pouvez enregistrer votre visionneuse à 360° unidimensionnelle. Sélectionner **[!UICONTROL Enregistrer sous]** dans l’écran Visionneuse à 360° et saisissez un nouveau nom afin de pouvoir le modifier dans Adobe Dynamic Media Classic.
+>Les versions précédentes d’Adobe Dynamic Media Classic ne fournissaient pas de visionneuses à 360° bidimensionnelles. Si vous avez créé une visionneuse à 360° dans une version précédente d’Adobe Dynamic Media Classic, enregistrez-la sous un nom différent, puis vous pouvez enregistrer votre visionneuse à 360° unidimensionnelle. Sélectionnez **[!UICONTROL Enregistrer sous]** dans l’écran Visionneuse à 360° et saisissez un nouveau nom afin de pouvoir le modifier dans Adobe Dynamic Media Classic.
 
 ## Instructions pour prendre des clichés d’images de la visionneuse à 360° {#guidelines-for-shooting-spin-set-images}
 
@@ -39,9 +39,9 @@ En règle générale, plus vous avez d’images dans une visionneuse à 360°, p
 
 L’ordre dans lequel la visionneuse à 360° est créée ou créée dans Adobe Dynamic Media Classic est important. Selon la manière dont vous organisez les ressources lorsque vous faites glisser des images dans la grille de la page Visionneuse à 360°, la visionneuse à 360° tourne dans une certaine direction. Par conséquent, l’ordre dans lequel elle est visuellement affichée dans le créateur est la manière dont la ressource est déclenchée lorsqu’un utilisateur déplace le pointeur de la souris ou le doigt, de gauche à droite.
 
-Lorsque vous créez un jeu, la variable **[!UICONTROL Publier après un enregistrement]** L’option affecte les membres de l’ensemble et de l’ensemble comme suit :
+Lorsque vous créez une visionneuse, l’option **[!UICONTROL Publish after a save]** affecte la visionneuse et les membres de la façon suivante :
 
-| **[!UICONTROL Publier après un enregistrement]** l’option sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| **[!UICONTROL Publish après un enregistrement]** sélectionné avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- |
 | Oui | Publié | Publié |
 | Non | Non publié | Les membres de la visionneuse conservent leur état publié ou non publié. |
@@ -60,25 +60,25 @@ Lorsque vous enregistrez une visionneuse à 360°, vous pouvez ensuite utiliser
 
 **Pour créer une visionneuse à 360° :**
 
-1. Sur le **[!UICONTROL Build]** menu déroulant, sélectionnez **[!UICONTROL Visionneuses à 360°]**.
+1. Dans le menu déroulant **[!UICONTROL Créer]**, sélectionnez **[!UICONTROL Visionneuses à 360°]**.
 1. Dans la boîte de dialogue Visionneuse à 360°, définissez le nombre de lignes et de cellules.
 
    Pour créer une visionneuse à 360° unidimensionnelle, sélectionnez une seule ligne.
 
    Pour une visionneuse à 360° bidimensionnelle, sélectionnez au moins deux lignes.
 
-1. Sélectionner **[!UICONTROL OK]**.
+1. Sélectionnez **[!UICONTROL OK]**.
 1. Faites glisser des images vers la grille de l’écran Visionneuse à 360°.
-1. Lorsque vous avez terminé, près du coin inférieur droit de la page, assurez-vous que **Publier après un enregistrement** est sélectionné (par défaut).
-1. Sélectionner **[!UICONTROL Enregistrer]**.
+1. Lorsque vous avez terminé, près du coin inférieur droit de la page, assurez-vous que **Publish after a save** est sélectionné (par défaut).
+1. Sélectionnez **[!UICONTROL Enregistrer]**.
 1. Dans la boîte de dialogue Enregistrer, sélectionnez un dossier pour le stockage de la visionneuse à 360°. Dans le champ Nom du fichier , saisissez le nom de la visionneuse à 360°.
-1. Sélectionner **[!UICONTROL Enregistrer]**.
+1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
 ## Modification d’une visionneuse à 360° {#editing-a-spin-set}
 
-Si vous modifiez un jeu publié ou non publié, la variable **[!UICONTROL Publier après un enregistrement]** L’option affecte les membres de l’ensemble et de l’ensemble comme suit :
+Que vous modifiiez un jeu publié ou non publié, l’option **[!UICONTROL Publish after a save]** affecte l’ensemble et définit ses membres de la manière suivante :
 
-| Visionneuse déjà publiée ? | **[!UICONTROL Publier après un enregistrement]** sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| Visionneuse déjà publiée ? | **[!UICONTROL Publish après un enregistrement]** sélectionné avant d&#39;enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- | --- |
 | Oui | Oui | Publié | Publié |
 | Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
@@ -89,19 +89,19 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually-publishing-
 
 **Pour modifier une visionneuse à 360° :**
 
-1. Sélectionner le survol de la visionneuse à 360° **[!UICONTROL Modifier]** bouton .
+1. Sélectionnez le bouton de survol **[!UICONTROL Modifier]** de la visionneuse à 360°.
 1. Utilisez l’une des méthodes suivantes :
 
-   * **Suppression d’images**: sélectionnez l’image, puis **[!UICONTROL Supprimer]**.
+   * **Suppression d’images** : sélectionnez l’image, puis sélectionnez **[!UICONTROL Supprimer]**.
 
-   * **Ajouter des images**: faites glisser l’image dans une cellule.
+   * **Ajout d’images** : faites glisser l’image dans une cellule.
 
-   * **Réorganisation des lignes (visionneuses à 360° en deux dimensions)**: sélectionnez une zone de sélecteur de ligne (à gauche de la ligne), puis sélectionnez **[!UICONTROL Déplacer la ligne vers le bas]** ou **[!UICONTROL Déplacer la ligne vers le haut]**.
+   * **Réorganisation des lignes (visionneuses à 360° bidimensionnelles)** : sélectionnez une zone de sélecteur de ligne (à gauche de la ligne), puis sélectionnez **[!UICONTROL Déplacer la ligne vers le bas]** ou **[!UICONTROL Déplacer la ligne vers le haut]**.
 
-   * **Ajout de lignes et de cellules**: saisissez un nombre dans les champs Lignes et Cellules pour déterminer le nombre de lignes et le nombre de cellules dans chaque ligne.
+   * **Ajout de lignes et de cellules** : saisissez un nombre dans la zone Lignes et les zones Cellules pour déterminer le nombre de lignes et le nombre de cellules dans chaque ligne.
 
-1. Lorsque vous avez terminé de modifier la page, près du coin inférieur droit de la page, assurez-vous que **[!UICONTROL Publier après un enregistrement]** est sélectionné (par défaut).
-1. Sélectionner **[!UICONTROL Enregistrer]**, sélectionnez un dossier de stockage, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
+1. Lorsque vous avez terminé les modifications, près du coin inférieur droit de la page, assurez-vous que **[!UICONTROL Publish after a save]** est sélectionné (par défaut).
+1. Sélectionnez **[!UICONTROL Enregistrer]**, sélectionnez un dossier de stockage, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
 ## Suppression d’une visionneuse à 360°
 

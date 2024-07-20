@@ -23,7 +23,7 @@ Les visionneuses d’images Adobe Dynamic Media Classic offrent aux utilisateurs
 
 Les outils de zoom de la visionneuse d’images sont pratiques pour examiner les images de plus près. Si vous le souhaitez, vous pouvez intégrer des cibles de zoom guidées et des zones cliquables à votre visionneuse d’images. Les visionneuses d’images garantissent une visualisation concertée et privée.
 
-Voir [Visionneuses d’images et à 360° : Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) vidéo de formation.
+Voir la vidéo de formation [Visionneuses d’images et à 360° : Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
 
 Lorsque vous créez une visionneuse d’images, Adobe recommande les bonnes pratiques suivantes et applique les limites suivantes :
 
@@ -44,48 +44,48 @@ Commencez par télécharger les images pour les visionneuses d’images. Comme l
 
 Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour charger des fichiers depuis votre ordinateur vers un dossier sur Adobe Dynamic Media Classic.
 
-Voir [Préparation du chargement de ressources de visionneuse d’images](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) et [Chargement des fichiers](uploading-files.md#uploading-your-files).
+Voir [Préparation du chargement de ressources de visionneuse d’images](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) et [Chargement de vos fichiers](uploading-files.md#uploading-your-files).
 
 ## 2. Création d’une visionneuse d’images
 
 Dans les visionneuses d’images, les utilisateurs sélectionnent des miniatures dans la visionneuse d’images pour afficher une image d’un autre côté ou d’un autre angle.
 
-Pour créer une visionneuse d’images, dans la barre de navigation globale, sélectionnez **[!UICONTROL Build]**, puis choisissez **[!UICONTROL Visionneuses d’images]**. Dans la fenêtre Visionneuse d’images, faites glisser les images sur la page pour composer la visionneuse. Organisez, ajoutez et supprimez des images, en fonction de vos besoins.
+Pour créer une visionneuse d’images, dans la barre de navigation globale, sélectionnez **[!UICONTROL Créer]**, puis choisissez **[!UICONTROL Visionneuses d’images]**. Dans la fenêtre Visionneuse d’images, faites glisser les images sur la page pour composer la visionneuse. Organisez, ajoutez et supprimez des images, en fonction de vos besoins.
 
 Voir [Création d’une visionneuse d’images](creating-image-set.md#creating-an-image-set).
 
-Voir aussi [Inclure les cibles de zoom et les zones cliquables dans les visionneuses d’images](/help/using/including-zoom-targets-image-maps-image-sets.md)
+Voir aussi [Inclure des cibles de zoom et des zones cliquables dans les visionneuses d’images](/help/using/including-zoom-targets-image-maps-image-sets.md)
 
 ## 3. Préparez les paramètres prédéfinis de la visionneuse d’images, si nécessaire
 
-Les administrateurs peuvent créer ou modifier les paramètres prédéfinis de la visionneuse d’images. Adobe Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse par défaut pour chaque type de média enrichi. Utilisez la visionneuse de zoom : **[!UICONTROL Personnalisé]** > **[!UICONTROL Images]** ou **[!UICONTROL Visionneuses d’images]**/**[!UICONTROL Vues multiples]** paramètres prédéfinis pour afficher vos visionneuses d’images.
+Les administrateurs peuvent créer ou modifier les paramètres prédéfinis de la visionneuse d’images. Adobe Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse par défaut pour chaque type de média enrichi. Utilisez la visionneuse de zoom : **[!UICONTROL Personnalisée]** > **[!UICONTROL Images]** ou **[!UICONTROL Visionneuses d’images]**/**[!UICONTROL Vues multiples]** prédéfinies pour afficher vos visionneuses d’images.
 
 Vous pouvez ajouter ou modifier des paramètres prédéfinis de visionneuse à partir de l’écran Configuration de l’application .
 
-Voir [Création et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding-and-editing-viewer-presets).
+Voir [Création et modification de paramètres de visionneuse prédéfinis](application-setup.md#adding-and-editing-viewer-presets).
 
 ## 4. Prévisualisation d’une visionneuse d’images
 
-Sélectionnez la visionneuse d’images dans le panneau Parcourir , puis sélectionnez **[!UICONTROL Aperçu]**. Dans la page Aperçu , sélectionnez les icônes de miniature pour examiner votre visionneuse d’images dans la visionneuse sélectionnée. Différentes visionneuses sont disponibles dans le menu Paramètres prédéfinis.
+Sélectionnez la visionneuse d’images dans le panneau Parcourir, puis sélectionnez **[!UICONTROL Aperçu]**. Dans la page Aperçu , sélectionnez les icônes de miniature pour examiner votre visionneuse d’images dans la visionneuse sélectionnée. Différentes visionneuses sont disponibles dans le menu Paramètres prédéfinis.
 
 Voir [Aperçu d’une ressource](previewing-asset.md#previewing-an-asset).
 
-## 5. Publication d’une visionneuse d’images
+## 5. Publish d’une visionneuse d’images
 
 La publication d’une visionneuse d’images la place sur les serveurs Adobe Dynamic Media Classic et active la chaîne URL.
 
 >[!NOTE]
 >
->Cette étape n’est pas nécessaire si vous avez sélectionné **[!UICONTROL Publier après un enregistrement]** (par défaut) au moment de la création et de l’enregistrement de la visionneuse d’images.
+>Cette étape n’est pas nécessaire si vous avez sélectionné **[!UICONTROL Publish après un enregistrement]** (par défaut) au moment où vous avez créé et enregistré la visionneuse d’images.
 
-Sélectionner **[!UICONTROL Marquer pour publication]** à gauche de son nom dans le panneau Parcourir . Sélectionnez **[!UICONTROL Publier]**. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
+Sélectionnez l’icône **[!UICONTROL Marquer pour Publish]** située à gauche de son nom dans le panneau Parcourir. Sélectionnez ensuite **[!UICONTROL Publish]**. Sur la page Publication, sélectionnez **[!UICONTROL Submit Publish]**.
 
-Voir [Publication de fichiers](publishing-files.md#publishing-files).
+Voir [Fichiers Publish](publishing-files.md#publishing-files).
 
 ## 6. Liez une visionneuse d’images à votre site Web.
 
 Adobe Dynamic Media Classic crée des appels URL pour les visionneuses d’images et les active après leur publication. Vous pouvez copier ces chaînes URL depuis l’écran de prévisualisation.
 
-Sélectionnez la visionneuse d’images, puis cliquez sur **[!UICONTROL Aperçu]**. Sélectionnez maintenant un paramètre prédéfini de visionneuse d’images, puis cliquez sur le bouton **[!UICONTROL Copier l’URL]** bouton .
+Sélectionnez la visionneuse d’images, puis **[!UICONTROL Aperçu]**. Sélectionnez maintenant un paramètre prédéfini de visionneuse d’images, puis cliquez sur le bouton **[!UICONTROL Copier l’URL]** .
 
-Voir [Lier la visionneuse d’images à une page Web](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
+Voir [Lier la visionneuse d’images à une page web](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).

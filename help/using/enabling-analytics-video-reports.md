@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Grâce aux rapports vidéo basés sur la pulsation Adobe Analytics, vous ne devez plus activer les quatre événements de visionneuse de vidéos (Lecture, Pause, Arrêter, Jalon) lorsque vous configurez Adobe Analytics dans Adobe Dynamic Media Classic. La pulsation vidéo fonctionne avec les visionneuses vidéo et de médias mixtes Adobe Dynamic Media Classic HTML5 prêtes à l’emploi. Le lecteur vidéo génère des données de suivi à afficher dans les rapports vidéo Adobe Analytics.
 
-* Pour une introduction à la diffusion en continu de médias et à la &quot;mesure de pulsation&quot;, voir [À propos d’Adobe Analytics pour les médias en streaming](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
+* Pour une présentation sur la diffusion en continu de médias et la &quot;mesure des pulsations&quot;, voir [À propos d’Adobe Analytics pour les médias en streaming](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 * L’intégration des rapports vidéo Adobe Analytics avec Adobe Dynamic Media Classic prend en charge les variables de solution, mais pas les variables personnalisées.
 
@@ -29,9 +29,9 @@ Grâce aux rapports vidéo basés sur la pulsation Adobe Analytics, vous ne deve
 
 * Les segments prêts à l’emploi d’incréments d’une minute sont pris en charge. Toutefois, les rapports de segments personnalisés, tels que les jalons définis par le client en fonction des incréments de temps, des jalons de pourcentage ou des jalons de décalage, ne sont pas pris en charge.
 
-  Pour plus d’informations sur les exigences et la configuration de la diffusion en continu, voir [Mesurer les médias en flux continu dans Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
+  Pour plus d’informations sur les exigences et la configuration des médias en continu, voir [Mesurer les médias en flux continu dans Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
-* Pour plus d’informations sur les variables personnalisées et de solution, voir [Activation des rapports multimédia](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-reports/media-reports-enable#media-reports).
+* Pour plus d’informations sur les variables personnalisées et de solution, voir [ Activation des rapports multimédia](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-reports/media-reports-enable#media-reports).
 
 >[!NOTE]
 >

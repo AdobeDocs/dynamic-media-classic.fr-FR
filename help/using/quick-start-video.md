@@ -33,7 +33,7 @@ La logique appliquée par un lecteur vidéo pour déterminer quelles sont les vi
    1. Le lecteur sélectionne la bande passante la plus élevée en dessous ou égale à la bande passante estimée.
    1. Le lecteur ne prend en compte que 80 % de la bande passante disponible. Cependant, s’il change, il est plus prudent à seulement 70 % pour éviter toute surestimation et revenir immédiatement en arrière.
 
-Consultez la logique de l’algorithme à l’adresse [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) pour obtenir des informations techniques à son sujet.
+Pour obtenir des informations techniques à ce sujet, consultez la logique de l’algorithme à l’adresse [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) .
 
 Pour la gestion des vidéos uniques et des visionneuses de vidéos adaptatives, Adobe Dynamic Media Classic prend en charge les éléments suivants :
 
@@ -41,15 +41,15 @@ Pour la gestion des vidéos uniques et des visionneuses de vidéos adaptatives, 
 
 Voir [Activation ou désactivation des paramètres prédéfinis de vidéo adaptative](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
-Voir aussi [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vidéo de formation.
+Voir aussi la vidéo de formation [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 Lorsqu’une visionneuse de vidéos adaptative est générée, elle comprend des vidéos MP4.
 
 >[!NOTE]
 >
->Les vidéos Principal/source et toute autre vidéo au format source sont *not* ajouté à une visionneuse de vidéos adaptative.
+>Les vidéos Principal/source et toute autre vidéo au format source sont *not* ajoutées à une visionneuse de vidéos adaptative.
 
-* Sous-titrage des vidéos dans les visionneuses Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark et Universal_HTML5_MixedMedia_light et navigation des chapitres vidéo dans les visionneuses Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark et Universal_HTML5_MixedMedia_light.
+* Sous-titrage des vidéos dans les visionneuses Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark et Universal_HTML5_MixedMedia_light et navigation du chapitre vidéo dans les visionneuses Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark et Universal_HTML5_MixedMedia_viewlight ers.
 
   Voir [Ajout de sous-titres à une vidéo](adding-captions-video.md).
 
@@ -60,7 +60,7 @@ Lorsqu’une visionneuse de vidéos adaptative est générée, elle comprend des
 
   La diffusion en continu de vidéo adaptative est prise en charge sur différentes plateformes iOS.
 
-  Découvrez la dernière prise en charge dans la section [Guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+  Voir la dernière prise en charge dans le [Guide de référence des visionneuses d’Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic prend en charge la lecture vidéo mobile pour la vidéo MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -83,7 +83,7 @@ Consultez les vidéos de formation suivantes :
 
 * [Aperçu vidéo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
 
-* [Chargement de vidéos MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
+* [Chargement de vidéo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
 
 * [Présentation de la diffusion en continu](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
@@ -95,16 +95,16 @@ La description suivante du workflow étape par étape est conçue pour vous aide
 
 Téléchargez et générez des visionneuses de vidéos adaptatives en suivant l’un des deux scénarios ci-après :
 
-* **Chargement de vidéos précodées**: si vos vidéos ont déjà été codées en externe à partir d’Adobe Dynamic Media Classic, dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]**. Parcourez les fichiers vidéo MP4 et chargez-les directement dans Adobe Dynamic Media Classic. Ensuite, accédez à **[!UICONTROL Build]** > **[!UICONTROL Visionneuses de vidéos adaptatives]**. Accédez aux fichiers vidéo requis. Faites glisser les fichiers vidéo de votre choix dans le tableau Visionneuse de vidéos adaptative, puis enregistrez la visionneuse.
-* **Chargement de vidéos issues de sources originales**: si les vidéos ne sont pas codées, sélectionnez dans la barre de navigation globale. **[!UICONTROL Télécharger]** pour charger des fichiers source vidéo principaux (non-MP4). Adobe Dynamic Media Classic les code pour vous dans des fichiers MP4. Dans le **[!UICONTROL Télécharger les options de la tâche]** , sous **[!UICONTROL Options vidéo]**, sélectionnez **[!UICONTROL Vidéo adaptative]**.
+* **Télécharger des vidéos précodées** : si vos vidéos ont déjà été codées en externe depuis Adobe Dynamic Media Classic, dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]**. Parcourez les fichiers vidéo MP4 et chargez-les directement dans Adobe Dynamic Media Classic. Ensuite, accédez à **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Accédez aux fichiers vidéo requis. Faites glisser les fichiers vidéo de votre choix dans le tableau Visionneuse de vidéos adaptative, puis enregistrez la visionneuse.
+* **Télécharger les vidéos issues de sources originales** : si vos vidéos ne sont pas codées, dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour charger les fichiers sources de vidéos originales (non-MP4). Adobe Dynamic Media Classic les code pour vous dans des fichiers MP4. Dans la boîte de dialogue **[!UICONTROL Télécharger les options de tâche]**, sous **[!UICONTROL Options eVideo]**, sélectionnez **[!UICONTROL Vidéo adaptative]**.
 
   Avec cette option préférée, vous pouvez créer des visionneuses de vidéos adaptatives. Le paramètre prédéfini de codage correct est automatiquement appliqué à la vidéo (16:9 ou 4:3), afin de correspondre aux dimensions de la vidéo que vous avez téléchargée. Lorsque vous envoyez votre tâche de téléchargement, une visionneuse de vidéos adaptative est automatiquement créée, qui comprend trois paramètres de codage vidéo dans les proportions correctes.
 
-  Ou, dans le même **[!UICONTROL Options de tâche]** , sous **[!UICONTROL Options vidéo]**, développer **[!UICONTROL Paramètres prédéfinis de codage uniques]**. Sélectionnez les paramètres prédéfinis de codage vidéo que vous souhaitez. Vous pouvez sélectionner **Bureau**, **Mobile (iPhone, iPad, Android™)**, et **Tablette (iPad, Android™)** pour créer les fichiers MP4.
+  Ou, dans la même boîte de dialogue **[!UICONTROL Options de tâche]**, sous **[!UICONTROL Options eVideo]**, développez **[!UICONTROL Paramètres prédéfinis de codage uniques]**. Sélectionnez les paramètres prédéfinis de codage vidéo que vous souhaitez. Vous pouvez sélectionner **Bureau**, **Mobile (iPhone, iPad, Android™)** et **Tablette (iPad, Android™)** pour créer les fichiers MP4.
 
-* Vous pouvez également retraiter une vidéo principale à l’aide de la fonction **[!UICONTROL Retraitement]** fonction . Les vidéos récemment codées sont ajoutées à la visionneuse de vidéos adaptative existante.
+* Vous pouvez également retraiter une vidéo principale à l’aide de la fonctionnalité **[!UICONTROL Retraitement]** . Les vidéos récemment codées sont ajoutées à la visionneuse de vidéos adaptative existante.
 
-Voir [Chargement et codage de vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos).
+Voir [Téléchargement et codage de vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
 **Facultatif**
 
@@ -116,7 +116,7 @@ Voir [Utilisation des paramètres prédéfinis de codage vidéo](uploading-encod
 
 ## 2. Prévisualisation de vidéos dans une visionneuse de vidéos
 
-Pour découvrir comment une vidéo est lue pour les utilisateurs finaux sur un bureau, votre site web ou sur un appareil mobile, sélectionnez-la dans le panneau Parcourir . Sélectionnez **[!UICONTROL Aperçu]**.
+Pour découvrir comment une vidéo est lue pour les utilisateurs finaux sur un bureau, votre site web ou sur un appareil mobile, sélectionnez-la dans le panneau Parcourir . Sélectionnez ensuite **[!UICONTROL Aperçu]**.
 
 Voir [Prévisualisation de vidéos dans une visionneuse de vidéos](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
@@ -128,15 +128,15 @@ Personnalisation des paramètres prédéfinis de la visionneuse : Adobe Dynamic 
 
 Voir [Utilisation de paramètres prédéfinis de visionneuse vidéo](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
-Voir aussi [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vidéo de formation.
+Voir aussi la vidéo de formation [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 ## 3. Déployez des vidéos sur vos sites web et vos sites mobiles
 
 Pour intégrer la vidéo sur votre site Web, procédez de l’une des manières suivantes :
 
-* Affichez la vidéo dans sa propre fenêtre contextuelle ou modale, auquel cas utilisez la fonction **[!UICONTROL Copier l’URL]** fonction .
+* Affichez la vidéo dans sa propre fenêtre contextuelle ou modale, auquel cas utilisez la fonction **[!UICONTROL Copier l’URL]**.
 
-  Pour obtenir l’URL d’une vidéo, en mode Grille ou Liste, sélectionnez-la dans le panneau Parcourir . Sélectionner **[!UICONTROL Aperçu]**, puis sélectionnez **[!UICONTROL Copier l’URL]** à droite de `Universal_HTML5_Viewer`.
+  Pour obtenir l’URL d’une vidéo, en mode Grille ou Liste, sélectionnez-la dans le panneau Parcourir . Sélectionnez **[!UICONTROL Preview]**, puis **[!UICONTROL Copy URL]** à droite de `Universal_HTML5_Viewer`.
 
   Lorsque vous sélectionnez **[!UICONTROL Copier l’URL]**, l’URL est copiée dans le Presse-papiers. Placez ce code dans le code HTML de votre site Web, site mobile ou application.
 
@@ -144,17 +144,17 @@ Pour intégrer la vidéo sur votre site Web, procédez de l’une des manières 
   >
   >les URL sont activées uniquement après que vous ayez publié la vidéo ou la visionneuse de vidéos adaptative.
 
-* Affichez la vidéo incorporée dans la page Web, auquel cas utilisez la fonction **[!UICONTROL Code incorporé]** fonction .
+* Affichez la vidéo incorporée dans la page Web, auquel cas utilisez la fonction **[!UICONTROL Code incorporé]**.
 
   Pour obtenir le code intégré d’une vidéo, en mode Grille ou Liste, sélectionnez la vidéo dans le panneau Parcourir . Accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**. Dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]** à droite de `Universal_HTML5_Video`. Il n’est pas possible de modifier le code.
 
-  Sélectionner **[!UICONTROL Fermer]** et collez le code intégré dans une ou plusieurs de vos pages Web.
+  Sélectionnez **[!UICONTROL Fermer]** et collez le code incorporé dans une ou plusieurs de vos pages Web.
 
   >[!NOTE]
   >
   >Le code intégré n’est activé qu’après la publication de la vidéo ou de la visionneuse de vidéos adaptative.
 
-Voir [Déployer une vidéo sur vos sites web et vos sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+Voir [Déployer une vidéo sur vos sites web et sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 >[!MORELIKETHIS]
 >

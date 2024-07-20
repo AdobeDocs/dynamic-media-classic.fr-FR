@@ -28,7 +28,7 @@ Pour créer une série d’échantillons, vous devez utiliser des vignettes ou d
 
 Etant donné qu’il est possible d’effectuer un zoom sur les images des séries d’échantillons, vérifiez que la dimension la plus grande des images correspond au moins à 2 000 pixels. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichier image, mais les formats TIFF, PNG et EPS sans perte sont recommandés.
 
-Pour obtenir des instructions détaillées sur le chargement de ressources, voir [Chargement de fichiers](uploading-files.md#uploading_files).
+Pour obtenir des instructions détaillées sur le chargement de ressources, reportez-vous à la section [Téléchargement de fichiers](uploading-files.md#uploading_files).
 
 >[!MORELIKETHIS]
 >

@@ -25,9 +25,9 @@ Pour créer une visionneuse d’images avec des vues multiples, vos images doive
 
 Comme il est possible d’effectuer un zoom sur les images de la visionneuse, vérifiez que la dimension la plus grande des images correspond au moins à 2 000 pixels. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichier image, mais les formats TIFF, PNG et EPS sans perte sont recommandés.
 
-Pour obtenir des instructions détaillées sur le chargement de ressources, voir [Chargement de fichiers](uploading-files.md#uploading_files).
+Pour obtenir des instructions détaillées sur le chargement de ressources, reportez-vous à la section [Téléchargement de fichiers](uploading-files.md#uploading_files).
 
 >[!MORELIKETHIS]
 >
->* [Chargement des fichiers](uploading-files.md#uploading_your_files)
+>* [Télécharger vos fichiers](uploading-files.md#uploading_your_files)
 >* [Utilisation de vignettes, de recouvrements de fenêtre et de fichiers de cabinet](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)

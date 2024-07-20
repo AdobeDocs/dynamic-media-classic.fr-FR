@@ -31,17 +31,17 @@ Commencez par télécharger les images, fichiers d’échantillons et vidéos po
 
 Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour charger des fichiers depuis votre ordinateur vers un dossier sur Adobe Dynamic Media Classic.
 
-Voir [Chargement des fichiers](uploading-files.md#uploading-your-files).
+Voir [Télécharger vos fichiers](uploading-files.md#uploading-your-files).
 
 ## 2. Créez une visionneuse de médias à utiliser dans la visionneuse de médias mixtes.
 
 Vous pouvez ajouter des images, des visionneuses d’images, des séries d’échantillons, des visionneuses à 360° et des vidéos à votre visionneuse de médias mixtes. Préparez les visionneuses de médias avant de les ajouter à la visionneuse de médias mixtes.
 
-Voir [Création d’une visionneuse d’images](creating-image-set.md#creating-an-image-set), [Création d’une série d’échantillons](creating-swatch-set.md#creating-a-swatch-set), et [Création d’une visionneuse à 360°](creating-spin-set.md#creating-a-spin-set).
+Voir [Création d’une visionneuse d’images](creating-image-set.md#creating-an-image-set), [Création d’une série d’échantillons](creating-swatch-set.md#creating-a-swatch-set) et [Création d’une visionneuse à 360°](creating-spin-set.md#creating-a-spin-set).
 
 ## 3. Création d’une visionneuse de médias mixtes
 
-Dans la barre de navigation globale, accédez à **[!UICONTROL Build]** > **[!UICONTROL Visionneuses de médias mixtes]**. Faites glisser les images, les séries d’échantillons, les visionneuses d’images et les vidéos sur la page Visionneuse de supports variés. Pour ajouter une bande sonore, faites glisser un fichier audio sur la zone Bande sonore.
+Sur la barre de navigation globale, accédez à **[!UICONTROL Build]** > **[!UICONTROL Mixed Media Sets]**. Faites glisser les images, les séries d’échantillons, les visionneuses d’images et les vidéos sur la page Visionneuse de supports variés. Pour ajouter une bande sonore, faites glisser un fichier audio sur la zone Bande sonore.
 
 Voir [Création d’une visionneuse de médias mixtes](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
@@ -53,24 +53,24 @@ Lors de la configuration d’un paramètre prédéfini de visionneuse de médias
 
 Voir [Configuration d’un paramètre prédéfini de visionneuse de médias mixtes](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) et [Création et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding-and-editing-viewer-presets).
 
-Voir aussi [Paramètres prédéfinis de la visionneuse](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) vidéo de formation.
+Voir aussi la vidéo de formation [Paramètres visionneuse prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 ## 5. Aperçu d’une visionneuse de médias mixtes
 
-Sélectionnez la visionneuse de supports variés **[!UICONTROL Aperçu]** bouton . Vous pouvez sélectionner les icônes de miniature et d’échantillon pour examiner votre visionneuse de médias mixtes dans la visionneuse de médias mixtes. Différentes visionneuses sont disponibles dans les menus Paramètres prédéfinis.
+Sélectionnez le bouton **[!UICONTROL Aperçu]** de la visionneuse de médias mixtes. Vous pouvez sélectionner les icônes de miniature et d’échantillon pour examiner votre visionneuse de médias mixtes dans la visionneuse de médias mixtes. Différentes visionneuses sont disponibles dans les menus Paramètres prédéfinis.
 
 Voir [Aperçu d’une ressource](previewing-asset.md#previewing-an-asset).
 
-## 6. Publication d’une visionneuse de médias mixtes
+## 6. Publish d’une visionneuse de médias mixtes
 
 La publication d’une visionneuse de médias mixtes la place sur les serveurs Adobe Dynamic Media Classic et active la chaîne URL.
 
-Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisation **Serveur vidéo** pour publier les vidéos réelles que vous avez marquées pour publication. Et vous utilisez **Serveur d’images** pour publier des ressources connexes, telles que des miniatures vidéo, et définir des informations pour toute visionneuse de vidéos adaptative.
+Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisez **Serveur de vidéos** pour publier les vidéos réelles que vous avez marquées pour publication. De plus, vous utilisez **Serveur d’images** pour publier des ressources connexes, telles que les miniatures vidéo, et définissez des informations pour n’importe quelle visionneuse de vidéos adaptative.
 
-Voir [Publication d’une visionneuse de médias mixtes](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
+Voir [Publish a Mixed Media Set](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
 ## 7. Liaison d’une visionneuse de médias mixtes à une page web
 
 Adobe Dynamic Media Classic active les appels URL pour les visionneuses de médias mixtes une fois que vous les avez publiées. Vous pouvez copier ces URL à partir de la page Aperçu .
 
-Sélectionnez la visionneuse de médias mixtes, puis sélectionnez **[!UICONTROL Aperçu]**. Dans la page Aperçu, sélectionnez un paramètre prédéfini de visionneuse de médias mixtes, puis sélectionnez le paramètre **[!UICONTROL Copier l’URL]**. Voir [Lier des visionneuses de médias mixtes à des pages Web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
+Sélectionnez la visionneuse de médias mixtes, puis **[!UICONTROL Aperçu]**. Dans la page Aperçu, sélectionnez un paramètre prédéfini de visionneuse de médias mixtes, puis sélectionnez l’option **[!UICONTROL Copier l’URL]**. Voir [ Lier des visionneuses de médias mixtes à des pages Web ](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).

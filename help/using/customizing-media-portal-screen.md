@@ -21,25 +21,25 @@ ht-degree: 17%
 
 Les paramètres de style du portail multimédia vous permettent de faire apparaître la marque de votre entreprise sur l’écran du portail multimédia sous forme de logo et de couleurs personnalisés. Utilisez les paramètres de style pour placer la marque de votre entreprise sur Media Portal.
 
-Pour accéder aux paramètres de style, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de Media Portal]** > **[!UICONTROL Paramètres de style]**. Veillez à sélectionner **[!UICONTROL Enregistrer]** pour enregistrer vos paramètres une fois que vous les avez créés. Vous pouvez sélectionner **[!UICONTROL Restaurer]** pour rétablir les paramètres par défaut. Au fur et à mesure de vos choix, le panneau Aperçu vous montre comment ils apparaissent.
+Pour accéder aux paramètres de style, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de Media Portal]** > **[!UICONTROL Paramètres de style]**. Assurez-vous de sélectionner **[!UICONTROL Enregistrer]** pour enregistrer vos paramètres une fois que vous les avez créés. Vous pouvez sélectionner **[!UICONTROL Restaurer]** pour rétablir les paramètres par défaut. Au fur et à mesure de vos choix, le panneau Aperçu vous montre comment ils apparaissent.
 
-* **[!UICONTROL Logo]**: sélectionnez **[!UICONTROL Parcourir]**, puis sélectionnez un graphique dans la fenêtre Sélectionner l’image du logo .
+* **[!UICONTROL Logo]** : sélectionnez **[!UICONTROL Parcourir]**, puis choisissez un graphique dans la fenêtre Sélectionner l’image du logo.
 
-* **[!UICONTROL Application]**: créez un dégradé de couleurs en effectuant des choix dans les menus des couleurs du dégradé de fond.
+* **[!UICONTROL Application]** : créez un dégradé de couleurs en faisant des choix dans les menus des couleurs du dégradé de fond.
 
-* **[!UICONTROL Arbre]**: choisissez une couleur de survol et une couleur de sélection.
+* **[!UICONTROL Arborescence]** : choisissez une couleur de survol et une couleur de sélection.
 
-* **[!UICONTROL Accordéon]**: choisissez les couleurs d’arrière-plan, un style de bordure, ainsi que le survol et les couleurs sélectionnées pour l’accordéon qui s’affiche sur le côté droit de l’écran en mode Détails.
+* **[!UICONTROL Accordéon]** : choisissez les couleurs d’arrière-plan, le style de la bordure, le survol et les couleurs sélectionnées pour l’accordéon qui s’affiche sur le côté droit de l’écran en mode Détails.
 
-* **[!UICONTROL En-tête d’accordéon]**: choisissez si le texte doit être inséré dans le gras de l’en-tête de l’accordéon.
+* **[!UICONTROL En-tête d’accordéon]** : choisissez si vous souhaitez insérer du texte dans le gras de l’en-tête d’accordéon.
 
-* **[!UICONTROL Datagrid]**: choisissez les couleurs de la rangée d’en-tête dans les grilles de données.
+* **[!UICONTROL Datagrid]** : choisissez les couleurs de la ligne d’en-tête dans les grilles de données.
 
-* **[!UICONTROL Alerte]**: sélectionnez une couleur d’arrière-plan pour les zones de message d’alerte.
+* **[!UICONTROL Alerte]** : sélectionnez une couleur d’arrière-plan pour les zones de message d’alerte.
 
-* **[!UICONTROL Barre de progression]**: choisissez une couleur pour la barre qui indique la progression des chargements et des téléchargements.
+* **[!UICONTROL Barre de progression]** : choisissez une couleur pour la barre qui indique la progression des chargements et des téléchargements.
 
-Pour que les utilisateurs de Media Portal voient les paramètres de style que vous choisissez, ils doivent ajouter `?company=(company name)` à l’URL avec laquelle ils accèdent au portail multimédia. Par exemple, pour afficher les paramètres de style, les utilisateurs du portail multimédia qui accèdent à la société PortalCo à l’adresse suivante :
+Pour que les utilisateurs du portail multimédia voient les paramètres de style que vous avez choisis, ils doivent ajouter `?company=(company name)` à l’URL avec laquelle ils accèdent au portail multimédia. Par exemple, pour afficher les paramètres de style, les utilisateurs du portail multimédia qui accèdent à la société PortalCo à l’adresse suivante :
 
 `https://s7sps1.scene7.com/MediaPortal`
 

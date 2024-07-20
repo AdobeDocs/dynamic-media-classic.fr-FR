@@ -32,7 +32,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
  -->
 
 ![Affichage des détails](/help/using/assets/image_0.img.png)
-*Affichage des détails avec le panneau Bibliothèque de ressources masqué dans la vue de gauche.*
+*Affichage des détails avec le panneau Bibliothèque de ressources masqué de l’affichage sur le côté gauche.*
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Vous pouvez afficher une ressource dans la vue Détails afin de pouvoir l’exam
 
 1. Dans le panneau Parcourir , effectuez l’une des opérations suivantes :
 
-   * Sélectionnez la ressource. Dans le coin supérieur droit d’Adobe Dynamic Media Classic, sélectionnez la variable **[!UICONTROL Affichage des détails]** Icône
+   * Sélectionnez la ressource. Près du coin supérieur droit d’Adobe Dynamic Media Classic, sélectionnez l’icône **[!UICONTROL Affichage des détails]** .
    * Cliquez deux fois sur le fichier.
    * Sélectionnez la ressource, puis accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Détails]**.
 
@@ -62,15 +62,15 @@ Vous pouvez obtenir une URL de ressource en mode Affichage des détails ; toutef
 
 Le mode Affichage des détails propose des outils pour travailler avec la ressource que vous avez ouverte. Les outils disponibles dépendent du type de ressource que vous utilisez, mais l’affichage des détails offre toujours les fonctions suivantes :
 
-* **éléments pour publication**: sélectionnez la variable **[!UICONTROL `Publish`]** à gauche du nom ou accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Publier]** ou **[!UICONTROL Fichier]** > **[!UICONTROL Dépublier]**.
+* **éléments pour publication** : sélectionnez l’icône **[!UICONTROL `Publish`]** à gauche du nom ou accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Publish]** ou **[!UICONTROL Fichier]** > **[!UICONTROL Annuler la publication]**.
 
-* **Renommer la ressource**: sélectionnez le nom et saisissez un nouveau nom.
+* **Renommer la ressource** : sélectionnez le nom et saisissez un nouveau nom.
 
-* **Modification et ajout de métadonnées**: sélectionnez le panneau Métadonnées et modifiez-le selon vos besoins. Voir [Affichage, ajout et exportation de métadonnées](/help/using/viewing-adding-exporting-metadata.md).
+* **Modifier et ajouter des métadonnées** : sélectionnez le panneau Métadonnées et modifiez les métadonnées suivant vos besoins. Voir [Affichage, ajout et exportation de métadonnées](/help/using/viewing-adding-exporting-metadata.md).
 
-* **Modifier et ajouter des mots-clés**: sélectionnez Mots-clés et ajoutez ou supprimez-les selon vos besoins. (voir [Ajout ou modification de mots-clés](/help/using/viewing-adding-exporting-metadata.md)).
+* **Modifier et ajouter des mots-clés** : sélectionnez Mots-clés et ajoutez ou supprimez-les selon vos besoins. (voir [Ajout ou modification de mots-clés](/help/using/viewing-adding-exporting-metadata.md)).
 
-* **Suppression de la ressource**: accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer]**.
+* **Supprimer la ressource** : accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer]**.
 
 Pour les fichiers discrets (images, visionneuses d’images et polices, par exemple), vous pouvez afficher l’historique de publication et de modification, ainsi que vérifier les détails de la tâche, en mode Affichage des détails.
 
@@ -78,7 +78,7 @@ Ce tableau indique quelles autres options sont disponibles avec différents type
 
 | Type de fichier | Edition/Modification | Prévisualisation |
 | --- | --- | --- |
-| Images | Ajout de zones cliquables<br>Ajout de cibles de zoom<br>Recadrer<br>Accentuer<br>Créer des vues ajustées | Oui : zoom et paramètres d’image prédéfinis |
+| Images | Ajouter des zones cliquables<br>Ajouter des cibles de zoom<br>Recadrer<br>Accentuer<br>Créer des vues ajustées | Oui : zoom et paramètres d’image prédéfinis |
 | Images de meuble et de garnitures de fenêtre | Non | Miniature |
 | Catalogues électroniques | Edition | Oui<br>Le panneau Informations est également disponible |
 | Polices | Edition des informations de polices | Non |
@@ -93,7 +93,7 @@ Ce tableau indique quelles autres options sont disponibles avec différents type
 | Fichiers SVG | Non | Non |
 | Modèles | Edition | Oui |
 | Vidéos | Non | Oui |
-| Vignettes et rendus de vignette | Non | L’image est affichée.<br>Vous pouvez visualiser le contenu et la structure des éléments rendables de la vignette au format XML. |
+| Vignettes et rendus de vignette | Non | L&#39;image s&#39;affiche<br>Vous pouvez afficher le contenu et la structure des éléments du rendu de la vignette au format XML. |
 | Fichiers XML | Non | Le contenu est affiché. |
 | Fichiers ZIP | Non | Contenu non affiché |
 

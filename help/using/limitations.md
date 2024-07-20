@@ -32,11 +32,11 @@ Lorsque vous créez une visionneuse à 360° ou une visionneuse d’images, ou t
 
 | Ressource : type de limite | Pratique recommandée | Limite imposée |
 | --- | --- | --- |
-| **Image**: nombre de recadrages intelligents par image | 5 | 100 |
-| **Tous les ensembles**: nombre de ressources en double par ensemble | Aucun doublon | 20 |
-| **Tous les ensembles**: nombre maximal de ressources par ensemble | 5 à 10 images par visionneuse | 1 000 |
-| **Visionneuse à 360°**: nombre maximal de lignes/colonnes par jeu 2D | 12 à 18 images par visionneuse | 1 000 |
-| **PDF**: nombre maximal de pages qu’un PDF doit prendre en compte pour l’extraction |  | 100 (pour tous les PDF) |
+| **Image** : nombre de recadrages intelligents par image | 5 | 100 |
+| **Tous les ensembles** : nombre de ressources en double par ensemble | Aucun doublon | 20 |
+| **Tous les ensembles** : nombre maximal de ressources par ensemble | 5 à 10 images par visionneuse | 1 000 |
+| **Visionneuse à 360°** : nombre maximal de lignes/colonnes par ensemble 2D | 12 à 18 images par visionneuse | 1 000 |
+| **PDF** : nombre maximal de pages qu’un PDF doit prendre en compte pour l’extraction |  | 100 (pour tous les PDF) |
 
 ‡ La bonne pratique consiste à ne pas avoir de ressources en double dans un ensemble. La limite est de 20 doublons pour une seule ressource. Si vous ajoutez un autre doublon pour cette ressource (dans cet ensemble), la requête renvoie une erreur ou ignore le doublon.
 

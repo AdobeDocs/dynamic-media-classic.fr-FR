@@ -37,13 +37,13 @@ Ce didacticiel de mise en route est conçu pour vous aider à démarrer rapideme
 
 >[!NOTE]
 >
->Vérifiez que vous êtes ajouté en tant que membre du groupe Accès aux services web dans Adobe Analytics. Effectuez cette vérification avant de configurer les rapports Adobe Analytics. Avant de faire correspondre des variables de rapports Adobe Analytics à des événements Adobe Dynamic Media Classic. Les membres de ce groupe peuvent accéder à tous les rapports des suites de rapports spécifiées. Vous pouvez le faire à l’aide de l’API des services Web de l’Experience Cloud, quelles que soient les autorisations définies dans l’interface. Pour ajouter un membre au groupe, dans Adobe Analytics, accédez à **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Modification de groupes]**.
+>Vérifiez que vous êtes ajouté en tant que membre du groupe Accès aux services web dans Adobe Analytics. Effectuez cette vérification avant de configurer les rapports Adobe Analytics. Avant de faire correspondre des variables de rapports Adobe Analytics à des événements Adobe Dynamic Media Classic. Les membres de ce groupe peuvent accéder à tous les rapports des suites de rapports spécifiées. Vous pouvez le faire à l’aide de l’API des services Web de l’Experience Cloud, quelles que soient les autorisations définies dans l’interface. Pour ajouter un membre au groupe, dans Adobe Analytics, accédez à **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Modifier les groupes]**.
 
-Une fois que vous avez vérifié que vous êtes membre du groupe Accès aux services web , dans Adobe Dynamic Media Classic, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Adobe Analytics]**. Sur la page Configuration d’Adobe Analytics, sélectionnez **[!UICONTROL Connexion Adobe Analytics]**.
+Une fois que vous avez vérifié que vous êtes membre du groupe Accès aux services web, dans Adobe Dynamic Media Classic, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Adobe Analytics]**. Sur la page Configuration Adobe Analytics, sélectionnez **[!UICONTROL Adobe Analytics Login]**.
 
 Voir [Connexion à Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-Dans la boîte de dialogue Connexion à Adobe Analytics, saisissez votre ID d’organisation Experience Cloud (facultatif), vos informations d’identification complètes, puis sélectionnez **[!UICONTROL Connexion]**. Dans le menu déroulant Suite de rapports, sélectionnez le nom de la suite de rapports à utiliser.
+Dans la boîte de dialogue Connexion Adobe Analytics, saisissez votre ID d’organisation Experience Cloud (facultatif) et vos informations d’identification complètes, puis sélectionnez **[!UICONTROL Connexion]**. Dans le menu déroulant Suite de rapports, sélectionnez le nom de la suite de rapports à utiliser.
 
 ## 2. Attribuer des variables de rapport Adobe Analytics aux événements de visionneuse Adobe Dynamic Media Classic et aux variables Adobe Dynamic Media Classic
 
@@ -54,15 +54,15 @@ Sur la page Configuration d’Adobe Analytics, spécifiez les informations souha
 
 La configuration d’Adobe Analytics propose également des outils pour activer, modifier et supprimer des événements de visionneuse.
 
-Après avoir sélectionné **[!UICONTROL Enregistrer]** sur la page Configuration d’Adobe Analytics , un code de suivi personnalisé pour mesurer l’activité des utilisateurs est inséré dans les visionneuses Adobe Dynamic Media Classic. Cette fonctionnalité vous permet d’assurer le suivi de l’activité des utilisateurs dans les rapports Adobe Analytics.
+Après avoir sélectionné **[!UICONTROL Enregistrer]** sur la page de configuration d’Adobe Analytics, un code de suivi personnalisé pour mesurer l’activité des utilisateurs est inséré dans les visionneuses Adobe Dynamic Media Classic. Cette fonctionnalité vous permet d’assurer le suivi de l’activité des utilisateurs dans les rapports Adobe Analytics.
 
 Voir [Configuration des rapports Adobe Analytics](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
-## 3. Publiez vos visionneuses Adobe Dynamic Media Classic
+## 3. Publish de vos visionneuses Adobe Dynamic Media Classic
 
-Publiez vos visionneuses Adobe Dynamic Media Classic afin que les visionneuses (avec le code permettant de suivre l’activité des utilisateurs dans les rapports Adobe Analytics) soient chargées sur les serveurs Adobe Dynamic Media Classic. Après la publication, ces informations sont incluses dans les visionneuses. Utilisez-le pour une analyse par Adobe Analytics.
+Publish vos visionneuses Adobe Dynamic Media Classic de sorte que les visionneuses (avec le code pour le suivi de l’activité des utilisateurs dans les rapports Adobe Analytics) soient chargées sur les serveurs Adobe Dynamic Media Classic. Après la publication, ces informations sont incluses dans les visionneuses. Utilisez-le pour une analyse par Adobe Analytics.
 
-Voir [Publication des informations de configuration](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
+Voir [Informations sur la configuration Publish](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
 ## 4. Placez les visionneuses Adobe Dynamic Media Classic sur votre site web
 
@@ -72,4 +72,4 @@ Placez les visionneuses Adobe Dynamic Media Classic avec le code de suivi Adobe 
 
 Pour consulter les rapports Adobe Analytics, accédez au site Web Adobe Analytics. La page de création de rapports vous permet de consulter les données, mais aussi de générer des graphiques et des tableaux afin de mesurer l’activité des utilisateurs pour différentes visionneuses.
 
-Voir [Tester l’intégration Adobe Analytics en affichant un rapport Adobe Analytics](testing-integration-viewing-analytics-report.md#testing_the_integration_by_viewing_an_adobe_analytics_report).
+Voir [Test de l’intégration Adobe Analytics en affichant un rapport Adobe Analytics](testing-integration-viewing-analytics-report.md#testing_the_integration_by_viewing_an_adobe_analytics_report).

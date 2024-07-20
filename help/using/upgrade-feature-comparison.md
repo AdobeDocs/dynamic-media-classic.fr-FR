@@ -1,6 +1,6 @@
 ---
 title: Comparaison des fonctionnalités
-description: Tableau de comparaison des fonctionnalités entre [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Ressources et [!DNL Adobe Dynamic Media Classic] application de bureau.
+description: Tableau de comparaison des fonctionnalités entre  [!DNL Dynamic Media] dans l’application de bureau  [!DNL Adobe Experience Manager] Assets et [!DNL Adobe Dynamic Media Classic] .
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Comparaison des fonctionnalités
 
-Un tableau comparatif des fonctionnalités entre [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Ressources et [!DNL Adobe Dynamic Media Classic] application de bureau. Un &quot;✓&quot; signifie que la fonctionnalité est disponible dans ou avec le logiciel ; un &quot;-&quot; signifie que ce n’est pas le cas.
+Tableau de comparaison des fonctionnalités entre [!DNL Dynamic Media] dans l’application de bureau [!DNL Adobe Experience Manager] Assets et [!DNL Adobe Dynamic Media Classic]. Un &quot;✓&quot; signifie que la fonctionnalité est disponible dans ou avec le logiciel ; un &quot;-&quot; signifie que ce n’est pas le cas.
 
 | Fonctionnalité | [!DNL Dynamic Media] | [!DNL Dynamic Media<br>Classic] |
 | :--- | :---: | :---: |
@@ -26,30 +26,30 @@ Un tableau comparatif des fonctionnalités entre [!DNL Dynamic Media] in [!DNL A
 | Génération automatisée de visionneuses | ✓ | ✓ |
 | Intégration CDN | ✓ | ✓ |
 | Dynamic Imaging | ✓ | ✓ |
-| Catalogues électroniques | ✓<br>*Ressources + InDesign Server* | ✓ |
+| Catalogues électroniques | ✓<br>*Assets + InDesign Server* | ✓ |
 | Publication instantanée | ✓ | ✓ |
 | Visionneuses interactives | ✓ | ✓ |
 | Fichiers de manifeste | ✓ | ✓ |
 | Media Portal | ✓<br>*Connu sous le nom de &quot;Brand Portal&quot;* | ✓ |
 | Jeux de règles | ✓ | ✓ |
 | Aperçu sécurisé | ✓ | ✓ |
-| Visionneuses (image, à 360°, supports variés) | ✓<br>*Pas de rotation multi-axe* | ✓ |
+| Visionneuses (image, à 360°, supports variés) | ✓<br>*Aucune rotation multi-axe* | ✓ |
 | Imagerie dynamique | ✓ | ✓ |
-| Diffusion de contenu statique<br>(PDF, GIT, etc.) | ✓ | ✓ |
+| Diffusion de contenu statique<br> (PDF, GIT, etc.) | ✓ | ✓ |
 | Diffusion vidéo (adaptative) | ✓ | ✓ |
 | Codage vidéo | ✓ | ✓ |
 | Accessibilité du lecteur | ✓ | ✓ |
 | Intégration de la visionneuse à Analytics | ✓ | ✓ |
 | Modèles 1:1 | ✓<br>*Groupe de médias personnalisés* | ✓ |
-| Configurateur visuel<br>(personnalisation du produit) | ✓<br>*Groupe de médias personnalisés* | ✓ |
-| 3D : Experience Manager Sites<br>Composant WCM | ✓ | : |
+| Configurateur visuel<br> (personnalisation de produit) | ✓<br>*Groupe de médias personnalisés* | ✓ |
+| 3D : composant Experience Manager Sites<br>WCM | ✓ | : |
 | 3D : Visionneuse d’expérience interactive | ✓ | : |
-| 3D : publication de fichiers AR/VR et 3D de base | ✓ | : |
+| 3D : fichiers Publish AR/VR et 3D de base | ✓ | : |
 | Carrousels | ✓ | : |
 | Média interactif/Shoppable : images | ✓ | : |
 | Shoppable/Interactive Media : vidéo | ✓ | : |
 | Recadrage intelligent : images | ✓ | : |
 | Recadrage intelligent : vidéo | ✓ | : |
 | Sélection de miniatures vidéo | ✓ | : |
-| Concepteur de visionneuse | ✓ | : |
-| Publication YouTube | ✓ | : |
+| Designer de la visionneuse | ✓ | : |
+| YouTube Publish | ✓ | : |

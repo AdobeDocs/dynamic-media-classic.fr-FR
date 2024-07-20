@@ -29,7 +29,7 @@ Après avoir créé les variables nécessaires dans Adobe Analytics, les avoir l
 
 1. Dans Adobe Analytics, accédez à **[!UICONTROL Trafic personnalisé]** > **[!UICONTROL Trafic personnalisé 1-10]** > [Nom de la prop], en sélectionnant le nom de la prop de trafic dans les choix de menu.
 
-   Par exemple, pour accéder à la variable **[!UICONTROL LoadAsset]** prop dans l’exemple de compte, le menu approprié est **[!UICONTROL Trafic personnalisé]** > **[!UICONTROL Trafic personnalisé 1-10]** > **[!UICONTROL LoadAsset]**. Si vous disposez de plus de dix props personnalisées, d’autres options de menu s’affichent également.
+   Par exemple, pour accéder à la prop **[!UICONTROL LoadAsset]** dans l’exemple de compte, le menu approprié est **[!UICONTROL Trafic personnalisé]** > **[!UICONTROL Trafic personnalisé 1-10]** > **[!UICONTROL LoadAsset]**. Si vous disposez de plus de dix props personnalisées, d’autres options de menu s’affichent également.
 
 1. Affichez le diagramme généré par Adobe Analytics. Ce graphique n’est généralement que les données d’une seule mesure. Si vous souhaitez également savoir avec quelle ressource ces données sont associées, obtenez les données de ressource de cet événement. Par exemple, il est souvent utile de savoir quelle vidéo est visionnée uniquement 50 % ou quelle image d’une visionneuse est populaire.
 

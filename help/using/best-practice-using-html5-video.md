@@ -25,15 +25,15 @@ Du côté lecture de la visionneuse, elle détecte automatiquement les fonctionn
 
 En combinant en un seul lecteur les fonctionnalités suivantes :
 
-* Composants de lecture conçus à l’aide de HTML5 et CSS
+* Composants de lecture conçus avec HTML5 et CSS
 * Lecture incorporée
 * Utilisation de la diffusion en continu adaptative et progressive en fonction des fonctionnalités du navigateur
 
 Vous étendez la portée de votre contenu multimédia aux utilisateurs de bureau et mobiles. Vous garantissez également une expérience vidéo rationalisée.
 
-Voir aussi [A propos des visionneuses HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses Adobe.
+Voir aussi [À propos des visionneuses HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses d’Adobe.
 
-Voir aussi [Paramètres prédéfinis de la visionneuse](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) vidéo de formation.
+Voir aussi la vidéo de formation [Paramètres visionneuse prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 ## Lecture vidéo sur les ordinateurs de bureau et les appareils mobiles à l’aide de la visionneuse vidéo Adobe Dynamic Media Classic {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 

@@ -25,13 +25,13 @@ Dynamic Media Classic offre une formation sous la forme de formation vidéo, d�
 
 Les services de formation Adobe proposent des formations en classe approfondies et personnalisées, adaptées aux besoins de votre entreprise. Ces formations peuvent prendre diverses formes : cours de type universitaire ayant lieu dans la région, cours en ligne ou encore ateliers sur site personnalisés. Les cours régionaux sont ouverts à tous les clients et se déroulent régulièrement dans plusieurs villes d’Amérique du Nord et de la zone EMOA (Europe-Moyen-Orient-Afrique). Les cours personnalisés peuvent être adaptés en fonction de l’expérience des utilisateurs (débutants à avancés) et de leur rôle (utilisateurs finaux, administrateurs, personnel informatique).
 
-Voir [Services de formation d’Adobe](https://learning.adobe.com/)
+Voir [Adobe Training Services](https://learning.adobe.com/)
 
 ## Démonstrations
 
 Regardez des démonstrations des fonctionnalités de la visionneuse Adobe Dynamic Media Classic.
 
-Voir [Démonstrations](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Voir [Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 ## Chapitre Prise en main de l’aide
 

@@ -27,35 +27,35 @@ Veillez à établir une structure et une organisation de dossiers pour stocker v
 
 La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de dossiers. Lorsque vous sélectionnez un dossier dans la bibliothèque de ressources, son contenu s’affiche dans le panneau Parcourir . Pour localiser des dossiers dans l’arborescence de dossiers, utilisez les techniques suivantes :
 
-* **Afficher les sous-dossiers**: sélectionnez la variable **[!UICONTROL Développer le dossier]** pour afficher les sous-dossiers dans un dossier. Cette icône se trouve à gauche des noms de dossiers.
+* **Afficher les sous-dossiers** : sélectionnez l’icône **[!UICONTROL Développer le dossier]** pour afficher les sous-dossiers dans un dossier. Cette icône se trouve à gauche des noms de dossiers.
 
-* **Déplacer un dossier**: vous pouvez déplacer un dossier en le faisant glisser et en le déposant à son nouvel emplacement, ou en sélectionnant **[!UICONTROL Fichier]** > **[!UICONTROL Déplacer le dossier]**.
+* **Déplacer un dossier** : vous pouvez déplacer un dossier en le faisant glisser et en le déposant à son nouvel emplacement, ou en sélectionnant **[!UICONTROL Fichier]** > **[!UICONTROL Déplacer un dossier]**.
 
-* **Masquer les dossiers**: sélectionnez la variable **[!UICONTROL Réduire le dossier]** si vous souhaitez réduire les sous-dossiers afin de les masquer. Cette icône se trouve à gauche des noms de dossiers.
+* **Masquer les dossiers** : sélectionnez l’icône **[!UICONTROL Réduire le dossier]** si vous souhaitez réduire les sous-dossiers pour les masquer de la vue. Cette icône se trouve à gauche des noms de dossiers.
 
-* **Ouvrir un dossier**: sélectionnez un dossier si vous souhaitez afficher son contenu dans le panneau Parcourir.
+* **Ouvrir un dossier** : sélectionnez un dossier si vous souhaitez afficher son contenu dans le panneau Parcourir.
 
 >[!TIP]
 >
->Vous pouvez masquer ou afficher la bibliothèque de ressources en sélectionnant **[!UICONTROL Développer]** ou **[!UICONTROL Réduire]** contrôle à gauche. Réduire le panneau Bibliothèque de ressources lorsque vous avez besoin d’espace pour travailler dans le panneau Parcourir.
+>Vous pouvez masquer ou afficher la bibliothèque de ressources en sélectionnant le contrôle **[!UICONTROL Développer]** ou **[!UICONTROL Réduire]** sur son côté gauche. Réduire le panneau Bibliothèque de ressources lorsque vous avez besoin d’espace pour travailler dans le panneau Parcourir.
 
 ## Création de dossiers
 
 1. Dans la bibliothèque de fichiers, sélectionnez le dossier dans lequel vous souhaitez créer un sous-dossier.
-1. Sélectionnez la variable **[!UICONTROL `Add Folder`]** bouton . Cette icône se trouve en haut de la liste des dossiers.
+1. Sélectionnez le bouton **[!UICONTROL `Add Folder`]** . Cette icône se trouve en haut de la liste des dossiers.
 1. Saisissez un nom explicite pour votre nouveau dossier ou sous-dossier. Saisissez-le dans le champ en regard de l’icône de dossier.
 
    >[!NOTE]
    >
-   >Vous pouvez également créer des dossiers dans Adobe Dynamic Media Classic lorsque vous transférez des fichiers par FTP. En sélectionnant le **[!UICONTROL Inclure les sous-dossiers]** lorsque vous effectuez un téléchargement par FTP, réplique la structure de dossiers de votre ordinateur dans le système. Les fichiers et les sous-dossiers de votre ordinateur ou réseau sont répliqués dans la bibliothèque de fichiers, et les fichiers que vous téléchargez sont placés dans ces dossiers.
+   >Vous pouvez également créer des dossiers dans Adobe Dynamic Media Classic lorsque vous transférez des fichiers par FTP. Si vous sélectionnez l’option **[!UICONTROL Inclure les sous-dossiers]** lors du téléchargement par FTP, la structure de dossiers de votre ordinateur est répliquée dans le système. Les fichiers et les sous-dossiers de votre ordinateur ou réseau sont répliqués dans la bibliothèque de fichiers, et les fichiers que vous téléchargez sont placés dans ces dossiers.
 
 ## Suppression et changement du nom des dossiers {#deleting-and-renaming-folders}
 
 Sélectionnez un dossier et utilisez les techniques suivantes pour le supprimer ou le renommer :
 
-* **Supprimer**: sélectionnez la variable **[!UICONTROL `Remove Folder`]** bouton . Les fichiers d’un dossier supprimé sont placés dans le dossier Corbeille. Vous pouvez les y récupérer.
+* **Supprimer** : sélectionnez le bouton **[!UICONTROL `Remove Folder`]** . Les fichiers d’un dossier supprimé sont placés dans le dossier Corbeille. Vous pouvez les y récupérer.
 
-* **Renommer**: double-cliquez sur le nom et saisissez un nouveau nom.
+* **Renommer** : double-cliquez sur le nom et saisissez un nouveau nom.
 
 >[!NOTE]
 >

@@ -25,9 +25,9 @@ Par exemple, si vous souhaitez présenter des casquettes avec des visières de c
 
 ## Création de la série d’échantillons {#create}
 
-Lorsque vous créez un jeu, la variable **Publier après un enregistrement** L’option affecte les membres de l’ensemble et de l’ensemble comme suit :
+Lorsque vous créez une visionneuse, l’option **Publish after a save** affecte la visionneuse et les membres de la façon suivante :
 
-| **[!UICONTROL Publier après un enregistrement]** l’option sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| **[!UICONTROL Publish après un enregistrement]** sélectionné avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- |
 | Oui | Publié | publié |
 | Non | Non publié | Les membres de la visionneuse conservent leur état publié ou non publié. |
@@ -38,24 +38,24 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Effectuez l’une des opérations suivantes :
 
-   * **Sélectionner les images en premier**: dans le panneau Parcourir, sélectionnez les images, puis accédez à **[!UICONTROL Build]** > **[!UICONTROL Séries d’échantillons]**.
+   * **Sélectionnez d’abord les images** : dans le panneau Parcourir, sélectionnez les images, puis accédez à **[!UICONTROL Créer]** > **[!UICONTROL Série d’échantillons]**.
 
-   * **Démarrage à partir de l’écran Série d’échantillons**: accédez à **[!UICONTROL Build]** > **[!UICONTROL Séries d’échantillons]**. Sélectionnez un dossier dans la bibliothèque des fichiers, puis faites glisser les images sur la section Vues de la page Série d’échantillons.
+   * **Démarrez à partir de l’écran Série d’échantillons** : accédez à **[!UICONTROL Créer]** > **[!UICONTROL Série d’échantillons]**. Sélectionnez un dossier dans la bibliothèque des fichiers, puis faites glisser les images sur la section Vues de la page Série d’échantillons.
 
 1. Faites glisser des nuances, des motifs ou des finis sur l’emplacement réservé Echantillons de la page Série d’échantillons.
 
    Assurez-vous que l’échantillon de la couleur, du motif ou du fini que vous faites glisser sur chaque emplacement réservé correspond à celui de l’image adjacente.
 
 1. Pour changer l’ordre des images dans votre série d’échantillons, faites-les glisser vers leur nouvel emplacement.
-1. Dans le coin inférieur droit de la page, assurez-vous que **[!UICONTROL Publier après un enregistrement]** est sélectionné (par défaut).
-1. Sélectionner **[!UICONTROL Enregistrer]**, sélectionnez un dossier pour le stockage de la série d’échantillons de couleurs, saisissez un nom pour la série, puis sélectionnez **[!UICONTROL Envoyer]**.
-1. Pour afficher votre série d’échantillons dans la visionneuse, sélectionnez **[!UICONTROL Aperçu]** sur l’écran Série d’échantillons . Vous pouvez sélectionner des miniatures d’échantillon dans la visionneuse de séries d’échantillons pour voir comment elles se comportent.
+1. Près du coin inférieur droit de la page, assurez-vous que **[!UICONTROL Publish after a save]** est sélectionné (par défaut).
+1. Sélectionnez **[!UICONTROL Enregistrer]**, sélectionnez un dossier pour stocker votre série d’échantillons de couleurs, saisissez un nom pour la série, puis sélectionnez **[!UICONTROL Envoyer]**.
+1. Pour afficher votre série d’échantillons dans la visionneuse, sélectionnez **[!UICONTROL Aperçu]** sur l’écran de la série. Vous pouvez sélectionner des miniatures d’échantillon dans la visionneuse de séries d’échantillons pour voir comment elles se comportent.
 
 ## Modification d’une série d’échantillons {#editing-a-swatch-set}
 
-Si vous modifiez un jeu publié ou non publié, la variable **[!UICONTROL Publier après un enregistrement]** L’option affecte les membres de l’ensemble et de l’ensemble comme suit :
+Que vous modifiiez un jeu publié ou non publié, l’option **[!UICONTROL Publish after a save]** affecte l’ensemble et définit ses membres de la manière suivante :
 
-| Visionneuse déjà publiée ? | **[!UICONTROL Publier après un enregistrement]** option d’enregistrement sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
+| Visionneuse déjà publiée ? | **[!UICONTROL Publish après une option d&#39;enregistrement]** sélectionnée avant d&#39;enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 |--- | --- | --- | --- |
 | Oui | Oui | Publié | Publié. |
 | Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
@@ -66,15 +66,15 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 **Pour modifier une série d’échantillons :**
 
-1. En mode d’affichage Grille, accédez à un SwatchSet, puis sous l’image, sélectionnez **[!UICONTROL Modifier]**.
+1. En mode d’affichage Grille, accédez à un SwatchSet, puis sous l’image, sélectionnez **[!UICONTROL Edit]**.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Pour ajouter une image (publiée ou non publiée), faites-la glisser d’un dossier de la section Ajouter des ressources sur la série d’échantillons **[!UICONTROL Vues]** page.
+   * Pour ajouter une image (publiée ou non publiée), faites-la glisser d’un dossier dans Ajouter Assets sur la page **[!UICONTROL Vues]** de la série d’échantillons.
    * Pour supprimer une image, sélectionnez-la, puis sélectionnez **[!UICONTROL Supprimer]** dans la barre d’outils.
    * Pour réorganiser des images, faites glisser l’image de votre choix vers sa nouvelle position.
 
-1. Lorsque vous avez terminé de modifier la visionneuse, près du coin inférieur droit de la page, assurez-vous que **[!UICONTROL Publier après un enregistrement]** est sélectionné (par défaut).
-1. Sélectionner **[!UICONTROL Enregistrer]**, sélectionnez un dossier de stockage, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
+1. Lorsque vous avez terminé de modifier la visionneuse, près du coin inférieur droit de la page, assurez-vous que **[!UICONTROL Publish after a save]** est sélectionné (par défaut).
+1. Sélectionnez **[!UICONTROL Enregistrer]**, sélectionnez un dossier de stockage, saisissez un nom pour la visionneuse, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
 ## Suppression d’une série d’échantillons
 

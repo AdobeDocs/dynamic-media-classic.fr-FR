@@ -20,7 +20,7 @@ ht-degree: 40%
 
 Pour créer des visionneuses de vidéos ou adaptatives uniques à diffuser sur le Web ou sur des appareils mobiles, vous devez d’abord charger vos fichiers vidéo principaux dans Adobe Dynamic Media Classic. Adobe Dynamic Media Classic code les vidéos au format MP4 et les publie dans les formats de fichiers suivants :
 
-* **MP4**: Adobe Dynamic Media Classic recommande le format MP4 comme format de fichier vidéo préféré. Utilisez le format de fichiers MP4 pour effectuer les opérations suivantes :
+* **MP4** : Adobe Dynamic Media Classic recommande le format MP4 comme format de fichier vidéo préféré. Utilisez le format de fichiers MP4 pour effectuer les opérations suivantes :
 
    * Diffusion en flux continu dynamique HTTP sur les ordinateurs de bureau.
    * HTTP Live Streaming (protocole de diffusion en continu Apple).
@@ -28,9 +28,9 @@ Pour créer des visionneuses de vidéos ou adaptatives uniques à diffuser sur l
 
   Adobe Dynamic Media Classic propose deux processus pour charger des fichiers vidéo :
 
-* **Vidéos précodées**: vous téléchargez des fichiers MP4 directement dans Adobe Dynamic Media Classic. En procédant ainsi, les fichiers ne sont pas codés au moment où vous les téléchargez. Les fichiers sont précodés en vue de la diffusion sur l’ordinateur de bureau et sur des périphériques mobiles.
+* **Vidéos pré-codées** : vous téléchargez des fichiers MP4 directement vers Adobe Dynamic Media Classic. En procédant ainsi, les fichiers ne sont pas codés au moment où vous les téléchargez. Les fichiers sont précodés en vue de la diffusion sur l’ordinateur de bureau et sur des périphériques mobiles.
 
-* **Vidéos source Principal**: téléchargez des fichiers vidéo sources originales et, au moment du téléchargement, codez ces fichiers dans des fichiers MP4. Les vidéos codées sont intitulées &quot;Vidéo&quot; dans le panneau Parcourir . Adobe Dynamic Media Classic prend en charge le codage de fichiers vidéo dans de nombreux formats.
+* **Principal des vidéos source** : téléchargez des fichiers vidéo sources originales et, lors du téléchargement, codez ces fichiers dans des fichiers MP4. Les vidéos codées sont intitulées &quot;Vidéo&quot; dans le panneau Parcourir . Adobe Dynamic Media Classic prend en charge le codage de fichiers vidéo dans de nombreux formats.
 
    * Assurez-vous que les fichiers vidéo sources originales à coder sont pris en charge.
 
@@ -44,47 +44,47 @@ Pour créer des visionneuses de vidéos ou adaptatives uniques à diffuser sur l
 
 Adobe Dynamic Media Classic génère également des miniatures vidéo. Vous pouvez en savoir plus sur les miniatures de vidéos, l’obtention de leurs URL et la modification des images de l’affiche.
 
-Voir [Utilisation des miniatures vidéo](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
+Voir [Utilisation de miniatures vidéo](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
 
-**Pour charger et coder des vidéos :**
+**Pour télécharger et coder des vidéos :**
 
 Effectuez l’une des opérations suivantes.
 
 *Si vos vidéos sont déjà codées*
 
 1. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]**.
-1. Sur la page Télécharger , sélectionnez le **[!UICONTROL À partir du bureau]** .
-1. Sur la page Télécharger , dans la variable **[!UICONTROL Sélection de fichiers à télécharger]** panneau, sélectionnez **[!UICONTROL Parcourir]**, accédez à un fichier vidéo MP4, puis sélectionnez **[!UICONTROL Ouvrir]**.
-1. Dans le choix **[!UICONTROL Destination du dossier]** , sélectionnez un dossier pour le fichier chargé.
-1. Sur la page Télécharger , assurez-vous que **[!UICONTROL Publier après le téléchargement]** est cochée.
-1. Sélectionner **[!UICONTROL Envoyer le téléchargement]**.
+1. Sur la page Télécharger, sélectionnez l’onglet **[!UICONTROL Depuis le bureau]** .
+1. Sur la page Télécharger, dans le panneau **[!UICONTROL Sélectionner les fichiers à télécharger]**, sélectionnez **[!UICONTROL Parcourir]**, accédez à un fichier vidéo MP4, puis sélectionnez **[!UICONTROL Ouvrir]**.
+1. Dans le panneau **[!UICONTROL Destination du dossier]** sélectionné, sélectionnez un dossier pour le fichier chargé.
+1. Sur la page Télécharger , assurez-vous que l’option **[!UICONTROL Publish After Uploading]** est cochée.
+1. Sélectionnez **[!UICONTROL Submit Upload]**.
 
 *Si vous souhaitez coder vos vidéos à l’aide d’Adobe Dynamic Media Classic*
 
 1. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]**.
-1. Sur la page Télécharger , sélectionnez le **[!UICONTROL À partir du bureau]** .
-1. Dans le **[!UICONTROL Sélectionner les fichiers à télécharger]** panneau, sélectionnez **[!UICONTROL Parcourir]**, accédez à un fichier vidéo source principal, puis sélectionnez **[!UICONTROL Ouvrir]**.
-1. Dans le choix **[!UICONTROL Destination du dossier]** , sélectionnez un dossier pour le fichier chargé.
+1. Sur la page Télécharger, sélectionnez l’onglet **[!UICONTROL Depuis le bureau]** .
+1. Dans le panneau **[!UICONTROL Select Files to Upload]**, sélectionnez **[!UICONTROL Browse]**, accédez à un fichier vidéo source principal, puis sélectionnez **[!UICONTROL Open]**.
+1. Dans le panneau **[!UICONTROL Destination du dossier]** sélectionné, sélectionnez un dossier pour le fichier chargé.
 1. Dans le coin inférieur droit de la page, sélectionnez **[!UICONTROL Options de tâche]**,
-1. Dans la boîte de dialogue Télécharger les options de la tâche, développez **[!UICONTROL Options vidéo]**, puis effectuez l’une des opérations suivantes :
+1. Dans la boîte de dialogue Télécharger les options de la tâche, développez **[!UICONTROL Options eVideo]**, puis effectuez l’une des opérations suivantes :
 
    * La bonne pratique consiste à sélectionner **[!UICONTROL Codage vidéo adaptatif]**. Voir [Vidéo adaptative (par défaut)](application-setup.md#adaptive-video-default).
    * Facultatif. Si vous souhaitez utiliser des paramètres de codage individuels, développez **[!UICONTROL Paramètres prédéfinis de codage uniques]**, puis sélectionnez les options de codage souhaitées pour Bureau, Mobile et Tablette.
 Voir [Paramètres prédéfinis de codage de vidéo pour ordinateur de bureau](application-setup.md#desktop-video-encoding-presets), [Paramètres prédéfinis de codage vidéo pour périphérique mobile](application-setup.md#mobile-video-encoding-presets), [Paramètres prédéfinis de codage vidéo pour tablette](application-setup.md#tablet-video-encoding-presets).
 1. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Enregistrer]**.
-1. Sur la page Télécharger , assurez-vous que **[!UICONTROL Publier après le téléchargement]** est cochée.
-1. Sur la page Télécharger, dans le coin inférieur droit, sélectionnez **[!UICONTROL Envoyer le téléchargement]**.
+1. Sur la page Télécharger , assurez-vous que l’option **[!UICONTROL Publish After Uploading]** est cochée.
+1. Sur la page Télécharger, dans le coin inférieur droit, sélectionnez **[!UICONTROL Submit Upload]**.
 
-*Si vous souhaitez coder à nouveau un fichier vidéo que vous avez précédemment téléchargé*
+*Si vous souhaitez réencoder un fichier vidéo que vous avez précédemment téléchargé*
 
 1. Dans Adobe Dynamic Media Classic, dans le panneau Parcourir , accédez à la vidéo et sélectionnez-la.
 1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Retraiter]**.
-1. Dans la boîte de dialogue Retraiter les ressources, développez **[!UICONTROL Options vidéo]**, puis effectuez l’une des opérations suivantes :
-   * La bonne pratique consiste à utiliser la méthode suivante. Sélectionner **Vidéo adaptative**.
+1. Dans la boîte de dialogue Retraiter Assets, développez **[!UICONTROL Options eVideo]**, puis effectuez l’une des opérations suivantes :
+   * La bonne pratique consiste à utiliser la méthode suivante. Sélectionnez **Vidéo adaptative**.
 Voir [Vidéo adaptative (par défaut)](application-setup.md#adaptive-video-default).
    * Facultatif. Si vous souhaitez utiliser des paramètres de codage individuels, développez **[!UICONTROL Paramètres prédéfinis de codage uniques]**, puis sélectionnez les options de codage souhaitées pour Bureau, Mobile et Tablette.
 Voir [Paramètres prédéfinis de codage de vidéo pour ordinateur de bureau](application-setup.md#desktop-video-encoding-presets), [Paramètres prédéfinis de codage vidéo pour périphérique mobile](application-setup.md#mobile-video-encoding-presets), [Paramètres prédéfinis de codage vidéo pour tablette](application-setup.md#tablet-video-encoding-presets).
-1. Dans la boîte de dialogue Retraiter les ressources, sélectionnez **[!UICONTROL Envoyer]**.
+1. Dans la boîte de dialogue Retraiter Assets, sélectionnez **[!UICONTROL Submit]**.
 
 Lorsque vous utilisez un ou plusieurs paramètres prédéfinis de codage de vidéo adaptative, vous obtenez une visionneuse de vidéos adaptative automatiquement créée avec plusieurs codages vidéo. Vous pouvez également créer manuellement une visionneuse de vidéos adaptative en choisissant des vidéos individuelles.
 
@@ -94,9 +94,9 @@ Seuls les fichiers de type MP4 et M4V sont créés lorsque vous générez une vi
 
 Le tableau suivant répertorie les types de fichiers vidéo (avec les codecs vidéo autorisés) que vous pouvez coder au format MP4 ou OGV lorsque vous transférez des fichiers. Le tableau répertorie les formats de fichiers et les codecs :
 
-* **Formats de fichiers vidéo**: tout comme un fichier ZIP, un format de fichier vidéo détermine la manière dont les fichiers sont contenus dans le fichier vidéo. Un fichier vidéo contient généralement plusieurs pistes : une piste vidéo (sans audio) et une ou plusieurs pistes audio (sans vidéo), qui sont étroitement liées et synchronisées. Le format de fichier vidéo détermine comment ces différentes pistes de données et métadonnées sont organisées.
+* **Formats de fichiers vidéo** : tout comme un fichier ZIP, un format de fichier vidéo détermine la manière dont les fichiers sont contenus dans le fichier vidéo. Un fichier vidéo contient généralement plusieurs pistes : une piste vidéo (sans audio) et une ou plusieurs pistes audio (sans vidéo), qui sont étroitement liées et synchronisées. Le format de fichier vidéo détermine comment ces différentes pistes de données et métadonnées sont organisées.
 
-* **Codecs vidéo**: un codec vidéo décrit l’algorithme par lequel une vidéo est codée. Un lecteur vidéo décode la vidéo en fonction de son codec, puis affiche une série d’images, ou cadres, à l’écran. Les codecs limitent la quantité d’informations que les fichiers vidéo ont besoin de stocker pour lire la vidéo. Au lieu d’informations sur chaque image, seules les informations sur les différences entre une image et la suivante sont stockées. Comme la plupart des vidéos changent peu d’une image à l’autre, les codecs permettent des taux de compression élevés, ce qui se traduit par des tailles de fichiers plus petites.
+* **Codecs vidéo** : un codec vidéo décrit l’algorithme par lequel une vidéo est codée. Un lecteur vidéo décode la vidéo en fonction de son codec, puis affiche une série d’images, ou cadres, à l’écran. Les codecs limitent la quantité d’informations que les fichiers vidéo ont besoin de stocker pour lire la vidéo. Au lieu d’informations sur chaque image, seules les informations sur les différences entre une image et la suivante sont stockées. Comme la plupart des vidéos changent peu d’une image à l’autre, les codecs permettent des taux de compression élevés, ce qui se traduit par des tailles de fichiers plus petites.
 
   | Format de fichier vidéo | Codecs vidéo |
   | --- | --- |
@@ -172,7 +172,7 @@ Par exemple, une vidéo dont la largeur est de 1 440 × hauteur de 1 080 a un ra
 
 ### Débit {#data-rate}
 
-La variable *débit de données* (également appelé *débit*) correspond à la quantité de données codées pour constituer une seule seconde de lecture vidéo. Le débit de données est mesuré en kilobits par seconde (Kbits/s).
+Le *débit de données* (également appelé *débit binaire*) est la quantité de données qui est codée pour constituer une seconde de lecture vidéo. Le débit de données est mesuré en kilobits par seconde (Kbits/s).
 
 >[!NOTE]
 >
@@ -191,7 +191,7 @@ Ce tableau décrit le débit de données de vitesses de connexion courantes.
 
 ### Résolution {#resolution}
 
-*Résolution* décrit la hauteur et la largeur d’un fichier vidéo, en pixels. La plupart des vidéos sources sont stockées à une résolution élevée (par exemple, 1920 × 1080). Pour la diffusion en continu, la vidéo source est compressée à une résolution inférieure (640 × 480 ou moins).
+*Resolution* décrit la hauteur et la largeur d’un fichier vidéo en pixels. La plupart des vidéos sources sont stockées à une résolution élevée (par exemple, 1920 × 1080). Pour la diffusion en continu, la vidéo source est compressée à une résolution inférieure (640 × 480 ou moins).
 
 La résolution et le débit de données sont deux facteurs étroitement liés qui déterminent la qualité de la vidéo. Pour maintenir la même qualité vidéo, plus le nombre de pixels (c’est-à-dire la résolution) est élevé dans un fichier vidéo, plus le débit de données doit l’être également. Prenons l’exemple du nombre de pixels par image dans un fichier vidéo de résolution de 320 × 240 et d’une résolution de 640 × 480 :
 
@@ -253,7 +253,7 @@ Adobe Dynamic Media Classic recommande d’utiliser les paramètres prédéfinis
 
 Les fichiers vidéo Principal créés avec des équipements de production vidéo et des logiciels de montage vidéo sont souvent trop volumineux et ne sont pas dans le format approprié pour une diffusion vers des destinations en ligne. Pour convertir de la vidéo numérique afin qu’elle présente le format et les spécifications appropriés pour être lue sur divers écrans, vous pouvez *transcoder* les fichiers vidéo (processus également appelé « *codage* »). Au cours du processus de codage, la vidéo est compressée pour obtenir une taille de fichier plus petite et plus efficace. Il le fait pour une diffusion optimale sur le Web et sur les appareils mobiles.
 
-Voir [Chargement et codage de vidéos](uploading-encoding-videos.md#uploading-and-encoding-videos).
+Voir [Téléchargement et codage de vidéos](uploading-encoding-videos.md#uploading-and-encoding-videos).
 
 Adobe Dynamic Media Classic fournit une bibliothèque de paramètres prédéfinis de codage vidéo qui reflètent les paramètres de codage les plus courants utilisés aujourd’hui. Ces paramètres ont été optimisés pour la lecture sur les écrans cibles. De plus, les administrateurs peuvent créer leurs propres paramètres prédéfinis de codage vidéo pour personnaliser la taille et la qualité de lecture des vidéos pour les utilisateurs. Tous les paramètres prédéfinis de codage vidéo, qu’ils soient prêts à l’emploi d’Adobe Dynamic Media Classic ou personnalisés, génèrent une vidéo au format de fichier MP4.
 
@@ -268,7 +268,7 @@ Toute vidéo que vous chargez vers Adobe Dynamic Media Classic ou que vous codez
 
 Voir [Prévisualisation de vidéos dans une visionneuse de vidéos](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
 
-Voir [Liaison d’une URL de vidéo à un site mobile ou à un site web](deploying-video-websites-mobile-sites.md#linking-a-video-url-to-a-mobile-site-or-a-website).
+Voir [Lier une URL de vidéo à un site mobile ou à un site web](deploying-video-websites-mobile-sites.md#linking-a-video-url-to-a-mobile-site-or-a-website).
 
 Voir [Incorporation de la visionneuse de vidéos dans une page web](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page).
 
@@ -292,7 +292,7 @@ Vous pouvez également les filtrer en fonction d’une option de périphérique 
 
 **Pour filtrer la liste des paramètres prédéfinis de codage vidéo :**
 
-1. Dans Adobe Dynamic Media Classic, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres vidéo prédéfinis]** > **[!UICONTROL Paramètres prédéfinis de vidéo adaptative]** ou **[!UICONTROL Paramètres prédéfinis de codage uniques]**.
+1. Dans Adobe Dynamic Media Classic, sur la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres vidéo prédéfinis]** > **[!UICONTROL Paramètres vidéo prédéfinis adaptatifs]** ou **[!UICONTROL Paramètres prédéfinis de codage uniques]**.
 
    Les pages des paramètres prédéfinis de vidéo adaptative et de codage unique incluent un tableau qui répertorie l’état actif, le nom du paramètre prédéfini, le périphérique de lecture prévu, les dimensions vidéo et le débit de données de chaque paramètre prédéfini vidéo.
 
@@ -305,11 +305,11 @@ Vous pouvez également les filtrer en fonction d’une option de périphérique 
 
 Les paramètres vidéo prédéfinis activés sont répertoriés dans la boîte de dialogue Télécharger les options de la tâche. La boîte de dialogue s’affiche lorsqu’un utilisateur charge des fichiers vidéo au cours du processus de chargement. Ils peuvent choisir parmi une liste de tous les paramètres prédéfinis de codage activés.
 
-1. Dans Adobe Dynamic Media Classic, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres vidéo prédéfinis]**.
+1. Dans Adobe Dynamic Media Classic, sur la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres vidéo prédéfinis]**.
 1. Effectuez l’une des opérations suivantes :
 
-   * Sélectionner **[!UICONTROL Paramètres prédéfinis de vidéo adaptative]**.
-   * Sélectionner **[!UICONTROL Paramètres prédéfinis de codage uniques]**.
+   * Sélectionnez **[!UICONTROL Paramètres prédéfinis de vidéo adaptative]**.
+   * Sélectionnez **[!UICONTROL Paramètres prédéfinis de codage uniques]**.
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -329,19 +329,19 @@ Vous pouvez créer vos propres paramètres vidéo prédéfinis personnalisés à
 Adobe Dynamic Media Classic a défini des limites maximales sur le débit de données cible, la hauteur de résolution et la largeur de résolution afin de garantir une expérience de lecture correcte. Des messages d’avertissement s’affichent si vous dépassez ces limites, qui sont les suivantes :
 
 * Pour la lecture sur ordinateur, les limites sont : (Largeur/16) &#42; (Hauteur/16) &lt; 8192.
-* Pour la lecture mobile, les limites sont les suivantes : (Largeur/16) &#42; (Hauteur/16) &lt; 660 ; débit cible &lt; 4 000.
-* Pour la lecture sur tablette, les limites sont les suivantes : (Largeur/16) &#42; (Hauteur/16) &lt; 3 600.
+* Pour la lecture sur appareil mobile, les limites sont : (Largeur/16) &#42; (Hauteur/16) &lt; 660 ; débit cible &lt; 4 000.
+* Pour la lecture sur tablette, les limites sont : (Largeur/16) &#42; (Hauteur/16) &lt; 3 600.
 
 **Pour ajouter ou modifier un paramètre prédéfini de codage vidéo :**
 
-1. Dans Adobe Dynamic Media Classic, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres vidéo prédéfinis]**.
-1. Sélectionner **[!UICONTROL Paramètres prédéfinis de codage uniques]**.
+1. Dans Adobe Dynamic Media Classic, sur la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres vidéo prédéfinis]**.
+1. Sélectionnez **[!UICONTROL Paramètres prédéfinis de codage uniques]**.
 1. Sur la page Paramètres vidéo prédéfinis, procédez de l’une des manières suivantes :
 
-   * Dans la barre d’outils Paramètres vidéo prédéfinis, sélectionnez **[!UICONTROL Ajouter]** vous pouvez ajouter un paramètre vidéo prédéfini.
+   * Dans la barre d’outils Paramètres vidéo prédéfinis, sélectionnez **[!UICONTROL Ajouter]** pour pouvoir ajouter un paramètre vidéo prédéfini.
    * Sélectionnez un paramètre vidéo prédéfini. Dans la barre d’outils, sélectionnez **[!UICONTROL Modifier]**.
 
-     Vous ne pouvez pas modifier les paramètres prédéfinis Adobe Dynamic Media Classic ; vous pouvez uniquement créer un paramètre prédéfini à partir d’un paramètre existant en sélectionnant **[!UICONTROL Enregistrer sous]**.
+     Vous ne pouvez pas modifier les paramètres prédéfinis Adobe Dynamic Media Classic ; vous pouvez uniquement créer un paramètre prédéfini à partir d’un paramètre existant en choisissant **[!UICONTROL Enregistrer sous]**.
 
 1. Dans la page Ajout d’un paramètre vidéo prédéfini ou Modification d’un paramètre vidéo prédéfini, définissez les options Paramètres vidéo prédéfinis dont vous avez besoin.
 
@@ -353,29 +353,29 @@ Adobe Dynamic Media Classic a défini des limites maximales sur le débit de don
    | Description | Décrivez le paramètre vidéo prédéfini. Ce que vous saisissez apparaît sous forme d’info-bulle. Lorsque les utilisateurs choisissent des options de transcodage, l’info-bulle s’affiche lorsqu’ils déplacent le pointeur sur le nom du paramètre prédéfini dans la boîte de dialogue Télécharger les options de la tâche. |
    | Périphérique de lecture | Choisissez le périphérique sur lequel il est prévu que la vidéo soit lue. Les options disponibles sont Ordinateur (ordinateurs de bureau), Mobile (iPhone, iPad, Android™) ou Tablette (iPad uniquement). Ce paramètre détermine automatiquement le codec vidéo et audio approprié utilisé lors du codage. |
    | Débit de la cible | Entrez la vitesse de connexion Internet moyenne (en kilobits par seconde) de l’utilisateur final cible. Vous pouvez saisir le débit ou faire glisser le curseur pour le saisir. Le spectre de vitesse de connexion de l’utilisateur répertorie les vitesses attendues pour les connexions haut débit, DSL, mobiles et à ligne commutée. Ce paramètre détermine automatiquement le débit combiné de données audio et vidéo, autrement dit, la quantité de données qu’il est nécessaire de coder pour produire une seule seconde de lecture vidéo. Plus le débit binaire est élevé, meilleure est la qualité de la vidéo produite. Cependant, un débit de données trop élevé se traduit par des fichiers de taille très importante, ce qui peut altérer l’expérience de visionnage pour les utilisateurs qui ne disposent pas d’une connexion avec une bande passante aussi large. Il est préférable d’essayer d’équilibrer ces deux facteurs Essayez de créer une expérience de lecture de qualité adéquate sans aliéner les utilisateurs ayant des largeurs de bande limitées. |
-   | Format | Le format est le rapport largeur/hauteur de la vidéo. Les deux premières proportions répertoriées ci-dessous sont souvent utilisées pour afficher la vidéo horizontalement :<ul><li> 4:3: Utilisé pour presque tous les contenus télévisés à définition standard.</li><li>16:9: Utilisé pour la plupart du contenu et des films grand écran sur la télévision haute définition (HDTV).</li><li>Mise à l’échelle automatique : (valeur par défaut) paramètre prédéfini de codage unique qui fonctionne avec n’importe quel format pour créer des vidéos à diffuser sur mobile, tablette et ordinateur de bureau. Les vidéos source transférées qui sont codées à l’aide de ce paramètre prédéfini sont définies avec une hauteur fixe. Toutefois, la largeur est automatiquement mise à l’échelle afin de préserver les proportions de la vidéo (rapport largeur/hauteur).</li><li>Personnalisé : utilisé lorsque vous souhaitez définir une taille de vidéo non standard.</li><li>Les proportions que vous choisissez déterminent les paramètres de largeur et de hauteur pour la taille de résolution ; la largeur et la hauteur sont automatiquement mises à l’échelle selon les proportions appropriées.</li></ul> |
-   | Taille de résolution | La taille de résolution, exprimée en nombre de pixels de large par le nombre de pixels de haut, détermine la taille. Saisissez une largeur et une hauteur en pixels ou faites glisser le curseur pour entrer ces valeurs. Le spectre des résolutions répertorie les tailles de résolution les plus utilisées. La valeur de largeur et la valeur de hauteur correspondent automatiquement aux proportions que vous avez sélectionnées. Par exemple, si vous sélectionnez 4:3 comme format et saisissez 400 pour la largeur, 300 est automatiquement renseigné pour la hauteur. Si vous avez sélectionné Mise à l’échelle automatique pour le paramètre Format, la valeur Largeur de la résolution est automatiquement définie sur Auto. Sélectionner **[!UICONTROL Aperçu]** vous pouvez donc ouvrir une fenêtre de navigateur et y voir vos choix de résolution. |
+   | Format | Le format est le rapport largeur/hauteur de la vidéo. Les deux premières proportions répertoriées ci-dessous sont souvent utilisées pour afficher la vidéo horizontalement :<ul><li> 4:3: Utilisé pour presque tous les contenus de diffusion TV à définition standard.</li><li>16:9: Utilisé pour presque tout le contenu et les films grand écran sur la télévision haute définition (HDTV).</li><li>Mise à l’échelle automatique : (valeur par défaut) paramètre prédéfini de codage unique qui fonctionne avec n’importe quel format pour créer des vidéos à diffuser sur mobile, tablette et ordinateur de bureau. Les vidéos source transférées qui sont codées à l’aide de ce paramètre prédéfini sont définies avec une hauteur fixe. Toutefois, la largeur est automatiquement mise à l’échelle afin de préserver les proportions de la vidéo (rapport largeur/hauteur).</li><li>Personnalisé : utilisé lorsque vous souhaitez définir une taille de vidéo non standard.</li><li>Les proportions que vous choisissez déterminent les paramètres de largeur et de hauteur pour la taille de résolution ; la largeur et la hauteur sont automatiquement mises à l’échelle selon les proportions appropriées.</li></ul> |
+   | Taille de résolution | La taille de résolution, exprimée en nombre de pixels de large par le nombre de pixels de haut, détermine la taille. Saisissez une largeur et une hauteur en pixels ou faites glisser le curseur pour entrer ces valeurs. Le spectre des résolutions répertorie les tailles de résolution les plus utilisées. La valeur de largeur et la valeur de hauteur correspondent automatiquement aux proportions que vous avez sélectionnées. Par exemple, si vous sélectionnez 4:3 comme format et saisissez 400 pour la largeur, 300 est automatiquement renseigné pour la hauteur. Si vous avez sélectionné Mise à l’échelle automatique pour le paramètre Format, la valeur Largeur de la résolution est automatiquement définie sur Auto. Sélectionnez **[!UICONTROL Aperçu]** afin que vous puissiez ouvrir une fenêtre de navigateur et y voir vos choix de résolution. |
    | Encoder un suffixe de fichier | Entrez un suffixe. Ce suffixe est ajouté au fichier vidéo encodé résultant. Vous pouvez entrer un trait d’union et un trait de soulignement dans le nom, mais les espaces et les caractères spéciaux ne sont pas autorisés. |
    | Autres paramètres | Adobe Dynamic Media Classic détermine automatiquement tous les autres paramètres de codage, conformément aux bonnes pratiques en matière de codage. |
 
 1. Effectuez l’une des opérations suivantes :
 
-   * Sélectionner **[!UICONTROL Enregistrer]** si vous avez ajouté ou modifié un paramètre vidéo prédéfini.
-   * Sélectionner **[!UICONTROL Enregistrer sous]** si vous avez ajouté un paramètre vidéo prédéfini à partir d’un paramètre prédéfini existant.
+   * Sélectionnez **[!UICONTROL Enregistrer]** si vous avez ajouté ou modifié un paramètre vidéo prédéfini.
+   * Sélectionnez **[!UICONTROL Enregistrer sous]** si vous avez ajouté un paramètre vidéo prédéfini à partir d’un paramètre prédéfini existant.
 
 ### Suppression d’un paramètre prédéfini de codage vidéo {#delete-a-video-encoding-preset}
 
 Les administrateurs peuvent supprimer des paramètres vidéo prédéfinis personnalisés. Les paramètres vidéo prédéfinis fournis avec Adobe Dynamic Media Classic ne peuvent pas être supprimés.
 
-1. Dans Adobe Dynamic Media Classic, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres vidéo prédéfinis]**.
-1. Sélectionner **[!UICONTROL Paramètres prédéfinis de codage uniques]**.
+1. Dans Adobe Dynamic Media Classic, sur la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres vidéo prédéfinis]**.
+1. Sélectionnez **[!UICONTROL Paramètres prédéfinis de codage uniques]**.
 1. Sur la page Paramètres vidéo prédéfinis, sélectionnez dans le tableau un paramètre vidéo prédéfini dont vous n’avez plus besoin.
 1. Dans la barre d’outils Paramètres vidéo prédéfinis, sélectionnez **[!UICONTROL Supprimer]**.
 1. Dans la boîte de dialogue Supprimer le paramètre prédéfini, sélectionnez **[!UICONTROL Supprimer]**.
 
 >[!MORELIKETHIS]
 >
->* [Démarrage rapide : Vidéo dans Adobe Dynamic Media Classic](quick-start-video.md#quick-start-video)
->* [Chargement et codage de vidéos](uploading-encoding-videos.md#uploading-and-encoding-videos)
+>* [Démarrage rapide : vidéo dans Adobe Dynamic Media Classic](quick-start-video.md#quick-start-video)
+>* [Télécharger et coder des vidéos](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [Utilisation de paramètres prédéfinis de visionneuse vidéo](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
->* [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vidéo de formation
+>* Vidéo de formation [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)

@@ -37,7 +37,7 @@ Si vous le souhaitez, créez un environnement d’évaluation plutôt que de ren
 
 La plupart des entreprises gèrent leur Internet derrière un pare-feu. L’accès à Internet est possible via certaines routes et généralement via une plage limitée d’adresses IP publiques.
 
-À partir du réseau de votre entreprise, vous pouvez déterminer votre adresse IP publique à l’aide de sites web tels que [https://www.whatismyip.com](https://www.whatismyip.com/) ou demandez ces informations à votre entreprise informatique.
+À partir du réseau de votre entreprise, vous pouvez déterminer votre adresse IP publique à l’aide de sites Web tels que [https://www.whatismyip.com](https://www.whatismyip.com/) ou demander ces informations à votre entreprise informatique.
 
 Avec le test sécurisé, Adobe Dynamic Media Classic établit un serveur d’images dédié pour les environnements d’évaluation ou les applications internes. Toute requête sur ce serveur vérifie l’adresse IP d’origine. Si la requête entrante ne figure pas dans la liste approuvée des adresses IP, une réponse d’échec est renvoyée. L’administrateur d’entreprise Adobe Dynamic Media Classic configure la liste approuvée des adresses IP pour l’environnement de test sécurisé de son entreprise.
 
@@ -103,28 +103,28 @@ Last Modified Date:
  -->
 
 1. Contactez l’assistance clientèle d’Adobe et demandez-lui d’activer le test sécurisé sur votre compte.
-1. Dans Adobe Dynamic Media Classic, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de la publication]** > **[!UICONTROL Serveur d’images]**.
-1. Sur la page Publication sur hébergeur d’images, dans le **[!UICONTROL `Publish Context`]** liste déroulante, sélectionnez **[!UICONTROL Test de la diffusion d’images]**.
-1. Pour le filtre d’adresse client, sélectionnez **[!UICONTROL Ajouter]**.
+1. Dans Adobe Dynamic Media Classic, sur la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de Publish]** > **[!UICONTROL Serveur d’images]**.
+1. Sur la page Publish du serveur d’images, dans la liste déroulante **[!UICONTROL `Publish Context`]**, sélectionnez **[!UICONTROL Test Image Serving]**.
+1. Pour le filtre d’adresses client, sélectionnez **[!UICONTROL Ajouter]**.
 1. Cochez la case pour activer l’adresse, puis saisissez une adresse IP et un masque de réseau dans les champs de texte respectifs.
 
    >[!NOTE]
    >
-   >Si vous ajoutez une seule adresse IP et un seul masque de réseau, cette adresse peut effectuer des appels de ressources. Toutefois, les autres adresses IP et masques réseau que vous ajoutez ne sont pas autorisées à effectuer des appels de ressources. Par conséquent, envisagez de désactiver (désactiver) la case à cocher à l’étape ci-dessus pour désactiver la possibilité de spécifier une adresse IP et un masque de réseau. Le faire de manière efficace *all* Adresses IP pour effectuer des appels de ressources, et elles s’affichent toutes.
+   >Si vous ajoutez une seule adresse IP et un seul masque de réseau, cette adresse peut effectuer des appels de ressources. Toutefois, les autres adresses IP et masques réseau que vous ajoutez ne sont pas autorisées à effectuer des appels de ressources. Par conséquent, envisagez de désactiver (désactiver) la case à cocher à l’étape ci-dessus pour désactiver la possibilité de spécifier une adresse IP et un masque de réseau. Cela permet à *toutes les* adresses IP de passer des appels de ressources, et elles s&#39;affichent toutes.
 
 1. Effectuez l’une des opérations suivantes :
    * Répétez les deux étapes précédentes si vous devez ajouter d’autres adresses IP.
    * Passez à l’étape suivante.
-1. Dans l’angle inférieur gauche de la page Publication sur hébergeur d’images, sélectionnez **[!UICONTROL Enregistrer]**
+1. En bas à gauche de la page Publish du serveur d’images, sélectionnez **[!UICONTROL Enregistrer]**
 1. Chargez les images de votre choix dans votre compte Adobe Dynamic Media Classic.
 
-   Voir [Chargement de fichiers](uploading-files.md#uploading_files).
+   Voir [Téléchargement de fichiers](uploading-files.md#uploading_files).
 
 1. Assurez-vous que certaines images sont marquées pour la publication et que d’autres ne le sont pas, puis envoyez la tâche de publication.
 
-   Voir [Publication de fichiers](publishing-files.md#publishing_files).
+   Voir [Fichiers Publish](publishing-files.md#publishing_files).
 
-1. Déterminez le nom de votre service de test sécurisé en accédant à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux]**.
+1. Déterminez le nom de votre service Secure Testing en accédant à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres généraux]**.
 1. A la page Paramètres généraux de l’application, sous le groupe Serveurs, recherchez le nom indiqué à droite de **[!UICONTROL Test de contexte de publication du nom du serveur]**.
 
 Contactez le service à l’Adobe si le nom du serveur est manquant ou si les URL vers le serveur ne fonctionnent pas.

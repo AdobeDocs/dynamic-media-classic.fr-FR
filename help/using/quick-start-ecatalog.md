@@ -40,7 +40,7 @@ Selon les paramètres que vous choisissez pour votre catalogue électronique, la
 * utiliser les interactions de mouvement, y compris le zoom pincé et le feuilletage des pages ;
 * effectuer des recherches par mot-clé.
 
-![Le catalogue électronique tel qu’il s’affiche pour les utilisateurs. A) Page d’ouverture du catalogue électronique. B) Le catalogue électronique est devenu page 2.](/help/using/assets/ec_cat_viewer_popup.png)
+![Catalogue électronique tel qu’il s’affiche pour les utilisateurs. A) Page d’ouverture du catalogue électronique. B) Le catalogue électronique est passé à la page 2.](/help/using/assets/ec_cat_viewer_popup.png)
 
 Pour créer un catalogue électronique, vous utilisez généralement des fichiers de PDF haute résolution créés dans Adobe Acrobat ou dans un autre programme d’impression, mais vous pouvez également créer un catalogue électronique à partir de fichiers image.
 
@@ -48,9 +48,9 @@ Lorsque vous créez un catalogue électronique, vous agencez les pages ou les pl
 
 >[!NOTE]
 >
->Si vous êtes un utilisateur du mode Dynamic Media : Scene7 et souhaitez utiliser des catalogues électroniques, modifiez la variable `pdfbrochure` dans CRXDE Lite. Pour ce faire, dans Adobe Experience Manager, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Général]** > **[!UICONTROL CRXDE Lite]**. Dans l’arborescence de navigation du panneau de gauche, accédez à `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Si vous êtes un utilisateur du mode Dynamic Media : Scene7 et que vous souhaitez utiliser des catalogues électroniques, modifiez la valeur `pdfbrochure` dans CRXDE Lite. Pour ce faire, dans Adobe Experience Manager, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Général]** > **[!UICONTROL CRXDE Lite]**. Dans l’arborescence de navigation du panneau de gauche, accédez à `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
->Dans le volet inférieur droit, dans **[!UICONTROL Propriétés]** , sélectionnez l’onglet `jobParam` ligne. Définissez la valeur de `pdfbrochure` de `false` to `true`. Comme dans `pdfbrochure=true`
+>Dans le volet inférieur droit, dans l’onglet **[!UICONTROL Propriétés]**, sélectionnez la ligne `jobParam`. Définissez la valeur de `pdfbrochure` de `false` sur `true`. Comme dans `pdfbrochure=true`
 >
 >Dans le coin supérieur gauche de la page du CRXDE Lite, sélectionnez **[!UICONTROL Enregistrer tout]**.
 >
@@ -64,31 +64,31 @@ En règle générale, un catalogue électronique est créé à partir de fichier
 
 Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour commencer à charger des fichiers ou des images de PDF pour votre catalogue électronique. Vous pouvez transférer des fichiers depuis votre bureau ou par FTP. Il est conseillé d’opter pour le FTP si vous chargez de nombreux fichiers ou fichiers de plus de 100 Mo.
 
-La section Options PDF de l’écran de téléchargement contient des options qui permettent de télécharger des fichiers PDF présentant l’espace colorimétrique adéquat et la résolution voulue. Une résolution de 150 pixels par pouce est recommandée. Vous pouvez sélectionner l’option **[!UICONTROL Génération automatique du catalogue électronique]** pour créer un catalogue électronique lorsque vous chargez un fichier de PDF.
+La section Options PDF de l’écran de téléchargement contient des options qui permettent de télécharger des fichiers PDF présentant l’espace colorimétrique adéquat et la résolution voulue. Une résolution de 150 pixels par pouce est recommandée. Vous pouvez sélectionner l’option **[!UICONTROL Générer automatiquement le catalogue électronique]** pour créer un catalogue électronique lorsque vous téléchargez un fichier de PDF.
 
-Voir [Chargement des fichiers du PDF](uploading-pdf-files.md#uploading_the_pdf_files).
+Voir [Téléchargement des fichiers du PDF](uploading-pdf-files.md#uploading_the_pdf_files).
 
 ## 2. Création d’un catalogue électronique
 
-Créez votre catalogue électronique en sélectionnant des fichiers de PDF ou d’image dans le panneau Parcourir . Sélectionner **[!UICONTROL Build]**, puis choisissez **[!UICONTROL Catalogues électroniques]**.
+Créez votre catalogue électronique en sélectionnant des fichiers de PDF ou d’image dans le panneau Parcourir . Sélectionnez **[!UICONTROL Build]**, puis **[!UICONTROL eCatalogs]**.
 
-Sur la page Catalogue électronique, sur la page **[!UICONTROL Pages de commande]** , sélectionnez une option Disposition : **[!UICONTROL 1 haut]**, **[!UICONTROL 2 en haut]**, ou **[!UICONTROL Personnalisé]**. Vous pouvez réorganiser les pages ou les planches en les faisant glisser ou, dans le cas de catalogues électroniques volumineux, en choisissant un nom de page dans le menu Déplacer vers.
+Sur la page Catalogue électronique, dans l’onglet **[!UICONTROL Classer les pages]**, sélectionnez une option de mise en page : **[!UICONTROL 1 haut]**, **[!UICONTROL 2 haut]** ou **[!UICONTROL Personnalisé]**. Vous pouvez réorganiser les pages ou les planches en les faisant glisser ou, dans le cas de catalogues électroniques volumineux, en choisissant un nom de page dans le menu Déplacer vers.
 
 Pour ajouter des pages, sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser les fichiers PDF ou d’images dans l’écran Ordre des pages. Au lieu des numéros de page par défaut, vous pouvez indiquer des noms de page personnalisés ou importer de nombreux noms de page.
 
-Sélectionner **[!UICONTROL Enregistrer]**, saisissez un nom pour votre catalogue électronique, choisissez un dossier Adobe Dynamic Media Classic pour le stocker, puis sélectionnez **[!UICONTROL Enregistrer]**. Chaque fois que vous modifiez l’ordre des pages ou le catalogue électronique, enregistrez vos modifications en sélectionnant **[!UICONTROL Enregistrer]**.
+Sélectionnez **[!UICONTROL Enregistrer]**, saisissez un nom pour votre catalogue électronique, choisissez un dossier Adobe Dynamic Media Classic pour le stocker, puis sélectionnez **[!UICONTROL Enregistrer]**. Chaque fois que vous modifiez l’ordre des pages ou l’eCatalog, enregistrez vos modifications en sélectionnant **[!UICONTROL Enregistrer]**.
 
-Voir [Créer un catalogue électronique](creating-ecatalog.md).
+Voir [Création d’un catalogue électronique](creating-ecatalog.md).
 
 ## 3. Création de zones cliquables
 
 Les zones cliquables ajoutent un autre aspect aux pages de catalogue électronique. Une zone cliquable correspond à une zone de la page permettant d’afficher d’autres informations sur un article. Lorsque les utilisateurs placent le pointeur sur une zone cliquable, une description de l’article en question s’affiche. Cliquer sur une zone cliquable active une référence externe qui ouvre une nouvelle page Web dans laquelle vous pouvez en savoir plus sur un élément.
 
-Pour créer une zone cliquable, ouvrez l’écran Catalogue électronique. Ensuite, accédez au **[!UICONTROL Pages de mappage]** de l’écran Catalogue électronique, et encadrez la carte à l’aide de l’outil de zone cliquable Rectangle ou zone cliquable polygone. Vous pouvez ajuster la position et la taille des zones cliquables en faisant glisser les bordures des zones à l’aide de l’outil Panoramique .
+Pour créer une zone cliquable, ouvrez l’écran Catalogue électronique. Ensuite, accédez à l’onglet **[!UICONTROL Pages de mappage]** de l’écran Catalogue électronique et encadrez la carte à l’aide de l’outil de zone cliquable Rectangle ou de l’outil de zone cliquable polygonal. Vous pouvez ajuster la position et la taille des zones cliquables en faisant glisser les bordures des zones à l’aide de l’outil Panoramique .
 
 Après avoir encadré la zone cliquable, saisissez l’adresse URL à laquelle vous souhaitez accéder lorsque vous sélectionnez la zone cliquable. Vous pouvez également indiquer le texte de survol qui s’affiche lorsque le pointeur se trouve sur la zone cliquable.
 
-Voir [Création de zones cliquables de catalogue électronique](creating-ecatalog-image-maps.md#creating-ecatalog-image-maps).
+Voir [Création de zones cliquables eCatalog](creating-ecatalog-image-maps.md#creating-ecatalog-image-maps).
 
 Voir [Utilisation de zones cliquables pour incorporer des médias riches dans un catalogue électronique](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
 
@@ -100,7 +100,7 @@ Voir [Gestion du contenu du panneau Informations dans les catalogues électroniq
 
 Les utilisateurs finaux consultent votre catalogue dans la visionneuse de catalogue électronique. Si vous êtes un administrateur, vous avez la possibilité de configurer cette visionneuse. Vous pouvez modifier la couleur de son contour et sélectionner un nouvel &quot;habillage&quot; pour personnaliser votre catalogue électronique. Adobe Dynamic Media Classic est fourni avec plusieurs paramètres prédéfinis de visionneuse de catalogue électronique &quot;recommandés&quot;. Vous pouvez choisir l’un de ces paramètres prédéfinis pour l’affichage de vos catalogues électroniques. Vous pouvez également créer vous-même un paramètre prédéfini pour la visionneuse de catalogue électronique si vous êtes administrateur.
 
-Pour créer un paramètre prédéfini de visionneuse de catalogue électronique, dans la barre de navigation globale, sélectionnez **[!UICONTROL Configuration]**, puis choisissez **[!UICONTROL Paramètres prédéfinis de la visionneuse]**. Sélectionner **[!UICONTROL Ajouter]**, choisissez une plateforme, puis sélectionnez **[!UICONTROL Catalogue électronique]** > **[!UICONTROL Visionneuse]**.
+Pour créer un paramètre prédéfini de visionneuse de catalogue électronique, dans la barre de navigation globale, sélectionnez **[!UICONTROL Configuration]**, puis **[!UICONTROL Paramètres prédéfinis de la visionneuse]**. Sélectionnez **[!UICONTROL Ajouter]**, choisissez une plateforme, puis sélectionnez **[!UICONTROL eCatalog]** > **[!UICONTROL Visionneuse]**.
 
 Voir [Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
 
@@ -114,13 +114,13 @@ Observez l’orientation des pages, la palette de couleurs, l’aspect des comma
 
 Voir [Aperçu des catalogues électroniques dans la visionneuse de catalogue électronique](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
 
-## 6. Publier le catalogue électronique et les PDF associés
+## 6. Catalogue électronique Publish et PDF associés
 
 La publication de votre catalogue électronique et du PDF associé le place sur les serveurs d’images Dynamic Media afin qu’il puisse être diffusé sur votre site Web et dans votre application. Dans le cadre du processus de publication, Adobe Dynamic Media Classic active la chaîne URL de votre catalogue électronique. Utilisez cette URL pour appeler le catalogue électronique à partir des serveurs d’images Dynamic Media vers votre site web ou votre application.
 
-Après avoir marqué votre catalogue électronique et votre PDF pour publication dans le panneau Parcourir , cliquez sur le bouton Publier de la barre de navigation globale pour lancer une publication. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
+Après avoir marqué votre catalogue électronique et votre PDF pour publication dans le panneau Parcourir , cliquez sur le bouton Publish de la barre de navigation globale pour lancer une publication. Sur la page Publication, sélectionnez **[!UICONTROL Submit Publish]**.
 
-Voir [Publication de catalogues électroniques et de PDF associés](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
+Voir [Catalogues électroniques Publish et PDF associés](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
 ## 7. Associer un catalogue électronique à une page Web
 

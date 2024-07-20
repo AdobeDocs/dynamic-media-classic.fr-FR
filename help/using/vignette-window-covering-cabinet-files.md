@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Utilisation de fichiers de vignette, de vitrine et d’armoire{#working-with-vignette-window-covering-and-cabinet-files}
 
-Les utilisateurs de l’outil de création d’images Adobe Dynamic Media Classic peuvent *use* vignettes (fichiers VNT), recouvrements de fenêtre (fichiers VNW) et meubles (fichiers VNC). Ces fichiers ne peuvent pas être créés ni modifiés dans Adobe Dynamic Media Classic.
+Les utilisateurs de l’outil de création d’images Adobe Dynamic Media Classic peuvent *utiliser* vignettes (fichiers VNT), recouvrements de fenêtre (fichiers VNW) et meubles (fichiers VNC). Ces fichiers ne peuvent pas être créés ni modifiés dans Adobe Dynamic Media Classic.
 
 Les vignettes, les recouvrements de fenêtre et les meubles sont des images qui sont créées. Avec un autre programme Adobe Dynamic Media Classic appelé Création d’images, vous masquez les objets d’une image afin que les utilisateurs puissent voir la même image dans différentes textures ou couleurs. Par exemple, les utilisateurs voient un canapé tapissé de divers tissus, une fenêtre décorée de divers traitements de fenêtre ou une armoire finie avec différents types de bois.
 

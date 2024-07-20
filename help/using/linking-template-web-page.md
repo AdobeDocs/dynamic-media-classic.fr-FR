@@ -31,14 +31,14 @@ Pour placer des chaînes URL dans vos pages et applications Web, copiez-les depu
 
 Vous pouvez obtenir une chaîne URL de modèle générée par un paramètre d’image prédéfini depuis l’écran Prévisualisation du modèle. Une fois l’URL copiée, elle est stockée dans le Presse-papiers ; vous pouvez ainsi la coller si nécessaire. Pour obtenir une chaîne d’URL de modèle générée avec un paramètre d’image prédéfini à partir de la page d’aperçu du modèle, procédez comme suit :
 
-1. Sélectionner le survol du modèle **[!UICONTROL Aperçu]** ou accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Aperçu]**.
+1. Sélectionnez le bouton de survol **[!UICONTROL Aperçu]** du modèle ou accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Aperçu]**.
 1. À l’aide des menus du paramètre prédéfini, choisissez le paramètre d’image prédéfini avec lequel vous souhaitez diffuser l’image du modèle. La page Aperçu vous montre à quoi ressemble le modèle lorsqu’il est diffusé à partir du serveur.
-1. Sélectionner **[!UICONTROL Copier l’URL]** pour pouvoir copier l’URL dans le Presse-papiers.
+1. Sélectionnez **[!UICONTROL Copier l’URL]** pour pouvoir copier l’URL dans le Presse-papiers.
 
 ## Ajouter des URL de modèle à votre page Web {#adding-template-urls-to-your-web-page}
 
-Pour ajouter un modèle à votre page Web, consultez votre équipe de développement de page Web afin de modifier la variable `<IMG>` dans le code de votre page Web de HTML. Utilisez la chaîne URL Adobe Dynamic Media Classic pour envoyer une requête aux serveurs d’images Dynamic Media. Le moteur de commerce ou le code de page Web dynamique insère l’image du modèle à la taille et avec la spécification de formatage définie par le paramètre d’image prédéfini que vous choisissez pour votre modèle.
+Pour ajouter un modèle à votre page Web, consultez votre équipe de développement de page Web afin de modifier la balise `<IMG>` dans le code de page Web de votre HTML. Utilisez la chaîne URL Adobe Dynamic Media Classic pour envoyer une requête aux serveurs d’images Dynamic Media. Le moteur de commerce ou le code de page Web dynamique insère l’image du modèle à la taille et avec la spécification de formatage définie par le paramètre d’image prédéfini que vous choisissez pour votre modèle.
 
 >[!MORELIKETHIS]
 >
->* [Ajout d’images dynamiques à votre page web](linking-urls-web-application.md#adding_dynamic_images_to_your_web_page)
+>* [Ajouter des images dynamiques à votre page web](linking-urls-web-application.md#adding_dynamic_images_to_your_web_page)

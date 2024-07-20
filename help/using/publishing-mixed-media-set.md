@@ -1,5 +1,5 @@
 ---
-title: Publication d’une visionneuse de médias mixtes
+title: Publish d’une visionneuse de médias mixtes
 description: Découvrez comment publier une visionneuse de médias mixtes à partir d’Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,13 +17,13 @@ ht-degree: 12%
 
 ---
 
-# Publication d’une visionneuse de médias mixtes{#publishing-a-mixed-media-set}
+# Publish d’une visionneuse de médias mixtes{#publishing-a-mixed-media-set}
 
 Créez une tâche de publication pour publier une visionneuse de médias mixtes que vous avez marquée pour publication sur Adobe Dynamic Media Classic Video Server et Image Server. Adobe Dynamic Media Classic propose des options de publication avancées pour la publication sur des serveurs spécifiques et des options pour la republication de ressources qui ont déjà été publiées.
 
 >[!NOTE]
 >
->Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisation **Serveur vidéo** pour publier les vidéos réelles que vous avez marquées pour publication. Et vous utilisez **Serveur d’images** pour publier des ressources connexes, telles que des miniatures vidéo, et définir des informations pour toute visionneuse de vidéos adaptative.
+>Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisez **Serveur de vidéos** pour publier les vidéos réelles que vous avez marquées pour publication. De plus, vous utilisez **Serveur d’images** pour publier des ressources connexes, telles que les miniatures vidéo, et définissez des informations pour n’importe quelle visionneuse de vidéos adaptative.
 
 Adobe Dynamic Media Classic effectue le suivi des tâches de publication sur l’écran Tâches .
 
@@ -43,20 +43,20 @@ Last Modified Date:
 
 1. Effectuez l’une des opérations suivantes :
 
-   * Dans le panneau Parcourir, sélectionnez **[!UICONTROL Marquer pour publication]** en regard de chaque nom de fichier à publier.
-   * Dans l’écran Télécharger, sélectionnez **[!UICONTROL Marquer pour publication]** en regard de chaque nom de fichier à publier.
+   * Dans le panneau Parcourir, sélectionnez **[!UICONTROL Marquer pour Publish]** en regard de chaque nom de fichier à publier.
+   * Dans l’écran Télécharger, sélectionnez **[!UICONTROL Marquer pour Publish]** en regard de chaque nom de fichier à publier.
 
-1. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**.
+1. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publish]**.
 1. Définissez les options de planification de votre choix.
-1. (Facultatif) Dans la variable **[!UICONTROL Job Name]** , saisissez le nom de la tâche de publication.
-1. Dans le **[!UICONTROL Avancé]** , dans la variable **[!UICONTROL Publier sur]** liste déroulante, sélectionnez **[!UICONTROL Serveur vidéo]**.
+1. (Facultatif) Dans le champ **[!UICONTROL Nom de la tâche]**, saisissez un nom pour la tâche de publication.
+1. Dans les options **[!UICONTROL Avancé]**, dans la liste déroulante **[!UICONTROL Publish To]**, sélectionnez **[!UICONTROL Serveur vidéo]**.
 
-   Voir [Options de publication avancées](publishing-files.md#advanced_publish_options) pour plus d’options, vous pouvez définir.
+   Voir [Options de publication avancées](publishing-files.md#advanced_publish_options) pour plus d’options que vous pouvez définir.
 
-1. Sélectionner **[!UICONTROL Envoyer la publication]**.
+1. Sélectionnez **[!UICONTROL Submit Publish]**.
 1. Répétez les étapes 2 à 4 ci-dessus.
 1. Dans les options **[!UICONTROL avancées]**, dans la liste déroulante **[!UICONTROL Publier vers]**, sélectionnez **[!UICONTROL Serveur d’images￼]**.
 
-   Voir [Options de publication avancées](publishing-files.md#advanced_publish_options) pour plus d’options, vous pouvez définir.
+   Voir [Options de publication avancées](publishing-files.md#advanced_publish_options) pour plus d’options que vous pouvez définir.
 
-1. Sélectionner **[!UICONTROL Envoyer la publication]**.
+1. Sélectionnez **[!UICONTROL Submit Publish]**.

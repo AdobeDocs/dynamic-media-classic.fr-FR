@@ -31,7 +31,7 @@ Last Modified Date:
 
 Vous pouvez automatiser la création d’une visionneuse d’images dans le cadre d’une tâche indépendante d’un transfert.
 
-**Pour automatiser la génération de visionneuse d’images :**
+**Pour automatiser la génération de la visionneuse d’images :**
 
 1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Générer un jeu]**.
 1. Dans la boîte de dialogue Générer l’ensemble, spécifiez un nom de tâche.
@@ -39,5 +39,5 @@ Vous pouvez automatiser la création d’une visionneuse d’images dans le cadr
    Par défaut, le nom attribué à la tâche indique qu’il s’agit d’une tâche générée et précise la date de création de celle-ci.
 
 1. Sélectionnez le paramètre prédéfini que vous souhaitez appliquer.
-1. Sélectionner **[!UICONTROL Dossier de destination]**, puis spécifiez le dossier à utiliser.
-1. Sélectionner **[!UICONTROL Envoyer]**.
+1. Sélectionnez **[!UICONTROL Dossier de destination]**, puis spécifiez le dossier à utiliser.
+1. Sélectionnez **[!UICONTROL Submit]**.

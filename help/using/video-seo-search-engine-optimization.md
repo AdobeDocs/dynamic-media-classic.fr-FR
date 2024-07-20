@@ -23,9 +23,9 @@ L’optimisation du référencement de la vidéo consiste à améliorer le volum
 
 L’optimisation pour les moteurs de recherche vidéo Adobe Dynamic Media Classic vous permet d’appliquer des métadonnées vidéo afin de fournir aux moteurs de recherche des descriptions de vos vidéos. Adobe Dynamic Media Classic vous permet de créer des plans de site vidéo et des flux mRSS. Ces fichiers XML standard sont utilisés pour envoyer des informations vidéo aux moteurs de recherche :
 
-* **Plan du site vidéo**: informe Google exactement où et quel contenu vidéo se trouve sur un site. Les vidéos peuvent donc faire l’objet de recherches complètes sur Google. Par exemple, un plan de site vidéo peut préciser le temps d’exécution et la catégorie. Pour plus d’informations sur les plans de site vidéo, voir [Cartes de site vidéo et alternatives de plans de site vidéo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **Plan de site vidéo** : informe Google exactement où et quel contenu vidéo se trouve sur un site. Les vidéos peuvent donc faire l’objet de recherches complètes sur Google. Par exemple, un plan de site vidéo peut préciser le temps d’exécution et la catégorie. Pour plus d’informations sur les plans de site vidéo, voir [Cartes de site vidéo et alternatives de plan de site vidéo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
-* **Flux mRSS (Media Really Simple Syndication)**: utilisé par les éditeurs de contenu pour alimenter des fichiers multimédia dans Yahoo! Video Search. Pour plus d’informations sur les flux mRSS, voir [Cartes de site vidéo et alternatives de plans de site vidéo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **Flux mRSS (Media Really Simple Syndication)** : utilisé par les éditeurs de contenu pour alimenter des fichiers multimédia dans Yahoo! Video Search. Pour plus d’informations sur les flux mRSS, voir [ plans de site vidéo et alternatives de plan de site vidéo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
 >[!NOTE]
 >
@@ -45,37 +45,37 @@ Adobe Dynamic Media Classic crée des rapports sur les plans de site vidéo et l
 
 ## Sélection des paramètres d’optimisation du référencement vidéo
 
-Sélectionnez les paramètres d’optimisation du référencement vidéo pour les plans de site vidéo et les flux mRSS dans le **[!UICONTROL Paramètres d’optimisation du moteur de recherche vidéo]** page. Pour ouvrir cette page, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL SEO vidéo]** > **[!UICONTROL Paramètres]**.
+Sélectionnez les paramètres d’optimisation du référencement vidéo pour les plans de site vidéo et les flux mRSS sur la page **[!UICONTROL Paramètres d’optimisation du moteur de recherche vidéo]** . Pour ouvrir cette page, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Éditeur de référencement vidéo]** > **[!UICONTROL Paramètres]**.
 
-Dans le **[!UICONTROL Paramètre général]** , choisissez de générer des plans de site vidéo, des flux mRSS ou les deux. Dans le **[!UICONTROL Paramètres de génération]** zone, mappez les champs de métadonnées aux champs de saisie.
+Dans la zone **[!UICONTROL Paramètre général]**, choisissez de générer des plans de site vidéo, des flux mRSS ou les deux. Dans la zone **[!UICONTROL Paramètres de génération]**, mappez les champs de métadonnées aux champs d’entrée.
 
-Après avoir choisi les paramètres, sélectionnez **[!UICONTROL Enregistrer]** (ou **[!UICONTROL Enregistrer et générer]**) pour créer le plan de site vidéo, les flux mRSS ou les deux.
+Après avoir choisi les paramètres, sélectionnez **[!UICONTROL Enregistrer]** (ou **[!UICONTROL Enregistrer et générer]**) pour créer le plan de site vidéo, les flux mRSS, ou les deux.
 
 ### Configuration des paramètres généraux {#choosing-general-settings}
 
-Sur le **[!UICONTROL Mode de génération]** , choisissez un mode de rapport :
+Dans la liste déroulante **[!UICONTROL Mode de génération]**, choisissez un mode de rapport :
 
-* **Plan du site vidéo**: créez un plan de site vidéo.
+* **Plan de site vidéo** : créez un plan de site vidéo.
 
-* **Flux mRSS**: créez un flux Media RSS (mRSS).
+* **Flux mRSS** : créez un flux Media RSS (mRSS).
 
-* **Les deux**: créez les deux types de fichiers XML.
+* **Les deux** : créez les deux types de fichiers XML.
 
-* **Off**: pour arrêter de générer des plans de site vidéo et des flux Media RSS (mRSS), sélectionnez cette option.
+* **Désactivé** : pour arrêter de générer des plans de site vidéo et des flux Media RSS (mRSS), sélectionnez cette option.
 
-Sur le **[!UICONTROL Mode automatique/manuel]** , choisissez de générer automatiquement ou manuellement la liste déroulante :
+Dans la liste déroulante **[!UICONTROL Mode automatique/manuel]**, choisissez de générer automatiquement ou manuellement :
 
-* **Mode automatique**: Adobe Dynamic Media Classic génère automatiquement un plan de site vidéo, un flux Media RSS (mRSS), ou les deux, chaque jour. Sélectionnez la variable **[!UICONTROL Marquer pour publication]** pour que vous puissiez marquer automatiquement pour publication le fichier XML généré par Adobe Dynamic Media Classic.
+* **Mode automatique** : Adobe Dynamic Media Classic génère automatiquement un plan de site vidéo, un flux Media RSS (mRSS), ou les deux, chaque jour. Sélectionnez l’option **[!UICONTROL Marquer pour Publish]** afin que vous puissiez marquer automatiquement pour publication le fichier XML généré par Adobe Dynamic Media Classic.
 
-   * **Marquer pour publication** Marque pour publication le fichier XML généré.
+   * **Marquer pour Publish** Marque pour publier le fichier XML généré.
 
-* **Mode manuel**: Adobe Dynamic Media Classic génère le plan de site vidéo, le flux Media RSS (mRSS), ou les deux, lorsque vous sélectionnez **[!UICONTROL Générer]** ou **[!UICONTROL Enregistrer et générer]** dans l’écran Paramètres d’optimisation de la recherche vidéo. Sélectionnez également ces options :
+* **Mode manuel** : Adobe Dynamic Media Classic génère le plan de site vidéo, le flux Media RSS (mRSS), ou les deux, lorsque vous sélectionnez **[!UICONTROL Générer]** ou **[!UICONTROL Enregistrer et générer]** dans l’écran Paramètres d’optimisation de la recherche vidéo. Sélectionnez également ces options :
 
-   * **Aucun autre paramètre**: ne marque pas pour publication le fichier XML généré.
+   * **Aucun autre paramètre** : ne marque pas pour publication le fichier XML généré.
 
-   * **Marquer pour publication**: indique pour publication le fichier XML généré.
+   * **Marquer pour Publish** : Marque pour publier le fichier XML généré.
 
-   * **Autoriser la génération partielle**: les moteurs de recherche peuvent rejeter un fichier XML s’il ne contient pas d’informations de métadonnées complètes pour toutes les vidéos. Cette option génère le fichier XML même si les métadonnées ne sont pas disponibles pour certaines vidéos. Un avertissement est enregistré dans l’écran de rapport. Sélectionnez cette option si vous essayez d’exporter le fichier XML et complétez les informations manquantes manuellement.
+   * **Autoriser la génération partielle** : les moteurs de recherche peuvent rejeter un fichier XML s’il ne contient pas d’informations de métadonnées complètes pour toutes les vidéos. Cette option génère le fichier XML même si les métadonnées ne sont pas disponibles pour certaines vidéos. Un avertissement est enregistré dans l’écran de rapport. Sélectionnez cette option si vous essayez d’exporter le fichier XML et complétez les informations manquantes manuellement.
 
 ### Choix des paramètres de génération {#choosing-generation-settings}
 
@@ -91,14 +91,14 @@ Voir [Vues des métadonnées](application-setup.md#metadata_views).
 
 1. Effectuez l’une des opérations suivantes :
 
-   * Pour enregistrer vos paramètres sans générer de fichier XML, sélectionnez **[!UICONTROL Enregistrer]**.
-   * Pour enregistrer et générer le fichier, sélectionnez **[!UICONTROL Enregistrer et générer]**.
+   * Pour enregistrer vos paramètres sans générer le fichier XML, sélectionnez **[!UICONTROL Enregistrer]**.
+   * Pour enregistrer et générer le fichier, sélectionnez **[!UICONTROL Save &amp; Generate]**.
 
      Le fichier XML est généré et enregistré dans le journal de la tâche. Les fichiers de plan de site vidéo (plan de site-vidéo) et de flux Media RSS (mRSS) sont enregistrés dans le dossier racine de votre entreprise.
 
 >[!NOTE]
 >
->Publiez le plan de site vidéo ou le flux mRSS avant de l’envoyer aux moteurs de recherche. Les fichiers de plan de site vidéo et de flux Media RSS (mRSS) sont stockés dans le dossier racine de l’entreprise. Si nécessaire, marquez ces fichiers XML pour publication, puis sélectionnez **[!UICONTROL Publier]**.
+>Publish le plan de site vidéo ou le flux mRSS avant de l’envoyer aux moteurs de recherche. Les fichiers de plan de site vidéo et de flux Media RSS (mRSS) sont stockés dans le dossier racine de l’entreprise. Marquez ces fichiers XML pour publication, si nécessaire, et sélectionnez **[!UICONTROL Publish]**.
 
 ## Envoyer des fichiers plan de site vidéo et flux mRSS à un moteur de recherche {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
@@ -111,6 +111,6 @@ Copiez l’une de ces URL dans les outils webmaster du moteur de recherche pour 
 
 ## Affichage des rapports d’optimisation du référencement vidéo {#viewing-video-seo-reports}
 
-Affichez les rapports d’optimisation du référencement vidéo sur la page Rapport d’optimisation du moteur de recherche vidéo. Pour ouvrir cette page, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL SEO vidéo]** > **[!UICONTROL Rapports]**.
+Affichez les rapports d’optimisation du référencement vidéo sur la page Rapport d’optimisation du moteur de recherche vidéo. Pour ouvrir cette page, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Économie de l’information sur les vidéos]** > **[!UICONTROL Rapports]**.
 
 Si des erreurs se sont produites lors de la génération d’un rapport, elles sont répertoriées sur la page Rapport .

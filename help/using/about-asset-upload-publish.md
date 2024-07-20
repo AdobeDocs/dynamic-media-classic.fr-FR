@@ -24,7 +24,7 @@ Votre travail dans Adobe Dynamic Media Classic repose sur trois éléments de ba
 * la gestion de vos fichiers de manière à pouvoir les utiliser pour créer des fichiers de média enrichi ;
 * Publier vos fichiers de ressources sur un serveur Dynamic Media Classic afin qu’ils puissent être diffusés sur votre site web et dans votre application.
 
-Lorsque vous téléchargez des fichiers de ressources vers Adobe Dynamic Media Classic et que vous publiez des fichiers de ressources sur les serveurs Adobe Dynamic Media Classic, le système enregistre ces transferts de fichiers sur la page **[!UICONTROL Tâches]** page. Vous pouvez accéder à cette page pour suivre et surveiller vos activités de téléchargement et de publication.
+Lorsque vous chargez des fichiers de ressources vers Adobe Dynamic Media Classic et que vous publiez des fichiers de ressources sur les serveurs Adobe Dynamic Media Classic, le système enregistre ces transferts de fichiers sur la page **[!UICONTROL Tâches]**. Vous pouvez accéder à cette page pour suivre et surveiller vos activités de téléchargement et de publication.
 
 >[!NOTE]
 >

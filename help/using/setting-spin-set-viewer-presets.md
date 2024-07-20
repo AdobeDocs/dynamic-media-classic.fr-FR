@@ -23,20 +23,20 @@ Les paramètres prédéfinis de la visionneuse à 360° définissent le style, l
 
 **Pour créer un paramètre prédéfini de visionneuse à 360° :**
 
-1. Dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
+1. Sur la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 1. Effectuez l’une des opérations suivantes :
 
    * Pour créer un paramètre prédéfini, sélectionnez **[!UICONTROL Ajouter]**, puis, dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plateforme, puis sélectionnez **[!UICONTROL Visionneuse à 360°]**.
    * Pour modifier un paramètre prédéfini de visionneuse à 360° existant, sélectionnez le paramètre prédéfini, puis sélectionnez **[!UICONTROL Modifier]**.
 
-1. Sur le `Configure Viewer` , saisissez un nom dans la zone Nom du paramètre prédéfini pour le paramètre prédéfini de visionneuse à 360°.
-1. Spécifiez les autres options voulues. Pour afficher une description d’une option, sélectionnez l’option **[!UICONTROL Conseil d’informations]** en regard de l’option .
+1. Sur la page `Configure Viewer`, saisissez un nom dans la zone Nom du paramètre prédéfini pour le paramètre prédéfini de visionneuse à 360°.
+1. Spécifiez les autres options voulues. Pour voir la description d’une option, sélectionnez l’icône **[!UICONTROL Conseil d’informations]** en regard de l’option.
 
    La page Aperçu affiche la visionneuse au fur et à mesure que vous mettez à jour et modifiez les paramètres.
 
-1. Sélectionner **[!UICONTROL Enregistrer]**.
+1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
-Sélectionner **[!UICONTROL Rendre par défaut]** pour définir le paramètre prédéfini de visionneuse à 360°, vous avez créé la valeur par défaut de l’entreprise pour l’affichage des visionneuses à 360°.
+Sélectionnez **[!UICONTROL Définir la valeur par défaut]** pour que le paramètre prédéfini de visionneuse à 360° que vous avez créé soit la valeur par défaut de l’entreprise pour l’affichage des visionneuses à 360°.
 
 Voir [Configuration des visionneuses par défaut](application-setup.md#configuring_default_viewers).
 

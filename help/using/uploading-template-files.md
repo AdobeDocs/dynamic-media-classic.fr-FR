@@ -27,14 +27,14 @@ Transférez les fichiers dont vous avez besoin pour votre modèle dans Adobe Dyn
 
 Les modèles peuvent être créés à partir de fichiers Adobe Photoshop PSD ou de fichiers d’images. 
 
-Pour obtenir des instructions détaillées sur le téléchargement de fichiers, voir [Chargement de fichiers](uploading-files.md#uploading_files). Tenez compte des remarques suivantes lors du téléchargement de fichiers de modèle :
+Pour obtenir des instructions détaillées sur le téléchargement de fichiers, reportez-vous à la section [Téléchargement de fichiers](uploading-files.md#uploading_files). Tenez compte des remarques suivantes lors du téléchargement de fichiers de modèle :
 
-* Si vous téléchargez un fichier de PSD, vous pouvez en créer un modèle. Adobe Dynamic Media Classic crée une image distincte pour chaque calque du PSD. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Options Photoshop]**, puis sélectionnez **[!UICONTROL Conserver les calques]** et **[!UICONTROL Créer un modèle]**. Sélectionnez ensuite une option dans la liste **[!UICONTROL Nom de calque]** Liste déroulante pour nommer les images qu’Adobe Dynamic Media Classic crée à partir des calques du PSD.
+* Si vous téléchargez un fichier de PSD, vous pouvez en créer un modèle. Adobe Dynamic Media Classic crée une image distincte pour chaque calque du PSD. Dans la boîte de dialogue Télécharger les options de la tâche, sélectionnez **[!UICONTROL Options Photoshop]**, puis sélectionnez **[!UICONTROL Conserver les calques]** et **[!UICONTROL Créer un modèle]**. Sélectionnez ensuite une option dans la liste déroulante **[!UICONTROL Nom de calque]** pour nommer les images qu’Adobe Dynamic Media Classic crée à partir des calques du PSD.
 (voir [Options de téléchargement des fichiers PSD](psd-files.md#psd_upload_options)).
 <!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
 See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
 
 >[!MORELIKETHIS]
 >
->* [Chargement des fichiers](uploading-files.md#uploading_your_files)
+>* [Télécharger vos fichiers](uploading-files.md#uploading_your_files)
 >* [Utilisation de fichiers de PSD](psd-files.md#working_with_psd_files)

@@ -18,7 +18,7 @@ ht-degree: 33%
 
 # Supprimer un fichier téléchargé{#deleting-an-uploaded-asset}
 
-Vous pouvez utiliser la variable `delete` dans ce format pour supprimer une ressource :
+Vous pouvez utiliser le paramètre `delete` dans ce format pour supprimer une ressource :
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

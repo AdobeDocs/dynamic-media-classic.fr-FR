@@ -30,13 +30,13 @@ Vous pouvez déplacer des ressources vers différents dossiers dans le panneau P
 1. Sélectionnez la ou les ressources dans le panneau Parcourir , puis effectuez l’une des opérations suivantes :
 
    * Affichez le dossier vers lequel vous souhaitez déplacer les ressources dans la bibliothèque de ressources et faites-le glisser vers le dossier.
-   * Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Déplacer]**, sélectionnez un dossier dans la fenêtre Déplacer les ressources , puis sélectionnez **[!UICONTROL Déplacer]**.
+   * Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Déplacer]**, sélectionnez un dossier dans la fenêtre Déplacer l’Assets, puis sélectionnez **[!UICONTROL Déplacer]**.
 
 ## Attribution d’un nouveau nom à un fichier {#rename-assets}
 
 1. Sélectionnez la ressource dans le panneau Parcourir , puis effectuez l’une des opérations suivantes :
 
-   * Sélectionnez le nom, saisissez un nouveau nom, puis appuyez sur **[!UICONTROL Entrée]** ou sélectionnez l’option en dehors du nom.
+   * Sélectionnez le nom, saisissez un nouveau nom, puis appuyez sur **[!UICONTROL Entrée]** ou sélectionnez un nom différent.
    * Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Renommer]**. Le nom du fichier est mis en surbrillance. Saisissez un nouveau nom et appuyez sur **[!UICONTROL Entrée]**. Veillez à ne pas saisir le nom d’une ressource Adobe Dynamic Media Classic existante.
 
 ## Suppression de fichiers {#delete-assets}
@@ -70,14 +70,14 @@ Créez la liste des Adobe Dynamic Media Classic ID et enregistrez-la sous la for
 
 Pour supprimer des fichiers à l’aide de cette liste créée, procédez comme suit :
 
-1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer la liste des ressources]**.
-1. Dans le **[!UICONTROL Liste des ressources supprimées]** , saisissez le chemin d’accès au fichier texte avec la liste des ressources à supprimer.
-1. Sélectionner **[!UICONTROL Supprimer]**.
+1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer la liste de ressources]**.
+1. Dans la boîte de dialogue **[!UICONTROL Liste des ressources supprimées]**, saisissez le chemin d’accès au fichier texte avec la liste des ressources à supprimer.
+1. Sélectionnez **[!UICONTROL Supprimer]**.
 
 Lorsque vous supprimez des ressources avec un fichier texte, si un Adobe Dynamic Media Classic ID ne figure pas dans la liste, le message &quot;Impossible de valider ces entrées dans votre liste :&quot; s’affiche. La liste des entrées s&#39;affiche également. Cependant, Adobe Dynamic Media Classic ne génère pas d’erreur sur la page Tâche.
 
 >[!MORELIKETHIS]
 >
->* [Sélection de ressources dans le panneau Parcourir](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [Préparation du chargement des ressources et des dossiers](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
->* [Restauration des ressources à partir du dossier Corbeille](trash-folder.md#restoring_assets_from_the_trash_folder)
+>* [Sélectionner des ressources dans le panneau de navigation](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
+>* [Préparer vos ressources et dossiers pour le chargement](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
+>* [Restaurer des ressources à partir du dossier Corbeille](trash-folder.md#restoring_assets_from_the_trash_folder)

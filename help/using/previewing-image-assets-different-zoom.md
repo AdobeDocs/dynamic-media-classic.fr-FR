@@ -31,15 +31,15 @@ Voir [Aperçu d’une ressource](previewing-asset.md#previewing_an_asset).
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient les images à prévisualiser via la visionneuse de zoom.
 1. Effectuez l’une des opérations suivantes :
 
-   * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage de la grille]**. Dans la fenêtre Ressource, sous la miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
-   * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Mode Liste]**. Dans la fenêtre Ressource , sélectionnez une ressource, puis, à droite de l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
-   * Au-dessus de la fenêtre Ressources, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Au-dessus de la fenêtre Assets, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage de la grille]**. Dans la fenêtre Ressource, sous l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Au-dessus de la fenêtre Assets, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Mode Liste]**. Dans la fenêtre Ressource, sélectionnez une ressource, puis à droite de l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Au-dessus de la fenêtre Assets, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
 1. Dans le tableau de la fenêtre Liste des visionneuses, sélectionnez un lien de visionneuse pour prévisualiser la ressource dans la visionneuse sélectionnée.
 1. Fermez la visionneuse affichée.
-1. Dans le coin inférieur droit de la fenêtre Liste des visionneuses, sélectionnez **[!UICONTROL Fermer]** pour revenir à l’écran Ressources.
+1. Dans le coin inférieur droit de la fenêtre Liste des visionneuses, sélectionnez **[!UICONTROL Fermer]** pour revenir à l’écran Assets.
 
 >[!MORELIKETHIS]
 >
->* [Configuration des paramètres prédéfinis de la visionneuse de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
+>* [ Configuration des paramètres prédéfinis de la visionneuse de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
 >* [Configuration des visionneuses par défaut](application-setup.md#configuring_default_viewers)

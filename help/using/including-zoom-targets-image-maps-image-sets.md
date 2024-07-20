@@ -25,5 +25,5 @@ Si vous souhaitez que les cibles de zoom et les zones cliquables soient disponib
 
 >[!MORELIKETHIS]
 >
->* [Création de cibles de zoom pour un zoom guidé](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
->* [Création de zones cliquables](creating-image-maps.md#creating_image_maps)
+>* [Créer des cibles de zoom pour un zoom guidé](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
+>* [Créer des zones cliquables](creating-image-maps.md#creating_image_maps)

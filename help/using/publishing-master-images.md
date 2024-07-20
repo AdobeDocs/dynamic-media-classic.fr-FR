@@ -1,5 +1,5 @@
 ---
-title: Publication des images principales
+title: Images principales Publish
 description: Découvrez comment publier des images principales à partir d’Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,19 +17,19 @@ ht-degree: 6%
 
 ---
 
-# Publication des images principales{#publishing-master-images}
+# Images principales Publish{#publishing-master-images}
 
 Lorsque vous publiez vos fichiers image, ils sont publiés sur les serveurs d’images Dynamic Media, où ils sont disponibles pour votre site Web et votre application. En outre, pendant le processus de publication, Adobe Dynamic Media Classic active les chaînes URL dont vous avez besoin pour votre site Web et votre application.
 
 ## Marquer les images principales pour publication {#marking-master-images-for-publish}
 
-Les images de Principal doivent être marquées pour publication afin d’être copiées vers les serveurs d’images Dynamic Media. Vous pouvez marquer vos images principales pour publication dans le panneau Parcourir en sélectionnant l’option **[!UICONTROL Marquer pour publication]** Icône Vous pouvez également marquer les images à des fins de publication lorsque vous les chargez dans Adobe Dynamic Media Classic.
+Les images de Principal doivent être marquées pour publication afin d’être copiées vers les serveurs d’images Dynamic Media. Vous pouvez marquer vos images principales pour publication dans le panneau Parcourir en sélectionnant l’icône **[!UICONTROL Marquer pour Publish]** . Vous pouvez également marquer les images à des fins de publication lorsque vous les chargez dans Adobe Dynamic Media Classic.
 
-## Publier vos images principales {#publishing-your-master-images}
+## Publish de vos images principales {#publishing-your-master-images}
 
-1. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publier]**. Dans la boîte de dialogue Publication, sélectionnez une option Lorsque (**[!UICONTROL Unique]** ou **[!UICONTROL Récurrente]**), puis éventuellement saisir un nom pour la tâche de publication.
+1. Dans la barre de navigation globale, sélectionnez **[!UICONTROL Publish]**. Dans la boîte de dialogue Publication, sélectionnez une option Lorsque (**[!UICONTROL Unique]** ou **[!UICONTROL Récurrent]**), puis saisissez éventuellement un nom pour la tâche de publication.
 
-1. Sélectionner **[!UICONTROL Envoyer la publication]**.
+1. Sélectionnez **[!UICONTROL Submit Publish]**.
 
 >[!NOTE]
 >
@@ -37,4 +37,4 @@ Les images de Principal doivent être marquées pour publication afin d’être 
 
 >[!MORELIKETHIS]
 >
->* [Publication de fichiers](publishing-files.md#publishing_files)
+>* [Fichiers Publish](publishing-files.md#publishing_files)

@@ -21,7 +21,7 @@ ht-degree: 14%
 
 Grâce à Adobe Medium Portal, les entreprises peuvent acquérir, contrôler et distribuer des ressources approuvées à des partenaires, des canaux et des utilisateurs internes externes. L’environnement &quot;libre-service&quot; basé sur un navigateur fournit aux utilisateurs du portail des &quot;vues&quot; contrôlées par l’administrateur dans les ressources Adobe Dynamic Media Classic pour un accès facile au chargement, à la navigation, à la recherche, à la prévisualisation et à l’exportation des ressources dans des formats approuvés par l’entreprise.
 
-Pour plus d’informations sur Media Portal, notamment sur la configuration requise, voir [Utilisation d’Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/en_US/scene7/mediaportal/). <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->
+Pour plus d’informations sur Media Portal, y compris sur la configuration requise, voir [Utilisation d’Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/en_US/scene7/mediaportal/). <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->
 
 Pour plus d’informations sur l’administration de Media Portal, voir [Démarrage rapide : Administration de Media Portal](quick-start-media-portal-administration.md#quick_start_media_portal_administration).
 

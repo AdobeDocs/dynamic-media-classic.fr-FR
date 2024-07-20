@@ -43,13 +43,13 @@ Voir [Rôles utilisateur du portail multimédia](media-portal-user-roles.md#medi
 
 Les groupes déterminent les dossiers et les fichiers auxquels l’utilisateur a accès, les opérations qu’il peut effectuer dans ceux-ci, ainsi que les paramètres d’image prédéfinis disponibles. En tant qu’administrateur, votre première tâche consiste à créer des groupes. Pour chaque groupe, décidez des dossiers, fichiers et paramètres d’image prédéfinis auxquels les membres du groupe pourront accéder. Accordez également aux membres du groupe les autorisations de lecture, d’écriture et de suppression adéquates. Ces autorisations déterminent si les membres du groupe sont habilités à parcourir, modifier, renommer et supprimer les dossiers et fichiers auxquels ils ont accès.
 
-Voir [Création et gestion des groupes Media Portal](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+Voir [Création et gestion des groupes du portail multimédia](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## 3. Ajout des utilisateurs
 
 Lorsque vous ajoutez un utilisateur, vous lui attribuez un rôle (utilisateur, contributeur ou contributeur-utilisateur). Vous pouvez également affecter l’utilisateur à un ou plusieurs groupes. Pour accélérer la procédure d’ajout, vous pouvez télécharger une liste d’utilisateurs enregistrée dans un fichier au format CSV. Les nouveaux utilisateurs reçoivent un message électronique de bienvenue accompagné d’instructions de connexion au portail multimédia.
 
-Voir [Ajout et gestion des utilisateurs de Media Portal](adding-media-portal-users.md#adding_and_managing_media_portal_users).
+Voir [Ajout et gestion des utilisateurs du portail multimédia](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## 4. Gestion des comptes FTP
 

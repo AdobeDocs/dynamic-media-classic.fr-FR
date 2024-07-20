@@ -25,8 +25,8 @@ Les services d’assistance technique sont conçus pour répondre aux besoins de
 | --- | --- |
 | Nombre de cas | Illimitées. |
 | Vérification de l’état du système d’Adobe | [État du système Adobe Dynamic Media Classic](https://status.adobe.com/products/1175). |
-| Vous ne trouvez pas de réponse ? | [Pour obtenir de l’aide auprès de l’assistance, ouvrez un ticket](https://experienceleague.adobe.com/?support-solution=General#support). |
-| Forum communautaire | [Forum de la communauté des Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
+| Vous ne trouvez pas de réponse ? | [Pour obtenir de l’aide de l’assistance, ouvrez un ticket](https://experienceleague.adobe.com/?support-solution=General#support). |
+| Forum communautaire | [Forum de la communauté Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
 | Contrats de niveau de service (SLA) | [Services d’assistance / Conditions générales](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | Utilisateurs pris en charge | Jusqu’à dix utilisateurs par organisation peuvent être désignés comme des utilisateurs pris en charge, qui peuvent ouvrir des dossiers auprès de l’assistance clientèle. |
 | Vidéos de formation en ligne et de formation gratuites | Inclus. |

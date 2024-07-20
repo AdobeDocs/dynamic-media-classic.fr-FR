@@ -24,4 +24,4 @@ ht-degree: 3%
 1. Désactivez tous les événements sur la page de configuration d’Adobe Analytics dans Adobe Dynamic Media Classic.
 1. Enregistrez et publiez.
 
-Ces étapes désactivent la prise en charge d’Adobe Dynamic Media Classic et des URL obtenues à partir du **[!UICONTROL CopyURL]** fonction . Si vous implémentez le suivi personnalisé, désactivez le suivi Adobe Analytics comme configuré dans la page Configuration afin d’éviter tout conflit avec l’implémentation personnalisée.
+Ces étapes désactivent la prise en charge d’Adobe Dynamic Media Classic et des URL obtenues à partir de la fonctionnalité **[!UICONTROL CopyURL]**. Si vous implémentez le suivi personnalisé, désactivez le suivi Adobe Analytics comme configuré dans la page Configuration afin d’éviter tout conflit avec l’implémentation personnalisée.

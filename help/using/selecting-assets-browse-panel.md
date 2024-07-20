@@ -21,10 +21,10 @@ ht-degree: 18%
 
 Sélectionnez une ressource dans le panneau Parcourir pour pouvoir l’utiliser. Utilisez les techniques suivantes pour sélectionner des fichiers :
 
-* **Une seule ressource**: sélectionnez la ressource (un double-clic l’ouvre dans l’affichage des détails).
+* **Une seule ressource** : sélectionnez la ressource (un double-clic l’ouvre dans l’affichage des détails).
 
-* **Plusieurs ressources**: maintenez la touche Ctrl (Windows®) ou Commande (Mac) enfoncée et cliquez sur les ressources pour les sélectionner à différents emplacements du panneau Parcourir. Tout en maintenant la touche Maj enfoncée, cliquez (cliquez sur un fichier, puis cliquez sur un autre fichier avec la touche Maj enfoncée) sur des fichiers adjacents pour les sélectionner.
+* **Plusieurs ressources** : Ctrl+clic (Windows®) ou Commande+clic (Mac) pour sélectionner des ressources à différents endroits du panneau Parcourir. Tout en maintenant la touche Maj enfoncée, cliquez (cliquez sur un fichier, puis cliquez sur un autre fichier avec la touche Maj enfoncée) sur des fichiers adjacents pour les sélectionner.
 
-* **Toutes les ressources du panneau Parcourir**: accédez à **[!UICONTROL Sélectionner]** > **[!UICONTROL Tous]**.
+* **Toutes les ressources du panneau de navigation** : accédez à **[!UICONTROL Sélectionner]** > **[!UICONTROL Toutes]**.
 
-* **Pas de ressources**: accédez à **[!UICONTROL Sélectionner]** > **[!UICONTROL Aucun]**.
+* **Aucun actif** : accédez à **[!UICONTROL Sélectionner]** > **[!UICONTROL Aucun]**.

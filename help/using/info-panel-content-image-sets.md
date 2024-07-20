@@ -34,10 +34,10 @@ Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pou
 **Pour configurer un modèle de réponse pour les visionneuses d’images :**
 
 1. Double-cliquez sur la visionneuse d’images pour l’ouvrir en mode Affichage des détails.
-1. Sélectionner **[!UICONTROL Configuration du panneau d’informations]**.
+1. Sélectionnez **[!UICONTROL Configuration du panneau d’informations]**.
 1. Dans la liste déroulante Modèle de réponse, procédez de l’une des façons suivantes :
 
-   * Pour utiliser la réponse par défaut, sélectionnez **[!UICONTROL Par défaut]**. Le code XML de la conception du modèle s’affiche, grisé, dans la zone de texte Modèle utilisateur.
+   * Pour utiliser la réponse par défaut, sélectionnez **[!UICONTROL Default]**. Le code XML de la conception du modèle s’affiche, grisé, dans la zone de texte Modèle utilisateur.
    * Pour créer votre propre modèle de réponse, sélectionnez **[!UICONTROL Personnalisé]**. Dans la zone de texte Modèle utilisateur, entrez la définition du modèle XML. Vous pouvez utiliser le modèle par défaut qui est déjà défini dans la zone de texte comme base pour votre propre réponse.
 
 1. (Facultatif) Dans la zone Réponse par défaut, saisissez le texte que vous souhaitez afficher si Adobe Dynamic Media Classic rencontre une erreur lors de la récupération des informations d’une zone cliquable. Par exemple, si le système reçoit un nom d’entreprise et un nom de visionneuse d’image, mais pas d’identificateur de survol, ce message est affiché à l’intention de l’utilisateur.
@@ -46,12 +46,12 @@ Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pou
    * Optez pour une valeur faible si de nombreuses mises à jour des données sont effectuées quotidiennement.
    * Optez pour une valeur élevée si les données sont relativement stables et ne nécessitent pas de mises à jour fréquentes. La valeur par défaut est de 10 heures.
 
-1. Sélectionner **[!UICONTROL Télécharger]** pour charger le contenu du panneau d’informations, en fonction de la valeur rollover_key, dans s7info.
+1. Sélectionnez **[!UICONTROL Upload]** pour charger le contenu du panneau d’informations, en fonction de la valeur rollover_key, dans s7info.
 1. Dans la boîte de dialogue S7Info Upload, accédez au fichier que vous souhaitez utiliser, puis sélectionnez **[!UICONTROL Télécharger]**.
 
    Les formats de fichiers pris en charge sont des fichiers délimités par des tabulations avec codage UTF-16 et des fichiers CSV avec codage ASCII. Pour les fichiers CSV, les caractères non ASCII doivent être encodés au format HTML.
 
-1. Dans le panneau Configuration du panneau d’informations, sélectionnez **[!UICONTROL Publier]**.
+1. Dans le panneau Configuration du panneau d’informations, sélectionnez **[!UICONTROL Publish]**.
 
 ## Importation du contenu source pour le panneau Informations dans les visionneuses d’images {#import-source-content-for-the-info-panel-in-image-sets}
 
@@ -66,10 +66,10 @@ Lorsque vous effectuez la mise en forme du contenu source, n’oubliez pas les p
 ### Importation de contenu CSV dans les visionneuses d’images à partir d’un emplacement hébergé en externe {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Double-cliquez sur la visionneuse d’images pour l’ouvrir en mode Affichage des détails.
-1. Sélectionner **[!UICONTROL Flux de données InfoPanel]**.
+1. Sélectionnez **[!UICONTROL Flux de données InfoPanel]**.
 1. Dans le champ de l’emplacement du fichier CSV hébergé en externe (HTTP), entrez l’URL du fichier CSV.
-1. (Facultatif) Dans le champ Mise à jour du planning , indiquez l’heure de mise à jour du contenu, puis sélectionnez **[!UICONTROL Ajouter]**.
+1. (Facultatif) Dans le champ Mise à jour de la planification , indiquez l’heure de mise à jour du contenu, puis sélectionnez **[!UICONTROL Ajouter]**.
 
    Vous pouvez sélectionner plusieurs heures. Chaque heure de mise à jour apparaît dans la zone Mettre à jour les durées. Pour supprimer une heure planifiée, sélectionnez-la, puis sélectionnez **[!UICONTROL Supprimer]**.
 
-1. (Facultatif) Sélectionnez **[!UICONTROL Exécuter la mise à jour]** afin que vous puissiez mettre à jour immédiatement le contenu.
+1. (Facultatif) Sélectionnez **[!UICONTROL Exécuter la mise à jour]** afin que vous puissiez mettre immédiatement à jour le contenu.

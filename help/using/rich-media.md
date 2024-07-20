@@ -21,29 +21,29 @@ ht-degree: 16%
 
 Adobe Dynamic Media Classic propose de nombreux outils pour créer des médias riches. Les types de média enrichi suivants sont disponibles à la création :
 
-* **Catalogues électroniques**: présente une version web interactive et compatible avec les recherches de votre catalogue ou de tout autre document imprimé. Créez des zones cliquables (appelées zones cliquables) qui affichent du contenu de survol et permettent aux clients de tourner des pages, de zoomer, de faire un panoramique et de joindre des pense-bêtes aux pages.
+* **Catalogues électroniques** : présente une version web interactive et compatible avec la recherche de votre catalogue ou de tout autre document imprimé. Créez des zones cliquables (appelées zones cliquables) qui affichent du contenu de survol et permettent aux clients de tourner des pages, de zoomer, de faire un panoramique et de joindre des pense-bêtes aux pages.
 (voir [Démarrage rapide : Catalogues électroniques](/help/using/quick-start-ecatalog.md)).
 
-* **eVideo**: diffuser des expériences vidéo de haute qualité sur plusieurs écrans, y compris des ordinateurs de bureau, des appareils mobiles et des tablettes. Utilisez des paramètres prédéfinis de codage Adobe Dynamic Media Classic prédéfinis ou personnalisez le codage pour contrôler la qualité et la taille de la vidéo. Organisez, parcourez et recherchez des vidéos avec une prise en charge complète des métadonnées pour une gestion efficace des ressources vidéo.
-Voir [Démarrage rapide : Vidéo dans Adobe Dynamic Media Classic](/help/using/quick-start-video.md).
+* **eVideo** : diffuser des expériences vidéo de haute qualité sur plusieurs écrans, y compris des ordinateurs de bureau, des appareils mobiles et des tablettes. Utilisez des paramètres prédéfinis de codage Adobe Dynamic Media Classic prédéfinis ou personnalisez le codage pour contrôler la qualité et la taille de la vidéo. Organisez, parcourez et recherchez des vidéos avec une prise en charge complète des métadonnées pour une gestion efficace des ressources vidéo.
+Voir [Démarrage rapide : vidéo dans Adobe Dynamic Media Classic](/help/using/quick-start-video.md).
 
-* **Zones cliquables**: diffuse dynamiquement des images à n’importe quelle taille et format sur votre site Web. Au lieu de créer manuellement de nombreuses images de tailles différentes, vous ne devez utiliser qu’une seule image principale. Lorsqu’Adobe Dynamic Media Classic diffuse l’image demandée, elle l’optimise pour obtenir des résultats de qualité optimale en termes de taille, format, poids, qualité et accentuation.
+* **Cartes d’images** : diffusez dynamiquement des images à n’importe quelle taille et format sur l’ensemble de votre site Web. Au lieu de créer manuellement de nombreuses images de tailles différentes, vous ne devez utiliser qu’une seule image principale. Lorsqu’Adobe Dynamic Media Classic diffuse l’image demandée, elle l’optimise pour obtenir des résultats de qualité optimale en termes de taille, format, poids, qualité et accentuation.
 (voir [Démarrage rapide : Dimensionnement des images](/help/using/quick-start-image-sizing.md)).
 
-* **Visionneuses d’images**: proposez une expérience d’achat interactive dans laquelle les utilisateurs peuvent afficher les produits dans plusieurs vues. Vous pouvez combiner un zoom, plusieurs vues et des échantillons de couleurs pour une expérience de visionnage intégrée.
+* **Visionneuses d’images** : proposez une expérience d’achat interactive dans laquelle les utilisateurs peuvent afficher les produits en plusieurs vues. Vous pouvez combiner un zoom, plusieurs vues et des échantillons de couleurs pour une expérience de visionnage intégrée.
 (voir [Démarrage rapide : Visionneuses d’images](/help/using/quick-start-image-sets.md)).
 
-* **Visionneuses de médias mixtes**: proposez un mélange de visionneuses d’images, de visionneuses à 360°, d’échantillons, de cibles de zoom, de vidéos et d’audio dans une seule présentation. Vous pouvez configurer des visionneuses de supports variés avec des onglets afin d’isoler la vidéo des images. Vous pouvez également spécifier où et comment afficher les échantillons et les cibles de zoom et donner aux utilisateurs une vue multimédia complète de vos produits ou services.
+* **Visionneuses de médias mixtes** : proposez un mélange de visionneuses d’images, de visionneuses à 360°, d’échantillons, de cibles de zoom, de vidéos et d’audio dans une seule présentation. Vous pouvez configurer des visionneuses de supports variés avec des onglets afin d’isoler la vidéo des images. Vous pouvez également spécifier où et comment afficher les échantillons et les cibles de zoom et donner aux utilisateurs une vue multimédia complète de vos produits ou services.
 (voir [Démarrage rapide : Visionneuses de supports variés](/help/using/quick-start-mixed-media-sets.md)).
 
-* **Visionneuses à 360°**: séquencez les images pour les faire pivoter horizontalement. Les visionneuses à 360° permettent aux visiteurs du site web de transformer des produits et de les afficher de différents côtés. Vous pouvez créer des visionneuses à 360° unidimensionnelles et bidimensionnelles.
+* **Visionneuses à 360°** : séquencez les images pour les faire pivoter horizontalement. Les visionneuses à 360° permettent aux visiteurs du site web de transformer des produits et de les afficher de différents côtés. Vous pouvez créer des visionneuses à 360° unidimensionnelles et bidimensionnelles.
 (voir [Démarrage rapide : Visionneuses à 360°](/help/using/quick-start-spin-sets.md)).
 
-* **Séries d’échantillons**: proposez une expérience d’achat interactive dans laquelle les utilisateurs peuvent afficher les produits avec différentes couleurs et différents motifs. Vous pouvez combiner un zoom, plusieurs vues et des échantillons de couleurs pour une expérience de visionnage intégrée.
-Voir [Démarrage rapide : séries d’échantillons](/help/using/quick-start-swatch-sets.md).
+* **Série d’échantillons** : offre une expérience d’achat interactive dans laquelle les utilisateurs peuvent afficher les produits avec différentes couleurs et différents motifs. Vous pouvez combiner un zoom, plusieurs vues et des échantillons de couleurs pour une expérience de visionnage intégrée.
+Voir [Démarrage rapide : Séries d’échantillons](/help/using/quick-start-swatch-sets.md).
 
-* **Concepts de base des modèles**: créez des modèles pilotés par les données qui combinent des polices, des images et des graphiques pour les monogrammes, la personnalisation en ligne et les promotions. Par exemple, superposez des graphiques promotionnels sur les images de produit ou placez le nom des clients sur des T-shirts ou des tasses. Les clients peuvent voir leur nom dans des emails ou des brochures imprimées que vous leur envoyez.
+* **Concepts de base des modèles** : créez des modèles pilotés par les données qui combinent des polices, des images et des graphiques pour la création de monogrammes, la personnalisation en ligne et les promotions. Par exemple, superposez des graphiques promotionnels sur les images de produit ou placez le nom des clients sur des T-shirts ou des tasses. Les clients peuvent voir leur nom dans des emails ou des brochures imprimées que vous leur envoyez.
 (voir [Démarrage rapide : Concepts de base des modèles](/help/using/quick-start-template-basics.md)).
 
-* **Cibles de zoom**: permet aux clients d’effectuer un zoom avant, un zoom arrière et un panoramique sur les images à l’aide des visionneuses configurables fournies avec Adobe Dynamic Media Classic. Les clients peuvent afficher rapidement et de manière interactive les détails d’un produit haute résolution.
+* **Cibles de zoom** : permet aux clients d’effectuer un zoom avant, un zoom arrière et un panoramique sur les images à l’aide des visionneuses configurables fournies avec Adobe Dynamic Media Classic. Les clients peuvent afficher rapidement et de manière interactive les détails d’un produit haute résolution.
 (voir [Démarrage rapide : Zoom](/help/using/quick-start-zoom.md)).

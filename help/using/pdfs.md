@@ -37,13 +37,13 @@ Les options de téléchargement de fichiers de PDF sont disponibles sur la page 
 
 ### Options de traitement
 
-**[!UICONTROL Pixelliser]**: (par défaut) extrait les pages du fichier du PDF et convertit les graphiques vectoriels en images bitmap. Pour créer un catalogue électronique, sélectionnez cette option.
+**[!UICONTROL Pixelliser]** : (par défaut) Pixellise les pages du fichier du PDF et convertit les graphiques vectoriels en images bitmap. Pour créer un catalogue électronique, sélectionnez cette option.
 
-**[!UICONTROL Extraction de mots de recherche]**: extrait les mots du fichier du PDF afin que les mots-clés du fichier puissent être recherchés dans une visionneuse de catalogue électronique.
+**[!UICONTROL Extraire les mots de recherche]** : extrait les mots du fichier du PDF afin que les mots-clés du fichier puissent être recherchés dans une visionneuse de catalogue électronique.
 
-**[!UICONTROL Extraction de liens]**: extrait les liens des fichiers du PDF et les convertit en zones cliquables utilisées dans une visionneuse de catalogue électronique.
+**[!UICONTROL Extract Links]** : extrait les liens des fichiers du PDF et les convertit en zones cliquables utilisées dans une visionneuse de catalogue électronique.
 
-**[!UICONTROL Génération automatique d’un catalogue électronique avec un PDF de plusieurs pages]**: crée automatiquement un catalogue électronique à partir du fichier du PDF. Le catalogue électronique reprend le nom du fichier PDF que vous avez téléchargé (cette option n’est disponible que si vous pixellisez le fichier PDF au moment du téléchargement).
+**[!UICONTROL Générer automatiquement un catalogue électronique avec un PDF de plusieurs pages]** : crée automatiquement un catalogue électronique à partir du fichier du PDF. Le catalogue électronique reprend le nom du fichier PDF que vous avez téléchargé (cette option n’est disponible que si vous pixellisez le fichier PDF au moment du téléchargement).
 
 ### Résolution
 
@@ -53,21 +53,21 @@ Détermine le paramètre de résolution, qui définit le nombre de pixels affich
 
 Dans le menu Espace colorimétrique, choisissez un espace pour le fichier PDF. La plupart des fichiers PDF contiennent des images en couleurs RVB et CMJN. L’espace colorimétrique RVB est préférable pour un affichage à l’écran.
 
-* **[!UICONTROL Détecter automatiquement]**: conserve l’espace colorimétrique du fichier de PDF.
+* **[!UICONTROL Détecter automatiquement]** : conserve l’espace colorimétrique du fichier de PDF.
 
-* **[!UICONTROL Forcer comme RGB]**: convertit l’espace colorimétrique du RGB.
+* **[!UICONTROL Forcer comme RGB]** : convertit l’espace colorimétrique du RGB.
 
-* **[!UICONTROL Forcer comme CMJN]**: convertit l’espace colorimétrique CMJN.
+* **[!UICONTROL Forcer comme CMJN]** : convertit l’espace colorimétrique CMJN.
 
-* **[!UICONTROL Forcer comme Niveaux de gris]**: convertit l’espace colorimétrique Niveaux de gris.
+* **[!UICONTROL Forcer comme Niveaux de gris]** : convertit l’espace colorimétrique Niveaux de gris en Niveaux de gris.
 
 ### Options Profil de couleurs
 
-* **[!UICONTROL Convertir en sRVB]**: convertit en sRVB (rouge vert bleu standard). sRVB est l’espace colorimétrique recommandé pour l’affichage des images sur une page Web.
+* **[!UICONTROL Convert To sRGB]** : convertit en sRVB (Standard Red Green Blue). sRVB est l’espace colorimétrique recommandé pour l’affichage des images sur une page Web.
 
-* **[!UICONTROL Conserver l’espace colorimétrique original]**: conserve l’espace colorimétrique d’origine.
+* **[!UICONTROL Conserver l’espace colorimétrique d’origine]** : conserve l’espace colorimétrique d’origine.
 
-* **[!UICONTROL Personnalisé depuis]** > **[!UICONTROL À]**: ouvre les menus pour vous permettre de choisir un espace colorimétrique Convertir à partir de et Convertir en . Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez chargé dans Adobe Dynamic Media Classic.
+* **[!UICONTROL Personnalisé de]** > **[!UICONTROL À]** : ouvre les menus afin que vous puissiez choisir un espace colorimétrique Convertir à partir de et Convertir en. Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez chargé dans Adobe Dynamic Media Classic.
 
 (voir aussi [Profils ICC](/help/using/icc-profiles.md#icc_profiles)).
 
@@ -78,17 +78,17 @@ Vous pouvez recadrer automatiquement les pixels d’espace blanc d’un fichier 
 1. Sélectionnez le menu Recadrer et choisissez Rogner.
 1. Spécifiez les options suivantes :
 
-   * **[!UICONTROL Rogner en fonction de]**: choisissez si vous souhaitez recadrer en fonction de la couleur ou de la transparence :
+   * **[!UICONTROL Rogner en fonction de]** : choisissez si vous souhaitez recadrer en fonction de la couleur ou de la transparence :
 
-      * **[!UICONTROL Couleur]**: choisissez l’option Couleur . Sélectionnez ensuite le **[!UICONTROL Coin]** et choisissez l’angle du PDF avec la couleur qui représente le mieux l’espace blanc que vous souhaitez recadrer.
+      * **[!UICONTROL Color]** : choisissez l’option Color. Sélectionnez ensuite le menu **[!UICONTROL Coin]** et choisissez l’angle du PDF dont la couleur représente le mieux l’espace blanc à recadrer.
 
-      * **[!UICONTROL Transparence]**: sélectionnez l’option Transparence .
+      * **[!UICONTROL Transparence]** : sélectionnez l’option Transparence.
 
-   * **[!UICONTROL Tolérance]**: faites glisser le curseur pour spécifier une tolérance comprise entre 0 et 1.
+   * **[!UICONTROL Tolérance]** : faites glisser le curseur pour spécifier une tolérance comprise entre 0 et 1.
 
-   * **[!UICONTROL Rognage en fonction de la couleur]**: indiquez 0 pour rogner les pixels uniquement s’ils correspondent exactement à la couleur sélectionnée dans le coin du PDF. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs.
+   * **[!UICONTROL Rognage en fonction de la couleur]** : indiquez 0 pour rogner les pixels uniquement s’ils correspondent exactement à la couleur que vous avez sélectionnée dans le coin du PDF. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs.
 
-   * **[!UICONTROL Rognage en fonction de la transparence]**: indiquez 0 pour rogner les pixels uniquement s’ils sont transparents ; les nombres plus proches de 1 permettent une plus grande transparence.
+   * **[!UICONTROL Rognage en fonction de la transparence]** : spécifiez 0 pour rogner les pixels uniquement s’ils sont transparents ; les nombres plus proches de 1 permettent une plus grande transparence.
 
 ## Recadrage à partir des côtés des pages de PDF {#cropping-from-the-sides-of-pdf-pages}
 

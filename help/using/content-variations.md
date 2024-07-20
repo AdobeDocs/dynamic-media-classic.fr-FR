@@ -27,8 +27,8 @@ Les URL universelles sont utilisées pour afficher la variation de modèle qui s
 
 Vous pouvez utiliser n’importe quelle URL de paramètre d’image prédéfini dans la liste. Les URL des paramètres d’image prédéfinis sont comme des URL universelles. Il peut y avoir plusieurs URL de paramètre d’image prédéfini.
 
-1. Accédez à **[!UICONTROL Build]** > **[!UICONTROL Jeux de modèles]**.
-1. Dans le créateur, sélectionnez un modèle, puis sélectionnez **[!UICONTROL Ajouter/Prévisualiser]**.
+1. Accédez à **[!UICONTROL Build]** > **[!UICONTROL Template Sets]**.
+1. Dans le créateur, sélectionnez un modèle, puis sélectionnez **[!UICONTROL Ajouter/Aperçu]**.
 1. Modifiez les propriétés du modèle et sélectionnez **[!UICONTROL Enregistrer sous]** pour créer une autre version.
 1. Saisissez un nom, puis sélectionnez **[!UICONTROL Enregistrer]**.
 

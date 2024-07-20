@@ -32,6 +32,6 @@ Une fois qu’une modification a été apportée au client d’origine, tous les
 
 Lorsque vous vous êtes connecté, vous étiez invité à autoriser ou à refuser les mises à jour des pairs. Vous pouvez « mémoriser » votre choix afin que la question ne vous soit plus posée par la suite. Pour annuler votre choix, supprimez le site concerné dans le panneau Mise en réseau coopérative.
 
-Si vous modifiez une ressource modifiée par un pair, vous êtes invité à ingérer la modification dans le créateur ou l’éditeur. Si vous choisissez **[!UICONTROL Oui]**, puis le créateur ou l’éditeur ignore toutes les modifications apportées à la ressource et importe la ressource mise à jour. Si vous choisissez **[!UICONTROL Non]**, la ressource reste inchangée dans le créateur ou l’éditeur et toutes les modifications que vous avez apportées sont conservées au cours de cette session.
+Si vous modifiez une ressource modifiée par un pair, vous êtes invité à ingérer la modification dans le créateur ou l’éditeur. Si vous choisissez **[!UICONTROL Oui]**, le créateur ou l’éditeur ignore toutes les modifications apportées à la ressource et importe la ressource mise à jour. Si vous choisissez **[!UICONTROL Non]**, la ressource reste inchangée dans le créateur ou l’éditeur et toutes les modifications que vous avez apportées sont conservées au cours de cette session.
 
 Lorsque vous avez enregistré la ressource, vous avez été informé de l’existence d’une version plus récente et vous avez été invité à la remplacer par vos modifications.

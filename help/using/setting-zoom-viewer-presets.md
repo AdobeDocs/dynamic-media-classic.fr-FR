@@ -27,9 +27,9 @@ Toutes les visionneuses de zoom comportent des boutons permettant d’effectuer 
 
 Adobe Dynamic Media Classic propose ces paramètres prédéfinis de visionneuse de zoom :
 
-* **Visionneuse de zoom : de base**: fournit un zoom de base sur l’image d’origine.
+* **Visionneuse de zoom : de base** : fournit un zoom de base sur l’image d’origine.
 
-* **Visionneuse de zoom : fenêtre déroulante**: affiche une seconde image de la zone agrandie en regard de l’image d’origine. Aucune commande n’est disponible. Il suffit de déplacer la sélection sur la zone à visualiser.
+* **Visionneuse de zoom : fenêtre déroulante** : affiche une seconde image de la zone agrandie en regard de l’image d’origine. Aucune commande n’est disponible. Il suffit de déplacer la sélection sur la zone à visualiser.
 
 Pour déterminer la quantité totale de bande passante allouée à la visionneuse, n’oubliez pas que l’image principale et celle de la fenêtre déroulante sont toutes deux diffusées par la visionneuse. La taille de l’image déroulante est déterminée à l’aide de la taille de l’image principale (largeur et hauteur de l’état) et du facteur de zoom. Pour que la fenêtre déroulante ne devienne pas trop volumineuse, équilibrez ces deux valeurs : si la taille de l’image principale est importante, réduisez la valeur du facteur de zoom. (La Largeur de la fenêtre déroulante et la Hauteur de la fenêtre déroulante déterminent la taille de la fenêtre déroulante, mais pas la taille de l’image diffusée par la visionneuse.)
 
@@ -37,32 +37,32 @@ Par exemple, si la taille de l’image principale est de 350 x 350 pixels et 
 
 Adobe Dynamic Media Classic recommande les paramètres suivants pour les paramètres prédéfinis de la visionneuse de zoom déroulante :
 
-* **Taille d’image agrandie**: environ 1 500 x 1 500 pixels, sans dépasser 2 000 x 2 000 pixels.
+* **Taille de l’image agrandie** : environ 1 500 x 1 500 pixels, sans dépasser 2 000 par 2 000 pixels.
 
-* **Taille de l’image**: 100 Ko ou moins, ne doit pas dépasser 150 Ko (compressez le fichier pour qu’il ne dépasse pas 150 Ko).
+* **Taille de l’image** : 100 Ko ou moins, ne doit pas dépasser 150 Ko (compressez le fichier pour qu’il ne dépasse pas 150 Ko).
 
-* **Visionneuse de zoom : personnalisée**: fournit un zoom guidé ou non guidé avec des images, des visionneuses d’images avec plusieurs vues ou des séries d’échantillons de couleurs.
+* **Visionneuse de zoom : personnalisée** : fournit un zoom guidé ou non guidé avec des images, des visionneuses d’images avec plusieurs vues ou des séries d’échantillons de couleurs.
 
 ## Création et modification de paramètres prédéfinis de la visionneuse de zoom {#creating-and-editing-zoom-viewer-presets}
 
-1. Dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
+1. Sur la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 1. Effectuez l’une des opérations suivantes :
 
-   * **Création d’un paramètre prédéfini**: sélectionnez **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plate-forme, choisissez une visionneuse de zoom, puis sélectionnez **[!UICONTROL Ajouter]**. Saisissez un nom pour le paramètre prédéfini dans la zone Nom du paramètre prédéfini .
+   * **Créer un paramètre prédéfini** : sélectionnez **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un paramètre prédéfini de visionneuse, choisissez une plateforme, choisissez une visionneuse de zoom, puis sélectionnez **[!UICONTROL Ajouter]**. Saisissez un nom pour le paramètre prédéfini dans la zone Nom du paramètre prédéfini .
 
-   * **Modification d’un paramètre prédéfini**: sélectionnez un paramètre prédéfini de visionneuse de zoom, puis cliquez sur **[!UICONTROL Modifier]**.
+   * **Modifier un paramètre prédéfini** : sélectionnez un paramètre prédéfini de visionneuse de zoom, puis sélectionnez **[!UICONTROL Modifier]**.
 
 1. Spécifiez les paramètres de votre choix.
 
-   Pour afficher une description d’une option, sélectionnez l’option **[!UICONTROL Conseil d’informations]** en regard de l’option .
+   Pour voir la description d’une option, sélectionnez l’icône **[!UICONTROL Conseil d’informations]** en regard de l’option.
 
    La page Aperçu affiche la visionneuse au fur et à mesure que vous mettez à jour et modifiez les paramètres.
 
-1. Sélectionner **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer sous]**.
-1. Sur la page Paramètres prédéfinis de la visionneuse, examinez le paramètre prédéfini de la visionneuse de zoom ou le paramètre prédéfini de la visionneuse de zoom guidé que vous avez créé. Si un ajustement est nécessaire, sélectionnez **[!UICONTROL Modifier]**, modifiez les paramètres de la variable `Configure Viewer` , puis sélectionnez **[!UICONTROL Enregistrer]**.
+1. Sélectionnez **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer sous]**.
+1. Sur la page Paramètres prédéfinis de la visionneuse, examinez le paramètre prédéfini de la visionneuse de zoom ou le paramètre prédéfini de la visionneuse de zoom guidé que vous avez créé. Si un ajustement est nécessaire, sélectionnez **[!UICONTROL Modifier]**, modifiez les paramètres sur la page `Configure Viewer`, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
 Pour plus d’informations sur la gestion des paramètres prédéfinis de visionneuse sur l’écran Paramètres prédéfinis de la visionneuse, voir [Paramètres prédéfinis de visionneuse](application-setup.md#viewer_presets).
 
 >[!MORELIKETHIS]
 >
->* [Création et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets)
+>* [Créer et modifier des paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets)

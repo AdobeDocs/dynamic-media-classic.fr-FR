@@ -23,17 +23,17 @@ ht-degree: 7%
 
 Assurez-vous que vous disposez des éléments suivants avant d’utiliser l’application de bureau Adobe Dynamic Media Classic :
 
-* **Nom d’utilisateur**: utilisez votre adresse électronique comme nom de connexion.
+* **Nom d’utilisateur** : vous utilisez votre adresse électronique comme nom de connexion.
 
-* **Password**: vous obtenez votre mot de passe temporaire dans un e-mail de bienvenue d’Adobe Dynamic Media Classic ou de votre administrateur Adobe Dynamic Media Classic. Lors de votre première connexion, vous êtes invité à modifier ce mot de passe temporaire.
+* **Mot de passe** : vous obtenez votre mot de passe temporaire dans un e-mail &quot;Bienvenue&quot; d’Adobe Dynamic Media Classic ou de votre administrateur Adobe Dynamic Media Classic. Lors de votre première connexion, vous êtes invité à modifier ce mot de passe temporaire.
 
 1. Ouvrez l’application de bureau Adobe Dynamic Media Classic.
 
-   ![Connexion Adobe Dynamic Media Classic](/help/using/assets/dmclassic-login1.png)
+   ![ Connexion Adobe Dynamic Media Classic ](/help/using/assets/dmclassic-login1.png)
 
-1. Dans le **[!UICONTROL Nom d’utilisateur]** , saisissez votre adresse électronique.
-1. Dans le **[!UICONTROL Password]** , saisissez le mot de passe.
-1. Dans le **[!UICONTROL Serveur]** sélectionnez un serveur dans la liste déroulante.
+1. Dans le champ **[!UICONTROL User Name]**, saisissez votre adresse électronique.
+1. Dans le champ **[!UICONTROL Mot de passe]**, saisissez le mot de passe.
+1. Dans la liste déroulante **[!UICONTROL Serveur]**, sélectionnez un serveur.
 Utilisez le mappage suivant pour sélectionner l’environnement de production à utiliser.
 
    | URL du navigateur | Nom du serveur d’applications de bureau |
@@ -42,11 +42,11 @@ Utilisez le mappage suivant pour sélectionner l’environnement de production �
    | https://s7sps3.scene7.com/ | Production EMEA (Europe, Moyen-Orient et Afrique) |
    | https://s7sps5.scene7.com/ | Production APAC (Asie-Pacifique) |
 
-1. Sélectionner **[!UICONTROL Se connecter]**.
+1. Sélectionnez **[!UICONTROL Se connecter]**.
 
 ## Déconnexion d’Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. Dans le coin supérieur droit de l’application de bureau Adobe Dynamic Media Classic, sélectionnez **[!UICONTROL Se déconnecter]**, puis sélectionnez **[!UICONTROL Se déconnecter]** encore une fois.
+1. Dans le coin supérieur droit de l’application de bureau Adobe Dynamic Media Classic, sélectionnez **[!UICONTROL Se déconnecter]**, puis sélectionnez à nouveau **[!UICONTROL Se déconnecter]**.
 
 >[!MORELIKETHIS]
 >

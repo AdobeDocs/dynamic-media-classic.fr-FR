@@ -22,7 +22,7 @@ ht-degree: 18%
    + [Comparaison des listes de fonctionnalités](upgrade-feature-comparison.md)
    + [Liste de contrôle de l’état de préparation](upgrade-readiness.md)
 + [Guide Adobe Dynamic Media Classic](home.md)
-+ [Tutoriel sur les bonnes pratiques d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [Tutoriel sur les bonnes pratiques Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [NOUVELLE ouverture de session Adobe Dynamic Media Classic désormais disponible](new-ui-2020.md)
 + [Archivage de la newsletter Dynamic Media Adobe par Experience League](dynamic-media-newsletter.md)
 + Présentation d’Adobe Dynamic Media Classic {#intro}
@@ -43,7 +43,7 @@ ht-degree: 18%
    + [Navigation - Notions élémentaires](navigation-basics.md)
    + [Configuration - Notions élémentaires](setup-basics.md)
    + [Média riche](rich-media.md)
-+ Configuration {#setup}
++ Configurer {#setup}
    + [Configuration personnelle](personal-setup.md)
    + [Configuration de l’application](application-setup.md)
    + [Configuration de la publication](publish-setup.md)
@@ -63,7 +63,7 @@ ht-degree: 18%
 + Chargement et publication de ressources {#upload-publish}
    + [À propos du chargement et de la publication de ressources](about-asset-upload-publish.md)
    + [Téléchargement de fichiers](uploading-files.md)
-   + [Publication de fichiers](publishing-files.md)
+   + [Fichiers Publish](publishing-files.md)
    + [Limites de Dynamic Media](limitations.md)
    + [Test des ressources avant de les rendre publiques](testing-assets-making-them-public.md)
    + [Vérification des fichiers de tâche](checking-job-files.md)
@@ -85,7 +85,7 @@ ht-degree: 18%
 + Dimensionnement des images {#image-sizing}
    + [Démarrage rapide : Dimensionnement des images](quick-start-image-sizing.md)
    + [Chargement des images principales](uploading-master-images.md)
-   + [Publication des images principales](publishing-master-images.md)
+   + [Images principales Publish](publishing-master-images.md)
    + [Configuration des paramètres d’image prédéfinis](setting-image-presets.md)
    + [Lier des URL à votre application web](linking-urls-web-application.md)
 + Zoom {#zoom}
@@ -94,7 +94,7 @@ ht-degree: 18%
    + [Création de cibles de zoom pour un zoom guidé](creating-zoom-targets-guided-zoom.md)
    + [Configuration des paramètres prédéfinis de la visionneuse de zoom](setting-zoom-viewer-presets.md)
    + [Prévisualisation de ressources d’image avec différentes visionneuses de zoom](previewing-image-assets-different-zoom.md)
-   + [Publication des images de zoom](publishing-zoom-images.md)
+   + [Images de zoom Publish](publishing-zoom-images.md)
    + [Liaison des visionneuses de zoom à des pages web](linking-zoom-viewers-web-pages.md)
 + Catalogues électroniques {#ecatalogs}
    + [Démarrage rapide : catalogues électroniques](quick-start-ecatalog.md)
@@ -104,7 +104,7 @@ ht-degree: 18%
    + [Gestion du contenu du panneau Informations dans les catalogues électroniques](info-panel-content-ecatalog.md)
    + [Configuration des paramètres prédéfinis de la visionneuse de catalogue électronique](setting-ecatalog-viewer-presets.md)
    + [Aperçu des catalogues électroniques dans la visionneuse de catalogue électronique](previewing-ecatalogs-ecatalog-viewer.md)
-   + [Publication de catalogues électroniques et de PDF associés](publishing-ecatalogs-associated-pdfs.md)
+   + [Catalogues électroniques Publish et PDF associés](publishing-ecatalogs-associated-pdfs.md)
    + [Lier un catalogue électronique à une page Web](linking-ecatalog-web-page.md)
 + Visionneuses d’images {#image-sets}
    + [Démarrage rapide : Visionneuses d’images](quick-start-image-sets.md)
@@ -126,7 +126,7 @@ ht-degree: 18%
    + [Démarrage rapide : Visionneuses à 360°](quick-start-spin-sets.md)
    + [Création d’une visionneuse à 360°](creating-spin-set.md)
    + [Aperçu d’une visionneuse à 360°](previewing-spin-set.md)
-   + [Publication d’une visionneuse à 360°](publishing-spin-set.md)
+   + [Publish d’une visionneuse à 360°](publishing-spin-set.md)
    + [Configuration des paramètres prédéfinis de la visionneuse à 360°](setting-spin-set-viewer-presets.md)
    + [Liaison d’une visionneuse à 360° à une page web](linking-spin-set-web-page.md)
 + Concepts de base des modèles {#template-basics}
@@ -150,7 +150,7 @@ ht-degree: 18%
    + [Démarrage rapide : Visionneuses de supports variés](quick-start-mixed-media-sets.md)
    + [Configuration d’un paramètre prédéfini de visionneuse de médias mixtes](setting-mixed-media-set-viewer.md)
    + [Création d’une visionneuse de supports variés](creating-mixed-media-set.md)
-   + [Publication d’une visionneuse de médias mixtes](publishing-mixed-media-set.md)
+   + [Publish d’une visionneuse de médias mixtes](publishing-mixed-media-set.md)
    + [Liaison d’une visionneuse de médias mixtes à une page web](linking-mixed-media-set-web.md)
 + Kit d’instrumentation Adobe Analytics {#analytics-kit}
    + [Démarrage rapide : intégration d’Adobe Dynamic Media Classic à Adobe Analytics](quick-start-integrating-dmc-analytics.md)
@@ -160,7 +160,7 @@ ht-degree: 18%
    + [Désactivation du suivi Adobe Analytics](disabling-analytics-tracking.md)
    + [Tester l’intégration en affichant un rapport Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Activation des rapports vidéo Adobe Analytics](enabling-analytics-video-reports.md)
-   + [Publication des informations de configuration Adobe Analytics](publishing-analytics-configuration-information.md)
+   + [Informations de configuration Publish Adobe Analytics](publishing-analytics-configuration-information.md)
 + Intégration d’Adobe Target Standard/Premium {#target-classic}
    + [Démarrage rapide : intégration Adobe Target Standard/Premium](quick-start-target-integration.md)
    + [Intégration d’Adobe Dynamic Media Classic à Adobe Target Standard/Premium](integrating-dmc-with-target.md)

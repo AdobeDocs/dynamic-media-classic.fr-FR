@@ -19,10 +19,10 @@ ht-degree: 0%
 
 # Exportation de vidéos source et codées{#exporting-source-and-encoded-videos}
 
-Dans le panneau Parcourir , les vidéos sources sont étiquetées. *Vidéo Principal*. Les vidéos codées sont étiquetées *Vidéo*. Vous pouvez exporter des vidéos et des vidéos principales. Pour exporter des fichiers vidéo, sélectionnez-les dans le panneau Parcourir et accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Exporter]**.
+Dans le panneau Parcourir, les vidéos sources sont étiquetées *Vidéo par Principal*. Les vidéos codées sont intitulées *Vidéo*. Vous pouvez exporter des vidéos et des vidéos principales. Pour exporter des fichiers vidéo, sélectionnez-les dans le panneau Parcourir et accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Exporter]**.
 
 Voir [Exportation de ressources à partir d’Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 
 >[!MORELIKETHIS]
 >
->* [Chargement et codage de vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos)
+>* [Télécharger et coder des vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos)

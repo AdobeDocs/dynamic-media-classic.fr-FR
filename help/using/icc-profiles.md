@@ -31,16 +31,16 @@ Outre l’utilisation des profils ICC par défaut, vous pouvez charger d’autre
 
 Téléchargez les profils ICC en procédant de la même façon que pour télécharger les fichiers. Vous pouvez stocker des profils ICC dans n’importe quel dossier Adobe Dynamic Media Classic.
 
-Voir [Chargement des fichiers](uploading-files.md#uploading_your_files).
+Voir [Télécharger vos fichiers](uploading-files.md#uploading_your_files).
 
 ## Examiner un profil ICC {#examining-an-icc-profile}
 
 Pour examiner un profil ICC, sélectionnez-le dans le panneau Parcourir et affichez-le dans la vue Détails. La vue Détails fournit ces informations sur les profils ICC :
 
-* **[!UICONTROL Classe de profil]**: l’ICC (International Color Consortium) définit chaque classe pour couvrir un type d’application. Par exemple, les profils d’entrée s’appliquent aux périphériques tels que les appareils photo numériques et les numériseurs, tandis que les profils de sortie s’appliquent aux imprimantes.
+* **[!UICONTROL Classe de profil]** : l’ICC (International Color Consortium) définit chaque classe pour couvrir un type d’application. Par exemple, les profils d’entrée s’appliquent aux périphériques tels que les appareils photo numériques et les numériseurs, tandis que les profils de sortie s’appliquent aux imprimantes.
 
-* **[!UICONTROL Type d’espace colorimtrique]**: ce nombre est l’espace colorimétrique &quot;d’entrée&quot; du profil, tel que défini par l’ICC. Le type d’espace colorimétrique définit le nombre de composantes de l’espace colorimétrique et l’interprétation de ces composantes. Par exemple, RVB est un espace colorimétrique avec trois composantes : le rouge, le vert et le bleu. Le type d’espace colorimétrique ne définit pas les caractéristiques chromatiques particulières de l’espace (par exemple, la chromaticité des couleurs primaires).
+* **[!UICONTROL Type d’espace colorimétrique]** : ce nombre est l’espace colorimétrique &quot;d’entrée&quot; du profil, tel que défini par l’ICC. Le type d’espace colorimétrique définit le nombre de composantes de l’espace colorimétrique et l’interprétation de ces composantes. Par exemple, RVB est un espace colorimétrique avec trois composantes : le rouge, le vert et le bleu. Le type d’espace colorimétrique ne définit pas les caractéristiques chromatiques particulières de l’espace (par exemple, la chromaticité des couleurs primaires).
 
-* **[!UICONTROL Type PCS]**: ce type PCS est l’espace colorimétrique &quot;output&quot; du profil, son espace de connexion au profil. Par exemple, un profil colorimétrique peut convertir l’espace RVB en espace PCS, qui peut ensuite le convertir en espace CMJN.
+* **[!UICONTROL Type PCS]** : ce type PCS est l’espace colorimétrique de &quot;sortie&quot; du profil, son espace de connexion au profil. Par exemple, un profil colorimétrique peut convertir l’espace RVB en espace PCS, qui peut ensuite le convertir en espace CMJN.
 
 Pour un profil d’entrée, d’affichage ou de sortie pratique pour baliser les couleurs ou les images, le type PCS est XYZ ou Lab. Interprétez ce profil comme l’espace colorimétrique spécifique correspondant défini dans la spécification ICC.
