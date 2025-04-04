@@ -9,7 +9,7 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5482f442b067fd4911a05351e88c5be130c0b76d
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 32%
@@ -20,96 +20,96 @@ ht-degree: 32%
 
 # Configuration de l’administration{#administration-setup}
 
-Les écrans Configuration de l’administration permettent d’administrer les utilisateurs d’Adobe Dynamic Media Classic. Utilisez ces écrans pour permettre aux utilisateurs de travailler dans Adobe Dynamic Media Classic et de communiquer par e-mail avec d’autres utilisateurs.
+Les écrans Configuration de l’administration permettent d’administrer les utilisateurs Adobe Dynamic Media Classic. Utilisez ces écrans pour permettre aux utilisateurs de travailler dans Adobe Dynamic Media Classic et de communiquer par e-mail avec d’autres utilisateurs.
 
-1. Pour accéder aux options Configuration de l’administration, accédez à **Configuration** > **Configuration personnelle** > **Configuration de l’administration**.
+1. Pour accéder aux options de configuration de l’administration, accédez à **Configuration** > **Configuration personnelle** > **Configuration de l’administration**.
 
-## Administration utilisateur {#user-administration}
+## Administration des utilisateurs {#user-administration}
 
-Un rôle est attribué à tous les utilisateurs d’Adobe Dynamic Media Classic afin de déterminer leurs privilèges et leurs droits d’accès aux fonctionnalités d’Adobe Dynamic Media Classic. Les administrateurs définissent les différents rôles et responsabilités pour les entreprises auxquelles ils sont affectés.
+Un rôle déterminant leurs privilèges et droits d’accès aux fonctionnalités d’Adobe Dynamic Media Classic est attribué à tous les utilisateurs d’Adobe Dynamic Media Classic. Les administrateurs définissent les différents rôles et responsabilités pour les entreprises auxquelles ils sont affectés.
 
-En règle générale, Adobe Dynamic Media Classic configure le premier ensemble d’entreprises et affecte un administrateur d’entreprise. L’administrateur d’entreprise configure et administre ensuite les utilisateurs Adobe Dynamic Media Classic.
+En règle générale, Adobe Dynamic Media Classic configure le premier ensemble de sociétés et affecte un administrateur d’entreprise. L’administrateur d’entreprise configure et administre ensuite les utilisateurs Adobe Dynamic Media Classic.
 
-Adobe Dynamic Media Classic prend en charge plusieurs rôles utilisateur. Ces rôles peuvent accéder aux entreprises configurées pour Adobe Dynamic Media Classic :
+Adobe Dynamic Media Classic prend en charge plusieurs rôles utilisateur. Ces rôles peuvent accéder aux sociétés configurées pour Adobe Dynamic Media Classic :
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Adobe Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
-**Utilisateur Adobe Dynamic Media Classic** Peut accéder aux entreprises auxquelles elles ont été affectées ; ne peut pas effectuer de tâches administratives.
+**Utilisateur Adobe Dynamic Media Classic** peut accéder aux sociétés auxquelles il a été affecté ; ne peut effectuer aucune tâche administrative.
 
-**Administrateur de société Adobe Dynamic Media Classic** Peut afficher et administrer uniquement leurs propres entreprises. Il peut également remplir toutes les fonctions d’administration, notamment l’ajout d’administrateurs et d’utilisateurs. Un administrateur d’entreprise peut ajouter un utilisateur aux comptes administrateur d’entreprise DMC. (Ce rôle est le rôle utilisateur par défaut.)
+**Administrateur d’entreprise Adobe Dynamic Media Classic** peut afficher et administrer uniquement ses propres entreprises. Il peut également remplir toutes les fonctions d’administration, notamment l’ajout d’administrateurs et d’utilisateurs. Un administrateur d’entreprise peut ajouter un utilisateur aux comptes d’administration de la société DMC. (Ce rôle est le rôle utilisateur par défaut.)
 
-Une fois que vous avez ajouté un utilisateur, Adobe Dynamic Media Classic lui envoie un e-mail de bienvenue. Le message comprend un mot de passe et l’URL Adobe Dynamic Media Classic.
+Une fois que vous avez ajouté un utilisateur, Adobe Dynamic Media Classic lui envoie un message électronique de bienvenue. Le message comprend un mot de passe et l’URL d’Adobe Dynamic Media Classic.
 
-### Ajout d’un utilisateur ou d’un administrateur {#adding-a-user-or-administrator}
+### Ajouter un utilisateur, une utilisatrice ou un administrateur {#adding-a-user-or-administrator}
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de l’administration]** > **[!UICONTROL Administration des utilisateurs]**.
 1. Sélectionnez **[!UICONTROL Ajouter]**.
-1. Saisissez le nom et l’adresse électronique de l’utilisateur ou de l’administrateur que vous souhaitez ajouter, puis sélectionnez **[!UICONTROL Suivant]**.
+1. Saisissez le nom et l’adresse e-mail de l’utilisateur ou de l’administrateur que vous souhaitez ajouter, puis sélectionnez **[!UICONTROL Suivant]**.
 
    >[!NOTE]
    >
-   >Le caractère apostrophe (`'`) n’est pas autorisé dans les adresses électroniques.
+   >Le caractère apostrophe (`'`) n’est pas autorisé dans les adresses e-mail.
 
-1. Pour attribuer un rôle à l’utilisateur, sélectionnez une option Rôle .
+1. Pour attribuer un rôle à l’utilisateur, choisissez une option de rôle.
 
-   Voir [Rôles utilisateur et privilèges Adobe Dynamic Media Classic](administration-setup.md#user_administration).
+   Voir [Rôles et privilèges d’utilisateur Adobe Dynamic Media Classic](administration-setup.md#user_administration).
 
-1. Pour ajouter un utilisateur à une société, sélectionnez son nom.
-1. Si vous souhaitez ajouter l’utilisateur à un groupe (si vous ajoutez un utilisateur ou un contributeur Media Portal), sélectionnez **[!UICONTROL Suivant]** et ajoutez l’utilisateur.
+1. Pour ajouter un utilisateur à une société, sélectionnez un nom de société.
+1. Si vous souhaitez ajouter l’utilisateur à un groupe (si vous ajoutez un utilisateur ou un contributeur du portail multimédia), sélectionnez **[!UICONTROL Suivant]** et ajoutez l’utilisateur.
 1. Sélectionnez **[!UICONTROL Enregistrer]** pour terminer la configuration de l’utilisateur.
 
-   Après l’enregistrement, une invite demande si vous souhaitez ajouter un utilisateur à une autre société. Sélectionnez **[!UICONTROL Ajouter]** si vous souhaitez ajouter l’utilisateur à une société.
+   Après l’enregistrement, une invite demande si vous souhaitez ajouter un utilisateur à une autre société. Sélectionnez **[!UICONTROL Ajouter]** si vous souhaitez ajouter l’utilisateur à une entreprise.
 
-   Tous les nouveaux utilisateurs reçoivent un mot de passe généré de manière aléatoire ; les utilisateurs doivent changer de mot de passe la première fois qu’ils se connectent à l’application de bureau Adobe Dynamic Media Classic.
+   Un mot de passe généré de manière aléatoire est attribué à tous les nouveaux utilisateurs. Ceux-ci doivent modifier leur mot de passe la première fois qu’ils se connectent à l’application de bureau Adobe Dynamic Media Classic.
 
-   Un e-mail de bienvenue est envoyé aux utilisateurs une fois qu’ils ont été ajoutés. L’e-mail fournit un mot de passe temporaire et explique comment vous connecter à Adobe Dynamic Media Classic.
+   Un e-mail de bienvenue est envoyé aux utilisateurs une fois qu’ils ont été ajoutés. Cet e-mail fournit un mot de passe temporaire et explique comment se connecter à Adobe Dynamic Media Classic.
 
-   Si l’utilisateur ne reçoit pas l’e-mail de bienvenue, demandez-lui d’accéder à la page de connexion Adobe Dynamic Media Classic (https://s7sps1.scene7.com), puis sélectionnez **[!UICONTROL Mot de passe oublié]**. Le mot de passe est réinitialisé et un nouveau courrier électronique est envoyé. Si l’utilisateur ne reçoit pas le courrier électronique et qu’il n’est pas placé dans le dossier du courrier indésirable, contactez le support technique.
+   Si l’utilisateur ne reçoit pas l’e-mail de bienvenue, demandez-lui d’accéder à la page de connexion d’Adobe Dynamic Media Classic (https://s7sps1.scene7.com) et de sélectionner **[!UICONTROL Mot de passe oublié]**. Le mot de passe est réinitialisé et un nouveau courrier électronique est envoyé. Si l’utilisateur ne reçoit pas le courrier électronique et qu’il n’est pas placé dans le dossier du courrier indésirable, contactez le support technique.
 
-   Lors de l’ajout de nouveaux utilisateurs Media Portal, vous pouvez également accéder à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Administration des utilisateurs]**, puis sélectionner **[!UICONTROL Télécharger la liste des utilisateurs]** et sélectionner un fichier .csv ne contenant pas plus de 500 utilisateurs.
+   Lors de l’ajout d’utilisateurs au portail multimédia, vous pouvez également accéder à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Administration des utilisateurs]**, puis sélectionner **[!UICONTROL Charger la liste des utilisateurs]** et sélectionner un fichier .csv ne contenant pas plus de 500 utilisateurs.
 
 ### Suppression d’un utilisateur {#delet-a-user}
 
 Vous pouvez supprimer des utilisateurs d’Adobe Dynamic Media Classic en les rendant non valides. Les utilisateurs non valides sont supprimés du système et de tous les comptes.
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de l’administration]** > **[!UICONTROL Administration des utilisateurs]**.
-1. Sélectionnez un utilisateur dans la liste, puis **[!UICONTROL Modifier]**.
+1. Sélectionnez un utilisateur dans la liste, puis sélectionnez **[!UICONTROL Modifier]**.
 1. Désélectionnez l’option Valide.
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
-### Activation ou désactivation d’utilisateurs {#activating-or-deactivating-users}
+### Activer ou désactiver des utilisateurs {#activating-or-deactivating-users}
 
 Les utilisateurs désactivés n’ont plus le droit d’accéder au compte indiqué en haut du menu Sélectionner le compte auquel accéder.
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de l’administration]** > **[!UICONTROL Administration des utilisateurs]**.
-1. Dans la liste des utilisateurs, sélectionnez ou désélectionnez l’option **[!UICONTROL Active]** en regard du nom de l’utilisateur.
+1. Dans la liste des utilisateurs, sélectionnez ou désélectionnez l’option **[!UICONTROL Actif]** en regard du nom de l’utilisateur.
 
 ### Modification des informations de l’utilisateur {#editing-user-information}
 
 Les informations sur l’utilisateur que vous pouvez modifier dépendent de votre rôle en tant qu’administrateur et du rôle de l’utilisateur dont vous souhaitez modifier les informations. Les options qui apparaissent en grisé (non disponibles) ne sont pas modifiables.
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de l’administration]** > **[!UICONTROL Administration des utilisateurs]**.
-1. Sélectionnez un utilisateur dans la liste, puis **[!UICONTROL Modifier]**.
-1. Sélectionnez l’entrée dans le tableau qui indique la société pour laquelle vous essayez de modifier les autorisations ou l’accès, puis sélectionnez **[!UICONTROL Gérer l’entreprise]**.
+1. Sélectionnez un utilisateur dans la liste, puis sélectionnez **[!UICONTROL Modifier]**.
+1. Sélectionnez l’entrée dans le tableau qui indique la société pour laquelle vous essayez de modifier les autorisations ou l’accès, puis sélectionnez **[!UICONTROL Gérer la société]**.
 1. Sélectionnez le rôle de l’utilisateur.
-1. Si vous souhaitez modifier l’appartenance au groupe de l’utilisateur (si vous modifiez ou ajoutez un utilisateur ou contributeur Media Portal), sélectionnez **[!UICONTROL Suivant]** et modifiez l’appartenance au groupe.
+1. Si vous souhaitez modifier l’appartenance à un groupe de l’utilisateur (si vous modifiez ou ajoutez un utilisateur ou un contributeur du portail multimédia), sélectionnez **[!UICONTROL Suivant]** et modifiez l’appartenance à un groupe.
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
 ### Filtrage et tri de la liste des utilisateurs {#filtering-and-sorting-the-user-list}
 
 Vous pouvez filtrer et trier la liste des utilisateurs afin de localiser les utilisateurs. Tous les utilisateurs figurant dans tous les comptes que vous gérez sont répertoriés dans la liste des utilisateurs, quel que soit le compte sélectionné dans le menu Sélectionner le compte auquel accéder.
 
-Vous pouvez utiliser les techniques de filtrage par liste d’utilisateurs suivantes :
+Vous pouvez utiliser les techniques de filtrage de liste d’utilisateurs suivantes :
 
-* **Filtrer par groupe** : sélectionnez le menu **[!UICONTROL Par groupe]** et choisissez une option pour restreindre la liste aux utilisateurs d&#39;un groupe.
+* **Filtrer par groupe** : sélectionnez le menu **[!UICONTROL Par groupe]** et choisissez une option pour limiter la liste aux utilisateurs d’un groupe.
 
-* **Filtrer par rôle d’utilisateur** : sélectionnez le menu **[!UICONTROL Par rôle d’utilisateur]** et choisissez une option pour restreindre la liste aux utilisateurs ou aux administrateurs de différents types.
+* **Filtrer par rôle d’utilisateur** : sélectionnez le menu **[!UICONTROL Par rôle d’utilisateur]** et choisissez une option pour limiter la liste aux utilisateurs ou administrateurs de différents types.
 
-* **Filtrer par nom de champ** : sélectionnez **[!UICONTROL Activer le filtre par champ]**. Sélectionnez ensuite le menu **[!UICONTROL Par nom de champ]**, choisissez une colonne pour filtrer la liste, sélectionnez le menu Filtrer les caractères et choisissez une lettre. La liste est filtrée sur l’une des colonnes par la lettre choisie. Pour afficher la liste complète, désélectionnez l’option **[!UICONTROL Activer le filtre par champ]** .
+* **Filtrer par nom de champ** : sélectionnez **[!UICONTROL Activer le filtrage par champ]**. Sélectionnez ensuite le menu **[!UICONTROL Par nom de champ]**, choisissez une colonne pour filtrer la liste, puis sélectionnez le menu Filtrer les caractères et choisissez une lettre. La liste est filtrée sur l’une des colonnes par la lettre que vous avez choisie. Pour afficher la liste complète, désélectionnez l’option **[!UICONTROL Activer le filtrage par champ]**.
 
-* **Filtrer les utilisateurs non valides** : désélectionnez **[!UICONTROL Inclure non valide]**. Les résultats de la recherche affichent uniquement les utilisateurs présents dans le système. Les utilisateurs non valides ont été supprimés du système et des comptes que vous administrez.
+* **Filtrer les utilisateurs non valides** : désélectionnez **[!UICONTROL Inclure non valide]**. Les résultats de la recherche affichent uniquement les utilisateurs présents dans le système. Des utilisateurs non valides ont été supprimés du système et des comptes que vous administrez.
 
-* **Trier par en-tête de colonne** : sélectionnez un en-tête pour trier tous les utilisateurs selon leur état, par ordre alphabétique de prénom, nom ou adresse électronique. Ou triez par rôle utilisateur ou par statut valide/non valide.
+* **Trier par en-tête de colonne** : sélectionnez un en-tête pour trier tous les utilisateurs par statut, par ordre alphabétique de prénom, de nom ou d’adresse e-mail. Ou, triez-les par rôle d’utilisateur ou par statut valide/non valide.
 
 Si les utilisateurs sont trop nombreux, vous pouvez limiter la taille de la liste en sélectionnant le menu Taille liste max., puis en choisissant une valeur.
 
@@ -143,7 +143,7 @@ You can link an Adobe IMS user identity to an Adobe Dynamic Media Classic IPS us
 
 ## Bande passante et stockage {#bandwidth-storage}
 
-Les administrateurs Adobe Dynamic Media Classic peuvent générer des rapports de bande passante, de stockage et d’autres types pour les entreprises qu’ils gèrent. Ces rapports sont disponibles sur la page Bande passante et stockage .
+Les administrateurs d’Adobe Dynamic Media Classic peuvent générer de la bande passante, du stockage et d’autres types de rapports pour les sociétés qu’ils administrent. Ces rapports sont disponibles sur la page Bande passante et stockage .
 
 Pour ouvrir cette page, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration personnelle]**. Développez **[!UICONTROL Configuration de l’administration]**, puis sélectionnez **[!UICONTROL Bande passante et stockage]**.
 
@@ -154,7 +154,7 @@ Le tableau suivant décrit les rapports que vous pouvez générer à partir de l
 | Rapport | Informations | Utilité |
 |:--- |:--- |:--- |
 | Bande passante | Utilisation de la bande passante par entreprise | Observe l’utilisation de la bande passante par entreprise dans un intervalle de temps spécifié afin de définir des schémas de trafic. |
-| Stockage | Utilisation de l’espace de stockage | Permet de suivre la quantité de données chargées par l’entreprise. |
+| Stockage | Utilisation de l’espace de stockage | Effectuez le suivi de la quantité de données téléchargées par l’entreprise. |
 | Contenu de l’image | Nombre de demandes d’images par type | Observe le nombre de demandes et le volume pour différents types d’images. |
 | Domaine | Nombre de demandes d’URL par domaine | Observe l’utilisation des images en fonction du domaine de la demande d’image pour une entreprise spécifique. (Adobe Dynamic Media Classic peut fournir plusieurs domaines par compte. Pour plus d’informations, contactez l’assistance technique.) |
 | Diffusion de vidéo en flux continu | Utilisation de la bande passante pour la diffusion de vidéo en flux continu | Observe l’utilisation de la diffusion de vidéo en flux continu par entreprise dans un intervalle de temps spécifié afin de définir des schémas de trafic. |
@@ -164,27 +164,27 @@ Le rapport Contenu de l’image fournit des informations sur les requêtes pour 
 
 * **Demande d’image** : demandes d’images.
 
-* **Demande de miniature** : demandes d’échantillons ou d’images de remplacement dans les visionneuses.
+* **Demande de miniature** : demandes d’échantillon ou d’images de remplacement dans les visionneuses.
 
-* **Requête de masque** : demandes d’images renvoyant des masques en niveaux de gris.
+* **Requête de masque** : requêtes d’images renvoyant des masques en niveaux de gris.
 
 * **Demande de mosaïque de visionneuse** : demandes d’image chargées par une visionneuse.
 
 * **Demande d’objet VNT** : demandes de rendu d’image qui renvoient une image avec des objets spécifiés dans les vignettes demandées.
 
-* **Demande d’informations VNT** : demandes de rendu d’image qui renvoient des informations sur les vignettes demandées.
+* **Demande d’informations VNT** : demandes de rendu d’image qui renvoient des informations concernant les vignettes demandées.
 
 >[!NOTE]
 >
->le rapport Diffusion de vidéo en flux continu s’applique uniquement aux vidéos diffusées en flux continu. Il ne suit pas l’affichage des vidéos progressives.
+>le rapport Diffusion de vidéo en flux continu s’applique uniquement aux vidéos diffusées en flux continu. Il ne suit pas le visionnage des vidéos progressives.
 
 ### Générer un rapport {#generating-a-report}
 
 Pour générer un rapport de bande passante, stockage, contenu de l’image, domaine, diffusion en flux continu de vidéo ou contenu de la vidéo :
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration personnelle]**.
-1. Développez Configuration de l’administration, puis sélectionnez **[!UICONTROL Bande passante et stockage]**.
-1. Sélectionnez un onglet : **[!UICONTROL Bandwidth]**, **[!UICONTROL Storage]**, **[!UICONTROL Image Content]**, **[!UICONTROL Domain]**, **[!UICONTROL Video Streaming]** ou **[!UICONTROL Video Content]**.
+1. Développez Administration et configuration, puis sélectionnez **[!UICONTROL Bande passante et stockage]**.
+1. Sélectionnez un onglet : **[!UICONTROL Bande passante]**, **[!UICONTROL Stockage]**, **[!UICONTROL Contenu d’image]**, **[!UICONTROL Domaine]**, **[!UICONTROL Diffusion vidéo]** ou **[!UICONTROL Contenu vidéo]**.
 
    Voir [Types de rapports](administration-setup.md#types_of_reports).
 
@@ -192,54 +192,54 @@ Pour générer un rapport de bande passante, stockage, contenu de l’image, dom
 
 Après avoir généré un rapport sur la page Bande passante et stockage, vous pouvez choisir des options pour l’affichage des informations. Vous pouvez choisir le mode de présentation des informations, afficher les informations dans un tableau ou une grille de données et indiquer une période pour la capture des informations. En mode Affichage des données, vous pouvez également trier les informations et réorganiser les colonnes.
 
-* **Afficher les données dans un graphique ou une grille de données** : sélectionnez **[!UICONTROL Affichage du graphique]** pour afficher les données dans un graphique ; sélectionnez **[!UICONTROL Affichage des données]** pour afficher les données dans une grille de données.
+* **Afficher les données dans un graphique ou une grille de données** : sélectionnez **[!UICONTROL Vue du graphique]** pour afficher les données dans un graphique ; sélectionnez **[!UICONTROL Vue des données]** pour afficher les données dans une grille de données.
 
 * **Choisissez un type de présentation de rapport** : dans le menu Type de rapport, sélectionnez **[!UICONTROL Résumé]**, **[!UICONTROL Quotidien]** ou **[!UICONTROL Mensuel]** pour organiser les données sous forme de résumé, par jour ou par mois. Tous les rapports ne proposent pas cette option.
 
-* **Spécifiez une période** : choisissez des options pour définir une période pour votre rapport, puis sélectionnez **[!UICONTROL Mettre à jour]** après avoir défini une période :
+* **Définir une période** : sélectionnez les options permettant de définir une période pour votre rapport, puis sélectionnez **[!UICONTROL Mettre à jour]** après avoir défini une période :
 
 * **Période prédéfinie** : dans le menu Rapport prédéfini, sélectionnez une option. Par exemple, choisissez Le mois dernier pour capturer les données du mois précédent.
 
-* **Période personnalisée** : dans le menu Rapport prédéfini, sélectionnez **[!UICONTROL Personnalisé]**. Sélectionnez ensuite une date dans le menu **[!UICONTROL Mois de début]** (ou **[!UICONTROL Date de début]**) et une date dans le menu # ou Jours). Pour les rapports de domaine ou de contenu vidéo, vous pouvez choisir une date de début et une date de fin spécifiques pour la capture des informations du rapport.
+* **Période personnalisée** : dans le menu Rapport prédéfini, sélectionnez **[!UICONTROL Personnalisé]**. Choisissez ensuite une date dans le menu **[!UICONTROL Mois de début]** (ou **[!UICONTROL Date de début]**) et une date dans le menu # de mois (ou # ou Jours). Pour les rapports de domaine ou de contenu vidéo, vous pouvez choisir une date de début et une date de fin spécifiques pour la capture des informations du rapport.
 
-* **Trier les données (vue de données uniquement)** : triez les informations dans une colonne. Sélectionnez l’en-tête de la colonne. Sélectionnez à nouveau pour trier dans l’ordre décroissant.
+* **Trier les données (vue de données uniquement)** : trier les informations dans une colonne. Sélectionnez l’en-tête de la colonne. Sélectionnez à nouveau pour trier par ordre décroissant.
 
-* **Réorganiser les colonnes (vue Données uniquement)** : pour déplacer une colonne vers un autre emplacement de la grille de données, faites glisser son en-tête.
+* **Réorganiser les colonnes (vue de données uniquement)** : pour déplacer une colonne vers un autre emplacement sur la grille de données, faites glisser son en-tête.
 
 ### Exporter et imprimer des rapports {#exporting-and-printing-reports}
 
 Après avoir généré un rapport, vous pouvez exporter ses données pour une utilisation dans des feuilles de calcul et d’autres applications. Vous pouvez également imprimer des rapports.
 
-* **Exporter les données du rapport** : dans la vue Données, triez et organisez les données selon vos besoins. Ouvrez ensuite le menu **[!UICONTROL Export]** et sélectionnez un format : **[!UICONTROL Tab Delimited]**, **[!UICONTROL Virgule Separated]** ou **[!UICONTROL HTML Formatted]**. Les données sont copiées dans le Presse-papiers au format que vous choisissez. Vous pouvez à présent coller les données dans une feuille de calcul ou une application.
+* **Exporter les données du rapport** : dans la vue Données, triez et organisez les données selon vos besoins. Ouvrez ensuite le menu **[!UICONTROL Exporter]** et choisissez un format : **[!UICONTROL Délimité par des tabulations]**, **[!UICONTROL Séparé par des virgules]** ou **[!UICONTROL Formaté en HTML]**. Les données sont copiées dans le Presse-papiers au format choisi. Vous pouvez à présent coller les données dans une feuille de calcul ou une application.
 
-* **Imprimer un rapport** : sélectionnez **[!UICONTROL Imprimer]**, choisissez les options de votre choix dans la boîte de dialogue Imprimer, puis sélectionnez **[!UICONTROL OK]**.
+* **Imprimer un rapport** : sélectionnez **[!UICONTROL Imprimer]**, choisissez les options souhaitées dans la boîte de dialogue Imprimer, puis sélectionnez **[!UICONTROL OK]**.
 
 ## Erreurs d’image {#image-errors}
 
-Les administrateurs Adobe Dynamic Media Classic peuvent générer des rapports d’erreurs d’image. Un rapport d’erreurs d’image fournit la liste des 20 erreurs d’image les plus fréquentes sur les dernières 24 heures, pour l’entreprise à laquelle vous êtes actuellement connecté. Pour générer un rapport d’erreur d’image, procédez comme suit :
+Les administrateurs Adobe Dynamic Media Classic peuvent générer des rapports d’erreur d’image. Un rapport d’erreurs d’image fournit la liste des 20 erreurs d’image les plus fréquentes sur les dernières 24 heures, pour l’entreprise à laquelle vous êtes actuellement connecté. Pour générer un rapport d’erreur d’image, procédez comme suit :
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration personnelle]**.
-1. Développez Configuration de l’administration, puis sélectionnez **[!UICONTROL Erreurs d’image]**.
+1. Développez Administration Configuration, puis sélectionnez **[!UICONTROL Erreurs d’image]**.
 1. (Facultatif) Utilisez l’une des méthodes suivantes :
 
-   * Pour trier les erreurs selon les informations d’en-tête, sélectionnez un en-tête. Par défaut, les erreurs sont triées par nombre d’occurrences, du plus élevé au moins élevé.
+   * Pour trier les erreurs en fonction des informations d’en-tête, sélectionnez un en-tête. Par défaut, les erreurs sont triées par nombre d’occurrences, du plus élevé au moins élevé.
    * Placez le curseur sur le champ Réponse d’une erreur pour afficher le message d’erreur correspondant.
-   * Pour afficher le lien vers l’image ou la page Web du référent, placez le curseur sur le champ URL ou le champ Référent .
+   * Pour voir le lien vers l’image ou la page Web du référent, déplacez le curseur sur le champ URL ou le champ Référent .
    * Pour copier le lien vers l’image réelle, sélectionnez **[!UICONTROL URL de copie]**. Vous pouvez coller ce lien dans un navigateur pour accéder à l’image et étudier l’erreur.
-   * Pour copier le lien vers la page Web du référent, sélectionnez **[!UICONTROL Referrer Copy URL]**.
+   * Pour copier le lien vers la page Web du référent, sélectionnez **[!UICONTROL URL de copie du référent]**.
 
 Les erreurs affichées concernent la société à laquelle vous êtes actuellement connecté. Les informations suivantes sont indiquées pour chaque erreur :
 
-* **ID image** : ID de l’image offensante.
+* **Identifiant de l’image** : identifiant de l’image incriminée.
 
-* **Durée** : période de la première fois où l’erreur a été signalée à la dernière fois où l’erreur a été signalée, au cours des dernières 24 heures.
+* **Heure** : période entre la première fois où l’erreur a été signalée et la dernière fois où l’erreur a été signalée, au cours des dernières 24 heures.
 
-* **Count** : nombre d’erreurs signalées sur l’image.
+* **Nombre** : nombre d’erreurs signalées sur l’image.
 
 * **Réponse** : message d’erreur spécifique. Les erreurs sont soit 4xx soit 5xx.
 
 * **URLs** : répertorie l’URL de l’image sur Adobe Dynamic Media Classic.
 
-* **Référent** : spécifie l’URL du site Web d’où provient la requête initiale. Le référent peut être n’importe quel site Web ayant un lien vers l’image.
+* **Référent** : indique l’URL du site Web d’où provient la demande initiale. Le référent peut être n’importe quel site web comportant un lien vers l’image.
 
 Les colonnes URL et Référent disposent de boutons Copier l’URL qui permettent de simplifier les tests.
