@@ -9,7 +9,7 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: fc2138cc9fd08cb4ce7466724af03f0901edebf3
+source-git-commit: dd799969ff9fd2638537254ae928a598eec627a3
 workflow-type: tm+mt
 source-wordcount: '1995'
 ht-degree: 29%
@@ -153,9 +153,9 @@ Le tableau suivant décrit les rapports que vous pouvez générer à partir de l
 
 | Rapport | Informations | Utilité |
 | --- | --- | --- |
-| Bande passante | | <!-- CQDOC-22504 --> **IMPORTANT** : l’onglet Bande passante n’est plus pris en charge. Bien qu’elles apparaissent toujours dans l’interface utilisateur, les données de bande passante ne sont pas disponibles et toutes les valeurs s’affichent sous la forme `0`. |
+| Bande passante | | **IMPORTANT** : l’onglet Bande passante n’est plus pris en charge. Bien qu’elles apparaissent toujours dans l’interface utilisateur, les données de bande passante ne sont pas disponibles et toutes les valeurs s’affichent sous la forme `0`. |
 | Stockage | Utilisation de l’espace de stockage | Effectuez le suivi de la quantité de données téléchargées par l’entreprise. |
-| Contenu de l’image | Affiche le nombre total d’accès et le volume de diffusion d’images, répartis par type et sous-type de requête. | Effectuez le suivi du nombre de requêtes et du volume pour différents types d’images, y compris les mesures provenant de ressources non vidéo. <!-- CQDOC-22504 --> |
+| Contenu de l’image | Affiche le nombre total d’accès et le volume de diffusion d’images, répartis par type et sous-type de requête. | Effectuez le suivi du nombre de requêtes et du volume pour différents types d’images, y compris les mesures provenant de ressources non vidéo. |
 | Domaine | Nombre de demandes d’URL par domaine | Observe l’utilisation des images en fonction du domaine de la demande d’image pour une entreprise spécifique. (Adobe Dynamic Media Classic peut fournir plusieurs domaines par compte. Pour plus d’informations, contactez l’assistance technique.) |
 | Diffusion de vidéo en flux continu | Utilisation de la bande passante pour la diffusion de vidéo en flux continu | Observe l’utilisation de la diffusion de vidéo en flux continu par entreprise dans un intervalle de temps spécifié afin de définir des schémas de trafic. |
 | Contenu vidéo | Temps de lecture de différentes vidéos | Détermine quelles sont les vidéos les plus visionnées et les moins visionnées. |
