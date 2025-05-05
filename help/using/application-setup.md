@@ -161,7 +161,7 @@ Les administrateurs peuvent créer des paramètres prédéfinis pour l’exporta
 
 Pour ouvrir l’écran Paramètre d’image prédéfini, dans la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres d’image prédéfinis]**.
 
-Voir [Imagerie dynamique](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Voir [Imagerie dynamique](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Création et modification des paramètres d’image prédéfinis {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ En combinant dans un seul lecteur les éléments suivants :
 
 Vous étendez la portée de votre contenu multimédia aux utilisateurs de bureau, de tablette et de mobile, et garantissez une expérience vidéo rationalisée.
 
-Voir [À propos des visionneuses HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses d’Adobe.
+Voir [À propos des visionneuses HTML5](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses d’Adobe.
 
 Voir la [matrice de compatibilité des paramètres prédéfinis de la visionneuse Adobe Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Voir aussi [Exemples de bibliothèques de références de visionneuses d’Adobe
 
 Différentes pages Web ont des besoins différents. Il arrive que vous souhaitiez une page Web qui fournit un lien qui ouvre la visionneuse HTML5 dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer la visionneuse HTML5 directement sur la page d’hébergement. Dans ce dernier cas, la page Web a probablement une disposition statique. Il est également &quot;réactif&quot; et s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, les visionneuses HTML5 fournies avec Adobe Dynamic Media Classic prennent en charge les pages web statiques et les pages web adaptées.
 
-Pour plus d’informations sur la manière d’incorporer des visionneuses réactives dans vos pages web, voir [À propos de la bibliothèque d’images réactives](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Utiliser la bibliothèque d’images réactives](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) et [Référence de commande : attributs de commande](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Pour plus d’informations sur la manière d’incorporer des visionneuses réactives dans vos pages web, voir [À propos de la bibliothèque d’images réactives](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Utiliser la bibliothèque d’images réactives](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) et [Référence de commande : attributs de commande](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Types de paramètres prédéfinis de visionneuse {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Voir aussi [Exemples de bibliothèques de références de visionneuses d’Adobe
 
 Pour plus d’informations sur les versions de navigateur Web et de système d’exploitation prises en charge pour les visionneuses, vous pouvez consulter les notes de mise à jour des visionneuses.
 
-Voir [Notes de mise à jour de référence des visionneuses Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+Voir [Notes de mise à jour de référence des visionneuses Adobe](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources).
 
 |  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Smartphone Android™ | Tablette Android™ |
 |--- |--- |--- |--- |--- |--- |--- |

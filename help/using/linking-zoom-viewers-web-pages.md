@@ -47,7 +47,7 @@ Vos sites Web et applications accèdent au contenu du serveur d’images Dynamic
 
 En règle générale, les visiteurs effectuent un zoom sur les images d’un site web en sélectionnant d’abord une icône Zoom (souvent l’icône affiche l’image d’une loupe). La sélection de cette icône lance une page Web dynamique (ASP ou JSP) qui affiche l’image dans une fenêtre contextuelle. C’est dans cette fenêtre contextuelle que les visiteurs effectuent un zoom sur l’image.
 
-Pour plus d’informations et d’exemples de code, consultez la [visionneuse de zoom de base HTML5 intégrée dans le guide de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Pour plus d’informations et d’exemples de code, consultez la [visionneuse de zoom de base HTML5 intégrée dans le guide de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copie de la copie incorporée d’une visionneuse de zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 

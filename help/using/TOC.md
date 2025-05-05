@@ -22,7 +22,7 @@ ht-degree: 18%
    + [Comparaison des listes de fonctionnalités](upgrade-feature-comparison.md)
    + [Liste de contrôle de l’état de préparation](upgrade-readiness.md)
 + [Guide Adobe Dynamic Media Classic](home.md)
-+ [Tutoriel sur les bonnes pratiques Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [Tutoriel sur les bonnes pratiques Adobe Dynamic Media Classic](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [NOUVELLE ouverture de session Adobe Dynamic Media Classic désormais disponible](new-ui-2020.md)
 + [Archivage de la newsletter Dynamic Media Adobe par Experience League](dynamic-media-newsletter.md)
 + Présentation d’Adobe Dynamic Media Classic {#intro}

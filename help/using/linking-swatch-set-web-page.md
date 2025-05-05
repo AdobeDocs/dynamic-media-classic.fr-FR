@@ -48,7 +48,7 @@ Après avoir publié une série d’échantillons, vous pouvez utiliser l’URL 
 
 La méthode la plus courante pour déployer des séries d’échantillons consiste à placer un lien (par le biais d’une icône de navigation) sur votre page Web. Lorsqu’il est sélectionné, le lien lance une page dynamique (ASP ou JSP) qui affiche la série d’échantillons dans une fenêtre de zoom contextuelle. Le lien de zoom ouvre une fenêtre contextuelle qui contient la fonction de zoom réelle.
 
-Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le guide de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Pour plus d’informations et d’exemples de code, voir [Incorporation de la visionneuse de zoom HTML5 dans le guide de référence des visionneuses d’Adobes](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copie du code incorporé d’une visionneuse d’échantillons {#copying-the-embed-code-of-a-swatch-set-viewer}
 

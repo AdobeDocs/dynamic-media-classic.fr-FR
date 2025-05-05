@@ -30,7 +30,7 @@ Avant de transférer un fichier d’image, vous devez d’abord demander une cl�
 
 ## Demande d’une clé de secret partagé {#requesting-a-shared-secret-key}
 
-Demandez une *clé-secret partagée* à l&#39;aide de l&#39;Admin Console pour créer un cas de support.[&#128279;](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Dans le cas de l’assistance technique, demandez une clé de secret partagé.
+Demandez une *clé-secret partagée* à l&#39;aide de l&#39;Admin Console pour créer un cas de support.[&#128279;](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) Dans le cas de l’assistance technique, demandez une clé de secret partagé.
 
 Dans le message électronique, indiquez le nom d’entreprise que vous voulez utiliser pour transférer les fichiers d’image. Une fois que vous avez reçu la clé d’Adobe Dynamic Media Classic, enregistrez-la localement pour une utilisation ultérieure.
 

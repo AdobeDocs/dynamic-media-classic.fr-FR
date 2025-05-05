@@ -26,7 +26,7 @@ Voir [Questions fréquentes](new-ui-2020.md). Nouvelles mises à jour au 7 mai 2
 
 ## Ressources pour les développeurs Dynamic Media
 
-* [Page d’entrée Ressources du développeur Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources) : comprend :
+* [Page d’entrée Ressources du développeur Dynamic Media](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources) : comprend :
    * Guide de référence des visionneuses
    * API de diffusion d’images/rendu d’images
    * API du système de production d’images
@@ -36,7 +36,7 @@ Voir [Questions fréquentes](new-ui-2020.md). Nouvelles mises à jour au 7 mai 2
 ## Ressources utilisateur d’Adobe Dynamic Media Classic
 
 * [Newsletter mensuelle Dynamic Media](dynamic-media-newsletter.md)
-* [Tutoriel sur les bonnes pratiques Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Tutoriel sur les bonnes pratiques Adobe Dynamic Media Classic](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Guide : Guide des bonnes pratiques relatives à l’accentuation des images](/help/using/assets/s7_sharpening_images.pdf)
 * [Guide : Comment Adobe Dynamic Media Classic prend en charge SEO](/help/using/assets/s7_seo.pdf) : les moteurs de recherche activent aujourd’hui la recherche de sites web et d’images. Adobe Dynamic Media Classic prend en charge les efforts visant à rendre les moteurs de recherche d’images plus conviviaux, de sorte que davantage de trafic soit dirigé vers le site web de l’utilisateur Adobe Dynamic Media Classic. Ce guide en PDF vous donne les informations générales et les recommandations de mise en oeuvre pour que cela se produise.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->

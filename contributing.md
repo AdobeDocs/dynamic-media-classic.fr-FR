@@ -58,4 +58,4 @@ L’Adobe accueille favorablement toute contribution. Les contributions sont exa
 
 ## Informations supplémentaires
 
-Voir [Guide du contributeur de documents d’Adobe](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) pour plus d’informations sur l’utilisation de la plateforme de création GitHub.
+Voir [Guide du contributeur de documents d’Adobe](https://experienceleague.adobe.com/fr/docs/contributor/contributor-guide/introduction) pour plus d’informations sur l’utilisation de la plateforme de création GitHub.

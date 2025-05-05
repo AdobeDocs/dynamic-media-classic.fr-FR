@@ -233,7 +233,7 @@ Pour télécharger et *silencieusement* installer la dernière version de l’ap
 
 ## Présentation vidéo lors de l’utilisation de l’application de bureau Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
-Regardez une [présentation vidéo sur l’utilisation de l’application de bureau Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (durée : 2 minutes 36 secondes).
+Regardez une [présentation vidéo sur l’utilisation de l’application de bureau Adobe Dynamic Media Classic](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (durée : 2 minutes 36 secondes).
 
 ## Effacement du cache des images et du cache des ressources sur votre ordinateur à l’aide de l’appli de bureau {#clear-cache}
 

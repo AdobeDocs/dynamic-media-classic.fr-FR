@@ -25,14 +25,14 @@ Les services d’assistance technique sont conçus pour répondre aux besoins de
 | --- | --- |
 | Nombre de cas | Illimitées. |
 | Vérification de l’état du système d’Adobe | [État du système Adobe Dynamic Media Classic](https://status.adobe.com/products/1175). |
-| Vous ne trouvez pas de réponse ? | [Pour obtenir de l’aide de l’assistance, ouvrez un ticket](https://experienceleague.adobe.com/?support-solution=General#support). |
-| Forum communautaire | [Forum de la communauté Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
-| Contrats de niveau de service (SLA) | [Services d’assistance / Conditions générales](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
+| Vous ne trouvez pas de réponse ? | [Pour obtenir de l’aide de l’assistance, ouvrez un ticket](https://experienceleague.adobe.com/fr?support-solution=General#support). |
+| Forum communautaire | [Forum de la communauté Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=fr). |
+| Contrats de niveau de service (SLA) | [Services d’assistance / Conditions générales](https://helpx.adobe.com/fr/support/programs/support-policies-terms-conditions.html). |
 | Utilisateurs pris en charge | Jusqu’à dix utilisateurs par organisation peuvent être désignés comme des utilisateurs pris en charge, qui peuvent ouvrir des dossiers auprès de l’assistance clientèle. |
 | Vidéos de formation en ligne et de formation gratuites | Inclus. |
-| Assistance téléphonique | <ul><li>États-Unis et Canada : 1-800-497-0335 </li><li>[Numéros de téléphone pour les autres régions](https://experienceleague.adobe.com/?support-tab=home#support). </li></ul> |
+| Assistance téléphonique | <ul><li>États-Unis et Canada : 1-800-497-0335 </li><li>[Numéros de téléphone pour les autres régions](https://experienceleague.adobe.com/fr?support-tab=home#support). </li></ul> |
 
-<!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
+<!-- |Create a support case| [https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 
 Lorsque vous signalez des problèmes à l’assistance technique, vous devez disposer des informations suivantes :
 
