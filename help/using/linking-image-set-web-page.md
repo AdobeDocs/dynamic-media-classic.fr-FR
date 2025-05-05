@@ -40,7 +40,7 @@ Après avoir publié une visionneuse d’images, vous pouvez copier l’URL asso
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
 
-   * Sélectionnez **[!UICONTROL Affichage de la grille]**, **** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Sélectionnez **[!UICONTROL Affichage de la grille]**, **&#x200B;**&#x200B;ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
 
@@ -69,7 +69,7 @@ L’utilisation de la fonction Code incorporé permet de vérifier le code de la
 
      Dans la page Liste des visionneuses, dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 
-   * Sélectionnez **[!UICONTROL Affichage de la grille]**, **** ou **Affichage des détails**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Sélectionnez **[!UICONTROL Affichage de la grille]**, **&#x200B;**&#x200B;ou **Affichage des détails**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
      Dans la page Liste des visionneuses, dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 

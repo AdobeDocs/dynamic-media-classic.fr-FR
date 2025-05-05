@@ -39,7 +39,7 @@ Vos sites Web et applications accèdent au contenu du serveur d’images Dynamic
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
 
-   * Sélectionnez **[!UICONTROL Affichage de la grille]**, **** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Sélectionnez **[!UICONTROL Affichage de la grille]**, **&#x200B;**&#x200B;ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
 
@@ -67,7 +67,7 @@ La fonction Code incorporé permet de vérifier le code de la visionneuse de zoo
 
      Dans la page Liste des visionneuses, dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 
-   * Sélectionnez **[!UICONTROL Affichage de la grille]**, **** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Sélectionnez **[!UICONTROL Affichage de la grille]**, **&#x200B;**&#x200B;ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
      Dans la page Liste des visionneuses, dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 

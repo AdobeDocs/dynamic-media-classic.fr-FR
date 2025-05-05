@@ -67,7 +67,7 @@ Voir aussi [Incorporation de la visionneuse de vidéos dans une page web](deploy
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**. Il est recommandé de copier l’URL associée à la visionneuse `Universal_HTML5_Video`.
 
-   * Sélectionnez **[!UICONTROL Affichage de la grille]**, **** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Sélectionnez **[!UICONTROL Affichage de la grille]**, **&#x200B;**&#x200B;ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
      Dans la page Liste des visionneuses, sous la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**. Il est recommandé de copier l’URL associée à la visionneuse `Universal_HTML5_Video`.
 
@@ -94,7 +94,7 @@ Voir aussi [Lier une URL de vidéo à un site mobile ou à un site web](deployin
 
      Dans la page Liste des visionneuses, dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**. En règle générale, sélectionnez le **[!UICONTROL code incorporé]** associé à la visionneuse `Universal_HTML5_Video`.
 
-   * Sélectionnez **[!UICONTROL Affichage de la grille]**, **** ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
+   * Sélectionnez **[!UICONTROL Affichage de la grille]**, **&#x200B;**&#x200B;ou **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
 
      Dans la page Liste des visionneuses, dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**. En règle générale, sélectionnez le **[!UICONTROL code incorporé]** associé à la visionneuse `Universal_HTML5_Video`.
 
