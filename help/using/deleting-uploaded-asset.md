@@ -1,5 +1,5 @@
 ---
-title: Suppression d’une ressource d’image pixellisée chargée
+title: Suppression d’une ressource d’image matricielle chargée
 description: Découvrez comment supprimer une ressource chargée dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,7 +18,7 @@ ht-degree: 33%
 
 # Supprimer un fichier téléchargé{#deleting-an-uploaded-asset}
 
-Vous pouvez utiliser le paramètre `delete` dans ce format pour supprimer une ressource :
+Vous pouvez utiliser le paramètre `delete` au format suivant pour supprimer une ressource :
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
@@ -47,18 +47,18 @@ Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pou
 | Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
 | --- | --- | --- |
 | `op` | Obligatoire | supprimer |
-| `shared_secret` | Obligatoire | Clé qui est un secret partagé pour la société. |
+| `shared_secret` | Obligatoire | La clé qui est un secret partagé pour l’entreprise. |
 | `image_name` | Obligatoire | Nom de la ressource à supprimer. |
 
 <!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
 >
->À compter du 1er mai 2023, les ressources UGC dans Dynamic Media pourront être utilisées pendant 60 jours à compter de la date de téléchargement. Au bout de 60 jours, les ressources seront supprimées.
+>À compter du 1er mai 2023, les ressources UGC dans Dynamic Media pourront être utilisées pendant 60 jours à compter de la date de chargement. Au bout de 60 jours, les ressources seront supprimées.
 
 >[!NOTE]
 >
->La prise en charge des ressources d’image vectorielle UGC nouvelles ou existantes dans Adobe Dynamic Media Classic s’est terminée le 30 septembre 2021.
+>La prise en charge des ressources d’images vectorielles UGC nouvelles ou existantes dans Adobe Dynamic Media Classic a pris fin le 30 septembre 2021.
 
 **Exemple d’URL d’image :**
 

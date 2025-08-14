@@ -19,15 +19,15 @@ ht-degree: 44%
 
 # Préparation du chargement de ressources de visionneuse d’images{#preparing-image-set-assets-for-upload}
 
-Avant de télécharger les images dont vous avez besoin pour les visionneuses d’images vers Adobe Dynamic Media Classic, assurez-vous que la taille et le format des images sont corrects.
+Avant de charger les images dont vous avez besoin pour les visionneuses d’images vers Adobe Dynamic Media Classic, assurez-vous que la taille et le format des images sont corrects.
 
 Pour créer une visionneuse d’images avec des vues multiples, vos images doivent montrer un objet selon différentes perspectives ou montrer différents aspects d’un même article. L’objectif est de mettre en lumière les caractéristiques principales d’un objet pour présenter aux utilisateurs une image fidèle à son apparence et à sa fonction.
 
-Comme il est possible d’effectuer un zoom sur les images de la visionneuse, vérifiez que la dimension la plus grande des images correspond au moins à 2 000 pixels. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichier image, mais les formats TIFF, PNG et EPS sans perte sont recommandés.
+Comme il est possible d’effectuer un zoom sur les images de la visionneuse, vérifiez que la dimension la plus grande des images correspond au moins à 2 000 pixels. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichiers image, mais les formats sans perte TIFF, PNG et EPS sont recommandés.
 
-Pour obtenir des instructions détaillées sur le chargement de ressources, reportez-vous à la section [Téléchargement de fichiers](uploading-files.md#uploading_files).
+Pour obtenir des instructions détaillées sur le chargement de ressources, voir [Charger des fichiers](uploading-files.md#uploading_files).
 
 >[!MORELIKETHIS]
 >
->* [Télécharger vos fichiers](uploading-files.md#uploading_your_files)
->* [Utilisation de vignettes, de recouvrements de fenêtre et de fichiers de cabinet](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [Chargez vos fichiers](uploading-files.md#uploading_your_files)
+>* [Utiliser des vignettes, des couvre-fenêtres et des fichiers CAB](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)

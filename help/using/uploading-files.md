@@ -26,7 +26,7 @@ Avant de charger des ressources vers Adobe Dynamic Media Classic, assurez-vous q
 
 ### Formats de fichiers pris en charge {#supported-asset-file-formats}
 
-Ce tableau répertorie les formats de fichiers de ressources pris en charge par Adobe Dynamic Media Classic. Pour plus d’informations sur les fichiers Camera Raw pris en charge, voir [https://helpx.adobe.com/fr/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/fr/camera-raw/using/supported-cameras.html).
+Ce tableau répertorie les formats de fichiers de ressources pris en charge par Adobe Dynamic Media Classic. Pour plus d’informations sur les fichiers Camera Raw pris en charge, voir [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Formats de fichiers | Description |
 | --- | --- |
@@ -267,7 +267,7 @@ Voir [ Utilisation de paramètres prédéfinis de codage vidéo](uploading-encod
 
 * **Plus de métadonnées** : entrez des mots-clés qui décrivent les fichiers que vous avez l’intention de télécharger. Séparez les mots clés-par des virgules. Les mots-clés facilitent la recherche de ressources.
 Voir [Réalisation d’une recherche avancée](searching-assets.md#conducting_an_advanced_search).
-Consultez également la vidéo de formation [Charger des mots-clés](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) .
+Consultez également la vidéo de formation [Charger des mots-clés](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) .
 
 * **Paramètres prédéfinis de lot** : pour créer une visionneuse d’images, à 360° ou une visionneuse d’échantillons à partir des fichiers chargés, sélectionnez la colonne **[!UICONTROL Actif]** du paramètre prédéfini à utiliser. Rien ne vous empêche de sélectionner plusieurs paramètres prédéfinis. Vous pouvez créer les paramètres prédéfinis dans la page Configuration de l’application/Paramètres prédéfinis d’ensemble par lot .
 (voir [Paramètres prédéfinis d’ensemble par lot](application-setup.md#batch_set_presets)).

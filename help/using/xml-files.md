@@ -1,6 +1,6 @@
 ---
 title: Fichiers XML
-description: Les sites Web qui utilisent un système XML pour gérer les images et les informations sur les images peuvent charger des fichiers XML vers Adobe Dynamic Media Classic. Découvrez les fichiers XML.
+description: Les sites Web qui utilisent un système XML pour gérer les images et les informations d’image peuvent charger des fichiers XML vers Adobe Dynamic Media Classic. En savoir plus sur les fichiers XML.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -18,4 +18,4 @@ ht-degree: 17%
 
 # Fichiers XML {#xml-files}
 
-Les sites Web qui utilisent un système XML pour gérer les images et les informations sur les images peuvent charger des fichiers XML vers Adobe Dynamic Media Classic. Vous pouvez désigner l’un de ces fichiers comme fichier de jeu de règles de prétraitement pour le serveur d’images. Ce fichier restructure le format du protocole standard du serveur d’images pour répondre à la logique de travail de votre serveur. Dans l’écran Configuration, vous pouvez spécifier un fichier XML qui servira de chemin d’accès au fichier de définitions de l’ensemble de règles. Ce paramétrage du chemin d’accès se trouve sous la section Gestion de catalogue de l’écran Publication Image Server (voir [Image Server](publish-setup.md#image_server)).
+Les sites Web qui utilisent un système XML pour gérer les images et les informations d’image peuvent charger des fichiers XML vers Adobe Dynamic Media Classic. Vous pouvez désigner l’un de ces fichiers comme fichier d’ensemble de règles de prétraitement pour la diffusion d’images. Ce fichier restructure le format standard du protocole de diffusion d’images pour répondre à la logique de travail de votre serveur . Dans l’écran Configuration , vous pouvez spécifier un fichier XML qui servira de chemin d’accès au fichier de définitions d’ensemble de règles. Ce paramétrage du chemin d’accès se trouve sous la section Gestion de catalogue de l’écran Publication Image Server (voir [Image Server](publish-setup.md#image_server)).

@@ -18,17 +18,17 @@ ht-degree: 24%
 
 # À propos du chargement et de la publication de ressources {#about-uploading-and-publishing-assets}
 
-Votre travail dans Adobe Dynamic Media Classic repose sur trois éléments de base :
+Votre travail dans Adobe Dynamic Media Classic s’articule autour de trois axes :
 
-* Chargement de fichiers dans Adobe Dynamic Media Classic.
+* Chargement des ressources de fichiers vers Adobe Dynamic Media Classic.
 * la gestion de vos fichiers de manière à pouvoir les utiliser pour créer des fichiers de média enrichi ;
-* Publier vos fichiers de ressources sur un serveur Dynamic Media Classic afin qu’ils puissent être diffusés sur votre site web et dans votre application.
+* Publier vos fichiers de ressources sur un serveur Dynamic Media Classic afin qu’ils soient disponibles pour diffusion sur votre site web et votre application.
 
 Lorsque vous chargez des fichiers de ressources vers Adobe Dynamic Media Classic et que vous publiez des fichiers de ressources sur les serveurs Adobe Dynamic Media Classic, le système enregistre ces transferts de fichiers sur la page **[!UICONTROL Tâches]**. Vous pouvez accéder à cette page pour suivre et surveiller vos activités de téléchargement et de publication.
 
 >[!NOTE]
 >
->Lorsque vous chargez un fichier, Adobe Dynamic Media Classic génère l’URL correspondante. Cette URL reste inactive tant que le fichier n’a pas été publié.
+>Lorsque vous téléchargez un fichier, Adobe Dynamic Media Classic génère l’URL de ce fichier. Cette URL reste inactive tant que le fichier n’a pas été publié.
 
 <!-- >[!NOTE]
 >

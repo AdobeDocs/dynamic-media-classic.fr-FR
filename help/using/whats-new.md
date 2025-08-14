@@ -1,6 +1,6 @@
 ---
 title: Nouveautés
-description: Découvrez les nouveautés d’Adobe Dynamic Media Classic au moyen des notes de mise à jour actuelles.
+description: Découvrez les nouveautés d’Adobe Dynamic Media Classic dans les notes de mise à jour actuelles.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 # Nouveautés {#what-s-new}
 
-Pour consulter les dernières informations de mise à jour d’Adobe Dynamic Media Classic, y compris les nouvelles fonctionnalités, les améliorations et les correctifs, voir les [Notes de mise à jour d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/release-notes/s7rn2017).
+Pour consulter les informations les plus récentes sur Adobe Dynamic Media Classic, notamment les nouvelles fonctionnalités, les améliorations et les correctifs, consultez les [Notes de mise à jour d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017).

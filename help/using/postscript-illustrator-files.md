@@ -1,6 +1,6 @@
 ---
-title: Utilisation de fichiers PostScript et Illustrator
-description: Découvrez comment utiliser des fichiers PostScript et Illustrator dans Adobe Dynamic Media Classic.
+title: Utiliser des fichiers PostScript et Illustrator
+description: Découvrez comment utiliser les fichiers PostScript et Illustrator dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,15 +17,15 @@ ht-degree: 36%
 
 ---
 
-# Utilisation de fichiers PostScript et Illustrator{#working-with-postscript-and-illustrator-files}
+# Utiliser des fichiers PostScript et Illustrator{#working-with-postscript-and-illustrator-files}
 
-Vous pouvez utiliser des fichiers Adobe PostScript® (EPS) et Adobe® Illustrator® (AI) dans Adobe Dynamic Media Classic. Adobe Dynamic Media Classic propose des commandes pour configurer ces fichiers au fur et à mesure de leur chargement.
+Vous pouvez utiliser les fichiers Adobe PostScript® (EPS) et Adobe® Illustrator® (AI) dans Adobe Dynamic Media Classic. Adobe Dynamic Media Classic propose des commandes pour configurer ces fichiers au fur et à mesure de leur chargement.
 
 Lorsque vous téléchargez des fichiers d’image PostScript (EPS) ou Illustrator (AI), vous pouvez les formater différemment. Vous pouvez pixelliser les fichiers, les convertir au format FXG pour le module de publication à l’aide de modèles prédéfinis, conserver l’arrière-plan transparent, choisir une résolution et sélectionner un espace colorimétrique. Les options de formatage des fichiers PostScript et Illustrator sont disponibles dans les sections Options PostScript et Options Illustrator de la boîte de dialogue Télécharger les options de la tâche. 
 
-* **[!UICONTROL Traitement]** : choisissez **[!UICONTROL Pixelliser]** pour convertir les graphiques vectoriels du fichier au format bitmap.
+* **[!UICONTROL Traitement]** : sélectionnez **[!UICONTROL Pixelliser]** pour convertir les graphiques vectoriels du fichier au format bitmap.
 
-* **[!UICONTROL Conserver l’arrière-plan transparent dans l’image affichée]** : conserve la transparence de l’arrière-plan du fichier.
+* **[!UICONTROL Conserver l’arrière-plan transparent dans l’image générée]** : maintient la transparence de l’arrière-plan du fichier.
 
 * **[!UICONTROL Résolution]** : détermine le paramètre de résolution. qui définit le nombre de pixels affichés par pouce dans le fichier.
 
@@ -33,8 +33,8 @@ Lorsque vous téléchargez des fichiers d’image PostScript (EPS) ou Illustrato
 
    * **[!UICONTROL Détecter automatiquement]** : conserve l’espace colorimétrique du fichier.
 
-   * **[!UICONTROL Forcer comme RGB]** : convertit l’espace colorimétrique du RGB.
+   * **[!UICONTROL Forcer comme RGB]** : permet de convertir les couleurs dans l’espace colorimétrique RGB.
 
-   * **[!UICONTROL Forcer comme CMJN]** : convertit l’espace colorimétrique CMJN.
+   * **[!UICONTROL Forcer comme CMJN]** : permet de convertir les couleurs dans l’espace colorimétrique CMJN.
 
-   * **[!UICONTROL Forcer comme Niveaux de gris]** : convertit l’espace colorimétrique Niveaux de gris en Niveaux de gris.
+   * **[!UICONTROL Forcer comme Niveaux de gris]** : permet de convertir en niveaux de gris l’espace colorimétrique.

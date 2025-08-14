@@ -1,6 +1,6 @@
 ---
-title: Affichage des ressources dans le panneau Parcourir
-description: Découvrez comment utiliser le panneau Parcourir pour afficher les ressources dans Adobe Dynamic Media Classic.
+title: Affichage des ressources dans le panneau de navigation
+description: Découvrez comment utiliser le panneau de navigation pour afficher des ressources dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,16 +17,16 @@ ht-degree: 11%
 
 ---
 
-# Affichage des ressources dans le panneau Parcourir{#viewing-assets-in-the-browse-panel}
+# Affichage des ressources dans le panneau de navigation{#viewing-assets-in-the-browse-panel}
 
-Vous pouvez modifier l’affichage des ressources dans le panneau Parcourir en sélectionnant un bouton Afficher :
+Vous pouvez modifier l’affichage des ressources dans le panneau Parcourir en sélectionnant un bouton Affichage :
 
-* **Affichage de la grille** : près du coin supérieur droit de l’écran Adobe Dynamic Media Classic, sélectionnez l’icône **[!UICONTROL Affichage de la grille]** pour afficher les ressources sous forme de miniature dans une grille. En mode d’affichage Grille, vous pouvez faire glisser le curseur Miniature pour modifier la taille des images miniatures.
+* **Vue Grille** : dans le coin supérieur droit de l’écran Adobe Dynamic Media Classic, sélectionnez l’icône **[!UICONTROL Vue Grille]** pour afficher les ressources sous forme de miniature dans une grille. Dans la vue Grille, vous pouvez faire glisser le curseur Miniature pour modifier la taille des images miniatures.
 
-* **Mode Liste** : près du coin supérieur droit de l’écran d’Adobe Dynamic Media Classic, sélectionnez l’icône **[!UICONTROL Mode Liste]** pour afficher les ressources dans une liste. La liste vous indique le nom, le type, la date de création et la date de la dernière modification de chaque fichier. Selon le type de ressource avec lequel vous travaillez, vous obtenez également d’autres informations. Par exemple, vous pouvez voir les dimensions et la taille de fichier d’une image.
+* **Vue Liste** : dans le coin supérieur droit de l’écran Adobe Dynamic Media Classic, sélectionnez l’icône **[!UICONTROL Vue Liste]** pour afficher les ressources dans une liste. La liste vous indique le nom, le type, la date de création et la date de la dernière modification de chaque fichier. Selon le type de ressource avec lequel vous travaillez, vous obtenez également d’autres informations. Par exemple, vous pouvez voir les dimensions et la taille de fichier d’une image.
 
-* **Affichage des détails** : sélectionnez une ressource. Près du coin supérieur droit de l’écran Adobe Dynamic Media Classic, sélectionnez l’icône **[!UICONTROL Affichage des détails]** pour examiner la ressource dans la vue Détails. Vous pouvez également double-cliquer sur une ressource ou la sélectionner et accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Détails]** pour l’afficher dans la vue Détails. Si l’administrateur a spécifié les préférences Afficher l’URL, les URL s’affichent pour toutes les ressources dans le mode Affichage des détails ; toutefois, les URL ne sont actives qu’après la publication de la ressource.
+* **Vue détaillée** : sélectionnez une ressource. Dans le coin supérieur droit de l’écran Adobe Dynamic Media Classic, sélectionnez l’icône **[!UICONTROL Affichage des détails]** pour examiner la ressource dans l’affichage des détails. Vous pouvez également double-cliquer sur une ressource ou la sélectionner et accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Détails]** pour l’afficher dans la vue Détail. Si votre administrateur a spécifié la préférence Afficher l’URL, des URL s’affichent pour toutes les ressources dans l’affichage des détails. Toutefois, les URL ne sont actives qu’une fois la ressource publiée.
 
 >[!TIP]
 >
->Vous pouvez sélectionner une vue par défaut pour le panneau Parcourir et le faire fonctionner selon vos spécifications. Voir [Configuration personnelle](personal-setup.md#personal_setup).*
+>Vous pouvez sélectionner une vue par défaut pour le panneau Parcourir et faire en sorte que le panneau fonctionne selon vos spécifications. Voir [Configuration personnelle](personal-setup.md#personal_setup).*

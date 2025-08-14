@@ -1,6 +1,6 @@
 ---
 title: Chargement des images principales
-description: Découvrez comment télécharger des images principales dans Adobe Dynamic Media Classic.
+description: Découvrez comment charger des images principales dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -19,16 +19,16 @@ ht-degree: 0%
 
 # Chargement des images principales{#uploading-master-images}
 
-Avant de charger des images dans Adobe Dynamic Media Classic, vérifiez qu’elles ont la taille et le format les plus performants. Adobe Dynamic Media Classic recommande de télécharger des images de haute qualité avec un nombre de pixels suffisant (de 1 500 à 2 000 pixels pour une taille longue). Ce dimensionnement permet d’utiliser n’importe quel Dynamic Imaging requis.
+Avant de charger des images vers Adobe Dynamic Media Classic, assurez-vous qu’elles présentent la taille et le format de qualité les plus élevés. Adobe Dynamic Media Classic recommande de charger des images de haute qualité avec un nombre de pixels suffisant (de 1 500 à 2 000 pixels dans la grande taille). Ce dimensionnement permet d’utiliser toutes les Dynamic Imaging requises.
 
-Pour plus d&#39;informations sur le téléchargement des images, voir [Téléchargement de fichiers](uploading-files.md#uploading_files).
+Pour plus d’informations sur le chargement d’images, voir [Charger des fichiers](uploading-files.md#uploading_files).
 
-**Préparer vos images principales pour la mise en ligne :**
+**Préparez vos images principales pour le chargement :**
 
-Préparez vos fichiers image principaux avant de les télécharger vers Adobe Dynamic Media Classic :
+Préparez vos fichiers d’image principaux avant de les charger vers Adobe Dynamic Media Classic :
 
-* **Taille de l’image** : créez les images de la plus grande taille que vous prévoyez d’utiliser. Les tailles d’image standard sont comprises entre 1 500 et 2 500 pixels pour la taille la plus longue. Si vous envisagez d’utiliser la fonction Zoom, Adobe Dynamic Media Classic recommande d’utiliser des images d’au moins 2 000 pixels de la plus grande taille pour un détail de zoom optimal. Adobe Dynamic Media Classic peut générer des images de 25 mégapixels chacune. Par exemple, vous pouvez utiliser une image de 5 000 × 5 000 MP ou toute autre combinaison de taille pouvant atteindre 25 MP.
+* **Taille de l’image** : créez les images de la plus grande taille que vous prévoyez d’utiliser. Les tailles d’image standard vont de 1 500 à 2 500 pixels dans la plus grande taille. Si vous envisagez d’utiliser la fonction Zoom, Adobe Dynamic Media Classic recommande d’utiliser des images dont la taille la plus longue est d’au moins 2 000 pixels pour un détail de zoom optimal. Adobe Dynamic Media Classic peut générer des images jusqu’à 25 mégapixels chacune. Par exemple, vous pouvez utiliser une image de 5 000 × 5 000 mégapixels ou toute autre combinaison de taille allant jusqu’à 25 mégapixels.
 
-* **Formats de fichier** : Adobe Dynamic Media Classic prend en charge tous les formats de fichier image standard. Ces formats comprennent TIFF, BMP, JPEG, PSD, GIF et EPS. Les formats d’image sans perte (TIFF et PNG) sont recommandés. Si vous utilisez une image de JPEG, utilisez les paramètres de qualité supérieure.
+* **Formats de fichiers** : Adobe Dynamic Media Classic prend en charge tous les formats de fichiers image standard. Ces formats comprennent TIFF, BMP, JPEG, PSD, GIF et EPS. Les formats d’image sans perte (TIFF et PNG) sont recommandés. Si vous utilisez une image JPEG, utilisez des paramètres de qualité optimale.
 
-* **Espace colorimétrique** : le RGB est l’espace colorimétrique des présentations d’images web ; les images CMJN couramment utilisées pour l’impression sont automatiquement converties en RGB lorsque vous les chargez. Il est recommandé de charger des images CMJN ayant un profil colorimétrique ICC (International Color Consortium) incorporé pour la conversion vers RGB. Voir aussi [Profils ICC (International Color Consortium)](/help/using/icc-profiles.md).
+* **Espace colorimétrique** : RGB est l’espace colorimétrique des présentations d’images sur le Web. Les images CMJN couramment utilisées pour l’impression sont automatiquement converties en RGB lorsque vous les chargez. Il est recommandé de charger des images CMJN ayant un profil colorimétrique ICC (International Color Consortium) incorporé pour la conversion en RGB. Voir aussi [Profils ICC (International Color Consortium)](/help/using/icc-profiles.md).

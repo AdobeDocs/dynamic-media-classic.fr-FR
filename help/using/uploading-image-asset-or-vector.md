@@ -1,6 +1,6 @@
 ---
-title: Chargement d’une ressource image pixellisée
-description: Découvrez comment télécharger une ressource d’image pixellisée dans Adobe Dynamic Media Classic.
+title: Chargement d’une ressource d’image matricielle
+description: Découvrez comment charger une ressource d’image matricielle dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -16,43 +16,43 @@ ht-degree: 51%
 
 ---
 
-# Chargement d’une ressource image pixellisée {#uploading-an-image-asset-or-a-vector-asset}
+# Chargement d’une ressource d’image matricielle {#uploading-an-image-asset-or-a-vector-asset}
 
-Avant de transférer un fichier d’image, vous devez d’abord demander une clé de secret partagé. Cette clé vous permet de récupérer un jeton de téléchargement. Vous pouvez ensuite utiliser le jeton de chargement pour charger des ressources d’image pixellisée.
+Avant de transférer un fichier d’image, vous devez d’abord demander une clé de secret partagé. Cette clé vous permet de récupérer un jeton de téléchargement. Utilisez ensuite le jeton de chargement pour charger des ressources d’images pixellisées.
 
 >[!IMPORTANT]
 >
->À compter du 1er mai 2023, les ressources UGC dans Dynamic Media pourront être utilisées pendant 60 jours à compter de la date de téléchargement. Au bout de 60 jours, les ressources seront supprimées.
+>À compter du 1er mai 2023, les ressources UGC dans Dynamic Media pourront être utilisées pendant 60 jours à compter de la date de chargement. Au bout de 60 jours, les ressources seront supprimées.
 
 >[!NOTE]
 >
->La prise en charge de ressources vectorielles UGC nouvelles ou existantes dans Adobe Dynamic Media Classic s’est terminée le 30 septembre 2021.
+>La prise en charge des ressources vectorielles UGC nouvelles ou existantes dans Adobe Dynamic Media Classic a pris fin le 30 septembre 2021.
 
-## Demande d’une clé de secret partagé {#requesting-a-shared-secret-key}
+## Demander une clé secrète partagée {#requesting-a-shared-secret-key}
 
-Demandez une *clé-secret partagée* à l&#39;aide de l&#39;Admin Console pour créer un cas de support.[&#128279;](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) Dans le cas de l’assistance technique, demandez une clé de secret partagé.
+Demandez une *clé secrète partagée* en [ à l’aide d’Admin Console pour créer un dossier de support.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Dans le cas du support technique, demandez une clé secrète partagée.
 
-Dans le message électronique, indiquez le nom d’entreprise que vous voulez utiliser pour transférer les fichiers d’image. Une fois que vous avez reçu la clé d’Adobe Dynamic Media Classic, enregistrez-la localement pour une utilisation ultérieure.
+Dans le message électronique, indiquez le nom d’entreprise que vous voulez utiliser pour transférer les fichiers d’image. Après avoir reçu la clé d’Adobe Dynamic Media Classic, enregistrez-la localement pour une utilisation ultérieure.
 
-## Récupération du jeton de chargement {#retrieving-the-upload-token}
+## Récupérer le jeton de chargement {#retrieving-the-upload-token}
 
 Le *jeton de téléchargement* garantit que personne d’autre que vous n’utilisera la même clé de secret partagé pour télécharger des fichiers. Il garantit le caractère légitime et la fiabilité de la source du téléchargement.
 
-Le jeton de téléchargement est une chaîne numérique uniquement disponible pendant une durée limitée. Utilisez les URL suivantes, en substituant votre clé de secret partagé, afin que vous puissiez récupérer le jeton de chargement.
+Le jeton de téléchargement est une chaîne numérique uniquement disponible pendant une durée limitée. Utilisez les URL suivantes en substituant votre clé secrète partagée afin de récupérer le jeton de chargement.
 
-* Image pixellisée
-  `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`Dans cet exemple, la clé shared-secret est `fece4b21-87ee-47fc-9b99-2e29b78b602`
+* Image matricielle
+  `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`Dans cet exemple, la clé secrète partagée est `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
-Par défaut, le jeton de téléchargement arrive à expiration au terme d’un délai de cinq minutes (300 secondes) après sa récupération. Pour demander plus de temps, incluez `expires` dans l’URL et le temps nécessaire en secondes. Par exemple, l’URL d’image suivante permet de récupérer un jeton de téléchargement valide pendant 1 800 secondes :
+Par défaut, le jeton de téléchargement arrive à expiration au terme d’un délai de cinq minutes (300 secondes) après sa récupération. Pour demander plus de temps, incluez `expires` dans l’URL et indiquez le temps nécessaire en secondes. Par exemple, l’URL d’image suivante permet de récupérer un jeton de téléchargement valide pendant 1 800 secondes :
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-La réponse réussie des images s’affiche comme suit :
+La réponse réussie pour les images ressemble à ce qui suit :
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -80,10 +80,10 @@ Vous pouvez utiliser les champs suivants dans l’URL de requête pour récupér
 | Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
 | --- | --- | --- |
 | op | Obligatoire | get_uploadtoken |
-| shared_secret | Obligatoire | Clé secrète partagée de l’entreprise qui effectue le téléchargement. |
-| expires | Facultatif | Durée de validité (en secondes) du jeton de téléchargement. La valeur par défaut est de 300 secondes, si elle n’est pas spécifiée. |
+| shared_secret | Obligatoire | Clé secrète partagée de la société qui effectue le chargement. |
+| expire | Facultatif | Durée de validité (en secondes) du jeton de téléchargement. La valeur par défaut est de 300 secondes, si elle n’est pas spécifiée. |
 
-**Exemple d’URL d’image pixellisée :**
+**Exemple d’URL d’image matricielle :**
 
 `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=600`
 
@@ -96,9 +96,9 @@ Vous pouvez utiliser les champs suivants dans l’URL de requête pour récupér
 
 Vous pouvez maintenant transférer un fichier d’image.
 
-Voir [Téléchargement d’une ressource image](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+Voir [Chargement d’une ressource image](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Chargement d’une ressource image pixellisée {#uploading-an-image-asset}
+## Chargement d’une ressource d’image matricielle {#uploading-an-image-asset}
 
 Après avoir récupéré un jeton de téléchargement valide pendant une durée limitée, vous pouvez télécharger un fichier d’image. Vous téléchargez le fichier en tant que publication de formulaire ou publication en plusieurs parties tout en envoyant le reste des valeurs en tant que chaîne de requête d’URL, comme dans cet exemple :
 
@@ -108,9 +108,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Les champs `upload_token` et `company_name` sont obligatoires.
 
-Voir [Récupération du jeton de chargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Voir [ Récupération du jeton de chargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Voir [Récupération d’une clé de secret partagé](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+Voir [Récupération d’une clé secrète partagée](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 Vous pouvez également envoyer d’autres valeurs facultatives comme chaînes de requête d’URL, comme dans cet exemple :
 
@@ -118,9 +118,9 @@ Vous pouvez également envoyer d’autres valeurs facultatives comme chaînes de
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-Le paramètre `file_limit` spécifie la limite de taille de fichier en octets. Le paramètre `file_exts` spécifie les extensions de nom de fichier autorisées pour le téléchargement. Ces deux valeurs sont facultatives.
+Le paramètre `file_limit` spécifie la limite de taille de fichier en octets. Le paramètre `file_exts` spécifie les extensions de nom de fichier autorisées pour le chargement. Ces deux valeurs sont facultatives.
 
-Une limite globale est définie dans l’application pour la taille limite des fichiers et les extensions de nom de fichier autorisées. Si ce que vous avez envoyé dans la demande est un sous-ensemble des limites globales, elle est respectée. Les limites globales sont les suivantes :
+Une limite globale est définie dans l’application pour la taille limite des fichiers et les extensions de nom de fichier autorisées. Si ce que vous avez envoyé dans la requête est un sous-ensemble des limites globales, cela est respecté. Les limites globales sont les suivantes :
 
 | Limite globale | Valeur |
 | --- | --- |
@@ -133,14 +133,14 @@ Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier
 * Jeton de chargement.
 * Limite de taille de fichier.
 * Liste des extensions de nom de fichier.
-* Permet de conserver le profil colorimétrique et le nom de fichier associés à la ressource.
-* Utilisation d’un arrière-plan de masquage. Si vous activez l’option Masquer l’arrière-plan, définissez les méthodes Coin, Tolérance et Remplir.
-Voir Masquer l’arrière-plan dans les [options d’optimisation des images lors du téléchargement](image-editing-options-upload.md#image-editing-options-at-upload).
+* Permet de conserver le profil de couleurs et le nom de fichier associés à la ressource.
+* Permet de spécifier si un arrière-plan de K.O. doit être utilisé. Si vous activez Arrière-plan K.O., définissez le coin, la tolérance et la méthode de remplissage.
+Voir Arrière-plan du K.O. dans [Options de réglage d’image au moment du chargement](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nom du fichier à charger.
 
-Vous pouvez afficher le code source d’HTML associé au formulaire ci-dessus en sélectionnant [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Vous pouvez afficher le code source HTML associé au formulaire ci-dessus en sélectionnant [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Dans Firefox, cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis sélectionnez **[!UICONTROL Afficher le Source de page]**. Le code affiche la chaîne de requête d’URL correspondante et la méthode du POST qui est exécutée lorsque l’utilisateur sélectionne **[!UICONTROL Submit]**.
+Dans Firefox, cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis sélectionnez **[!UICONTROL Afficher la page Source]**. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST exécutée lorsque l’utilisateur sélectionne **[!UICONTROL Envoyer]**.
 
 Pour afficher la réponse XML dans Internet Explorer, accédez à **[!UICONTROL Affichage]** > **[!UICONTROL Source]**. Pour afficher la réponse XML dans Firefox, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Outils de navigateur]** > **[!UICONTROL Outils de développement web]**. Firefox est recommandé pour afficher les réponses XML.
 
@@ -170,7 +170,7 @@ Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi�
 >
 >le fichier téléchargé (JPG, GIF, etc.) est converti au format PTIFF et un lien direct vers ce fichier PTIFF est envoyé dans la réponse.
 
-Ce fichier est semblable à n’importe quelle autre ressource ImageServing ; vous pouvez lui appliquer des requêtes de traitement. Par exemple, l’URL suivante demande une ressource étirée sur la largeur et la hauteur spécifiées.
+Ce fichier est semblable à n’importe quelle autre ressource ImageServing ; vous pouvez lui appliquer des requêtes de traitement. Par exemple, l’URL suivante demande une ressource qui est étirée à la largeur et à la hauteur spécifiées.
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
@@ -178,10 +178,10 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 Envoyez le fichier à télécharger en tant que publication de formulaire ou en plusieurs parties tout en envoyant le reste des valeurs en tant que chaîne de requête d’URL. Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pour télécharger un fichier :
 
-| Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
+| Paramètre de l’URL | Obligatoire ou Facultatif | Valeur |
 | --- | --- | --- |
 | `op` | Obligatoire | charger |
-| `upload_token` | Obligatoire | Téléchargez un jeton pour la clé de secret partagé associée à l’entreprise. |
+| `upload_token` | Obligatoire | Chargez un jeton pour la clé secrète partagée associée à l’entreprise. |
 | `company_name` | Obligatoire | Nom de l’entreprise qui réalise le téléchargement. |
 | `file_limit` | Facultatif | Taille limite du fichier (en octets). |
 | `file_exts` | Facultatif | Liste des extensions de fichiers d’image autorisées. |
@@ -208,7 +208,7 @@ Vous pouvez utiliser `image_info` pour récupérer les métadonnées d’une res
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
 ```
 
-Voici un exemple de réponse réussie :
+Un exemple de réponse réussie se présente comme suit :
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -237,7 +237,7 @@ Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pou
 | Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
 | --- | --- | --- |
 | `op` | Obligatoire | image_info |
-| `shared_secret` | Obligatoire | Clé secrète partagée pour la société. |
+| `shared_secret` | Obligatoire | Clé partagée-secrète pour l’entreprise. |
 | `image_name` | Obligatoire | Nom de l’image. |
 
 **Exemple d’URL :**

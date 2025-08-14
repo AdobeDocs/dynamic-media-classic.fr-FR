@@ -18,7 +18,7 @@ ht-degree: 42%
 
 # Obtenir des informations sur l’utilisation du disque {#get-disk-usage-information}
 
-Vous pouvez utiliser le paramètre `disk_info` pour récupérer des informations sur l’utilisation de l’espace disque par une entreprise, comme illustré dans l’exemple suivant :
+Vous pouvez utiliser le paramètre `disk_info` pour récupérer des informations sur l’utilisation de l’espace disque d’une entreprise, comme illustré dans l’exemple suivant :
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63
@@ -47,7 +47,7 @@ Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pou
 | Paramètre de l’URL | Obligatoire ou facultatif | Valeur |
 | --- | --- | --- |
 | op | Obligatoire | disk_info |
-| shared_secret | Obligatoire | Clé qui est un secret partagé pour l’entreprise |
+| shared_secret | Obligatoire | La clé qui est un secret partagé pour l’entreprise |
 
 L’exemple de code suivant permet d’obtenir des informations sur le disque pour l’entreprise000 :
 

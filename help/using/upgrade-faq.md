@@ -17,10 +17,10 @@ ht-degree: 0%
 
 ## Informations générales
 
-+++**Qu’y a-t-il [!DNL Dynamic Media] dans [!DNL Adobe Experience Manager] Assets ?**
-[!DNL Dynamic Media]représente l’évolution de nouvelle génération des fonctionnalités (anciennement Scene7) au sein [!DNL Experience Manager] de [!DNL Adobe Dynamic Media Classic] Assets. La solution combine la puissance de la gestion des actifs avec la diffusion de médias enrichis. Les fonctionnalités disponibles sont les suivantes :
++++**Que contient [!DNL Dynamic Media] dans [!DNL Adobe Experience Manager] Assets ?**
+[!DNL Dynamic Media] représente l’évolution de nouvelle génération des fonctionnalités [!DNL Adobe Dynamic Media Classic] (anciennement Scene7) dans [!DNL Experience Manager] Assets. Cette solution associe la puissance de la gestion des ressources à la diffusion de médias riches. Les fonctionnalités sont les suivantes :
 
-* Interface utilisateur unique et plate-forme de gestion des images et des vidéos.
+* Interface utilisateur unique et plateforme pour la gestion des images et des vidéos.
 * Fonctionnalités de marchandisage innovantes.
 * Adobe une plateforme de diffusion robuste et éprouvée.
 * Unification transparente avec [!DNL Experience Manager] Assets.
@@ -38,9 +38,9 @@ ht-degree: 0%
    * partage sécurisé des ressources à l’usage des fournisseurs, partenaires et franchisés
 * Workflows de révision et d’approbation des ressources de processus.
 * Facilité d’adoption et d’utilisation avec la nouvelle interface utilisateur.
-* Créez des expériences Shoppable/Interactive Media à l’aide d’images et de vidéos qui stimulent la conversion et enrichissent l’engagement et la satisfaction des utilisateurs.
-* Associez les ressources de campagne aux informations sur les produits afin de rationaliser le clic au panier.
-* Créez, ajustez, personnalisez et déployez facilement des visionneuses interactives à l’aide du concepteur de visionneuses WYSIWYG.
+* Créez des expériences Shoppable/Interactive Media à l’aide d’images et de vidéos qui génèrent des conversions et enrichissent l’engagement et la satisfaction des utilisateurs.
+* Combinez les ressources de Campaign avec les informations sur les produits afin de rationaliser le processus de clic sur le panier.
+* Créez, ajustez, marquez et déployez facilement des visionneuses interactives à l’aide de WYSIWYG Viewer Designer.
 * Diffusez des médias riches optimisés vers des solutions [!DNL Experience Cloud].
 * Intégration à [!DNL Experience Cloud] pour l’analyse avancée des ressources, le ciblage et la réutilisation des ressources entre les points de contact marketing. Ces points de contact incluent [!DNL Adobe Campaign] pour les e-mails, [!DNL Adobe Social] pour les canaux sociaux et [!DNL Experience Manager] Sites pour les applications web et mobiles réactives.
 
@@ -62,7 +62,7 @@ Adobe a modifié le nom d’Adobe Scene7 en [!DNL Dynamic Media Classic].
 
 ## Processus et outils de mise à niveau
 
-+++**Qui est éligible pour le programme de mise à niveau ?**
++++**Qui est éligible au programme de mise à niveau ?**
 Les clients qui disposent actuellement de [!DNL Dynamic Media Classic] (anciennement Scene7) et de [!DNL Experience Manager].
 
 +++
@@ -76,7 +76,7 @@ Contactez votre représentant de l’équipe de compte Adobe ou [envoyez un e-ma
 AGS (Adobe Global Services) gère la mise à niveau et la traite comme un projet de service. Adobe fournit uniquement la migration des ressources. Le client, l’AG ou le partenaire est responsable de tous les autres aspects et étapes de la mise à niveau. En résumé, un plan de mise à niveau contient les éléments suivants :
 
 * Approvisionnement de comptes d’entreprise/d’utilisateur.
-* Répliquez les ressources de [!DNL Dynamic Media Classic] (anciennement Scene7) vers le [!DNL Dynamic Media] composant de Assets (fourni par Adobe via un outil de [!DNL Experience Manager] mise à niveau automatisé).
+* Répliquez les ressources d’[!DNL Dynamic Media Classic] (anciennement Scene7) vers le composant [!DNL Dynamic Media] d’[!DNL Experience Manager] Assets (fourni par Adobe au moyen d’un outil de mise à niveau automatisée).
 * Configurez les paramètres d’imagerie et de vidéo.
 * Modifiez les processus de production et formez les utilisateurs.
 
@@ -87,7 +87,7 @@ La durée du processus de mise à niveau varie en fonction de plusieurs facteurs
 
 +++
 
-+++**Comment vérifier l’état de ma mise à niveau ?**
++++**Comment puis-je vérifier le statut de ma mise à niveau ?**
 La durée du processus de mise à niveau varie en fonction de plusieurs facteurs, notamment le nombre de ressources et leur taille. AGS ou le partenaire gère le calendrier du projet.
 
 +++
@@ -102,7 +102,8 @@ Contactez votre représentant de l’équipe de compte Adobe pour plus d’infor
 
 +++
 
-+++**Le processus de mise à niveau est-il associé à un temps d’arrêt ?** Non. [!DNL Dynamic Media Classic] continue de fonctionner sans interruption pendant le processus de mise à niveau. Une fois la mise à niveau terminée et le contenu validé, tous les utilisateurs travaillent exclusivement dans le [!DNL Dynamic Media] composant de [!DNL Experience Manager] Assets.
++++**Le processus de mise à niveau entraîne-t-il des temps d’arrêt ?**
+Non. [!DNL Dynamic Media Classic] continue de fonctionner sans interruption pendant le processus de mise à niveau. Une fois la mise à niveau terminée et le contenu validé, tous les utilisateurs travaillent exclusivement dans le composant [!DNL Dynamic Media] d’[!DNL Experience Manager] Assets.
 
 +++
 
@@ -112,9 +113,9 @@ Non. La [liste de contrôle de préparation](/help/using/upgrade-readiness.md) c
 +++
 
 +++**Dois-je effectuer la mise à niveau ?**
-Non. Adobe prend entièrement en charge et maintient [!DNL Dynamic Media Classic] (correctifs de bogues demandés par le client, correctifs de sécurité, évolutivité et fiabilité de la plate-forme) maintenant et à l’avenir.
+Non. Adobe prend entièrement en charge et maintient [!DNL Dynamic Media Classic] (correctifs de bugs, correctifs de sécurité, évolutivité et fiabilité de la plateforme demandés par les clients) maintenant et à l’avenir.
 
-Vous pouvez effectuer une mise à niveau lorsque vous êtes prêt à tirer parti des nouvelles fonctionnalités offertes par [!DNL Dynamic Media].
+Vous pouvez effectuer la mise à niveau lorsque vous êtes prêt à tirer parti des nouvelles fonctionnalités proposées par [!DNL Dynamic Media].
 
 +++
 
@@ -127,11 +128,13 @@ Après avoir effectué la mise à niveau vers [!DNL Dynamic Media], vous ne deve
 
 +++
 
-+++**Quels outils fournissons-Adobe pour automatiser le processus de mise à niveau ?** Pour le lancement initial du programme de mise à niveau, Adobe fournit des outils qui peuvent déplacer automatiquement des ressources de [!DNL Dynamic Media Classic] vers [!DNL Dynamic Media] Assets [!DNL Experience Manager] .
++++**Quels outils Adobe fournit-il pour automatiser le processus de mise à niveau ?**
+Pour le lancement initial du programme de mise à niveau, Adobe fournit des outils qui permettent de déplacer automatiquement les ressources de [!DNL Dynamic Media Classic] vers [!DNL Dynamic Media] dans [!DNL Experience Manager] Assets.
 
 +++
 
-+++**Les URL, intégrations d’API et visionneuses existantes [!DNL Dynamic Media Classic] continuent-elles à fonctionner pendant et après ma mise à niveau ?** Oui. Vous pouvez continuer à utiliser l’infrastructure [!DNL Dynamic Media Classic] de publication et de remise (anciennement Adobe Scene7) telle quelle dans la [!DNL Dynamic Media] solution.
++++**Les URL de [!DNL Dynamic Media Classic], les intégrations d’API et les visionneuses existantes continuent-elles à fonctionner pendant et après ma mise à niveau ?**
+Oui : Vous pouvez continuer à utiliser l’infrastructure de publication et de diffusion [!DNL Dynamic Media Classic] (anciennement Adobe Scene7) en l’état dans la solution [!DNL Dynamic Media].
 
 +++
 
@@ -155,24 +158,26 @@ Les paramètres prédéfinis et d’autres paramètres doivent être recréés d
 +++
 
 +++**Comment configurer les utilisateurs et les autorisations (options SSO ou LDAP) ?**
-Les paramètres doivent être recréés dans [!DNL Dynamic Media]. Dans le cadre du projet de service, AGS ou un partenaire peut vous aider. Toutefois, la mise à niveau vers [!DNL Dynamic Media] fournit une intégration SSO/LDAP, ce qui rend la gestion des utilisateurs plus efficace. En outre, [!DNL Dynamic Media] offre des rôles et des privilèges robustes pour contrôler l’accès des utilisateurs et utilisatrices.
+Les paramètres doivent être recréés dans [!DNL Dynamic Media]. Dans le cadre du projet de service, AGS ou un partenaire peut vous aider. Toutefois, la mise à niveau vers [!DNL Dynamic Media] permet l’intégration SSO/LDAP, ce qui rend la gestion des utilisateurs plus efficace. En outre, [!DNL Dynamic Media] offre des rôles et des privilèges robustes pour contrôler l’accès des utilisateurs et utilisatrices.
 
 +++
 
-+++**Puis-je quand même utiliser FTP pour charger des ressources par lots/en masse ?** Oui. Vous n’avez pas besoin de modifier vos flux de travail existants pour l’ingestion et vous pouvez continuer à planifier des téléchargements FTP.
++++**Puis-je toujours utiliser le protocole FTP pour charger des ressources par lots/en bloc ?**
+Oui : Vous n’avez pas besoin de modifier vos workflows existants pour l’ingestion et pouvez continuer à planifier des chargements FTP.
 
 +++
 
-+++**Quelles sont les ressources disponibles pour la formation des nouveaux utilisateurs ?** La formation est disponible via ADLS (Adobe Digital Learning Services). [!DNL Dynamic Media] Les fonctionnalités sont couvertes dans deux cours : Gérer et livrer des Assets numériques et Personnaliser les Assets numériques.
++++**Quelles ressources sont disponibles pour former les nouveaux utilisateurs ?**
+La formation est disponible via ADLS (Adobe Digital Learning Services). [!DNL Dynamic Media] fonctionnalités sont abordées dans deux cours : Gestion et diffusion de Digital Assets et Personnalisation de Digital Assets.
 
 +++
 
 +++**L’[!DNL Dynamic Media] est-elle disponible pour toutes les zones géographiques ?**
-Oui. Adobe dispose de centres de données en Amérique du Nord, en Europe et en Asie-Pacifique.
+Oui : Adobe dispose de centres de données en Amérique du Nord, en Europe et en Asie-Pacifique.
 
 +++
 
-+++**Combien de temps [!DNL Dynamic Media Classic]-vous exister en tant que produit autonome ?**
++++**Combien de temps [!DNL Dynamic Media Classic]-t-il exister en tant que produit autonome ?**
 Adobe prend entièrement en charge et maintient [!DNL Dynamic Media Classic] (correctifs de bugs, correctifs de sécurité, évolutivité et fiabilité de la plateforme demandés par les clients) maintenant et à l’avenir.
 
 +++
@@ -187,26 +192,28 @@ Pages vues par mois (PVM). Page vue désigne une vue unique d’un e-mail ou d�
 
 * À chaque chargement ou actualisation d’une page web
 * Lorsqu’une application est chargée
-* Rendu du contenu
-* Affichée au moyen d’un e-mail ouvert ou consulté
+* Lors du rendu du contenu
+* Affiché dans un e-mail ouvert ou consulté
 
 +++
 
-+++**Quand le média personnalisé sera-t-il disponible avec [!DNL Dynamic Media]?** Adobe s’emploie activement à ajouter des fonctionnalités de média personnalisé à [!DNL Dynamic Media]. De plus amples informations sur le calendrier de sortie seront disponibles prochainement.
++++**Quand les médias personnalisés seront-ils disponibles avec [!DNL Dynamic Media] ?**
+Adobe s’efforce d’ajouter des fonctionnalités de médias personnalisés à [!DNL Dynamic Media]. De plus amples informations sur le calendrier de publication seront disponibles prochainement.
 
 +++
 
-+++**Comment les actifs sont-ils validés lors de la mise à niveau ? Dois-je effectuer une validation manuelle ?** Adobe effectue une validation automatique de toutes les ressources déplacées vers [!DNL Dynamic Media]. Une validation manuelle générale des sites, pages et expériences clés générés par [!DNL Dynamic Media] est recommandée.
++++**Comment les ressources sont-elles validées pendant la mise à niveau ? Dois-je effectuer une validation manuelle ?**
+Adobe effectue une validation automatisée de toutes les ressources qui sont déplacées vers [!DNL Dynamic Media]. Il est recommandé d’effectuer une validation manuelle générale des sites, pages et expériences clés optimisée par [!DNL Dynamic Media].
 
 +++
 
 +++**Existe-t-il un SLA pour [!DNL Dynamic Media] ?**
-Oui. Pour plus d’informations, contactez le représentant de l’équipe chargée de votre compte Adobe.
+Oui : Pour plus d’informations, contactez le représentant de l’équipe chargée de votre compte Adobe.
 
 +++
 
 +++**Puis-je utiliser mon propre réseau de diffusion de contenu (CDN) avec [!DNL Dynamic Media] ?**
-Oui. Vous pouvez utiliser votre propre réseau CDN avec [!DNL Dynamic Media].
+Oui : Vous pouvez utiliser votre propre réseau CDN avec [!DNL Dynamic Media].
 
 +++
 
@@ -226,7 +233,7 @@ Consultez également la page [Comparaison des fonctionnalités](/help/using/upgr
 
 +++
 
-+++**Que devient la solution [!DNL Dynamic Media Classic] Media Portal ?**
++++**Que se passe-t-il avec [!DNL Dynamic Media Classic] solution Media Portal ?**
 [!DNL Experience Manager] Brand Portal est l’offre de remplacement de [!DNL Dynamic Media Classic] Media Portal.
 
 +++
@@ -234,11 +241,12 @@ Consultez également la page [Comparaison des fonctionnalités](/help/using/upgr
 ## Services de conseil
 
 +++**Puis-je effectuer la mise à niveau moi-même ?**
-Non. Travaillez en collaboration avec votre représentant Adobe et AGS pour déterminer l’étendue de votre mise à niveau.
+Non. Contactez votre représentant Adobe et AGS pour définir la portée de votre mise à niveau.
 
 +++
 
-+++**À quoi ressemble le projet de services ?** Adobe travaille avec vous pour planifier le projet. Adobe est responsable de l’approvisionnement et de la configuration des comptes, de la réplication des ressources, des tests et de la validation.
++++**À quoi ressemble le projet de services ?**
+Adobe travaille avec vous pour planifier le projet. Adobe est responsable de l’approvisionnement et de la configuration des comptes, de la réplication des ressources, des tests et de la validation.
 
 Les clients sont principalement responsables de la gestion des modifications, notamment de la formation des utilisateurs, de la modification des processus de production et du déploiement de nouvelles fonctionnalités.
 
@@ -246,19 +254,21 @@ Les clients sont principalement responsables de la gestion des modifications, no
 
 ## Support et formation
 
-+++**Comment puis-je obtenir de l’aide ?** Assistance clientèle 24/7/365 est disponible. [Contactez l’assistance technique](https://experienceleague.adobe.com/fr?support-solution=General#support).
++++**Comment puis-je obtenir de l’aide ?**
+24/7/365 Le support du service client est disponible. [Contactez l’assistance technique](https://experienceleague.adobe.com/?support-solution=General#support).
 
-Téléphone : 1-800-898-9743 (États-Unis) | +44 (0) 20 35641782 (Royaume-Uni) | +81-3-6743-9632 (Japon)
-
-+++
-
-+++**Où puis-je en savoir plus sur les options de formation payante ?** Voir [Adobe Services](https://learning.adobe.com) de formation numérique.
-
-Pour une formation personnalisée ou individuelle, contactez le représentant de votre équipe de compte Adobe.
+Téléphone : 1-800-898-9743 (US) | +44 (0)20 35641782 (UK) | +81-3-6743-9632 (Japon)
 
 +++
 
-## Ressources additionnelles
++++**Où puis-je en savoir plus sur les options de formation payante ?**
+Voir [Services De Formation Numérique Adobe](https://learning.adobe.com).
+
+Pour une formation personnalisée ou individuelle, contactez le représentant de l’équipe chargée de votre compte Adobe.
+
++++
+
+## Ressources supplémentaires
 
 +++**Où puis-je en savoir plus sur [!DNL Dynamic Media] et ses fonctionnalités ?**
 Voir le [[!DNL Dynamic Media] microsite](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html) pour en savoir plus sur les [!DNL Dynamic Media].

@@ -1,6 +1,6 @@
 ---
-title: Utilisation de vignettes, de recouvrements de fenêtre et de fichiers de cabinet
-description: Découvrez comment utiliser les vignettes, les recouvrements de fenêtre et les fichiers de Cabinet dans Adobe Dynamic Media Classic.
+title: Utiliser des vignettes, des couvre-fenêtres et des fichiers d'armoire
+description: Découvrez comment utiliser des vignettes, des couvre-fenêtres et des fichiers d’armoire dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 ---
 
-# Utilisation de fichiers de vignette, de vitrine et d’armoire{#working-with-vignette-window-covering-and-cabinet-files}
+# Utiliser des fichiers de vignette, de couvre-fenêtre et d&#39;armoire{#working-with-vignette-window-covering-and-cabinet-files}
 
-Les utilisateurs de l’outil de création d’images Adobe Dynamic Media Classic peuvent *utiliser* vignettes (fichiers VNT), recouvrements de fenêtre (fichiers VNW) et meubles (fichiers VNC). Ces fichiers ne peuvent pas être créés ni modifiés dans Adobe Dynamic Media Classic.
+Les utilisateurs de l’outil de création d’images Adobe Dynamic Media Classic peuvent *utiliser* des vignettes (fichiers VNT), des couvre-fenêtres (fichiers VNW) et des armoires (fichiers VNC). Ces fichiers ne peuvent pas être créés ni modifiés dans Adobe Dynamic Media Classic.
 
-Les vignettes, les recouvrements de fenêtre et les meubles sont des images qui sont créées. Avec un autre programme Adobe Dynamic Media Classic appelé Création d’images, vous masquez les objets d’une image afin que les utilisateurs puissent voir la même image dans différentes textures ou couleurs. Par exemple, les utilisateurs voient un canapé tapissé de divers tissus, une fenêtre décorée de divers traitements de fenêtre ou une armoire finie avec différents types de bois.
+Les vignettes, les couvre-fenêtres et les armoires sont des images créées. À l’aide d’un autre programme Adobe Dynamic Media Classic appelé Création d’images, vous masquez des objets dans une image afin que les utilisateurs puissent voir la même image dans différentes textures ou couleurs. Par exemple, les utilisateurs voient un canapé recouvert de divers tissus, une fenêtre décorée de divers traitements de fenêtre ou une armoire finie avec différents types de bois.
 
-Chargez les vignettes, les recouvrements de fenêtre et les meubles comme vous le feriez pour tout autre fichier.
+Chargez des vignettes, des couvre-fenêtres et des armoires comme vous le feriez pour tout autre fichier.
 
 >[!MORELIKETHIS]
 >

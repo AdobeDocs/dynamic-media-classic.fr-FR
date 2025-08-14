@@ -21,14 +21,14 @@ ht-degree: 44%
 
 Utilisez les visionneuses de modèles pour gérer la façon dont les variations de fichier sont publiées.
 
-Créez une visionneuse de modèles pour gérer les variations d’un modèle. Vous pouvez contrôler la variation utilisée sans modifier le code sur votre site. Cette méthode permet aux gestionnaires de contenu de faire pivoter le contenu sans que le service informatique doive modifier une URL dans le code Web.
+Créez une visionneuse de modèles pour gérer les variations d’un modèle. Vous pouvez contrôler la variation utilisée sans modifier le code sur votre site. Cette méthode permet aux gestionnaires de contenu de faire pivoter le contenu sans que le service informatique ait à modifier une URL dans le code Web.
 
-Les URL universelles sont utilisées pour afficher la variation de modèle qui s’affiche sur la page, selon l’ordre dans lequel elles sont répertoriées dans le jeu. Le modèle en haut de la liste des visionneuses de modèles est toujours publié.
+Les URL universelles sont utilisées pour afficher la variation de modèle qui apparaît sur la page, en fonction de l’ordre dans lequel elles sont répertoriées dans l’ensemble. Le modèle en haut de la liste des visionneuses de modèles est toujours publié.
 
-Vous pouvez utiliser n’importe quelle URL de paramètre d’image prédéfini dans la liste. Les URL des paramètres d’image prédéfinis sont comme des URL universelles. Il peut y avoir plusieurs URL de paramètre d’image prédéfini.
+Vous pouvez utiliser n’importe quelle URL de paramètre d’image prédéfini dans la liste. Les URL des paramètres prédéfinis d’image sont semblables aux URL universelles. Il peut y avoir plusieurs URL de paramètre d’image prédéfini.
 
-1. Accédez à **[!UICONTROL Build]** > **[!UICONTROL Template Sets]**.
-1. Dans le créateur, sélectionnez un modèle, puis sélectionnez **[!UICONTROL Ajouter/Aperçu]**.
+1. Accédez à **[!UICONTROL Créer]** > **[!UICONTROL Jeux de modèles]**.
+1. Dans le créateur, sélectionnez un modèle, puis sélectionnez **[!UICONTROL Ajouter/Prévisualiser]**.
 1. Modifiez les propriétés du modèle et sélectionnez **[!UICONTROL Enregistrer sous]** pour créer une autre version.
 1. Saisissez un nom, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
@@ -40,4 +40,4 @@ Vous pouvez déplacer un modèle dans l’ordre du modèle (par exemple, vers le
 
 >[!NOTE]
 >
->Si nécessaire, videz le cache pour afficher les modifications. La modification s’affiche uniquement sur le site Web après être passée par le cycle complet de la mémoire cache.
+>Si nécessaire, effacez le cache pour afficher les modifications. La modification s’affiche uniquement sur le site Web après être passée par le cycle complet de la mémoire cache.

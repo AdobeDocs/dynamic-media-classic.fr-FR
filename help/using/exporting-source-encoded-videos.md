@@ -1,6 +1,6 @@
 ---
-title: Exportation de vidéos source et codées
-description: Découvrez comment exporter des vidéos source et codées dans Adobe Dynamic Media Classic.
+title: Exporter la source et les vidéos codées
+description: Découvrez comment exporter la source et les vidéos codées dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 ---
 
-# Exportation de vidéos source et codées{#exporting-source-and-encoded-videos}
+# Exporter la source et les vidéos codées{#exporting-source-and-encoded-videos}
 
-Dans le panneau Parcourir, les vidéos sources sont étiquetées *Vidéo par Principal*. Les vidéos codées sont intitulées *Vidéo*. Vous pouvez exporter des vidéos et des vidéos principales. Pour exporter des fichiers vidéo, sélectionnez-les dans le panneau Parcourir et accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Exporter]**.
+Dans le panneau de navigation, les vidéos sources sont intitulées *Vidéo en Principal*. Les vidéos codées sont intitulées *Vidéo*. Vous pouvez exporter des vidéos principales et des vidéos. Pour exporter des fichiers vidéo, sélectionnez-les dans le panneau de navigation et accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Exporter]**.
 
-Voir [Exportation de ressources à partir d’Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
+Voir [ Exporter des ressources à partir d’Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 
 >[!MORELIKETHIS]
 >
->* [Télécharger et coder des vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos)
+>* [Charger et coder des vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos)

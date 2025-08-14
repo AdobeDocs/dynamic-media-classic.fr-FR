@@ -1,6 +1,6 @@
 ---
-title: "Démarrage rapide : séries d’échantillons"
-description: Introduction et démarrage rapide de la série d’échantillons pour vous aider à démarrer rapidement dans Adobe Dynamic Media Classic.
+title: 'Démarrage rapide : Séries d’échantillons'
+description: Une introduction et un démarrage rapide de l’échantillon Set pour vous aider à démarrer rapidement dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -13,48 +13,48 @@ level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
 # Démarrage rapide : Séries d’échantillons{#quick-start-swatch-sets}
 
-Les séries d’échantillons Adobe Dynamic Media Classic offrent aux utilisateurs une expérience de visionnage intégrée. Dans la visionneuse d’échantillons dynamique, les utilisateurs peuvent voir un élément rendu dans une couleur, un matériau, une texture, une finition ou un tissu différent en sélectionnant simplement une miniature.
+Les visionneuses d’échantillons Adobe Dynamic Media Classic offrent aux utilisateurs une expérience de visionnage intégrée. Dans la visionneuse de jeux d’échantillons dynamiques, les utilisateurs peuvent voir un élément rendu dans une couleur, un matériau, une texture, une finition ou un tissu différent en sélectionnant simplement une miniature.
 
-Ce didacticiel de mise en route Série d’échantillons est conçu pour vous aider à maîtriser rapidement les techniques relatives aux séries d’échantillons dans Adobe Dynamic Media Classic.
+Ce démarrage rapide des ensembles d’échantillons est conçu pour vous permettre de vous familiariser rapidement avec les techniques des ensembles d’échantillons dans Adobe Dynamic Media Classic.
 
-## 1. Chargement des images et des fichiers d’échantillon
+## &#x200B;1. Chargez les images et les fichiers d’échantillon
 
 Commencez par télécharger les fichiers d’images et d’échantillons pour les séries d’échantillons.
 
-Dans la barre de navigation globale, sélectionnez **[!UICONTROL Télécharger]** pour charger des fichiers depuis votre ordinateur vers un dossier sur Adobe Dynamic Media Classic. Voir [Préparation du chargement de ressources de visionneuse d’échantillons](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) et [Chargement de vos fichiers](uploading-files.md#uploading-your-files).
+Sur la barre de navigation générale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger des fichiers depuis votre ordinateur vers un dossier d’Adobe Dynamic Media Classic. Voir [Préparation du chargement de ressources du jeu de modèles](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) et [Chargement des fichiers](uploading-files.md#uploading-your-files).
 
-## 2. Création d’une série d’échantillons
+## &#x200B;2. Création d’un échantillon
 
-Pour créer une série d’échantillons, dans la barre de navigation globale, accédez à **[!UICONTROL Build]** > **[!UICONTROL Série d’échantillons]**. Sur la page Série d’échantillons , faites glisser des images et des échantillons de couleurs sur la page. Voir [Création d’une série d’échantillons](creating-swatch-set.md#creating-a-swatch-set).
+Pour créer un échantillon, sur la barre de navigation générale, accédez à **[!UICONTROL Créer]** > **[!UICONTROL Échantillons]**. Sur la page Jeu d’échantillons, faites glisser les images et les échantillons de couleurs sur la page. Voir [Création d’un échantillon](creating-swatch-set.md#creating-a-swatch-set).
 
-## 3. Configuration des paramètres prédéfinis de la visionneuse d’échantillons
+## &#x200B;3. Configuration des paramètres prédéfinis de visionneuse d’échantillon
 
 Les administrateurs peuvent créer ou modifier les paramètres prédéfinis de la visionneuse d’images. Adobe Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse par défaut pour chaque type de média enrichi. Utilisez les paramètres prédéfinis Visionneuse de zoom : Personnalisée > Visionneuses d’images / Nuances pour visualiser vos séries d’échantillons.
 
-Voir [Création et modification de paramètres de visionneuse prédéfinis](application-setup.md#adding-and-editing-viewer-presets).
+Voir [Création et modification des paramètres prédéfinis de visionneuse](application-setup.md#adding-and-editing-viewer-presets).
 
-## 4. Prévisualisation d’une série d’échantillons
+## &#x200B;4. Prévisualisation d’un échantillon
 
-Sélectionnez la série d’échantillons dans le panneau Parcourir, puis sélectionnez **[!UICONTROL Aperçu]**. La série d’échantillons s’affiche sur cette page. Sélectionnez les icônes de miniature et d’échantillon afin d’examiner votre série d’échantillons dans la visionneuse sélectionnée. Différentes visionneuses sont disponibles dans le menu Paramètres prédéfinis.
+Sélectionnez l’échantillon dans le panneau de navigation, puis sélectionnez **[!UICONTROL Aperçu]**. L’ensemble d’échantillons apparaît sur cette page. Sélectionnez les icônes de miniature et d’échantillon pour examiner votre ensemble d’échantillons dans la visionneuse sélectionnée. Différentes visionneuses sont disponibles dans le menu Paramètres prédéfinis.
 
 Voir [Aperçu d’une ressource](previewing-asset.md#previewing-an-asset).
 
-## 5. Publish d’une série d’échantillons
+## &#x200B;5. Publication d’un échantillon
 
-La publication d’une série d’échantillons la place sur les serveurs Adobe Dynamic Media Classic et active la chaîne URL.
+La publication d’un échantillon le place sur les serveurs Adobe Dynamic Media Classic et active la chaîne URL.
 
-Sélectionnez l’icône **[!UICONTROL Marquer pour Publish]** située à gauche de son nom dans le panneau Parcourir. Sélectionnez ensuite **[!UICONTROL Publish]**. Sur la page Publication, sélectionnez **[!UICONTROL Submit Publish]**.
+Sélectionnez l’icône **[!UICONTROL Marquer pour publication]** à gauche de son nom dans le panneau de navigation. Sélectionnez ensuite **[!UICONTROL Publier]**. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
-Voir [Fichiers Publish](publishing-files.md#publishing-files).
+Voir [Publication de fichiers](publishing-files.md#publishing-files).
 
-## 6. Associer une série d’échantillons à une page web
+## &#x200B;6. Liaison d’un échantillon à une page web
 
-Adobe Dynamic Media Classic crée des appels URL pour les séries d’échantillons et les active après leur publication. Vous pouvez copier ces URL à partir de la page Aperçu .
+Adobe Dynamic Media Classic crée des appels d’URL pour les échantillons et les active après la publication. Vous pouvez copier ces URL à partir de la page Aperçu .
 
-Sélectionnez la série d’échantillons, puis sélectionnez le bouton Prévisualiser. La page Aperçu s’ouvre. Sélectionnez un paramètre prédéfini de visionneuse de série d’échantillons, puis cliquez sur le bouton Copier l’URL Voir [Lier les séries d’échantillons aux pages web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
+Sélectionnez la série d’échantillons, puis sélectionnez le bouton Prévisualiser. La page Aperçu s’ouvre. Sélectionnez un paramètre prédéfini de visionneuse de série d’échantillons, puis cliquez sur le bouton Copier l’URL Voir [Lier des échantillons à des pages web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).

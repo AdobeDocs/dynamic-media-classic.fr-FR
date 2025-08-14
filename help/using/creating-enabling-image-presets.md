@@ -1,5 +1,5 @@
 ---
-title: Création et activation de paramètres d’image prédéfinis
+title: Création et activation des paramètres d’image prédéfinis
 description: Découvrez comment créer et activer des paramètres d’image prédéfinis dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,21 +17,21 @@ ht-degree: 48%
 
 ---
 
-# Création et activation de paramètres d’image prédéfinis{#creating-and-enabling-image-presets}
+# Création et activation des paramètres d’image prédéfinis{#creating-and-enabling-image-presets}
 
-Lors de l’exportation de fichiers d’image via le portail multimédia, les utilisateurs peuvent choisir un paramètre d’image prédéfini dans la boîte de dialogue Exporter les fichiers sélectionnés. Un paramètre d’image prédéfini est un ensemble de paramètres prédéfinis. Ces paramètres peuvent modifier la taille, la qualité de l’image, le format, la résolution et d’autres aspects de l’apparence d’une image lors de son export.
+Lors de l’exportation de fichiers d’image via le portail multimédia, les utilisateurs peuvent choisir un paramètre d’image prédéfini dans la boîte de dialogue Exporter les fichiers sélectionnés. Un paramètre d’image prédéfini est un ensemble de paramètres prédéfinis. Ces paramètres peuvent modifier la taille, la qualité de l’image, le format, la résolution et d’autres aspects de l’aspect d’une image lors de son exportation.
 
-Les administrateurs du portail multimédia peuvent créer des paramètres d’image prédéfinis permettant de contrôler le type de reformatage des images lors de leur exportation. Les paramètres d’image prédéfinis reformatent les images selon les spécifications de votre entreprise lorsque les utilisateurs exportent des images à partir d’Adobe Dynamic Media Classic. Au lieu de reformater les images selon leurs préférences, les utilisateurs les exportent en respectant les spécifications exactes d’un paramètre d’image prédéfini.
+Les administrateurs du portail multimédia peuvent créer des paramètres d’image prédéfinis permettant de contrôler le type de reformatage des images lors de leur exportation. Les paramètres d’image prédéfinis reformatent les images selon les spécifications de votre société lorsque les utilisateurs exportent des images à partir d’Adobe Dynamic Media Classic. Au lieu de reformater les images selon leurs préférences, les utilisateurs les exportent en respectant les spécifications exactes d’un paramètre d’image prédéfini.
 
 Les restrictions suivantes s’appliquent lorsque vous exportez des fichiers d’image :
 
-* La largeur × hauteur doit être inférieure ou égale à 100 Mo par image. Par exemple, l’image ne peut pas dépasser 10 K × 10 K, ou toute variation d’aspect ci-dessous, telle que 8 K × 12 K.
-* La taille totale du fichier par tâche d’exportation ne peut pas dépasser 1 Go.
+* La largeur × la hauteur doivent être inférieures ou égales à 100 Mo par image. Par exemple, l’image ne peut pas dépasser 10 K × 10 K, ni aucune variation d’aspect inférieure, comme 8 K × 12 K.
+* La taille de fichier totale maximale est de 1 Go par tâche d’exportation.
 * Il peut y avoir un maximum de 500 fichiers par tâche d’exportation.
 
 >[!NOTE]
 >
->Ces restrictions s’appliquent uniquement à l’exportation de ressources d’image dérivées, et non à l’exportation de fichiers principaux.
+>Ces restrictions s’appliquent uniquement à l’exportation de ressources d’images dérivées, et non à l’exportation de fichiers principaux.
 
 Pour plus d’informations sur la création d’un paramètre d’image prédéfini, voir [Paramètres d’image prédéfinis](application-setup.md#image_presets).
 

@@ -1,6 +1,6 @@
 ---
 title: Génération automatique d’une visionneuse d’images
-description: Découvrez comment automatiser la génération de visionneuses d’images dans Adobe Dynamic Media Classic.
+description: Découvrez comment automatiser la génération des visionneuses d’images dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -31,13 +31,13 @@ Last Modified Date:
 
 Vous pouvez automatiser la création d’une visionneuse d’images dans le cadre d’une tâche indépendante d’un transfert.
 
-**Pour automatiser la génération de la visionneuse d’images :**
+**Pour automatiser la génération des visionneuses d’images :**
 
-1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Générer un jeu]**.
+1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Générer le jeu]**.
 1. Dans la boîte de dialogue Générer l’ensemble, spécifiez un nom de tâche.
 
    Par défaut, le nom attribué à la tâche indique qu’il s’agit d’une tâche générée et précise la date de création de celle-ci.
 
 1. Sélectionnez le paramètre prédéfini que vous souhaitez appliquer.
-1. Sélectionnez **[!UICONTROL Dossier de destination]**, puis spécifiez le dossier à utiliser.
-1. Sélectionnez **[!UICONTROL Submit]**.
+1. Sélectionnez **[!UICONTROL Dossier de destination]**, puis spécifiez le dossier que vous souhaitez utiliser.
+1. Sélectionnez **[!UICONTROL Envoyer]**.
