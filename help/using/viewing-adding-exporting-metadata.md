@@ -73,7 +73,7 @@ Si vous avez ajouté des mots-clés à d’autres fichiers au cours de cette ses
 >[!NOTE]
 >
 >Vous pouvez ajouter des mots-clés aux fichiers au fur et à mesure de leur chargement vers Adobe Dynamic Media Classic. Dans la boîte de dialogue Charger les options de la tâche, choisissez **[!UICONTROL Plus de métadonnées]** et saisissez des mots-clés.
->>Voir [Options de téléchargement](uploading-files.md#upload_options).
+>&#x200B;>Voir [Options de téléchargement](uploading-files.md#upload_options).
 
 ## Importation de métadonnées {#import-metadata}
 
@@ -82,7 +82,7 @@ Au lieu de saisir manuellement les métadonnées fichier par fichier, vous pouve
 >[!NOTE]
 >
 >Vous pouvez créer un modèle de saisie des métadonnées afin qu’elles puissent être correctement importées vers Adobe Dynamic Media Classic. Après avoir créé le modèle, vous pouvez l’utiliser pour saisir les métadonnées.
->>(voir [Création d’un modèle de saisie des métadonnées à télécharger](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)).
+>&#x200B;>(voir [Création d’un modèle de saisie des métadonnées à télécharger](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)).
 
 Pour plus d’informations sur les propriétés normalisées, consultez le [Centre de développement XMP d’Adobe](https://www.adobe.com/devnet/xmp.html).
 
