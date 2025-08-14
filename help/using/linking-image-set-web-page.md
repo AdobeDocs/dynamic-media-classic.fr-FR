@@ -48,7 +48,7 @@ Après avoir publié une visionneuse d’images, vous pouvez copier son URL asso
 
 La méthode la plus courante pour déployer une visionneuse d’images consiste à placer un lien (au moyen d’une icône de navigation) sur votre page web. Lorsque ce lien est sélectionné, il lance une page dynamique (JSP) qui affiche la visionneuse d’images dans une fenêtre pop-up zoom. Le lien Zoom ouvre une fenêtre pop-up qui contient la fonction de zoom réelle.
 
-Pour plus d’informations et d’exemples de code, consultez la section [Incorporer la visionneuse Zoom HTML5 dans le Guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Pour plus d’informations et d’exemples de code, consultez la section [Incorporer la visionneuse Zoom HTML5 dans le Guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copie du code intégré d’une visionneuse d’images {#copying-the-embed-code-of-an-image-set-viewer}
 

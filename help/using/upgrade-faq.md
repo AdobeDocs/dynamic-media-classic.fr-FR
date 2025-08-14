@@ -255,7 +255,7 @@ Les clients sont principalement responsables de la gestion des modifications, no
 ## Support et formation
 
 +++**Comment puis-je obtenir de l’aide ?**
-24/7/365 Le support du service client est disponible. [Contactez l’assistance technique](https://experienceleague.adobe.com/?support-solution=General#support).
+24/7/365 Le support du service client est disponible. [Contactez l’assistance technique](https://experienceleague.adobe.com/fr?support-solution=General#support).
 
 Téléphone : 1-800-898-9743 (US) | +44 (0)20 35641782 (UK) | +81-3-6743-9632 (Japon)
 

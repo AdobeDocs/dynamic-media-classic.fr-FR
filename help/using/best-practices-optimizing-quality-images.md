@@ -23,7 +23,7 @@ L’optimisation de la qualité d’image peut prendre beaucoup de temps. De nom
 
 Adobe Dynamic Media Classic comprend plus de 100 commandes de traitement d’images pour affiner et optimiser les images et les rendus. Les conseils suivants vous aideront à simplifier le processus et à obtenir rapidement de bons résultats en utilisant quelques commandes essentielles et en appliquant les pratiques recommandées.
 
-Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/en/docs/exper
 >* Bande passante réseau
 >* DPR (rapport pixel d’appareil)
 >
->Pour découvrir à quel point il est facile d’utiliser Snapshot, regardez la [vidéo de formation Snapshot](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutes et 17 secondes).
+>Pour découvrir à quel point il est facile d’utiliser Snapshot, regardez la [vidéo de formation Snapshot](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutes et 17 secondes).
 
 
 ## Recommandations relatives au format d’image (&amp;fmt=) {#best-practices-for-image-format-fmt}
