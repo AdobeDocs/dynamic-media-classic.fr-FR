@@ -43,7 +43,7 @@ Voir [Création d’une visionneuse d’images](creating-image-set.md#creating-a
 
 Sur la barre de navigation générale, accédez à **[!UICONTROL Créer]** > **[!UICONTROL Visionneuses de médias mixtes]**. Faites glisser les images, les visionneuses d’échantillons, les visionneuses d’images et les vidéos vers la page Visionneuse de médias mixtes. Pour ajouter une bande sonore, faites glisser un fichier audio sur la zone Bande sonore.
 
-Voir [ Création d’une visionneuse de médias mixtes ](creating-mixed-media-set.md#creating-a-mixed-media-set).
+Voir [&#x200B; Création d’une visionneuse de médias mixtes &#x200B;](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
 ## &#x200B;4. Configuration des paramètres prédéfinis de visionneuse de médias mixtes
 
@@ -67,7 +67,7 @@ La publication d’une visionneuse de médias mixtes la place sur les serveurs A
 
 Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisez **Serveur vidéo** pour publier les vidéos que vous avez marquées pour publication. De plus, vous utilisez **Image Server** pour publier les ressources connexes, telles que les miniatures vidéo, et définir des informations pour toute visionneuse de vidéos adaptative.
 
-Voir [ Publication d’une visionneuse de médias mixtes ](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
+Voir [&#x200B; Publication d’une visionneuse de médias mixtes &#x200B;](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
 ## &#x200B;7. Liaison d’une visionneuse de médias mixtes à une page web
 

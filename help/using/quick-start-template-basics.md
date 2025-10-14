@@ -63,7 +63,7 @@ La publication de votre modèle le place sur les serveurs d’images Dynamic Med
 
 Assurez-vous de publier toutes les images associées à votre modèle.
 
-Pour publier un modèle, marquez-le pour publication et, sur la barre de navigation générale, sélectionnez **[!UICONTROL Publier]**. Sélectionnez ensuite **[!UICONTROL Envoyer la publication]**. Voir [ Publication de modèles ](publishing-templates.md#publishing_templates).
+Pour publier un modèle, marquez-le pour publication et, sur la barre de navigation générale, sélectionnez **[!UICONTROL Publier]**. Sélectionnez ensuite **[!UICONTROL Envoyer la publication]**. Voir [&#x200B; Publication de modèles &#x200B;](publishing-templates.md#publishing_templates).
 
 ## &#x200B;5. Lier un modèle à une page Web
 

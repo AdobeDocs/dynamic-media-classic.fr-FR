@@ -23,7 +23,7 @@ Adobe Target Standard/Premium remet le contrôle directement entre les mains des
 
 Adobe Dynamic Media Classic vous permet de créer des offres et des ensembles d’offres pour les campagnes Adobe Target Standard/Premium. Par exemple, vous pouvez créer un ensemble d’offres avec trois variantes de la même ressource de médias riches. Vous pouvez ensuite utiliser Adobe Target Standard ou Premium pour déterminer la ressource qui offre le meilleur effet élévateur de conversion. Vous pouvez créer des offres et des ensembles d’offres à partir d’un modèle de base ou d’images individuelles. Une fois le jeu d’offres envoyé ou enregistré dans Adobe Target Standard/Premium, où les offres sont associées à des mbox et à des expériences, Adobe Target Standard/Premium peut exécuter des campagnes. Ces campagnes déterminent quelle variation d’un site web est susceptible d’être la plus performante pour les clics publicitaires et la conversion.
 
-Pour une plus grande personnalisation du contenu dynamique d’Adobe Dynamic Media Classic, utilisez les offres Adobe Target Standard/Premium d’HTML. Pour plus d’informations[ consultez la documentation du produit ](https://experienceleague.adobe.com/fr/docs/target)Adobe Target Standard/Premium .
+Pour une plus grande personnalisation du contenu dynamique d’Adobe Dynamic Media Classic, utilisez les offres Adobe Target Standard/Premium d’HTML. Pour plus d’informations[&#x200B; consultez la documentation du produit &#x200B;](https://experienceleague.adobe.com/fr/docs/target)Adobe Target Standard/Premium .
 
 >[!NOTE]
 >
@@ -49,4 +49,4 @@ Voir [Création d’un ensemble d’offres](creating-offer-set.md#creating_an_of
 
 ## &#x200B;3. Envoyez le jeu d’offres à Adobe Target Standard/Premium
 
-Sur la page Jeu d’offres Test&amp;Target, sélectionnez **[!UICONTROL Intégrer les offres]** et saisissez vos informations de connexion dans la boîte de dialogue Connexion Test&amp;Target. Voir [ Envoi des ensembles d’offres vers Adobe Target Standard/Premium ](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Sur la page Jeu d’offres Test&amp;Target, sélectionnez **[!UICONTROL Intégrer les offres]** et saisissez vos informations de connexion dans la boîte de dialogue Connexion Test&amp;Target. Voir [&#x200B; Envoi des ensembles d’offres vers Adobe Target Standard/Premium &#x200B;](pushing-offer-sets-target.md#pushing_offer_sets_to_target).

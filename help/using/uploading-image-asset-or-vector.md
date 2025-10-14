@@ -30,7 +30,7 @@ Avant de transférer un fichier d’image, vous devez d’abord demander une cl�
 
 ## Demander une clé secrète partagée {#requesting-a-shared-secret-key}
 
-Demandez une *clé secrète partagée* en [ à l’aide d’Admin Console pour créer un dossier de support.](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) Dans le cas du support technique, demandez une clé secrète partagée.
+Demandez une *clé secrète partagée* en [&#x200B; à l’aide d’Admin Console pour créer un dossier de support.](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) Dans le cas du support technique, demandez une clé secrète partagée.
 
 Dans le message électronique, indiquez le nom d’entreprise que vous voulez utiliser pour transférer les fichiers d’image. Après avoir reçu la clé d’Adobe Dynamic Media Classic, enregistrez-la localement pour une utilisation ultérieure.
 
@@ -108,7 +108,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Les champs `upload_token` et `company_name` sont obligatoires.
 
-Voir [ Récupération du jeton de chargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Voir [&#x200B; Récupération du jeton de chargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
 Voir [Récupération d’une clé secrète partagée](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 

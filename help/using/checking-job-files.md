@@ -95,7 +95,7 @@ Sélectionnez une tâche récurrente sur la page Tâches et suivez ces instructi
 
 * **Modifier une tâche récurrente** : sélectionnez le bouton **[!UICONTROL Modifier]** et saisissez les informations de planification dans la boîte de dialogue Modifier la tâche planifiée. Si vous souhaitez que la tâche se répète à un intervalle de votre choix, sélectionnez **[!UICONTROL Répéter]** > **[!UICONTROL Personnalisé]**.
 
-Voir [ Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
+Voir [&#x200B; Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
 * **Suppression d’une tâche récurrente** : sélectionnez le bouton **[!UICONTROL Supprimer]**.
 

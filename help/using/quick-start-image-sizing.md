@@ -27,7 +27,7 @@ Le dimensionnement des images fait référence à la capacité d’Adobe Dynamic
 
 ![Vous pouvez créer plusieurs images dérivées de tailles différentes à partir du même fichier principal haute résolution.](/help/using/assets/is_derivative_sizes_popup.png)
 
-Voir la vidéo de formation [ Dimensionnement d’image ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS) Dynamic Imaging .
+Voir la vidéo de formation [&#x200B; Dimensionnement d’image &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS) Dynamic Imaging .
 
 Le didacticiel de mise en route du dimensionnement d’image suivant est conçu pour vous aider à maîtriser rapidement les techniques de dimensionnement d’image dans Adobe Dynamic Media Classic. Suivez les étapes 1 à 5. Après chaque étape, il existe une référence croisée où vous pouvez trouver plus d’informations si vous en avez besoin.
 

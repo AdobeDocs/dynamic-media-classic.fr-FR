@@ -49,13 +49,13 @@ Voir [Création et gestion des groupes du portail multimédia](creating-media-po
 
 Lorsque vous ajoutez un utilisateur, vous lui attribuez un rôle (utilisateur, contributeur ou contributeur-utilisateur). Vous pouvez également affecter l’utilisateur à un ou plusieurs groupes. Pour accélérer la procédure d’ajout, vous pouvez télécharger une liste d’utilisateurs enregistrée dans un fichier au format CSV. Les nouveaux utilisateurs reçoivent un message électronique de bienvenue accompagné d’instructions de connexion au portail multimédia.
 
-Voir [ Ajouter et gérer des utilisateurs du portail multimédia ](adding-media-portal-users.md#adding_and_managing_media_portal_users).
+Voir [&#x200B; Ajouter et gérer des utilisateurs du portail multimédia &#x200B;](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## &#x200B;4. Gestion des comptes FTP
 
 Vous pouvez avoir des comptes FTP distincts associés au portail multimédia. Ils peuvent être mappés à un dossier spécifique dans votre compte Adobe Dynamic Media Classic. Ce type de fonctionnalité signifie que vous pouvez autoriser les utilisateurs à télécharger des fichiers numériques sur votre compte en utilisant des comptes FTP distincts.
 
-Voir [ Gestion des comptes FTP ](ftp-accounts.md#managing_ftp_accounts).
+Voir [&#x200B; Gestion des comptes FTP &#x200B;](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >

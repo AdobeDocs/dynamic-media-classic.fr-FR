@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# ![ Logo de la newsletter Dynamic Media ](/help/using/assets/dynamic-media-newsletter-logo.png)
+# ![&#x200B; Logo de la newsletter Dynamic Media &#x200B;](/help/using/assets/dynamic-media-newsletter-logo.png)
 
 >[!NOTE]
 >

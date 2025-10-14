@@ -82,7 +82,7 @@ Créez une tâche de publication récurrente en sélectionnant **[!UICONTROL Ré
 
 Choisissez ensuite l’option Répéter de **[!UICONTROL Quotidien]**, **[!UICONTROL Hebdomadaire]**, **[!UICONTROL Mensuel]** ou **[!UICONTROL Personnalisé]**, puis indiquez à quel moment vous souhaitez que la tâche de publication se répète. Adobe Dynamic Media Classic présente les outils de calendrier pour la planification de la tâche de publication récurrente. Vous pouvez sélectionner l’option **[!UICONTROL Personnalisé]** et saisir une règle dans le champ de texte Règle pour décrire un intervalle de tâche personnalisé.
 
-Voir [ Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
+Voir [&#x200B; Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
 >[!NOTE]
 >

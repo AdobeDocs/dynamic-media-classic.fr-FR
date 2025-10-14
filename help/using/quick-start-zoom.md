@@ -33,7 +33,7 @@ Le démarrage rapide de Zoom suivant est conçu pour vous permettre de vous fami
 
 Commencez par charger vos images de zoom dans Adobe Dynamic Media Classic. Pour un zoom optimal, Adobe Dynamic Media Classic recommande d’avoir au moins 2 000 pixels dans la plus grande taille.
 
-Sur la barre de navigation générale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger des images depuis votre ordinateur ou votre réseau vers un dossier d’Adobe Dynamic Media Classic. Voir [ Chargement d’images avec zoom ](uploading-zoom-images.md#uploading_zoom_images).
+Sur la barre de navigation générale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger des images depuis votre ordinateur ou votre réseau vers un dossier d’Adobe Dynamic Media Classic. Voir [&#x200B; Chargement d’images avec zoom &#x200B;](uploading-zoom-images.md#uploading_zoom_images).
 
 ## &#x200B;2. Création de cibles de zoom pour le zoom guidé
 

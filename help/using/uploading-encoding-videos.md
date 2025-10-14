@@ -44,7 +44,7 @@ Pour créer des visionneuses de vidéos adaptatives ou uniques à diffuser sur l
 
 Adobe Dynamic Media Classic génère également des miniatures vidéo. Vous pouvez en savoir plus sur les miniatures de vidéos, l’obtention de leurs URL et la modification des images de l’affiche.
 
-Voir [ Utilisation de miniatures vidéo ](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
+Voir [&#x200B; Utilisation de miniatures vidéo &#x200B;](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
 
 **Pour charger et coder des vidéos, procédez comme suit**
 
@@ -155,7 +155,7 @@ Vous pouvez obtenir les métadonnées d’un fichier en les affichant dans Adobe
 
 Lorsque vous choisissez ou créez un paramètre prédéfini de codage vidéo pour votre fichier vidéo principal, assurez-vous que ce paramètre présente les mêmes proportions que le fichier vidéo principal. Le *format* fait référence au rapport largeur/hauteur de la vidéo.
 
-Pour déterminer les proportions d’un fichier vidéo, récupérez les métadonnées de ce fichier et notez les valeurs de largeur et de hauteur (voir [ Obtention des métadonnées d’un fichier ](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Utilisez ensuite cette formule pour déterminer le format :
+Pour déterminer les proportions d’un fichier vidéo, récupérez les métadonnées de ce fichier et notez les valeurs de largeur et de hauteur (voir [&#x200B; Obtention des métadonnées d’un fichier &#x200B;](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Utilisez ensuite cette formule pour déterminer le format :
 
 Largeur / Hauteur = Format
 

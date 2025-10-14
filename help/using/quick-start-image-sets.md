@@ -44,7 +44,7 @@ Commencez par télécharger les images pour les visionneuses d’images. Comme l
 
 Sur la barre de navigation générale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger des fichiers depuis votre ordinateur vers un dossier d’Adobe Dynamic Media Classic.
 
-Voir [ Préparation du chargement de ressources de visionneuse d’images](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) et [ Chargement des fichiers](uploading-files.md#uploading-your-files).
+Voir [&#x200B; Préparation du chargement de ressources de visionneuse d’images](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) et [&#x200B; Chargement des fichiers](uploading-files.md#uploading-your-files).
 
 ## &#x200B;2. Création d’une visionneuse d’images
 

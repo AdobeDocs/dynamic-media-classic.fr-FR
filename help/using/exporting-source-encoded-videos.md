@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Dans le panneau de navigation, les vidéos sources sont intitulées *Vidéo en Principal*. Les vidéos codées sont intitulées *Vidéo*. Vous pouvez exporter des vidéos principales et des vidéos. Pour exporter des fichiers vidéo, sélectionnez-les dans le panneau de navigation et accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Exporter]**.
 
-Voir [ Exporter des ressources à partir d’Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
+Voir [&#x200B; Exporter des ressources à partir d’Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 
 >[!MORELIKETHIS]
 >

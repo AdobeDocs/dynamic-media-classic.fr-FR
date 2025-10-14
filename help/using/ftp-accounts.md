@@ -23,7 +23,7 @@ Seuls les administrateurs du portail multimédia peuvent administrer et gérer l
 
 Rappelez-vous que vous pouvez activer ou désactiver les utilisateurs existants du portail multimédia dans la page d’administration utilisateur de la configuration de l’administration.
 
-Voir [ Activer ou désactiver des utilisateurs](administration-setup.md#activating_or_deactivating_users).
+Voir [&#x200B; Activer ou désactiver des utilisateurs](administration-setup.md#activating_or_deactivating_users).
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Portail de médias]** > **[!UICONTROL Comptes FTP]**.
 1. Sur la page d’ajout de compte FTP, sélectionnez un utilisateur dans la liste déroulante Nom d’utilisateur des comptes FTP.

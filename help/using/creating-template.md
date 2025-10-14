@@ -111,9 +111,9 @@ Utilisez ces outils dans l’écran Modèle pour créer des modèles :
 
 * **[!UICONTROL Zone de travail]** : définit la zone disponible totale, en pixels, pour définir votre modèle. La taille par défaut est de 300 × 300 pixels. Les calques sont placés sur la zone de travail.
 
-* **[!UICONTROL Liste Calques]** : répertorie le nom des calques du modèle. Pour sélectionner un calque, sélectionnez son nom dans la liste Calques. La liste Calques est assortie d’outils permettant de supprimer, de réorganiser et de paramétrer les calques, et de leur ajouter des effets Voir [ Utilisation des calques ](#working-with-layers).
+* **[!UICONTROL Liste Calques]** : répertorie le nom des calques du modèle. Pour sélectionner un calque, sélectionnez son nom dans la liste Calques. La liste Calques est assortie d’outils permettant de supprimer, de réorganiser et de paramétrer les calques, et de leur ajouter des effets Voir [&#x200B; Utilisation des calques &#x200B;](#working-with-layers).
 
-* **[!UICONTROL Zone Propriétés du calque]** : cette zone propose des outils permettant de modifier la couleur, l’opacité, la taille et la position de l’arrière-plan d’un calque. Vous pouvez également modifier la couleur, l’opacité et la taille de l’arrière-plan de la zone de travail. Vous pouvez également y régler les effets d’ombre et d’éclat Voir [ Utilisation des calques ](#working-with-layers).
+* **[!UICONTROL Zone Propriétés du calque]** : cette zone propose des outils permettant de modifier la couleur, l’opacité, la taille et la position de l’arrière-plan d’un calque. Vous pouvez également modifier la couleur, l’opacité et la taille de l’arrière-plan de la zone de travail. Vous pouvez également y régler les effets d’ombre et d’éclat Voir [&#x200B; Utilisation des calques &#x200B;](#working-with-layers).
 
 ## Création de calques d’image {#creating-image-layers}
 

@@ -217,7 +217,7 @@ Lors du chargement de fichiers, vous pouvez choisir l’une des options suivante
          * **[!UICONTROL Quotidien]** : définissez l’heure à laquelle vous souhaitez que la tâche s’exécute tous les jours. Si vous souhaitez que le traitement s’exécute uniquement du lundi au vendredi, sélectionnez **[!UICONTROL Jours de la semaine uniquement]**.
          * **[!UICONTROL Hebdomadaire]** : sélectionnez le jour et l’heure de la semaine où vous souhaitez que la tâche s’exécute.
          * **[!UICONTROL Mensuel]** : sélectionnez un jour spécifique du mois ou de la semaine, y compris l’heure de début, pour l’exécution de la tâche.
-         * **[!UICONTROL Personnalisé]** : personnalisez un intervalle de temps de tâche de chargement ou de publication selon vos propres spécifications. Voir [ Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+         * **[!UICONTROL Personnalisé]** : personnalisez un intervalle de temps de tâche de chargement ou de publication selon vos propres spécifications. Voir [&#x200B; Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
 
    * **[!UICONTROL Publier après le chargement]** : disponible si vous avez sélectionné l’onglet **[!UICONTROL À PARTIR DE L’ORDINATEUR DE BUREAU]** ou l’onglet **[!UICONTROL VIA FTP]**. Sélectionnez cette option pour publier automatiquement les ressources que vous chargez. Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Cette option est également disponible sur la page de téléchargement.
 
@@ -251,7 +251,7 @@ Rognage en fonction de la transparence : spécifiez 0 pour rogner les pixels uni
 Voir [Options de réglage d’image au moment du chargement](image-editing-options-upload.md#image-editing-options-at-upload).
 
 * **Options PostScript®** : pixellisez des fichiers PostScript®, recadrez des fichiers, conservez les arrière-plans transparents, choisissez une résolution et choisissez un espace colorimétrique.
-Voir [ Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
+Voir [&#x200B; Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Options Photoshop** : vous pouvez créer des modèles à partir de fichiers Adobe® Photoshop®, conserver les calques, spécifier le mode de dénomination des calques, extraire du texte et spécifier le mode d’ancrage des images dans les modèles.
 (voir [Options de téléchargement des fichiers PSD](psd-files.md#psd_upload_options)).
@@ -260,10 +260,10 @@ Voir [ Utilisation de fichiers PostScript et Illustrator](postscript-illustrator
 (voir [Options de téléchargement des fichiers PDF](pdfs.md#pdf_upload_options)).
 
 * **Options Illustrator** : pixellisez les fichiers Adobe Illustrator®, conservez les arrière-plans transparents, choisissez une résolution et choisissez un espace colorimétrique.
-Voir [ Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
+Voir [&#x200B; Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Options EVIDEO** : vous pouvez transcoder un fichier vidéo en choisissant un paramètre vidéo prédéfini.
-Voir [ Utilisation de paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
+Voir [&#x200B; Utilisation de paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
 * **Plus de métadonnées** : entrez des mots-clés qui décrivent les fichiers que vous avez l’intention de télécharger. Séparez les mots clés-par des virgules. Les mots-clés facilitent la recherche de ressources.
 Voir [Réalisation d’une recherche avancée](searching-assets.md#conducting_an_advanced_search).

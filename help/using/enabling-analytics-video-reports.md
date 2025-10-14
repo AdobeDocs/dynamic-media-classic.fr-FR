@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Grâce aux rapports vidéo basés sur les pulsations Adobe Analytics, vous n’avez plus besoin d’activer les quatre événements de visionneuse de vidéos (Lecture, Pause, Arrêt, Jalon) lorsque vous configurez Adobe Analytics dans Adobe Dynamic Media Classic. La pulsation vidéo fonctionne avec les visionneuses de vidéos et de médias mixtes Adobe Dynamic Media Classic HTML prêtes à l’emploi. Le lecteur vidéo génère des données de suivi à des fins d’affichage dans les rapports vidéo Adobe Analytics.
 
-* Pour une présentation des médias en flux continu et de la « mesure de pulsation », voir [ À propos d’Adobe Analytics for Streaming Media ](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview).
+* Pour une présentation des médias en flux continu et de la « mesure de pulsation », voir [&#x200B; À propos d’Adobe Analytics for Streaming Media &#x200B;](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview).
 
 * L’intégration des rapports vidéo Adobe Analytics à Adobe Dynamic Media Classic prend en charge les variables de solution, mais pas les variables personnalisées.
 
