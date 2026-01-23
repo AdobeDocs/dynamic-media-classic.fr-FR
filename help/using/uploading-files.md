@@ -26,7 +26,7 @@ Avant de charger des ressources vers Adobe Dynamic Media Classic, assurez-vous q
 
 ### Formats de fichiers pris en charge {#supported-asset-file-formats}
 
-Ce tableau répertorie les formats de fichiers de ressources pris en charge par Adobe Dynamic Media Classic. Pour plus d’informations sur les fichiers Camera Raw pris en charge, voir [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
+Ce tableau répertorie les formats de fichiers de ressources pris en charge par Adobe Dynamic Media Classic. Pour plus d’informations sur les fichiers Camera Raw pris en charge, voir [https://helpx.adobe.com/fr/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/fr/camera-raw/using/supported-cameras.html).
 
 | Formats de fichiers | Description |
 | --- | --- |

@@ -48,7 +48,7 @@ Après avoir publié un ensemble d’échantillons, vous pouvez utiliser l’URL
 
 La méthode la plus courante pour déployer des échantillons consiste à placer un lien (au moyen d’une icône de navigation) sur votre page web. Lorsque ce lien est sélectionné, il lance une page dynamique (ASP ou JSP) qui affiche le jeu d’échantillons dans une fenêtre pop-up de zoom. Le lien Zoom ouvre une fenêtre pop-up qui contient la fonction de zoom réelle.
 
-Pour plus d’informations et des exemples de code, voir [Incorporation de la visionneuse Zoom HTML5 dans le guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Pour plus d’informations et des exemples de code, voir [Incorporation de la visionneuse Zoom HTML5 dans le guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copie du code incorporé d’une visionneuse d’échantillon {#copying-the-embed-code-of-a-swatch-set-viewer}
 
