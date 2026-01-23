@@ -76,7 +76,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Lorsque vous avez terminé, en bas à droite de la page, assurez-vous que l’option **[!UICONTROL Publier après un enregistrement*]** est sélectionnée (par défaut).
 1. Sélectionnez **[!UICONTROL Fermer]**, saisissez un nom pour le jeu d&#39;offres, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [ Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [&#x200B; Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Création d’un ensemble d’offres avec des images ou des vidéos {#creating-an-offer-set-with-images-or-videos}
 
@@ -107,7 +107,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Une fois que vous avez terminé de créer des offres pour le jeu d’offres et de choisir des paramètres d’image prédéfinis pour différentes images, assurez-vous que l’option **[!UICONTROL Publier après un enregistrement]** est sélectionnée (par défaut).
 1. Sélectionnez **[!UICONTROL Enregistrer]** saisissez un nom pour le jeu d&#39;offres, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [ Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [&#x200B; Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Modification d’un ensemble d’offres {#editing-an-offer-set}
 

@@ -25,7 +25,7 @@ Les deux restrictions suivantes s’appliquent si vous exportez des ressources d
 * La taille du fichier d’exportation zip compressé ne doit pas dépasser 1 Go pour la tâche d’exportation.
 * Une tâche d’exportation peut contenir un maximum de 500 fichiers.
 
-Voir aussi [ Exporter des ressources à partir d’Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
+Voir aussi [&#x200B; Exporter des ressources à partir d’Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
 **Pour spécifier les options d’exportation disponibles pour les utilisateurs du portail multimédia, procédez comme suit**
 
