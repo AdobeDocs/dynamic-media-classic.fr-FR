@@ -10,9 +10,9 @@ role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '613'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ Vous pouvez déplacer des ressources vers différents dossiers dans le panneau P
 1. Sélectionnez la ou les ressources dans le panneau de navigation, puis effectuez l’une des opérations suivantes :
 
    * Affichez le dossier dans lequel vous souhaitez déplacer les ressources dans la bibliothèque de ressources et faites-les glisser vers le dossier.
-   * Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Déplacer]**, sélectionnez un dossier dans la fenêtre Déplacer Assets , puis sélectionnez **[!UICONTROL Déplacer]**.
+   * Accédez à **[!UICONTROL Fichier]** > **`Move`**, sélectionnez un dossier dans la fenêtre `Move Assets`, puis sélectionnez **`Move`**.
 
 ## Attribution d’un nouveau nom à un fichier {#rename-assets}
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 22%
+source-wordcount: '801'
+ht-degree: 18%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 22%
 
 Une visionneuse à 360° simule la rotation d’un objet afin de l’examiner. Elle permet de visualiser des objets sous n’importe quel angle et profiter ainsi des moindres détails. La visionneuse à 360° procure une expérience de visualisation panoramique. Adobe Dynamic Media Classic propose des visionneuses à 360° unidimensionnelles dans lesquelles les utilisateurs peuvent faire pivoter un élément, et des visionneuses à 360° bidimensionnelles dans lesquelles les utilisateurs peuvent faire pivoter et retourner l’élément. De plus, les utilisateurs peuvent effectuer un zoom et un panoramique « libres » sur n’importe quelle vue en quelques clics seulement. Ainsi, les utilisateurs peuvent examiner un objet de plus près sous un angle bien précis.
 
-![Images pour une visionneuse à 360°.](/help/using/assets/spin_set.png)
+![Images pour une visionneuse à 360°](/help/using/assets/spin_set.png)
 
-Les visionneuses à 360° acceptent également les zones cliquables. Une zone cliquable est une partie sur une image dans la visionneuse à 360° qui affiche un panneau de survol avec un texte. Lorsque l’utilisateur sélectionne une zone cliquable, une action quelconque est déclenchée. Par exemple, une page web est lancée afin que l’utilisateur ou l’utilisatrice puisse en savoir plus sur un produit. Pour pointer une zone cliquable dans une visionneuse à 360°, un contour apparaît autour de la zone cliquable elle-même lorsque l’utilisateur place le pointeur de la souris dessus.
+Les visionneuses à 360° acceptent également les zones cliquables. Une zone cliquable est une zone d’une image dans la visionneuse à 360° qui affiche un panneau de survol avec du texte. Lorsque l’utilisateur sélectionne une zone cliquable, une action quelconque est déclenchée. Par exemple, une page web est lancée afin que l’utilisateur ou l’utilisatrice puisse en savoir plus sur un produit. Pour pointer une zone cliquable dans une visionneuse à 360°, un contour apparaît autour de la zone cliquable elle-même lorsque l’utilisateur place le pointeur de la souris dessus.
 
 Voir [Création de zones cliquables](creating-image-maps.md).
 
@@ -37,7 +37,7 @@ Lorsque vous créez une visionneuse à 360°, Adobe recommande les bonnes pratiq
 
 Voir aussi [Limites de Dynamic Media](/help/using/limitations.md).
 
-Ce démarrage rapide des visionneuses à 360° est conçu pour vous aider à maîtriser rapidement les techniques des visionneuses à 360° dans Adobe Dynamic Media Classic. Suivez les étapes 1 à 7. À la fin de chaque étape, vous pouvez sélectionner un lien de rubrique pour en savoir plus.
+Ce démarrage rapide est conçu pour vous aider à maîtriser rapidement les techniques des visionneuses à 360° dans Adobe Dynamic Media Classic. Suivez les étapes 1 à 7. À la fin de chaque étape, vous pouvez sélectionner un lien de rubrique pour en savoir plus.
 
 ## &#x200B;1. Création et chargement des images
 
@@ -57,7 +57,7 @@ Voir [Création d’une visionneuse à 360°](creating-spin-set.md#creating-a-sp
 
 Pour modifier une visionneuse à 360°, dans la barre de navigation générale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**. Sélectionnez une visionneuse à 360°, puis sélectionnez **[!UICONTROL Modifier]**. Ajoutez, supprimez des images et modifiez leur position. Vous pouvez modifier la position des lignes dans les visionneuses à 360° bidimensionnelles.
 
-Voir [&#x200B; Modification d’une visionneuse à 360°](creating-spin-set.md#editing-a-spin-set).
+Voir [ Modification d’une visionneuse à 360°](creating-spin-set.md#editing-a-spin-set).
 
 ## &#x200B;4. Configuration des paramètres prédéfinis de visionneuse à 360°
 
@@ -79,7 +79,7 @@ La publication d’une visionneuse à 360° la place sur les serveurs Adobe Dyna
 
 Pour publier une visionneuse à 360°, marquez-la pour publication en sélectionnant l’icône **[!UICONTROL Marquer pour publication]** à côté de son nom dans le panneau de navigation. Sur la barre de navigation générale, sélectionnez **[!UICONTROL Publier]** pour lancer une publication. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
-Voir [&#x200B; Publication d’une visionneuse à 360°](publishing-spin-set.md#publishing-a-spin-set).
+Voir [ Publication d’une visionneuse à 360°](publishing-spin-set.md#publishing-a-spin-set).
 
 ## &#x200B;7. Liaison d’une visionneuse à 360° à une page web
 

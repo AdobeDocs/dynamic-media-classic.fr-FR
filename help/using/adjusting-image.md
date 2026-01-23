@@ -10,10 +10,10 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 41%
+ht-degree: 37%
 
 ---
 
@@ -30,7 +30,7 @@ Voir aussi [Créer un alias pour une image](adjusting-image.md#creating_an_alias
 1. Utilisez les commandes situées sur le côté droit de la fenêtre de `Adjust Editor` pour ajuster l’image :
 
    * Utilisez les options de retournement (Retourner) pour faire pivoter une image sur le plan horizontal ou vertical. 
-   * Utilisez le curseur de rotation (Pivoter) pour faire pivoter l’image. Vous pouvez saisir des valeurs dans le champ Pivoter pour appliquer une rotation à une image. Les valeurs positives appliquent une rotation horaire et les valeurs négatives, une rotation antihoraire.
+   * Utilisez le curseur **[!UICONTROL Rotateur]** pour faire pivoter l’image. Vous pouvez saisir des valeurs dans le champ **[!UICONTROL Rotateur]** pour faire pivoter une image. Les valeurs positives appliquent une rotation horaire et les valeurs négatives, une rotation antihoraire.
    * Utilisez le curseur Estomper ou la zone correspondante pour rendre une image floue. Plus la valeur est élevée, plus l’image devient floue.
    * Utilisez les options Contraste, Luminosité, Saturation, Teinte et Equilibre des couleurs pour régler la couleur et la luminosité. Ces effets sont cumulatifs. Par exemple, les modifications apportées aux paramètres Magenta/Vert s’ajoutent aux modifications des paramètres Teinte.
    * Utilisez les options `Colorize` pour colorer une image tout en conservant les ombres et les tons clairs. Les modifications effectuées à l’aide des options Coloriser sont également cumulatives. Dans le menu Luminosité , choisissez **[!UICONTROL Aucune compensation]** afin de désactiver la compensation automatique de la luminosité. Définissez la valeur de contraste sur 0 pour conserver la plage de contraste de l’image originale, ou spécifiez une plage de contraste avec une valeur supérieure à 0. Une valeur égale à 100 produit le contraste maximum. Les valeurs habituelles sont comprises entre 30 et 70.

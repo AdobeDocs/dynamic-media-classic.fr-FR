@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1236'
 ht-degree: 18%
 
 ---
@@ -93,7 +93,7 @@ Le tableau suivant décrit les variables Adobe Dynamic Media Classic :
 | viewerId | Numéro arbitraire attribué à chaque type de visionneuse |
 | pageLabel | Dans un catalogue électronique, page affichée par une visionneuse |
 | label | Valeur de l’étiquette (chaîne). |
-| frame | Page ou référence de page dans une visionneuse d’images. |
+| frame | Page ou page référencées dans une visionneuse d’images. |
 | rollover_keyRaw | La valeur HREF entière, et pas n’importe quelle partie traitée. |
 | rollover_keyProc | ID d’un objet référencé dans une zone cliquable (valide pour les événements href et objet) |
 | searchTerm | Terme utilisé dans le cadre d’une recherche de catalogue électronique |

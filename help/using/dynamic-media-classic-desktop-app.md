@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: afc347201b13c3b91ec5e1bd3ac5304442772f8d
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '1996'
 ht-degree: 0%
 
 ---
@@ -233,7 +233,7 @@ Pour télécharger et *silencieusement* installez la dernière version de l’ap
 
 ## Présentation vidéo sur l’utilisation de l’application de bureau Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
-Regardez une [présentation vidéo sur l’utilisation de l’application de bureau Adobe Dynamic Media Classic](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (durée : 2 minutes 36 secondes).
+Regardez une [présentation vidéo sur l’utilisation de l’application de bureau Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (durée : 2 minutes 36 secondes).
 
 ## Effacement du cache d’images et du cache de ressources sur votre ordinateur à l’aide de l’application de bureau {#clear-cache}
 
@@ -271,11 +271,11 @@ Outre l’effacement de l’image et du cache de ressources à l’aide de l’a
 
 ## Conseils et astuces
 
-**_Je ne parviens pas à voir le panneau Panier de médias sur la page de destination d’Adobe Dynamic Media Classic._**<br>Dans Adobe Dynamic Media Classic, appuyez sur&#x200B;**[!UICONTROL Configuration > Configuration personnelle &#x200B;]**. Dans la section Navigateur , assurez-vous que&#x200B;**[!UICONTROL Afficher les fonctionnalités de MediaPortal &#x200B;]**&#x200B;est sélectionné (coché). Appuyez sur&#x200B;**[!UICONTROL Enregistrer > Fermer &#x200B;]**.
+**_Je ne parviens pas à voir le panneau Panier de médias sur la page de destination d’Adobe Dynamic Media Classic._**<br>Dans Adobe Dynamic Media Classic, appuyez sur**[!UICONTROL Configuration > Configuration personnelle ]**. Dans la section Navigateur , assurez-vous que**[!UICONTROL Afficher les fonctionnalités de MediaPortal ]**est sélectionné (coché). Appuyez sur**[!UICONTROL Enregistrer > Fermer ]**.
 
-**_L’état de publication (indicateur vert) d’une ressource n’est pas correctement reflété._**<br>Dans l’interface utilisateur du navigateur, une nouvelle connexion à l’interface utilisateur était nécessaire pour afficher le statut de publication correct des ressources. Dans l’application de bureau, Adobe a introduit une icône&#x200B;**[!UICONTROL Actualiser &#x200B;]**&#x200B;dans la barre d’outils, à droite du bouton&#x200B;**[!UICONTROL Ne rien sélectionner &#x200B;]**. Appuyez sur l’icône&#x200B;**[!UICONTROL Actualiser &#x200B;]**&#x200B;pour afficher le dernier statut de toutes les ressources sur la page donnée. Aucune nouvelle connexion n’est requise comme avec l’interface utilisateur du navigateur.
+**_L’état de publication (indicateur vert) d’une ressource n’est pas correctement reflété._**<br>Dans l’interface utilisateur du navigateur, une nouvelle connexion à l’interface utilisateur était auparavant nécessaire pour afficher le statut de publication correct des ressources. Dans l’application de bureau, Adobe a introduit une icône**[!UICONTROL Actualiser ]**dans la barre d’outils, à droite du bouton**[!UICONTROL Ne rien sélectionner ]**. Appuyez sur l’icône**[!UICONTROL Actualisation ]**pour afficher le dernier statut de toutes les ressources de la page donnée. Aucune nouvelle connexion n’est requise comme avec l’interface utilisateur du navigateur.
 
 ![Icône Actualiser](/help/using/assets/refresh-icon1.png)
 *Icône Actualiser*
 
-**_Je ne vois pas les paramètres prédéfinis de lot qui fonctionnent dans l’application de bureau._**<br>Appuyez sur&#x200B;**[!UICONTROL Charger > Options de tâche > Paramètres prédéfinis de lot &#x200B;]**. Assurez-vous que le&#x200B;**[!UICONTROL paramètre prédéfini de lot &#x200B;]**&#x200B;approprié est activé. Cliquez sur&#x200B;**[!UICONTROL Enregistrer et soumettre le chargement &#x200B;]**.
+**_Je ne vois pas les paramètres prédéfinis de lot qui fonctionnent dans l’application de bureau._**<br>Appuyez sur**[!UICONTROL Charger > Options de tâche > Paramètres prédéfinis de lot ]**. Assurez-vous que le**[!UICONTROL paramètre prédéfini de lot ]**approprié est activé. Cliquez sur**[!UICONTROL Enregistrer et soumettre le chargement ]**.

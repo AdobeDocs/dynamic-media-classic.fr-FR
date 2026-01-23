@@ -10,7 +10,7 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 27%
@@ -27,11 +27,11 @@ Assurez-vous d’établir une structure de dossiers et une organisation pour le 
 
 La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de dossiers. Lorsque vous sélectionnez un dossier dans la bibliothèque de ressources, son contenu apparaît dans le panneau Parcourir . Pour localiser des dossiers dans l’arborescence de dossiers, utilisez les techniques suivantes :
 
-* **Afficher les sous-dossiers** : sélectionnez l’icône **[!UICONTROL Développer le dossier]** pour afficher les sous-dossiers dans un dossier. Cette icône se trouve à gauche des noms de dossiers.
+* **Afficher les sous-dossiers** : sélectionnez l’icône **[!UICONTROL Dossier développé]** pour afficher les sous-dossiers dans un dossier. Cette icône se trouve à gauche des noms de dossiers.
 
 * **Déplacer un dossier** : vous pouvez déplacer un dossier en le faisant glisser et en le déposant à son nouvel emplacement ou en sélectionnant **[!UICONTROL Fichier]** > **[!UICONTROL Déplacer un dossier]**.
 
-* **Masquer les dossiers** : sélectionnez l’icône **[!UICONTROL Réduire le dossier]** si vous souhaitez réduire les sous-dossiers pour les masquer de la vue. Cette icône se trouve à gauche des noms de dossiers.
+* **Masquer les dossiers** : sélectionnez l’icône **[!UICONTROL Dossier réduit]** si vous souhaitez réduire les sous-dossiers pour les masquer de la vue. Cette icône se trouve à gauche des noms de dossiers.
 
 * **Ouvrir un dossier** : sélectionnez un dossier si vous souhaitez afficher son contenu dans le panneau de navigation.
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '2207'
 ht-degree: 30%
@@ -59,7 +59,7 @@ Le tableau suivant présente les options d’accentuation du serveur Image Serv
 | --- | --- | --- | --- |
 | Accentuation simple | `op_sharpen` | `0` ou `1` | `op_sharpen=1` |
 | Mode de ré-échantillonnage | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin` : sélectionne une interpolation bilinéaire standard. Méthode de rééchantillonnage la plus rapide ; certains artefacts d’alias sont souvent perceptibles.<br>`bicub` : sélectionne l&#39;interpolation bi-cubique. Plus gourmand en CPU que `bilin`, mais produit des images plus nettes avec des artefacts d’alias moins visibles.<br><br>`sharp2` : sélectionne une fonction Lanczos Windows® modifiée comme algorithme d&#39;interpolation. Il peut produire des résultats légèrement plus nets que bi-cubique à un coût CPU plus élevé.<br><br>`trilin` : sélectionne une interpolation trilinéaire modifiée, qui utilise des résolutions plus élevées et plus basses, le cas échéant. Méthode recommandée si le crénelage devient problématique. Elle réduit la taille des fichiers JPEG en raison des données à haute fréquence réduites. | `resMode=sharp2` |
-| Masquage flou | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount` : facteur d’intensité du filtre (réel 0...5)<br><br>`radius` : rayon du noyau du filtre en pixels (réel 0...250) <br><br>`threshold` : niveau de seuil du filtre (int 0...255)<br><br>`monochrome` : défini sur `0` pour appliquer l’accentuation à chaque composante de couleur séparément, défini sur `1` pour appliquer l’accentuation à la luminosité de l’image (intensité) | `op_usm=1,1,10,0` |
+| Masquage flou | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount` : facteur d’intensité du filtre (réel 0...5)<br><br>`radius` : rayon du noyau du filtre en pixels (réel 0...250) <br><br>`threshold` : niveau de seuil du filtre (entier 0...255)<br><br>`monochrome` : défini sur `0` pour appliquer l’accentuation à chaque composante de couleur séparément, défini sur `1` pour appliquer l’accentuation à la luminosité de l’image (intensité) du masque | `op_usm=1,1,10,0` |
 
 Sélectionnez le menu **[!UICONTROL Accentuation]** et choisissez une option :
 

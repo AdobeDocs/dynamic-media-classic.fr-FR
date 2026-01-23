@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1441'
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 
 Adobe Dynamic Media Classic Video est une solution complète qui facilite la publication de vidéos adaptatives haute qualité pour la diffusion sur plusieurs écrans, notamment les postes de travail, iOS, Android™, BlackBerry® et les appareils mobiles Windows®. Une visionneuse de vidéos adaptative regroupe les versions d’une même vidéo codées dans des débits et des formats différents, par exemple 400 kbit/s, 800 kbit/s et 1 000 kbit/s. L’ordinateur de bureau ou le périphérique mobile détecte la bande passante disponible.
 
-Par exemple, sur un périphérique mobile iOS, il détecte une bande passante telle que 3G, 4G ou une connexion Wi-Fi, puis sélectionne automatiquement la vidéo codée selon le débit correspondant parmi ceux disponibles dans la visionneuse de vidéos adaptative. La vidéo est diffusée en continu sur les ordinateurs, les appareils mobiles ou les tablettes.
+Par exemple, sur un appareil mobile iOS, il détecte une bande passante, telle que 3G, 4G ou une connexion Wi-Fi. puis sélectionne automatiquement la vidéo codée selon le débit correspondant parmi ceux disponibles dans la visionneuse de vidéos adaptative. La vidéo est diffusée en continu sur les ordinateurs, les appareils mobiles ou les tablettes.
 
 En outre, la qualité de la vidéo est automatiquement adaptée en temps réel selon les conditions réseau sur le bureau ou l’appareil mobile. En outre, si un client ou une cliente passe en mode plein écran sur un bureau, la visionneuse de vidéos à débit adaptatif réagit en utilisant une meilleure résolution, améliorant l’expérience de visionnage du client ou de la cliente. L’utilisation des visionneuses de vidéos adaptatives offre une lecture optimale. Il est préférable que les clients lisent la vidéo Adobe Dynamic Media Classic sur plusieurs écrans et appareils.
 
@@ -60,7 +60,7 @@ Lorsqu’une visionneuse de vidéos adaptative est générée, elle inclut des v
 
   La diffusion en continu de vidéo adaptative est prise en charge sur diverses plateformes iOS.
 
-  Consultez la dernière prise en charge dans le [Guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources).
+  Consultez la dernière prise en charge dans le [Guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic prend en charge la lecture vidéo pour mobiles au format vidéo MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -112,7 +112,7 @@ Adobe Dynamic Media Classic propose de nombreux paramètres prédéfinis de coda
 
 Toutefois, si une personnalisation plus poussée est nécessaire, les administrateurs peuvent créer des paramètres vidéo prédéfinis pour personnaliser la taille et la lecture des vidéos pour les utilisateurs. Les administrateurs peuvent ajouter et gérer des paramètres vidéo prédéfinis à partir de la page Paramètres vidéo prédéfinis disponible sous **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres vidéo prédéfinis]** > **[!UICONTROL Paramètres prédéfinis de codage unique]**. La page Paramètres vidéo prédéfinis propose des options permettant d’ajouter, de modifier, de supprimer et d’activer des paramètres vidéo prédéfinis.
 
-Voir [&#x200B; Utilisation de paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
+Voir [ Utilisation de paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
 ## &#x200B;2. Prévisualisation de vidéos dans une visionneuse de vidéos
 
@@ -126,7 +126,7 @@ Vous pouvez lire la vidéo dans la page Aperçu . Vous pouvez également choisir
 
 Personnalisation des paramètres prédéfinis de la visionneuse : Adobe Dynamic Media Classic propose des paramètres prédéfinis de visionneuse pour la diffusion de vidéos. Ces paramètres déterminent l’aspect de la visionneuse et le mode de fonctionnement des commandes de lecture. Pour personnaliser la visionneuse de vidéos, les administrateurs peuvent ajouter et gérer des paramètres prédéfinis de visionneuse à partir de la page Paramètres prédéfinis de la visionneuse. Pour ouvrir cette page, dans le coin supérieur droit d’Adobe Dynamic Media Classic, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**. La page Paramètres prédéfinis de la visionneuse propose des commandes permettant d’ajouter, de modifier, de supprimer et d’activer des paramètres prédéfinis de la visionneuse.
 
-Voir [&#x200B; Utilisation des paramètres prédéfinis de visionneuse vidéo &#x200B;](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
+Voir [ Utilisation des paramètres prédéfinis de visionneuse vidéo ](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
 Voir aussi [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vidéo de formation.
 
@@ -144,9 +144,9 @@ Pour intégrer la vidéo sur votre site Web, procédez de l’une des manières 
   >
   >les URL sont activées uniquement après que vous ayez publié la vidéo ou la visionneuse de vidéos adaptative.
 
-* Affichez la vidéo incorporée dans la page web, auquel cas utilisez la fonction **[!UICONTROL Code incorporé]**.
+* Affichez la vidéo incorporée dans la page web, auquel cas utilisez la fonction code incorporé .
 
-  Pour obtenir le code intégré d’une vidéo, dans la vue Grille ou Liste, sélectionnez la vidéo dans le panneau Parcourir . Accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**. Dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]** à droite de `Universal_HTML5_Video`. Il n’est pas possible de modifier le code.
+  Pour obtenir le code incorporé d’une vidéo, dans la vue Grille ou Liste, sélectionnez la vidéo dans le panneau Parcourir . Accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**. Dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]** à droite de `Universal_HTML5_Video`. Il n’est pas possible de modifier le code.
 
   Sélectionnez **[!UICONTROL Fermer]** et collez le code incorporé dans une ou plusieurs de vos pages web.
 

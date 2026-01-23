@@ -10,10 +10,10 @@ role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 41%
+ht-degree: 36%
 
 ---
 
@@ -37,7 +37,7 @@ Voir [Charger vos fichiers](uploading-files.md#uploading_your_files).
 
 Pour examiner un profil ICC, sélectionnez-le dans le panneau Parcourir et affichez-le dans la vue Détail. L’affichage des détails fournit les informations suivantes sur les profils ICC :
 
-* **[!UICONTROL Classe de profil]** : l’ICC (International Color Consortium) définit chaque classe pour couvrir un type d’application. Par exemple, les profils d’entrée s’appliquent aux périphériques tels que les appareils photo numériques et les numériseurs, tandis que les profils de sortie s’appliquent aux imprimantes.
+* **[!UICONTROL Classe de profil]** : l’ICC (International Color Consortium) définit chaque classe pour couvrir un type d’application. Par exemple, les profils d’entrée s’appliquent aux appareils, tels que les appareils photo et les scanners numériques, et les profils de sortie s’appliquent aux imprimantes.
 
 * **[!UICONTROL Type d’espace colorimétrique]** : ce nombre correspond à l’espace colorimétrique « d’entrée » du profil, tel que défini par l’ICC. Le type d’espace colorimétrique définit le nombre de composantes de l’espace colorimétrique et l’interprétation de ces composantes. Par exemple, RVB est un espace colorimétrique avec trois composantes : le rouge, le vert et le bleu. Le type d’espace colorimétrique ne définit pas les caractéristiques chromatiques particulières de l’espace (par exemple, la chromaticité des couleurs primaires).
 

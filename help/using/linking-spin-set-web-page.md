@@ -10,10 +10,10 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 23%
+ht-degree: 21%
 
 ---
 
@@ -54,11 +54,11 @@ https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_
 
 Dans cet exemple de syntaxe d’URL (le lien n’est pas actif), notez un numéro de SKU ( `sku=backpack_spin`). La chaîne après `sku=` est le nom de la visionneuse à 360° ( `backpack spin`).
 
-## Copie du code intégré d’une visionneuse à 360° {#copying-the-embed-code-of-a-spin-set-viewer}
+## Copie du code incorporé d’une visionneuse à 360° {#copying-the-embed-code-of-a-spin-set-viewer}
 
-La fonction Code incorporé permet de vérifier le code de la visionneuse à 360° sélectionnée. Vous pouvez également copier le code dans le presse-papiers afin de le coller dans vos pages web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
+Grâce à la fonction Code incorporé , vous pouvez réviser le code de la visionneuse pour la visionneuse à 360° sélectionnée. Vous pouvez également copier le code dans le presse-papiers afin de le coller dans vos pages web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
-**Pour copier le code intégré d’une visionneuse à 360°, procédez comme suit**
+**Pour copier le code incorporé d’une visionneuse à 360°, procédez comme suit**
 
 1. Dans le panneau de navigation des ressources, dans la liste déroulante Afficher, sélectionnez **[!UICONTROL Visionneuse à 360°]**.
 1. dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources contenant la visionneuse à 360° dont vous souhaitez copier le code intégré.

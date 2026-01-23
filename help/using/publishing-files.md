@@ -10,9 +10,9 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1673'
 ht-degree: 21%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 21%
 
 Vous publiez vos ressources sur les serveurs d’images Dynamic Media. Vous pouvez publier des ressources sur une base unique ou demander à Adobe Dynamic Media Classic de les publier selon un calendrier récurrent. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL d’Adobe Dynamic Media Classic et les ajouter à votre site web ou à votre application.
 
-Adobe Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos via HTTP/2. En d’autres termes, une URL publiée ou un code intégré pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cette ressource publiée utilise le protocole HTTP/2 pour la diffuser. Cette méthode de diffusion améliore la communication entre les navigateurs et les serveurs, ce qui permet d’obtenir de meilleurs temps de réponse et de chargement pour toutes vos ressources Adobe Dynamic Media Classic. Voir la [HTTP2 FAQ sur la diffusion de contenu](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/http2).
+Adobe Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos via HTTP/2. En d’autres termes, une URL publiée ou un code intégré pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cette ressource publiée utilise le protocole HTTP/2 pour la diffuser. Cette méthode de diffusion améliore la communication entre les navigateurs et les serveurs, ce qui permet d’obtenir de meilleurs temps de réponse et de chargement pour toutes vos ressources Adobe Dynamic Media Classic. Voir la [HTTP2 FAQ sur la diffusion de contenu](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Publication après le téléchargement {#publish-after-uploading}
 
@@ -44,7 +44,7 @@ Certains fichiers « enfants » sont systématiquement marqués pour publicati
 | Visionneuses à 360° | Images dans la visionneuse. |
 | Modèles | Fichiers modèles, pages et images. |
 
-Les images dérivées sont également automatiquement marquées pour publication lorsque leurs images parentes sont en cours de publication. Les images dérivées incluent les images que vous avez modifiées avec des options d’édition d’image. Vous pouvez voir ces images dérivées dans la vue détaillée sous Créés et dérivés.
+Les images dérivées sont également automatiquement marquées pour publication lorsque leurs images parentes sont publiées. Les images dérivées incluent les images que vous avez modifiées avec des options d’édition d’image. Vous pouvez voir ces images dérivées dans la vue détaillée sous Créés et dérivés.
 
 ## Création d’un traitement de publication {#creating-a-publish-job}
 
@@ -82,7 +82,7 @@ Créez une tâche de publication récurrente en sélectionnant **[!UICONTROL Ré
 
 Choisissez ensuite l’option Répéter de **[!UICONTROL Quotidien]**, **[!UICONTROL Hebdomadaire]**, **[!UICONTROL Mensuel]** ou **[!UICONTROL Personnalisé]**, puis indiquez à quel moment vous souhaitez que la tâche de publication se répète. Adobe Dynamic Media Classic présente les outils de calendrier pour la planification de la tâche de publication récurrente. Vous pouvez sélectionner l’option **[!UICONTROL Personnalisé]** et saisir une règle dans le champ de texte Règle pour décrire un intervalle de tâche personnalisé.
 
-Voir [&#x200B; Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
+Voir [ Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
 >[!NOTE]
 >

@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 20%
+source-wordcount: '614'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 20%
 
 Les paramètres prédéfinis de visionneuse de supports variés définissent le style, le comportement et l’aspect de votre visionneuse principale. Lorsque vous configurez un paramètre prédéfini, vous pouvez indiquer les autres visionneuses qui doivent apparaître dans la visionneuse de supports variés. Par exemple, si vous avez inclus une visionneuse d’images dans votre visionneuse de médias mixtes, spécifiez un paramètre prédéfini de visionneuse d’images pour la visionneuse de médias mixtes.
 
-Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la communauté dans la visionneuse de supports variés. La fonction Incorporer ajoute un lien vers la visionneuse qui permet aux utilisateurs de copier le code requis pour afficher la visionneuse dans une page externe (blog, site web ou site de réseau social, par exemple). La fonctionnalité Lien fournit l’URL vers la visionneuse permettant aux utilisateurs de revenir à la visionneuse. La fonction Visite fournit un lien vers le site Web que vous spécifiez.
+Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la communauté dans la visionneuse de supports variés. La fonction d’incorporation ajoute un lien vers la visionneuse qui permet aux utilisateurs de copier le code requis pour afficher la visionneuse dans une page externe (blog, site web ou site de réseau social, par exemple). La fonctionnalité Lien fournit l’URL vers la visionneuse permettant aux utilisateurs de revenir à la visionneuse. La fonction Visité fournit un lien vers le site Web que vous spécifiez.
 
 1. Sur la barre de navigation générale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 1. Sur la page Paramètres prédéfinis de la visionneuse, effectuez l’une des opérations suivantes :
@@ -50,7 +50,7 @@ Vous pouvez choisir d’inclure tout ou partie des fonctionnalités de la commun
    * Pour supprimer un paramètre prédéfini de la liste, sélectionnez-le, puis sélectionnez **[!UICONTROL Supprimer]**.
    * Pour réorganiser les paramètres prédéfinis de la liste, sélectionnez un paramètre prédéfini, puis sélectionnez la flèche bleue **[!UICONTROL Haut]** ou **[!UICONTROL Bas]**.
 
-1. Pour ajouter des fonctionnalités de la communauté (Incorporation, Lien et Visite) à la visionneuse, spécifiez les options pour chacun des éléments suivants :
+1. Pour ajouter des fonctionnalités de communauté (Incorporer, Lien, Visité) à la visionneuse, spécifiez des options pour l’un des éléments suivants :
 
    * **E-mail** : sélectionnez **[!UICONTROL Activé]** pour activer un bouton E-mail dans la visionneuse. Lorsque les utilisateurs cliquent sur le bouton E-mail lors de l’affichage de la visionneuse, un e-mail contenant le lien vers la visionneuse s’ouvre.
 

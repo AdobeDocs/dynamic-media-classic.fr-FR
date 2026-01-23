@@ -10,10 +10,10 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -44,11 +44,11 @@ Après avoir publié une visionneuse de médias mixtes, vous pouvez obtenir son 
 
 La méthode la plus courante pour déployer une visionneuse de médias mixtes consiste à placer un lien (au moyen d’une icône de navigation) sur votre page web. Lorsque ce lien est sélectionné, il lance une page dynamique (ASP ou JSP) qui affiche la visionneuse de médias mixtes dans Visionneuse de médias mixtes.
 
-## Copie du code intégré d’une visionneuse de médias mixtes {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## Copie du code incorporé d’une visionneuse de médias mixtes {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
-L’utilisation de la fonction Code incorporé permet de vérifier le code de la visionneuse de supports mixtes sélectionnée. Vous pouvez également copier le code dans le presse-papiers afin de le coller dans vos pages web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
+Grâce à la fonction de code incorporé, vous pouvez réviser le code de la visionneuse pour la visionneuse de médias mixtes sélectionnée. Vous pouvez également copier le code dans le presse-papiers afin de le coller dans vos pages web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
-**Pour copier le code intégré d’une visionneuse de médias mixtes, procédez comme suit**
+**Pour copier le code incorporé d’une visionneuse de médias mixtes :**
 
 1. Dans le panneau Exploration des ressources, dans la liste déroulante Afficher, sélectionnez **[!UICONTROL Visionneuse de médias mixtes]**.
 1. dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources contenant la visionneuse de médias mixtes dont vous souhaitez copier le code intégré.

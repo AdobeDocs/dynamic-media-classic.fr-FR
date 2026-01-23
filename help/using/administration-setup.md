@@ -9,10 +9,10 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: dd799969ff9fd2638537254ae928a598eec627a3
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1995'
-ht-degree: 29%
+source-wordcount: '1991'
+ht-degree: 30%
 
 ---
 
@@ -105,7 +105,7 @@ Vous pouvez utiliser les techniques de filtrage de liste d’utilisateurs suivan
 
 * **Filtrer par rôle d’utilisateur** : sélectionnez le menu **[!UICONTROL Par rôle d’utilisateur]** et choisissez une option pour limiter la liste aux utilisateurs ou administrateurs de différents types.
 
-* **Filtrer par nom de champ** : sélectionnez **[!UICONTROL Activer le filtrage par champ]**. Sélectionnez ensuite le menu **[!UICONTROL Par nom de champ]**, choisissez une colonne pour filtrer la liste, puis sélectionnez le menu Filtrer les caractères et choisissez une lettre. La liste est filtrée sur l’une des colonnes par la lettre que vous avez choisie. Pour afficher la liste complète, désélectionnez l’option **[!UICONTROL Activer le filtrage par champ]**.
+* **Filtrer par nom de champ** : sélectionnez **[!UICONTROL Activer le filtrage par champ]**. Sélectionnez ensuite le menu **[!UICONTROL Par nom de champ]**, choisissez une colonne pour filtrer la liste, puis sélectionnez le menu Filtrer les caractères et choisissez une lettre. La liste est filtrée sur l’une des colonnes par la lettre que vous avez choisie. Pour afficher la liste complète, désélectionnez l’option **`Enable Filter By Field`** .
 
 * **Filtrer les utilisateurs non valides** : désélectionnez **[!UICONTROL Inclure non valide]**. Les résultats de la recherche affichent uniquement les utilisateurs présents dans le système. Des utilisateurs non valides ont été supprimés du système et des comptes que vous administrez.
 

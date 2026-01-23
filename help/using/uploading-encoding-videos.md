@@ -9,10 +9,10 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '3981'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -44,7 +44,7 @@ Pour créer des visionneuses de vidéos adaptatives ou uniques à diffuser sur l
 
 Adobe Dynamic Media Classic génère également des miniatures vidéo. Vous pouvez en savoir plus sur les miniatures de vidéos, l’obtention de leurs URL et la modification des images de l’affiche.
 
-Voir [&#x200B; Utilisation de miniatures vidéo &#x200B;](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
+Voir [ Utilisation de miniatures vidéo ](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
 
 **Pour charger et coder des vidéos, procédez comme suit**
 
@@ -155,7 +155,7 @@ Vous pouvez obtenir les métadonnées d’un fichier en les affichant dans Adobe
 
 Lorsque vous choisissez ou créez un paramètre prédéfini de codage vidéo pour votre fichier vidéo principal, assurez-vous que ce paramètre présente les mêmes proportions que le fichier vidéo principal. Le *format* fait référence au rapport largeur/hauteur de la vidéo.
 
-Pour déterminer les proportions d’un fichier vidéo, récupérez les métadonnées de ce fichier et notez les valeurs de largeur et de hauteur (voir [&#x200B; Obtention des métadonnées d’un fichier &#x200B;](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Utilisez ensuite cette formule pour déterminer le format :
+Pour déterminer les proportions d’un fichier vidéo, récupérez les métadonnées de ce fichier et notez les valeurs de largeur et de hauteur (voir [ Obtention des métadonnées d’un fichier ](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Utilisez ensuite cette formule pour déterminer le format :
 
 Largeur / Hauteur = Format
 
@@ -264,7 +264,7 @@ Sur l’écran Paramètres vidéo prédéfinis, les administrateurs peuvent conf
 * modifier les paramètres prédéfinis de codage vidéo ;
 * Supprimez Les Paramètres Prédéfinis De Vidéo.
 
-Toute vidéo que vous chargez vers Adobe Dynamic Media Classic ou que vous codez dans Adobe Dynamic Media Classic est traitée comme une « vidéo ». En d’autres termes, ce mode de classification des fichiers signifie que vous pouvez diffuser la vidéo à des fins de lecture sur des ordinateurs de bureau, des appareils mobiles, ou les deux. Vous pouvez par exemple prévisualiser ces types de vidéos dans Adobe Dynamic Media Classic. Vous pouvez également générer des URL (à l’aide de la fonction Copier l’URL) et du code que vous pouvez incorporer (à l’aide de la fonction Intégrer le code) pour l’utiliser avec les lecteurs vidéo, sur les sites web, etc.
+Toute vidéo que vous chargez vers Adobe Dynamic Media Classic ou que vous codez dans Adobe Dynamic Media Classic est traitée comme une « vidéo ». En d’autres termes, ce mode de classification des fichiers signifie que vous pouvez diffuser la vidéo à des fins de lecture sur des ordinateurs de bureau, des appareils mobiles, ou les deux. Vous pouvez par exemple prévisualiser ces types de vidéos dans Adobe Dynamic Media Classic. Vous pouvez également générer des URL (à l’aide de la fonction Copier l’URL ) et du code que vous pouvez incorporer (à l’aide de la fonction Code incorporé ) pour les utiliser avec des lecteurs vidéo, sur des sites web, etc.
 
 Voir [Prévisualisation de vidéos dans une visionneuse de vidéos](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
 

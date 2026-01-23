@@ -9,10 +9,10 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 17%
+source-wordcount: '703'
+ht-degree: 15%
 
 ---
 
@@ -24,7 +24,7 @@ Les légendes élargissent également l’accessibilité en utilisant le sous-ti
 
 >[!NOTE]
 >
->le lecteur vidéo utilisé doit prendre en charge l’affichage des sous-titres.
+>Le lecteur vidéo utilisé doit prendre en charge l’affichage des sous-titres.
 
 Pour configurer l’effet de légende et modifier le menu de légende lui-même, y compris le texte du menu pour l’une des visionneuses suivantes :
 
@@ -38,7 +38,7 @@ Voir aussi [Ajout et modification de paramètres prédéfinis de visionneuse](ap
 
 Adobe Dynamic Media Classic peut convertir les fichiers de sous-titres au format JSON (JavaScript Object Notation). Cette conversion signifie que vous pouvez incorporer le texte JSON dans une page web sous la forme d’une transcription masquée complète de la vidéo. Les moteurs de recherche peuvent ensuite analyser et indexer le contenu pour rendre les vidéos plus facilement détectables et fournir aux clients et clientes plus de détails sur le contenu vidéo.
 
-Pour plus d’informations sur l’utilisation de la fonction JSON dans une URL[&#x200B; voir &#x200B;](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)Diffuser du contenu statique (hors images)dans .
+Pour plus d’informations sur l’utilisation de la fonction JSON dans une URL[ voir ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)Diffuser du contenu statique (hors images)dans .
 
 **Pour ajouter des sous-titres à une vidéo, procédez comme suit**
 

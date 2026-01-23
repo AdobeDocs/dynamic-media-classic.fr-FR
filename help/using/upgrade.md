@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ La nouvelle [!DNL Dynamic Media] sur [!DNL Adobe Experience Manager] s’appuie 
 
 * Expérience unifiée et transparente et intégration avec [!DNL Adobe Experience Manager] : configurez et diffusez dynamiquement du contenu riche à partir d’un magasin, d’une source unique
 * Nouvelle expérience utilisateur axée sur les spécialistes du marketing pour faciliter la création et la diffusion de contenu multimédia enrichi
-* Les éditeurs d’aspect et de comportement de WYSIWYG (What You See Is What You Get) pour les visionneuses d’images et les lecteurs vidéo.
+* WYSIWYG (What You See Is What You Get) pour l’aspect général et les éditeurs de comportement des visionneuses d’images et des lecteurs vidéo.
 * Accélérez la création et le déploiement des expériences de médias Shoppable/interactifs, y compris les zones réactives d’image et les vidéos Shoppable.
 
 ### [!DNL Dynamic Media] des fonctionnalités dans [!DNL Experience Manager] Assets

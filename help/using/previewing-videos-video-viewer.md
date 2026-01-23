@@ -10,7 +10,7 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 21%
@@ -45,7 +45,7 @@ Voir [Ajout et modification des paramètres prédéfinis de visionneuse](applica
 
 ## Utilisation des paramètres prédéfinis de visionneuse vidéo {#working-with-video-viewer-presets}
 
-Les vidéos sont regardées dans la visionneuse vidéo. Le comportement de la visionneuse de vidéos, son aspect et le fonctionnement de ses commandes de lecture dépendent du paramètre prédéfini de visionneuse que vous choisissez pour lire la vidéo. Vous choisissez un paramètre prédéfini de la visionneuse sur l’écran de prévisualisation. Après avoir choisi un paramètre prédéfini, vous pouvez obtenir l’URL, ou le code intégré, pour lire la vidéo à l’aide du paramètre prédéfini de visionneuse que vous avez choisi.
+Les vidéos sont regardées dans la visionneuse vidéo. Le comportement de la visionneuse de vidéos, son aspect et le fonctionnement de ses commandes de lecture dépendent du paramètre prédéfini de visionneuse que vous choisissez pour lire la vidéo. Vous choisissez un paramètre prédéfini de la visionneuse sur l’écran de prévisualisation. Après avoir choisi un paramètre prédéfini, vous pouvez obtenir l’URL, ou le code incorporé, pour lire la vidéo à l’aide du paramètre prédéfini de visionneuse que vous avez choisi.
 
 Adobe Dynamic Media Classic est fourni avec de nombreux paramètres prédéfinis de visionneuse pour la lecture de vidéos. En tant qu’administrateur, vous pouvez créer des paramètres prédéfinis de visionneuse personnalisés. Il existe plus de 12 paramètres différents pour configurer la visionneuse de vidéos. Vous pouvez configurer la taille, la couleur, les commandes vidéo et audio, la barre de progression, l’habillage de l’interface utilisateur et les fonctionnalités de réseau social.
 

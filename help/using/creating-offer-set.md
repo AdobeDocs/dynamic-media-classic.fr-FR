@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1232'
 ht-degree: 21%
 
 ---
@@ -76,7 +76,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Lorsque vous avez terminé, en bas à droite de la page, assurez-vous que l’option **[!UICONTROL Publier après un enregistrement*]** est sélectionnée (par défaut).
 1. Sélectionnez **[!UICONTROL Fermer]**, saisissez un nom pour le jeu d&#39;offres, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [&#x200B; Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [ Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Création d’un ensemble d’offres avec des images ou des vidéos {#creating-an-offer-set-with-images-or-videos}
 
@@ -100,14 +100,14 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Vous pouvez également sélectionner une image ou une vidéo, puis sélectionner **[!UICONTROL Aperçu]**. Sur la page Aperçu des offres , vous pouvez modifier la taille et l’aspect de l’image ou de la vidéo que vous avez sélectionnée. Vous pouvez également modifier toutes les images ou vidéos du jeu d’offres.
 
    * Sélectionnez un paramètre prédéfini pour modifier l’aspect et la taille de l’image ou de la vidéo.
-   * Pour appliquer le paramètre prédéfini que vous avez choisi à toutes les offres du jeu d’offres, cochez la case **[!UICONTROL Sélectionner les paramètres prédéfinis pour tous]**.
+   * Pour appliquer le paramètre prédéfini que vous avez choisi à toutes les offres du jeu d’offres, cochez la case **`Select Presets to All`** .
 
    Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les modifications apportées à l’offre image ou vidéo. Sélectionnez ensuite **[!UICONTROL Fermer]** pour revenir à la page Jeu d’offres Test&amp;Target.
 
 1. Une fois que vous avez terminé de créer des offres pour le jeu d’offres et de choisir des paramètres d’image prédéfinis pour différentes images, assurez-vous que l’option **[!UICONTROL Publier après un enregistrement]** est sélectionnée (par défaut).
 1. Sélectionnez **[!UICONTROL Enregistrer]** saisissez un nom pour le jeu d&#39;offres, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [&#x200B; Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [ Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Modification d’un ensemble d’offres {#editing-an-offer-set}
 

@@ -9,9 +9,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 1cd516119da23f5ef4c0195273025ddd4b3fa789
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '3858'
+source-wordcount: '3856'
 ht-degree: 25%
 
 ---
@@ -26,7 +26,7 @@ Avant de charger des ressources vers Adobe Dynamic Media Classic, assurez-vous q
 
 ### Formats de fichiers pris en charge {#supported-asset-file-formats}
 
-Ce tableau répertorie les formats de fichiers de ressources pris en charge par Adobe Dynamic Media Classic. Pour plus d’informations sur les fichiers Camera Raw pris en charge, voir [https://helpx.adobe.com/fr/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/fr/camera-raw/using/supported-cameras.html).
+Ce tableau répertorie les formats de fichiers de ressources pris en charge par Adobe Dynamic Media Classic. Pour plus d’informations sur les fichiers Camera Raw pris en charge, voir [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Formats de fichiers | Description |
 | --- | --- |
@@ -217,7 +217,7 @@ Lors du chargement de fichiers, vous pouvez choisir l’une des options suivante
          * **[!UICONTROL Quotidien]** : définissez l’heure à laquelle vous souhaitez que la tâche s’exécute tous les jours. Si vous souhaitez que le traitement s’exécute uniquement du lundi au vendredi, sélectionnez **[!UICONTROL Jours de la semaine uniquement]**.
          * **[!UICONTROL Hebdomadaire]** : sélectionnez le jour et l’heure de la semaine où vous souhaitez que la tâche s’exécute.
          * **[!UICONTROL Mensuel]** : sélectionnez un jour spécifique du mois ou de la semaine, y compris l’heure de début, pour l’exécution de la tâche.
-         * **[!UICONTROL Personnalisé]** : personnalisez un intervalle de temps de tâche de chargement ou de publication selon vos propres spécifications. Voir [&#x200B; Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+         * **[!UICONTROL Personnalisé]** : personnalisez un intervalle de temps de tâche de chargement ou de publication selon vos propres spécifications. Voir [ Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
 
    * **[!UICONTROL Publier après le chargement]** : disponible si vous avez sélectionné l’onglet **[!UICONTROL À PARTIR DE L’ORDINATEUR DE BUREAU]** ou l’onglet **[!UICONTROL VIA FTP]**. Sélectionnez cette option pour publier automatiquement les ressources que vous chargez. Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Cette option est également disponible sur la page de téléchargement.
 
@@ -251,7 +251,7 @@ Rognage en fonction de la transparence : spécifiez 0 pour rogner les pixels uni
 Voir [Options de réglage d’image au moment du chargement](image-editing-options-upload.md#image-editing-options-at-upload).
 
 * **Options PostScript®** : pixellisez des fichiers PostScript®, recadrez des fichiers, conservez les arrière-plans transparents, choisissez une résolution et choisissez un espace colorimétrique.
-Voir [&#x200B; Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
+Voir [ Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Options Photoshop** : vous pouvez créer des modèles à partir de fichiers Adobe® Photoshop®, conserver les calques, spécifier le mode de dénomination des calques, extraire du texte et spécifier le mode d’ancrage des images dans les modèles.
 (voir [Options de téléchargement des fichiers PSD](psd-files.md#psd_upload_options)).
@@ -260,10 +260,10 @@ Voir [&#x200B; Utilisation de fichiers PostScript et Illustrator](postscript-ill
 (voir [Options de téléchargement des fichiers PDF](pdfs.md#pdf_upload_options)).
 
 * **Options Illustrator** : pixellisez les fichiers Adobe Illustrator®, conservez les arrière-plans transparents, choisissez une résolution et choisissez un espace colorimétrique.
-Voir [&#x200B; Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
+Voir [ Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Options EVIDEO** : vous pouvez transcoder un fichier vidéo en choisissant un paramètre vidéo prédéfini.
-Voir [&#x200B; Utilisation de paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
+Voir [ Utilisation de paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
 * **Plus de métadonnées** : entrez des mots-clés qui décrivent les fichiers que vous avez l’intention de télécharger. Séparez les mots clés-par des virgules. Les mots-clés facilitent la recherche de ressources.
 Voir [Réalisation d’une recherche avancée](searching-assets.md#conducting_an_advanced_search).
@@ -291,11 +291,11 @@ Le nouveau traitement envoie une notification à l’adresse que vous spécifiez
    * Requête HTTP
    * Publication sur hébergeur d’images
    * Publication de rendu d’image
-   * Publication de vidéo
+   * `Video Publish`
 
 1. Spécifiez l’adresse HTTP.
 1. Indiquez si vous souhaitez exécuter uniquement si les fichiers ont été chargés.
-1. Indiquez si vous souhaitez exécuter cette requête chaque fois que cette tâche se termine ou uniquement lorsque les fichiers ont été publiés.
+1. Indiquez si vous souhaitez exécuter cette demande à chaque exécution de cette tâche ou uniquement lorsque les fichiers sont publiés.
 
    >[!NOTE]
    >

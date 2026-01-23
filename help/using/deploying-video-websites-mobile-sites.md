@@ -10,7 +10,7 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 23%
@@ -73,9 +73,9 @@ Voir aussi [Intégration de la visionneuse de vidéos à une page web](deploying
 
 1. Collez l’URL de vidéo HTML5 sur vos sites Web et mobile.
 
-## Incorporation de la visionneuse de vidéos dans une page web {#embedding-the-video-viewer-on-a-web-page}
+## Ajout de la visionneuse de vidéos à une page web {#embedding-the-video-viewer-on-a-web-page}
 
-Utilisez la fonction Code incorporé pour lire la vidéo incorporée à la page web. Vous copiez le code incorporé dans le presse-papiers afin de le coller dans vos pages web. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
+Utilisez la fonction de code incorporé lorsque vous souhaitez lire la vidéo incorporée dans la page web. Vous copiez le code incorporé dans le presse-papiers afin de le coller dans vos pages web. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
 Voir aussi [Liaison d’une URL de vidéo à un site mobile ou un site web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
@@ -103,7 +103,7 @@ Voir aussi [Liaison d’une URL de vidéo à un site mobile ou un site web](depl
    Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
 1. sélectionnez **[!UICONTROL Fermer]**.
-1. Collez le code intégré dans vos pages web.
+1. Collez le code incorporé dans vos pages web.
 
 ### Implémentation du code intégré pour l’utilisation de la vidéo HTML5 avec des ressources vidéo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
@@ -187,7 +187,7 @@ Vous pouvez appliquer des modificateurs d’image au cadre d’affiche. Vous pou
 
 Voir [Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Voir [&#x200B; Guide du service d’images](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+Voir [ Guide du service d’images](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 Vous pouvez également modifier des miniatures vidéo en ajoutant des modificateurs aux URL de miniature vidéo.
 

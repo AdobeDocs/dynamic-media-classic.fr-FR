@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '10899'
-ht-degree: 29%
+source-wordcount: '10892'
+ht-degree: 28%
 
 ---
 
@@ -93,11 +93,11 @@ Voir aussi [Tester le service Secure Testing](testing-assets-making-them-public.
 
   Vous pouvez également accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Retraiter]** pour créer d’autres vidéos « enfants » codées directement à partir d’une visionneuse de vidéos adaptative. Adobe Dynamic Media Classic recherche automatiquement la vidéo de Principal « parente » de la visionneuse de vidéos adaptative et l’utilise comme vidéo source pour le transcodage. Cependant, lorsque vous enregistrez les nouvelles vidéos codées individuelles, elles ne sont pas visibles lors d’une recherche ou d’une navigation. Elles restent néanmoins accessibles à partir de l’onglet Vidéos codées dans la vue Affichage des détails.
 
-  Voir [&#x200B; Chargement et transcodage de vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos).
+  Voir [ Chargement et transcodage de vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
   Pour continuer à accéder à toutes les vidéos codées dérivées lors d’une recherche ou d’une navigation, sélectionnez **[!UICONTROL Afficher les vidéos codées]**.
 
-  Certaines actions du menu Créer ne fonctionnent qu’avec des vidéos individuelles. C’est la raison pour laquelle il est nécessaire d’afficher toutes les vidéos codées dérivées pouvant être sélectionnées, quelle que soit la façon dont vous définissez le paramètre **[!UICONTROL Afficher les vidéos codées]**. Les actions de création qui remplacent le paramètre **[!UICONTROL Afficher les vidéos codées]** incluent les **[!UICONTROL Visionneuses de vidéos adaptatives]** et **[!UICONTROL Catalogues électroniques]**.
+  Certaines actions du menu Créer ne fonctionnent qu’avec des vidéos individuelles. C’est la raison pour laquelle il est nécessaire d’afficher toutes les vidéos codées dérivées pouvant être sélectionnées, quelle que soit la façon dont vous définissez le paramètre **[!UICONTROL Afficher les vidéos codées]**. Les actions de création qui remplacent le paramètre **[!UICONTROL Afficher les vidéos codées]** incluent les **[!UICONTROL Visionneuses de vidéos adaptatives]** et **[!UICONTROL catalogues électroniques]**.
 
   >[!NOTE]
   >
@@ -115,7 +115,7 @@ Voir aussi [Tester le service Secure Testing](testing-assets-making-them-public.
 
 Consultez également la vidéo de formation [Options de tâches de chargement](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) .
 
-* **[!UICONTROL Remplacer les images]** : Adobe Dynamic Media Classic ne permet pas à deux fichiers d’avoir le même nom. L’identifiant Adobe Dynamic Media Classic de chaque élément (le nom de l’image sans l’extension de nom de fichier) doit être unique. De par cette règle, la boîte de dialogue Télécharger contient une option Ecraser. L’effet précis de cette option dépend de l’option Ecraser les images spécifiée. Ces options spécifient la manière dont les images de remplacement sont téléchargées : elles peuvent remplacer les images d’origine ou devenir des doublons. Les images en double sont renommées avec un « -1 » (par exemple, chaise.tif est renommé chaise-1.tif). Ces options affectent les images téléchargées dans un dossier autre que le dossier d’origine ou les images dont l’extension est différente de celle du fichier d’origine (telle que JPG, TIF ou encore PNG) Voir [&#x200B; Utilisation de l’option Remplacer les images &#x200B;](#using-the-overwrite-images-option).
+* **[!UICONTROL Remplacer les images]** : Adobe Dynamic Media Classic ne permet pas à deux fichiers d’avoir le même nom. L’identifiant Adobe Dynamic Media Classic de chaque élément (le nom de l’image sans l’extension de nom de fichier) doit être unique. De par cette règle, la boîte de dialogue Télécharger contient une option Ecraser. L’effet précis de cette option dépend de l’option Ecraser les images spécifiée. Ces options spécifient la manière dont les images de remplacement sont téléchargées : elles peuvent remplacer les images d’origine ou devenir des doublons. Les images en double sont renommées avec un « -1 » (par exemple, chaise.tif est renommé chaise-1.tif). Ces options affectent les images téléchargées dans un dossier autre que le dossier d’origine ou les images dont l’extension est différente de celle du fichier d’origine (telle que JPG, TIF ou encore PNG) Voir [ Utilisation de l’option Remplacer les images ](#using-the-overwrite-images-option).
 
    * **[!UICONTROL Remplacer dans le dossier actuel, même nom ou extension de l’image de base]** : cette option est la règle la plus stricte pour le remplacement. Elle nécessite que vous téléchargiez l’image de remplacement dans le même dossier que l’image d’origine, et qu’elle ait la même extension que le fichier d’origine. Si ces conditions ne sont pas remplies, un doublon est créé.
 
@@ -161,7 +161,7 @@ Les administrateurs peuvent créer des paramètres prédéfinis pour l’exporta
 
 Pour ouvrir l’écran Paramètre d’image prédéfini , sur la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres d’image prédéfinis]**.
 
-Voir [&#x200B; Imagerie dynamique &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Voir [ Imagerie dynamique ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Création et modification des paramètres d’image prédéfinis {#creating-and-editing-image-presets}
 
@@ -213,7 +213,7 @@ Les écrans Ajouter un paramètre prédéfini et Modifier le paramètre prédéf
 
 * **[!UICONTROL Espace colorimétrique]** : sélectionnez un espace colorimétrique.
 
-* **[!UICONTROL Accentuation]** : sélectionnez l’option Activer l’accentuation simple pour appliquer un filtre d’accentuation de base à l’image à l’issue des opérations de mise à l’échelle. L’accentuation peut compenser le flou produit lors de l’affichage d’une image à une taille différente. 
+* **[!UICONTROL Accentuation]** : sélectionnez l’option **[!UICONTROL `Enable Simple Sharpening`]** pour appliquer un filtre d’accentuation de base à l’image à l’issue des opérations de mise à l’échelle. L’accentuation peut compenser le flou produit lors de l’affichage d’une image à une taille différente. 
 
   Pour plus d’informations sur l’accentuation, les nouveaux modes et le masquage flou, consultez la section [Accentuer une image](sharpening-image.md#sharpening_an_image). Consultez également la vidéo de formation [Accentuation](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
 
@@ -237,7 +237,7 @@ Les écrans Ajouter un paramètre prédéfini et Modifier le paramètre prédéf
 
 * **[!UICONTROL Espace colorimétrique]** : détermine si l’image utilise l’espace dans lequel elle a été créée, généralement RGB (Original) ou un espace de luminance (Intensité).
 
-* **[!UICONTROL Couleur]** Choisissez les options suivantes :
+* **[!UICONTROL Couleur]** Vous pouvez choisir les options suivantes :
 
 * **[!UICONTROL Profil colorimétrique de sortie]** : sélectionnez **[!UICONTROL Utiliser la valeur par défaut]** ou l’un des profils de couleurs ICC disponibles sur Adobe Dynamic Media Classic.
 
@@ -436,7 +436,7 @@ En combinant dans un seul lecteur les éléments suivants :
 
 Vous pouvez étendre la portée de votre contenu multimédia aux utilisateurs d’ordinateurs de bureau, de tablettes et d’appareils mobiles, et garantir ainsi une expérience vidéo fluide.
 
-Voir [&#x200B; À propos des visionneuses HTML5](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses Adobe.
+Voir [ À propos des visionneuses HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses Adobe.
 
 Voir [Matrice de compatibilité des paramètres prédéfinis de la visionneuse Adobe Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Voir aussi [Exemples de bibliothèques de référence de visionneuses Adobe](htt
 
 Les différentes pages web ont des besoins différents. Il arrive que vous souhaitiez une page web qui fournisse un lien permettant d’ouvrir la visionneuse HTML5 dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer la visionneuse HTML5 directement dans la page d’hébergement. Dans ce dernier cas, la page web a probablement une mise en page statique. Autrement, il est « réactif » et s’affiche différemment selon les appareils ou les tailles de fenêtre du navigateur. Pour répondre à ces besoins, les visionneuses HTML5 fournies avec Adobe Dynamic Media Classic prennent en charge les pages web statiques et les pages web en responsive design.
 
-Pour plus d’informations sur l’intégration de visionneuses réactives à vos pages web, consultez [À propos de la bibliothèque d’images réactive](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Utiliser la bibliothèque d’images réactive](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) et [Référence des commandes : attributs de commande](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Pour plus d’informations sur l’intégration de visionneuses réactives à vos pages web, consultez [À propos de la bibliothèque d’images réactive](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Utiliser la bibliothèque d’images réactive](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) et [Référence des commandes : attributs de commande](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Types de paramètres prédéfinis de visionneuse {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Voir aussi [Exemples de bibliothèques de référence de visionneuses Adobe](htt
 
 Pour plus d’informations sur les versions du navigateur web et du système d’exploitation prises en charge pour les visionneuses, consultez les Notes de mise à jour des visionneuses.
 
-Voir Les [Notes De Mise À Jour De Référence Des Visionneuses Adobe](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources).
+Voir Les [Notes De Mise À Jour De Référence Des Visionneuses Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Android™ Smartphone | Tablette Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -514,7 +514,7 @@ Voir Les [Notes De Mise À Jour De Référence Des Visionneuses Adobe](https://e
 
 |  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Android™ Smartphone | Tablette Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
-| Visionneuses d’échantillon |  |  |  |  |  |  |
+| Visionneuses d’ensembles d’échantillons |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_light | HTML5 | X | X | X | X | X |
@@ -713,13 +713,13 @@ L’URL est copiée dans le Presse-papiers. Vous pouvez l’utiliser selon vos b
 
    Sur la page Liste des visionneuses, dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Copier l’URL]**.
 
-### Copie du code intégré d’un paramètre prédéfini de visionneuse {#copying-the-embed-code-of-a-viewer-preset}
+### Copie du code incorporé d’un paramètre prédéfini de visionneuse {#copying-the-embed-code-of-a-viewer-preset}
 
-La fonction Code incorporé permet de vérifier le code du paramètre prédéfini de la visionneuse sélectionnée. Vous pouvez également copier le code dans le presse-papiers afin de le coller dans vos pages web pour le déploiement de la visionneuse.
+L’utilisation de la fonction de code incorporé vous permet de réviser le code de la visionneuse pour le paramètre prédéfini de visionneuse sélectionné. Vous pouvez également copier le code dans le presse-papiers afin de le coller dans vos pages web pour le déploiement de la visionneuse.
 
 Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
-**Pour copier le code intégré d’un paramètre prédéfini de visionneuse, procédez comme suit**
+**Pour copier le code incorporé d’un paramètre prédéfini de visionneuse :**
 
 1. Sélectionnez la ressource dans le panneau Exploration des ressources.
 1. Au-dessus de panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
@@ -824,7 +824,7 @@ Pour utiliser efficacement les champs de métadonnées définis par l’utilisat
 
 >[!NOTE]
 >
->Pour que les champs définis par l’utilisateur apparaissent dans le panneau Métadonnées dans la vue Détail, incluez les champs définis par l’utilisateur dans les vues de métadonnées. Dans l’écran Vues des métadonnées, sélectionnez l’option Include UDF (Inclure les champs définis par les utilisateurs). Pour plus d’informations, voir [Vues des métadonnées](application-setup.md#metadata_views).
+>Pour que les champs définis par l’utilisateur apparaissent dans le panneau Métadonnées dans la vue Détail, incluez les champs définis par l’utilisateur dans les vues de métadonnées. Dans l’écran Vues des métadonnées , sélectionnez l’option **[!UICONTROL `Include UDF (user-defined fields)`]. Pour plus d’informations, voir [Vues des métadonnées](application-setup.md#metadata_views).
 
 >[!NOTE]
 >
@@ -903,7 +903,7 @@ Tous les paramètres prédéfinis de lot actifs d’une entreprise sont réperto
 
 ### Affectation de nom par défaut {#default-naming}
 
-L’administrateur d’entreprise crée une convention de nommage par défaut qui est utilisée dans toute recette de paramètre prédéfini d’ensemble par lot. La convention de nommage par défaut sélectionnée dans la définition du paramètre prédéfini d’ensemble par lot peut être tout ce dont votre entreprise a besoin pour générer des ensembles par lot pour tous les sites web. Un paramètre prédéfini d’ensemble par lot est créé pour utiliser la convention de nommage par défaut que vous définissez. Vous pouvez créer autant de paramètres prédéfinis de lot avec d’autres conventions de nommage personnalisées que nécessaire pour un ensemble particulier de contenu dans les cas où il existe une exception à la dénomination par défaut définie par l’entreprise.
+L’administrateur d’entreprise crée une convention de nommage par défaut qui est utilisée dans toute recette de paramètre prédéfini d’ensemble par lot. Les conventions de nommage par défaut sélectionnées dans la définition du paramètre prédéfini d’ensemble par lot peuvent être suffisantes pour que votre entreprise génère des ensembles par lot pour tous les sites web. Une `Batch Set Preset` est créée pour utiliser la convention de nommage par défaut que vous définissez. Vous pouvez créer autant de paramètres prédéfinis de lot avec d’autres conventions de nommage personnalisées que nécessaire pour un ensemble particulier de contenu dans les cas où il existe une exception à la dénomination par défaut définie par l’entreprise.
 
 Il n’est pas nécessaire de configurer une convention de nommage par défaut pour utiliser la fonctionnalité de paramètre prédéfini d’ensemble par lot. Adobe Toutefois, il est recommandé d’utiliser une convention de nommage par défaut pour définir autant d’éléments de votre convention de nommage que vous souhaitez regrouper dans un ensemble. Cela permet de rationaliser la création d’ensembles par lot.
 

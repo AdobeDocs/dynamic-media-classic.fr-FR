@@ -10,9 +10,9 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1604'
 ht-degree: 39%
 
 ---
@@ -23,7 +23,7 @@ L’optimisation de la qualité d’image peut prendre beaucoup de temps. De nom
 
 Adobe Dynamic Media Classic comprend plus de 100 commandes de traitement d’images pour affiner et optimiser les images et les rendus. Les conseils suivants vous aideront à simplifier le processus et à obtenir rapidement de bons résultats en utilisant quelques commandes essentielles et en appliquant les pratiques recommandées.
 
-Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/fr/docs/exper
 >* Bande passante réseau
 >* DPR (rapport pixel d’appareil)
 >
->Pour découvrir à quel point il est facile d’utiliser Snapshot, regardez la [vidéo de formation Snapshot](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutes et 17 secondes).
+>Pour découvrir à quel point il est facile d’utiliser Snapshot, regardez la [vidéo de formation Snapshot](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutes et 17 secondes).
 
 
 ## Recommandations relatives au format d’image (&amp;fmt=) {#best-practices-for-image-format-fmt}
@@ -62,7 +62,7 @@ Il est recommandé d’utiliser `&wid=<value>&hei=<value>&resMode=sharp2` ou `&h
 
 L’accentuation des images est l’aspect le plus complexe de contrôle des images sur votre site Web, et aussi source de nombreuses erreurs. Prenez le temps d’en savoir plus sur le fonctionnement de l’accentuation et du masquage flou dans Adobe Dynamic Media Classic en vous référant aux ressources suivantes :
 
-Livre blanc sur les bonnes pratiques [Accentuation des images dans Adobe Dynamic Media Classic et sur le serveur d’images](/help/using/assets/s7_sharpening_images.pdf).
+Livre blanc sur les bonnes pratiques dans PDF, intitulé [Accentuation des images dans Adobe Dynamic Media Classic et sur le serveur d’images](/help/using/assets/s7_sharpening_images.pdf).
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
@@ -70,7 +70,7 @@ Avec Adobe Dynamic Media Classic, vous pouvez accentuer les images lors de l’i
 
 Vous pouvez utiliser deux méthodes d’accentuation d’image :
 
-* Accentuation simple (`&op_sharpen`) : comme pour le filtre d’accentuation utilisé dans Photoshop, l’accentuation simple applique un accentuation de base à l’affichage final de l’image à la suite du redimensionnement dynamique. Toutefois, cette méthode n’est pas configurable par l’utilisateur. La bonne pratique consiste à éviter l’utilisation de `&op_sharpen`, sauf si nécessaire.
+* Accentuation simple ( `&op_sharpen`) : comme pour le filtre d’accentuation utilisé dans Photoshop, l’accentuation simple applique un accentuation de base à l’affichage final de l’image à la suite du redimensionnement dynamique. Toutefois, cette méthode n’est pas configurable par l’utilisateur. La bonne pratique consiste à éviter l’utilisation de `&op_sharpen`, sauf si nécessaire.
 * Masquage flou ( `&op_USM`) : le masquage flou est un filtre standard du secteur pour l’accentuation. Il est recommandé d’accentuer les images avec le masquage flou en suivant les conseils ci-dessous. Le masquage flou permet de contrôler les trois paramètres suivants :
 
    * `&op_sharpen=amount,radius,threshold`
@@ -136,5 +136,5 @@ Si les résultats de l’accentuation ne sont toujours pas satisfaisants, augmen
 Au fur et à mesure que vous testez votre résultat, les suggestions générales suivantes sont utiles pour optimiser votre workflow :
 
 * Testez et testez différents paramètres en temps réel, directement sur une URL ou à l’aide de la fonctionnalité de réglage d’image d’Adobe Dynamic Media Classic. Ce dernier fournit des aperçus en temps réel pour les opérations de réglage.
-* N’oubliez pas que vous pouvez regrouper les commandes de diffusion d’images Dynamic Media dans un paramètre d’image prédéfini. Un paramètre prédéfini d’image correspond essentiellement aux macros de commande d’URL avec des noms de paramètres prédéfinis personnalisés tels que `$thumb_low$` et `&product_high$`. Le nom du paramètre prédéfini personnalisé dans un chemin d’URL appelle ces paramètres prédéfinis. Cette fonctionnalité permet de gérer les commandes et les paramètres de qualité de différents gabarits d’utilisation des images sur votre site Web et réduit en outre la longueur totale des URL.
+* N’oubliez pas que vous pouvez regrouper les commandes de diffusion d’images Dynamic Media dans un paramètre d’image prédéfini. Un paramètre prédéfini d’image correspond essentiellement aux macros de commande d’URL avec des noms de paramètres prédéfinis personnalisés, tels que `$thumb_low$` et `&product_high$`. Le nom du paramètre prédéfini personnalisé dans un chemin d’URL appelle ces paramètres prédéfinis. Cette fonctionnalité permet de gérer les commandes et les paramètres de qualité de différents gabarits d’utilisation des images sur votre site Web et réduit en outre la longueur totale des URL.
 * Adobe Dynamic Media Classic propose également des méthodes plus élaborées permettant d’optimiser la qualité des images, par exemple en accentuant les images lors de l’ingestion. Pour les cas d’utilisation plus complexes pour lesquels un réglage et une optimisation plus approfondis des résultats rendus sont possibles, Adobe Professional Services peut vous aider à personnaliser insight et les bonnes pratiques.

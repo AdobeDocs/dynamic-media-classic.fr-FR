@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 24%
+source-wordcount: '619'
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,7 @@ Vous pouvez faciliter la lecture et la navigation dans vos vidéos au format lon
 
 >[!NOTE]
 >
->Le lecteur vidéo utilisé doit prendre en charge l’utilisation des marques de chapitre.
+>Le lecteur vidéo doit prendre en charge l’utilisation de marqueurs de chapitre.
 
 Voir [Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) si vous souhaitez configurer les points de repère de navigation des chapitres et le texte pop-up du titre du chapitre pour la visionneuse de `Universal_HTML5_Video` (HTML5).
 

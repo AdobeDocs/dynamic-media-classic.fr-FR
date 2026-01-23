@@ -10,10 +10,10 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -48,13 +48,13 @@ Après avoir publié un ensemble d’échantillons, vous pouvez utiliser l’URL
 
 La méthode la plus courante pour déployer des échantillons consiste à placer un lien (au moyen d’une icône de navigation) sur votre page web. Lorsque ce lien est sélectionné, il lance une page dynamique (ASP ou JSP) qui affiche le jeu d’échantillons dans une fenêtre pop-up de zoom. Le lien Zoom ouvre une fenêtre pop-up qui contient la fonction de zoom réelle.
 
-Pour plus d’informations et des exemples de code, voir [Incorporation de la visionneuse Zoom HTML5 dans le guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Pour plus d’informations et des exemples de code, voir [Incorporation de la visionneuse Zoom HTML5 dans le guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
-## Copie du code incorporé d’une visionneuse de séries d’échantillons {#copying-the-embed-code-of-a-swatch-set-viewer}
+## Copie du code incorporé d’une visionneuse d’échantillon {#copying-the-embed-code-of-a-swatch-set-viewer}
 
-La fonction Code incorporé permet de vérifier le code de la série d’échantillons sélectionnée. Vous pouvez également copier le code dans le presse-papiers afin de le coller dans vos pages web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
+La fonction de code incorporé vous permet de passer en revue le code de la visionneuse pour l’ensemble d’échantillons sélectionné. Vous pouvez également copier le code dans le presse-papiers afin de le coller dans vos pages web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
-**Pour copier le code incorporé d’une visionneuse de séries d’échantillons, procédez comme suit**
+**Pour copier le code incorporé d’une visionneuse de visionneuse d’échantillons, procédez comme suit**
 
 1. Dans le panneau Exploration des ressources, dans la liste déroulante Afficher, sélectionnez **[!UICONTROL Ensemble d’échantillons]**.
 1. dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources contenant l’ensemble d’échantillons dont vous souhaitez copier le code intégré.

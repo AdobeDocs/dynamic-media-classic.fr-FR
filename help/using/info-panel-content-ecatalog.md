@@ -10,10 +10,10 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 40%
+ht-degree: 38%
 
 ---
 
@@ -23,7 +23,7 @@ Outre l’utilisation de texte de zone cliquable pour vos survols dans les catal
 
 Vous pouvez gérer la configuration et les données de votre InfoPanel à l’aide des fonctionnalités suivantes d’Adobe Dynamic Media Classic :
 
-* Le panneau Configuration du panneau Info vous permet de spécifier le modèle utilisé pour afficher le texte du panneau Info, une réponse par défaut pour les erreurs et le nombre d’heures pendant lesquelles les informations sont mises en cache. Par ailleurs, vous pouvez préciser si les catalogues électroniques sont automatiquement publiés.
+* Le panneau Configuration du panneau Info vous permet de spécifier le modèle utilisé pour afficher le texte du panneau Info, une réponse par défaut pour les erreurs et le nombre d’heures pendant lesquelles les informations sont mises en cache. En outre, vous pouvez indiquer si les catalogues électroniques sont publiés automatiquement.
 * Le panneau Flux de données InfoPanel vous permet de spécifier un fichier CSV contenant le texte que vous souhaitez voir apparaître dans le texte de survol d’InfoPanel, ainsi que de planifier les heures de mise à jour des informations.
 * La boîte de dialogue d’importation des métadonnées (accessible à partir de la vue Pages de mappage) vous permet d’importer un fichier TXT délimité par des tabulations contenant les informations de texte de survol. Vous pouvez utiliser cette option TXT ou le panneau Flux de données avec l’option Fichier CSV pour votre texte de survol.
 * La vue Pages de carte offre une option permettant de prévisualiser le fichier xml qui s’affiche pour des zones cliquables spécifiques.

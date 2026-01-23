@@ -10,9 +10,9 @@ role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '632'
 ht-degree: 40%
 
 ---
@@ -59,7 +59,7 @@ Adobe Dynamic Media Classic recommande les paramètres suivants pour les paramè
    La page Aperçu affiche la visionneuse lorsque vous mettez à jour et modifiez des paramètres.
 
 1. Sélectionnez **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer sous]**.
-1. Sur la page Paramètres prédéfinis de la visionneuse, examinez le paramètre prédéfini de la visionneuse Zoom ou le paramètre prédéfini de la visionneuse Zoom guidé que vous avez créé. S’il doit être ajusté, sélectionnez **[!UICONTROL Modifier]**, modifiez les paramètres sur la page de `Configure Viewer`, puis sélectionnez **[!UICONTROL Enregistrer]**.
+1. Sur la page Paramètres prédéfinis de la visionneuse, examinez le paramètre prédéfini de la visionneuse Zoom ou le paramètre prédéfini de la visionneuse Zoom guidé que vous avez créé. Si vous devez l’ajuster, sélectionnez **[!UICONTROL Modifier]**, modifiez les paramètres sur la page `Configure Viewer`, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
 Pour plus d’informations sur la gestion des paramètres prédéfinis de visionneuse sur l’écran Paramètres prédéfinis de la visionneuse, voir [Paramètres prédéfinis de visionneuse](application-setup.md#viewer_presets).
 
