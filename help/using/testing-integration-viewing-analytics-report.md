@@ -37,4 +37,4 @@ Après avoir créé les variables nécessaires dans Adobe Analytics, les avoir l
 >
 >Toutes les données de la visionneuse Adobe Dynamic Media Classic sont affichées et consignées dans les rapports de trafic personnalisé ou les rapports de conversion personnalisés d’Adobe Analytics.
 
-Pour plus d’informations, voir [Tutoriels Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).
+Pour plus d’informations, voir [Tutoriels Analytics](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/overview).
