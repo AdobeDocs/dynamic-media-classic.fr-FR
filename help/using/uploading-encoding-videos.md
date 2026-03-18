@@ -9,9 +9,9 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '3981'
+source-wordcount: '4074'
 ht-degree: 39%
 
 ---
@@ -44,7 +44,7 @@ Pour créer des visionneuses de vidéos adaptatives ou uniques à diffuser sur l
 
 Adobe Dynamic Media Classic génère également des miniatures vidéo. Vous pouvez en savoir plus sur les miniatures de vidéos, l’obtention de leurs URL et la modification des images de l’affiche.
 
-Voir [&#x200B; Utilisation de miniatures vidéo &#x200B;](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
+Voir [ Utilisation de miniatures vidéo ](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
 
 **Pour charger et coder des vidéos, procédez comme suit**
 
@@ -80,7 +80,7 @@ Voir [Paramètres prédéfinis de codage de vidéo pour ordinateur de bureau](ap
 1. Dans Adobe Dynamic Media Classic, dans le panneau de navigation , accédez à la vidéo et sélectionnez-la.
 1. Sélectionnez **[!UICONTROL Fichier]** > **[!UICONTROL Retraiter]**.
 1. Dans la boîte de dialogue Retraiter Assets, développez **[!UICONTROL Options EVideo]**, puis effectuez l’une des opérations suivantes :
-   * Une bonne pratique consiste à utiliser la méthode suivante. Sélectionnez **Vidéo adaptative**.
+   * Il est conseillé d’utiliser la méthode suivante. Sélectionnez **Vidéo adaptative**.
 Voir [Vidéo adaptative (par défaut)](application-setup.md#adaptive-video-default).
    * Facultatif. Si vous souhaitez utiliser des paramètres de codage individuels, développez **[!UICONTROL Paramètres prédéfinis de codage unique]**, puis sélectionnez les options de codage souhaitées pour Bureau, Mobile et Tablette.
 Voir [Paramètres prédéfinis de codage de vidéo pour ordinateur de bureau](application-setup.md#desktop-video-encoding-presets), [Paramètres prédéfinis de codage vidéo pour périphérique mobile](application-setup.md#mobile-video-encoding-presets), [Paramètres prédéfinis de codage vidéo pour tablette](application-setup.md#tablet-video-encoding-presets).
@@ -125,11 +125,13 @@ Le tableau suivant répertorie les types de fichiers vidéo (avec les codecs vid
 
 Vous trouverez ci-dessous quelques conseils sur les bonnes pratiques de codage des fichiers vidéo sources dans Adobe Dynamic Media Classic.
 
-<!-- THE FOLLOWINGS LINKS APPEAR TO BE DEAD AND THE CONTENT COMPLETELY LOST. THE GO URL DOESN'T EVEN WORK ANYMORE.
+<!--
+THE FOLLOWINGS LINKS APPEAR TO BE DEAD AND THE CONTENT COMPLETELY LOST. THE GO URL DOESN'T EVEN WORK ANYMORE.
 For advice about video encoding, see the following:
 
 * Article: [Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution][www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en). THIS MATERIAL WAS FOUND ON A THIRD PARTY WEBSITE HERE: https://streaminglearningcenter.com/articles/streaming-101-the-basics-codecs-bandwidth-data-rate-and-resolution.html MATERIAL IS GOOD BUT DO NOT LINK TO IT
-* Video: [Video Encoding Basics][www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en). -->
+* Video: [Video Encoding Basics][www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en). 
+-->
 
 ### Fichiers vidéo source {#source-video-files}
 
@@ -140,8 +142,8 @@ Le tableau suivant décrit la taille recommandée, les proportions et le débit 
 | Taille | Format | Débit minimum |
 | --- | --- | --- |
 | 1024 x 768 | 4:3 | 4 500 Kbits/s pour la plupart des vidéos. |
-| 1280 x 720 | 16 :9 | 3 000 : 6 000 kbit/s, selon la quantité de mouvement dans la vidéo. |
-| 1920 x 1080 | 16 :9 | 6 000 : 8 000 kbit/s, selon la quantité de mouvement dans la vidéo. |
+| 1280 x 720 | 16:9 | 3 000 : 6 000 kbit/s, selon la quantité de mouvement dans la vidéo. |
+| 1920 x 1080 | 16:9 | 6 000 : 8 000 kbit/s, selon la quantité de mouvement dans la vidéo. |
 
 ### Obtention des métadonnées d’un fichier {#obtaining-a-file-s-metadata}
 
@@ -149,13 +151,13 @@ Vous pouvez obtenir les métadonnées d’un fichier en les affichant dans Adobe
 
 1. Accédez à cette page web : [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
 1. Sélectionnez et téléchargez le programme d’installation pour la version interface graphique utilisateur, puis suivez les instructions d’installation.
-1. Après l’installation, cliquez avec le bouton droit sur le fichier vidéo (Windows® uniquement) et sélectionnez MediaInfo, ou ouvrez MediaInfo et faites glisser votre fichier vidéo dans l’application. Toutes les métadonnées de votre fichier vidéo, telles que sa largeur, sa hauteur et le nombre d’images par seconde, sont alors visibles à l’écran. 
+1. Après l’installation, cliquez avec le bouton droit sur le fichier vidéo (Windows® uniquement) et sélectionnez MediaInfo, ou ouvrez MediaInfo et faites glisser votre fichier vidéo dans l’application. Toutes les métadonnées de votre fichier vidéo, telles que sa largeur, sa hauteur et le nombre d’images par seconde, sont alors visibles à l’écran.
 
 ### Format {#aspect-ratio}
 
 Lorsque vous choisissez ou créez un paramètre prédéfini de codage vidéo pour votre fichier vidéo principal, assurez-vous que ce paramètre présente les mêmes proportions que le fichier vidéo principal. Le *format* fait référence au rapport largeur/hauteur de la vidéo.
 
-Pour déterminer les proportions d’un fichier vidéo, récupérez les métadonnées de ce fichier et notez les valeurs de largeur et de hauteur (voir [&#x200B; Obtention des métadonnées d’un fichier &#x200B;](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Utilisez ensuite cette formule pour déterminer le format :
+Pour déterminer les proportions d’un fichier vidéo, récupérez les métadonnées de ce fichier et notez les valeurs de largeur et de hauteur (voir [ Obtention des métadonnées d’un fichier ](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Utilisez ensuite cette formule pour déterminer le format :
 
 Largeur / Hauteur = Format
 
@@ -165,7 +167,7 @@ Ce tableau décrit la façon dont les résultats de la formule se traduisent en 
 | --- | --- |
 | 1.33 | 4:3 |
 | 0.75 | 3:4 |
-| 1.78 | 16 :9 |
+| 1.78 | 16:9 |
 | 0.56 | 9:16 |
 
 Par exemple, une vidéo d’une largeur de 1 440 × d’une hauteur de 1 080 a un format de 1 440/1 080, soit 1,33. Dans ce cas, vous choisissez un paramètre prédéfini de codage vidéo avec un format de 4:3 pour coder le fichier vidéo.
@@ -186,7 +188,7 @@ Ce tableau décrit le débit de données de vitesses de connexion courantes.
 | --- | --- |
 | 256 | Connexion commutée. |
 | 800 | Connexion mobile standard. Pour cette connexion, visez un débit de données de l’ordre de 400 Kb/s, jusqu’à 800 Kb/s pour les expériences 3G. |
-| 2 000 | Connexion haut débit standard de bureau. Pour cette connexion, visez un débit de données de l’ordre de 800 à 2 000 Kb/s, bien qu’un débit de 1 200 à 1 500 Kb/s convienne à la plupart des cibles. |
+| 2 000 | Connexion haut débit standard de bureau. Pour cette connexion, ciblez un débit de données compris entre 800 et 2 000 Kbit/s, la plupart des cibles atteignant en moyenne 1 200 à 1 500 Kbit/s. |
 | 5000 | Connexion haut débit standard. Il est déconseillé de coder dans cette fourchette supérieure, car la diffusion de la vidéo à cette vitesse n’est pas possible pour la plupart des consommateurs. |
 
 ### Résolution {#resolution}
@@ -197,8 +199,8 @@ La résolution et le débit de données sont deux facteurs étroitement liés qu
 
 | Résolution | Pixels par image |
 | --- | --- |
-| 320 × 240 | 76 800 |
-| 640 × 480 | 307 200 |
+| 320 × 240 | 76,800 |
+| 640 × 480 | 307,200 |
 
 Le fichier 640 × 480 a quatre fois plus de pixels par image. Pour obtenir le même débit de données pour ces deux exemples de résolution, vous appliquez quatre fois la compression au fichier 640 × 480, ce qui peut réduire la qualité de la vidéo. Par conséquent, un débit de données vidéo de 250 Kbits/s produit un affichage de haute qualité à une résolution de 320 × 240, mais pas à une résolution de 640 × 480.
 

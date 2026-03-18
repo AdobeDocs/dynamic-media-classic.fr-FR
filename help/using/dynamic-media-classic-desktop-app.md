@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1996'
-ht-degree: 0%
+source-wordcount: '2133'
+ht-degree: 1%
 
 ---
 
@@ -67,9 +67,9 @@ La notification de mise à niveau dans l’application de bureau Adobe Dynamic M
 ## Correctifs de la version 20.21.2 {#minor-release}
 
 * Limites connues dans la version 20.21.1 : la liste déroulante **[!UICONTROL Serveur]** de l’écran de connexion était vide.
-* Dans **[!UICONTROL Charger les options de la tâche]**, la valeur par défaut du nom du calque sous **[!UICONTROL Options Photoshop]** est désormais **[!UICONTROL Photoshop et Nom du calque]**. Les calques du fichier PSD sont chargés en tant qu’images distinctes.
+* Dans **[!UICONTROL Charger les options de la tâche]**, la valeur par défaut du nom du calque sous **[!UICONTROL Options Photoshop]** est désormais **[!UICONTROL Photoshop et Nom du calque]**. Les calques du fichier PSD sont téléchargés comme images distinctes.
    * Valeur par défaut antérieure de **[!UICONTROL Nom de calque]**, nommée les images d’après leur nom de calque ou leur numéro de calque dans le fichier PSD. Le numéro de calque était utilisé si les noms de calque dans le fichier PSD étaient des noms de calque Photoshop par défaut.
-   * La nouvelle valeur par défaut, **[!UICONTROL Photoshop et Nom de calque]**, nomme les images d’après le fichier PSD suivi du nom ou du numéro du calque. Le numéro de calque est utilisé si les noms de calque figurant dans le fichier PSD sont des noms de calque Photoshop par défaut.
+   * La nouvelle valeur par défaut, **[!UICONTROL Photoshop et Nom de calque]**, nomme les images d’après le fichier PSD suivi du nom ou du numéro du calque. Le numéro de calque est utilisé si le nom des calques dans le fichier PSD est un nom de calque Photoshop par défaut.
    * Étant donné que les images de calque dans Adobe Dynamic Media Classic portent désormais des noms uniques, aucune mise à jour de PSD ou de modèles existants ne sera effectuée (c’est-à-dire les noms de calque partagés dans les fichiers PSD d’origine).
 * Miniatures des ressources endommagées.
 
@@ -91,7 +91,7 @@ La notification de mise à niveau dans l’application de bureau Adobe Dynamic M
 Voir également :
 
 * [Télécharger et installer silencieusement la dernière application de bureau Adobe Dynamic Media Classic sur Mac](#install-silent-mac-dmc-app)
-* [Télécharger et installer silencieusement la dernière application de bureau Adobe Dynamic Media Classic sous Windows](#install-silent-windows-dmc-app)
+* [Télécharger et installer silencieusement la dernière application de bureau Adobe Dynamic Media Classic sous Windows®](#install-silent-windows-dmc-app)
 
 1. Désinstallez toutes les anciennes versions de l’application de bureau Adobe Dynamic Media Classic sur votre système.
 
@@ -107,13 +107,19 @@ Voir également :
       * [macOS (.DMG) : Télécharger](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
       * [Windows® (.EXE) : Télécharger](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
-<!--         * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
+<!--
+         * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) 
+-->
 
-<!--    * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows&reg; (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+<!--
+        * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+        * [Windows&reg; (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) 
+-->
 
-<!--    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-        * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
+<!--
+    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+    * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) 
+-->
 
 
 1. Effectuez l’une des opérations suivantes en fonction du programme d’installation que vous avez téléchargé.
@@ -149,8 +155,8 @@ Voir également :
 
 Voir également :
 
-* [Télécharger et installer la dernière application de bureau Adobe Dynamic Media Classic sous Mac ou Windows](#installation-dmc-app)
-* [Télécharger et installer silencieusement la dernière application de bureau Adobe Dynamic Media Classic sous Windows](#install-silent-windows-dmc-app)
+* [Télécharger et installer la dernière application de bureau Adobe Dynamic Media Classic sous Mac ou Windows®](#installation-dmc-app)
+* [Télécharger et installer silencieusement la dernière application de bureau Adobe Dynamic Media Classic sous Windows®](#install-silent-windows-dmc-app)
 
 Pour télécharger et *silencieusement* installez la dernière version de l’application de bureau Adobe Dynamic Media Classic sur macOS :
 
@@ -191,7 +197,7 @@ La commande que vous utilisez est destinée à une installation silencieuse MSI 
 
 Voir également :
 
-* [Télécharger et installer la dernière application de bureau Adobe Dynamic Media Classic sous Mac ou Windows](#installation-dmc-app)
+* [Télécharger et installer la dernière application de bureau Adobe Dynamic Media Classic sous Mac ou Windows®](#installation-dmc-app)
 
 * [Télécharger et installer silencieusement la dernière application de bureau Adobe Dynamic Media Classic sur macOS](#install-silent-mac-dmc-app)
 
@@ -233,7 +239,7 @@ Pour télécharger et *silencieusement* installez la dernière version de l’ap
 
 ## Présentation vidéo sur l’utilisation de l’application de bureau Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
-Regardez une [présentation vidéo sur l’utilisation de l’application de bureau Adobe Dynamic Media Classic](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (durée : 2 minutes 36 secondes).
+Regardez une [présentation vidéo sur l’utilisation de l’application de bureau Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (durée : 2 minutes 36 secondes).
 
 ## Effacement du cache d’images et du cache de ressources sur votre ordinateur à l’aide de l’application de bureau {#clear-cache}
 
@@ -258,9 +264,9 @@ Outre l’effacement de l’image et du cache de ressources à l’aide de l’a
 
 ## Limites connues d’Adobe Dynamic Media Classic 20.20.1 (corrigées dans la version 20.20.2)
 
-**_S’applique uniquement à Windows® - Existe-t-il une limitation du nombre de fichiers pouvant être chargés via l’interface utilisateur de l’application de bureau ?_**<br>Oui, un maximum de 150 fichiers peuvent être chargés à la fois à l’aide de l’interface utilisateur de l’appli de bureau.
+**_S’applique uniquement à Windows® - Existe-t-il une limitation du nombre de fichiers pouvant être chargés via l’interface utilisateur de l’application de bureau ?_**<br>Oui, 150 fichiers au maximum peuvent être chargés à la fois à l’aide de l’interface utilisateur de l’application de bureau.
 
-**_S’applique à Windows® et macOS - Comment changer de société ?_**<br>Pour changer de société, procédez comme suit :
+**_S’applique à Windows® et macOS - Comment changer d’entreprise ?_**<br>Pour changer d’entreprise, procédez comme suit :
 
 * Dans l’application Adobe Dynamic Media Classic, sélectionnez la nouvelle société dans la liste déroulante.
 * Lorsque la fenêtre pop-up s’affiche, appuyez sur **[!UICONTROL OK]** pour vous déconnecter et fermer l’application.
@@ -271,11 +277,11 @@ Outre l’effacement de l’image et du cache de ressources à l’aide de l’a
 
 ## Conseils et astuces
 
-**_Je ne parviens pas à voir le panneau Panier de médias sur la page de destination d’Adobe Dynamic Media Classic._**<br>Dans Adobe Dynamic Media Classic, appuyez sur&#x200B;**[!UICONTROL Configuration > Configuration personnelle &#x200B;]**. Dans la section Navigateur , assurez-vous que&#x200B;**[!UICONTROL Afficher les fonctionnalités de MediaPortal &#x200B;]**&#x200B;est sélectionné (coché). Appuyez sur&#x200B;**[!UICONTROL Enregistrer > Fermer &#x200B;]**.
+**_Je ne parviens pas à voir le panneau Panier de médias sur la page de destination d’Adobe Dynamic Media Classic._**<br>Dans Adobe Dynamic Media Classic, appuyez sur**[!UICONTROL Configuration > Configuration personnelle ]**. Dans la section Navigateur , assurez-vous que**[!UICONTROL Afficher les fonctionnalités de MediaPortal ]**est sélectionné (coché). Appuyez sur**[!UICONTROL Enregistrer > Fermer ]**.
 
-**_L’état de publication (indicateur vert) d’une ressource n’est pas correctement reflété._**<br>Dans l’interface utilisateur du navigateur, une nouvelle connexion à l’interface utilisateur était auparavant nécessaire pour afficher le statut de publication correct des ressources. Dans l’application de bureau, Adobe a introduit une icône&#x200B;**[!UICONTROL Actualiser &#x200B;]**&#x200B;dans la barre d’outils, à droite du bouton&#x200B;**[!UICONTROL Ne rien sélectionner &#x200B;]**. Appuyez sur l’icône&#x200B;**[!UICONTROL Actualisation &#x200B;]**&#x200B;pour afficher le dernier statut de toutes les ressources de la page donnée. Aucune nouvelle connexion n’est requise comme avec l’interface utilisateur du navigateur.
+**_L’état de publication (indicateur vert) d’une ressource n’est pas reflété correctement._**<br>Dans l’interface utilisateur du navigateur, une nouvelle connexion à l’interface utilisateur était nécessaire pour afficher le bon état de publication des ressources. Dans l’application de bureau, Adobe a introduit une icône**[!UICONTROL Actualiser ]**dans la barre d’outils, à droite du bouton**[!UICONTROL Ne rien sélectionner ]**. Appuyez sur l’icône**[!UICONTROL Actualisation ]**pour afficher le dernier statut de toutes les ressources de la page donnée. Aucune nouvelle connexion n’est requise comme avec l’interface utilisateur du navigateur.
 
 ![Icône Actualiser](/help/using/assets/refresh-icon1.png)
 *Icône Actualiser*
 
-**_Je ne vois pas les paramètres prédéfinis de lot qui fonctionnent dans l’application de bureau._**<br>Appuyez sur&#x200B;**[!UICONTROL Charger > Options de tâche > Paramètres prédéfinis de lot &#x200B;]**. Assurez-vous que le&#x200B;**[!UICONTROL paramètre prédéfini de lot &#x200B;]**&#x200B;approprié est activé. Cliquez sur&#x200B;**[!UICONTROL Enregistrer et soumettre le chargement &#x200B;]**.
+**_Les paramètres prédéfinis de lot ne fonctionnent pas dans l’appli de bureau._**<br>Appuyez sur**[!UICONTROL Charger > Options de tâche > Paramètres prédéfinis de lot ]**. Assurez-vous que le**[!UICONTROL paramètre prédéfini de lot ]**approprié est activé. Cliquez sur**[!UICONTROL Enregistrer et soumettre le chargement ]**.

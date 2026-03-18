@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 21%
+source-wordcount: '699'
+ht-degree: 23%
 
 ---
 
@@ -25,7 +25,7 @@ Après l’intégration d’Adobe Analytics à Adobe Dynamic Media Classic, vous
 
 En utilisant les rapports Adobe Analytics, vous obtenez des données précises sur l’activité des internautes sur votre site Web. Vous pouvez déterminer les présentations de produits qui entraînent une conversion et celles qui n’attirent pas l’intérêt des clients.
 
-Voir aussi [Mesure de la vidéo dans Adobe Analytics](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview).
+Voir aussi [Mesure de la vidéo dans Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >
@@ -64,11 +64,11 @@ Publiez vos visionneuses Adobe Dynamic Media Classic afin que les visionneuses (
 
 Voir [Publication des informations de configuration](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
-## &#x200B;4. Placez les visionneuses Adobe Dynamic Media Classic sur votre site web
+## &#x200B;4. Placement des visionneuses Adobe Dynamic Media Classic sur votre site web
 
 Placez les visionneuses Adobe Dynamic Media Classic avec le code de suivi Adobe Analytics sur votre site web.
 
-## &#x200B;5. Tester l’intégration d’Adobe Analytics en affichant un rapport Adobe Analytics
+## &#x200B;5. Test de l’intégration d’Adobe Analytics en affichant un rapport Adobe Analytics
 
 Pour consulter les rapports Adobe Analytics, accédez au site Web Adobe Analytics. La page de création de rapports vous permet de consulter les données, mais aussi de générer des graphiques et des tableaux afin de mesurer l’activité des utilisateurs pour différentes visionneuses.
 

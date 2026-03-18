@@ -10,9 +10,9 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '352'
 ht-degree: 1%
 
 ---
@@ -34,8 +34,8 @@ Lorsque vous créez une visionneuse à 360° ou une visionneuse d’images, ou q
 | --- | --- | --- |
 | **Image** : nombre de recadrages intelligents par image | 5 | 100 |
 | **Tous les ensembles** : nombre de ressources en double par ensemble | Aucun doublon | 20 ‡ |
-| **Tous les ensembles** : nombre maximal de ressources par ensemble | 5 à 10 images par ensemble | 1 000 |
-| **Visionneuse à 360°** : nombre maximal de lignes/colonnes par visionneuse 2D | 12 à 18 images par ensemble | 1 000 |
+| **Tous les ensembles** : nombre maximal de ressources par ensemble | 5 à 10 images par ensemble | 1000 |
+| **Visionneuse à 360°** : nombre maximal de lignes/colonnes par visionneuse 2D | 12 à 18 images par ensemble | 1000 |
 | **PDF** : nombre maximal de pages qu’un PDF doit prendre en compte pour l’extraction |  | 100 (pour tous les PDF) |
 
 ‡ Il est recommandé de ne pas avoir de ressources en double dans un ensemble. La limite est de 20 doublons pour une seule ressource. Si vous ajoutez un autre doublon pour cette ressource (dans ce jeu), la requête soit génère une erreur, soit ignore le doublon.
@@ -60,8 +60,10 @@ Adobe Dynamic Media ne prend pas en charge les combinaisons de navigateur web et
 
 ## Fin de la prise en charge de Secure Socket Layer 2.0 et 3.0 et de Transport Layer Security 1.0 et 1.1 {#tls}
 
-<!-- CQDOC-19433 (original ticket)
-and CQDOC-19792 (removed as per this ticket December 5, 2022) -->
+<!-- 
+CQDOC-19433 (original ticket)
+and CQDOC-19792 (removed as per this ticket December 5, 2022) 
+-->
 
 À compter du 30 avril 2024, Adobe Dynamic Media ne prendra plus en charge les éléments suivants :
 

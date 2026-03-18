@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 51%
+source-wordcount: '1051'
+ht-degree: 50%
 
 ---
 
@@ -30,7 +30,7 @@ Avant de transférer un fichier d’image, vous devez d’abord demander une cl�
 
 ## Demander une clé secrète partagée {#requesting-a-shared-secret-key}
 
-Demandez une *clé secrète partagée* en [&#x200B; à l’aide d’Admin Console pour créer un dossier de support.](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) Dans le cas du support technique, demandez une clé secrète partagée.
+Demandez une *clé secrète partagée* en [utilisant l’Admin Console pour créer un dossier de support.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Dans le cas de l’assistance technique, demandez une clé secrète partagée.
 
 Dans le message électronique, indiquez le nom d’entreprise que vous voulez utiliser pour transférer les fichiers d’image. Après avoir reçu la clé d’Adobe Dynamic Media Classic, enregistrez-la localement pour une utilisation ultérieure.
 
@@ -43,8 +43,10 @@ Le jeton de téléchargement est une chaîne numérique uniquement disponible pe
 * Image matricielle
   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`Dans cet exemple, la clé secrète partagée est `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
-<!-- * Vector
-  `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
+<!-- 
+* Vector
+  `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` 
+-->
 
 Par défaut, le jeton de téléchargement arrive à expiration au terme d’un délai de cinq minutes (300 secondes) après sa récupération. Pour demander plus de temps, incluez `expires` dans l’URL et indiquez le temps nécessaire en secondes. Par exemple, l’URL d’image suivante permet de récupérer un jeton de téléchargement valide pendant 1 800 secondes :
 
@@ -87,9 +89,11 @@ Vous pouvez utiliser les champs suivants dans l’URL de requête pour récupér
 
 `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=600`
 
-<!-- **Sample vector URL:**
+<!-- 
+**Sample vector URL:**
 
-`https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
+`https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` 
+-->
 
 **Méthodes HTTP autorisées :**
 `GET` et `POST`
@@ -108,7 +112,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Les champs `upload_token` et `company_name` sont obligatoires.
 
-Voir [&#x200B; Récupération du jeton de chargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Voir [ Récupération du jeton de chargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
 Voir [Récupération d’une clé secrète partagée](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
@@ -248,7 +252,8 @@ Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pou
 
 GET et POST
 
-<!-- ## Upload a vector asset {#uploading-a-vector-asset}
+<!--
+## Upload a vector asset {#uploading-a-vector-asset}
 
 >[!IMPORTANT]
 >
@@ -383,4 +388,4 @@ Send the asset to upload as a multipart/form post while sending the rest of the 
 **Allowed HTTP method:**
 
 POST
- -->
+-->

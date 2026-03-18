@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: 9102019811713b953e016fc7c47dc9f7a0dfbcd9
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '841'
 ht-degree: 19%
 
 ---
@@ -48,11 +48,14 @@ Outre l’effacement de l’image et du cache de ressources à l’aide de l’a
 1. Dans Adobe Dynamic Media Classic, sur la barre d’outils, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration personnelle]**, sous Extension Creative Suite, sélectionnez **[!UICONTROL Télécharger maintenant]** pour télécharger le fichier `s7csxs.zxp`.
 1. Sélectionnez les liens **[!UICONTROL Installation]** et **[!UICONTROL Configuration requise]** pour plus d’informations sur l’extension.
 
-<!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
+<!--    
+A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
 
-1. Depending on your installed operating system, do one of the following: -->
+1. Depending on your installed operating system, do one of the following: 
+-->
 
-<!-- #### Windows
+<!--
+#### Windows
 
 |If you are running|Do this|
 |--- |--- |
@@ -68,7 +71,8 @@ Outre l’effacement de l’image et du cache de ressources à l’aide de l’a
 |Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, select CC > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
 |Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, select 6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul>|
 
-The plug-in is now available for you to use in Adobe Illustrator. -->
+The plug-in is now available for you to use in Adobe Illustrator.
+-->
 
 ## Navigateur
 

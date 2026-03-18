@@ -10,9 +10,9 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1521'
 ht-degree: 17%
 
 ---
@@ -43,7 +43,7 @@ Dans la vue Liste, vous pouvez trier en sélectionnant un nom de colonne.
 
 ## Recherche simple {#conducting-a-simple-search}
 
-Utilisez le champ Rechercher de la bibliothèque de ressources pour effectuer des recherches simples. Vous pouvez rechercher des objets par nom ou rechercher des objets dont les métadonnées contiennent un mot-clé. 
+Utilisez le champ Rechercher de la bibliothèque de ressources pour effectuer des recherches simples. Vous pouvez rechercher des objets par nom ou rechercher des objets dont les métadonnées contiennent un mot-clé.
 
 1. Dans la bibliothèque de ressources, dans le panneau **[!UICONTROL Dossiers]**, sélectionnez le dossier dans lequel effectuer la recherche, à savoir un dossier particulier et ses sous-dossiers.
 1. À gauche du champ Rechercher dans la bibliothèque de ressources, sélectionnez l’icône **[!UICONTROL Loupe]** pour ouvrir la liste déroulante.
@@ -53,9 +53,11 @@ Utilisez le champ Rechercher de la bibliothèque de ressources pour effectuer de
 
    Les résultats de la recherche s’affichent dans le panneau Parcourir sur la droite.
 
-<!-- Does not appear to be working anymore >[!NOTE]
+<!--
+Does not appear to be working anymore >[!NOTE]
 >
->Adobe Dynamic Media Classic tracks searches. To run a search a second time, select **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
+>Adobe Dynamic Media Classic tracks searches. To run a search a second time, select **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. 
+-->
 
 ## Recherche avancée {#conducting-an-advanced-search}
 
@@ -77,7 +79,7 @@ Spécifiez l’un des critères suivants dans votre recherche avancée :
    1. Sélectionnez le menu déroulant **[!UICONTROL Ajouter un champ]** et choisissez un nom de champ.
    1. Choisissez l’option **[!UICONTROL Contient]** : **[!UICONTROL Contient]**, **[!UICONTROL Ne contient pas]**, **[!UICONTROL Commence par]**, **[!UICONTROL Se termine par]** ou **[!UICONTROL Est égal à]**.
    1. Pour les champs numériques, choisissez une valeur ou entrez une plage de dates personnalisée.
-   1. (Facultatif) Recommencez les étapes 1 à 4 pour créer d’autres champs de recherche.
+   1. (Facultatif) Répétez les étapes 1 à 4 pour créer d’autres champs de recherche.
 
 Sélectionnez l’icône **[!UICONTROL Supprimer un champ de recherche]** (cercle contenant un « X ») pour supprimer le champ de recherche.
 
@@ -115,7 +117,7 @@ Pour localiser des ressources en filtrant avec leurs valeurs de métadonnées, p
 
      >[!NOTE]
      >
-     >seuls les noms des champs de métadonnées contenus dans la vue de métadonnées par défaut s’affichent dans le menu de filtrage. 
+     >seuls les noms des champs de métadonnées contenus dans la vue de métadonnées par défaut s’affichent dans le menu de filtrage.
 
      Voir [Vues des métadonnées](application-setup.md#metadata_views).
 

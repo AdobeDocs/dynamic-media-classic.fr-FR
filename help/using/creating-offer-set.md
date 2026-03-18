@@ -6,13 +6,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1292'
 ht-degree: 21%
 
 ---
@@ -76,7 +76,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Lorsque vous avez terminé, en bas à droite de la page, assurez-vous que l’option **[!UICONTROL Publier après un enregistrement*]** est sélectionnée (par défaut).
 1. Sélectionnez **[!UICONTROL Fermer]**, saisissez un nom pour le jeu d&#39;offres, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [&#x200B; Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [ Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Création d’un ensemble d’offres avec des images ou des vidéos {#creating-an-offer-set-with-images-or-videos}
 
@@ -107,7 +107,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Une fois que vous avez terminé de créer des offres pour le jeu d’offres et de choisir des paramètres d’image prédéfinis pour différentes images, assurez-vous que l’option **[!UICONTROL Publier après un enregistrement]** est sélectionnée (par défaut).
 1. Sélectionnez **[!UICONTROL Enregistrer]** saisissez un nom pour le jeu d&#39;offres, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [&#x200B; Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [ Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Modification d’un ensemble d’offres {#editing-an-offer-set}
 
@@ -116,7 +116,7 @@ Que vous modifiiez une visionneuse publiée ou une visionneuse dépubliée, l’
 | Visionneuse déjà publiée ? | L’option **[!UICONTROL Publier après un enregistrement]** est-elle sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- | --- |
 | Oui | Oui | Publié | Publié |
-| Oui | Non | Publié | Les membres d’ensemble existants conservent leur statut publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
+| Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
 | Non | Oui | Publié | Publié |
 | Non | Non | Non publié | Les membres de la visionneuse existants, ainsi que tout nouveau membre de la visionneuse que vous ajoutez lors de votre modification conservent leur état publié ou non publié. |
 
