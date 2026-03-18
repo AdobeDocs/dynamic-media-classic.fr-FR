@@ -112,7 +112,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Les champs `upload_token` et `company_name` sont obligatoires.
 
-Voir [ Récupération du jeton de chargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Voir [&#x200B; Récupération du jeton de chargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
 Voir [Récupération d’une clé secrète partagée](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
