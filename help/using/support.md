@@ -24,7 +24,7 @@ Les services d’assistance technique sont conçus pour répondre aux besoins de
 | Assistance | Abonnement |
 | --- | --- |
 | Nombre de cas | Illimité. |
-| Vérification de l’état du système Adobe | [Statut du système Adobe Dynamic Media Classic](https://status.adobe.com/products/1175). |
+| Vérification de l’état du système Adobe | [Statut du système Adobe Dynamic Media Classic](https://status.adobe.com/fr/products/1175). |
 | Vous ne trouvez pas de réponse ? | [Pour obtenir de l’aide auprès du support, ouvrez un ticket](https://experienceleague.adobe.com/fr?support-solution=General#support). |
 | Forum de la communauté | [forum de la communauté Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=fr). |
 | SLA (accords de niveau de service) | [Services d’assistance / Conditions générales](https://helpx.adobe.com/fr/support/programs/support-policies-terms-conditions.html). |

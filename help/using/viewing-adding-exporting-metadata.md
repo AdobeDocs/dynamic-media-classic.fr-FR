@@ -25,7 +25,7 @@ Les métadonnées s’affichent dans la vue détaillée. Elle apparaît avec les
 
 Certaines métadonnées sont intégrées directement dans un fichier. Si un fichier contient ces métadonnées, Adobe Dynamic Media Classic les charge automatiquement avec le fichier. Vous pouvez incorporer des métadonnées dans des ressources sources dans Adobe Photoshop, InDesign, Illustrator et d’autres applications ; Adobe Dynamic Media Classic reconnaît ces métadonnées. Vous pouvez également ajouter des métadonnées à des fichiers individuels dans le panneau Métadonnées en mode Détail. Pour assurer la cohérence entre fichiers, les administrateurs créent des modèles de métadonnées qui fournissent les champs de métadonnées à remplir.
 
-Pour plus d’informations sur les métadonnées incorporées, voir [Plateforme de métadonnées extensible](https://www.adobe.com/products/xmp.html).
+Pour plus d’informations sur les métadonnées incorporées, voir [Plateforme de métadonnées extensible](https://www.adobe.com/fr/products/xmp.html).
 
 ## Affichage des métadonnées {#view-metadata}
 
