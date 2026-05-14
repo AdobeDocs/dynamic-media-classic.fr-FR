@@ -70,7 +70,7 @@ Lorsqu’une visionneuse de vidéos adaptative est générée, elle inclut des v
 
   La diffusion en continu de vidéo adaptative est prise en charge sur diverses plateformes iOS.
 
-  Consultez la dernière prise en charge dans le [Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+  Consultez la dernière prise en charge dans le [Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic prend en charge la lecture vidéo pour mobiles au format vidéo MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
