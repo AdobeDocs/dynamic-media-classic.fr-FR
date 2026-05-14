@@ -10,9 +10,15 @@ role: Developer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
+autotag-review: '2026-05-13T19:52:50.845Z'
+TQID: 'https://experienceleague.adobe.com/llwbODw-3hpZraR8fGPHQ-tCXMuTJsJmir-0kfico00'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: 864
 ht-degree: 0%
 
 ---
@@ -31,7 +37,7 @@ Lorsque vous vous connectez, vous avez la possibilité de saisir votre ID d’or
 
 Commencez par intégrer Dynamic Media Classic à Adobe Analytics OAuth. L’intégration OAuth d’Adobe Analytics avec Dynamic Media Classic est généralement effectuée une seule fois par utilisateur.
 
-1. Accédez à [Adobe Developer Console](https://developer.adobe.com/console). Assurez-vous que votre compte dispose des autorisations d’administrateur pour l’organisation pour laquelle l’intégration est requise.
+1. Accédez à [](https://developer.adobe.com/console). Assurez-vous que votre compte dispose des autorisations d’administrateur pour l’organisation pour laquelle l’intégration est requise.
 1. Dans la liste déroulante située dans le coin supérieur droit de la page d’accueil, sélectionnez l’entreprise appropriée. (La capture d’écran ci-dessous est fournie à titre d’information uniquement ; le nom réel de la société que vous sélectionnez peut varier.)
 
    ![Créer un projet](assets/analytics-oauth1.png)
@@ -77,8 +83,8 @@ Commencez par intégrer Dynamic Media Classic à Adobe Analytics OAuth. L’int�
 
 1. Dans le coin supérieur droit de l’application de bureau Adobe Dynamic Media Classic, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]**.
 1. Dans le panneau de gauche, sous **[!UICONTROL Configuration de l’application]**, sélectionnez **[!UICONTROL Adobe Analytics]**.
-1. Sur la page **[!UICONTROL Configuration Adobe Analytics]**, sélectionnez **[!UICONTROL Connexion Adobe Analytics]**.
-1. Dans la boîte de dialogue **[!UICONTROL Connexion Adobe Analytics]**, dans les champs **[!UICONTROL ID CLIENT]** et **[!UICONTROL SECRET CLIENT]**, collez les valeurs respectives que vous avez copiées précédemment.
+1. Sur la page **[!UICONTROL Configuration]**, sélectionnez **[!UICONTROL Connexion Adobe Analytics]**.
+1. Dans la boîte de dialogue **[!UICONTROL Connexion]**, dans les champs **[!UICONTROL ID CLIENT]** et **[!UICONTROL SECRET CLIENT]**, collez les valeurs respectives que vous avez copiées précédemment.
 1. Dans le coin inférieur droit de la boîte de dialogue, sélectionnez **[!UICONTROL Connexion]** et effectuez votre connexion à Adobe IMS (Identity Management Services).
 
    Une fois la connexion établie, la boîte de dialogue Connexion à Adobe Analytics s’affiche à nouveau, ainsi que la liste déroulante **[!UICONTROL ENTREPRISES]**, lancée par les entreprises disponibles.
@@ -97,7 +103,7 @@ Commencez par intégrer Dynamic Media Classic à Adobe Analytics OAuth. L’int�
 
    >[!NOTE]
    >
-   >Le champ **[!UICONTROL Serveur Adobe Analytics]** est renseigné avec un serveur de suivi tiers suggéré qui correspond à votre espace de noms Analytics lorsque vous sélectionnez **[!UICONTROL OK]**. Si vous utilisez un autre serveur de tracking, mettez-le à jour dans ce champ pour éviter toute perte de données.
+   >Le champ **[!UICONTROL Serveur]** est renseigné avec un serveur de suivi tiers suggéré qui correspond à votre espace de noms Analytics lorsque vous sélectionnez **[!UICONTROL OK]**. Si vous utilisez un autre serveur de tracking, mettez-le à jour dans ce champ pour éviter toute perte de données.
 
 1. Dans le coin inférieur gauche de la page Configuration d’Adobe Analytics, sélectionnez **[!UICONTROL Enregistrer]** pour vous assurer que la configuration de votre compte Adobe Analytics est mise à jour.
 

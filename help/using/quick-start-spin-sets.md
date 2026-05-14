@@ -10,10 +10,15 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:10:31.990Z'
+TQID: 'https://experienceleague.adobe.com/dYjjsyvPAPOS5icw4Yi6Kpo93Nh2qvnCiW5-ih2hmDk'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 18%
+source-wordcount: 856
+ht-degree: 16%
 
 ---
 
@@ -33,7 +38,7 @@ Lorsque vous créez une visionneuse à 360°, Adobe recommande les bonnes pratiq
 
 | Type de limite de visionneuse à 360° | Pratique recommandée | Limite imposée |
 | --- | --- | --- |
-| Nombre maximal de lignes/colonnes par ensemble 2D | 12 à 18 images par ensemble | 1 000 |
+| Nombre maximal de lignes/colonnes par ensemble 2D | 12 à 18 images par ensemble | 1000 |
 
 Voir aussi [Limites de Dynamic Media](/help/using/limitations.md).
 
@@ -41,7 +46,7 @@ Ce démarrage rapide est conçu pour vous aider à maîtriser rapidement les tec
 
 ## &#x200B;1. Création et chargement des images
 
-Au minimum, vous avez besoin de 8 à 12 prises de vue d’un élément pour pouvoir utiliser une visionneuse à 360° unidimensionnelle et de 16 à 24 prises de vue pour pouvoir utiliser une visionneuse à 360° bidimensionnelle. Les prises de vue doivent être réalisées à intervalles réguliers pour donner l’impression que l’objet est en rotation et retourné. Par exemple, si une visionneuse à 360° unidimensionnelle comprend 12 prises de vue, faites pivoter l’élément de 30° (360/12) pour chaque prise de vue.
+Au minimum, vous avez besoin de 8 à 12 prises de vue d’un élément pour une visionneuse à 360° unidimensionnelle et de 16 à 24 prises de vue pour une visionneuse à 360° bidimensionnelle. Les prises de vue doivent être réalisées à intervalles réguliers pour donner l’impression que l’objet est en rotation et retourné. Par exemple, si une visionneuse à 360° unidimensionnelle comprend 12 prises de vue, faites pivoter l’élément de 30° (360/12) pour chaque prise de vue.
 
 Sur la barre de navigation générale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger des images à 360° depuis votre ordinateur ou votre réseau vers Adobe Dynamic Media Classic.
 
@@ -57,7 +62,7 @@ Voir [Création d’une visionneuse à 360°](creating-spin-set.md#creating-a-sp
 
 Pour modifier une visionneuse à 360°, dans la barre de navigation générale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**. Sélectionnez une visionneuse à 360°, puis sélectionnez **[!UICONTROL Modifier]**. Ajoutez, supprimez des images et modifiez leur position. Vous pouvez modifier la position des lignes dans les visionneuses à 360° bidimensionnelles.
 
-Voir [&#x200B; Modification d’une visionneuse à 360°](creating-spin-set.md#editing-a-spin-set).
+Voir [ Modification d’une visionneuse à 360°](creating-spin-set.md#editing-a-spin-set).
 
 ## &#x200B;4. Configuration des paramètres prédéfinis de visionneuse à 360°
 
@@ -79,7 +84,7 @@ La publication d’une visionneuse à 360° la place sur les serveurs Adobe Dyna
 
 Pour publier une visionneuse à 360°, marquez-la pour publication en sélectionnant l’icône **[!UICONTROL Marquer pour publication]** à côté de son nom dans le panneau de navigation. Sur la barre de navigation générale, sélectionnez **[!UICONTROL Publier]** pour lancer une publication. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
-Voir [&#x200B; Publication d’une visionneuse à 360°](publishing-spin-set.md#publishing-a-spin-set).
+Voir [ Publication d’une visionneuse à 360°](publishing-spin-set.md#publishing-a-spin-set).
 
 ## &#x200B;7. Liaison d’une visionneuse à 360° à une page web
 

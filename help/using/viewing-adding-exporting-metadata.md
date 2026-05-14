@@ -10,10 +10,16 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:17:59.510Z'
+TQID: 'https://experienceleague.adobe.com/P3JP2z7CY-rBzqYn-jm77I-5j6Orxq-VqWVbj0LTWG4'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 34%
+source-wordcount: 2266
+ht-degree: 36%
 
 ---
 
@@ -21,11 +27,11 @@ ht-degree: 34%
 
 Vous pouvez stocker des informations spécifiques aux fichiers que vous utilisez dans Adobe Dynamic Media Classic. Ces informations sont appelées *métadonnées*. Vous pouvez utiliser les métadonnées dans Adobe Dynamic Media Classic pour organiser, rechercher, filtrer et trier vos ressources.
 
-Les métadonnées s’affichent dans la vue détaillée. Elle apparaît avec les informations générées par Adobe Dynamic Media Classic. Par exemple, date de création du fichier, date de publication et mots-clés. Pour afficher les métadonnées, ouvrez la ressource dans l’affichage des détails, puis sélectionnez le panneau Métadonnées . Vous pouvez saisir et modifier des métadonnées dans la vue détaillée.
+Les métadonnées s’affichent dans la vue détaillée. Elle apparaît avec les informations générées par Adobe Dynamic Media Classic. Par exemple, date de création du fichier, date de publication et mots-clés. Pour afficher les métadonnées, ouvrez la ressource dans l’affichage des détails, puis sélectionnez le panneau Métadonnées . Vous pouvez saisir et modifier des métadonnées en mode Affichage des détails.
 
 Certaines métadonnées sont intégrées directement dans un fichier. Si un fichier contient ces métadonnées, Adobe Dynamic Media Classic les charge automatiquement avec le fichier. Vous pouvez incorporer des métadonnées dans des ressources sources dans Adobe Photoshop, InDesign, Illustrator et d’autres applications ; Adobe Dynamic Media Classic reconnaît ces métadonnées. Vous pouvez également ajouter des métadonnées à des fichiers individuels dans le panneau Métadonnées en mode Détail. Pour assurer la cohérence entre fichiers, les administrateurs créent des modèles de métadonnées qui fournissent les champs de métadonnées à remplir.
 
-Pour plus d’informations sur les métadonnées incorporées, voir [Plateforme de métadonnées extensible](https://www.adobe.com/fr/products/xmp.html).
+Pour plus d’informations sur les métadonnées incorporées, voir [Plateforme de métadonnées extensible](https://www.adobe.com/products/xmp.html).
 
 ## Affichage des métadonnées {#view-metadata}
 
@@ -33,11 +39,11 @@ Pour afficher les métadonnées d’une ressource, ouvrez la ressource dans l’
 
 * **Vue compacte** : liste de base des valeurs.
 
-* **IPTC** : valeurs telles que définies par le Conseil international des télécommunications pour la presse.
+* **** : valeurs telles que définies par le Conseil international des télécommunications pour la presse.
 
-* **XMP** : valeurs définies par le programme de métadonnées extensible.
+* **** : valeurs définies par le programme de métadonnées extensible.
 
-Les administrateurs peuvent créer des vues de métadonnées Ces vues apparaissent également dans le menu Vues des métadonnées .
+Les administrateurs peuvent créer des vues de métadonnées qui apparaissent également dans le menu Vues des métadonnées.
 
 Voir [Vues de métadonnées](application-setup.md#metadata_views) pour plus d’informations sur la création de vues de métadonnées.
 
@@ -81,7 +87,7 @@ Au lieu de saisir manuellement les métadonnées fichier par fichier, vous pouve
 
 >[!NOTE]
 >
->Vous pouvez créer un modèle de saisie des métadonnées afin qu’elles puissent être correctement importées vers Adobe Dynamic Media Classic. Après avoir créé le modèle, vous pouvez l’utiliser pour saisir les métadonnées.
+>Vous pouvez créer un modèle de saisie des métadonnées afin qu’elles puissent être correctement importées vers Adobe Dynamic Media Classic. Une fois le modèle défini, vous pouvez y entrer les métadonnées
 >(voir [Création d’un modèle de saisie des métadonnées à télécharger](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)).
 
 Pour plus d’informations sur les propriétés normalisées, consultez le [Centre de développement XMP d’Adobe](https://www.adobe.com/devnet/xmp.html).

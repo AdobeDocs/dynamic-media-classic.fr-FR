@@ -7,9 +7,15 @@ role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 topic: Administration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T19:59:26.023Z'
+TQID: 'https://experienceleague.adobe.com/QHE-OFzsPsBwdIlkpO1nGo1W5Q2Au9Avy8G8mTzBZGc'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: 348
 ht-degree: 0%
 
 ---
@@ -26,7 +32,7 @@ Voir [Questions fréquentes](new-ui-2020.md). Nouvelles mises à jour depuis le 
 
 ## Ressources du développeur de Dynamic Media
 
-* [Page de destination des ressources pour les développeurs de Dynamic Media](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources) : comprend :
+* [Page de destination des ressources pour les développeurs de Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources) : comprend :
    * Guide de référence des visionneuses
    * API de diffusion d’images/rendu d’images
    * API du système de production d’images
@@ -36,9 +42,9 @@ Voir [Questions fréquentes](new-ui-2020.md). Nouvelles mises à jour depuis le 
 ## Ressources de l’utilisateur Adobe Dynamic Media Classic
 
 * [Newsletter mensuelle Dynamic Media](dynamic-media-newsletter.md)
-* [Tutoriel sur les bonnes pratiques d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Tutoriel sur les bonnes pratiques d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Guide : Guide des bonnes pratiques pour l’accentuation des images](/help/using/assets/s7_sharpening_images.pdf)
-* [Guide : comment Adobe Dynamic Media Classic prend en charge le SEO &#x200B;](/help/using/assets/s7_seo.pdf) : les moteurs de recherche permettent aujourd’hui la recherche de sites web et d’images. Adobe Dynamic Media Classic soutient les efforts visant à rendre les images conviviales pour les moteurs de recherche afin qu’une plus grande quantité de trafic soit acheminée vers le site web de l’utilisateur ou de l’utilisatrice d’Adobe Dynamic Media Classic. Ce guide de PDF vous fournit le contexte et des recommandations d’implémentation pour y parvenir.
+* [Guide : comment Adobe Dynamic Media Classic prend en charge le SEO ](/help/using/assets/s7_seo.pdf) : les moteurs de recherche permettent aujourd’hui la recherche de sites web et d’images. Adobe Dynamic Media Classic soutient les efforts visant à rendre les images conviviales pour les moteurs de recherche afin qu’une plus grande quantité de trafic soit acheminée vers le site web de l’utilisateur ou de l’utilisatrice d’Adobe Dynamic Media Classic. Ce guide de PDF vous fournit le contexte et des recommandations d’implémentation pour y parvenir.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
 * [Webinaire : bonnes pratiques pour offrir des expériences interactives avec Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/) : découvrez comment obtenir du contenu dans et hors d’Adobe Dynamic Media Classic et comment configurer des paramètres d’image prédéfinis pour une expérience et des performances optimales. Vous en apprendrez également plus sur les paramètres prédéfinis de visionneuse et les configurations de mise en cache.
 <!-- NOT FOUND * [Webinar: Maximizing your Asset ROI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true): Learn industry best practices to deliver rich media across your sites and mobile apps. In this webinar, Adobe gives examples and demonstrations showing you how to deliver video efficiently across devices. Learn how you can deliver dynamic creative in your marketing campaigns. Or, increase conversion by making any image, style guide, or lookbook shoppable. -->
@@ -49,4 +55,4 @@ Voir [Questions fréquentes](new-ui-2020.md). Nouvelles mises à jour depuis le 
 ## Formation Adobe Dynamic Media Classic
 
 Accédez [ici](https://learning.adobe.com/courses.html#product=adobe-scene7) pour voir les cours de formation actuellement disponibles.
-[Vidéos de formation Adobe Dynamic Media Classic](/help/using/training-videos.md).
+[Vidéos de formation ](/help/using/training-videos.md).

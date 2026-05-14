@@ -10,10 +10,16 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:39:42.316Z'
+TQID: 'https://experienceleague.adobe.com/kw-spdqv6ArVEWk8ID4mnQjYrS25RZntKOJ7-tESasY'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 39%
+source-wordcount: 1637
+ht-degree: 36%
 
 ---
 
@@ -23,7 +29,7 @@ L’optimisation de la qualité d’image peut prendre beaucoup de temps. De nom
 
 Adobe Dynamic Media Classic comprend plus de 100 commandes de traitement d’images pour affiner et optimiser les images et les rendus. Les conseils suivants vous aideront à simplifier le processus et à obtenir rapidement de bons résultats en utilisant quelques commandes essentielles et en appliquant les pratiques recommandées.
 
-Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 >[!TIP]
 >
@@ -35,7 +41,7 @@ Voir aussi [Imagerie dynamique](https://experienceleague.adobe.com/fr/docs/exper
 >* Bande passante réseau
 >* DPR (rapport pixel d’appareil)
 >
->Pour découvrir à quel point il est facile d’utiliser Snapshot, regardez la [vidéo de formation Snapshot](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutes et 17 secondes).
+>Pour découvrir à quel point il est facile d’utiliser Snapshot, regardez la [vidéo de formation Snapshot](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutes et 17 secondes).
 
 
 ## Recommandations relatives au format d’image (&amp;fmt=) {#best-practices-for-image-format-fmt}
@@ -129,7 +135,7 @@ En règle générale, pour obtenir une qualité d’image élevée et une petite
 
 Cette combinaison de paramètres produit d’excellents résultats dans la plupart des cas.
 
-Si l’image doit être davantage optimisée, accentuez-la progressivement (masquage flou) en commençant par un rayon de 0,2 ou 0,3. Ensuite, augmentez graduellement la quantité entre 1,75 et 4 (équivalent de 400 % dans Photoshop). Vérifiez que le résultat escompté est obtenu.
+Si l’image nécessite une optimisation plus poussée, affinez progressivement les paramètres d’accentuation (masquage flou) en commençant par un rayon défini sur 0,2 ou 0,3. Ensuite, augmentez progressivement le montant de 1,75 à un maximum de 4 (équivalent à 400 % dans Photoshop). Vérifiez que le résultat escompté est obtenu.
 
 Si les résultats de l’accentuation ne sont toujours pas satisfaisants, augmentez le rayon point décimal par point décimal. Pour chaque incrément décimal, redémarrez la quantité à 1,75 et augmentez-le progressivement jusqu’à 4. Répétez cette procédure jusqu’à ce que vous obteniez le résultat escompté. Les valeurs ci-dessus sont une approche validée par les studios de création ; cela ne vous empêche toutefois pas de commencer par d’autres valeurs et d’appliquer d’autres stratégies. Que vous soyez ou non satisfait par les résultats est subjectif. Par conséquent, la clé réside dans une mise en application structurée.
 

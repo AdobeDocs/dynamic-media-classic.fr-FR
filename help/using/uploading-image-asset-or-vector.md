@@ -9,9 +9,15 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
+autotag-review: '2026-05-13T20:16:55.218Z'
+TQID: 'https://experienceleague.adobe.com/oR7ZZoQsq8nYVZnpQ82hn2PwgIiCmKXKnHfdr0GQSb8'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: 1051
 ht-degree: 50%
 
 ---
@@ -30,7 +36,7 @@ Avant de transférer un fichier d’image, vous devez d’abord demander une cl�
 
 ## Demander une clé secrète partagée {#requesting-a-shared-secret-key}
 
-Demandez une *clé secrète partagée* en [utilisant l’Admin Console pour créer un dossier de support.](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) Dans le cas de l’assistance technique, demandez une clé secrète partagée.
+Demandez une *clé secrète partagée* en [utilisant l’Admin Console pour créer un dossier de support.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Dans le cas de l’assistance technique, demandez une clé secrète partagée.
 
 Dans le message électronique, indiquez le nom d’entreprise que vous voulez utiliser pour transférer les fichiers d’image. Après avoir reçu la clé d’Adobe Dynamic Media Classic, enregistrez-la localement pour une utilisation ultérieure.
 
@@ -112,7 +118,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Les champs `upload_token` et `company_name` sont obligatoires.
 
-Voir [&#x200B; Récupération du jeton de chargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Voir [ Récupération du jeton de chargement](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
 Voir [Récupération d’une clé secrète partagée](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 

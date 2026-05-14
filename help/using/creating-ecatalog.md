@@ -10,10 +10,16 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T17:43:46.184Z'
+TQID: 'https://experienceleague.adobe.com/wNCmgUez4XtC2sJFmMQvlsczy2r-TxFsDXzrzACGNXc'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 30%
+source-wordcount: 990
+ht-degree: 31%
 
 ---
 
@@ -70,7 +76,7 @@ Que vous modifiiez une visionneuse publiée ou une visionneuse dépubliée, l’
 | Visionneuse déjà publiée ? | L’option « Publier après un enregistrement » est-elle sélectionnée avant d’enregistrer vos modifications ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- | --- |
 | Oui | Oui | Publié | Publié |
-| Oui | Non | Publié | Les membres d’ensemble existants conservent leur statut publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
+| Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
 | Non | Oui | Publié | Publié |
 | Non | Non | Non publié | Les membres de la visionneuse existants, ainsi que tout nouveau membre de la visionneuse que vous ajoutez lors de votre modification conservent leur état publié ou non publié. |
 
@@ -112,7 +118,7 @@ Saisissez manuellement les noms de page un par un en accédant à l’onglet Com
 
 Il est recommandé d’utiliser la méthode d’importation des noms de page si le catalogue électronique contient de nombreuses pages. Vous pouvez importer les noms à partir d’un fichier délimité par des tabulations ou d’un fichier XML.
 
-Le libellé de la table des matières est stocké dans le champ de données utilisateur d’une image. Mettez en forme ces données sous la forme d’une liste de `name=<value>` ` pairs separated by two question marks "??" `. Par exemple, pour définir un libellé pour un champ de table des matières nommé `tocEN`, définissez les données utilisateur de l’image sur :
+Le libellé de la table des matières est stocké dans le champ de données utilisateur d’une image. Mettez en forme ces données sous la forme d’une liste de ` pairs separated by two question marks "??" ` `name=<value>`. Par exemple, pour définir un libellé pour un champ de table des matières nommé `tocEN`, définissez les données utilisateur de l’image sur :
 
 `tocEN=&lt;EN_page_label>`
 

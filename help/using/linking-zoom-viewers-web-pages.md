@@ -10,10 +10,16 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:03:57.696Z'
+TQID: 'https://experienceleague.adobe.com/Urf0qGJqj7tCCGDfNwprZnxf6YfDgavWb44pThwds0I'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 21%
+source-wordcount: 698
+ht-degree: 20%
 
 ---
 
@@ -47,7 +53,7 @@ Vos sites web et applications accèdent au contenu du serveur d’images Dynamic
 
 En règle générale, les visiteurs zooment les images d’un site web en sélectionnant d’abord une icône Zoom (souvent l’icône affiche l’image d’une loupe). La sélection de cette icône lance une page Web dynamique (ASP ou JSP) qui affiche l’image dans une fenêtre pop-up. C’est dans cette fenêtre contextuelle que les visiteurs effectuent un zoom sur l’image.
 
-Pour plus d’informations et d’exemples de code, consultez la [visionneuse Zoom de base HTML5 incorporée](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) dans le guide de référence des visionneuses Adobe.
+Pour plus d’informations et d’exemples de code, consultez la [visionneuse Zoom de base HTML5 incorporée](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) dans le guide de référence des visionneuses Adobe.
 
 ## Copie de la copie incorporée d’une visionneuse Zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 

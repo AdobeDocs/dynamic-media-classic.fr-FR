@@ -10,16 +10,21 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T20:11:12.792Z'
+TQID: 'https://experienceleague.adobe.com/0ilSf9rbFcvh2-AVdVnifjNi7bOa5AjCqBFCUC95I5Q'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 19%
+source-wordcount: 934
+ht-degree: 18%
 
 ---
 
 # Démarrage rapide : Zoom{#quick-start-zoom}
 
-Le zoom permet d’afficher de manière interactive des détails haute résolution dans les images. Vous pouvez, par exemple, voir les couleurs, les options, les angles et les détails d’une image dans une visionneuse intégrée, entièrement configurable et dynamique. Cette visionneuse peut être incorporée à une page web ou s’afficher dans une fenêtre pop-up. Vous pouvez contrôler les images à faible distance et faire défiler les images à haute résolution pour les examiner de près. La fonction de zoom permet à vos clients de bénéficier d’une expérience de visualisation plus interactive, instructive et dynamique. 
+Le zoom permet d’afficher de manière interactive des détails haute résolution dans les images. Vous pouvez, par exemple, voir les couleurs, les options, les angles et les détails d’une image dans une visionneuse intégrée, entièrement configurable et dynamique. Cette visionneuse peut être incorporée à une page web ou s’afficher dans une fenêtre pop-up. Vous pouvez contrôler les images à faible distance et faire défiler les images à haute résolution pour les examiner de près. La fonction de zoom permet à vos clients de bénéficier d’une expérience de visualisation plus interactive, instructive et dynamique.
 
 Adobe Dynamic Media Classic propose également un zoom guidé, qui permet de mettre en évidence les fonctions importantes d’une image. Vous pouvez par exemple créer une cible de zoom pour un logo afin d’attirer l’attention des utilisateurs sur ce dernier. Lorsque l’utilisateur sélectionne cette cible de zoom, il effectue un zoom sur le logo.
 
@@ -29,11 +34,11 @@ Voir les vidéos de formation [Zoom Target : Dynamic Imaging](https://s7d5.scene
 
 Le démarrage rapide de Zoom suivant est conçu pour vous permettre de vous familiariser rapidement avec les techniques de zoom d’Adobe Dynamic Media Classic. Suivez les étapes 1 à 6. Après chaque étape, il existe une référence croisée à un en-tête de rubrique dans laquelle vous pouvez trouver plus d’informations.
 
-## &#x200B;1. Charger des images avec zoom
+## &#x200B;1. Chargement des images avec zoom
 
 Commencez par charger vos images de zoom dans Adobe Dynamic Media Classic. Pour un zoom optimal, Adobe Dynamic Media Classic recommande d’avoir au moins 2 000 pixels dans la plus grande taille.
 
-Sur la barre de navigation générale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger des images depuis votre ordinateur ou votre réseau vers un dossier d’Adobe Dynamic Media Classic. Voir [&#x200B; Chargement d’images avec zoom &#x200B;](uploading-zoom-images.md#uploading_zoom_images).
+Sur la barre de navigation générale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger des images depuis votre ordinateur ou votre réseau vers un dossier d’Adobe Dynamic Media Classic. Voir [ Chargement d’images avec zoom ](uploading-zoom-images.md#uploading_zoom_images).
 
 ## &#x200B;2. Création de cibles de zoom pour le zoom guidé
 
@@ -41,7 +46,7 @@ Les cibles de zoom vous permettent de mettre en valeur des sections particulièr
 
 Pour créer une cible de zoom, sélectionnez **[!UICONTROL Modifier]** et choisissez Cibles de zoom, ou ouvrez une image dans le panneau Parcourir dans la vue Détail et sélectionnez **[!UICONTROL Cibles de zoom]**. Utilisez ensuite les outils Zoom de la page Éditeur de zoom cible pour isoler une partie de l’image en tant que cible. Voir [Création de cibles de zoom pour le zoom guidé](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
 
-## &#x200B;3. Configuration des paramètres prédéfinis de la visionneuse Zoom
+## &#x200B;3. Configurer les paramètres prédéfinis de la visionneuse Zoom
 
 Les paramètres prédéfinis de visionneuse de zoom déterminent le style et le comportement des visionneuses de zoom. Vous pouvez configurer les paramètres prédéfinis de visionneuse Zoom si vous êtes administrateur ; Adobe Dynamic Media Classic est également fourni avec les paramètres prédéfinis de visionneuse Zoom « recommandés » par défaut.
 
@@ -49,7 +54,7 @@ Pour créer un paramètre prédéfini de visionneuse pour le zoom, sur la barre 
 
 Adobe Dynamic Media Classic propose des options **[!UICONTROL paramètre prédéfini de la visionneuse Zoom]** qui permettent de sélectionner le style de bouton et l’aspect général de la visionneuse. Vous pouvez également personnaliser les paramètres de zoom de votre site web. Voir [Configuration des paramètres prédéfinis de la visionneuse de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
-## &#x200B;4. Prévisualiser des images avec la visionneuse Zoom
+## &#x200B;4. Prévisualisation d’images à l’aide de la visionneuse Zoom
 
 Vous pouvez prévisualiser des images dans une visionneuse de zoom afin de vérifier le résultat obtenu lorsque vous effectuez un zoom sur les images.
 

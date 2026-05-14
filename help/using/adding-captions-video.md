@@ -9,9 +9,15 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:36:57.321Z'
+TQID: 'https://experienceleague.adobe.com/wFvWrYRUlCvHwaZFcCcHVDS3ApzUEX2AkFD3EovQJ1g'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: 730
 ht-degree: 15%
 
 ---
@@ -36,9 +42,9 @@ Voir [Ajout ou modification d’un paramètre prédéfini de visionneuse de vid�
 
 Voir aussi [Ajout et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
 
-Adobe Dynamic Media Classic peut convertir les fichiers de sous-titres au format JSON (JavaScript Object Notation). Cette conversion signifie que vous pouvez incorporer le texte JSON dans une page web sous la forme d’une transcription masquée complète de la vidéo. Les moteurs de recherche peuvent ensuite analyser et indexer le contenu pour rendre les vidéos plus facilement détectables et fournir aux clients et clientes plus de détails sur le contenu vidéo.
+Adobe Dynamic Media Classic peut convertir les fichiers de sous-titres au format JSON (JavaScript Object Notation). Cette conversion signifie que vous pouvez incorporer le texte JSON dans une page web sous la forme d’une transcription masquée complète de la vidéo. Les moteurs de recherche peuvent ensuite explorer au contenu et l’indexer pour rendre les vidéos plus facilement détectables et fournir aux clients et clientes plus de détails sur le contenu de la vidéo.
 
-Pour plus d’informations sur l’utilisation de la fonction JSON dans une URL[&#x200B; voir &#x200B;](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)Diffuser du contenu statique (hors images)dans .
+Pour plus d’informations sur l’utilisation de la fonction JSON dans une URL](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) voir [Diffuser du contenu statique (hors images)dans .
 
 **Pour ajouter des sous-titres à une vidéo, procédez comme suit**
 

@@ -10,10 +10,16 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:11:06.721Z'
+TQID: 'https://experienceleague.adobe.com/lB0O224FfzW1smqCgkraE9czEF4XSD98qarRus6GEFw'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 22%
+source-wordcount: 1748
+ht-degree: 19%
 
 ---
 
@@ -33,7 +39,7 @@ La logique appliquée par un lecteur vidéo pour déterminer quelles sont les vi
    1. Le lecteur sélectionne la bande passante la plus élevée inférieure ou égale à la bande passante estimée.
    1. Le lecteur ne prend en compte que 80 % de la bande passante disponible. Cependant, si elle change, elle est plus prudente à seulement 70 % pour éviter la surestimation et revenir immédiatement en arrière.
 
-Consultez la logique de l’algorithme à l’adresse [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) pour obtenir des informations techniques à son sujet.
+Consultez la logique de l’algorithme à l’adresse [](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) pour obtenir des informations techniques à son sujet.
 
 Pour la gestion des vidéos uniques et des visionneuses de vidéos adaptatives, Adobe Dynamic Media Classic prend en charge les éléments suivants :
 
@@ -60,7 +66,7 @@ Lorsqu’une visionneuse de vidéos adaptative est générée, elle inclut des v
 
   La diffusion en continu de vidéo adaptative est prise en charge sur diverses plateformes iOS.
 
-  Consultez la dernière prise en charge dans le [Guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources).
+  Consultez la dernière prise en charge dans le [Guide de référence des visionneuses ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic prend en charge la lecture vidéo pour mobiles au format vidéo MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -91,7 +97,7 @@ Regardez les vidéos de formation suivantes :
 
 Le processus détaillé décrit ci-après vise à vous aider à maîtriser rapidement les opérations liées aux visionneuses de vidéos adaptatives dans Adobe Dynamic Media Classic. Après chaque étape, il existe une référence croisée à un en-tête de rubrique dans laquelle vous pouvez trouver plus d’informations.
 
-## &#x200B;1. Charger et coder des vidéos
+## &#x200B;1. Chargement et codage de vidéos
 
 Téléchargez et générez des visionneuses de vidéos adaptatives en suivant l’un des deux scénarios ci-après :
 
@@ -112,7 +118,7 @@ Adobe Dynamic Media Classic propose de nombreux paramètres prédéfinis de coda
 
 Toutefois, si une personnalisation plus poussée est nécessaire, les administrateurs peuvent créer des paramètres vidéo prédéfinis pour personnaliser la taille et la lecture des vidéos pour les utilisateurs. Les administrateurs peuvent ajouter et gérer des paramètres vidéo prédéfinis à partir de la page Paramètres vidéo prédéfinis disponible sous **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres vidéo prédéfinis]** > **[!UICONTROL Paramètres prédéfinis de codage unique]**. La page Paramètres vidéo prédéfinis propose des options permettant d’ajouter, de modifier, de supprimer et d’activer des paramètres vidéo prédéfinis.
 
-Voir [&#x200B; Utilisation de paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
+Voir [ Utilisation de paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
 ## &#x200B;2. Prévisualisation de vidéos dans une visionneuse de vidéos
 
@@ -126,7 +132,7 @@ Vous pouvez lire la vidéo dans la page Aperçu . Vous pouvez également choisir
 
 Personnalisation des paramètres prédéfinis de la visionneuse : Adobe Dynamic Media Classic propose des paramètres prédéfinis de visionneuse pour la diffusion de vidéos. Ces paramètres déterminent l’aspect de la visionneuse et le mode de fonctionnement des commandes de lecture. Pour personnaliser la visionneuse de vidéos, les administrateurs peuvent ajouter et gérer des paramètres prédéfinis de visionneuse à partir de la page Paramètres prédéfinis de la visionneuse. Pour ouvrir cette page, dans le coin supérieur droit d’Adobe Dynamic Media Classic, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**. La page Paramètres prédéfinis de la visionneuse propose des commandes permettant d’ajouter, de modifier, de supprimer et d’activer des paramètres prédéfinis de la visionneuse.
 
-Voir [&#x200B; Utilisation des paramètres prédéfinis de visionneuse vidéo &#x200B;](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
+Voir [ Utilisation des paramètres prédéfinis de visionneuse vidéo ](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
 Voir aussi [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vidéo de formation.
 

@@ -10,9 +10,14 @@ role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 topic: Content Management
 level: Experienced
-source-git-commit: 9102019811713b953e016fc7c47dc9f7a0dfbcd9
+autotag-review: '2026-05-13T19:58:21.817Z'
+TQID: 'https://experienceleague.adobe.com/pwmEOjYzNJNV-yxeBfOz3xQBT3rJ9u9imU6cdNgQLDA'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: 245
 ht-degree: 32%
 
 ---
@@ -29,7 +34,7 @@ Les modèles peuvent être créés à partir de fichiers Adobe Photoshop PSD o
 
 Pour obtenir des instructions détaillées sur le téléchargement de fichiers, voir [Télécharger des fichiers](uploading-files.md#uploading_files). Tenez compte des remarques suivantes lors du téléchargement de fichiers de modèle :
 
-* Si vous téléchargez un fichier PSD, vous pouvez créer un modèle à partir de ce fichier. Adobe Dynamic Media Classic crée une image distincte pour chaque calque dans PSD. Dans la boîte de dialogue Charger les options de la tâche, sélectionnez **[!UICONTROL Options de Photoshop]**, **[!UICONTROL Conserver les calques]** et **[!UICONTROL Créer un modèle]**. Choisissez ensuite une option dans la liste déroulante **[!UICONTROL Dénomination de calque]** pour nommer les images créées par Adobe Dynamic Media Classic à partir des calques dans PSD.
+* Si vous téléchargez un fichier PSD, vous pouvez créer un modèle à partir de ce fichier. Adobe Dynamic Media Classic crée une image distincte pour chaque calque dans PSD. Dans la boîte de dialogue Charger les options de la tâche, sélectionnez **[!UICONTROL Options de]**, **[!UICONTROL Conserver les calques]** et **[!UICONTROL Créer un modèle]**. Choisissez ensuite une option dans la liste déroulante **[!UICONTROL Dénomination de calque]** pour nommer les images créées par Adobe Dynamic Media Classic à partir des calques dans PSD.
 (voir [Options de téléchargement des fichiers PSD](psd-files.md#psd_upload_options)).
 
 <!--

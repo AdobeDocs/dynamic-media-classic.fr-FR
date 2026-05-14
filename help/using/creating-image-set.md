@@ -10,10 +10,15 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T17:41:43.308Z'
+TQID: 'https://experienceleague.adobe.com/W8HyE6-6ofFJRUWa37n9XnVAeXDkQ8ycBY-hna1ArAY'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 38%
+source-wordcount: 679
+ht-degree: 39%
 
 ---
 
@@ -37,7 +42,7 @@ Lorsque vous créez une visionneuse d’images, Adobe recommande les bonnes prat
 | Type de limite | Pratique recommandée | Limite imposée |
 | --- | --- | --- |
 | Nombre de ressources en double par visionneuse | Aucun doublon | 20 ‡ |
-| Nombre maximal d’images par visionneuse | 5 à 10 images par ensemble | 1 000 |
+| Nombre maximal d’images par visionneuse | 5 à 10 images par ensemble | 1000 |
 
 ‡ Il est recommandé de ne pas avoir de ressources en double dans un ensemble. La limite est de 20 doublons pour une seule ressource. Si, dans l’ensemble, vous ajoutez un autre doublon pour cette ressource, la requête renvoie une erreur ou ignore le doublon.
 
@@ -63,7 +68,7 @@ Que vous modifiiez une visionneuse publiée ou dépubliée, l’option **[!UICON
 | Visionneuse déjà publiée ? | **[!UICONTROL `Publish after a save`]** option sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- | --- |
 | Oui | Oui | Publié | Publié |
-| Oui | Non | Publié | Les membres d’ensemble existants conservent leur statut publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
+| Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
 | Non | Oui | Publié | Publié |
 | Non | Non | Non publié | Les membres de la visionneuse existants, ainsi que tout nouveau membre de la visionneuse que vous ajoutez lors de votre modification conservent leur état publié ou non publié. |
 

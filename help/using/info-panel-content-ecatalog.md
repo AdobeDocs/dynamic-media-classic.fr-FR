@@ -10,9 +10,15 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T19:51:12.585Z'
+TQID: 'https://experienceleague.adobe.com/KZEo-DNrfZJt66xzSAHpLX6A8j1evxOBtwSxQfk44Wc'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: 890
 ht-degree: 38%
 
 ---
@@ -43,7 +49,7 @@ Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pou
 1. Sélectionnez un modèle de réponse :
 
    * Sélectionnez un paramètre prédéfini dans le menu Modèle de réponse. Le code XML de la conception du modèle s’affiche dans le champ Modèle utilisateur.
-   * Pour créer votre propre modèle de réponse, sélectionnez **[!UICONTROL Personnalisé]**. Entrez la définition XML du modèle dans le champ Modèle utilisateur. Vous pouvez vous inspirer des modèles prédéfinis pour créer le vôtre. 
+   * Pour créer votre propre modèle de réponse, sélectionnez **[!UICONTROL Personnalisé]**. Entrez la définition XML du modèle dans le champ Modèle utilisateur. Vous pouvez vous inspirer des modèles prédéfinis pour créer le vôtre.
 
 1. (Facultatif) Dans la zone Réponse par défaut, saisissez le texte à afficher si Adobe Dynamic Media Classic rencontre une erreur lors de la récupération des informations d’une zone cliquable. Par exemple, si le système reçoit un nom d’entreprise et un nom de catalogue électronique, mais pas d’identificateur de survol, ce message est affiché à l’intention de l’utilisateur.
 1. Dans le champ Réponse TTL, entrez le nombre d’heures d’attente avant la mise en cache des données :

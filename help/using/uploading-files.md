@@ -9,10 +9,16 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:16:48.480Z'
+TQID: 'https://experienceleague.adobe.com/GHFAnTWOGJjh5T5swbhJLj9-3iAOP7Ne5MQRObGPubI'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '3856'
-ht-degree: 25%
+source-wordcount: 3956
+ht-degree: 26%
 
 ---
 
@@ -26,7 +32,7 @@ Avant de charger des ressources vers Adobe Dynamic Media Classic, assurez-vous q
 
 ### Formats de fichiers pris en charge {#supported-asset-file-formats}
 
-Ce tableau répertorie les formats de fichiers de ressources pris en charge par Adobe Dynamic Media Classic. Pour plus d’informations sur les fichiers Camera Raw pris en charge, voir [https://helpx.adobe.com/fr/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/fr/camera-raw/using/supported-cameras.html).
+Ce tableau répertorie les formats de fichiers de ressources pris en charge par Adobe Dynamic Media Classic. Pour plus d’informations sur les fichiers Camera Raw pris en charge, voir [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Formats de fichiers | Description |
 | --- | --- |
@@ -72,7 +78,7 @@ Pour obtenir des résultats optimaux avec le programme Adobe Dynamic Media Class
 | Images (pour le dimensionnement des images, le zoom, les visionneuses d’images, les visionneuses à 360°) | Les images doivent faire au moins 2 000 pixels pour la plus grande taille. Les tailles d’image standard vont de 1 500 à 2 500 pixels pour la plus grande taille. Les formats d’image sans perte, notamment TIFF et PNG, sont recommandés. Avec une image JPEG, utilisez les paramètres de qualité les plus élevés. Les fichiers GIF animés sont gérés comme tout autre contenu statique. |
 | Catalogues électroniques | Utilisez des fichiers PDF haute résolution créés dans Adobe Acrobat ou une application Adobe Creative Suite enregistrée en tant que « Prêt pour l’impression ». Les fichiers PDF comprennent toutes les polices, images et masques nécessaires. De plus, incluez tous les éléments graphiques référencés nécessaires, que ce soit sous la forme de pages simples, de pages doubles ou d’un format de plusieurs pages. Organisez les pages en nommant les fichiers selon un ordre alphanumérique. Placez tous les fichiers PDF du catalogue électronique dans un dossier unique en vue de faciliter le téléchargement. Vous pouvez sélectionner des options de recadrage lors du téléchargement afin de supprimer la zone de rognage des fichiers PDF, notamment les traits de coupe, les repères de montage ou les gammes de couleurs. La plupart des fichiers PDF « bon à tirer » sont caractérisés par l’espace colorimétrique CMJN ; il est donc important d’obtenir le profil colorimétrique ICC CMJN utilisé avec vos fichiers PDF. |
 | Modèles | Image superposée ou disposition pouvant inclure du texte, des images et des calques. Les calques d’image, les chaînes de texte et les attributs, comme la couleur et la taille, peuvent être paramétrés de manière à pouvoir personnaliser les données variables. Pour les modèles, les exigences sont les mêmes que pour les autres images. Préparez vos images dans Photoshop ou un autre éditeur d’images. Enregistrez chaque image sous forme de fichier transparent aplati au format TIFF ou PNG. Assurez-vous que la résolution de l’image est adaptée à l’utilisation qui en sera faite. Les images à imprimer sont de 300 ppp. |
-| Vidéos | Adobe Dynamic Media Classic prend en charge les fichiers vidéo enregistrés aux formats OGV et MP4. Vous pouvez transcoder les fichiers au format MP4 lors du chargement. Voir [Formats de fichiers pris en charge](#supported-static-file-formats). |
+| Vidéos | Adobe Dynamic Media Classic prend en charge les fichiers vidéo enregistrés aux formats OGV et MP4. Vous pouvez transcoder des fichiers vers le format MP4 lors du téléchargement. Voir [Formats de fichiers pris en charge](#supported-static-file-formats). |
 | Polices | a téléchargé TrueType, `Type1` (Windows® uniquement), OpenType® fonts et PhotoFonts. |
 | Images | Images et fichiers d’images superposées. |
 | Visionneuses d’images et séries d’échantillons | Ensemble d’images associées pouvant être affichées dans une visionneuse. |
@@ -82,7 +88,7 @@ Pour obtenir des résultats optimaux avec le programme Adobe Dynamic Media Class
 | Fichiers FXG | Format de fichiers graphiques à résolution indépendante permettant de créer des modèles personnalisables en vue d’une sortie pour impression, Web, courrier électronique, ordinateur et appareils mobiles. |
 | Fichiers SVG | Fichiers Scalable Vector Graphic dont le rendu peut être effectué par des serveurs Image Server. |
 | Fichiers XML | Fichiers qui définissent les règles de prétraitement utilisées pour modifier les parties chemin (path) et interrogation (query) des requêtes. |
-| Fichiers de feuille de style en cascade | Chargez les habillages CSS pour la personnalisation des visionneuses HTML5. |
+| Fichiers de feuille de style en cascade | Téléchargez des habillages CSS pour personnaliser des visionneuses HTML5. |
 | Fichiers JavaScript | Les fichiers JavaScript sont utilisés pour l’instrumentation de la visionneuse afin de contenir les informations de compte. La sécurité Adobe recommande ce type de ressource uniquement pour les comptes clients qui disposent d’un domaine distinct utilisé pour la diffusion (afin d’éviter le cross-site scripting). |
 
 >[!NOTE]
@@ -182,7 +188,7 @@ Pour afficher la progression du chargement, sélectionnez **[!UICONTROL Tâches]
 1. Dans Adobe Dynamic Media Classic, sur la barre de navigation générale, sélectionnez **[!UICONTROL Charger]**.
 1. Sur la page Charger , sélectionnez l’onglet **[!UICONTROL VIA FTP]** .
 1. Sur le côté gauche de la page Charger, dans la zone **[!UICONTROL Choisir le dossier FTP pour le chargement]**, choisissez un dossier FTP à partir duquel charger les fichiers.
-1. Sur le côté droit de la page Charger, dans la zone **[!UICONTROL Destination du dossier Dynamic Media Adobe]** choisie, choisissez un dossier de destination dans Adobe Dynamic Media Classic.
+1. Sur le côté droit de la page Charger, dans la zone **[!UICONTROL Destination du dossier Dynamic Media]** choisie, choisissez un dossier de destination dans Adobe Dynamic Media Classic.
 1. (Facultatif) Près du bas de la page Charger, dans le champ de texte Nom de la tâche, saisissez le nouveau nom de la tâche de chargement. Vous pouvez également simplement utiliser le nom par défaut, généré par le système, fourni par Adobe Dynamic Media Classic. Les tâches de chargement et de publication sont enregistrées sur la page Tâches, où vous pouvez vérifier leur statut.
 (voir [Vérification de fichiers de tâche](checking-job-files.md#checking_job_files)).
 1. (Facultatif) Près du bas de la page Charger, sélectionnez **[!UICONTROL Publier après le chargement]** afin de publier automatiquement les ressources que vous chargez.
@@ -217,7 +223,7 @@ Lors du chargement de fichiers, vous pouvez choisir l’une des options suivante
          * **[!UICONTROL Quotidien]** : définissez l’heure à laquelle vous souhaitez que la tâche s’exécute tous les jours. Si vous souhaitez que le traitement s’exécute uniquement du lundi au vendredi, sélectionnez **[!UICONTROL Jours de la semaine uniquement]**.
          * **[!UICONTROL Hebdomadaire]** : sélectionnez le jour et l’heure de la semaine où vous souhaitez que la tâche s’exécute.
          * **[!UICONTROL Mensuel]** : sélectionnez un jour spécifique du mois ou de la semaine, y compris l’heure de début, pour l’exécution de la tâche.
-         * **[!UICONTROL Personnalisé]** : personnalisez un intervalle de temps de tâche de chargement ou de publication selon vos propres spécifications. Voir [&#x200B; Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+         * **[!UICONTROL Personnalisé]** : personnalisez un intervalle de temps de tâche de chargement ou de publication selon vos propres spécifications. Voir [ Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
 
    * **[!UICONTROL Publier après le chargement]** : disponible si vous avez sélectionné l’onglet **[!UICONTROL À PARTIR DE L’ORDINATEUR DE BUREAU]** ou l’onglet **[!UICONTROL VIA FTP]**. Sélectionnez cette option pour publier automatiquement les ressources que vous chargez. Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Cette option est également disponible sur la page de téléchargement.
 
@@ -229,13 +235,13 @@ Sélectionnez cette option pour extraire automatiquement tous les fichiers de vo
    * **[!UICONTROL Inclure les sous-dossiers]** : disponible uniquement si vous avez sélectionné l’onglet **[!UICONTROL VIA FTP]**.
 Permet de télécharger les sous-dossiers du dossier que vous avez l’intention de télécharger. Les noms du dossier et des sous-dossiers chargés sont saisis automatiquement dans Adobe Dynamic Media Classic.
 
-   * **[!UICONTROL Traiter les fichiers de métadonnées]** : disponible uniquement si vous avez sélectionné l’onglet **[!UICONTROL VIA FTP]**. Sélectionnez cette option si vous souhaitez charger un fichier XML ou délimité par des tabulations pour ajouter des métadonnées à plusieurs ressources.
+   * **[!UICONTROL Traiter les fichiers de métadonnées]** : disponible uniquement si vous avez sélectionné l’onglet **[!UICONTROL VIA FTP]**. Sélectionnez cette option si vous souhaitez télécharger un fichier XML ou délimité par des tabulations pour ajouter des métadonnées à plusieurs fichiers.
 Voir [Importer des métadonnées (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 * **Options de recadrage** : recadrez automatiquement les pixels d’espace blanc d’une image. Ouvrez le menu **[!UICONTROL Recadrage]**, sélectionnez **[!UICONTROL Manuel]** et saisissez les mesures en pixels dans les champs de texte Haut, Droite, Bas et Gauche pour recadrer sur les côtés. Vous pouvez également sélectionner **[!UICONTROL Rogner]** dans le menu Recadrer et choisir les options suivantes :
 
    * **[!UICONTROL Rogner en fonction de]** : choisissez de recadrer en fonction de la couleur ou de la transparence :
-      * **[!UICONTROL Couleur]** : sélectionnez l’option Couleur. Sélectionnez ensuite le menu Coin et choisissez l’angle de l’image présentant la couleur qui correspond le mieux à l’espace blanc à rogner.
+      * **[!UICONTROL Couleur]** : sélectionnez l’option Couleur. Sélectionnez ensuite le menu Coin, puis choisissez l’angle de l’image présentant la couleur qui correspond le mieux à l’espace blanc à rogner.
 Rognage en fonction de la couleur : spécifiez 0 pour rogner les pixels uniquement s’ils correspondent exactement à la couleur que vous avez sélectionnée dans le coin de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs.
       * **[!UICONTROL Transparence]** : sélectionnez l’option **[!UICONTROL Transparence]**.
 Rognage en fonction de la transparence : spécifiez 0 pour rogner les pixels uniquement s’ils sont transparents ; les nombres plus proches de 1 permettent une plus grande transparence.
@@ -251,7 +257,7 @@ Rognage en fonction de la transparence : spécifiez 0 pour rogner les pixels uni
 Voir [Options de réglage d’image au moment du chargement](image-editing-options-upload.md#image-editing-options-at-upload).
 
 * **Options PostScript®** : pixellisez des fichiers PostScript®, recadrez des fichiers, conservez les arrière-plans transparents, choisissez une résolution et choisissez un espace colorimétrique.
-Voir [&#x200B; Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
+Voir [ Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Options Photoshop** : vous pouvez créer des modèles à partir de fichiers Adobe® Photoshop®, conserver les calques, spécifier le mode de dénomination des calques, extraire du texte et spécifier le mode d’ancrage des images dans les modèles.
 (voir [Options de téléchargement des fichiers PSD](psd-files.md#psd_upload_options)).
@@ -260,12 +266,12 @@ Voir [&#x200B; Utilisation de fichiers PostScript et Illustrator](postscript-ill
 (voir [Options de téléchargement des fichiers PDF](pdfs.md#pdf_upload_options)).
 
 * **Options Illustrator** : pixellisez les fichiers Adobe Illustrator®, conservez les arrière-plans transparents, choisissez une résolution et choisissez un espace colorimétrique.
-Voir [&#x200B; Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
+Voir [ Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Options EVIDEO** : vous pouvez transcoder un fichier vidéo en choisissant un paramètre vidéo prédéfini.
-Voir [&#x200B; Utilisation de paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
+Voir [ Utilisation de paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **Plus de métadonnées** : entrez des mots-clés qui décrivent les fichiers que vous avez l’intention de télécharger. Séparez les mots clés-par des virgules. Les mots-clés facilitent la recherche de ressources.
+* **Plus de métadonnées** : entrez des mots-clés qui décrivent les fichiers que vous avez l’intention de télécharger. Séparez les mots clés-par des virgules. Les mots-clés facilitent les recherches portant sur les fichiers
 Voir [Réalisation d’une recherche avancée](searching-assets.md#conducting_an_advanced_search).
 Consultez également la vidéo de formation [Charger des mots-clés](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) .
 

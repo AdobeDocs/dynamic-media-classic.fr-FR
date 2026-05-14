@@ -10,9 +10,15 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 84dab57d00d0bd3fec8ed0d0a5ae28e81485fb01
+autotag-review: '2026-05-13T17:38:37.961Z'
+TQID: 'https://experienceleague.adobe.com/GXWZmllFz1-pP-BuzH2WdjpgmvX5cOUipLywGUa8Z0U'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '11377'
+source-wordcount: 11377
 ht-degree: 27%
 
 ---
@@ -93,7 +99,7 @@ Voir aussi [Tester le service Secure Testing](testing-assets-making-them-public.
 
   Vous pouvez également accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Retraiter]** pour créer d’autres vidéos « enfants » codées directement à partir d’une visionneuse de vidéos adaptative. Adobe Dynamic Media Classic recherche automatiquement la vidéo de Principal « parente » de la visionneuse de vidéos adaptative et l’utilise comme vidéo source pour le transcodage. Cependant, lorsque vous enregistrez les nouvelles vidéos codées individuelles, elles ne sont pas visibles lors d’une recherche ou d’une navigation. Elles restent néanmoins accessibles à partir de l’onglet Vidéos codées dans la vue Affichage des détails.
 
-  Voir [&#x200B; Chargement et transcodage de vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos).
+  Voir [ Chargement et transcodage de vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
   Pour continuer à accéder à toutes les vidéos codées dérivées lors d’une recherche ou d’une navigation, sélectionnez **[!UICONTROL Afficher les vidéos codées]**.
 
@@ -115,7 +121,7 @@ Voir aussi [Tester le service Secure Testing](testing-assets-making-them-public.
 
 Consultez également la vidéo de formation [Options de tâches de chargement](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) .
 
-* **[!UICONTROL Remplacer les images]** : Adobe Dynamic Media Classic ne permet pas à deux fichiers d’avoir le même nom. L’identifiant Adobe Dynamic Media Classic de chaque élément (le nom de l’image sans l’extension de nom de fichier) doit être unique. De par cette règle, la boîte de dialogue Télécharger contient une option Ecraser. L’effet précis de cette option dépend de l’option Ecraser les images spécifiée. Ces options spécifient la manière dont les images de remplacement sont téléchargées : elles peuvent remplacer les images d’origine ou devenir des doublons. Les images en double sont renommées avec un « -1 » (par exemple, chaise.tif est renommé chaise-1.tif). Ces options affectent les images téléchargées dans un dossier autre que le dossier d’origine ou les images dont l’extension est différente de celle du fichier d’origine (telle que JPG, TIF ou encore PNG) Voir [&#x200B; Utilisation de l’option Remplacer les images &#x200B;](#using-the-overwrite-images-option).
+* **[!UICONTROL Remplacer les images]** : Adobe Dynamic Media Classic ne permet pas à deux fichiers d’avoir le même nom. L’identifiant Adobe Dynamic Media Classic de chaque élément (le nom de l’image sans l’extension de nom de fichier) doit être unique. De par cette règle, la boîte de dialogue Télécharger contient une option Ecraser. L’effet précis de cette option dépend de l’option Ecraser les images spécifiée. Ces options spécifient la manière dont les images de remplacement sont téléchargées : elles peuvent remplacer les images d’origine ou devenir des doublons. Les images en double sont renommées avec un « -1 » (par exemple, chaise.tif est renommé chaise-1.tif). Ces options affectent les images téléchargées dans un dossier autre que le dossier d’origine ou les images dont l’extension est différente de celle du fichier d’origine (telle que JPG, TIF ou encore PNG) Voir [ Utilisation de l’option Remplacer les images ](#using-the-overwrite-images-option).
 
    * **[!UICONTROL Remplacer dans le dossier actuel, même nom ou extension de l’image de base]** : cette option est la règle la plus stricte pour le remplacement. Elle nécessite que vous téléchargiez l’image de remplacement dans le même dossier que l’image d’origine, et qu’elle ait la même extension que le fichier d’origine. Si ces conditions ne sont pas remplies, un doublon est créé.
 
@@ -147,7 +153,7 @@ Adobe Dynamic Media Classic ne permet pas à deux fichiers d’avoir le même no
 
 Si vous avez précédemment chargé des images, puis modifié les fichiers d’origine (ou les avez remplacés), l’option Remplacer sélectionnée spécifie la manière dont Adobe Dynamic Media Classic remplace les images. Aucune donnée sur l’image ne change, mais la nouvelle image remplace l’ancienne. Si le dossier contient également des images qui ne sont pas déjà dans Adobe Dynamic Media Classic, ces images sont ajoutées.
 
-Utilisez cette option si les images chargées ont changé d’une manière ou d’une autre (l’image a été modifiée) mais que la référence à l’image reste la même. Le remplacement est également utile lors du chargement et de l’extraction de fichiers PDF Adobe®. Vous pouvez affiner la façon dont Adobe Dynamic Media Classic *déchire* l’image. Vous pouvez également ajuster les options de profil de couleurs ICC dans la boîte de dialogue Charger et charger à nouveau à l’aide de la fonction de remplacement.
+Utilisez cette option si les images chargées ont changé d’une manière ou d’une autre (l’image a été modifiée) mais que la référence à l’image reste la même. Le remplacement est également utile lors du chargement et de l’extraction de fichiers PDF ®. Vous pouvez affiner la façon dont Adobe Dynamic Media Classic *déchire* l’image. Vous pouvez également ajuster les options de profil de couleurs ICC dans la boîte de dialogue Charger et charger à nouveau à l’aide de la fonction de remplacement.
 
 Les identifiants Adobe Dynamic Media Classic utilisés pour accéder aux images à partir des serveurs de production sont dérivés des noms des fichiers image. L’utilisation de caractères majuscules et minuscules dans le nom de fichier est importante, à la fois pour le remplacement des fichiers existants et pour les Adobe Dynamic Media Classic ID utilisés pour accéder à l’image. L’utilisation de noms de fichier avec des caractères majuscules et minuscules est correcte avant le chargement dans Adobe Dynamic Media Classic afin d’éviter les Adobe Dynamic Media Classic ID qui ne diffèrent qu’en cas pour la même image.
 
@@ -161,7 +167,7 @@ Les administrateurs peuvent créer des paramètres prédéfinis pour l’exporta
 
 Pour ouvrir l’écran Paramètre d’image prédéfini , sur la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres d’image prédéfinis]**.
 
-Voir [&#x200B; Imagerie dynamique &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Voir [ Imagerie dynamique ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Création et modification des paramètres d’image prédéfinis {#creating-and-editing-image-presets}
 
@@ -436,21 +442,21 @@ En combinant dans un seul lecteur les éléments suivants :
 
 Vous pouvez étendre la portée de votre contenu multimédia aux utilisateurs d’ordinateurs de bureau, de tablettes et d’appareils mobiles, et garantir ainsi une expérience vidéo fluide.
 
-Voir [&#x200B; À propos des visionneuses HTML5](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses Adobe.
+Voir [ À propos des visionneuses HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses Adobe.
 
-Voir [Matrice de compatibilité des paramètres prédéfinis de la visionneuse Adobe Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
+Voir [Matrice de compatibilité des paramètres prédéfinis de la visionneuse ](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
 Reportez-vous à la section [Meilleure pratique : Utilisation de la visionneuse de vidéos HTML5](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer).
 
 Selon la visionneuse, vous pouvez ajouter des fonctions communautaires. Ces fonctions comprennent des boutons d’incorporation, d’e-mail, de lien et de visite de site. Ces boutons permettent aux personnes qui utilisent les visionneuses de partager la visionneuse avec d’autres ou d’ouvrir le site web Adobe Dynamic Media Classic.
 
-Voir aussi [Exemples de bibliothèques de référence de visionneuses Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Voir aussi [Exemples de bibliothèques de référence de visionneuses ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 ### Prise en charge des visionneuses pour les pages web en responsive design {#viewer-support-for-responsive-designed-web-pages}
 
 Les différentes pages web ont des besoins différents. Il arrive que vous souhaitiez une page web qui fournisse un lien permettant d’ouvrir la visionneuse HTML5 dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer la visionneuse HTML5 directement dans la page d’hébergement. Dans ce dernier cas, la page web a probablement une mise en page statique. Autrement, il est « réactif » et s’affiche différemment selon les appareils ou les tailles de fenêtre du navigateur. Pour répondre à ces besoins, les visionneuses HTML5 fournies avec Adobe Dynamic Media Classic prennent en charge les pages web statiques et les pages web en responsive design.
 
-Pour plus d’informations sur l’intégration de visionneuses réactives à vos pages web, consultez [À propos de la bibliothèque d’images réactive](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Utiliser la bibliothèque d’images réactive](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) et [Référence des commandes : attributs de commande](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Pour plus d’informations sur l’intégration de visionneuses réactives à vos pages web, consultez [À propos de la bibliothèque d’images réactive](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Utiliser la bibliothèque d’images réactive](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) et [Référence des commandes : attributs de commande](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Types de paramètres prédéfinis de visionneuse {#viewer-preset-types}
 
@@ -490,13 +496,13 @@ Par exemple, si la taille de l’image principale est de 350 x 350 pixels et 
 
 Le tableau suivant identifie les paramètres prédéfinis de visionneuse Adobe Dynamic Media Classic actuellement disponibles. Le tableau indique également la compatibilité de la visionneuse avec les ordinateurs de bureau et les appareils mobiles, ainsi que la technologie utilisée pour chaque visionneuse donnée.
 
-Voir aussi [Exemples de bibliothèques de référence de visionneuses Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Voir aussi [Exemples de bibliothèques de référence de visionneuses ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 Pour plus d’informations sur les versions du navigateur web et du système d’exploitation prises en charge pour les visionneuses, consultez les Notes de mise à jour des visionneuses.
 
-Voir Les [Notes De Mise À Jour De Référence Des Visionneuses Adobe](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources).
+Voir Les [Notes De Mise À Jour De Référence Des Visionneuses ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
-|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Android™ Smartphone | Tablette Android™ |
+|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | ™ Smartphone | Tablette ™ |
 |--- |--- |--- |--- |--- |--- |--- |
 | Visionneuses de zoom |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
@@ -505,27 +511,27 @@ Voir Les [Notes De Mise À Jour De Référence Des Visionneuses Adobe](https://e
 | Universal_HTML5_Zoom_light | HTML5 | X | X | X | X | X |
 
 
-|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Android™ Smartphone | Tablette Android™ |
+|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | ™ Smartphone | Tablette ™ |
 |--- |--- |--- |--- |--- |--- |--- |
 | Visionneuses d’images |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
 
-|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Android™ Smartphone | Tablette Android™ |
+|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | ™ Smartphone | Tablette ™ |
 |--- |--- |--- |--- |--- |--- |--- |
 | Visionneuses d’ensembles d’échantillons |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_light | HTML5 | X | X | X | X | X |
 
-|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Android™ Smartphone | Tablette Android™ |
+|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | ™ Smartphone | Tablette ™ |
 |--- |--- |--- |--- |--- |--- |--- |
 | Visionneuses de catalogue électronique |  |  |  |  |  |  |
 | Universal_HTML5_eCatalog_Adv(Inclut la prise en charge des médias sociaux et de la recherche catalogue.) | HTML5 | X | X | X | X | X |
 | Universal_HTML5_eCatalog(Inclut la prise en charge des médias sociaux et de la recherche catalogue). | HTML5 | X | X | X | X | X |
 
-|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Android™ Smartphone | Tablette Android™ |
+|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | ™ Smartphone | Tablette ™ |
 |--- |--- |--- |--- |--- |--- |--- |
 | Visionneuses à 360° |  |  |  |  |  |  |
 | Universal_HTML5_SpinSet_dark | HTML5 | X | X | X | X | X |
@@ -538,12 +544,12 @@ Adobe Dynamic Media Classic prend en charge la lecture vidéo pour mobiles au fo
 * Les appareils BlackBerry® qui prennent en charge ce format vidéo sont répertoriés dans la liste : [Formats vidéo pris en charge sur BlackBerry®](https://developers.blackberry.com/us/en)
 * Les appareils Windows® qui prennent en charge ce format vidéo sont également répertoriés dans la liste : [Formats vidéo pris en charge sur Windows® Phone](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
 
-|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Android™ Smartphone | Tablette Android™ | BlackBerry® Smartphone | Windows® Phone |
+|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | ™ Smartphone | Tablette ™ | BlackBerry® Smartphone | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | Universal_HTML5_Video(Inclut la prise en charge du sous-titrage.) Voir [Bonne pratique : Utilisation de la visionneuse de vidéos Universal HTML5.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
 | Universal_HTML5_Video_social(Inclut la prise en charge du sous-titrage codé et des médias sociaux.) | HTML5 | X | X | X | X | X | X | X |
 
-|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Android™ Smartphone | Tablette Android™ |
+|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | ™ Smartphone | Tablette ™ |
 |--- |--- |--- |--- |--- |--- |--- |
 | Visionneuses de médias mixtes |  |  |  |  |  |  |
 | Universal_HTML5_MixedMedia_dark | HTML5 | X | X | X | X | X |
@@ -551,9 +557,9 @@ Adobe Dynamic Media Classic prend en charge la lecture vidéo pour mobiles au fo
 
 ### Matrice des mouvements des visionneuses mobiles pris en charge {#supported-mobile-viewers-gestures-matrix}
 
-Le tableau suivant répertorie les gestes pris en charge dans les visionneuses mobiles sur les appareils iOS™ Android 2.x et Android™ 3.x.
+Le tableau suivant répertorie les gestes pris en charge dans les visionneuses mobiles sur les appareils ™ Android 2.x et Android™ 3.x.
 
-|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | Android™ Smartphone | Tablette Android™ |
+|  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | ™ Smartphone | Tablette ™ |
 |--- |--- |--- |--- |--- |--- |--- |
 | Visionneuses d’images |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
@@ -578,7 +584,7 @@ L’écran Paramètres prédéfinis de la visionneuse propose des outils permett
 
 * **Exporter un paramètre prédéfini** : sélectionnez un paramètre prédéfini de visionneuse HTML5. Cliquez ensuite sur **[!UICONTROL Exporter]** pour télécharger l’habillage de la visionneuse afin de l’utiliser comme base pour créer et ajouter un autre paramètre prédéfini de visionneuse.
 
-  Voir [&#x200B; Exportation d’un paramètre prédéfini de visionneuse HTML5](application-setup.md#exporting_an_html5_viewer_preset).
+  Voir [ Exportation d’un paramètre prédéfini de visionneuse HTML5](application-setup.md#exporting_an_html5_viewer_preset).
 
 * **Filtrer la liste des paramètres prédéfinis de la visionneuse** : utilisez les outils suivants pour filtrer la liste :
 
@@ -854,7 +860,7 @@ Pour utiliser efficacement les champs de métadonnées définis par l’utilisat
 
    * **[!UICONTROL Couleur]** : nom d’une couleur.
 
-   * **[!UICONTROL Dimension]** : largeur et hauteur de la ressource.
+   * **** : largeur et hauteur de la ressource.
 
    * **[!UICONTROL Non typé]** : pour une compatibilité ascendante. Ne sélectionnez pas cette option.
 
@@ -905,7 +911,7 @@ Tous les paramètres prédéfinis de lot actifs d’une entreprise sont réperto
 
 L’administrateur d’entreprise crée une convention de nommage par défaut qui est utilisée dans toute recette de paramètre prédéfini d’ensemble par lot. Les conventions de nommage par défaut sélectionnées dans la définition du paramètre prédéfini d’ensemble par lot peuvent être suffisantes pour que votre entreprise génère des ensembles par lot pour tous les sites web. Une `Batch Set Preset` est créée pour utiliser la convention de nommage par défaut que vous définissez. Vous pouvez créer autant de paramètres prédéfinis de lot avec d’autres conventions de nommage personnalisées que nécessaire pour un ensemble particulier de contenu dans les cas où il existe une exception à la dénomination par défaut définie par l’entreprise.
 
-Il n’est pas nécessaire de configurer une convention de nommage par défaut pour utiliser la fonctionnalité de paramètre prédéfini d’ensemble par lot. Adobe Toutefois, il est recommandé d’utiliser une convention de nommage par défaut pour définir autant d’éléments de votre convention de nommage que vous souhaitez regrouper dans un ensemble. Cela permet de rationaliser la création d’ensembles par lot.
+Il n’est pas nécessaire de configurer une convention de nommage par défaut pour utiliser la fonctionnalité de paramètre prédéfini d’ensemble par lot. Toutefois, il est recommandé d’utiliser une convention de nommage par défaut pour définir autant d’éléments de votre convention de nommage que vous souhaitez regrouper dans un ensemble. Cela permet de rationaliser la création d’ensembles par lot.
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres prédéfinis d’ensemble par lot]** > **[!UICONTROL Affectation de nom par défaut]**.
 1. Sélectionnez **[!UICONTROL Afficher le formulaire]** ou **[!UICONTROL Afficher le code]** pour indiquer le mode de visualisation et de saisie des informations sur chaque élément.
@@ -938,7 +944,7 @@ Consultez également la vidéo de formation sur la visionneuse à 360° [2D](htt
 
 **Pour créer un paramètre prédéfini d’ensemble par lot, procédez comme suit**
 
-1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres prédéfinis d’ensemble par lot]** > **[!UICONTROL Paramètre prédéfini d’ensemble par lot]**. **[!UICONTROL L’option Afficher le formulaire]** indiquée dans le coin supérieur droit de la page Détails, correspond à la vue par défaut.
+1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres prédéfinis d’ensemble par lot]** > **[!UICONTROL Paramètre prédéfini d’ensemble par lot]**. La vue par défaut est la vue **[!UICONTROL Afficher le formulaire]**, comme défini dans le coin supérieur droit de la page Détails.
 1. Dans le panneau Liste des paramètres prédéfinis, sélectionnez **[!UICONTROL Ajouter]** pour activer les champs de définition dans le panneau Détails situé sur la droite de la page.
 1. Dans le panneau Détails, dans le champ Nom du paramètre prédéfini, nommez le paramètre prédéfini.
 1. Dans le menu déroulant Type d’ensemble par lot, sélectionnez un type de paramètre prédéfini.
@@ -987,7 +993,7 @@ Lorsque la visionneuse à 360° est chargée et publiée, vous activez le nom de
 
 **Pour créer un paramètre prédéfini d’ensemble par lot pour la génération automatique d’une visionneuse à 360° en 2D :**
 
-1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres prédéfinis d’ensemble par lot]** > **[!UICONTROL Paramètre prédéfini d’ensemble par lot]**. **[!UICONTROL L’option Afficher le formulaire]** indiquée dans le coin supérieur droit de la page Détails, correspond à la vue par défaut.
+1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Paramètres prédéfinis d’ensemble par lot]** > **[!UICONTROL Paramètre prédéfini d’ensemble par lot]**. La vue par défaut est la vue **[!UICONTROL Afficher le formulaire]**, comme défini dans le coin supérieur droit de la page Détails.
 1. Dans le panneau Liste des paramètres prédéfinis, sélectionnez **[!UICONTROL Ajouter]** pour activer les champs de définition dans le panneau Détails situé sur le côté droit de la page.
 1. Dans le panneau Détails, dans le champ Nom du paramètre prédéfini, nommez le paramètre prédéfini.
 1. Dans le menu déroulant Type d’ensemble par lot, sélectionnez **[!UICONTROL Visionneuse de fichiers]**.

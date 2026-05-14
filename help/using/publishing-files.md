@@ -10,9 +10,14 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:08:38.271Z'
+TQID: 'https://experienceleague.adobe.com/-eX-BNe5fu-v-hnD9F2qkBkpPZYx3TAvN4Lisgz3mHk'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: 1696
 ht-degree: 21%
 
 ---
@@ -21,7 +26,7 @@ ht-degree: 21%
 
 Vous publiez vos ressources sur les serveurs d’images Dynamic Media. Vous pouvez publier des ressources sur une base unique ou demander à Adobe Dynamic Media Classic de les publier selon un calendrier récurrent. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL d’Adobe Dynamic Media Classic et les ajouter à votre site web ou à votre application.
 
-Adobe Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos via HTTP/2. En d’autres termes, une URL publiée ou un code intégré pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cette ressource publiée utilise le protocole HTTP/2 pour la diffuser. Cette méthode de diffusion améliore la communication entre les navigateurs et les serveurs, ce qui permet d’obtenir de meilleurs temps de réponse et de chargement pour toutes vos ressources Adobe Dynamic Media Classic. Voir la [HTTP2 FAQ sur la diffusion de contenu](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/http2).
+Adobe Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos via HTTP/2. En d’autres termes, une URL publiée ou un code intégré pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cette ressource publiée utilise le protocole HTTP/2 pour la diffuser. Cette méthode de diffusion améliore la communication entre les navigateurs et les serveurs, ce qui permet d’obtenir de meilleurs temps de réponse et de chargement pour toutes vos ressources Adobe Dynamic Media Classic. Voir la [HTTP2 FAQ sur la diffusion de contenu](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Publication après le téléchargement {#publish-after-uploading}
 
@@ -58,7 +63,7 @@ Créez une tâche de publication pour publier les ressources que vous avez charg
    Voir [Création d’une tâche de publication unique](publishing-files.md#creating_a_one_time_publish_job) et [Création d’une tâche de publication récurrente](publishing-files.md#creating_a_recurring_publish_job).
 
 1. Entrez un nom de tâche.
-1. (Facultatif) Affichez les options avancées, puis choisissez parmi elles 
+1. (Facultatif) Affichez les options avancées, puis choisissez parmi elles
 
    (voir [Options de publication avancées](publishing-files.md#advanced_publish_options)).
 
@@ -68,7 +73,7 @@ Adobe Dynamic Media Classic effectue le suivi des tâches de publication sur la 
 
 >[!NOTE]
 >
->Les Assets que vous avez republiées (vous les avez déjà publiées) n’apparaissent pas immédiatement sur votre site web en raison du mécanisme de mise en cache web sur le réseau de diffusion de contenu (CDN). (voir [Fichiers republiés et délais CDN](publishing-files.md#republished_assets_and_cdn_delays)).
+>Les Assets que vous avez republiées (vous les avez déjà publiées) n’apparaissent pas immédiatement sur votre site web en raison du mécanisme de mise en cache web sur le réseau de diffusion de contenu (CDN). Voir [Fichiers republiés et délais CDN](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Création d’une tâche de publication unique {#creating-a-one-time-publish-job}
 
@@ -82,7 +87,7 @@ Créez une tâche de publication récurrente en sélectionnant **[!UICONTROL Ré
 
 Choisissez ensuite l’option Répéter de **[!UICONTROL Quotidien]**, **[!UICONTROL Hebdomadaire]**, **[!UICONTROL Mensuel]** ou **[!UICONTROL Personnalisé]**, puis indiquez à quel moment vous souhaitez que la tâche de publication se répète. Adobe Dynamic Media Classic présente les outils de calendrier pour la planification de la tâche de publication récurrente. Vous pouvez sélectionner l’option **[!UICONTROL Personnalisé]** et saisir une règle dans le champ de texte Règle pour décrire un intervalle de tâche personnalisé.
 
-Voir [&#x200B; Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
+Voir [ Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
 >[!NOTE]
 >

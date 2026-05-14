@@ -10,10 +10,15 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:38:08.783Z'
+TQID: 'https://experienceleague.adobe.com/Gze3kMTnn5xWFZ4uUW-aNo5VASF2ncV7T1jvcsRadaQ'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 37%
+source-wordcount: 578
+ht-degree: 35%
 
 ---
 
@@ -29,11 +34,11 @@ Voir aussi [Créer un alias pour une image](adjusting-image.md#creating_an_alias
 1. Sélectionnez une taille et un paramètre prédéfini d’image (dans la partie inférieure de la fenêtre).
 1. Utilisez les commandes situées sur le côté droit de la fenêtre de `Adjust Editor` pour ajuster l’image :
 
-   * Utilisez les options de retournement (Retourner) pour faire pivoter une image sur le plan horizontal ou vertical. 
+   * Utilisez les options de retournement (Retourner) pour faire pivoter une image sur le plan horizontal ou vertical.
    * Utilisez le curseur **[!UICONTROL Rotateur]** pour faire pivoter l’image. Vous pouvez saisir des valeurs dans le champ **[!UICONTROL Rotateur]** pour faire pivoter une image. Les valeurs positives appliquent une rotation horaire et les valeurs négatives, une rotation antihoraire.
    * Utilisez le curseur Estomper ou la zone correspondante pour rendre une image floue. Plus la valeur est élevée, plus l’image devient floue.
    * Utilisez les options Contraste, Luminosité, Saturation, Teinte et Equilibre des couleurs pour régler la couleur et la luminosité. Ces effets sont cumulatifs. Par exemple, les modifications apportées aux paramètres Magenta/Vert s’ajoutent aux modifications des paramètres Teinte.
-   * Utilisez les options `Colorize` pour colorer une image tout en conservant les ombres et les tons clairs. Les modifications effectuées à l’aide des options Coloriser sont également cumulatives. Dans le menu Luminosité , choisissez **[!UICONTROL Aucune compensation]** afin de désactiver la compensation automatique de la luminosité. Définissez la valeur de contraste sur 0 pour conserver la plage de contraste de l’image originale, ou spécifiez une plage de contraste avec une valeur supérieure à 0. Une valeur égale à 100 produit le contraste maximum. Les valeurs habituelles sont comprises entre 30 et 70.
+   * Utilisez les options `Colorize` pour colorer une image tout en conservant les ombres et les tons clairs. Les modifications effectuées à l’aide des options Coloriser sont également cumulatives. Dans le menu Luminosité , choisissez **[!UICONTROL Aucune compensation]** afin de désactiver la compensation automatique de la luminosité. Définissez la valeur de contraste sur 0 pour conserver la plage de contraste de l’image originale, ou spécifiez une plage de contraste avec une valeur supérieure à 0. Une valeur égale à 100 produit le contraste maximum. Les valeurs standard sont comprises entre 30 et 70.
 
 1. Une fois le réglage de l’image terminé, procédez de l’une des manières suivantes :
 

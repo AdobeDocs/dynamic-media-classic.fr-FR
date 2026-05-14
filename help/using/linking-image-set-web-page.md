@@ -10,10 +10,15 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:02:41.296Z'
+TQID: 'https://experienceleague.adobe.com/d1hGtQAgf1wwjIAbeRJ-kQW4kfglXNu5VSIGxRTgxnc'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 16%
+source-wordcount: 703
+ht-degree: 18%
 
 ---
 
@@ -29,7 +34,7 @@ Après avoir publié une visionneuse d’images, vous pouvez copier son URL asso
 
 1. Dans le panneau Exploration des ressources, dans la liste déroulante Afficher, sélectionnez **[!UICONTROL Visionneuse d’images]**.
 1. Dans le panneau Bibliothèque de fichiers sur la gauche, accédez au dossier Fichiers qui contient la visionneuse d’images dont vous voulez copier le code incorporé.
-1. Au-dessus du panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
+1. Au-dessus de panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
 
    * Sélectionnez **[!UICONTROL Vue Grille]**. Dans le panneau de navigation des fichiers, cliquez deux fois sur un fichier pour l’ouvrir dans le mode Affichage des détails. Dans le panneau **[!UICONTROL URL et code intégré]** à droite, sélectionnez **[!UICONTROL Copier l’URL]** à droite de la visionneuse souhaitée.
    * Sélectionnez **[!UICONTROL Vue Grille]**. Dans le panneau de navigation des ressources, sélectionnez une seule ressource, puis, sous l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
@@ -46,9 +51,9 @@ Après avoir publié une visionneuse d’images, vous pouvez copier son URL asso
 
 ## Ajout d’URL de visionneuse d’images à une page web {#adding-image-set-urls-to-your-web-page}
 
-La méthode la plus courante pour déployer une visionneuse d’images consiste à placer un lien (au moyen d’une icône de navigation) sur votre page web. Lorsque ce lien est sélectionné, il lance une page dynamique (JSP) qui affiche la visionneuse d’images dans une fenêtre pop-up zoom. Le lien Zoom ouvre une fenêtre pop-up qui contient la fonction de zoom réelle.
+La méthode la plus courante pour déployer une visionneuse d’images consiste à placer un lien (au moyen d’une icône de navigation) sur votre page web. Lorsque ce lien est sélectionné, il lance une page dynamique (JSP) qui affiche la visionneuse d’images dans une fenêtre pop-up zoom. Le lien de zoom affiche une fenêtre contextuelle contenant l’affichage agrandi proprement dit.
 
-Pour plus d’informations et d’exemples de code, consultez la section [Visionneuse zoom HTML5 intégrée](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) du Guide de référence des visionneuses Adobe.
+Pour plus d’informations et d’exemples de code, consultez la section [Visionneuse zoom HTML5 intégrée](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) du Guide de référence des visionneuses Adobe.
 
 ## Copie du code incorporé d’une visionneuse d’images {#copying-the-embed-code-of-an-image-set-viewer}
 

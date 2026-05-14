@@ -10,9 +10,15 @@ role: Admin,User
 exl-id: 95c7d403-7206-4158-b8ad-6091b24b5077
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+autotag-review: '2026-05-13T19:50:36.235Z'
+TQID: 'https://experienceleague.adobe.com/6fNfI7Na3jeDys307id5U9nIt-DeWCmfwtIzsb0G73I'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: 239
 ht-degree: 52%
 
 ---
@@ -23,7 +29,7 @@ Seuls les administrateurs du portail multimédia peuvent administrer et gérer l
 
 Rappelez-vous que vous pouvez activer ou désactiver les utilisateurs existants du portail multimédia dans la page d’administration utilisateur de la configuration de l’administration.
 
-Voir [&#x200B; Activer ou désactiver des utilisateurs](administration-setup.md#activating_or_deactivating_users).
+Voir [ Activer ou désactiver des utilisateurs](administration-setup.md#activating_or_deactivating_users).
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Portail de médias]** > **[!UICONTROL Comptes FTP]**.
 1. Sur la page d’ajout de compte FTP, sélectionnez un utilisateur dans la liste déroulante Nom d’utilisateur des comptes FTP.

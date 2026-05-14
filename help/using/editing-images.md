@@ -10,9 +10,14 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T19:46:38.633Z'
+TQID: 'https://experienceleague.adobe.com/9mKPTkpqt7mAjsAqsACECGo-Wtia-6kPfEXBrndz-zU'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: 318
 ht-degree: 7%
 
 ---
@@ -29,7 +34,7 @@ Adobe Dynamic Media Classic propose de nombreux outils pour créer des effets mu
 
 * **Accentuer une image** : pour rendre les contours d’une image moins flous, sélectionnez la commande Accentuer ou le bouton **[!UICONTROL Accentuer]**. Voir [Accentuer une image](/help/using/sharpening-image.md).
 
-* **Ajuster une image** : sélectionnez la commande `Adjust` ou le bouton **[!UICONTROL Ajuster]** pour inverser, faire pivoter, flouter, colorer ou modifier la balance des couleurs d’une image. Voir [&#x200B; Réglage d’une image &#x200B;](/help/using/adjusting-image.md).
+* **Ajuster une image** : sélectionnez la commande `Adjust` ou le bouton **[!UICONTROL Ajuster]** pour inverser, faire pivoter, flouter, colorer ou modifier la balance des couleurs d’une image. Voir [ Réglage d’une image ](/help/using/adjusting-image.md).
 
 * **Modifier les calques** : pour afficher des calques individuels modifiables dans un fichier PSD, sélectionnez l’onglet **[!UICONTROL Calques]**. Lorsque vous chargez un fichier PSD, tous les calques sont chargés individuellement sous la forme de fichiers séparés afin que vous puissiez les modifier dans Adobe Dynamic Media Classic.
 
