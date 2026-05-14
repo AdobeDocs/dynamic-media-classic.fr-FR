@@ -10,10 +10,20 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:13:09.120Z'
+TQID: 'https://experienceleague.adobe.com/y5rcs4ohA-zMFKKm1EjsSxuUqgqbp-CVMzRcmTaRs6c'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '2207'
-ht-degree: 30%
+source-wordcount: 2315
+ht-degree: 27%
 
 ---
 
@@ -58,7 +68,7 @@ Le tableau suivant présente les options d’accentuation du serveur Image Serv
 | Nom | Protocole d’URL | Valeurs | Exemple |
 | --- | --- | --- | --- |
 | Accentuation simple | `op_sharpen` | `0` ou `1` | `op_sharpen=1` |
-| Mode de ré-échantillonnage | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin` : sélectionne une interpolation bilinéaire standard. Méthode de rééchantillonnage la plus rapide ; certains artefacts d’alias sont souvent perceptibles.<br>`bicub` : sélectionne l&#39;interpolation bi-cubique. Plus gourmand en CPU que `bilin`, mais produit des images plus nettes avec des artefacts d’alias moins visibles.<br><br>`sharp2` : sélectionne une fonction Lanczos Windows® modifiée comme algorithme d&#39;interpolation. Il peut produire des résultats légèrement plus nets que bi-cubique à un coût CPU plus élevé.<br><br>`trilin` : sélectionne une interpolation trilinéaire modifiée, qui utilise des résolutions plus élevées et plus basses, le cas échéant. Méthode recommandée si le crénelage devient problématique. Elle réduit la taille des fichiers JPEG en raison des données à haute fréquence réduites. | `resMode=sharp2` |
+| Mode de ré-échantillonnage | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin` : sélectionne une interpolation bilinéaire standard. Méthode de rééchantillonnage la plus rapide ; certains artefacts d’alias sont souvent perceptibles. <br>`bicub` : sélectionne l’interpolation bi-cubique. Plus gourmand en CPU que `bilin`, mais produit des images plus nettes avec des artefacts d’alias moins visibles.<br><br>`sharp2` : sélectionne une fonction Lanczos Windows® modifiée comme algorithme d’interpolation. Elle peut produire des résultats légèrement plus nets que la bicube pour un coût CPU plus élevé.<br><br>`trilin` : sélectionne une interpolation trilinéaire modifiée, qui utilise des résolutions plus élevées et plus basses, le cas échéant. Méthode recommandée si le crénelage devient problématique. Elle réduit la taille des fichiers JPEG en raison des données à haute fréquence réduites. | `resMode=sharp2` |
 | Masquage flou | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount` : facteur d’intensité du filtre (réel 0...5)<br><br>`radius` : rayon du noyau du filtre en pixels (réel 0...250) <br><br>`threshold` : niveau de seuil du filtre (entier 0...255)<br><br>`monochrome` : défini sur `0` pour appliquer l’accentuation à chaque composante de couleur séparément, défini sur `1` pour appliquer l’accentuation à la luminosité de l’image (intensité) du masque | `op_usm=1,1,10,0` |
 
 Sélectionnez le menu **[!UICONTROL Accentuation]** et choisissez une option :
@@ -71,11 +81,11 @@ Sélectionnez le menu **[!UICONTROL Accentuation]** et choisissez une option :
 
 Choisissez les options suivantes pour affiner l’accentuation avec l’accentuation :
 
-* **Quantité** : contrôle l’intensité du contraste appliqué aux pixels de contour. La valeur par défaut est de 0. Pour des images à haute résolution, vous pouvez l’augmenter jusqu’à 5. Imaginez la quantité comme étant l’unité de mesure de l’intensité du filtre. Le paramètre **[!UICONTROL Montant]** dans Adobe Dynamic Media Classic n’est pas identique au paramètre Montant dans Adobe Photoshop. Adobe Photoshop utilise un montant compris entre 1 % et 500 %, tandis qu’Adobe Dynamic Media Classic peut passer de 0,0 à 5,0. (La valeur 5 est environ équivalente à 500 % dans Photoshop, 0,9 à 90 %, et ainsi de suite.)
+* **Quantité** : contrôle l’intensité du contraste appliqué aux pixels de contour. La valeur par défaut est 0,0. Pour les images à haute résolution, vous pouvez l’augmenter jusqu’à 5.0. Considérez la valeur comme une mesure de l’intensité du filtre. Le paramètre **[!UICONTROL Montant]** dans Adobe Dynamic Media Classic n’est pas identique au paramètre Montant dans Adobe Photoshop. Adobe Photoshop utilise un montant compris entre 1 % et 500 %, tandis qu’Adobe Dynamic Media Classic peut passer de 0,0 à 5,0. (La valeur 5 est environ équivalente à 500 % dans Photoshop, 0,9 à 90 %, et ainsi de suite.)
 
-* **Rayon** : détermine le nombre de pixels entourant les pixels de contour qui affectent l’accentuation. L’effet est exécuté sur tous les pixels de l’image et s’étend dans toutes les directions. 
+* **Rayon** : détermine le nombre de pixels entourant les pixels de contour qui affectent l’accentuation. L’effet est exécuté sur tous les pixels de l’image et s’étend dans toutes les directions.
 
-La valeur appropriée du rayon dépend de la taille de l’image. Une valeur faible n’accentue que les pixels de contour. Une valeur élevée accentue une marge de pixels plus large. 
+La valeur appropriée du rayon dépend de la taille de l’image. Une valeur faible n’accentue que les pixels de contour. Une valeur élevée accentue une marge de pixels plus large.
 
 Par exemple, pour obtenir un effet d’accentuation similaire pour une image de 2 000 × 2 000 pixels et une image de 500 × 500 pixels, vous pouvez définir une valeur de rayon de deux pixels sur l’image de 2 000 × 2 000 pixels. Définissez ensuite une valeur de rayon d’un pixel sur l’image de 500 × 500 pixels (une valeur plus grande pour une image avec plus de pixels).
 
@@ -112,13 +122,13 @@ Les paramètres d’image prédéfinis peuvent être modifiés et mis à jour à
 
 Si vous utilisez un paramètre prédéfini pour chaque image d’une catégorie de taille, tout administrateur d’entreprise peut mettre à jour la définition de ce paramètre d’image prédéfini. Ils peuvent ensuite republier et affecter chaque image utilisant ce format. Le tout sans modifier de code Web. En règle générale, utilisez un paramètre d’image prédéfini par taille unique sur votre site. Pour ajouter un paramètre d’image prédéfini, sur la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres de l’application]** > **[!UICONTROL Paramètres d’image prédéfinis]**. Sélectionnez ensuite **[!UICONTROL Ajouter]** ou sélectionnez **[!UICONTROL Modifier]** pour modifier un paramètre prédéfini existant. Le seul champ obligatoire est le nom du paramètre prédéfini lui-même. Cependant, il est préférable d’inclure un certain niveau d’accentuation dans chaque paramètre prédéfini.
 
-**Qualité JPG**
+**Qualité**
 
 Les options de qualité JPG contrôlent le niveau de compression JPG :
 
 * **Qualité JPG** : sélectionnez cette option si vous souhaitez contrôler les niveaux de compression et le sous-échantillonnage de chrominance.
 
-* **Curseur** : détermine le niveau de compression JPG. Ce paramètre affecte à la fois la taille du fichier et la qualité de l’image. L’échelle de la qualité JPG s’étend de 1 à 100.
+* **Curseur** : détermine le niveau de compression JPG. Ce paramètre affecte à la fois la taille du fichier et la qualité de l’image. L’échelle de qualité de JPG s’étend de 1 à 100.
 
 * **Activer le sous-échantillonnage de la chrominance JPG** : l’œil étant moins sensible aux informations de couleur haute fréquence que la luminance haute fréquence, les images JPEG divisent les informations d’image en composants de luminance et de couleur. Lorsqu’une image JPEG est compressée, la composante de luminance conserve sa pleine résolution, tandis que les composantes de couleur sont sous-échantillonnées par interpolation, c’est-à-dire le calcul de la moyenne de groupes de pixels. Le sous-échantillonnage réduit le volume de données de moitié ou d’un tiers, sans avoir d’incidence sur la qualité perçue. La réduction de résolution ne s’applique pas aux images en niveaux de gris. Cette technique réduit le niveau de compression nécessaire pour les images présentant un contraste élevé (par exemple, les images contenant du texte superposé).
 

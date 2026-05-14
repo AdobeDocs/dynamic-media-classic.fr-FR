@@ -9,9 +9,20 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+autotag-review: '2026-05-13T20:08:29.260Z'
+TQID: 'https://experienceleague.adobe.com/-fupHROLSD2veWgnchj2uhPQCKhLqtMasdqOVUNri6g'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '2383'
+source-wordcount: 2434
 ht-degree: 30%
 
 ---
@@ -53,7 +64,7 @@ Modifiez ces paramètres uniquement avec l’aide d’une personne d’assistanc
   Par exemple, si votre entreprise est une société multinationale qui vend dans différents pays, chaque pays peut avoir sa propre visionneuse correspondant aux paramètres régionaux. Pour accomplir cette fonctionnalité, vous spécifiez une chaîne de carte de paramètres régionaux. Vous modifiez ensuite le texte de l’info-bulle dans le paramètre prédéfini d’une visionneuse. Ajoutez simplement les chaînes de texte traduites pour la langue souhaitée.
 
   >[!NOTE]
-  > Pour configurer les options de prise en charge de la localisation, [utilisez Admin Console pour créer un dossier de support.](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) Dans votre dossier de support, demandez de l&#39;aide pour la configuration.
+  > Pour configurer les options de prise en charge de la localisation, [utilisez Admin Console pour créer un dossier de support](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html). Dans votre dossier de support, demandez de l’aide pour la configuration.
 
   Pour plus d’informations sur la configuration de l’**[!UICONTROL Aide à la localisation]**, voir [Considérations à prendre en compte lors de la configuration de la localisation des fichiers](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -61,7 +72,7 @@ Modifiez ces paramètres uniquement avec l’aide d’une personne d’assistanc
 
 >[!NOTE]
 >
->Si vous souhaitez configurer des options de prise en charge de la localisation dans Adobe Dynamic Media Classic, telles que le champ Carte des paramètres régionaux, [utilisez Admin Console pour créer un dossier de prise en charge.](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) Dans votre dossier de support, demandez de l&#39;aide pour la configuration.
+>Si vous souhaitez configurer des options de prise en charge de la localisation dans Adobe Dynamic Media Classic, telles que le champ Carte des paramètres régionaux, [utilisez Admin Console pour créer un dossier de prise en charge](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html). Dans votre dossier de support, demandez de l’aide pour la configuration.
 
 Une façon courante d’utiliser Adobe Dynamic Media Classic est de gérer les images du produit sur les sites Web e-Commerce. Les sociétés internationales doivent gérer le fait que l’aspect des fichiers pour des produits similaires diffère d’un pays à l’autre. Généralement, les différences concernent quelques parties du média global. Remédier à ces différences en copiant tous les éléments d’actif pour chacun des pays et en ne remplaçant que les différences est un effort énorme qui contredit la métaphore du bien primaire unique. De telles différences de fichiers peuvent impliquer, en raison des vidéos spécifiques aux pays avec différentes pistes audio, des différences importantes bien que très subtiles des câbles d’alimentation utilisés avec le produit. Adobe Dynamic Media Classic utilise un mécanisme de recherche de base. Vous définissez l’ordre des suffixes des fichiers analysés par le serveur d’images, en commençant par les paramètres régionaux requis.
 

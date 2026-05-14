@@ -10,10 +10,20 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
+autotag-review: '2026-05-13T17:39:54.763Z'
+TQID: 'https://experienceleague.adobe.com/eXBA0XV6xC3vgJ7eqqnDwnx0dThxnALmVrOo58jd-wc'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 23%
+source-wordcount: 1643
+ht-degree: 21%
 
 ---
 
@@ -121,7 +131,7 @@ Ce tableau indique les incréments temporels, leurs valeurs autorisées et les c
 | Minutes | 0-59 |  | `,: * /` |
 | Heures | 0-23 | Notez l’utilisation d’une horloge à cycle de 24 heures. | `,: * /` |
 | Jour du mois | 1-31 | Vous ne pouvez pas spécifier de valeur numérique pour « jour du mois » et « jour de la semaine ». L’un de ces champs doit utiliser un caractère générique `?`. | `,: * / ? L C` |
-| Mois | 1-12 ou jan, fév, mar, avr, mai, jun, jul, aoû, sep, oct, nov, déc | Les valeurs respectent la casse. | `,: * /` |
+| Mois | 1er-12 ou janv., fév., mars, avril, mai, juin, juillet, août, sept., sept., oct., novembre, déc. | Les valeurs respectent la casse. | `,: * /` |
 | Jour de la semaine | Lun, Mar, Mer, Jeu, Ven, Sam, Dim | Les valeurs respectent la casse. Vous ne pouvez pas spécifier de valeur numérique pour « jour du mois » et « jour de la semaine ». L’un de ces champs doit utiliser un caractère générique `?`. | `,: * / ? L C #` |
 | Année (facultatif) | Vide ou 1970-2099 |  | `,: * /` |
 

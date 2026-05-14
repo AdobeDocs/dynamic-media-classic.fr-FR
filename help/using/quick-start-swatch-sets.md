@@ -10,10 +10,18 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:10:43.672Z'
+TQID: 'https://experienceleague.adobe.com/vS0okk4Ham0VZzFCWdvOpl48NkeW9Nq5wlH6ZJAWGCM'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 18%
+source-wordcount: 402
+ht-degree: 21%
 
 ---
 
@@ -23,17 +31,17 @@ Les visionneuses d’échantillons Adobe Dynamic Media Classic offrent aux utili
 
 Ce démarrage rapide des ensembles d’échantillons est conçu pour vous permettre de vous familiariser rapidement avec les techniques des ensembles d’échantillons dans Adobe Dynamic Media Classic.
 
-## &#x200B;1. Chargez les images et les fichiers d’échantillon
+## &#x200B;1. Chargement des images et des fichiers d’échantillon
 
 Commencez par télécharger les fichiers d’images et d’échantillons pour les séries d’échantillons.
 
 Sur la barre de navigation générale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger des fichiers depuis votre ordinateur vers un dossier d’Adobe Dynamic Media Classic. Voir [Préparation du chargement de ressources du jeu de modèles](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) et [Chargement des fichiers](uploading-files.md#uploading-your-files).
 
-## &#x200B;2. Création d’un échantillon
+## &#x200B;2. Création de la série d’échantillons
 
 Pour créer un échantillon, sur la barre de navigation générale, accédez à **[!UICONTROL Créer]** > **[!UICONTROL Échantillons]**. Sur la page Jeu d’échantillons, faites glisser les images et les échantillons de couleurs sur la page. Voir [Création d’un échantillon](creating-swatch-set.md#creating-a-swatch-set).
 
-## &#x200B;3. Configuration des paramètres prédéfinis de visionneuse d’échantillon
+## &#x200B;3. Configurer les paramètres prédéfinis de visionneuse d’échantillon
 
 Les administrateurs peuvent créer ou modifier les paramètres prédéfinis de la visionneuse d’images. Adobe Dynamic Media Classic est fourni avec des paramètres prédéfinis de visionneuse par défaut pour chaque type de média enrichi. Utilisez les paramètres prédéfinis Visionneuse de zoom : Personnalisée > Visionneuses d’images / Nuances pour visualiser vos séries d’échantillons.
 

@@ -10,10 +10,22 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+autotag-review: '2026-05-13T20:17:45.884Z'
+TQID: 'https://experienceleague.adobe.com/I9wTnanImSLtXv4Nff2uW92cNkMhoGf5hc8cXsPFNYc'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 27%
+source-wordcount: 1054
+ht-degree: 28%
 
 ---
 
@@ -81,7 +93,7 @@ Dans la liste déroulante **[!UICONTROL Mode automatique/manuel]**, choisissez d
 
 La zone Paramètres de génération répertorie les champs de saisie du plan de site vidéo, du flux RSS ou des deux. Dans le panneau Métadonnées, les noms des champs de métadonnées sont répertoriés. Utilisez la zone Paramètres généraux pour mapper les champs d’entrée aux champs de métadonnées. Ce faisant, vous indiquez à Adobe Dynamic Media Classic où obtenir les métadonnées du plan de site vidéo et/ou du flux mRSS.
 
-1. Dans le menu Vues des métadonnées, choisissez un affichage de métadonnées. Une fois que vous avez choisi une vue, les noms des champs de métadonnées s’affichent dans le panneau Métadonnées.
+1. Dans le menu Vues des métadonnées, choisissez un affichage de métadonnées. Après avoir choisi un affichage, les noms des champs de métadonnées apparaissent dans le panneau Métadonnées.
 Voir [Vues des métadonnées](application-setup.md#metadata_views).
 1. Faites glisser les noms de champ de métadonnées du panneau Métadonnées dans les champs de saisie Page de destination, Titre, Description, Balises et Catégorie. Les champs Page de destination, Titre et Description sont obligatoires.
 

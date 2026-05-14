@@ -10,9 +10,17 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T20:09:40.553Z'
+TQID: 'https://experienceleague.adobe.com/s3cXJgoACODCKQ8oMlykXjLAVmx6yWw9F2EC-3EbR0k'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: 719
 ht-degree: 11%
 
 ---
@@ -30,7 +38,7 @@ Lorsque vous créez une visionneuse d’images, Adobe recommande les bonnes prat
 | Type de limite | Pratique recommandée | Limite imposée |
 | --- | --- | --- |
 | Nombre de ressources en double par visionneuse | Aucun doublon | 20 ‡ |
-| Nombre maximal d’images par visionneuse | 5 à 10 images par ensemble | 1 000 |
+| Nombre maximal d’images par visionneuse | 5 à 10 images par ensemble | 1000 |
 
 ‡ Il est recommandé de ne pas avoir de ressources en double dans un ensemble. La limite est de 20 doublons pour une seule ressource. Si vous ajoutez un autre doublon pour cette ressource (dans ce jeu), la requête soit génère une erreur, soit ignore le doublon.
 
@@ -82,7 +90,7 @@ Sélectionnez l’icône **[!UICONTROL Marquer pour publication]** à gauche de 
 
 Voir [Publication de fichiers](publishing-files.md#publishing-files).
 
-## &#x200B;6. Liaison d’une visionneuse d’images à votre site web
+## &#x200B;6. Liaison d’une visionneuse d’images à un site web
 
 Adobe Dynamic Media Classic crée des appels URL pour les visionneuses d’images et les active après leur publication. Vous pouvez copier ces chaînes URL depuis l’écran de prévisualisation.
 

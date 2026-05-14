@@ -10,10 +10,18 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+autotag-review: '2026-05-13T20:10:24.352Z'
+TQID: 'https://experienceleague.adobe.com/23AoGDGEDm6MKPXwRk5Orvi445FdE3BpcTaSY21YSUE'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 16%
+source-wordcount: 698
+ht-degree: 17%
 
 ---
 
@@ -39,7 +47,7 @@ Vous pouvez ajouter des images, des visionneuses d’images, des visionneuses d�
 
 Voir [Création d’une visionneuse d’images](creating-image-set.md#creating-an-image-set), [Création d’une visionneuse d’échantillons](creating-swatch-set.md#creating-a-swatch-set) et [Création d’une visionneuse à 360°](creating-spin-set.md#creating-a-spin-set).
 
-## &#x200B;3. Création d’une visionneuse de médias mixtes
+## &#x200B;3. Création d’une visionneuse de supports variés
 
 Sur la barre de navigation générale, accédez à **[!UICONTROL Créer]** > **[!UICONTROL Visionneuses de médias mixtes]**. Faites glisser les images, les visionneuses d’échantillons, les visionneuses d’images et les vidéos vers la page Visionneuse de médias mixtes. Pour ajouter une bande sonore, faites glisser un fichier audio sur la zone Bande sonore.
 

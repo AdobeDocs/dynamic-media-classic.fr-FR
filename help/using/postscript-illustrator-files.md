@@ -10,18 +10,27 @@ role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+autotag-review: '2026-05-13T19:53:31.495Z'
+TQID: 'https://experienceleague.adobe.com/8MUaG0abV4i3H5SIIu5oEL-Q1QGZorV2CORIzkAw0Jo'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: 216
 ht-degree: 36%
 
 ---
 
 # Utiliser des fichiers PostScript et Illustrator{#working-with-postscript-and-illustrator-files}
 
-Vous pouvez utiliser les fichiers Adobe PostScript® (EPS) et Adobe® Illustrator® (AI) dans Adobe Dynamic Media Classic. Adobe Dynamic Media Classic propose des commandes pour configurer ces fichiers au fur et à mesure de leur chargement.
+Vous pouvez utiliser les fichiers ® (EPS) et Adobe® Illustrator® (AI) dans Adobe Dynamic Media Classic. Adobe Dynamic Media Classic propose des commandes pour configurer ces fichiers au fur et à mesure de leur chargement.
 
-Lorsque vous téléchargez des fichiers d’image PostScript (EPS) ou Illustrator (AI), vous pouvez les formater différemment. Vous pouvez pixelliser les fichiers, les convertir au format FXG pour le module de publication à l’aide de modèles prédéfinis, conserver l’arrière-plan transparent, choisir une résolution et sélectionner un espace colorimétrique. Les options de formatage des fichiers PostScript et Illustrator sont disponibles dans les sections Options PostScript et Options Illustrator de la boîte de dialogue Télécharger les options de la tâche. 
+Lorsque vous téléchargez des fichiers d’image PostScript (EPS) ou Illustrator (AI), vous pouvez les formater différemment. Vous pouvez pixelliser les fichiers, les convertir au format FXG pour le module de publication à l’aide de modèles prédéfinis, conserver l’arrière-plan transparent, choisir une résolution et sélectionner un espace colorimétrique. Les options de formatage des fichiers PostScript et Illustrator sont disponibles dans les sections Options PostScript et Options Illustrator de la boîte de dialogue Télécharger les options de la tâche.
 
 * **[!UICONTROL Traitement]** : sélectionnez **[!UICONTROL Pixelliser]** pour convertir les graphiques vectoriels du fichier au format bitmap.
 

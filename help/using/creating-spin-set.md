@@ -10,10 +10,18 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:44:09.641Z'
+TQID: 'https://experienceleague.adobe.com/6kiNojlrrS6EiS-7Mp5SvtSMag1k4Hu0EwOr4BmyJfY'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 32%
+source-wordcount: 976
+ht-degree: 33%
 
 ---
 
@@ -30,7 +38,7 @@ Pour créer une visionneuse panoramique efficace, assurez-vous que les clichés 
 En règle générale, plus il y a d’images dans une visionneuse à 360°, meilleur est l’effet de rotation des images. Cependant, un nombre élevé d’images dans la visionneuse augmente la durée de chargement des images. Adobe Dynamic Media Classic recommande de suivre les instructions suivantes pour les prises de vue à utiliser dans les visionneuses à 360° :
 
 * Utilisez au minimum 8 à 12 images dans une visionneuse à 360° unidimensionnelle et 16 à 24 images dans une visionneuse à 360° bidimensionnelle.
-* Utilisez un format d’image sans perte (formats TIFF et PNG recommandés). 
+* Utilisez un format d’image sans perte (formats TIFF et PNG recommandés).
 * Masquez toutes les images pour faire apparaître l’objet sur un fond blanc ou fortement contrasté. Ajoutez éventuellement des ombres.
 * Assurez-vous que les détails du produit sont bien éclairés et que leur mise au point est nette.
 * Prenez des clichés de vêtements de prêt-à-porter avec un mannequin ou un modèle. Souvent, le mannequin est masqué (en utilisant un mannequin transparent) ou un mannequin stylisé est présenté dans l’image. Vous pouvez créer une visionneuse à 360° sur modèle en définissant le nombre d’angles. Marquez chaque angle avec du ruban adhésif sur le sol afin de guider le modèle à regarder dans la direction de chaque prise de vue.
@@ -52,7 +60,7 @@ Lorsque vous créez une visionneuse à 360°, Adobe recommande les bonnes pratiq
 
 | Type de limite de visionneuse à 360° | Pratique recommandée | Limite imposée |
 | --- | --- | --- |
-| Nombre maximal de lignes/colonnes par ensemble 2D | 12 à 18 images par ensemble | 1 000 |
+| Nombre maximal de lignes/colonnes par ensemble 2D | 12 à 18 images par ensemble | 1000 |
 
 Voir aussi [Limites de Dynamic Media](/help/using/limitations.md).
 
@@ -81,7 +89,7 @@ Que vous modifiiez une visionneuse publiée ou une visionneuse dépubliée, l’
 | Visionneuse déjà publiée ? | L’option **[!UICONTROL Publier après un enregistrement]** est-elle sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- | --- |
 | Oui | Oui | Publié | Publié |
-| Oui | Non | Publié | Les membres d’ensemble existants conservent leur statut publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
+| Oui | Non | Publié | Les membres de visionneuse existants conservent leur état publié. Tout nouveau membre de visionneuse que vous ajoutez lors de votre modification conserve son état publié ou non publié. |
 | Non | Oui | Publié | Publié |
 | Non | Non | Non publié | Les membres de la visionneuse existants, ainsi que tout nouveau membre de la visionneuse que vous ajoutez lors de votre modification conservent leur état publié ou non publié. |
 

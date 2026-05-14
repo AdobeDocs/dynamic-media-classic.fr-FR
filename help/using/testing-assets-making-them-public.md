@@ -10,9 +10,19 @@ role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
+autotag-review: '2026-05-13T20:14:28.361Z'
+TQID: 'https://experienceleague.adobe.com/cu99kXj4FjNzR74kGCoACFPst0snM2EGyYifu7a8Drs'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: 1070
 ht-degree: 21%
 
 ---
@@ -37,7 +47,7 @@ Si vous le souhaitez, vous pouvez créer un environnement d’évaluation plutô
 
 La plupart des entreprises gèrent leur Internet derrière un pare-feu. L’accès à Internet est possible via certaines routes et généralement via une plage limitée d’adresses IP publiques.
 
-À partir du réseau de votre entreprise, vous pouvez déterminer votre adresse IP publique à l’aide de sites web tels que [https://www.whatismyip.com](https://www.whatismyip.com/) ou demander ces informations à votre service informatique d’entreprise.
+À partir du réseau de votre entreprise, vous pouvez déterminer votre adresse IP publique à l’aide de sites web tels que [&#128279;](https://www.whatismyip.com/) ou demander ces informations à votre service informatique d’entreprise.
 
 Grâce à Secure Testing, Adobe Dynamic Media Classic établit un serveur d’images dédié pour les environnements d’évaluation ou les applications internes. Toute requête sur ce serveur vérifie l’adresse IP d’origine. Si la requête entrante n’est pas incluse dans la liste approuvée des adresses IP, une réponse d’échec est renvoyée. L’administrateur d’entreprise d’Adobe Dynamic Media Classic configure la liste approuvée des adresses IP pour l’environnement Secure Testing de l’entreprise.
 

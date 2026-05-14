@@ -10,10 +10,20 @@ role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+autotag-review: '2026-05-13T19:59:54.410Z'
+TQID: 'https://experienceleague.adobe.com/C0REr3rutR9-FalFXHHeGVtYJGEeODYtTnAfWk-S0-M'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 28%
+source-wordcount: 1212
+ht-degree: 26%
 
 ---
 
@@ -77,9 +87,9 @@ Sous le masquage flou, définissez les options de votre choix. Les options défi
 | Options de masquage flou | Description |
 | --- | --- |
 | Quantité | L’option Quantité contrôle l’intensité du contraste appliqué aux pixels de contour.<br><br>Considérez cela comme l’intensité de l’effet. Il existe une différence entre les valeurs de quantité de l’accentuation dans Dynamic Media Classic et dans Adobe Photoshop. La principale différence réside dans le fait que Photoshop a une plage de montants comprise entre 1 % et 500 %. En revanche, dans Adobe Dynamic Media Classic, la plage de valeurs est comprise entre 0,0 et 5,0. Une valeur de 5,0 dans Adobe Dynamic Media Classic équivaut approximativement à 500 % dans Photoshop ; une valeur de 0,9 équivaut à 90 %, etc. |
-| Rayon | Contrôle le rayon de l’effet. <br><br>La plage de valeurs est comprise entre 0 et 250. L’effet est exécuté sur tous les pixels d’une image et s’étend de tous les pixels dans toutes les directions. Le rayon est mesuré en pixels. Par exemple, pour obtenir un effet d’accentuation similaire pour une image de 2 000 × 2 000 pixels et une image de 500 × 500 pixels, définissez un rayon de deux pixels sur l’image de 2 000 × 2 000 pixels. Définissez ensuite une valeur de rayon d’un pixel sur l’image de 500 × 500 pixels. Utilisez une valeur plus élevée pour une image avec plus de pixels.  |
-| Seuil | Le seuil est une plage de contraste qui est ignorée lorsque le filtre de masquage flou est appliqué. Cet effet est important pour qu’aucun « bruit » ne soit introduit dans une image lorsque ce filtre est utilisé. La plage de valeurs est comprise entre 0 et 255, qui est le nombre de degrés de luminosité dans une image en niveaux de gris. 0 = noir, 128 = 50 % gris et 255 = blanc. <br><br>Par exemple, une valeur seuil de 12 ignore les légères variations de luminosité de la peau, afin de ne pas ajouter de bruit, mais ajoute un contraste sur les bords dans les zones contrastées, comme la zone où les cils rencontrent la peau.<br><br>Par exemple, si vous disposez d’une photo du visage d’une personne, l’accentuation affecte les parties contrastées de l’image. Par exemple, où les cils et la peau se rencontrent pour créer une zone de contraste évidente, et la peau lisse elle-même. Même la peau la plus lisse affiche des variations subtiles de ses valeurs de luminosité. Si vous n’utilisez aucune valeur de seuil, le filtre accentue ces changements subtils dans les pixels de la peau. Un effet de bruit indésirable est alors créé lorsque le contraste sur les cils est augmenté, ce qui améliore la netteté.<br><br>Pour éviter ce problème, utilisez une valeur de seuil qui indique au filtre d’ignorer les pixels qui ne modifient pas considérablement le contraste, comme la peau lisse. <br><br>Dans l’image de fermeture éclair présentée précédemment, remarquez la texture en regard des fermetures. Le bruit d’une image est exposé, car les valeurs de seuil sont trop faibles pour supprimer le bruit. |
-| Monochrome | Choisissez cette option pour appliquer le masquage flou sur la luminosité de l’image (intensité).<br><br>Désélectionnez-la pour appliquer l’accentuation sur chaque composante de couleur séparément. |
+| Rayon | Contrôle le rayon de l’effet. <br><br>La plage de valeurs est comprise entre 0 et 250. L’effet est exécuté sur tous les pixels d’une image et s’étend de tous les pixels dans toutes les directions. Le rayon est mesuré en pixels. Par exemple, pour obtenir un effet d’accentuation similaire pour une image de 2 000 × 2 000 pixels et une image de 500 × 500 pixels, définissez un rayon de deux pixels sur l’image de 2 000 × 2 000 pixels. Définissez ensuite une valeur de rayon d’un pixel sur l’image de 500 × 500 pixels. Utilisez une valeur plus élevée pour une image avec plus de pixels. |
+| Seuil | Le seuil est une plage de contraste qui est ignorée lorsque le filtre de masquage flou est appliqué. Cet effet est important pour qu’aucun « bruit » ne soit introduit dans une image lorsque ce filtre est utilisé. La plage de valeurs est comprise entre 0 et 255, qui est le nombre de degrés de luminosité dans une image en niveaux de gris. 0 = noir, 128 = 50 % gris et 255 = blanc.<br><br>Par exemple, une valeur seuil de 12 ignore les légères variations de luminosité de la peau pour éviter d’ajouter du bruit, mais ajoute un contraste sur les bords dans les zones contrastées, comme l’endroit où les cils rencontrent la peau.<br><br>Par exemple, si vous disposez d’une photo du visage d’une personne, l’accentuation affecte les parties contrastées de l’image. Par exemple, où les cils et la peau se rencontrent pour créer une zone de contraste évidente, et la peau lisse elle-même. Même la peau la plus lisse affiche des variations subtiles de ses valeurs de luminosité. Si vous n’utilisez aucune valeur de seuil, le filtre accentue ces changements subtils dans les pixels de la peau. Un effet de bruit indésirable est alors créé lorsque le contraste sur les cils est augmenté, ce qui améliore la netteté.<br><br>Pour éviter ce problème, utilisez une valeur de seuil qui indique au filtre d’ignorer les pixels qui ne modifient pas considérablement le contraste, comme la peau lisse. <br><br>Dans l’image de fermeture éclair présentée précédemment, remarquez la texture en regard des fermetures. Le bruit d’une image est exposé, car les valeurs de seuil sont trop faibles pour supprimer le bruit. |
+| Monochrome | Sélectionnez cette option pour appliquer l’accentuation à la luminosité de l’image (intensité).<br><br>Désélectionnez-la pour appliquer l’accentuation à chaque composante de couleur séparément. |
 
 Voir aussi [Accentuer une image](sharpening-image.md#sharpening_an_image).
 
@@ -93,7 +103,7 @@ Utilisez l’arrière-plan du K.O. pour supprimer automatiquement l’arrière-p
 | --- | --- |
 | Masquer l’arrière-plan | Sélectionnez cette option pour activer la fonction et les options d&#39;arrière-plan de masquage. |
 | Coin | Obligatoire.<br>Coin de l’image utilisé pour définir la couleur d’arrière-plan à masquer.<br>Vous pouvez choisir parmi <b>Haut à gauche, Bas à gauche, Haut à droite ou Bas à droite</b>. |
-| Méthode de remplissage | Obligatoire. <br>Contrôle la transparence en pixels à partir de l’emplacement d’angle que vous avez défini.<br>Vous pouvez choisir l’une des méthodes de remplissage suivantes :<br>· <b>Remplissage avec inondation</b> : rend transparents tous les pixels qui correspondent au coin que vous avez spécifié et auquel ils sont connectés.<br>· <b>Pixel de correspondance</b> : rend transparents tous les pixels correspondants, quel que soit leur emplacement sur l’image. |
+| Méthode de remplissage | Obligatoire. <br>Contrôle la transparence en pixels à partir de l’emplacement d’angle que vous avez défini.<br>Vous pouvez choisir l’une des méthodes de remplissage suivantes :<br>· <b>Remplissage avec inondation</b> : rend transparents tous les pixels qui correspondent au coin que vous avez spécifié et auquel vous êtes connecté.<br>· <b>Pixel de correspondance</b> : rend transparents tous les pixels correspondants, quel que soit leur emplacement sur l’image. |
 | Tolérance | Facultatif.<br>Contrôle la variation autorisée de la correspondance des couleurs en pixels en fonction de l’emplacement du coin que vous avez défini.<br>Utilisez une valeur de 0,0 pour faire correspondre exactement les couleurs en pixels. Ou utilisez une valeur de 1,0 pour permettre la plus grande variation. |
 
 >[!MORELIKETHIS]

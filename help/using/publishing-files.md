@@ -10,9 +10,17 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:08:38.271Z'
+TQID: 'https://experienceleague.adobe.com/-eX-BNe5fu-v-hnD9F2qkBkpPZYx3TAvN4Lisgz3mHk'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: 1696
 ht-degree: 21%
 
 ---
@@ -58,7 +66,7 @@ Créez une tâche de publication pour publier les ressources que vous avez charg
    Voir [Création d’une tâche de publication unique](publishing-files.md#creating_a_one_time_publish_job) et [Création d’une tâche de publication récurrente](publishing-files.md#creating_a_recurring_publish_job).
 
 1. Entrez un nom de tâche.
-1. (Facultatif) Affichez les options avancées, puis choisissez parmi elles 
+1. (Facultatif) Affichez les options avancées, puis choisissez parmi elles
 
    (voir [Options de publication avancées](publishing-files.md#advanced_publish_options)).
 
@@ -68,7 +76,7 @@ Adobe Dynamic Media Classic effectue le suivi des tâches de publication sur la 
 
 >[!NOTE]
 >
->Les Assets que vous avez republiées (vous les avez déjà publiées) n’apparaissent pas immédiatement sur votre site web en raison du mécanisme de mise en cache web sur le réseau de diffusion de contenu (CDN). (voir [Fichiers republiés et délais CDN](publishing-files.md#republished_assets_and_cdn_delays)).
+>Les Assets que vous avez republiées (vous les avez déjà publiées) n’apparaissent pas immédiatement sur votre site web en raison du mécanisme de mise en cache web sur le réseau de diffusion de contenu (CDN). Voir [Fichiers republiés et délais CDN](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Création d’une tâche de publication unique {#creating-a-one-time-publish-job}
 

@@ -10,16 +10,25 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T19:55:49.663Z'
+TQID: 'https://experienceleague.adobe.com/EFy8tVdGv5q5mmQQS-m0Mb8AuphJHEDHzspsPWNxMlI'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: 1572
 ht-degree: 25%
 
 ---
 
 # Démarrage rapide : catalogues électroniques{#quick-start-ecatalogs}
 
-Un catalogue électronique est une version numérique et web de documents imprimés, tels qu’un catalogue, une brochure, un prospectus, un manuel produit ou une circulaire publicitaire. Un catalogue électronique s’affiche dans une visionneuse de catalogue électronique sur un site Web. Cette visionneuse simule l’expérience de lecture de documents imprimés.
+Un catalogue électronique est une version numérique et web de documents imprimés, tels qu’un catalogue, une brochure, un prospectus, un manuel produit ou une circulaire publicitaire. Un catalogue électronique s’affiche dans une visionneuse de catalogue électronique sur un site Web. Cette visionneuse simule le processus de lecture de documents imprimés.
 
 Consultez également les vidéos de formation suivantes :
 
@@ -58,7 +67,7 @@ Lorsque vous créez un catalogue électronique, vous agencez les pages ou les pl
 
 Cette section de démarrage rapide est conçue pour vous aider à maîtriser rapidement les opérations liées aux catalogues électroniques. Suivez les étapes 1 à 7. Après chaque étape, il existe une référence croisée à un en-tête de rubrique dans laquelle vous pouvez trouver plus d’informations.
 
-## &#x200B;1. Chargez les fichiers PDF
+## &#x200B;1. Chargement des fichiers PDF
 
 En règle générale, un catalogue électronique est créé à partir de fichiers Adobe PDF. Les fichiers PDF étant destinés à l’impression, ils contiennent le plus souvent des images CMJN. Adobe Dynamic Media Classic détecte ces images et les convertit à l’aide d’un profil colorimétrique CMJN standard. Cependant, vous devez charger et utiliser un profil de couleurs personnalisé.
 
@@ -68,7 +77,7 @@ La section Options PDF de l’écran de téléchargement contient des options q
 
 Voir [Charger les fichiers PDF](uploading-pdf-files.md#uploading_the_pdf_files).
 
-## &#x200B;2. Créer un catalogue électronique
+## &#x200B;2. Création d’un catalogue électronique
 
 Créez votre catalogue électronique en sélectionnant des fichiers PDF ou image dans le panneau de navigation. Sélectionnez **[!UICONTROL Créer]**, puis choisissez **[!UICONTROL Catalogues électroniques]**.
 
@@ -114,7 +123,7 @@ Observez l’orientation des pages, la palette de couleurs, l’aspect des comma
 
 Voir [Aperçu des catalogues électroniques dans la visionneuse de catalogue électronique](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
 
-## &#x200B;6. Publier le catalogue électronique et les fichiers PDF associés
+## &#x200B;6. Publication du catalogue électronique et des fichiers PDF associés
 
 La publication de votre catalogue électronique et des PDF associées le place sur les serveurs d’images Dynamic Media afin qu’il puisse être diffusé sur votre site Web et votre application. Dans le cadre du processus de publication, Adobe Dynamic Media Classic active la chaîne d’URL de votre catalogue électronique. Utilisez cette URL pour appeler le catalogue électronique depuis les serveurs d’images Dynamic Media vers votre site web ou votre application.
 
@@ -122,7 +131,7 @@ Après avoir marqué votre catalogue électronique et votre PDF pour publication
 
 Voir [&#x200B; Publication de catalogues électroniques et de fichiers PDF associés](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
-## &#x200B;7. Lier un catalogue électronique à une page Web
+## &#x200B;7. Liaison d’un catalogue électronique à une page web
 
 Adobe Dynamic Media Classic active la chaîne de légende d’URL nécessaire pour afficher votre catalogue électronique lorsque vous le publiez sur les serveurs d’images Dynamic Media. Vous pouvez copier cette chaîne d’URL à partir de l’écran de prévisualisation et du panneau de navigation (dans la vue détaillée) en sélectionnant les URL dans le panneau. Une fois la chaîne d’URL copiée, elle est disponible pour vos sites web et applications.
 

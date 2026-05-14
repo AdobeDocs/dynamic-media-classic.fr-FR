@@ -10,10 +10,20 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:11:06.721Z'
+TQID: 'https://experienceleague.adobe.com/lB0O224FfzW1smqCgkraE9czEF4XSD98qarRus6GEFw'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 22%
+source-wordcount: 1748
+ht-degree: 19%
 
 ---
 
@@ -33,7 +43,7 @@ La logique appliquée par un lecteur vidéo pour déterminer quelles sont les vi
    1. Le lecteur sélectionne la bande passante la plus élevée inférieure ou égale à la bande passante estimée.
    1. Le lecteur ne prend en compte que 80 % de la bande passante disponible. Cependant, si elle change, elle est plus prudente à seulement 70 % pour éviter la surestimation et revenir immédiatement en arrière.
 
-Consultez la logique de l’algorithme à l’adresse [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) pour obtenir des informations techniques à son sujet.
+Consultez la logique de l’algorithme à l’adresse [&#128279;](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) pour obtenir des informations techniques à son sujet.
 
 Pour la gestion des vidéos uniques et des visionneuses de vidéos adaptatives, Adobe Dynamic Media Classic prend en charge les éléments suivants :
 
@@ -60,7 +70,7 @@ Lorsqu’une visionneuse de vidéos adaptative est générée, elle inclut des v
 
   La diffusion en continu de vidéo adaptative est prise en charge sur diverses plateformes iOS.
 
-  Consultez la dernière prise en charge dans le [Guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources).
+  Consultez la dernière prise en charge dans le [Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic prend en charge la lecture vidéo pour mobiles au format vidéo MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -91,7 +101,7 @@ Regardez les vidéos de formation suivantes :
 
 Le processus détaillé décrit ci-après vise à vous aider à maîtriser rapidement les opérations liées aux visionneuses de vidéos adaptatives dans Adobe Dynamic Media Classic. Après chaque étape, il existe une référence croisée à un en-tête de rubrique dans laquelle vous pouvez trouver plus d’informations.
 
-## &#x200B;1. Charger et coder des vidéos
+## &#x200B;1. Chargement et codage de vidéos
 
 Téléchargez et générez des visionneuses de vidéos adaptatives en suivant l’un des deux scénarios ci-après :
 
