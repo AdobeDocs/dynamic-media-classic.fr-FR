@@ -12,9 +12,12 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:09:40.553Z'
 TQID: 'https://experienceleague.adobe.com/s3cXJgoACODCKQ8oMlykXjLAVmx6yWw9F2EC-3EbR0k'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 719
@@ -49,7 +52,7 @@ Commencez par télécharger les images pour les visionneuses d’images. Comme l
 
 Sur la barre de navigation générale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger des fichiers depuis votre ordinateur vers un dossier d’Adobe Dynamic Media Classic.
 
-Voir [ Préparation du chargement de ressources de visionneuse d’images](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) et [ Chargement des fichiers](uploading-files.md#uploading-your-files).
+Voir [&#x200B; Préparation du chargement de ressources de visionneuse d’images](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) et [&#x200B; Chargement des fichiers](uploading-files.md#uploading-your-files).
 
 ## &#x200B;2. Création d’une visionneuse d’images
 

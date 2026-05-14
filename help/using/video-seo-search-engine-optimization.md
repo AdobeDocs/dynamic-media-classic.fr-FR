@@ -12,10 +12,16 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:17:45.884Z'
 TQID: 'https://experienceleague.adobe.com/I9wTnanImSLtXv4Nff2uW92cNkMhoGf5hc8cXsPFNYc'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 1054
@@ -29,7 +35,7 @@ L’optimisation du référencement de la vidéo consiste à améliorer le volum
 
 Grâce à l’optimisation du référencement vidéo d’Adobe Dynamic Media Classic, vous pouvez appliquer des métadonnées vidéo pour fournir aux moteurs de recherche des descriptions de vos vidéos. Adobe Dynamic Media Classic vous permet de créer des plans de site vidéo et des flux mRSS. Ces fichiers XML standard sont utilisés pour envoyer des informations vidéo aux moteurs de recherche :
 
-* **Plan de site vidéo** : indique à Google où et quel est le contenu vidéo sur un site. Ainsi, les vidéos sont entièrement consultables sur Google. Par exemple, un plan de site vidéo peut préciser le temps d’exécution et la catégorie. Pour plus d’informations sur les plans de site vidéo, voir [ Plans de site vidéo et alternatives aux plans de site vidéo ](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1).
+* **Plan de site vidéo** : indique à Google où et quel est le contenu vidéo sur un site. Ainsi, les vidéos sont entièrement consultables sur Google. Par exemple, un plan de site vidéo peut préciser le temps d’exécution et la catégorie. Pour plus d’informations sur les plans de site vidéo, voir [&#x200B; Plans de site vidéo et alternatives aux plans de site vidéo &#x200B;](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1).
 
 * Flux **mRSS (Media Really Simple Syndication)** : utilisé par les éditeurs de contenu pour alimenter Yahoo en fichiers multimédias ! Video Search. Pour plus d’informations sur les flux RSS, voir [Plans de site vidéo et alternatives aux plans de site vidéo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1).
 

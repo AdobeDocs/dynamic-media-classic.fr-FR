@@ -11,10 +11,18 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T20:06:03.775Z'
 TQID: 'https://experienceleague.adobe.com/drvyHmeIdmW-jUGd6-Ugc0C8CoveFURR4ozcr1cB-rc'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 1098
@@ -24,7 +32,7 @@ ht-degree: 0%
 
 # Application de bureau Adobe Dynamic Media Classic : désormais disponible {#new-ui-2020}
 
-Affichez l’application de bureau [](/help/using/dynamic-media-classic-desktop-app.md) pour consulter la configuration requise, télécharger et installer la nouvelle application, puis connectez-vous.
+Affichez l’application de bureau [&#128279;](/help/using/dynamic-media-classic-desktop-app.md) pour consulter la configuration requise, télécharger et installer la nouvelle application, puis connectez-vous.
 
 ## _Dernière révision : 30 juin 2020_
 
@@ -39,7 +47,7 @@ Adobe Flash Player était un plug-in de navigateur Web qui permettait aux naviga
 +++**_Comment puis-je accéder à la nouvelle appli de bureau ?_**
 La nouvelle application de bureau est disponible sous la forme d’un programme d’installation `.dmg` pour macOS ou d’un programme d’installation `.exe` pour Windows®.
 
-Affichez l’application de bureau [](/help/using/dynamic-media-classic-desktop-app.md) pour consulter la configuration requise, télécharger et installer la nouvelle application, puis connectez-vous.
+Affichez l’application de bureau [&#128279;](/help/using/dynamic-media-classic-desktop-app.md) pour consulter la configuration requise, télécharger et installer la nouvelle application, puis connectez-vous.
 +++
 
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
@@ -101,7 +109,7 @@ Contactez l’assistance Adobe pour tout problème rencontré lors de l’utilis
 Adobe Dynamic Media Classic est une solution puissante et riche en fonctionnalités conçue pour améliorer vos stratégies de médias riches. Pour vous assurer de tirer parti de toutes les fonctionnalités de , veillez à explorer ces ressources pratiques :
 
 * [Tutoriel sur les bonnes pratiques d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
-* [Publications du blog ](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
+* [Publications du blog &#x200B;](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
 * [Archives de la newsletter Adobe Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 

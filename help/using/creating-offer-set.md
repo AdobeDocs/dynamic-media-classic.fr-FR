@@ -12,9 +12,15 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T17:42:42.464Z'
 TQID: 'https://experienceleague.adobe.com/vSBuzOB0sC5y6Kgl0ZadvJXsKRTiEMBzq0Tgu692AYY'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 1292
@@ -81,7 +87,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Lorsque vous avez terminé, en bas à droite de la page, assurez-vous que l’option **[!UICONTROL Publier après un enregistrement*]** est sélectionnée (par défaut).
 1. Sélectionnez **[!UICONTROL Fermer]**, saisissez un nom pour le jeu d&#39;offres, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [ Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [&#x200B; Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Création d’un ensemble d’offres avec des images ou des vidéos {#creating-an-offer-set-with-images-or-videos}
 
@@ -112,7 +118,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Une fois que vous avez terminé de créer des offres pour le jeu d’offres et de choisir des paramètres d’image prédéfinis pour différentes images, assurez-vous que l’option **[!UICONTROL Publier après un enregistrement]** est sélectionnée (par défaut).
 1. Sélectionnez **[!UICONTROL Enregistrer]** saisissez un nom pour le jeu d&#39;offres, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [ Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [&#x200B; Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Modification d’un ensemble d’offres {#editing-an-offer-set}
 

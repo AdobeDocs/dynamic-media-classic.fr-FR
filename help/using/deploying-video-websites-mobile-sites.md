@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:45:00.273Z'
 TQID: 'https://experienceleague.adobe.com/lVQWshcgF66zFJ9pTVdrMaGNowclV5u6nxzqOSetns0'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 1735
@@ -192,7 +195,7 @@ Vous pouvez appliquer des modificateurs d’image au cadre d’affiche. Vous pou
 
 Voir [Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Voir [ Guide du service d’images](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+Voir [&#x200B; Guide du service d’images](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 Vous pouvez également modifier des miniatures vidéo en ajoutant des modificateurs aux URL de miniature vidéo.
 

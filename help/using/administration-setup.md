@@ -11,10 +11,14 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:38:22.364Z'
 TQID: 'https://experienceleague.adobe.com/UbxE4vDKYB-6CsdV2d4lX2WeOMYPe9caewOQD-MBark'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 2004
@@ -58,7 +62,7 @@ Une fois que vous avez ajouté un utilisateur, Adobe Dynamic Media Classic lui e
 
 1. Pour attribuer un rôle à l’utilisateur, choisissez une option de rôle.
 
-   Voir [Rôles et privilèges d’utilisateur ](administration-setup.md#user_administration).
+   Voir [Rôles et privilèges d’utilisateur &#x200B;](administration-setup.md#user_administration).
 
 1. Pour ajouter un utilisateur à une société, sélectionnez un nom de société.
 1. Si vous souhaitez ajouter l’utilisateur à un groupe (si vous ajoutez un utilisateur ou un contributeur du portail multimédia), sélectionnez **[!UICONTROL Suivant]** et ajoutez l’utilisateur.

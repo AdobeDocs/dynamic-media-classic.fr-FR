@@ -12,10 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:10:57.394Z'
 TQID: 'https://experienceleague.adobe.com/2DaWdJsCz9f5iXEkMi6N1L7s3eFdvpBc1ECrgbVAueo'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 853
@@ -47,7 +51,7 @@ Sur la barre de navigation générale, sélectionnez **[!UICONTROL Télécharger
 
 ## &#x200B;2. Création d’un modèle
 
-Pour créer un modèle à partir d’un fichier PSD, sélectionnez **[!UICONTROL Créer un modèle]** lorsque vous chargez le fichier. Pour créer un modèle à partir d’images, sur la barre de navigation globale, accédez à **[!UICONTROL Créer]** > **[!UICONTROL Principes de base des modèles]**, puis saisissez une mesure de largeur et de hauteur pour la zone de travail. Dans le coin supérieur droit de la page, sélectionnez **** ou **[!UICONTROL Développeur]**, puis faites glisser les images sur la page Modèle. Vous pouvez également sélectionner les images *avant* vous accédez à **[!UICONTROL Créer]** > **[!UICONTROL Principes de base des modèles]**. La page Modèle propose des outils pour :
+Pour créer un modèle à partir d’un fichier PSD, sélectionnez **[!UICONTROL Créer un modèle]** lorsque vous chargez le fichier. Pour créer un modèle à partir d’images, sur la barre de navigation globale, accédez à **[!UICONTROL Créer]** > **[!UICONTROL Principes de base des modèles]**, puis saisissez une mesure de largeur et de hauteur pour la zone de travail. Dans le coin supérieur droit de la page, sélectionnez **&#x200B;**&#x200B;ou **[!UICONTROL Développeur]**, puis faites glisser les images sur la page Modèle. Vous pouvez également sélectionner les images *avant* vous accédez à **[!UICONTROL Créer]** > **[!UICONTROL Principes de base des modèles]**. La page Modèle propose des outils pour :
 
 * Ajout de calques d’images Pour ajouter un calque, faites glisser une image dans la page Modèle.
 * Ajout de calques de texte Sélectionnez l’icône **[!UICONTROL Outil Texte]**. Faites glisser le pointeur pour créer une zone pour le calque de texte, puis mettez en forme le texte avec des outils sur la page de texte.
@@ -69,7 +73,7 @@ La publication de votre modèle le place sur les serveurs d’images Dynamic Med
 
 Assurez-vous de publier toutes les images associées à votre modèle.
 
-Pour publier un modèle, marquez-le pour publication et, sur la barre de navigation générale, sélectionnez **[!UICONTROL Publier]**. Sélectionnez ensuite **[!UICONTROL Envoyer la publication]**. Voir [ Publication de modèles ](publishing-templates.md#publishing_templates).
+Pour publier un modèle, marquez-le pour publication et, sur la barre de navigation générale, sélectionnez **[!UICONTROL Publier]**. Sélectionnez ensuite **[!UICONTROL Envoyer la publication]**. Voir [&#x200B; Publication de modèles &#x200B;](publishing-templates.md#publishing_templates).
 
 ## &#x200B;5. Liaison d’un modèle à une page web
 

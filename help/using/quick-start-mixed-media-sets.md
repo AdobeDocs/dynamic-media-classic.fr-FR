@@ -12,9 +12,12 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:10:24.352Z'
 TQID: 'https://experienceleague.adobe.com/23AoGDGEDm6MKPXwRk5Orvi445FdE3BpcTaSY21YSUE'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 698
@@ -48,7 +51,7 @@ Voir [Création d’une visionneuse d’images](creating-image-set.md#creating-a
 
 Sur la barre de navigation générale, accédez à **[!UICONTROL Créer]** > **[!UICONTROL Visionneuses de médias mixtes]**. Faites glisser les images, les visionneuses d’échantillons, les visionneuses d’images et les vidéos vers la page Visionneuse de médias mixtes. Pour ajouter une bande sonore, faites glisser un fichier audio sur la zone Bande sonore.
 
-Voir [ Création d’une visionneuse de médias mixtes ](creating-mixed-media-set.md#creating-a-mixed-media-set).
+Voir [&#x200B; Création d’une visionneuse de médias mixtes &#x200B;](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
 ## &#x200B;4. Configuration des paramètres prédéfinis de visionneuse de médias mixtes
 
@@ -72,7 +75,7 @@ La publication d’une visionneuse de médias mixtes la place sur les serveurs A
 
 Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisez **Serveur vidéo** pour publier les vidéos que vous avez marquées pour publication. De plus, vous utilisez **Image Server** pour publier les ressources connexes, telles que les miniatures vidéo, et définir des informations pour toute visionneuse de vidéos adaptative.
 
-Voir [ Publication d’une visionneuse de médias mixtes ](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
+Voir [&#x200B; Publication d’une visionneuse de médias mixtes &#x200B;](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
 ## &#x200B;7. Liaison d’une visionneuse de médias mixtes à une page web
 

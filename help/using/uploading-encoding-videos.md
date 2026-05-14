@@ -11,10 +11,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:34.556Z'
 TQID: 'https://experienceleague.adobe.com/G7OuvXwsh-eBgUivFbhhsBXhzOh47Of9WwSkHdX-uBQ'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 4074
@@ -50,7 +54,7 @@ Pour créer des visionneuses de vidéos adaptatives ou uniques à diffuser sur l
 
 Adobe Dynamic Media Classic génère également des miniatures vidéo. Vous pouvez en savoir plus sur les miniatures de vidéos, l’obtention de leurs URL et la modification des images de l’affiche.
 
-Voir [ Utilisation de miniatures vidéo ](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
+Voir [&#x200B; Utilisation de miniatures vidéo &#x200B;](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
 
 **Pour charger et coder des vidéos, procédez comme suit**
 
@@ -155,7 +159,7 @@ Le tableau suivant décrit la taille recommandée, les proportions et le débit 
 
 Vous pouvez obtenir les métadonnées d’un fichier en les affichant dans Adobe Dynamic Media Classic, à l’aide d’un outil de montage vidéo ou d’une application conçue pour l’obtention de métadonnées. Vous trouverez ci-dessous les instructions d’utilisation de MediaInfo, une application tierce permettant d’obtenir les métadonnées d’un fichier vidéo :
 
-1. Accédez à cette page web : [](https://mediaarea.net/en/MediaInfo).
+1. Accédez à cette page web : [&#128279;](https://mediaarea.net/en/MediaInfo).
 1. Sélectionnez et téléchargez le programme d’installation pour la version interface graphique utilisateur, puis suivez les instructions d’installation.
 1. Après l’installation, cliquez avec le bouton droit sur le fichier vidéo (Windows® uniquement) et sélectionnez MediaInfo, ou ouvrez MediaInfo et faites glisser votre fichier vidéo dans l’application. Toutes les métadonnées de votre fichier vidéo, telles que sa largeur, sa hauteur et le nombre d’images par seconde, sont alors visibles à l’écran.
 
@@ -163,7 +167,7 @@ Vous pouvez obtenir les métadonnées d’un fichier en les affichant dans Adobe
 
 Lorsque vous choisissez ou créez un paramètre prédéfini de codage vidéo pour votre fichier vidéo principal, assurez-vous que ce paramètre présente les mêmes proportions que le fichier vidéo principal. Le *format* fait référence au rapport largeur/hauteur de la vidéo.
 
-Pour déterminer les proportions d’un fichier vidéo, récupérez les métadonnées de ce fichier et notez les valeurs de largeur et de hauteur (voir [ Obtention des métadonnées d’un fichier ](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Utilisez ensuite cette formule pour déterminer le format :
+Pour déterminer les proportions d’un fichier vidéo, récupérez les métadonnées de ce fichier et notez les valeurs de largeur et de hauteur (voir [&#x200B; Obtention des métadonnées d’un fichier &#x200B;](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Utilisez ensuite cette formule pour déterminer le format :
 
 Largeur / Hauteur = Format
 

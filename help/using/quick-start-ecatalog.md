@@ -12,9 +12,13 @@ topic: Integrations
 level: Experienced
 autotag-review: '2026-05-13T19:55:49.663Z'
 TQID: 'https://experienceleague.adobe.com/EFy8tVdGv5q5mmQQS-m0Mb8AuphJHEDHzspsPWNxMlI'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 1572
@@ -95,7 +99,7 @@ Après avoir encadré la zone cliquable, saisissez l’adresse URL à laquelle a
 
 Voir [Création de zones cliquables de catalogue électronique](creating-ecatalog-image-maps.md#creating-ecatalog-image-maps).
 
-Voir [ Utilisation de zones cliquables pour incorporer des médias riches dans un catalogue électronique](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
+Voir [&#x200B; Utilisation de zones cliquables pour incorporer des médias riches dans un catalogue électronique](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
 
 Vous pouvez configurer et gérer le texte de la zone cliquable à l’aide des paramètres du panneau Informations dans l’écran Catalogue électronique.
 
@@ -125,7 +129,7 @@ La publication de votre catalogue électronique et des PDF associées le place s
 
 Après avoir marqué votre catalogue électronique et votre PDF pour publication dans le panneau de navigation, sélectionnez le bouton Publier sur la barre de navigation générale pour lancer une publication. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
-Voir [ Publication de catalogues électroniques et de fichiers PDF associés](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
+Voir [&#x200B; Publication de catalogues électroniques et de fichiers PDF associés](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
 ## &#x200B;7. Liaison d’un catalogue électronique à une page web
 

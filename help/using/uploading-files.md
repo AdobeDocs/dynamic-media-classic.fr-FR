@@ -11,10 +11,16 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:48.480Z'
 TQID: 'https://experienceleague.adobe.com/GHFAnTWOGJjh5T5swbhJLj9-3iAOP7Ne5MQRObGPubI'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 3956
@@ -223,7 +229,7 @@ Lors du chargement de fichiers, vous pouvez choisir l’une des options suivante
          * **[!UICONTROL Quotidien]** : définissez l’heure à laquelle vous souhaitez que la tâche s’exécute tous les jours. Si vous souhaitez que le traitement s’exécute uniquement du lundi au vendredi, sélectionnez **[!UICONTROL Jours de la semaine uniquement]**.
          * **[!UICONTROL Hebdomadaire]** : sélectionnez le jour et l’heure de la semaine où vous souhaitez que la tâche s’exécute.
          * **[!UICONTROL Mensuel]** : sélectionnez un jour spécifique du mois ou de la semaine, y compris l’heure de début, pour l’exécution de la tâche.
-         * **[!UICONTROL Personnalisé]** : personnalisez un intervalle de temps de tâche de chargement ou de publication selon vos propres spécifications. Voir [ Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+         * **[!UICONTROL Personnalisé]** : personnalisez un intervalle de temps de tâche de chargement ou de publication selon vos propres spécifications. Voir [&#x200B; Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
 
    * **[!UICONTROL Publier après le chargement]** : disponible si vous avez sélectionné l’onglet **[!UICONTROL À PARTIR DE L’ORDINATEUR DE BUREAU]** ou l’onglet **[!UICONTROL VIA FTP]**. Sélectionnez cette option pour publier automatiquement les ressources que vous chargez. Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Cette option est également disponible sur la page de téléchargement.
 
@@ -257,7 +263,7 @@ Rognage en fonction de la transparence : spécifiez 0 pour rogner les pixels uni
 Voir [Options de réglage d’image au moment du chargement](image-editing-options-upload.md#image-editing-options-at-upload).
 
 * **Options PostScript®** : pixellisez des fichiers PostScript®, recadrez des fichiers, conservez les arrière-plans transparents, choisissez une résolution et choisissez un espace colorimétrique.
-Voir [ Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
+Voir [&#x200B; Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Options Photoshop** : vous pouvez créer des modèles à partir de fichiers Adobe® Photoshop®, conserver les calques, spécifier le mode de dénomination des calques, extraire du texte et spécifier le mode d’ancrage des images dans les modèles.
 (voir [Options de téléchargement des fichiers PSD](psd-files.md#psd_upload_options)).
@@ -266,10 +272,10 @@ Voir [ Utilisation de fichiers PostScript et Illustrator](postscript-illustrator
 (voir [Options de téléchargement des fichiers PDF](pdfs.md#pdf_upload_options)).
 
 * **Options Illustrator** : pixellisez les fichiers Adobe Illustrator®, conservez les arrière-plans transparents, choisissez une résolution et choisissez un espace colorimétrique.
-Voir [ Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
+Voir [&#x200B; Utilisation de fichiers PostScript et Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Options EVIDEO** : vous pouvez transcoder un fichier vidéo en choisissant un paramètre vidéo prédéfini.
-Voir [ Utilisation de paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
+Voir [&#x200B; Utilisation de paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
 * **Plus de métadonnées** : entrez des mots-clés qui décrivent les fichiers que vous avez l’intention de télécharger. Séparez les mots clés-par des virgules. Les mots-clés facilitent les recherches portant sur les fichiers
 Voir [Réalisation d’une recherche avancée](searching-assets.md#conducting_an_advanced_search).
