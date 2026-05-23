@@ -40,7 +40,7 @@ Grâce aux rapports vidéo basés sur les pulsations Adobe Analytics, vous n’a
 
 * L’intégration des rapports vidéo Adobe Analytics à Adobe Dynamic Media Classic prend en charge les variables de solution, mais pas les variables personnalisées.
 
-  Voir [Paramètres audio et vidéo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters) pour plus d’informations sur les variables de solution et les variables personnalisées.
+  Voir [Paramètres audio et vidéo](https://experienceleague.adobe.com/fr/docs/media-analytics/using/implementation/variables/audio-video-parameters) pour plus d’informations sur les variables de solution et les variables personnalisées.
 
 * Les segments prêts à l’emploi d’incréments d’une minute sont pris en charge. Cependant, les rapports sur les segments personnalisés, tels que les jalons définis par le client en fonction d’incréments temporels, de % jalons ou de décalages jalons, ne sont pas pris en charge.
 
