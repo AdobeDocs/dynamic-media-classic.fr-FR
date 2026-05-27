@@ -12,16 +12,10 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:38:37.961Z'
 TQID: 'https://experienceleague.adobe.com/GXWZmllFz1-pP-BuzH2WdjpgmvX5cOUipLywGUa8Z0U'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 11377
@@ -105,7 +99,7 @@ Voir aussi [Tester le service Secure Testing](testing-assets-making-them-public.
 
   Vous pouvez également accéder à **[!UICONTROL Fichier]** > **[!UICONTROL Retraiter]** pour créer d’autres vidéos « enfants » codées directement à partir d’une visionneuse de vidéos adaptative. Adobe Dynamic Media Classic recherche automatiquement la vidéo de Principal « parente » de la visionneuse de vidéos adaptative et l’utilise comme vidéo source pour le transcodage. Cependant, lorsque vous enregistrez les nouvelles vidéos codées individuelles, elles ne sont pas visibles lors d’une recherche ou d’une navigation. Elles restent néanmoins accessibles à partir de l’onglet Vidéos codées dans la vue Affichage des détails.
 
-  Voir [&#x200B; Chargement et transcodage de vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos).
+  Voir [ Chargement et transcodage de vidéos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
   Pour continuer à accéder à toutes les vidéos codées dérivées lors d’une recherche ou d’une navigation, sélectionnez **[!UICONTROL Afficher les vidéos codées]**.
 
@@ -127,7 +121,7 @@ Voir aussi [Tester le service Secure Testing](testing-assets-making-them-public.
 
 Consultez également la vidéo de formation [Options de tâches de chargement](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) .
 
-* **[!UICONTROL Remplacer les images]** : Adobe Dynamic Media Classic ne permet pas à deux fichiers d’avoir le même nom. L’identifiant Adobe Dynamic Media Classic de chaque élément (le nom de l’image sans l’extension de nom de fichier) doit être unique. De par cette règle, la boîte de dialogue Télécharger contient une option Ecraser. L’effet précis de cette option dépend de l’option Ecraser les images spécifiée. Ces options spécifient la manière dont les images de remplacement sont téléchargées : elles peuvent remplacer les images d’origine ou devenir des doublons. Les images en double sont renommées avec un « -1 » (par exemple, chaise.tif est renommé chaise-1.tif). Ces options affectent les images téléchargées dans un dossier autre que le dossier d’origine ou les images dont l’extension est différente de celle du fichier d’origine (telle que JPG, TIF ou encore PNG) Voir [&#x200B; Utilisation de l’option Remplacer les images &#x200B;](#using-the-overwrite-images-option).
+* **[!UICONTROL Remplacer les images]** : Adobe Dynamic Media Classic ne permet pas à deux fichiers d’avoir le même nom. L’identifiant Adobe Dynamic Media Classic de chaque élément (le nom de l’image sans l’extension de nom de fichier) doit être unique. De par cette règle, la boîte de dialogue Télécharger contient une option Ecraser. L’effet précis de cette option dépend de l’option Ecraser les images spécifiée. Ces options spécifient la manière dont les images de remplacement sont téléchargées : elles peuvent remplacer les images d’origine ou devenir des doublons. Les images en double sont renommées avec un « -1 » (par exemple, chaise.tif est renommé chaise-1.tif). Ces options affectent les images téléchargées dans un dossier autre que le dossier d’origine ou les images dont l’extension est différente de celle du fichier d’origine (telle que JPG, TIF ou encore PNG) Voir [ Utilisation de l’option Remplacer les images ](#using-the-overwrite-images-option).
 
    * **[!UICONTROL Remplacer dans le dossier actuel, même nom ou extension de l’image de base]** : cette option est la règle la plus stricte pour le remplacement. Elle nécessite que vous téléchargiez l’image de remplacement dans le même dossier que l’image d’origine, et qu’elle ait la même extension que le fichier d’origine. Si ces conditions ne sont pas remplies, un doublon est créé.
 
@@ -173,7 +167,7 @@ Les administrateurs peuvent créer des paramètres prédéfinis pour l’exporta
 
 Pour ouvrir l’écran Paramètre d’image prédéfini , sur la barre de navigation globale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres d’image prédéfinis]**.
 
-Voir [&#x200B; Imagerie dynamique &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Voir [ Imagerie dynamique ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Création et modification des paramètres d’image prédéfinis {#creating-and-editing-image-presets}
 
@@ -448,21 +442,21 @@ En combinant dans un seul lecteur les éléments suivants :
 
 Vous pouvez étendre la portée de votre contenu multimédia aux utilisateurs d’ordinateurs de bureau, de tablettes et d’appareils mobiles, et garantir ainsi une expérience vidéo fluide.
 
-Voir [&#x200B; À propos des visionneuses HTML5](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses Adobe.
+Voir [ À propos des visionneuses HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) dans le Guide de référence des visionneuses Adobe.
 
-Voir [Matrice de compatibilité des paramètres prédéfinis de la visionneuse &#x200B;](application-setup.md#scene7_viewer_preset_compatibility_matrix).
+Voir [Matrice de compatibilité des paramètres prédéfinis de la visionneuse ](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
 Reportez-vous à la section [Meilleure pratique : Utilisation de la visionneuse de vidéos HTML5](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer).
 
 Selon la visionneuse, vous pouvez ajouter des fonctions communautaires. Ces fonctions comprennent des boutons d’incorporation, d’e-mail, de lien et de visite de site. Ces boutons permettent aux personnes qui utilisent les visionneuses de partager la visionneuse avec d’autres ou d’ouvrir le site web Adobe Dynamic Media Classic.
 
-Voir aussi [Exemples de bibliothèques de référence de visionneuses &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Voir aussi [Exemples de bibliothèques de référence de visionneuses ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 ### Prise en charge des visionneuses pour les pages web en responsive design {#viewer-support-for-responsive-designed-web-pages}
 
 Les différentes pages web ont des besoins différents. Il arrive que vous souhaitiez une page web qui fournisse un lien permettant d’ouvrir la visionneuse HTML5 dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer la visionneuse HTML5 directement dans la page d’hébergement. Dans ce dernier cas, la page web a probablement une mise en page statique. Autrement, il est « réactif » et s’affiche différemment selon les appareils ou les tailles de fenêtre du navigateur. Pour répondre à ces besoins, les visionneuses HTML5 fournies avec Adobe Dynamic Media Classic prennent en charge les pages web statiques et les pages web en responsive design.
 
-Pour plus d’informations sur l’intégration de visionneuses réactives à vos pages web, consultez [À propos de la bibliothèque d’images réactive](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Utiliser la bibliothèque d’images réactive](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) et [Référence des commandes : attributs de commande](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Pour plus d’informations sur l’intégration de visionneuses réactives à vos pages web, consultez [À propos de la bibliothèque d’images réactive](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Utiliser la bibliothèque d’images réactive](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) et [Référence des commandes : attributs de commande](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Types de paramètres prédéfinis de visionneuse {#viewer-preset-types}
 
@@ -502,11 +496,11 @@ Par exemple, si la taille de l’image principale est de 350 x 350 pixels et 
 
 Le tableau suivant identifie les paramètres prédéfinis de visionneuse Adobe Dynamic Media Classic actuellement disponibles. Le tableau indique également la compatibilité de la visionneuse avec les ordinateurs de bureau et les appareils mobiles, ainsi que la technologie utilisée pour chaque visionneuse donnée.
 
-Voir aussi [Exemples de bibliothèques de référence de visionneuses &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Voir aussi [Exemples de bibliothèques de référence de visionneuses ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 Pour plus d’informations sur les versions du navigateur web et du système d’exploitation prises en charge pour les visionneuses, consultez les Notes de mise à jour des visionneuses.
 
-Voir Les [Notes De Mise À Jour De Référence Des Visionneuses &#x200B;](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources).
+Voir Les [Notes De Mise À Jour De Référence Des Visionneuses ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Technologie de la visionneuse | Bureau | Apple iPhone | Apple iPad | ™ Smartphone | Tablette ™ |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -590,7 +584,7 @@ L’écran Paramètres prédéfinis de la visionneuse propose des outils permett
 
 * **Exporter un paramètre prédéfini** : sélectionnez un paramètre prédéfini de visionneuse HTML5. Cliquez ensuite sur **[!UICONTROL Exporter]** pour télécharger l’habillage de la visionneuse afin de l’utiliser comme base pour créer et ajouter un autre paramètre prédéfini de visionneuse.
 
-  Voir [&#x200B; Exportation d’un paramètre prédéfini de visionneuse HTML5](application-setup.md#exporting_an_html5_viewer_preset).
+  Voir [ Exportation d’un paramètre prédéfini de visionneuse HTML5](application-setup.md#exporting_an_html5_viewer_preset).
 
 * **Filtrer la liste des paramètres prédéfinis de la visionneuse** : utilisez les outils suivants pour filtrer la liste :
 
@@ -866,7 +860,7 @@ Pour utiliser efficacement les champs de métadonnées définis par l’utilisat
 
    * **[!UICONTROL Couleur]** : nom d’une couleur.
 
-   * **&#x200B;**&#x200B;: largeur et hauteur de la ressource.
+   * **** : largeur et hauteur de la ressource.
 
    * **[!UICONTROL Non typé]** : pour une compatibilité ascendante. Ne sélectionnez pas cette option.
 
