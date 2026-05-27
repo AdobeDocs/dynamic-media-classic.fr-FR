@@ -12,15 +12,10 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T19:46:24.807Z'
 TQID: 'https://experienceleague.adobe.com/w-jPQYG7xGeBmC8fOzcPzi6ZZ-urf0C0-HoDKVbjCWk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 2135
@@ -135,7 +130,7 @@ Voir également :
 
 1. Effectuez l’une des opérations suivantes en fonction du programme d’installation que vous avez téléchargé.
 
-   * **&#x200B;**&#x200B;- Dans la boîte de dialogue **[!UICONTROL Glisser-déposer pour installer]**, faites glisser **[!UICONTROL Adobe Dynamic Media Classic]** et déposez-le sur **[!UICONTROL Applications]**.
+   * **** - Dans la boîte de dialogue **[!UICONTROL Glisser-déposer pour installer]**, faites glisser **[!UICONTROL Adobe Dynamic Media Classic]** et déposez-le sur **[!UICONTROL Applications]**.
 
      ![Installation par glisser-déposer sur macOS](/help/using/assets/dragondrop-install1.png)
 
@@ -148,7 +143,7 @@ Voir également :
 
 1. Lorsque vous ouvrez l’application, la nouvelle page de connexion d’Adobe Dynamic Media Classic s’affiche :
 
-   ![Connexion à &#x200B;](/help/using/assets/dmclassic-login1.png)
+   ![Connexion à ](/help/using/assets/dmclassic-login1.png)
 
 1. Pour vous connecter à l’application de bureau Adobe Dynamic Media Classic, utilisez les mêmes informations d’identification que celles que vous avez utilisées pour vous connecter à Adobe Dynamic Media Classic dans le navigateur.
 
@@ -190,7 +185,7 @@ Pour télécharger et *silencieusement* installez la dernière version de l’ap
 
 1. Lorsque vous ouvrez l’application, la nouvelle page de connexion d’Adobe Dynamic Media Classic s’affiche :
 
-   ![Connexion à &#x200B;](/help/using/assets/dmclassic-login1.png)
+   ![Connexion à ](/help/using/assets/dmclassic-login1.png)
 
 1. Pour vous connecter à l’application de bureau Adobe Dynamic Media Classic, utilisez les mêmes informations d’identification que celles que vous avez utilisées pour vous connecter à Adobe Dynamic Media Classic dans le navigateur.
 
@@ -236,7 +231,7 @@ Pour télécharger et *silencieusement* installez la dernière version de l’ap
 
 1. Lorsque vous ouvrez l’application, la nouvelle page de connexion d’Adobe Dynamic Media Classic s’affiche :
 
-   ![Connexion à &#x200B;](/help/using/assets/dmclassic-login1.png)
+   ![Connexion à ](/help/using/assets/dmclassic-login1.png)
 
 1. Pour vous connecter à l’application de bureau Adobe Dynamic Media Classic, utilisez les mêmes informations d’identification que celles que vous avez utilisées pour vous connecter à Adobe Dynamic Media Classic dans le navigateur.
 
@@ -250,7 +245,7 @@ Pour télécharger et *silencieusement* installez la dernière version de l’ap
 
 ## Présentation vidéo sur l’utilisation de l’application de bureau Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
-Regardez une [présentation vidéo sur l’utilisation de l’application de bureau Adobe Dynamic Media Classic](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (durée : 2 minutes 36 secondes).
+Regardez une [présentation vidéo sur l’utilisation de l’application de bureau Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (durée : 2 minutes 36 secondes).
 
 ## Effacement du cache d’images et du cache de ressources sur votre ordinateur à l’aide de l’application de bureau {#clear-cache}
 
@@ -288,11 +283,11 @@ Outre l’effacement de l’image et du cache de ressources à l’aide de l’a
 
 ## Conseils et astuces
 
-**_Je ne parviens pas à voir le panneau Panier de médias sur la page de destination d’Adobe Dynamic Media Classic._**<br>Dans Adobe Dynamic Media Classic, appuyez sur&#x200B;**[!UICONTROL Configuration > Configuration personnelle &#x200B;]**. Dans la section Navigateur , assurez-vous que&#x200B;**[!UICONTROL Afficher les fonctionnalités de MediaPortal &#x200B;]**&#x200B;est sélectionné (coché). Appuyez sur&#x200B;**[!UICONTROL Enregistrer > Fermer &#x200B;]**.
+**_Je ne parviens pas à voir le panneau Panier de médias sur la page de destination d’Adobe Dynamic Media Classic._**<br>Dans Adobe Dynamic Media Classic, appuyez sur**[!UICONTROL Configuration > Configuration personnelle ]**. Dans la section Navigateur , assurez-vous que**[!UICONTROL Afficher les fonctionnalités de MediaPortal ]**est sélectionné (coché). Appuyez sur**[!UICONTROL Enregistrer > Fermer ]**.
 
-**_L’état de publication (indicateur vert) d’une ressource n’est pas correctement reflété._**<br>Dans l’interface utilisateur du navigateur, une nouvelle connexion à l’interface utilisateur était auparavant nécessaire pour afficher le statut de publication correct des ressources. Dans l’application de bureau, Adobe a introduit une icône&#x200B;**[!UICONTROL Actualiser &#x200B;]**&#x200B;dans la barre d’outils, à droite du bouton&#x200B;**[!UICONTROL Ne rien sélectionner &#x200B;]**. Appuyez sur l’icône&#x200B;**[!UICONTROL Actualisation &#x200B;]**&#x200B;pour afficher le dernier statut de toutes les ressources de la page donnée. Aucune nouvelle connexion n’est requise comme avec l’interface utilisateur du navigateur.
+**_L’état de publication (indicateur vert) d’une ressource n’est pas correctement reflété._**<br>Dans l’interface utilisateur du navigateur, une nouvelle connexion à l’interface utilisateur était auparavant nécessaire pour afficher le statut de publication correct des ressources. Dans l’application de bureau, Adobe a introduit une icône**[!UICONTROL Actualiser ]**dans la barre d’outils, à droite du bouton**[!UICONTROL Ne rien sélectionner ]**. Appuyez sur l’icône**[!UICONTROL Actualisation ]**pour afficher le dernier statut de toutes les ressources de la page donnée. Aucune nouvelle connexion n’est requise comme avec l’interface utilisateur du navigateur.
 
 ![Icône Actualiser](/help/using/assets/refresh-icon1.png)
 *Icône Actualiser*
 
-**_Je ne vois pas les paramètres prédéfinis de lot qui fonctionnent dans l’application de bureau._**<br>Appuyez sur&#x200B;**[!UICONTROL Charger > Options de tâche > Paramètres prédéfinis de lot &#x200B;]**. Assurez-vous que le&#x200B;**[!UICONTROL paramètre prédéfini de lot &#x200B;]**&#x200B;approprié est activé. Cliquez sur&#x200B;**[!UICONTROL Enregistrer et soumettre le chargement &#x200B;]**.
+**_Je ne vois pas les paramètres prédéfinis de lot qui fonctionnent dans l’application de bureau._**<br>Appuyez sur**[!UICONTROL Charger > Options de tâche > Paramètres prédéfinis de lot ]**. Assurez-vous que le**[!UICONTROL paramètre prédéfini de lot ]**approprié est activé. Cliquez sur**[!UICONTROL Enregistrer et soumettre le chargement ]**.

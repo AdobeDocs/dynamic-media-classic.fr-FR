@@ -12,12 +12,9 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:11:12.792Z'
 TQID: 'https://experienceleague.adobe.com/0ilSf9rbFcvh2-AVdVnifjNi7bOa5AjCqBFCUC95I5Q'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 934
@@ -41,7 +38,7 @@ Le démarrage rapide de Zoom suivant est conçu pour vous permettre de vous fami
 
 Commencez par charger vos images de zoom dans Adobe Dynamic Media Classic. Pour un zoom optimal, Adobe Dynamic Media Classic recommande d’avoir au moins 2 000 pixels dans la plus grande taille.
 
-Sur la barre de navigation générale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger des images depuis votre ordinateur ou votre réseau vers un dossier d’Adobe Dynamic Media Classic. Voir [&#x200B; Chargement d’images avec zoom &#x200B;](uploading-zoom-images.md#uploading_zoom_images).
+Sur la barre de navigation générale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger des images depuis votre ordinateur ou votre réseau vers un dossier d’Adobe Dynamic Media Classic. Voir [ Chargement d’images avec zoom ](uploading-zoom-images.md#uploading_zoom_images).
 
 ## &#x200B;2. Création de cibles de zoom pour le zoom guidé
 
