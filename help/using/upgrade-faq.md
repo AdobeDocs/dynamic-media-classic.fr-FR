@@ -8,17 +8,10 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:15:39.241Z'
 TQID: 'https://experienceleague.adobe.com/0ODwpm8UKHiOr7Ttv5MBKEnxu2HDfUw3yxZ6YhEfK4M'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: da3860b0-d637-47df-bef0-273751180266
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 1591
@@ -268,14 +261,14 @@ Les clients sont principalement responsables de la gestion des modifications, no
 ## Support et formation
 
 +++**Comment puis-je obtenir de l’aide ?**
-24/7/365 Le support du service client est disponible. [Contactez l’assistance technique](https://experienceleague.adobe.com/fr?support-solution=General#support).
+24/7/365 Le support du service client est disponible. [Contactez l’assistance technique](https://experienceleague.adobe.com/?support-solution=General#support).
 
 Téléphone : 1-800-898-9743 (US) | +44 (0)20 35641782 (UK) | +81-3-6743-9632 (Japon)
 
 +++
 
 +++**Où puis-je en savoir plus sur les options de formation payante ?**
-Voir [Services De Formation Numérique &#x200B;](https://learning.adobe.com).
+Voir [Services De Formation Numérique ](https://learning.adobe.com).
 
 Pour une formation personnalisée ou individuelle, contactez le représentant de l’équipe chargée de votre compte Adobe.
 

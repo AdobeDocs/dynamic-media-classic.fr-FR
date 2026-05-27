@@ -12,16 +12,10 @@ topic: Collaboration, Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:10:17.674Z'
 TQID: 'https://experienceleague.adobe.com/FSvq-Pe4KTPk2wslzWUkBExR1rZNQAqB90Xw5e-QT-Q'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 859
@@ -61,13 +55,13 @@ Voir [Création et gestion des groupes du portail multimédia](creating-media-po
 
 Lorsque vous ajoutez un utilisateur, vous lui attribuez un rôle (utilisateur, contributeur ou contributeur-utilisateur). Vous pouvez également affecter l’utilisateur à un ou plusieurs groupes. Pour accélérer la procédure d’ajout, vous pouvez télécharger une liste d’utilisateurs enregistrée dans un fichier au format CSV. Les nouveaux utilisateurs reçoivent un message électronique de bienvenue accompagné d’instructions de connexion au portail multimédia.
 
-Voir [&#x200B; Ajouter et gérer des utilisateurs du portail multimédia &#x200B;](adding-media-portal-users.md#adding_and_managing_media_portal_users).
+Voir [ Ajouter et gérer des utilisateurs du portail multimédia ](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## &#x200B;4. Gestion des comptes FTP
 
 Vous pouvez avoir des comptes FTP distincts associés au portail multimédia. Ils peuvent être mappés à un dossier spécifique dans votre compte Adobe Dynamic Media Classic. Ce type de fonctionnalité signifie que vous pouvez autoriser les utilisateurs à télécharger des fichiers numériques sur votre compte en utilisant des comptes FTP distincts.
 
-Voir [&#x200B; Gestion des comptes FTP &#x200B;](ftp-accounts.md#managing_ftp_accounts).
+Voir [ Gestion des comptes FTP ](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >
