@@ -12,15 +12,10 @@ topic: Content Management
 level: Experienced
 autotag-review: '2026-05-13T18:19:13.276Z'
 TQID: 'https://experienceleague.adobe.com/2bY6F28UOt--BmRcI4xv1GJnmSMzqbnkUnnPmfFHxmw'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 3493
@@ -122,9 +117,9 @@ Utilisez ces outils dans l’écran Modèle pour créer des modèles :
 
 * **[!UICONTROL Zone de travail]** : définit la zone disponible totale, en pixels, pour définir votre modèle. La taille par défaut est de 300 × 300 pixels. Les calques sont placés sur la zone de travail.
 
-* **[!UICONTROL Liste Calques]** : répertorie le nom des calques du modèle. Pour sélectionner un calque, sélectionnez son nom dans la liste Calques. La liste Calques est assortie d’outils permettant de supprimer, de réorganiser et de paramétrer les calques, et de leur ajouter des effets Voir [&#x200B; Utilisation des calques &#x200B;](#working-with-layers).
+* **[!UICONTROL Liste Calques]** : répertorie le nom des calques du modèle. Pour sélectionner un calque, sélectionnez son nom dans la liste Calques. La liste Calques est assortie d’outils permettant de supprimer, de réorganiser et de paramétrer les calques, et de leur ajouter des effets Voir [ Utilisation des calques ](#working-with-layers).
 
-* **[!UICONTROL Zone Propriétés du calque]** : cette zone propose des outils permettant de modifier la couleur, l’opacité, la taille et la position de l’arrière-plan d’un calque. Vous pouvez également modifier la couleur, l’opacité et la taille de l’arrière-plan de la zone de travail. Vous pouvez également y régler les effets d’ombre et d’éclat Voir [&#x200B; Utilisation des calques &#x200B;](#working-with-layers).
+* **[!UICONTROL Zone Propriétés du calque]** : cette zone propose des outils permettant de modifier la couleur, l’opacité, la taille et la position de l’arrière-plan d’un calque. Vous pouvez également modifier la couleur, l’opacité et la taille de l’arrière-plan de la zone de travail. Vous pouvez également y régler les effets d’ombre et d’éclat Voir [ Utilisation des calques ](#working-with-layers).
 
 ## Création de calques d’image {#creating-image-layers}
 
@@ -229,7 +224,7 @@ Pour mettre en forme le texte dans un calque de texte, procédez comme suit :
 Les informations fournies dans l’onglet Source de l’éditeur de texte sont à titre de référence. Ne modifiez le texte que si vous êtes rompu à l’édition du code source.
 
 1. Dans la liste Calques, cliquez deux fois sur le nom de la zone de texte à modifier. L’Editeur de texte s’ouvre.
-1. Dans l’éditeur de texte, pour afficher le code source du texte, sélectionnez l’onglet **&#x200B;**&#x200B;dans l’éditeur de texte.
+1. Dans l’éditeur de texte, pour afficher le code source du texte, sélectionnez l’onglet **** dans l’éditeur de texte.
 1. Affichez le texte ou apportez-y les modifications nécessaires.
 
    Les changements sont conservés lorsque vous basculez entre les vues Prévisualiser et Source.
