@@ -4,9 +4,9 @@ product: adobe dynamic media classic
 audience: end-user
 user-guide-title: Guide d’Adobe Dynamic Media Classic
 breadcrumb-title: Guide de Dynamic Media Classic
-user-guide-description: En savoir plus sur l’utilisation d’Adobe Dynamic Media Classic
+user-guide-description: En savoir plus sur l’utilisation d’Adobe Dynamic Media Classic.
 index: true
-source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
+source-git-commit: 34e160beda5a4ccae31adf0d2fac0f40e5156c89
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 21%
@@ -22,7 +22,7 @@ ht-degree: 21%
    + [Comparaison des listes de fonctionnalités](upgrade-feature-comparison.md)
    + [Liste de contrôle de préparation à la mise à niveau](upgrade-readiness.md)
 + [Guide d’Adobe Dynamic Media Classic](home.md)
-+ [Tutoriel sur les bonnes pratiques d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [Tutoriel sur les bonnes pratiques d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [NOUVELLE ouverture de session Adobe Dynamic Media Classic disponible](new-ui-2020.md)
 + [Archive de newsletter Adobe Dynamic Media par Experience League](dynamic-media-newsletter.md)
 + Présentation d’Adobe Dynamic Media Classic {#intro}
