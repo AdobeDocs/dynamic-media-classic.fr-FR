@@ -21,7 +21,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 62695a6b15ea198fbf668af78e6e066a1b00c8ad
+source-git-commit: 788c18da7c6dc10ecdfbaec06710ded784559f82
 workflow-type: tm+mt
 source-wordcount: 3570
 ht-degree: 22%
@@ -163,7 +163,7 @@ L’approche et la structure de dénomination des dossiers que vous choisissez p
 
 Vous pouvez charger des fichiers individuels à partir du bureau ou charger des dossiers par FTP. Si vous souhaitez charger plus de 100 Mo de fichiers ou charger des dossiers et sous-dossiers entiers, sélectionnez l’onglet **VIA FTP**.
 
-Adobe Dynamic Media Classic vous envoie un e-mail pour confirmer le début et la fin de la tâche de chargement et vous informer de tout problème.
+Adobe Dynamic Media Classic vous envoie un e-mail pour confirmer le début et la fin de la tâche de chargement, ainsi que pour vous informer de tout problème.
 
 Pendant (ou immédiatement après) une tâche de chargement volumineuse, certains nouveaux éléments peuvent afficher le message « Image non encore optimisée ». Ce message s’affiche, car les fichiers ne sont pas encore entièrement traités et ajoutés à Adobe Dynamic Media Classic. Vous pouvez optimiser ces fichiers ultérieurement Voir [Optimisation des fichiers](application-setup.md#optimize_files).
 
