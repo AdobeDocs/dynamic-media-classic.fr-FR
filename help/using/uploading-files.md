@@ -11,10 +11,16 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:48.480Z'
 TQID: 'https://experienceleague.adobe.com/GHFAnTWOGJjh5T5swbhJLj9-3iAOP7Ne5MQRObGPubI'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 62695a6b15ea198fbf668af78e6e066a1b00c8ad
 workflow-type: tm+mt
 source-wordcount: 3570
@@ -168,7 +174,7 @@ Dynamic Media Classic applique les politiques de sécurité suivantes pour l’a
 | Politiques | Description |
 | --- | --- |
 | Isolation utilisateur | Chaque utilisateur FTP est limité à son propre répertoire et ne peut pas accéder aux répertoires appartenant à d’autres utilisateurs. |
-| Comptes uniques | Chaque utilisateur FTP ou intégration nécessite un compte FTP dédié. Les comptes partagés ne sont pas autorisés. Voir [ Gestion des comptes FTP ](/help/using/ftp-accounts.md). |
+| Comptes uniques | Chaque utilisateur FTP ou intégration nécessite un compte FTP dédié. Les comptes partagés ne sont pas autorisés. Voir [&#x200B; Gestion des comptes FTP &#x200B;](/help/using/ftp-accounts.md). |
 | Lignes de base de configuration | Les configurations de serveur FTP respectent les lignes de base de sécurité établies. |
 | Vérification en cours | L’application de serveur FTP et le système d’exploitation sous-jacent font l’objet d’audits et de surveillances réguliers pour détecter les failles de sécurité. Ils sont mis à jour si nécessaire. |
 | FTP sécurisé pour les *nouveaux* clients | Les nouveaux clients disposent d’un FTP sécurisé. L’accès FTP hérité reste disponible pour les clients *existants*. |
@@ -235,7 +241,7 @@ Lors du chargement de fichiers, vous pouvez choisir l’une des options suivante
          * **[!UICONTROL Quotidien]** : définissez l’heure à laquelle vous souhaitez que la tâche s’exécute tous les jours. Si vous souhaitez que le traitement s’exécute uniquement du lundi au vendredi, sélectionnez **[!UICONTROL Jours de la semaine uniquement]**.
          * **[!UICONTROL Hebdomadaire]** : sélectionnez le jour et l’heure de la semaine où vous souhaitez que la tâche s’exécute.
          * **[!UICONTROL Mensuel]** : sélectionnez un jour spécifique du mois ou de la semaine, y compris l’heure de début, pour l’exécution de la tâche.
-         * **[!UICONTROL Personnalisé]** : personnalisez un intervalle de temps de tâche de chargement ou de publication selon vos propres spécifications. Voir [ Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+         * **[!UICONTROL Personnalisé]** : personnalisez un intervalle de temps de tâche de chargement ou de publication selon vos propres spécifications. Voir [&#x200B; Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
 
    * **[!UICONTROL Publier après le chargement]** : disponible si vous avez sélectionné l’onglet **[!UICONTROL À PARTIR DE L’ORDINATEUR DE BUREAU]** ou l’onglet **[!UICONTROL VIA FTP]**. Sélectionnez cette option pour publier automatiquement les ressources que vous chargez. Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Cette option est également disponible sur la page de téléchargement.
 
@@ -248,7 +254,7 @@ Sélectionnez cette option pour extraire automatiquement tous les fichiers de vo
 Sélectionnez cette option si vous souhaitez charger des sous-dossiers du dossier à charger. Les noms du dossier et des sous-dossiers chargés sont saisis automatiquement dans Adobe Dynamic Media Classic.
 
    * **[!UICONTROL Traiter les fichiers de métadonnées]** : disponible uniquement si vous avez sélectionné l’onglet **[!UICONTROL VIA FTP]**. Sélectionnez cette option si vous souhaitez charger un fichier XML ou délimité par des tabulations pour ajouter des métadonnées à plusieurs ressources.
-Voir [ Importation de métadonnées (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
+Voir [&#x200B; Importation de métadonnées (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 * **Options de recadrage** : recadrez automatiquement les pixels d’espace blanc d’une image. Ouvrez le menu **[!UICONTROL Recadrage]**, sélectionnez **[!UICONTROL Manuel]** et saisissez les mesures en pixels dans les champs de texte Haut, Droite, Bas et Gauche pour recadrer sur les côtés. Vous pouvez également sélectionner **[!UICONTROL Rogner]** dans le menu Recadrer et choisir les options suivantes :
 
@@ -269,26 +275,26 @@ Rognage en fonction de la transparence : spécifiez 0 pour rogner les pixels uni
 Voir [Options de réglage d’image au moment du chargement](image-editing-options-upload.md#image-editing-options-at-upload).
 
 * **Options PostScript®** : pixellisez des fichiers PostScript®, recadrez des fichiers, conservez les arrière-plans transparents, choisissez une résolution et choisissez un espace colorimétrique.
-Voir [ Utilisation de fichiers PostScript et Adobe Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
+Voir [&#x200B; Utilisation de fichiers PostScript et Adobe Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Options Adobe Photoshop** : vous pouvez créer des modèles à partir de fichiers Adobe® Photoshop®, conserver les calques, définir la manière dont les calques sont nommés, extraire du texte et définir la manière dont les images sont ancrées dans les modèles.
-Voir [Options de chargement ](psd-files.md#psd_upload_options).
+Voir [Options de chargement &#x200B;](psd-files.md#psd_upload_options).
 
 * **Options PDF** : pixellisez les fichiers, extrayez des mots de recherche et des liens, générez automatiquement un catalogue électronique, définissez la résolution et choisissez un espace colorimétrique.
-Voir [Options de chargement ](pdfs.md#pdf_upload_options).
+Voir [Options de chargement &#x200B;](pdfs.md#pdf_upload_options).
 
 * **Options Adobe Illustrator** : pixellisez les fichiers Adobe Illustrator®, conservez les arrière-plans transparents, choisissez une résolution et choisissez un espace colorimétrique.
-Voir [ Utilisation de fichiers PostScript et Adobe Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
+Voir [&#x200B; Utilisation de fichiers PostScript et Adobe Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Options EVIDEO** : vous pouvez transcoder un fichier vidéo en choisissant un paramètre vidéo prédéfini.
-Voir [ Utilisation de paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
+Voir [&#x200B; Utilisation de paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
 * **Plus de métadonnées** : entrez des mots-clés qui décrivent les fichiers que vous avez l’intention de télécharger. Séparez les mots-clés par des virgules. Les mots-clés facilitent la recherche de ressources.
 Voir [Réalisation d’une recherche avancée](searching-assets.md#conducting_an_advanced_search).
 Consultez également la vidéo de formation [Charger des mots-clés](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) .
 
 * **Paramètres prédéfinis de lot** : pour créer une visionneuse d’images, à 360° ou une visionneuse d’échantillons à partir des fichiers chargés, sélectionnez la colonne **[!UICONTROL Actif]** du paramètre prédéfini à utiliser. Vous pouvez sélectionner plusieurs paramètres prédéfinis. Vous pouvez créer les paramètres prédéfinis dans la page Configuration de l’application/Paramètres prédéfinis d’ensemble par lot .
-Voir [ Paramètres prédéfinis de lot ](application-setup.md#batch_set_presets).
+Voir [&#x200B; Paramètres prédéfinis de lot &#x200B;](application-setup.md#batch_set_presets).
 
 * **Avancé** : consultez la section [Suivre un chargement avec une autre tâche](uploading-files.md#follow-an-upload-with-another-job).
 
