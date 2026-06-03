@@ -21,10 +21,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e1fd972b1f1cb575295c8dbc79443693cacccdff
+source-git-commit: f6be3a8f58b37185e171449f5abdd755c3cee042
 workflow-type: tm+mt
-source-wordcount: 3571
-ht-degree: 22%
+source-wordcount: 3681
+ht-degree: 21%
 
 ---
 
@@ -158,6 +158,18 @@ L’approche et la structure de dénomination des dossiers que vous choisissez p
 **Basé sur un projet** : les dossiers sont organisés en fonction de la date de déploiement/dépôt ou du nom du projet. Les clients qui produisent principalement des catalogues électroniques favorisent cette approche.
 
 **Miroir de la hiérarchie des dossiers du site Web** : cette structure de dossiers reflète la structure de dossiers du site Web, avec les dossiers nommés, par exemple, pour les catégories de produits.
+
+### Sécurité FTP {#about-ftp-security}
+
+Dynamic Media Classic applique les politiques de sécurité suivantes pour l’accès FTP :
+
+| Politique de sécurité | Description |
+| --- | --- |
+| Isolation utilisateur | Chaque utilisateur FTP est limité à son propre répertoire et ne peut pas accéder aux répertoires appartenant à d’autres utilisateurs. |
+| Comptes uniques | Chaque utilisateur FTP ou intégration nécessite un compte FTP dédié. Les comptes partagés ne sont pas autorisés. Voir [&#x200B; Gestion des comptes FTP &#x200B;](/help/using/ftp-accounts.md). |
+| Lignes de base de configuration | Les configurations de serveur FTP respectent les lignes de base de sécurité établies. |
+| Vérification en cours | L’application de serveur FTP et le système d’exploitation sous-jacent font l’objet d’audits et de surveillances réguliers pour détecter les failles de sécurité. Ils sont mis à jour si nécessaire. |
+| FTP sécurisé pour les *nouveaux* clients | Les nouveaux clients disposent d’un FTP sécurisé. L’accès FTP hérité reste disponible pour les clients *existants*. |
 
 ## À propos du chargement de fichiers {#uploading-your-files}
 
