@@ -32,7 +32,7 @@ ht-degree: 6%
 
 Grâce à Adobe Media Portal, les entreprises peuvent acquérir, contrôler et distribuer des ressources approuvées à des partenaires externes, des canaux et des utilisateurs internes. L’environnement de navigateur en « libre-service » fournit aux utilisateurs du portail des « vues » contrôlées par l’administrateur dans les ressources Adobe Dynamic Media Classic pour un accès facile au chargement, à la navigation, à la recherche, à la prévisualisation et à l’exportation de ressources dans des formats approuvés par l’entreprise.
 
-Pour plus d’informations sur le portail multimédia, notamment sur la configuration requise, consultez [Utilisation du portail multimédia Adobe Dynamic Media Classic](https://help.adobe.com/en_US/scene7/mediaportal/). <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->
+Pour plus d’informations sur le portail multimédia, notamment sur la configuration requise, consultez [Utilisation du portail multimédia Adobe Dynamic Media Classic](https://help.adobe.com/fr_FR/scene7/mediaportal/). <!-- (https://help.adobe.com/fr_FR/scene7/mediaportal/index.html) -->
 
 Pour plus d’informations sur l’administration de Media Portal, voir [Démarrage rapide : Administration de Media Portal](quick-start-media-portal-administration.md#quick_start_media_portal_administration).
 
