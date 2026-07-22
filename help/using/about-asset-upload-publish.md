@@ -1,5 +1,5 @@
 ---
-title: À propos du chargement et de la publication de ressources
+title: Télécharger et publier Assets
 description: Découvrez comment charger et publier des ressources dans Adobe Dynamic Media Classic.
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -11,26 +11,23 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:33:44.592Z'
 TQID: 'https://experienceleague.adobe.com/cBIWqoPxMe-Xw32Ywiqr82U2-wdJySjyM7BzDdGPA0w'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 9417586477c07ca389e075bc8f0d09e21bac7957
 workflow-type: tm+mt
-source-wordcount: 150
-ht-degree: 25%
+source-wordcount: 144
+ht-degree: 20%
 
 ---
 
-# À propos du chargement et de la publication de ressources {#about-uploading-and-publishing-assets}
+# Téléchargement et publication de fichiers {#about-uploading-and-publishing-assets}
 
-Votre travail dans Adobe Dynamic Media Classic s’articule autour de trois axes :
+Adobe Dynamic Media Classic comprend trois fonctions de base :
 
 * Chargement des ressources de fichiers vers Adobe Dynamic Media Classic.
-* la gestion de vos fichiers de manière à pouvoir les utiliser pour créer des fichiers de média enrichi ;
-* Publier vos fichiers de ressources sur un serveur Dynamic Media Classic afin qu’ils soient disponibles pour diffusion sur votre site web et votre application.
+* Gestion des fichiers afin de les utiliser pour créer des ressources multimédias enrichies
+* Publier vos fichiers de ressources sur un serveur Dynamic Media Classic afin qu’ils soient disponibles pour diffusion sur votre site web et vos applications.
 
 Lorsque vous chargez des fichiers de ressources vers Adobe Dynamic Media Classic et que vous publiez des fichiers de ressources sur les serveurs Adobe Dynamic Media Classic, le système enregistre ces transferts de fichiers sur la page **[!UICONTROL Tâches]**. Vous pouvez accéder à cette page pour suivre et surveiller vos activités de téléchargement et de publication.
 
