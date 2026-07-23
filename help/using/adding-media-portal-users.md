@@ -12,20 +12,14 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:37:47.692Z'
 TQID: 'https://experienceleague.adobe.com/77PJd-uwpdL58aZssu7Ko0fMDpa17heQ1dUUEXRhdDM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9915c19c020d871f3241feaebbd309d639130855
 workflow-type: tm+mt
-source-wordcount: 1032
-ht-degree: 51%
+source-wordcount: 1031
+ht-degree: 49%
 
 ---
 
@@ -111,7 +105,7 @@ Chaque utilisateur de la liste est automatiquement ajouté aux groupes spécifi�
 
 ## Génération d’une liste d’utilisateurs du portail multimédia disponible à la sélection {#generating-a-selectable-list-of-media-portal-users}
 
-Vous pouvez afficher les noms et les adresses e-mail des utilisateurs du portail multimédia dans une fenêtre contextuelle. Cette liste est utile pour couper et coller des noms d’utilisateur et des adresses qui seront utilisés à l’extérieur du portail multimédia.
+Vous pouvez afficher les noms et les adresses e-mail des utilisateurs du portail multimédia dans une fenêtre contextuelle. Cette liste est utile si vous souhaitez copier et coller des noms d’utilisateur et des adresses à utiliser en dehors de Media Portal.
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de l’administration]** > **[!UICONTROL Administration des utilisateurs]**.
 1. Dans la liste déroulante **[!UICONTROL Par rôle d’utilisateur]**, choisissez le nom d’un rôle d’utilisateur du portail multimédia, puis sélectionnez **[!UICONTROL Actualiser]** pour afficher les noms d’une classe d’utilisateurs du portail multimédia.
@@ -135,7 +129,7 @@ Vous pouvez envoyer un e-mail de bienvenue à tous les nouveaux utilisateurs, co
 
 L’écran de configuration de l’administration utilisateur vous permet d’effectuer les tâches suivantes :
 
-* **[!UICONTROL Filtrer et trier la liste des utilisateurs]** : filtrez la liste des utilisateurs du portail multimédia pour localiser les utilisateurs.
+* **[!UICONTROL Filtrer et trier la liste des utilisateurs]** : pour localiser les utilisateurs, filtrez la liste des utilisateurs du portail multimédia.
 
 * **[!UICONTROL Supprimer des utilisateurs]** : permet de supprimer un utilisateur de la liste.
 
