@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:40:29.070Z'
 TQID: 'https://experienceleague.adobe.com/KjKdz4CAeSdJ3P-LKvdmsoGlkroeOZ60AvydF2FBHaI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: e8180a78d75b0cd2ec39e4a148d6246cfde258f7
 workflow-type: tm+mt
-source-wordcount: 248
-ht-degree: 44%
+source-wordcount: 239
+ht-degree: 28%
 
 ---
 
@@ -29,11 +26,13 @@ ht-degree: 44%
 
 Utilisez les visionneuses de modèles pour gérer la façon dont les variations de fichier sont publiées.
 
-Créez une visionneuse de modèles pour gérer les variations d’un modèle. Vous pouvez contrôler la variation utilisée sans modifier le code sur votre site. Cette méthode permet aux gestionnaires de contenu de faire pivoter le contenu sans que le service informatique ait à modifier une URL dans le code Web.
+Créez une visionneuse de modèles pour gérer les variations d’un modèle. Vous pouvez contrôler la variation utilisée sans modifier le code sur votre site. Cette méthode permet aux gestionnaires de contenu de mettre à jour le contenu sans avoir besoin de l’assistance technique pour modifier une URL dans le code web.
 
-Les URL universelles sont utilisées pour afficher la variation de modèle qui apparaît sur la page, en fonction de l’ordre dans lequel elles sont répertoriées dans l’ensemble. Le modèle en haut de la liste des visionneuses de modèles est toujours publié.
+Les URL universelles affichent la variation du modèle sur la page, selon un ordre défini. Le modèle en haut de la liste des visionneuses de modèles est toujours publié.
 
-Vous pouvez utiliser n’importe quelle URL de paramètre d’image prédéfini dans la liste. Les URL des paramètres prédéfinis d’image sont semblables aux URL universelles. Il peut y avoir plusieurs URL de paramètre d’image prédéfini.
+Vous pouvez utiliser n’importe quelle URL de paramètre d’image prédéfini dans la liste. Les URL des paramètres prédéfinis d’image fonctionnent de la même manière que les URL universelles. Il peut y avoir plusieurs URL de paramètre d’image prédéfini.
+
+**Pour gérer les variations de contenu, procédez comme suit**
 
 1. Accédez à **[!UICONTROL Créer]** > **[!UICONTROL Jeux de modèles]**.
 1. Dans le créateur, sélectionnez un modèle, puis sélectionnez **[!UICONTROL Ajouter/Prévisualiser]**.
@@ -44,8 +43,8 @@ Vous pouvez utiliser n’importe quelle URL de paramètre d’image prédéfini 
 
 1. Accédez à la page Détails pour obtenir une URL copiée à partir de la section URL.
 
-Vous pouvez déplacer un modèle dans l’ordre du modèle (par exemple, vers le haut de la liste) en le faisant glisser vers son nouvel emplacement. Publiez à nouveau afin de soumettre le nouvel ordre.
+Vous pouvez réorganiser un modèle (par exemple, le placer à la première position de la liste) en le faisant glisser vers son nouvel emplacement. Publiez à nouveau afin de soumettre le nouvel ordre.
 
 >[!NOTE]
 >
->Si nécessaire, effacez le cache pour afficher les modifications. La modification s’affiche uniquement sur le site Web après être passée par le cycle complet de la mémoire cache.
+>Si nécessaire, effacez le cache pour afficher les modifications. La modification n’apparaît sur le site web qu’une fois qu’elle a été traitée tout au long du cycle de mise en cache.
