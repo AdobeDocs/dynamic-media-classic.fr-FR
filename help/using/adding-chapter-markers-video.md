@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:37:15.687Z'
 TQID: 'https://experienceleague.adobe.com/7o-hO9obr6JB8sIHWQ3KTC6dRzxIBYqlOJOAbanTig0'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: a41ad4865cfa5692ed38c030b45fbb579ce2b3f9
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 22%
+source-wordcount: 609
+ht-degree: 12%
 
 ---
 
@@ -37,7 +34,7 @@ Voir [Ajout ou modification d’un paramètre prédéfini de visionneuse de vid�
 
 Voir aussi [Ajout et modification des paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
 
-Vous créez une liste de chapitres pour votre vidéo un peu de la même façon que vous créez des légendes. Autrement dit, vous créez un fichier WebVTT. Notez, toutefois, que ce fichier doit être distinct de tout fichier de sous-titrage WebVTT que vous pouvez également utiliser ; vous ne pouvez pas combiner des légendes et des chapitres dans un fichier WebVTT.
+Vous créez une liste de chapitres pour votre vidéo un peu de la même façon que vous créez des légendes. Autrement dit, vous créez un fichier WebVTT. Notez toutefois que ce fichier doit être distinct de tout fichier de sous-titres WebVTT que vous utilisez ; ne combinez pas les sous-titres et les chapitres dans un fichier WebVTT.
 
 Vous pouvez utiliser l’exemple suivant comme exemple du format utilisé pour créer un fichier WebVTT avec une navigation de chapitre :
 
@@ -57,7 +54,7 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-Dans l’exemple ci-dessus, `Chapter 1` est l’identifiant de repère et est facultatif. L’heure de repère de `00:00:000 --> 01:04:364` indique l’heure de début et de fin du chapitre, au format 00 :00:. Les trois derniers chiffres sont les millisecondes et peuvent être laissés sur 000, selon vos préférences. Le titre du chapitre de `The bicycle store behind it all` est la description réelle du contenu du chapitre. L’identifiant de repère, l’heure de départ du repère, ainsi que le titre du chapitre apparaissent tous dans un pop-up du lecteur vidéo lorsque le pointeur survole un point de repère visuel dans la chronologie de la vidéo.
+Dans l’exemple ci-dessus, `Chapter 1` est l’identifiant de repère et est facultatif. L’heure de repère de `00:00:000 --> 01:04:364` indique l’heure de début et de fin du chapitre, au format 00 :00:. Les trois derniers chiffres sont des millisecondes et peuvent rester 000, si vous le souhaitez. Le titre du chapitre de `The bicycle store behind it all` est la description du contenu du chapitre. L’identifiant de repère, l’heure de départ du repère et le titre du chapitre apparaissent dans un pop-up du lecteur vidéo lorsque le pointeur survole un point de repère visuel sur la chronologie vidéo.
 
 Puisque vous utilisez une visionneuse de vidéos HTML5, assurez-vous que le fichier de chapitre que vous créez est conforme à la norme WebVTT (Web Video Text Tracks). L’extension de nom de fichier de chapitres est `.VTT`. D’autres informations sont disponibles sur la norme de sous-titrage WebVTT.
 
@@ -71,9 +68,9 @@ Voir [WebVTT : format de suivi de texte de vidéo web](https://w3c.github.io/web
    >
    >Pour la prise en charge globale des chapitres vidéo dans des langues autres que l’anglais, la norme WebVTT exige que vous créiez des fichiers `.VTT` et des appels distincts pour chaque langue que vous souhaitez prendre en charge.
 
-1. Enregistrez le fichier VTT en codage UTF8 pour éviter tout problème de rendu des caractères dans le texte du titre du chapitre.
+1. Enregistrez le fichier VTT en codage UTF-8 pour éviter tout problème de rendu des caractères dans le texte du titre du chapitre.
 
-   En règle générale, vous souhaitez donner au fichier VTT de chapitre le même nom qu’au fichier vidéo et l’ajouter avec `chapters`. Ainsi, vous pouvez automatiser plus facilement la génération des URL de vidéo à l’aide de votre système de gestion de contenu web existant.
+   Nommez le fichier VTT de chapitre de la même manière que le fichier vidéo et ajoutez-le avec `_chapters`. Cela peut vous aider à automatiser la génération des URL de vidéo à l’aide de votre système de gestion de contenu web existant.
 
 1. Dans Adobe Dynamic Media Classic, chargez votre fichier de chapitres WebVTT.
 
@@ -81,7 +78,7 @@ Voir [WebVTT : format de suivi de texte de vidéo web](https://w3c.github.io/web
 
 1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources contenant le fichier vidéo à associer au fichier de chapitres que vous avez chargé.
 1. Dans le panneau de navigation des ressources, sélectionnez une seule ressource vidéo, puis, sous l’image miniature de la ressource, sélectionnez **[!UICONTROL Aperçu]** > **[!UICONTROL Liste de visionneuses]**.
-1. Dans le tableau Liste des visionneuses, recherchez la visionneuse HTML5 nommée **Univeral_HTML5_Video**, puis effectuez l’une des opérations suivantes :
+1. Dans le tableau Liste des visionneuses, recherchez la visionneuse HTML5 nommée **Universal_HTML5_Video**, puis effectuez l’une des opérations suivantes :
 
    * Pour une expérience de visionneuse de vidéos pop-up, sélectionnez **[!UICONTROL Copier l’URL]** à l’extrémité droite du nom.
 
