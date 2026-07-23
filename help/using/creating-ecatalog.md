@@ -12,19 +12,14 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T17:43:46.184Z'
 TQID: 'https://experienceleague.adobe.com/wNCmgUez4XtC2sJFmMQvlsczy2r-TxFsDXzrzACGNXc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 948a71b794caa0297a73e6ad689ab752b86edbf0
 workflow-type: tm+mt
-source-wordcount: 990
-ht-degree: 31%
+source-wordcount: 995
+ht-degree: 27%
 
 ---
 
@@ -57,22 +52,22 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
      >
      >pour visualiser les éléments de la bibliothèque de fichiers par nom plutôt que par miniature, sélectionnez l’option Nom pour l’affichage par défaut de la bibliothèque de fichiers dans l’écran Configuration personnelle.
 
-1. Sélectionnez la disposition globale de votre catalogue électronique. Sélectionnez **[!UICONTROL 1 vers le haut]** pour les pages simples, **[!UICONTROL 2 vers le haut]** pour les pages doubles ou **[!UICONTROL Personnalisé]** pour les pages de plus de deux pages. Dans la boîte de dialogue **[!UICONTROL Modifier la disposition du catalogue électronique]**, sélectionnez les options **[!UICONTROL Toutes les planches]** et sélectionnez **[!UICONTROL OK]**.
-1. Vous pouvez éventuellement modifier la disposition de pages individuelles ou de planches à pages en les sélectionnant, puis en cliquant sur le bouton **[!UICONTROL 1 vers le haut]**, **[!UICONTROL 2 vers le haut]** ou **[!UICONTROL Personnalisé]**. Dans la boîte de dialogue **[!UICONTROL Modifier la disposition du catalogue électronique]**, sélectionnez les options **[!UICONTROL Plages de disques sélectionnées]** puis **[!UICONTROL OK]**.
+1. Sélectionnez la disposition globale de votre catalogue électronique. Sélectionnez **[!UICONTROL 1 vers le haut]** pour les pages simples, **[!UICONTROL 2 vers le haut]** pour les pages doubles ou **[!UICONTROL Personnalisé]** pour les pages de plus de deux pages. Dans la boîte de dialogue **[!UICONTROL Modifier la disposition du catalogue électronique]**, sélectionnez l’option **[!UICONTROL Toutes les planches]** et sélectionnez **[!UICONTROL OK]**.
+1. Vous pouvez éventuellement modifier la disposition de pages individuelles ou de planches à pages en les sélectionnant, puis en cliquant sur le bouton **[!UICONTROL 1 vers le haut]**, **[!UICONTROL 2 vers le haut]** ou **[!UICONTROL Personnalisé]**. Dans la boîte de dialogue **[!UICONTROL Modifier la disposition du catalogue électronique]**, sélectionnez l’option **[!UICONTROL Spreads sélectionnées]** et sélectionnez **[!UICONTROL OK]**.
 1. Réorganisez les pages selon vos besoins en utilisant l’une des méthodes suivantes :
 
-   * **Glisser** : faites glisser une page ou une planche de page vers un nouvel emplacement. La barre verticale indique le nouvel emplacement de la page.
+   * **Glisser** : faites glisser une page ou une planche de page vers un nouvel emplacement. La barre verticale indique la position vers laquelle la page est déplacée.
 
-   * **Bouton Déplacer vers** : sélectionnez une page ou une planche de page, puis sélectionnez **[!UICONTROL Déplacer vers]** et choisissez la page dans le menu qui doit précéder la page.
+   * **Bouton Déplacer vers** : sélectionnez une page ou une planche de page, puis sélectionnez **[!UICONTROL Déplacer vers]** et choisissez la page dans le menu devant laquelle vous souhaitez que la page s’affiche.
 
-   * **Séquence n°** : dans la vue Liste, saisissez les numéros de page dans les champs de la séquence n°.
+   * **Séquence n°** : dans la vue Liste, saisissez les numéros de page dans les champs N° séquence.
 
 1. Lorsque vous avez terminé, en bas à droite de la page, assurez-vous que l’option **[!UICONTROL Publier après un enregistrement]** est sélectionnée (par défaut).
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
-1. Dans la boîte de dialogue Enregistrer, sélectionnez le dossier dans lequel conserver le catalogue électronique. Dans le champ Nom de fichier, saisissez le nom de la visionneuse à 360°.
+1. Dans la boîte de dialogue Enregistrer, sélectionnez le dossier dans lequel conserver le catalogue électronique. Dans le champ Nom de fichier, saisissez le nom du catalogue électronique.
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
-   Une fois enregistré, vous pouvez prévisualiser votre catalogue électronique en sélectionnant **[!UICONTROL Aperçu]**.
+   Vous pouvez prévisualiser votre catalogue électronique après l’avoir enregistré en sélectionnant **[!UICONTROL Aperçu]**.
 
 ## Modification d’un catalogue électronique {#editing-an-ecatalog}
 
@@ -96,7 +91,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 ## Suppression d’un catalogue électronique
 
-Lorsque vous supprimez une visionneuse, celle-ci est placée dans la corbeille. Toutefois, les membres (ou « enfants ») de cet ensemble ne sont pas affectés. Ils conservent chacun leur état publié ou dépublié existant.
+Lorsque vous supprimez une visionneuse, la visionneuse elle-même est déplacée vers le dossier Éléments supprimés. Les membres de cet ensemble ne sont pas affectés. Ils conservent chacun leur statut publié ou dépublié existant.
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
@@ -121,9 +116,9 @@ Saisissez manuellement les noms de page un par un en accédant à l’onglet Com
 
 ### Importer les noms de page {#importing-page-names}
 
-Il est recommandé d’utiliser la méthode d’importation des noms de page si le catalogue électronique contient de nombreuses pages. Vous pouvez importer les noms à partir d’un fichier délimité par des tabulations ou d’un fichier XML.
+Il est recommandé d’importer les noms de page si vous utilisez un catalogue électronique contenant de nombreuses pages. Vous pouvez importer les noms à partir d’un fichier délimité par des tabulations ou d’un fichier XML.
 
-Le libellé de la table des matières est stocké dans le champ de données utilisateur d’une image. Mettez en forme ces données sous la forme d’une liste de ` pairs separated by two question marks "??" ` `name=<value>`. Par exemple, pour définir un libellé pour un champ de table des matières nommé `tocEN`, définissez les données utilisateur de l’image sur :
+Le libellé de la table des matières est stocké dans le champ de données utilisateur d’une image. Mettez en forme ces données sous la forme d’une liste de paires de `name=<value>` séparées par deux points d’interrogation « ?? ». Par exemple, pour définir un libellé pour un champ de table des matières nommé `tocEN`, définissez les données utilisateur de l’image sur :
 
 `tocEN=&lt;EN_page_label>`
 
