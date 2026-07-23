@@ -48,7 +48,7 @@ Voir aussi [Ajout et modification de paramètres prédéfinis de visionneuse](ap
 
 Adobe Dynamic Media Classic peut convertir les fichiers de sous-titres au format JSON (JavaScript Object Notation). Cette conversion signifie que vous pouvez incorporer le texte JSON dans une page web sous la forme d’une transcription masquée complète de la vidéo. Les moteurs de recherche peuvent ensuite explorer au contenu et l’indexer pour rendre les vidéos plus facilement détectables et fournir aux clients et clientes plus de détails sur le contenu de la vidéo.
 
-Pour plus d’informations sur l’utilisation de la fonction JSON dans une URL[&#128279;](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) voir Diffuser du contenu statique (hors images)dans .
+Pour plus d’informations sur l’utilisation de la fonction JSON dans une URL[&#128279;](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) voir Diffuser du contenu statique (hors images)dans .
 
 **Pour ajouter des sous-titres à une vidéo, procédez comme suit**
 
