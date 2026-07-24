@@ -1,5 +1,5 @@
 ---
-title: Modification d’une image
+title: Réglage d’une image
 description: Découvrez comment ajuster une image dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,50 +18,50 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 4280c815eca0ff8828d350afe6de877f6160e9ae
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 35%
+source-wordcount: 535
+ht-degree: 24%
 
 ---
 
 # Modification d’une image{#adjusting-an-image}
 
-Adobe Dynamic Media Classic propose différentes commandes pour ajuster l’aspect d’une image. Vous pouvez inverser, faire pivoter, rendre floue, modifier la balance des couleurs et colorer une image. Faites des essais avec ces commandes pour constater leurs effets sur l’image en cours de traitement.
+Adobe Dynamic Media Classic propose différentes commandes pour ajuster l’aspect d’une image. Vous pouvez inverser, faire pivoter, rendre floue, modifier la balance des couleurs et colorer une image. Lorsque vous testez ces commandes, vous pouvez observer leurs effets sur l’image que vous utilisez.
 
 Voir aussi [Créer un alias pour une image](adjusting-image.md#creating_an_alias_for_an_image).
 
 **Pour ajuster une image :**
 
 1. Sélectionnez le bouton Modifier de survol de l’image et choisissez Ajuster, ou, dans le panneau Parcourir , double-cliquez sur l’image pour l’ouvrir dans l’affichage des détails.
-1. Sélectionnez une taille et un paramètre prédéfini d’image (dans la partie inférieure de la fenêtre).
+1. Sélectionnez une taille et un paramètre d’image prédéfini (au bas de la fenêtre).
 1. Utilisez les commandes situées sur le côté droit de la fenêtre de `Adjust Editor` pour ajuster l’image :
 
    * Utilisez les options de retournement (Retourner) pour faire pivoter une image sur le plan horizontal ou vertical.
    * Utilisez le curseur **[!UICONTROL Rotateur]** pour faire pivoter l’image. Vous pouvez saisir des valeurs dans le champ **[!UICONTROL Rotateur]** pour faire pivoter une image. Les valeurs positives appliquent une rotation horaire et les valeurs négatives, une rotation antihoraire.
-   * Utilisez le curseur Estomper ou la zone correspondante pour rendre une image floue. Plus la valeur est élevée, plus l’image devient floue.
+   * Utilisez le curseur Estomper ou la zone correspondante pour rendre une image floue. Des valeurs plus élevées augmentent le flou de l’image.
    * Utilisez les options Contraste, Luminosité, Saturation, Teinte et Equilibre des couleurs pour régler la couleur et la luminosité. Ces effets sont cumulatifs. Par exemple, les modifications apportées aux paramètres Magenta/Vert s’ajoutent aux modifications des paramètres Teinte.
-   * Utilisez les options `Colorize` pour colorer une image tout en conservant les ombres et les tons clairs. Les modifications effectuées à l’aide des options Coloriser sont également cumulatives. Dans le menu Luminosité , choisissez **[!UICONTROL Aucune compensation]** afin de désactiver la compensation automatique de la luminosité. Définissez la valeur de contraste sur 0 pour conserver la plage de contraste de l’image originale, ou spécifiez une plage de contraste avec une valeur supérieure à 0. Une valeur égale à 100 produit le contraste maximum. Les valeurs standard sont comprises entre 30 et 70.
+   * Utilisez les options `Colorize` pour colorer une image tout en conservant les ombres et les tons clairs. Les modifications effectuées à l’aide des options Coloriser sont également cumulatives. Dans le menu Luminosité , choisissez **[!UICONTROL Aucune compensation]** pour désactiver la compensation automatique de la luminosité. Pour conserver la plage de contraste de l’image d’origine, définissez la valeur de contraste sur 0 ou spécifiez une plage de contraste avec une valeur supérieure à 0. Une valeur égale à 100 produit le contraste maximum. Les valeurs standard sont comprises entre 30 et 70.
 
 1. Une fois le réglage de l’image terminé, procédez de l’une des manières suivantes :
 
    * Sélectionnez **[!UICONTROL Enregistrer]**.
 
-   * Pour remplacer l’original de l’image, sélectionnez **[!UICONTROL Enregistrer sous]**.
+   * Pour remplacer l’image d’origine, sélectionnez **[!UICONTROL Enregistrer sous]**.
 
      Dans la liste déroulante, sélectionnez **[!UICONTROL Remplacer l’original]**, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
    * Pour enregistrer l’image en tant que nouvelle image principale, sélectionnez **[!UICONTROL Enregistrer sous]**.
 
      Dans la liste déroulante, sélectionnez **[!UICONTROL Enregistrer en tant que nouvelle instance principale]**.
-Dans la zone de liste **[!UICONTROL Nom du dossier]**, sélectionnez le dossier dans lequel vous souhaitez enregistrer la nouvelle image principale.
-Sélectionnez **[!UICONTROL Enregistrer]**.
+     Dans la zone de liste **[!UICONTROL Nom du dossier]**, sélectionnez le dossier dans lequel vous souhaitez enregistrer la nouvelle image principale.
+     Sélectionnez **[!UICONTROL Enregistrer]**.
 
-   * Pour enregistrer l’image en tant qu’autre affichage de l’image principale. créez un alias pour cette image. Sélectionnez **[!UICONTROL Enregistrer sous]**.
+   * Pour enregistrer l’image en tant qu’autre affichage de l’image principale, vous pouvez créer un alias pour celle-ci. Sélectionnez **[!UICONTROL Enregistrer sous]**.
 
      Dans la liste déroulante de la boîte de dialogue **[!UICONTROL Enregistrer sous]**, sélectionnez **[!UICONTROL Enregistrer en tant qu’autre vue de la vue principale]**.
-Dans la zone de liste **[!UICONTROL Nom du dossier]**, sélectionnez le dossier dans lequel vous souhaitez enregistrer la nouvelle image principale.
-Sélectionnez **[!UICONTROL Enregistrer]**.
+     Dans la zone de liste **[!UICONTROL Nom du dossier]**, sélectionnez le dossier dans lequel vous souhaitez enregistrer la nouvelle image principale.
+     Sélectionnez **[!UICONTROL Enregistrer]**.
 
 ## Création d’un alias pour une image {#creating-an-alias-for-an-image}
 

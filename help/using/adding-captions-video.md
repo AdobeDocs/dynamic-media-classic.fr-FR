@@ -19,16 +19,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: d916bcffc88b88a6cefec53fb7775c7a1eb78910
 workflow-type: tm+mt
-source-wordcount: 730
-ht-degree: 15%
+source-wordcount: 716
+ht-degree: 7%
 
 ---
 
 # Ajout de sous-titres à une vidéo {#add-captions-to-video}
 
-Étendez la portée de vos vidéos aux marchés mondiaux. Pour ce faire, vous pouvez ajouter des sous-titres à des vidéos uniques ou à des visionneuses de vidéos adaptatives. En ajoutant des sous-titres vous évitez d’avoir à réenregistrer le son ou de recourir à des locuteurs natifs pour réenregistrer l’audio dans chacune des langues. La vidéo est lue dans la langue dans laquelle elle a été enregistrée. Les sous-titres en langue étrangère s’affichent pour que les personnes parlant d’autres langues puissent néanmoins comprendre la partie audio.
+Mettez vos vidéos à la disposition des marchés mondiaux. Pour ce faire, vous pouvez ajouter des sous-titres à des vidéos uniques ou à des visionneuses de vidéos adaptatives. En ajoutant des sous-titrages, vous évitez d’avoir à réenregistrer le son ou de recourir à des artistes vocaux natifs pour enregistrer le son dans chaque langue. La vidéo est lue dans sa langue d’origine. Les sous-titres traduits s’affichent afin que les personnes de différentes langues puissent toujours comprendre la partie audio.
 
 Les légendes élargissent également l’accessibilité en utilisant le sous-titrage télétexte pour les sourds ou les malentendants.
 
@@ -46,9 +46,9 @@ Voir [Ajout ou modification d’un paramètre prédéfini de visionneuse de vid�
 
 Voir aussi [Ajout et modification de paramètres prédéfinis de visionneuse](application-setup.md#adding_and_editing_viewer_presets).
 
-Adobe Dynamic Media Classic peut convertir les fichiers de sous-titres au format JSON (JavaScript Object Notation). Cette conversion signifie que vous pouvez incorporer le texte JSON dans une page web sous la forme d’une transcription masquée complète de la vidéo. Les moteurs de recherche peuvent ensuite explorer au contenu et l’indexer pour rendre les vidéos plus facilement détectables et fournir aux clients et clientes plus de détails sur le contenu de la vidéo.
+Adobe Dynamic Media Classic peut convertir les fichiers de sous-titres au format JSON (JavaScript Object Notation). Cette conversion vous permet d’incorporer le texte JSON dans une page web sous la forme d’une transcription masquée complète de la vidéo. Les moteurs de recherche peuvent ensuite explorer au contenu et l’indexer pour rendre les vidéos plus facilement détectables et fournir aux clients et clientes plus de détails sur le contenu de la vidéo.
 
-Pour plus d’informations sur l’utilisation de la fonction JSON dans une URL[&#128279;](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) voir Diffuser du contenu statique (hors images)dans .
+Voir [Service de contenu statique (hors images)](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) pour plus d’informations sur l’utilisation de la fonction JSON dans une URL.
 
 **Pour ajouter des sous-titres à une vidéo, procédez comme suit**
 
@@ -64,17 +64,17 @@ Pour plus d’informations sur l’utilisation de la fonction JSON dans une URL[
 
 1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources contenant le fichier vidéo à associer au fichier de sous-titres que vous avez chargé.
 1. Dans le panneau de navigation des ressources, sélectionnez une seule ressource vidéo, puis, sous l’image miniature de la ressource, sélectionnez **[!UICONTROL Aperçu]** > **[!UICONTROL Liste de visionneuses]**.
-1. Dans le tableau Liste des visionneuses, recherchez la visionneuse HTML5 nommée **Univeral_HTML5_Video**, **Universal_HTML5_MixedMedia_dark** ou **Universal_HTML5_MixedMedia_light**, puis effectuez l’une des opérations suivantes :
+1. Dans le tableau Liste des visionneuses, recherchez la visionneuse HTML5 nommée **Universal_HTML5_Video**, **Universal_HTML5_MixedMedia_dark** ou **Universal_HTML5_MixedMedia_light**, puis effectuez l’une des opérations suivantes :
 
-   * Pour une expérience de visionneuse de vidéos pop-up, sélectionnez **[!UICONTROL Copier l’URL]** à l’extrémité droite du nom.
+   * Pour une expérience de visionneuse de vidéos pop-up, sélectionnez **[!UICONTROL Copier l’URL]** à droite du nom.
 
-     Ajoutez l’URL copiée de la vidéo avec la syntaxe suivante pour l’associer à l’URL copiée dans votre fichier de sous-titres :
+     Ajoutez la syntaxe suivante à l’URL copiée de la vidéo pour l’associer à votre fichier de sous-titres :
 
      `&caption=<full Copy URL path to the caption file .vtt>,1`
 
      Notez la `,1` à la fin du chemin d’URL de la légende. Juste après l’extension de fichier VTT dans le chemin d’accès, vous avez la possibilité d’activer ou de désactiver le bouton de sous-titres dans la barre de lecteur vidéo en définissant la valeur sur `1` ou `0`, respectivement.
 
-   * Pour une expérience de visionneuse de vidéos intégrée, sélectionnez **[!UICONTROL Code intégré]** à l’extrémité droite du nom.
+   * Pour une expérience de visionneuse de vidéos intégrée, sélectionnez **[!UICONTROL Code intégré]** à droite du nom.
 
      Dans la boîte de dialogue Code incorporé, sélectionnez **[!UICONTROL Copier dans le presse-papiers]**.
 

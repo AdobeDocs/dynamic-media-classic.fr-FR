@@ -18,18 +18,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 6fc776c64e7e0dca958296b508b2d7b07849a88d
 workflow-type: tm+mt
-source-wordcount: 450
-ht-degree: 27%
+source-wordcount: 433
+ht-degree: 20%
 
 ---
 
 # Utilisation des dossiers de ressources{#working-with-asset-folders}
 
-Les ressources fichiers d’Adobe Dynamic Media Classic sont conservées dans des dossiers. lesquels sont classés par ordre alphabétique dans le panneau Bibliothèque de fichiers. Avant de télécharger des fichiers de votre ordinateur ou réseau vers Adobe Dynamic Media Classic, vous êtes invité à nommer un dossier pour stocker les fichiers. Créez ces dossiers avant de télécharger des fichiers.
+Les ressources fichiers d’Adobe Dynamic Media Classic sont conservées dans des dossiers. Ces dossiers sont répertoriés par ordre alphabétique dans le panneau Bibliothèque de ressources. Avant de télécharger des fichiers de votre ordinateur ou réseau vers Adobe Dynamic Media Classic, vous êtes invité à nommer un dossier dans lequel les stocker. Créez ces dossiers avant de télécharger des fichiers.
 
-Assurez-vous d’établir une structure de dossiers et une organisation pour le stockage de vos fichiers sur Adobe Dynamic Media Classic avant de charger les fichiers.
+Assurez-vous d’établir une structure de dossiers et une organisation pour le stockage de vos fichiers dans Adobe Dynamic Media Classic avant de charger les fichiers.
 
 ## Afficher, déplacer, masquer et ouvrir des dossiers {#displaying-moving-hiding-and-opening-folders}
 
@@ -37,7 +37,7 @@ La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de
 
 * **Afficher les sous-dossiers** : sélectionnez l’icône **[!UICONTROL Dossier développé]** pour afficher les sous-dossiers dans un dossier. Cette icône se trouve à gauche des noms de dossiers.
 
-* **Déplacer un dossier** : vous pouvez déplacer un dossier en le faisant glisser et en le déposant à son nouvel emplacement ou en sélectionnant **[!UICONTROL Fichier]** > **[!UICONTROL Déplacer un dossier]**.
+* **Déplacer un dossier** : déplacez un dossier en le faisant glisser et en le déposant, ou sélectionnez **[!UICONTROL Fichier]** > **[!UICONTROL Déplacer un dossier]**.
 
 * **Masquer les dossiers** : sélectionnez l’icône **[!UICONTROL Dossier réduit]** si vous souhaitez réduire les sous-dossiers pour les masquer de la vue. Cette icône se trouve à gauche des noms de dossiers.
 
@@ -45,11 +45,11 @@ La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de
 
 >[!TIP]
 >
->Vous pouvez masquer ou afficher la bibliothèque de ressources en sélectionnant le contrôle **[!UICONTROL Développer]** ou **[!UICONTROL Réduire]** sur son côté gauche. Réduisez le panneau Bibliothèque de ressources lorsque vous avez besoin de plus d’espace pour travailler dans le panneau de navigation.
+>Vous pouvez masquer ou afficher la bibliothèque de ressources en sélectionnant le contrôle **[!UICONTROL Développer]** ou **[!UICONTROL Réduire]** sur son côté gauche. Réduisez le panneau Bibliothèque de ressources lorsque vous avez besoin d’espace supplémentaire dans le panneau Parcourir .
 
 ## Créer des dossiers
 
-1. Dans la bibliothèque de fichiers, sélectionnez le dossier dans lequel vous souhaitez créer un sous-dossier.
+1. Dans la bibliothèque de ressources, sélectionnez le dossier dans lequel vous souhaitez créer un dossier.
 1. Sélectionnez le bouton **[!UICONTROL `Add Folder`]** . Cette icône se trouve en haut de la liste des dossiers.
 1. Saisissez un nom explicite pour votre nouveau dossier ou sous-dossier. Saisissez-la dans le champ en regard de l’icône de dossier.
 
@@ -61,10 +61,10 @@ La bibliothèque de fichiers affiche les fichiers sous forme d’arborescence de
 
 Sélectionnez un dossier et utilisez les techniques suivantes pour le supprimer ou le renommer :
 
-* **Supprimer** : sélectionnez le bouton **[!UICONTROL `Remove Folder`]** . Les fichiers d’un dossier supprimé sont placés dans le dossier Corbeille. Vous pouvez les y récupérer.
+* **Supprimer** : sélectionnez le bouton **[!UICONTROL `Remove Folder`]** . Dans un dossier supprimé, Assets est déplacé vers le dossier éléments supprimés . Vous pouvez les y récupérer.
 
 * **Renommer** : double-cliquez sur le nom et saisissez un nouveau nom.
 
 >[!NOTE]
 >
->Vous ne pouvez pas copier des dossiers ou des ressources, car cela créerait des dossiers et des ressources en double sur Adobe Dynamic Media Classic. Les doublons ne sont pas autorisés.
+>La copie de dossiers ou de ressources crée des dossiers et des ressources en double dans Adobe Dynamic Media Classic, ce qui n’est pas pris en charge.

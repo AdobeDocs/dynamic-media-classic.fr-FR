@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 4280c815eca0ff8828d350afe6de877f6160e9ae
 workflow-type: tm+mt
-source-wordcount: 1032
-ht-degree: 51%
+source-wordcount: 1031
+ht-degree: 49%
 
 ---
 
@@ -111,7 +111,7 @@ Chaque utilisateur de la liste est automatiquement ajouté aux groupes spécifi�
 
 ## Génération d’une liste d’utilisateurs du portail multimédia disponible à la sélection {#generating-a-selectable-list-of-media-portal-users}
 
-Vous pouvez afficher les noms et les adresses e-mail des utilisateurs du portail multimédia dans une fenêtre contextuelle. Cette liste est utile pour couper et coller des noms d’utilisateur et des adresses qui seront utilisés à l’extérieur du portail multimédia.
+Vous pouvez afficher les noms et les adresses e-mail des utilisateurs du portail multimédia dans une fenêtre contextuelle. Cette liste est utile si vous souhaitez copier et coller des noms d’utilisateur et des adresses à utiliser en dehors de Media Portal.
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de l’administration]** > **[!UICONTROL Administration des utilisateurs]**.
 1. Dans la liste déroulante **[!UICONTROL Par rôle d’utilisateur]**, choisissez le nom d’un rôle d’utilisateur du portail multimédia, puis sélectionnez **[!UICONTROL Actualiser]** pour afficher les noms d’une classe d’utilisateurs du portail multimédia.
@@ -135,7 +135,7 @@ Vous pouvez envoyer un e-mail de bienvenue à tous les nouveaux utilisateurs, co
 
 L’écran de configuration de l’administration utilisateur vous permet d’effectuer les tâches suivantes :
 
-* **[!UICONTROL Filtrer et trier la liste des utilisateurs]** : filtrez la liste des utilisateurs du portail multimédia pour localiser les utilisateurs.
+* **[!UICONTROL Filtrer et trier la liste des utilisateurs]** : pour localiser les utilisateurs, filtrez la liste des utilisateurs du portail multimédia.
 
 * **[!UICONTROL Supprimer des utilisateurs]** : permet de supprimer un utilisateur de la liste.
 

@@ -20,10 +20,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 839735160b7123c57d176866bc4e5dd56dbf4bdc
 workflow-type: tm+mt
-source-wordcount: 1643
-ht-degree: 21%
+source-wordcount: 1656
+ht-degree: 20%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 21%
 
 Pour surveiller les chargements de fichiers vers Adobe Dynamic Media Classic et les fichiers que vous publiez sur les serveurs Adobe Dynamic Media Classic, Adobe Dynamic Media Classic propose la page Tâches . Vous pouvez vérifier, charger et publier des tâches sur la page Tâches, vérifier le statut des tâches et annuler les tâches de publication à partir de cette page. Vous pouvez également planifier des tâches de téléchargement et de publication.
 
-Lorsque vous téléchargez des fichiers, une icône rotative apparaît en regard du menu Tâches, indiquant qu’une tâche est en cours, ainsi que le nombre de fichiers en cours. Vous pouvez sélectionner l’icône pour afficher plus d’informations sur la tâche active.
+Lorsque vous chargez des ressources, une icône tournante s’affiche en regard du menu Tâches , indiquant qu’une tâche est en cours et le nombre de fichiers qu’elle contient. Vous pouvez sélectionner l’icône pour afficher plus d’informations sur la tâche active.
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Sur l’onglet Historique de la page Tâches, les tâches sont répertoriées se
 
 * **[!UICONTROL Total]** : nombre de fichiers transférés.
 
-* **[!UICONTROL W (avertissements)]** : nombre d’avertissements dans la tâche (le cas échéant). Les avertissements indiquent des problèmes associés à la tâche qui sont sans effet sur son exécution globale. Ces avertissements peuvent généralement être ignorés parce qu’ils sont signalés dans des fichiers masqués. Par exemple, les fichiers `.DS_store` (Mac) et les fichiers Thumbs.db (Windows®) contiennent des informations sur l’affichage des fichiers image aux utilisateurs. Les entrées d’avertissement concernant ces fichiers peuvent toutefois être ignorées, car elles ne se rapportent pas à la manière dont ces fichiers sont utilisés dans Adobe Dynamic Media Classic. Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les avertissements la concernant.
+* **[!UICONTROL W (avertissements)]** : nombre d’avertissements dans la tâche (le cas échéant). Les avertissements indiquent des problèmes associés à la tâche qui sont sans effet sur son exécution globale. Ces avertissements peuvent généralement être ignorés parce qu’ils sont signalés dans des fichiers masqués. Par exemple : les fichiers `.DS_store` (Mac) et les fichiers Thumbs.db (Windows®) contiennent des informations sur l’affichage des fichiers image aux utilisateurs. Les entrées d’avertissement concernant ces fichiers peuvent toutefois être ignorées, car elles ne se rapportent pas à la manière dont ces fichiers sont utilisés dans Adobe Dynamic Media Classic. Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les avertissements la concernant.
 
 * **[!UICONTROL E (erreurs)]** : répertorie le nombre d’erreurs dans la tâche (le cas échéant). Vous pouvez cliquer deux fois sur un nom de tâche pour obtenir des informations détaillées sur les erreurs la concernant.
 
@@ -91,7 +91,7 @@ Vous pouvez copier ces informations dans le Presse-papiers.
 
 ## Gestion des tâches récurrentes de chargement et de publication {#handling-recurring-upload-and-publish-jobs}
 
-Les tâches de chargement et de publication récurrentes que vous créez sur les pages Charger et Publier sont répertoriées dans l’onglet Planifié de la page Tâches. Vous pouvez éditer et supprimer des tâches périodiques dans l’onglet Planifiée.
+Les tâches de téléchargement et de publication périodiques que vous créez dans les pages Télécharger et Publier sont répertoriées dans l’onglet Planifiée de la page Tâches. Vous pouvez éditer et supprimer des tâches périodiques dans l’onglet Planifiée.
 
 Sélectionnez le bouton Tâches dans la barre de navigation générale, puis, sur la page Tâches, sélectionnez l’onglet **[!UICONTROL Planifié]** afin de pouvoir modifier et supprimer des tâches récurrentes.
 
@@ -119,7 +119,7 @@ La syntaxe de définition des intervalles personnalisés de périodicité de té
 
 `[seconds]` `[minutes]` `[hour of day]` `[day of month]` `[month]` `[day of week]`
 
-Par exemple, `0 15 10 * * ?` planifie un traitement à 10 :15 tous les jours.
+Par exemple, `0 15 10 * * ?` planifie un traitement à 10 h 15 tous les jours.
 
 Les tableaux et la liste ci-après expliquent comment définir un intervalle dans la zone Règle.
 
@@ -152,18 +152,18 @@ Ce tableau indique les caractères génériques qui sont autorisés dans la zone
 Cette liste donne des exemples de définition d’intervalle dans la zone Règle :
 
 * `0 0 12 * * ?` : midi tous les jours
-* `0 15 10 ? * *` : 10 :15 tous les jours
-* `0 0/5 14 * * ?` : Toutes les 5 minutes entre 14:00 et 14:55 tous les jours
-* `0 0/5 14,18 * * ?` : toutes les 5 minutes entre 14:00 et 14:55 tous les jours et toutes les 5 minutes entre 18:00 et 18:55 tous les jours
-* `0 10,44 14 ? 3` : Mercredi à 14:10h et 14:44h tous les mercredis de mars
-* `0 15 10 ? *` : lundi-vendredi à 10:15 tous les jours de la semaine
-* `0 15 10 20 * ?` : à 10 :15 le 20 de chaque mois
-* `0 15 10 L * ?` : à 10 :15 le dernier jour de chaque mois
-* `0 15 10 ? * 6L` : à 10 :15 le dernier vendredi de chaque mois
-* `0 15 10 * * 6#3` : à 10 :15 le troisième vendredi de chaque mois
+* `0 15 10 ? * *` : 10h15 tous les jours
+* `0 0/5 14 * * ?` : Toutes les 5 minutes entre 14 h et 14 h 55 tous les jours
+* `0 0/5 14,18 * * ?` : toutes les 5 minutes entre 14 h et 14 h 55 tous les jours et toutes les 5 minutes entre 18 h et 18 h 55 tous les jours
+* `0 10,44 14 ? 3` : mercredi à 14h10 et 14h44 tous les mercredis de mars
+* `0 15 10 ? *` : lundi-vendredi à 10h15 tous les jours de la semaine
+* `0 15 10 20 * ?` : à 10h15 le 20e jour de chaque mois
+* `0 15 10 L * ?` : à 10 h 15 le dernier jour de chaque mois
+* `0 15 10 ? * 6L` : à 10 h 15 le dernier vendredi de chaque mois
+* `0 15 10 * * 6#3` : à 10 h 15, le troisième vendredi de chaque mois
 
 ## Utiliser une tâche de chargement ou de publication comme déclencheur {#using-an-upload-or-publish-job-as-a-trigger}
 
-Lorsque vous chargez des ressources par FTP ou que vous exécutez une tâche de publication, vous pouvez planifier une tâche ultérieure pour qu’elle commence une fois le chargement terminé. (Si d’autres tâches sont planifiées pour commencer alors, la tâche que vous planifiez ici est mise en file d’attente derrière elles.) Le nouveau traitement envoie une notification à l’adresse que vous spécifiez afin que le code de cet emplacement puisse être déclenché. Le même nom que la tâche de téléchargement actuelle est attribué à la tâche de téléchargement à suivre, si ce n’est qu’il est accompagné du préfixe _Pub.
+Lorsque vous chargez des ressources par FTP ou que vous exécutez une tâche de publication, vous pouvez planifier une tâche ultérieure pour qu’elle commence une fois le chargement terminé. (Si d’autres tâches sont planifiées pour commencer alors, la tâche que vous planifiez ici est mise en file d’attente derrière elles.) Le nouveau traitement envoie une notification à l’adresse que vous spécifiez afin que le code de cet emplacement puisse être déclenché. Cette tâche de chargement suivante porte le même nom que la tâche de chargement actuelle, mais avec le préfixe `_Pub`.
 
 Pour qu’une tâche de chargement ou de publication déclenche une autre tâche, sélectionnez **[!UICONTROL Avancé]** sur la page Charger ou Publier. Entrez ensuite l’URL dans le champ Notification HTTP.
