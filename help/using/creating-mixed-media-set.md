@@ -11,16 +11,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:42:05.016Z'
 TQID: 'https://experienceleague.adobe.com/SgUcHyeFzCORCwV-VtfqQHFp2JDRsPsYb47mo3Z1yK4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 408b6136b4171af1e0e39a735fc1e56b9d6967ec
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 57%
+source-wordcount: 628
+ht-degree: 54%
 
 ---
 
@@ -53,7 +50,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Utilisez l’une des méthodes suivantes :
 
    * Pour ajouter une bande sonore, faites glisser un fichier audio depuis la bibliothèque de fichiers vers la zone Bande sonore. La bande sonore est lue pendant l’affichage des images. Il s’arrête lors de la lecture d’une vidéo.
-   * Pour changer l’ordre des visionneuses, faites-les glisser à l’emplacement de votre choix sur l’écran Visionneuse de supports variés. L’ordre des visionneuses à l’écran détermine l’ordre (de gauche à droite) dans lequel les utilisateurs les visualisent dans la visionneuse de supports variés.
+   * Pour changer l’ordre des visionneuses, faites-les glisser à l’emplacement de votre choix sur l’écran Visionneuse de supports variés. L’ordre de l’écran détermine l’ordre de gauche à droite dans lequel les utilisateurs voient les visionneuses dans la visionneuse de médias mixtes.
    * (Optionnel) Pour ajouter une miniature personnalisée représentant une vidéo dans la visionneuse, faites glisser un fichier d’image depuis la bibliothèque de fichiers vers l’emplacement réservé à la miniature.
 
 1. Près du coin inférieur droit de la page, assurez-vous que l’option **[!UICONTROL Publier après un enregistrement]** est sélectionnée (par défaut).
@@ -61,7 +58,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Sélectionnez un dossier pour stocker votre visionneuse de médias mixtes, puis saisissez un nom pour la visionneuse.
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
-   Pour voir à quoi ressemble votre visionneuse d’images combinée dans une visionneuse d’images, sélectionnez **[!UICONTROL Aperçu]**.
+   Pour voir à quoi ressemble votre visionneuse de médias mixtes dans une visionneuse d’images, sélectionnez **[!UICONTROL Aperçu]**.
 
 ## Modification d’une visionneuse de supports variés {#edit-a-mixed-media-set}
 
@@ -91,7 +88,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 ## Suppression d’une visionneuse de médias mixtes
 
-Lorsque vous supprimez une visionneuse, celle-ci est placée dans la corbeille. Toutefois, les membres (ou « enfants ») de cet ensemble ne sont pas affectés. Ils conservent chacun leur état publié ou dépublié existant.
+Lorsque vous supprimez une visionneuse, celle-ci est placée dans la corbeille. Les membres de cet ensemble ne sont pas affectés. Au lieu de cela, ils conservent chacun leur statut publié ou dépublié existant.
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
