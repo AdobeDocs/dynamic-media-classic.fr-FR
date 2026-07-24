@@ -12,35 +12,30 @@ topic: Administration, Collaboration
 level: Intermediate
 autotag-review: '2026-05-13T17:41:54.576Z'
 TQID: 'https://experienceleague.adobe.com/If0j5hWmxTOGGYshsqh2sa0iM3S2SvG57iPO2rtG1lY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b83425ec5382ae173947fa0c9321e734f14eaced
 workflow-type: tm+mt
-source-wordcount: 841
-ht-degree: 49%
+source-wordcount: 843
+ht-degree: 39%
 
 ---
 
 # Création et gestion de groupes du portail multimédia{#creating-and-managing-media-portal-groups}
 
-Les *groupes* sont conçus pour vous aider à administrer les utilisateurs du portail multimédia. Pour accéder à un fichier, un utilisateur doit appartenir au minimum à un groupe autorisé à accéder à ce fichier. Lorsque vous ajoutez un utilisateur, vous l’affectez à un ou plusieurs groupes. Ce faisant, vous accordez à l’utilisateur l’accès aux dossiers auxquels le groupe a été affecté. Vous pouvez également choisir les paramètres d’image prédéfinis qui sont disponibles pour un groupe.
+Les groupes sont conçus pour vous aider à administrer les utilisateurs du portail multimédia. Pour accéder à un fichier, un utilisateur doit appartenir au minimum à un groupe autorisé à accéder à ce fichier. Lorsque vous ajoutez un utilisateur, vous l’affectez à un ou plusieurs groupes. Ce faisant, vous accordez à l’utilisateur l’accès aux dossiers auxquels le groupe a été affecté. Vous pouvez également choisir les paramètres d’image prédéfinis qui sont disponibles pour un groupe.
 
 ## Utilisez des groupes pour restreindre l’accès aux dossiers, ressources et paramètres d’image prédéfinis {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
 
-Pour accorder des autorisations d’accès à différents niveaux, vous créez des groupes. Pour chaque groupe, vous définissez des autorisations d’accès en lecture, en écriture et en suppression à des dossiers et à leur contenu. Vous déterminez également les paramètres d’image prédéfinis qui sont disponibles pour le groupe. Vous affectez ensuite les utilisateurs à des groupes. Un utilisateur peut appartenir à plusieurs groupes. Le concept de groupe vous offre la possibilité de donner accès à un nombre limité de contenus par rapport au contenu total.
+Pour accorder des autorisations d’accès à différents niveaux, vous créez des groupes. Pour chaque groupe, vous définissez des autorisations d’accès en lecture, en écriture et en suppression à des dossiers et à leur contenu. En outre, vous décidez des paramètres d’image prédéfinis disponibles pour le groupe. Vous affectez ensuite les utilisateurs à des groupes. Un utilisateur peut appartenir à plusieurs groupes. La fonction de groupe offre la possibilité d’attribuer l’accès à des ensembles limités de contenu total.
 
-Si vous n’accordez pas spécifiquement l’autorisation de groupe à une ressource ou à un dossier, cette ressource ou ce dossier hérite des autorisations que vous avez attribuées à son dossier parent (le dossier situé au-dessus dans la hiérarchie des dossiers). Pour vous assurer que tous les dossiers enfants d’un dossier particulier héritent d’autorisations identiques, accordez les autorisations au dossier parent.
+Si vous n’accordez pas spécifiquement l’autorisation de groupe à une ressource ou à un dossier, cette ressource ou ce dossier hérite des autorisations que vous avez attribuées à son dossier parent (le dossier situé au-dessus dans la hiérarchie des dossiers). Octroyez des autorisations sur un dossier parent. Effectuez cette opération pour vous assurer que tous ses dossiers enfants héritent des mêmes autorisations.
 
 >[!NOTE]
 >
->les utilisateurs peuvent appartenir à plusieurs groupes. Lorsqu’un utilisateur appartient à deux groupes ayant des autorisations d’accès différentes à un dossier, cet utilisateur est doté du niveau d’accès le plus élevé.
+>les utilisateurs peuvent appartenir à plusieurs groupes. Lorsqu’un utilisateur appartient à deux groupes avec des autorisations d’accès différentes à un dossier, l’accès le plus permissif lui est accordé.
 
 ## Ajout d’un groupe {#adding-a-group}
 
@@ -52,7 +47,7 @@ Si vous n’accordez pas spécifiquement l’autorisation de groupe à une resso
 
    Voir [Définition des autorisations d’accès aux fichiers pour un groupe](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 
-1. Vous pouvez choisir les paramètres d’image prédéfinis disponibles pour le groupe. Il vous suffit de cliquer sur l’onglet **[!UICONTROL Autorisations d’accès aux paramètres d’image prédéfinis]**, puis de sélectionner les paramètres d’image prédéfinis que le groupe peut utiliser.
+1. Vous pouvez choisir les paramètres d’image prédéfinis disponibles pour le groupe. Cliquez sur l’onglet **[!UICONTROL Autorisations d’accès aux paramètres d’image prédéfinis]** et sélectionnez Paramètres d’image prédéfinis que le groupe peut utiliser.
 
    Voir [Choix des autorisations d’accès de paramètres d’image prédéfinis pour un groupe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
 
@@ -84,11 +79,11 @@ Si vous n’accordez pas spécifiquement l’autorisation de groupe à une resso
 
 >[!NOTE]
 >
->les droits d’accès sont établis lorsque vous sélectionnez une zone de texte. Lorsque vous attribuez des droits à un dossier, ses sous-dossiers et tous les fichiers qu’il contient se voient attribuer les mêmes droits que le dossier parent. Toutefois, vous pouvez définir des droits différents pour des sous-dossiers et des fichiers individuels.
+>les droits d’accès sont établis lorsque vous sélectionnez une zone de texte. Lorsque vous accordez des droits sur un dossier, ses sous-dossiers ainsi que tous les fichiers qu’il contient obtiennent les mêmes droits que le dossier parent. Toutefois, vous pouvez définir des droits différents pour des sous-dossiers et des fichiers individuels.
 
 ## Choix des autorisations d’accès de paramètres d’image prédéfinis pour un groupe
 
-Choisissez les autorisations d’accès de paramètres d’image prédéfinis si vous souhaitez indiquer quels paramètres d’image prédéfinis sont disponibles pour les membres du groupes lorsqu’ils exportent des fichiers avec le portail multimédia.
+Sélectionnez Autorisations d’accès aux paramètres prédéfinis d’image pour un groupe. Utilisez cette option pour spécifier les paramètres d’image prédéfinis disponibles pour les membres du groupe. Utilisez cette option lorsqu’ils exportent des ressources avec Media Portal.
 
 Voir aussi [Définition des options d’exportation disponibles pour les utilisateurs du portail multimédia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
