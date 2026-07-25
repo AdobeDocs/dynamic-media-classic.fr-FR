@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: da232d1762d4bb21788ab094ea56d715a58c27d2
 workflow-type: tm+mt
-source-wordcount: 265
-ht-degree: 47%
+source-wordcount: 260
+ht-degree: 46%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 47%
 
 Lors de l’exportation de fichiers d’image via le portail multimédia, les utilisateurs peuvent choisir un paramètre d’image prédéfini dans la boîte de dialogue Exporter les fichiers sélectionnés. Un paramètre d’image prédéfini est un ensemble de paramètres prédéfinis. Ces paramètres peuvent modifier la taille, la qualité de l’image, le format, la résolution et d’autres aspects de l’aspect d’une image lors de son exportation.
 
-Les administrateurs du portail multimédia peuvent créer des paramètres d’image prédéfinis permettant de contrôler le type de reformatage des images lors de leur exportation. Les paramètres d’image prédéfinis reformatent les images selon les spécifications de votre société lorsque les utilisateurs exportent des images à partir d’Adobe Dynamic Media Classic. Au lieu de reformater les images selon leurs préférences, les utilisateurs les exportent en respectant les spécifications exactes d’un paramètre d’image prédéfini.
+Les administrateurs du portail multimédia peuvent créer des paramètres d’image prédéfinis permettant de contrôler le type de reformatage des images lors de leur exportation. Les paramètres d’image prédéfinis reformatent les images selon les spécifications de votre entreprise lorsque les utilisateurs exportent des images à partir d’Adobe Dynamic Media Classic. Au lieu de reformater manuellement les images, les utilisateurs les exportent selon les spécifications précises d’un paramètre d’image prédéfini.
 
 Les restrictions suivantes s’appliquent lorsque vous exportez des fichiers d’image :
 
 * La largeur × la hauteur doivent être inférieures ou égales à 100 Mo par image. Par exemple, l’image ne peut pas dépasser 10 K × 10 K, ni aucune variation d’aspect inférieure, comme 8 K × 12 K.
-* La taille de fichier totale maximale est de 1 Go par tâche d’exportation.
+* La taille totale maximum du fichier est de 1 Go par tâche d’exportation.
 * Il peut y avoir un maximum de 500 fichiers par tâche d’exportation.
 
 >[!NOTE]

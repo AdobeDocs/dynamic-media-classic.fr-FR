@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: e0b8668dab1b4f3f936d22642deb9a2519455703
 workflow-type: tm+mt
-source-wordcount: 1292
+source-wordcount: 1287
 ht-degree: 21%
 
 ---
@@ -46,11 +46,11 @@ Adobe Dynamic Media Classic propose des outils permettant de modifier et de cré
 
 ## Types d’ensembles d’offres {#types-of-offer-sets}
 
-Créez un jeu d’offres à partir des types de jeux d’offres suivants :
+Sélectionnez un jeu d’offres parmi les types de jeux d’offres suivants :
 
 * **Images** : vous pouvez assembler des images pour un ensemble d’offres. Chaque image inclut une offre différente dans la visionneuse.
 
-* **Modèle d’image** : vous pouvez paramétrer les modèles d’image dans Adobe Dynamic Media Classic à l’aide de la commande **[!UICONTROL Créer]** > Principes de base des modèles. Grâce aux paramètres, les composants du modèle, le texte dans les cadres de texte, les différentes images, peuvent être changés et personnalisés. Pour un ensemble d’offres, vous pouvez utiliser des paramètres de modèle pour créer des variations sur la même image de votre ensemble d’offres, par exemple. Pour plus d’informations sur la création et le paramétrage des modèles d’image, voir [Créer des paramètres de modèle](creating-template-parameters.md#creating_template_parameters).
+* **Modèle d’image** : vous pouvez paramétrer les modèles d’image dans Adobe Dynamic Media Classic à l’aide de la commande **[!UICONTROL Créer]** > Principes de base des modèles. Les paramètres, les composants du modèle, le texte dans les blocs de texte et les différentes images peuvent être remplacés et personnalisés. Pour un ensemble d’offres, vous pouvez utiliser des paramètres de modèle pour créer des variations sur la même image dans votre ensemble d’offres. Pour plus d’informations sur la création et le paramétrage des modèles d’image, voir [Créer des paramètres de modèle](creating-template-parameters.md#creating_template_parameters).
 
 Consultez également la vidéo de formation [Principes de base des modèles](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
@@ -72,14 +72,14 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Sélectionnez le modèle ou la bannière.
 1. Accédez à **[!UICONTROL Créer]** > **[!UICONTROL Jeu d’offres Test&amp;Target]**.
 
-   La page Jeu d’offres Test&amp;Target répertorie les offres du jeu d’offres. Le premier élément de la liste est l’objet.
+   La page Jeu d’offres Test&amp;Target répertorie les offres du jeu d’offres. Le premier élément de la liste est la ressource principale.
 
 1. Sélectionnez l’objet et sélectionnez **[!UICONTROL Ajouter et prévisualiser]**.
 
    Dans la partie gauche de cette page, les paramètres du modèle ainsi que leurs valeurs sont répertoriés.
 
-1. Modifiez les valeurs de paramètres pour créer l’offre. Par exemple, saisissez un texte différent dans un champ de texte, modifiez la taille d’un calque, remplacez une image par une autre ou choisissez un autre paramètre prédéfini de visionneuse.
-1. Sélectionnez **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer sous**]** pour enregistrer l’offre dans le jeu d’offres.
+1. Modifiez les valeurs de paramètres pour créer l’offre. Par exemple, modifiez du texte, redimensionnez des calques, permutez des images ou sélectionnez des paramètres prédéfinis.
+1. Sélectionnez **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer sous]** pour enregistrer l’offre dans le jeu d’offres.
 
    La page Jeu d’offres Test&amp;Target répertorie les offres que vous avez créées.
 
@@ -87,7 +87,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Lorsque vous avez terminé, en bas à droite de la page, assurez-vous que l’option **[!UICONTROL Publier après un enregistrement*]** est sélectionnée (par défaut).
 1. Sélectionnez **[!UICONTROL Fermer]**, saisissez un nom pour le jeu d&#39;offres, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [&#x200B; Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Avant de fermer la page Jeu d’offres Test&amp;Target, envoyez le jeu d’offres à Adobe Target Standard/Premium. Pour envoyer des ensembles d’offres à Test&amp;Target, voir [Envoi d’ensembles d’offres à Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Création d’un ensemble d’offres avec des images ou des vidéos {#creating-an-offer-set-with-images-or-videos}
 
@@ -111,14 +111,14 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 1. Vous pouvez également sélectionner une image ou une vidéo, puis sélectionner **[!UICONTROL Aperçu]**. Sur la page Aperçu des offres , vous pouvez modifier la taille et l’aspect de l’image ou de la vidéo que vous avez sélectionnée. Vous pouvez également modifier toutes les images ou vidéos du jeu d’offres.
 
    * Sélectionnez un paramètre prédéfini pour modifier l’aspect et la taille de l’image ou de la vidéo.
-   * Pour appliquer le paramètre prédéfini que vous avez choisi à toutes les offres du jeu d’offres, cochez la case **`Select Presets to All`** .
+   * Pour appliquer le paramètre prédéfini que vous avez choisi à toutes les offres du jeu d’offres, cochez la case **`Apply Presets to All`** .
 
    Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les modifications apportées à l’offre image ou vidéo. Sélectionnez ensuite **[!UICONTROL Fermer]** pour revenir à la page Jeu d’offres Test&amp;Target.
 
 1. Une fois que vous avez terminé de créer des offres pour le jeu d’offres et de choisir des paramètres d’image prédéfinis pour différentes images, assurez-vous que l’option **[!UICONTROL Publier après un enregistrement]** est sélectionnée (par défaut).
 1. Sélectionnez **[!UICONTROL Enregistrer]** saisissez un nom pour le jeu d&#39;offres, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
-Avant de fermer la page Jeu d’offres Test&amp;Target, poussez le jeu d’offres vers Adobe Target Standard/Premium. Voir [&#x200B; Envoi d’ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Avant de fermer la page Jeu d’offres Test&amp;Target, envoyez le jeu d’offres à Adobe Target Standard/Premium. Pour pousser des ensembles d’offres vers Test&amp;Target, voir [Pousser des ensembles d’offres vers Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Modification d’un ensemble d’offres {#editing-an-offer-set}
 
@@ -140,8 +140,8 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
    * **Suppression d’une offre** : sélectionnez l’offre, puis sélectionnez **[!UICONTROL Supprimer]** pour supprimer une offre de la visionneuse.
    * **Ajout d’une offre** : la manière dont vous ajoutez une offre dépend du type de jeu d’offres utilisé :
-      * **Modèles** : sélectionnez **[!UICONTROL Ajouter et prévisualiser]**, puis sur la page Ajouter et prévisualiser des offres , créez une autre offre.
-      * **Images et vidéos** : faites glisser une image ou une vidéo sur la page Jeu d’offres Test&amp;Target.
+     * **Modèles** : sélectionnez **[!UICONTROL Ajouter et prévisualiser]**, puis sur la page Ajouter et prévisualiser des offres , créez une autre offre.
+     * **Images et vidéos** : faites glisser une image ou une vidéo sur la page Jeu d’offres Test&amp;Target.
 
    >[!NOTE]
    >
@@ -152,14 +152,14 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 ## Suppression d’un ensemble d’offres {#delet-an-offer-set}
 
-Lorsque vous supprimez une visionneuse d’offres, celle-ci est placée dans la corbeille. Toutefois, les membres (ou « enfants ») de cet ensemble ne sont pas affectés. Ils conservent chacun leur état publié ou dépublié existant.
+Lorsque vous supprimez une visionneuse d’offres, celle-ci est placée dans la corbeille. Toutefois, les membres de cet ensemble ne sont pas affectés. Au lieu de cela, ils conservent chacun leur état publié ou dépublié existant.
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
 **Pour supprimer un jeu d’offres, procédez comme suit**
 
-1. Dans la vue Grille, Liste ou Détails, sélectionnez un ou plusieurs jeux d&#39;offres.
-1. Sur la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer]** > **Supprimer**.
+1. En mode Affichage de la grille, Affichage par liste ou Affichage des détails, sélectionnez une ou plusieurs visionneuses d’offres.
+1. Sur la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer]**.
 
 >[!MORELIKETHIS]
 >
