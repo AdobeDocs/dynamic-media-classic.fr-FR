@@ -12,19 +12,14 @@ topic: Content Management
 level: Experienced
 autotag-review: '2026-05-13T18:19:13.276Z'
 TQID: 'https://experienceleague.adobe.com/2bY6F28UOt--BmRcI4xv1GJnmSMzqbnkUnnPmfFHxmw'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 016933e6edfe59faa37ca6821184d7bcdb333b97
 workflow-type: tm+mt
-source-wordcount: 3493
-ht-degree: 36%
+source-wordcount: 3550
+ht-degree: 32%
 
 ---
 
@@ -40,7 +35,7 @@ Consultez également la vidéo de formation [Principes de base des modèles](htt
 
 ## Création du modèle initial {#creating-the-initial-template}
 
-Lorsque vous créez un jeu de modèles, l&#39;option **[!UICONTROL Publier après un enregistrement]** affecte le jeu et les membres du jeu des manières suivantes :
+Lorsque vous créez un jeu de modèles, l&#39;option **[!UICONTROL Publier après un enregistrement]** affecte le jeu et les membres du jeu de la manière suivante.
 
 | L’option **[!UICONTROL Publier après un enregistrement]** est-elle sélectionnée avant l’enregistrement ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- |
@@ -65,11 +60,11 @@ Vous pouvez créer un modèle à partir d’un modèle existant. Ouvrez le modè
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 1. Sélectionnez un dossier pour stocker votre modèle, saisissez un nom pour le modèle, puis sélectionnez **[!UICONTROL Envoyer]**.
 
-   Adobe Dynamic Media Classic réduit les images si nécessaire pour les adapter à la zone de travail, la zone de l’écran Modèle définissant votre modèle.
+   Adobe Dynamic Media Classic met à l’échelle les images si nécessaire pour les adapter à la zone de travail, la zone de l’écran Modèle définissant votre modèle.
 
 ## Modification d’un ensemble de modèles {#editing-a-template-set}
 
-Que vous modifiiez un ensemble publié ou un ensemble de modèles dépublié, l&#39;option **[!UICONTROL Publier après un enregistrement]** affecte l&#39;ensemble et les membres de l&#39;ensemble des manières suivantes :
+Que vous modifiiez un ensemble publié ou un ensemble de modèles dépublié, l&#39;option **[!UICONTROL Publier après un enregistrement]** affecte l&#39;ensemble et les membres de l&#39;ensemble des manières suivantes.
 
 | Visionneuse déjà publiée ? | L’option **[!UICONTROL Publier après un enregistrement]** est-elle sélectionnée avant d’enregistrer votre modification ? | Etat de la visionneuse après enregistrement | Etat des membres de la visionneuse après enregistrement |
 | --- | --- | --- | --- |
@@ -89,7 +84,7 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 ## Suppression d’un modèle
 
-Lorsque vous supprimez un ensemble de modèles, l’ensemble lui-même est déplacé vers la corbeille. Toutefois, les membres (ou « enfants ») de cet ensemble ne sont pas affectés. Ils conservent chacun leur état publié ou dépublié existant.
+Lorsque vous supprimez un ensemble de modèles, l’ensemble lui-même est déplacé vers la corbeille. Toutefois, les membres de cet ensemble ne sont pas affectés. Au lieu de cela, ils conservent chacun leur état publié ou dépublié existant.
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
@@ -106,13 +101,13 @@ Utilisez ces outils dans l’écran Modèle pour créer des modèles :
 
 * **[!UICONTROL Panoramique]** : permet de sélectionner des calques, de les déplacer dans la zone de travail, de les redimensionner ou de les faire pivoter.
 
-* **[!UICONTROL Texte]** : crée un calque de texte. Faites glisser le pointeur de l’outil sur la zone de travail pour créer un calque de texte, puis saisissez le texte dans le calque Voir [Création d’un calque de texte](#creating-a-text-layer).
+* **[!UICONTROL Texte]** : crée un calque de texte. Pour créer un calque de texte, faites glisser sur la zone de travail, puis saisissez le texte dans le calque. Voir [Création d’un calque de texte](#creating-a-text-layer).
 
 * **[!UICONTROL Aperçu]** : ouvre l’écran d’aperçu et affiche le modèle dans une visionneuse Zoom. Vous pouvez voir à quoi ressemble le modèle pour les utilisateurs et utilisatrices de votre site web ou de votre application.
 
 * **[!UICONTROL Synthèse des paramètres]** ouvre l&#39;écran Synthèse des paramètres. Vous pouvez voir le nom de tous les calques d’un modèle, et sur chaque calque, le nom des paramètres qui ont été activés.
 
-* **[!UICONTROL Éditeur de texte v4.3 et Éditeur de texte v4.2]** : utilisez l’éditeur de texte le plus récent et le plus complet. Vous pouvez choisir d’utiliser l’éditeur de texte v4.3 ou l’éditeur de texte précédent, l’éditeur de texte v4.2. Lors de la création de modèles, l’éditeur de texte v4.3 est sélectionné par défaut. Pour la modification d’anciens modèles, l’Editeur de texte v4.2 est sélectionné par défaut. Actuellement, l’éditeur de texte v4.3 ne prend pas en charge le retour à la ligne. Par conséquent, lors de la modification d’anciens modèles utilisant le retour à la ligne, utilisez l’éditeur de texte v4.2 pour conserver la fidélité du modèle entièrement intacte. Si votre ancien modèle n’utilise pas le renvoi à la ligne, vous pouvez choisir l’éditeur de texte v4.3 pour tirer parti des nombreuses nouvelles fonctionnalités qu’il offre. Par exemple, augmentez les marges, réduisez les marges, définissez le texte en majuscules et copiez le texte ajusté.
+* **[!UICONTROL Éditeur de texte v4.3 et Éditeur de texte v4.2]** : utilisez l’éditeur de texte le plus récent et le plus complet. Vous pouvez choisir d’utiliser l’éditeur de texte v4.3 ou l’éditeur de texte précédent, l’éditeur de texte v4.2. Lorsque vous créez des modèles, le système sélectionne par défaut Éditeur de texte v4.3. Lorsque vous modifiez des modèles plus anciens, le système sélectionne par défaut Éditeur de texte v4.2 . Actuellement, l’éditeur de texte v4.3 ne prend pas en charge le retour à la ligne. Par conséquent, lors de la modification d’anciens modèles utilisant le retour à la ligne, utilisez l’éditeur de texte v4.2 pour conserver la fidélité du modèle entièrement intacte. Si votre ancien modèle n’utilise pas le renvoi à la ligne, vous pouvez choisir l’éditeur de texte v4.3 pour tirer parti des nombreuses nouvelles fonctionnalités qu’il offre. Par exemple, augmentez les marges, réduisez les marges, définissez du texte en majuscules et copiez du texte en forme.
 
   >[!NOTE]
   >
@@ -122,9 +117,9 @@ Utilisez ces outils dans l’écran Modèle pour créer des modèles :
 
 * **[!UICONTROL Zone de travail]** : définit la zone disponible totale, en pixels, pour définir votre modèle. La taille par défaut est de 300 × 300 pixels. Les calques sont placés sur la zone de travail.
 
-* **[!UICONTROL Liste Calques]** : répertorie le nom des calques du modèle. Pour sélectionner un calque, sélectionnez son nom dans la liste Calques. La liste Calques est assortie d’outils permettant de supprimer, de réorganiser et de paramétrer les calques, et de leur ajouter des effets Voir [&#x200B; Utilisation des calques &#x200B;](#working-with-layers).
+* **[!UICONTROL Liste Calques]** : répertorie le nom des calques du modèle. Pour sélectionner un calque, sélectionnez son nom dans la liste Calques. La liste Calques est assortie d’outils permettant de supprimer, de réorganiser et de paramétrer les calques, et de leur ajouter des effets Voir [ Utilisation des calques ](#working-with-layers).
 
-* **[!UICONTROL Zone Propriétés du calque]** : cette zone propose des outils permettant de modifier la couleur, l’opacité, la taille et la position de l’arrière-plan d’un calque. Vous pouvez également modifier la couleur, l’opacité et la taille de l’arrière-plan de la zone de travail. Vous pouvez également y régler les effets d’ombre et d’éclat Voir [&#x200B; Utilisation des calques &#x200B;](#working-with-layers).
+* **[!UICONTROL Zone Propriétés du calque]** : cette zone propose des outils permettant de modifier la couleur, l’opacité, la taille et la position de l’arrière-plan d’un calque. Vous pouvez également modifier la couleur, l’opacité et la taille de l’arrière-plan de la zone de travail. Vous pouvez également y régler les effets d’ombre et d’éclat Voir [ Utilisation des calques ](#working-with-layers).
 
 ## Création de calques d’image {#creating-image-layers}
 
@@ -139,17 +134,15 @@ Utilisez ces outils dans l’écran Modèle pour créer des modèles :
 ## Création d’un calque de texte {#creating-a-text-layer}
 
 1. Sélectionnez l’outil **[!UICONTROL Texte]**.
-1. Faites glisser le curseur de la souris pour créer une zone de texte sur la zone de travail ou sur une image.
+1. Faire glisser pour créer une zone de texte sur la zone de travail ou l’image.
 1. Dans l’écran Texte qui s’ouvre, ajoutez du texte en procédant de l’une des manières suivantes dans l’onglet Aperçu :
 
-   * Saisissez du texte dans la zone de texte. Choisissez Ajuster le texte pour qu’il tienne dans la zone de texte.
+   * Saisissez du texte dans la zone de texte. Sélectionnez Copier le texte pour que le texte s’adapte à la zone de texte.
    * Collez du texte dans la zone de texte à partir du Presse-papiers.
 
 1. Sélectionnez **[!UICONTROL Appliquer]**, puis fermez l’écran Texte.
 
 ### Mise en forme de texte {#format-text}
-
-Pour mettre en forme le texte dans un calque de texte, procédez comme suit :
 
 1. Dans la liste Calques, cliquez deux fois sur le nom de la zone de texte à modifier. L’Editeur de texte s’ouvre.
 1. Dans la zone de texte de l’éditeur de texte, sélectionnez le texte à mettre en forme. Vous pouvez sélectionner tout le texte, des parties du texte ou des caractères individuels.
@@ -161,9 +154,17 @@ Pour mettre en forme le texte dans un calque de texte, procédez comme suit :
 
    * **[!UICONTROL Couleur]** : sélectionnez cette option pour choisir une couleur pour le texte.
 
-   * **[!UICONTROL Gras]**, **[!UICONTROL Italique]** ou **[!UICONTROL Souligné]** : sélectionnez le texte, puis l’icône correspondant au type de mise en forme à appliquer au texte.
+   * **[!UICONTROL Gras]** : sélectionnez le texte, puis l’icône correspondant au type de mise en forme à appliquer au texte.
 
-   * **[!UICONTROL Toutes les majuscules]**, **[!UICONTROL Exposant]** ou **[!UICONTROL Indice]** : sélectionnez le texte, puis l’icône correspondant au type de mise en forme à appliquer au texte.
+   * **[!UICONTROL Italique]** : sélectionnez le texte, puis l’icône correspondant au type de mise en forme à appliquer au texte.
+
+   * **[!UICONTROL Soulignement]** : sélectionnez le texte, puis l’icône correspondant au type de mise en forme à appliquer au texte.
+
+   * **[!UICONTROL Toutes les majuscules]** : sélectionnez le texte, puis l’icône correspondant au type de mise en forme à appliquer au texte.
+
+   * **[!UICONTROL Exposant]** : sélectionnez le texte, puis l’icône correspondant au type de mise en forme à appliquer au texte.
+
+   * **[!UICONTROL Indice]** : sélectionnez le texte, puis l’icône correspondant au type de mise en forme à appliquer au texte.
 
    * **[!UICONTROL Alignement]** : sélectionnez un bouton d’alignement pour aligner à gauche, centrer ou aligner à droite le texte du calque de texte.
 
@@ -177,7 +178,7 @@ Pour mettre en forme le texte dans un calque de texte, procédez comme suit :
 
 >[!NOTE]
 >
->Sélectionnez **[!UICONTROL Annuler]** si vous souhaitez annuler votre dernière action. Sélectionnez **[!UICONTROL Rétablir]** si vous changez d’avis sur l’inversion d’une action après avoir sélectionné **[!UICONTROL Annuler]**.
+>Sélectionnez **[!UICONTROL Annuler]** si vous souhaitez annuler votre dernière action. Sélectionnez **[!UICONTROL Rétablir]** si vous décidez d’annuler une action après avoir sélectionné **[!UICONTROL Annuler]**.
 
 ### Mise en forme de paragraphes {#format-paragraphs}
 
@@ -187,7 +188,7 @@ Pour mettre en forme le texte dans un calque de texte, procédez comme suit :
 
    * **[!UICONTROL Alignement]** : indiquez le type d’alignement en cliquant sur **[!UICONTROL Aligner à gauche]**, **[!UICONTROL Aligner au centre]**, **[!UICONTROL Aligner à droite]** ou **[!UICONTROL Justifier]**.
 
-   * **[!UICONTROL Justification de la fin du paragraphe]** : sélectionnez cette option pour spécifier le type de justification de la dernière ligne du paragraphe : la dernière ligne s’aligne à gauche, la dernière ligne s’aligne au centre et la dernière ligne s’aligne à droite.
+   * **[!UICONTROL Justification de la fin du paragraphe]** : sélectionnez cette option pour spécifier le type de justification de la dernière ligne du paragraphe : la dernière ligne aligne la gauche, la dernière ligne aligne le centre et la dernière ligne s’aligne sur la droite.
 
    * **[!UICONTROL Espacement des lignes]** : saisissez ou sélectionnez une valeur numérique pour ajuster l’espace entre toutes les lignes du paragraphe.
 
@@ -218,7 +219,7 @@ Pour mettre en forme le texte dans un calque de texte, procédez comme suit :
 
    * **[!UICONTROL Pas d’habillage]** : n’effectue pas d’habillage lorsque la zone de texte est trop petite horizontalement et, à la place, coupe une partie du texte.
 
-   * **[!UICONTROL Retour à la ligne sans rupture]** : recouvre le texte pour qu’il s’adapte à une zone de texte et ne rompt pas les mots.
+   * **[!UICONTROL Retour à la ligne sans rupture]** : permet de placer le texte dans une zone de texte sans rompre les mots.
 
    * **[!UICONTROL Position]** : indique l’emplacement de la zone de texte sur la zone de travail.
 
@@ -229,7 +230,7 @@ Pour mettre en forme le texte dans un calque de texte, procédez comme suit :
 Les informations fournies dans l’onglet Source de l’éditeur de texte sont à titre de référence. Ne modifiez le texte que si vous êtes rompu à l’édition du code source.
 
 1. Dans la liste Calques, cliquez deux fois sur le nom de la zone de texte à modifier. L’Editeur de texte s’ouvre.
-1. Dans l’éditeur de texte, pour afficher le code source du texte, sélectionnez l’onglet **&#x200B;**&#x200B;dans l’éditeur de texte.
+1. Dans l’éditeur de texte, pour afficher le code source du texte, sélectionnez l’onglet **** dans l’éditeur de texte.
 1. Affichez le texte ou apportez-y les modifications nécessaires.
 
    Les changements sont conservés lorsque vous basculez entre les vues Prévisualiser et Source.
@@ -244,11 +245,11 @@ Vous pouvez également modifier la taille de la zone de travail, sélectionner s
 
 ### Réorganiser les calques {#reordering-layers}
 
-La modification de l’ordre des calques peut affecter l’aspect, en particulier en cas de transparence ou de surimpression. Veillez à prévisualiser le résultat avant de valider vos modifications.
+La modification de l’ordre des calques peut affecter l’aspect, en particulier en cas de transparence ou de surimpression. Prévisualisez le résultat avant d’enregistrer vos modifications.
 
 1. Pour réorganiser les calques dans un modèle, utilisez l’une des méthodes suivantes :
 
-   * Sélectionnez un calque dans la liste Calques, Sélectionnez ensuite **[!UICONTROL Vers le haut]** ou **[!UICONTROL Vers le bas]** autant de fois que nécessaire pour le placer à la bonne position dans la liste.
+   * Sélectionnez un calque dans la liste Calques, Sélectionnez ensuite **[!UICONTROL Vers le haut]** ou **[!UICONTROL Vers le bas]** autant de fois que nécessaire pour le positionner correctement dans la liste.
    * Faites glisser un calque vers le haut ou vers le bas dans la liste Calques.
 
 ### Modifier la taille et la position des calques et de la zone de travail {#changing-the-size-and-position-of-layers-and-the-canvas}
@@ -261,27 +262,27 @@ Les calques doivent être suffisamment petits pour tenir dans la zone de travail
 
 * **Modification de la taille d’un calque** : pour modifier la taille d’un calque ou de la zone de travail, sélectionnez le calque ou la zone de travail dans la liste Calques et utilisez l’une des techniques suivantes :
 
-* **Modification manuelle de la taille** : sélectionnez et faites glisser un coin du calque ou de la zone de travail. Avec les calques de texte, vous pouvez également faire glisser un côté du calque. Maintenez la touche Maj enfoncée tout en faisant glisser pour modifier la taille, mais conservez les proportions (la forme).
+* **Modification manuelle de la taille** : sélectionnez et faites glisser un coin du calque ou de la zone de travail. Avec les calques de texte, vous pouvez également faire glisser un côté du calque. Pour modifier la taille tout en conservant les proportions, maintenez la touche Maj enfoncée tout en faisant glisser.
 
 * **Saisie des mesures de taille de calque** : saisissez les mesures en pixels dans les zones de texte W (Largeur) et H (Hauteur) dans la zone Propriétés du calque.
 
-En plus de modifier la taille d’un calque, vous pouvez lui appliquer un remplissage. Pour ce faire, entrez une mesure de remplissage dans les cases des bords gauche, droit, supérieur et inférieur de la zone Propriétés calque. Le remplissage permet d’ajouter une marge au calque actif pour le décaler du périmètre de son calque de base. Il est pratique pour faire ressortir l’effet d’ombre portée ou d’ombre extérieure ajouté, le cas échéant. De plus, il augmente la taille d’un calque et affiche sa couleur d’arrière-plan dans la zone de remplissage étendue. Le calque de base se repositionne en fonction de la nouvelle taille du calque. Par exemple, si le calque actif est centré sur le calque de base, lorsque vous étendez le côté gauche du calque actif, il s’éloigne d’autant vers la droite du calque de base.
+Outre la modification de la taille d’un calque, vous pouvez le remplir. Pour ce faire, entrez une mesure de remplissage dans les cases des bords gauche, droit, supérieur et inférieur de la zone Propriétés calque. Le remplissage permet d’ajouter une marge au calque actif pour le décaler du périmètre de son calque de base. Il est pratique pour faire ressortir l’effet d’ombre portée ou d’ombre extérieure ajouté, le cas échéant. De plus, il augmente la taille d’un calque et affiche sa couleur d’arrière-plan dans la zone de remplissage étendue. Le calque de base se repositionne en fonction de la nouvelle taille du calque. Par exemple, si le calque actif est centré sur le calque de base, lorsque vous étendez le côté gauche du calque actif, il s’éloigne d’autant vers la droite du calque de base.
 
 * **Modification de la position d’un calque** : pour modifier la position d’un calque sur la zone de travail, sélectionnez son nom dans la liste Calques et utilisez l’une des techniques suivantes :
 
-* **Changement manuel de position** : déplacez le pointeur près d’une limite de calque, mais pas au-dessus, puis lorsque le curseur à quatre pointes s’affiche, sélectionnez-la et commencez à la faire glisser.
+* **Changement manuel de position** : déplacez le pointeur près d’une limite de calque, mais pas au-dessus, et lorsque vous voyez le curseur de déplacement, sélectionnez-le et commencez à le faire glisser.
 
 * **Saisie des mesures de décalage de position** : saisissez les mesures de décalage X et Y dans les zones de texte X et Y. Ces valeurs représentent le décalage du point d’ancrage sur les axes x et y, exprimé en pixels.
 
 * **Rotation d’un calque** : la zone Rotation répertorie l’angle de rotation du calque. Pour faire pivoter un calque, sélectionnez son nom dans la liste Calques, puis utilisez l’une des méthodes suivantes :
 
-* **Rotation manuelle** : déplacez le curseur près d’un coin du calque, mais pas au-dessus. Lorsque le curseur de rotation apparaît, faites glisser l’angle du calque. Maintenez la touche Maj enfoncée lorsque vous faites glisser pour faire pivoter par incréments de 15 degrés.
+* **Rotation manuelle** : déplacez le curseur près d’un coin du calque, mais pas au-dessus. Lorsque le curseur de rotation apparaît, faites glisser l’angle du calque. Pour effectuer une rotation par incréments de 15 degrés, maintenez la touche Maj enfoncée tout en faisant glisser.
 
-* **Saisie d’une mesure de degré** : saisissez le nombre de degrés de rotation du calque. La rotation s’effectue dans le sens horaire. Pour appliquer une rotation dans le sens anti-horaire, entrez un nombre négatif.
+* **Saisie d’une mesure de degré** : saisissez le nombre de degrés de rotation du calque. La rotation s&#39;effectue dans le sens des aiguilles d&#39;une montre ; pour effectuer une rotation dans le sens inverse, entrez un nombre négatif.
 
 **Masquer un calque ou un effet de calque :**
 
-Vous pouvez masquer un calque ou un effet de calque en sélectionnant l’icône représentant un œil à côté d’un nom de calque ou d’effet. Les calques masqués n’apparaissent pas sur les prévisualisations, ni sur la sortie. Les informations sur le calque sont conservées dans l’URL. Au lieu de cela, `hide=1` est ajouté à l’URL pour noter que le calque est masqué de la vue. Par exemple :
+Vous pouvez masquer un calque ou un effet de calque en sélectionnant l’icône représentant un œil à côté d’un nom de calque ou d’effet. Les calques masqués n’apparaissent pas sur les prévisualisations, ni sur la sortie. Les informations sur le calque sont conservées dans l’URL. Pour noter que le calque est masqué, le système ajoute des `hide=1` à l’URL. Par exemple :
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&effect=-1&.effect=Drop Shadow&blendmode`
 
@@ -295,13 +296,13 @@ Pour choisir une couleur d’arrière-plan, une opacité et un mode de fusion po
 
 * **Couleur d’arrière-plan** : sélectionnez **[!UICONTROL Couleur d’arrière-plan]** et choisissez une nuance de couleur pour modifier la couleur des zones matelassées.
 
-* **Opacité** : faites glisser le curseur Opacité pour rendre un calque translucide, de sorte qu’une partie de l’image sous-jacente s’affiche. Le paramètre de 100 % est opaque ; 0 est transparent.
+* **Opacité** : pour rendre un calque translucide, de sorte qu’une partie de l’image sous-jacente s’affiche, faites glisser le curseur Opacité. Le paramètre de 100 % est opaque ; 0 est transparent.
 
-* **Mode de fusion** : pour simuler l’un des modes de fusion disponibles dans Photoshop, choisissez une option. Les options disponibles sont les suivantes : Normal, Fondu, Eclaircir, Assombrir, Multiplier et Ecran. Ces options sont disponibles pour les calques, non pour la zone de travail.
+* **Mode de fusion** : pour simuler l’un des modes de fusion disponibles dans Adobe Photoshop, choisissez une option. Les options disponibles sont les suivantes : Normal, Fondu, Eclaircir, Assombrir, Multiplier et Ecran. Ces options sont disponibles pour les calques, non pour la zone de travail.
 
 ## Utilisation d’effets d’ombre et de lueur sur les calques {#using-shadow-and-glow-effects-on-layers}
 
-Vous pouvez appliquer une ombre ou un éclat à un calque. L’ombre ou la lueur s’applique au périmètre du calque et s’étend vers l’intérieur ou vers l’extérieur, selon l’option d’ombre ou de lueur que vous choisissez. Si votre modèle provient d’un fichier PSD avec des effets d’ombre et de lueur, vous pouvez ajuster ces effets dans Adobe Dynamic Media Classic.
+Vous pouvez appliquer une ombre ou un éclat à un calque. L’ombre ou la lueur s’applique au périmètre du calque et s’étend vers l’intérieur ou vers l’extérieur, selon l’option d’ombre ou de lueur que vous choisissez. Si votre modèle provient d’un fichier PSD contenant des effets d’ombre et de lueur, vous pouvez ajuster ces effets dans Adobe Dynamic Media Classic.
 
 Une fois que vous avez appliqué un effet d’ombre ou d’éclat, vous pouvez régler sa taille, sa couleur, son opacité et sa position dans la zone Propriétés calque de l’écran Modèle.
 
@@ -330,13 +331,13 @@ Pour ajuster un effet d’ombre ou d’éclat, sélectionnez d’abord son nom d
 
 * **[!UICONTROL Couleur]** : sélectionnez le bouton Couleur et choisissez un échantillon de couleur pour modifier la couleur de l’ombre ou de la lueur. Vous pouvez également saisir une valeur chromatique dans la zone.
 
-* **[!UICONTROL Opacité]** : faites glisser le curseur pour déterminer l’intensité de l’effet. Les effets moins opaques sont plus transparents.
+* **[!UICONTROL Opacité]** : pour déterminer l’intensité de l’effet, faites glisser le curseur. Les effets moins opaques sont plus transparents.
 
-* **[!UICONTROL Mode de fusion]** : pour simuler l’un des modes de fusion disponibles dans Photoshop, choisissez une option. Les options disponibles sont les suivantes : Normal, Fondu, Eclaircir, Assombrir, Multiplier et Ecran.
+* **[!UICONTROL Mode de fusion]** : pour simuler l’un des modes de fusion disponibles dans Adobe Photoshop, choisissez une option. Les options disponibles sont les suivantes : Normal, Fondu, Eclaircir, Assombrir, Multiplier et Ecran.
 
 * **[!UICONTROL Taille]** : saisissez les mesures dans la zone X et Y pour agrandir ou réduire l’effet d’ombre. Les options de taille ne sont disponibles que pour les ombres intérieures et les ombres portées.
 
-* **[!UICONTROL Agrandir]** : faites glisser le curseur pour étendre l’effet vers l’intérieur ou vers l’extérieur.
+* **[!UICONTROL Agrandir]** : pour étendre l’effet vers l’intérieur ou l’extérieur, faites glisser le curseur.
 
 * **[!UICONTROL Flou]** : faites glisser le curseur pour contrôler le contour progressif sur les bords de l’effet. Plus le degré de flou est élevé, plus les contours sont atténués.
 
