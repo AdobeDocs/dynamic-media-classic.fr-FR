@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:44:09.641Z'
 TQID: 'https://experienceleague.adobe.com/6kiNojlrrS6EiS-7Mp5SvtSMag1k4Hu0EwOr4BmyJfY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 88c777a6a66189fca8090b33ea9001536e0d78bc
 workflow-type: tm+mt
 source-wordcount: 976
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 
@@ -35,17 +32,17 @@ Pour créer une visionneuse panoramique efficace, assurez-vous que les clichés 
 
 ## Instructions pour prendre des clichés d’images de la visionneuse à 360° {#guidelines-for-shooting-spin-set-images}
 
-En règle générale, plus il y a d’images dans une visionneuse à 360°, meilleur est l’effet de rotation des images. Cependant, un nombre élevé d’images dans la visionneuse augmente la durée de chargement des images. Adobe Dynamic Media Classic recommande de suivre les instructions suivantes pour les prises de vue à utiliser dans les visionneuses à 360° :
+Plus il y a d’images dans une visionneuse à 360°, plus la qualité de l’effet de rotation de l’image est élevée. Cependant, un nombre élevé d’images dans la visionneuse augmente la durée de chargement des images. Adobe Dynamic Media Classic recommande de suivre les instructions suivantes pour les prises de vue à utiliser dans les visionneuses à 360° :
 
 * Utilisez au minimum 8 à 12 images dans une visionneuse à 360° unidimensionnelle et 16 à 24 images dans une visionneuse à 360° bidimensionnelle.
 * Utilisez un format d’image sans perte (formats TIFF et PNG recommandés).
 * Masquez toutes les images pour faire apparaître l’objet sur un fond blanc ou fortement contrasté. Ajoutez éventuellement des ombres.
-* Assurez-vous que les détails du produit sont bien éclairés et que leur mise au point est nette.
-* Prenez des clichés de vêtements de prêt-à-porter avec un mannequin ou un modèle. Souvent, le mannequin est masqué (en utilisant un mannequin transparent) ou un mannequin stylisé est présenté dans l’image. Vous pouvez créer une visionneuse à 360° sur modèle en définissant le nombre d’angles. Marquez chaque angle avec du ruban adhésif sur le sol afin de guider le modèle à regarder dans la direction de chaque prise de vue.
+* Assurez-vous que les détails du produit sont bien éclairés et ciblés.
+* Prenez des clichés de vêtements de prêt-à-porter avec un mannequin ou un modèle. Souvent, le mannequin est masqué (en utilisant un mannequin transparent) ou un mannequin stylisé est présenté dans l’image. Vous pouvez créer une visionneuse à 360° sur modèle en définissant le nombre d’angles. Marquez chaque angle sur le sol afin de guider le modèle pour se positionner et regarder dans la direction de chaque prise de vue.
 
 ## Création d’une visionneuse à 360° {#create}
 
-L’ordre dans lequel la visionneuse à 360° est créée dans Adobe Dynamic Media Classic est important. Selon la manière dont vous ordonnez les ressources lorsque vous faites glisser et déposez des images dans la grille de la page de la visionneuse à 360°, celle-ci pivote dans une certaine direction. Par conséquent, l’ordre dans lequel elle s’affiche visuellement dans le créateur correspond à la manière dont la ressource est tournée lorsqu’un utilisateur déplace le pointeur de la souris ou le doigt, de gauche à droite.
+L’ordre dans lequel la visionneuse à 360° est créée dans Adobe Dynamic Media Classic est important. Selon la manière dont vous ordonnez les ressources lorsque vous faites glisser et déposez des images dans la grille de la page de la visionneuse à 360°, celle-ci pivote dans une certaine direction. Par conséquent, l’ordre dans lequel elle s’affiche visuellement dans le créateur détermine la rotation de la ressource lorsqu’un utilisateur déplace le pointeur de la souris ou le doigt de la gauche vers la droite.
 
 Lorsque vous créez une visionneuse, l’option **[!UICONTROL Publier après un enregistrement]** affecte la visionneuse et les membres de la visionneuse des manières suivantes :
 
