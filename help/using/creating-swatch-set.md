@@ -12,24 +12,21 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:44:21.987Z'
 TQID: 'https://experienceleague.adobe.com/8nWsAO1rwDZnpj3GkUv7iUEqQR894oeoo81Vtr-uHcs'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 1343214cf19c9cfc6153e3f8b90c8ffc260de999
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 50%
+source-wordcount: 709
+ht-degree: 42%
 
 ---
 
 # Création de la série d’échantillons{#creating-a-swatch-set}
 
-Une série d’échantillons permet à l’utilisateur de visualiser un objet dans une couleur, un motif ou un fini différent. Pour créer une série d’échantillons avec des nuances, vous devez disposer d’une image pour chaque couleur, motif ou fini que vous souhaitez présenter aux utilisateurs. Vous avez également besoin d’un échantillon pour chaque couleur, motif ou fini.
+Un échantillon permet aux utilisateurs d’afficher un élément avec une couleur, un modèle ou une finition différente. Pour créer une série d’échantillons avec des nuances, vous devez disposer d’une image pour chaque couleur, motif ou fini que vous souhaitez présenter aux utilisateurs. Vous avez également besoin d’un échantillon pour chaque couleur, motif ou fini.
 
-Par exemple, si vous souhaitez présenter des casquettes avec des visières de couleurs différentes (rouge, vert et bleu), vous avez besoin de trois prises de vue de la même casquette : une première vue avec une visière rouge, une autre avec une visière verte et une dernière avec une visière bleue. Vous avez également besoin d’une nuance rouge, verte et bleue. Les échantillons de couleurs servent de miniatures sur lesquelles les utilisateurs sélectionnent la visionneuse des séries d’échantillons pour voir les visières rouge, verte ou bleue.
+Par exemple, si vous souhaitez présenter des casquettes avec des visières de couleurs différentes (rouge, vert et bleu), Dans ce cas, vous avez besoin de trois images de la même casquette. Vous avez besoin d&#39;une image pour chacun des billets rouge, vert et bleu. Vous avez également besoin d’échantillons de couleurs rouges, vertes et bleues. Les échantillons de couleurs servent de miniatures sur lesquelles les utilisateurs sélectionnent la visionneuse des séries d’échantillons pour voir les visières rouge, verte ou bleue.
 
 ## Création de la série d’échantillons {#create}
 
@@ -56,8 +53,8 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 1. Pour changer l’ordre des images dans votre série d’échantillons, faites-les glisser vers leur nouvel emplacement.
 1. Près du coin inférieur droit de la page, assurez-vous que l’option **[!UICONTROL Publier après un enregistrement]** est sélectionnée (par défaut).
-1. Sélectionnez **[!UICONTROL Enregistrer]**, sélectionnez un dossier pour stocker votre ensemble d’échantillons de couleurs, saisissez un nom pour l’ensemble, puis sélectionnez **[!UICONTROL Envoyer]**.
-1. Pour afficher la visionneuse d’échantillons dans la visionneuse d’échantillons, sélectionnez **[!UICONTROL Aperçu]** sur l’écran de la visionneuse d’échantillons. Vous pouvez sélectionner des miniatures d’échantillon dans la visionneuse de jeux d’échantillons pour voir comment elles se comportent.
+1. Sélectionnez **[!UICONTROL Enregistrer]**, sélectionnez un dossier pour stocker votre ensemble de nuanciers, saisissez un nom pour l’ensemble, puis sélectionnez **[!UICONTROL Envoyer]**.
+1. Pour afficher la visionneuse d’échantillons dans la visionneuse d’échantillons, sélectionnez **[!UICONTROL Aperçu]** sur l’écran de la visionneuse d’échantillons. Vous pouvez sélectionner des miniatures d’échantillon dans la visionneuse de jeux d’échantillons pour en connaître le fonctionnement.
 
 ## Modification d’une série d’échantillons {#editing-a-swatch-set}
 
@@ -74,8 +71,8 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 **Pour modifier un échantillon, procédez comme suit**
 
-1. Dans la vue Grille, accédez à un échantillon, puis sous l’image, sélectionnez **[!UICONTROL Modifier]**.
-1. Utilisez l’une des méthodes suivantes :
+1. Dans la vue Grille, accédez à un échantillon, puis, sous l’image, sélectionnez **[!UICONTROL Modifier]**.
+1. Effectuez l’une des actions suivantes :
 
    * Pour ajouter une image (publiée ou dépubliée), faites-la glisser d’un dossier dans Ajouter Assets vers la page **[!UICONTROL Vues]** de l’échantillon.
    * Pour supprimer une image, sélectionnez-la, puis sélectionnez **[!UICONTROL Supprimer]** dans la barre d’outils.
@@ -86,11 +83,11 @@ Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_
 
 ## Suppression d’un échantillon
 
-Lorsque vous supprimez une visionneuse, celle-ci est placée dans la corbeille. Toutefois, les membres (ou « enfants ») de cet ensemble ne sont pas affectés. Ils conservent chacun leur état publié ou dépublié existant.
+Lorsque vous supprimez une visionneuse, la visionneuse elle-même est déplacée vers le dossier Éléments supprimés. Les membres de cet ensemble ne sont pas affectés. Ils conservent leur statut publié ou dépublié existant.
 
 Voir aussi [Manually publishing assets](publishing-files.md#manually_publishing_assets) (« Publication manuelle des fichiers ») et [Manually unpublishing assets](publishing-files.md#manually_unpublishing_assets) (« Annulation manuelle de la publication des fichiers »).
 
 **Pour supprimer un échantillon, procédez comme suit**
 
-1. Dans la vue Grille, Liste ou Détails, sélectionnez une ou plusieurs séries d’échantillons.
+1. En mode Affichage de la grille, Affichage par liste ou Affichage des détails, sélectionnez une ou plusieurs séries d’échantillons.
 1. Sur la barre de navigation globale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer]** > **[!UICONTROL Supprimer]**.
