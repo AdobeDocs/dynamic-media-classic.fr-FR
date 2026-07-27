@@ -12,22 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:42:52.841Z'
 TQID: 'https://experienceleague.adobe.com/XXeYyrU-e6TE4MwaaiGmV176s9PZuOoBI1oSOXEtzGE'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: e7543e72fee35a936749cdd110d1d4a2a288c3bf
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 27%
+source-wordcount: 724
+ht-degree: 25%
 
 ---
 
 # Création de cibles de zoom pour le zoom guidé{#creating-zoom-targets-for-guided-zoom}
 
-Les cibles de zoom permettent d’orienter les utilisateurs vers certaines sections d’une image. Outre le zoom de forme libre, les visionneuses peuvent sélectionner une miniature cible de zoom et effectuer un zoom sur la partie de l’image sur laquelle vous souhaitez qu’elles concentrent. Les cibles de zoom sont un bon moyen de mettre en valeur les sections attrayantes ou intéressantes d’une image.
+Les cibles de zoom permettent d’orienter les utilisateurs vers certaines sections d’une image. Outre le zoom de forme libre, les visionneuses peuvent sélectionner une miniature cible de zoom et effectuer un zoom sur la partie de l’image sur laquelle vous souhaitez qu’elles concentrent. Les cibles de zoom permettent de mettre en surbrillance des parties spécifiques d’une image.
 
 ![Création de cibles de zoom pour le zoom guidé](/help/using/assets/zo_guided_zoom.png)
 
@@ -40,7 +37,7 @@ Le pourcentage de zoom maximal des cibles de zoom est de 100 %. Le taux de zoom 
 | Grande | Plus petite | Taux minimal plus petit |
 | Petite | Plus grande | Taux minimal plus grand |
 
-Vous pouvez modifier la taille de la visionneuse Zoom pour qu’elle corresponde à la taille utilisée sur votre page web. Vous pouvez modifier ce paramètre de manière permanente en modifiant la taille de la visionneuse dans l’écran Configuration (si vous êtes administrateur). Voir [Configuration des paramètres prédéfinis de la visionneuse de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Pour correspondre à la taille utilisée dans votre page web, vous pouvez modifier la taille de la visionneuse Zoom. Vous pouvez modifier ce paramètre de manière permanente en modifiant la taille de la visionneuse dans l’écran Configuration (si vous êtes administrateur). Voir [Configuration des paramètres prédéfinis de la visionneuse de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## Création et modification des cibles de zoom {#creating-and-editing-zoom-targets}
 
@@ -61,7 +58,7 @@ Pour créer une cible de zoom, ouvrez la page Éditeur de cible de zoom et proc�
 
 1. Sélectionnez **[!UICONTROL Sélectionner la cible]** (flèche), puis sélectionnez la cible de zoom que vous avez créée, et ajustez la taille et la position de la cible.
 
-   * **Redimensionner** : déplacez le pointeur sur un coin de la cible de zoom et faites glisser pour agrandir ou réduire la cible.
+   * **Redimensionner** : pour agrandir ou réduire la cible, déplacez le pointeur sur un coin de la cible de zoom et faites glisser.
 
    * **Position** : déplacez le pointeur sur la cible de zoom et faites-le glisser vers un autre emplacement.
 
@@ -71,7 +68,7 @@ Pour créer une cible de zoom, ouvrez la page Éditeur de cible de zoom et proc�
    >
    >les informations que vous indiquez dans la zone Nom sont bien plus que cela. Lorsque les utilisateurs déplacent le pointeur sur la cible de zoom, ils voient ces informations. Entrez donc, dans cette zone Nom, une brève description de la cible de zoom pour que les utilisateurs sachent sur quoi ils peuvent zoomer.
 
-1. (Facultatif) Saisissez des données utilisateur dans le champ Données utilisateur. Ce champ permet aux concepteurs de sites Web d&#39;ajouter des informations à la cible de zoom.
+1. (Facultatif) Saisissez des données utilisateur dans le champ Données utilisateur. Ce champ permet aux professionnels de la conception de sites web d’ajouter des informations à la cible de zoom.
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
    Les coordonnées et le niveau de zoom de la cible de zoom sont enregistrés. Une miniature de votre cible de zoom, avec le nom que vous avez indiqué, apparaît dans le panneau situé sur la droite de l’écran.
