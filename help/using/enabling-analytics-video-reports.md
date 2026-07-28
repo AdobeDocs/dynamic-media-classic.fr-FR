@@ -36,17 +36,17 @@ ht-degree: 0%
 
 Grâce aux rapports vidéo basés sur les pulsations Adobe Analytics, il n’est plus nécessaire d’activer les quatre événements de visionneuse de vidéos (Lecture, Pause, Arrêt, Jalon) lorsque vous configurez Adobe Analytics dans Adobe Dynamic Media Classic. La pulsation vidéo fonctionne avec les visionneuses de vidéos et de médias mixtes Adobe Dynamic Media Classic HTML5 standard. Le lecteur vidéo génère des données de suivi à des fins d’affichage dans les rapports vidéo Adobe Analytics.
 
-* Pour une présentation des médias en flux continu et de la « mesure de pulsation », voir [&#x200B; À propos d’Adobe Analytics for Streaming Media &#x200B;](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
+* Pour une présentation des médias en flux continu et de la « mesure de pulsation », voir [&#x200B; À propos d’Adobe Analytics for Streaming Media &#x200B;](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview).
 
 * L’intégration des rapports vidéo Adobe Analytics à Adobe Dynamic Media Classic prend en charge les variables de solution, mais pas les variables personnalisées.
 
-  Voir [Paramètres audio et vidéo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/overview) pour plus d’informations sur les variables de solution et les variables personnalisées.
+  Voir [Paramètres audio et vidéo](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/overview) pour plus d’informations sur les variables de solution et les variables personnalisées.
 
 * Les segments standard d’incréments d’une minute sont pris en charge. Cependant, les rapports sur les segments personnalisés, tels que les jalons définis par le client en fonction d’incréments temporels, de % jalons ou de décalages jalons, ne sont pas pris en charge.
 
-  Pour plus d’informations sur les exigences et la configuration relatives aux médias en flux continu, voir [Mesure des médias en flux continu dans Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
+  Pour plus d’informations sur les exigences et la configuration relatives aux médias en flux continu, voir [Mesure des médias en flux continu dans Adobe Analytics](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview).
 
-* Pour plus d’informations sur les variables personnalisées et de solution, voir [Activation des rapports multimédia](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/media-management).
+* Pour plus d’informations sur les variables personnalisées et de solution, voir [Activation des rapports multimédia](https://experienceleague.adobe.com/fr/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/media-management).
 
 >[!NOTE]
 >
