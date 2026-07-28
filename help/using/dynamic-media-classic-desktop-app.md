@@ -12,10 +12,15 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T19:46:24.807Z'
 TQID: 'https://experienceleague.adobe.com/w-jPQYG7xGeBmC8fOzcPzi6ZZ-urf0C0-HoDKVbjCWk'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: fcd8f761bcc746c402db2f06347b77352d1488f7
 workflow-type: tm+mt
 source-wordcount: 2124
@@ -130,7 +135,7 @@ Voir également :
 
 1. Effectuez l’une des opérations suivantes en fonction du programme d’installation que vous avez téléchargé.
 
-   * **** - Dans la boîte de dialogue **[!UICONTROL Glisser-déposer pour installer]**, faites glisser **[!UICONTROL Adobe Dynamic Media Classic]** et déposez-le sur **[!UICONTROL Applications]**.
+   * **&#x200B;**&#x200B;- Dans la boîte de dialogue **[!UICONTROL Glisser-déposer pour installer]**, faites glisser **[!UICONTROL Adobe Dynamic Media Classic]** et déposez-le sur **[!UICONTROL Applications]**.
 
      ![Installation par glisser-déposer sur macOS](/help/using/assets/dragondrop-install1.png)
 
@@ -143,7 +148,7 @@ Voir également :
 
 1. Lorsque vous ouvrez l’application, la nouvelle page de connexion d’Adobe Dynamic Media Classic s’affiche :
 
-   ![Connexion à ](/help/using/assets/dmclassic-login1.png)
+   ![Connexion à &#x200B;](/help/using/assets/dmclassic-login1.png)
 
 1. Pour vous connecter à l’application de bureau Adobe Dynamic Media Classic, utilisez les mêmes informations d’identification que celles que vous avez utilisées pour vous connecter à Adobe Dynamic Media Classic dans le navigateur.
 
@@ -185,7 +190,7 @@ Pour télécharger et *silencieusement* installez la dernière version de l’ap
 
 1. Lorsque vous ouvrez l’application, la nouvelle page de connexion d’Adobe Dynamic Media Classic s’affiche :
 
-   ![Connexion à ](/help/using/assets/dmclassic-login1.png)
+   ![Connexion à &#x200B;](/help/using/assets/dmclassic-login1.png)
 
 1. Pour vous connecter à l’application de bureau Adobe Dynamic Media Classic, utilisez les mêmes informations d’identification que celles que vous avez utilisées pour vous connecter à Adobe Dynamic Media Classic dans le navigateur.
 
@@ -231,7 +236,7 @@ Pour télécharger et *silencieusement* installez la dernière version de l’ap
 
 1. Lorsque vous ouvrez l’application, la nouvelle page de connexion d’Adobe Dynamic Media Classic s’affiche :
 
-   ![Connexion à ](/help/using/assets/dmclassic-login1.png)
+   ![Connexion à &#x200B;](/help/using/assets/dmclassic-login1.png)
 
 1. Pour vous connecter à l’application de bureau Adobe Dynamic Media Classic, utilisez les mêmes informations d’identification que celles que vous avez utilisées pour vous connecter à Adobe Dynamic Media Classic dans le navigateur.
 
