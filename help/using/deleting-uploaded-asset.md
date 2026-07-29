@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 7f6a75dae63b295e7df72b3b8b0935a2406c3d32
 workflow-type: tm+mt
-source-wordcount: 141
-ht-degree: 31%
+source-wordcount: 139
+ht-degree: 32%
 
 ---
 
@@ -62,7 +62,7 @@ Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pou
 
 >[!IMPORTANT]
 >
->À compter du 1er mai 2023, les ressources UGC dans Dynamic Media pourront être utilisées pendant 60 jours à compter de la date de chargement. Au bout de 60 jours, les ressources seront supprimées.
+>À compter du 1er mai 2023, les ressources UGC dans Dynamic Media pourront être utilisées pendant 60 jours à compter de la date de chargement. Après 60 jours, les ressources sont supprimées.
 
 >[!NOTE]
 >

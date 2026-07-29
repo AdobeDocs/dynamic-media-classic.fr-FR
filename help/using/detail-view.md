@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 6cee66920b39dd3995803cf060712025a8b0aa9a
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 615
 ht-degree: 21%
 
 ---
@@ -60,7 +60,7 @@ Vous pouvez afficher une ressource dans la vue détaillée afin de pouvoir l’e
 
 >[!NOTE]
 >
->Vous pouvez paginer d’une ressource à l’autre dans le même dossier dans le mode Détails. Il vous suffit de cliquer sur **[!UICONTROL Ressource précédente]** ou **[!UICONTROL Ressource suivante]**. Ces boutons se trouvent dans le coin supérieur droit de la vue Détail.
+>Vous pouvez naviguer entre les ressources d’un même dossier à l’aide du mode Détails. Cliquez sur **[!UICONTROL Ressource précédente]** ou **[!UICONTROL Ressource suivante]**. Ces boutons se trouvent dans le coin supérieur droit de la vue Détail.
 
 ## Obtenir des informations dans la vue détaillée {#getting-information-in-detail-view}
 
@@ -72,7 +72,7 @@ Vous pouvez obtenir une URL de ressource dans la vue détaillée. Toutefois, l�
 
 Le mode Détail propose des outils permettant d’utiliser la ressource que vous avez ouverte. Les outils disponibles dépendent du type de ressource que vous utilisez, mais l’affichage des détails offre toujours les fonctions suivantes :
 
-* **éléments à publier** : sélectionnez l’icône **[!UICONTROL `Publish`]** à gauche du nom ou accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Publier]** ou **[!UICONTROL Fichier]** > **[!UICONTROL Dépublier]**.
+* **Éléments à publier** : sélectionnez l’icône **[!UICONTROL `Publish`]** à gauche du nom ou accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Publier]** ou **[!UICONTROL Fichier]** > **[!UICONTROL Dépublier]**.
 
 * **Renommer la ressource** : sélectionnez le nom et saisissez un nouveau nom.
 

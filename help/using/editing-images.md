@@ -1,5 +1,5 @@
 ---
-title: Modification des images
+title: Modifier les images
 description: Découvrez comment modifier des images dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,20 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 7030f0f6339a3fd25ac7d81f5d11cd2edbc1996a
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 317
 ht-degree: 7%
 
 ---
 
 # Modification des images{#editing-images}
 
-Adobe Dynamic Media Classic propose de nombreux outils pour créer des effets multimédias enrichis. Ces outils sont disponibles en sélectionnant le bouton de survol **[!UICONTROL Modifier]** et dans le panneau Parcourir en mode Détail. Vous pouvez effectuer les tâches de modification d’images suivantes dans Adobe Dynamic Media Classic :
+Adobe Dynamic Media Classic propose de nombreux outils pour créer des effets multimédias. Ces outils sont disponibles en sélectionnant le bouton de survol **[!UICONTROL Modifier]** ou dans le panneau Parcourir dans la vue Détail. Vous pouvez effectuer les tâches de modification d’images suivantes dans Adobe Dynamic Media Classic :
 
-* **Créer des zones cliquables** : pour créer une zone cliquable, sélectionnez la commande Image ou le bouton **[!UICONTROL Zone cliquable]**. Une zone cliquable est une zone réactive sur une image, une page de catalogue électronique ou une image dans une visionneuse à 360° qui affiche un panneau avec un texte de survol. Les utilisateurs peuvent sélectionner une zone cliquable, par exemple, pour lancer une nouvelle page web. Voir [Création de zones cliquables](/help/using/creating-image-maps.md).
+* **Créer des zones cliquables** : pour créer une zone cliquable, sélectionnez la commande Image ou le bouton **[!UICONTROL Zone cliquable]**. Une zone cliquable est une zone réactive sur une image, une page de catalogue électronique ou une image dans une visionneuse à 360° qui affiche un panneau avec du texte de survol. Les utilisateurs peuvent sélectionner une zone cliquable, par exemple, pour lancer une nouvelle page web. Voir [Création de zones cliquables](/help/using/creating-image-maps.md).
 
-* **Créer des cibles de zoom** : pour créer des cibles de miniature, vous pouvez sélectionner la commande Cibles de zoom ou le bouton **[!UICONTROL Cibles de zoom]**. Les utilisateurs peuvent sélectionner une cible de miniature dans la visionneuse Zoom pour effectuer directement un zoom sur une partie particulière d’une image. Voir [Création de cibles de zoom pour le zoom guidé](/help/using/creating-zoom-targets-guided-zoom.md).
+* **Créer des cibles de zoom** : pour créer des cibles de zoom, vous pouvez sélectionner la commande Cibles de zoom ou le bouton **[!UICONTROL Cibles de zoom]**. Les utilisateurs peuvent sélectionner une cible de miniature dans la visionneuse Zoom pour effectuer directement un zoom sur une partie particulière d’une image. Voir [Création de cibles de zoom pour le zoom guidé](/help/using/creating-zoom-targets-guided-zoom.md).
 
 * **Recadrer une image** : pour recadrer une image, sélectionnez la commande Recadrer ou le bouton **[!UICONTROL Recadrer]**. Voir [Recadrer une image](/help/using/cropping-image.md).
 

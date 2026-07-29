@@ -19,22 +19,22 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 00d087b14c6c030473ecfee92ec879e705a9b197
 workflow-type: tm+mt
 source-wordcount: 329
-ht-degree: 18%
+ht-degree: 5%
 
 ---
 
 # Personnalisation de l’écran du portail multimédia{#customizing-the-media-portal-screen}
 
-Les paramètres de style du portail multimédia vous permettent de faire apparaître la marque de votre entreprise sur l’écran du portail multimédia sous forme de logo et de couleurs personnalisés. Utilisez les paramètres de style pour placer l’image de marque de votre entreprise sur le portail multimédia.
+Les paramètres de style du portail multimédia vous permettent de faire apparaître la marque de votre entreprise sur l’écran du portail multimédia sous forme de logo et de couleurs personnalisés. Utilisez les paramètres de style pour appliquer le branding de votre entreprise au portail multimédia.
 
 Pour accéder aux paramètres de style, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de Media Portal]** > **[!UICONTROL Paramètres de style]**. Veillez à sélectionner **[!UICONTROL Enregistrer]** pour enregistrer vos paramètres une fois qu’ils ont été définis. Vous pouvez sélectionner **[!UICONTROL Restaurer]** pour rétablir les paramètres par défaut. Lorsque vous effectuez vos choix, le panneau Aperçu vous montre leur apparence.
 
 * **[!UICONTROL Logo]** : sélectionnez **[!UICONTROL Parcourir]**, puis choisissez un graphique dans la fenêtre Sélectionner une image de logo.
 
-* **[!UICONTROL Application]** : créez un dégradé de couleurs en effectuant des choix dans les menus des Couleurs de dégradé d’arrière-plan.
+* **[!UICONTROL Application]** : configurez un dégradé de couleurs en sélectionnant des options dans les menus des couleurs de dégradé d’arrière-plan.
 
 * **[!UICONTROL Arborescence]** : choisissez une couleur de survol et une couleur de sélection.
 
@@ -48,7 +48,7 @@ Pour accéder aux paramètres de style, accédez à **[!UICONTROL Configuration]
 
 * **[!UICONTROL Barre de progression]** : choisissez la couleur de la barre qui indique la progression des chargements et des téléchargements.
 
-Pour que les utilisateurs du portail multimédia voient les paramètres de style que vous avez choisis, ils doivent ajouter `?company=(company name)` à l’URL avec laquelle ils accèdent au portail multimédia. Par exemple, pour afficher les paramètres de style, les utilisateurs du portail multimédia qui accèdent à la société PortalCo peuvent accéder aux éléments suivants :
+Pour que les utilisateurs du portail multimédia voient les paramètres de style que vous avez choisis, ils doivent ajouter `?company=(company name)` à l’URL avec laquelle ils accèdent au portail multimédia. Par exemple, pour afficher les paramètres de style, les utilisateurs du portail multimédia qui accèdent à la société PortalCo peuvent utiliser l’URL suivante :
 
 `https://s7sps1.scene7.com/MediaPortal`
 
@@ -58,6 +58,6 @@ Utilisez plutôt l’URL suivante :
 
 L’inclusion du nom de la société dans l’URL permet à Media Portal de reconnaître la société à laquelle un utilisateur souhaite accéder et d’appliquer les paramètres de style de la société en conséquence.
 
-Vous pouvez en savoir plus sur la communication des changements d’URL aux utilisateurs du portail multimédia, et sur la définition d’un message de l’e-mail de bienvenue pour que les nouveaux utilisateurs reçoivent l’URL de portail multimédia correcte.
+Vous pouvez en savoir plus sur la communication des modifications d’URL aux utilisateurs du portail multimédia et sur la configuration d’un e-mail de bienvenue afin que les nouveaux utilisateurs reçoivent l’URL correcte du portail multimédia.
 
-Voir [Définition du message de l’e-mail de bienvenue pour les utilisateurs du portail multimédia](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users).
+Voir [Configurer l’e-mail de bienvenue pour les utilisateurs du portail multimédia](adding-media-portal-users.md#setting_up_the_welcome_email_message_for_media_portal_users).

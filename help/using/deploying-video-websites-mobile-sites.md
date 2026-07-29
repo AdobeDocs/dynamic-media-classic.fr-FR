@@ -1,5 +1,5 @@
 ---
-title: Déployer de la vidéo sur vos sites Web et sites mobiles
+title: Déploiement de vidéos sur vos sites web et sites mobiles
 description: Découvrez comment déployer des vidéos sur vos sites web et sites mobiles à partir d’Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: ece86bc451fa15d9d4bc688bce4b91c2c2f97e33
 workflow-type: tm+mt
-source-wordcount: 1735
-ht-degree: 22%
+source-wordcount: 1720
+ht-degree: 19%
 
 ---
 
@@ -39,7 +39,7 @@ La publication d’une vidéo permet aux serveurs Adobe Dynamic Media Classic de
 
 Vous pouvez utiliser deux méthodes différentes pour publier une vidéo :
 
-* **Publication automatique et instantanée de vidéos lors du chargement** : dans le cadre du processus de chargement des vidéos, Adobe Dynamic Media Classic peut publier automatiquement les vidéos lorsqu’elles sont chargées et codées. Cette possibilité de publication instantanée signifie qu’il n’est pas nécessaire de publier les vidéos séparément après coup.
+* **Publication automatique et instantanée de vidéos lors du chargement** : dans le cadre du processus de chargement des vidéos, Adobe Dynamic Media Classic peut publier automatiquement les vidéos lorsqu’elles sont chargées et codées. La publication instantanée signifie qu’il n’est pas nécessaire de publier les vidéos séparément.
 
 * **Publication manuelle de la vidéo après le chargement** : si vous ne souhaitez pas publier les vidéos immédiatement, vous pouvez les publier manuellement à tout moment.
 
@@ -49,7 +49,7 @@ Une fois les vidéos publiées, Adobe Dynamic Media Classic active les chaînes 
 
 1. Effectuez l’une des opérations suivantes :
 
-   * Pour publier les vidéos automatiquement et instantanément au chargement, sur la page Charger, sélectionnez **[!UICONTROL Publier après le chargement]**. Vous avez terminé ; il ne reste plus aucune étape à exécuter.
+   * Pour publier les vidéos automatiquement et instantanément au chargement, sélectionnez **[!UICONTROL Publier après le chargement]** sur la page Charger . Le processus est terminé ; il n’y a pas d’autres étapes à effectuer.
    * Pour publier les vidéos manuellement après le chargement, dans le panneau de navigation, sélectionnez les vidéos, puis, sur la barre de navigation générale, sélectionnez **Publier**.
 
 ## Liaison d’une URL de vidéo à un site mobile ou un site web {#linking-a-video-url-to-a-mobile-site-or-a-website}
@@ -150,7 +150,8 @@ Si vous utilisez des lecteurs vidéo tiers ou un lecteur vidéo personnalisé au
 
   Sur la page **[!UICONTROL Paramètres généraux de l’application]**, dans le groupe **[!UICONTROL Serveurs]**, dans le champ de texte **[!UICONTROL Nom du serveur publié]**, construisez l’URL directe. Utilisez la syntaxe suivante : `server/is/content/company/folder/filename.m3u8`
 
-  Par exemple, supposons que le nom du serveur publié soit `https://s7d9.scene7.com/.`. En utilisant la syntaxe de l’étape 2, l’URL directe peut se présenter comme suit :
+  Supposons, par exemple, que le nom du serveur Publié soit `https://s7d9.scene7.com/`. En utilisant la syntaxe de l’étape 2, l’URL directe est la suivante :
+
   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * Pour générer une URL de vidéo en flux continu HLS (débit unique)
@@ -159,7 +160,8 @@ Si vous utilisez des lecteurs vidéo tiers ou un lecteur vidéo personnalisé au
 
   `server/company/folder/filename.ext.m3u8`
 
-  Supposons, par exemple, que le nom du serveur de diffusion en continu HLS soit `https://s7mbrstream.scene7.com/hls-vod/`. En utilisant la syntaxe de l’étape 2, l’URL directe peut se présenter comme suit :
+  Supposons, par exemple, que le nom du serveur de diffusion en continu HLS soit `https://s7mbrstream.scene7.com/hls-vod/`. En utilisant la syntaxe de l’étape 2, l’URL directe est la suivante :
+
   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * Génération d’une URL de vidéo progressive directe
@@ -168,24 +170,25 @@ Si vous utilisez des lecteurs vidéo tiers ou un lecteur vidéo personnalisé au
 
   `server/company/folder/filename`
 
-  Supposons, par exemple, que le nom du serveur de vidéos progressives soit `https://s7d9.scene7.com/is/content/`. En utilisant la syntaxe de l’étape 2, l’URL directe peut se présenter comme suit :
+  Supposons, par exemple, que le nom du serveur de vidéos progressives soit `https://s7d9.scene7.com/is/content/`. En utilisant la syntaxe de l’étape 2, l’URL directe est la suivante :
+
   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## Utilisation des miniatures vidéo {#working-with-video-thumbnails}
 
 Adobe Dynamic Media Classic génère des miniatures pour les vidéos codées et les vidéos précodées. Vous pouvez utiliser des miniatures vidéo comme n’importe quelle autre image. De plus, vous pouvez obtenir des URL pour les miniatures vidéo générées par Adobe Dynamic Media Classic. Vous pouvez ensuite déployer ces URL en dehors d’Adobe Dynamic Media Classic. Vous pouvez, par exemple, déployer les miniatures dans des résultats de recherche, des listes de vidéos correspondantes et des listes de lecture vidéo sur un site Web.
 
-Les miniatures sont générées en fonction de la première image hétérogène (pas une image toute noire, toute blanche, etc.) de la vidéo.
+Les miniatures sont générées en fonction de la première image hétérogène (et non d’une image entièrement noire ou d’une image entièrement blanche) de la vidéo.
 
 ### Obtention des URL de miniatures vidéo {#obtaining-video-thumbnail-urls}
 
-Adobe Dynamic Media Classic génère automatiquement des miniatures vidéo pendant le processus de chargement. Les miniatures s’affichent dans le panneau Parcourir en mode Liste et Grille.
+Adobe Dynamic Media Classic génère automatiquement des miniatures vidéo pendant le processus de chargement. Les miniatures s’affichent dans la vue Liste et la vue Grille du panneau de navigation.
 
 Pour générer des URL de miniatures vidéo, effectuez une opération de publication.
 
 Voir [Publication de la vidéo](deploying-video-websites-mobile-sites.md#publishing_video).
 
-Une fois la publication terminée, vous pouvez obtenir des URL de miniatures vidéo en mode Affichage des détails dans le panneau URL et Code intégré. Sélectionnez **[!UICONTROL Copier l’URL]** à droite de la miniature de la vidéo afin de copier l’URL associée.
+Après la publication, vous pouvez obtenir des URL de miniatures vidéo dans l’Affichage des détails des URL et du code intégré. Sélectionnez **[!UICONTROL Copier l’URL]** à droite de la miniature de la vidéo afin de copier l’URL associée.
 
 ### Modification des images d’affiche dans les visionneuses de vidéos {#modifying-poster-frames-in-video-viewers}
 

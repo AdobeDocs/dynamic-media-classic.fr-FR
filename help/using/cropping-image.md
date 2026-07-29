@@ -1,5 +1,5 @@
 ---
-title: Recadrage d’une image
+title: Recadrer une image
 description: Découvrez comment recadrer une image dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -20,10 +20,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: af8d42004b6de1fea57ea6a59fea930b8e8516e3
 workflow-type: tm+mt
-source-wordcount: 560
-ht-degree: 32%
+source-wordcount: 552
+ht-degree: 25%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 32%
 
 Vous pouvez recadrer des images dans Adobe Dynamic Media Classic. Le système conserve les informations sur les images qui ont été recadrées, ce qui vous permet de rétablir leur état d’origine. Vous pouvez également recadrer une image et enregistrer la version recadrée sous un nouveau nom.
 
-Vous pouvez recadrer une image afin d’en supprimer les bords blancs ou de ne garder qu’une partie de l’image.
+Pour supprimer l’espace blanc autour d’une image ou pour recadrer une zone de l’image, vous pouvez la recadrer.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Vous pouvez recadrer une image afin d’en supprimer les bords blancs ou de ne g
 
 Vous pouvez éliminer les pixels transparents ou de couleur qui apparaissent au bord d’une image.
 
-1. Pour recadrer une image, sélectionnez son bouton de survol **[!UICONTROL Modifier]**, puis sélectionnez **[!UICONTROL Recadrer]**, ou affichez-la dans le panneau Parcourir dans la vue Détail et sélectionnez le bouton **[!UICONTROL Recadrer]**.
+1. Pour recadrer une image, sélectionnez son bouton de survol **[!UICONTROL Modifier]**, puis sélectionnez **[!UICONTROL Recadrer]** ou affichez-la dans l’Affichage des détails du panneau Parcourir et sélectionnez le bouton **[!UICONTROL Recadrer]**.
 1. Dans la page Éditeur de recadrage, effectuez l’une des opérations suivantes :
 
    * Pour rogner les pixels de couleur, accédez à **[!UICONTROL Rogner]** > **[!UICONTROL Couleur]**. Dans la boîte de dialogue **[!UICONTROL Recadrage automatique par couleur]**, sélectionnez le menu **[!UICONTROL Coin]** et choisissez un coin avec la couleur d’arrière-plan à recadrer. Entrez ensuite un paramètre **[!UICONTROL Tolérance]** compris entre 0 et 1. La valeur 0 permet de rogner les pixels uniquement s’ils correspondent exactement à la couleur sélectionnée dans l’angle de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs. Sélectionnez **[!UICONTROL Recadrer]**.
@@ -55,14 +55,14 @@ Vous pouvez éliminer les pixels transparents ou de couleur qui apparaissent au 
 
 ## Sélection d’une zone à recadrer {#select-an-area-to-crop}
 
-1. Pour recadrer une image, sélectionnez son bouton de survol **[!UICONTROL Modifier]**, puis choisissez **[!UICONTROL Recadrer]** ou affichez-la dans le panneau Parcourir dans le mode Détail et sélectionnez **[!UICONTROL Recadrer]**.
+1. Pour recadrer une image, sélectionnez son bouton de survol **[!UICONTROL Modifier]**, puis choisissez **[!UICONTROL Recadrer]** ou affichez-la dans l’Affichage des détails du panneau Parcourir et sélectionnez **[!UICONTROL Recadrer]**.
 
-1. Dans la fenêtre Éditeur de recadrage , placez la partie de l’image que vous ne souhaitez pas recadrer dans la zone de recadrage. Ce qui apparaît dans la zone est ce qui restera après avoir sélectionné **[!UICONTROL Enregistrer]** et recadré l’image.
+1. Dans la fenêtre Éditeur de recadrage , placez la partie de l’image à conserver dans la zone de recadrage. Tout ce qui apparaît dans la zone reste après avoir sélectionné **[!UICONTROL Enregistrer]** et recadré l’image.
 1. Pour modifier la zone de recadrage, effectuez l’une des opérations suivantes :
 
-   * Faites glisser un côté ou un angle de la zone de recadrage. Maintenez la touche Maj enfoncée tout en faisant glisser pour modifier la taille, mais conservez les proportions (la forme) de la zone de recadrage.
+   * Faites glisser un côté ou un angle de la zone de recadrage. Pour modifier la taille tout en conservant le rapport d’aspect (la forme) de la zone de recadrage, maintenez la touche Maj enfoncée tout en faisant glisser.
    * Spécifiez des valeurs en pixels dans les zones Taille.
-   * Faites glisser la souris pour déplacer la zone de recadrage. Positionnez le pointeur dans les limites du cadre. Lorsque le pointeur prend la forme d’une flèche à quatre pointes, faites glisser la zone à l’emplacement voulu sur l’image.
+   * Faites glisser la souris pour déplacer la zone de recadrage. Positionnez le pointeur dans les limites du cadre. Lorsque le pointeur de déplacement s’affiche, faites glisser la zone vers un nouvel emplacement sur l’image.
 
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 

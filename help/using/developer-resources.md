@@ -1,5 +1,5 @@
 ---
-title: Ressources du développeur
+title: Ressources pour les développeurs
 description: Découvrez les ressources de développement disponibles pour Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,16 +17,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: ef0ddb7b88e52964af778ddb3ab049ce540f8f3d
 workflow-type: tm+mt
-source-wordcount: 228
+source-wordcount: 221
 ht-degree: 12%
 
 ---
 
 # Ressources du développeur {#developer-resources}
 
-Les guides de référence des visionneuses, de la diffusion d’images et du rendu d’images, ainsi que du système de production d’images décrivent les protocoles http pour ces modules de serveur. Les développeurs et développeuses de sites Web qui souhaitent personnaliser davantage et utiliser des médias riches Adobe Dynamic Media Classic pour un site Web ou une application personnalisée peuvent utiliser ces guides. Il est supposé que l’utilisateur connaît l’application de bureau Dynamic Media Classic, les normes et conventions générales du protocole http et la terminologie de base de l’imagerie.
+Les guides de référence pour les visionneuses, la diffusion d’images et le rendu d’images, ainsi que le système de production d’images décrivent les protocoles HTTP pour ces modules de serveur. Les développeurs de sites web qui souhaitent personnaliser et utiliser des médias riches Adobe Dynamic Media Classic pour un site web ou une application personnalisée peuvent utiliser ces guides. Les utilisateurs doivent connaître l’application de bureau Dynamic Media Classic, les normes et conventions générales du protocole HTTP et la terminologie de base de l’imagerie.
 
 Consultez également la section [Ressources du développeur de Dynamic Media](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources).
 
