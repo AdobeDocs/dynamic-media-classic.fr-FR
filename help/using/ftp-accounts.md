@@ -12,10 +12,15 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:50:36.235Z'
 TQID: 'https://experienceleague.adobe.com/6fNfI7Na3jeDys307id5U9nIt-DeWCmfwtIzsb0G73I'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ab98008be321400156bd26951ea7cc211b2a9425
 workflow-type: tm+mt
 source-wordcount: 233
@@ -29,7 +34,7 @@ Seuls les administrateurs du portail multimédia peuvent gérer les comptes FTP.
 
 Vous pouvez activer ou désactiver des utilisateurs existants du portail multimédia à l’aide de la page Administration des utilisateurs dans Configuration de l’administration.
 
-Voir [ Activer ou désactiver des utilisateurs](administration-setup.md#activating_or_deactivating_users).
+Voir [&#x200B; Activer ou désactiver des utilisateurs](administration-setup.md#activating_or_deactivating_users).
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Portail de médias]** > **[!UICONTROL Comptes FTP]**.
 1. Sur la page Ajouter un compte FTP, dans la liste déroulante Nom d’utilisateur du compte FTP, sélectionnez un utilisateur.
