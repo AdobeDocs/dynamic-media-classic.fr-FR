@@ -9,10 +9,18 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T19:59:26.023Z'
 TQID: 'https://experienceleague.adobe.com/QHE-OFzsPsBwdIlkpO1nGo1W5Q2Au9Avy8G8mTzBZGc'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 1c4201677cce2afcb0ab2d4beed5cf1cabe4031c
 workflow-type: tm+mt
 source-wordcount: 330
@@ -44,7 +52,7 @@ Voir [Questions fréquentes](new-ui-2020.md). De nouvelles mises à jour prennen
 * [Newsletter mensuelle Dynamic Media](dynamic-media-newsletter.md)
 * [Tutoriel sur les bonnes pratiques d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Guide : Guide des bonnes pratiques pour l’accentuation des images](/help/using/assets/s7_sharpening_images.pdf)
-* [Guide : comment Adobe Dynamic Media Classic prend en charge le SEO ](/help/using/assets/s7_seo.pdf) : les moteurs de recherche permettent aujourd’hui de rechercher des sites web et des images. Adobe Dynamic Media Classic prend en charge les efforts visant à optimiser le moteur de recherche d’images afin d’augmenter le trafic sur le site web de l’utilisateur ou de l’utilisatrice d’Adobe Dynamic Media Classic. Ce guide de PDF fournit le contexte et les recommandations d’implémentation pour atteindre ce résultat.
+* [Guide : comment Adobe Dynamic Media Classic prend en charge le SEO &#x200B;](/help/using/assets/s7_seo.pdf) : les moteurs de recherche permettent aujourd’hui de rechercher des sites web et des images. Adobe Dynamic Media Classic prend en charge les efforts visant à optimiser le moteur de recherche d’images afin d’augmenter le trafic sur le site web de l’utilisateur ou de l’utilisatrice d’Adobe Dynamic Media Classic. Ce guide de PDF fournit le contexte et les recommandations d’implémentation pour atteindre ce résultat.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
 * [Webinaire : bonnes pratiques pour offrir des expériences interactives avec Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/) : découvrez comment gérer le contenu et définir des paramètres d’image prédéfinis pour des performances optimales. Vous en apprendrez également plus sur les paramètres prédéfinis de visionneuse et les configurations de mise en cache.
 <!-- NOT FOUND * [Webinar: Maximizing your Asset ROI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true): Learn industry best practices to deliver rich media across your sites and mobile apps. In this webinar, Adobe gives examples and demonstrations showing you how to deliver video efficiently across devices. Learn how you can deliver dynamic creative in your marketing campaigns. Or, increase conversion by making any image, style guide, or lookbook shoppable. -->
@@ -56,4 +64,4 @@ Voir [Questions fréquentes](new-ui-2020.md). De nouvelles mises à jour prennen
 
 Allez [ici](https://experienceleague.adobe.com/en/premium/premium-search?sort=relevance&q=dynamic+media).
 
-[Vidéos de formation ](/help/using/training-videos.md).
+[Vidéos de formation &#x200B;](/help/using/training-videos.md).
