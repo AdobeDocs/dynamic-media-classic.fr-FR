@@ -1,5 +1,5 @@
 ---
-title: Options de réglage fin des images lors du chargement
+title: Options d’optimisation d’image lors du chargement
 description: Découvrez les options d’optimisation des images disponibles au moment du chargement dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,31 +12,27 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:59:54.410Z'
 TQID: 'https://experienceleague.adobe.com/C0REr3rutR9-FalFXHHeGVtYJGEeODYtTnAfWk-S0-M'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d4b7c732ad5e23237d00f1c5d344f1264ac48293
 workflow-type: tm+mt
-source-wordcount: 1212
-ht-degree: 26%
+source-wordcount: 1203
+ht-degree: 19%
 
 ---
 
 # Options de réglage fin des images lors du chargement{#image-editing-options-at-upload}
 
-Lors du téléchargement des fichiers d’image, y compris des fichiers AI, EPS et PSD, vous pouvez effectuer les opérations de retouche suivantes à partir de la boîte de dialogue Télécharger les options de la tâche :
+Lors du chargement de fichiers AI, EPS et PSD, vous pouvez effectuer les actions suivantes dans la boîte de dialogue [!UICONTROL Charger les options de la tâche] :
 
 * Recadrez l’espace blanc à partir du bord des images.
 * Recadrer manuellement des images par leurs côtés
 * Choisir un profil de couleurs
 * Créer un masque à partir d’un chemin de tracé
-* Accentuer les images grâce aux options de masquage flou
-* Masquer l’arrière-plan
+* Accentuation des images avec les options de masquage flou.
+* Casse l&#39;arrière plan.
 
 Ces options se trouvent sur la page Charger sous l’en-tête **[!UICONTROL Options de modification d’imagerie]**.
 
@@ -46,19 +42,19 @@ Vous pouvez supprimer automatiquement d’une image les pixels représentant des
 
 * **[!UICONTROL Rogner en fonction de]** : dans cette liste déroulante, choisissez de recadrer en fonction de la couleur ou de la transparence :
 
-   * **[!UICONTROL Couleur]** : sélectionnez l’option **[!UICONTROL Couleur]**. Ensuite, dans la liste déroulante **[!UICONTROL Coin]**, sélectionnez l’angle de l’image présentant la couleur qui représente le mieux l’espace blanc à rogner.
+  * **[!UICONTROL Couleur]** : sélectionnez l’option **[!UICONTROL Couleur]**. Ensuite, dans la liste déroulante **[!UICONTROL Coin]**, sélectionnez l’angle de l’image présentant la couleur qui représente le mieux l’espace blanc à rogner.
 
-   * **[!UICONTROL Transparence]** : sélectionnez l’option Transparence.
+  * **[!UICONTROL Transparence]** : sélectionnez l’option Transparence.
 
-* **[!UICONTROL Tolérance]** : faites glisser le curseur pour définir une tolérance comprise entre 0 et 1 :
+* **[!UICONTROL Tolérance]** : pour définir une tolérance comprise entre 0 et 1, faites glisser le curseur :
 
-   * **Rognage en fonction de la couleur** : spécifiez 0 pour rogner les pixels uniquement s’ils correspondent exactement à la couleur que vous avez sélectionnée dans le coin de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs.
+  * **Rognage en fonction de la couleur** : spécifiez 0 pour rogner les pixels uniquement s’ils correspondent exactement à la couleur que vous avez sélectionnée dans le coin de l’image. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs.
 
-   * **Rognage en fonction de la transparence** : spécifiez 0 pour rogner les pixels uniquement s’ils sont transparents ; les nombres plus proches de 1 permettent une plus grande transparence.
+  * **Rognage en fonction de la transparence** : spécifiez 0 pour rogner les pixels uniquement s’ils sont transparents ; les nombres plus proches de 1 permettent une plus grande transparence.
 
 ## Recadrer manuellement sur les côtés des images
 
-Pour recadrer manuellement une image par ses côtés, sélectionnez le menu Recadrer, puis choisissez Manuel. Ensuite, entrez le nombre de pixels à rogner d’un côté ou de chaque côté de l’image. La proportion de l’image qui est rognée dépend du paramètre ppp (pixels par pouce) défini dans le fichier d’image. Supposons, par exemple, que l’image affiche 150 ppp. Ensuite, saisissez 75 dans les zones de texte Haut, Droite, Bas et Gauche. À ce stade, chaque côté est rogné de 0,5 pouce.
+Pour recadrer manuellement une image par ses côtés, sélectionnez le menu Recadrer, puis choisissez Manuel. Ensuite, entrez le nombre de pixels à rogner d’un côté ou de chaque côté de l’image. La quantité d’image recadrée dépend du paramètre ppi (pixels par pouce) du fichier d’image. Supposons, par exemple, que l’image affiche 150 ppp. Saisissez ensuite 75 dans les zones de texte Haut, Droite, Bas et Gauche. À ce stade, chaque côté est coupé de 0,5 pouce.
 
 ## Choisir un profil de couleurs
 
@@ -68,7 +64,7 @@ Pour sélectionner un espace colorimétrique pour l’image, choisissez une opti
 
 * **[!UICONTROL Conserver l’espace colorimétrique d’origine]** : conserve l’espace colorimétrique d’origine.
 
-* **[!UICONTROL Personnaliser à partir de]** > **[!UICONTROL À]** : ouvre les menus afin que vous puissiez choisir un espace colorimétrique Convertir à partir de et Convertir en . Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez téléchargé sur Adobe Dynamic Media Classic.
+* **[!UICONTROL Personnaliser à partir de]** > **[!UICONTROL À]** : ouvre les menus afin que vous puissiez choisir un espace colorimétrique Convertir à partir de et Convertir en . Vous pouvez choisir un espace colorimétrique Adobe Photoshop standard ou un espace colorimétrique que vous avez téléchargé dans Adobe Dynamic Media Classic.
 
 (voir [Profils ICC](icc-profiles.md#icc_profiles)).
 
@@ -76,11 +72,11 @@ Pour sélectionner un espace colorimétrique pour l’image, choisissez une opti
 
 Pour créer un masque pour l’image en fonction des informations de son tracé d’écrêtage, sélectionnez **[!UICONTROL Créer un masque à partir du tracé d’écrêtage]**. Cette option s’applique aux images créées à l’aide d’applications de retouche d’images dans lesquelles un chemin de tracé (ou masque) a été créé.
 
-## Accentuer une image à l’aide de l’option Accentuer le masque
+## Accentuation d’une image à l’aide de l’accentuation
 
 Ce filtre vous permet d’affiner un effet de filtre d’accentuation sur l’image finale sous-échantillonnée. Il permet de contrôler l’intensité de l’effet, le rayon de l’effet (mesuré en pixels) et un seuil de contraste qui est ignoré.
 
-Cet effet utilise les mêmes options que le filtre d’accentuation de Photoshop. Contrairement à ce que suggère le nom, le masquage flou est un filtre d’accentuation.
+Cet effet utilise les mêmes options que le filtre d’accentuation d’Adobe Photoshop. Bien que le nom puisse prêter à confusion, l’accentuation est un filtre d’accentuation.
 
 Sous le masquage flou, définissez les options de votre choix. Les options définies sont décrites dans le tableau suivant :
 
@@ -95,9 +91,9 @@ Voir aussi [Accentuer une image](sharpening-image.md#sharpening_an_image).
 
 Voir aussi [Accentuer les images dans Adobe Dynamic Media et sur le serveur d’images](/help/using/assets/s7_sharpening_images.pdf).
 
-## Masquer l’arrière-plan
+## Supprimer l’arrière-plan
 
-Utilisez l’arrière-plan du K.O. pour supprimer automatiquement l’arrière-plan d’une image lors de son chargement. Cette technique est utile pour attirer l’attention sur un objet précis et pour le faire ressortir dans un arrière-plan chargé.
+Utilisez Supprimer l’arrière-plan pour supprimer automatiquement l’arrière-plan d’une image lorsque vous la chargez. Cette technique est utile pour mettre en évidence un objet particulier et l’isoler d’un arrière-plan complexe.
 
 | Options de masquage de l’arrière-plan | Description |
 | --- | --- |
