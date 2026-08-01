@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 0117afba420d2d4dce072b78a35e44328e72c950
 workflow-type: tm+mt
 source-wordcount: 165
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 Si vous définissez des cibles de zoom et des zones cliquables pour les images de votre visionneuse d’échantillons, ces cibles et zones cliquables apparaissent dans la visionneuse de la visionneuse d’échantillons. Les utilisateurs peuvent, par exemple, sélectionner une zone cliquable dans la visionneuse de visionneuse d’échantillons et ouvrir une nouvelle page de votre site web contenant des informations sur un élément. Les utilisateurs peuvent sélectionner une image miniature cible dans la visionneuse d’ensemble d’échantillons et effectuer automatiquement un zoom sur une partie d’une image.
 
-Si vous souhaitez que les cibles de zoom et les zones cliquables soient mises à la disposition des utilisateurs, créez des cibles de zoom et des zones cliquables pour les images de votre visionneuse d’échantillons. Vous pouvez le faire à l’aide des outils Zones cliquables ou Cibles de zoom dans l’écran de la visionneuse d’échantillons ou le panneau de navigation (dans l’affichage des détails).
+Si vous souhaitez que les cibles de zoom et les zones cliquables soient mises à la disposition des utilisateurs, créez des cibles de zoom et des zones cliquables pour les images de votre visionneuse d’échantillons. Vous pouvez effectuer cette action à l’aide des outils Zones cliquables ou Cibles de zoom sur l’écran de la visionneuse d’échantillons ou dans le panneau de navigation (dans l’affichage des détails).
 
 >[!MORELIKETHIS]
 >

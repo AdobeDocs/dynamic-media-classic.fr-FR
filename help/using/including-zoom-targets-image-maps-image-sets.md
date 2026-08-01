@@ -18,18 +18,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 65591cf1e26795a581209be9eba93d4161452025
 workflow-type: tm+mt
-source-wordcount: 165
+source-wordcount: 167
 ht-degree: 0%
 
 ---
 
 # Inclure les cibles de zoom et les zones cliquables dans les visionneuses d’images{#including-zoom-targets-and-image-maps-in-image-sets}
 
-Si vous définissez des cibles de zoom et des zones cliquables pour les images de votre visionneuse d’images, ces cibles et zones cliquables apparaissent dans la visionneuse d’images. Les utilisateurs peuvent, par exemple, sélectionner une zone cliquable dans la visionneuse d’images et ouvrir une nouvelle page de votre site web contenant des informations sur un élément. Les utilisateurs peuvent sélectionner une image miniature cible dans la visionneuse d’images et effectuer automatiquement un zoom avant sur une partie d’une image.
+Si vous définissez des cibles de zoom et des zones cliquables pour les images de votre visionneuse d’images, ces cibles et zones cliquables apparaissent dans la visionneuse d’images. Les utilisateurs peuvent, par exemple, sélectionner une zone cliquable dans la visionneuse d’images et ouvrir une nouvelle page de votre site web contenant des informations sur un élément. Les utilisateurs peuvent sélectionner une image miniature cible dans la visionneuse d’images et effectuer automatiquement un zoom sur une zone spécifique d’une image.
 
-Si vous souhaitez que les cibles de zoom et les zones cliquables soient mises à la disposition des utilisateurs, créez des cibles de zoom et des zones cliquables pour les images de votre visionneuse d’images. Vous pouvez le faire à l’aide des outils Zones cliquables ou Cibles de zoom dans l’écran de la visionneuse d’images ou le panneau de navigation (dans l’affichage des détails).
+Si vous souhaitez que les cibles de zoom et les zones cliquables soient mises à la disposition des utilisateurs, créez des cibles de zoom et des zones cliquables pour les images de votre visionneuse d’images. Vous pouvez effectuer cette action à l’aide des outils Zones cliquables ou Cibles de zoom dans l’écran de la visionneuse d’images ou le panneau de navigation (dans l’affichage des détails).
 
 >[!MORELIKETHIS]
 >
