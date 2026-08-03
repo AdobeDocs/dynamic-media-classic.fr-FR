@@ -1,5 +1,5 @@
 ---
-title: Liaison des visionneuses Zoom à vos pages web
+title: Lier les visionneuses Zoom à vos pages web
 description: Découvrez comment lier les visionneuses Zoom à vos pages web dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,22 +12,18 @@ topic: Administration, Content Management, Development
 level: Intermediate
 autotag-review: '2026-05-13T20:03:57.696Z'
 TQID: 'https://experienceleague.adobe.com/Urf0qGJqj7tCCGDfNwprZnxf6YfDgavWb44pThwds0I'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a39ab917e54f3c998f3542e0ff6628de720ca017
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 20%
+source-wordcount: 696
+ht-degree: 19%
 
 ---
 
-# Liaison des visionneuses Zoom à vos pages web{#linking-zoom-viewers-to-your-web-pages}
+# Connexion des visionneuses Zoom à vos pages web{#linking-zoom-viewers-to-your-web-pages}
 
 Vos sites web et applications accèdent au contenu du serveur d’images Dynamic Media par le biais de chaînes URL ou de code incorporé. Cet accès inclut les images principales et les cibles de zoom associées. Elle comprend également les paramètres prédéfinis de la visionneuse Zoom. Ces chaînes URL sont activées au cours du processus de publication. Pour placer ces chaînes d’URL ou le code incorporé dans vos pages web et applications, vous devez les copier depuis Adobe Dynamic Media Classic.
 
@@ -55,9 +51,9 @@ Vos sites web et applications accèdent au contenu du serveur d’images Dynamic
 
 ## Ajout d’URL de visionneuse Zoom à une page web {#adding-zoom-viewer-urls-to-your-web-page}
 
-En règle générale, les visiteurs zooment les images d’un site web en sélectionnant d’abord une icône Zoom (souvent l’icône affiche l’image d’une loupe). La sélection de cette icône lance une page Web dynamique (ASP ou JSP) qui affiche l’image dans une fenêtre pop-up. C’est dans cette fenêtre contextuelle que les visiteurs effectuent un zoom sur l’image.
+En règle générale, les visiteurs zooment les images d’une page web en sélectionnant d’abord une icône Zoom (souvent l’icône affiche l’image d’une loupe). La sélection de cette icône lance une page Web dynamique (ASP ou JSP) qui affiche l’image dans une fenêtre pop-up. La fenêtre pop-up permet aux visiteurs de zoomer sur l’image.
 
-Pour plus d’informations et d’exemples de code, consultez la [visionneuse Zoom de base HTML5 incorporée](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) dans le guide de référence des visionneuses Adobe.
+Pour plus d’informations et d’exemples de code, consultez la [visionneuse Zoom de base HTML5 incorporée](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) dans le guide de référence des visionneuses Adobe.
 
 ## Copie de la copie incorporée d’une visionneuse Zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
