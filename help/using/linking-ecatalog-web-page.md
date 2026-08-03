@@ -57,7 +57,7 @@ Vos sites web et applications accèdent au contenu du serveur d’images Dynamic
 
 La méthode standard pour déployer un catalogue électronique consiste à ajouter un lien à l’aide d’une page de garde de miniature de catalogue électronique sur votre page Web. Pour vous assurer que le catalogue électronique est lancé dans une fenêtre pop-up centrée, contactez votre service informatique. Pour masquer la barre d’outils et la barre d’adresse, configurez le navigateur.
 
-Pour plus d’informations et d’exemples de code, consultez la [visionneuse de catalogue électronique HTML5 incorporée](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) dans la référence des visionneuses Adobe.
+Pour plus d’informations et d’exemples de code, consultez la [visionneuse de catalogue électronique HTML5 incorporée](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) dans la référence des visionneuses Adobe.
 
 ## Copie du code incorporé d’une visionneuse de catalogue électronique {#copying-the-embed-code-of-an-ecatalog-viewer}
 
