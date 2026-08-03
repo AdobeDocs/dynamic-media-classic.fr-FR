@@ -12,29 +12,24 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:51:50.750Z'
 TQID: 'https://experienceleague.adobe.com/csg3qawhCOMv6niWQHp9vyGgpJBcVuOOhExioDeURuA'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: c8b39b658f09de6bb598277c5a0a4e1ce3a8bc9a
 workflow-type: tm+mt
-source-wordcount: 150
+source-wordcount: 137
 ht-degree: 0%
 
 ---
 
 # Intégration d’Adobe Dynamic Media Classic à Adobe Target Standard/Premium {#integrating-dmc-with-target}
 
-Avant de pouvoir intégrer [!DNL Adobe Dynamic Media Classic] à [!DNL Target Standard/Premium], vous devez saisir l’URL Target dans l’écran Paramètres généraux de l’application [!DNL Adobe Dynamic Media Classic] . Pour obtenir votre URL Target et la saisir dans la page Paramètres généraux de l’application, procédez comme suit :
+Avant de pouvoir intégrer [!DNL Adobe Dynamic Media Classic] à [!DNL Target Standard/Premium], vous devez saisir l’URL Target dans l’écran Paramètres généraux de l’application [!DNL Adobe Dynamic Media Classic] . Pour obtenir votre URL Target et la saisir dans la page Paramètres généraux de l’application, procédez comme suit
 
 1. Dans [!DNL Adobe Experience Cloud], connectez-vous à votre compte [!DNL Target Standard/Premium].
-1. Après vous être connecté, dans la barre d’adresse de votre navigateur, copiez l’URL jusqu’à et y compris `.com`.
+1. Une fois connecté, dans la barre d’adresse de votre navigateur, copiez l’URL jusqu’à et y compris `.com`.
 
-   Par exemple, si l’URL *fictive* (les chemins d’URL contiennent toujours des barres obliques, et non des barres obliques inverses comme dans cet exemple) de la barre d’adresse est `https:\\www.myfictionalsite.com/categories/admin/home.do`, copiez uniquement cette partie de l’URL *fictive* : `https:\\www.myfictionalsite.com`.
+   Si l’URL (les chemins d’URL contiennent toujours des barres obliques, et non des barres obliques inverses) de la barre d’adresse est `https://www.myfictionalsite.com/categories/admin/home.do`, copiez la partie suivante : `https://www.myfictionalsite.com`.
 
 1. Dans [!DNL Adobe Dynamic Media Classic], accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]**.
 1. Sur la page Paramètres généraux de l’application, dans le champ **[!UICONTROL Nom du serveur Test&amp;Target]**, collez l’URL que vous avez copiée à l’étape 2.
