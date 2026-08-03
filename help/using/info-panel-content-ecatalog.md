@@ -12,35 +12,31 @@ topic: Integrations
 level: Experienced
 autotag-review: '2026-05-13T19:51:12.585Z'
 TQID: 'https://experienceleague.adobe.com/KZEo-DNrfZJt66xzSAHpLX6A8j1evxOBtwSxQfk44Wc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: a6556d91057da7b0cd02523a48f97e2eadcebb88
 workflow-type: tm+mt
-source-wordcount: 890
-ht-degree: 38%
+source-wordcount: 889
+ht-degree: 26%
 
 ---
 
 # Gestion du contenu du panneau Informations dans les catalogues électroniques{#managing-info-panel-content-in-ecatalogs}
 
-Outre l’utilisation de texte de zone cliquable pour vos survols dans les catalogues électroniques, vous pouvez utiliser un panneau d’informations pour ajouter de plus grandes quantités de texte de survol, y compris des liens. Vous pouvez également gérer l’InfoPanel à l’aide d’une mise en cache chronométrée et de la planification de mises à jour de contenu.
+Outre l’utilisation de texte de zone cliquable pour vos survols dans les catalogues électroniques, vous pouvez utiliser un panneau d’informations pour ajouter de plus grandes quantités de texte de survol, y compris des liens. Vous pouvez également gérer le panneau d’informations à l’aide de la mise en cache planifiée et des mises à jour de contenu.
 
-Vous pouvez gérer la configuration et les données de votre InfoPanel à l’aide des fonctionnalités suivantes d’Adobe Dynamic Media Classic :
+Vous pouvez gérer la configuration et les données du panneau d’informations à l’aide des fonctionnalités suivantes d’Adobe Dynamic Media Classic :
 
 * Le panneau Configuration du panneau Info vous permet de spécifier le modèle utilisé pour afficher le texte du panneau Info, une réponse par défaut pour les erreurs et le nombre d’heures pendant lesquelles les informations sont mises en cache. En outre, vous pouvez indiquer si les catalogues électroniques sont publiés automatiquement.
-* Le panneau Flux de données InfoPanel vous permet de spécifier un fichier CSV contenant le texte que vous souhaitez voir apparaître dans le texte de survol d’InfoPanel, ainsi que de planifier les heures de mise à jour des informations.
+* Le panneau Flux de données du panneau Informations vous permet de spécifier un fichier CSV. Ce fichier contient le texte que vous souhaitez voir apparaître dans le texte de remplacement du panneau Informations. Vous pouvez également planifier les heures de mise à jour des informations.
 * La boîte de dialogue d’importation des métadonnées (accessible à partir de la vue Pages de mappage) vous permet d’importer un fichier TXT délimité par des tabulations contenant les informations de texte de survol. Vous pouvez utiliser cette option TXT ou le panneau Flux de données avec l’option Fichier CSV pour votre texte de survol.
-* La vue Pages de carte offre une option permettant de prévisualiser le fichier xml qui s’affiche pour des zones cliquables spécifiques.
+* La vue Pages de carte offre une option permettant de prévisualiser le code XML qui apparaît pour des zones cliquables spécifiques.
 
 ## Configurer un modèle de réponse pour les catalogues électroniques {#set-up-a-response-template-for-ecatalogs}
 
-Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pour afficher du texte dans un panneau d’informations. Ces modèles de réponse prédéfinis déterminent le mode de présentation de vos informations dans le panneau d’informations : nombre de colonnes et de lignes, police et corps de caractères, etc. Vous pouvez sélectionner un modèle de réponse prédéfini ou créer l’un des vôtres.
+Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pour afficher du texte dans un panneau d’informations. Ces modèles de réponse prédéfinis déterminent la manière dont vos informations sont présentées dans le panneau Informations : le nombre de colonnes et de lignes, la taille de la police, la police et d’autres paramètres. Vous pouvez sélectionner un modèle de réponse prédéfini ou créer l’un des vôtres.
 
 >[!NOTE]
 >
@@ -53,13 +49,13 @@ Vous pouvez sélectionner l’un des trois modèles de réponse prédéfinis pou
 1. Sélectionnez un modèle de réponse :
 
    * Sélectionnez un paramètre prédéfini dans le menu Modèle de réponse. Le code XML de la conception du modèle s’affiche dans le champ Modèle utilisateur.
-   * Pour créer votre propre modèle de réponse, sélectionnez **[!UICONTROL Personnalisé]**. Entrez la définition XML du modèle dans le champ Modèle utilisateur. Vous pouvez vous inspirer des modèles prédéfinis pour créer le vôtre.
+   * Pour créer votre propre modèle de réponse, sélectionnez **[!UICONTROL Personnalisé]**. Entrez la définition XML du modèle dans le champ Modèle utilisateur. Vous pouvez utiliser les modèles prédéfinis comme point de départ de vos propres modèles.
 
-1. (Facultatif) Dans la zone Réponse par défaut, saisissez le texte à afficher si Adobe Dynamic Media Classic rencontre une erreur lors de la récupération des informations d’une zone cliquable. Par exemple, si le système reçoit un nom d’entreprise et un nom de catalogue électronique, mais pas d’identificateur de survol, ce message est affiché à l’intention de l’utilisateur.
+1. (Facultatif) Dans la zone Réponse par défaut, saisissez le texte à afficher si Adobe Dynamic Media Classic rencontre une erreur lors de la récupération des informations d’une zone cliquable. Par exemple, si le système reçoit un nom de société et de catalogue électronique, mais pas d’identifiant de substitution, ce message s’affiche pour l’utilisateur.
 1. Dans le champ Réponse TTL, entrez le nombre d’heures d’attente avant la mise en cache des données :
 
-   * Optez pour une valeur faible si de nombreuses mises à jour des données sont effectuées quotidiennement.
-   * Définissez un nombre plus élevé si les données sont relativement stables et ne nécessitent pas de mises à jour fréquentes tout au long de la journée. La valeur par défaut est de 10 heures.
+   * Définissez une valeur inférieure si les données sont mises à jour fréquemment au cours de la journée.
+   * Définissez un nombre plus élevé si les données sont relativement stables et ne nécessitent pas de mises à jour fréquentes au cours de la journée. La valeur par défaut est de 10 heures.
 
 1. Sélectionnez **[!UICONTROL Publier]**.
 
@@ -99,13 +95,13 @@ Last Modified Date:
 1. Sélectionnez **[!UICONTROL Parcourir]**, sélectionnez le fichier TXT, CSV ou SSV délimité par des tabulations que vous souhaitez utiliser, puis sélectionnez **[!UICONTROL Ouvrir]**.
 1. Sélectionnez **[!UICONTROL Charger]**.
 
-Adobe Dynamic Media Classic vous envoie un e-mail pour vous informer de la réussite ou de l’échec du chargement.
+Adobe Dynamic Media Classic vous envoie un e-mail pour vous informer de la réussite du chargement.
 
 ## Prévisualisation du texte de survol pour une zone cliquable {#preview-rollover-key-text-for-an-image-map}
 
-L’écran Pages de zones vous permet de visualiser, en un tournemain, le texte du panneau d’informations pour les zones cliquables sur une page spécifique de votre catalogue électronique.
+À l’aide de l’écran Mapper des pages , vous pouvez afficher le texte du panneau Informations pour les zones cliquables sur une page spécifique de votre catalogue électronique.
 
-1. Sélectionnez le bouton de survol du catalogue **[!UICONTROL Modifier]**.
+1. Sélectionnez le bouton de substitution du catalogue **[!UICONTROL Modifier]**.
 1. Sélectionnez **[!UICONTROL Mapper des pages]**.
 1. Dans la partie supérieure du tableau, dans la partie droite de l’écran, choisissez **[!UICONTROL Panneau Informations]** dans le menu Afficher.
 
