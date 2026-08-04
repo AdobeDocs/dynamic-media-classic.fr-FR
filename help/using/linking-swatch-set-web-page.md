@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 9a9818aa4573d17781c157cf51a807f46e56b55b
 workflow-type: tm+mt
-source-wordcount: 710
+source-wordcount: 708
 ht-degree: 16%
 
 ---
@@ -54,7 +54,7 @@ Après avoir publié un ensemble d’échantillons, vous pouvez utiliser l’URL
 
 ## Ajout d’URL de jeux d’échantillons à une page web {#adding-swatch-set-urls-to-your-web-page}
 
-La méthode la plus courante pour déployer des échantillons consiste à placer un lien (au moyen d’une icône de navigation) sur votre page web. Lorsque ce lien est sélectionné, il lance une page dynamique (ASP ou JSP) qui affiche le jeu d’échantillons dans une fenêtre pop-up de zoom. Le lien de zoom affiche une fenêtre contextuelle contenant l’affichage agrandi proprement dit.
+La méthode la plus courante pour déployer des échantillons consiste à placer un lien (à l’aide d’une icône de navigation) sur votre page web. Lorsque ce lien est sélectionné, il lance une page dynamique (ASP ou JSP) qui affiche le jeu d’échantillons dans une fenêtre pop-up de zoom. Le lien de zoom affiche une fenêtre contextuelle contenant l’affichage agrandi proprement dit.
 
 Pour plus d’informations et des exemples de code, voir [Incorporation de la visionneuse Zoom HTML5 dans le guide de référence des visionneuses Adobe](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 

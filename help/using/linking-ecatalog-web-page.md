@@ -19,16 +19,16 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: a6b941f1da5843a57d082f6bebc4a75a6c2ee65c
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 20%
+source-wordcount: 683
+ht-degree: 16%
 
 ---
 
 # Liaison d’un catalogue électronique à une page web{#linking-an-ecatalog-to-a-web-page}
 
-Vos sites web et applications accèdent au contenu du serveur d’images Dynamic Media, y compris les catalogues électroniques, par le biais de chaînes URL ou de code incorporé. Ces chaînes URL sont activées au cours du processus de publication. Pour placer la chaîne URL ou le code incorporé de votre catalogue électronique dans vos pages Web et applications, vous devez le copier à partir d’Adobe Dynamic Media Classic.
+Vos sites web et applications accèdent au contenu du serveur d’images Dynamic Media, y compris aux catalogues électroniques, à l’aide de chaînes URL ou de code incorporé. Ces chaînes URL sont activées au cours du processus de publication. Pour placer la chaîne URL ou le code incorporé de votre catalogue électronique dans vos pages Web et applications, vous devez le copier à partir d’Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -55,13 +55,13 @@ Vos sites web et applications accèdent au contenu du serveur d’images Dynamic
 
 ## Ajout d’URL de catalogue électronique à une page web {#adding-ecatalog-urls-to-your-web-page}
 
-La méthode la plus courante pour déployer un catalogue électronique consiste à placer un lien sous la forme d’une page de garde de miniature de catalogue électronique sur votre page web. Consultez votre équipe informatique pour vous assurer que le catalogue électronique s’ouvre dans une fenêtre contextuelle nette et centrée. Demandez-lui de masquer dans le navigateur la barre d’outils et la barre d’adresse.
+La méthode standard pour déployer un catalogue électronique consiste à ajouter un lien à l’aide d’une page de garde de miniature de catalogue électronique sur votre page Web. Pour vous assurer que le catalogue électronique est lancé dans une fenêtre pop-up centrée, contactez votre service informatique. Pour masquer la barre d’outils et la barre d’adresse, configurez le navigateur.
 
 Pour plus d’informations et d’exemples de code, consultez la [visionneuse de catalogue électronique HTML5 incorporée](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) dans la référence des visionneuses Adobe.
 
 ## Copie du code incorporé d’une visionneuse de catalogue électronique {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-L’utilisation de la fonction de code incorporé vous permet de passer en revue le code de la visionneuse pour le catalogue électronique sélectionné. Vous pouvez également copier le code dans le presse-papiers afin de le coller dans vos pages web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
+La fonction de code incorporé vous permet de passer en revue le code de la visionneuse pour le catalogue électronique sélectionné. Vous pouvez également copier le code dans le presse-papiers afin de le coller dans vos pages web pour le déploiement de la visionneuse. Vous ne pouvez pas modifier le code dans la boîte de dialogue Code incorporé.
 
 **Pour copier le code incorporé d’une visionneuse de catalogue électronique, procédez comme suit**
 

@@ -21,16 +21,16 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: f55e82148ae9d11c54dda28351743b02c1fb58a4
 workflow-type: tm+mt
-source-wordcount: 339
-ht-degree: 17%
+source-wordcount: 329
+ht-degree: 12%
 
 ---
 
 # Liaison d’un modèle à une page web{#linking-a-template-to-a-web-page}
 
-Vos sites web et applications accèdent au contenu du serveur d’images Dynamic Media par le biais de chaînes URL. Après la publication d’un modèle, Adobe Dynamic Media Classic active une chaîne d’URL qui référence le modèle sur les serveurs d’images Dynamic Media. Vous pouvez coller cette URL dans un navigateur Web à des fins de test.
+Vos sites web et applications accèdent au contenu du serveur d’images Dynamic Media à l’aide de chaînes URL. Après la publication d’un modèle, Adobe Dynamic Media Classic active une chaîne d’URL qui référence le modèle sur les serveurs d’images Dynamic Media. Vous pouvez coller cette URL dans un navigateur Web à des fins de test.
 
 Pour placer des chaînes URL dans vos pages Web et applications, copiez-les depuis Adobe Dynamic Media Classic. Pour obtenir une chaîne d’URL de modèle générée avec un paramètre d’image prédéfini, accédez à l’écran de prévisualisation ou au panneau de navigation (dans la vue détaillée). Ensuite, sélectionnez un paramètre d’image prédéfini, puis cliquez sur le bouton Copier l’URL.
 
@@ -40,15 +40,15 @@ Pour placer des chaînes URL dans vos pages Web et applications, copiez-les depu
 
 ## Obtention d’une URL de modèle {#obtaining-a-template-url}
 
-Vous pouvez obtenir une chaîne URL de modèle générée par un paramètre d’image prédéfini depuis l’écran Prévisualisation du modèle. Une fois l’URL copiée, elle est stockée dans le Presse-papiers ; vous pouvez ainsi la coller si nécessaire. Pour obtenir une chaîne d’URL de modèle générée avec un paramètre d’image prédéfini à partir de la page d’aperçu du modèle, procédez comme suit :
+Vous pouvez obtenir une chaîne URL de modèle générée par un paramètre d’image prédéfini depuis l’écran Prévisualisation du modèle. Une fois l’URL copiée, elle est enregistrée dans le Presse-papiers afin que vous puissiez la coller si nécessaire. Pour obtenir une chaîne d’URL de modèle générée avec un paramètre d’image prédéfini à partir de la page d’aperçu du modèle, procédez comme suit :
 
-1. Sélectionnez le bouton de survol du modèle **[!UICONTROL Aperçu]** ou accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Aperçu]**.
-1. À l’aide des menus Paramètre prédéfini , sélectionnez le Paramètre d’image prédéfini avec lequel vous souhaitez diffuser l’image de modèle. La page Aperçu vous indique à quoi ressemble le modèle lorsqu’il est diffusé à partir du serveur.
+1. Sélectionnez le bouton **[!UICONTROL Aperçu]** du modèle ou accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Aperçu]**.
+1. À l’aide des menus Paramètre prédéfini , sélectionnez le Paramètre d’image prédéfini avec lequel vous souhaitez diffuser le modèle. La page Aperçu affiche le modèle tel qu’il est diffusé à partir du serveur.
 1. Sélectionnez **[!UICONTROL Copier l’URL]** afin de copier l’URL dans le Presse-papiers.
 
 ## Ajouter des URL de modèle à votre page web {#adding-template-urls-to-your-web-page}
 
-Pour ajouter un modèle à votre page web, contactez votre équipe de développement de pages web afin de modifier la balise `<IMG>` dans le code de votre page web HTML. Utilisez la chaîne d’URL Adobe Dynamic Media Classic pour adresser une requête aux serveurs d’images Dynamic Media. Le moteur de commerce ou le code de page web dynamique insère l’image de modèle à la taille et avec la spécification de mise en forme définie par le paramètre d’image prédéfini que vous choisissez pour votre modèle.
+Pour ajouter un modèle à votre page web, contactez votre équipe de développement de pages web afin de modifier la balise `<IMG>` dans le code de votre page web HTML. Utilisez la chaîne d’URL Adobe Dynamic Media Classic pour envoyer une requête aux serveurs d’images Dynamic Media. Le moteur de commerce ou le code de page web dynamique insère l’image de modèle à la taille et avec les spécifications de mise en forme définies par le paramètre d’image prédéfini que vous avez choisi pour votre modèle.
 
 >[!MORELIKETHIS]
 >

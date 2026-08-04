@@ -18,21 +18,21 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: afcc58640eb472fbd6877795fa24414b15eccf55
 workflow-type: tm+mt
-source-wordcount: 657
-ht-degree: 20%
+source-wordcount: 650
+ht-degree: 23%
 
 ---
 
 # Liaison d’une visionneuse de médias mixtes à une page web{#linking-a-mixed-media-set-to-a-web-page}
 
-Après avoir publié une visionneuse de médias mixtes, vous pouvez obtenir son URL associée afin de l’utiliser dans votre site Web ou application. Vous pouvez ensuite déployer l’URL selon vos besoins afin que les utilisateurs puissent afficher la visionneuse de médias mixtes sur votre site web ou application.
+Après avoir publié une visionneuse de médias mixtes, vous pouvez obtenir son URL associée afin de l’utiliser dans votre site Web ou application. Vous pouvez ensuite déployer l’URL, selon le cas, pour que les utilisateurs puissent accéder à la visionneuse de supports variés sur votre site Web ou dans votre application.
 
 ## Obtention d’une URL de visionneuse de supports variés {#obtain-a-mixed-media-set-url}
 
 1. Dans le panneau Exploration des ressources, dans la liste déroulante Afficher, sélectionnez **[!UICONTROL Visionneuse de médias]**.
-1. dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources contenant la visionneuse de médias dont vous souhaitez copier le code intégré.
+1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources. Il contient la visionneuse de médias dont vous souhaitez copier le code intégré.
 1. Au-dessus de panneau de navigation des fichiers, sur le côté droit de la barre d’outils, exécutez l’une des opérations suivantes :
 
    * Cliquez sur **[!UICONTROL Affichage de la grille]**. Dans le panneau de navigation des fichiers, cliquez deux fois sur un fichier pour l’ouvrir dans le mode Affichage des détails. Dans le panneau URL et code intégré à droite, sélectionnez **[!UICONTROL Copier l’URL]** à droite de la visionneuse souhaitée.
@@ -50,7 +50,7 @@ Après avoir publié une visionneuse de médias mixtes, vous pouvez obtenir son 
 
 ## Ajout d’URL de visionneuse de médias mixtes à votre page web {#add-mixed-media-set-urls-to-your-web-page}
 
-La méthode la plus courante pour déployer une visionneuse de médias mixtes consiste à placer un lien (au moyen d’une icône de navigation) sur votre page web. Lorsque ce lien est sélectionné, il lance une page dynamique (ASP ou JSP) qui affiche la visionneuse de médias mixtes dans Visionneuse de médias mixtes.
+Une méthode standard pour déployer une visionneuse de médias mixtes consiste à ajouter un lien (à l’aide d’une icône de navigation) sur votre page web. Lorsque ce lien est sélectionné, il lance une page dynamique (ASP ou JSP) qui affiche la visionneuse de médias mixtes dans Visionneuse de médias mixtes.
 
 ## Copie du code incorporé d’une visionneuse de médias mixtes {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
