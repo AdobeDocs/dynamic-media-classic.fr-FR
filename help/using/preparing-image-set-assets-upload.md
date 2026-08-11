@@ -1,5 +1,5 @@
 ---
-title: Préparation du chargement de ressources de visionneuse d’images
+title: Préparation du chargement d’une visionneuse d’images Assets
 description: Découvrez comment préparer le chargement de ressources de visionneuse d’images dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,24 +12,21 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:03.270Z'
 TQID: 'https://experienceleague.adobe.com/n3TYKaOnpe4rVGIigj536q-ZZOCcRPaqu86NwNj7ViQ'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: a7f99941b1957d8fdb127f488146052ca7ff1d3a
 workflow-type: tm+mt
-source-wordcount: 162
-ht-degree: 45%
+source-wordcount: 157
+ht-degree: 31%
 
 ---
 
-# Préparation du chargement de ressources de visionneuse d’images{#preparing-image-set-assets-for-upload}
+# Préparation du chargement d’une visionneuse d’images Assets{#preparing-image-set-assets-for-upload}
 
-Avant de charger les images dont vous avez besoin pour les visionneuses d’images vers Adobe Dynamic Media Classic, assurez-vous que la taille et le format des images sont corrects.
+Avant de charger les images dont vous avez besoin pour que les visionneuses d’images soient [!DNL Adobe Dynamic Media Classic], assurez-vous que la taille et le format des images sont corrects.
 
-Pour créer une visionneuse d’images avec des vues multiples, vos images doivent montrer un objet selon différentes perspectives ou montrer différents aspects d’un même article. L’objectif est de mettre en lumière les caractéristiques principales d’un objet pour présenter aux utilisateurs une image fidèle à son apparence et à sa fonction.
+Pour créer une visionneuse d’images avec des vues multiples, vos images doivent montrer un objet selon différentes perspectives ou montrer différents aspects d’un même article. L’objectif est de mettre en évidence les fonctionnalités importantes d’un élément afin que les visiteurs aient une compréhension complète de l’apparence ou de la fonction de l’élément.
 
 Comme il est possible d’effectuer un zoom sur les images de la visionneuse, vérifiez que la dimension la plus grande des images correspond au moins à 2 000 pixels. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichiers image, mais les formats sans perte TIFF, PNG et EPS sont recommandés.
 
