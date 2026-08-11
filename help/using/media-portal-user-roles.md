@@ -12,21 +12,14 @@ topic: Administration, Collaboration
 level: Intermediate
 autotag-review: '2026-05-13T20:04:17.274Z'
 TQID: 'https://experienceleague.adobe.com/ViAv-ylLlmVONL1lliFC1HPfFYYph4MsGB4gSWCxSJQ'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 28282f7005b22a50a9a49416549c29806e497085
 workflow-type: tm+mt
-source-wordcount: 321
-ht-degree: 65%
+source-wordcount: 320
+ht-degree: 50%
 
 ---
 
@@ -34,7 +27,7 @@ ht-degree: 65%
 
 Le portail multimédia propose les rôles suivants, chacun d’entre eux étant assorti de droits d’accès et d’autorisations spécifiques. Lorsque vous inscrivez un utilisateur, vous lui attribuez l’un des rôles suivants :
 
-* **[!UICONTROL Administrateur du portail multimédia]** : peut ajouter et supprimer des administrateurs, des contributeurs et des utilisateurs. Il peut également définir des droits d’accès pour les groupes, gérer les comptes FTP, attribuer des formats (paramètres prédéfinis) de conversion approuvés par l’entreprise, envoyer des e-mails aux utilisateurs du portail multimédia et afficher des rapports sur l’utilisation du portail et le stockage.
+* **[!UICONTROL Administrateur du portail multimédia]** : peut ajouter et supprimer des administrateurs, des contributeurs et des utilisateurs. L’administrateur peut également définir des droits d’accès de groupe, gérer des comptes FTP, attribuer des formats de conversion approuvés par l’entreprise (préréglages), envoyer des e-mails aux utilisateurs du portail multimédia et afficher les rapports sur l’utilisation et le stockage du portail.
 
 * **[!UICONTROL Utilisateur du portail multimédia]** : a accès aux dossiers et aux fichiers. Un utilisateur peut uniquement parcourir, prévisualiser et télécharger des fichiers. Ce rôle convient à vos partenaires de réseaux de distribution ou de services qui ont besoin d’accéder à vos fichiers d’entreprise approuvés.
 
@@ -42,7 +35,7 @@ Le portail multimédia propose les rôles suivants, chacun d’entre eux étant 
 
 * **[!UICONTROL Contributeur-utilisateur du portail multimédia]** : a accès aux dossiers et aux fichiers. Un utilisateur contributeur peut parcourir, prévisualiser, télécharger et charger des images et des métadonnées. Les utilisateurs contributeurs peuvent modifier les noms des fichiers, les déplacer vers des dossiers différents et les supprimer.
 
-Ce tableau décrit les tâches que les utilisateurs peuvent effectuer selon le rôle qui leur a été attribué. Les administrateurs et les contributeurs-utilisateurs sont habilités à effectuer toutes les tâches indiquées dans le tableau :
+Ce tableau décrit les tâches que les utilisateurs peuvent effectuer selon le rôle qui leur a été attribué. Les administrateurs et les utilisateurs contributeurs peuvent effectuer toutes les tâches répertoriées dans ce tableau :
 
 | Tâche | Utilisateur | Contributeur | Contributeur-utilisateur |
 | --- | --- | --- | --- |
