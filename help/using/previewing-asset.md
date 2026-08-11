@@ -1,5 +1,5 @@
 ---
-title: Prévisualisation d’une ressource
+title: Aperçu d’une ressource
 description: Découvrez comment prévisualiser une ressource dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,33 +12,30 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:17.783Z'
 TQID: 'https://experienceleague.adobe.com/SGEzcnrSQUNlvBeZjObo3kn6mStNAXtUeUtAmHMosS4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: ae2683d92d4648fc4d241cd2253de4ae840d8116
 workflow-type: tm+mt
-source-wordcount: 1023
-ht-degree: 11%
+source-wordcount: 1013
+ht-degree: 9%
 
 ---
 
 # Prévisualisation d’une ressource{#previewing-an-asset}
 
-Vous pouvez utiliser la prévisualisation pour afficher une ressource numérique telle qu’elle apparaîtra lorsqu’elle sera consultée par un client. Elle utilise la visionneuse par défaut qui a été attribuée au fichier. Les visionneuses par défaut sont configurées dans Configuration de l’application.
+Vous pouvez utiliser la prévisualisation pour afficher une ressource numérique telle qu’elle apparaîtra lorsqu’elle sera consultée par un client. L’aperçu utilise la visionneuse par défaut affectée à la ressource. Les visionneuses par défaut sont configurées dans Configuration de l’application.
 
 Voir [Configuration des visionneuses par défaut](application-setup.md#configuring_default_viewers).
 
-Si vous prévisualisez une ressource de modèle avec des calques de paramètre, vous pouvez modifier les paramètres ou le paramètre d’image prédéfini. Etant donné que les modifications apportées sont effectuées en ligne, vous pouvez afficher les résultats immédiatement dans la même fenêtre de prévisualisation.
+Si vous prévisualisez une ressource de modèle avec des calques de paramètre, vous pouvez modifier les paramètres ou le paramètre d’image prédéfini. Étant donné que vos modifications sont appliquées immédiatement, vous pouvez afficher les résultats à partir de la même fenêtre de prévisualisation.
 
-Voir aussi [Exemples de bibliothèques de référence de visionneuses &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Voir aussi [Exemples de bibliothèques de référence de visionneuses ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **Pour prévisualiser une ressource :**
 
 1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources contenant la ressource à prévisualiser.
-1. Utilisez l’une des méthodes suivantes :
+1. Effectuez l’une des opérations suivantes :
 
    * Au-dessus de la fenêtre Assets, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Vue Grille]**.
    * Au-dessus de la fenêtre Assets, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Vue Liste]**.
@@ -53,14 +50,14 @@ Voir aussi [Exemples de bibliothèques de référence de visionneuses &#x200B;](
 
 Vous pouvez utiliser Liste des visionneuses pour prévisualiser l’affichage d’une ressource sur un type particulier de plateforme de visionneuse, tel qu’HTML5. Notez que la fonction Liste des visionneuses ne contient pas toutes les plates-formes selon le type de fichier et la visionneuse sélectionnés.
 
-Vous pouvez également utiliser Liste des visionneuses pour copier l’URL d’une visionneuse ou afficher et copier le code de visionneuse à incorporer dans vos pages Web.
+Vous pouvez également utiliser Liste des visionneuses pour copier l’URL d’une visionneuse ou afficher et copier le code de visionneuse à incorporer dans vos pages web.
 
-Pour une plateforme de visionneuse donnée, la fenêtre Liste des visionneuses vous permet de voir visuellement quels appareils, tels que les tablettes et les smartphones, une visionneuse est disponible.
+Pour une plateforme de visionneuse donnée, la fenêtre Liste des visionneuses affiche les appareils pour lesquels une visionneuse est disponible, tels que les tablettes et les smartphones.
 
 **Pour prévisualiser une ressource en fonction du type de plateforme de visionneuse, procédez comme suit**
 
 1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources contenant la ressource à prévisualiser.
-1. Utilisez l’une des méthodes suivantes :
+1. Effectuez l’une des opérations suivantes :
 
    * Au-dessus de la fenêtre Assets, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Vue Grille]**. Dans la fenêtre Ressource, sélectionnez une seule ressource, puis, sous l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
    * Au-dessus de la fenêtre Assets, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Vue Liste]**. Dans la fenêtre Ressource, sélectionnez une seule ressource puis, à droite de l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
@@ -80,7 +77,7 @@ Pour une plateforme de visionneuse donnée, la fenêtre Liste des visionneuses v
 
    * Dans la fenêtre Liste des visionneuses, dans la colonne Actions du tableau, sélectionnez **[!UICONTROL Code incorporé]**.
 
-     Lorsque vous sélectionnez **[!UICONTROL Code incorporé]**, la fenêtre Code incorporé s’ouvre et vous pouvez consulter le code de la visionneuse. Vous ne pouvez pas modifier le code dans cette fenêtre. Vous pouvez également copier le code dans le presse-papiers afin de le coller dans vos pages web.
+     Lorsque vous sélectionnez **[!UICONTROL Code incorporé]**, la fenêtre Code incorporé s’ouvre et vous pouvez consulter le code de la visionneuse. Vous ne pouvez pas modifier le code dans la fenêtre. Vous pouvez également copier le code dans le Presse-papiers ; vous pouvez ainsi le coller dans vos pages Web.
 
      Fermez l&#39;aperçu affiché.
 
@@ -88,7 +85,7 @@ Pour une plateforme de visionneuse donnée, la fenêtre Liste des visionneuses v
 
 ## Prévisualisation d’une ressource image en fonction de son paramètre d’image prédéfini {#previewing-an-image-asset-based-on-its-image-preset}
 
-Vous pouvez prévisualiser une ressource d’image en fonction de son paramètre d’image prédéfini pour déterminer à quoi ressemble votre image lorsqu’elle est diffusée dynamiquement sur votre site web ou application à différentes tailles.
+Pour déterminer l’aspect de votre image lorsqu’elle est diffusée dynamiquement sur votre site web ou votre application à différentes tailles, vous pouvez prévisualiser une ressource d’image en fonction de son paramètre d’image prédéfini.
 
 Un paramètre d’image prédéfini est un ensemble de paramètres prédéfinis. Ces paramètres modifient la taille, la qualité de l’image, le format, la résolution et d’autres aspects de l’aspect d’une image lors de son exportation.
 
@@ -99,14 +96,14 @@ Voir [Création et activation des paramètres d’image prédéfinis](creating-e
 **Pour prévisualiser une ressource image en fonction de son paramètre d’image prédéfini :**
 
 1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez au dossier de ressources contenant la ressource d’image à prévisualiser.
-1. Utilisez l’une des méthodes suivantes :
+1. Effectuez l’une des opérations suivantes :
 
    * Au-dessus de la fenêtre Assets, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Vue Grille]**. Dans la fenêtre Ressource, sélectionnez une ressource d’image unique, puis, sous l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des paramètres d’image prédéfinis]**.
    * Au-dessus de la fenêtre Assets, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Vue Liste]**. Dans la fenêtre Ressource, sélectionnez une seule ressource image, puis à droite de l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des paramètres d’image prédéfinis]**.
    * Au-dessus de la fenêtre Assets, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Affichage des détails]**. Dans la même barre d’outils, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des paramètres prédéfinis d’image]**.
 
 1. Dans la fenêtre Liste des paramètres prédéfinis de l’image, sélectionnez, dans le tableau, le nom du type de paramètre prédéfini dont vous souhaitez prévisualiser le fichier d’image en ligne, dans le volet droit.
-1. (Facultatif) Dans la fenêtre Liste des paramètres prédéfinis d’image, dans la liste déroulante **[!UICONTROL Codage d’URL pour la génération d’URL de copie]** au bas de la page.
+1. (Facultatif) Dans la fenêtre Liste des paramètres prédéfinis d’image, dans la liste déroulante **[!UICONTROL Codage d’URL pour la génération d’URL de copie]** située en bas, sélectionnez le codage d’URL.
 1. Sélectionnez l’encodage d’URL à appliquer à l’URL de la ressource image lors de sa copie.
 1. (Facultatif) Dans la fenêtre Liste des paramètres prédéfinis d’image, dans la zone supérieure droite du volet d’aperçu, sélectionnez **[!UICONTROL Copier l’URL]** pour le type de paramètre prédéfini sélectionné.
 
