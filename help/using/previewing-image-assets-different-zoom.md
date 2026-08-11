@@ -1,5 +1,5 @@
 ---
-title: Prévisualiser des ressources d’images avec différentes visionneuses de zoom
+title: Aperçu d’une image Assets avec différentes visionneuses de zoom
 description: Découvrez comment prévisualiser des ressources d’images avec différentes visionneuses Zoom dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:26.177Z'
 TQID: 'https://experienceleague.adobe.com/hK4tEnRy4u4fZ4BAuw5oosbAH-1kWu5K-b9CyHeM7fY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 89eddd2da3c67714ba6c239a371763ae731d8b49
 workflow-type: tm+mt
 source-wordcount: 251
-ht-degree: 28%
+ht-degree: 18%
 
 ---
 
@@ -36,7 +33,7 @@ Voir [Aperçu d’une ressource](previewing-asset.md#previewing_an_asset).
 **Pour prévisualiser des ressources d’images avec différentes visionneuses de zoom :**
 
 1. Dans la liste déroulante Afficher du panneau Bibliothèque de fichiers situé à gauche, sélectionnez un type de fichier basé sur des images, comme Image ou Visionneuse d’images.
-1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient les images à prévisualiser via la visionneuse de zoom.
+1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez aux dossiers de ressources contenant les images à prévisualiser à l’aide d’une visionneuse Zoom.
 1. Effectuez l’une des opérations suivantes :
 
    * Au-dessus de la fenêtre Assets, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Vue Grille]**. Dans la fenêtre Ressource, sous l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.
