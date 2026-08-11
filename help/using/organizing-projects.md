@@ -12,20 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:06:21.685Z'
 TQID: 'https://experienceleague.adobe.com/5qHEB75XuruG3SWp5zXaM3nadbtkW9M7xRvPA0mxo4M'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: cbeb7293d2fbe21f2ec2e585b389c1056404341c
 workflow-type: tm+mt
-source-wordcount: 483
-ht-degree: 21%
+source-wordcount: 478
+ht-degree: 14%
 
 ---
 
@@ -33,9 +27,9 @@ ht-degree: 21%
 
 Les projets constituent un autre moyen d’organiser des fichiers indépendamment des dossiers dans lesquels ils sont stockés. Un fichier peut être placé seulement dans un dossier, mais il peut être copié dans plusieurs dossiers Projet à des fins d’organisation.
 
-Après avoir créé un dossier Projet, vous pouvez y placer des fichiers. Les Assets d’un projet sont en fait des pointeurs vers le dossier de la bibliothèque de ressources dans lequel les ressources sont stockées. Vous pouvez placer un fichier dans plusieurs projets. Par exemple, l’image d’un chemisier peut être placée dans les dossiers de projet « Chemisiers » et « Collection d’automne ».
+Après avoir créé un dossier Projet, vous pouvez y placer des fichiers. Les Assets d’un projet sont des pointeurs vers le dossier de la bibliothèque de ressources dans lequel les ressources sont stockées. Vous pouvez placer un fichier dans plusieurs projets. Par exemple, l’image d’une chemise peut être placée dans les dossiers de projet « Chemises » et « Collection d’automne ».
 
-Vous pouvez créer un projet lorsque vous téléchargez des fichiers ou créer des projets dans le panneau Bibliothèque de fichiers.
+Vous pouvez créer un projet lorsque vous chargez des fichiers ou créez des projets dans le panneau Bibliothèque de ressources.
 
 >[!NOTE]
 >
@@ -43,11 +37,11 @@ Vous pouvez créer un projet lorsque vous téléchargez des fichiers ou créer d
 
 >[!NOTE]
 >
->l’organisation des fichiers en projets est réservée aux utilisateurs dont l’administrateur a configuré leur profil en conséquence. Si vous ne voyez pas de section Dossier Projets au bas de la bibliothèque Assets, cette méthode d’organisation des ressources n’est pas disponible. (voir [Paramètres généraux de l’application](application-setup.md#general-settings)).
+>Pour organiser les ressources dans les projets, votre administrateur ou administratrice doit avoir configuré votre compte pour les utiliser. Si vous ne voyez pas de section Dossier Projets au bas de la bibliothèque de ressources, cette méthode d’organisation des ressources n’est pas disponible. (voir [Paramètres généraux de l’application](application-setup.md#general-settings)).
 
 ## Créer un dossier de projet {#creating-a-project-folder}
 
-Vous pouvez créer un dossier Projet à partir de la bibliothèque Assets ou lorsque vous téléchargez des fichiers vers Adobe Dynamic Media Classic :
+Vous pouvez créer un dossier Projet à partir de la bibliothèque de ressources ou lorsque vous chargez des fichiers vers Adobe Dynamic Media Classic :
 
 * **Dans la bibliothèque de ressources** : faites défiler l’écran jusqu’au bas de la bibliothèque de ressources, dans la section Projets , puis sélectionnez **[!UICONTROL Ajouter un projet]**. Saisissez un nom pour le projet.
 
@@ -55,15 +49,15 @@ Vous pouvez créer un dossier Projet à partir de la bibliothèque Assets ou lor
 
 >[!NOTE]
 >
->La zone Projets de la bibliothèque de ressources consiste en une liste de dossiers à un seul niveau ; elle n’autorise pas les sous-dossiers.
+>La zone Projets de la bibliothèque de ressources est une liste de dossiers à un seul niveau ; elle n’autorise pas les sous-dossiers.
 
 ## Utiliser des dossiers de projet {#working-with-project-folders}
 
-Pour afficher, supprimer et renommer un dossier de projet, effectuez l’une des opérations suivantes :
+Pour afficher, supprimer et renommer un dossier de projet, utilisez l’une des méthodes suivantes :
 
 * **Parcourir le contenu** : sélectionnez le nom du dossier dans la bibliothèque de ressources. Ses ressources s’affichent dans le panneau de navigation.
 
-* **Suppression de dossiers de projet** : sélectionnez le dossier du projet, puis sélectionnez **[!UICONTROL Supprimer le projet]**. La suppression de ressources d’un dossier de projet ne les supprime pas d’Adobe Dynamic Media Classic ; les ressources restent dans les dossiers d’origine dans lesquels elles sont stockées.
+* **Suppression de dossiers de projet** : sélectionnez le dossier du projet, puis sélectionnez **[!UICONTROL Supprimer le projet]**. La suppression de ressources d’un dossier de projet ne les supprime pas d’Adobe Dynamic Media Classic ; les ressources restent dans leurs dossiers de stockage d’origine.
 
 * **Renommer des dossiers de projet** : double-cliquez sur le nom du dossier dans le panneau des ressources, puis saisissez un nouveau nom.
 
