@@ -12,22 +12,19 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:53:07.417Z'
 TQID: 'https://experienceleague.adobe.com/yM24UnCiU64kLvHXjhX6S8ZJpWgoyAzQKuDHN02yUXs'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: a6f31cfc417aa908738642a9543ada88b4620c02
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 26%
+source-wordcount: 734
+ht-degree: 21%
 
 ---
 
 # Utiliser des PDF{#working-with-pdfs}
 
-Les fichiers PDF (Portable Document Format) sont le plus souvent utilisés dans Adobe Dynamic Media Classic pour créer des catalogues électroniques. Lorsque vous chargez un fichier PDF, Adobe Dynamic Media Classic pixellise ou pixellise les pages par défaut afin que les pages puissent être utilisées pour créer des médias riches.
+Les fichiers PDF (Portable Document Format) sont le plus souvent utilisés dans Adobe Dynamic Media Classic pour créer des catalogues électroniques. Lorsque vous chargez un fichier PDF, Adobe Dynamic Media Classic pixellise les pages par défaut afin que les pages puissent être utilisées pour créer des médias riches.
 
 Lorsque vous téléchargez un PDF pour l’extraction de page, Adobe applique la limite suivante :
 
@@ -39,17 +36,17 @@ Voir aussi [Limites de Dynamic Media](/help/using/limitations.md).
 
 ## Options de téléchargement des fichiers PDF {#pdf-upload-options}
 
-Lorsque vous téléchargez un fichier PDF, vous pouvez le formater de différentes manières. Vous pouvez recadrer les pages, extraire des mots de recherche, spécifier une résolution en pixels par pouce et choisir un espace colorimétrique. Les fichiers PDF contiennent souvent une marge de rognage, des traits de coupe, des repères de montage et d’autres repères d’impression. Vous pouvez éliminer ces marques sur les côtés des pages lorsque vous téléchargez un fichier PDF.
+Lorsque vous téléchargez un fichier PDF, vous pouvez le formater de différentes manières. Vous pouvez recadrer ses pages, extraire des mots de recherche, saisir une résolution de pixels par pouce et choisir un espace colorimétrique. Les fichiers PDF contiennent souvent une marge de rognage, des traits de coupe, des repères de montage et d’autres repères d’impression. Vous pouvez éliminer ces marques sur les côtés des pages lorsque vous téléchargez un fichier PDF.
 
 Les options de chargement de fichiers PDF se trouvent sur la page Charger sous Options PDF.
 
 ### Options de traitement
 
-**[!UICONTROL Pixelliser]** : (par défaut) pixellise les pages du fichier PDF et convertit les graphiques vectoriels en images bitmap. Pour créer un catalogue électronique, choisissez cette option.
+**[!UICONTROL Pixelliser]** : (par défaut) utilisez cette option pour pixelliser les pages du fichier PDF et convertir les graphiques vectoriels en images bitmap. Pour créer un catalogue électronique, choisissez cette option.
 
 **[!UICONTROL Extraire les mots-clés]** : extrait les mots du fichier PDF afin que les mots-clés du fichier puissent être recherchés dans une visionneuse de catalogue électronique.
 
-**[!UICONTROL Extraire les liens]** : extrait les liens des fichiers PDF et les convertit en zones cliquables utilisées dans une visionneuse de catalogue électronique.
+**[!UICONTROL Extraire les liens]** : extrait les liens du fichier PDF et les convertit en zones cliquables utilisées dans une visionneuse de catalogue électronique.
 
 **[!UICONTROL Générer automatiquement un catalogue électronique avec le PDF à plusieurs pages]** : crée automatiquement un catalogue électronique à partir du fichier PDF. Le catalogue électronique reprend le nom du fichier PDF que vous avez téléchargé (cette option n’est disponible que si vous pixellisez le fichier PDF au moment du téléchargement).
 
@@ -75,7 +72,7 @@ Dans le menu Espace colorimétrique, choisissez un espace pour le fichier PDF. 
 
 * **[!UICONTROL Conserver l’espace colorimétrique d’origine]** : conserve l’espace colorimétrique d’origine.
 
-* **[!UICONTROL Personnaliser à partir de]** > **[!UICONTROL À]** : ouvre les menus afin que vous puissiez choisir un espace colorimétrique Convertir à partir de et Convertir en . Vous pouvez choisir un espace colorimétrique Photoshop standard ou un espace colorimétrique que vous avez téléchargé sur Adobe Dynamic Media Classic.
+* **[!UICONTROL Personnalisé de]** > **[!UICONTROL À]** : ouvre les menus afin que vous puissiez choisir des espaces colorimétriques `Convert From` et `Convert To`. Vous pouvez choisir un espace colorimétrique Adobe Photoshop standard ou un espace colorimétrique que vous avez téléchargé dans Adobe Dynamic Media Classic.
 
 (voir aussi [Profils ICC](/help/using/icc-profiles.md#icc_profiles)).
 
@@ -88,11 +85,11 @@ Vous pouvez supprimer automatiquement les pixels représentant des espaces blanc
 
    * **[!UICONTROL Rogner en fonction de]** : choisissez de recadrer en fonction de la couleur ou de la transparence :
 
-      * **[!UICONTROL Couleur]** : sélectionnez l’option Couleur. Sélectionnez ensuite le menu **[!UICONTROL Coin]** et choisissez l’angle du PDF présentant la couleur qui représente le mieux l’espace blanc à rogner.
+     * **[!UICONTROL Couleur]** : sélectionnez l’option Couleur. Sélectionnez ensuite le menu **[!UICONTROL Coin]** et choisissez l’angle du PDF présentant la couleur qui représente le mieux l’espace blanc à rogner.
 
-      * **[!UICONTROL Transparence]** : sélectionnez l’option Transparence.
+     * **[!UICONTROL Transparence]** : sélectionnez l’option Transparence.
 
-   * **[!UICONTROL Tolérance]** : faites glisser le curseur pour définir une tolérance comprise entre 0 et 1.
+   * **[!UICONTROL Tolérance]** : pour définir une tolérance comprise entre 0 et 1, faites glisser le curseur.
 
    * **[!UICONTROL Rognage en fonction de la couleur]** : spécifiez 0 pour rogner les pixels uniquement s’ils correspondent exactement à la couleur que vous avez sélectionnée dans le coin du PDF. Les valeurs qui se rapprochent de 1 admettent un plus grand écart des couleurs.
 
@@ -100,9 +97,9 @@ Vous pouvez supprimer automatiquement les pixels représentant des espaces blanc
 
 ## Recadrer à partir des bords des pages PDF {#cropping-from-the-sides-of-pdf-pages}
 
-Vous pouvez supprimer manuellement les repères d’impression sur les côtés des pages d’un fichier PDF au fur et à mesure de son chargement.
+Vous pouvez supprimer manuellement les marques d’impression sur les côtés des pages d’un fichier PDF au fur et à mesure de son chargement.
 
 1. Dans le menu Recadrer, sélectionnez **[!UICONTROL Manuel]**.
 1. Entrez les valeurs en pixels dans les zones de texte pour les bords supérieur, droit, inférieur et gauche de manière à recadrer à partir du haut, du bas et des côtés des pages.
 
-La proportion de la page rognée dépend du paramètre de résolution px/pouce (pixels par pouce) que vous spécifiez pour le fichier PDF. Supposons, par exemple, que vous entriez 150 (valeur par défaut) comme paramètre Résolution PX/Pouce . Vous pouvez ensuite recadrer 75 pixels des côtés des pages. Dans ce cas, 0,5 po. est recadré. À 150 pixels par pouce, 75 pixels équivalent à un demi-pouce.
+Le volume de la page recadrée dépend de la Résolution PX/Pouce que vous avez entrée pour le fichier PDF. Supposons, par exemple, que vous entriez 150 (valeur par défaut) comme paramètre Résolution PX/Pouce . Vous pouvez ensuite recadrer 75 pixels des côtés des pages. Dans ce cas, 0,5 po. est recadré. À 150 pixels par pouce, 75 pixels équivalent à un demi-pouce.
