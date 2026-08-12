@@ -12,16 +12,13 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:54:33.145Z'
 TQID: 'https://experienceleague.adobe.com/fMbleVTKmwZDm8Ol0jSNVG130jTYKkPcE4SuQA520bA'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6fb52aee7459e9e80a812215a5ba225348fced52
 workflow-type: tm+mt
-source-wordcount: 197
-ht-degree: 13%
+source-wordcount: 195
+ht-degree: 10%
 
 ---
 
@@ -31,7 +28,7 @@ La publication place votre catalogue électronique et PDF sur les serveurs d’i
 
 >[!NOTE]
 >
->Assurez-vous que votre catalogue électronique et votre PDF résident dans le même dossier. Assurez-vous également qu’ils sont marqués pour publication dans le panneau de navigation ou la page de détails de la ressource avant de les publier.
+>Assurez-vous que votre catalogue électronique et votre PDF résident dans le même dossier. Assurez-vous qu’ils sont marqués pour publication dans le panneau de navigation ou la page des détails de la ressource avant de les publier.
 
 **Pour publier des catalogues électroniques et les fichiers PDF associés :**
 
@@ -39,7 +36,7 @@ La publication place votre catalogue électronique et PDF sur les serveurs d’i
 1. Sur l’écran de publication, sélectionnez **[!UICONTROL Ponctuel]** ou **[!UICONTROL Récurrent]**.
 1. (Facultatif) Dans le champ Nom de la tâche, saisissez un nom pour la tâche de publication, mais conservez le texte de date et d’heure prédéfini.
 
-   Si vous configurez vos catalogues électroniques de manière à permettre aux utilisateurs d’effectuer des recherches par mot-clé, assurez-vous que les mots-clés sont publiés. Dans la boîte de dialogue Publication, sélectionnez **[!UICONTROL Avancé]**. Dans le menu déroulant **[!UICONTROL Publier]**, sélectionnez **[!UICONTROL Complet avec données de recherche]**. Cette option est sélectionnée par défaut.
+   Si vous configurez vos catalogues électroniques de manière à permettre aux utilisateurs d’effectuer des recherches par mot-clé, assurez-vous que les mots-clés sont publiés. Dans la boîte de dialogue Publication, sélectionnez **[!UICONTROL Avancé]**. Dans le menu déroulant **[!UICONTROL Publier]**, sélectionnez **[!UICONTROL Complète avec les données de recherche]**. Le système sélectionne cette option par défaut.
 
 1. Sélectionnez **[!UICONTROL Envoyer la publication]**.
 
