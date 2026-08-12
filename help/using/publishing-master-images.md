@@ -1,5 +1,5 @@
 ---
-title: Publication des images principales
+title: Publier des images de Principal
 description: Découvrez comment publier des images principales à partir d’Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,26 +12,23 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:49.126Z'
 TQID: 'https://experienceleague.adobe.com/MsYvgtKLOqbCZFs67ZPD2hN0fHoKj-AgIpGjM4EWyrM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 50446d4791c5eda0eb9b9b5369cf4eee1fee2d3b
 workflow-type: tm+mt
-source-wordcount: 165
+source-wordcount: 164
 ht-degree: 6%
 
 ---
 
 # Publication des images principales{#publishing-master-images}
 
-La publication de vos fichiers image les publie sur les serveurs d’images Dynamic Media, où ils sont disponibles pour votre site web et votre application. De plus, au cours du processus de publication, Adobe Dynamic Media Classic active les chaînes d’URL dont vous avez besoin pour votre site web et votre application.
+La publication de vos fichiers image les publie sur les serveurs d’images Dynamic Media, où ils sont disponibles pour votre site web et votre application. De plus, au cours du processus de publication, Adobe Dynamic Media Classic active les chaînes URL dont vous avez besoin pour votre site web et votre application.
 
 ## Marquer les images principales pour publication {#marking-master-images-for-publish}
 
-Les images de Principal doivent être marquées pour la publication pour être copiées sur les serveurs d’images Dynamic Media. Vous pouvez marquer vos images principales pour publication dans le panneau Parcourir en sélectionnant l’icône **[!UICONTROL Marquer pour publication]**. Vous pouvez également marquer des images pour publication lorsque vous les chargez vers Adobe Dynamic Media Classic.
+Les images de Principal doivent être marquées pour la publication afin de pouvoir être copiées sur les serveurs d’images Dynamic Media. Vous pouvez marquer vos images principales pour publication dans le panneau de navigation en sélectionnant l’icône **[!UICONTROL Marquer pour publication]**. Vous pouvez également marquer des images pour publication lorsque vous les chargez vers Adobe Dynamic Media Classic.
 
 ## Publiez vos images principales {#publishing-your-master-images}
 
