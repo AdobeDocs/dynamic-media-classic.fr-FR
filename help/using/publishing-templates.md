@@ -12,16 +12,13 @@ topic: Content Management
 level: Experienced
 autotag-review: '2026-05-13T20:09:10.008Z'
 TQID: 'https://experienceleague.adobe.com/Yih-wBixagRAQAOSGXz93bEmNJA7a-YbSCfiTLRIAiA'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: e78479f4044d2af484db2dd9783cbcff7940ea59
 workflow-type: tm+mt
-source-wordcount: 172
-ht-degree: 11%
+source-wordcount: 171
+ht-degree: 1%
 
 ---
 
@@ -31,11 +28,11 @@ La publication de votre modèle le place sur les serveurs d’images Dynamic Med
 
 >[!NOTE]
 >
->pour utiliser votre modèle, publiez tout le contenu qui a servi à le créer, y compris les polices et les images. Si vous n’incluez pas tous les fichiers requis, un message d’erreur s’affiche lors de la publication.
+>Pour utiliser votre modèle, publiez tout le contenu nécessaire à sa création, y compris les polices et les images. Si vous n’incluez pas tous les fichiers requis, un message d’erreur s’affiche lors de la publication.
 
 ## Marquer les modèles pour publication {#marking-templates-for-publish}
 
-Les modèles et tous leurs fichiers de prise en charge doivent être marqués pour la publication afin d’être placés sur les serveurs d’images Dynamic Media. Vous pouvez marquer ces éléments pour publication dans le panneau de navigation en sélectionnant l’icône **[!UICONTROL Marquer pour publication]**.
+Les modèles et tous leurs fichiers de prise en charge doivent être marqués pour publication afin d’être placés sur les serveurs d’images Dynamic Media. Vous pouvez marquer ces éléments pour publication dans le panneau de navigation en sélectionnant l’icône **[!UICONTROL Marquer pour publication]**.
 
 ## Publication de votre modèle {#publishing-your-template}
 
