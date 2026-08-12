@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:38.271Z'
 TQID: 'https://experienceleague.adobe.com/-eX-BNe5fu-v-hnD9F2qkBkpPZYx3TAvN4Lisgz3mHk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 8653e7b7e736c91c71e1b66902525344b81320ed
 workflow-type: tm+mt
-source-wordcount: 1696
-ht-degree: 21%
+source-wordcount: 1669
+ht-degree: 17%
 
 ---
 
@@ -29,11 +26,11 @@ ht-degree: 21%
 
 Vous publiez vos ressources sur les serveurs d’images Dynamic Media. Vous pouvez publier des ressources sur une base unique ou demander à Adobe Dynamic Media Classic de les publier selon un calendrier récurrent. Une fois vos fichiers publiés, vous en disposez pour les diffuser. Vous pouvez copier les appels d’URL d’Adobe Dynamic Media Classic et les ajouter à votre site web ou à votre application.
 
-Adobe Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos via HTTP/2. En d’autres termes, une URL publiée ou un code intégré pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cette ressource publiée utilise le protocole HTTP/2 pour la diffuser. Cette méthode de diffusion améliore la communication entre les navigateurs et les serveurs, ce qui permet d’obtenir de meilleurs temps de réponse et de chargement pour toutes vos ressources Adobe Dynamic Media Classic. Voir la [HTTP2 FAQ sur la diffusion de contenu](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/http2).
+Adobe Dynamic Media Classic prend désormais en charge la diffusion de toutes les images et vidéos via HTTP/2. En d’autres termes, une URL publiée ou un code intégré pour l’image ou la vidéo peut être intégré à toute application qui accepte une ressource hébergée. Cette ressource publiée utilise le protocole HTTP/2 pour la diffuser. Cette méthode de diffusion améliore la communication entre les navigateurs et les serveurs, ce qui se traduit par des temps de réponse et de chargement améliorés pour toutes vos ressources Adobe Dynamic Media Classic. Voir la [HTTP2 FAQ sur la diffusion de contenu](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
-## Publication après le téléchargement {#publish-after-uploading}
+## Publier après le chargement {#publish-after-uploading}
 
-Fichiers dans un état publié ou non publié. Par défaut, toutes les ressources que vous chargez dans Adobe Dynamic Media Classic sont automatiquement marquées pour publication.
+Les Assets sont à l’état publié ou dépublié. Par défaut, toutes les ressources que vous chargez dans Adobe Dynamic Media Classic sont automatiquement marquées pour publication.
 
 Pour plus d’informations, voir [Avis de publication instantanée PDF](/help/using/assets/rendering-instant-publish-notification.pdf).
 
@@ -43,7 +40,7 @@ Utilisez les techniques suivantes pour marquer les ressources en vue de leur pub
 
 * **[!UICONTROL Publier après le chargement]** : dans la boîte de dialogue Options de la tâche, sélectionnez **[!UICONTROL Publier après le chargement]**. La valeur par défaut est un état sélectionné.
 
-Certains fichiers « enfants » sont systématiquement marqués pour publication lorsque leurs parents le sont. Ce tableau répertorie les ressources enfants qui sont automatiquement marquées pour publication.
+Certaines ressources dépendantes sont automatiquement marquées pour publication lorsque leurs ressources parents sont marquées pour publication. Ce tableau répertorie les ressources enfants qui sont automatiquement marquées pour publication.
 
 | Elément (groupe) parent | Eléments (membre) enfants |
 | --- | --- |
@@ -56,7 +53,7 @@ Les images dérivées sont également automatiquement marquées pour publication
 
 ## Création d’un traitement de publication {#creating-a-publish-job}
 
-Créez une tâche de publication pour publier les ressources que vous avez chargées sur les serveurs Adobe Dynamic Media Classic mais que vous ne souhaitez pas encore publier automatiquement. Vous pouvez effectuer une tâche de publication unique ou planifier des tâches récurrentes. Adobe Dynamic Media Classic propose des options de publication avancées pour la publication sur des serveurs spécifiques, ainsi que des options pour republier des ressources déjà publiées.
+Créez une tâche de publication pour publier les ressources que vous avez chargées sur les serveurs Adobe Dynamic Media Classic. Utilisez cette option pour les ressources que vous ne souhaitez pas publier automatiquement. Vous pouvez effectuer une tâche de publication unique ou planifier des tâches récurrentes. Adobe Dynamic Media Classic propose des options de publication avancées pour la publication sur des serveurs spécifiques, ainsi que des options pour republier des ressources déjà publiées.
 
 **Pour créer une tâche de publication, procédez comme suit**
 
@@ -84,17 +81,17 @@ Créez une tâche de publication ponctuelle en sélectionnant l’option **[!UIC
 
 Si vous souhaitez que la tâche de publication se produise ultérieurement, dans la page Publication, sélectionnez **[!UICONTROL Une fois]**. Dans la liste déroulante, sélectionnez **[!UICONTROL Planifier pour plus tard]**. Utilisez le calendrier et le curseur Heure pour sélectionner un jour et une heure d’exécution de la tâche de publication.
 
-### Créer une tâche de publication récurrente {#creating-a-recurring-publish-job}
+### Création d’une tâche de publication récurrente {#creating-a-recurring-publish-job}
 
-Créez une tâche de publication récurrente en sélectionnant **[!UICONTROL Récurrent]** sur la page Publication .
+Créez une tâche de publication récurrente en sélectionnant **[!UICONTROL Récurrente]** sur la page Publication .
 
 Choisissez ensuite l’option Répéter de **[!UICONTROL Quotidien]**, **[!UICONTROL Hebdomadaire]**, **[!UICONTROL Mensuel]** ou **[!UICONTROL Personnalisé]**, puis indiquez à quel moment vous souhaitez que la tâche de publication se répète. Adobe Dynamic Media Classic présente les outils de calendrier pour la planification de la tâche de publication récurrente. Vous pouvez sélectionner l’option **[!UICONTROL Personnalisé]** et saisir une règle dans le champ de texte Règle pour décrire un intervalle de tâche personnalisé.
 
-Voir [&#x200B; Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
+Voir [ Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
 >[!NOTE]
 >
->les tâches de publication (et de téléchargement) périodiques sont répertoriées sur la page Tâches. Vous pouvez modifier ou supprimer une tâche planifiée sous l’onglet Planifiée, sur la page Tâches.
+>les tâches de publication (et de téléchargement) périodiques sont répertoriées sur la page Tâches. Vous pouvez modifier ou supprimer une tâche planifiée en accédant à l’onglet Planifié de la page Tâches.
 
 ### Options de publication avancées {#advanced-publish-options}
 
@@ -122,9 +119,9 @@ Pour annuler une tâche de publication, accédez à la page Tâches et sélectio
 
 ## Publication manuelle de ressources {#manually-publishing-assets}
 
-Vous pouvez publier des fichiers individuels manuellement au lieu de créer une tâche de publication. Lorsque vous publiez des visionneuses, telles qu’une visionneuse d’images ou une visionneuse de vidéos adaptative, la visionneuse (ou la visionneuse « parente ») et tous ses membres (ou ses « enfants ») sont publiés.
+Vous pouvez publier des fichiers individuels manuellement au lieu de créer une tâche de publication. Lorsque vous publiez des visionneuses, le parent et tous les enfants de cette visionneuse sont publiés.
 
-Les ressources dépubliées sont indiquées dans l’interface utilisateur par une icône ronde grise barrée d’une barre oblique (statut dépublié), à gauche du nom de la ressource. Une fois le fichier publié, l’icône devient verte et une coche blanche s’affiche en son centre (état publié).
+Une icône grise et arrondie traversée d’un trait (statut dépublié) à gauche du nom de la ressource indique que des ressources ont été dépubliées dans l’interface utilisateur d’. Une fois le fichier publié, l’icône devient verte et une coche blanche s’affiche en son centre (état publié).
 
 **Pour publier les ressources manuellement, procédez comme suit**
 
@@ -134,13 +131,13 @@ Les ressources dépubliées sont indiquées dans l’interface utilisateur par u
 
      Sur la barre de navigation générale, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Publier]**.
 
-   * Dans la vue Grille, Liste ou Détails, sélectionnez l’icône grise et ronde entourée d’une barre oblique, située à gauche du nom de la ressource.
+   * Dans la vue Grille, Liste ou Détails, sélectionnez l’icône grise et ronde bordée d’une ligne, située à gauche du nom de la ressource.
 
 ## Dépublication manuelle de ressources {#manually-unpublishing-assets}
 
-Vous pouvez annuler manuellement la publication de fichiers individuels. Lorsque vous dépubliez des visionneuses, telles qu’une visionneuse d’échantillons ou un catalogue électronique, la visionneuse (ou le « parent ») passe elle-même à l’état dépublié. Toutefois, les membres (ou « enfants ») de cet ensemble ne sont pas affectés. Ils conservent chacun leur état publié ou dépublié existant.
+Vous pouvez annuler manuellement la publication de fichiers individuels. Lorsque vous dépubliez des visionneuses, le parent passe à l’état dépublié. Toutefois, les membres (ou « enfants ») de cet ensemble ne sont pas affectés. Ils conservent chacun leur état publié ou dépublié existant.
 
-Les ressources publiées sont signalées dans l’interface utilisateur par une icône ronde verte avec une coche blanche au centre (statut publié), à gauche du nom de la ressource. Une fois la dépublication d’une ressource effectuée, l’icône devient grise et est barrée d’une barre oblique (statut dépublié).
+Une icône ronde verte avec une coche blanche au centre (état publié) à gauche du nom de la ressource indique les ressources publiées dans l’interface utilisateur. Une fois la ressource dépubliée, l’icône devient grise et est traversée par une ligne (statut dépublié).
 
 **Pour dépublier des ressources manuellement, procédez comme suit**
 
@@ -158,11 +155,11 @@ La dernière date de publication d’une ressource s’affiche dans l’affichag
 
 ## Fichiers republiés et délais CDN {#republished-assets-and-cdn-delays}
 
-Les ressources Adobe Dynamic Media Classic sont distribuées sur le réseau de diffusion de contenu (CDN). CDN est un système de serveurs informatiques reliés en réseau qui coopèrent de manière transparente pour diffuser des contenus, surtout des contenus multimédias volumineux, vers des utilisateurs finaux. Dans le système CDN, le contenu Web est stocké dans des caches Web sur Internet (appelé réseau de cache Edge). Le contenu web est diffusé à partir des caches web vers les utilisateurs finaux afin de permettre des diffusions plus rapides.
+Les ressources Adobe Dynamic Media Classic sont distribuées sur le réseau de diffusion de contenu (CDN). Le réseau CDN est un système de serveurs informatiques mis en réseau. Ils fonctionnent ensemble pour diffuser du contenu, en particulier du contenu multimédia volumineux, aux utilisateurs finaux. Dans le système CDN, le contenu Web est stocké dans des caches Web sur Internet (appelé réseau de cache Edge). Le contenu web est diffusé à partir des caches web vers les utilisateurs finaux afin de fournir des diffusions plus rapides.
 
 La première fois qu’une personne télécharge une page web, les ressources sont diffusées à un serveur de cache web CDN. Ce serveur les stocke de sorte que la prochaine fois qu’une personne se trouvant dans la même zone accédera à la page web, le même contenu mis en cache sera diffusé plus rapidement. Le contenu étant plus proche de l’utilisateur final, il est livré plus vite. Le réseau de diffusion de contenu accélère l’affichage des pages web. Il réduit les besoins en bande passante sur le serveur central dans la mesure où le contenu est diffusé à partir du réseau cache de périphérie, et non pas d’un serveur central à chaque fois.
 
-Le contenu Adobe Dynamic Media Classic nouvellement publié est immédiatement disponible pour l’utilisateur final et renseigne rapidement le réseau de cache Edge. Cependant, le contenu nouvellement republié, c’est-à-dire les images portant le même nom que les images précédemment publiées sur un serveur d’images, ne sera pas mis à jour sur le réseau CDN pendant une durée maximale de dix heures. Au lieu de cela, les utilisateurs finaux voient ce qui se trouve dans un cache Web sur le réseau CDN. Pour cette raison, les ressources republiées par Adobe Dynamic Media Classic n’apparaissent pas aux utilisateurs finaux pendant dix heures.
+Le contenu Adobe Dynamic Media Classic nouvellement publié est immédiatement disponible pour l’utilisateur final et renseigne rapidement le réseau de cache Edge. Cependant, le contenu nouvellement republié (c’est-à-dire les images portant le même nom que les images précédemment publiées sur un serveur d’images) n’est pas mis à jour sur le réseau CDN pendant une durée maximale de dix heures. Au lieu de cela, les utilisateurs finaux voient ce qui se trouve dans un cache Web sur le réseau CDN. Pour cette raison, les ressources republiées par Adobe Dynamic Media Classic n’apparaissent pas aux utilisateurs finaux pendant dix heures.
 
 Si vous souhaitez que vos ressources d’images nouvellement republiées soient disponibles avant ce délai de dix heures, vous pouvez vider les caches Web sur le réseau CDN. Le vidage de ces caches web supprime l’ancien contenu des caches web du réseau CDN et le remplace par vos ressources publiées le plus récemment.
 
