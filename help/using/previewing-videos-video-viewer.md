@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: b7031d38bb5093c8fad86927ac0020020fb801e2
 workflow-type: tm+mt
-source-wordcount: 870
-ht-degree: 19%
+source-wordcount: 853
+ht-degree: 15%
 
 ---
 
@@ -33,9 +33,9 @@ Voir [Ajout et modification des paramètres prédéfinis de visionneuse](applica
 
 **Pour prévisualiser des vidéos dans une visionneuse de vidéos, procédez comme suit**
 
-1. Dans le panneau Bibliothèque de ressources sur le côté gauche, dans la liste déroulante Afficher , sélectionnez **[!UICONTROL Vidéo]** (vidéos à codage unique) ou **[!UICONTROL Visionneuse de vidéos adaptative]**. Lorsque le paramètre prédéfini de codage de vidéo adaptative est utilisé, il donne lieu à un ensemble de vidéos codées à débit multiple.
-1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez aux dossiers de fichiers pour sélectionner la vidéo à prévisualiser.
-1. Utilisez l’une des méthodes suivantes :
+1. Dans le panneau Bibliothèque de ressources sur le côté gauche, dans la liste déroulante Afficher , sélectionnez **[!UICONTROL Vidéo]** (vidéos à codage unique) ou **[!UICONTROL Visionneuse de vidéos adaptative]**. Le paramètre prédéfini de codage de vidéo adaptative génère un ensemble de vidéos codées à débit multiple.
+1. Dans le panneau Bibliothèque de ressources sur le côté gauche, parcourez les dossiers de ressources pour sélectionner la vidéo à prévisualiser.
+1. Effectuez l’une des opérations suivantes :
 
    * Au-dessus de la fenêtre Assets, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Vue Liste]**. Dans la fenêtre Ressource, pointez sur une ressource, puis sélectionnez **[!UICONTROL Aperçu]**.
    * Au-dessus de la fenêtre Assets, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Vue Grille]**. Dans la fenêtre Ressource, dans une fenêtre de miniature de ressource, sélectionnez **[!UICONTROL Aperçu]**.
@@ -49,7 +49,7 @@ Voir [Ajout et modification des paramètres prédéfinis de visionneuse](applica
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic offre une méthode pratique pour prévisualiser une vidéo MP4 sur le bureau. Utilisez cette méthode pour prévisualiser du contenu mobile sur le Bureau sans le tester concrètement sur des périphériques mobiles. Sachez toutefois que ce qui est affiché dans l’aperçu de bureau n’indique pas de manière réaliste à quoi ressemble la lecture sur l’appareil mobile. Pour prévisualiser la lecture et l’aspect de la vidéo sur un appareil mobile, accédez à l’écran Prévisualisation . Cliquez sur **[!UICONTROL Copier l’URL]** et saisissez cette URL dans le navigateur web d’un appareil mobile. Pour plus d’informations, voir [Déploiement de vidéos sur des sites web et des sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic vous permet de prévisualiser une vidéo MP4 sur le bureau. Utilisez cette méthode pour prévisualiser le contenu mobile sur le bureau sans le tester sur les appareils mobiles. Cependant, l’aperçu de bureau ne reflète pas précisément la lecture sur l’appareil mobile. Pour prévisualiser la lecture et l’aspect de la vidéo sur un appareil mobile, accédez à l’écran Prévisualisation . Cliquez sur **[!UICONTROL Copier l’URL]** et saisissez cette URL dans le navigateur web d’un appareil mobile. Pour plus d’informations, voir [Déploiement de vidéos sur des sites web et des sites mobiles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Utilisation des paramètres prédéfinis de visionneuse vidéo {#working-with-video-viewer-presets}
 
@@ -59,7 +59,7 @@ Adobe Dynamic Media Classic est fourni avec de nombreux paramètres prédéfinis
 
 Voir [Prévisualisation de vidéos dans une visionneuse de vidéos](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
-Consultez également la section [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vidéo de formation .
+Consultez également la vidéo de formation [Paramètres vidéo prédéfinis](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 ### Ajout ou modification d’un paramètre prédéfini de visionneuse de vidéos {#adding-or-editing-a-video-viewer-preset}
 
@@ -89,7 +89,7 @@ Consultez également la section [Paramètres vidéo prédéfinis](https://s7d5.s
 
    * **Modifier** : sélectionnez un paramètre prédéfini de visionneuse de vidéos, puis sélectionnez **[!UICONTROL Modifier]**.
 
-1. Dans la page `Configure Viewer`, dans le champ Nom du paramètre prédéfini , saisissez ou modifiez le nom du paramètre prédéfini.
+1. Sur la page `Configure Viewer`, dans le champ Nom du paramètre prédéfini , saisissez ou modifiez le nom du paramètre prédéfini.
 1. Définissez les options restantes si vous le souhaitez.
 
    Pour afficher la description d’une option, sélectionnez son icône d’info-bulle.

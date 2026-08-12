@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 3f3b662bf92a81b908f0f10ded2e5c19aa62266a
 workflow-type: tm+mt
-source-wordcount: 258
-ht-degree: 22%
+source-wordcount: 259
+ht-degree: 1%
 
 ---
 
 # Aperçu des catalogues électroniques dans la visionneuse de catalogues électroniques{#previewing-ecatalogs-in-the-ecatalog-viewer}
 
-Passez en mode Prévisualiser pour afficher le catalogue électronique avec divers paramètres prédéfinis de visionneuse de catalogues électroniques. Vous avez toute latitude pour essayer les diverses commandes permettant de tourner les pages, de rédiger des pense-bêtes et de parcourir le catalogue.
+Vous pouvez utiliser la fonction Aperçu pour afficher votre catalogue électronique à l’aide de différents paramètres prédéfinis de la visionneuse de catalogue électronique. Pour tourner les pages, ajouter des notes et parcourir, vous pouvez utiliser les différentes commandes.
 
 Voir [Configuration des visionneuses par défaut](application-setup.md#configuring_default_viewers).
 
@@ -35,8 +35,8 @@ Voir [Aperçu d’une ressource](previewing-asset.md#previewing_an_asset).
 
 **Pour prévisualiser des catalogues électroniques dans la visionneuse de catalogues électroniques :**
 
-1. Dans le panneau Bibliothèque de ressources sur le côté gauche, dans la liste déroulante Afficher , sélectionnez un type de ressource vidéo, tel que Vidéo ou Visionneuse de vidéos.
-1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient les vidéos à prévisualiser à l’aide d’une visionneuse de catalogue électronique.
+1. Dans le panneau Bibliothèque de ressources sur le côté gauche, dans la liste déroulante Afficher, sélectionnez un type de ressource basé sur un catalogue électronique, tel que Catalogue électronique ou Ensemble de catalogues électroniques.
+1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez aux dossiers de ressources contenant les catalogues électroniques que vous souhaitez prévisualiser à l’aide d’une visionneuse de catalogues électroniques.
 1. Effectuez l’une des opérations suivantes :
 
    * Au-dessus de la fenêtre Assets, dans la partie droite de la barre d’outils, sélectionnez **[!UICONTROL Vue Grille]**. Dans la fenêtre Ressource, sous l’image miniature, accédez à **[!UICONTROL Aperçu]** > **[!UICONTROL Liste des visionneuses]**.

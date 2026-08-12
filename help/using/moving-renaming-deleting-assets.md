@@ -1,5 +1,5 @@
 ---
-title: Déplacement, changement de nom et suppression de ressources
+title: Déplacer, renommer et supprimer Assets
 description: Découvrez comment déplacer, renommer et supprimer des ressources dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -19,16 +19,16 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 86437beff2a5d9e45380e423c760c5f5ffe04411
 workflow-type: tm+mt
-source-wordcount: 613
-ht-degree: 17%
+source-wordcount: 607
+ht-degree: 12%
 
 ---
 
 # Déplacement, changement de nom et suppression de ressources{#moving-renaming-and-deleting-assets}
 
-Vous pouvez déplacer, renommer et supprimer des ressources à partir du panneau de navigation. Vous pouvez également supprimer plusieurs fichiers simultanément à l’aide d’un fichier texte.
+Vous pouvez déplacer, renommer et supprimer des ressources à partir du panneau de navigation. De plus, vous pouvez supprimer plusieurs ressources simultanément à l’aide d’un fichier texte.
 
 ## Déplacement des fichiers {#move-assets}
 
@@ -52,13 +52,13 @@ Vous pouvez déplacer des ressources vers différents dossiers dans le panneau P
 
 Vous pouvez supprimer des ressources sélectionnées dans le panneau de navigation et supprimer des dossiers entiers. Les fichiers et les dossiers supprimés sont déplacés vers le dossier Corbeille, où ils sont conservés pendant sept jours avant d’être définitivement supprimés.
 
-Lorsque vous avez supprimé une ressource, toutes les ressources qui en étaient dérivées sont également supprimées. Par exemple, la suppression d’une image pour laquelle vous avez créé des cibles de zoom supprime les cibles de zoom ainsi que l’image.
+Lorsque vous supprimez un fichier, tous les fichiers dérivés de ce fichier sont supprimés en même temps. Par exemple, la suppression d’une image pour laquelle vous avez créé des cibles de zoom supprime les cibles de zoom ainsi que l’image.
 
-les cibles de zoom, les attributs d’image et les entrées d’historique sont supprimés définitivement lorsque vous supprimez les fichiers d’où ils proviennent. Ils ne sont pas déplacés simultanément avec le fichier vers le dossier Corbeille ; ils ne peuvent pas non plus être restaurés depuis la Corbeille.
+Les cibles de zoom, les attributs d’image et les entrées d’historique sont définitivement supprimés lorsque vous supprimez les ressources dont ils sont dérivés. Ils ne sont pas déplacés simultanément avec le fichier vers le dossier Corbeille ; ils ne peuvent pas non plus être restaurés depuis la Corbeille.
 
 >[!IMPORTANT]
 >
->La suppression en bloc est une opération intensive. Veillez à exécuter les suppressions en bloc de manière séquentielle plutôt que comme des opérations de suppression lourdes simultanées. Adobe vous recommande de limiter les opérations de suppression à 5 000 suppressions de ressources ou moins par heure. Tout nombre supérieur à 5 000 par heure peut entraîner une limitation de débit.
+>La suppression en bloc est une opération qui nécessite de nombreuses ressources. Exécutez des suppressions en bloc de manière séquentielle plutôt que comme des opérations de suppression simultanées à grande échelle. Adobe vous recommande de limiter les opérations de suppression à 5 000 suppressions de ressources ou moins par heure. Toute quantité supérieure à 5 000 par heure peut entraîner une limitation de débit.
 
 **Pour supprimer des ressources, procédez comme suit**
 
@@ -73,11 +73,11 @@ Adobe Dynamic Media Classic recommande de remplacer les fichiers de ressources p
 
 ## Suppression de plusieurs fichiers à l’aide d’un fichier texte {#delete-multiple-assets-with-a-text-file}
 
-Pour supprimer plusieurs ressources à la fois dans la bibliothèque de ressources, vous pouvez répertorier les ressources à supprimer dans un fichier texte et envoyer la liste à Adobe Dynamic Media Classic.
+Pour supprimer plusieurs ressources à la fois dans toute la bibliothèque de ressources, vous pouvez répertorier dans un fichier texte les ressources à supprimer et envoyer la liste à Adobe Dynamic Media Classic.
 
-Créez la liste des identifiants Adobe Dynamic Media Classic et enregistrez-la en tant que fichier texte (.txt). Chaque Adobe Dynamic Media Classic ID doit se trouver sur sa propre ligne (suivi d’un retour hard).
+Créez la liste des identifiants Adobe Dynamic Media Classic et enregistrez-la en tant que fichier texte (.txt). Chaque ID Adobe Dynamic Media Classic doit se trouver sur sa propre ligne (suivie d’un retour chariot).
 
-Pour supprimer des fichiers à l’aide de cette liste créée, procédez comme suit :
+Pour utiliser la liste pour supprimer des ressources, procédez comme suit :
 
 1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Supprimer la liste des ressources]**.
 1. Dans la boîte de dialogue **[!UICONTROL Liste des ressources supprimées]**, saisissez le chemin d’accès au fichier texte avec la liste des ressources à supprimer.

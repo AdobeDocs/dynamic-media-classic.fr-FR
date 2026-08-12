@@ -1,5 +1,5 @@
 ---
-title: Préparation du chargement de ressources d’ensemble d’échantillons
+title: Préparation du jeu d’échantillons Assets pour le chargement
 description: Découvrez comment préparer le chargement de ressources de visionneuse d’échantillons dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,14 +18,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 327c9ba1e3d58d2daa8032dbd248c0312a7ec882
 workflow-type: tm+mt
 source-wordcount: 180
 ht-degree: 61%
 
 ---
 
-# Préparation du chargement de ressources d’ensemble d’échantillons{#preparing-swatch-set-assets-for-upload}
+# Préparation du jeu d’échantillons Assets pour le chargement{#preparing-swatch-set-assets-for-upload}
 
 Avant de télécharger les images dont vous avez besoin, assurez-vous que leur taille et leur format sont corrects. Assemblez également les fichiers d’échantillon dont vous avez besoin.
 
