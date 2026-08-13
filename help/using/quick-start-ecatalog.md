@@ -12,17 +12,13 @@ topic: Integrations
 level: Experienced
 autotag-review: '2026-05-13T19:55:49.663Z'
 TQID: 'https://experienceleague.adobe.com/EFy8tVdGv5q5mmQQS-m0Mb8AuphJHEDHzspsPWNxMlI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
 workflow-type: tm+mt
-source-wordcount: 1572
-ht-degree: 25%
+source-wordcount: 1565
+ht-degree: 22%
 
 ---
 
@@ -65,7 +61,7 @@ Lorsque vous créez un catalogue électronique, vous agencez les pages ou les pl
 >
 >Vous pouvez désormais créer des catalogues électroniques dans Adobe Dynamic Media Classic.
 
-Cette section de démarrage rapide est conçue pour vous aider à maîtriser rapidement les opérations liées aux catalogues électroniques. Suivez les étapes 1 à 7. Après chaque étape, il existe une référence croisée à un en-tête de rubrique dans laquelle vous pouvez trouver plus d’informations.
+Ce démarrage rapide de catalogue électronique est conçu pour vous aider à commencer à travailler rapidement avec les catalogues électroniques. Suivez les étapes 1 à 7. Après chaque étape, il existe une référence croisée à un en-tête de rubrique dans laquelle vous pouvez trouver plus d’informations.
 
 ## &#x200B;1. Chargement des fichiers PDF
 
@@ -83,7 +79,7 @@ Créez votre catalogue électronique en sélectionnant des fichiers PDF ou image
 
 Sur la page Catalogue électronique, dans l’onglet **[!UICONTROL Pages de commande]**, sélectionnez une option de mise en page : **[!UICONTROL 1 vers le haut]**, **[!UICONTROL 2 vers le haut]** ou **[!UICONTROL Personnalisé]**. Vous pouvez réorganiser les pages ou les planches en les faisant glisser ou, dans le cas de catalogues électroniques volumineux, en choisissant un nom de page dans le menu Déplacer vers.
 
-Pour ajouter des pages, sélectionnez un dossier dans la bibliothèque de fichiers, puis faites glisser les fichiers PDF ou d’images dans l’écran Ordre des pages. Au lieu des numéros de page par défaut, vous pouvez fournir des noms de page personnalisés ou importer de nombreux noms de page.
+Pour ajouter des pages, sélectionnez un dossier dans la bibliothèque de ressources, puis faites glisser les fichiers PDF ou image dans l’écran Commander des pages. Au lieu des numéros de page par défaut, vous pouvez fournir des noms de page personnalisés ou importer de nombreux noms de page.
 
 Sélectionnez **[!UICONTROL Enregistrer]**, saisissez un nom pour votre catalogue électronique, choisissez un dossier Adobe Dynamic Media Classic pour le stocker, puis sélectionnez **[!UICONTROL Enregistrer]**. Chaque fois que vous modifiez l’ordre des pages ou votre catalogue électronique, enregistrez vos modifications en sélectionnant **[!UICONTROL Enregistrer]**.
 
@@ -99,7 +95,7 @@ Après avoir encadré la zone cliquable, saisissez l’adresse URL à laquelle a
 
 Voir [Création de zones cliquables de catalogue électronique](creating-ecatalog-image-maps.md#creating-ecatalog-image-maps).
 
-Voir [&#x200B; Utilisation de zones cliquables pour incorporer des médias riches dans un catalogue électronique](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
+Voir [ Utilisation de zones cliquables pour incorporer des médias riches dans un catalogue électronique](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
 
 Vous pouvez configurer et gérer le texte de la zone cliquable à l’aide des paramètres du panneau Informations dans l’écran Catalogue électronique.
 
@@ -129,12 +125,12 @@ La publication de votre catalogue électronique et des PDF associées le place s
 
 Après avoir marqué votre catalogue électronique et votre PDF pour publication dans le panneau de navigation, sélectionnez le bouton Publier sur la barre de navigation générale pour lancer une publication. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
-Voir [&#x200B; Publication de catalogues électroniques et de fichiers PDF associés](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
+Voir [ Publication de catalogues électroniques et de fichiers PDF associés](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
 ## &#x200B;7. Liaison d’un catalogue électronique à une page web
 
 Adobe Dynamic Media Classic active la chaîne de légende d’URL nécessaire pour afficher votre catalogue électronique lorsque vous le publiez sur les serveurs d’images Dynamic Media. Vous pouvez copier cette chaîne d’URL à partir de l’écran de prévisualisation et du panneau de navigation (dans la vue détaillée) en sélectionnant les URL dans le panneau. Une fois la chaîne d’URL copiée, elle est disponible pour vos sites web et applications.
 
-Contactez votre équipe informatique pour placer le lien vers le catalogue électronique à l’emplacement approprié dans votre page web. Lorsque les utilisateurs sélectionnent le lien, la visionneuse de catalogue électronique s’affiche et les utilisateurs peuvent parcourir votre catalogue électronique.
+Pour placer le lien vers le catalogue électronique sur votre page web, collaborez avec votre équipe informatique. Lorsque les utilisateurs sélectionnent le lien, la visionneuse de catalogue électronique s’affiche et les utilisateurs peuvent parcourir votre catalogue électronique.
 
 Voir [Liaison d’un catalogue électronique à une page web](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).
