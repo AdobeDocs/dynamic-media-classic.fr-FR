@@ -18,34 +18,24 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 3a0d9567c4e9fc6830393efd44b9af43f3781382
 workflow-type: tm+mt
-source-wordcount: 264
+source-wordcount: 263
 ht-degree: 12%
 
 ---
 
 # Publication d’une visionneuse de médias mixtes{#publishing-a-mixed-media-set}
 
-Créez une tâche de publication pour publier une visionneuse de médias mixtes que vous avez marquée pour publication sur le serveur de vidéos et le serveur d’images Adobe Dynamic Media Classic. Adobe Dynamic Media Classic propose des options de publication avancées pour la publication sur des serveurs spécifiques, ainsi que des options pour republier des ressources déjà publiées.
+Configurez une tâche de publication pour publier une visionneuse de médias mixtes que vous avez marquée pour publication sur le serveur de vidéos et le serveur d’images Adobe Dynamic Media Classic. Adobe Dynamic Media Classic propose des options de publication avancées pour la publication sur des serveurs spécifiques, ainsi que des options pour republier des ressources déjà publiées.
 
 >[!NOTE]
 >
->Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisez **Serveur vidéo** pour publier les vidéos que vous avez marquées pour publication. De plus, vous utilisez **Image Server** pour publier les ressources connexes, telles que les miniatures vidéo, et définir des informations pour toute visionneuse de vidéos adaptative.
+>Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisez **Serveur vidéo** pour publier les vidéos que vous avez marquées pour publication. Vous utilisez **Image Server** pour publier les ressources associées, telles que les miniatures vidéo, ainsi que les informations de paramètres d’une visionneuse de vidéos adaptative.
 
 Adobe Dynamic Media Classic effectue le suivi des tâches de publication sur l’écran Tâches .
 
 Voir [Publication](publishing-files.md#publishing_files).
-
-<!-- 
-
-Comment Type: remark
-Last Modified By: unknown unknown 
-Last Modified Date: 
-
-<p>RB: Updated the following steps as per Cynthia email, 11/9/2012, added 11/12/2012</p>
-
- -->
 
 **Pour publier une visionneuse de médias mixtes, procédez comme suit**
 
@@ -62,7 +52,7 @@ Last Modified Date:
    Voir [Options de publication avancées](publishing-files.md#advanced_publish_options) pour d’autres options que vous pouvez définir.
 
 1. Sélectionnez **[!UICONTROL Envoyer la publication]**.
-1. Répétez les étapes 2 à 4 ci-dessus.
+1. Répétez les étapes 2 à 6.
 1. Dans les options **[!UICONTROL avancées]**, dans la liste déroulante **[!UICONTROL Publier vers]**, sélectionnez **[!UICONTROL Serveur d’images￼]**.
 
    Voir [Options de publication avancées](publishing-files.md#advanced_publish_options) pour d’autres options que vous pouvez définir.
