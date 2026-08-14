@@ -12,32 +12,29 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:10:31.990Z'
 TQID: 'https://experienceleague.adobe.com/dYjjsyvPAPOS5icw4Yi6Kpo93Nh2qvnCiW5-ih2hmDk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 1c15d2395e62ce41a298d25b973920963eef3a7a
 workflow-type: tm+mt
-source-wordcount: 856
-ht-degree: 16%
+source-wordcount: 820
+ht-degree: 11%
 
 ---
 
 # Démarrage rapide : Visionneuses à 360°{#quick-start-spin-sets}
 
-Une visionneuse à 360° simule la rotation d’un objet afin de l’examiner. Elle permet de visualiser des objets sous n’importe quel angle et profiter ainsi des moindres détails. La visionneuse à 360° procure une expérience de visualisation panoramique. Adobe Dynamic Media Classic propose des visionneuses à 360° unidimensionnelles dans lesquelles les utilisateurs peuvent faire pivoter un élément, et des visionneuses à 360° bidimensionnelles dans lesquelles les utilisateurs peuvent faire pivoter et retourner l’élément. De plus, les utilisateurs peuvent effectuer un zoom et un panoramique « libres » sur n’importe quelle vue en quelques clics seulement. Ainsi, les utilisateurs peuvent examiner un objet de plus près sous un angle bien précis.
+Une visionneuse à 360° offre une vue à 360 degrés d’un objet. Les visionneuses à 360° permettent d’afficher des éléments sous n’importe quel angle et d’obtenir des détails visuels sous n’importe quelle perspective. La visionneuse à 360° procure une expérience de visualisation panoramique. Adobe Dynamic Media Classic propose des visionneuses à 360° unidimensionnelles dans lesquelles les utilisateurs peuvent faire pivoter un élément, et des visionneuses à 360° bidimensionnelles dans lesquelles les utilisateurs peuvent faire pivoter et retourner l’élément. De plus, les utilisateurs et utilisatrices peuvent effectuer un zoom et un panoramique sur n’importe quelle vue. Les utilisateurs peuvent examiner un élément de plus près d’un point de vue particulier.
 
 ![Images pour une visionneuse à 360°](/help/using/assets/spin_set.png)
 
-Les visionneuses à 360° acceptent également les zones cliquables. Une zone cliquable est une zone d’une image dans la visionneuse à 360° qui affiche un panneau de survol avec du texte. Lorsque l’utilisateur sélectionne une zone cliquable, une action quelconque est déclenchée. Par exemple, une page web est lancée afin que l’utilisateur ou l’utilisatrice puisse en savoir plus sur un produit. Pour pointer une zone cliquable dans une visionneuse à 360°, un contour apparaît autour de la zone cliquable elle-même lorsque l’utilisateur place le pointeur de la souris dessus.
+Les visionneuses à 360° acceptent également les zones cliquables. Une zone cliquable est une zone d’une image dans la visionneuse à 360° qui affiche un panneau de survol avec du texte. Lorsque l’utilisateur sélectionne une zone cliquable, une action est déclenchée. Par exemple, une page Web affiche des informations détaillées sur un produit. Pour indiquer une zone cliquable dans une visionneuse à 360°, un contour apparaît autour de la zone cliquable elle-même lorsque l’utilisateur place le pointeur de la souris dessus.
 
 Voir [Création de zones cliquables](creating-image-maps.md).
 
 Consultez la vidéo de formation [Images et visionneuses à 360° : Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
 
-Lorsque vous créez une visionneuse à 360°, Adobe recommande les bonnes pratiques suivantes et applique les limites suivantes :
+Lorsque vous créez une visionneuse à 360°, Adobe recommande de suivre les instructions ci-dessous et applique les limites suivantes :
 
 | Type de limite de visionneuse à 360° | Pratique recommandée | Limite imposée |
 | --- | --- | --- |
@@ -45,11 +42,11 @@ Lorsque vous créez une visionneuse à 360°, Adobe recommande les bonnes pratiq
 
 Voir aussi [Limites de Dynamic Media](/help/using/limitations.md).
 
-Ce démarrage rapide est conçu pour vous aider à maîtriser rapidement les techniques des visionneuses à 360° dans Adobe Dynamic Media Classic. Suivez les étapes 1 à 7. À la fin de chaque étape, vous pouvez sélectionner un lien de rubrique pour en savoir plus.
+Ce guide est conçu pour vous aider à commencer à utiliser rapidement les techniques de visionneuse à 360° dans Adobe Dynamic Media Classic. Suivez les étapes 1 à 7. À la fin de chaque étape, vous pouvez sélectionner un lien de rubrique pour en savoir plus.
 
 ## &#x200B;1. Création et chargement des images
 
-Au minimum, vous avez besoin de 8 à 12 prises de vue d’un élément pour une visionneuse à 360° unidimensionnelle et de 16 à 24 prises de vue pour une visionneuse à 360° bidimensionnelle. Les prises de vue doivent être réalisées à intervalles réguliers pour donner l’impression que l’objet est en rotation et retourné. Par exemple, si une visionneuse à 360° unidimensionnelle comprend 12 prises de vue, faites pivoter l’élément de 30° (360/12) pour chaque prise de vue.
+Au minimum, vous avez besoin de 8 à 12 prises de vue d’un élément pour une visionneuse à 360° unidimensionnelle et de 16 à 24 prises de vue pour une visionneuse à 360° bidimensionnelle. Les prises de vue doivent être effectuées à intervalles réguliers pour montrer que l&#39;objet tourne et est retourné. Par exemple, si une visionneuse à 360° unidimensionnelle comprend 12 prises de vue, faites pivoter l’élément de 30° (360/12) pour chaque prise de vue.
 
 Sur la barre de navigation générale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger des images à 360° depuis votre ordinateur ou votre réseau vers Adobe Dynamic Media Classic.
 
@@ -65,34 +62,34 @@ Voir [Création d’une visionneuse à 360°](creating-spin-set.md#creating-a-sp
 
 Pour modifier une visionneuse à 360°, dans la barre de navigation générale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**. Sélectionnez une visionneuse à 360°, puis sélectionnez **[!UICONTROL Modifier]**. Ajoutez, supprimez des images et modifiez leur position. Vous pouvez modifier la position des lignes dans les visionneuses à 360° bidimensionnelles.
 
-Voir [&#x200B; Modification d’une visionneuse à 360°](creating-spin-set.md#editing-a-spin-set).
+Voir [ Modification d’une visionneuse à 360°](creating-spin-set.md#editing-a-spin-set).
 
 ## &#x200B;4. Configuration des paramètres prédéfinis de visionneuse à 360°
 
 Les administrateurs peuvent créer des paramètres prédéfinis de visionneuse à 360°. Ces paramètres définissent son aspect. Pour configurer un nouveau paramètre prédéfini de visionneuse à 360°, sur la barre de navigation générale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 
-Sur la page Paramètres prédéfinis de la visionneuse, sélectionnez **[!UICONTROL Ajouter]**, puis sélectionnez **[!UICONTROL Visionneuse à 360°]** dans la liste déroulante, puis sélectionnez **[!UICONTROL Ajouter]**. Choisissez des options dans la page de `Configure Viewer`, puis sélectionnez **[!UICONTROL Enregistrer]**.
+Sur la page Paramètres prédéfinis de la visionneuse, cliquez sur **[!UICONTROL Ajouter]**, puis sélectionnez **[!UICONTROL Visionneuse à 360°]** dans la liste déroulante, puis sélectionnez **[!UICONTROL Ajouter]**. Choisissez des options sur la page `Configure Viewer`, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 Voir [Configuration des paramètres prédéfinis de visionneuse à 360°](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
 ## &#x200B;5. Prévisualisation d’une visionneuse à 360°
 
-Sélectionnez la visionneuse à 360° dans le panneau de navigation, puis sélectionnez **[!UICONTROL Aperçu]**. Sur la page Aperçu , maintenez le bouton de la souris enfoncé et faites glisser le pointeur vers la gauche ou la droite pour faire « pivoter » visuellement l’élément.
+Sélectionnez la visionneuse à 360° dans le panneau de navigation, puis cliquez sur **[!UICONTROL Aperçu]**. Sur la page Aperçu , maintenez le bouton enfoncé et faites glisser le pointeur vers la gauche ou la droite pour faire pivoter l’élément visuellement.
 
 Voir [Aperçu d’une visionneuse à 360°](previewing-spin-set.md#previewing-a-spin-set).
 
 ## &#x200B;6. Publication d’une visionneuse à 360°
 
-La publication d’une visionneuse à 360° la place sur les serveurs Adobe Dynamic Media Classic afin qu’elle puisse être diffusée dynamiquement à votre site web ou application. Elle active également la chaîne URL qui appelle la visionneuse à 360° depuis les serveurs d’images Dynamic Media vers votre site web ou application.
+La publication d’une visionneuse à 360° la place sur les serveurs d’Adobe Dynamic Media Classic afin qu’elle puisse être diffusée dynamiquement sur votre site web ou votre application. Elle active également la chaîne URL qui appelle la visionneuse à 360° depuis les serveurs d’images Dynamic Media vers votre site web ou application.
 
-Pour publier une visionneuse à 360°, marquez-la pour publication en sélectionnant l’icône **[!UICONTROL Marquer pour publication]** à côté de son nom dans le panneau de navigation. Sur la barre de navigation générale, sélectionnez **[!UICONTROL Publier]** pour lancer une publication. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
+Pour publier une visionneuse à 360°, marquez-la pour publication en sélectionnant l’icône **[!UICONTROL Marquer pour publication]** à côté de son nom dans le panneau de navigation. Sur la barre de navigation générale, cliquez sur **[!UICONTROL Publier]** pour lancer la publication. Sur la page Publication, cliquez sur **[!UICONTROL Soumettre la publication]**.
 
-Voir [&#x200B; Publication d’une visionneuse à 360°](publishing-spin-set.md#publishing-a-spin-set).
+Voir [ Publication d’une visionneuse à 360°](publishing-spin-set.md#publishing-a-spin-set).
 
 ## &#x200B;7. Liaison d’une visionneuse à 360° à une page web
 
 Adobe Dynamic Media Classic crée des chaînes de légende d’URL pour les visionneuses à 360° et les active une fois que vous les avez publiées. Vous pouvez copier ces URL à partir de la page Aperçu .
 
-Sélectionnez la visionneuse à 360°, puis sélectionnez **[!UICONTROL Aperçu]**. Sélectionnez un paramètre prédéfini de visionneuse à 360°. Sélectionnez ensuite l’**[!UICONTROL URL de copie]**.
+Sélectionnez la visionneuse à 360°, puis cliquez sur **[!UICONTROL Aperçu]**. Sélectionnez un paramètre prédéfini de visionneuse à 360°. Cliquez ensuite sur **[!UICONTROL Copier l’URL]**.
 
 Voir [Liaison d’une visionneuse à 360° à une page web](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page).
