@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: c1f9ca034a6cc7545f18a41876f737eb9144e157
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 11%
+source-wordcount: 707
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 11%
 
 Les visionneuses d’images Adobe Dynamic Media Classic offrent aux utilisateurs une expérience de visionnage intégrée. Dans la visionneuse d’images dynamique, les utilisateurs peuvent voir différentes vues d’un élément en sélectionnant une image miniature. Les visionneuses d’images vous permettent de présenter d’autres vues haute résolution d’un élément.
 
-Les outils de zoom de la visionneuse d’images sont pratiques pour examiner les images de plus près. Si vous le souhaitez, vous pouvez ajouter les cibles de zoom guidées et les zones cliquables à votre visionneuse d’images. Les visionneuses d’images garantissent une visualisation concertée et privée.
+Les outils de zoom de la visionneuse d’images sont pratiques pour examiner les images de plus près. Vous pouvez inclure les cibles de zoom guidées et les zones cliquables dans votre visionneuse d’images. Les visionneuses d’images offrent une expérience de visionnage plus cohérente et ciblée.
 
 Consultez la vidéo de formation [Images et visionneuses à 360° : Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
 
@@ -44,11 +44,11 @@ Lorsque vous créez une visionneuse d’images, Adobe recommande les bonnes prat
 
 Voir aussi [Limites de Dynamic Media](/help/using/limitations.md).
 
-Le démarrage rapide des visionneuses d’images suivant est conçu pour vous aider à maîtriser rapidement les techniques des visionneuses d’images dans Adobe Dynamic Media Classic.
+Le démarrage rapide des visionneuses d’images suivant est conçu pour vous aider à commencer à utiliser les techniques des visionneuses d’images dans [!DNL Adobe Dynamic Media Classic].
 
 ## &#x200B;1. Chargez vos images principales pour plusieurs vues et échantillons
 
-Commencez par télécharger les images pour les visionneuses d’images. Comme les utilisateurs peuvent zoomer sur les images dans la visionneuse d’images, veillez à tenir compte de cette fonctionnalité lors du choix des images. Assurez-vous que les images font au moins 2 000 pixels dans leur plus grande taille. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichiers image, mais les formats sans perte TIFF, PNG et EPS sont recommandés.
+Commencez par télécharger les images pour les visionneuses d’images. Comme les utilisateurs peuvent zoomer sur les images dans la visionneuse d’images, veillez à évaluer cette fonctionnalité lors du choix des images. Assurez-vous que les images font au moins 2 000 pixels dans leur plus grande dimension. Adobe Dynamic Media Classic prend en charge de nombreux formats de fichiers image, mais les formats sans perte TIFF, PNG et EPS sont recommandés.
 
 Sur la barre de navigation générale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger des fichiers depuis votre ordinateur vers un dossier d’Adobe Dynamic Media Classic.
 
@@ -58,7 +58,7 @@ Voir [&#x200B; Préparation du chargement de ressources de visionneuse d’image
 
 Dans les visionneuses d’images, les utilisateurs sélectionnent les images miniatures dans la visionneuse d’images pour afficher une image d’un autre côté ou sous un autre angle.
 
-Pour créer une visionneuse d’images, sur la barre de navigation générale, sélectionnez **[!UICONTROL Créer]** puis choisissez **[!UICONTROL Visionneuses d’images]**. Dans la fenêtre Visionneuse d’images, faites glisser vos images sur la page pour composer votre visionneuse d’images. Organisez, ajoutez et supprimez des images, en fonction de vos besoins.
+Pour créer une visionneuse d’images, sur la barre de navigation générale, sélectionnez **[!UICONTROL Créer]** puis choisissez **[!UICONTROL Visionneuses d’images]**. Pour composer votre visionneuse d’images, faites glisser vos images sur la page dans la fenêtre Visionneuse d’images. Organisez, ajoutez et supprimez des images, en fonction de vos besoins.
 
 Voir [Création d’une visionneuse d’images](creating-image-set.md#creating-an-image-set).
 

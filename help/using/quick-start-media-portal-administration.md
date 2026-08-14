@@ -22,18 +22,18 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 42facb1222886a1f2b37ae5dbf2af2d163a8fc88
 workflow-type: tm+mt
-source-wordcount: 859
-ht-degree: 35%
+source-wordcount: 830
+ht-degree: 20%
 
 ---
 
 # Démarrage rapide : portail multimédia{#quick-start-media-portal}
 
-Media Portal permet aux entreprises d’acquérir, de contrôler et de distribuer facilement des ressources approuvées à des partenaires et des canaux externes, ainsi qu’aux utilisateurs internes d’une entreprise. Cet environnement de navigateur en « libre-service » fournit aux utilisateurs du portail multimédia des « vues » contrôlées par l’administrateur dans les ressources Adobe Dynamic Media Classic pour un accès, une navigation, une recherche, une prévisualisation et une exportation faciles des ressources dans des formats approuvés par l’entreprise.
+Media Portal permet aux entreprises d’acquérir, de contrôler et de distribuer facilement des ressources approuvées à des partenaires et des canaux externes, ainsi qu’à des utilisateurs internes. Cet environnement de navigateur en « libre-service » fournit aux utilisateurs du portail multimédia des « vues » contrôlées par l’administrateur dans les ressources Adobe Dynamic Media Classic pour un accès facile à la navigation, à la recherche, à la prévisualisation et à l’exportation de ressources dans des formats approuvés par l’entreprise.
 
-En tant qu’administrateur, vous contrôlez la manière dont les utilisateurs visualisent, ouvrent et utilisent les fichiers disponibles dans le portail multimédia. De plus, vous pouvez personnaliser l’interface du portail multimédia pour qu’elle corresponde à votre site web et à votre marque. Vous pouvez spécifier la police, la couleur et la taille de la police, et incorporer des éléments de branding tels que des logos dans l’interface de Media Portal.
+En tant qu’administrateur, vous contrôlez la manière dont les utilisateurs visualisent, ouvrent et utilisent les fichiers disponibles dans le portail multimédia. Pour correspondre à votre site web et à votre marque, vous pouvez personnaliser l’interface du portail multimédia. Vous pouvez spécifier la police, la couleur et la taille de la police, et incorporer des éléments de branding tels que des logos dans l’interface de Media Portal.
 
 Regardez les vidéos de formation suivantes :
 
@@ -43,35 +43,35 @@ Regardez les vidéos de formation suivantes :
 
 * [Visite guidée du portail multimédia 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
-Le didacticiel de mise en route suivant est conçu pour vous aider à démarrer rapidement l’administration de Media Portal. À la fin de chaque étape, sélectionnez le lien de la rubrique pour en savoir plus.
+Le démarrage rapide suivant est conçu pour vous aider à commencer l’administration du portail multimédia. À la fin de chaque étape, sélectionnez le lien de la rubrique pour en savoir plus.
 
 ## &#x200B;1. Comprendre les rôles des utilisateurs du portail multimédia
 
-Les utilisateurs de Media Portal peuvent jouer trois rôles : utilisateur, contributeur et utilisateur-contributeur. Chaque rôle permet d’effectuer un ensemble de tâches précis. Par exemple, un contributeur est habilité à renommer et à supprimer des fichiers et des dossiers, contrairement à un simple utilisateur. Familiarisez-vous avec ces rôles afin de pouvoir, lors de la création des rôles, bien comprendre les responsabilités que vous octroyez à chacun d’entre eux.
+Les utilisateurs de Media Portal peuvent jouer trois rôles : utilisateur, contributeur et utilisateur-contributeur. Chaque rôle permet d’effectuer un ensemble de tâches précis. Contrairement aux utilisateurs, les contributeurs peuvent renommer ou supprimer des fichiers et des dossiers. comprendre les différents rôles afin que, lorsque vous ajoutez des utilisateurs et utilisatrices, vous compreniez quelles responsabilités vous leur affectez ;
 
 Voir [Rôles utilisateur du portail multimédia](media-portal-user-roles.md#media_portal_user_roles).
 
 ## &#x200B;2. Création de groupes pour la gestion des utilisateurs
 
-Les groupes déterminent les dossiers et les fichiers auxquels l’utilisateur a accès, les opérations qu’il peut effectuer dans ceux-ci, ainsi que les paramètres d’image prédéfinis disponibles. En tant qu’administrateur, votre première tâche consiste à créer des groupes. Pour chaque groupe, décidez des dossiers, fichiers et paramètres d’image prédéfinis auxquels les membres du groupe pourront accéder. Accordez également aux membres du groupe les autorisations de lecture, d’écriture et de suppression adéquates. Ces autorisations déterminent si les membres du groupe sont habilités à parcourir, modifier, renommer et supprimer les dossiers et fichiers auxquels ils ont accès.
+Les groupes déterminent les dossiers et les fichiers auxquels l’utilisateur a accès, les opérations qu’il peut effectuer dans ceux-ci, ainsi que les paramètres d’image prédéfinis disponibles. En tant qu’administrateur, votre première tâche consiste à créer des groupes. Pour chaque groupe, décidez des dossiers, fichiers et paramètres d’image prédéfinis auxquels les membres du groupe pourront accéder. Accordez également des autorisations de lecture, d’écriture et de suppression aux membres du groupe. Ces autorisations déterminent si les membres du groupe sont habilités à parcourir, modifier, renommer et supprimer les dossiers et fichiers auxquels ils ont accès.
 
 Voir [Création et gestion des groupes du portail multimédia](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## &#x200B;3. Ajouter des utilisateurs
 
-Lorsque vous ajoutez un utilisateur, vous lui attribuez un rôle (utilisateur, contributeur ou contributeur-utilisateur). Vous pouvez également affecter l’utilisateur à un ou plusieurs groupes. Pour accélérer la procédure d’ajout, vous pouvez télécharger une liste d’utilisateurs enregistrée dans un fichier au format CSV. Les nouveaux utilisateurs reçoivent un message électronique de bienvenue accompagné d’instructions de connexion au portail multimédia.
+Lorsque vous ajoutez un utilisateur, vous lui attribuez un rôle (utilisateur, contributeur ou contributeur-utilisateur). Vous pouvez également affecter l’utilisateur à un ou plusieurs groupes. Pour simplifier le processus d’ajout d’utilisateurs, vous pouvez télécharger une liste d’utilisateurs sous la forme d’un fichier CSV. Un e-mail de bienvenue et des instructions pour la connexion au portail multimédia sont envoyés aux nouveaux utilisateurs.
 
 Voir [&#x200B; Ajouter et gérer des utilisateurs du portail multimédia &#x200B;](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## &#x200B;4. Gestion des comptes FTP
 
-Vous pouvez avoir des comptes FTP distincts associés au portail multimédia. Ils peuvent être mappés à un dossier spécifique dans votre compte Adobe Dynamic Media Classic. Ce type de fonctionnalité signifie que vous pouvez autoriser les utilisateurs à télécharger des fichiers numériques sur votre compte en utilisant des comptes FTP distincts.
+Vous pouvez avoir des comptes FTP distincts associés au portail multimédia. Ils peuvent être mappés à un dossier spécifique dans votre compte Adobe Dynamic Media Classic. Cette fonctionnalité permet aux utilisateurs de charger des ressources numériques dans votre compte à l’aide de comptes FTP distincts.
 
 Voir [&#x200B; Gestion des comptes FTP &#x200B;](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >
->Seuls les administrateurs du portail multimédia peuvent administrer ces comptes FTP. En outre, seuls les utilisateurs affectés du rôle de Contributeur-utilisateur Media Portal ou Contributeur Media Portal peuvent télécharger des fichiers.
+>Seuls les administrateurs du portail multimédia peuvent administrer ces comptes FTP. En outre, seuls les utilisateurs dotés du rôle Utilisateur-Contributeur du portail multimédia ou Contributeur du portail multimédia peuvent charger des fichiers.
 
 Voir [Rôles utilisateur du portail multimédia](media-portal-user-roles.md#media_portal_user_roles).
 
@@ -83,13 +83,13 @@ Voir [Définition des options d’exportation disponibles pour les utilisateurs 
 
 ## &#x200B;6. Création de paramètres d’image prédéfinis
 
-Un paramètre d’image prédéfini est un ensemble de paramètres prédéfinis. Ces paramètres peuvent modifier la taille, la qualité de l’image, le format, la résolution et d’autres aspects de l’aspect d’une image lors de son exportation. Les paramètres d’image prédéfinis peuvent servir à contrôler le type de reformatage des images lors de leur exportation.
+Un paramètre d’image prédéfini est un ensemble de paramètres prédéfinis. Ces paramètres peuvent modifier la taille, la qualité de l’image, le format, la résolution et d’autres aspects de l’aspect d’une image lors de son exportation. Pour contrôler le reformatage des images lorsque les utilisateurs les exportent, vous pouvez créer des paramètres d’image prédéfinis.
 
 Voir [Création et activation des paramètres d’image prédéfinis](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## &#x200B;7. Création de paramètres prédéfinis de métadonnées et de champs de métadonnées définis par l’utilisateur
 
-Les métadonnées décrivent et identifient un fichier. Il est utilisé pour rechercher et organiser des ressources. Vous pouvez créer des paramètres prédéfinis de métadonnées pour vous assurer de saisir correctement les métadonnées et de remplir tous les champs de métadonnées qui nécessitent des données. Un paramètre prédéfini de métadonnées est un ensemble préétabli d’entrées de métadonnées. Vous pouvez également créer des champs de métadonnées qui décrivent de manière unique les fichiers que vous utilisez.
+Les métadonnées décrivent et identifient un fichier. Il est utilisé pour rechercher et organiser des ressources. Pour vous assurer de saisir correctement les métadonnées et de remplir les champs requis, vous pouvez créer des paramètres prédéfinis de métadonnées. Un paramètre prédéfini de métadonnées est un ensemble préétabli d’entrées de métadonnées. Vous pouvez également créer des champs de métadonnées qui décrivent de manière unique les fichiers que vous utilisez.
 
 Voir [Optimisation de l’utilisation des métadonnées](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 
