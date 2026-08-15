@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: f5b282e36a7c765b37cecc24edb829e36169e5c3
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 17%
+source-wordcount: 688
+ht-degree: 18%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 17%
 
 Les visionneuses de médias mixtes offrent aux utilisateurs une expérience de visionnage intégrée. Les visionneuses de supports variés peuvent contenir des images, des visionneuses d’images, des séries d’échantillons, des visionneuses à 360° et des vidéos. Les utilisateurs peuvent sélectionner différents onglets dans la visionneuse de médias mixtes pour afficher les éléments dans les différentes visionneuses. Si aucun onglet n’est sélectionné, tous les fichiers s’affichent dans la ligne d’échantillons.
 
-Les paramètres prédéfinis de visionneuse de médias mixtes incluent des options de communauté permettant aux utilisateurs finaux d’incorporer du code, de copier des URL et d’établir un lien vers le site web principal. Les utilisateurs peuvent utiliser ces options pour partager des informations sur les produits sur leurs sites web personnels ou leurs sites de réseaux sociaux.
+Les paramètres prédéfinis de visionneuse de médias mixtes incluent des options de communauté permettant aux utilisateurs finaux d’incorporer du code, de copier des URL et d’accéder au site web principal. Les utilisateurs peuvent utiliser ces options pour partager des informations de produits sur leur site Web personnel ou sur des sites de réseaux sociaux.
 
-Ce démarrage rapide d’une visionneuse de médias mixtes est conçu pour vous aider à maîtriser rapidement les techniques des visionneuses de médias mixtes dans Adobe Dynamic Media Classic.
+Ce démarrage rapide de visionneuse de médias mixtes est conçu pour vous aider à commencer à utiliser les techniques de visionneuse de médias mixtes dans Adobe Dynamic Media Classic.
 
 ## &#x200B;1. Chargez les images, les fichiers d’échantillon et les vidéos
 
-Commencez par télécharger les images, fichiers d’échantillons et vidéos pour les visionneuses de supports variés. Comme les utilisateurs peuvent zoomer sur les images dans la visionneuse de médias mixtes, veillez à tenir compte de cette fonctionnalité lors du choix des images. Assurez-vous que les images font au moins 2 000 pixels dans leur plus grande taille.
+Chargez les images, les fichiers d’échantillon et les vidéos pour vos visionneuses de médias mixtes. Comme les utilisateurs peuvent zoomer sur les images dans la visionneuse de médias mixtes, veillez à tester cette fonctionnalité lors du choix des images. Assurez-vous que les images font au moins 2 000 pixels dans leur plus grande dimension.
 
 Sur la barre de navigation générale, sélectionnez **[!UICONTROL Télécharger]** pour télécharger des fichiers depuis votre ordinateur vers un dossier d’Adobe Dynamic Media Classic.
 
@@ -73,7 +73,7 @@ Voir [Aperçu d’une ressource](previewing-asset.md#previewing-an-asset).
 
 La publication d’une visionneuse de médias mixtes la place sur les serveurs Adobe Dynamic Media Classic et active la chaîne URL.
 
-Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisez **Serveur vidéo** pour publier les vidéos que vous avez marquées pour publication. De plus, vous utilisez **Image Server** pour publier les ressources connexes, telles que les miniatures vidéo, et définir des informations pour toute visionneuse de vidéos adaptative.
+Avec les visionneuses de supports variés, vous devez publier sur un **serveur de vidéo** et un **serveur d’images**. Utilisez **Serveur vidéo** pour publier les vidéos que vous avez marquées pour publication. Vous utilisez **Image Server** pour publier les ressources connexes, telles que les miniatures vidéo, et définir des informations pour les visionneuses de vidéos adaptatives.
 
 Voir [&#x200B; Publication d’une visionneuse de médias mixtes &#x200B;](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
@@ -81,4 +81,4 @@ Voir [&#x200B; Publication d’une visionneuse de médias mixtes &#x200B;](publi
 
 Adobe Dynamic Media Classic active les appels d’URL pour les visionneuses de médias mixtes après leur publication. Vous pouvez copier ces URL à partir de la page Aperçu .
 
-Sélectionnez la visionneuse de médias mixtes, puis sélectionnez **[!UICONTROL Aperçu]**. Dans la page Aperçu, sélectionnez un paramètre prédéfini de visionneuse de médias mixtes, puis sélectionnez l’**[!UICONTROL URL de copie]**. Voir [Liaison de visionneuses de médias mixtes à des pages web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
+Sélectionnez la visionneuse de médias mixtes, puis sélectionnez **[!UICONTROL Aperçu]**. Dans la page Aperçu, sélectionnez un paramètre prédéfini de visionneuse de médias mixtes, puis sélectionnez **[!UICONTROL Copier l’URL]**. Voir [Liaison de visionneuses de médias mixtes à des pages web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
