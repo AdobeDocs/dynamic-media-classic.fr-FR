@@ -1,5 +1,5 @@
 ---
-title: Recherche de ressources Dynamic Media Classic
+title: Rechercher dans Dynamic Media Classic Assets
 description: Découvrez comment rechercher des ressources dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,19 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:11:34.580Z'
 TQID: 'https://experienceleague.adobe.com/pC3khbkWx53M4aRmPWAV8bFx-Zl8-mD4qU4fZB-cGM8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: fd4b2bc8960392112ad800d9e3da62a09196462b
 workflow-type: tm+mt
-source-wordcount: 1521
-ht-degree: 17%
+source-wordcount: 1501
+ht-degree: 16%
 
 ---
 
@@ -38,15 +33,15 @@ Pour localiser des ressources de fichiers dans Adobe Dynamic Media Classic, vous
 
 ## Affichage des ressources par type {#viewing-assets-by-type}
 
-Pour n’afficher que les fichiers d’un certain type au fur et à mesure que vous naviguez, dans la Bibliothèque de ressources sur le côté gauche, dans la liste déroulante **[!UICONTROL Afficher]**, choisissez un type de fichier. Seules les ressources du type que vous avez choisi d’afficher apparaissent dans la bibliothèque de ressources.
+Pour n’afficher que les fichiers d’un certain type au fur et à mesure que vous naviguez, choisissez un type de fichier dans la liste déroulante **[!UICONTROL Afficher]** de la Bibliothèque de ressources sur la gauche. Seules les ressources du type que vous avez choisi d’afficher apparaissent dans la bibliothèque de ressources.
 
 >[!NOTE]
 >
->Si le panneau Bibliothèque de ressources ne s’affiche pas sur le côté gauche, cliquez sur la flèche du triangle droit sur le côté gauche, à mi-hauteur de la fenêtre Dynamic Media Classic, pour ouvrir la bibliothèque de ressources.
+>Si le panneau Bibliothèque de ressources est masqué, cliquez sur la flèche du triangle droit au milieu de la fenêtre Dynamic Media Classic pour l’afficher.
 
 ## Tri des fichiers dans le panneau de navigation {#sorting-files-in-the-browse-panel}
 
-Vous pouvez trier le contenu d’un dossier ou les résultats de la recherche qui s’affichent dans le panneau Parcourir sur le côté droit. Sur la barre de navigation générale, sélectionnez **[!UICONTROL Trier]**, puis choisissez une option. Les options disponibles sont **[!UICONTROL Nom]**, **[!UICONTROL Taille (Ko)]**, **[!UICONTROL Type]**, **[!UICONTROL Date de création]** et **[!UICONTROL Dernière modification]**.
+Vous pouvez trier le contenu d’un dossier ou les résultats de la recherche qui s’affichent dans le panneau Parcourir. Sur la barre de navigation générale, sélectionnez **[!UICONTROL Trier]**, puis choisissez une option. Les options disponibles sont **[!UICONTROL Nom]**, **[!UICONTROL Taille (Ko)]**, **[!UICONTROL Type]**, **[!UICONTROL Date de création]** et **[!UICONTROL Dernière modification]**.
 
 Vous pouvez également choisir **[!UICONTROL Croissant]** ou **[!UICONTROL Décroissant]** pour trier les ressources par ordre croissant ou décroissant en fonction des critères de votre choix.
 
@@ -57,7 +52,7 @@ Dans la vue Liste, vous pouvez trier en sélectionnant un nom de colonne.
 Utilisez le champ Rechercher de la bibliothèque de ressources pour effectuer des recherches simples. Vous pouvez rechercher des objets par nom ou rechercher des objets dont les métadonnées contiennent un mot-clé.
 
 1. Dans la bibliothèque de ressources, dans le panneau **[!UICONTROL Dossiers]**, sélectionnez le dossier dans lequel effectuer la recherche, à savoir un dossier particulier et ses sous-dossiers.
-1. À gauche du champ Rechercher dans la bibliothèque de ressources, sélectionnez l’icône **[!UICONTROL Loupe]** pour ouvrir la liste déroulante.
+1. À gauche du champ Rechercher dans la bibliothèque de ressources, sélectionnez l’icône **[!UICONTROL Rechercher]** pour ouvrir la liste déroulante.
 1. Dans la liste déroulante, choisissez une option qui décrit l’étroitesse ou la largeur de la recherche souhaitée. Vous pouvez choisir **[!UICONTROL Dans tous les fichiers et dossiers]**, **[!UICONTROL Dans le dossier sélectionné]** ou **[!UICONTROL Dans le dossier et les sous-dossiers sélectionnés]**.
 1. Dans le champ Rechercher , saisissez un terme de recherche.
 1. À droite du champ Rechercher , sélectionnez **[!UICONTROL Aller]** ou appuyez sur **[!UICONTROL Entrée]**.
@@ -80,17 +75,17 @@ Spécifiez l’un des critères suivants dans votre recherche avancée :
 
 * **Fichiers et dossiers** : choisissez l’emplacement de la recherche : **[!UICONTROL Dans tous les fichiers et dossiers]**, **[!UICONTROL Dans le dossier sélectionné]** ou **[!UICONTROL Dans le dossier et les sous-dossiers sélectionnés]**.
 
-* **Tous les états de publication** : recherchez les fichiers marqués comme prêts pour la publication, les fichiers non marqués comme prêts pour la publication ou tous les fichiers.
+* **Tous les états de publication** : recherchez les fichiers marqués comme prêts pour publication, ceux qui ne sont pas marqués comme prêts pour publication ou tous les fichiers.
 
 * **Conditions** : si vous spécifiez des critères de métadonnées pour la recherche, indiquez si la recherche doit correspondre à toutes les conditions (une recherche ALL) ou à toute condition (une recherche OR).
 
 * **Critères de recherche** : créez un ou plusieurs champs de recherche pour la recherche de métadonnées. Pour créer des champs de recherche :
 
-   1. Dans Recherche avancée, sous l’en-tête **[!UICONTROL Critères de recherche]** et à gauche du menu **[!UICONTROL Ajouter un champ]**), sélectionnez l’icône de flèche du triangle bas pour ouvrir la liste déroulante. Choisissez une vue de métadonnées. Vous pouvez choisir **[!UICONTROL Toutes les propriétés avec des valeurs]**, **[!UICONTROL Vue compacte]**, **[!UICONTROL IPTC]**, **[!UICONTROL Champs de publication du serveur de métadonnées]** ou **[!UICONTROL XMP]**.
-   1. Sélectionnez le menu déroulant **[!UICONTROL Ajouter un champ]** et choisissez un nom de champ.
-   1. Choisissez l’option **[!UICONTROL Contient]** : **[!UICONTROL Contient]**, **[!UICONTROL Ne contient pas]**, **[!UICONTROL Commence par]**, **[!UICONTROL Se termine par]** ou **[!UICONTROL Est égal à]**.
-   1. Pour les champs numériques, choisissez une valeur ou entrez une plage de dates personnalisée.
-   1. (Facultatif) Répétez les étapes 1 à 4 pour créer d’autres champs de recherche.
+  1. Dans Recherche avancée, sous l’en-tête **[!UICONTROL Critères de recherche]** et à gauche du menu **[!UICONTROL Ajouter un champ]**), sélectionnez l’icône de flèche du triangle bas pour ouvrir la liste déroulante. Choisissez une vue de métadonnées. Vous pouvez choisir **[!UICONTROL Toutes les propriétés avec des valeurs]**, **[!UICONTROL Vue compacte]**, **[!UICONTROL IPTC]**, **[!UICONTROL Champs de publication du serveur de métadonnées]** ou **[!UICONTROL XMP]**.
+  1. Sélectionnez le menu déroulant **[!UICONTROL Ajouter un champ]** et choisissez un nom de champ.
+  1. Choisissez l’option **[!UICONTROL Contient]** : **[!UICONTROL Contient]**, **[!UICONTROL Ne contient pas]**, **[!UICONTROL Commence par]**, **[!UICONTROL Se termine par]** ou **[!UICONTROL Est égal à]**.
+  1. Pour les champs numériques, choisissez une valeur ou entrez une plage de dates personnalisée.
+  1. (Facultatif) Répétez les étapes 1 à 4 pour créer d’autres champs de recherche.
 
 Sélectionnez l’icône **[!UICONTROL Supprimer un champ de recherche]** (cercle contenant un « X ») pour supprimer le champ de recherche.
 
@@ -102,7 +97,7 @@ Sélectionnez **[!UICONTROL Effacer]** pour effacer les critères de recherche e
 
 Vous pouvez filtrer les fichiers dans l’onglet Filtres de la bibliothèque de fichiers. Pour ce faire, vous pouvez utiliser les métadonnées comme critères de filtre. Après avoir choisi un champ de métadonnées sur lequel filtrer, l’onglet Filtres répertorie toutes les valeurs de métadonnées saisies dans le champ que vous avez choisi. Il répertorie également le nombre de ressources auxquelles chaque valeur a été attribuée. Par exemple, dans une opération de filtrage sur le champ de métadonnées **[!UICONTROL Créateur]**, l’onglet **[!UICONTROL Filtres]** répertorie tous les noms qui ont été saisis dans le champ de métadonnées **[!UICONTROL Créateur]** pour différentes ressources. Elle répertorie également pour chaque nom le nombre de ressources affectées au nom. Vous sélectionnez ensuite une valeur de métadonnées pour afficher toutes les ressources auxquelles cette valeur a été attribuée. Dans l’exemple, vous sélectionnez la valeur de métadonnées `Prairie Cat` pour afficher toutes les ressources dans lesquelles le nom `Prairie Cat` été saisi dans le champ de métadonnées **[!UICONTROL Créateur]**. Le filtrage par métadonnées peut porter sur plusieurs critères de filtre.
 
-Vous pouvez enregistrer les opérations de filtre pour les exécuter plusieurs fois.
+Pour exécuter plusieurs fois des opérations de filtre, vous pouvez les enregistrer.
 
 >[!NOTE]
 >
@@ -116,7 +111,7 @@ Pour localiser des ressources en filtrant avec leurs valeurs de métadonnées, p
 
 1. Dans la bibliothèque de ressources, sélectionnez l’onglet **[!UICONTROL Filtres]**.
 
-   Les critères de votre opération de filtrage précédente apparaissent dans le panneau Filtres. Chaque volet du panneau Filtres représente un champ de métadonnées. Utilisez les volets du panneau pour choisir les champs de métadonnées, et dans chaque champ, choisissez une valeur de métadonnées à utiliser pour l’opération de filtrage.
+   Les critères de votre opération de filtrage précédente apparaissent dans le panneau Filtres. Le volet Filtres est divisé en panneaux, chacun représentant un champ de métadonnées. Utilisez les volets du panneau pour choisir les champs de métadonnées, et dans chaque champ, choisissez une valeur de métadonnées à utiliser pour l’opération de filtrage.
 
    Pour exécuter une opération de filtrage que vous avez créée et enregistrée, sélectionnez **[!UICONTROL Sélectionner le paramètre prédéfini]**, puis choisissez le nom de l’opération dans le menu.
 
@@ -164,13 +159,13 @@ Suivez ces instructions dans l’onglet Filtres pour enregistrer, répéter et s
 
 ## Utilisation du serveur de métadonnées {#using-the-metadata-server}
 
-Le serveur de métadonnées est une API publique que vous pouvez utiliser pour rechercher des ressources à l’aide de métadonnées au moyen de requêtes HTTP.
+Le serveur de métadonnées est une API publique que vous pouvez utiliser pour rechercher des ressources à l’aide de métadonnées à l’aide de requêtes HTTP.
 
 Pour configurer le serveur de métadonnées, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]** > **[!UICONTROL Serveur de métadonnées]**.
 
 La page Éditeur du serveur de métadonnées permet de définir les options suivantes :
 
-* **[!UICONTROL Publication instantanée]** : envoie automatiquement toutes les modifications apportées aux métadonnées lorsqu’elles sont effectuées, y compris les nouvelles ressources, les modifications de mots-clés, etc.
+* **[!UICONTROL Publication instantanée]** : envoie automatiquement toutes les modifications de métadonnées lorsqu’elles sont effectuées, y compris les nouvelles ressources, les modifications de mots-clés et d’autres éléments connexes.
 
 * **[!UICONTROL Paquet XMP]** : publie le paquet XMP. Ce paquet n&#39;est pas utilisé pour la recherche, mais fournit le XMP le plus à jour.
 
