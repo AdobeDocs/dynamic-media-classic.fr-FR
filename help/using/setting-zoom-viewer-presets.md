@@ -12,22 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:12:28.286Z'
 TQID: 'https://experienceleague.adobe.com/dVCfolvS11dmHRlOF2OruJwM1TMM68lEtKy76l4LkC8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 96e28bfa7ee65d01d22591dc4a020507fe1d9a9d
 workflow-type: tm+mt
-source-wordcount: 638
-ht-degree: 40%
+source-wordcount: 632
+ht-degree: 31%
 
 ---
 
 # Configurer les paramètres prédéfinis de la visionneuse Zoom{#setting-up-zoom-viewer-presets}
 
-Les paramètres prédéfinis de la visionneuse Zoom déterminent le style, le comportement et l’aspect de vos visionneuses Zoom. Adobe Dynamic Media Classic offre de nombreuses options pour personnaliser et appliquer l’habillage aux visionneuses. Adobe Dynamic Media Classic est fourni avec les paramètres prédéfinis de base par défaut (rapide), de fenêtre déroulante et de visionneuse Zoom personnalisée. Si vous êtes administrateur, vous pouvez créer des paramètres prédéfinis de visionneuse Zoom d’entreprise ou modifier un paramètre prédéfini par défaut et l’enregistrer sous un nouveau nom.
+Les paramètres prédéfinis de la visionneuse Zoom déterminent le style, le comportement et l’aspect de vos visionneuses Zoom. Adobe Dynamic Media Classic offre de nombreuses options de personnalisation et de configuration des visionneuses. Adobe Dynamic Media Classic est fourni avec les paramètres prédéfinis de base par défaut (rapide), de fenêtre déroulante et de visionneuse Zoom personnalisée. Si vous êtes un administrateur, vous pouvez créer des paramètres prédéfinis de visionneuse Zoom organisationnelle ou modifier un paramètre prédéfini par défaut et l’enregistrer sous un nouveau nom.
 
 Toutes les visionneuses de zoom comportent des boutons permettant d’effectuer un zoom avant, un zoom arrière et un panoramique mais aussi de rétablir l’état initial de l’image après le zoom. L’apparence de ces boutons et de la fenêtre elle-même dépend de votre choix de Paramètres prédéfinis de la visionneuse Zoom. Vous pouvez configurer un paramètre prédéfini de visionneuse de zoom avec des couleurs, des bordures, des polices et des paramètres d’image différents. Lors de la configuration d’une visionneuse avec zoom guidé, vous pouvez également choisir l’emplacement des cibles de zoom. Les cibles de zoom correspondent aux miniatures sur lesquelles les utilisateurs cliquent pour effectuer un zoom sur les zones que vous définissez.
 
@@ -37,19 +34,19 @@ Adobe Dynamic Media Classic propose les paramètres prédéfinis de visionneuse 
 
 * **Visionneuse Zoom : de base** : fournit un zoom de base sur l’image d’origine.
 
-* **Visionneuse Zoom : Fenêtre déroulante** : affiche une seconde image de la zone zoomée en regard de l’image d’origine. Aucune commande n’est disponible. Il suffit de déplacer la sélection sur la zone à visualiser.
+* **Visionneuse Zoom : Fenêtre déroulante** : affiche une seconde image de la zone zoomée en regard de l’image d’origine. Il n’existe aucune commande ; les utilisateurs et utilisatrices déplacent la sélection sur la zone à afficher.
 
-Pour déterminer la quantité totale de bande passante allouée à la visionneuse, n’oubliez pas que l’image principale et celle de la fenêtre déroulante sont toutes deux diffusées par la visionneuse. La taille de l’image déroulante est déterminée à l’aide de la taille de l’image principale (largeur et hauteur de la scène) et du facteur de zoom. Pour que la fenêtre déroulante ne devienne pas trop volumineuse, équilibrez ces deux valeurs : si la taille de l’image principale est importante, réduisez la valeur du facteur de zoom. (La Largeur de la fenêtre déroulante et la Hauteur de la fenêtre déroulante déterminent la taille de la fenêtre déroulante, mais pas la taille de l’image diffusée par la visionneuse.)
+Lorsque vous déterminez l’utilisation totale de la bande passante pour cette visionneuse, considérez que l’image principale et l’image déroulante sont diffusées dans la visionneuse. La taille de l’image déroulante est déterminée à l’aide de la taille de l’image principale (largeur et hauteur de la scène) et du facteur de zoom. Pour que la fenêtre déroulante ne devienne pas trop volumineuse, équilibrez ces deux valeurs : si la taille de l’image principale est importante, réduisez la valeur du facteur de zoom. (La Largeur de la fenêtre déroulante et la Hauteur de la fenêtre déroulante déterminent la taille de la fenêtre déroulante, mais pas la taille de l’image diffusée par la visionneuse.)
 
-Par exemple, si la taille de l’image principale est de 350 x 350 pixels et que le facteur de zoom est de 3, la taille d’image de la fenêtre déroulante sera de 1 050 x 1 050 pixels. Si la taille de l’image principale est de 300 x 300 pixels et que le facteur de zoom est de 4, la taille d’image de la fenêtre déroulante sera de 1 200 x 1 200 pixels. Selon la valeur de qualité JPEG sélectionnée (une valeur comprise entre 80 et 90 est recommandée), il est possible de réduire sensiblement la taille du fichier. Selon la taille de l’image principale, un facteur de zoom de 2,5 à 4 est recommandé.
+Par exemple, si la taille de l’image principale est de 350 x 350 pixels et que le facteur de zoom est de 3, la taille d’image de la fenêtre déroulante sera de 1 050 x 1 050 pixels. Si la taille de l’image principale est de 300 x 300 pixels et que le facteur de zoom est de 4, la taille d’image de la fenêtre déroulante sera de 1 200 x 1 200 pixels. Selon le paramètre de qualité de JPEG (les paramètres recommandés sont compris entre 80 et 90), vous pouvez réduire la taille du fichier. Selon la taille de l’image principale, un facteur de zoom de 2,5 à 4 est recommandé.
 
 Adobe Dynamic Media Classic recommande les paramètres suivants pour les paramètres prédéfinis de visionneuse Zoom volant :
 
-* **Taille de l’image agrandie** : environ 1 500 x 1 500 pixels, sans dépasser 2 000 x 2 000 pixels.
+* **Taille de l’image agrandie** : 1 500 x 1 500 pixels, ne pas dépasser 2 000 x 2 000 pixels.
 
 * **Taille de l’image** : 100 Ko ou moins, ne pas dépasser 150 Ko (compressez le fichier pour le conserver en dessous de 150 Ko).
 
-* **Visionneuse Zoom : personnalisée** : permet un zoom guidé ou non avec des images, des visionneuses d’images avec plusieurs vues ou des visionneuses d’échantillons de couleurs.
+* **Visionneuse Zoom : personnalisée** : fournit un zoom guidé ou non pour les images, les visionneuses d’images avec plusieurs vues ou les visionneuses d’échantillons de couleurs.
 
 ## Création et modification des paramètres prédéfinis de la visionneuse Zoom {#creating-and-editing-zoom-viewer-presets}
 
