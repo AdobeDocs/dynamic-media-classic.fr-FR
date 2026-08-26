@@ -1,5 +1,5 @@
 ---
-title: Limites de Dynamic Media
+title: Contraintes de Dynamic Media
 description: Découvrez les bonnes pratiques et les limites appliquées lorsque vous créez une visionneuse d’images ou à 360° ou chargez une visionneuse PDF. Découvrez également les combinaisons de navigateur web et de système d’exploitation non prises en charge par Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
@@ -22,14 +22,14 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: c4599d7dfba3811fba73f7e9366f9427f0f20d78
+source-git-commit: b589fcbd330e4c703d64f0143c87e5674c772924
 workflow-type: tm+mt
 source-wordcount: 352
 ht-degree: 1%
 
 ---
 
-# Limites de Dynamic Media
+# Contraintes Dynamic Media
 
 Les sections suivantes décrivent les limites dans Dynamic Media.
 

@@ -1,5 +1,5 @@
 ---
-title: Configuration requise pour Media Portal dans Adobe Dynamic Media Classic
+title: Configuration requise pour le portail multimédia dans Adobe Dynamic Media Classic
 description: Découvrez la configuration requise pour une expérience optimale avec le portail multimédia dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -20,16 +20,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: cb775817b876da6ec38c8d2b968c4f3b6096acf7
 workflow-type: tm+mt
-source-wordcount: 126
+source-wordcount: 122
 ht-degree: 11%
 
 ---
 
 # Configuration requise pour Media Portal dans Adobe Dynamic Media Classic {#system-requirements}
 
-Pour une expérience optimale avec Adobe Dynamic Media Classic Media Portal, veillez à ce que votre système réponde à la configuration requise et aux suggestions suivantes :
+Pour utiliser le portail Adobe Dynamic Media Classic Media, vérifiez que votre système répond à la configuration requise et aux suggestions suivantes :
 
 * Processeur ® Windows® 7 ou version ultérieure ou macOS X 10.6 ou version ultérieure Mac Intel® requis.
 * 3 Go de RAM ou plus requis (4 Go ou plus suggéré).
