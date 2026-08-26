@@ -35,7 +35,7 @@ Dynamic Media Classic propose des formations sous forme de vidéos, d’ateliers
 
 Les services de formation Adobe proposent des formations en classe approfondies et personnalisées, adaptées aux besoins de votre entreprise. Ces formations peuvent prendre diverses formes : cours de type universitaire ayant lieu dans la région, cours en ligne ou encore ateliers sur site personnalisés. Les cours régionaux sont ouverts à tous les clients et se déroulent régulièrement dans plusieurs villes d’Amérique du Nord et de la zone EMOA (Europe-Moyen-Orient-Afrique). Les cours personnalisés peuvent être adaptés en fonction de l’expérience des utilisateurs (débutants à avancés) et de leur rôle (utilisateurs finaux, administrateurs, personnel informatique).
 
-Voir [Services de formation &#x200B;](https://experienceleague.adobe.com/en/premium/home)
+Voir [Services de formation &#x200B;](https://experienceleague.adobe.com/fr/premium/home)
 
 ## Démonstrations
 
