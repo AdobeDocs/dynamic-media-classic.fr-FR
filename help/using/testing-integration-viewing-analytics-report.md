@@ -1,5 +1,5 @@
 ---
-title: Tester l’intégration en affichant un rapport Adobe Analytics
+title: Test de l’intégration en affichant un rapport Adobe Analytics
 description: Découvrez comment tester l’intégration dans Adobe Dynamic Media Classic en affichant un rapport Adobe Analytics.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,19 +12,13 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T20:14:40.601Z'
 TQID: 'https://experienceleague.adobe.com/BwQe9AuhBfi-bLCuO-j48kE-3gw9rgtz5GEI9nIBRjE'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 42a60be8f52236a376c408b168323c9aca8ecf6b
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 343
 ht-degree: 5%
 
 ---
@@ -35,7 +29,7 @@ Après avoir créé les variables nécessaires dans Adobe Analytics, les avoir l
 
 **Pour tester l’intégration en affichant un rapport Adobe Analytics, procédez comme suit**
 
-1. Démarrez une visionneuse Adobe Dynamic Media Classic à partir de votre compte, en particulier une visionneuse qui diffuse la mesure que vous souhaitez obtenir, et interagissez avec elle pour créer des données d’événement.
+1. Démarrez une visionneuse Adobe Dynamic Media Classic à partir de votre compte, une visionneuse qui diffuse la mesure que vous souhaitez obtenir, et interagissez avec elle pour créer des données d’événement.
 
    Par exemple, si vous souhaitez mesurer des vues alternatives populaires dans une visionneuse d’images, prévisualisez une visionneuse d’images et cliquez sur les différentes miniatures.
 
@@ -43,10 +37,10 @@ Après avoir créé les variables nécessaires dans Adobe Analytics, les avoir l
 
    Par exemple, pour accéder à la prop **[!UICONTROL LoadAsset]** dans le compte d’exemple, le choix de menu approprié est **[!UICONTROL Trafic personnalisé]** > **[!UICONTROL Trafic personnalisé 1-10]** > **[!UICONTROL LoadAsset]**. Si vous disposez de plus de dix props personnalisées, d’autres choix de menu s’affichent également.
 
-1. Affichez le diagramme généré par Adobe Analytics. Ce graphique ne représente généralement que les données d’une seule mesure. Si vous souhaitez également savoir à quelle ressource ces données sont associées, obtenez les données de ressource de cet événement. Par exemple, il est souvent utile de savoir quelle vidéo est visionnée à 50 % seulement ou quelle image d’une visionneuse est la plus populaire.
+1. Affichez le diagramme généré par Adobe Analytics. Ce graphique représente les données d’une mesure unique. Si vous souhaitez également savoir à quelle ressource ces données sont associées, obtenez les données de ressource de cet événement. Par exemple, il est souvent utile de savoir quelle vidéo est visionnée à 50 % seulement ou quelle image d’une visionneuse est fréquemment visionnée.
 
 >[!NOTE]
 >
 >Toutes les données de la visionneuse Adobe Dynamic Media Classic sont affichées et consignées dans les rapports de trafic personnalisé ou les rapports de conversion personnalisés d’Adobe Analytics.
 
-Pour plus d’informations, voir [Tutoriels Analytics](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/overview).
+Pour plus d’informations, voir [Tutoriels Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).
