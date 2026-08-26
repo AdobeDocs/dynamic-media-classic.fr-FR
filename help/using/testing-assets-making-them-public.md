@@ -1,5 +1,5 @@
 ---
-title: Tester les ressources avant leur publication
+title: Tester Assets avant sa publication
 description: Découvrez comment tester des ressources dans Adobe Dynamic Media Classic avant de les rendre publiques.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,18 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:14:28.361Z'
 TQID: 'https://experienceleague.adobe.com/cu99kXj4FjNzR74kGCoACFPst0snM2EGyYifu7a8Drs'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 83f1e1305a59b4f75d9be9e4c4b3d0038160749a
 workflow-type: tm+mt
-source-wordcount: 1070
-ht-degree: 21%
+source-wordcount: 1050
+ht-degree: 17%
 
 ---
 
@@ -37,7 +33,7 @@ Si vous le souhaitez, vous pouvez créer un environnement d’évaluation plutô
 
 * Aperçu des sites Web avant lancement public (site Web intermédiaire).
 * Fournir des ressources nécessitant un accès restreint, telles que des catalogues électroniques qui affichent les prix dans une application Web B2B.
-* Utilisez des ressources derrière un pare-feu dans le cadre d’un système de gestion de l’information sur les produits, d’une application de service client, d’un site de formation, etc.
+* Utilisez des ressources derrière un pare-feu dans le cadre d’un système de gestion de l’information sur les produits, d’une application de service client, d’un site de formation ou de systèmes similaires.
 
 >[!NOTE]
 >
@@ -45,13 +41,13 @@ Si vous le souhaitez, vous pouvez créer un environnement d’évaluation plutô
 
 ## Comment fonctionne Secure Testing {#how-secure-testing-works}
 
-La plupart des entreprises gèrent leur Internet derrière un pare-feu. L’accès à Internet est possible via certaines routes et généralement via une plage limitée d’adresses IP publiques.
+La plupart des entreprises hébergent leurs services Internet dans un réseau privé. L’accès à Internet est possible via certaines routes et généralement via une plage limitée d’adresses IP publiques.
 
-À partir du réseau de votre entreprise, vous pouvez déterminer votre adresse IP publique à l’aide de sites web tels que [&#128279;](https://www.whatismyip.com/) ou demander ces informations à votre service informatique d’entreprise.
+À partir du réseau de votre entreprise, vous pouvez déterminer votre adresse IP publique à l’aide de sites web tels que [](https://www.whatismyip.com/) ou demander ces informations à votre service informatique d’entreprise.
 
-Grâce à Secure Testing, Adobe Dynamic Media Classic établit un serveur d’images dédié pour les environnements d’évaluation ou les applications internes. Toute requête sur ce serveur vérifie l’adresse IP d’origine. Si la requête entrante n’est pas incluse dans la liste approuvée des adresses IP, une réponse d’échec est renvoyée. L’administrateur d’entreprise d’Adobe Dynamic Media Classic configure la liste approuvée des adresses IP pour l’environnement Secure Testing de l’entreprise.
+Grâce à Secure Testing, Adobe Dynamic Media Classic établit un serveur d’images dédié pour les environnements d’évaluation ou les applications internes. Toute requête sur ce serveur vérifie l’adresse IP d’origine. Si la requête entrante n’est pas incluse dans la liste approuvée des adresses IP, une réponse d’échec est renvoyée. L’administrateur d’entreprise Adobe Dynamic Media Classic configure la liste approuvée des adresses IP pour l’environnement Secure Testing de l’entreprise.
 
-Comme l’emplacement de la requête originale doit être confirmé, le trafic du service Secure Testing n’est pas acheminé via un réseau de distribution de contenu comme le trafic du serveur d’images Dynamic Media public. Les requêtes effectuées auprès du service Secure Testing présentent une latence légèrement plus élevée par rapport aux serveurs d’images Dynamic Media publics.
+Comme l’emplacement de la requête d’origine doit être confirmé, le trafic pour le service Secure Testing n’est pas acheminé via un réseau de distribution de contenu comme le trafic du serveur d’images Dynamic Media public. Les requêtes effectuées auprès du service Secure Testing présentent une latence légèrement plus élevée par rapport aux serveurs d’images Dynamic Media publics.
 
 Les fichiers non publiés sont immédiatement disponibles à partir des services Secure Testing, sans avoir besoin d’être publiés. Ainsi, vous pouvez exécuter un aperçu avant la publication des ressources sur leur serveur d’images public.
 
@@ -74,7 +70,7 @@ Last Modified Date:
 * Images.
 * Vignettes (demandes de seveur Render Server).
 * Requêtes du serveur de rendu (prises en charge, mais le client doit le demander explicitement).
-* Visionneuses, dont visionneuses d’images, catalogue électronique, visionneuses de rendu et de supports.
+* Visionneuses, notamment d’images, d’eCatalog, de rendus et de supports.
 * Visionneuses de médias riches Adobe Dynamic Media Classic standard.
 * Pages JSP d’Adobe Dynamic Media Classic OnDemand.
 * Contenu statique, par exemple fichiers PDF et vidéos servies progressivement.
@@ -118,7 +114,7 @@ Last Modified Date:
 1. Dans Adobe Dynamic Media Classic, sur la barre de navigation générale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de la publication]** > **[!UICONTROL Serveur d’images]**.
 1. Sur la page Publication du serveur d’images, dans la liste déroulante **[!UICONTROL `Publish Context`]**, sélectionnez **[!UICONTROL Test de l’hébergeur d’images]**.
 1. Pour l’option Filtre d’adresse client, sélectionnez **[!UICONTROL Ajouter]**.
-1. Cochez la case pour que l’adresse soit activée (activée), puis saisissez une adresse IP et un masque de réseau dans les champs de texte respectifs.
+1. Cochez la case pour activer l’adresse, puis saisissez une adresse IP et un masque de réseau dans les champs de texte respectifs.
 
    >[!NOTE]
    >
@@ -132,7 +128,7 @@ Last Modified Date:
 
    Voir [Charger des fichiers](uploading-files.md#uploading_files).
 
-1. Assurez-vous que certaines des images sont marquées pour publication et d’autres ne le sont pas, puis soumettez la tâche de publication.
+1. Assurez-vous que certaines des images sont marquées pour la publication et d’autres ne le sont pas, puis soumettez la tâche de publication.
 
    Voir [Publication de fichiers](publishing-files.md#publishing_files).
 
@@ -154,12 +150,12 @@ Effectuez les tests suivants :
 
 1. Vérifiez si les fichiers sont visibles de l’intérieur de votre réseau d’entreprise.
 
-   Depuis le réseau d’entreprise identifié par la plage d’adresses IP définie précédemment, la version intermédiaire du site web affiche toutes les images, qu’elles soient marquées pour la publication ou non. Ainsi, vous pouvez tester sans rendre accidentellement les images disponibles avant l’approbation de l’aperçu ou le lancement du produit.
+   Depuis le réseau d’entreprise identifié par la plage d’adresses IP définie précédemment, la version intermédiaire du site web affiche toutes les images, qu’elles soient marquées pour publication ou non. Par conséquent, vous pouvez tester sans rendre accidentellement les images disponibles avant l’approbation de l’aperçu ou le lancement du produit.
 
-   Vérifiez que la version publique de votre site affiche les ressources publiées comme vous l’avez déjà fait avec Adobe Dynamic Media Classic.
+   Vérifiez que la version publique de votre site affiche les ressources publiées comme observé précédemment avec Adobe Dynamic Media Classic.
 
-1. Depuis l’extérieur de votre réseau d’entreprise, vérifiez que les ressources non publiées (c’est-à-dire non marquées pour la publication) sont protégées contre l’accès par des tiers.
+1. Depuis l’extérieur de votre réseau d’entreprise, vérifiez que les ressources dépubliées (c’est-à-dire non marquées pour la publication) sont protégées contre l’accès par des tiers.
 
-   Accédez à votre réseau depuis l’extérieur (depuis votre ordinateur personnel ou via une connexion 3G, par exemple), puis vérifiez que la version publique du site affiche toutes les ressources publiées, mais aucun contenu dépublié.
+   Accédez à votre réseau depuis l’extérieur, puis vérifiez que la version publique du site affiche toutes les ressources publiées, mais pas le contenu dépublié.
 
-   Confirmez que la version intermédiaire n’affiche aucun fichier, car vous accédez au service Secure Testing à partir d’une adresse IP non approuvée.
+   Vérifiez que la version intermédiaire n’affiche aucune ressource, car vous accédez au service Secure Testing à partir d’une adresse IP non approuvée.
