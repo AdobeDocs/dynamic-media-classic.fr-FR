@@ -6,10 +6,10 @@ user-guide-title: Guide d’Adobe Dynamic Media Classic
 breadcrumb-title: Guide de Dynamic Media Classic
 user-guide-description: En savoir plus sur l’utilisation d’Adobe Dynamic Media Classic.
 index: true
-source-git-commit: 487ca7be68e8b515fc0c4d7bf2c00c0666fcfa4b
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 21%
+source-wordcount: '803'
+ht-degree: 20%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 21%
   + [Comparaison des listes de fonctionnalités](upgrade-feature-comparison.md)
   + [Liste de contrôle de préparation à la mise à niveau](upgrade-readiness.md)
 + [Guide d’Adobe Dynamic Media Classic](home.md)
-+ [Tutoriel sur les bonnes pratiques d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [Tutoriel sur les bonnes pratiques d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [NOUVELLE ouverture de session Adobe Dynamic Media Classic disponible](new-ui-2020.md)
-+ [Archive de newsletter Adobe Dynamic Media par Experience League](dynamic-media-newsletter.md)
++ [Archive de newsletter Adobe Dynamic Media par Adobe Experience League](dynamic-media-newsletter.md)
 + Présentation d’Adobe Dynamic Media Classic {#intro}
   + [Application de bureau Adobe Dynamic Media Classic : désormais disponible](dynamic-media-classic-desktop-app.md)
   + [À propos de l&#39;aide d&#39;Adobe Dynamic Media Classic](introduction.md)
@@ -58,10 +58,10 @@ ht-degree: 21%
   + [Gestion des comptes FTP](ftp-accounts.md)
   + [Définition d’options d’exportation disponibles pour les utilisateurs de Media Portal](specifying-export-options-available-media.md)
   + [Création et activation des paramètres d’image prédéfinis](creating-enabling-image-presets.md)
-  + [Gestion efficace des métadonnées](making-efficient-metadata.md)
+  + [Gestion des métadonnées](making-efficient-metadata.md)
   + [Personnalisation de l’écran du portail multimédia](customizing-media-portal-screen.md)
 + Téléchargement et publication de fichiers {#upload-publish}
-  + [Chargement et publication des ressources](about-asset-upload-publish.md)
+  + [Téléchargement et publication de fichiers](about-asset-upload-publish.md)
   + [Téléchargement de fichiers](uploading-files.md)
   + [Publier des fichiers](publishing-files.md)
   + [Limites de Dynamic Media](limitations.md)
@@ -108,7 +108,7 @@ ht-degree: 21%
   + [Liaison d’un catalogue électronique à une page web](linking-ecatalog-web-page.md)
 + Visionneuses d’images {#image-sets}
   + [Démarrage rapide : Visionneuses d’images](quick-start-image-sets.md)
-  + [Préparation du chargement de ressources de visionneuse d’images](preparing-image-set-assets-upload.md)
+  + [Préparation du chargement d’une visionneuse d’images Assets](preparing-image-set-assets-upload.md)
   + [Création d’une visionneuse d’images](creating-image-set.md)
   + [Inclure les cibles de zoom et les zones cliquables dans les visionneuses d’images](including-zoom-targets-image-maps-image-sets.md)
   + [Gestion du contenu du panneau Informations dans les visionneuses d’images](info-panel-content-image-sets.md)
@@ -118,7 +118,7 @@ ht-degree: 21%
 + Série d’échantillons {#swatch-sets}
   + [Démarrage rapide : Séries d’échantillons](quick-start-swatch-sets.md)
   + [Inclure les cibles de zoom et les zones cliquables dans les visionneuses d’échantillons](including-zoom-targets-image-maps-swatch-sets.md)
-  + [Préparation du chargement de ressources d’ensemble d’échantillons](preparing-swatch-set-assets-upload.md)
+  + [Préparation du jeu d’échantillons Assets pour le chargement](preparing-swatch-set-assets-upload.md)
   + [Création de la série d’échantillons](creating-swatch-set.md)
   + [Afficher les échantillons](viewing-swatch-sets.md)
   + [Liaison d’un échantillon à une page web](linking-swatch-set-web-page.md)
@@ -172,7 +172,7 @@ ht-degree: 21%
   + [Obtenir des informations sur l’utilisation du disque](getting-disk-usage-information.md)
   + [Chargement d’une ressource d’image matricielle](uploading-image-asset-or-vector.md)
 + Fichiers de Principal {#master-files}
-  + [Recommandations pour optimiser la qualité des images](best-practices-optimizing-quality-images.md)
+  + [Recommandations pour l’optimisation de la qualité de vos images](best-practices-optimizing-quality-images.md)
   + [Modification des images](editing-images.md)
   + [Création de zones cliquables](creating-image-maps.md)
   + [Recadrage d’une image](cropping-image.md)
@@ -181,7 +181,7 @@ ht-degree: 21%
   + [Options d’édition d’images à l’étape de chargement](image-editing-options-upload.md)
   + [Utiliser des PDF](pdfs.md)
   + [Utiliser des fichiers PSD](psd-files.md)
-  + [Utiliser des fichiers PostScript et Illustrator](postscript-illustrator-files.md)
+  + [Utiliser des fichiers PostScript et Adobe Illustrator](postscript-illustrator-files.md)
   + [Utiliser des vignettes, des couvre-fenêtres et des fichiers d&#39;armoire](vignette-window-covering-cabinet-files.md)
 + Fichiers de support {#support-files}
   + [Polices](fonts.md)
