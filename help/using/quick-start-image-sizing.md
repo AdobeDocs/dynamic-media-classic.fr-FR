@@ -12,13 +12,10 @@ level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 autotag-review: '2026-05-13T20:09:57.533Z'
 TQID: 'https://experienceleague.adobe.com/VGp4OQ03iRiobXKWuUERNtFwUMQ4z7a19wyOgHWuv3w'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e66a98d5071f107477891c3769f1301fcc0d86db
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 870
 ht-degree: 6%
@@ -33,9 +30,9 @@ Le dimensionnement des images fait référence à la capacité d’Adobe Dynamic
 * Vous pouvez rapidement modifier la taille d’une image sur l’ensemble de votre site web ou de votre application. Par exemple, pour modifier toutes les images miniatures, vous pouvez modifier le paramètre prédéfini d’image « miniature ». Un paramètre d’image prédéfini est un ensemble d’attributs de taille et de formatage. Pour modifier la taille de toutes les miniatures sur l’ensemble de votre site web ou de votre application, vous pouvez modifier le paramètre prédéfini d’image « miniature ».
 * Vous n’avez pas à gérer les fichiers principaux ou tous les différents dérivés dans l’un de vos systèmes de gestion de contenu ou de ressources.
 
-![Vous pouvez créer plusieurs images dérivées de tailles différentes à partir du même fichier principal haute résolution.](/help/using/assets/is_derivative_sizes_popup.png)
+![Vous pouvez créer plusieurs images dérivées de tailles différentes à partir du même fichier principal haute résolution](/help/using/assets/is_derivative_sizes_popup.png).
 
-Voir la vidéo de formation [&#x200B; Dimensionnement d’image &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS) Dynamic Imaging .
+Voir la vidéo de formation [ Dimensionnement d’image ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS) Dynamic Imaging .
 
 Le démarrage rapide du dimensionnement d’image suivant est conçu pour vous aider à commencer à utiliser les techniques de dimensionnement d’image dans Adobe Dynamic Media Classic. Effectuez les étapes 1 à 5. Après chaque étape, il existe une référence croisée où vous pouvez trouver plus d’informations si vous en avez besoin.
 
