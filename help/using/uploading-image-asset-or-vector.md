@@ -40,7 +40,7 @@ Avant de pouvoir charger une ressource image, vous devez d’abord demander une 
 
 ## Demander une clé secrète partagée {#requesting-a-shared-secret-key}
 
-Demandez une *clé secrète partagée* en [utilisant Admin Console pour créer un dossier de support](https://helpx.adobe.com/business/enterprise.html). Dans le cas de l’assistance technique, demandez une clé secrète partagée.
+Demandez une *clé secrète partagée* en [utilisant Admin Console pour créer un dossier de support](https://helpx.adobe.com/fr/business/enterprise.html). Dans le cas de l’assistance technique, demandez une clé secrète partagée.
 
 Dans le message électronique, indiquez le nom d’entreprise que vous voulez utiliser pour transférer les fichiers d’image. Après avoir reçu la clé d’Adobe Dynamic Media Classic, enregistrez-la localement pour une utilisation ultérieure.
 

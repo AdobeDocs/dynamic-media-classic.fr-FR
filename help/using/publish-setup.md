@@ -64,7 +64,7 @@ Modifiez ces paramètres uniquement avec l’aide d’un membre de l’équipe d
   Par exemple, si votre entreprise est une société multinationale qui vend dans différents pays, chaque pays peut avoir sa propre visionneuse correspondant aux paramètres régionaux. Pour accomplir cette fonctionnalité, vous spécifiez une chaîne de carte de paramètres régionaux. Vous modifiez ensuite le texte de l’info-bulle dans le paramètre prédéfini d’une visionneuse. Ajoutez simplement les chaînes de texte traduites pour la langue souhaitée.
 
   >[!NOTE]
-  > Pour configurer les options de prise en charge de la localisation, [utilisez Admin Console pour créer un dossier de support](https://helpx.adobe.com/business/enterprise.html). Dans votre dossier de support, demandez de l’aide pour la configuration.
+  > Pour configurer les options de prise en charge de la localisation, [utilisez Admin Console pour créer un dossier de support](https://helpx.adobe.com/fr/business/enterprise.html). Dans votre dossier de support, demandez de l’aide pour la configuration.
 
   Pour plus d’informations sur la configuration de l’**[!UICONTROL Aide à la localisation]**, voir [Considérations à prendre en compte lors de la configuration de la localisation des fichiers](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -72,7 +72,7 @@ Modifiez ces paramètres uniquement avec l’aide d’un membre de l’équipe d
 
 >[!NOTE]
 >
->Si vous souhaitez configurer des options de prise en charge de la localisation dans Adobe Dynamic Media Classic, telles que le champ Carte des paramètres régionaux, [utilisez Admin Console pour créer un dossier de prise en charge](https://helpx.adobe.com/business/enterprise.html). Dans votre dossier de support, demandez de l’aide pour la configuration.
+>Si vous souhaitez configurer des options de prise en charge de la localisation dans Adobe Dynamic Media Classic, telles que le champ Carte des paramètres régionaux, [utilisez Admin Console pour créer un dossier de prise en charge](https://helpx.adobe.com/fr/business/enterprise.html). Dans votre dossier de support, demandez de l’aide pour la configuration.
 
 Une façon courante d’utiliser Adobe Dynamic Media Classic est de gérer les images du produit sur les sites Web d’e-commerce. Les entreprises internationales sont confrontées à un défi : les actifs pour des produits similaires varient selon les régions. Généralement, les différences concernent quelques composants du média. Gérer ces différences en copiant toutes les ressources pour chaque pays et en remplaçant les différences est une tâche complexe et est incompatible avec le principe de l’actif principal unique. Les différences de ressources peuvent aller de vidéos spécifiques à un pays avec différentes pistes audio à des différences subtiles mais importantes dans le cordon d’alimentation utilisé avec le produit. Adobe Dynamic Media Classic utilise un mécanisme de recherche de base. Vous définissez l’ordre des suffixes de ressources dans lequel le serveur d’images s’affiche, en commençant par le paramètre régional requis.
 
