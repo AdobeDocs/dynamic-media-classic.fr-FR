@@ -1,5 +1,5 @@
 ---
-title: Préparation à la mise à niveau
+title: Liste de contrôle de préparation à la mise à niveau
 description: Une liste de contrôle de préparation à la mise à niveau lorsque vous souhaitez avancer de  [!DNL Adobe Dynamic Media Classic]  à  [!DNL Dynamic Media] ’ [!DNL Adobe Experience Manager].
 feature: Dynamic Media Classic
 role: Admin,User
@@ -18,9 +18,9 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: 223
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Utilisez la liste de contrôle suivante pour comprendre et préparer une mise à
 |  | Tâche | Description |
 | :--- | :--- | --- |
 | **Phase 1 : Licences** | Exécuter le contrat | En fonction du trafic et du stockage, l’équipe du compte Adobe travaille avec vous pour passer de la licence [!DNL Dynamic Media Classic] au renouvellement de la licence [!DNL Dynamic Media]. |
-| **Phase 2 : Préparation** | Valider l’utilisation des fonctionnalités | Vérifiez que les fonctionnalités utilisées dans [!DNL Dynamic Media Classic] sont disponibles dans [!DNL Dynamic Media]. Voir la page [Comparaison des fonctionnalités](/help/using/upgrade-feature-comparison.md). Les fonctionnalités clés qui ne sont pas encore disponibles dans [!DNL Dynamic Media] sont les suivantes :<br>· Configurateur visuel (auteur d’images, rendu d’image).<br>· Modèles d’image (1:1 modèle).<br>· Catalogues électroniques.<br>Si les fonctionnalités ci-dessus sont utilisées, la mise à niveau peut toujours se produire en supposant que ces fonctionnalités soient accessibles par le biais de [!DNL Dynamic Media Classic]. |
+| **Phase 2 : Préparation** | Valider l’utilisation des fonctionnalités | Vérifiez que les fonctionnalités utilisées dans [!DNL Dynamic Media Classic] sont disponibles dans [!DNL Dynamic Media]. Voir la page [Comparaison des fonctionnalités](/help/using/upgrade-feature-comparison.md). Les fonctionnalités clés qui ne sont pas encore disponibles dans [!DNL Dynamic Media] sont les suivantes :<br>· Configurateur visuel (auteur d’images, rendu d’image).<br>· Modèles d’image (modèle 1:1).<br>· Catalogues électroniques.<br>Si les fonctionnalités ci-dessus sont utilisées, la mise à niveau peut toujours se produire en supposant que ces fonctionnalités soient accessibles par le biais de [!DNL Dynamic Media Classic]. |
 |   | Identification des ressources | Recherchez et préparez les ressources et les paramètres prédéfinis à utiliser pour la mise à niveau. |
 | **Phase 3 : Environnement** | Mettre à niveau le [!DNL Adobe Experience Manager] | Toutes les instances de [!DNL Adobe Experience Manager] doivent être mises à jour vers la dernière version. |
 |   | [!DNL Dynamic Media] de configuration | Adobe Consulting ou un partenaire configure [!DNL Dynamic Media] avec vos informations d’identification. |

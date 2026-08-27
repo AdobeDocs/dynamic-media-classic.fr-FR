@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 6da2e49f8dde8d9bbedb1d4264f34d52548d0d6c
 workflow-type: tm+mt
-source-wordcount: 563
-ht-degree: 28%
+source-wordcount: 562
+ht-degree: 24%
 
 ---
 
@@ -42,9 +42,9 @@ La suppression d’éléments du dossier Corbeille supprime définitivement les 
 
 Dès que vous supprimez un objet d’un dossier, cet objet est placé dans le dossier Corbeille. Voici ce qui se passe quand vous supprimez un objet et le déplacez vers le dossier Corbeille :
 
-* Bien que l’élément soit supprimé de votre dossier Adobe Dynamic Media Classic, son identifiant ne peut pas être attribué à une autre ressource tant qu’il reste dans le dossier Corbeille. Si vous essayez de charger une ressource portant le même nom qu’un fichier dans le dossier Corbeille, Adobe Dynamic Media Classic ajoute un chiffre au nom de la ressource.
-* L’objet ne peut pas être publié. Même si l’objet était marqué pour publication au moment de sa suppression, il ne sera pas publié.
-* L’élément reste dans le dossier Corbeille jusqu’à ce qu’il soit restauré, au bout de sept jours ou jusqu’à ce que quelqu’un choisisse la commande **[!UICONTROL Vider la corbeille]**. Au bout de 7 jours, l’objet est définitivement supprimé au cours d’une opération de nettoyage automatique.
+* Bien que l’élément soit supprimé de votre dossier Adobe Dynamic Media Classic, son identifiant ne peut pas être attribué à une autre ressource tant qu’il reste dans le dossier Corbeille. Si vous essayez de charger une ressource portant le même nom qu’un fichier dans le dossier Corbeille, Adobe Dynamic Media Classic ajoute un nombre au nom de la ressource.
+* L’objet ne peut pas être publié. Même si l’élément était marqué pour publication lorsque vous l’avez supprimé, il n’est pas publié.
+* L’élément reste dans le dossier Corbeille jusqu’à ce qu’il soit restauré, au bout de sept jours ou jusqu’à ce que quelqu’un choisisse la commande **[!UICONTROL Vider la corbeille]**. Au bout de sept jours, une opération de suppression automatique supprime définitivement l’élément.
 
 ## Restaurer des ressources à partir du dossier Corbeille {#restoring-assets-from-the-trash-folder}
 

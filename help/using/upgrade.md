@@ -21,20 +21,20 @@ topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: e44775f081eb50324762f2409552e2e833a3b953
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: 574
 ht-degree: 0%
 
 ---
 
 # Pourquoi effectuer une mise à niveau vers [!DNL Dynamic Media] ?
 
-Adobe a créé [!DNL Dynamic Media] en gardant à l’esprit vos besoins.
+Adobe a créé [!DNL Dynamic Media] pour répondre à vos besoins.
 
-La nouvelle [!DNL Dynamic Media] sur [!DNL Adobe Experience Manager] s’appuie sur les fonctionnalités auxquelles vous vous attendez de [!DNL Dynamic Media Classic] (anciennement Scene7). Il fournit à votre entreprise de nouveaux outils améliorés pour créer des expériences meilleures et plus attrayantes.
+La nouvelle [!DNL Dynamic Media] de [!DNL Adobe Experience Manager] s’appuie sur les fonctionnalités attendues de [!DNL Dynamic Media Classic] (anciennement Scene7). Il fournit à votre entreprise de nouveaux outils améliorés pour créer des expériences meilleures et plus attrayantes.
 
-[!DNL Dynamic Media] met à niveau l’expérience de création de contenu à l’aide de créateurs visuels en temps réel. Assis sur un réseau de diffusion éprouvé, fiable et évolutif d’Adobe, et associé à l’interface utilisateur intuitive de [!DNL Adobe Experience Manager], [!DNL Dynamic Media] offre les fonctionnalités de création, d’itération et de diffusion d’expériences attrayantes et de niveau supérieur.
+[!DNL Dynamic Media] met à niveau l’expérience de création de contenu à l’aide de créateurs visuels en temps réel. Grâce au réseau de diffusion évolutif d’Adobe et à l’interface utilisateur intuitive de [!DNL Adobe Experience Manager], [!DNL Dynamic Media] permet de créer, d’itérer et de diffuser des expériences avancées et attrayantes.
 
 | Qu’est-ce que [!DNL Dynamic Media] | Description |
 | --- | --- |
@@ -50,11 +50,11 @@ La nouvelle [!DNL Dynamic Media] sur [!DNL Adobe Experience Manager] s’appuie 
 
 ## Principaux avantages et capacités de [!DNL Dynamic Media]
 
-[!DNL Dynamic Media]&#39;est l&#39;évolution naturelle de la [!DNL Dynamic Media Classic]. Il propose des ensembles d’outils de création, de publication et de diffusion de médias riches. Il comprend également la meilleure diffusion de sa catégorie avec une interface innovante et centrée sur l’utilisateur, favorisant des workflows modernes réels.
+[!DNL Dynamic Media] est le successeur de [!DNL Dynamic Media Classic]. Il propose des ensembles d’outils de création, de publication et de diffusion de médias riches. Il comprend également une diffusion de haute qualité avec une interface innovante et centrée sur l’utilisateur, favorisant des workflows modernes.
 
 * Expérience unifiée et transparente et intégration avec [!DNL Adobe Experience Manager] : configurez et diffusez dynamiquement du contenu riche à partir d’un magasin, d’une source unique
-* Nouvelle expérience utilisateur axée sur les spécialistes du marketing pour faciliter la création et la diffusion de contenu multimédia enrichi
-* WYSIWYG (What You See Is What You Get) pour l’aspect général et les éditeurs de comportement des visionneuses d’images et des lecteurs vidéo.
+* Nouvelle expérience utilisateur axée sur le marketing pour faciliter la création et la diffusion de contenu multimédia enrichi
+* Éditeurs visuels pour l’aspect général et éditeurs de comportement pour les visionneuses d’images et les lecteurs vidéo.
 * Accélérez la création et le déploiement des expériences de médias Shoppable/interactifs, y compris les zones réactives d’image et les vidéos Shoppable.
 
 ### [!DNL Dynamic Media] des fonctionnalités dans [!DNL Experience Manager] Assets
@@ -67,8 +67,8 @@ La nouvelle [!DNL Dynamic Media] sur [!DNL Adobe Experience Manager] s’appuie 
 
 ## Pourquoi choisir Adobe ?
 
-* Rapport Forrester WAVE, le plus grand acteur positif dans le domaine des ressources numériques.
+* Le fournisseur le mieux classé dans le rapport Forrester WAVE sur les ressources numériques.
 * Excellent résultat dans le rapport 2016 Online Video Platform.
-* Meilleur fournisseur de médias riches pour Internet Retail 1000, neuf années de suite.
-* Prise en charge 24 h/24, 7 j/7 et 265 j/an, contrat SLA à 99,95 %, Adobe Professional Services.
-* Infrastructure éprouvée desservant plus de 800 clients dans le monde entier, 3,5 pétaoctets de trafic par mois et plus de 500 millions de ressources en gestion, soit une croissance de 60 % du trafic d’une année sur l’autre.
+* Meilleur fournisseur de médias riches à Internet Retail 1000, neuf années consécutives.
+* Prise en charge 24 h/24, 7 j/7 et 365 j/an, contrat SLA à 99,95 %, Adobe Professional Services.
+* Infrastructure éprouvée desservant plus de 800 clients dans le monde entier, 3,5 pétaoctets de trafic par mois et plus de 500 millions de ressources de gestion, soit une croissance de 60 % du trafic par rapport à l’année précédente.

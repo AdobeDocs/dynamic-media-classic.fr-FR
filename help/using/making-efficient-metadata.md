@@ -1,5 +1,5 @@
 ---
-title: Gestion efficace des métadonnées
+title: Gestion des métadonnées
 description: Découvrez comment utiliser plus efficacement les métadonnées dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -21,14 +21,14 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: fdc076f96c16423fb4ed47e583b9c4b95b507e64
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 163
+source-wordcount: 161
 ht-degree: 37%
 
 ---
 
-# Gestion efficace des métadonnées{#making-more-efficient-use-of-metadata}
+# Gestion des métadonnées {#making-more-efficient-use-of-metadata}
 
 Tous les fichiers d’Adobe Dynamic Media Classic contiennent des métadonnées. Les métadonnées permettent de décrire et d’identifier un fichier ; elles servent à rechercher et à organiser les fichiers. Pour afficher les métadonnées d’une ressource, ouvrez-les dans l’Affichage des détails et examinez le panneau Métadonnées . Les champs de métadonnées de ce panneau fournissent des informations descriptives sur le fichier.
 
