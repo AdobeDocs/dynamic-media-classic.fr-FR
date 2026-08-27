@@ -11,10 +11,16 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:48.480Z'
 TQID: 'https://experienceleague.adobe.com/GHFAnTWOGJjh5T5swbhJLj9-3iAOP7Ne5MQRObGPubI'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 1d39c652980a2e0c502c27856fda7fd7e6c4ec0a
 workflow-type: tm+mt
 source-wordcount: 4137
@@ -168,7 +174,7 @@ Dynamic Media Classic applique les politiques de sécurité suivantes pour l’a
 | Politique de sécurité | Description |
 | --- | --- |
 | Isolation utilisateur | Chaque utilisateur FTP est limité à son propre répertoire et ne peut pas accéder aux répertoires appartenant à d’autres utilisateurs. |
-| Comptes uniques | Chaque utilisateur FTP ou intégration nécessite un compte FTP dédié. Les comptes partagés ne sont pas autorisés. Voir [ Gestion des comptes FTP ](/help/using/ftp-accounts.md). |
+| Comptes uniques | Chaque utilisateur FTP ou intégration nécessite un compte FTP dédié. Les comptes partagés ne sont pas autorisés. Voir [&#x200B; Gestion des comptes FTP &#x200B;](/help/using/ftp-accounts.md). |
 | Lignes de base de configuration | Les configurations de serveur FTP respectent les lignes de base de sécurité établies. |
 | Vérification en cours | L’application de serveur FTP et le système d’exploitation sous-jacent font l’objet d’audits et de surveillances réguliers pour détecter les failles de sécurité. Ils sont mis à jour si nécessaire. |
 | FTP sécurisé pour les *nouveaux* clients | Les nouveaux clients disposent d’un FTP sécurisé. L’accès FTP hérité reste disponible pour les clients *existants*. |
@@ -235,7 +241,7 @@ Lors du chargement de fichiers, vous pouvez choisir l’une des options suivante
       * **[!UICONTROL Quotidien]** : définissez l’heure à laquelle vous souhaitez que la tâche s’exécute tous les jours. Si vous souhaitez que le traitement s’exécute uniquement du lundi au vendredi, sélectionnez **[!UICONTROL Jours de la semaine uniquement]**.
       * **[!UICONTROL Hebdomadaire]** : sélectionnez le jour et l’heure de la semaine où vous souhaitez que la tâche s’exécute.
       * **[!UICONTROL Mensuel]** : sélectionnez un jour spécifique du mois ou de la semaine, y compris l’heure de début, pour l’exécution de la tâche.
-      * **[!UICONTROL Personnalisé]** : personnalisez un intervalle de temps de tâche de chargement ou de publication selon vos propres spécifications. Voir [ Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+      * **[!UICONTROL Personnalisé]** : personnalisez un intervalle de temps de tâche de chargement ou de publication selon vos propres spécifications. Voir [&#x200B; Création d’un intervalle personnalisé de chargement ou de publication](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
 
   * **[!UICONTROL Publier après le chargement]** : disponible si vous avez sélectionné l’onglet **[!UICONTROL À PARTIR DE L’ORDINATEUR DE BUREAU]** ou l’onglet **[!UICONTROL VIA FTP]**. Sélectionnez cette option pour publier automatiquement les ressources que vous chargez. Lorsque vous publiez des fichiers, ils sont envoyés aux serveurs connectés. Les URL de ces fichiers peuvent alors être utilisées sur des sites Web et des applications externes. Cette option est également disponible sur la page de téléchargement.
 
@@ -269,7 +275,7 @@ Lors du chargement de fichiers, vous pouvez choisir l’une des options suivante
 Voir [Options de réglage d’image au moment du chargement](image-editing-options-upload.md#image-editing-options-at-upload).
 
 * **Options PostScript®** : pixellisez des fichiers PostScript®, recadrez des fichiers, conservez les arrière-plans transparents, choisissez une résolution et choisissez un espace colorimétrique.
-Voir [ Utilisation de fichiers PostScript et Adobe Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
+Voir [&#x200B; Utilisation de fichiers PostScript et Adobe Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Options Adobe Photoshop** : vous pouvez créer des modèles à partir de fichiers Adobe® Photoshop®, conserver les calques, définir la manière dont les calques sont nommés, extraire du texte et définir la manière dont les images sont ancrées dans les modèles.
 (voir [Options de téléchargement des fichiers PSD](psd-files.md#psd_upload_options)).
@@ -278,10 +284,10 @@ Voir [ Utilisation de fichiers PostScript et Adobe Illustrator](postscript-illus
 (voir [Options de téléchargement des fichiers PDF](pdfs.md#pdf_upload_options)).
 
 * **Options Adobe Illustrator** : pixellisez les fichiers Adobe Illustrator®, conservez les arrière-plans transparents, choisissez une résolution et choisissez un espace colorimétrique.
-Voir [ Utilisation de fichiers PostScript et Adobe Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
+Voir [&#x200B; Utilisation de fichiers PostScript et Adobe Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Options EVIDEO** : vous pouvez transcoder un fichier vidéo en choisissant un paramètre vidéo prédéfini.
-Voir [ Utilisation de paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
+Voir [&#x200B; Utilisation de paramètres prédéfinis de codage vidéo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
 * **Plus de métadonnées** : entrez des mots-clés qui décrivent les fichiers que vous avez l’intention de télécharger. Séparez les mots-clés par des virgules. Les mots-clés facilitent les recherches portant sur les fichiers
 Voir [Réalisation d’une recherche avancée](searching-assets.md#conducting_an_advanced_search).
