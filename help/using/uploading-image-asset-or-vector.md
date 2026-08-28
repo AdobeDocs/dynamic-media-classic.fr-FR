@@ -19,20 +19,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 1051
-ht-degree: 50%
+source-wordcount: 1052
+ht-degree: 45%
 
 ---
 
 # Chargement d’une ressource d’image matricielle {#uploading-an-image-asset-or-a-vector-asset}
 
-Avant de transférer un fichier d’image, vous devez d’abord demander une clé de secret partagé. Cette clé vous permet de récupérer un jeton de téléchargement. Utilisez ensuite le jeton de chargement pour charger des ressources d’images pixellisées.
+Avant de pouvoir charger une ressource image, vous devez d’abord demander une clé secrète partagée. Cette clé vous permet de récupérer un jeton de téléchargement. Utilisez ensuite le jeton de chargement pour charger des ressources d’images pixellisées.
 
 >[!IMPORTANT]
 >
->À compter du 1er mai 2023, les ressources UGC dans Dynamic Media pourront être utilisées pendant 60 jours à compter de la date de chargement. Au bout de 60 jours, les ressources seront supprimées.
+>À compter du 1er mai 2023, les ressources UGC dans Dynamic Media pourront être utilisées pendant 60 jours à compter de la date de chargement. Après 60 jours, les ressources sont supprimées.
 
 >[!NOTE]
 >
@@ -40,13 +40,13 @@ Avant de transférer un fichier d’image, vous devez d’abord demander une cl�
 
 ## Demander une clé secrète partagée {#requesting-a-shared-secret-key}
 
-Demandez une *clé secrète partagée* en [utilisant l’Admin Console pour créer un dossier de support.](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) Dans le cas de l’assistance technique, demandez une clé secrète partagée.
+Demandez une *clé secrète partagée* en [utilisant Admin Console pour créer un dossier de support](https://helpx.adobe.com/fr/business/enterprise.html). Dans le cas de l’assistance technique, demandez une clé secrète partagée.
 
 Dans le message électronique, indiquez le nom d’entreprise que vous voulez utiliser pour transférer les fichiers d’image. Après avoir reçu la clé d’Adobe Dynamic Media Classic, enregistrez-la localement pour une utilisation ultérieure.
 
 ## Récupérer le jeton de chargement {#retrieving-the-upload-token}
 
-Le *jeton de téléchargement* garantit que personne d’autre que vous n’utilisera la même clé de secret partagé pour télécharger des fichiers. Il garantit le caractère légitime et la fiabilité de la source du téléchargement.
+Le *jeton de chargement* garantit que la même clé secrète partagée ne peut pas être utilisée pour charger des ressources. Il garantit le caractère légitime et la fiabilité de la source du téléchargement.
 
 Le jeton de téléchargement est une chaîne numérique uniquement disponible pendant une durée limitée. Utilisez les URL suivantes en substituant votre clé secrète partagée afin de récupérer le jeton de chargement.
 
@@ -148,7 +148,7 @@ Le formulaire HTML suivant permet à un utilisateur de télécharger un fichier
 * Limite de taille de fichier.
 * Liste des extensions de nom de fichier.
 * Permet de conserver le profil de couleurs et le nom de fichier associés à la ressource.
-* Permet de spécifier si un arrière-plan de K.O. doit être utilisé. Si vous activez Arrière-plan K.O., définissez le coin, la tolérance et la méthode de remplissage.
+* Permet de spécifier si un arrière-plan de K.O. doit être utilisé. Si vous activez Arrière-plan K.O., configurez le coin, la tolérance et la méthode de remplissage.
 Voir Arrière-plan du K.O. dans [Options de réglage d’image au moment du chargement](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nom du fichier à charger.
 
@@ -156,7 +156,7 @@ Vous pouvez afficher le code source HTML associé au formulaire ci-dessus en sé
 
 Dans Firefox, cliquez avec le bouton droit de la souris dans la fenêtre du navigateur, puis sélectionnez **[!UICONTROL Afficher la page Source]**. Le code affiche la chaîne de requête d’URL correspondante et la méthode POST exécutée lorsque l’utilisateur sélectionne **[!UICONTROL Envoyer]**.
 
-Pour afficher la réponse XML dans Internet Explorer, accédez à **[!UICONTROL Affichage]** > **[!UICONTROL Source]**. Pour afficher la réponse XML dans Firefox, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Outils de navigateur]** > **[!UICONTROL Outils de développement web]**. Firefox est recommandé pour afficher les réponses XML.
+Pour afficher la réponse XML dans un navigateur, accédez à **[!UICONTROL Affichage]** > **[!UICONTROL Source]**. Pour afficher la réponse XML dans Firefox, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Outils de navigateur]** > **[!UICONTROL Outils de développement web]**. Firefox est recommandé pour afficher les réponses XML.
 
 Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi :
 
@@ -184,13 +184,13 @@ Vous trouverez ci-dessous un exemple de réponse à un téléchargement réussi�
 >
 >le fichier téléchargé (JPG, GIF, etc.) est converti au format PTIFF et un lien direct vers ce fichier PTIFF est envoyé dans la réponse.
 
-Ce fichier est semblable à n’importe quelle autre ressource ImageServing ; vous pouvez lui appliquer des requêtes de traitement. Par exemple, l’URL suivante demande une ressource qui est étirée à la largeur et à la hauteur spécifiées.
+La ressource est une ressource du service d’images à laquelle vous pouvez appliquer des requêtes de traitement. Par exemple, l’URL suivante demande un fichier étiré à la largeur et à la hauteur spécifiées.
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
 ```
 
-Envoyez le fichier à télécharger en tant que publication de formulaire ou en plusieurs parties tout en envoyant le reste des valeurs en tant que chaîne de requête d’URL. Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pour télécharger un fichier :
+Pour charger la ressource, envoyez-la en tant que publication multipartie/formulaire tout en envoyant le reste des valeurs sous la forme d’une chaîne de requête d’URL. Vous pouvez utiliser les champs suivants dans la chaîne de requête d’URL pour télécharger un fichier :
 
 | Paramètre de l’URL | Obligatoire ou Facultatif | Valeur |
 | --- | --- | --- |

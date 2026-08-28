@@ -1,5 +1,5 @@
 ---
-title: Chargement des fichiers de modèle
+title: Charger les fichiers de modèle
 description: Découvrez comment télécharger des fichiers de modèle dans Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 9c30d97a0a8b110f966eec5901c6e1dc84590951
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 32%
+source-wordcount: 244
+ht-degree: 12%
 
 ---
 
@@ -32,11 +32,11 @@ Chargez les fichiers dont vous avez besoin pour votre modèle dans Adobe Dynamic
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic recommande d’utiliser des images TIFF ou PSD transparentes dans vos modèles à la taille exacte que vous souhaitez leur afficher sur votre site web. Lorsque vous publiez le modèle, appelez l’image avec un paramètre d’image prédéfini qui soit de la même taille. Si vous prenez soin de définir correctement la taille, il sera inutile de redimensionner (rééchantillonner) le modèle par rapport à la taille à laquelle il a été créé.
+>Adobe Dynamic Media Classic recommande d’utiliser des images TIFF ou PSD transparentes dans vos modèles à la taille exacte que vous souhaitez leur afficher sur votre site web. Lorsque vous publiez le modèle, appelez l’image avec un paramètre d’image prédéfini de même taille. En prêtant attention à la taille, vous vous assurez que votre modèle n’est pas redimensionné (rééchantillonné) à une taille supérieure ou inférieure à la taille à laquelle il a été conçu.
 
 Les modèles peuvent être créés à partir de fichiers Adobe Photoshop PSD ou de fichiers d’images.
 
-Pour obtenir des instructions détaillées sur le téléchargement de fichiers, voir [Télécharger des fichiers](uploading-files.md#uploading_files). Tenez compte des remarques suivantes lors du téléchargement de fichiers de modèle :
+Pour obtenir des instructions détaillées sur le téléchargement de fichiers, voir [Télécharger des fichiers](uploading-files.md#uploading_files). Tenez compte des points suivants lors du chargement de fichiers de modèle :
 
 * Si vous téléchargez un fichier PSD, vous pouvez créer un modèle à partir de ce fichier. Adobe Dynamic Media Classic crée une image distincte pour chaque calque dans PSD. Dans la boîte de dialogue Charger les options de la tâche, sélectionnez **[!UICONTROL Options de]**, **[!UICONTROL Conserver les calques]** et **[!UICONTROL Créer un modèle]**. Choisissez ensuite une option dans la liste déroulante **[!UICONTROL Dénomination de calque]** pour nommer les images créées par Adobe Dynamic Media Classic à partir des calques dans PSD.
 (voir [Options de téléchargement des fichiers PSD](psd-files.md#psd_upload_options)).

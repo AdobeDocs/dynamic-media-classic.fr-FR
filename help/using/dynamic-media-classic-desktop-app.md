@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fcd8f761bcc746c402db2f06347b77352d1488f7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 2124
 ht-degree: 0%
@@ -38,7 +38,7 @@ Cette nouvelle application est désormais disponible pour Windows® et macOS.
 >
 >Adobe vous recommande d’installer la nouvelle application de bureau Adobe Dynamic Media Classic d’ici le 1er octobre 2020. Vous disposez ainsi d’une période de transition avant l’abandon d’Adobe Flash Player le 31 décembre 2020. Passée cette date, vous ne pouvez pas vous connecter à la version du navigateur de l’interface utilisateur d’Adobe Dynamic Media Classic, étiquetée comme Adobe Dynamic Media Classic dans le produit .
 
-Voir la FAQ pour la [Nouvelle connexion à Adobe Dynamic Media Classic maintenant disponible.](/help/using/new-ui-2020.md)
+Voir la FAQ sur la [Nouvelle connexion à Adobe Dynamic Media Classic maintenant disponible](/help/using/new-ui-2020.md).
 
 ## Configuration requise pour l’application de bureau Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
@@ -128,8 +128,8 @@ Voir également :
 -->
 
 <!--
-    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-    * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) 
+    * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg).
+    * [Windows (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe). 
 -->
 
 
