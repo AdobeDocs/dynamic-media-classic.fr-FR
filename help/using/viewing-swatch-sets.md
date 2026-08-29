@@ -12,28 +12,25 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:18:31.253Z'
 TQID: 'https://experienceleague.adobe.com/LoxI3OmVOAtiiieHgJpKFwKUHJAn6GUA1x85CHuWtPs'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 94d13170028e09a5ed61cb236e17c379f234f4c3
 workflow-type: tm+mt
-source-wordcount: 466
-ht-degree: 15%
+source-wordcount: 462
+ht-degree: 7%
 
 ---
 
 # Afficher les échantillons{#viewing-swatch-sets}
 
-Vous pouvez visualiser vos séries d’échantillons dans la fenêtre de prévisualisation à l’aide de vos paramètres prédéfinis disponibles. Vous pouvez utiliser une visionneuse Zoom : paramètre prédéfini de visionneuse personnalisé pour les visionneuses d’échantillons.
+Vous pouvez visualiser vos séries d’échantillons dans la fenêtre de prévisualisation à l’aide de vos paramètres prédéfinis disponibles. Vous pouvez utiliser un paramètre prédéfini de visionneuse personnalisé de la visionneuse Zoom pour les visionneuses d’échantillons.
 
 Adobe Dynamic Media Classic est fourni avec les paramètres prédéfinis de visionneuse par défaut. Les administrateurs peuvent créer ou modifier les paramètres prédéfinis de la visionneuse.
 
 ## Configuration des paramètres prédéfinis de la visionneuse Zoom pour les visionneuses d’échantillons {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
-Vous pouvez créer et personnaliser des paramètres prédéfinis de la visionneuse en fonction de vos besoins.
+Vous pouvez créer et personnaliser des paramètres prédéfinis de visionneuse.
 
 1. Sur la barre de navigation générale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 1. Effectuez l’une des opérations suivantes :
@@ -55,8 +52,8 @@ Vous pouvez créer et personnaliser des paramètres prédéfinis de la visionneu
 Vous pouvez utiliser l’aperçu pour afficher une ressource dans un type de visionneuse particulier, tel qu’HTML5. Selon le type de ressource et la visionneuse associée que vous avez sélectionnés pour la prévisualisation, toutes les plateformes de type visionneuse ne sont pas disponibles dans la prévisualisation.
 
 1. Dans le panneau Bibliothèque de ressources sur le côté gauche, dans la liste déroulante **[!UICONTROL Afficher]**, sélectionnez un type de ressource basé sur un échantillon, tel que **[!UICONTROL Échantillon]**.
-1. Dans le panneau Bibliothèque de fichiers situé à gauche, accédez au dossier Fichiers qui contient la série d’échantillons à prévisualiser à l’aide d’une visionneuse.
-1. Utilisez l’une des méthodes suivantes :
+1. Dans le panneau Bibliothèque de ressources sur le côté gauche, accédez aux dossiers de ressources contenant les échantillons que vous souhaitez prévisualiser avec une visionneuse.
+1. Effectuez l’une des opérations suivantes :
 
    * Dans le coin supérieur droit de la fenêtre d’Adobe Dynamic Media Classic, sélectionnez l’icône **[!UICONTROL Vue Liste]**. Dans la fenêtre Ressource, pointez sur une ressource, puis sélectionnez **[!UICONTROL Aperçu]** (et non la liste déroulante Aperçu).
    * Dans le coin supérieur droit de la fenêtre d’Adobe Dynamic Media Classic, sélectionnez l’icône **[!UICONTROL Vue Grille]**. Dans la fenêtre Ressource, dans une fenêtre de miniature de ressource, sélectionnez **[!UICONTROL Aperçu]** (et non la liste déroulante Aperçu).
@@ -67,7 +64,7 @@ Vous pouvez utiliser l’aperçu pour afficher une ressource dans un type de vis
 
    Lorsque vous sélectionnez un lien de visionneuse donné, son URL associée est automatiquement copiée dans le presse-papiers.
 
-1. Pour revenir au pager d’aperçu, fermez la visionneuse affichée.
+1. Pour revenir à la fenêtre Aperçu , fermez la visionneuse affichée.
 1. Sélectionnez **[!UICONTROL Fermer]** pour revenir à la page Assets.
 
 >[!MORELIKETHIS]
