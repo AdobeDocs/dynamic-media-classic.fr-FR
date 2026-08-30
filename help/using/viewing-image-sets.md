@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 1d00f05c8705cdb241dffe9639afab653e566dc9
 workflow-type: tm+mt
-source-wordcount: 500
-ht-degree: 19%
+source-wordcount: 496
+ht-degree: 17%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Dynamic Media Classic est fourni avec les paramètres prédéfinis de visi
 
 ## Configuration des paramètres prédéfinis de la visionneuse de zoom pour les visionneuses d’images {#setting-up-zoom-viewer-presets-for-image-sets}
 
-Vous pouvez créer et personnaliser des paramètres prédéfinis de la visionneuse en fonction de vos besoins.
+Vous pouvez créer et personnaliser des paramètres prédéfinis de visionneuse.
 
 1. Sur la barre de navigation générale, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Paramètres prédéfinis de la visionneuse]**.
 1. Créez ou modifiez un paramètre prédéfini de visionneuse sur la page Paramètres prédéfinis de la visionneuse en effectuant l’une des opérations suivantes :
@@ -57,7 +57,7 @@ Vous pouvez utiliser l’aperçu pour afficher une ressource dans un type de vis
 
 1. Dans le panneau Bibliothèque de ressources sur le côté gauche, dans la liste déroulante **[!UICONTROL Afficher]**, choisissez **[!UICONTROL Visionneuse d’images]**.
 1. Dans le panneau Bibliothèque de fichiers situé à gauche, parcourez les dossiers de fichiers pour sélectionner la visionneuse d’images à prévisualiser.
-1. Utilisez l’une des méthodes suivantes :
+1. Effectuez l’une des opérations suivantes :
 
    * Dans le coin supérieur droit de la fenêtre d’Adobe Dynamic Media Classic, sélectionnez l’icône **[!UICONTROL Vue Liste]**. Dans la fenêtre Ressource, pointez sur une ressource, puis sélectionnez **[!UICONTROL Aperçu]** (et non la liste déroulante Aperçu).
    * Dans le coin supérieur droit de la fenêtre d’Adobe Dynamic Media Classic, sélectionnez l’icône **[!UICONTROL Vue Grille]**. Dans la fenêtre Ressource, dans une fenêtre de miniature de ressource, sélectionnez **[!UICONTROL Aperçu]** (et non la liste déroulante Aperçu).
