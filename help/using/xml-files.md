@@ -11,19 +11,16 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:58:52.565Z'
 TQID: 'https://experienceleague.adobe.com/rb1E3-Cv8SlKazb6Tqual-xgr1Qoe6s5X1oy12qYsWM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 453878a1aec55346e04b0b96a4c9ca230c4a155c
 workflow-type: tm+mt
-source-wordcount: 122
+source-wordcount: 121
 ht-degree: 17%
 
 ---
 
 # Fichiers XML {#xml-files}
 
-Les sites Web qui utilisent un système XML pour gérer les images et les informations d’image peuvent charger des fichiers XML vers Adobe Dynamic Media Classic. Vous pouvez désigner l’un de ces fichiers comme fichier d’ensemble de règles de prétraitement pour la diffusion d’images. Ce fichier restructure le format standard du protocole de diffusion d’images pour répondre à la logique de travail de votre serveur . Dans l’écran Configuration , vous pouvez spécifier un fichier XML qui servira de chemin d’accès au fichier de définitions d’ensemble de règles. Ce paramétrage du chemin d’accès se trouve sous la section Gestion de catalogue de l’écran Publication Image Server (voir [Image Server](publish-setup.md#image_server)).
+Les sites Web qui utilisent un système XML pour gérer les images et les informations d’image peuvent charger des fichiers XML vers Adobe Dynamic Media Classic. Vous pouvez désigner l’un de ces fichiers comme fichier d’ensemble de règles de prétraitement pour la diffusion d’images. Ce fichier restructure le format standard du protocole de diffusion d’images pour répondre aux exigences de votre serveur . Pour servir de chemin d’accès au fichier de définitions d’ensembles de règles, vous pouvez spécifier un fichier XML dans l’écran Configuration. Ce paramétrage du chemin d’accès se trouve sous la section Gestion de catalogue de l’écran Publication Image Server (voir [Image Server](publish-setup.md#image_server)).
