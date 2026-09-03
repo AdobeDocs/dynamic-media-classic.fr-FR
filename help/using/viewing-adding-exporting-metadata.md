@@ -12,14 +12,10 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:17:59.510Z'
 TQID: 'https://experienceleague.adobe.com/P3JP2z7CY-rBzqYn-jm77I-5j6Orxq-VqWVbj0LTWG4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 53f5fe67de6ca178464f91efbe1312e8571e6679
 workflow-type: tm+mt
 source-wordcount: 2275
@@ -35,7 +31,7 @@ Les métadonnées s’affichent dans la vue détaillée. Elle apparaît avec les
 
 Certaines métadonnées sont intégrées directement dans un fichier. Si un fichier contient ces métadonnées, Adobe Dynamic Media Classic les charge automatiquement avec le fichier. Vous pouvez incorporer des métadonnées dans des ressources sources dans Adobe Photoshop, InDesign, Adobe Illustrator et d’autres applications ; Adobe Dynamic Media Classic reconnaît ces métadonnées. Vous pouvez également ajouter des métadonnées à des fichiers individuels à l’aide du panneau Métadonnées dans l’Affichage des détails. Pour garantir la cohérence entre les ressources, les administrateurs d’entreprise créent des modèles de métadonnées qui fournissent les champs de métadonnées qui peuvent être renseignés.
 
-Pour plus d’informations sur les métadonnées incorporées, voir [Plateforme de métadonnées extensible](https://www.adobe.com/fr/products/xmp.html).
+Pour plus d’informations sur les métadonnées incorporées, voir [Plateforme de métadonnées extensible](https://www.adobe.com/products/xmp.html).
 
 ## Affichage des métadonnées {#view-metadata}
 
@@ -43,9 +39,9 @@ Pour afficher les métadonnées d’une ressource, ouvrez la ressource dans l’
 
 * **Vue compacte** : liste de base des valeurs.
 
-* **&#x200B;**&#x200B;: valeurs telles que définies par le Conseil international des télécommunications pour la presse.
+* **** : valeurs telles que définies par le Conseil international des télécommunications pour la presse.
 
-* **&#x200B;**&#x200B;: valeurs telles que définies par la plateforme de métadonnées extensible.
+* **** : valeurs telles que définies par la plateforme de métadonnées extensible.
 
 Les administrateurs peuvent créer des vues de métadonnées qui apparaissent également dans le menu Vues des métadonnées.
 
