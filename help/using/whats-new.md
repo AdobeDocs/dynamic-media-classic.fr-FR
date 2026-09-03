@@ -31,4 +31,4 @@ ht-degree: 4%
 
 # Nouveautés {#what-s-new}
 
-Pour consulter les dernières informations de mise à jour d’Adobe Dynamic Media Classic, consultez les [Notes de mise à jour d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017).
+Pour consulter les dernières informations de mise à jour d’Adobe Dynamic Media Classic, consultez les [Notes de mise à jour d’Adobe Dynamic Media Classic](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/release-notes/s7rn2017).
