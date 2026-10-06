@@ -14,17 +14,20 @@ autotag-review: '2026-05-13T19:53:07.417Z'
 TQID: 'https://experienceleague.adobe.com/yM24UnCiU64kLvHXjhX6S8ZJpWgoyAzQKuDHN02yUXs'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a6f31cfc417aa908738642a9543ada88b4620c02
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: '734'
 ht-degree: 21%
-
 ---
-
 # Utiliser des PDF{#working-with-pdfs}
 
 Les fichiers PDF (Portable Document Format) sont le plus souvent utilisés dans Adobe Dynamic Media Classic pour créer des catalogues électroniques. Lorsque vous chargez un fichier PDF, Adobe Dynamic Media Classic pixellise les pages par défaut afin que les pages puissent être utilisées pour créer des médias riches.
