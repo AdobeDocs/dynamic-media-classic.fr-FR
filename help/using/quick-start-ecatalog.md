@@ -103,7 +103,7 @@ Après avoir encadré la zone cliquable, saisissez l’adresse URL à laquelle a
 
 Voir [Création de zones cliquables de catalogue électronique](creating-ecatalog-image-maps.md#creating-ecatalog-image-maps).
 
-Voir [ Utilisation de zones cliquables pour incorporer des médias riches dans un catalogue électronique](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
+Voir [&#x200B; Utilisation de zones cliquables pour incorporer des médias riches dans un catalogue électronique](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
 
 Vous pouvez configurer et gérer le texte de la zone cliquable à l’aide des paramètres du panneau Informations dans l’écran Catalogue électronique.
 
@@ -133,7 +133,7 @@ La publication de votre catalogue électronique et des PDF associées le place s
 
 Après avoir marqué votre catalogue électronique et votre PDF pour publication dans le panneau de navigation, sélectionnez le bouton Publier sur la barre de navigation générale pour lancer une publication. Sur la page Publication, sélectionnez **[!UICONTROL Envoyer la publication]**.
 
-Voir [ Publication de catalogues électroniques et de fichiers PDF associés](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
+Voir [&#x200B; Publication de catalogues électroniques et de fichiers PDF associés](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
 ## &#x200B;7. Liaison d’un catalogue électronique à une page web
 
