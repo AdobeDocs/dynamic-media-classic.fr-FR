@@ -14,18 +14,22 @@ autotag-review: '2026-05-13T19:58:21.817Z'
 TQID: 'https://experienceleague.adobe.com/pwmEOjYzNJNV-yxeBfOz3xQBT3rJ9u9imU6cdNgQLDA'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 9c30d97a0a8b110f966eec5901c6e1dc84590951
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 244
+source-wordcount: '244'
 ht-degree: 12%
-
 ---
-
 # Chargement des fichiers de modèle{#uploading-template-files}
 
 Chargez les fichiers dont vous avez besoin pour votre modèle dans Adobe Dynamic Media Classic avant de commencer à créer le modèle. Vous pouvez créer des modèles à partir d’un PSD Adobe® Photoshop® ou d’un fichier image. Les images TIFF et PNG sont recommandées en raison de leur prise en charge de la transparence.
