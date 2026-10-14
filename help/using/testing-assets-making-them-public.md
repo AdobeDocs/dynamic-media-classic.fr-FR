@@ -49,7 +49,7 @@ Si vous le souhaitez, vous pouvez créer un environnement d’évaluation plutô
 
 La plupart des entreprises hébergent leurs services Internet dans un réseau privé. L’accès à Internet est possible via certaines routes et généralement via une plage limitée d’adresses IP publiques.
 
-À partir du réseau de votre entreprise, vous pouvez déterminer votre adresse IP publique à l’aide de sites web tels que [](https://www.whatismyip.com/) ou demander ces informations à votre service informatique d’entreprise.
+À partir du réseau de votre entreprise, vous pouvez déterminer votre adresse IP publique à l’aide de sites web tels que [&#128279;](https://www.whatismyip.com/) ou demander ces informations à votre service informatique d’entreprise.
 
 Grâce à Secure Testing, Adobe Dynamic Media Classic établit un serveur d’images dédié pour les environnements d’évaluation ou les applications internes. Toute requête sur ce serveur vérifie l’adresse IP d’origine. Si la requête entrante n’est pas incluse dans la liste approuvée des adresses IP, une réponse d’échec est renvoyée. L’administrateur d’entreprise Adobe Dynamic Media Classic configure la liste approuvée des adresses IP pour l’environnement Secure Testing de l’entreprise.
 
