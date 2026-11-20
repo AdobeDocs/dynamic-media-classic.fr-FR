@@ -1,6 +1,6 @@
 ---
 title: Gérer le dossier Corbeille
-description: Découvrez comment gérer le dossier Corbeille.
+description: Découvrez comment restaurer et supprimer définitivement des ressources dans le dossier Corbeille de Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -23,16 +23,18 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 6da2e49f8dde8d9bbedb1d4264f34d52548d0d6c
+source-git-commit: cab998ae67e6e2d3df94f183437a38fef08c987b
 workflow-type: tm+mt
-source-wordcount: 562
-ht-degree: 24%
-
+source-wordcount: '546'
+ht-degree: 23%
 ---
-
 # Gérer le dossier Corbeille{#managing-the-trash-folder}
 
-Les éléments que vous supprimez d’Adobe Dynamic Media Classic sont déplacés vers le dossier Corbeille . Ces éléments supprimés restent dans ce dossier pendant sept jours jusqu’à ce qu’ils soient restaurés ou définitivement supprimés. Vous pouvez examiner les éléments supprimés en sélectionnant l’icône **[!UICONTROL Corbeille]** au bas de la bibliothèque de ressources, puis en affichant les éléments dans la page du dossier Corbeille.
+Les éléments que vous supprimez d’Adobe Dynamic Media Classic sont déplacés vers le dossier Corbeille . Ces éléments supprimés restent dans ce dossier pendant un maximum de sept jours jusqu’à ce qu’ils soient restaurés ou définitivement supprimés. Vous pouvez examiner les éléments supprimés en sélectionnant l’icône **[!UICONTROL Corbeille]** au bas de la bibliothèque de ressources, puis en affichant les éléments dans la page Dossier de la corbeille.
+
+>[!IMPORTANT]
+>
+>Le dossier Corbeille n’est pas pris en charge lorsque Dynamic Media est intégré à Adobe Experience Manager. Dans ces environnements, les ressources que vous supprimez sont supprimées définitivement et ne sont pas déplacées vers le dossier Corbeille. <!-- CQDOC-23176 -->
 
 Tous les utilisateurs peuvent restaurer des objets du dossier Corbeille vers leurs dossiers d’origine. Tous les utilisateurs peuvent également vider le dossier Corbeille de tout son contenu.
 
@@ -46,9 +48,8 @@ La suppression d’éléments du dossier Corbeille supprime définitivement les 
 
 Dès que vous supprimez un objet d’un dossier, cet objet est placé dans le dossier Corbeille. Voici ce qui se passe quand vous supprimez un objet et le déplacez vers le dossier Corbeille :
 
-* Bien que l’élément soit supprimé de votre dossier Adobe Dynamic Media Classic, son identifiant ne peut pas être attribué à une autre ressource tant qu’il reste dans le dossier Corbeille. Si vous essayez de charger une ressource portant le même nom qu’un fichier dans le dossier Corbeille, Adobe Dynamic Media Classic ajoute un nombre au nom de la ressource.
 * L’objet ne peut pas être publié. Même si l’élément était marqué pour publication lorsque vous l’avez supprimé, il n’est pas publié.
-* L’élément reste dans le dossier Corbeille jusqu’à ce qu’il soit restauré, au bout de sept jours ou jusqu’à ce que quelqu’un choisisse la commande **[!UICONTROL Vider la corbeille]**. Au bout de sept jours, une opération de suppression automatique supprime définitivement l’élément.
+* L&#39;élément reste dans le dossier Corbeille jusqu&#39;à ce qu&#39;il soit restauré, sept jours s&#39;écoulent ou quelqu&#39;un choisit la commande **[!UICONTROL Vider la corbeille]**. Au bout de sept jours, une opération de suppression automatique supprime définitivement l’élément.
 
 ## Restaurer des ressources à partir du dossier Corbeille {#restoring-assets-from-the-trash-folder}
 
@@ -58,17 +59,17 @@ Pour restaurer les ressources du dossier Corbeille dans les dossiers à partir d
 
 1. Au bas du panneau Bibliothèque de ressources, sélectionnez l’icône **[!UICONTROL Corbeille]** pour ouvrir le dossier Corbeille.
 1. Sélectionnez la ou les ressources à restaurer.
-1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Restaurer à partir de la corbeille]**.
+1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Restaurer depuis la corbeille]**.
 
-## Suppression définitive de fichiers du dossier Corbeille {#permanently-deleting-assets-in-the-trash-folder}
+## Supprimer définitivement des ressources dans le dossier Corbeille {#permanently-deleting-assets-in-the-trash-folder}
 
 Lorsque vous supprimez des fichiers du dossier Corbeille, sachez qu’ils sont définitivement supprimés. Les fichiers sont automatiquement supprimés du dossier Corbeille au bout de 7 jours.
 
 Vous pouvez supprimer définitivement des ressources du dossier Corbeille en sélectionnant l’icône **[!UICONTROL Corbeille]**. Sur la page Dossier de la corbeille , effectuez l’une des opérations suivantes :
 
-* **Suppression de ressources individuelles** : vous pouvez supprimer définitivement des ressources. Sélectionnez les ressources souhaitées, puis cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Vider de la corbeille]**.
+* **Suppression de ressources individuelles** : vous pouvez supprimer définitivement des ressources. Sélectionnez les ressources souhaitées, puis cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Vider la corbeille]**.
 
-* **Suppression de toutes les ressources** : accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Corbeille vide]**.
+* **Suppression de toutes les ressources** : cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Vider la corbeille]**.
 
 >[!MORELIKETHIS]
 >
